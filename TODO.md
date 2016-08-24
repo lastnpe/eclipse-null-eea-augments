@@ -4,6 +4,8 @@ TODO
 
 * UI: Annotate ?!
 
+* convert JDK null metadata from Checker framework
+
 * Maven: how-to get Enable Annotation-based Null analysis in Eclipse Project Preferences enabled from M2E (Configurator) 
 
 * Community: https://bugs.eclipse.org/bugs/show_bug.cgi?id=449653 & https://bugs.eclipse.org/bugs/show_bug.cgi?id=457792 
