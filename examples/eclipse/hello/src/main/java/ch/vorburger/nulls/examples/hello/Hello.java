@@ -11,6 +11,11 @@ public class Hello {
 
     private static final Logger LOG = LoggerFactory.getLogger(Hello.class);
 
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
     public static void main(String[] args) {
         LOG.info("hello");
 
