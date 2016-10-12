@@ -4,15 +4,25 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 import org.eclipse.jdt.annotation.NonNull;
+import org.eclipse.jdt.annotation.Nullable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Hello {
+public class Hello implements SomeInterface {
 
     private static final Logger LOG = LoggerFactory.getLogger(Hello.class);
 
     @Override
-    public boolean equals(Object obj) {
+    // TODO @Nullable should ideally not have to be repated here, see https://bugs.eclipse.org/bugs/show_bug.cgi?id=505828
+    public void someMethodWithNullableArgument(@Nullable Object anObject) {
+    }
+
+    public void anotherMethodWithNullableArgument(@Nullable Object anObject) {
+    }
+
+    @Override
+    // TODO @Nullable should ideally not have to be repated here, see https://bugs.eclipse.org/bugs/show_bug.cgi?id=505828
+    public boolean equals(@Nullable Object obj) {
         return super.equals(obj);
     }
 
@@ -27,7 +37,8 @@ public class Hello {
         Person p = Person.builder().id("123").name("Tony").fingers(5).age(32).build();
 
         Map<String, String> map = new HashMap<>();
-        @NonNull
-        String entry = map.get("key");
+
+        @NonNull String entry = map.get("key");
     }
+
 }
