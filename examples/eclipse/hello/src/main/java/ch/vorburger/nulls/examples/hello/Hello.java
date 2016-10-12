@@ -3,7 +3,6 @@ package ch.vorburger.nulls.examples.hello;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
-import org.eclipse.jdt.annotation.NonNull;
 import org.eclipse.jdt.annotation.Nullable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,6 +25,7 @@ public class Hello implements SomeInterface {
         return super.equals(obj);
     }
 
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         LOG.info("hello");
 
@@ -38,7 +38,13 @@ public class Hello implements SomeInterface {
 
         Map<String, String> map = new HashMap<>();
 
-        @NonNull String entry = map.get("key");
+        String entry = map.get("key");
+        // NOPE, entry is @Nullable, so red: entry.toUpperCase();
+        if (entry != null) {
+            String entryAsUpper = entry.toUpperCase();
+            // OK, entryAsUpper is @NonNull
+            entryAsUpper.toLowerCase();
+        }
     }
 
 }
