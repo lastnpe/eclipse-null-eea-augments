@@ -22,7 +22,7 @@
                     <compilerId>jdt</compilerId>
                     <compilerArguments>
                         <annotationpath>CLASSPATH</annotationpath>
-                        <properties>.settings/org.eclipse.jdt.core.prefs</properties>
+                        <properties>${project.basedir}/.settings/org.eclipse.jdt.core.prefs</properties>
 
                       <!-- NB: It's NOT possible to list *.prefs properties directly here; see https://issues.apache.org/jira/browse/MCOMPILER-123
                         <org.eclipse.jdt.core.compiler.annotation.nullanalysis>enabled</org.eclipse.jdt.core.compiler.annotation.nullanalysis>
