@@ -1,0 +1,157 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>ch.vorburger.null</groupId>
+  <artifactId>eea-parent</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>Eclipse External null Annotations (EEA)</name>
+  <description>JARs of *.eea for the JDK and common Java libraries</description>
+  <url>https://github.com/vorburger/eclipse-null-eea-augments</url>
+  <inceptionYear>2016</inceptionYear>
+
+  <scm>
+    <connection>https://github.com/vorburger/eclipse-null-eea-augments.git</connection>
+    <developerConnection>scm:git:git@github.comgit:vorburger/eclipse-null-eea-augments.git</developerConnection>
+    <url>https://github.com/vorburger/eclipse-null-eea-augments</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <licenses>
+    <license>
+      <name>Eclipse Public License v1.0</name>
+      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <organization>
+    <name>Michael Vorburger</name>
+    <url>http://www.vorburger.ch</url>
+  </organization>
+
+  <developers>
+    <developer>
+      <id>vorburger</id>
+      <name>Michael Vorburger</name>
+      <email>mike@vorburger.ch</email>
+      <url>http://www.vorburger.ch</url>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <name>Please consult see https://github.com/vorburger/eclipse-null-eea-augments/graphs/contributors</name>
+    </contributor>
+  </contributors>
+
+  <profiles>
+    <profile>
+      <id>gpg</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <version>1.6</version>
+            <executions>
+              <execution>
+                <id>sign-artifacts</id>
+                <phase>verify</phase>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+
+  <distributionManagement>
+    <!-- http://central.sonatype.org/pages/apache-maven.html -->
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <!-- <repository> isn't needed with nexus-staging-maven-plugin, it somehow
+         has this hard-coded or automatically find sit somehow, IFF <version> is non-SNAPSHOT -->
+  </distributionManagement>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <build>
+    <resources>
+      <resource>
+        <directory>${project.basedir}</directory>
+        <excludes>
+          <exclude>*</exclude>
+          <exclude>.settings/</exclude>
+        </excludes>
+        <filtering>false</filtering>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>3.0.1</version>
+        <!-- Disable src/test/resources, not needed for creating EEA JARs -->
+        <executions>
+          <execution>
+            <id>default-testResources</id>
+            <phase>none</phase>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
+        <!-- Disable Java compilation, not needed for creating EEA JARs -->
+        <executions>
+          <execution>
+            <id>default-compile</id>
+            <phase>none</phase>
+          </execution>
+          <execution>
+            <id>default-testCompile</id>
+            <phase>none</phase>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.19.1</version>
+        <!-- Disable Surefire, not needed for creating EEA JARs -->
+        <executions>
+          <execution>
+            <id>default-test</id>
+            <phase>none</phase>
+          </execution>
+        </executions>
+      </plugin>
+      <!-- Intentionally no maven-source-plugin & maven-javadoc-plugin; as not needed for EEA here! -->
+      <plugin>
+        <groupId>org.sonatype.plugins</groupId>
+        <artifactId>nexus-staging-maven-plugin</artifactId>
+        <version>1.6.7</version>
+        <extensions>true</extensions>
+        <configuration>
+          <serverId>ossrh</serverId>
+          <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+          <autoReleaseAfterClose>true</autoReleaseAfterClose>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <modules>
+    <module>java</module>
+  </modules>
+</project>
