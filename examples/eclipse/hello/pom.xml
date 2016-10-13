@@ -21,6 +21,7 @@
                     <showWarnings>true</showWarnings>
                     <compilerId>jdt</compilerId>
                     <compilerArguments>
+                        <annotationpath>CLASSPATH</annotationpath>
                         <properties>.settings/org.eclipse.jdt.core.prefs</properties>
 
                       <!-- NB: It's NOT possible to list *.prefs properties directly here; see https://issues.apache.org/jira/browse/MCOMPILER-123
@@ -55,6 +56,12 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.7.21</version>
+        </dependency>
+        <dependency>
+          <groupId>ch.vorburger.null.eea</groupId>
+          <artifactId>java</artifactId>
+          <version>8</version>
+          <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>
