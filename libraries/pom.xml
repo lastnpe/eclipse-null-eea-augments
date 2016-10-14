@@ -89,9 +89,15 @@
       <resource>
         <directory>${project.basedir}</directory>
         <excludes>
-          <exclude>*</exclude>
+          <exclude>.*</exclude>
+          <exclude>pom.xml</exclude>
+          <exclude>target/</exclude>
           <exclude>.settings/</exclude>
         </excludes>
+        <includes>
+       	  <include>**/</include>
+       	  <include>eea-*.*</include>
+        </includes>
         <filtering>false</filtering>
       </resource>
     </resources>
