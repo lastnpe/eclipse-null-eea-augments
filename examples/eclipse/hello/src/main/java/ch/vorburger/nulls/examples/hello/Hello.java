@@ -12,7 +12,7 @@ public class Hello implements SomeInterface {
     private static final Logger LOG = LoggerFactory.getLogger(Hello.class);
 
     @Override
-    // TODO @Nullable should ideally not have to be repated here, see https://bugs.eclipse.org/bugs/show_bug.cgi?id=505828
+    // TODO @Nullable should ideally not have to be repeated here, see https://bugs.eclipse.org/bugs/show_bug.cgi?id=505828
     public void someMethodWithNullableArgument(@Nullable Object anObject) {
     }
 
@@ -20,7 +20,7 @@ public class Hello implements SomeInterface {
     }
 
     @Override
-    // TODO @Nullable should ideally not have to be repated here, see https://bugs.eclipse.org/bugs/show_bug.cgi?id=505828
+    // TODO @Nullable should ideally not have to be repeated here, see https://bugs.eclipse.org/bugs/show_bug.cgi?id=505828
     public boolean equals(@Nullable Object obj) {
         return super.equals(obj);
     }
