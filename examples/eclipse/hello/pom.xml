@@ -12,7 +12,33 @@
 
     <build>
         <plugins>
-            <plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<version>2.10</version>
+				<executions>
+					<execution>
+						<id>unpack-jdt-ecj-settings</id>
+						<phase>initialize</phase>
+						<goals>
+							<goal>unpack</goal>
+						</goals>
+						<configuration>
+							<artifactItems>
+								<artifactItem>
+									<groupId>ch.vorburger.nulls.examples</groupId>
+									<artifactId>jdt-ecj-settings</artifactId>
+									<version>1.0.0-SNAPSHOT</version>
+									<overWrite>false</overWrite>
+									<outputDirectory>${project.basedir}/.settings/</outputDirectory>
+									<excludes>META-INF/**</excludes>
+								</artifactItem>
+							</artifactItems>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.5.1</version>
                 <configuration>
