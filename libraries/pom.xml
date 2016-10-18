@@ -95,7 +95,7 @@
           <exclude>.settings/</exclude>
         </excludes>
         <includes>
-       	  <include>**/</include>
+       	  <include>**/*</include>
        	  <include>eea-*.*</include>
         </includes>
         <filtering>false</filtering>
@@ -159,5 +159,6 @@
 
   <modules>
     <module>java</module>
+    <module>org/slf4j/slf4j-api/LATEST</module>
   </modules>
 </project>
