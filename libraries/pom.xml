@@ -85,7 +85,7 @@
   </properties>
 
   <build>
-  	<!-- NB: Similar configuration also in examples/maven/jdt-ecj-settings/pom.xml -->
+    <!-- NB: Similar configuration also in examples/maven/jdt-ecj-settings/pom.xml -->
     <resources>
       <resource>
         <directory>${project.basedir}</directory>
@@ -96,8 +96,8 @@
           <exclude>.settings/</exclude>
         </excludes>
         <includes>
-       	  <include>**/*</include>
-       	  <include>eea-*.*</include>
+          <include>**/*</include>
+          <include>eea-*.*</include>
         </includes>
         <filtering>false</filtering>
       </resource>
@@ -114,6 +114,11 @@
             <phase>none</phase>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.0.2</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
