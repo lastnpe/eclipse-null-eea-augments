@@ -11,7 +11,7 @@
   </properties>
 
   <build>
-  	<!-- The following configuration is based on the very similar libraries/pom.xml parent -->
+    <!-- The following configuration is based on the very similar libraries/pom.xml parent -->
     <resources>
       <resource>
         <directory>${project.basedir}</directory>
@@ -22,7 +22,7 @@
           <exclude>.settings/</exclude>
         </excludes>
         <includes>
-       	  <include>*.prefs</include>
+           <include>*.prefs</include>
         </includes>
         <filtering>false</filtering>
       </resource>
