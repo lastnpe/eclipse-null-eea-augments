@@ -34,8 +34,6 @@ public class Hello implements SomeInterface {
         String nullString = null;
         optionalString = Optional.ofNullable(nullString);
 
-        Person p = Person.builder().id("123").name("Tony").fingers(5).age(32).build();
-
         Map<String, String> map = new HashMap<>();
 
         String entry = map.get("key");
