@@ -48,8 +48,8 @@ public class Hello implements SomeInterface {
 
     void foo(@Nullable String canBeNull) {
         if (canBeNull == null) {
-			return;
-		}
+            return;
+        }
         bar(canBeNull);
     }
 
@@ -57,4 +57,10 @@ public class Hello implements SomeInterface {
 
     }
 
+    // https://bugs.eclipse.org/bugs/show_bug.cgi?id=506376
+/*    
+    @Nullable java.io.File file() {
+        return null;
+    }
+*/    
 }
