@@ -1,5 +1,7 @@
 package ch.vorburger.nulls.examples.hello;
 
+import ch.vorburger.nulls.examples.hello.lib.Service;
+import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
@@ -46,21 +48,50 @@ public class Hello implements SomeInterface {
 
     }
 
-    void foo(@Nullable String canBeNull) {
+    void foo(@Nullable File canBeNull) {
         if (canBeNull == null) {
             return;
         }
         bar(canBeNull);
     }
 
-    void bar(String nonNull) {
+    void bar(File nonNull) {
 
+    }
+
+    @Nullable File file2() {
+        return null;
     }
 
     // https://bugs.eclipse.org/bugs/show_bug.cgi?id=506376
-/*    
-    @Nullable java.io.File file() {
+    java.io.@Nullable File file1() {
         return null;
     }
-*/    
+
+    // NB: We CANNOT use @javax.annotation.Nullable
+    // with @org.eclipse.jdt.annotation.NonNullByDefault
+    // (BUT we can elsewhere, e.g. in lib's Service!)
+/*
+    @javax.annotation.Nullable File file3() {
+        return null;
+    }
+*/
+
+    @SuppressWarnings("unused")
+    void callExternalService() {
+        Service service = new Service();
+
+        File fileMayBeNull = service.eclipseJdtAnnotationNullableAnnotated();
+        // OK, great; this is NOT allowed:
+        // bar(fileMayBeNull);
+
+        File fileMayBeNull2 = service.javaxAnnotationNullableAnnotated();
+        // TODO This is slightly problematic - it shouldn't be allowed..
+        // and in the build it isn't (lib is JAR), but in the IDE
+        // if it's an open project it's a hard-to-spot double warning/error in Editor,
+        // but error in Problems view; but if it's a binary dep.
+        // (because Project closed => M2E takes JAR) then it's
+        // fine.
+        // bar(fileMayBeNull2);
+    }
 }
