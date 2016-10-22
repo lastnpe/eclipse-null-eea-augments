@@ -7,17 +7,15 @@
  */
 package ch.vorburger.nulls.examples.hello.lib;
 
-import java.io.File;
-
 // @org.eclipse.jdt.annotation.NonNullByDefault
 public class Service {
 
-    public @javax.annotation.Nullable File javaxAnnotationNullableAnnotated() {
+    public @javax.annotation.Nullable java.io.File javaxAnnotationNullableAnnotated() {
         // NB This only works here if it's NOT @NonNullByDefault (see Hello)
         return null;
     }
 
-    public @org.eclipse.jdt.annotation.Nullable File eclipseJdtAnnotationNullableAnnotated() {
+    public java.io.@org.eclipse.jdt.annotation.Nullable File eclipseJdtAnnotationNullableAnnotated() {
         return null;
     }
 
