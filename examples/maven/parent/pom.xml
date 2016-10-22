@@ -1,0 +1,131 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>parent</artifactId>
+  <groupId>ch.vorburger.nulls.examples</groupId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <properties>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <version>2.10</version>
+        <executions>
+          <execution>
+            <id>unpack-jdt-ecj-settings</id>
+            <phase>initialize</phase>
+            <goals>
+              <goal>unpack</goal>
+            </goals>
+            <configuration>
+              <artifactItems>
+                <artifactItem>
+                  <!-- NB: This dependency is, intentionally, duplicated below
+                       (this one is for CLI mvn; the other one is for M2E IDE) -->
+                  <groupId>ch.vorburger.nulls.examples</groupId>
+                  <artifactId>jdt-ecj-settings</artifactId>
+                  <version>1.0.0-SNAPSHOT</version>
+                  <overWrite>false</overWrite>
+                  <outputDirectory>${project.build.directory}</outputDirectory>
+                  <excludes>META-INF/**</excludes>
+                </artifactItem>
+              </artifactItems>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+          <showWarnings>true</showWarnings>
+          <compilerId>jdt</compilerId>
+          <compilerArguments>
+            <annotationpath>CLASSPATH</annotationpath>
+            <properties>${project.build.directory}/org.eclipse.jdt.core.prefs</properties>
+            <!-- NB: It's NOT possible to list *.prefs properties directly here; see https://issues.apache.org/jira/browse/MCOMPILER-123
+              <org.eclipse.jdt.core.compiler.annotation.nullanalysis>enabled</org.eclipse.jdt.core.compiler.annotation.nullanalysis>
+              <org.eclipse.jdt.core.compiler.annotation.inheritNullAnnotations>true</org.eclipse.jdt.core.compiler.annotation.inheritNullAnnotations>
+            -->
+          </compilerArguments>
+          <!-- Following is an alternative, but it's less ideal, because you would have to manually
+               map and maintain the org.eclipse.jdt.core.prefs properties to options listed on
+               http://help.eclipse.org/neon/index.jsp?topic=/org.eclipse.jdt.doc.user/tasks/task-using_batch_compiler.htm
+           <compilerArgument>-err:nullAnnot,null,-missingNullDefault</compilerArgument>
+          -->
+        </configuration>
+        <dependencies>
+          <dependency>
+            <groupId>org.eclipse.tycho</groupId>
+            <artifactId>tycho-compiler-jdt</artifactId>
+            <version>0.26.0</version>
+          </dependency>
+          <dependency>
+            <!-- NB: This dependency is, intentionally, duplicated above
+                 (other one is for CLI mvn; this one is read by eclipse-external-annotations-m2e-plugin
+                 in-IDE to configure the Project Properties via JDT) -->
+            <groupId>ch.vorburger.nulls.examples</groupId>
+            <artifactId>jdt-ecj-settings</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+          </dependency>
+        </dependencies>
+      </plugin>
+    </plugins>
+  </build>
+
+  <dependencies>
+    <!-- The dual use of org.eclipse.jdt.annotation.Nullable
+         as well as javax.annotation.Nullable from FindBugs
+         is to illustrate interop.  You could, of course,
+         choose only one of them for your project. -->
+    <dependency>
+      <groupId>org.eclipse.jdt</groupId>
+      <artifactId>org.eclipse.jdt.annotation</artifactId>
+      <version>2.0.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>annotations</artifactId>
+      <version>3.0.1</version>
+      <scope>provided</scope>
+      <exclusions>
+            <!-- Types from below are already in above.. -->
+        <exclusion>
+          <groupId>com.google.code.findbugs</groupId>
+          <artifactId>jsr305</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>net.jcip</groupId>
+          <artifactId>jcip-annotations</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.21</version>
+    </dependency>
+    <dependency>
+      <groupId>ch.vorburger.null.eea</groupId>
+      <artifactId>jdk-eea</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.vorburger.null.eea</groupId>
+      <artifactId>slf4j-api-eea</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -2,13 +2,15 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>ch.vorburger.null</groupId>
+  <groupId>ch.vorburger.nulls.examples</groupId>
   <artifactId>root</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <modules>
-    <module>libraries</module>
-    <module>examples/maven</module>
+    <module>jdt-ecj-settings</module>
+    <module>parent</module>
+    <module>lib</module>
+    <module>hello</module>
   </modules>
 </project>
