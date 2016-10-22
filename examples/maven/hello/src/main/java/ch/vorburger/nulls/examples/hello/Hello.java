@@ -43,6 +43,18 @@ public class Hello implements SomeInterface {
             // OK, entryAsUpper is @NonNull
             entryAsUpper.toLowerCase();
         }
+
+    }
+
+    void foo(@Nullable String canBeNull) {
+        if (canBeNull == null) {
+			return;
+		}
+        bar(canBeNull);
+    }
+
+    void bar(String nonNull) {
+
     }
 
 }
