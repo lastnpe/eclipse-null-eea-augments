@@ -24,6 +24,8 @@ This makes Enable Annotation-based Null analysis set up in Eclipse Project Prefe
 
 This project aims to develop an active community of contributors, and not remain controlled by a single person.  Anyone making 3 intelligent contributions to this repo may ask to be promoted from a contributor to a committer with full write access by opening an issue requesting it.  (We reserve the right to re-remove committers in exceptional circumstances, and after long periods of inactivity.)
 
+We hang out and chat about this project on https://mattermost.eclipse.org/eclipse/channels/jdt-null-analysis
+
 
 ## Future
 
