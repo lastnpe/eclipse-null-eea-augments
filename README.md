@@ -9,12 +9,12 @@ _TODO The usual badges here..._
 
 ## How to use this
 
-_TODO link to final slides from_ https://www.eclipsecon.org/europe2016/session/end-world-we-know-it-aka-your-last-nullpointerexception-1b-bugs
+[See theses slides here](http://www.slideshare.net/mikervorburger/the-end-of-the-world-as-we-know-it-aka-your-last-nullpointerexception-1b-bugs) from this [EclipseCon Europe 2016 presentation](https://www.eclipsecon.org/europe2016/session/end-world-we-know-it-aka-your-last-nullpointerexception-1b-bugs) for some background about this project.
 
 You'll need the following additional Eclipse plugins to use this:
 
 * https://github.com/vorburger/eclipse-external-annotations-m2e-plugin
-* https://github.com/jbosstools/m2e-jdt-compiler 
+* https://github.com/jbosstools/m2e-jdt-compiler
 
 This makes Enable Annotation-based Null analysis set up in Eclipse Project Preferences enabled from a Maven IDE (M2E) Configurator.
 
