@@ -1,14 +1,6 @@
 TODO
 ====
 
-* Sharon contributing.md
-
-* Future package name and GitHub org name agreed with others interested in this project, in https://mattermost.eclipse.org/eclipse/channels/jdt-null-analysis
-
-* Github.com Eclipselabs, or just create new GitHub organization, learn how to make it possible for others and not just me to commit in it as well
-
-* move this project there
-
 * eclipse-external-annotations-m2e-plugin move from Sylvain/vorburger perso. GH to group GitHub
 
 * Travis CI for PRs
