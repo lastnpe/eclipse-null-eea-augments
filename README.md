@@ -1,10 +1,10 @@
+[![Build Status](https://travis-ci.org/lastnpe/eclipse-null-eea-augments.svg)](https://travis-ci.org/lastnpe/eclipse-null-eea-augments)
+
 # Eclipse External null Annotations (EEA)
 
 This repository contains *.eea files and example projects how to use this.
 
 If you like/use this project, a Star / Watch / Follow on GitHub is appreciated.
-
-_TODO The usual badges here..._
 
 
 ## How to use this
