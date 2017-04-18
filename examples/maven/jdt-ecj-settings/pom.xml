@@ -22,7 +22,7 @@
           <exclude>.settings/</exclude>
         </excludes>
         <includes>
-           <include>*.prefs</include>
+          <include>*.prefs</include>
         </includes>
         <filtering>false</filtering>
       </resource>
@@ -40,9 +40,9 @@
           </execution>
         </executions>
       </plugin>
-      <!-- Do *NOT* deactivate maven-compiler-plugin, like ch.vorburger.null:eea-parent did,
+      <!-- Do *NOT* deactivate maven-compiler-plugin, like org.lastnpe.eea:eea-parent did,
            because that causes M2E to create a non-Java Eclipse project and then workspace
-           dependency resolution doesn't work anymore!  -->
+           dependency resolution doesn't work anymore! -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
