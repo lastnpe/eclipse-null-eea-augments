@@ -13,8 +13,8 @@ If you like/use this project, a Star / Watch / Follow on GitHub is appreciated.
 
 You'll need the following additional Eclipse plugins to use this:
 
-* https://github.com/vorburger/eclipse-external-annotations-m2e-plugin
-* https://github.com/jbosstools/m2e-jdt-compiler
+* https://github.com/lastnpe/eclipse-external-annotations-m2e-plugin
+* https://github.com/jbosstools/m2e-jdt-compiler (only necessary for Eclipse m2e < 1.8, shipped with Oxygen)
 
 This makes Enable Annotation-based Null analysis set up in Eclipse Project Preferences enabled from a Maven IDE (M2E) Configurator.
 
