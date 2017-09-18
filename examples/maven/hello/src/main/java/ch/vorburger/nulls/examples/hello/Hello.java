@@ -31,7 +31,7 @@ public class Hello implements SomeInterface {
     public static void main(String[] args) {
         LOG.info("hello");
 
-        Optional<String> optionalString = Optional.of("hello");
+        Optional<@Nullable String> optionalString = Optional.of("hello");
 
         String nullString = null;
         optionalString = Optional.ofNullable(nullString);
