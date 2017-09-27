@@ -24,7 +24,7 @@ based on the idea that having an EEA that can be tested is better than none.
 
 We intend to spend more time and request community feedback from engaged previous contributors on any proposed changes to existing EEA in this repo.  When making contributions with changes, please explain what is wrong in the current version in the commit message.
 
-We generally do not "self merge", but let other commiters merge our own changes.
+We generally do not "self merge", but let other committers merge our own changes.
 
 We hang out and chat about this project on https://mattermost.eclipse.org/eclipse/channels/jdt-null-analysis
 
