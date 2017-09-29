@@ -13,4 +13,6 @@ public interface SomeInterface {
 
     void someMethodWithNullableArgument(@Nullable Object anObject);
 
+    void someMethodWithNonNullableByDefaultArgument(Object anObject);
+
 }
