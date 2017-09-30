@@ -57,6 +57,7 @@
   </distributionManagement>
 
   <properties>
+    <java.version>1.8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -180,6 +181,29 @@
         </plugins>
       </build>
     </profile>
+    <profile>
+      <id>m2e</id>
+      <activation>
+        <property>
+          <name>m2e.version</name>
+        </property>
+      </activation>
+      <build>
+        <pluginManagement>
+          <plugins>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <configuration>
+                <!-- specify a 1.8 java version to avoid eclipse warnings about missing 1.5 J2SE -->
+                <source>${java.version}</source>
+                <target>${java.version}</target>
+              </configuration>
+            </plugin>
+          </plugins>
+        </pluginManagement>
+      </build>
+    </profile>
   </profiles>
 
   <modules>
@@ -187,5 +211,6 @@
     <module>slf4j-api</module>
     <module>mockito</module>
     <module>guava</module>
+    <module>spring</module>
   </modules>
 </project>
