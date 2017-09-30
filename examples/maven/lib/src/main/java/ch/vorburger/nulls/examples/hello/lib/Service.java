@@ -1,13 +1,10 @@
-/*
- * Copyright (c) 2016 Red Hat, Inc. and others. All rights reserved.
- *
- * This program and the accompanying materials are made available under the
- * terms of the Eclipse Public License v1.0 which accompanies this distribution,
- * and is available at http://www.eclipse.org/legal/epl-v10.html
- */
 package ch.vorburger.nulls.examples.hello.lib;
 
-// @org.eclipse.jdt.annotation.NonNullByDefault
+// Because we have NonNullByDefault in package-info.java
+// but here we can't use that because of the use of javax.annotation.Nullable
+// which unfortunately cannot be mixed with org.eclipse.jdt.annotation.NonNullByDefault,
+// we need to cancel it like this:
+@org.eclipse.jdt.annotation.NonNullByDefault({})
 public class Service {
 
     public @javax.annotation.Nullable java.io.File javaxAnnotationNullableAnnotated() {
