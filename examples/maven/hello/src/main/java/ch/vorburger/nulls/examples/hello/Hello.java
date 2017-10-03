@@ -27,6 +27,11 @@ public class Hello implements SomeInterface {
         return super.equals(obj);
     }
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
     @SuppressWarnings("unused")
     public static void main(String[] args) {
         LOG.info("hello");
