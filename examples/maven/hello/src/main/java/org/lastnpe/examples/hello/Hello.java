@@ -1,11 +1,11 @@
-package ch.vorburger.nulls.examples.hello;
+package org.lastnpe.examples.hello;
 
-import ch.vorburger.nulls.examples.hello.lib.Service;
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 import org.eclipse.jdt.annotation.Nullable;
+import org.lastnpe.examples.hello.lib.Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,6 +25,11 @@ public class Hello implements SomeInterface {
     // TODO @Nullable should ideally not have to be repeated here, see https://bugs.eclipse.org/bugs/show_bug.cgi?id=505828
     public boolean equals(@Nullable Object obj) {
         return super.equals(obj);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
     }
 
     @SuppressWarnings("unused")
