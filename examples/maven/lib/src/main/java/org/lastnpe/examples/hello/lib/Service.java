@@ -1,4 +1,4 @@
-package ch.vorburger.nulls.examples.hello.lib;
+package org.lastnpe.examples.hello.lib;
 
 // Because we have NonNullByDefault in package-info.java
 // but here we can't use that because of the use of javax.annotation.Nullable
