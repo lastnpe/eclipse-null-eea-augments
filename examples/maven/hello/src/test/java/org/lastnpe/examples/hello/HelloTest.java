@@ -15,11 +15,11 @@ import org.junit.Test;
 /**
  * @author Michael Vorburger.ch
  */
-class HelloTest {
+public class HelloTest {
 
     @Test
     @SuppressWarnings("null")
-    void testSomeMethodWithNonNullableByDefaultArgument() {
+    public void testSomeMethodWithNonNullableByDefaultArgument() {
         SomeInterface service = new Hello();
         try {
             service.someMethodWithNonNullableByDefaultArgument(null);

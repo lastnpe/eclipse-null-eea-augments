@@ -24,7 +24,7 @@ public class Hello implements SomeInterface {
         // Even though Eclipse guarantees as anObject is @NonNull (via @NonNullByDefault in package-info.java)
         // it may still be useful to do old style defensive programming and check arguments,
         // in particular if this method could also be called by code which is not (yet) null checked
-        Objects.requireNonNull(anObject, "onObject");
+        Objects.requireNonNull(anObject, "anObject");
     }
 
     public void anotherMethodWithNullableArgument(@Nullable Object anObject) {
