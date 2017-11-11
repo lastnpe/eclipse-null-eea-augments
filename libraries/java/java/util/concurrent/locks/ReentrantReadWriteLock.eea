@@ -1,0 +1,45 @@
+class java/util/concurrent/locks/ReentrantReadWriteLock
+
+getOwner
+ ()Ljava/lang/Thread;
+ ()L0java/lang/Thread;
+ 
+getQueuedReaderThreads
+ ()Ljava/util/Collection<Ljava/lang/Thread;>;
+ ()L1java/util/Collection<L1java/lang/Thread;>;
+
+getQueuedThreads
+ ()Ljava/util/Collection<Ljava/lang/Thread;>;
+ ()L1java/util/Collection<L1java/lang/Thread;>;
+
+getQueuedWriterThreads
+ ()Ljava/util/Collection<Ljava/lang/Thread;>;
+ ()L1java/util/Collection<L1java/lang/Thread;>;
+
+getWaitingThreads
+ (Ljava/util/concurrent/locks/Condition;)Ljava/util/Collection<Ljava/lang/Thread;>;
+ (L1java/util/concurrent/locks/Condition;)L1java/util/Collection<L1java/lang/Thread;>;
+
+getWaitQueueLength
+ (Ljava/util/concurrent/locks/Condition;)I
+ (L1java/util/concurrent/locks/Condition;)I
+
+hasQueuedThread
+ (Ljava/lang/Thread;)Z
+ (L1java/lang/Thread;)Z
+
+hasWaiters
+ (Ljava/util/concurrent/locks/Condition;)Z
+ (L1java/util/concurrent/locks/Condition;)Z
+
+readLock
+ ()Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;
+ ()L1java/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;
+
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+
+writeLock
+ ()Ljava/util/concurrent/locks/ReentrantReadWriteLock$WriteLock;
+ ()L1java/util/concurrent/locks/ReentrantReadWriteLock$WriteLock;

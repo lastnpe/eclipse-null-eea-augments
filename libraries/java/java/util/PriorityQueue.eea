@@ -1,0 +1,65 @@
+class java/util/PriorityQueue
+
+<init>
+ (ILjava/util/Comparator<-TE;>;)V
+ (IL0java/util/Comparator<-T1E;>;)V
+
+<init>
+ (Ljava/util/Collection<+TE;>;)V
+ (L1java/util/Collection<+T1E;>;)V
+
+<init>
+ (Ljava/util/Comparator<-TE;>;)V
+ (L0java/util/Comparator<-T1E;>;)V
+
+<init>
+ (Ljava/util/PriorityQueue<+TE;>;)V
+ (L1java/util/PriorityQueue<+T1E;>;)V
+
+<init>
+ (Ljava/util/SortedSet<+TE;>;)V
+ (L1java/util/SortedSet<+T1E;>;)V
+
+add
+ (TE;)Z
+ (T1E;)Z
+
+comparator
+ ()Ljava/util/Comparator<-TE;>;
+ ()L1java/util/Comparator<-T1E;>;
+
+contains
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<T1E;>;
+
+offer
+ (TE;)Z
+ (T1E;)Z
+
+peek
+ ()TE;
+ ()T0E;
+
+poll
+ ()TE;
+ ()T0E;
+
+remove
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+spliterator
+ ()Ljava/util/Spliterator<TE;>;
+ ()L1java/util/Spliterator<T1E;>;
+
+toArray
+ ()[Ljava/lang/Object;
+ ()[1L1java/lang/Object;
+
+toArray
+ <T:Ljava/lang/Object;>([TT;)[TT;
+ <T:Ljava/lang/Object;>([1TT;)[1TT;

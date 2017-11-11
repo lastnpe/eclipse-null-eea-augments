@@ -1,0 +1,110 @@
+class java/util/Hashtable
+
+<init>
+ (Ljava/util/Map<+TK;+TV;>;)V
+ (L1java/util/Map<+T0K;+T0V;>;)V
+
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;
+
+compute
+ (TK;Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)TV;
+ (T1K;L1java/util/function/BiFunction<-T1K;-T1V;+T0V;>;)T0V;
+
+computeIfAbsent
+ (TK;Ljava/util/function/Function<-TK;+TV;>;)TV;
+ (T1K;L1java/util/function/Function<-T1K;+T0V;>;)T0V;
+
+computeIfPresent
+ (TK;Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)TV;
+ (T1K;L1java/util/function/BiFunction<-T1K;-T1V;+T0V;>;)T0V;
+
+contains
+ (Ljava/lang/Object;)Z
+ (L1java/lang/Object;)Z
+
+containsKey
+ (Ljava/lang/Object;)Z
+ (L1java/lang/Object;)Z
+
+containsValue
+ (Ljava/lang/Object;)Z
+ (L1java/lang/Object;)Z
+
+elements
+ ()Ljava/util/Enumeration<TV;>;
+ ()L1java/util/Enumeration<T0V;>;
+
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()L1java/util/Set<L1java/util/Map$Entry<T1K;T1V;>;>;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+forEach
+ (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
+ (L1java/util/function/BiConsumer<-T1K;-T1V;>;)V
+
+get
+ (Ljava/lang/Object;)TV;
+ (L1java/lang/Object;)T0V;
+
+getOrDefault
+ (Ljava/lang/Object;TV;)TV;
+ (L1java/lang/Object;T0V;)T0V;
+
+keySet
+ ()Ljava/util/Set<TK;>;
+ ()L1java/util/Set<T1K;>;
+
+keys
+ ()Ljava/util/Enumeration<TK;>;
+ ()L1java/util/Enumeration<T0K;>;
+
+merge
+ (TK;TV;Ljava/util/function/BiFunction<-TV;-TV;+TV;>;)TV;
+ (T1K;T1V;L1java/util/function/BiFunction<-T1V;-T1V;+T0V;>;)T0V;
+
+put
+ (TK;TV;)TV;
+ (T1K;T1V;)T0V;
+
+putAll
+ (Ljava/util/Map<+TK;+TV;>;)V
+ (L1java/util/Map<+T1K;+T1V;>;)V
+
+putIfAbsent
+ (TK;TV;)TV;
+ (T1K;T1V;)T0V;
+
+remove
+ (Ljava/lang/Object;)TV;
+ (L1java/lang/Object;)T0V;
+
+remove
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+ (L1java/lang/Object;L1java/lang/Object;)Z
+
+replace
+ (TK;TV;)TV;
+ (T1K;T1V;)T0V;
+
+replace
+ (TK;TV;TV;)Z
+ (T1K;T1V;T1V;)Z
+
+replaceAll
+ (Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)V
+ (L1java/util/function/BiFunction<-T1K;-T1V;+T1V;>;)V
+
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+
+values
+ ()Ljava/util/Collection<TV;>;
+ ()L1java/util/Collection<T1V;>;
+

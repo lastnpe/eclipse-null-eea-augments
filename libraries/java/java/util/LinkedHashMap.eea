@@ -1,0 +1,37 @@
+class java/util/LinkedHashMap
+
+<init>
+ (Ljava/util/Map<+TK;+TV;>;)V
+ (L1java/util/Map<+TK;+TV;>;)V
+
+containsValue
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()L1java/util/Set<L1java/util/Map$Entry<TK;TV;>;>;
+
+forEach
+ (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
+ (L1java/util/function/BiConsumer<-TK;-TV;>;)V
+
+get
+ (Ljava/lang/Object;)TV;
+ (L0java/lang/Object;)T0V;
+
+getOrDefault
+ (Ljava/lang/Object;TV;)TV;
+ (L0java/lang/Object;T0V;)T0V;
+
+keySet
+ ()Ljava/util/Set<TK;>;
+ ()L1java/util/Set<TK;>;
+
+replaceAll
+ (Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)V
+ (L1java/util/function/BiFunction<-TK;-TV;+TV;>;)V
+
+values
+ ()Ljava/util/Collection<TV;>;
+ ()L1java/util/Collection<TV;>;

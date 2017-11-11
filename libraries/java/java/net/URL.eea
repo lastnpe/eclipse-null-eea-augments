@@ -1,0 +1,101 @@
+class java/net/URL
+
+<init>
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+ (L1java/lang/String;L0java/lang/String;IL0java/lang/String;)V
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/net/URLStreamHandler;)V
+ (L1java/lang/String;L0java/lang/String;IL0java/lang/String;L0java/net/URLStreamHandler;)V
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (L1java/lang/String;L0java/lang/String;L0java/lang/String;)V
+
+<init>
+ (Ljava/net/URL;Ljava/lang/String;)V
+ (L0java/net/URL;L1java/lang/String;)V
+
+<init>
+ (Ljava/net/URL;Ljava/lang/String;Ljava/net/URLStreamHandler;)V
+ (L0java/net/URL;L1java/lang/String;L0java/net/URLStreamHandler;)V
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+getAuthority
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+
+getContent
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+
+getContent
+ ([Ljava/lang/Class;)Ljava/lang/Object;
+ ([1L1java/lang/Class;)L0java/lang/Object;
+
+getFile
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+
+getHost
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+
+getPath
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+
+getProtocol
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+
+getQuery
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+
+getRef
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+
+getUserInfo
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+
+openConnection
+ ()Ljava/net/URLConnection;
+ ()L1java/net/URLConnection;
+
+openConnection
+ (Ljava/net/Proxy;)Ljava/net/URLConnection;
+ (L1java/net/Proxy;)L1java/net/URLConnection;
+
+openStream
+ ()Ljava/io/InputStream;
+ ()L1java/io/InputStream;
+
+sameFile
+ (Ljava/net/URL;)Z
+ (L1java/net/URL;)Z
+
+setURLStreamHandlerFactory
+ (Ljava/net/URLStreamHandlerFactory;)V
+ (L1java/net/URLStreamHandlerFactory;)V
+
+toExternalForm
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+
+toURI
+ ()Ljava/net/URI;
+ ()L1java/net/URI;

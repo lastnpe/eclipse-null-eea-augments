@@ -1,0 +1,157 @@
+class javax/swing/UIManager
+
+addAuxiliaryLookAndFeel
+ (Ljavax/swing/LookAndFeel;)V
+ (L1javax/swing/LookAndFeel;)V
+
+addPropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V
+
+get
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (L1java/lang/Object;)L0java/lang/Object;
+
+get
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljava/lang/Object;
+ (L1java/lang/Object;L1java/util/Locale;)L0java/lang/Object;
+
+getAuxiliaryLookAndFeels
+ ()[Ljavax/swing/LookAndFeel;
+ ()[0L1javax/swing/LookAndFeel;
+
+getBoolean
+ (Ljava/lang/Object;)Z
+ (L1java/lang/Object;)Z
+
+getBoolean
+ (Ljava/lang/Object;Ljava/util/Locale;)Z
+ (L1java/lang/Object;L1java/util/Locale;)Z
+
+getBorder
+ (Ljava/lang/Object;)Ljavax/swing/border/Border;
+ (L1java/lang/Object;)L0javax/swing/border/Border;
+
+getBorder
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljavax/swing/border/Border;
+ (L1java/lang/Object;L1java/util/Locale;)L0javax/swing/border/Border;
+
+getColor
+ (Ljava/lang/Object;)Ljava/awt/Color;
+ (L1java/lang/Object;)L0java/awt/Color;
+
+getColor
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljava/awt/Color;
+ (L1java/lang/Object;L1java/util/Locale;)L0java/awt/Color;
+
+getCrossPlatformLookAndFeelClassName
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+
+getDefaults
+ ()Ljavax/swing/UIDefaults;
+ ()L1javax/swing/UIDefaults;
+
+getDimension
+ (Ljava/lang/Object;)Ljava/awt/Dimension;
+ (L1java/lang/Object;)L0java/awt/Dimension;
+
+getDimension
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljava/awt/Dimension;
+ (L1java/lang/Object;L1java/util/Locale;)L0java/awt/Dimension;
+
+getFont
+ (Ljava/lang/Object;)Ljava/awt/Font;
+ (L1java/lang/Object;)L0java/awt/Font;
+
+getFont
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljava/awt/Font;
+ (L1java/lang/Object;L1java/util/Locale;)L0java/awt/Font;
+
+getIcon
+ (Ljava/lang/Object;)Ljavax/swing/Icon;
+ (L1java/lang/Object;)L0javax/swing/Icon;
+
+getIcon
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljavax/swing/Icon;
+ (L1java/lang/Object;L1java/util/Locale;)L0javax/swing/Icon;
+
+getInsets
+ (Ljava/lang/Object;)Ljava/awt/Insets;
+ (L1java/lang/Object;)L0java/awt/Insets;
+
+getInsets
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljava/awt/Insets;
+ (L1java/lang/Object;L1java/util/Locale;)L0java/awt/Insets;
+
+getInstalledLookAndFeels
+ ()[Ljavax/swing/UIManager$LookAndFeelInfo;
+ ()[1L1javax/swing/UIManager$LookAndFeelInfo;
+
+getInt
+ (Ljava/lang/Object;)I
+ (L1java/lang/Object;)I
+
+getInt
+ (Ljava/lang/Object;Ljava/util/Locale;)I
+ (L1java/lang/Object;L1java/util/Locale;)I
+
+getLookAndFeel
+ ()Ljavax/swing/LookAndFeel;
+ ()L0javax/swing/LookAndFeel;
+
+getLookAndFeelDefaults
+ ()Ljavax/swing/UIDefaults;
+ ()L1javax/swing/UIDefaults;
+
+getPropertyChangeListeners
+ ()[Ljava/beans/PropertyChangeListener;
+ ()[1L1java/beans/PropertyChangeListener;
+
+getString
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (L1java/lang/Object;)L0java/lang/String;
+
+getString
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljava/lang/String;
+ (L1java/lang/Object;L1java/util/Locale;)L0java/lang/String;
+
+getSystemLookAndFeelClassName
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+
+getUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (L1javax/swing/JComponent;)L1javax/swing/plaf/ComponentUI;
+
+installLookAndFeel
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (L1java/lang/String;L1java/lang/String;)V
+
+installLookAndFeel
+ (Ljavax/swing/UIManager$LookAndFeelInfo;)V
+ (L1javax/swing/UIManager$LookAndFeelInfo;)V
+
+put
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+ (L1java/lang/Object;L0java/lang/Object;)L0java/lang/Object;
+
+removeAuxiliaryLookAndFeel
+ (Ljavax/swing/LookAndFeel;)Z
+ (L0javax/swing/LookAndFeel;)Z
+
+removePropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L0java/beans/PropertyChangeListener;)V
+
+setInstalledLookAndFeels
+ ([Ljavax/swing/UIManager$LookAndFeelInfo;)V
+ ([1L1javax/swing/UIManager$LookAndFeelInfo;)V
+
+setLookAndFeel
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V
+
+setLookAndFeel
+ (Ljavax/swing/LookAndFeel;)V
+ (L0javax/swing/LookAndFeel;)V

@@ -1,0 +1,130 @@
+class java/time/chrono/ChronoZonedDateTime
+
+compareTo
+ (Ljava/time/chrono/ChronoZonedDateTime<*>;)I
+ (L1java/time/chrono/ChronoZonedDateTime<*>;)I
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+format
+ (Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;
+ (L1java/time/format/DateTimeFormatter;)L1java/lang/String;
+
+from
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/ChronoZonedDateTime<*>;
+ (L1java/time/temporal/TemporalAccessor;)L1java/time/chrono/ChronoZonedDateTime<*>;
+
+get
+ (Ljava/time/temporal/TemporalField;)I
+ (L1java/time/temporal/TemporalField;)I
+
+getChronology
+ ()Ljava/time/chrono/Chronology;
+ ()L1java/time/chrono/Chronology;
+
+getLong
+ (Ljava/time/temporal/TemporalField;)J
+ (L1java/time/temporal/TemporalField;)J
+
+getOffset
+ ()Ljava/time/ZoneOffset;
+ ()L1java/time/ZoneOffset;
+
+getZone
+ ()Ljava/time/ZoneId;
+ ()L1java/time/ZoneId;
+
+isAfter
+ (Ljava/time/chrono/ChronoZonedDateTime<*>;)Z
+ (L1java/time/chrono/ChronoZonedDateTime<*>;)Z
+
+isBefore
+ (Ljava/time/chrono/ChronoZonedDateTime<*>;)Z
+ (L1java/time/chrono/ChronoZonedDateTime<*>;)Z
+
+isEqual
+ (Ljava/time/chrono/ChronoZonedDateTime<*>;)Z
+ (L1java/time/chrono/ChronoZonedDateTime<*>;)Z
+
+isSupported
+ (Ljava/time/temporal/TemporalField;)Z
+ (L0java/time/temporal/TemporalField;)Z
+
+isSupported
+ (Ljava/time/temporal/TemporalUnit;)Z
+ (L0java/time/temporal/TemporalUnit;)Z
+
+minus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/ChronoZonedDateTime<TD;>;
+ (JL1java/time/temporal/TemporalUnit;)L1java/time/chrono/ChronoZonedDateTime<TD;>;
+
+minus
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/ChronoZonedDateTime<TD;>;
+ (L1java/time/temporal/TemporalAmount;)L1java/time/chrono/ChronoZonedDateTime<TD;>;
+
+plus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/ChronoZonedDateTime<TD;>;
+ (JL1java/time/temporal/TemporalUnit;)L1java/time/chrono/ChronoZonedDateTime<TD;>;
+
+plus
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/ChronoZonedDateTime<TD;>;
+ (L1java/time/temporal/TemporalAmount;)L1java/time/chrono/ChronoZonedDateTime<TD;>;
+
+query
+ <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+ <R:Ljava/lang/Object;>(L1java/time/temporal/TemporalQuery<TR;>;)T0R;
+
+range
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange;
+
+timeLineOrder
+ ()Ljava/util/Comparator<Ljava/time/chrono/ChronoZonedDateTime<*>;>;
+ ()L1java/util/Comparator<L1java/time/chrono/ChronoZonedDateTime<*>;>;
+
+toInstant
+ ()Ljava/time/Instant;
+ ()L1java/time/Instant;
+
+toLocalDate
+ ()TD;
+ ()T1D;
+
+toLocalDateTime
+ ()Ljava/time/chrono/ChronoLocalDateTime<TD;>;
+ ()L1java/time/chrono/ChronoLocalDateTime<TD;>;
+
+toLocalTime
+ ()Ljava/time/LocalTime;
+ ()L1java/time/LocalTime;
+
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+
+with
+ (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/chrono/ChronoZonedDateTime<TD;>;
+ (L1java/time/temporal/TemporalAdjuster;)L1java/time/chrono/ChronoZonedDateTime<TD;>;
+
+with
+ (Ljava/time/temporal/TemporalField;J)Ljava/time/chrono/ChronoZonedDateTime<TD;>;
+ (L1java/time/temporal/TemporalField;J)L1java/time/chrono/ChronoZonedDateTime<TD;>;
+
+withEarlierOffsetAtOverlap
+ ()Ljava/time/chrono/ChronoZonedDateTime<TD;>;
+ ()L1java/time/chrono/ChronoZonedDateTime<TD;>;
+
+withLaterOffsetAtOverlap
+ ()Ljava/time/chrono/ChronoZonedDateTime<TD;>;
+ ()L1java/time/chrono/ChronoZonedDateTime<TD;>;
+
+withZoneSameInstant
+ (Ljava/time/ZoneId;)Ljava/time/chrono/ChronoZonedDateTime<TD;>;
+ (L1java/time/ZoneId;)L1java/time/chrono/ChronoZonedDateTime<TD;>;
+
+withZoneSameLocal
+ (Ljava/time/ZoneId;)Ljava/time/chrono/ChronoZonedDateTime<TD;>;
+ (L1java/time/ZoneId;)L1java/time/chrono/ChronoZonedDateTime<TD;>;
+

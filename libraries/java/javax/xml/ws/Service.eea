@@ -1,0 +1,93 @@
+class javax/xml/ws/Service
+
+addPort
+ (Ljavax/xml/namespace/QName;Ljava/lang/String;Ljava/lang/String;)V
+ (L1javax/xml/namespace/QName;L1java/lang/String;L1java/lang/String;)V
+
+create
+ (Ljava/net/URL;Ljavax/xml/namespace/QName;)Ljavax/xml/ws/Service;
+ (L1java/net/URL;L1javax/xml/namespace/QName;)L1javax/xml/ws/Service;
+
+create
+ (Ljava/net/URL;Ljavax/xml/namespace/QName;[Ljavax/xml/ws/WebServiceFeature;)Ljavax/xml/ws/Service;
+ (L1java/net/URL;L1javax/xml/namespace/QName;[1L1javax/xml/ws/WebServiceFeature;)L1javax/xml/ws/Service;
+
+create
+ (Ljavax/xml/namespace/QName;)Ljavax/xml/ws/Service;
+ (L1javax/xml/namespace/QName;)L1javax/xml/ws/Service;
+
+create
+ (Ljavax/xml/namespace/QName;[Ljavax/xml/ws/WebServiceFeature;)Ljavax/xml/ws/Service;
+ (L1javax/xml/namespace/QName;[1L1javax/xml/ws/WebServiceFeature;)L1javax/xml/ws/Service;
+
+createDispatch
+ (Ljavax/xml/namespace/QName;Ljavax/xml/bind/JAXBContext;Ljavax/xml/ws/Service$Mode;)Ljavax/xml/ws/Dispatch<Ljava/lang/Object;>;
+ (L1javax/xml/namespace/QName;L1javax/xml/bind/JAXBContext;L1javax/xml/ws/Service$Mode;)L1javax/xml/ws/Dispatch<Ljava/lang/Object;>;
+
+createDispatch
+ (Ljavax/xml/namespace/QName;Ljavax/xml/bind/JAXBContext;Ljavax/xml/ws/Service$Mode;[Ljavax/xml/ws/WebServiceFeature;)Ljavax/xml/ws/Dispatch<Ljava/lang/Object;>;
+ (L1javax/xml/namespace/QName;L1javax/xml/bind/JAXBContext;L1javax/xml/ws/Service$Mode;[1L1javax/xml/ws/WebServiceFeature;)L1javax/xml/ws/Dispatch<Ljava/lang/Object;>;
+
+createDispatch
+ (Ljavax/xml/ws/EndpointReference;Ljavax/xml/bind/JAXBContext;Ljavax/xml/ws/Service$Mode;[Ljavax/xml/ws/WebServiceFeature;)Ljavax/xml/ws/Dispatch<Ljava/lang/Object;>;
+ (L1javax/xml/ws/EndpointReference;L1javax/xml/bind/JAXBContext;L1javax/xml/ws/Service$Mode;[1L1javax/xml/ws/WebServiceFeature;)L1javax/xml/ws/Dispatch<Ljava/lang/Object;>;
+
+createDispatch
+ <T:Ljava/lang/Object;>(Ljavax/xml/namespace/QName;Ljava/lang/Class<TT;>;Ljavax/xml/ws/Service$Mode;)Ljavax/xml/ws/Dispatch<TT;>;
+ <T:Ljava/lang/Object;>(L1javax/xml/namespace/QName;L1java/lang/Class<TT;>;L1javax/xml/ws/Service$Mode;)L1javax/xml/ws/Dispatch<TT;>;
+
+createDispatch
+ <T:Ljava/lang/Object;>(Ljavax/xml/namespace/QName;Ljava/lang/Class<TT;>;Ljavax/xml/ws/Service$Mode;[Ljavax/xml/ws/WebServiceFeature;)Ljavax/xml/ws/Dispatch<TT;>;
+ <T:Ljava/lang/Object;>(L1javax/xml/namespace/QName;L1java/lang/Class<TT;>;L1javax/xml/ws/Service$Mode;[1L1javax/xml/ws/WebServiceFeature;)L1javax/xml/ws/Dispatch<TT;>;
+
+createDispatch
+ <T:Ljava/lang/Object;>(Ljavax/xml/ws/EndpointReference;Ljava/lang/Class<TT;>;Ljavax/xml/ws/Service$Mode;[Ljavax/xml/ws/WebServiceFeature;)Ljavax/xml/ws/Dispatch<TT;>;
+ <T:Ljava/lang/Object;>(L1javax/xml/ws/EndpointReference;L1java/lang/Class<TT;>;L1javax/xml/ws/Service$Mode;[1L1javax/xml/ws/WebServiceFeature;)L1javax/xml/ws/Dispatch<TT;>;
+
+getExecutor
+ ()Ljava/util/concurrent/Executor;
+ ()L1java/util/concurrent/Executor;
+
+getHandlerResolver
+ ()Ljavax/xml/ws/handler/HandlerResolver;
+ ()L1javax/xml/ws/handler/HandlerResolver;
+
+getPort
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(L1java/lang/Class<TT;>;)T1T;
+
+getPort
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;[Ljavax/xml/ws/WebServiceFeature;)TT;
+ <T:Ljava/lang/Object;>(L1java/lang/Class<TT;>;[1L1javax/xml/ws/WebServiceFeature;)T1T;
+
+getPort
+ <T:Ljava/lang/Object;>(Ljavax/xml/namespace/QName;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(L1javax/xml/namespace/QName;L1java/lang/Class<TT;>;)T1T;
+
+getPort
+ <T:Ljava/lang/Object;>(Ljavax/xml/namespace/QName;Ljava/lang/Class<TT;>;[Ljavax/xml/ws/WebServiceFeature;)TT;
+ <T:Ljava/lang/Object;>(L1javax/xml/namespace/QName;L1java/lang/Class<TT;>;[1L1javax/xml/ws/WebServiceFeature;)T1T;
+
+getPort
+ <T:Ljava/lang/Object;>(Ljavax/xml/ws/EndpointReference;Ljava/lang/Class<TT;>;[Ljavax/xml/ws/WebServiceFeature;)TT;
+ <T:Ljava/lang/Object;>(L1javax/xml/ws/EndpointReference;L1java/lang/Class<TT;>;[1L1javax/xml/ws/WebServiceFeature;)T1T;
+
+getPorts
+ ()Ljava/util/Iterator<Ljavax/xml/namespace/QName;>;
+ ()L1java/util/Iterator<L1javax/xml/namespace/QName;>;
+
+getServiceName
+ ()Ljavax/xml/namespace/QName;
+ ()L1javax/xml/namespace/QName;
+
+getWSDLDocumentLocation
+ ()Ljava/net/URL;
+ ()L1java/net/URL;
+
+setExecutor
+ (Ljava/util/concurrent/Executor;)V
+ (L1java/util/concurrent/Executor;)V
+
+setHandlerResolver
+ (Ljavax/xml/ws/handler/HandlerResolver;)V
+ (L1javax/xml/ws/handler/HandlerResolver;)V

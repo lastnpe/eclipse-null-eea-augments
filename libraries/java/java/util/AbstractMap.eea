@@ -1,0 +1,45 @@
+class java/util/AbstractMap
+
+containsKey
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+containsValue
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()L1java/util/Set<L1java/util/Map$Entry<TK;TV;>;>;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+get
+ (Ljava/lang/Object;)TV;
+ (L0java/lang/Object;)T0V;
+
+keySet
+ ()Ljava/util/Set<TK;>;
+ ()L1java/util/Set<TK;>;
+
+put
+ (TK;TV;)TV;
+ (TK;TV;)T0V;
+
+putAll
+ (Ljava/util/Map<+TK;+TV;>;)V
+ (L1java/util/Map<+TK;+TV;>;)V
+
+remove
+ (Ljava/lang/Object;)TV;
+ (L0java/lang/Object;)T0V;
+
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+
+values
+ ()Ljava/util/Collection<TV;>;
+ ()L1java/util/Collection<TV;>;

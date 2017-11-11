@@ -1,0 +1,77 @@
+class java/net/Socket
+
+<init>
+ (Ljava/lang/String;I)V
+ (L0java/lang/String;I)V
+
+<init>
+ (Ljava/lang/String;ILjava/net/InetAddress;I)V
+ (L0java/lang/String;IL0java/net/InetAddress;I)V
+
+<init>
+ (Ljava/lang/String;IZ)V
+ (L0java/lang/String;IZ)V
+
+<init>
+ (Ljava/net/InetAddress;I)V
+ (L1java/net/InetAddress;I)V
+
+<init>
+ (Ljava/net/InetAddress;ILjava/net/InetAddress;I)V
+ (L0java/net/InetAddress;IL0java/net/InetAddress;I)V
+
+<init>
+ (Ljava/net/InetAddress;IZ)V
+ (L0java/net/InetAddress;IZ)V
+
+<init>
+ (Ljava/net/Proxy;)V
+ (L1java/net/Proxy;)V
+
+bind
+ (Ljava/net/SocketAddress;)V
+ (L0java/net/SocketAddress;)V
+
+connect
+ (Ljava/net/SocketAddress;)V
+ (L1java/net/SocketAddress;)V
+
+connect
+ (Ljava/net/SocketAddress;I)V
+ (L1java/net/SocketAddress;I)V
+
+getChannel
+ ()Ljava/nio/channels/SocketChannel;
+ ()L0java/nio/channels/SocketChannel;
+
+getInetAddress
+ ()Ljava/net/InetAddress;
+ ()L0java/net/InetAddress;
+
+getInputStream
+ ()Ljava/io/InputStream;
+ ()L1java/io/InputStream;
+
+getLocalAddress
+ ()Ljava/net/InetAddress;
+ ()L1java/net/InetAddress;
+
+getLocalSocketAddress
+ ()Ljava/net/SocketAddress;
+ ()L0java/net/SocketAddress;
+
+getOutputStream
+ ()Ljava/io/OutputStream;
+ ()L1java/io/OutputStream;
+
+getRemoteSocketAddress
+ ()Ljava/net/SocketAddress;
+ ()L0java/net/SocketAddress;
+
+setSocketImplFactory
+ (Ljava/net/SocketImplFactory;)V
+ (L0java/net/SocketImplFactory;)V
+
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;

@@ -1,4 +1,7 @@
 class java/time/Duration
+ZERO
+ Ljava/time/Duration;
+ L1java/time/Duration;
 abs
  ()Ljava/time/Duration;
  ()L1java/time/Duration;
@@ -22,16 +25,19 @@ from
  (L1java/time/temporal/TemporalAmount;)L1java/time/Duration;
 get
  (Ljava/time/temporal/TemporalUnit;)J
- (L0java/time/temporal/TemporalUnit;)J
+ (L1java/time/temporal/TemporalUnit;)J
 getUnits
  ()Ljava/util/List<Ljava/time/temporal/TemporalUnit;>;
- ()L1java/util/List<Ljava/time/temporal/TemporalUnit;>;
+ ()L1java/util/List<L1java/time/temporal/TemporalUnit;>;
 minus
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/Duration;
  (JL1java/time/temporal/TemporalUnit;)L1java/time/Duration;
 minus
  (Ljava/time/Duration;)Ljava/time/Duration;
  (L1java/time/Duration;)L1java/time/Duration;
+minus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/Duration;
+ (JL1java/time/temporal/TemporalUnit;)L1java/time/Duration;
 minusDays
  (J)Ljava/time/Duration;
  (J)L1java/time/Duration;
@@ -89,6 +95,9 @@ plus
 plus
  (Ljava/time/Duration;)Ljava/time/Duration;
  (L1java/time/Duration;)L1java/time/Duration;
+plus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/Duration;
+ (JL1java/time/temporal/TemporalUnit;)L1java/time/Duration;
 plusDays
  (J)Ljava/time/Duration;
  (J)L1java/time/Duration;
@@ -110,6 +119,9 @@ plusSeconds
 subtractFrom
  (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
  (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal;
+toSeconds
+ ()Ljava/math/BigDecimal;
+ ()L1java/math/BigDecimal;
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String;

@@ -1,0 +1,41 @@
+class java/lang/management/ThreadInfo
+
+from
+ (Ljavax/management/openmbean/CompositeData;)Ljava/lang/management/ThreadInfo;
+ (L0javax/management/openmbean/CompositeData;)L0java/lang/management/ThreadInfo;
+
+getLockInfo
+ ()Ljava/lang/management/LockInfo;
+ ()L0java/lang/management/LockInfo;
+
+getLockName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+
+getLockOwnerName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+
+getLockedMonitors
+ ()[Ljava/lang/management/MonitorInfo;
+ ()[1L1java/lang/management/MonitorInfo;
+
+getLockedSynchronizers
+ ()[Ljava/lang/management/LockInfo;
+ ()[1L1java/lang/management/LockInfo;
+
+getStackTrace
+ ()[Ljava/lang/StackTraceElement;
+ ()[1L1java/lang/StackTraceElement;
+
+getThreadName
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+
+getThreadState
+ ()Ljava/lang/Thread$State;
+ ()L1java/lang/Thread$State;
+
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;

@@ -1,4 +1,13 @@
 class javax/swing/JTable
+getCellRect
+ (IIZ)Ljava/awt/Rectangle;
+ (IIZ)L1java/awt/Rectangle;
+getSelectedColumns
+ ()[I
+ ()[1I
+getSelectedRows
+ ()[I
+ ()[1I
 prepareRenderer
  (Ljavax/swing/table/TableCellRenderer;II)Ljava/awt/Component;
  (L1javax/swing/table/TableCellRenderer;II)L1java/awt/Component;

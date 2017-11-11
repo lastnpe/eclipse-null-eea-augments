@@ -1,0 +1,57 @@
+class java/util/EnumMap
+
+<init>
+ (Ljava/lang/Class<TK;>;)V
+ (L1java/lang/Class<T1K;>;)V
+
+<init>
+ (Ljava/util/EnumMap<TK;+TV;>;)V
+ (L1java/util/EnumMap<T1K;+TV;>;)V
+
+<init>
+ (Ljava/util/Map<TK;+TV;>;)V
+ (L1java/util/Map<T1K;+TV;>;)V
+
+clone
+ ()Ljava/util/EnumMap<TK;TV;>;
+ ()L1java/util/EnumMap<T1K;TV;>;
+
+containsKey
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+containsValue
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()L1java/util/Set<L1java/util/Map$Entry<T1K;TV;>;>;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+get
+ (Ljava/lang/Object;)TV;
+ (L0java/lang/Object;)T0V;
+
+keySet
+ ()Ljava/util/Set<TK;>;
+ ()L1java/util/Set<T1K;>;
+
+put
+ (TK;TV;)TV;
+ (T1K;TV;)T0V;
+
+putAll
+ (Ljava/util/Map<+TK;+TV;>;)V
+ (L1java/util/Map<+T1K;+TV;>;)V
+
+remove
+ (Ljava/lang/Object;)TV;
+ (L0java/lang/Object;)TV;
+
+values
+ ()Ljava/util/Collection<TV;>;
+ ()L1java/util/Collection<TV;>;

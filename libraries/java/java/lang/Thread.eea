@@ -1,0 +1,105 @@
+class java/lang/Thread
+
+<init>
+ (Ljava/lang/Runnable;)V
+ (L1java/lang/Runnable;)V
+
+<init>
+ (Ljava/lang/Runnable;Ljava/lang/String;)V
+ (L1java/lang/Runnable;L1java/lang/String;)V
+
+<init>
+ (Ljava/lang/Runnable;Ljava/security/AccessControlContext;)V
+ (L1java/lang/Runnable;L1java/security/AccessControlContext;)V
+
+<init>
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V
+
+<init>
+ (Ljava/lang/ThreadGroup;Ljava/lang/Runnable;)V
+ (L1java/lang/ThreadGroup;L1java/lang/Runnable;)V
+
+<init>
+ (Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;)V
+ (L1java/lang/ThreadGroup;L1java/lang/Runnable;L1java/lang/String;)V
+
+<init>
+ (Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;J)V
+ (L1java/lang/ThreadGroup;L1java/lang/Runnable;L1java/lang/String;J)V
+
+<init>
+ (Ljava/lang/ThreadGroup;Ljava/lang/String;)V
+ (L1java/lang/ThreadGroup;L1java/lang/String;)V
+
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;
+
+currentThread
+ ()Ljava/lang/Thread;
+ ()L1java/lang/Thread;
+
+enumerate
+ ([Ljava/lang/Thread;)I
+ ([1Ljava/lang/Thread;)I
+
+getAllStackTraces
+ ()Ljava/util/Map<Ljava/lang/Thread;[Ljava/lang/StackTraceElement;>;
+ ()L1java/util/Map<L1java/lang/Thread;[1L1java/lang/StackTraceElement;>;
+
+getContextClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()L1java/lang/ClassLoader;
+
+getDefaultUncaughtExceptionHandler
+ ()Ljava/lang/Thread$UncaughtExceptionHandler;
+ ()L0java/lang/Thread$UncaughtExceptionHandler;
+
+getName
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+
+getStackTrace
+ ()[Ljava/lang/StackTraceElement;
+ ()[1L1java/lang/StackTraceElement;
+
+getState
+ ()Ljava/lang/Thread$State;
+ ()L1java/lang/Thread$State;
+
+getThreadGroup
+ ()Ljava/lang/ThreadGroup;
+ ()L1java/lang/ThreadGroup;
+
+getUncaughtExceptionHandler
+ ()Ljava/lang/Thread$UncaughtExceptionHandler;
+ ()L0java/lang/Thread$UncaughtExceptionHandler;
+
+holdsLock
+ (Ljava/lang/Object;)Z
+ (L1java/lang/Object;)Z
+
+setContextClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (L1java/lang/ClassLoader;)V
+
+setDefaultUncaughtExceptionHandler
+ (Ljava/lang/Thread$UncaughtExceptionHandler;)V
+ (L0java/lang/Thread$UncaughtExceptionHandler;)V
+
+setName
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V
+
+setUncaughtExceptionHandler
+ (Ljava/lang/Thread$UncaughtExceptionHandler;)V
+ (L0java/lang/Thread$UncaughtExceptionHandler;)V
+
+stop
+ (Ljava/lang/Throwable;)V
+ (L0java/lang/Throwable;)V
+
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;

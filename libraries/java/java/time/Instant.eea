@@ -1,4 +1,13 @@
 class java/time/Instant
+EPOCH
+ Ljava/time/Instant;
+ L1java/time/Instant;
+MAX
+ Ljava/time/Instant;
+ L1java/time/Instant;
+MIN
+ Ljava/time/Instant;
+ L1java/time/Instant;
 adjustInto
  (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
  (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal;
@@ -88,10 +97,13 @@ plusSeconds
  (J)L1java/time/Instant;
 query
  <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
- <R:Ljava/lang/Object;>(L1java/time/temporal/TemporalQuery<TR;>;)TR;
+ <R:Ljava/lang/Object;>(L1java/time/temporal/TemporalQuery<TR;>;)T0R;
 range
  (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
  (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange;
+readExternal
+ (Ljava/io/DataInput;)Ljava/time/Instant;
+ (L1java/io/DataInput;)L1java/time/Instant;
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String;
@@ -107,3 +119,6 @@ with
 with
  (Ljava/time/temporal/TemporalField;J)Ljava/time/Instant;
  (L1java/time/temporal/TemporalField;J)L1java/time/Instant;
+writeExternal
+ (Ljava/io/DataOutput;)V
+ (L1java/io/DataOutput;)V

@@ -1,0 +1,45 @@
+class java/util/AbstractCollection
+
+add
+ (TE;)Z
+ (TE;)Z
+
+addAll
+ (Ljava/util/Collection<+TE;>;)Z
+ (L1java/util/Collection<+TE;>;)Z
+
+contains
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+containsAll
+ (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z
+
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>;
+
+remove
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+removeAll
+ (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z
+
+retainAll
+ (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z
+
+toArray
+ ()[Ljava/lang/Object;
+ ()[1Ljava/lang/Object;
+
+toArray
+ <T:Ljava/lang/Object;>([TT;)[TT;
+ <T:Ljava/lang/Object;>([1TT;)[1TT;
+
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;

@@ -1,0 +1,25 @@
+class javax/swing/table/TableModel
+
+getColumnName
+ (I)Ljava/lang/String;
+ (I)L0java/lang/String;
+ 
+getColumnClass
+ (I)Ljava/lang/Class<*>;
+ (I)L0java/lang/Class<*>;
+ 
+getValueAt
+ (II)Ljava/lang/Object;
+ (II)L0java/lang/Object;
+ 
+setValueAt
+ (Ljava/lang/Object;II)V
+ (L0java/lang/Object;II)V
+ 
+addTableModelListener
+ (Ljavax/swing/event/TableModelListener;)V
+ (L0javax/swing/event/TableModelListener;)V
+ 
+removeTableModelListener
+ (Ljavax/swing/event/TableModelListener;)V
+ (L0javax/swing/event/TableModelListener;)V

@@ -1,0 +1,105 @@
+class java/util/ArrayList
+
+<init>
+ (Ljava/util/Collection<+TE;>;)V
+ (L1java/util/Collection<+TE;>;)V
+
+add
+ (ITE;)V
+ (ITE;)V
+
+add
+ (TE;)Z
+ (TE;)Z
+
+addAll
+ (ILjava/util/Collection<+TE;>;)Z
+ (IL1java/util/Collection<+TE;>;)Z
+
+addAll
+ (Ljava/util/Collection<+TE;>;)Z
+ (L1java/util/Collection<+TE;>;)Z
+
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;
+
+contains
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+forEach
+ (Ljava/util/function/Consumer<-TE;>;)V
+ (L1java/util/function/Consumer<-TE;>;)V
+
+get
+ (I)TE;
+ (I)TE;
+
+indexOf
+ (Ljava/lang/Object;)I
+ (L0java/lang/Object;)I
+
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>;
+
+lastIndexOf
+ (Ljava/lang/Object;)I
+ (L0java/lang/Object;)I
+
+listIterator
+ ()Ljava/util/ListIterator<TE;>;
+ ()L1java/util/ListIterator<TE;>;
+
+listIterator
+ (I)Ljava/util/ListIterator<TE;>;
+ (I)L1java/util/ListIterator<TE;>;
+
+remove
+ (I)TE;
+ (I)TE;
+
+remove
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+removeAll
+ (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z
+
+removeIf
+ (Ljava/util/function/Predicate<-TE;>;)Z
+ (L1java/util/function/Predicate<-TE;>;)Z
+
+replaceAll
+ (Ljava/util/function/UnaryOperator<TE;>;)V
+ (L1java/util/function/UnaryOperator<TE;>;)V
+
+retainAll
+ (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z
+
+set
+ (ITE;)TE;
+ (ITE;)TE;
+
+sort
+ (Ljava/util/Comparator<-TE;>;)V
+ (L1java/util/Comparator<-TE;>;)V
+
+spliterator
+ ()Ljava/util/Spliterator<TE;>;
+ ()L1java/util/Spliterator<TE;>;
+
+subList
+ (II)Ljava/util/List<TE;>;
+ (II)L1java/util/List<TE;>;
+
+toArray
+ ()[Ljava/lang/Object;
+ ()[1L0java/lang/Object;
+
+toArray
+ <T:Ljava/lang/Object;>([TT;)[TT;
+ <T:Ljava/lang/Object;>([1TT;)[1TT;

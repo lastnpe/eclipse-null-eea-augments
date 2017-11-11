@@ -1,0 +1,41 @@
+class javax/swing/tree/TreePath
+
+<init>
+ (Ljava/lang/Object;)V
+ (L1java/lang/Object;)V
+
+<init>
+ ([Ljava/lang/Object;)V
+ ([1L1java/lang/Object;)V
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+getLastPathComponent
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;
+
+getParentPath
+ ()Ljavax/swing/tree/TreePath;
+ ()L1javax/swing/tree/TreePath;
+
+getPath
+ ()[Ljava/lang/Object;
+ ()[1L1java/lang/Object;
+
+getPathComponent
+ (I)Ljava/lang/Object;
+ (I)L1java/lang/Object;
+
+isDescendant
+ (Ljavax/swing/tree/TreePath;)Z
+ (L0javax/swing/tree/TreePath;)Z
+
+pathByAddingChild
+ (Ljava/lang/Object;)Ljavax/swing/tree/TreePath;
+ (L1java/lang/Object;)L1javax/swing/tree/TreePath;
+
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;

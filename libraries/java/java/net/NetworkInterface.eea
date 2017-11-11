@@ -1,0 +1,53 @@
+class java/net/NetworkInterface
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+getByIndex
+ (I)Ljava/net/NetworkInterface;
+ (I)L0java/net/NetworkInterface;
+
+getByInetAddress
+ (Ljava/net/InetAddress;)Ljava/net/NetworkInterface;
+ (L1java/net/InetAddress;)L0java/net/NetworkInterface;
+
+getByName
+ (Ljava/lang/String;)Ljava/net/NetworkInterface;
+ (L1java/lang/String;)L0java/net/NetworkInterface;
+
+getDisplayName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+
+getHardwareAddress
+ ()[B
+ ()[0B
+
+getInetAddresses
+ ()Ljava/util/Enumeration<Ljava/net/InetAddress;>;
+ ()L1java/util/Enumeration<L1java/net/InetAddress;>;
+
+getInterfaceAddresses
+ ()Ljava/util/List<Ljava/net/InterfaceAddress;>;
+ ()L1java/util/List<L1java/net/InterfaceAddress;>;
+
+getName
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+
+getNetworkInterfaces
+ ()Ljava/util/Enumeration<Ljava/net/NetworkInterface;>;
+ ()L0java/util/Enumeration<L1java/net/NetworkInterface;>;
+
+getParent
+ ()Ljava/net/NetworkInterface;
+ ()L1java/net/NetworkInterface;
+
+getSubInterfaces
+ ()Ljava/util/Enumeration<Ljava/net/NetworkInterface;>;
+ ()L1java/util/Enumeration<L1java/net/NetworkInterface;>;
+
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;

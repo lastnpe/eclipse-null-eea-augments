@@ -1,0 +1,73 @@
+class java/util/concurrent/LinkedTransferQueue
+
+<init>
+ (Ljava/util/Collection<+TE;>;)V
+ (L1java/util/Collection<+T1E;>;)V
+
+add
+ (TE;)Z
+ (T1E;)Z
+
+contains
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+drainTo
+ (Ljava/util/Collection<-TE;>;)I
+ (L1java/util/Collection<-TE;>;)I
+
+drainTo
+ (Ljava/util/Collection<-TE;>;I)I
+ (L1java/util/Collection<-TE;>;I)I
+
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<T1E;>;
+
+offer
+ (TE;)Z
+ (T1E;)Z
+
+offer
+ (TE;JLjava/util/concurrent/TimeUnit;)Z
+ (T1E;JL1java/util/concurrent/TimeUnit;)Z
+
+peek
+ ()TE;
+ ()T0E;
+
+poll
+ ()TE;
+ ()T0E;
+
+poll
+ (JLjava/util/concurrent/TimeUnit;)TE;
+ (JL1java/util/concurrent/TimeUnit;)T1E;
+
+put
+ (TE;)V
+ (T1E;)V
+
+remove
+ (Ljava/lang/Object;)Z
+ (L1java/lang/Object;)Z
+
+spliterator
+ ()Ljava/util/Spliterator<TE;>;
+ ()L1java/util/Spliterator<T1E;>;
+
+take
+ ()TE;
+ ()T1E;
+
+transfer
+ (TE;)V
+ (T1E;)V
+
+tryTransfer
+ (TE;)Z
+ (T1E;)Z
+
+tryTransfer
+ (TE;JLjava/util/concurrent/TimeUnit;)Z
+ (T1E;JL1java/util/concurrent/TimeUnit;)Z

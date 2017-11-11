@@ -1,0 +1,77 @@
+class java/nio/channels/FileChannel
+
+lock
+ ()Ljava/nio/channels/FileLock;
+ ()L1java/nio/channels/FileLock;
+
+lock
+ (JJZ)Ljava/nio/channels/FileLock;
+ (JJZ)L1java/nio/channels/FileLock;
+
+map
+ (Ljava/nio/channels/FileChannel$MapMode;JJ)Ljava/nio/MappedByteBuffer;
+ (L1java/nio/channels/FileChannel$MapMode;JJ)L1java/nio/MappedByteBuffer;
+
+open
+ (Ljava/nio/file/Path;Ljava/util/Set<+Ljava/nio/file/OpenOption;>;[Ljava/nio/file/attribute/FileAttribute<*>;)Ljava/nio/channels/FileChannel;
+ (L1java/nio/file/Path;L1java/util/Set<+L1java/nio/file/OpenOption;>;[1L1java/nio/file/attribute/FileAttribute<*>;)L1java/nio/channels/FileChannel;
+
+open
+ (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/nio/channels/FileChannel;
+ (L1java/nio/file/Path;[1L1java/nio/file/OpenOption;)L1java/nio/channels/FileChannel;
+
+position
+ (J)Ljava/nio/channels/FileChannel;
+ (J)L1java/nio/channels/FileChannel;
+
+read
+ (Ljava/nio/ByteBuffer;)I
+ (L1java/nio/ByteBuffer;)I
+
+read
+ (Ljava/nio/ByteBuffer;J)I
+ (L1java/nio/ByteBuffer;J)I
+
+read
+ ([Ljava/nio/ByteBuffer;)J
+ ([1L1java/nio/ByteBuffer;)J
+
+read
+ ([Ljava/nio/ByteBuffer;II)J
+ ([1L1java/nio/ByteBuffer;II)J
+
+transferFrom
+ (Ljava/nio/channels/ReadableByteChannel;JJ)J
+ (L1java/nio/channels/ReadableByteChannel;JJ)J
+
+transferTo
+ (JJLjava/nio/channels/WritableByteChannel;)J
+ (JJL1java/nio/channels/WritableByteChannel;)J
+
+truncate
+ (J)Ljava/nio/channels/FileChannel;
+ (J)L1java/nio/channels/FileChannel;
+
+tryLock
+ ()Ljava/nio/channels/FileLock;
+ ()L0java/nio/channels/FileLock;
+
+tryLock
+ (JJZ)Ljava/nio/channels/FileLock;
+ (JJZ)L0java/nio/channels/FileLock;
+
+write
+ (Ljava/nio/ByteBuffer;)I
+ (L1java/nio/ByteBuffer;)I
+
+write
+ (Ljava/nio/ByteBuffer;J)I
+ (L1java/nio/ByteBuffer;J)I
+
+write
+ ([Ljava/nio/ByteBuffer;)J
+ ([1L1java/nio/ByteBuffer;)J
+
+write
+ ([Ljava/nio/ByteBuffer;II)J
+ ([1L1java/nio/ByteBuffer;II)J

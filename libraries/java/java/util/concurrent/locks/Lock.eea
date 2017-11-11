@@ -1,0 +1,9 @@
+class java/util/concurrent/locks/Lock
+
+newCondition
+ ()Ljava/util/concurrent/locks/Condition;
+ ()L1java/util/concurrent/locks/Condition;
+
+tryLock
+ (JLjava/util/concurrent/TimeUnit;)Z
+ (JL1java/util/concurrent/TimeUnit;)Z

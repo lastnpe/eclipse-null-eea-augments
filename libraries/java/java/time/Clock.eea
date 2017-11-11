@@ -1,0 +1,49 @@
+class java/time/Clock
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+fixed
+ (Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/Clock;
+ (L1java/time/Instant;L1java/time/ZoneId;)L1java/time/Clock;
+
+getZone
+ ()Ljava/time/ZoneId;
+ ()L1java/time/ZoneId;
+
+instant
+ ()Ljava/time/Instant;
+ ()L1java/time/Instant;
+
+offset
+ (Ljava/time/Clock;Ljava/time/Duration;)Ljava/time/Clock;
+ (L1java/time/Clock;L1java/time/Duration;)L1java/time/Clock;
+
+system
+ (Ljava/time/ZoneId;)Ljava/time/Clock;
+ (L1java/time/ZoneId;)L1java/time/Clock;
+
+systemDefaultZone
+ ()Ljava/time/Clock;
+ ()L1java/time/Clock;
+
+systemUTC
+ ()Ljava/time/Clock;
+ ()L1java/time/Clock;
+
+tick
+ (Ljava/time/Clock;Ljava/time/Duration;)Ljava/time/Clock;
+ (L1java/time/Clock;L1java/time/Duration;)L1java/time/Clock;
+
+tickMinutes
+ (Ljava/time/ZoneId;)Ljava/time/Clock;
+ (L1java/time/ZoneId;)L1java/time/Clock;
+
+tickSeconds
+ (Ljava/time/ZoneId;)Ljava/time/Clock;
+ (L1java/time/ZoneId;)L1java/time/Clock;
+
+withZone
+ (Ljava/time/ZoneId;)Ljava/time/Clock;
+ (L1java/time/ZoneId;)L1java/time/Clock;

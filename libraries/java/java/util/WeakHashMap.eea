@@ -1,0 +1,66 @@
+class java/util/WeakHashMap
+
+<init>
+ (Ljava/util/Map<+TK;+TV;>;)V
+ (L1java/util/Map<+TK;+TV;>;)V
+
+containsKey
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+containsValue
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()L1java/util/Set<L1java/util/Map$Entry<TK;TV;>;>;
+
+forEach
+ (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
+ (L1java/util/function/BiConsumer<-TK;-TV;>;)V
+
+get
+ (Ljava/lang/Object;)TV;
+ (L0java/lang/Object;)T0V;
+
+getEntry
+ (Ljava/lang/Object;)Ljava/util/WeakHashMap$Entry<TK;TV;>;
+ (L0java/lang/Object;)L0java/util/WeakHashMap$Entry<TK;TV;>;
+
+hash
+ (Ljava/lang/Object;)I
+ (L1java/lang/Object;)I
+
+keySet
+ ()Ljava/util/Set<TK;>;
+ ()L1java/util/Set<TK;>;
+
+put
+ (TK;TV;)TV;
+ (T0K;T0V;)T0V;
+
+putAll
+ (Ljava/util/Map<+TK;+TV;>;)V
+ (L1java/util/Map<+TK;+TV;>;)V
+
+remove
+ (Ljava/lang/Object;)TV;
+ (L0java/lang/Object;)T0V;
+
+removeMapping
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+replaceAll
+ (Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)V
+ (L1java/util/function/BiFunction<-TK;-TV;+TV;>;)V
+
+unmaskNull
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (L1java/lang/Object;)L0java/lang/Object;
+
+values
+ ()Ljava/util/Collection<TV;>;
+ ()L1java/util/Collection<TV;>;
+

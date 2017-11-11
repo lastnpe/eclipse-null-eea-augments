@@ -1,0 +1,181 @@
+class java/awt/Color
+
+BLACK
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+BLUE
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+CYAN
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+DARK_GRAY
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+GRAY
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+GREEN
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+LIGHT_GRAY
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+MAGENTA
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+ORANGE
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+PINK
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+RED
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+WHITE
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+YELLOW
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+black
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+blue
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+cyan
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+darkGray
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+gray
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+green
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+lightGray
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+magenta
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+orange
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+pink
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+red
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+white
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+yellow
+ Ljava/awt/Color;
+ L1java/awt/Color;
+
+<init>
+ (Ljava/awt/color/ColorSpace;[FF)V
+ (L1java/awt/color/ColorSpace;[1FF)V
+
+RGBtoHSB
+ (III[F)[F
+ (III[0F)[1F
+
+brighter
+ ()Ljava/awt/Color;
+ ()L1java/awt/Color;
+
+createContext
+ (Ljava/awt/image/ColorModel;Ljava/awt/Rectangle;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/AffineTransform;Ljava/awt/RenderingHints;)Ljava/awt/PaintContext;
+ (Ljava/awt/image/ColorModel;Ljava/awt/Rectangle;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/AffineTransform;Ljava/awt/RenderingHints;)L1java/awt/PaintContext;
+
+darker
+ ()Ljava/awt/Color;
+ ()L1java/awt/Color;
+
+decode
+ (Ljava/lang/String;)Ljava/awt/Color;
+ (L1java/lang/String;)L1java/awt/Color;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+
+getColor
+ (Ljava/lang/String;)Ljava/awt/Color;
+ (L1java/lang/String;)L0java/awt/Color;
+
+getColor
+ (Ljava/lang/String;I)Ljava/awt/Color;
+ (L1java/lang/String;I)L1java/awt/Color;
+
+getColor
+ (Ljava/lang/String;Ljava/awt/Color;)Ljava/awt/Color;
+ (L1java/lang/String;L0java/awt/Color;)L0java/awt/Color;
+
+getColorComponents
+ (Ljava/awt/color/ColorSpace;[F)[F
+ (L0java/awt/color/ColorSpace;[0F)[1F
+
+getColorComponents
+ ([F)[F
+ ([0F)[1F
+
+getColorSpace
+ ()Ljava/awt/color/ColorSpace;
+ ()L1java/awt/color/ColorSpace;
+
+getComponents
+ (Ljava/awt/color/ColorSpace;[F)[F
+ (L0java/awt/color/ColorSpace;[0F)[1F
+
+getComponents
+ ([F)[F
+ ([0F)[1F
+
+getHSBColor
+ (FFF)Ljava/awt/Color;
+ (FFF)L1java/awt/Color;
+
+getRGBColorComponents
+ ([F)[F
+ ([0F)[1F
+
+getRGBComponents
+ ([F)[F
+ ([0F)[1F
+
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;

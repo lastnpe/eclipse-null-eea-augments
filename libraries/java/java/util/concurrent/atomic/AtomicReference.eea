@@ -1,0 +1,49 @@
+class java/util/concurrent/atomic/AtomicReference
+
+<init>
+ (TV;)V
+ (TV;)V
+
+accumulateAndGet
+ (TV;Ljava/util/function/BinaryOperator<TV;>;)TV;
+ (TV;L1java/util/function/BinaryOperator<TV;>;)TV;
+
+compareAndSet
+ (TV;TV;)Z
+ (TV;TV;)Z
+
+get
+ ()TV;
+ ()TV;
+
+getAndAccumulate
+ (TV;Ljava/util/function/BinaryOperator<TV;>;)TV;
+ (TV;L1java/util/function/BinaryOperator<TV;>;)TV;
+
+getAndSet
+ (TV;)TV;
+ (TV;)TV;
+
+getAndUpdate
+ (Ljava/util/function/UnaryOperator<TV;>;)TV;
+ (L1java/util/function/UnaryOperator<TV;>;)TV;
+
+lazySet
+ (TV;)V
+ (TV;)V
+
+set
+ (TV;)V
+ (TV;)V
+
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+
+updateAndGet
+ (Ljava/util/function/UnaryOperator<TV;>;)TV;
+ (L1java/util/function/UnaryOperator<TV;>;)TV;
+
+weakCompareAndSet
+ (TV;TV;)Z
+ (TV;TV;)Z

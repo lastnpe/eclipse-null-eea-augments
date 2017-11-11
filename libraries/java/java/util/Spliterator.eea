@@ -1,0 +1,17 @@
+class java/util/Spliterator
+
+forEachRemaining
+ (Ljava/util/function/Consumer<-TT;>;)V
+ (L1java/util/function/Consumer<-TT;>;)V
+
+getComparator
+ ()Ljava/util/Comparator<-TT;>;
+ ()L0java/util/Comparator<-TT;>;
+
+tryAdvance
+ (Ljava/util/function/Consumer<-TT;>;)Z
+ (L1java/util/function/Consumer<-TT;>;)Z
+
+trySplit
+ ()Ljava/util/Spliterator<TT;>;
+ ()L0java/util/Spliterator<TT;>;

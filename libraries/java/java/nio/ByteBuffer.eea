@@ -8,9 +8,111 @@ allocateDirect
 array
  ()[B
  ()[1B
+asCharBuffer
+ ()Ljava/nio/CharBuffer;
+ ()L1java/nio/CharBuffer;
+asDoubleBuffer
+ ()Ljava/nio/DoubleBuffer;
+ ()L1java/nio/DoubleBuffer;
+asFloatBuffer
+ ()Ljava/nio/FloatBuffer;
+ ()L1java/nio/FloatBuffer;
+asIntBuffer
+ ()Ljava/nio/IntBuffer;
+ ()L1java/nio/IntBuffer;
+asLongBuffer
+ ()Ljava/nio/LongBuffer;
+ ()L1java/nio/LongBuffer;
+asReadOnlyBuffer
+ ()Ljava/nio/ByteBuffer;
+ ()L1java/nio/ByteBuffer;
+asShortBuffer
+ ()Ljava/nio/ShortBuffer;
+ ()L1java/nio/ShortBuffer;
+compact
+ ()Ljava/nio/ByteBuffer;
+ ()L1java/nio/ByteBuffer;
+compareTo
+ (Ljava/nio/ByteBuffer;)I
+ (L1java/nio/ByteBuffer;)I
+duplicate
+ ()Ljava/nio/ByteBuffer;
+ ()L1java/nio/ByteBuffer;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+get
+ ([B)Ljava/nio/ByteBuffer;
+ ([1B)L1java/nio/ByteBuffer;
+get
+ ([BII)Ljava/nio/ByteBuffer;
+ ([1BII)L1java/nio/ByteBuffer;
+order
+ ()Ljava/nio/ByteOrder;
+ ()L1java/nio/ByteOrder;
+order
+ (Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
+ (L1java/nio/ByteOrder;)L1java/nio/ByteBuffer;
+put
+ (B)Ljava/nio/ByteBuffer;
+ (B)L1java/nio/ByteBuffer;
+put
+ (IB)Ljava/nio/ByteBuffer;
+ (IB)L1java/nio/ByteBuffer;
+put
+ (Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
+ (L1java/nio/ByteBuffer;)L1java/nio/ByteBuffer;
+put
+ ([B)Ljava/nio/ByteBuffer;
+ ([1B)L1java/nio/ByteBuffer;
+put
+ ([BII)Ljava/nio/ByteBuffer;
+ ([1BII)L1java/nio/ByteBuffer;
+putChar
+ (C)Ljava/nio/ByteBuffer;
+ (C)L1java/nio/ByteBuffer;
+putChar
+ (IC)Ljava/nio/ByteBuffer;
+ (IC)L1java/nio/ByteBuffer;
+putDouble
+ (D)Ljava/nio/ByteBuffer;
+ (D)L1java/nio/ByteBuffer;
+putDouble
+ (ID)Ljava/nio/ByteBuffer;
+ (ID)L1java/nio/ByteBuffer;
+putFloat
+ (F)Ljava/nio/ByteBuffer;
+ (F)L1java/nio/ByteBuffer;
+putFloat
+ (IF)Ljava/nio/ByteBuffer;
+ (IF)L1java/nio/ByteBuffer;
+putInt
+ (I)Ljava/nio/ByteBuffer;
+ (I)L1java/nio/ByteBuffer;
+putInt
+ (II)Ljava/nio/ByteBuffer;
+ (II)L1java/nio/ByteBuffer;
+putLong
+ (IJ)Ljava/nio/ByteBuffer;
+ (IJ)L1java/nio/ByteBuffer;
+putLong
+ (J)Ljava/nio/ByteBuffer;
+ (J)L1java/nio/ByteBuffer;
+putShort
+ (IS)Ljava/nio/ByteBuffer;
+ (IS)L1java/nio/ByteBuffer;
+putShort
+ (S)Ljava/nio/ByteBuffer;
+ (S)L1java/nio/ByteBuffer;
+slice
+ ()Ljava/nio/ByteBuffer;
+ ()L1java/nio/ByteBuffer;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
 wrap
  ([B)Ljava/nio/ByteBuffer;
- ([B)L1java/nio/ByteBuffer;
+ ([1B)L1java/nio/ByteBuffer;
 wrap
  ([BII)Ljava/nio/ByteBuffer;
- ([BII)L1java/nio/ByteBuffer;
+ ([1BII)L1java/nio/ByteBuffer;
