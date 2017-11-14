@@ -1,7 +1,6 @@
 <assembly xmlns="http://maven.apache.org/ASSEMBLY/2.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.0.0 http://maven.apache.org/xsd/assembly-2.0.0.xsd">
-  <!-- <id></id>--> <!--This id would be appended to our jar name, let's set it to empty-->
   <formats>
     <format>jar</format>
   </formats>
@@ -16,6 +15,10 @@
             <excludes>
               <exclude>target/**</exclude>
               <exclude>pom.xml</exclude>
+              <exclude>eea-for-gav</exclude>
+              <exclude>.project</exclude>
+              <exclude>.classpath</exclude>
+              <exclude>.settings/</exclude>
             </excludes>
           </fileSet>
         </fileSets>
