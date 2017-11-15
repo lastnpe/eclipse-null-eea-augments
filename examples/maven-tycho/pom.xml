@@ -5,7 +5,7 @@
 <!--This file is meant to be an example to use the tycho compiler with external null annotations.
     However there is no code in here, so it only shows the crucial parts that have to be configured in maven.
 -->
-  <groupId>org.lastnpe.eea</groupId>
+  <groupId>org.lastnpe.examples</groupId>
   <artifactId>tycho</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
@@ -30,7 +30,7 @@
               <extraClasspathElement>
                 <groupId>org.eclipse.jdt</groupId>
                 <artifactId>org.eclipse.jdt.annotation</artifactId>
-                <version>${jdt-annotations.version}</version>
+                <version>2.1.0</version>
               </extraClasspathElement>
               <extraClasspathElement>
                 <groupId>org.lastnpe.eea</groupId>
@@ -51,14 +51,4 @@
       </plugins>
     </pluginManagement>
   </build>
-
-  <dependencies>
-    <dependency>
-      <groupId>org.lastnpe.eea</groupId>
-      <artifactId>jdk-eea</artifactId>
-      <version>0.0.1</version>
-      <scope>provided</scope>
-    </dependency>
-  </dependencies>
-
 </project>
