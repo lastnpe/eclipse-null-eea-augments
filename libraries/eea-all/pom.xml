@@ -14,9 +14,6 @@
   <packaging>jar</packaging>
 
   <name>Eclipse External null Annotations (EEA) all-in-one</name>
-  <description>JARs of *.eea for the JDK and common Java libraries</description>
-  <url>https://lastnpe.org</url>
-  <inceptionYear>2016</inceptionYear>
 
   <build>
     <plugins>
@@ -72,6 +69,11 @@
       <groupId>org.lastnpe.eea</groupId>
       <artifactId>spring-eea</artifactId>
       <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.lastnpe.eea</groupId>
+      <artifactId>osgi-core-eea</artifactId>
+      <version>${project.version}</version>
     </dependency>
   </dependencies>
 
