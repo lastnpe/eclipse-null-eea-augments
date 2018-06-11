@@ -29,7 +29,7 @@ public class EeaScanner {
   public List<String> getEeaFiles() throws IOException {
     if (eeaFiles == null) {
       List<String> ret = new ArrayList<>();
-      Enumeration<URL> res = TestSignatures.class.getClassLoader().getResources("eea-for-gav");
+      Enumeration<URL> res = SelfTest.class.getClassLoader().getResources("eea-for-gav");
       while (res.hasMoreElements()) {
         URL url = res.nextElement();
         if ("file".equals(url.getProtocol())) {
