@@ -6,7 +6,14 @@ import java.util.List;
 
 import org.junit.Test;
 
-public class TestSignatures {
+/**
+ * This is a 'self test'. It checks if the .eea files will match to the .class files.
+ * 
+ * (it only validates the first line of signature, not the second line, which contains null information)
+ * @author Roland Praml, FOCONIS AG
+ *
+ */
+public class SelfTest {
 
   /**
    * Should we list missing methods.
