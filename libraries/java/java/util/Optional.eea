@@ -2,9 +2,15 @@ class java/util/Optional
 empty
  <T:Ljava/lang/Object;>()Ljava/util/Optional<TT;>;
  <T:Ljava/lang/Object;>()L1java/util/Optional<TT;>;
+filter
+ (Ljava/util/function/Predicate<-TT;>;)Ljava/util/Optional<TT;>;
+ (Ljava/util/function/Predicate<-TT;>;)L1java/util/Optional<TT;>;
 get
  ()TT;
  ()T1T;
+map
+ <U:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TU;>;)Ljava/util/Optional<TU;>;
+ <U:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TU;>;)L1java/util/Optional<TU;>;
 of
  <T:Ljava/lang/Object;>(TT;)Ljava/util/Optional<TT;>;
  <T:Ljava/lang/Object;>(T1T;)L1java/util/Optional<TT;>;
@@ -14,3 +20,6 @@ ofNullable
 orElse
  (TT;)TT;
  (T0T;)TT;
+orElseThrow
+ <X:Ljava/lang/Throwable;>(Ljava/util/function/Supplier<+TX;>;)TT;^TX;
+ <X:Ljava/lang/Throwable;>(Ljava/util/function/Supplier<+TX;>;)T1T;
