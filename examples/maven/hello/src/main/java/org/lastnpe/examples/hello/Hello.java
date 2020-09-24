@@ -16,9 +16,11 @@ public class Hello implements SomeInterface {
     @Override
     // TODO @Nullable should ideally not have to be repeated here, see https://bugs.eclipse.org/bugs/show_bug.cgi?id=505828
     public void someMethodWithNullableArgument(@Nullable Object anObject) {
+        // comment
     }
 
     public void anotherMethodWithNullableArgument(@Nullable Object anObject) {
+        // comment
     }
 
     @Override
@@ -61,7 +63,7 @@ public class Hello implements SomeInterface {
     }
 
     void bar(File nonNull) {
-
+        // comment
     }
 
     @Nullable File file2() {

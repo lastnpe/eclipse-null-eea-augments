@@ -140,7 +140,7 @@ public class EeaFile {
 
     try (InputStream is = EeaFile.class.getResourceAsStream(resourceName)) {
       ClassReader cr = new ClassReader(is);
-      cr.accept(new ClassVisitor(Opcodes.ASM6) {
+      cr.accept(new ClassVisitor(Opcodes.ASM7) {
 
         @Override
         public void visit(int version, int access, String name, String signature, String superName,

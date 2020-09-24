@@ -18,7 +18,8 @@ public class ArrayExample {
     }
 
     void testNnSCnA(@NonNull String @Nullable [] tmp) {
-        tmp = null;
+        // TODO: assigning parameter not allowed
+        // tmp = null;
         //- tmp[0] = null; // error: accessing a possibly-null array tmp + incompatible types in assignment
     }
 
@@ -28,7 +29,8 @@ public class ArrayExample {
     }
 
     void testCnSCnA(@Nullable String @Nullable [] tmp) {
-        tmp = null;
+        // TODO: assigning parameter not allowed
+        // tmp = null;
         //- tmp[0] = null; // error: accessing a possibly-null array tmp
     }
 
@@ -51,6 +53,7 @@ public class ArrayExample {
     }
 
     void foo(String[] linesArgument) {
+        // comment
     }
 
     void newArray() {
