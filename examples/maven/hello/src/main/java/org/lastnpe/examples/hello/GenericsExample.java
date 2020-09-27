@@ -1,5 +1,7 @@
 package org.lastnpe.examples.hello;
 
+import org.eclipse.jdt.annotation.NonNull;
+
 @SuppressWarnings("unused")
 public class GenericsExample {
 
@@ -10,6 +12,6 @@ public class GenericsExample {
     // This seems wrong, because the mouse over hover clearly shows Parent<@NonNull T> (from @NonNullByDefault) and Child<@NonNull T>
     // Workaround "Child<@NonNull T>" makes it disappear, but why is this needed?
     // TODO Is this https://bugs.eclipse.org/bugs/show_bug.cgi?id=522142 ?
-    private static class Child<T> extends Parent<T> {
+    private static class Child<@NonNull T> extends Parent<T> {
     }
 }
