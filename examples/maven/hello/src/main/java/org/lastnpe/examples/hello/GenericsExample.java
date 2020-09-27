@@ -6,7 +6,6 @@ import org.eclipse.jdt.annotation.NonNull;
 public class GenericsExample {
 
     private static class Parent<T> {
-        // comment
     }
 
     // Null constraint mismatch: The type 'T' is not a valid substitute for the type parameter '@NonNull T'
