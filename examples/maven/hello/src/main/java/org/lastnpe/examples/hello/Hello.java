@@ -19,7 +19,6 @@ public class Hello implements SomeInterface {
     }
 
     public void anotherMethodWithNullableArgument(@Nullable Object anObject) {
-        // comment
     }
 
     @Override
