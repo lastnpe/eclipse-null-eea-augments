@@ -1,17 +1,8 @@
 package org.lastnpe.examples.hello;
 
-import static org.eclipse.jdt.annotation.DefaultLocation.ARRAY_CONTENTS;
-import static org.eclipse.jdt.annotation.DefaultLocation.FIELD;
-import static org.eclipse.jdt.annotation.DefaultLocation.PARAMETER;
-import static org.eclipse.jdt.annotation.DefaultLocation.RETURN_TYPE;
-import static org.eclipse.jdt.annotation.DefaultLocation.TYPE_ARGUMENT;
-import static org.eclipse.jdt.annotation.DefaultLocation.TYPE_BOUND;
-import static org.eclipse.jdt.annotation.DefaultLocation.TYPE_PARAMETER;
-
-import org.eclipse.jdt.annotation.NonNullByDefault;
+import org.eclipse.jdt.annotation.NonNull;
 
 @SuppressWarnings("unused")
-@NonNullByDefault({ PARAMETER, RETURN_TYPE, FIELD, TYPE_PARAMETER, TYPE_BOUND, TYPE_ARGUMENT, ARRAY_CONTENTS })
 public class GenericsExample {
 
     private static class Parent<T> {
@@ -21,6 +12,6 @@ public class GenericsExample {
     // This seems wrong, because the mouse over hover clearly shows Parent<@NonNull T> (from @NonNullByDefault) and Child<@NonNull T>
     // Workaround "Child<@NonNull T>" makes it disappear, but why is this needed?
     // TODO Is this https://bugs.eclipse.org/bugs/show_bug.cgi?id=522142 ?
-    private static class Child<T> extends Parent<T> {
+    private static class Child<@NonNull T> extends Parent<T> {
     }
 }

@@ -1,4 +1,13 @@
 class java/util/Collections
+EMPTY_LIST
+ Ljava/util/List;
+ L1java/util/List;
+EMPTY_MAP
+ Ljava/util/Map;
+ L1java/util/Map;
+EMPTY_SET
+ Ljava/util/Set;
+ L1java/util/Set;
 emptyEnumeration
  <T:Ljava/lang/Object;>()Ljava/util/Enumeration<TT;>;
  <T:Ljava/lang/Object;>()L1java/util/Enumeration<TT;>;
@@ -29,6 +38,9 @@ emptySortedMap
 emptySortedSet
  <E:Ljava/lang/Object;>()Ljava/util/SortedSet<TE;>;
  <E:Ljava/lang/Object;>()L1java/util/SortedSet<TE;>;
+reverseOrder
+ <T:Ljava/lang/Object;>(Ljava/util/Comparator<TT;>;)Ljava/util/Comparator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Comparator<TT;>;)L1java/util/Comparator<TT;>;
 singleton
  <T:Ljava/lang/Object;>(TT;)Ljava/util/Set<TT;>;
  <T:Ljava/lang/Object;>(TT;)L1java/util/Set<TT;>;

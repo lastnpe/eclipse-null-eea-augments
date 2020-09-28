@@ -43,15 +43,19 @@
       </plugin>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.7.0</version>
+        <version>3.8.0</version>
         <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
+          <release>11</release>
           <showWarnings>true</showWarnings>
           <!-- TODO Bug, this does not actually seem to work for alternative compilerId? -->
           <failOnWarning>true</failOnWarning>
           <compilerId>jdt</compilerId>
           <compilerArguments>
+            <!-- The -annotationpath "CLASSPATH" here causes the JDT ECJ Batch Compiler
+                 to (quote) "When annotation based null analysis is enabled (...),
+                 lookup external annotations from the classpath and sourcepath."
+                 @see http://help.eclipse.org/oxygen/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Ftasks%2Ftask-using_batch_compiler.htm
+              -->
             <annotationpath>CLASSPATH</annotationpath>
             <properties>${project.build.directory}/org.eclipse.jdt.core.prefs</properties>
             <!-- NB: It's NOT possible to list *.prefs properties directly here; see https://issues.apache.org/jira/browse/MCOMPILER-123
@@ -64,12 +68,13 @@
                http://help.eclipse.org/neon/index.jsp?topic=/org.eclipse.jdt.doc.user/tasks/task-using_batch_compiler.htm
            <compilerArgument>-err:nullAnnot,null,-missingNullDefault</compilerArgument>
           -->
+          <failOnWarning>false</failOnWarning>
         </configuration>
         <dependencies>
           <dependency>
             <groupId>org.eclipse.tycho</groupId>
             <artifactId>tycho-compiler-jdt</artifactId>
-            <version>1.0.0</version>
+            <version>2.0.0</version>
           </dependency>
           <dependency>
             <!-- NB: This dependency is, intentionally, duplicated above
