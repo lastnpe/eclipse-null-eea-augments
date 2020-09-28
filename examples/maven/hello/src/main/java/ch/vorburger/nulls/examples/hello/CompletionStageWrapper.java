@@ -1,4 +1,4 @@
-package ch.vorburger.nulls.examples.hello;
+package org.lastnpe.examples.hello;
 
 import org.eclipse.jdt.annotation.NonNullByDefault;
 import static org.eclipse.jdt.annotation.DefaultLocation.ARRAY_CONTENTS;
