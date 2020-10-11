@@ -25,7 +25,7 @@ applyToEitherAsync
  <U:Ljava/lang/Object;>(L1java/util/concurrent/CompletionStage<+TT;>;L1java/util/function/Function<-TT;TU;>;L1java/util/concurrent/Executor;)L1java/util/concurrent/CompletableFuture<TU;>;
 complete
  (TT;)Z
- (T0T;)Z
+ (TT;)Z
 completeAsync
  (Ljava/util/function/Supplier<+TT;>;)Ljava/util/concurrent/CompletableFuture<TT;>;
  (L1java/util/function/Supplier<+TT;>;)L1java/util/concurrent/CompletableFuture<T0T;>;
@@ -43,7 +43,7 @@ completedFuture
  <U:Ljava/lang/Object;>(T0U;)L1java/util/concurrent/CompletableFuture<TU;>;
 completedStage
  <U:Ljava/lang/Object;>(TU;)Ljava/util/concurrent/CompletionStage<TU;>;
- <U:Ljava/lang/Object;>(T0U;)L1java/util/concurrent/CompletionStage<TU;>;
+ <U:Ljava/lang/Object;>(TU;)L1java/util/concurrent/CompletionStage<TU;>;
 copy
  ()Ljava/util/concurrent/CompletableFuture<TT;>;
  ()L1java/util/concurrent/CompletableFuture<TT;>;
@@ -67,10 +67,10 @@ failedStage
  <U:Ljava/lang/Object;>(L1java/lang/Throwable;)L1java/util/concurrent/CompletionStage<TU;>;
 get
  (JLjava/util/concurrent/TimeUnit;)TT;
- (JL1java/util/concurrent/TimeUnit;)T0T;
+ (JL1java/util/concurrent/TimeUnit;)TT;
 getNow
  (TT;)TT;
- (T0T;)T0T;
+ (TT;)TT;
 handle
  <U:Ljava/lang/Object;>(Ljava/util/function/BiFunction<-TT;Ljava/lang/Throwable;+TU;>;)Ljava/util/concurrent/CompletableFuture<TU;>;
  <U:Ljava/lang/Object;>(L1java/util/function/BiFunction<-TT;Ljava/lang/Throwable;+TU;>;)L1java/util/concurrent/CompletableFuture<TU;>;
