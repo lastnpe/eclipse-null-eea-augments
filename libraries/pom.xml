@@ -1,23 +1,25 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.lastnpe.eea</groupId>
+  <parent>
+    <groupId>org.lastnpe.eea</groupId>
+    <artifactId>eea-root</artifactId>
+    <version>2.0.0-SNAPSHOT</version>
+  </parent>
+
   <artifactId>eea-parent</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>Eclipse External null Annotations (EEA)</name>
+  <name>EEA :: Reactor</name>
   <description>JARs of *.eea for the JDK and common Java libraries</description>
   <url>https://lastnpe.org</url>
   <inceptionYear>2016</inceptionYear>
 
-  <scm>
-    <connection>https://github.com/lastnpe/eclipse-null-eea-augments.git</connection>
-    <developerConnection>scm:git:git@github.com:lastnpe/eclipse-null-eea-augments.git</developerConnection>
-    <url>https://github.com/lastnpe/eclipse-null-eea-augments</url>
-    <tag>HEAD</tag>
-  </scm>
+  <organization>
+    <name>LastNPE.org</name>
+    <url>http://www.lastnpe.org</url>
+  </organization>
 
   <licenses>
     <license>
@@ -26,11 +28,6 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
-
-  <organization>
-    <name>Michael Vorburger</name>
-    <url>http://www.vorburger.ch</url>
-  </organization>
 
   <developers>
     <developer>
@@ -46,6 +43,24 @@
     </contributor>
   </contributors>
 
+  <modules>
+    <module>eea-all</module>
+    <module>java</module>
+    <module>slf4j-api</module>
+    <module>mockito</module>
+    <module>guava</module>
+    <module>spring</module>
+    <module>osgi-core</module>
+    <module>javamail</module>
+  </modules>
+
+  <scm>
+    <connection>https://github.com/lastnpe/eclipse-null-eea-augments.git</connection>
+    <developerConnection>scm:git:git@github.com:lastnpe/eclipse-null-eea-augments.git</developerConnection>
+    <tag>HEAD</tag>
+    <url>https://github.com/lastnpe/eclipse-null-eea-augments</url>
+  </scm>
+
   <distributionManagement>
     <!-- http://central.sonatype.org/pages/apache-maven.html -->
     <snapshotRepository>
@@ -56,27 +71,22 @@
          has this hard-coded or automatically find sit somehow, IFF <version> is non-SNAPSHOT -->
   </distributionManagement>
 
-  <properties>
-    <java.version>1.8</java.version>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-
   <build>
     <!-- NB: Similar configuration also in examples/maven/jdt-ecj-settings/pom.xml -->
     <resources>
       <resource>
+        <filtering>false</filtering>
         <directory>${project.basedir}</directory>
+        <includes>
+          <include>**/*</include>
+          <include>eea-*.*</include>
+        </includes>
         <excludes>
           <exclude>.*</exclude>
           <exclude>pom.xml</exclude>
           <exclude>target/</exclude>
           <exclude>.settings/</exclude>
         </excludes>
-        <includes>
-          <include>**/*</include>
-          <include>eea-*.*</include>
-        </includes>
-        <filtering>false</filtering>
       </resource>
     </resources>
     <plugins>
@@ -113,12 +123,12 @@
       <plugin>
         <groupId>org.sonatype.plugins</groupId>
         <artifactId>nexus-staging-maven-plugin</artifactId>
-        <version>1.6.7</version>
+        <version>1.6.8</version>
         <extensions>true</extensions>
         <configuration>
           <serverId>ossrh</serverId>
           <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-          <autoReleaseAfterClose>true</autoReleaseAfterClose>
+          <autoReleaseAfterClose>false</autoReleaseAfterClose>
         </configuration>
       </plugin>
     </plugins>
@@ -137,7 +147,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.5.1</version>
+            <version>3.8.1</version>
             <!-- Disable Java compilation, not needed for creating EEA JARs.
                  This mainly just leads to shorter mvn build logs.. ;-) and
                  may help a little bit in build perf. when there will be many.
@@ -161,7 +171,7 @@
       </build>
     </profile>
     <profile>
-      <id>gpg</id>
+      <id>release</id>
       <build>
         <plugins>
           <plugin>
@@ -171,10 +181,10 @@
             <executions>
               <execution>
                 <id>sign-artifacts</id>
-                <phase>verify</phase>
                 <goals>
                   <goal>sign</goal>
                 </goals>
+                <phase>verify</phase>
               </execution>
             </executions>
           </plugin>
@@ -195,25 +205,21 @@
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-compiler-plugin</artifactId>
               <configuration>
-                <!-- specify a 1.8 java version to avoid eclipse warnings about missing 1.5 J2SE -->
-                <source>${java.version}</source>
-                <target>${java.version}</target>
+                <release>${eea.java.version}</release>
               </configuration>
+            </plugin>
+            <plugin>
+              <groupId>org.codehaus.mojo</groupId>
+              <artifactId>versions-maven-plugin</artifactId>
+              <version>2.8.1</version>
+            </plugin>
+            <plugin>
+              <artifactId>maven-deploy-plugin</artifactId>
+              <version>2.8.2</version>
             </plugin>
           </plugins>
         </pluginManagement>
       </build>
     </profile>
   </profiles>
-
-  <modules>
-    <module>eea-all</module>
-    <module>java</module>
-    <module>slf4j-api</module>
-    <module>mockito</module>
-    <module>guava</module>
-    <module>spring</module>
-    <module>osgi-core</module>
-	<module>javamail</module>
-  </modules>
 </project>
