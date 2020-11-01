@@ -16,6 +16,11 @@
   <dependencies>
     <dependency>
       <groupId>org.lastnpe.eea</groupId>
+      <artifactId>javamail-eea</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.lastnpe.eea</groupId>
       <artifactId>jdk-eea</artifactId>
       <version>${project.version}</version>
     </dependency>
@@ -31,6 +36,11 @@
     </dependency>
     <dependency>
       <groupId>org.lastnpe.eea</groupId>
+      <artifactId>servlet-api-eea</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.lastnpe.eea</groupId>
       <artifactId>slf4j-api-eea</artifactId>
       <version>${project.version}</version>
     </dependency>
@@ -42,6 +52,11 @@
     <dependency>
       <groupId>org.lastnpe.eea</groupId>
       <artifactId>osgi-core-eea</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.lastnpe.eea</groupId>
+      <artifactId>xstream-eea</artifactId>
       <version>${project.version}</version>
     </dependency>
 
@@ -63,6 +78,27 @@
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
       <version>25.1-jre</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.sun.mail</groupId>
+      <artifactId>javax.mail</artifactId>
+      <version>1.6.2</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.thoughtworks.xstream</groupId>
+      <artifactId>xstream</artifactId>
+      <version>1.4.13</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.1.0</version>
       <scope>test</scope>
     </dependency>
 
