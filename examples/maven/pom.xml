@@ -21,6 +21,11 @@
     <module>hello</module>
   </modules>
 
+  <properties>
+    <eea.java.version>11</eea.java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
   <dependencies>
     <!-- The dual use of org.eclipse.jdt.annotation.Nullable
          as well as javax.annotation.Nullable from FindBugs
