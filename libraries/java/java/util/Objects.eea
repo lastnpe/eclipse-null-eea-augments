@@ -13,7 +13,13 @@ requireNonNull
  <T:Ljava/lang/Object;>(TT;Ljava/lang/String;)T1T;
 requireNonNull
  <T:Ljava/lang/Object;>(TT;Ljava/util/function/Supplier<Ljava/lang/String;>;)TT;
- <T:Ljava/lang/Object;>(TT;Ljava/util/function/Supplier<Ljava/lang/String;>;)T1T;
+ <T:Ljava/lang/Object;>(T0T;L1java/util/function/Supplier<Ljava/lang/String;>;)T1T;
+requireNonNullElse
+ <T:Ljava/lang/Object;>(TT;TT;)TT;
+ <T:Ljava/lang/Object;>(T0T;T1T;)T1T;
+requireNonNullElseGet
+ <T:Ljava/lang/Object;>(TT;Ljava/util/function/Supplier<+TT;>;)TT;
+ <T:Ljava/lang/Object;>(T0T;L1java/util/function/Supplier<+1TT;>;)T1T;
 toString
  (Ljava/lang/Object;)Ljava/lang/String;
  (L0java/lang/Object;)L1java/lang/String;
