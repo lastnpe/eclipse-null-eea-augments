@@ -1,10 +1,9 @@
 package org.lastnpe.eea.test;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
-
-import org.junit.Test;
 
 /**
  * This is a 'self test'. It checks if the .eea files will match to the .class files.
@@ -28,7 +27,7 @@ public class SelfTest {
       ok &= checkEea(eea);
     }
     if (!ok) {
-      fail("There were eea inconsistences detected");
+      Assertions.fail("There were eea inconsistences detected");
     }
   }
 
