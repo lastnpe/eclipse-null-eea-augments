@@ -2,43 +2,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.lastnpe.eea</groupId>
+  <parent>
+    <groupId>org.lastnpe.eea</groupId>
+    <artifactId>eea-root</artifactId>
+    <version>2.3.0-SNAPSHOT</version>
+  </parent>
+
   <artifactId>eea-parent</artifactId>
-  <version>2.3.0-SNAPSHOT</version>
 
   <packaging>pom</packaging>
 
   <name>EEA :: Reactor</name>
   <description>JARs of *.eea for the JDK and common Java libraries</description>
-  <url>https://lastnpe.org</url>
-  <inceptionYear>2016</inceptionYear>
-
-  <organization>
-    <name>LastNPE.org</name>
-    <url>http://www.lastnpe.org</url>
-  </organization>
-
-  <licenses>
-    <license>
-      <name>Eclipse Public License v1.0</name>
-      <url>http://www.eclipse.org/legal/epl-v10.html</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
-
-  <developers>
-    <developer>
-      <id>vorburger</id>
-      <name>Michael Vorburger</name>
-      <email>mike@vorburger.ch</email>
-      <url>http://www.vorburger.ch</url>
-    </developer>
-  </developers>
-  <contributors>
-    <contributor>
-      <name>Please see https://github.com/lastnpe/eclipse-null-eea-augments/graphs/contributors</name>
-    </contributor>
-  </contributors>
 
   <modules>
     <module>eea-all</module>
@@ -55,28 +30,6 @@
     <module>spring</module>
     <module>xstream</module>
   </modules>
-
-  <scm>
-    <connection>https://github.com/lastnpe/eclipse-null-eea-augments.git</connection>
-    <developerConnection>scm:git:git@github.com:lastnpe/eclipse-null-eea-augments.git</developerConnection>
-    <tag>HEAD</tag>
-    <url>https://github.com/lastnpe/eclipse-null-eea-augments</url>
-  </scm>
-
-  <distributionManagement>
-    <!-- http://central.sonatype.org/pages/apache-maven.html -->
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
-    <!-- <repository> isn't needed with nexus-staging-maven-plugin, it somehow
-         has this hard-coded or automatically find sit somehow, IFF <version> is non-SNAPSHOT -->
-  </distributionManagement>
-
-  <properties>
-    <eea.java.version>11</eea.java.version>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
 
   <build>
     <!-- NB: Similar configuration also in examples/maven/jdt-ecj-settings/pom.xml -->
@@ -127,20 +80,8 @@
         </executions>
       </plugin>
       <!-- Intentionally no maven-source-plugin & maven-javadoc-plugin; as not needed for EEA here! -->
-      <plugin>
-        <groupId>org.sonatype.plugins</groupId>
-        <artifactId>nexus-staging-maven-plugin</artifactId>
-        <version>1.6.8</version>
-        <extensions>true</extensions>
-        <configuration>
-          <serverId>ossrh</serverId>
-          <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-          <autoReleaseAfterClose>false</autoReleaseAfterClose>
-        </configuration>
-      </plugin>
     </plugins>
   </build>
-
   <profiles>
     <profile>
       <id>not-m2e</id>
@@ -171,27 +112,6 @@
               <execution>
                 <id>default-testCompile</id>
                 <phase>none</phase>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-    <profile>
-      <id>release</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-gpg-plugin</artifactId>
-            <version>1.6</version>
-            <executions>
-              <execution>
-                <id>sign-artifacts</id>
-                <goals>
-                  <goal>sign</goal>
-                </goals>
-                <phase>verify</phase>
               </execution>
             </executions>
           </plugin>
