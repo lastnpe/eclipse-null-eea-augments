@@ -57,20 +57,21 @@
   </modules>
 
   <scm>
-    <connection>https://github.com/lastnpe/eclipse-null-eea-augments.git</connection>
-    <developerConnection>scm:git:git@github.com:lastnpe/eclipse-null-eea-augments.git</developerConnection>
+    <connection>scm:git@github.com/lastnpe/eclipse-null-eea-augments.git</connection>
+    <developerConnection>scm:git:git@github.com/lastnpe/eclipse-null-eea-augments.git</developerConnection>
     <tag>HEAD</tag>
     <url>https://github.com/lastnpe/eclipse-null-eea-augments</url>
   </scm>
 
   <distributionManagement>
-    <!-- http://central.sonatype.org/pages/apache-maven.html -->
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
     <snapshotRepository>
       <id>ossrh</id>
       <url>https://oss.sonatype.org/content/repositories/snapshots</url>
     </snapshotRepository>
-    <!-- <repository> isn't needed with nexus-staging-maven-plugin, it somehow
-         has this hard-coded or automatically find sit somehow, IFF <version> is non-SNAPSHOT -->
   </distributionManagement>
 
   <properties>
@@ -127,17 +128,6 @@
         </executions>
       </plugin>
       <!-- Intentionally no maven-source-plugin & maven-javadoc-plugin; as not needed for EEA here! -->
-      <plugin>
-        <groupId>org.sonatype.plugins</groupId>
-        <artifactId>nexus-staging-maven-plugin</artifactId>
-        <version>1.6.8</version>
-        <extensions>true</extensions>
-        <configuration>
-          <serverId>ossrh</serverId>
-          <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-          <autoReleaseAfterClose>false</autoReleaseAfterClose>
-        </configuration>
-      </plugin>
     </plugins>
   </build>
 
@@ -192,8 +182,45 @@
                   <goal>sign</goal>
                 </goals>
                 <phase>verify</phase>
+                <configuration>
+                  <gpgArguments>
+                    <arg>--pinentry-mode</arg>
+                    <arg>loopback</arg>
+                  </gpgArguments>
+                </configuration>
               </execution>
             </executions>
+          </plugin>
+
+          <!-- unleash -->
+          <plugin>
+            <groupId>com.itemis.maven.plugins</groupId>
+            <artifactId>unleash-maven-plugin</artifactId>
+            <version>2.9.3</version>
+            <dependencies>
+              <!-- The next 3 dependencies were added due to https://github.com/shillner/unleash-scm-provider-git/issues/15 -->
+              <dependency>
+                <groupId>com.jcraft</groupId>
+                <artifactId>jsch</artifactId>
+                <version>0.1.55</version>
+              </dependency>
+              <dependency>
+                <groupId>org.eclipse.jgit</groupId>
+                <artifactId>org.eclipse.jgit</artifactId>
+                <version>5.3.0.201903130848-r</version>
+              </dependency>
+              <dependency>
+                <groupId>com.itemis.maven.plugins</groupId>
+                <artifactId>unleash-scm-provider-api</artifactId>
+                <version>2.9.3</version>
+              </dependency>
+              <!-- end -->
+              <dependency>
+                <groupId>com.itemis.maven.plugins</groupId>
+                <artifactId>unleash-scm-provider-git</artifactId>
+                <version>2.2.0</version>
+              </dependency>
+            </dependencies>
           </plugin>
         </plugins>
       </build>
