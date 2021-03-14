@@ -1,0 +1,25 @@
+class org/eclipse/jetty/client/api/Response$Listener$Adapter
+onBegin
+ (Lorg/eclipse/jetty/client/api/Response;)V
+ (L1org/eclipse/jetty/client/api/Response;)V
+onComplete
+ (Lorg/eclipse/jetty/client/api/Result;)V
+ (L1org/eclipse/jetty/client/api/Result;)V
+onContent
+ (Lorg/eclipse/jetty/client/api/Response;Ljava/nio/ByteBuffer;)V
+ (L1org/eclipse/jetty/client/api/Response;L1java/nio/ByteBuffer;)V
+onContent
+ (Lorg/eclipse/jetty/client/api/Response;Ljava/nio/ByteBuffer;Lorg/eclipse/jetty/util/Callback;)V
+ (L1org/eclipse/jetty/client/api/Response;L1java/nio/ByteBuffer;L1org/eclipse/jetty/util/Callback;)V
+onFailure
+ (Lorg/eclipse/jetty/client/api/Response;Ljava/lang/Throwable;)V
+ (L1org/eclipse/jetty/client/api/Response;L1java/lang/Throwable;)V
+onHeader
+ (Lorg/eclipse/jetty/client/api/Response;Lorg/eclipse/jetty/http/HttpField;)Z
+ (L1org/eclipse/jetty/client/api/Response;L1org/eclipse/jetty/http/HttpField;)Z
+onHeaders
+ (Lorg/eclipse/jetty/client/api/Response;)V
+ (L1org/eclipse/jetty/client/api/Response;)V
+onSuccess
+ (Lorg/eclipse/jetty/client/api/Response;)V
+ (L1org/eclipse/jetty/client/api/Response;)V
