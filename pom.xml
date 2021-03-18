@@ -10,9 +10,253 @@
 
   <name>Eclipse External null Annotations (EEA)</name>
 
+  <url>https://lastnpe.org</url>
+  <inceptionYear>2016</inceptionYear>
+
+  <organization>
+    <name>LastNPE.org</name>
+    <url>http://www.lastnpe.org</url>
+  </organization>
+
+  <licenses>
+    <license>
+      <name>Eclipse Public License v1.0</name>
+      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>vorburger</id>
+      <name>Michael Vorburger</name>
+      <email>mike@vorburger.ch</email>
+      <url>http://www.vorburger.ch</url>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <name>Please see https://github.com/lastnpe/eclipse-null-eea-augments/graphs/contributors</name>
+    </contributor>
+  </contributors>
+
+  <scm>
+    <connection>scm:git@github.com/lastnpe/eclipse-null-eea-augments.git</connection>
+    <developerConnection>scm:git:git@github.com/lastnpe/eclipse-null-eea-augments.git</developerConnection>
+    <tag>HEAD</tag>
+    <url>https://github.com/lastnpe/eclipse-null-eea-augments</url>
+  </scm>
+
+  <distributionManagement>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+  <properties>
+    <eea.java.version>11</eea.java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <build>
+    <!-- NB: Similar configuration also in examples/maven/jdt-ecj-settings/pom.xml -->
+    <resources>
+      <resource>
+        <filtering>false</filtering>
+        <directory>${project.basedir}</directory>
+        <includes>
+          <include>**/*</include>
+          <include>eea-*.*</include>
+        </includes>
+        <excludes>
+          <exclude>.*</exclude>
+          <exclude>pom.xml</exclude>
+          <exclude>target/</exclude>
+          <exclude>.settings/</exclude>
+        </excludes>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>3.0.1</version>
+        <!-- Disable src/test/resources, not needed for creating EEA JARs -->
+        <executions>
+          <execution>
+            <id>default-testResources</id>
+            <phase>none</phase>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.0.2</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.19.1</version>
+        <!-- Disable Surefire, not needed for creating EEA JARs -->
+        <executions>
+          <execution>
+            <id>default-test</id>
+            <phase>none</phase>
+          </execution>
+        </executions>
+      </plugin>
+      <!-- Intentionally no maven-source-plugin & maven-javadoc-plugin; as not needed for EEA here! -->
+    </plugins>
+  </build>
+
   <modules>
-    <module>libraries</module>
-    <module>examples/maven</module>
   </modules>
+
+  <profiles>
+    <profile>
+      <id>with-examples</id>
+      <activation>
+        <property>
+          <name>!noExamples</name>
+        </property>
+      </activation>
+      <modules>
+        <module>libraries</module>
+        <module>examples/maven</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>not-m2e</id>
+      <activation>
+        <property>
+          <name>!m2e.version</name>
+        </property>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version>
+            <!-- Disable Java compilation, not needed for creating EEA JARs.
+                 This mainly just leads to shorter mvn build logs.. ;-) and
+                 may help a little bit in build perf. when there will be many.
+
+                 NB: This is a !m2e profile because in-IDE we CANNOT do this;
+                 because that would cause M2E to create a non-Java Eclipse project
+                 and then workspace dependency resolution to EEA wouldn't work anymore!
+             -->
+            <executions>
+              <execution>
+                <id>default-compile</id>
+                <phase>none</phase>
+              </execution>
+              <execution>
+                <id>default-testCompile</id>
+                <phase>none</phase>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>release</id>
+      <modules>
+        <module>libraries</module>
+      </modules>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <version>1.6</version>
+            <executions>
+              <execution>
+                <id>sign-artifacts</id>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+                <phase>verify</phase>
+                <configuration>
+                  <gpgArguments>
+                    <arg>--pinentry-mode</arg>
+                    <arg>loopback</arg>
+                  </gpgArguments>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+
+          <!-- unleash -->
+          <plugin>
+            <groupId>com.itemis.maven.plugins</groupId>
+            <artifactId>unleash-maven-plugin</artifactId>
+            <version>2.9.3</version>
+            <dependencies>
+              <!-- The next 3 dependencies were added due to https://github.com/shillner/unleash-scm-provider-git/issues/15 -->
+              <dependency>
+                <groupId>com.jcraft</groupId>
+                <artifactId>jsch</artifactId>
+                <version>0.1.55</version>
+              </dependency>
+              <dependency>
+                <groupId>org.eclipse.jgit</groupId>
+                <artifactId>org.eclipse.jgit</artifactId>
+                <version>5.3.0.201903130848-r</version>
+              </dependency>
+              <dependency>
+                <groupId>com.itemis.maven.plugins</groupId>
+                <artifactId>unleash-scm-provider-api</artifactId>
+                <version>2.9.3</version>
+              </dependency>
+              <!-- end -->
+              <dependency>
+                <groupId>com.itemis.maven.plugins</groupId>
+                <artifactId>unleash-scm-provider-git</artifactId>
+                <version>2.2.0</version>
+              </dependency>
+            </dependencies>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>m2e</id>
+      <activation>
+        <property>
+          <name>m2e.version</name>
+        </property>
+      </activation>
+      <build>
+        <pluginManagement>
+          <plugins>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <configuration>
+                <release>${eea.java.version}</release>
+              </configuration>
+            </plugin>
+            <plugin>
+              <groupId>org.codehaus.mojo</groupId>
+              <artifactId>versions-maven-plugin</artifactId>
+              <version>2.8.1</version>
+            </plugin>
+            <plugin>
+              <artifactId>maven-deploy-plugin</artifactId>
+              <version>2.8.2</version>
+            </plugin>
+          </plugins>
+        </pluginManagement>
+      </build>
+    </profile>
+  </profiles>
 
 </project>
