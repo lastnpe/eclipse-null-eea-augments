@@ -1,10 +1,25 @@
 class java/util/stream/Collectors
+joining
+ ()Ljava/util/stream/Collector<Ljava/lang/CharSequence;*Ljava/lang/String;>;
+ ()L1java/util/stream/Collector<Ljava/lang/CharSequence;*Ljava/lang/String;>;
+joining
+ (Ljava/lang/CharSequence;)Ljava/util/stream/Collector<Ljava/lang/CharSequence;*Ljava/lang/String;>;
+ (L1java/lang/CharSequence;)L1java/util/stream/Collector<Ljava/lang/CharSequence;*Ljava/lang/String;>;
+joining
+ (Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/util/stream/Collector<Ljava/lang/CharSequence;*Ljava/lang/String;>;
+ (L1java/lang/CharSequence;L1java/lang/CharSequence;L1java/lang/CharSequence;)L1java/util/stream/Collector<Ljava/lang/CharSequence;*Ljava/lang/String;>;
 toCollection
  <T:Ljava/lang/Object;C::Ljava/util/Collection<TT;>;>(Ljava/util/function/Supplier<TC;>;)Ljava/util/stream/Collector<TT;*TC;>;
- <T:Ljava/lang/Object;C::Ljava/util/Collection<TT;>;>(Ljava/util/function/Supplier<TC;>;)Ljava/util/stream/Collector<TT;*T1C;>;
+ <T:Ljava/lang/Object;C::Ljava/util/Collection<TT;>;>(L1java/util/function/Supplier<TC;>;)L1java/util/stream/Collector<TT;*T1C;>;
 toList
  <T:Ljava/lang/Object;>()Ljava/util/stream/Collector<TT;*Ljava/util/List<TT;>;>;
- <T:Ljava/lang/Object;>()Ljava/util/stream/Collector<TT;*L1java/util/List<TT;>;>;
+ <T:Ljava/lang/Object;>()L1java/util/stream/Collector<TT;*L1java/util/List<TT;>;>;
 toSet
  <T:Ljava/lang/Object;>()Ljava/util/stream/Collector<TT;*Ljava/util/Set<TT;>;>;
- <T:Ljava/lang/Object;>()Ljava/util/stream/Collector<TT;*L1java/util/Set<TT;>;>;
+ <T:Ljava/lang/Object;>()L1java/util/stream/Collector<TT;*L1java/util/Set<TT;>;>;
+toUnmodifiableList
+ <T:Ljava/lang/Object;>()Ljava/util/stream/Collector<TT;*Ljava/util/List<TT;>;>;
+ <T:Ljava/lang/Object;>()L1java/util/stream/Collector<TT;*Ljava/util/List<TT;>;>;
+toUnmodifiableSet
+ <T:Ljava/lang/Object;>()Ljava/util/stream/Collector<TT;*Ljava/util/Set<TT;>;>;
+ <T:Ljava/lang/Object;>()L1java/util/stream/Collector<TT;*Ljava/util/Set<TT;>;>;
