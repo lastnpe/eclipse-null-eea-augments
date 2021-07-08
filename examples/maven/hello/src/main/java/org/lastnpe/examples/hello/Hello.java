@@ -3,6 +3,7 @@ package org.lastnpe.examples.hello;
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Optional;
 import org.eclipse.jdt.annotation.Nullable;
 import org.lastnpe.examples.hello.lib.Service;
@@ -16,6 +17,14 @@ public class Hello implements SomeInterface {
     @Override
     // TODO @Nullable should ideally not have to be repeated here, see https://bugs.eclipse.org/bugs/show_bug.cgi?id=505828
     public void someMethodWithNullableArgument(@Nullable Object anObject) {
+    }
+
+    @Override
+    public void someMethodWithNonNullableByDefaultArgument(Object anObject) {
+        // Even though Eclipse guarantees as anObject is @NonNull (via @NonNullByDefault in package-info.java)
+        // it may still be useful to do old style defensive programming and check arguments,
+        // in particular if this method could also be called by code which is not (yet) null checked
+        Objects.requireNonNull(anObject, "anObject");
     }
 
     public void anotherMethodWithNullableArgument(@Nullable Object anObject) {
@@ -99,4 +108,5 @@ public class Hello implements SomeInterface {
         // fine.
         // bar(fileMayBeNull2);
     }
+
 }
