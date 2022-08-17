@@ -1,6 +1,7 @@
-[![Build Status](https://travis-ci.org/lastnpe/eclipse-null-eea-augments.svg)](https://travis-ci.org/lastnpe/eclipse-null-eea-augments)
-
 # Eclipse External null Annotations (EEA)
+
+[![Build Status](https://github.com/lastnpe/eclipse-null-eea-augments/actions/workflows/build.yml/badge.svg)](https://github.com/lastnpe/eclipse-null-eea-augments/actions/workflows/build.yml)
+[![License](https://img.shields.io/github/license/lastnpe/eclipse-null-eea-augments?color=blue)](LICENSE)
 
 This repository contains *.eea files and example projects how to use this.
 
@@ -18,8 +19,8 @@ To automatically Enable Annotation-based Null Analysis in the Eclipse Project Pr
 
 This project aims to develop an active community of contributors, and not remain controlled by a single person.  Anyone making 3 intelligent contributions to this repo may ask to be promoted from a contributor to a committer with full write access by opening an issue requesting it.  (We reserve the right to re-remove committers in exceptional circumstances, and after long periods of inactivity.)
 
-We intend to liberally and quickly merge any contributions with additions to EEA, and avoid delays due to lengthy reviews 
-(which are anyway [kind of difficult to do rapidly and at scale until we solve issue #16](https://github.com/lastnpe/eclipse-null-eea-augments/issues/16)), 
+We intend to liberally and quickly merge any contributions with additions to EEA, and avoid delays due to lengthy reviews
+(which are anyway [kind of difficult to do rapidly and at scale until we solve issue #16](https://github.com/lastnpe/eclipse-null-eea-augments/issues/16)),
 based on the idea that having an EEA that can be tested is better than none.
 
 We intend to spend more time and request community feedback from engaged previous contributors on any proposed changes to existing EEA in this repo.  When making contributions with changes, please explain what is wrong in the current version in the commit message.
