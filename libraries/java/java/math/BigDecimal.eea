@@ -8,24 +8,84 @@ ONE
 TEN
  Ljava/math/BigDecimal;
  L1java/math/BigDecimal;
-divide
- (Ljava/math/BigDecimal;Ljava/math/MathContext;)Ljava/math/BigDecimal;
- (Ljava/math/BigDecimal;Ljava/math/MathContext;)L1java/math/BigDecimal;
-multiply
- (Ljava/math/BigDecimal;)Ljava/math/BigDecimal;
- (Ljava/math/BigDecimal;)L1java/math/BigDecimal;
-multiply
- (Ljava/math/BigDecimal;Ljava/math/MathContext;)Ljava/math/BigDecimal;
- (Ljava/math/BigDecimal;Ljava/math/MathContext;)L1java/math/BigDecimal;
-subtract
- (Ljava/math/BigDecimal;)Ljava/math/BigDecimal;
- (Ljava/math/BigDecimal;)L1java/math/BigDecimal;
 valueOf
  (D)Ljava/math/BigDecimal;
  (D)L1java/math/BigDecimal;
 valueOf
  (J)Ljava/math/BigDecimal;
  (J)L1java/math/BigDecimal;
+<init>
+ (DLjava/math/MathContext;)V
+ (DL1java/math/MathContext;)V
+<init>
+ (ILjava/math/MathContext;)V
+ (IL1java/math/MathContext;)V
+<init>
+ (JLjava/math/MathContext;)V
+ (JL1java/math/MathContext;)V
+<init>
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/math/MathContext;)V
+ (L1java/lang/String;L1java/math/MathContext;)V
+<init>
+ (Ljava/math/BigInteger;)V
+ (L1java/math/BigInteger;)V
+<init>
+ (Ljava/math/BigInteger;I)V
+ (L1java/math/BigInteger;I)V
+<init>
+ (Ljava/math/BigInteger;ILjava/math/MathContext;)V
+ (L1java/math/BigInteger;IL1java/math/MathContext;)V
+<init>
+ (Ljava/math/BigInteger;JII)V
+ (L1java/math/BigInteger;JII)V
+<init>
+ (Ljava/math/BigInteger;Ljava/math/MathContext;)V
+ (L1java/math/BigInteger;L1java/math/MathContext;)V
+<init>
+ ([CIILjava/math/MathContext;)V
+ ([CIIL1java/math/MathContext;)V
+<init>
+ ([CLjava/math/MathContext;)V
+ ([CL1java/math/MathContext;)V
 add
  (Ljava/math/BigDecimal;)Ljava/math/BigDecimal;
  (L1java/math/BigDecimal;)L1java/math/BigDecimal;
+divide
+ (Ljava/math/BigDecimal;)Ljava/math/BigDecimal;
+ (L1java/math/BigDecimal;)L1java/math/BigDecimal;
+divide
+ (Ljava/math/BigDecimal;Ljava/math/MathContext;)Ljava/math/BigDecimal;
+ (L1java/math/BigDecimal;L1java/math/MathContext;)L1java/math/BigDecimal;
+divideAndRemainder
+ (Ljava/math/BigDecimal;)[Ljava/math/BigDecimal;
+ (L1java/math/BigDecimal;)[1L1java/math/BigDecimal;
+max
+ (Ljava/math/BigDecimal;)Ljava/math/BigDecimal;
+ (L1java/math/BigDecimal;)L1java/math/BigDecimal;
+min
+ (Ljava/math/BigDecimal;)Ljava/math/BigDecimal;
+ (L1java/math/BigDecimal;)L1java/math/BigDecimal;
+multiply
+ (Ljava/math/BigDecimal;)Ljava/math/BigDecimal;
+ (L1java/math/BigDecimal;)L1java/math/BigDecimal;
+multiply
+ (Ljava/math/BigDecimal;Ljava/math/MathContext;)Ljava/math/BigDecimal;
+ (L1java/math/BigDecimal;Ljava/math/MathContext;)L1java/math/BigDecimal;
+negate
+ ()Ljava/math/BigDecimal;
+ ()L1java/math/BigDecimal;
+pow
+ (I)Ljava/math/BigDecimal;
+ (I)L1java/math/BigDecimal;
+remainder
+ (Ljava/math/BigDecimal;)Ljava/math/BigDecimal;
+ (L1java/math/BigDecimal;)L1java/math/BigDecimal;
+subtract
+ (Ljava/math/BigDecimal;)Ljava/math/BigDecimal;
+ (L1java/math/BigDecimal;)L1java/math/BigDecimal;
+sqrt
+ (Ljava/math/MathContext;)Ljava/math/BigDecimal;
+ (L1java/math/MathContext;)L1java/math/BigDecimal;

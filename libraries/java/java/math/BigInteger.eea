@@ -1,4 +1,121 @@
 class java/math/BigInteger
+ZERO
+ Ljava/math/BigInteger;
+ L1java/math/BigInteger;
+ONE
+ Ljava/math/BigInteger;
+ L1java/math/BigInteger;
+TWO
+ Ljava/math/BigInteger;
+ L1java/math/BigInteger;
+TEN
+ Ljava/math/BigInteger;
+ L1java/math/BigInteger;
 valueOf
  (J)Ljava/math/BigInteger;
  (J)L1java/math/BigInteger;
+<init>
+ ([B)V
+ ([B1)V
+<init>
+ ([BII)V
+ ([B1II)V
+<init>
+ (I[B)V
+ (I[B1)V
+<init>
+ (I[BII)V
+ (I[B1II)V
+<init>
+ (IILjava/util/Random;)V
+ (IIL1java/util/Random;)V
+<init>
+ (ILjava/util/Random;)V
+ (IL1java/util/Random;)V
+<init>
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V
+<init>
+ (Ljava/lang/String;I)V
+ (L1java/lang/String;I)V
+add
+ (Ljava/math/BigInteger;)Ljava/math/BigInteger;
+ (L1java/math/BigInteger;)L1java/math/BigInteger;
+and
+ (Ljava/math/BigInteger;)Ljava/math/BigInteger;
+ (L1java/math/BigInteger;)L1java/math/BigInteger;
+andNot
+ (Ljava/math/BigInteger;)Ljava/math/BigInteger;
+ (L1java/math/BigInteger;)L1java/math/BigInteger;
+clearBit
+ (I)Ljava/math/BigInteger;
+ (I)L1java/math/BigInteger;
+divide
+ (Ljava/math/BigInteger;)Ljava/math/BigInteger;
+ (L1java/math/BigInteger;)L1java/math/BigInteger;
+divideAndRemainder
+ (Ljava/math/BigInteger;)[Ljava/math/BigInteger;
+ (L1java/math/BigInteger;)[1L1java/math/BigInteger;
+flipBit
+ (I)Ljava/math/BigInteger;
+ (I)L1java/math/BigInteger;
+gcd
+ (Ljava/math/BigInteger;)Ljava/math/BigInteger;
+ (L1java/math/BigInteger;)L1java/math/BigInteger;
+max
+ (Ljava/math/BigInteger;)Ljava/math/BigInteger;
+ (L1java/math/BigInteger;)L1java/math/BigInteger;
+min
+ (Ljava/math/BigInteger;)Ljava/math/BigInteger;
+ (L1java/math/BigInteger;)L1java/math/BigInteger;
+mod
+ (Ljava/math/BigInteger;)Ljava/math/BigInteger;
+ (L1java/math/BigInteger;)L1java/math/BigInteger;
+modInverse
+ (Ljava/math/BigInteger;)Ljava/math/BigInteger;
+ (L1java/math/BigInteger;)L1java/math/BigInteger;
+modPow
+ (Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
+ (L1java/math/BigInteger;L1java/math/BigInteger;)L1java/math/BigInteger;
+multiply
+ (Ljava/math/BigInteger;)Ljava/math/BigInteger;
+ (L1java/math/BigInteger;)L1java/math/BigInteger;
+negate
+ ()Ljava/math/BigInteger;
+ ()L1java/math/BigInteger;
+nextProbablePrime
+ ()Ljava/math/BigInteger;
+ ()L1java/math/BigInteger;
+not
+ ()Ljava/math/BigInteger;
+ ()L1java/math/BigInteger;
+or
+ (Ljava/math/BigInteger;)Ljava/math/BigInteger;
+ (L1java/math/BigInteger;)L1java/math/BigInteger;
+pow
+ (I)Ljava/math/BigInteger;
+ (I)L1java/math/BigInteger;
+remainder
+ (Ljava/math/BigInteger;)Ljava/math/BigInteger;
+ (L1java/math/BigInteger;)L1java/math/BigInteger;
+shiftLeft
+ (I)Ljava/math/BigInteger;
+ (I)L1java/math/BigInteger;
+shiftRight
+ (I)Ljava/math/BigInteger;
+ (I)L1java/math/BigInteger;
+subtract
+ (Ljava/math/BigInteger;)Ljava/math/BigInteger;
+ (L1java/math/BigInteger;)L1java/math/BigInteger;
+sqrt
+ ()Ljava/math/BigInteger;
+ ()L1java/math/BigInteger;
+sqrtAndRemainder
+ ()[Ljava/math/BigInteger;
+ ()[1L1java/math/BigInteger;
+toByteArray
+ ()[B
+ ()[1B
+xor
+ (Ljava/math/BigInteger;)Ljava/math/BigInteger;
+ (L1java/math/BigInteger;)L1java/math/BigInteger;
