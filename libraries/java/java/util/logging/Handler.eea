@@ -1,0 +1,37 @@
+class java/util/logging/Handler
+getEncoding
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getErrorManager
+ ()Ljava/util/logging/ErrorManager;
+ ()L1java/util/logging/ErrorManager;
+getFilter
+ ()Ljava/util/logging/Filter;
+ ()L0java/util/logging/Filter;
+getFormatter
+ ()Ljava/util/logging/Formatter;
+ ()L0java/util/logging/Formatter;
+getLevel
+ ()Ljava/util/logging/Level;
+ ()L1java/util/logging/Level;
+isLoggable
+ (Ljava/util/logging/LogRecord;)Z
+ (L0java/util/logging/LogRecord;)Z
+publish
+ (Ljava/util/logging/LogRecord;)V
+ (L0java/util/logging/LogRecord;)V
+setErrorManager
+ (Ljava/util/logging/ErrorManager;)V
+ (L1java/util/logging/ErrorManager;)V
+setEncoding
+ (Ljava/lang/String;)V
+ (L0java/lang/String;)V
+setFilter
+ (Ljava/util/logging/Filter;)V
+ (L0java/util/logging/Filter;)V
+setFormatter
+ (Ljava/util/logging/Formatter;)V
+ (L1java/util/logging/Formatter;)V
+setLevel
+ (Ljava/util/logging/Level;)V
+ (L1java/util/logging/Level;)V
