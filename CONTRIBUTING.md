@@ -40,6 +40,6 @@ When submitting a pull request:
 
 ## Licensing
 
-By contributing to this project, you agree that your contributions will be licensed under the [Eclipse Public License 1.0](LICENSE).
+By contributing to this project, you agree that your contributions will be licensed under the [Eclipse Public License 2.0](LICENSE).
 
-The project itself is also licensed under the [Eclipse Public License 1.0 (EPL)](LICENSE).
+The project itself is also licensed under the [Eclipse Public License 2.0 (EPL)](LICENSE).
