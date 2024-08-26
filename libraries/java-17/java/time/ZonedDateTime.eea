@@ -36,20 +36,8 @@ minus
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/ZonedDateTime;
  (JL1java/time/temporal/TemporalUnit;)Ljava/time/ZonedDateTime;
 minus
- (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/ChronoZonedDateTime;
- (JL1java/time/temporal/TemporalUnit;)Ljava/time/chrono/ChronoZonedDateTime;
-minus
- (JLjava/time/temporal/TemporalUnit;)Ljava/time/temporal/Temporal;
- (JL1java/time/temporal/TemporalUnit;)Ljava/time/temporal/Temporal;
-minus
  (Ljava/time/temporal/TemporalAmount;)Ljava/time/ZonedDateTime;
  (L1java/time/temporal/TemporalAmount;)Ljava/time/ZonedDateTime;
-minus
- (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/ChronoZonedDateTime;
- (L1java/time/temporal/TemporalAmount;)Ljava/time/chrono/ChronoZonedDateTime;
-minus
- (Ljava/time/temporal/TemporalAmount;)Ljava/time/temporal/Temporal;
- (L1java/time/temporal/TemporalAmount;)Ljava/time/temporal/Temporal;
 minusDays
  (J)Ljava/time/ZonedDateTime;
  (J)L1java/time/ZonedDateTime;
@@ -114,20 +102,8 @@ plus
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/ZonedDateTime;
  (JL1java/time/temporal/TemporalUnit;)L1java/time/ZonedDateTime;
 plus
- (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/ChronoZonedDateTime;
- (JL1java/time/temporal/TemporalUnit;)L1java/time/chrono/ChronoZonedDateTime;
-plus
- (JLjava/time/temporal/TemporalUnit;)Ljava/time/temporal/Temporal;
- (JL1java/time/temporal/TemporalUnit;)L1java/time/temporal/Temporal;
-plus
  (Ljava/time/temporal/TemporalAmount;)Ljava/time/ZonedDateTime;
  (L1java/time/temporal/TemporalAmount;)L1java/time/ZonedDateTime;
-plus
- (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/ChronoZonedDateTime;
- (L1java/time/temporal/TemporalAmount;)L1java/time/chrono/ChronoZonedDateTime;
-plus
- (Ljava/time/temporal/TemporalAmount;)Ljava/time/temporal/Temporal;
- (L1java/time/temporal/TemporalAmount;)L1java/time/temporal/Temporal;
 plusDays
  (J)Ljava/time/ZonedDateTime;
  (J)L1java/time/ZonedDateTime;
@@ -164,9 +140,6 @@ toLocalDate
 toLocalDateTime
  ()Ljava/time/LocalDateTime;
  ()L1java/time/LocalDateTime;
-toLocalDateTime
- ()Ljava/time/chrono/ChronoLocalDateTime;
- ()L1java/time/chrono/ChronoLocalDateTime;
 toLocalTime
  ()Ljava/time/LocalTime;
  ()L1java/time/LocalTime;
@@ -186,20 +159,8 @@ with
  (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/ZonedDateTime;
  (L1java/time/temporal/TemporalAdjuster;)L1java/time/ZonedDateTime;
 with
- (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/chrono/ChronoZonedDateTime;
- (L1java/time/temporal/TemporalAdjuster;)L1java/time/chrono/ChronoZonedDateTime;
-with
- (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/temporal/Temporal;
- (L1java/time/temporal/TemporalAdjuster;)L1java/time/temporal/Temporal;
-with
  (Ljava/time/temporal/TemporalField;J)Ljava/time/ZonedDateTime;
  (L1java/time/temporal/TemporalField;J)L1java/time/ZonedDateTime;
-with
- (Ljava/time/temporal/TemporalField;J)Ljava/time/chrono/ChronoZonedDateTime;
- (L1java/time/temporal/TemporalField;J)L1java/time/chrono/ChronoZonedDateTime;
-with
- (Ljava/time/temporal/TemporalField;J)Ljava/time/temporal/Temporal;
- (L1java/time/temporal/TemporalField;J)L1java/time/temporal/Temporal;
 withDayOfMonth
  (I)Ljava/time/ZonedDateTime;
  (I)L1java/time/ZonedDateTime;
@@ -209,9 +170,6 @@ withDayOfYear
 withEarlierOffsetAtOverlap
  ()Ljava/time/ZonedDateTime;
  ()L1java/time/ZonedDateTime;
-withEarlierOffsetAtOverlap
- ()Ljava/time/chrono/ChronoZonedDateTime;
- ()L1java/time/chrono/ChronoZonedDateTime;
 withFixedOffsetZone
  ()Ljava/time/ZonedDateTime;
  ()L1java/time/ZonedDateTime;
@@ -221,9 +179,6 @@ withHour
 withLaterOffsetAtOverlap
  ()Ljava/time/ZonedDateTime;
  ()L1java/time/ZonedDateTime;
-withLaterOffsetAtOverlap
- ()Ljava/time/chrono/ChronoZonedDateTime;
- ()L1java/time/chrono/ChronoZonedDateTime;
 withMinute
  (I)Ljava/time/ZonedDateTime;
  (I)L1java/time/ZonedDateTime;
@@ -242,13 +197,7 @@ withYear
 withZoneSameInstant
  (Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
  (L1java/time/ZoneId;)L1java/time/ZonedDateTime;
-withZoneSameInstant
- (Ljava/time/ZoneId;)Ljava/time/chrono/ChronoZonedDateTime;
- (L1java/time/ZoneId;)L1java/time/chrono/ChronoZonedDateTime;
 withZoneSameLocal
  (Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
  (L1java/time/ZoneId;)L1java/time/ZonedDateTime;
-withZoneSameLocal
- (Ljava/time/ZoneId;)Ljava/time/chrono/ChronoZonedDateTime;
- (L1java/time/ZoneId;)L1java/time/chrono/ChronoZonedDateTime;
 

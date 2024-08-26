@@ -1,4 +1,4 @@
-class org/eclipse/jetty/client/util/BufferingResponseListener
+class org/eclipse/jetty/client/BufferingResponseListener
 getContentAsInputStream
  ()Ljava/io/InputStream;
  ()L1java/io/InputStream;
@@ -18,11 +18,11 @@ getMediaType
  ()Ljava/lang/String;
  ()L0java/lang/String;
 onComplete
- (Lorg/eclipse/jetty/client/api/Result;)V
- (L1org/eclipse/jetty/client/api/Result;)V
+ (Lorg/eclipse/jetty/client/Result;)V
+ (L1org/eclipse/jetty/client/Result;)V
 onContent
- (Lorg/eclipse/jetty/client/api/Response;Ljava/nio/ByteBuffer;)V
- (L1org/eclipse/jetty/client/api/Response;L1java/nio/ByteBuffer;)V
+ (Lorg/eclipse/jetty/client/Response;Ljava/nio/ByteBuffer;)V
+ (L1org/eclipse/jetty/client/Response;L1java/nio/ByteBuffer;)V
 onHeaders
- (Lorg/eclipse/jetty/client/api/Response;)V
- (L1org/eclipse/jetty/client/api/Response;)V
+ (Lorg/eclipse/jetty/client/Response;)V
+ (L1org/eclipse/jetty/client/Response;)V

@@ -8,42 +8,27 @@ addAll
 addAll
  (Ljava/util/Collection<+TE;>;)Z
  (L1java/util/Collection<+TE;>;)Z
-batchRemove
- (Ljava/util/Collection<*>;ZII)Z
- (L1java/util/Collection<*>;ZII)Z
 clone
  ()Ljava/lang/Object;
  ()L1java/lang/Object;
 contains
  (Ljava/lang/Object;)Z
  (L0java/lang/Object;)Z
-elementAt
- <E:Ljava/lang/Object;>([Ljava/lang/Object;I)TE;
- <E:Ljava/lang/Object;>([L1java/lang/Object;I)TE;
 equals
  (Ljava/lang/Object;)Z
  (L0java/lang/Object;)Z
-equalsRange
- (Ljava/util/List<*>;II)Z
- (L1java/util/List<*>;II)Z
 forEach
  (Ljava/util/function/Consumer<-TE;>;)V
  (L1java/util/function/Consumer<-TE;>;)V
 indexOf
  (Ljava/lang/Object;)I
  (L0java/lang/Object;)I
-indexOfRange
- (Ljava/lang/Object;II)I
- (L0java/lang/Object;II)I
 iterator
  ()Ljava/util/Iterator<TE;>;
  ()L1java/util/Iterator<TE;>;
 lastIndexOf
  (Ljava/lang/Object;)I
  (L0java/lang/Object;)I
-lastIndexOfRange
- (Ljava/lang/Object;II)I
- (L0java/lang/Object;II)I
 listIterator
  ()Ljava/util/ListIterator<TE;>;
  ()L1java/util/ListIterator<TE;>;
@@ -59,15 +44,9 @@ removeAll
 removeIf
  (Ljava/util/function/Predicate<-TE;>;)Z
  (L1java/util/function/Predicate<-TE;>;)Z
-removeIf
- (Ljava/util/function/Predicate<-TE;>;II)Z
- (L1java/util/function/Predicate<-TE;>;II)Z
 replaceAll
  (Ljava/util/function/UnaryOperator<TE;>;)V
  (L1java/util/function/UnaryOperator<TE;>;)V
-replaceAllRange
- (Ljava/util/function/UnaryOperator<TE;>;II)V
- (L1java/util/function/UnaryOperator<TE;>;II)V
 retainAll
  (Ljava/util/Collection<*>;)Z
  (L1java/util/Collection<*>;)Z
