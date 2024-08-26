@@ -35,12 +35,6 @@ getJarEntry
 getManifest
  ()Ljava/util/jar/Manifest;
  ()L0java/util/jar/Manifest;
-getManifestFromReference
- ()Ljava/util/jar/Manifest;
- ()Ljava/util/jar/Manifest;
-getMetaInfEntryNames
- ()[Ljava/lang/String;
- ()[0Ljava/lang/String;
 getVersion
  ()Ljava/lang/Runtime$Version;
  ()L1java/lang/Runtime$Version;
@@ -50,9 +44,6 @@ runtimeVersion
 stream
  ()Ljava/util/stream/Stream<Ljava/util/jar/JarEntry;>;
  ()L1java/util/stream/Stream<L1java/util/jar/JarEntry;>;
-verifiableEntry
- (Ljava/util/zip/ZipEntry;)Ljava/util/jar/JarEntry;
- (L1java/util/zip/ZipEntry;)L1java/util/jar/JarEntry;
 versionedStream
  ()Ljava/util/stream/Stream<Ljava/util/jar/JarEntry;>;
  ()L1java/util/stream/Stream<L1java/util/jar/JarEntry;>;

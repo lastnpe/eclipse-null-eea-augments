@@ -27,14 +27,8 @@ atTime
  (Ljava/time/LocalTime;)Ljava/time/LocalDateTime;
  (L1java/time/LocalTime;)L1java/time/LocalDateTime;
 atTime
- (Ljava/time/LocalTime;)Ljava/time/chrono/ChronoLocalDateTime;
- (L1java/time/LocalTime;)L1java/time/chrono/ChronoLocalDateTime;
-atTime
  (Ljava/time/OffsetTime;)Ljava/time/OffsetDateTime;
  (L1java/time/OffsetTime;)L1java/time/OffsetDateTime;
-compareTo
- (Ljava/lang/Object;)I
- (L1java/lang/Object;)I
 compareTo
  (Ljava/time/chrono/ChronoLocalDate;)I
  (L1java/time/chrono/ChronoLocalDate;)I
@@ -51,17 +45,14 @@ get
  (Ljava/time/temporal/TemporalField;)I
  (L1java/time/temporal/TemporalField;)I
 getChronology
- ()Ljava/time/chrono/Chronology;
- ()L1java/time/chrono/Chronology;
-getChronology
  ()Ljava/time/chrono/IsoChronology;
  ()L1java/time/chrono/IsoChronology;
 getDayOfWeek
  ()Ljava/time/DayOfWeek;
  ()L1java/time/DayOfWeek;
 getEra
- ()Ljava/time/chrono/Era;
- ()L1java/time/chrono/Era;
+ ()Ljava/time/chrono/IsoEra;
+ ()L1java/time/chrono/IsoEra;
 getLong
  (Ljava/time/temporal/TemporalField;)J
  (L1java/time/temporal/TemporalField;)J
@@ -87,20 +78,8 @@ minus
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/LocalDate;
  (JL1java/time/temporal/TemporalUnit;)L1java/time/LocalDate;
 minus
- (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/ChronoLocalDate;
- (JL1java/time/temporal/TemporalUnit;)L1java/time/chrono/ChronoLocalDate;
-minus
- (JLjava/time/temporal/TemporalUnit;)Ljava/time/temporal/Temporal;
- (JL1java/time/temporal/TemporalUnit;)L1java/time/temporal/Temporal;
-minus
  (Ljava/time/temporal/TemporalAmount;)Ljava/time/LocalDate;
- (L1java/time/temporal/TemporalAmount;)Lj1ava/time/LocalDate;
-minus
- (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/ChronoLocalDate;
- (L1java/time/temporal/TemporalAmount;)L1java/time/chrono/ChronoLocalDate;
-minus
- (Ljava/time/temporal/TemporalAmount;)Ljava/time/temporal/Temporal;
- (L1java/time/temporal/TemporalAmount;)L1java/time/temporal/Temporal;
+ (L1java/time/temporal/TemporalAmount;)L1java/time/LocalDate;
 minusDays
  (J)Ljava/time/LocalDate;
  (J)L1java/time/LocalDate;
@@ -144,20 +123,8 @@ plus
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/LocalDate;
  (JL1java/time/temporal/TemporalUnit;)L1java/time/LocalDate;
 plus
- (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/ChronoLocalDate;
- (JL1java/time/temporal/TemporalUnit;)L1java/time/chrono/ChronoLocalDate;
-plus
- (JLjava/time/temporal/TemporalUnit;)Ljava/time/temporal/Temporal;
- (JL1java/time/temporal/TemporalUnit;)L1java/time/temporal/Temporal;
-plus
  (Ljava/time/temporal/TemporalAmount;)Ljava/time/LocalDate;
  (L1java/time/temporal/TemporalAmount;)L1java/time/LocalDate;
-plus
- (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/ChronoLocalDate;
- (L1java/time/temporal/TemporalAmount;)L1java/time/chrono/ChronoLocalDate;
-plus
- (Ljava/time/temporal/TemporalAmount;)Ljava/time/temporal/Temporal;
- (L1java/time/temporal/TemporalAmount;)L1java/time/temporal/Temporal;
 plusDays
  (J)Ljava/time/LocalDate;
  (J)L1java/time/LocalDate;
@@ -183,29 +150,14 @@ until
  (Ljava/time/chrono/ChronoLocalDate;)Ljava/time/Period;
  (L1java/time/chrono/ChronoLocalDate;)L1java/time/Period;
 until
- (Ljava/time/chrono/ChronoLocalDate;)Ljava/time/chrono/ChronoPeriod;
- (L1java/time/chrono/ChronoLocalDate;)L1java/time/chrono/ChronoPeriod;
-until
  (Ljava/time/temporal/Temporal;Ljava/time/temporal/TemporalUnit;)J
  (L1java/time/temporal/Temporal;L1java/time/temporal/TemporalUnit;)J
 with
  (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/LocalDate;
  (L1java/time/temporal/TemporalAdjuster;)L1java/time/LocalDate;
 with
- (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/chrono/ChronoLocalDate;
- (L1java/time/temporal/TemporalAdjuster;)L1java/time/chrono/ChronoLocalDate;
-with
- (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/temporal/Temporal;
- (L1java/time/temporal/TemporalAdjuster;)Lj1ava/time/temporal/Temporal;
-with
  (Ljava/time/temporal/TemporalField;J)Ljava/time/LocalDate;
  (L1java/time/temporal/TemporalField;J)L1java/time/LocalDate;
-with
- (Ljava/time/temporal/TemporalField;J)Ljava/time/chrono/ChronoLocalDate;
- (L1java/time/temporal/TemporalField;J)L1java/time/chrono/ChronoLocalDate;
-with
- (Ljava/time/temporal/TemporalField;J)Ljava/time/temporal/Temporal;
- (L1java/time/temporal/TemporalField;J)L1java/time/temporal/Temporal;
 withDayOfMonth
  (I)Ljava/time/LocalDate;
  (I)L1java/time/LocalDate;

@@ -2,12 +2,6 @@ class java/util/concurrent/ConcurrentHashMap
 <init>
  (Ljava/util/Map<+TK;+TV;>;)V
  (L1java/util/Map<+TK;+TV;>;)V
-comparableClassFor
- (Ljava/lang/Object;)Ljava/lang/Class<*>;
- (L0java/lang/Object;)L0java/lang/Class<*>;
-compareComparables
- (Ljava/lang/Class<*>;Ljava/lang/Object;Ljava/lang/Object;)I
- (L0java/lang/Class<*>;L1java/lang/Object;L1java/lang/Object;)I
 compute
  (TK;Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)TV;
  (T1K;L1java/util/function/BiFunction<-TK;-TV;+TV;>;)T0V;
@@ -95,9 +89,6 @@ putAll
 putIfAbsent
  (TK;TV;)TV;
  (T1K;T1V;)T0V;
-putVal
- (TK;TV;Z)TV;
- (T1K;T1V;Z)T0V;
 reduce
  <U:Ljava/lang/Object;>(JLjava/util/function/BiFunction<-TK;-TV;+TU;>;Ljava/util/function/BiFunction<-TU;-TU;+TU;>;)TU;
  <U:Ljava/lang/Object;>(JL1java/util/function/BiFunction<-TK;-TV;+TU;>;L1java/util/function/BiFunction<-TU;-TU;+TU;>;)TU;
@@ -161,12 +152,6 @@ remove
 remove
  (Ljava/lang/Object;Ljava/lang/Object;)Z
  (L1java/lang/Object;L0java/lang/Object;)Z
-removeEntryIf
- (Ljava/util/function/Predicate<-Ljava/util/Map$Entry<TK;TV;>;>;)Z
- (L1java/util/function/Predicate<-Ljava/util/Map$Entry<TK;TV;>;>;)Z
-removeValueIf
- (Ljava/util/function/Predicate<-TV;>;)Z
- (L1java/util/function/Predicate<-TV;>;)Z
 replace
  (TK;TV;)TV;
  (T1K;T1V;)T0V;
@@ -176,9 +161,6 @@ replace
 replaceAll
  (Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)V
  (L1java/util/function/BiFunction<-TK;-TV;+TV;>;)V
-replaceNode
- (Ljava/lang/Object;TV;Ljava/lang/Object;)TV;
- (L1java/lang/Object;T0V;L0java/lang/Object;)T0V;
 search
  <U:Ljava/lang/Object;>(JLjava/util/function/BiFunction<-TK;-TV;+TU;>;)TU;
  <U:Ljava/lang/Object;>(JL1java/util/function/BiFunction<-TK;-TV;+TU;>;)TU;
