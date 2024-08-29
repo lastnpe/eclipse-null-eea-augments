@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.lastnpe.eea</groupId>
@@ -10,10 +12,8 @@
 
   <name>Eclipse External null Annotations (EEA)</name>
   <description>This is the root POM of the EEA project</description>
-
   <url>https://lastnpe.org</url>
   <inceptionYear>2016</inceptionYear>
-
   <organization>
     <name>LastNPE.org</name>
     <url>http://www.lastnpe.org</url>
@@ -37,6 +37,7 @@
     <developer>
       <id>sebthom</id>
       <name>Sebastian Thomschke</name>
+      <url>https://sebthom.de</url>
       <organization>Vegard IT GmbH</organization>
       <organizationUrl>https://vegardit.com</organizationUrl>
     </developer>
@@ -54,6 +55,16 @@
     <url>https://github.com/lastnpe/eclipse-null-eea-augments</url>
   </scm>
 
+  <issueManagement>
+    <system>github.com</system>
+    <url>https://github.com/lastnpe/eclipse-null-eea-augments/issues</url>
+  </issueManagement>
+
+  <ciManagement>
+    <system>github.com</system>
+    <url>https://github.com/lastnpe/eclipse-null-eea-augments/actions</url>
+  </ciManagement>
+
   <distributionManagement>
     <repository>
       <id>ossrh</id>
@@ -66,13 +77,74 @@
   </distributionManagement>
 
   <properties>
-    <eea.java.version>11</eea.java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java.version>17</java.version>
   </properties>
 
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-toolchains-plugin</artifactId>
+        <version>3.2.0</version>
+        <executions>
+          <execution>
+            <id>toolchain@validate</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>toolchain</goal>
+            </goals>
+            <configuration>
+              <toolchains>
+                <jdk>
+                  <version>${java.version}</version>
+                </jdk>
+              </toolchains>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.13.0</version>
+          <configuration>
+            <source>${java.version}</source>
+            <target>${java.version}</target>
+            <release>${java.version}</release>
+          </configuration>
+        </plugin>
+        <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>3.3.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.4.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-source-plugin</artifactId>
+          <version>3.3.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.4.0</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>3.1.2</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
   <modules>
+    <module>generator</module>
     <module>libraries</module>
-    <module>examples/maven</module>
+    <module>eea-all</module>
+    <!--TODO <module>examples/maven</module>-->
   </modules>
 
   <profiles>
@@ -81,9 +153,8 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-gpg-plugin</artifactId>
-            <version>1.6</version>
+            <version>3.2.5</version>
             <executions>
               <execution>
                 <id>sign-artifacts</id>
@@ -101,9 +172,8 @@
             </executions>
           </plugin>
           <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-release-plugin</artifactId>
-            <version>3.0.0-M1</version>
+            <version>3.1.1</version>
             <configuration>
               <preparationGoals>clean install</preparationGoals>
               <tagNameFormat>v@{project.version}</tagNameFormat>
@@ -112,6 +182,7 @@
         </plugins>
       </build>
     </profile>
+
   </profiles>
 
 </project>

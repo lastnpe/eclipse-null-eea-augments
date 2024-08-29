@@ -1,0 +1,176 @@
+# SPDX-FileCopyrightText: © Vegard IT GmbH (https://vegardit.com) and others.
+# SPDX-FileContributor: Sebastian Thomschke (Vegard IT GmbH)
+# SPDX-License-Identifier: EPL-2.0
+
+# https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions
+name: Build
+
+on:
+  push:
+    branches-ignore:  # build all branches except:
+    - 'dependabot/**'  # prevent GHA triggered twice (once for commit to the branch and once for opening/syncing the PR)
+    tags-ignore:  # don't build tags
+    - '**'
+    paths-ignore:
+    - '**/*.adoc'
+    - '**/*.md'
+    - '.editorconfig'
+    - '.git*'
+    - '.github/*.yml'
+    - '.github/workflows/stale.yml'
+    - '.github/workflows/update-eea-files.yml'
+  pull_request:
+    paths-ignore:
+    - '**/*.adoc'
+    - '**/*.md'
+    - '.editorconfig'
+    - '.git*'
+    - '.github/*.yml'
+  workflow_dispatch:
+    # https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch/
+    inputs:
+      additional_maven_args:
+        description: 'Additional Maven Args'
+        required: false
+        default: ''
+
+
+defaults:
+  run:
+    shell: bash
+
+
+jobs:
+
+  ###########################################################
+  build:
+  ###########################################################
+    runs-on: ubuntu-latest
+
+
+    # https://docs.github.com/en/actions/using-jobs/using-concurrency
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: false
+
+
+    steps:
+    - name: "Show: GitHub context"
+      env:
+        GITHUB_CONTEXT: ${{ toJSON(github) }}
+      run: echo $GITHUB_CONTEXT
+
+
+    - name: "Show: environment variables"
+      run: env | sort
+
+
+    - name: Git Checkout
+      uses: actions/checkout@v4  # https://github.com/actions/checkout
+
+
+    - name: "Install: JDK 17 ☕"
+      uses: actions/setup-java@v4  # https://github.com/actions/setup-java
+      with:
+        distribution: temurin
+        java-version: 17
+    - run: echo "JAVA17_HOME=$JAVA_HOME" >> $GITHUB_ENV
+
+
+    - name: "Install: JDK 21 ☕"
+      uses: actions/setup-java@v4  # https://github.com/actions/setup-java
+      with:
+        distribution: temurin
+        java-version: 21
+    - run: echo "JAVA21_HOME=$JAVA_HOME" >> $GITHUB_ENV
+
+
+    - name: "Show: toolchains.xml"
+      run: cat "$HOME/.m2/toolchains.xml"
+
+
+    - name: "Cache: Local Maven Repository"
+      uses: actions/cache@v4
+      if: ${{ !env.ACT }}  # https://github.com/nektos/act#skipping-steps
+      with:
+        # Excluded sub directory not working https://github.com/actions/toolkit/issues/713
+        path: |
+          ~/.m2/repository/*
+          !~/.m2/repository/*SNAPSHOT*
+        key: ${{ runner.os }}-mvn-${{ hashFiles('**/pom.xml') }}
+
+
+    - name: "Install: Maven 📦"
+      uses: stCarolas/setup-maven@v5  # https://github.com/stCarolas/setup-maven
+      with:
+        maven-version: 3.9.9
+
+
+    - name: Prepare Maven Snapshots Repo
+      if: ${{ github.ref_name == 'main' && !env.ACT }}  # https://github.com/nektos/act#skipping-steps
+      run: |
+        set -eux
+
+        cd /tmp
+        github_repo_url="https://${{ github.actor }}:${{ github.token }}@github.com/${{ github.repository }}/"
+        if curl --output /dev/null --silent --head --fail "$github_repo_url/tree/mvn-snapshots-repo"; then
+          git clone https://${{ github.actor }}:${{ github.token }}@github.com/${{ github.repository }}/ --single-branch --branch mvn-snapshots-repo mvn-snapshots-repo
+          cd mvn-snapshots-repo
+          # https://github.community/t/github-actions-bot-email-address/17204
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git reset --hard HEAD^ # revert previous commit
+        else
+          git clone https://${{ github.actor }}:${{ github.token }}@github.com/${{ github.repository }}/ mvn-snapshots-repo
+          cd mvn-snapshots-repo
+          git checkout --orphan mvn-snapshots-repo
+          git rm -rf .
+          cat <<EOF > index.html
+            <!DOCTYPE html>
+            <html>
+            <head>
+              <title>${{ github.repository }} - Maven Snapshots Repo</title>
+            </head>
+            <body>
+            <h1>${{ github.repository }} - Maven Snapshots Repo</h1>
+            </body>
+            </html>
+        EOF
+          git add index.html
+          # https://github.community/t/github-actions-bot-email-address/17204
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Initialize Maven Snapshots Repo"
+        fi
+
+
+    - name: "Build with Maven 🔨"
+      run: |
+        set -euo pipefail
+
+        MAVEN_OPTS="${MAVEN_OPTS:-}"
+        MAVEN_OPTS+=" -Djava.security.egd=file:/dev/./urandom" # https://stackoverflow.com/questions/58991966/what-java-security-egd-option-is-for/59097932#59097932
+        MAVEN_OPTS+=" -Dorg.slf4j.simpleLogger.showDateTime=true -Dorg.slf4j.simpleLogger.dateTimeFormat=HH:mm:ss,SSS" # https://stackoverflow.com/questions/5120470/how-to-time-the-different-stages-of-maven-execution/49494561#49494561
+        MAVEN_OPTS+=" -Xmx1024m -Djava.net.preferIPv4Stack=true -Dhttps.protocols=TLSv1.3,TLSv1.2"
+        export MAVEN_OPTS
+        echo "MAVEN_OPTS: $MAVEN_OPTS"
+
+        mvn \
+          --errors \
+          --update-snapshots \
+          --batch-mode \
+          --show-version \
+          ${{ github.event.inputs.additional_maven_args }} \
+          clean ${{ (github.ref_name == 'main' && !env.ACT) && 'deploy' || 'verify' }} \
+          -DaltSnapshotDeploymentRepository=temp-snapshots-repo::file:///tmp/mvn-snapshots-repo
+
+
+    - name: Update Maven Snapshots Repo
+      if: ${{ github.ref_name == 'main' && !env.ACT }}  # https://github.com/nektos/act#skipping-steps
+      run: |
+        cd /tmp/mvn-snapshots-repo
+        if [[ $(git -C . ls-files -o -m -d --exclude-standard | wc -l) -gt 0 ]]; then
+          git add --all
+          git commit -am "Deploy snapshot version"
+          git push origin mvn-snapshots-repo --force
+        fi
