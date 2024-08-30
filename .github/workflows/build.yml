@@ -99,6 +99,13 @@ jobs:
           !~/.m2/repository/*SNAPSHOT*
         key: ${{ runner.os }}-mvn-${{ hashFiles('**/pom.xml') }}
 
+
+    - name: "Install: Maven 📦"
+      uses: stCarolas/setup-maven@v5  # https://github.com/stCarolas/setup-maven
+      with:
+        maven-version: 3.9.9
+
+
     - name: Prepare Maven Snapshots Repo
       if: ${{ github.ref_name == 'main' && !env.ACT }}  # https://github.com/nektos/act#skipping-steps
       run: |
@@ -148,7 +155,7 @@ jobs:
         export MAVEN_OPTS
         echo "MAVEN_OPTS: $MAVEN_OPTS"
 
-        ./mvnw \
+        mvn \
           --errors \
           --update-snapshots \
           --batch-mode \
