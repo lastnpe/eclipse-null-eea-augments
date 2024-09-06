@@ -1,0 +1,131 @@
+# SPDX-FileCopyrightText: © Vegard IT GmbH (https://vegardit.com) and others.
+# SPDX-FileContributor: Sebastian Thomschke (Vegard IT GmbH)
+# SPDX-License-Identifier: EPL-2.0
+#
+# https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions
+name: Update EEA Files
+
+on:
+  schedule:
+    # https://docs.github.com/en/free-pro-team@latest/actions/reference/events-that-trigger-workflows
+    - cron: '0 5 * * *' # daily at 5 a.m.
+  workflow_dispatch:
+    # https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch/
+    inputs:
+      additional_maven_args:
+        description: 'Additional Maven Args'
+        required: false
+        default: ''
+
+
+defaults:
+  run:
+    shell: bash
+
+
+jobs:
+
+  ###########################################################
+  build:
+  ###########################################################
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: "Show: GitHub context"
+      env:
+        GITHUB_CONTEXT: ${{ toJSON(github) }}
+      run: echo $GITHUB_CONTEXT
+
+
+    - name: "Show: environment variables"
+      run: env | sort
+
+
+    - name: Git Checkout
+      uses: actions/checkout@v4  # https://github.com/actions/checkout
+
+
+    - name: "Install: JDK 17 ☕"
+      id: setup-java-17
+      uses: actions/setup-java@v4  # https://github.com/actions/setup-java
+      with:
+        distribution: temurin
+        java-version: 17
+
+
+    - name: "Install: JDK 21 ☕"
+      id: setup-java-21
+      uses: actions/setup-java@v4  # https://github.com/actions/setup-java
+      with:
+        distribution: temurin
+        java-version: 21
+
+
+    - name: Set JAVA_HOME env vars
+      run: |
+        echo "JAVA17_HOME=${{ steps.setup-java-17.outputs.path }}" >> $GITHUB_ENV
+        echo "JAVA21_HOME=${{ steps.setup-java-21.outputs.path }}" >> $GITHUB_ENV
+
+
+    - name: "Show: toolchains.xml"
+      run: cat "$HOME/.m2/toolchains.xml"
+
+
+    - name: "Cache: Local Maven Repository"
+      uses: actions/cache@v4
+      with:
+        # Excluded sub directory not working https://github.com/actions/toolkit/issues/713
+        path: |
+          ~/.m2/repository/*
+          !~/.m2/repository/*SNAPSHOT*
+        key: ${{ runner.os }}-mvn-${{ hashFiles('**/pom.xml') }}
+
+
+    - name: "Update EEA Files 🔨"
+      id: eea_updates
+      run: |
+        set -euo pipefail
+
+        MAVEN_OPTS="${MAVEN_OPTS:-}"
+        MAVEN_OPTS+=" -Djava.security.egd=file:/dev/./urandom" # https://stackoverflow.com/questions/58991966/what-java-security-egd-option-is-for/59097932#59097932
+        MAVEN_OPTS+=" -Dorg.slf4j.simpleLogger.showDateTime=true -Dorg.slf4j.simpleLogger.dateTimeFormat=HH:mm:ss,SSS" # https://stackoverflow.com/questions/5120470/how-to-time-the-different-stages-of-maven-execution/49494561#49494561
+        MAVEN_OPTS+=" -Xmx1024m -Djava.net.preferIPv4Stack=true -Dhttps.protocols=TLSv1.3,TLSv1.2"
+        export MAVEN_OPTS
+        echo "MAVEN_OPTS: $MAVEN_OPTS"
+
+        ./mvnw \
+          --errors \
+          --no-transfer-progress \
+          --batch-mode \
+          --show-version \
+          ${{ github.event.inputs.additional_maven_args }} \
+          clean verify \
+          -Deea-generator.action=generate
+
+        updates=$(git -C . ls-files -o -m -d --exclude-standard | head -n 50)
+
+        if [[ -z $updates ]]; then
+          echo "updates=" >> "$GITHUB_OUTPUT"
+        else
+          # https://github.com/orgs/community/discussions/26288#discussioncomment-3876281
+          delimiter="$(openssl rand -hex 8)"
+          echo "updates<<${delimiter}" >> "${GITHUB_OUTPUT}"
+          echo "${updates}" >> "${GITHUB_OUTPUT}"
+          echo "${delimiter}" >> "${GITHUB_OUTPUT}"
+        fi
+
+
+    - name: Create PR
+      id: create-pr
+      uses: peter-evans/create-pull-request@v6  # https://github.com/peter-evans/create-pull-request
+      if: "${{ steps.eea_updates.outputs.updates != '' }}"
+      with:
+        title: "chore: Update EEA Files"
+        author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+        committer: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+        commit-message: "chore: Update EEA Files"
+        body: ${{ steps.eea_updates.outputs.updates }}
+        add-paths: libraries
+        branch: eea_updates
+        delete-branch: true
+        token: ${{ github.token }}
