@@ -102,7 +102,7 @@ jobs:
           clean verify \
           -Deea-generator.action=generate
 
-        updates=$(git -C . ls-files -o -m -d --exclude-standard | head -n 50)
+        updates=$(git -C . ls-files -o -m -d --exclude-standard | head -n 50 || true)  # "|| true" is to mitgate exit code 141
 
         if [[ -z $updates ]]; then
           echo "updates=" >> "$GITHUB_OUTPUT"
