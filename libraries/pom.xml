@@ -90,12 +90,9 @@
                     get propagated to EEA files in other modules, which is necessary because of
                     https://github.com/eclipse-jdt/eclipse.jdt.core/issues/2512 -->
                     <argument>
-                      -Deea-generator.input.dirs.default=${project.basedir},${project.basedir}/../eea-java-17</argument>
-
+                      -Deea-generator.input.dirs=${project.basedir},${project.basedir}/../eea-java-17</argument>
                     <!--instructs the generator to perform in-place update of EEA files: -->
-                    <argument>
-                      -Deea-generator.output.dir=${project.basedir}</argument>
-
+                    <argument>-Deea-generator.output.dir=${project.basedir}</argument>
                     <argument>-classpath</argument>
                     <classpath />
                     <argument>org.lastnpe.eea.generator.EEAGenerator</argument>
