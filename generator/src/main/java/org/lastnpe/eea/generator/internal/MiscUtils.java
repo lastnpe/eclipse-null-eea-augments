@@ -32,6 +32,7 @@ import java.util.stream.Stream;
 
 import org.eclipse.jdt.annotation.NonNull;
 import org.eclipse.jdt.annotation.Nullable;
+import org.lastnpe.eea.generator.EEAGenerator;
 
 /**
  * @author Sebastian Thomschke (Vegard IT GmbH)
@@ -62,7 +63,7 @@ public final class MiscUtils {
 	public static void configureJUL() {
 		if (isJULConfigured)
 			return;
-		final var mainLogger = Logger.getLogger("com.vegardit.no_npe");
+		final var mainLogger = Logger.getLogger(EEAGenerator.class.getPackageName());
 		mainLogger.setUseParentHandlers(false);
 		final var handler = new ConsoleHandler();
 		handler.setFormatter(new SimpleFormatter() {
