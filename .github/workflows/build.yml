@@ -113,14 +113,14 @@ jobs:
         cd /tmp
         github_repo_url="https://${{ github.actor }}:${{ github.token }}@github.com/${{ github.repository }}/"
         if curl --output /dev/null --silent --head --fail "$github_repo_url/tree/mvn-snapshots-repo"; then
-          git clone https://${{ github.actor }}:${{ github.token }}@github.com/${{ github.repository }}/ --single-branch --branch mvn-snapshots-repo mvn-snapshots-repo
+          git clone "$github_repo_url" --single-branch --branch mvn-snapshots-repo mvn-snapshots-repo
           cd mvn-snapshots-repo
           # https://github.community/t/github-actions-bot-email-address/17204
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git reset --hard HEAD^ # revert previous commit
         else
-          git clone https://${{ github.actor }}:${{ github.token }}@github.com/${{ github.repository }}/ mvn-snapshots-repo
+          git clone "$github_repo_url" mvn-snapshots-repo
           cd mvn-snapshots-repo
           git checkout --orphan mvn-snapshots-repo
           git rm -rf .
