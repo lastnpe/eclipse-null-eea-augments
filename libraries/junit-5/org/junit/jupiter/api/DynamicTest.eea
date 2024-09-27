@@ -1,0 +1,30 @@
+class org/junit/jupiter/api/DynamicTest
+
+dynamicTest
+ (Ljava/lang/String;Ljava/net/URI;Lorg/junit/jupiter/api/function/Executable;)Lorg/junit/jupiter/api/DynamicTest;
+ (Ljava/lang/String;Ljava/net/URI;Lorg/junit/jupiter/api/function/Executable;)Lorg/junit/jupiter/api/DynamicTest;
+dynamicTest
+ (Ljava/lang/String;Lorg/junit/jupiter/api/function/Executable;)Lorg/junit/jupiter/api/DynamicTest;
+ (Ljava/lang/String;Lorg/junit/jupiter/api/function/Executable;)Lorg/junit/jupiter/api/DynamicTest;
+stream
+ <T::Lorg/junit/jupiter/api/Named<TE;>;E::Lorg/junit/jupiter/api/function/Executable;>(Ljava/util/Iterator<+TT;>;)Ljava/util/stream/Stream<Lorg/junit/jupiter/api/DynamicTest;>;
+ <T::Lorg/junit/jupiter/api/Named<TE;>;E::Lorg/junit/jupiter/api/function/Executable;>(Ljava/util/Iterator<+TT;>;)Ljava/util/stream/Stream<Lorg/junit/jupiter/api/DynamicTest;>;
+stream
+ <T::Lorg/junit/jupiter/api/Named<TE;>;E::Lorg/junit/jupiter/api/function/Executable;>(Ljava/util/stream/Stream<+TT;>;)Ljava/util/stream/Stream<Lorg/junit/jupiter/api/DynamicTest;>;
+ <T::Lorg/junit/jupiter/api/Named<TE;>;E::Lorg/junit/jupiter/api/function/Executable;>(Ljava/util/stream/Stream<+TT;>;)Ljava/util/stream/Stream<Lorg/junit/jupiter/api/DynamicTest;>;
+stream
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+Lorg/junit/jupiter/api/Named<TT;>;>;Lorg/junit/jupiter/api/function/ThrowingConsumer<-TT;>;)Ljava/util/stream/Stream<Lorg/junit/jupiter/api/DynamicTest;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+Lorg/junit/jupiter/api/Named<TT;>;>;Lorg/junit/jupiter/api/function/ThrowingConsumer<-TT;>;)Ljava/util/stream/Stream<Lorg/junit/jupiter/api/DynamicTest;>;
+stream
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;Ljava/util/function/Function<-TT;Ljava/lang/String;>;Lorg/junit/jupiter/api/function/ThrowingConsumer<-TT;>;)Ljava/util/stream/Stream<Lorg/junit/jupiter/api/DynamicTest;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;Ljava/util/function/Function<-TT;Ljava/lang/String;>;Lorg/junit/jupiter/api/function/ThrowingConsumer<-TT;>;)Ljava/util/stream/Stream<Lorg/junit/jupiter/api/DynamicTest;>;
+stream
+ <T:Ljava/lang/Object;>(Ljava/util/stream/Stream<+Lorg/junit/jupiter/api/Named<TT;>;>;Lorg/junit/jupiter/api/function/ThrowingConsumer<-TT;>;)Ljava/util/stream/Stream<Lorg/junit/jupiter/api/DynamicTest;>;
+ <T:Ljava/lang/Object;>(Ljava/util/stream/Stream<+Lorg/junit/jupiter/api/Named<TT;>;>;Lorg/junit/jupiter/api/function/ThrowingConsumer<-TT;>;)Ljava/util/stream/Stream<Lorg/junit/jupiter/api/DynamicTest;>;
+stream
+ <T:Ljava/lang/Object;>(Ljava/util/stream/Stream<TT;>;Ljava/util/function/Function<-TT;Ljava/lang/String;>;Lorg/junit/jupiter/api/function/ThrowingConsumer<-TT;>;)Ljava/util/stream/Stream<Lorg/junit/jupiter/api/DynamicTest;>;
+ <T:Ljava/lang/Object;>(Ljava/util/stream/Stream<TT;>;Ljava/util/function/Function<-TT;Ljava/lang/String;>;Lorg/junit/jupiter/api/function/ThrowingConsumer<-TT;>;)Ljava/util/stream/Stream<Lorg/junit/jupiter/api/DynamicTest;>;
+
+getExecutable
+ ()Lorg/junit/jupiter/api/function/Executable;
+ ()Lorg/junit/jupiter/api/function/Executable;
