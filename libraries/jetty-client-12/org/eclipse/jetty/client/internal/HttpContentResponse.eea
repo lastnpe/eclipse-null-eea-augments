@@ -1,0 +1,38 @@
+class org/eclipse/jetty/client/internal/HttpContentResponse
+
+<init>
+ (Lorg/eclipse/jetty/client/Response;[BLjava/lang/String;Ljava/lang/String;)V
+ (Lorg/eclipse/jetty/client/Response;[BLjava/lang/String;Ljava/lang/String;)V
+abort
+ (Ljava/lang/Throwable;)Ljava/util/concurrent/CompletableFuture<Ljava/lang/Boolean;>;
+ (L1java/lang/Throwable;)L1java/util/concurrent/CompletableFuture<L1java/lang/Boolean;>; # @Inherited(org.eclipse.jetty.client.Response)
+getContent
+ ()[B
+ ()[B
+getContentAsString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getEncoding
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getHeaders
+ ()Lorg/eclipse/jetty/http/HttpFields;
+ ()L1org/eclipse/jetty/http/HttpFields; # @Inherited(org.eclipse.jetty.client.Response)
+getMediaType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getReason
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.eclipse.jetty.client.Response)
+getRequest
+ ()Lorg/eclipse/jetty/client/Request;
+ ()L1org/eclipse/jetty/client/Request; # @Inherited(org.eclipse.jetty.client.Response)
+getTrailers
+ ()Lorg/eclipse/jetty/http/HttpFields;
+ ()Lorg/eclipse/jetty/http/HttpFields;
+getVersion
+ ()Lorg/eclipse/jetty/http/HttpVersion;
+ ()L1org/eclipse/jetty/http/HttpVersion; # @Inherited(org.eclipse.jetty.client.Response)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

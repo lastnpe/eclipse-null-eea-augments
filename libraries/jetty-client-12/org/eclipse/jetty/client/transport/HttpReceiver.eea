@@ -1,0 +1,47 @@
+class org/eclipse/jetty/client/transport/HttpReceiver
+
+<init>
+ (Lorg/eclipse/jetty/client/transport/HttpChannel;)V
+ (Lorg/eclipse/jetty/client/transport/HttpChannel;)V
+abort
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/lang/Throwable;Lorg/eclipse/jetty/util/Promise<Ljava/lang/Boolean;>;)V
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/lang/Throwable;Lorg/eclipse/jetty/util/Promise<Ljava/lang/Boolean;>;)V
+failAndClose
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+getHttpChannel
+ ()Lorg/eclipse/jetty/client/transport/HttpChannel;
+ ()Lorg/eclipse/jetty/client/transport/HttpChannel;
+getHttpDestination
+ ()Lorg/eclipse/jetty/client/transport/HttpDestination;
+ ()Lorg/eclipse/jetty/client/transport/HttpDestination;
+getHttpExchange
+ ()Lorg/eclipse/jetty/client/transport/HttpExchange;
+ ()Lorg/eclipse/jetty/client/transport/HttpExchange;
+read
+ (Z)Lorg/eclipse/jetty/io/Content$Chunk;
+ (Z)Lorg/eclipse/jetty/io/Content$Chunk;
+responseBegin
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)V
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)V
+responseContentAvailable
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)V
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)V
+responseFailure
+ (Ljava/lang/Throwable;Lorg/eclipse/jetty/util/Promise<Ljava/lang/Boolean;>;)V
+ (Ljava/lang/Throwable;Lorg/eclipse/jetty/util/Promise<Ljava/lang/Boolean;>;)V
+responseHeader
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Lorg/eclipse/jetty/http/HttpField;)V
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Lorg/eclipse/jetty/http/HttpField;)V
+responseHeaders
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)V
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)V
+responseSuccess
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/lang/Runnable;)V
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/lang/Runnable;)V
+storeCookie
+ (Ljava/net/URI;Lorg/eclipse/jetty/http/HttpField;)V
+ (Ljava/net/URI;Lorg/eclipse/jetty/http/HttpField;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

@@ -1,0 +1,18 @@
+class org/eclipse/jetty/client/ContinueProtocolHandler
+
+NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+accept
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;)Z
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;)Z
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getResponseListener
+ ()Lorg/eclipse/jetty/client/Response$Listener;
+ ()Lorg/eclipse/jetty/client/Response$Listener;
+onContinue
+ (Lorg/eclipse/jetty/client/Request;)Ljava/lang/Runnable;
+ (Lorg/eclipse/jetty/client/Request;)Ljava/lang/Runnable;

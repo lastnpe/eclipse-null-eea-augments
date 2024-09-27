@@ -1,0 +1,38 @@
+class org/eclipse/jetty/client/ProxyConfiguration$Proxy
+
+<init>
+ (Lorg/eclipse/jetty/client/Origin$Address;ZLorg/eclipse/jetty/util/ssl/SslContextFactory$Client;Lorg/eclipse/jetty/client/Origin$Protocol;)V
+ (Lorg/eclipse/jetty/client/Origin$Address;ZLorg/eclipse/jetty/util/ssl/SslContextFactory$Client;Lorg/eclipse/jetty/client/Origin$Protocol;)V
+<init>
+ (Lorg/eclipse/jetty/client/Origin;Lorg/eclipse/jetty/util/ssl/SslContextFactory$Client;)V
+ (Lorg/eclipse/jetty/client/Origin;Lorg/eclipse/jetty/util/ssl/SslContextFactory$Client;)V
+getAddress
+ ()Lorg/eclipse/jetty/client/Origin$Address;
+ ()Lorg/eclipse/jetty/client/Origin$Address;
+getExcludedAddresses
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getIncludedAddresses
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getOrigin
+ ()Lorg/eclipse/jetty/client/Origin;
+ ()Lorg/eclipse/jetty/client/Origin;
+getProtocol
+ ()Lorg/eclipse/jetty/client/Origin$Protocol;
+ ()Lorg/eclipse/jetty/client/Origin$Protocol;
+getSslContextFactory
+ ()Lorg/eclipse/jetty/util/ssl/SslContextFactory$Client;
+ ()Lorg/eclipse/jetty/util/ssl/SslContextFactory$Client;
+getURI
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+matches
+ (Lorg/eclipse/jetty/client/Origin;)Z
+ (Lorg/eclipse/jetty/client/Origin;)Z
+newClientConnectionFactory
+ (Lorg/eclipse/jetty/io/ClientConnectionFactory;)Lorg/eclipse/jetty/io/ClientConnectionFactory;
+ (Lorg/eclipse/jetty/io/ClientConnectionFactory;)Lorg/eclipse/jetty/io/ClientConnectionFactory;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

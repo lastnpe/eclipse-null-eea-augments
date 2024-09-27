@@ -1,0 +1,26 @@
+class org/eclipse/jetty/client/AuthenticationProtocolHandler
+
+<init>
+ (Lorg/eclipse/jetty/client/HttpClient;I)V
+ (Lorg/eclipse/jetty/client/HttpClient;I)V
+getAuthenticateHeader
+ ()Lorg/eclipse/jetty/http/HttpHeader;
+ ()Lorg/eclipse/jetty/http/HttpHeader;
+getAuthenticationAttribute
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getAuthenticationURI
+ (Lorg/eclipse/jetty/client/Request;)Ljava/net/URI;
+ (Lorg/eclipse/jetty/client/Request;)Ljava/net/URI;
+getAuthorizationHeader
+ ()Lorg/eclipse/jetty/http/HttpHeader;
+ ()Lorg/eclipse/jetty/http/HttpHeader;
+getHeaderInfo
+ (Ljava/lang/String;)Ljava/util/List<Lorg/eclipse/jetty/client/Authentication$HeaderInfo;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/eclipse/jetty/client/Authentication$HeaderInfo;>;
+getHttpClient
+ ()Lorg/eclipse/jetty/client/HttpClient;
+ ()Lorg/eclipse/jetty/client/HttpClient;
+getResponseListener
+ ()Lorg/eclipse/jetty/client/Response$Listener;
+ ()Lorg/eclipse/jetty/client/Response$Listener;

@@ -1,0 +1,18 @@
+class org/eclipse/jetty/client/EarlyHintsProtocolHandler
+
+NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+accept
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;)Z
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;)Z
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getResponseListener
+ ()Lorg/eclipse/jetty/client/Response$Listener;
+ ()Lorg/eclipse/jetty/client/Response$Listener;
+onEarlyHints
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/http/HttpFields;)V
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/http/HttpFields;)V

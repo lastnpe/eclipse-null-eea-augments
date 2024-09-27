@@ -1,0 +1,53 @@
+class org/eclipse/jetty/client/AbstractConnectionPool
+
+<init>
+ (Lorg/eclipse/jetty/client/Destination;Lorg/eclipse/jetty/util/Pool$Factory<Lorg/eclipse/jetty/client/Connection;>;I)V
+ (Lorg/eclipse/jetty/client/Destination;Lorg/eclipse/jetty/util/Pool$Factory<Lorg/eclipse/jetty/client/Connection;>;I)V
+accept
+ (Lorg/eclipse/jetty/client/Connection;)Z
+ (Lorg/eclipse/jetty/client/Connection;)Z
+acquire
+ (Z)Lorg/eclipse/jetty/client/Connection;
+ (Z)Lorg/eclipse/jetty/client/Connection;
+acquired
+ (Lorg/eclipse/jetty/client/Connection;)V
+ (Lorg/eclipse/jetty/client/Connection;)V
+activate
+ ()Lorg/eclipse/jetty/client/Connection;
+ ()Lorg/eclipse/jetty/client/Connection;
+deactivate
+ (Lorg/eclipse/jetty/client/Connection;)Z
+ (Lorg/eclipse/jetty/client/Connection;)Z
+dump
+ (Ljava/lang/Appendable;Ljava/lang/String;)V
+ (Ljava/lang/Appendable;Ljava/lang/String;)V
+idle
+ (Lorg/eclipse/jetty/client/Connection;Z)Z
+ (Lorg/eclipse/jetty/client/Connection;Z)Z
+isActive
+ (Lorg/eclipse/jetty/client/Connection;)Z
+ (Lorg/eclipse/jetty/client/Connection;)Z
+onCreated
+ (Lorg/eclipse/jetty/client/Connection;)V
+ (Lorg/eclipse/jetty/client/Connection;)V
+onRemoved
+ (Lorg/eclipse/jetty/client/Connection;)V
+ (Lorg/eclipse/jetty/client/Connection;)V
+preCreateConnections
+ (I)Ljava/util/concurrent/CompletableFuture<Ljava/lang/Void;>;
+ (I)Ljava/util/concurrent/CompletableFuture<Ljava/lang/Void;>;
+release
+ (Lorg/eclipse/jetty/client/Connection;)Z
+ (Lorg/eclipse/jetty/client/Connection;)Z
+released
+ (Lorg/eclipse/jetty/client/Connection;)V
+ (Lorg/eclipse/jetty/client/Connection;)V
+remove
+ (Lorg/eclipse/jetty/client/Connection;)Z
+ (Lorg/eclipse/jetty/client/Connection;)Z
+removed
+ (Lorg/eclipse/jetty/client/Connection;)V
+ (Lorg/eclipse/jetty/client/Connection;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

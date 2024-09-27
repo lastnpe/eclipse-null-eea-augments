@@ -1,0 +1,30 @@
+class org/eclipse/jetty/client/HttpClientTransport
+
+HTTP_CONNECTION_PROMISE_CONTEXT_KEY
+ Ljava/lang/String;
+ L1java/lang/String;
+HTTP_DESTINATION_CONTEXT_KEY
+ Ljava/lang/String;
+ L1java/lang/String;
+
+connect
+ (Ljava/net/InetSocketAddress;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+ (Ljava/net/InetSocketAddress;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+connect
+ (Ljava/net/SocketAddress;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+ (Ljava/net/SocketAddress;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+getConnectionPoolFactory
+ ()Lorg/eclipse/jetty/client/ConnectionPool$Factory;
+ ()Lorg/eclipse/jetty/client/ConnectionPool$Factory;
+newDestination
+ (Lorg/eclipse/jetty/client/Origin;)Lorg/eclipse/jetty/client/Destination;
+ (Lorg/eclipse/jetty/client/Origin;)Lorg/eclipse/jetty/client/Destination;
+newOrigin
+ (Lorg/eclipse/jetty/client/Request;)Lorg/eclipse/jetty/client/Origin;
+ (Lorg/eclipse/jetty/client/Request;)Lorg/eclipse/jetty/client/Origin;
+setConnectionPoolFactory
+ (Lorg/eclipse/jetty/client/ConnectionPool$Factory;)V
+ (Lorg/eclipse/jetty/client/ConnectionPool$Factory;)V
+setHttpClient
+ (Lorg/eclipse/jetty/client/HttpClient;)V
+ (Lorg/eclipse/jetty/client/HttpClient;)V

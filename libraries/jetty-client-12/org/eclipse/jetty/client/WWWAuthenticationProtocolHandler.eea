@@ -1,0 +1,30 @@
+class org/eclipse/jetty/client/WWWAuthenticationProtocolHandler
+
+NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Lorg/eclipse/jetty/client/HttpClient;)V
+ (Lorg/eclipse/jetty/client/HttpClient;)V
+<init>
+ (Lorg/eclipse/jetty/client/HttpClient;I)V
+ (Lorg/eclipse/jetty/client/HttpClient;I)V
+accept
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;)Z
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;)Z
+getAuthenticateHeader
+ ()Lorg/eclipse/jetty/http/HttpHeader;
+ ()Lorg/eclipse/jetty/http/HttpHeader;
+getAuthenticationAttribute
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getAuthenticationURI
+ (Lorg/eclipse/jetty/client/Request;)Ljava/net/URI;
+ (Lorg/eclipse/jetty/client/Request;)Ljava/net/URI;
+getAuthorizationHeader
+ ()Lorg/eclipse/jetty/http/HttpHeader;
+ ()Lorg/eclipse/jetty/http/HttpHeader;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

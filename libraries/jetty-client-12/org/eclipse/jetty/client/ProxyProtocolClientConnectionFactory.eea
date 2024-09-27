@@ -1,0 +1,11 @@
+class org/eclipse/jetty/client/ProxyProtocolClientConnectionFactory
+
+getClientConnectionFactory
+ ()Lorg/eclipse/jetty/io/ClientConnectionFactory;
+ ()Lorg/eclipse/jetty/io/ClientConnectionFactory;
+newConnection
+ (Lorg/eclipse/jetty/io/EndPoint;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/eclipse/jetty/io/Connection;
+ (Lorg/eclipse/jetty/io/EndPoint;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/eclipse/jetty/io/Connection;
+newProxyProtocolConnection
+ (Lorg/eclipse/jetty/io/EndPoint;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$ProxyProtocolConnection;
+ (Lorg/eclipse/jetty/io/EndPoint;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$ProxyProtocolConnection;

@@ -1,0 +1,50 @@
+class org/eclipse/jetty/client/transport/HttpExchange
+
+<init>
+ (Lorg/eclipse/jetty/client/transport/HttpDestination;Lorg/eclipse/jetty/client/transport/HttpRequest;)V
+ (Lorg/eclipse/jetty/client/transport/HttpDestination;Lorg/eclipse/jetty/client/transport/HttpRequest;)V
+<init>
+ (Lorg/eclipse/jetty/client/transport/HttpDestination;Lorg/eclipse/jetty/client/transport/HttpRequest;Lorg/eclipse/jetty/client/transport/ResponseListeners;)V
+ (Lorg/eclipse/jetty/client/transport/HttpDestination;Lorg/eclipse/jetty/client/transport/HttpRequest;Lorg/eclipse/jetty/client/transport/ResponseListeners;)V
+abort
+ (Ljava/lang/Throwable;Lorg/eclipse/jetty/util/Promise<Ljava/lang/Boolean;>;)V
+ (Ljava/lang/Throwable;Lorg/eclipse/jetty/util/Promise<Ljava/lang/Boolean;>;)V
+getConversation
+ ()Lorg/eclipse/jetty/client/transport/HttpConversation;
+ ()Lorg/eclipse/jetty/client/transport/HttpConversation;
+getHttpDestination
+ ()Lorg/eclipse/jetty/client/transport/HttpDestination;
+ ()Lorg/eclipse/jetty/client/transport/HttpDestination;
+getRequest
+ ()Lorg/eclipse/jetty/client/transport/HttpRequest;
+ ()Lorg/eclipse/jetty/client/transport/HttpRequest;
+getRequestFailure
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
+getResponse
+ ()Lorg/eclipse/jetty/client/transport/HttpResponse;
+ ()Lorg/eclipse/jetty/client/transport/HttpResponse;
+getResponseFailure
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
+getResponseListeners
+ ()Lorg/eclipse/jetty/client/transport/ResponseListeners;
+ ()Lorg/eclipse/jetty/client/transport/ResponseListeners;
+proceed
+ (Ljava/lang/Runnable;Ljava/lang/Throwable;)V
+ (Ljava/lang/Runnable;Ljava/lang/Throwable;)V
+requestComplete
+ (Ljava/lang/Throwable;)Z
+ (Ljava/lang/Throwable;)Z
+responseComplete
+ (Ljava/lang/Throwable;)Z
+ (Ljava/lang/Throwable;)Z
+terminateRequest
+ ()Lorg/eclipse/jetty/client/Result;
+ ()Lorg/eclipse/jetty/client/Result;
+terminateResponse
+ ()Lorg/eclipse/jetty/client/Result;
+ ()Lorg/eclipse/jetty/client/Result;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

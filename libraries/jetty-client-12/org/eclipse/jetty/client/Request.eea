@@ -1,0 +1,185 @@
+class org/eclipse/jetty/client/Request
+
+abort
+ (Ljava/lang/Throwable;)Ljava/util/concurrent/CompletableFuture<Ljava/lang/Boolean;>;
+ (Ljava/lang/Throwable;)Ljava/util/concurrent/CompletableFuture<Ljava/lang/Boolean;>;
+accept
+ ([Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+ ([Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+agent
+ (Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+ (Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+attribute
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/eclipse/jetty/client/Request;
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/eclipse/jetty/client/Request;
+body
+ (Lorg/eclipse/jetty/client/Request$Content;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Request$Content;)Lorg/eclipse/jetty/client/Request;
+cookie
+ (Lorg/eclipse/jetty/http/HttpCookie;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/http/HttpCookie;)Lorg/eclipse/jetty/client/Request;
+file
+ (Ljava/nio/file/Path;)Lorg/eclipse/jetty/client/Request;
+ (Ljava/nio/file/Path;)Lorg/eclipse/jetty/client/Request;
+file
+ (Ljava/nio/file/Path;Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+ (Ljava/nio/file/Path;Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+followRedirects
+ (Z)Lorg/eclipse/jetty/client/Request;
+ (Z)Lorg/eclipse/jetty/client/Request;
+getAbortCause
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
+getAgent
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getAttributes
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getBody
+ ()Lorg/eclipse/jetty/client/Request$Content;
+ ()Lorg/eclipse/jetty/client/Request$Content;
+getConnection
+ ()Lorg/eclipse/jetty/client/Connection;
+ ()Lorg/eclipse/jetty/client/Connection;
+getCookies
+ ()Ljava/util/List<Lorg/eclipse/jetty/http/HttpCookie;>;
+ ()Ljava/util/List<Lorg/eclipse/jetty/http/HttpCookie;>;
+getHeaders
+ ()Lorg/eclipse/jetty/http/HttpFields;
+ ()Lorg/eclipse/jetty/http/HttpFields;
+getHost
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMethod
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getParams
+ ()Lorg/eclipse/jetty/util/Fields;
+ ()Lorg/eclipse/jetty/util/Fields;
+getPath
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getQuery
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getScheme
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTag
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getTrailersSupplier
+ ()Ljava/util/function/Supplier<Lorg/eclipse/jetty/http/HttpFields;>;
+ ()Ljava/util/function/Supplier<Lorg/eclipse/jetty/http/HttpFields;>;
+getTransport
+ ()Lorg/eclipse/jetty/io/Transport;
+ ()Lorg/eclipse/jetty/io/Transport;
+getURI
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+getVersion
+ ()Lorg/eclipse/jetty/http/HttpVersion;
+ ()Lorg/eclipse/jetty/http/HttpVersion;
+headers
+ (Ljava/util/function/Consumer<Lorg/eclipse/jetty/http/HttpFields$Mutable;>;)Lorg/eclipse/jetty/client/Request;
+ (Ljava/util/function/Consumer<Lorg/eclipse/jetty/http/HttpFields$Mutable;>;)Lorg/eclipse/jetty/client/Request;
+host
+ (Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+ (Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+idleTimeout
+ (JLjava/util/concurrent/TimeUnit;)Lorg/eclipse/jetty/client/Request;
+ (JLjava/util/concurrent/TimeUnit;)Lorg/eclipse/jetty/client/Request;
+listener
+ (Lorg/eclipse/jetty/client/Request$Listener;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Request$Listener;)Lorg/eclipse/jetty/client/Request;
+method
+ (Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+ (Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+method
+ (Lorg/eclipse/jetty/http/HttpMethod;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/http/HttpMethod;)Lorg/eclipse/jetty/client/Request;
+onComplete
+ (Lorg/eclipse/jetty/client/Response$CompleteListener;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Response$CompleteListener;)Lorg/eclipse/jetty/client/Request;
+onPush
+ (Ljava/util/function/BiFunction<Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response$CompleteListener;>;)Lorg/eclipse/jetty/client/Request;
+ (Ljava/util/function/BiFunction<Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response$CompleteListener;>;)Lorg/eclipse/jetty/client/Request;
+onRequestBegin
+ (Lorg/eclipse/jetty/client/Request$BeginListener;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Request$BeginListener;)Lorg/eclipse/jetty/client/Request;
+onRequestCommit
+ (Lorg/eclipse/jetty/client/Request$CommitListener;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Request$CommitListener;)Lorg/eclipse/jetty/client/Request;
+onRequestContent
+ (Lorg/eclipse/jetty/client/Request$ContentListener;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Request$ContentListener;)Lorg/eclipse/jetty/client/Request;
+onRequestFailure
+ (Lorg/eclipse/jetty/client/Request$FailureListener;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Request$FailureListener;)Lorg/eclipse/jetty/client/Request;
+onRequestHeaders
+ (Lorg/eclipse/jetty/client/Request$HeadersListener;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Request$HeadersListener;)Lorg/eclipse/jetty/client/Request;
+onRequestQueued
+ (Lorg/eclipse/jetty/client/Request$QueuedListener;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Request$QueuedListener;)Lorg/eclipse/jetty/client/Request;
+onRequestSuccess
+ (Lorg/eclipse/jetty/client/Request$SuccessListener;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Request$SuccessListener;)Lorg/eclipse/jetty/client/Request;
+onResponseBegin
+ (Lorg/eclipse/jetty/client/Response$BeginListener;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Response$BeginListener;)Lorg/eclipse/jetty/client/Request;
+onResponseContent
+ (Lorg/eclipse/jetty/client/Response$ContentListener;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Response$ContentListener;)Lorg/eclipse/jetty/client/Request;
+onResponseContentAsync
+ (Lorg/eclipse/jetty/client/Response$AsyncContentListener;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Response$AsyncContentListener;)Lorg/eclipse/jetty/client/Request;
+onResponseContentSource
+ (Lorg/eclipse/jetty/client/Response$ContentSourceListener;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Response$ContentSourceListener;)Lorg/eclipse/jetty/client/Request;
+onResponseFailure
+ (Lorg/eclipse/jetty/client/Response$FailureListener;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Response$FailureListener;)Lorg/eclipse/jetty/client/Request;
+onResponseHeader
+ (Lorg/eclipse/jetty/client/Response$HeaderListener;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Response$HeaderListener;)Lorg/eclipse/jetty/client/Request;
+onResponseHeaders
+ (Lorg/eclipse/jetty/client/Response$HeadersListener;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Response$HeadersListener;)Lorg/eclipse/jetty/client/Request;
+onResponseSuccess
+ (Lorg/eclipse/jetty/client/Response$SuccessListener;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Response$SuccessListener;)Lorg/eclipse/jetty/client/Request;
+param
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+path
+ (Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+ (Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+port
+ (I)Lorg/eclipse/jetty/client/Request;
+ (I)Lorg/eclipse/jetty/client/Request;
+scheme
+ (Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+ (Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+send
+ ()Lorg/eclipse/jetty/client/ContentResponse;
+ ()Lorg/eclipse/jetty/client/ContentResponse;
+send
+ (Lorg/eclipse/jetty/client/Response$CompleteListener;)V
+ (Lorg/eclipse/jetty/client/Response$CompleteListener;)V
+tag
+ (Ljava/lang/Object;)Lorg/eclipse/jetty/client/Request;
+ (Ljava/lang/Object;)Lorg/eclipse/jetty/client/Request;
+timeout
+ (JLjava/util/concurrent/TimeUnit;)Lorg/eclipse/jetty/client/Request;
+ (JLjava/util/concurrent/TimeUnit;)Lorg/eclipse/jetty/client/Request;
+trailersSupplier
+ (Ljava/util/function/Supplier<Lorg/eclipse/jetty/http/HttpFields;>;)Lorg/eclipse/jetty/client/Request;
+ (Ljava/util/function/Supplier<Lorg/eclipse/jetty/http/HttpFields;>;)Lorg/eclipse/jetty/client/Request;
+transport
+ (Lorg/eclipse/jetty/io/Transport;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/io/Transport;)Lorg/eclipse/jetty/client/Request;
+version
+ (Lorg/eclipse/jetty/http/HttpVersion;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/http/HttpVersion;)Lorg/eclipse/jetty/client/Request;

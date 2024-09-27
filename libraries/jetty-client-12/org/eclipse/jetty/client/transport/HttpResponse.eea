@@ -1,0 +1,44 @@
+class org/eclipse/jetty/client/transport/HttpResponse
+
+<init>
+ (Lorg/eclipse/jetty/client/Request;)V
+ (Lorg/eclipse/jetty/client/Request;)V
+abort
+ (Ljava/lang/Throwable;)Ljava/util/concurrent/CompletableFuture<Ljava/lang/Boolean;>;
+ (L1java/lang/Throwable;)L1java/util/concurrent/CompletableFuture<L1java/lang/Boolean;>; # @Inherited(org.eclipse.jetty.client.Response)
+addHeader
+ (Lorg/eclipse/jetty/http/HttpField;)Lorg/eclipse/jetty/client/transport/HttpResponse;
+ (Lorg/eclipse/jetty/http/HttpField;)Lorg/eclipse/jetty/client/transport/HttpResponse;
+getHeaders
+ ()Lorg/eclipse/jetty/http/HttpFields;
+ ()L1org/eclipse/jetty/http/HttpFields; # @Inherited(org.eclipse.jetty.client.Response)
+getReason
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.eclipse.jetty.client.Response)
+getRequest
+ ()Lorg/eclipse/jetty/client/Request;
+ ()L1org/eclipse/jetty/client/Request; # @Inherited(org.eclipse.jetty.client.Response)
+getTrailers
+ ()Lorg/eclipse/jetty/http/HttpFields;
+ ()Lorg/eclipse/jetty/http/HttpFields;
+getVersion
+ ()Lorg/eclipse/jetty/http/HttpVersion;
+ ()L1org/eclipse/jetty/http/HttpVersion; # @Inherited(org.eclipse.jetty.client.Response)
+headers
+ (Ljava/util/function/Consumer<Lorg/eclipse/jetty/http/HttpFields$Mutable;>;)Lorg/eclipse/jetty/client/transport/HttpResponse;
+ (Ljava/util/function/Consumer<Lorg/eclipse/jetty/http/HttpFields$Mutable;>;)Lorg/eclipse/jetty/client/transport/HttpResponse;
+reason
+ (Ljava/lang/String;)Lorg/eclipse/jetty/client/transport/HttpResponse;
+ (Ljava/lang/String;)Lorg/eclipse/jetty/client/transport/HttpResponse;
+status
+ (I)Lorg/eclipse/jetty/client/transport/HttpResponse;
+ (I)Lorg/eclipse/jetty/client/transport/HttpResponse;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+trailer
+ (Lorg/eclipse/jetty/http/HttpField;)Lorg/eclipse/jetty/client/transport/HttpResponse;
+ (Lorg/eclipse/jetty/http/HttpField;)Lorg/eclipse/jetty/client/transport/HttpResponse;
+version
+ (Lorg/eclipse/jetty/http/HttpVersion;)Lorg/eclipse/jetty/client/transport/HttpResponse;
+ (Lorg/eclipse/jetty/http/HttpVersion;)Lorg/eclipse/jetty/client/transport/HttpResponse;
