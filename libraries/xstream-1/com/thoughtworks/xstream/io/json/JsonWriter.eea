@@ -1,0 +1,48 @@
+class com/thoughtworks/xstream/io/json/JsonWriter
+
+format
+ Lcom/thoughtworks/xstream/io/json/JsonWriter$Format;
+ Lcom/thoughtworks/xstream/io/json/JsonWriter$Format;
+writer
+ Lcom/thoughtworks/xstream/core/util/QuickWriter;
+ Lcom/thoughtworks/xstream/core/util/QuickWriter;
+
+<init>
+ (Ljava/io/Writer;)V
+ (Ljava/io/Writer;)V
+<init>
+ (Ljava/io/Writer;I)V
+ (Ljava/io/Writer;I)V
+<init>
+ (Ljava/io/Writer;ILcom/thoughtworks/xstream/io/json/JsonWriter$Format;)V
+ (Ljava/io/Writer;ILcom/thoughtworks/xstream/io/json/JsonWriter$Format;)V
+<init>
+ (Ljava/io/Writer;ILcom/thoughtworks/xstream/io/json/JsonWriter$Format;I)V
+ (Ljava/io/Writer;ILcom/thoughtworks/xstream/io/json/JsonWriter$Format;I)V
+<init>
+ (Ljava/io/Writer;Lcom/thoughtworks/xstream/io/json/JsonWriter$Format;)V
+ (Ljava/io/Writer;Lcom/thoughtworks/xstream/io/json/JsonWriter$Format;)V
+<init>
+ (Ljava/io/Writer;Ljava/lang/String;)V
+ (Ljava/io/Writer;Ljava/lang/String;)V
+<init>
+ (Ljava/io/Writer;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/io/Writer;Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/io/Writer;[C)V
+ (Ljava/io/Writer;[C)V
+<init>
+ (Ljava/io/Writer;[CLjava/lang/String;)V
+ (Ljava/io/Writer;[CLjava/lang/String;)V
+<init>
+ (Ljava/io/Writer;[CLjava/lang/String;I)V
+ (Ljava/io/Writer;[CLjava/lang/String;I)V
+addLabel
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+addValue
+ (Ljava/lang/String;Lcom/thoughtworks/xstream/io/json/AbstractJsonWriter$Type;)V
+ (Ljava/lang/String;Lcom/thoughtworks/xstream/io/json/AbstractJsonWriter$Type;)V
+underlyingWriter
+ ()Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+ ()Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;

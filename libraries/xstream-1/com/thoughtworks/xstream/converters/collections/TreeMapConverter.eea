@@ -1,0 +1,20 @@
+class com/thoughtworks/xstream/converters/collections/TreeMapConverter
+
+<init>
+ (Lcom/thoughtworks/xstream/mapper/Mapper;)V
+ (Lcom/thoughtworks/xstream/mapper/Mapper;)V
+marshal
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Lcom/thoughtworks/xstream/converters/MarshallingContext;)V
+ (L0java/lang/Object;L1com/thoughtworks/xstream/io/HierarchicalStreamWriter;L1com/thoughtworks/xstream/converters/MarshallingContext;)V # @Inherited(com.thoughtworks.xstream.converters.collections.MapConverter)
+marshalComparator
+ (Ljava/util/Comparator;Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Lcom/thoughtworks/xstream/converters/MarshallingContext;)V
+ (Ljava/util/Comparator;Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Lcom/thoughtworks/xstream/converters/MarshallingContext;)V
+populateTreeMap
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Lcom/thoughtworks/xstream/converters/UnmarshallingContext;Ljava/util/TreeMap;Ljava/util/Comparator;)V
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Lcom/thoughtworks/xstream/converters/UnmarshallingContext;Ljava/util/TreeMap;Ljava/util/Comparator;)V
+unmarshal
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Lcom/thoughtworks/xstream/converters/UnmarshallingContext;)Ljava/lang/Object;
+ (L1com/thoughtworks/xstream/io/HierarchicalStreamReader;L1com/thoughtworks/xstream/converters/UnmarshallingContext;)L0java/lang/Object; # @Inherited(com.thoughtworks.xstream.converters.collections.MapConverter)
+unmarshalComparator
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Lcom/thoughtworks/xstream/converters/UnmarshallingContext;Ljava/util/TreeMap;)Ljava/util/Comparator;
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Lcom/thoughtworks/xstream/converters/UnmarshallingContext;Ljava/util/TreeMap;)Ljava/util/Comparator;

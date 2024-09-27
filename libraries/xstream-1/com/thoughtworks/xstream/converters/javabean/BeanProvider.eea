@@ -1,0 +1,49 @@
+class com/thoughtworks/xstream/converters/javabean/BeanProvider
+
+NO_PARAMS
+ [Ljava/lang/Object;
+ [1Ljava/lang/Object;
+
+propertyDictionary
+ Lcom/thoughtworks/xstream/converters/javabean/PropertyDictionary;
+ Lcom/thoughtworks/xstream/converters/javabean/PropertyDictionary;
+
+<init>
+ (Lcom/thoughtworks/xstream/converters/javabean/PropertyDictionary;)V
+ (Lcom/thoughtworks/xstream/converters/javabean/PropertyDictionary;)V
+<init>
+ (Ljava/util/Comparator;)V
+ (Ljava/util/Comparator;)V
+canInstantiate
+ (Ljava/lang/Class;)Z
+ (Ljava/lang/Class;)Z
+canStreamProperty
+ (Ljava/beans/PropertyDescriptor;)Z
+ (Ljava/beans/PropertyDescriptor;)Z
+getDefaultConstrutor
+ (Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+ (Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+getProperty
+ (Ljava/lang/String;Ljava/lang/Class;)Ljava/beans/PropertyDescriptor;
+ (Ljava/lang/String;Ljava/lang/Class;)Ljava/beans/PropertyDescriptor;
+getPropertyType
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Class;
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Class;
+getSerializableProperties
+ (Ljava/lang/Object;)[Ljava/beans/PropertyDescriptor;
+ (Ljava/lang/Object;)[Ljava/beans/PropertyDescriptor;
+newInstance
+ (Ljava/lang/Class;)Ljava/lang/Object;
+ (Ljava/lang/Class;)Ljava/lang/Object;
+propertyDefinedInClass
+ (Ljava/lang/String;Ljava/lang/Class;)Z
+ (Ljava/lang/String;Ljava/lang/Class;)Z
+propertyWriteable
+ (Ljava/lang/String;Ljava/lang/Class;)Z
+ (Ljava/lang/String;Ljava/lang/Class;)Z
+visitSerializableProperties
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/converters/javabean/JavaBeanProvider$Visitor;)V
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/converters/javabean/JavaBeanProvider$Visitor;)V
+writeProperty
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V

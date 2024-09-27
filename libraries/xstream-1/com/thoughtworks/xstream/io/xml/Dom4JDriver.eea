@@ -1,0 +1,47 @@
+class com/thoughtworks/xstream/io/xml/Dom4JDriver
+
+<init>
+ (Lcom/thoughtworks/xstream/io/naming/NameCoder;)V
+ (Lcom/thoughtworks/xstream/io/naming/NameCoder;)V
+<init>
+ (Lorg/dom4j/DocumentFactory;Lorg/dom4j/io/OutputFormat;)V
+ (Lorg/dom4j/DocumentFactory;Lorg/dom4j/io/OutputFormat;)V
+<init>
+ (Lorg/dom4j/DocumentFactory;Lorg/dom4j/io/OutputFormat;Lcom/thoughtworks/xstream/io/naming/NameCoder;)V
+ (Lorg/dom4j/DocumentFactory;Lorg/dom4j/io/OutputFormat;Lcom/thoughtworks/xstream/io/naming/NameCoder;)V
+<init>
+ (Lorg/dom4j/DocumentFactory;Lorg/dom4j/io/OutputFormat;Lcom/thoughtworks/xstream/io/xml/XmlFriendlyReplacer;)V
+ (Lorg/dom4j/DocumentFactory;Lorg/dom4j/io/OutputFormat;Lcom/thoughtworks/xstream/io/xml/XmlFriendlyReplacer;)V
+createReader
+ ()Lorg/dom4j/io/SAXReader;
+ ()Lorg/dom4j/io/SAXReader;
+createReader
+ (Ljava/io/File;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ (Ljava/io/File;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+createReader
+ (Ljava/io/InputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ (Ljava/io/InputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+createReader
+ (Ljava/io/Reader;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ (Ljava/io/Reader;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+createReader
+ (Ljava/net/URL;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ (Ljava/net/URL;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+createWriter
+ (Ljava/io/OutputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+ (Ljava/io/OutputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+createWriter
+ (Ljava/io/Writer;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+ (Ljava/io/Writer;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+getDocumentFactory
+ ()Lorg/dom4j/DocumentFactory;
+ ()Lorg/dom4j/DocumentFactory;
+getOutputFormat
+ ()Lorg/dom4j/io/OutputFormat;
+ ()Lorg/dom4j/io/OutputFormat;
+setDocumentFactory
+ (Lorg/dom4j/DocumentFactory;)V
+ (Lorg/dom4j/DocumentFactory;)V
+setOutputFormat
+ (Lorg/dom4j/io/OutputFormat;)V
+ (Lorg/dom4j/io/OutputFormat;)V

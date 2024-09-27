@@ -1,0 +1,35 @@
+class com/thoughtworks/xstream/io/binary/BinaryStreamReader
+
+<init>
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+appendErrors
+ (Lcom/thoughtworks/xstream/converters/ErrorWriter;)V
+ (Lcom/thoughtworks/xstream/converters/ErrorWriter;)V
+getAttribute
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getAttributeName
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getAttributeNames
+ ()Ljava/util/Iterator;
+ ()Ljava/util/Iterator;
+getNodeName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getValue
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+peekNextChild
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+pushBack
+ (Lcom/thoughtworks/xstream/io/binary/Token;)V
+ (Lcom/thoughtworks/xstream/io/binary/Token;)V
+underlyingReader
+ ()Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ ()Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;

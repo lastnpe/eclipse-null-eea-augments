@@ -1,0 +1,26 @@
+class com/thoughtworks/xstream/io/path/Path
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+apply
+ (Lcom/thoughtworks/xstream/io/path/Path;)Lcom/thoughtworks/xstream/io/path/Path;
+ (Lcom/thoughtworks/xstream/io/path/Path;)Lcom/thoughtworks/xstream/io/path/Path;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+explicit
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+isAncestor
+ (Lcom/thoughtworks/xstream/io/path/Path;)Z
+ (Lcom/thoughtworks/xstream/io/path/Path;)Z
+relativeTo
+ (Lcom/thoughtworks/xstream/io/path/Path;)Lcom/thoughtworks/xstream/io/path/Path;
+ (Lcom/thoughtworks/xstream/io/path/Path;)Lcom/thoughtworks/xstream/io/path/Path;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

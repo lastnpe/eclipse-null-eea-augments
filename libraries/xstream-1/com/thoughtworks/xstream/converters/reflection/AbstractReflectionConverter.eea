@@ -1,0 +1,48 @@
+class com/thoughtworks/xstream/converters/reflection/AbstractReflectionConverter
+
+mapper
+ Lcom/thoughtworks/xstream/mapper/Mapper;
+ Lcom/thoughtworks/xstream/mapper/Mapper;
+reflectionProvider
+ Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;
+ Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;
+serializationMembers
+ Lcom/thoughtworks/xstream/core/util/SerializationMembers;
+ Lcom/thoughtworks/xstream/core/util/SerializationMembers;
+serializationMethodInvoker
+ Lcom/thoughtworks/xstream/converters/reflection/SerializationMethodInvoker;
+ Lcom/thoughtworks/xstream/converters/reflection/SerializationMethodInvoker;
+
+<init>
+ (Lcom/thoughtworks/xstream/mapper/Mapper;Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;)V
+ (Lcom/thoughtworks/xstream/mapper/Mapper;Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;)V
+canAccess
+ (Ljava/lang/Class;)Z
+ (Ljava/lang/Class;)Z
+doMarshal
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Lcom/thoughtworks/xstream/converters/MarshallingContext;)V
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Lcom/thoughtworks/xstream/converters/MarshallingContext;)V
+doUnmarshal
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Lcom/thoughtworks/xstream/converters/UnmarshallingContext;)Ljava/lang/Object;
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Lcom/thoughtworks/xstream/converters/UnmarshallingContext;)Ljava/lang/Object;
+instantiateNewInstance
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Lcom/thoughtworks/xstream/converters/UnmarshallingContext;)Ljava/lang/Object;
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Lcom/thoughtworks/xstream/converters/UnmarshallingContext;)Ljava/lang/Object;
+marshal
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Lcom/thoughtworks/xstream/converters/MarshallingContext;)V
+ (L0java/lang/Object;L1com/thoughtworks/xstream/io/HierarchicalStreamWriter;L1com/thoughtworks/xstream/converters/MarshallingContext;)V # @Inherited(com.thoughtworks.xstream.converters.Converter)
+marshallField
+ (Lcom/thoughtworks/xstream/converters/MarshallingContext;Ljava/lang/Object;Ljava/lang/reflect/Field;)V
+ (Lcom/thoughtworks/xstream/converters/MarshallingContext;Ljava/lang/Object;Ljava/lang/reflect/Field;)V
+readResolve
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;
+shouldUnmarshalField
+ (Ljava/lang/reflect/Field;)Z
+ (Ljava/lang/reflect/Field;)Z
+unmarshal
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Lcom/thoughtworks/xstream/converters/UnmarshallingContext;)Ljava/lang/Object;
+ (L1com/thoughtworks/xstream/io/HierarchicalStreamReader;L1com/thoughtworks/xstream/converters/UnmarshallingContext;)L0java/lang/Object; # @Inherited(com.thoughtworks.xstream.converters.Converter)
+unmarshallField
+ (Lcom/thoughtworks/xstream/converters/UnmarshallingContext;Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/reflect/Field;)Ljava/lang/Object;
+ (Lcom/thoughtworks/xstream/converters/UnmarshallingContext;Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/reflect/Field;)Ljava/lang/Object;

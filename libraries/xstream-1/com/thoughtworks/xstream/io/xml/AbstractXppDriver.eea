@@ -1,0 +1,20 @@
+class com/thoughtworks/xstream/io/xml/AbstractXppDriver
+
+<init>
+ (Lcom/thoughtworks/xstream/io/naming/NameCoder;)V
+ (Lcom/thoughtworks/xstream/io/naming/NameCoder;)V
+createParser
+ ()Lorg/xmlpull/v1/XmlPullParser;
+ ()Lorg/xmlpull/v1/XmlPullParser;
+createReader
+ (Ljava/io/InputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ (Ljava/io/InputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+createReader
+ (Ljava/io/Reader;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ (Ljava/io/Reader;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+createWriter
+ (Ljava/io/OutputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+ (Ljava/io/OutputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+createWriter
+ (Ljava/io/Writer;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+ (Ljava/io/Writer;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;

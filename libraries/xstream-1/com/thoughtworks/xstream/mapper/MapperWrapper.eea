@@ -1,0 +1,80 @@
+class com/thoughtworks/xstream/mapper/MapperWrapper
+
+<init>
+ (Lcom/thoughtworks/xstream/mapper/Mapper;)V
+ (Lcom/thoughtworks/xstream/mapper/Mapper;)V
+aliasForAttribute
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
+aliasForAttribute
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+aliasForSystemAttribute
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+attributeForAlias
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
+attributeForAlias
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+defaultImplementationOf
+ (Ljava/lang/Class;)Ljava/lang/Class;
+ (Ljava/lang/Class;)Ljava/lang/Class;
+getConverterFromAttribute
+ (Ljava/lang/Class;Ljava/lang/String;)Lcom/thoughtworks/xstream/converters/SingleValueConverter;
+ (Ljava/lang/Class;Ljava/lang/String;)Lcom/thoughtworks/xstream/converters/SingleValueConverter;
+getConverterFromAttribute
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)Lcom/thoughtworks/xstream/converters/SingleValueConverter;
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)Lcom/thoughtworks/xstream/converters/SingleValueConverter;
+getConverterFromAttribute
+ (Ljava/lang/String;)Lcom/thoughtworks/xstream/converters/SingleValueConverter;
+ (Ljava/lang/String;)Lcom/thoughtworks/xstream/converters/SingleValueConverter;
+getConverterFromItemType
+ (Ljava/lang/Class;)Lcom/thoughtworks/xstream/converters/SingleValueConverter;
+ (Ljava/lang/Class;)Lcom/thoughtworks/xstream/converters/SingleValueConverter;
+getConverterFromItemType
+ (Ljava/lang/String;Ljava/lang/Class;)Lcom/thoughtworks/xstream/converters/SingleValueConverter;
+ (Ljava/lang/String;Ljava/lang/Class;)Lcom/thoughtworks/xstream/converters/SingleValueConverter;
+getConverterFromItemType
+ (Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Class;)Lcom/thoughtworks/xstream/converters/SingleValueConverter;
+ (Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Class;)Lcom/thoughtworks/xstream/converters/SingleValueConverter;
+getFieldNameForItemTypeAndName
+ (Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
+getImplicitCollectionDefForFieldName
+ (Ljava/lang/Class;Ljava/lang/String;)Lcom/thoughtworks/xstream/mapper/Mapper$ImplicitCollectionMapping;
+ (Ljava/lang/Class;Ljava/lang/String;)Lcom/thoughtworks/xstream/mapper/Mapper$ImplicitCollectionMapping;
+getItemTypeForItemFieldName
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Class;
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Class;
+getLocalConverter
+ (Ljava/lang/Class;Ljava/lang/String;)Lcom/thoughtworks/xstream/converters/Converter;
+ (Ljava/lang/Class;Ljava/lang/String;)Lcom/thoughtworks/xstream/converters/Converter;
+isIgnoredElement
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isImmutableValueType
+ (Ljava/lang/Class;)Z
+ (Ljava/lang/Class;)Z
+isReferenceable
+ (Ljava/lang/Class;)Z
+ (Ljava/lang/Class;)Z
+lookupMapperOfType
+ (Ljava/lang/Class;)Lcom/thoughtworks/xstream/mapper/Mapper;
+ (Ljava/lang/Class;)Lcom/thoughtworks/xstream/mapper/Mapper;
+realClass
+ (Ljava/lang/String;)Ljava/lang/Class;
+ (Ljava/lang/String;)Ljava/lang/Class;
+realMember
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
+serializedClass
+ (Ljava/lang/Class;)Ljava/lang/String;
+ (Ljava/lang/Class;)Ljava/lang/String;
+serializedMember
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
+shouldSerializeMember
+ (Ljava/lang/Class;Ljava/lang/String;)Z
+ (Ljava/lang/Class;Ljava/lang/String;)Z

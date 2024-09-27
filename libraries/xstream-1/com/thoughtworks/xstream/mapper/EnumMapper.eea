@@ -1,0 +1,23 @@
+class com/thoughtworks/xstream/mapper/EnumMapper
+
+<init>
+ (Lcom/thoughtworks/xstream/mapper/Mapper;)V
+ (Lcom/thoughtworks/xstream/mapper/Mapper;)V
+<init>
+ (Lcom/thoughtworks/xstream/mapper/Mapper;Lcom/thoughtworks/xstream/converters/ConverterLookup;)V
+ (Lcom/thoughtworks/xstream/mapper/Mapper;Lcom/thoughtworks/xstream/converters/ConverterLookup;)V
+getConverterFromAttribute
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)Lcom/thoughtworks/xstream/converters/SingleValueConverter;
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)Lcom/thoughtworks/xstream/converters/SingleValueConverter;
+getConverterFromItemType
+ (Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Class;)Lcom/thoughtworks/xstream/converters/SingleValueConverter;
+ (Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Class;)Lcom/thoughtworks/xstream/converters/SingleValueConverter;
+isImmutableValueType
+ (Ljava/lang/Class;)Z
+ (Ljava/lang/Class;)Z
+isReferenceable
+ (Ljava/lang/Class;)Z
+ (Ljava/lang/Class;)Z
+serializedClass
+ (Ljava/lang/Class;)Ljava/lang/String;
+ (Ljava/lang/Class;)Ljava/lang/String;
