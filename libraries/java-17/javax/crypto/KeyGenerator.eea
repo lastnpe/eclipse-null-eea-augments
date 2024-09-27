@@ -1,0 +1,36 @@
+class javax/crypto/KeyGenerator
+
+getInstance
+ (Ljava/lang/String;)Ljavax/crypto/KeyGenerator;
+ (Ljava/lang/String;)Ljavax/crypto/KeyGenerator;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/KeyGenerator;
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/KeyGenerator;
+getInstance
+ (Ljava/lang/String;Ljava/security/Provider;)Ljavax/crypto/KeyGenerator;
+ (Ljava/lang/String;Ljava/security/Provider;)Ljavax/crypto/KeyGenerator;
+
+<init>
+ (Ljavax/crypto/KeyGeneratorSpi;Ljava/security/Provider;Ljava/lang/String;)V
+ (Ljavax/crypto/KeyGeneratorSpi;Ljava/security/Provider;Ljava/lang/String;)V
+generateKey
+ ()Ljavax/crypto/SecretKey;
+ ()Ljavax/crypto/SecretKey;
+getAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getProvider
+ ()Ljava/security/Provider;
+ ()Ljava/security/Provider;
+init
+ (ILjava/security/SecureRandom;)V
+ (ILjava/security/SecureRandom;)V
+init
+ (Ljava/security/SecureRandom;)V
+ (Ljava/security/SecureRandom;)V
+init
+ (Ljava/security/spec/AlgorithmParameterSpec;)V
+ (Ljava/security/spec/AlgorithmParameterSpec;)V
+init
+ (Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V
+ (Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V

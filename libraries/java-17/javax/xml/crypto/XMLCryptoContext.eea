@@ -1,0 +1,44 @@
+class javax/xml/crypto/XMLCryptoContext
+
+get
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+getBaseURI
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDefaultNamespacePrefix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getKeySelector
+ ()Ljavax/xml/crypto/KeySelector;
+ ()Ljavax/xml/crypto/KeySelector;
+getNamespacePrefix
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getURIDereferencer
+ ()Ljavax/xml/crypto/URIDereferencer;
+ ()Ljavax/xml/crypto/URIDereferencer;
+put
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+putNamespacePrefix
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+setBaseURI
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setDefaultNamespacePrefix
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setKeySelector
+ (Ljavax/xml/crypto/KeySelector;)V
+ (Ljavax/xml/crypto/KeySelector;)V
+setProperty
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+setURIDereferencer
+ (Ljavax/xml/crypto/URIDereferencer;)V
+ (Ljavax/xml/crypto/URIDereferencer;)V

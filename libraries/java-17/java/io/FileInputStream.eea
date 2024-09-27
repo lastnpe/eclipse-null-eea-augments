@@ -1,0 +1,29 @@
+class java/io/FileInputStream
+
+<init>
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+<init>
+ (Ljava/io/FileDescriptor;)V
+ (Ljava/io/FileDescriptor;)V
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getChannel
+ ()Ljava/nio/channels/FileChannel;
+ ()Ljava/nio/channels/FileChannel;
+getFD
+ ()Ljava/io/FileDescriptor;
+ ()Ljava/io/FileDescriptor;
+read
+ ([B)I
+ ([B)I
+read
+ ([BII)I
+ ([BII)I
+readAllBytes
+ ()[B
+ ()[B
+readNBytes
+ (I)[B
+ (I)[B

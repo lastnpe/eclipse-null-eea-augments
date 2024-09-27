@@ -1,0 +1,20 @@
+class java/util/concurrent/locks/LockSupport
+
+getBlocker
+ (Ljava/lang/Thread;)Ljava/lang/Object;
+ (Ljava/lang/Thread;)Ljava/lang/Object;
+park
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+parkNanos
+ (Ljava/lang/Object;J)V
+ (Ljava/lang/Object;J)V
+parkUntil
+ (Ljava/lang/Object;J)V
+ (Ljava/lang/Object;J)V
+setCurrentBlocker
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+unpark
+ (Ljava/lang/Thread;)V
+ (Ljava/lang/Thread;)V

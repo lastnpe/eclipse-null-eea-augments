@@ -1,0 +1,72 @@
+class java/net/Socket
+
+setSocketImplFactory
+ (Ljava/net/SocketImplFactory;)V
+ (Ljava/net/SocketImplFactory;)V
+
+<init>
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+<init>
+ (Ljava/lang/String;ILjava/net/InetAddress;I)V
+ (Ljava/lang/String;ILjava/net/InetAddress;I)V
+<init>
+ (Ljava/lang/String;IZ)V
+ (Ljava/lang/String;IZ)V
+<init>
+ (Ljava/net/InetAddress;I)V
+ (Ljava/net/InetAddress;I)V
+<init>
+ (Ljava/net/InetAddress;ILjava/net/InetAddress;I)V
+ (Ljava/net/InetAddress;ILjava/net/InetAddress;I)V
+<init>
+ (Ljava/net/InetAddress;IZ)V
+ (Ljava/net/InetAddress;IZ)V
+<init>
+ (Ljava/net/Proxy;)V
+ (Ljava/net/Proxy;)V
+<init>
+ (Ljava/net/SocketImpl;)V
+ (Ljava/net/SocketImpl;)V
+bind
+ (Ljava/net/SocketAddress;)V
+ (Ljava/net/SocketAddress;)V
+connect
+ (Ljava/net/SocketAddress;)V
+ (Ljava/net/SocketAddress;)V
+connect
+ (Ljava/net/SocketAddress;I)V
+ (Ljava/net/SocketAddress;I)V
+getChannel
+ ()Ljava/nio/channels/SocketChannel;
+ ()Ljava/nio/channels/SocketChannel;
+getInetAddress
+ ()Ljava/net/InetAddress;
+ ()Ljava/net/InetAddress;
+getInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getLocalAddress
+ ()Ljava/net/InetAddress;
+ ()Ljava/net/InetAddress;
+getLocalSocketAddress
+ ()Ljava/net/SocketAddress;
+ ()Ljava/net/SocketAddress;
+getOption
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;)TT;
+getOutputStream
+ ()Ljava/io/OutputStream;
+ ()Ljava/io/OutputStream;
+getRemoteSocketAddress
+ ()Ljava/net/SocketAddress;
+ ()Ljava/net/SocketAddress;
+setOption
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/net/Socket;
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/net/Socket;
+supportedOptions
+ ()Ljava/util/Set<Ljava/net/SocketOption<*>;>;
+ ()Ljava/util/Set<Ljava/net/SocketOption<*>;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

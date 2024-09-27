@@ -1,0 +1,17 @@
+class java/util/function/Function
+ <T:Ljava/lang/Object;R:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;R:Ljava/lang/Object;>
+
+identity
+ <T:Ljava/lang/Object;>()Ljava/util/function/Function<TT;TT;>;
+ <T:Ljava/lang/Object;>()Ljava/util/function/Function<TT;TT;>;
+
+andThen
+ <V:Ljava/lang/Object;>(Ljava/util/function/Function<-TR;+TV;>;)Ljava/util/function/Function<TT;TV;>;
+ <V:Ljava/lang/Object;>(Ljava/util/function/Function<-TR;+TV;>;)Ljava/util/function/Function<TT;TV;>;
+apply
+ (TT;)TR;
+ (TT;)TR;
+compose
+ <V:Ljava/lang/Object;>(Ljava/util/function/Function<-TV;+TT;>;)Ljava/util/function/Function<TV;TR;>;
+ <V:Ljava/lang/Object;>(Ljava/util/function/Function<-TV;+TT;>;)Ljava/util/function/Function<TV;TR;>;

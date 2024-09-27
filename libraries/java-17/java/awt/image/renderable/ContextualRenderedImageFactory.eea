@@ -1,0 +1,17 @@
+class java/awt/image/renderable/ContextualRenderedImageFactory
+
+create
+ (Ljava/awt/image/renderable/RenderContext;Ljava/awt/image/renderable/ParameterBlock;)Ljava/awt/image/RenderedImage;
+ (Ljava/awt/image/renderable/RenderContext;Ljava/awt/image/renderable/ParameterBlock;)Ljava/awt/image/RenderedImage;
+getBounds2D
+ (Ljava/awt/image/renderable/ParameterBlock;)Ljava/awt/geom/Rectangle2D;
+ (Ljava/awt/image/renderable/ParameterBlock;)Ljava/awt/geom/Rectangle2D;
+getProperty
+ (Ljava/awt/image/renderable/ParameterBlock;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/awt/image/renderable/ParameterBlock;Ljava/lang/String;)Ljava/lang/Object;
+getPropertyNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+mapRenderContext
+ (ILjava/awt/image/renderable/RenderContext;Ljava/awt/image/renderable/ParameterBlock;Ljava/awt/image/renderable/RenderableImage;)Ljava/awt/image/renderable/RenderContext;
+ (ILjava/awt/image/renderable/RenderContext;Ljava/awt/image/renderable/ParameterBlock;Ljava/awt/image/renderable/RenderableImage;)Ljava/awt/image/renderable/RenderContext;

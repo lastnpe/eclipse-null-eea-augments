@@ -1,0 +1,41 @@
+class java/awt/image/ColorConvertOp
+
+<init>
+ (Ljava/awt/RenderingHints;)V
+ (Ljava/awt/RenderingHints;)V
+<init>
+ (Ljava/awt/color/ColorSpace;Ljava/awt/RenderingHints;)V
+ (Ljava/awt/color/ColorSpace;Ljava/awt/RenderingHints;)V
+<init>
+ (Ljava/awt/color/ColorSpace;Ljava/awt/color/ColorSpace;Ljava/awt/RenderingHints;)V
+ (Ljava/awt/color/ColorSpace;Ljava/awt/color/ColorSpace;Ljava/awt/RenderingHints;)V
+<init>
+ ([Ljava/awt/color/ICC_Profile;Ljava/awt/RenderingHints;)V
+ ([Ljava/awt/color/ICC_Profile;Ljava/awt/RenderingHints;)V
+createCompatibleDestImage
+ (Ljava/awt/image/BufferedImage;Ljava/awt/image/ColorModel;)Ljava/awt/image/BufferedImage;
+ (Ljava/awt/image/BufferedImage;Ljava/awt/image/ColorModel;)Ljava/awt/image/BufferedImage;
+createCompatibleDestRaster
+ (Ljava/awt/image/Raster;)Ljava/awt/image/WritableRaster;
+ (Ljava/awt/image/Raster;)Ljava/awt/image/WritableRaster;
+filter
+ (Ljava/awt/image/BufferedImage;Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+ (Ljava/awt/image/BufferedImage;Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+filter
+ (Ljava/awt/image/Raster;Ljava/awt/image/WritableRaster;)Ljava/awt/image/WritableRaster;
+ (Ljava/awt/image/Raster;Ljava/awt/image/WritableRaster;)Ljava/awt/image/WritableRaster;
+getBounds2D
+ (Ljava/awt/image/BufferedImage;)Ljava/awt/geom/Rectangle2D;
+ (Ljava/awt/image/BufferedImage;)Ljava/awt/geom/Rectangle2D;
+getBounds2D
+ (Ljava/awt/image/Raster;)Ljava/awt/geom/Rectangle2D;
+ (Ljava/awt/image/Raster;)Ljava/awt/geom/Rectangle2D;
+getICC_Profiles
+ ()[Ljava/awt/color/ICC_Profile;
+ ()[Ljava/awt/color/ICC_Profile;
+getPoint2D
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)Ljava/awt/geom/Point2D;
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)Ljava/awt/geom/Point2D;
+getRenderingHints
+ ()Ljava/awt/RenderingHints;
+ ()Ljava/awt/RenderingHints;

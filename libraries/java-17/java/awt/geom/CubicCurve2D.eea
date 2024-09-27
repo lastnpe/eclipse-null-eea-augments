@@ -1,0 +1,69 @@
+class java/awt/geom/CubicCurve2D
+
+getFlatness
+ ([DI)D
+ ([DI)D
+getFlatnessSq
+ ([DI)D
+ ([DI)D
+solveCubic
+ ([D)I
+ ([D)I
+solveCubic
+ ([D[D)I
+ ([D[D)I
+subdivide
+ (Ljava/awt/geom/CubicCurve2D;Ljava/awt/geom/CubicCurve2D;Ljava/awt/geom/CubicCurve2D;)V
+ (Ljava/awt/geom/CubicCurve2D;Ljava/awt/geom/CubicCurve2D;Ljava/awt/geom/CubicCurve2D;)V
+subdivide
+ ([DI[DI[DI)V
+ ([DI[DI[DI)V
+
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+contains
+ (Ljava/awt/geom/Point2D;)Z
+ (Ljava/awt/geom/Point2D;)Z
+contains
+ (Ljava/awt/geom/Rectangle2D;)Z
+ (Ljava/awt/geom/Rectangle2D;)Z
+getBounds
+ ()Ljava/awt/Rectangle;
+ ()Ljava/awt/Rectangle;
+getCtrlP1
+ ()Ljava/awt/geom/Point2D;
+ ()Ljava/awt/geom/Point2D;
+getCtrlP2
+ ()Ljava/awt/geom/Point2D;
+ ()Ljava/awt/geom/Point2D;
+getP1
+ ()Ljava/awt/geom/Point2D;
+ ()Ljava/awt/geom/Point2D;
+getP2
+ ()Ljava/awt/geom/Point2D;
+ ()Ljava/awt/geom/Point2D;
+getPathIterator
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/geom/PathIterator;
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/geom/PathIterator;
+getPathIterator
+ (Ljava/awt/geom/AffineTransform;D)Ljava/awt/geom/PathIterator;
+ (Ljava/awt/geom/AffineTransform;D)Ljava/awt/geom/PathIterator;
+intersects
+ (Ljava/awt/geom/Rectangle2D;)Z
+ (Ljava/awt/geom/Rectangle2D;)Z
+setCurve
+ (Ljava/awt/geom/CubicCurve2D;)V
+ (Ljava/awt/geom/CubicCurve2D;)V
+setCurve
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)V
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)V
+setCurve
+ ([DI)V
+ ([DI)V
+setCurve
+ ([Ljava/awt/geom/Point2D;I)V
+ ([Ljava/awt/geom/Point2D;I)V
+subdivide
+ (Ljava/awt/geom/CubicCurve2D;Ljava/awt/geom/CubicCurve2D;)V
+ (Ljava/awt/geom/CubicCurve2D;Ljava/awt/geom/CubicCurve2D;)V

@@ -1,0 +1,82 @@
+class javax/swing/plaf/basic/BasicOptionPaneUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+initialFocusComponent
+ Ljava/awt/Component;
+ Ljava/awt/Component;
+inputComponent
+ Ljavax/swing/JComponent;
+ Ljavax/swing/JComponent;
+minimumSize
+ Ljava/awt/Dimension;
+ Ljava/awt/Dimension;
+optionPane
+ Ljavax/swing/JOptionPane;
+ Ljavax/swing/JOptionPane;
+propertyChangeListener
+ Ljava/beans/PropertyChangeListener;
+ Ljava/beans/PropertyChangeListener;
+
+addButtonComponents
+ (Ljava/awt/Container;[Ljava/lang/Object;I)V
+ (Ljava/awt/Container;[Ljava/lang/Object;I)V
+addIcon
+ (Ljava/awt/Container;)V
+ (Ljava/awt/Container;)V
+addMessageComponents
+ (Ljava/awt/Container;Ljava/awt/GridBagConstraints;Ljava/lang/Object;IZ)V
+ (Ljava/awt/Container;Ljava/awt/GridBagConstraints;Ljava/lang/Object;IZ)V
+burstStringInto
+ (Ljava/awt/Container;Ljava/lang/String;I)V
+ (Ljava/awt/Container;Ljava/lang/String;I)V
+containsCustomComponents
+ (Ljavax/swing/JOptionPane;)Z
+ (Ljavax/swing/JOptionPane;)Z
+createButtonActionListener
+ (I)Ljava/awt/event/ActionListener;
+ (I)Ljava/awt/event/ActionListener;
+createButtonArea
+ ()Ljava/awt/Container;
+ ()Ljava/awt/Container;
+createLayoutManager
+ ()Ljava/awt/LayoutManager;
+ ()Ljava/awt/LayoutManager;
+createMessageArea
+ ()Ljava/awt/Container;
+ ()Ljava/awt/Container;
+createPropertyChangeListener
+ ()Ljava/beans/PropertyChangeListener;
+ ()Ljava/beans/PropertyChangeListener;
+createSeparator
+ ()Ljava/awt/Container;
+ ()Ljava/awt/Container;
+getButtons
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+getIcon
+ ()Ljavax/swing/Icon;
+ ()Ljavax/swing/Icon;
+getIconForType
+ (I)Ljavax/swing/Icon;
+ (I)Ljavax/swing/Icon;
+getMessage
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getMinimumOptionPaneSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getPreferredSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+installUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+selectInitialValue
+ (Ljavax/swing/JOptionPane;)V
+ (Ljavax/swing/JOptionPane;)V
+uninstallUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V

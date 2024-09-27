@@ -1,0 +1,106 @@
+class java/nio/FloatBuffer
+
+super java/lang/Comparable
+ <Ljava/nio/FloatBuffer;>
+ <Ljava/nio/FloatBuffer;>
+
+allocate
+ (I)Ljava/nio/FloatBuffer;
+ (I)Ljava/nio/FloatBuffer;
+wrap
+ ([F)Ljava/nio/FloatBuffer;
+ ([F)Ljava/nio/FloatBuffer;
+wrap
+ ([FII)Ljava/nio/FloatBuffer;
+ ([FII)Ljava/nio/FloatBuffer;
+
+array
+ ()[F
+ ()[F
+asReadOnlyBuffer
+ ()Ljava/nio/FloatBuffer;
+ ()Ljava/nio/FloatBuffer;
+clear
+ ()Ljava/nio/FloatBuffer;
+ ()Ljava/nio/FloatBuffer;
+compact
+ ()Ljava/nio/FloatBuffer;
+ ()Ljava/nio/FloatBuffer;
+compareTo
+ (Ljava/nio/FloatBuffer;)I
+ (L1java/nio/FloatBuffer;)I
+duplicate
+ ()Ljava/nio/FloatBuffer;
+ ()Ljava/nio/FloatBuffer;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+flip
+ ()Ljava/nio/FloatBuffer;
+ ()Ljava/nio/FloatBuffer;
+get
+ (I[F)Ljava/nio/FloatBuffer;
+ (I[F)Ljava/nio/FloatBuffer;
+get
+ (I[FII)Ljava/nio/FloatBuffer;
+ (I[FII)Ljava/nio/FloatBuffer;
+get
+ ([F)Ljava/nio/FloatBuffer;
+ ([F)Ljava/nio/FloatBuffer;
+get
+ ([FII)Ljava/nio/FloatBuffer;
+ ([FII)Ljava/nio/FloatBuffer;
+limit
+ (I)Ljava/nio/FloatBuffer;
+ (I)Ljava/nio/FloatBuffer;
+mark
+ ()Ljava/nio/FloatBuffer;
+ ()Ljava/nio/FloatBuffer;
+mismatch
+ (Ljava/nio/FloatBuffer;)I
+ (L1java/nio/FloatBuffer;)I
+order
+ ()Ljava/nio/ByteOrder;
+ ()Ljava/nio/ByteOrder;
+position
+ (I)Ljava/nio/FloatBuffer;
+ (I)Ljava/nio/FloatBuffer;
+put
+ (F)Ljava/nio/FloatBuffer;
+ (F)Ljava/nio/FloatBuffer;
+put
+ (IF)Ljava/nio/FloatBuffer;
+ (IF)Ljava/nio/FloatBuffer;
+put
+ (ILjava/nio/FloatBuffer;II)Ljava/nio/FloatBuffer;
+ (ILjava/nio/FloatBuffer;II)Ljava/nio/FloatBuffer;
+put
+ (I[F)Ljava/nio/FloatBuffer;
+ (I[F)Ljava/nio/FloatBuffer;
+put
+ (I[FII)Ljava/nio/FloatBuffer;
+ (I[FII)Ljava/nio/FloatBuffer;
+put
+ (Ljava/nio/FloatBuffer;)Ljava/nio/FloatBuffer;
+ (Ljava/nio/FloatBuffer;)Ljava/nio/FloatBuffer;
+put
+ ([F)Ljava/nio/FloatBuffer;
+ ([F)Ljava/nio/FloatBuffer;
+put
+ ([FII)Ljava/nio/FloatBuffer;
+ ([FII)Ljava/nio/FloatBuffer;
+reset
+ ()Ljava/nio/FloatBuffer;
+ ()Ljava/nio/FloatBuffer;
+rewind
+ ()Ljava/nio/FloatBuffer;
+ ()Ljava/nio/FloatBuffer;
+slice
+ ()Ljava/nio/FloatBuffer;
+ ()Ljava/nio/FloatBuffer;
+slice
+ (II)Ljava/nio/FloatBuffer;
+ (II)Ljava/nio/FloatBuffer;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

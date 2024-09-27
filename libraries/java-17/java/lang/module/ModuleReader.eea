@@ -1,0 +1,17 @@
+class java/lang/module/ModuleReader
+
+find
+ (Ljava/lang/String;)Ljava/util/Optional<Ljava/net/URI;>;
+ (Ljava/lang/String;)Ljava/util/Optional<Ljava/net/URI;>;
+list
+ ()Ljava/util/stream/Stream<Ljava/lang/String;>;
+ ()Ljava/util/stream/Stream<Ljava/lang/String;>;
+open
+ (Ljava/lang/String;)Ljava/util/Optional<Ljava/io/InputStream;>;
+ (Ljava/lang/String;)Ljava/util/Optional<Ljava/io/InputStream;>;
+read
+ (Ljava/lang/String;)Ljava/util/Optional<Ljava/nio/ByteBuffer;>;
+ (Ljava/lang/String;)Ljava/util/Optional<Ljava/nio/ByteBuffer;>;
+release
+ (Ljava/nio/ByteBuffer;)V
+ (Ljava/nio/ByteBuffer;)V

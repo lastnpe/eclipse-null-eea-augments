@@ -1,0 +1,65 @@
+class org/xml/sax/helpers/ParserAdapter
+
+<init>
+ (Lorg/xml/sax/Parser;)V
+ (Lorg/xml/sax/Parser;)V
+characters
+ ([CII)V
+ ([CII)V
+endElement
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getContentHandler
+ ()Lorg/xml/sax/ContentHandler;
+ ()Lorg/xml/sax/ContentHandler;
+getDTDHandler
+ ()Lorg/xml/sax/DTDHandler;
+ ()Lorg/xml/sax/DTDHandler;
+getEntityResolver
+ ()Lorg/xml/sax/EntityResolver;
+ ()Lorg/xml/sax/EntityResolver;
+getErrorHandler
+ ()Lorg/xml/sax/ErrorHandler;
+ ()Lorg/xml/sax/ErrorHandler;
+getFeature
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+ignorableWhitespace
+ ([CII)V
+ ([CII)V
+parse
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+parse
+ (Lorg/xml/sax/InputSource;)V
+ (Lorg/xml/sax/InputSource;)V
+processingInstruction
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setContentHandler
+ (Lorg/xml/sax/ContentHandler;)V
+ (Lorg/xml/sax/ContentHandler;)V
+setDTDHandler
+ (Lorg/xml/sax/DTDHandler;)V
+ (Lorg/xml/sax/DTDHandler;)V
+setDocumentLocator
+ (Lorg/xml/sax/Locator;)V
+ (Lorg/xml/sax/Locator;)V
+setEntityResolver
+ (Lorg/xml/sax/EntityResolver;)V
+ (Lorg/xml/sax/EntityResolver;)V
+setErrorHandler
+ (Lorg/xml/sax/ErrorHandler;)V
+ (Lorg/xml/sax/ErrorHandler;)V
+setFeature
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+setProperty
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+startElement
+ (Ljava/lang/String;Lorg/xml/sax/AttributeList;)V
+ (Ljava/lang/String;Lorg/xml/sax/AttributeList;)V

@@ -1,0 +1,118 @@
+class javax/xml/stream/XMLInputFactory
+
+ALLOCATOR
+ Ljava/lang/String;
+ L1java/lang/String;
+IS_COALESCING
+ Ljava/lang/String;
+ L1java/lang/String;
+IS_NAMESPACE_AWARE
+ Ljava/lang/String;
+ L1java/lang/String;
+IS_REPLACING_ENTITY_REFERENCES
+ Ljava/lang/String;
+ L1java/lang/String;
+IS_SUPPORTING_EXTERNAL_ENTITIES
+ Ljava/lang/String;
+ L1java/lang/String;
+IS_VALIDATING
+ Ljava/lang/String;
+ L1java/lang/String;
+REPORTER
+ Ljava/lang/String;
+ L1java/lang/String;
+RESOLVER
+ Ljava/lang/String;
+ L1java/lang/String;
+SUPPORT_DTD
+ Ljava/lang/String;
+ L1java/lang/String;
+
+newDefaultFactory
+ ()Ljavax/xml/stream/XMLInputFactory;
+ ()Ljavax/xml/stream/XMLInputFactory;
+newFactory
+ ()Ljavax/xml/stream/XMLInputFactory;
+ ()Ljavax/xml/stream/XMLInputFactory;
+newFactory
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/stream/XMLInputFactory;
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/stream/XMLInputFactory;
+newInstance
+ ()Ljavax/xml/stream/XMLInputFactory;
+ ()Ljavax/xml/stream/XMLInputFactory;
+newInstance
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/stream/XMLInputFactory;
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/stream/XMLInputFactory;
+
+createFilteredReader
+ (Ljavax/xml/stream/XMLEventReader;Ljavax/xml/stream/EventFilter;)Ljavax/xml/stream/XMLEventReader;
+ (Ljavax/xml/stream/XMLEventReader;Ljavax/xml/stream/EventFilter;)Ljavax/xml/stream/XMLEventReader;
+createFilteredReader
+ (Ljavax/xml/stream/XMLStreamReader;Ljavax/xml/stream/StreamFilter;)Ljavax/xml/stream/XMLStreamReader;
+ (Ljavax/xml/stream/XMLStreamReader;Ljavax/xml/stream/StreamFilter;)Ljavax/xml/stream/XMLStreamReader;
+createXMLEventReader
+ (Ljava/io/InputStream;)Ljavax/xml/stream/XMLEventReader;
+ (Ljava/io/InputStream;)Ljavax/xml/stream/XMLEventReader;
+createXMLEventReader
+ (Ljava/io/InputStream;Ljava/lang/String;)Ljavax/xml/stream/XMLEventReader;
+ (Ljava/io/InputStream;Ljava/lang/String;)Ljavax/xml/stream/XMLEventReader;
+createXMLEventReader
+ (Ljava/io/Reader;)Ljavax/xml/stream/XMLEventReader;
+ (Ljava/io/Reader;)Ljavax/xml/stream/XMLEventReader;
+createXMLEventReader
+ (Ljava/lang/String;Ljava/io/InputStream;)Ljavax/xml/stream/XMLEventReader;
+ (Ljava/lang/String;Ljava/io/InputStream;)Ljavax/xml/stream/XMLEventReader;
+createXMLEventReader
+ (Ljava/lang/String;Ljava/io/Reader;)Ljavax/xml/stream/XMLEventReader;
+ (Ljava/lang/String;Ljava/io/Reader;)Ljavax/xml/stream/XMLEventReader;
+createXMLEventReader
+ (Ljavax/xml/stream/XMLStreamReader;)Ljavax/xml/stream/XMLEventReader;
+ (Ljavax/xml/stream/XMLStreamReader;)Ljavax/xml/stream/XMLEventReader;
+createXMLEventReader
+ (Ljavax/xml/transform/Source;)Ljavax/xml/stream/XMLEventReader;
+ (Ljavax/xml/transform/Source;)Ljavax/xml/stream/XMLEventReader;
+createXMLStreamReader
+ (Ljava/io/InputStream;)Ljavax/xml/stream/XMLStreamReader;
+ (Ljava/io/InputStream;)Ljavax/xml/stream/XMLStreamReader;
+createXMLStreamReader
+ (Ljava/io/InputStream;Ljava/lang/String;)Ljavax/xml/stream/XMLStreamReader;
+ (Ljava/io/InputStream;Ljava/lang/String;)Ljavax/xml/stream/XMLStreamReader;
+createXMLStreamReader
+ (Ljava/io/Reader;)Ljavax/xml/stream/XMLStreamReader;
+ (Ljava/io/Reader;)Ljavax/xml/stream/XMLStreamReader;
+createXMLStreamReader
+ (Ljava/lang/String;Ljava/io/InputStream;)Ljavax/xml/stream/XMLStreamReader;
+ (Ljava/lang/String;Ljava/io/InputStream;)Ljavax/xml/stream/XMLStreamReader;
+createXMLStreamReader
+ (Ljava/lang/String;Ljava/io/Reader;)Ljavax/xml/stream/XMLStreamReader;
+ (Ljava/lang/String;Ljava/io/Reader;)Ljavax/xml/stream/XMLStreamReader;
+createXMLStreamReader
+ (Ljavax/xml/transform/Source;)Ljavax/xml/stream/XMLStreamReader;
+ (Ljavax/xml/transform/Source;)Ljavax/xml/stream/XMLStreamReader;
+getEventAllocator
+ ()Ljavax/xml/stream/util/XMLEventAllocator;
+ ()Ljavax/xml/stream/util/XMLEventAllocator;
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getXMLReporter
+ ()Ljavax/xml/stream/XMLReporter;
+ ()Ljavax/xml/stream/XMLReporter;
+getXMLResolver
+ ()Ljavax/xml/stream/XMLResolver;
+ ()Ljavax/xml/stream/XMLResolver;
+isPropertySupported
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+setEventAllocator
+ (Ljavax/xml/stream/util/XMLEventAllocator;)V
+ (Ljavax/xml/stream/util/XMLEventAllocator;)V
+setProperty
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+setXMLReporter
+ (Ljavax/xml/stream/XMLReporter;)V
+ (Ljavax/xml/stream/XMLReporter;)V
+setXMLResolver
+ (Ljavax/xml/stream/XMLResolver;)V
+ (Ljavax/xml/stream/XMLResolver;)V

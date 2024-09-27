@@ -1,0 +1,15 @@
+class java/net/ResponseCache
+
+getDefault
+ ()Ljava/net/ResponseCache;
+ ()Ljava/net/ResponseCache;
+setDefault
+ (Ljava/net/ResponseCache;)V
+ (Ljava/net/ResponseCache;)V
+
+get
+ (Ljava/net/URI;Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;)Ljava/net/CacheResponse;
+ (Ljava/net/URI;Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;)Ljava/net/CacheResponse;
+put
+ (Ljava/net/URI;Ljava/net/URLConnection;)Ljava/net/CacheRequest;
+ (Ljava/net/URI;Ljava/net/URLConnection;)Ljava/net/CacheRequest;

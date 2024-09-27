@@ -1,0 +1,23 @@
+class javax/xml/stream/XMLEventWriter
+
+add
+ (Ljavax/xml/stream/XMLEventReader;)V
+ (Ljavax/xml/stream/XMLEventReader;)V
+add
+ (Ljavax/xml/stream/events/XMLEvent;)V
+ (Ljavax/xml/stream/events/XMLEvent;)V
+getNamespaceContext
+ ()Ljavax/xml/namespace/NamespaceContext;
+ ()Ljavax/xml/namespace/NamespaceContext;
+getPrefix
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+setDefaultNamespace
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setNamespaceContext
+ (Ljavax/xml/namespace/NamespaceContext;)V
+ (Ljavax/xml/namespace/NamespaceContext;)V
+setPrefix
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V

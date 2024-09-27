@@ -1,0 +1,23 @@
+class java/time/chrono/Era
+
+adjustInto
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+get
+ (Ljava/time/temporal/TemporalField;)I
+ (Ljava/time/temporal/TemporalField;)I
+getDisplayName
+ (Ljava/time/format/TextStyle;Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/time/format/TextStyle;Ljava/util/Locale;)Ljava/lang/String;
+getLong
+ (Ljava/time/temporal/TemporalField;)J
+ (Ljava/time/temporal/TemporalField;)J
+isSupported
+ (Ljava/time/temporal/TemporalField;)Z
+ (Ljava/time/temporal/TemporalField;)Z
+query
+ <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+ <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+range
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;

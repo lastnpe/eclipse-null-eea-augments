@@ -1,0 +1,97 @@
+class javax/swing/text/StyleContext
+
+DEFAULT_STYLE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getDefaultStyleContext
+ ()Ljavax/swing/text/StyleContext;
+ ()Ljavax/swing/text/StyleContext;
+getStaticAttribute
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+getStaticAttributeKey
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+readAttributeSet
+ (Ljava/io/ObjectInputStream;Ljavax/swing/text/MutableAttributeSet;)V
+ (Ljava/io/ObjectInputStream;Ljavax/swing/text/MutableAttributeSet;)V
+registerStaticAttributeKey
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+writeAttributeSet
+ (Ljava/io/ObjectOutputStream;Ljavax/swing/text/AttributeSet;)V
+ (Ljava/io/ObjectOutputStream;Ljavax/swing/text/AttributeSet;)V
+
+addAttribute
+ (Ljavax/swing/text/AttributeSet;Ljava/lang/Object;Ljava/lang/Object;)Ljavax/swing/text/AttributeSet;
+ (Ljavax/swing/text/AttributeSet;Ljava/lang/Object;Ljava/lang/Object;)Ljavax/swing/text/AttributeSet;
+addAttributes
+ (Ljavax/swing/text/AttributeSet;Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/AttributeSet;
+ (Ljavax/swing/text/AttributeSet;Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/AttributeSet;
+addChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V
+addStyle
+ (Ljava/lang/String;Ljavax/swing/text/Style;)Ljavax/swing/text/Style;
+ (Ljava/lang/String;Ljavax/swing/text/Style;)Ljavax/swing/text/Style;
+createLargeAttributeSet
+ (Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/MutableAttributeSet;
+ (Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/MutableAttributeSet;
+createSmallAttributeSet
+ (Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/StyleContext$SmallAttributeSet;
+ (Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/StyleContext$SmallAttributeSet;
+getBackground
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Color;
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Color;
+getChangeListeners
+ ()[Ljavax/swing/event/ChangeListener;
+ ()[Ljavax/swing/event/ChangeListener;
+getEmptySet
+ ()Ljavax/swing/text/AttributeSet;
+ ()Ljavax/swing/text/AttributeSet;
+getFont
+ (Ljava/lang/String;II)Ljava/awt/Font;
+ (Ljava/lang/String;II)Ljava/awt/Font;
+getFont
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Font;
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Font;
+getFontMetrics
+ (Ljava/awt/Font;)Ljava/awt/FontMetrics;
+ (Ljava/awt/Font;)Ljava/awt/FontMetrics;
+getForeground
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Color;
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Color;
+getStyle
+ (Ljava/lang/String;)Ljavax/swing/text/Style;
+ (Ljava/lang/String;)Ljavax/swing/text/Style;
+getStyleNames
+ ()Ljava/util/Enumeration<*>;
+ ()Ljava/util/Enumeration<*>;
+readAttributes
+ (Ljava/io/ObjectInputStream;Ljavax/swing/text/MutableAttributeSet;)V
+ (Ljava/io/ObjectInputStream;Ljavax/swing/text/MutableAttributeSet;)V
+reclaim
+ (Ljavax/swing/text/AttributeSet;)V
+ (Ljavax/swing/text/AttributeSet;)V
+removeAttribute
+ (Ljavax/swing/text/AttributeSet;Ljava/lang/Object;)Ljavax/swing/text/AttributeSet;
+ (Ljavax/swing/text/AttributeSet;Ljava/lang/Object;)Ljavax/swing/text/AttributeSet;
+removeAttributes
+ (Ljavax/swing/text/AttributeSet;Ljava/util/Enumeration<*>;)Ljavax/swing/text/AttributeSet;
+ (Ljavax/swing/text/AttributeSet;Ljava/util/Enumeration<*>;)Ljavax/swing/text/AttributeSet;
+removeAttributes
+ (Ljavax/swing/text/AttributeSet;Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/AttributeSet;
+ (Ljavax/swing/text/AttributeSet;Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/AttributeSet;
+removeChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V
+removeStyle
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+writeAttributes
+ (Ljava/io/ObjectOutputStream;Ljavax/swing/text/AttributeSet;)V
+ (Ljava/io/ObjectOutputStream;Ljavax/swing/text/AttributeSet;)V

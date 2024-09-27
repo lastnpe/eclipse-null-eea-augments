@@ -1,0 +1,41 @@
+class java/util/concurrent/ConcurrentNavigableMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super java/util/concurrent/ConcurrentMap
+ <TK;TV;>
+ <TK;TV;>
+super java/util/NavigableMap
+ <TK;TV;>
+ <TK;TV;>
+
+descendingKeySet
+ ()Ljava/util/NavigableSet<TK;>;
+ ()Ljava/util/NavigableSet<TK;>;
+descendingMap
+ ()Ljava/util/concurrent/ConcurrentNavigableMap<TK;TV;>;
+ ()Ljava/util/concurrent/ConcurrentNavigableMap<TK;TV;>;
+headMap
+ (TK;)Ljava/util/concurrent/ConcurrentNavigableMap<TK;TV;>;
+ (TK;)Ljava/util/concurrent/ConcurrentNavigableMap<TK;TV;>;
+headMap
+ (TK;Z)Ljava/util/concurrent/ConcurrentNavigableMap<TK;TV;>;
+ (TK;Z)Ljava/util/concurrent/ConcurrentNavigableMap<TK;TV;>;
+keySet
+ ()Ljava/util/NavigableSet<TK;>;
+ ()Ljava/util/NavigableSet<TK;>;
+navigableKeySet
+ ()Ljava/util/NavigableSet<TK;>;
+ ()Ljava/util/NavigableSet<TK;>;
+subMap
+ (TK;TK;)Ljava/util/concurrent/ConcurrentNavigableMap<TK;TV;>;
+ (TK;TK;)Ljava/util/concurrent/ConcurrentNavigableMap<TK;TV;>;
+subMap
+ (TK;ZTK;Z)Ljava/util/concurrent/ConcurrentNavigableMap<TK;TV;>;
+ (TK;ZTK;Z)Ljava/util/concurrent/ConcurrentNavigableMap<TK;TV;>;
+tailMap
+ (TK;)Ljava/util/concurrent/ConcurrentNavigableMap<TK;TV;>;
+ (TK;)Ljava/util/concurrent/ConcurrentNavigableMap<TK;TV;>;
+tailMap
+ (TK;Z)Ljava/util/concurrent/ConcurrentNavigableMap<TK;TV;>;
+ (TK;Z)Ljava/util/concurrent/ConcurrentNavigableMap<TK;TV;>;

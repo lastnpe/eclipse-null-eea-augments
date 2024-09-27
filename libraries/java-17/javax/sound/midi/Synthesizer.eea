@@ -1,0 +1,41 @@
+class javax/sound/midi/Synthesizer
+
+getAvailableInstruments
+ ()[Ljavax/sound/midi/Instrument;
+ ()[Ljavax/sound/midi/Instrument;
+getChannels
+ ()[Ljavax/sound/midi/MidiChannel;
+ ()[Ljavax/sound/midi/MidiChannel;
+getDefaultSoundbank
+ ()Ljavax/sound/midi/Soundbank;
+ ()Ljavax/sound/midi/Soundbank;
+getLoadedInstruments
+ ()[Ljavax/sound/midi/Instrument;
+ ()[Ljavax/sound/midi/Instrument;
+getVoiceStatus
+ ()[Ljavax/sound/midi/VoiceStatus;
+ ()[Ljavax/sound/midi/VoiceStatus;
+isSoundbankSupported
+ (Ljavax/sound/midi/Soundbank;)Z
+ (Ljavax/sound/midi/Soundbank;)Z
+loadAllInstruments
+ (Ljavax/sound/midi/Soundbank;)Z
+ (Ljavax/sound/midi/Soundbank;)Z
+loadInstrument
+ (Ljavax/sound/midi/Instrument;)Z
+ (Ljavax/sound/midi/Instrument;)Z
+loadInstruments
+ (Ljavax/sound/midi/Soundbank;[Ljavax/sound/midi/Patch;)Z
+ (Ljavax/sound/midi/Soundbank;[Ljavax/sound/midi/Patch;)Z
+remapInstrument
+ (Ljavax/sound/midi/Instrument;Ljavax/sound/midi/Instrument;)Z
+ (Ljavax/sound/midi/Instrument;Ljavax/sound/midi/Instrument;)Z
+unloadAllInstruments
+ (Ljavax/sound/midi/Soundbank;)V
+ (Ljavax/sound/midi/Soundbank;)V
+unloadInstrument
+ (Ljavax/sound/midi/Instrument;)V
+ (Ljavax/sound/midi/Instrument;)V
+unloadInstruments
+ (Ljavax/sound/midi/Soundbank;[Ljavax/sound/midi/Patch;)V
+ (Ljavax/sound/midi/Soundbank;[Ljavax/sound/midi/Patch;)V

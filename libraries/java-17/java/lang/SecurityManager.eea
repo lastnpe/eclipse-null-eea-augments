@@ -1,4 +1,5 @@
 class java/lang/SecurityManager
+
 checkAccept
  (Ljava/lang/String;I)V
  (L1java/lang/String;I)V
@@ -62,6 +63,12 @@ checkWrite
 checkWrite
  (Ljava/lang/String;)V
  (L1java/lang/String;)V
+getClassContext
+ ()[Ljava/lang/Class<*>;
+ ()[Ljava/lang/Class<*>;
 getSecurityContext
  ()Ljava/lang/Object;
  ()L1java/lang/Object;
+getThreadGroup
+ ()Ljava/lang/ThreadGroup;
+ ()Ljava/lang/ThreadGroup;

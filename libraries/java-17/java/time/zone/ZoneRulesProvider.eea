@@ -1,0 +1,24 @@
+class java/time/zone/ZoneRulesProvider
+
+getAvailableZoneIds
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getRules
+ (Ljava/lang/String;Z)Ljava/time/zone/ZoneRules;
+ (Ljava/lang/String;Z)Ljava/time/zone/ZoneRules;
+getVersions
+ (Ljava/lang/String;)Ljava/util/NavigableMap<Ljava/lang/String;Ljava/time/zone/ZoneRules;>;
+ (Ljava/lang/String;)Ljava/util/NavigableMap<Ljava/lang/String;Ljava/time/zone/ZoneRules;>;
+registerProvider
+ (Ljava/time/zone/ZoneRulesProvider;)V
+ (Ljava/time/zone/ZoneRulesProvider;)V
+
+provideRules
+ (Ljava/lang/String;Z)Ljava/time/zone/ZoneRules;
+ (Ljava/lang/String;Z)Ljava/time/zone/ZoneRules;
+provideVersions
+ (Ljava/lang/String;)Ljava/util/NavigableMap<Ljava/lang/String;Ljava/time/zone/ZoneRules;>;
+ (Ljava/lang/String;)Ljava/util/NavigableMap<Ljava/lang/String;Ljava/time/zone/ZoneRules;>;
+provideZoneIds
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;

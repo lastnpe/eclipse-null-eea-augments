@@ -1,0 +1,44 @@
+class javax/xml/transform/TransformerException
+
+<init>
+ (Ljava/lang/String;)V
+ (L0java/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+ (L0java/lang/String;L0java/lang/Throwable;)V
+<init>
+ (Ljava/lang/String;Ljavax/xml/transform/SourceLocator;)V
+ (Ljava/lang/String;Ljavax/xml/transform/SourceLocator;)V
+<init>
+ (Ljava/lang/String;Ljavax/xml/transform/SourceLocator;Ljava/lang/Throwable;)V
+ (Ljava/lang/String;Ljavax/xml/transform/SourceLocator;Ljava/lang/Throwable;)V
+<init>
+ (Ljava/lang/Throwable;)V
+ (L0java/lang/Throwable;)V
+getCause
+ ()Ljava/lang/Throwable;
+ ()L0java/lang/Throwable; # @Inherited(java.lang.Throwable)
+getException
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
+getLocationAsString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getLocator
+ ()Ljavax/xml/transform/SourceLocator;
+ ()Ljavax/xml/transform/SourceLocator;
+getMessageAndLocation
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+initCause
+ (Ljava/lang/Throwable;)Ljava/lang/Throwable;
+ (L0java/lang/Throwable;)Ljava/lang/Throwable; # @Inherited(java.lang.Throwable)
+printStackTrace
+ (Ljava/io/PrintStream;)V
+ (L1java/io/PrintStream;)V # @Inherited(java.lang.Throwable)
+printStackTrace
+ (Ljava/io/PrintWriter;)V
+ (L1java/io/PrintWriter;)V # @Inherited(java.lang.Throwable)
+setLocator
+ (Ljavax/xml/transform/SourceLocator;)V
+ (Ljavax/xml/transform/SourceLocator;)V

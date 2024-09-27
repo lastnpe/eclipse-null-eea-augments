@@ -1,0 +1,21 @@
+class java/nio/channels/AsynchronousChannelGroup
+
+withCachedThreadPool
+ (Ljava/util/concurrent/ExecutorService;I)Ljava/nio/channels/AsynchronousChannelGroup;
+ (Ljava/util/concurrent/ExecutorService;I)Ljava/nio/channels/AsynchronousChannelGroup;
+withFixedThreadPool
+ (ILjava/util/concurrent/ThreadFactory;)Ljava/nio/channels/AsynchronousChannelGroup;
+ (ILjava/util/concurrent/ThreadFactory;)Ljava/nio/channels/AsynchronousChannelGroup;
+withThreadPool
+ (Ljava/util/concurrent/ExecutorService;)Ljava/nio/channels/AsynchronousChannelGroup;
+ (Ljava/util/concurrent/ExecutorService;)Ljava/nio/channels/AsynchronousChannelGroup;
+
+<init>
+ (Ljava/nio/channels/spi/AsynchronousChannelProvider;)V
+ (Ljava/nio/channels/spi/AsynchronousChannelProvider;)V
+awaitTermination
+ (JLjava/util/concurrent/TimeUnit;)Z
+ (JLjava/util/concurrent/TimeUnit;)Z
+provider
+ ()Ljava/nio/channels/spi/AsynchronousChannelProvider;
+ ()Ljava/nio/channels/spi/AsynchronousChannelProvider;

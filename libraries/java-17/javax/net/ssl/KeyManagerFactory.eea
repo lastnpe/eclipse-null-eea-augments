@@ -1,0 +1,33 @@
+class javax/net/ssl/KeyManagerFactory
+
+getDefaultAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getInstance
+ (Ljava/lang/String;)Ljavax/net/ssl/KeyManagerFactory;
+ (Ljava/lang/String;)Ljavax/net/ssl/KeyManagerFactory;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/net/ssl/KeyManagerFactory;
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/net/ssl/KeyManagerFactory;
+getInstance
+ (Ljava/lang/String;Ljava/security/Provider;)Ljavax/net/ssl/KeyManagerFactory;
+ (Ljava/lang/String;Ljava/security/Provider;)Ljavax/net/ssl/KeyManagerFactory;
+
+<init>
+ (Ljavax/net/ssl/KeyManagerFactorySpi;Ljava/security/Provider;Ljava/lang/String;)V
+ (Ljavax/net/ssl/KeyManagerFactorySpi;Ljava/security/Provider;Ljava/lang/String;)V
+getAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getKeyManagers
+ ()[Ljavax/net/ssl/KeyManager;
+ ()[Ljavax/net/ssl/KeyManager;
+getProvider
+ ()Ljava/security/Provider;
+ ()Ljava/security/Provider;
+init
+ (Ljava/security/KeyStore;[C)V
+ (Ljava/security/KeyStore;[C)V
+init
+ (Ljavax/net/ssl/ManagerFactoryParameters;)V
+ (Ljavax/net/ssl/ManagerFactoryParameters;)V

@@ -1,0 +1,33 @@
+class javax/swing/text/FlowView
+
+layoutPool
+ Ljavax/swing/text/View;
+ Ljavax/swing/text/View;
+strategy
+ Ljavax/swing/text/FlowView$FlowStrategy;
+ Ljavax/swing/text/FlowView$FlowStrategy;
+
+<init>
+ (Ljavax/swing/text/Element;I)V
+ (Ljavax/swing/text/Element;I)V
+calculateMinorAxisRequirements
+ (ILjavax/swing/SizeRequirements;)Ljavax/swing/SizeRequirements;
+ (ILjavax/swing/SizeRequirements;)Ljavax/swing/SizeRequirements;
+changedUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+createRow
+ ()Ljavax/swing/text/View;
+ ()Ljavax/swing/text/View;
+insertUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+loadChildren
+ (Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/text/ViewFactory;)V
+removeUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+setParent
+ (Ljavax/swing/text/View;)V
+ (Ljavax/swing/text/View;)V

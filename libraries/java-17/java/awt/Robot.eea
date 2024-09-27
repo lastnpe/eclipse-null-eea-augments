@@ -1,0 +1,17 @@
+class java/awt/Robot
+
+<init>
+ (Ljava/awt/GraphicsDevice;)V
+ (Ljava/awt/GraphicsDevice;)V
+createMultiResolutionScreenCapture
+ (Ljava/awt/Rectangle;)Ljava/awt/image/MultiResolutionImage;
+ (Ljava/awt/Rectangle;)Ljava/awt/image/MultiResolutionImage;
+createScreenCapture
+ (Ljava/awt/Rectangle;)Ljava/awt/image/BufferedImage;
+ (Ljava/awt/Rectangle;)Ljava/awt/image/BufferedImage;
+getPixelColor
+ (II)Ljava/awt/Color;
+ (II)Ljava/awt/Color;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

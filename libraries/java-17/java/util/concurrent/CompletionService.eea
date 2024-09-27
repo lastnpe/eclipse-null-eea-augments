@@ -1,0 +1,19 @@
+class java/util/concurrent/CompletionService
+ <V:Ljava/lang/Object;>
+ <V:Ljava/lang/Object;>
+
+poll
+ ()Ljava/util/concurrent/Future<TV;>;
+ ()Ljava/util/concurrent/Future<TV;>;
+poll
+ (JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/Future<TV;>;
+ (JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/Future<TV;>;
+submit
+ (Ljava/lang/Runnable;TV;)Ljava/util/concurrent/Future<TV;>;
+ (Ljava/lang/Runnable;TV;)Ljava/util/concurrent/Future<TV;>;
+submit
+ (Ljava/util/concurrent/Callable<TV;>;)Ljava/util/concurrent/Future<TV;>;
+ (Ljava/util/concurrent/Callable<TV;>;)Ljava/util/concurrent/Future<TV;>;
+take
+ ()Ljava/util/concurrent/Future<TV;>;
+ ()Ljava/util/concurrent/Future<TV;>;

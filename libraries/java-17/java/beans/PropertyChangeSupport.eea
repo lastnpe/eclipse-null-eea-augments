@@ -1,0 +1,47 @@
+class java/beans/PropertyChangeSupport
+
+<init>
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+addPropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V
+addPropertyChangeListener
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+fireIndexedPropertyChange
+ (Ljava/lang/String;III)V
+ (Ljava/lang/String;III)V
+fireIndexedPropertyChange
+ (Ljava/lang/String;ILjava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;ILjava/lang/Object;Ljava/lang/Object;)V
+fireIndexedPropertyChange
+ (Ljava/lang/String;IZZ)V
+ (Ljava/lang/String;IZZ)V
+firePropertyChange
+ (Ljava/beans/PropertyChangeEvent;)V
+ (Ljava/beans/PropertyChangeEvent;)V
+firePropertyChange
+ (Ljava/lang/String;II)V
+ (Ljava/lang/String;II)V
+firePropertyChange
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+firePropertyChange
+ (Ljava/lang/String;ZZ)V
+ (Ljava/lang/String;ZZ)V
+getPropertyChangeListeners
+ ()[Ljava/beans/PropertyChangeListener;
+ ()[Ljava/beans/PropertyChangeListener;
+getPropertyChangeListeners
+ (Ljava/lang/String;)[Ljava/beans/PropertyChangeListener;
+ (Ljava/lang/String;)[Ljava/beans/PropertyChangeListener;
+hasListeners
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+removePropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V
+removePropertyChangeListener
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V

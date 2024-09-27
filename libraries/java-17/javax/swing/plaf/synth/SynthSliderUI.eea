@@ -1,0 +1,60 @@
+class javax/swing/plaf/synth/SynthSliderUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+<init>
+ (Ljavax/swing/JSlider;)V
+ (Ljavax/swing/JSlider;)V
+createTrackListener
+ (Ljavax/swing/JSlider;)Ljavax/swing/plaf/basic/BasicSliderUI$TrackListener;
+ (Ljavax/swing/JSlider;)Ljavax/swing/plaf/basic/BasicSliderUI$TrackListener;
+getBaseline
+ (Ljavax/swing/JComponent;II)I
+ (Ljavax/swing/JComponent;II)I
+getContext
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/synth/SynthContext;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/synth/SynthContext;
+getMinimumSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getPreferredSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getThumbSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+installDefaults
+ (Ljavax/swing/JSlider;)V
+ (Ljavax/swing/JSlider;)V
+installListeners
+ (Ljavax/swing/JSlider;)V
+ (Ljavax/swing/JSlider;)V
+paint
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+paint
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;)V
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;)V
+paintBorder
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;IIII)V
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;IIII)V
+paintThumb
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;Ljava/awt/Rectangle;)V
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;Ljava/awt/Rectangle;)V
+paintTrack
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;Ljava/awt/Rectangle;)V
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;Ljava/awt/Rectangle;)V
+propertyChange
+ (Ljava/beans/PropertyChangeEvent;)V
+ (L1java/beans/PropertyChangeEvent;)V # @Inherited(java.beans.PropertyChangeListener)
+uninstallDefaults
+ (Ljavax/swing/JSlider;)V
+ (Ljavax/swing/JSlider;)V
+uninstallListeners
+ (Ljavax/swing/JSlider;)V
+ (Ljavax/swing/JSlider;)V
+update
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V

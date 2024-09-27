@@ -1,0 +1,104 @@
+class javax/swing/JMenuItem
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+<init>
+ (Ljava/lang/String;Ljavax/swing/Icon;)V
+ (Ljava/lang/String;Ljavax/swing/Icon;)V
+<init>
+ (Ljavax/swing/Action;)V
+ (Ljavax/swing/Action;)V
+<init>
+ (Ljavax/swing/Icon;)V
+ (Ljavax/swing/Icon;)V
+actionPropertyChanged
+ (Ljavax/swing/Action;Ljava/lang/String;)V
+ (Ljavax/swing/Action;Ljava/lang/String;)V
+addMenuDragMouseListener
+ (Ljavax/swing/event/MenuDragMouseListener;)V
+ (L1javax/swing/event/MenuDragMouseListener;)V
+addMenuKeyListener
+ (Ljavax/swing/event/MenuKeyListener;)V
+ (L1javax/swing/event/MenuKeyListener;)V
+configurePropertiesFromAction
+ (Ljavax/swing/Action;)V
+ (Ljavax/swing/Action;)V
+fireMenuDragMouseDragged
+ (Ljavax/swing/event/MenuDragMouseEvent;)V
+ (Ljavax/swing/event/MenuDragMouseEvent;)V
+fireMenuDragMouseEntered
+ (Ljavax/swing/event/MenuDragMouseEvent;)V
+ (Ljavax/swing/event/MenuDragMouseEvent;)V
+fireMenuDragMouseExited
+ (Ljavax/swing/event/MenuDragMouseEvent;)V
+ (Ljavax/swing/event/MenuDragMouseEvent;)V
+fireMenuDragMouseReleased
+ (Ljavax/swing/event/MenuDragMouseEvent;)V
+ (Ljavax/swing/event/MenuDragMouseEvent;)V
+fireMenuKeyPressed
+ (Ljavax/swing/event/MenuKeyEvent;)V
+ (Ljavax/swing/event/MenuKeyEvent;)V
+fireMenuKeyReleased
+ (Ljavax/swing/event/MenuKeyEvent;)V
+ (Ljavax/swing/event/MenuKeyEvent;)V
+fireMenuKeyTyped
+ (Ljavax/swing/event/MenuKeyEvent;)V
+ (Ljavax/swing/event/MenuKeyEvent;)V
+getAccelerator
+ ()Ljavax/swing/KeyStroke;
+ ()Ljavax/swing/KeyStroke;
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getMenuDragMouseListeners
+ ()[Ljavax/swing/event/MenuDragMouseListener;
+ ()[Ljavax/swing/event/MenuDragMouseListener;
+getMenuKeyListeners
+ ()[Ljavax/swing/event/MenuKeyListener;
+ ()[Ljavax/swing/event/MenuKeyListener;
+getSubElements
+ ()[Ljavax/swing/MenuElement;
+ ()[Ljavax/swing/MenuElement;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+init
+ (Ljava/lang/String;Ljavax/swing/Icon;)V
+ (Ljava/lang/String;Ljavax/swing/Icon;)V
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+processKeyEvent
+ (Ljava/awt/event/KeyEvent;[Ljavax/swing/MenuElement;Ljavax/swing/MenuSelectionManager;)V
+ (Ljava/awt/event/KeyEvent;[Ljavax/swing/MenuElement;Ljavax/swing/MenuSelectionManager;)V
+processMenuDragMouseEvent
+ (Ljavax/swing/event/MenuDragMouseEvent;)V
+ (Ljavax/swing/event/MenuDragMouseEvent;)V
+processMenuKeyEvent
+ (Ljavax/swing/event/MenuKeyEvent;)V
+ (Ljavax/swing/event/MenuKeyEvent;)V
+processMouseEvent
+ (Ljava/awt/event/MouseEvent;[Ljavax/swing/MenuElement;Ljavax/swing/MenuSelectionManager;)V
+ (Ljava/awt/event/MouseEvent;[Ljavax/swing/MenuElement;Ljavax/swing/MenuSelectionManager;)V
+removeMenuDragMouseListener
+ (Ljavax/swing/event/MenuDragMouseListener;)V
+ (L1javax/swing/event/MenuDragMouseListener;)V
+removeMenuKeyListener
+ (Ljavax/swing/event/MenuKeyListener;)V
+ (L1javax/swing/event/MenuKeyListener;)V
+setAccelerator
+ (Ljavax/swing/KeyStroke;)V
+ (Ljavax/swing/KeyStroke;)V
+setModel
+ (Ljavax/swing/ButtonModel;)V
+ (Ljavax/swing/ButtonModel;)V
+setUI
+ (Ljavax/swing/plaf/MenuItemUI;)V
+ (Ljavax/swing/plaf/MenuItemUI;)V

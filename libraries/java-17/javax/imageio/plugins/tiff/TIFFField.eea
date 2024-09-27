@@ -1,0 +1,81 @@
+class javax/imageio/plugins/tiff/TIFFField
+
+createArrayForType
+ (II)Ljava/lang/Object;
+ (II)Ljava/lang/Object;
+createFromMetadataNode
+ (Ljavax/imageio/plugins/tiff/TIFFTagSet;Lorg/w3c/dom/Node;)Ljavax/imageio/plugins/tiff/TIFFField;
+ (Ljavax/imageio/plugins/tiff/TIFFTagSet;Lorg/w3c/dom/Node;)Ljavax/imageio/plugins/tiff/TIFFField;
+getTypeByName
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+getTypeName
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+
+<init>
+ (Ljavax/imageio/plugins/tiff/TIFFTag;II)V
+ (Ljavax/imageio/plugins/tiff/TIFFTag;II)V
+<init>
+ (Ljavax/imageio/plugins/tiff/TIFFTag;IILjava/lang/Object;)V
+ (Ljavax/imageio/plugins/tiff/TIFFTag;IILjava/lang/Object;)V
+<init>
+ (Ljavax/imageio/plugins/tiff/TIFFTag;IJLjavax/imageio/plugins/tiff/TIFFDirectory;)V
+ (Ljavax/imageio/plugins/tiff/TIFFTag;IJLjavax/imageio/plugins/tiff/TIFFDirectory;)V
+<init>
+ (Ljavax/imageio/plugins/tiff/TIFFTag;J)V
+ (Ljavax/imageio/plugins/tiff/TIFFTag;J)V
+clone
+ ()Ljavax/imageio/plugins/tiff/TIFFField;
+ ()Ljavax/imageio/plugins/tiff/TIFFField;
+getAsBytes
+ ()[B
+ ()[B
+getAsChars
+ ()[C
+ ()[C
+getAsDoubles
+ ()[D
+ ()[D
+getAsFloats
+ ()[F
+ ()[F
+getAsInts
+ ()[I
+ ()[I
+getAsLongs
+ ()[J
+ ()[J
+getAsNativeNode
+ ()Lorg/w3c/dom/Node;
+ ()Lorg/w3c/dom/Node;
+getAsRational
+ (I)[J
+ (I)[J
+getAsRationals
+ ()[[J
+ ()[[J
+getAsSRational
+ (I)[I
+ (I)[I
+getAsSRationals
+ ()[[I
+ ()[[I
+getAsShorts
+ ()[S
+ ()[S
+getAsString
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getData
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getDirectory
+ ()Ljavax/imageio/plugins/tiff/TIFFDirectory;
+ ()Ljavax/imageio/plugins/tiff/TIFFDirectory;
+getTag
+ ()Ljavax/imageio/plugins/tiff/TIFFTag;
+ ()Ljavax/imageio/plugins/tiff/TIFFTag;
+getValueAsString
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;

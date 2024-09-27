@@ -1,34 +1,51 @@
 class java/util/concurrent/ConcurrentHashMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super java/util/AbstractMap
+ <TK;TV;>
+ <TK;TV;>
+super java/util/concurrent/ConcurrentMap
+ <TK;TV;>
+ <TK;TV;>
+
+newKeySet
+ <K:Ljava/lang/Object;>()Ljava/util/concurrent/ConcurrentHashMap$KeySetView<TK;Ljava/lang/Boolean;>;
+ <K:Ljava/lang/Object;>()L1java/util/concurrent/ConcurrentHashMap$KeySetView<TK;Ljava/lang/Boolean;>;
+newKeySet
+ <K:Ljava/lang/Object;>(I)Ljava/util/concurrent/ConcurrentHashMap$KeySetView<TK;Ljava/lang/Boolean;>;
+ <K:Ljava/lang/Object;>(I)L1java/util/concurrent/ConcurrentHashMap$KeySetView<TK;Ljava/lang/Boolean;>;
+
 <init>
  (Ljava/util/Map<+TK;+TV;>;)V
  (L1java/util/Map<+TK;+TV;>;)V
 compute
  (TK;Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)TV;
- (T1K;L1java/util/function/BiFunction<-TK;-TV;+TV;>;)T0V;
+ (T1K;L1java/util/function/BiFunction<-TK;-TV;+TV;>;)T0V; # @Overrides(java.util.concurrent.ConcurrentMap)
 computeIfAbsent
  (TK;Ljava/util/function/Function<-TK;+TV;>;)TV;
- (T1K;L1java/util/function/Function<-TK;+TV;>;)T0V;
+ (T1K;L1java/util/function/Function<-TK;+TV;>;)T0V; # @Overrides(java.util.concurrent.ConcurrentMap)
 computeIfPresent
  (TK;Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)TV;
- (T1K;L1java/util/function/BiFunction<-TK;-TV;+TV;>;)T0V;
+ (T1K;L1java/util/function/BiFunction<-TK;-TV;+TV;>;)T0V; # @Overrides(java.util.concurrent.ConcurrentMap)
 contains
  (Ljava/lang/Object;)Z
  (L1java/lang/Object;)Z
 containsKey
  (Ljava/lang/Object;)Z
- (L1java/lang/Object;)Z
+ (L1java/lang/Object;)Z # @Overrides(java.util.AbstractMap)
 containsValue
  (Ljava/lang/Object;)Z
- (L1java/lang/Object;)Z
+ (L1java/lang/Object;)Z # @Overrides(java.util.AbstractMap)
 elements
  ()Ljava/util/Enumeration<TV;>;
  ()L1java/util/Enumeration<TV;>;
 entrySet
  ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
- ()L1java/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()L1java/util/Set<Ljava/util/Map$Entry<TK;TV;>;>; # @Overrides(java.util.AbstractMap)
 equals
  (Ljava/lang/Object;)Z
- (L0java/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.AbstractMap)
 forEach
  (JLjava/util/function/BiConsumer<-TK;-TV;>;)V
  (JL1java/util/function/BiConsumer<-TK;-TV;>;)V
@@ -58,7 +75,7 @@ forEachValue
  <U:Ljava/lang/Object;>(JL1java/util/function/Function<-TV;+TU;>;L1java/util/function/Consumer<-TU;>;)V
 get
  (Ljava/lang/Object;)TV;
- (L1java/lang/Object;)T0V;
+ (L1java/lang/Object;)T0V; # @Overrides(java.util.AbstractMap)
 getOrDefault
  (Ljava/lang/Object;TV;)TV;
  (L1java/lang/Object;TV;)TV;
@@ -73,22 +90,16 @@ keys
  ()L1java/util/Enumeration<TK;>;
 merge
  (TK;TV;Ljava/util/function/BiFunction<-TV;-TV;+TV;>;)TV;
- (T1K;T1V;L1java/util/function/BiFunction<-TV;-TV;+TV;>;)T0V;
-newKeySet
- <K:Ljava/lang/Object;>()Ljava/util/concurrent/ConcurrentHashMap$KeySetView<TK;Ljava/lang/Boolean;>;
- <K:Ljava/lang/Object;>()L1java/util/concurrent/ConcurrentHashMap$KeySetView<TK;Ljava/lang/Boolean;>;
-newKeySet
- <K:Ljava/lang/Object;>(I)Ljava/util/concurrent/ConcurrentHashMap$KeySetView<TK;Ljava/lang/Boolean;>;
- <K:Ljava/lang/Object;>(I)L1java/util/concurrent/ConcurrentHashMap$KeySetView<TK;Ljava/lang/Boolean;>;
+ (T1K;T1V;L1java/util/function/BiFunction<-TV;-TV;+TV;>;)T0V; # @Overrides(java.util.concurrent.ConcurrentMap)
 put
  (TK;TV;)TV;
- (T1K;T1V;)T0V;
+ (T1K;T1V;)T0V; # @Overrides(java.util.AbstractMap)
 putAll
  (Ljava/util/Map<+TK;+TV;>;)V
- (L1java/util/Map<+TK;+TV;>;)V
+ (L1java/util/Map<+TK;+TV;>;)V # @Inherited(java.util.AbstractMap)
 putIfAbsent
  (TK;TV;)TV;
- (T1K;T1V;)T0V;
+ (T1K;T1V;)T0V; # @Overrides(java.util.concurrent.ConcurrentMap)
 reduce
  <U:Ljava/lang/Object;>(JLjava/util/function/BiFunction<-TK;-TV;+TU;>;Ljava/util/function/BiFunction<-TU;-TU;+TU;>;)TU;
  <U:Ljava/lang/Object;>(JL1java/util/function/BiFunction<-TK;-TV;+TU;>;L1java/util/function/BiFunction<-TU;-TU;+TU;>;)TU;
@@ -148,19 +159,19 @@ reduceValuesToLong
  (JL1java/util/function/ToLongFunction<-TV;>;JL1java/util/function/LongBinaryOperator;)J
 remove
  (Ljava/lang/Object;)TV;
- (L1java/lang/Object;)T0V;
+ (L1java/lang/Object;)T0V; # @Overrides(java.util.AbstractMap)
 remove
  (Ljava/lang/Object;Ljava/lang/Object;)Z
  (L1java/lang/Object;L0java/lang/Object;)Z
 replace
  (TK;TV;)TV;
- (T1K;T1V;)T0V;
+ (T1K;T1V;)T0V; # @Overrides(java.util.concurrent.ConcurrentMap)
 replace
  (TK;TV;TV;)Z
  (T1K;T1V;T1V;)Z
 replaceAll
  (Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)V
- (L1java/util/function/BiFunction<-TK;-TV;+TV;>;)V
+ (L1java/util/function/BiFunction<-TK;-TV;+TV;>;)V # @Inherited(java.util.concurrent.ConcurrentMap)
 search
  <U:Ljava/lang/Object;>(JLjava/util/function/BiFunction<-TK;-TV;+TU;>;)TU;
  <U:Ljava/lang/Object;>(JL1java/util/function/BiFunction<-TK;-TV;+TU;>;)TU;
@@ -175,7 +186,7 @@ searchValues
  <U:Ljava/lang/Object;>(JL1java/util/function/Function<-TV;+TU;>;)TU;
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.util.AbstractMap)
 values
  ()Ljava/util/Collection<TV;>;
- ()L1java/util/Collection<TV;>;
+ ()L1java/util/Collection<TV;>; # @Inherited(java.util.AbstractMap)

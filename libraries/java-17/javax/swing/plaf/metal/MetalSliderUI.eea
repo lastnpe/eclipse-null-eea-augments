@@ -1,0 +1,56 @@
+class javax/swing/plaf/metal/MetalSliderUI
+
+darkShadowColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+highlightColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+horizThumbIcon
+ Ljavax/swing/Icon;
+ Ljavax/swing/Icon;
+thumbColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+vertThumbIcon
+ Ljavax/swing/Icon;
+ Ljavax/swing/Icon;
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+SLIDER_FILL
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+createPropertyChangeListener
+ (Ljavax/swing/JSlider;)Ljava/beans/PropertyChangeListener;
+ (Ljavax/swing/JSlider;)Ljava/beans/PropertyChangeListener;
+getThumbSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+installUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+paintFocus
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paintMajorTickForHorizSlider
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;I)V
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;I)V
+paintMajorTickForVertSlider
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;I)V
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;I)V
+paintMinorTickForHorizSlider
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;I)V
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;I)V
+paintMinorTickForVertSlider
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;I)V
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;I)V
+paintThumb
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paintTrack
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V

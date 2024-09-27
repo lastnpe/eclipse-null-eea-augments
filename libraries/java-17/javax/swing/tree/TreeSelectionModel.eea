@@ -1,0 +1,53 @@
+class javax/swing/tree/TreeSelectionModel
+
+addPropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V
+addSelectionPath
+ (Ljavax/swing/tree/TreePath;)V
+ (Ljavax/swing/tree/TreePath;)V
+addSelectionPaths
+ ([Ljavax/swing/tree/TreePath;)V
+ ([Ljavax/swing/tree/TreePath;)V
+addTreeSelectionListener
+ (Ljavax/swing/event/TreeSelectionListener;)V
+ (L1javax/swing/event/TreeSelectionListener;)V
+getLeadSelectionPath
+ ()Ljavax/swing/tree/TreePath;
+ ()Ljavax/swing/tree/TreePath;
+getRowMapper
+ ()Ljavax/swing/tree/RowMapper;
+ ()Ljavax/swing/tree/RowMapper;
+getSelectionPath
+ ()Ljavax/swing/tree/TreePath;
+ ()Ljavax/swing/tree/TreePath;
+getSelectionPaths
+ ()[Ljavax/swing/tree/TreePath;
+ ()[Ljavax/swing/tree/TreePath;
+getSelectionRows
+ ()[I
+ ()[I
+isPathSelected
+ (Ljavax/swing/tree/TreePath;)Z
+ (Ljavax/swing/tree/TreePath;)Z
+removePropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V
+removeSelectionPath
+ (Ljavax/swing/tree/TreePath;)V
+ (Ljavax/swing/tree/TreePath;)V
+removeSelectionPaths
+ ([Ljavax/swing/tree/TreePath;)V
+ ([Ljavax/swing/tree/TreePath;)V
+removeTreeSelectionListener
+ (Ljavax/swing/event/TreeSelectionListener;)V
+ (L1javax/swing/event/TreeSelectionListener;)V
+setRowMapper
+ (Ljavax/swing/tree/RowMapper;)V
+ (Ljavax/swing/tree/RowMapper;)V
+setSelectionPath
+ (Ljavax/swing/tree/TreePath;)V
+ (Ljavax/swing/tree/TreePath;)V
+setSelectionPaths
+ ([Ljavax/swing/tree/TreePath;)V
+ ([Ljavax/swing/tree/TreePath;)V

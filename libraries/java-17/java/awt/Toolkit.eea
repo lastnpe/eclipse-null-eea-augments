@@ -1,0 +1,133 @@
+class java/awt/Toolkit
+
+getDefaultToolkit
+ ()Ljava/awt/Toolkit;
+ ()Ljava/awt/Toolkit;
+getNativeContainer
+ (Ljava/awt/Component;)Ljava/awt/Container;
+ (Ljava/awt/Component;)Ljava/awt/Container;
+getProperty
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+desktopProperties
+ Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+desktopPropsSupport
+ Ljava/beans/PropertyChangeSupport;
+ Ljava/beans/PropertyChangeSupport;
+
+addAWTEventListener
+ (Ljava/awt/event/AWTEventListener;J)V
+ (Ljava/awt/event/AWTEventListener;J)V
+addPropertyChangeListener
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+checkImage
+ (Ljava/awt/Image;IILjava/awt/image/ImageObserver;)I
+ (Ljava/awt/Image;IILjava/awt/image/ImageObserver;)I
+createCustomCursor
+ (Ljava/awt/Image;Ljava/awt/Point;Ljava/lang/String;)Ljava/awt/Cursor;
+ (Ljava/awt/Image;Ljava/awt/Point;Ljava/lang/String;)Ljava/awt/Cursor;
+createDragGestureRecognizer
+ <T:Ljava/awt/dnd/DragGestureRecognizer;>(Ljava/lang/Class<TT;>;Ljava/awt/dnd/DragSource;Ljava/awt/Component;ILjava/awt/dnd/DragGestureListener;)TT;
+ <T:Ljava/awt/dnd/DragGestureRecognizer;>(Ljava/lang/Class<TT;>;Ljava/awt/dnd/DragSource;Ljava/awt/Component;ILjava/awt/dnd/DragGestureListener;)TT;
+createImage
+ (Ljava/awt/image/ImageProducer;)Ljava/awt/Image;
+ (Ljava/awt/image/ImageProducer;)Ljava/awt/Image;
+createImage
+ (Ljava/lang/String;)Ljava/awt/Image;
+ (Ljava/lang/String;)Ljava/awt/Image;
+createImage
+ (Ljava/net/URL;)Ljava/awt/Image;
+ (Ljava/net/URL;)Ljava/awt/Image;
+createImage
+ ([B)Ljava/awt/Image;
+ ([B)Ljava/awt/Image;
+createImage
+ ([BII)Ljava/awt/Image;
+ ([BII)Ljava/awt/Image;
+getAWTEventListeners
+ ()[Ljava/awt/event/AWTEventListener;
+ ()[Ljava/awt/event/AWTEventListener;
+getAWTEventListeners
+ (J)[Ljava/awt/event/AWTEventListener;
+ (J)[Ljava/awt/event/AWTEventListener;
+getBestCursorSize
+ (II)Ljava/awt/Dimension;
+ (II)Ljava/awt/Dimension;
+getColorModel
+ ()Ljava/awt/image/ColorModel;
+ ()Ljava/awt/image/ColorModel;
+getDesktopProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getFontList
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getFontMetrics
+ (Ljava/awt/Font;)Ljava/awt/FontMetrics;
+ (Ljava/awt/Font;)Ljava/awt/FontMetrics;
+getImage
+ (Ljava/lang/String;)Ljava/awt/Image;
+ (Ljava/lang/String;)Ljava/awt/Image;
+getImage
+ (Ljava/net/URL;)Ljava/awt/Image;
+ (Ljava/net/URL;)Ljava/awt/Image;
+getPrintJob
+ (Ljava/awt/Frame;Ljava/lang/String;Ljava/awt/JobAttributes;Ljava/awt/PageAttributes;)Ljava/awt/PrintJob;
+ (Ljava/awt/Frame;Ljava/lang/String;Ljava/awt/JobAttributes;Ljava/awt/PageAttributes;)Ljava/awt/PrintJob;
+getPrintJob
+ (Ljava/awt/Frame;Ljava/lang/String;Ljava/util/Properties;)Ljava/awt/PrintJob;
+ (Ljava/awt/Frame;Ljava/lang/String;Ljava/util/Properties;)Ljava/awt/PrintJob;
+getPropertyChangeListeners
+ ()[Ljava/beans/PropertyChangeListener;
+ ()[Ljava/beans/PropertyChangeListener;
+getPropertyChangeListeners
+ (Ljava/lang/String;)[Ljava/beans/PropertyChangeListener;
+ (Ljava/lang/String;)[Ljava/beans/PropertyChangeListener;
+getScreenInsets
+ (Ljava/awt/GraphicsConfiguration;)Ljava/awt/Insets;
+ (Ljava/awt/GraphicsConfiguration;)Ljava/awt/Insets;
+getScreenSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getSystemClipboard
+ ()Ljava/awt/datatransfer/Clipboard;
+ ()Ljava/awt/datatransfer/Clipboard;
+getSystemEventQueue
+ ()Ljava/awt/EventQueue;
+ ()Ljava/awt/EventQueue;
+getSystemEventQueueImpl
+ ()Ljava/awt/EventQueue;
+ ()Ljava/awt/EventQueue;
+getSystemSelection
+ ()Ljava/awt/datatransfer/Clipboard;
+ ()Ljava/awt/datatransfer/Clipboard;
+isModalExclusionTypeSupported
+ (Ljava/awt/Dialog$ModalExclusionType;)Z
+ (Ljava/awt/Dialog$ModalExclusionType;)Z
+isModalityTypeSupported
+ (Ljava/awt/Dialog$ModalityType;)Z
+ (Ljava/awt/Dialog$ModalityType;)Z
+lazilyLoadDesktopProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+loadSystemColors
+ ([I)V
+ ([I)V
+mapInputMethodHighlight
+ (Ljava/awt/im/InputMethodHighlight;)Ljava/util/Map<Ljava/awt/font/TextAttribute;*>;
+ (Ljava/awt/im/InputMethodHighlight;)Ljava/util/Map<Ljava/awt/font/TextAttribute;*>;
+prepareImage
+ (Ljava/awt/Image;IILjava/awt/image/ImageObserver;)Z
+ (Ljava/awt/Image;IILjava/awt/image/ImageObserver;)Z
+removeAWTEventListener
+ (Ljava/awt/event/AWTEventListener;)V
+ (L1java/awt/event/AWTEventListener;)V
+removePropertyChangeListener
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+setDesktopProperty
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V

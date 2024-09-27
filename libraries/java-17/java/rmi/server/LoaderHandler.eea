@@ -1,0 +1,15 @@
+class java/rmi/server/LoaderHandler
+
+packagePrefix
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getSecurityContext
+ (Ljava/lang/ClassLoader;)Ljava/lang/Object;
+ (Ljava/lang/ClassLoader;)Ljava/lang/Object;
+loadClass
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+loadClass
+ (Ljava/net/URL;Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/net/URL;Ljava/lang/String;)Ljava/lang/Class<*>;

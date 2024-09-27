@@ -1,7 +1,97 @@
 class java/net/URI
+
+super java/lang/Comparable
+ <Ljava/net/URI;>
+ <Ljava/net/URI;>
+
 create
  (Ljava/lang/String;)Ljava/net/URI;
  (L1java/lang/String;)L1java/net/URI;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+compareTo
+ (Ljava/net/URI;)I
+ (L1java/net/URI;)I
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAuthority
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFragment
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getHost
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPath
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getQuery
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRawAuthority
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRawFragment
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRawPath
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRawQuery
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRawSchemeSpecificPart
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRawUserInfo
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getScheme
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSchemeSpecificPart
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getUserInfo
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+normalize
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+parseServerAuthority
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+relativize
+ (Ljava/net/URI;)Ljava/net/URI;
+ (Ljava/net/URI;)Ljava/net/URI;
+resolve
+ (Ljava/lang/String;)Ljava/net/URI;
+ (Ljava/lang/String;)Ljava/net/URI;
+resolve
+ (Ljava/net/URI;)Ljava/net/URI;
+ (Ljava/net/URI;)Ljava/net/URI;
+toASCIIString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+toURL
+ ()Ljava/net/URL;
+ ()Ljava/net/URL;

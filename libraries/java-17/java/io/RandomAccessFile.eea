@@ -1,4 +1,47 @@
 class java/io/RandomAccessFile
+
+<init>
+ (Ljava/io/File;Ljava/lang/String;)V
+ (Ljava/io/File;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+getChannel
+ ()Ljava/nio/channels/FileChannel;
+ ()Ljava/nio/channels/FileChannel;
+getFD
+ ()Ljava/io/FileDescriptor;
+ ()Ljava/io/FileDescriptor;
+read
+ ([B)I
+ ([B)I
+read
+ ([BII)I
+ ([BII)I
+readFully
+ ([B)V
+ ([B)V
+readFully
+ ([BII)V
+ ([BII)V
+readLine
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
 readUTF
  ()Ljava/lang/String;
  ()L1java/lang/String;
+write
+ ([B)V
+ ([B)V
+write
+ ([BII)V
+ ([BII)V
+writeBytes
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeChars
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeUTF
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

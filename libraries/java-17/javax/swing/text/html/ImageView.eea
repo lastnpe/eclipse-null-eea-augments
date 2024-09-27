@@ -1,0 +1,44 @@
+class javax/swing/text/html/ImageView
+
+<init>
+ (Ljavax/swing/text/Element;)V
+ (Ljavax/swing/text/Element;)V
+changedUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+getAltText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getAttributes
+ ()Ljavax/swing/text/AttributeSet;
+ ()Ljavax/swing/text/AttributeSet;
+getImage
+ ()Ljava/awt/Image;
+ ()Ljava/awt/Image;
+getImageURL
+ ()Ljava/net/URL;
+ ()Ljava/net/URL;
+getLoadingImageIcon
+ ()Ljavax/swing/Icon;
+ ()Ljavax/swing/Icon;
+getNoImageIcon
+ ()Ljavax/swing/Icon;
+ ()Ljavax/swing/Icon;
+getStyleSheet
+ ()Ljavax/swing/text/html/StyleSheet;
+ ()Ljavax/swing/text/html/StyleSheet;
+getToolTipText
+ (FFLjava/awt/Shape;)Ljava/lang/String;
+ (FFLjava/awt/Shape;)Ljava/lang/String;
+modelToView
+ (ILjava/awt/Shape;Ljavax/swing/text/Position$Bias;)Ljava/awt/Shape;
+ (ILjava/awt/Shape;Ljavax/swing/text/Position$Bias;)Ljava/awt/Shape;
+paint
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V
+setParent
+ (Ljavax/swing/text/View;)V
+ (Ljavax/swing/text/View;)V
+viewToModel
+ (FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I
+ (FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I

@@ -1,0 +1,63 @@
+class java/nio/channels/AsynchronousSocketChannel
+
+open
+ ()Ljava/nio/channels/AsynchronousSocketChannel;
+ ()Ljava/nio/channels/AsynchronousSocketChannel;
+open
+ (Ljava/nio/channels/AsynchronousChannelGroup;)Ljava/nio/channels/AsynchronousSocketChannel;
+ (Ljava/nio/channels/AsynchronousChannelGroup;)Ljava/nio/channels/AsynchronousSocketChannel;
+
+<init>
+ (Ljava/nio/channels/spi/AsynchronousChannelProvider;)V
+ (Ljava/nio/channels/spi/AsynchronousChannelProvider;)V
+bind
+ (Ljava/net/SocketAddress;)Ljava/nio/channels/AsynchronousSocketChannel;
+ (Ljava/net/SocketAddress;)Ljava/nio/channels/AsynchronousSocketChannel;
+connect
+ (Ljava/net/SocketAddress;)Ljava/util/concurrent/Future<Ljava/lang/Void;>;
+ (Ljava/net/SocketAddress;)Ljava/util/concurrent/Future<Ljava/lang/Void;>;
+connect
+ <A:Ljava/lang/Object;>(Ljava/net/SocketAddress;TA;Ljava/nio/channels/CompletionHandler<Ljava/lang/Void;-TA;>;)V
+ <A:Ljava/lang/Object;>(Ljava/net/SocketAddress;TA;Ljava/nio/channels/CompletionHandler<Ljava/lang/Void;-TA;>;)V
+getLocalAddress
+ ()Ljava/net/SocketAddress;
+ ()Ljava/net/SocketAddress;
+getRemoteAddress
+ ()Ljava/net/SocketAddress;
+ ()Ljava/net/SocketAddress;
+provider
+ ()Ljava/nio/channels/spi/AsynchronousChannelProvider;
+ ()Ljava/nio/channels/spi/AsynchronousChannelProvider;
+read
+ (Ljava/nio/ByteBuffer;)Ljava/util/concurrent/Future<Ljava/lang/Integer;>;
+ (Ljava/nio/ByteBuffer;)Ljava/util/concurrent/Future<Ljava/lang/Integer;>;
+read
+ <A:Ljava/lang/Object;>(Ljava/nio/ByteBuffer;JLjava/util/concurrent/TimeUnit;TA;Ljava/nio/channels/CompletionHandler<Ljava/lang/Integer;-TA;>;)V
+ <A:Ljava/lang/Object;>(Ljava/nio/ByteBuffer;JLjava/util/concurrent/TimeUnit;TA;Ljava/nio/channels/CompletionHandler<Ljava/lang/Integer;-TA;>;)V
+read
+ <A:Ljava/lang/Object;>(Ljava/nio/ByteBuffer;TA;Ljava/nio/channels/CompletionHandler<Ljava/lang/Integer;-TA;>;)V
+ <A:Ljava/lang/Object;>(Ljava/nio/ByteBuffer;TA;Ljava/nio/channels/CompletionHandler<Ljava/lang/Integer;-TA;>;)V
+read
+ <A:Ljava/lang/Object;>([Ljava/nio/ByteBuffer;IIJLjava/util/concurrent/TimeUnit;TA;Ljava/nio/channels/CompletionHandler<Ljava/lang/Long;-TA;>;)V
+ <A:Ljava/lang/Object;>([Ljava/nio/ByteBuffer;IIJLjava/util/concurrent/TimeUnit;TA;Ljava/nio/channels/CompletionHandler<Ljava/lang/Long;-TA;>;)V
+setOption
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/nio/channels/AsynchronousSocketChannel;
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/nio/channels/AsynchronousSocketChannel;
+shutdownInput
+ ()Ljava/nio/channels/AsynchronousSocketChannel;
+ ()Ljava/nio/channels/AsynchronousSocketChannel;
+shutdownOutput
+ ()Ljava/nio/channels/AsynchronousSocketChannel;
+ ()Ljava/nio/channels/AsynchronousSocketChannel;
+write
+ (Ljava/nio/ByteBuffer;)Ljava/util/concurrent/Future<Ljava/lang/Integer;>;
+ (Ljava/nio/ByteBuffer;)Ljava/util/concurrent/Future<Ljava/lang/Integer;>;
+write
+ <A:Ljava/lang/Object;>(Ljava/nio/ByteBuffer;JLjava/util/concurrent/TimeUnit;TA;Ljava/nio/channels/CompletionHandler<Ljava/lang/Integer;-TA;>;)V
+ <A:Ljava/lang/Object;>(Ljava/nio/ByteBuffer;JLjava/util/concurrent/TimeUnit;TA;Ljava/nio/channels/CompletionHandler<Ljava/lang/Integer;-TA;>;)V
+write
+ <A:Ljava/lang/Object;>(Ljava/nio/ByteBuffer;TA;Ljava/nio/channels/CompletionHandler<Ljava/lang/Integer;-TA;>;)V
+ <A:Ljava/lang/Object;>(Ljava/nio/ByteBuffer;TA;Ljava/nio/channels/CompletionHandler<Ljava/lang/Integer;-TA;>;)V
+write
+ <A:Ljava/lang/Object;>([Ljava/nio/ByteBuffer;IIJLjava/util/concurrent/TimeUnit;TA;Ljava/nio/channels/CompletionHandler<Ljava/lang/Long;-TA;>;)V
+ <A:Ljava/lang/Object;>([Ljava/nio/ByteBuffer;IIJLjava/util/concurrent/TimeUnit;TA;Ljava/nio/channels/CompletionHandler<Ljava/lang/Long;-TA;>;)V

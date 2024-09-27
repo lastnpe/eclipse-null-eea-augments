@@ -1,0 +1,38 @@
+class javax/swing/text/ParagraphView
+
+<init>
+ (Ljavax/swing/text/Element;)V
+ (Ljavax/swing/text/Element;)V
+breakView
+ (IFLjava/awt/Shape;)Ljavax/swing/text/View;
+ (IFLjava/awt/Shape;)Ljavax/swing/text/View;
+calculateMinorAxisRequirements
+ (ILjavax/swing/SizeRequirements;)Ljavax/swing/SizeRequirements;
+ (ILjavax/swing/SizeRequirements;)Ljavax/swing/SizeRequirements;
+changedUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+createRow
+ ()Ljavax/swing/text/View;
+ ()Ljavax/swing/text/View;
+findOffsetToCharactersInString
+ ([CI)I
+ ([CI)I
+flipEastAndWestAtEnds
+ (ILjavax/swing/text/Position$Bias;)Z
+ (ILjavax/swing/text/Position$Bias;)Z
+getClosestPositionTo
+ (ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;I[Ljavax/swing/text/Position$Bias;II)I
+ (ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;I[Ljavax/swing/text/Position$Bias;II)I
+getLayoutView
+ (I)Ljavax/swing/text/View;
+ (I)Ljavax/swing/text/View;
+getNextNorthSouthVisualPositionFrom
+ (ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;I[Ljavax/swing/text/Position$Bias;)I
+ (ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;I[Ljavax/swing/text/Position$Bias;)I
+getTabSet
+ ()Ljavax/swing/text/TabSet;
+ ()Ljavax/swing/text/TabSet;
+paint
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V

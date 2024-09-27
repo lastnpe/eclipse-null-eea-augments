@@ -1,0 +1,38 @@
+class javax/swing/plaf/metal/MetalScrollBarUI
+
+FREE_STANDING_PROP
+ Ljava/lang/String;
+ L1java/lang/String;
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+decreaseButton
+ Ljavax/swing/plaf/metal/MetalScrollButton;
+ Ljavax/swing/plaf/metal/MetalScrollButton;
+increaseButton
+ Ljavax/swing/plaf/metal/MetalScrollButton;
+ Ljavax/swing/plaf/metal/MetalScrollButton;
+
+createDecreaseButton
+ (I)Ljavax/swing/JButton;
+ (I)Ljavax/swing/JButton;
+createIncreaseButton
+ (I)Ljavax/swing/JButton;
+ (I)Ljavax/swing/JButton;
+createPropertyChangeListener
+ ()Ljava/beans/PropertyChangeListener;
+ ()Ljava/beans/PropertyChangeListener;
+getMinimumThumbSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getPreferredSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+paintThumb
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;Ljava/awt/Rectangle;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;Ljava/awt/Rectangle;)V
+paintTrack
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;Ljava/awt/Rectangle;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;Ljava/awt/Rectangle;)V

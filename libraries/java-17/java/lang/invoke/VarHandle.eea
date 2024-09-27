@@ -1,0 +1,122 @@
+class java/lang/invoke/VarHandle
+
+accessModeType
+ (Ljava/lang/invoke/VarHandle$AccessMode;)Ljava/lang/invoke/MethodType;
+ (Ljava/lang/invoke/VarHandle$AccessMode;)Ljava/lang/invoke/MethodType;
+compareAndExchange
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+compareAndExchangeAcquire
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+compareAndExchangeRelease
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+compareAndSet
+ ([Ljava/lang/Object;)Z
+ ([Ljava/lang/Object;)Z
+coordinateTypes
+ ()Ljava/util/List<Ljava/lang/Class<*>;>;
+ ()Ljava/util/List<Ljava/lang/Class<*>;>;
+describeConstable
+ ()Ljava/util/Optional<Ljava/lang/invoke/VarHandle$VarHandleDesc;>;
+ ()Ljava/util/Optional<Ljava/lang/invoke/VarHandle$VarHandleDesc;>;
+get
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+getAcquire
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+getAndAdd
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+getAndAddAcquire
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+getAndAddRelease
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+getAndBitwiseAnd
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+getAndBitwiseAndAcquire
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+getAndBitwiseAndRelease
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+getAndBitwiseOr
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+getAndBitwiseOrAcquire
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+getAndBitwiseOrRelease
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+getAndBitwiseXor
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+getAndBitwiseXorAcquire
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+getAndBitwiseXorRelease
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+getAndSet
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+getAndSetAcquire
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+getAndSetRelease
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+getOpaque
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+getVolatile
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+isAccessModeSupported
+ (Ljava/lang/invoke/VarHandle$AccessMode;)Z
+ (Ljava/lang/invoke/VarHandle$AccessMode;)Z
+set
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+setOpaque
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+setRelease
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+setVolatile
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+toMethodHandle
+ (Ljava/lang/invoke/VarHandle$AccessMode;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/VarHandle$AccessMode;)Ljava/lang/invoke/MethodHandle;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+varType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+weakCompareAndSet
+ ([Ljava/lang/Object;)Z
+ ([Ljava/lang/Object;)Z
+weakCompareAndSetAcquire
+ ([Ljava/lang/Object;)Z
+ ([Ljava/lang/Object;)Z
+weakCompareAndSetPlain
+ ([Ljava/lang/Object;)Z
+ ([Ljava/lang/Object;)Z
+weakCompareAndSetRelease
+ ([Ljava/lang/Object;)Z
+ ([Ljava/lang/Object;)Z
+withInvokeBehavior
+ ()Ljava/lang/invoke/VarHandle;
+ ()Ljava/lang/invoke/VarHandle;
+withInvokeExactBehavior
+ ()Ljava/lang/invoke/VarHandle;
+ ()Ljava/lang/invoke/VarHandle;

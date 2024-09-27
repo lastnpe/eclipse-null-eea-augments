@@ -1,0 +1,42 @@
+class javax/swing/plaf/synth/SynthLookAndFeel
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+getRegion
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/synth/Region;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/synth/Region;
+getStyle
+ (Ljavax/swing/JComponent;Ljavax/swing/plaf/synth/Region;)Ljavax/swing/plaf/synth/SynthStyle;
+ (Ljavax/swing/JComponent;Ljavax/swing/plaf/synth/Region;)Ljavax/swing/plaf/synth/SynthStyle;
+getStyleFactory
+ ()Ljavax/swing/plaf/synth/SynthStyleFactory;
+ ()Ljavax/swing/plaf/synth/SynthStyleFactory;
+setStyleFactory
+ (Ljavax/swing/plaf/synth/SynthStyleFactory;)V
+ (Ljavax/swing/plaf/synth/SynthStyleFactory;)V
+updateStyles
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+
+getDefaults
+ ()Ljavax/swing/UIDefaults;
+ ()Ljavax/swing/UIDefaults;
+getDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+load
+ (Ljava/io/InputStream;Ljava/lang/Class<*>;)V
+ (Ljava/io/InputStream;Ljava/lang/Class<*>;)V
+load
+ (Ljava/net/URL;)V
+ (Ljava/net/URL;)V
+shouldUpdateStyleOnEvent
+ (Ljava/beans/PropertyChangeEvent;)Z
+ (Ljava/beans/PropertyChangeEvent;)Z

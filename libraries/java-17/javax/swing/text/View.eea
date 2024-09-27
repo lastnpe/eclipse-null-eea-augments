@@ -1,0 +1,104 @@
+class javax/swing/text/View
+
+<init>
+ (Ljavax/swing/text/Element;)V
+ (Ljavax/swing/text/Element;)V
+append
+ (Ljavax/swing/text/View;)V
+ (Ljavax/swing/text/View;)V
+breakView
+ (IIFF)Ljavax/swing/text/View;
+ (IIFF)Ljavax/swing/text/View;
+changedUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+createFragment
+ (II)Ljavax/swing/text/View;
+ (II)Ljavax/swing/text/View;
+forwardUpdate
+ (Ljavax/swing/event/DocumentEvent$ElementChange;Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent$ElementChange;Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+forwardUpdateToView
+ (Ljavax/swing/text/View;Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/text/View;Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+getAttributes
+ ()Ljavax/swing/text/AttributeSet;
+ ()Ljavax/swing/text/AttributeSet;
+getChildAllocation
+ (ILjava/awt/Shape;)Ljava/awt/Shape;
+ (ILjava/awt/Shape;)Ljava/awt/Shape;
+getContainer
+ ()Ljava/awt/Container;
+ ()Ljava/awt/Container;
+getDocument
+ ()Ljavax/swing/text/Document;
+ ()Ljavax/swing/text/Document;
+getElement
+ ()Ljavax/swing/text/Element;
+ ()Ljavax/swing/text/Element;
+getGraphics
+ ()Ljava/awt/Graphics;
+ ()Ljava/awt/Graphics;
+getNextVisualPositionFrom
+ (ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;I[Ljavax/swing/text/Position$Bias;)I
+ (ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;I[Ljavax/swing/text/Position$Bias;)I
+getParent
+ ()Ljavax/swing/text/View;
+ ()Ljavax/swing/text/View;
+getToolTipText
+ (FFLjava/awt/Shape;)Ljava/lang/String;
+ (FFLjava/awt/Shape;)Ljava/lang/String;
+getView
+ (I)Ljavax/swing/text/View;
+ (I)Ljavax/swing/text/View;
+getViewFactory
+ ()Ljavax/swing/text/ViewFactory;
+ ()Ljavax/swing/text/ViewFactory;
+getViewIndex
+ (FFLjava/awt/Shape;)I
+ (FFLjava/awt/Shape;)I
+getViewIndex
+ (ILjavax/swing/text/Position$Bias;)I
+ (ILjavax/swing/text/Position$Bias;)I
+insert
+ (ILjavax/swing/text/View;)V
+ (ILjavax/swing/text/View;)V
+insertUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+modelToView
+ (ILjava/awt/Shape;)Ljava/awt/Shape;
+ (ILjava/awt/Shape;)Ljava/awt/Shape;
+modelToView
+ (ILjava/awt/Shape;Ljavax/swing/text/Position$Bias;)Ljava/awt/Shape;
+ (ILjava/awt/Shape;Ljavax/swing/text/Position$Bias;)Ljava/awt/Shape;
+modelToView
+ (ILjavax/swing/text/Position$Bias;ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;)Ljava/awt/Shape;
+ (ILjavax/swing/text/Position$Bias;ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;)Ljava/awt/Shape;
+paint
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V
+preferenceChanged
+ (Ljavax/swing/text/View;ZZ)V
+ (Ljavax/swing/text/View;ZZ)V
+removeUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+replace
+ (II[Ljavax/swing/text/View;)V
+ (II[Ljavax/swing/text/View;)V
+setParent
+ (Ljavax/swing/text/View;)V
+ (Ljavax/swing/text/View;)V
+updateChildren
+ (Ljavax/swing/event/DocumentEvent$ElementChange;Ljavax/swing/event/DocumentEvent;Ljavax/swing/text/ViewFactory;)Z
+ (Ljavax/swing/event/DocumentEvent$ElementChange;Ljavax/swing/event/DocumentEvent;Ljavax/swing/text/ViewFactory;)Z
+updateLayout
+ (Ljavax/swing/event/DocumentEvent$ElementChange;Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;)V
+ (Ljavax/swing/event/DocumentEvent$ElementChange;Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;)V
+viewToModel
+ (FFLjava/awt/Shape;)I
+ (FFLjava/awt/Shape;)I
+viewToModel
+ (FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I
+ (FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I

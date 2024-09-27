@@ -1,0 +1,161 @@
+class java/util/concurrent/LinkedBlockingDeque
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/util/AbstractQueue
+ <TE;>
+ <TE;>
+super java/util/concurrent/BlockingDeque
+ <TE;>
+ <TE;>
+
+<init>
+ (Ljava/util/Collection<+TE;>;)V
+ (Ljava/util/Collection<+TE;>;)V
+add
+ (TE;)Z
+ (T1E;)Z # @Inherited(java.util.AbstractQueue)
+addAll
+ (Ljava/util/Collection<+TE;>;)Z
+ (L1java/util/Collection<+TE;>;)Z # @Inherited(java.util.AbstractQueue)
+addFirst
+ (TE;)V
+ (TE;)V
+addLast
+ (TE;)V
+ (TE;)V
+contains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+descendingIterator
+ ()Ljava/util/Iterator<TE;>;
+ ()Ljava/util/Iterator<TE;>;
+drainTo
+ (Ljava/util/Collection<-TE;>;)I
+ (Ljava/util/Collection<-TE;>;)I
+drainTo
+ (Ljava/util/Collection<-TE;>;I)I
+ (Ljava/util/Collection<-TE;>;I)I
+element
+ ()TE;
+ ()T1E; # @Inherited(java.util.AbstractQueue)
+forEach
+ (Ljava/util/function/Consumer<-TE;>;)V
+ (Ljava/util/function/Consumer<-TE;>;)V
+getFirst
+ ()TE;
+ ()TE;
+getLast
+ ()TE;
+ ()TE;
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.AbstractCollection)
+offer
+ (TE;)Z
+ (T1E;)Z # @Inherited(java.util.concurrent.BlockingDeque)
+offer
+ (TE;JLjava/util/concurrent/TimeUnit;)Z
+ (TE;JLjava/util/concurrent/TimeUnit;)Z
+offerFirst
+ (TE;)Z
+ (TE;)Z
+offerFirst
+ (TE;JLjava/util/concurrent/TimeUnit;)Z
+ (TE;JLjava/util/concurrent/TimeUnit;)Z
+offerLast
+ (TE;)Z
+ (TE;)Z
+offerLast
+ (TE;JLjava/util/concurrent/TimeUnit;)Z
+ (TE;JLjava/util/concurrent/TimeUnit;)Z
+peek
+ ()TE;
+ ()T0E; # @Inherited(java.util.concurrent.BlockingDeque)
+peekFirst
+ ()TE;
+ ()TE;
+peekLast
+ ()TE;
+ ()TE;
+poll
+ ()TE;
+ ()T0E; # @Inherited(java.util.concurrent.BlockingDeque)
+poll
+ (JLjava/util/concurrent/TimeUnit;)TE;
+ (JLjava/util/concurrent/TimeUnit;)T0E; # @Inherited(java.util.concurrent.BlockingDeque)
+pollFirst
+ ()TE;
+ ()TE;
+pollFirst
+ (JLjava/util/concurrent/TimeUnit;)TE;
+ (JLjava/util/concurrent/TimeUnit;)TE;
+pollLast
+ ()TE;
+ ()TE;
+pollLast
+ (JLjava/util/concurrent/TimeUnit;)TE;
+ (JLjava/util/concurrent/TimeUnit;)TE;
+pop
+ ()TE;
+ ()TE;
+push
+ (TE;)V
+ (TE;)V
+put
+ (TE;)V
+ (TE;)V
+putFirst
+ (TE;)V
+ (TE;)V
+putLast
+ (TE;)V
+ (TE;)V
+remove
+ ()TE;
+ ()T1E; # @Inherited(java.util.AbstractQueue)
+remove
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+removeAll
+ (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.AbstractCollection)
+removeFirst
+ ()TE;
+ ()TE;
+removeFirstOccurrence
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+removeIf
+ (Ljava/util/function/Predicate<-TE;>;)Z
+ (L1java/util/function/Predicate<-TE;>;)Z # @Inherited(java.util.Collection)
+removeLast
+ ()TE;
+ ()TE;
+removeLastOccurrence
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+retainAll
+ (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.AbstractCollection)
+spliterator
+ ()Ljava/util/Spliterator<TE;>;
+ ()L1java/util/Spliterator<TE;>; # @Inherited(java.util.Collection)
+take
+ ()TE;
+ ()TE;
+takeFirst
+ ()TE;
+ ()TE;
+takeLast
+ ()TE;
+ ()TE;
+toArray
+ ()[Ljava/lang/Object;
+ ()[1Ljava/lang/Object; # @Inherited(java.util.AbstractCollection)
+toArray
+ <T:Ljava/lang/Object;>([TT;)[TT;
+ <T:Ljava/lang/Object;>([1TT;)[1TT; # @Inherited(java.util.AbstractCollection)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.util.AbstractCollection)

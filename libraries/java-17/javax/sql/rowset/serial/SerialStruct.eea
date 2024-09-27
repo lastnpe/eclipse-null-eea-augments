@@ -1,0 +1,23 @@
+class javax/sql/rowset/serial/SerialStruct
+
+<init>
+ (Ljava/sql/SQLData;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Class<*>;>;)V
+ (Ljava/sql/SQLData;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Class<*>;>;)V
+<init>
+ (Ljava/sql/Struct;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Class<*>;>;)V
+ (Ljava/sql/Struct;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Class<*>;>;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAttributes
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+getAttributes
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Class<*>;>;)[Ljava/lang/Object;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Class<*>;>;)[Ljava/lang/Object;
+getSQLTypeName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

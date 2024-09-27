@@ -1,7 +1,51 @@
 class java/util/TimeZone
+
+getAvailableIDs
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getAvailableIDs
+ (I)[Ljava/lang/String;
+ (I)[Ljava/lang/String;
 getDefault
  ()Ljava/util/TimeZone;
  ()L1java/util/TimeZone;
 getTimeZone
  (Ljava/lang/String;)Ljava/util/TimeZone;
  (L1java/lang/String;)L1java/util/TimeZone;
+getTimeZone
+ (Ljava/time/ZoneId;)Ljava/util/TimeZone;
+ (Ljava/time/ZoneId;)Ljava/util/TimeZone;
+setDefault
+ (Ljava/util/TimeZone;)V
+ (Ljava/util/TimeZone;)V
+
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+getDisplayName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDisplayName
+ (Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/util/Locale;)Ljava/lang/String;
+getDisplayName
+ (ZI)Ljava/lang/String;
+ (ZI)Ljava/lang/String;
+getDisplayName
+ (ZILjava/util/Locale;)Ljava/lang/String;
+ (ZILjava/util/Locale;)Ljava/lang/String;
+getID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+hasSameRules
+ (Ljava/util/TimeZone;)Z
+ (Ljava/util/TimeZone;)Z
+inDaylightTime
+ (Ljava/util/Date;)Z
+ (Ljava/util/Date;)Z
+setID
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toZoneId
+ ()Ljava/time/ZoneId;
+ ()Ljava/time/ZoneId;

@@ -1,0 +1,36 @@
+class javax/swing/undo/UndoableEditSupport
+
+compoundEdit
+ Ljavax/swing/undo/CompoundEdit;
+ Ljavax/swing/undo/CompoundEdit;
+listeners
+ Ljava/util/Vector<Ljavax/swing/event/UndoableEditListener;>;
+ Ljava/util/Vector<Ljavax/swing/event/UndoableEditListener;>;
+realSource
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+
+<init>
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+_postEdit
+ (Ljavax/swing/undo/UndoableEdit;)V
+ (Ljavax/swing/undo/UndoableEdit;)V
+addUndoableEditListener
+ (Ljavax/swing/event/UndoableEditListener;)V
+ (L1javax/swing/event/UndoableEditListener;)V
+createCompoundEdit
+ ()Ljavax/swing/undo/CompoundEdit;
+ ()Ljavax/swing/undo/CompoundEdit;
+getUndoableEditListeners
+ ()[Ljavax/swing/event/UndoableEditListener;
+ ()[Ljavax/swing/event/UndoableEditListener;
+postEdit
+ (Ljavax/swing/undo/UndoableEdit;)V
+ (Ljavax/swing/undo/UndoableEdit;)V
+removeUndoableEditListener
+ (Ljavax/swing/event/UndoableEditListener;)V
+ (L1javax/swing/event/UndoableEditListener;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

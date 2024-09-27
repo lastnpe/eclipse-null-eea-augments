@@ -1,0 +1,139 @@
+class javax/swing/tree/DefaultMutableTreeNode
+
+EMPTY_ENUMERATION
+ Ljava/util/Enumeration<Ljavax/swing/tree/TreeNode;>;
+ L1java/util/Enumeration<Ljavax/swing/tree/TreeNode;>;
+
+children
+ Ljava/util/Vector<Ljavax/swing/tree/TreeNode;>;
+ Ljava/util/Vector<Ljavax/swing/tree/TreeNode;>;
+parent
+ Ljavax/swing/tree/MutableTreeNode;
+ Ljavax/swing/tree/MutableTreeNode;
+userObject
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+
+<init>
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+<init>
+ (Ljava/lang/Object;Z)V
+ (Ljava/lang/Object;Z)V
+add
+ (Ljavax/swing/tree/MutableTreeNode;)V
+ (Ljavax/swing/tree/MutableTreeNode;)V
+breadthFirstEnumeration
+ ()Ljava/util/Enumeration<Ljavax/swing/tree/TreeNode;>;
+ ()Ljava/util/Enumeration<Ljavax/swing/tree/TreeNode;>;
+children
+ ()Ljava/util/Enumeration<Ljavax/swing/tree/TreeNode;>;
+ ()Ljava/util/Enumeration<Ljavax/swing/tree/TreeNode;>;
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+depthFirstEnumeration
+ ()Ljava/util/Enumeration<Ljavax/swing/tree/TreeNode;>;
+ ()Ljava/util/Enumeration<Ljavax/swing/tree/TreeNode;>;
+getChildAfter
+ (Ljavax/swing/tree/TreeNode;)Ljavax/swing/tree/TreeNode;
+ (Ljavax/swing/tree/TreeNode;)Ljavax/swing/tree/TreeNode;
+getChildAt
+ (I)Ljavax/swing/tree/TreeNode;
+ (I)Ljavax/swing/tree/TreeNode;
+getChildBefore
+ (Ljavax/swing/tree/TreeNode;)Ljavax/swing/tree/TreeNode;
+ (Ljavax/swing/tree/TreeNode;)Ljavax/swing/tree/TreeNode;
+getFirstChild
+ ()Ljavax/swing/tree/TreeNode;
+ ()Ljavax/swing/tree/TreeNode;
+getFirstLeaf
+ ()Ljavax/swing/tree/DefaultMutableTreeNode;
+ ()Ljavax/swing/tree/DefaultMutableTreeNode;
+getIndex
+ (Ljavax/swing/tree/TreeNode;)I
+ (Ljavax/swing/tree/TreeNode;)I
+getLastChild
+ ()Ljavax/swing/tree/TreeNode;
+ ()Ljavax/swing/tree/TreeNode;
+getLastLeaf
+ ()Ljavax/swing/tree/DefaultMutableTreeNode;
+ ()Ljavax/swing/tree/DefaultMutableTreeNode;
+getNextLeaf
+ ()Ljavax/swing/tree/DefaultMutableTreeNode;
+ ()Ljavax/swing/tree/DefaultMutableTreeNode;
+getNextNode
+ ()Ljavax/swing/tree/DefaultMutableTreeNode;
+ ()Ljavax/swing/tree/DefaultMutableTreeNode;
+getNextSibling
+ ()Ljavax/swing/tree/DefaultMutableTreeNode;
+ ()Ljavax/swing/tree/DefaultMutableTreeNode;
+getParent
+ ()Ljavax/swing/tree/TreeNode;
+ ()Ljavax/swing/tree/TreeNode;
+getPath
+ ()[Ljavax/swing/tree/TreeNode;
+ ()[Ljavax/swing/tree/TreeNode;
+getPathToRoot
+ (Ljavax/swing/tree/TreeNode;I)[Ljavax/swing/tree/TreeNode;
+ (Ljavax/swing/tree/TreeNode;I)[Ljavax/swing/tree/TreeNode;
+getPreviousLeaf
+ ()Ljavax/swing/tree/DefaultMutableTreeNode;
+ ()Ljavax/swing/tree/DefaultMutableTreeNode;
+getPreviousNode
+ ()Ljavax/swing/tree/DefaultMutableTreeNode;
+ ()Ljavax/swing/tree/DefaultMutableTreeNode;
+getPreviousSibling
+ ()Ljavax/swing/tree/DefaultMutableTreeNode;
+ ()Ljavax/swing/tree/DefaultMutableTreeNode;
+getRoot
+ ()Ljavax/swing/tree/TreeNode;
+ ()Ljavax/swing/tree/TreeNode;
+getSharedAncestor
+ (Ljavax/swing/tree/DefaultMutableTreeNode;)Ljavax/swing/tree/TreeNode;
+ (Ljavax/swing/tree/DefaultMutableTreeNode;)Ljavax/swing/tree/TreeNode;
+getUserObject
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getUserObjectPath
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+insert
+ (Ljavax/swing/tree/MutableTreeNode;I)V
+ (Ljavax/swing/tree/MutableTreeNode;I)V
+isNodeAncestor
+ (Ljavax/swing/tree/TreeNode;)Z
+ (Ljavax/swing/tree/TreeNode;)Z
+isNodeChild
+ (Ljavax/swing/tree/TreeNode;)Z
+ (Ljavax/swing/tree/TreeNode;)Z
+isNodeDescendant
+ (Ljavax/swing/tree/DefaultMutableTreeNode;)Z
+ (Ljavax/swing/tree/DefaultMutableTreeNode;)Z
+isNodeRelated
+ (Ljavax/swing/tree/DefaultMutableTreeNode;)Z
+ (Ljavax/swing/tree/DefaultMutableTreeNode;)Z
+isNodeSibling
+ (Ljavax/swing/tree/TreeNode;)Z
+ (Ljavax/swing/tree/TreeNode;)Z
+pathFromAncestorEnumeration
+ (Ljavax/swing/tree/TreeNode;)Ljava/util/Enumeration<Ljavax/swing/tree/TreeNode;>;
+ (Ljavax/swing/tree/TreeNode;)Ljava/util/Enumeration<Ljavax/swing/tree/TreeNode;>;
+postorderEnumeration
+ ()Ljava/util/Enumeration<Ljavax/swing/tree/TreeNode;>;
+ ()Ljava/util/Enumeration<Ljavax/swing/tree/TreeNode;>;
+preorderEnumeration
+ ()Ljava/util/Enumeration<Ljavax/swing/tree/TreeNode;>;
+ ()Ljava/util/Enumeration<Ljavax/swing/tree/TreeNode;>;
+remove
+ (Ljavax/swing/tree/MutableTreeNode;)V
+ (Ljavax/swing/tree/MutableTreeNode;)V
+setParent
+ (Ljavax/swing/tree/MutableTreeNode;)V
+ (Ljavax/swing/tree/MutableTreeNode;)V
+setUserObject
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

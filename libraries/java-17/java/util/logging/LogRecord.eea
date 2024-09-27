@@ -1,0 +1,68 @@
+class java/util/logging/LogRecord
+
+<init>
+ (Ljava/util/logging/Level;Ljava/lang/String;)V
+ (Ljava/util/logging/Level;Ljava/lang/String;)V
+getInstant
+ ()Ljava/time/Instant;
+ ()Ljava/time/Instant;
+getLevel
+ ()Ljava/util/logging/Level;
+ ()Ljava/util/logging/Level;
+getLoggerName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMessage
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getParameters
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+getResourceBundle
+ ()Ljava/util/ResourceBundle;
+ ()Ljava/util/ResourceBundle;
+getResourceBundleName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSourceClassName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSourceMethodName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getThrown
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
+setInstant
+ (Ljava/time/Instant;)V
+ (Ljava/time/Instant;)V
+setLevel
+ (Ljava/util/logging/Level;)V
+ (Ljava/util/logging/Level;)V
+setLoggerName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setLongThreadID
+ (J)Ljava/util/logging/LogRecord;
+ (J)Ljava/util/logging/LogRecord;
+setMessage
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setParameters
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+setResourceBundle
+ (Ljava/util/ResourceBundle;)V
+ (Ljava/util/ResourceBundle;)V
+setResourceBundleName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSourceClassName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSourceMethodName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setThrown
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V

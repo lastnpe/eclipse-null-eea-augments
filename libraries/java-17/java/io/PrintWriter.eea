@@ -1,0 +1,90 @@
+class java/io/PrintWriter
+
+out
+ Ljava/io/Writer;
+ Ljava/io/Writer;
+
+<init>
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+<init>
+ (Ljava/io/File;Ljava/lang/String;)V
+ (Ljava/io/File;Ljava/lang/String;)V
+<init>
+ (Ljava/io/File;Ljava/nio/charset/Charset;)V
+ (Ljava/io/File;Ljava/nio/charset/Charset;)V
+<init>
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V
+<init>
+ (Ljava/io/OutputStream;Z)V
+ (Ljava/io/OutputStream;Z)V
+<init>
+ (Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)V
+ (Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)V
+<init>
+ (Ljava/io/Writer;)V
+ (Ljava/io/Writer;)V
+<init>
+ (Ljava/io/Writer;Z)V
+ (Ljava/io/Writer;Z)V
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)V
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)V
+append
+ (C)Ljava/io/PrintWriter;
+ (C)Ljava/io/PrintWriter;
+append
+ (Ljava/lang/CharSequence;)Ljava/io/PrintWriter;
+ (Ljava/lang/CharSequence;)Ljava/io/PrintWriter;
+append
+ (Ljava/lang/CharSequence;II)Ljava/io/PrintWriter;
+ (Ljava/lang/CharSequence;II)Ljava/io/PrintWriter;
+format
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintWriter;
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintWriter;
+format
+ (Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintWriter;
+ (Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintWriter;
+print
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+print
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+print
+ ([C)V
+ ([C)V
+printf
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintWriter;
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintWriter;
+printf
+ (Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintWriter;
+ (Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintWriter;
+println
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+println
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+println
+ ([C)V
+ ([C)V
+write
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+write
+ (Ljava/lang/String;II)V
+ (Ljava/lang/String;II)V
+write
+ ([C)V
+ ([C)V
+write
+ ([CII)V
+ ([CII)V

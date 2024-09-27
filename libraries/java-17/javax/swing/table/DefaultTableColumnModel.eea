@@ -1,0 +1,72 @@
+class javax/swing/table/DefaultTableColumnModel
+
+changeEvent
+ Ljavax/swing/event/ChangeEvent;
+ Ljavax/swing/event/ChangeEvent;
+listenerList
+ Ljavax/swing/event/EventListenerList;
+ Ljavax/swing/event/EventListenerList;
+selectionModel
+ Ljavax/swing/ListSelectionModel;
+ Ljavax/swing/ListSelectionModel;
+tableColumns
+ Ljava/util/Vector<Ljavax/swing/table/TableColumn;>;
+ Ljava/util/Vector<Ljavax/swing/table/TableColumn;>;
+
+addColumn
+ (Ljavax/swing/table/TableColumn;)V
+ (Ljavax/swing/table/TableColumn;)V
+addColumnModelListener
+ (Ljavax/swing/event/TableColumnModelListener;)V
+ (L1javax/swing/event/TableColumnModelListener;)V # @Inherited(javax.swing.table.TableColumnModel)
+createSelectionModel
+ ()Ljavax/swing/ListSelectionModel;
+ ()Ljavax/swing/ListSelectionModel;
+fireColumnAdded
+ (Ljavax/swing/event/TableColumnModelEvent;)V
+ (Ljavax/swing/event/TableColumnModelEvent;)V
+fireColumnMoved
+ (Ljavax/swing/event/TableColumnModelEvent;)V
+ (Ljavax/swing/event/TableColumnModelEvent;)V
+fireColumnRemoved
+ (Ljavax/swing/event/TableColumnModelEvent;)V
+ (Ljavax/swing/event/TableColumnModelEvent;)V
+fireColumnSelectionChanged
+ (Ljavax/swing/event/ListSelectionEvent;)V
+ (Ljavax/swing/event/ListSelectionEvent;)V
+getColumn
+ (I)Ljavax/swing/table/TableColumn;
+ (I)Ljavax/swing/table/TableColumn;
+getColumnIndex
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+getColumnModelListeners
+ ()[Ljavax/swing/event/TableColumnModelListener;
+ ()[Ljavax/swing/event/TableColumnModelListener;
+getColumns
+ ()Ljava/util/Enumeration<Ljavax/swing/table/TableColumn;>;
+ ()Ljava/util/Enumeration<Ljavax/swing/table/TableColumn;>;
+getListeners
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+getSelectedColumns
+ ()[I
+ ()[I
+getSelectionModel
+ ()Ljavax/swing/ListSelectionModel;
+ ()Ljavax/swing/ListSelectionModel;
+propertyChange
+ (Ljava/beans/PropertyChangeEvent;)V
+ (L1java/beans/PropertyChangeEvent;)V # @Inherited(java.beans.PropertyChangeListener)
+removeColumn
+ (Ljavax/swing/table/TableColumn;)V
+ (Ljavax/swing/table/TableColumn;)V
+removeColumnModelListener
+ (Ljavax/swing/event/TableColumnModelListener;)V
+ (L1javax/swing/event/TableColumnModelListener;)V # @Inherited(javax.swing.table.TableColumnModel)
+setSelectionModel
+ (Ljavax/swing/ListSelectionModel;)V
+ (Ljavax/swing/ListSelectionModel;)V
+valueChanged
+ (Ljavax/swing/event/ListSelectionEvent;)V
+ (L1javax/swing/event/ListSelectionEvent;)V # @Inherited(javax.swing.event.ListSelectionListener)

@@ -1,0 +1,106 @@
+class java/nio/LongBuffer
+
+super java/lang/Comparable
+ <Ljava/nio/LongBuffer;>
+ <Ljava/nio/LongBuffer;>
+
+allocate
+ (I)Ljava/nio/LongBuffer;
+ (I)Ljava/nio/LongBuffer;
+wrap
+ ([J)Ljava/nio/LongBuffer;
+ ([J)Ljava/nio/LongBuffer;
+wrap
+ ([JII)Ljava/nio/LongBuffer;
+ ([JII)Ljava/nio/LongBuffer;
+
+array
+ ()[J
+ ()[J
+asReadOnlyBuffer
+ ()Ljava/nio/LongBuffer;
+ ()Ljava/nio/LongBuffer;
+clear
+ ()Ljava/nio/LongBuffer;
+ ()Ljava/nio/LongBuffer;
+compact
+ ()Ljava/nio/LongBuffer;
+ ()Ljava/nio/LongBuffer;
+compareTo
+ (Ljava/nio/LongBuffer;)I
+ (L1java/nio/LongBuffer;)I
+duplicate
+ ()Ljava/nio/LongBuffer;
+ ()Ljava/nio/LongBuffer;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+flip
+ ()Ljava/nio/LongBuffer;
+ ()Ljava/nio/LongBuffer;
+get
+ (I[J)Ljava/nio/LongBuffer;
+ (I[J)Ljava/nio/LongBuffer;
+get
+ (I[JII)Ljava/nio/LongBuffer;
+ (I[JII)Ljava/nio/LongBuffer;
+get
+ ([J)Ljava/nio/LongBuffer;
+ ([J)Ljava/nio/LongBuffer;
+get
+ ([JII)Ljava/nio/LongBuffer;
+ ([JII)Ljava/nio/LongBuffer;
+limit
+ (I)Ljava/nio/LongBuffer;
+ (I)Ljava/nio/LongBuffer;
+mark
+ ()Ljava/nio/LongBuffer;
+ ()Ljava/nio/LongBuffer;
+mismatch
+ (Ljava/nio/LongBuffer;)I
+ (L1java/nio/LongBuffer;)I
+order
+ ()Ljava/nio/ByteOrder;
+ ()Ljava/nio/ByteOrder;
+position
+ (I)Ljava/nio/LongBuffer;
+ (I)Ljava/nio/LongBuffer;
+put
+ (IJ)Ljava/nio/LongBuffer;
+ (IJ)Ljava/nio/LongBuffer;
+put
+ (ILjava/nio/LongBuffer;II)Ljava/nio/LongBuffer;
+ (ILjava/nio/LongBuffer;II)Ljava/nio/LongBuffer;
+put
+ (I[J)Ljava/nio/LongBuffer;
+ (I[J)Ljava/nio/LongBuffer;
+put
+ (I[JII)Ljava/nio/LongBuffer;
+ (I[JII)Ljava/nio/LongBuffer;
+put
+ (J)Ljava/nio/LongBuffer;
+ (J)Ljava/nio/LongBuffer;
+put
+ (Ljava/nio/LongBuffer;)Ljava/nio/LongBuffer;
+ (Ljava/nio/LongBuffer;)Ljava/nio/LongBuffer;
+put
+ ([J)Ljava/nio/LongBuffer;
+ ([J)Ljava/nio/LongBuffer;
+put
+ ([JII)Ljava/nio/LongBuffer;
+ ([JII)Ljava/nio/LongBuffer;
+reset
+ ()Ljava/nio/LongBuffer;
+ ()Ljava/nio/LongBuffer;
+rewind
+ ()Ljava/nio/LongBuffer;
+ ()Ljava/nio/LongBuffer;
+slice
+ ()Ljava/nio/LongBuffer;
+ ()Ljava/nio/LongBuffer;
+slice
+ (II)Ljava/nio/LongBuffer;
+ (II)Ljava/nio/LongBuffer;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

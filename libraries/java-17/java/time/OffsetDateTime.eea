@@ -1,10 +1,50 @@
 class java/time/OffsetDateTime
+
+super java/lang/Comparable
+ <Ljava/time/OffsetDateTime;>
+ <Ljava/time/OffsetDateTime;>
+
 MAX
  Ljava/time/OffsetDateTime;
  L1java/time/OffsetDateTime;
 MIN
  Ljava/time/OffsetDateTime;
  L1java/time/OffsetDateTime;
+
+from
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/OffsetDateTime;
+ (L1java/time/temporal/TemporalAccessor;)L1java/time/OffsetDateTime;
+now
+ ()Ljava/time/OffsetDateTime;
+ ()L1java/time/OffsetDateTime;
+now
+ (Ljava/time/Clock;)Ljava/time/OffsetDateTime;
+ (L1java/time/Clock;)L1java/time/OffsetDateTime;
+now
+ (Ljava/time/ZoneId;)Ljava/time/OffsetDateTime;
+ (L1java/time/ZoneId;)L1java/time/OffsetDateTime;
+of
+ (IIIIIIILjava/time/ZoneOffset;)Ljava/time/OffsetDateTime;
+ (IIIIIIIL1java/time/ZoneOffset;)L1java/time/OffsetDateTime;
+of
+ (Ljava/time/LocalDate;Ljava/time/LocalTime;Ljava/time/ZoneOffset;)Ljava/time/OffsetDateTime;
+ (L1java/time/LocalDate;L1java/time/LocalTime;L1java/time/ZoneOffset;)L1java/time/OffsetDateTime;
+of
+ (Ljava/time/LocalDateTime;Ljava/time/ZoneOffset;)Ljava/time/OffsetDateTime;
+ (L1java/time/LocalDateTime;L1java/time/ZoneOffset;)L1java/time/OffsetDateTime;
+ofInstant
+ (Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/OffsetDateTime;
+ (L1java/time/Instant;L1java/time/ZoneId;)L1java/time/OffsetDateTime;
+parse
+ (Ljava/lang/CharSequence;)Ljava/time/OffsetDateTime;
+ (L1java/lang/CharSequence;)L1java/time/OffsetDateTime;
+parse
+ (Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)Ljava/time/OffsetDateTime;
+ (L1java/lang/CharSequence;L1java/time/format/DateTimeFormatter;)L1java/time/OffsetDateTime;
+timeLineOrder
+ ()Ljava/util/Comparator<Ljava/time/OffsetDateTime;>;
+ ()L1java/util/Comparator<Ljava/time/OffsetDateTime;>;
+
 adjustInto
  (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
  (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal;
@@ -19,13 +59,10 @@ compareTo
  (L1java/time/OffsetDateTime;)I
 equals
  (Ljava/lang/Object;)Z
- (L0java/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
 format
  (Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;
  (L1java/time/format/DateTimeFormatter;)L1java/lang/String;
-from
- (Ljava/time/temporal/TemporalAccessor;)Ljava/time/OffsetDateTime;
- (L1java/time/temporal/TemporalAccessor;)L1java/time/OffsetDateTime;
 get
  (Ljava/time/temporal/TemporalField;)I
  (L1java/time/temporal/TemporalField;)I
@@ -86,33 +123,6 @@ minusWeeks
 minusYears
  (J)Ljava/time/OffsetDateTime;
  (J)L1java/time/OffsetDateTime;
-now
- ()Ljava/time/OffsetDateTime;
- ()L1java/time/OffsetDateTime;
-now
- (Ljava/time/Clock;)Ljava/time/OffsetDateTime;
- (L1java/time/Clock;)L1java/time/OffsetDateTime;
-now
- (Ljava/time/ZoneId;)Ljava/time/OffsetDateTime;
- (L1java/time/ZoneId;)L1java/time/OffsetDateTime;
-of
- (IIIIIIILjava/time/ZoneOffset;)Ljava/time/OffsetDateTime;
- (IIIIIIIL1java/time/ZoneOffset;)L1java/time/OffsetDateTime;
-of
- (Ljava/time/LocalDate;Ljava/time/LocalTime;Ljava/time/ZoneOffset;)Ljava/time/OffsetDateTime;
- (L1java/time/LocalDate;L1java/time/LocalTime;L1java/time/ZoneOffset;)L1java/time/OffsetDateTime;
-of
- (Ljava/time/LocalDateTime;Ljava/time/ZoneOffset;)Ljava/time/OffsetDateTime;
- (L1java/time/LocalDateTime;L1java/time/ZoneOffset;)L1java/time/OffsetDateTime;
-ofInstant
- (Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/OffsetDateTime;
- (L1java/time/Instant;L1java/time/ZoneId;)L1java/time/OffsetDateTime;
-parse
- (Ljava/lang/CharSequence;)Ljava/time/OffsetDateTime;
- (L1java/lang/CharSequence;)L1java/time/OffsetDateTime;
-parse
- (Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)Ljava/time/OffsetDateTime;
- (L1java/lang/CharSequence;L1java/time/format/DateTimeFormatter;)L1java/time/OffsetDateTime;
 plus
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/OffsetDateTime;
  (JL1java/time/temporal/TemporalUnit;)L1java/time/OffsetDateTime;
@@ -149,9 +159,6 @@ query
 range
  (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
  (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange;
-timeLineOrder
- ()Ljava/util/Comparator<Ljava/time/OffsetDateTime;>;
- ()L1java/util/Comparator<Ljava/time/OffsetDateTime;>;
 toInstant
  ()Ljava/time/Instant;
  ()L1java/time/Instant;
@@ -169,7 +176,7 @@ toOffsetTime
  ()L1java/time/OffsetTime;
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
 toZonedDateTime
  ()Ljava/time/ZonedDateTime;
  ()L1java/time/ZonedDateTime;

@@ -1,0 +1,162 @@
+class java/awt/KeyboardFocusManager
+
+getCurrentKeyboardFocusManager
+ ()Ljava/awt/KeyboardFocusManager;
+ ()Ljava/awt/KeyboardFocusManager;
+setCurrentKeyboardFocusManager
+ (Ljava/awt/KeyboardFocusManager;)V
+ (Ljava/awt/KeyboardFocusManager;)V
+
+addKeyEventDispatcher
+ (Ljava/awt/KeyEventDispatcher;)V
+ (Ljava/awt/KeyEventDispatcher;)V
+addKeyEventPostProcessor
+ (Ljava/awt/KeyEventPostProcessor;)V
+ (Ljava/awt/KeyEventPostProcessor;)V
+addPropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V
+addPropertyChangeListener
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+addVetoableChangeListener
+ (Ljava/beans/VetoableChangeListener;)V
+ (L1java/beans/VetoableChangeListener;)V
+addVetoableChangeListener
+ (Ljava/lang/String;Ljava/beans/VetoableChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/VetoableChangeListener;)V
+dequeueKeyEvents
+ (JLjava/awt/Component;)V
+ (JLjava/awt/Component;)V
+discardKeyEvents
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+dispatchEvent
+ (Ljava/awt/AWTEvent;)Z
+ (Ljava/awt/AWTEvent;)Z
+dispatchKeyEvent
+ (Ljava/awt/event/KeyEvent;)Z
+ (Ljava/awt/event/KeyEvent;)Z
+downFocusCycle
+ (Ljava/awt/Container;)V
+ (Ljava/awt/Container;)V
+enqueueKeyEvents
+ (JLjava/awt/Component;)V
+ (JLjava/awt/Component;)V
+firePropertyChange
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+fireVetoableChange
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+focusNextComponent
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+focusPreviousComponent
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+getActiveWindow
+ ()Ljava/awt/Window;
+ ()Ljava/awt/Window;
+getCurrentFocusCycleRoot
+ ()Ljava/awt/Container;
+ ()Ljava/awt/Container;
+getDefaultFocusTraversalKeys
+ (I)Ljava/util/Set<Ljava/awt/AWTKeyStroke;>;
+ (I)Ljava/util/Set<Ljava/awt/AWTKeyStroke;>;
+getDefaultFocusTraversalPolicy
+ ()Ljava/awt/FocusTraversalPolicy;
+ ()Ljava/awt/FocusTraversalPolicy;
+getFocusOwner
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getFocusedWindow
+ ()Ljava/awt/Window;
+ ()Ljava/awt/Window;
+getGlobalActiveWindow
+ ()Ljava/awt/Window;
+ ()Ljava/awt/Window;
+getGlobalCurrentFocusCycleRoot
+ ()Ljava/awt/Container;
+ ()Ljava/awt/Container;
+getGlobalFocusOwner
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getGlobalFocusedWindow
+ ()Ljava/awt/Window;
+ ()Ljava/awt/Window;
+getGlobalPermanentFocusOwner
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getKeyEventDispatchers
+ ()Ljava/util/List<Ljava/awt/KeyEventDispatcher;>;
+ ()Ljava/util/List<Ljava/awt/KeyEventDispatcher;>;
+getKeyEventPostProcessors
+ ()Ljava/util/List<Ljava/awt/KeyEventPostProcessor;>;
+ ()Ljava/util/List<Ljava/awt/KeyEventPostProcessor;>;
+getPermanentFocusOwner
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getPropertyChangeListeners
+ ()[Ljava/beans/PropertyChangeListener;
+ ()[Ljava/beans/PropertyChangeListener;
+getPropertyChangeListeners
+ (Ljava/lang/String;)[Ljava/beans/PropertyChangeListener;
+ (Ljava/lang/String;)[Ljava/beans/PropertyChangeListener;
+getVetoableChangeListeners
+ ()[Ljava/beans/VetoableChangeListener;
+ ()[Ljava/beans/VetoableChangeListener;
+getVetoableChangeListeners
+ (Ljava/lang/String;)[Ljava/beans/VetoableChangeListener;
+ (Ljava/lang/String;)[Ljava/beans/VetoableChangeListener;
+postProcessKeyEvent
+ (Ljava/awt/event/KeyEvent;)Z
+ (Ljava/awt/event/KeyEvent;)Z
+processKeyEvent
+ (Ljava/awt/Component;Ljava/awt/event/KeyEvent;)V
+ (Ljava/awt/Component;Ljava/awt/event/KeyEvent;)V
+redispatchEvent
+ (Ljava/awt/Component;Ljava/awt/AWTEvent;)V
+ (Ljava/awt/Component;Ljava/awt/AWTEvent;)V
+removeKeyEventDispatcher
+ (Ljava/awt/KeyEventDispatcher;)V
+ (Ljava/awt/KeyEventDispatcher;)V
+removeKeyEventPostProcessor
+ (Ljava/awt/KeyEventPostProcessor;)V
+ (Ljava/awt/KeyEventPostProcessor;)V
+removePropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V
+removePropertyChangeListener
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+removeVetoableChangeListener
+ (Ljava/beans/VetoableChangeListener;)V
+ (L1java/beans/VetoableChangeListener;)V
+removeVetoableChangeListener
+ (Ljava/lang/String;Ljava/beans/VetoableChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/VetoableChangeListener;)V
+setDefaultFocusTraversalKeys
+ (ILjava/util/Set<+Ljava/awt/AWTKeyStroke;>;)V
+ (ILjava/util/Set<+Ljava/awt/AWTKeyStroke;>;)V
+setDefaultFocusTraversalPolicy
+ (Ljava/awt/FocusTraversalPolicy;)V
+ (Ljava/awt/FocusTraversalPolicy;)V
+setGlobalActiveWindow
+ (Ljava/awt/Window;)V
+ (Ljava/awt/Window;)V
+setGlobalCurrentFocusCycleRoot
+ (Ljava/awt/Container;)V
+ (Ljava/awt/Container;)V
+setGlobalFocusOwner
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+setGlobalFocusedWindow
+ (Ljava/awt/Window;)V
+ (Ljava/awt/Window;)V
+setGlobalPermanentFocusOwner
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+upFocusCycle
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V

@@ -1,0 +1,63 @@
+class javax/swing/LookAndFeel
+
+getDesktopPropertyValue
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+installBorder
+ (Ljavax/swing/JComponent;Ljava/lang/String;)V
+ (Ljavax/swing/JComponent;Ljava/lang/String;)V
+installColors
+ (Ljavax/swing/JComponent;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljavax/swing/JComponent;Ljava/lang/String;Ljava/lang/String;)V
+installColorsAndFont
+ (Ljavax/swing/JComponent;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljavax/swing/JComponent;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+installProperty
+ (Ljavax/swing/JComponent;Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljavax/swing/JComponent;Ljava/lang/String;Ljava/lang/Object;)V
+loadKeyBindings
+ (Ljavax/swing/InputMap;[Ljava/lang/Object;)V
+ (Ljavax/swing/InputMap;[Ljava/lang/Object;)V
+makeComponentInputMap
+ (Ljavax/swing/JComponent;[Ljava/lang/Object;)Ljavax/swing/ComponentInputMap;
+ (Ljavax/swing/JComponent;[Ljava/lang/Object;)Ljavax/swing/ComponentInputMap;
+makeIcon
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/Object;
+makeInputMap
+ ([Ljava/lang/Object;)Ljavax/swing/InputMap;
+ ([Ljava/lang/Object;)Ljavax/swing/InputMap;
+makeKeyBindings
+ ([Ljava/lang/Object;)[Ljavax/swing/text/JTextComponent$KeyBinding;
+ ([Ljava/lang/Object;)[Ljavax/swing/text/JTextComponent$KeyBinding;
+uninstallBorder
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+
+getDefaults
+ ()Ljavax/swing/UIDefaults;
+ ()Ljavax/swing/UIDefaults;
+getDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDisabledIcon
+ (Ljavax/swing/JComponent;Ljavax/swing/Icon;)Ljavax/swing/Icon;
+ (Ljavax/swing/JComponent;Ljavax/swing/Icon;)Ljavax/swing/Icon;
+getDisabledSelectedIcon
+ (Ljavax/swing/JComponent;Ljavax/swing/Icon;)Ljavax/swing/Icon;
+ (Ljavax/swing/JComponent;Ljavax/swing/Icon;)Ljavax/swing/Icon;
+getID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getLayoutStyle
+ ()Ljavax/swing/LayoutStyle;
+ ()Ljavax/swing/LayoutStyle;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+provideErrorFeedback
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

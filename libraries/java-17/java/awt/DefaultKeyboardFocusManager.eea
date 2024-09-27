@@ -1,0 +1,35 @@
+class java/awt/DefaultKeyboardFocusManager
+
+dequeueKeyEvents
+ (JLjava/awt/Component;)V
+ (JLjava/awt/Component;)V
+discardKeyEvents
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+dispatchEvent
+ (Ljava/awt/AWTEvent;)Z
+ (Ljava/awt/AWTEvent;)Z
+dispatchKeyEvent
+ (Ljava/awt/event/KeyEvent;)Z
+ (Ljava/awt/event/KeyEvent;)Z
+downFocusCycle
+ (Ljava/awt/Container;)V
+ (Ljava/awt/Container;)V
+enqueueKeyEvents
+ (JLjava/awt/Component;)V
+ (JLjava/awt/Component;)V
+focusNextComponent
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+focusPreviousComponent
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+postProcessKeyEvent
+ (Ljava/awt/event/KeyEvent;)Z
+ (Ljava/awt/event/KeyEvent;)Z
+processKeyEvent
+ (Ljava/awt/Component;Ljava/awt/event/KeyEvent;)V
+ (Ljava/awt/Component;Ljava/awt/event/KeyEvent;)V
+upFocusCycle
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V

@@ -1,4 +1,43 @@
 class javax/swing/DefaultListCellRenderer
+
+super javax/swing/ListCellRenderer
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+noFocusBorder
+ Ljavax/swing/border/Border;
+ Ljavax/swing/border/Border;
+
+firePropertyChange
+ (Ljava/lang/String;BB)V
+ (Ljava/lang/String;BB)V
+firePropertyChange
+ (Ljava/lang/String;CC)V
+ (Ljava/lang/String;CC)V
+firePropertyChange
+ (Ljava/lang/String;DD)V
+ (Ljava/lang/String;DD)V
+firePropertyChange
+ (Ljava/lang/String;FF)V
+ (Ljava/lang/String;FF)V
+firePropertyChange
+ (Ljava/lang/String;II)V
+ (Ljava/lang/String;II)V
+firePropertyChange
+ (Ljava/lang/String;JJ)V
+ (Ljava/lang/String;JJ)V
+firePropertyChange
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+firePropertyChange
+ (Ljava/lang/String;SS)V
+ (Ljava/lang/String;SS)V
+firePropertyChange
+ (Ljava/lang/String;ZZ)V
+ (Ljava/lang/String;ZZ)V
 getListCellRendererComponent
  (Ljavax/swing/JList<*>;Ljava/lang/Object;IZZ)Ljava/awt/Component;
  (L1javax/swing/JList<*>;Ljava/lang/Object;IZZ)Ljava/awt/Component;
+repaint
+ (Ljava/awt/Rectangle;)V
+ (Ljava/awt/Rectangle;)V

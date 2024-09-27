@@ -1,0 +1,14 @@
+class javax/sql/StatementEvent
+
+<init>
+ (Ljavax/sql/PooledConnection;Ljava/sql/PreparedStatement;)V
+ (Ljavax/sql/PooledConnection;Ljava/sql/PreparedStatement;)V
+<init>
+ (Ljavax/sql/PooledConnection;Ljava/sql/PreparedStatement;Ljava/sql/SQLException;)V
+ (Ljavax/sql/PooledConnection;Ljava/sql/PreparedStatement;Ljava/sql/SQLException;)V
+getSQLException
+ ()Ljava/sql/SQLException;
+ ()Ljava/sql/SQLException;
+getStatement
+ ()Ljava/sql/PreparedStatement;
+ ()Ljava/sql/PreparedStatement;

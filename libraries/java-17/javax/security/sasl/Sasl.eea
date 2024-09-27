@@ -1,0 +1,57 @@
+class javax/security/sasl/Sasl
+
+BOUND_SERVER_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+CREDENTIALS
+ Ljava/lang/String;
+ L1java/lang/String;
+MAX_BUFFER
+ Ljava/lang/String;
+ L1java/lang/String;
+POLICY_FORWARD_SECRECY
+ Ljava/lang/String;
+ L1java/lang/String;
+POLICY_NOACTIVE
+ Ljava/lang/String;
+ L1java/lang/String;
+POLICY_NOANONYMOUS
+ Ljava/lang/String;
+ L1java/lang/String;
+POLICY_NODICTIONARY
+ Ljava/lang/String;
+ L1java/lang/String;
+POLICY_NOPLAINTEXT
+ Ljava/lang/String;
+ L1java/lang/String;
+POLICY_PASS_CREDENTIALS
+ Ljava/lang/String;
+ L1java/lang/String;
+QOP
+ Ljava/lang/String;
+ L1java/lang/String;
+RAW_SEND_SIZE
+ Ljava/lang/String;
+ L1java/lang/String;
+REUSE
+ Ljava/lang/String;
+ L1java/lang/String;
+SERVER_AUTH
+ Ljava/lang/String;
+ L1java/lang/String;
+STRENGTH
+ Ljava/lang/String;
+ L1java/lang/String;
+
+createSaslClient
+ ([Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;*>;Ljavax/security/auth/callback/CallbackHandler;)Ljavax/security/sasl/SaslClient;
+ ([Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;*>;Ljavax/security/auth/callback/CallbackHandler;)Ljavax/security/sasl/SaslClient;
+createSaslServer
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;*>;Ljavax/security/auth/callback/CallbackHandler;)Ljavax/security/sasl/SaslServer;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;*>;Ljavax/security/auth/callback/CallbackHandler;)Ljavax/security/sasl/SaslServer;
+getSaslClientFactories
+ ()Ljava/util/Enumeration<Ljavax/security/sasl/SaslClientFactory;>;
+ ()Ljava/util/Enumeration<Ljavax/security/sasl/SaslClientFactory;>;
+getSaslServerFactories
+ ()Ljava/util/Enumeration<Ljavax/security/sasl/SaslServerFactory;>;
+ ()Ljava/util/Enumeration<Ljavax/security/sasl/SaslServerFactory;>;

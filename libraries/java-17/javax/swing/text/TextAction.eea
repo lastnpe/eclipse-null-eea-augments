@@ -1,0 +1,15 @@
+class javax/swing/text/TextAction
+
+augmentList
+ ([Ljavax/swing/Action;[Ljavax/swing/Action;)[Ljavax/swing/Action;
+ ([Ljavax/swing/Action;[Ljavax/swing/Action;)[Ljavax/swing/Action;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getFocusedComponent
+ ()Ljavax/swing/text/JTextComponent;
+ ()Ljavax/swing/text/JTextComponent;
+getTextComponent
+ (Ljava/awt/event/ActionEvent;)Ljavax/swing/text/JTextComponent;
+ (Ljava/awt/event/ActionEvent;)Ljavax/swing/text/JTextComponent;

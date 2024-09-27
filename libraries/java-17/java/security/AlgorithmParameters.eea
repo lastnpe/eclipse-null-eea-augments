@@ -1,0 +1,42 @@
+class java/security/AlgorithmParameters
+
+getInstance
+ (Ljava/lang/String;)Ljava/security/AlgorithmParameters;
+ (Ljava/lang/String;)Ljava/security/AlgorithmParameters;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/AlgorithmParameters;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/AlgorithmParameters;
+getInstance
+ (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/AlgorithmParameters;
+ (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/AlgorithmParameters;
+
+<init>
+ (Ljava/security/AlgorithmParametersSpi;Ljava/security/Provider;Ljava/lang/String;)V
+ (Ljava/security/AlgorithmParametersSpi;Ljava/security/Provider;Ljava/lang/String;)V
+getAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getEncoded
+ ()[B
+ ()[B
+getEncoded
+ (Ljava/lang/String;)[B
+ (Ljava/lang/String;)[B
+getParameterSpec
+ <T::Ljava/security/spec/AlgorithmParameterSpec;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljava/security/spec/AlgorithmParameterSpec;>(Ljava/lang/Class<TT;>;)TT;
+getProvider
+ ()Ljava/security/Provider;
+ ()Ljava/security/Provider;
+init
+ (Ljava/security/spec/AlgorithmParameterSpec;)V
+ (Ljava/security/spec/AlgorithmParameterSpec;)V
+init
+ ([B)V
+ ([B)V
+init
+ ([BLjava/lang/String;)V
+ ([BLjava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

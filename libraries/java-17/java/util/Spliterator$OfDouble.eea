@@ -1,0 +1,21 @@
+class java/util/Spliterator$OfDouble
+
+super java/util/Spliterator$OfPrimitive
+ <Ljava/lang/Double;Ljava/util/function/DoubleConsumer;Ljava/util/Spliterator$OfDouble;>
+ <Ljava/lang/Double;Ljava/util/function/DoubleConsumer;Ljava/util/Spliterator$OfDouble;>
+
+forEachRemaining
+ (Ljava/util/function/Consumer<-Ljava/lang/Double;>;)V
+ (Ljava/util/function/Consumer<-Ljava/lang/Double;>;)V
+forEachRemaining
+ (Ljava/util/function/DoubleConsumer;)V
+ (Ljava/util/function/DoubleConsumer;)V
+tryAdvance
+ (Ljava/util/function/Consumer<-Ljava/lang/Double;>;)Z
+ (Ljava/util/function/Consumer<-Ljava/lang/Double;>;)Z
+tryAdvance
+ (Ljava/util/function/DoubleConsumer;)Z
+ (Ljava/util/function/DoubleConsumer;)Z
+trySplit
+ ()Ljava/util/Spliterator$OfDouble;
+ ()Ljava/util/Spliterator$OfDouble;

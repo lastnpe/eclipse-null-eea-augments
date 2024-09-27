@@ -1,0 +1,14 @@
+class java/util/concurrent/Semaphore
+
+getQueuedThreads
+ ()Ljava/util/Collection<Ljava/lang/Thread;>;
+ ()Ljava/util/Collection<Ljava/lang/Thread;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+tryAcquire
+ (IJLjava/util/concurrent/TimeUnit;)Z
+ (IJLjava/util/concurrent/TimeUnit;)Z
+tryAcquire
+ (JLjava/util/concurrent/TimeUnit;)Z
+ (JLjava/util/concurrent/TimeUnit;)Z

@@ -1,0 +1,17 @@
+class java/security/PermissionCollection
+
+add
+ (Ljava/security/Permission;)V
+ (Ljava/security/Permission;)V
+elements
+ ()Ljava/util/Enumeration<Ljava/security/Permission;>;
+ ()Ljava/util/Enumeration<Ljava/security/Permission;>;
+elementsAsStream
+ ()Ljava/util/stream/Stream<Ljava/security/Permission;>;
+ ()Ljava/util/stream/Stream<Ljava/security/Permission;>;
+implies
+ (Ljava/security/Permission;)Z
+ (Ljava/security/Permission;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

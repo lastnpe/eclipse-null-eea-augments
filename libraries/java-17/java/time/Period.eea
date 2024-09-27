@@ -1,7 +1,94 @@
 class java/time/Period
+
+ZERO
+ Ljava/time/Period;
+ L1java/time/Period;
+
+between
+ (Ljava/time/LocalDate;Ljava/time/LocalDate;)Ljava/time/Period;
+ (Ljava/time/LocalDate;Ljava/time/LocalDate;)Ljava/time/Period;
+from
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/Period;
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/Period;
+of
+ (III)Ljava/time/Period;
+ (III)Ljava/time/Period;
 ofDays
  (I)Ljava/time/Period;
  (I)L1java/time/Period;
+ofMonths
+ (I)Ljava/time/Period;
+ (I)Ljava/time/Period;
+ofWeeks
+ (I)Ljava/time/Period;
+ (I)Ljava/time/Period;
+ofYears
+ (I)Ljava/time/Period;
+ (I)Ljava/time/Period;
 parse
  (Ljava/lang/CharSequence;)Ljava/time/Period;
  (Ljava/lang/CharSequence;)L1java/time/Period;
+
+addTo
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (Ljava/time/temporal/TemporalUnit;)J
+ (Ljava/time/temporal/TemporalUnit;)J
+getChronology
+ ()Ljava/time/chrono/IsoChronology;
+ ()Ljava/time/chrono/IsoChronology;
+getUnits
+ ()Ljava/util/List<Ljava/time/temporal/TemporalUnit;>;
+ ()Ljava/util/List<Ljava/time/temporal/TemporalUnit;>;
+minus
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/Period;
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/Period;
+minusDays
+ (J)Ljava/time/Period;
+ (J)Ljava/time/Period;
+minusMonths
+ (J)Ljava/time/Period;
+ (J)Ljava/time/Period;
+minusYears
+ (J)Ljava/time/Period;
+ (J)Ljava/time/Period;
+multipliedBy
+ (I)Ljava/time/Period;
+ (I)Ljava/time/Period;
+negated
+ ()Ljava/time/Period;
+ ()Ljava/time/Period;
+normalized
+ ()Ljava/time/Period;
+ ()Ljava/time/Period;
+plus
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/Period;
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/Period;
+plusDays
+ (J)Ljava/time/Period;
+ (J)Ljava/time/Period;
+plusMonths
+ (J)Ljava/time/Period;
+ (J)Ljava/time/Period;
+plusYears
+ (J)Ljava/time/Period;
+ (J)Ljava/time/Period;
+subtractFrom
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+withDays
+ (I)Ljava/time/Period;
+ (I)Ljava/time/Period;
+withMonths
+ (I)Ljava/time/Period;
+ (I)Ljava/time/Period;
+withYears
+ (I)Ljava/time/Period;
+ (I)Ljava/time/Period;

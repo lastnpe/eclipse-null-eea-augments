@@ -1,0 +1,27 @@
+class javax/sql/rowset/WebRowSet
+
+PUBLIC_XML_SCHEMA
+ Ljava/lang/String;
+ L1java/lang/String;
+SCHEMA_SYSTEM_ID
+ Ljava/lang/String;
+ L1java/lang/String;
+
+readXml
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+readXml
+ (Ljava/io/Reader;)V
+ (Ljava/io/Reader;)V
+writeXml
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V
+writeXml
+ (Ljava/io/Writer;)V
+ (Ljava/io/Writer;)V
+writeXml
+ (Ljava/sql/ResultSet;Ljava/io/OutputStream;)V
+ (Ljava/sql/ResultSet;Ljava/io/OutputStream;)V
+writeXml
+ (Ljava/sql/ResultSet;Ljava/io/Writer;)V
+ (Ljava/sql/ResultSet;Ljava/io/Writer;)V

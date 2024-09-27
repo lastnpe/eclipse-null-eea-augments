@@ -1,4 +1,5 @@
 class java/util/StringJoiner
+
 <init>
  (Ljava/lang/CharSequence;)V
  (L1java/lang/CharSequence;)V
@@ -16,4 +17,4 @@ setEmptyValue
  (L1java/lang/CharSequence;)Ljava/util/StringJoiner;
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

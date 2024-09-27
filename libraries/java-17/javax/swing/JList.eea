@@ -1,4 +1,7 @@
 class javax/swing/JList
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
 <init>
  (Ljava/util/Vector<+TE;>;)V
  (L1java/util/Vector<+TE;>;)V
@@ -8,6 +11,123 @@ class javax/swing/JList
 <init>
  ([TE;)V
  ([1TE;)V
+addListSelectionListener
+ (Ljavax/swing/event/ListSelectionListener;)V
+ (L1javax/swing/event/ListSelectionListener;)V
+createSelectionModel
+ ()Ljavax/swing/ListSelectionModel;
+ ()Ljavax/swing/ListSelectionModel;
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getCellBounds
+ (II)Ljava/awt/Rectangle;
+ (II)Ljava/awt/Rectangle;
+getCellRenderer
+ ()Ljavax/swing/ListCellRenderer<-TE;>;
+ ()Ljavax/swing/ListCellRenderer<-TE;>;
+getDropLocation
+ ()Ljavax/swing/JList$DropLocation;
+ ()Ljavax/swing/JList$DropLocation;
+getDropMode
+ ()Ljavax/swing/DropMode;
+ ()Ljavax/swing/DropMode;
+getListSelectionListeners
+ ()[Ljavax/swing/event/ListSelectionListener;
+ ()[Ljavax/swing/event/ListSelectionListener;
+getModel
+ ()Ljavax/swing/ListModel<TE;>;
+ ()Ljavax/swing/ListModel<TE;>;
+getNextMatch
+ (Ljava/lang/String;ILjavax/swing/text/Position$Bias;)I
+ (Ljava/lang/String;ILjavax/swing/text/Position$Bias;)I
+getPreferredScrollableViewportSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
 getPrototypeCellValue
  ()TE;
  ()T0E;
+getScrollableBlockIncrement
+ (Ljava/awt/Rectangle;II)I
+ (Ljava/awt/Rectangle;II)I
+getScrollableUnitIncrement
+ (Ljava/awt/Rectangle;II)I
+ (Ljava/awt/Rectangle;II)I
+getSelectedIndices
+ ()[I
+ ()[I
+getSelectedValue
+ ()TE;
+ ()TE;
+getSelectedValues
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+getSelectedValuesList
+ ()Ljava/util/List<TE;>;
+ ()Ljava/util/List<TE;>;
+getSelectionBackground
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getSelectionForeground
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getSelectionModel
+ ()Ljavax/swing/ListSelectionModel;
+ ()Ljavax/swing/ListSelectionModel;
+getToolTipText
+ (Ljava/awt/event/MouseEvent;)Ljava/lang/String;
+ (L1java/awt/event/MouseEvent;)Ljava/lang/String; # @Inherited(javax.swing.JComponent)
+getUI
+ ()Ljavax/swing/plaf/ListUI;
+ ()Ljavax/swing/plaf/ListUI;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+indexToLocation
+ (I)Ljava/awt/Point;
+ (I)Ljava/awt/Point;
+locationToIndex
+ (Ljava/awt/Point;)I
+ (Ljava/awt/Point;)I
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+removeListSelectionListener
+ (Ljavax/swing/event/ListSelectionListener;)V
+ (L1javax/swing/event/ListSelectionListener;)V
+setCellRenderer
+ (Ljavax/swing/ListCellRenderer<-TE;>;)V
+ (Ljavax/swing/ListCellRenderer<-TE;>;)V
+setDropMode
+ (Ljavax/swing/DropMode;)V
+ (Ljavax/swing/DropMode;)V
+setListData
+ (Ljava/util/Vector<+TE;>;)V
+ (Ljava/util/Vector<+TE;>;)V
+setListData
+ ([TE;)V
+ ([TE;)V
+setModel
+ (Ljavax/swing/ListModel<TE;>;)V
+ (Ljavax/swing/ListModel<TE;>;)V
+setPrototypeCellValue
+ (TE;)V
+ (TE;)V
+setSelectedIndices
+ ([I)V
+ ([I)V
+setSelectedValue
+ (Ljava/lang/Object;Z)V
+ (Ljava/lang/Object;Z)V
+setSelectionBackground
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setSelectionForeground
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setSelectionModel
+ (Ljavax/swing/ListSelectionModel;)V
+ (Ljavax/swing/ListSelectionModel;)V
+setUI
+ (Ljavax/swing/plaf/ListUI;)V
+ (Ljavax/swing/plaf/ListUI;)V

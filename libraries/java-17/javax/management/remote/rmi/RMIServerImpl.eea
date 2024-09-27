@@ -1,0 +1,38 @@
+class javax/management/remote/rmi/RMIServerImpl
+
+<init>
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+clientClosed
+ (Ljavax/management/remote/rmi/RMIConnection;)V
+ (Ljavax/management/remote/rmi/RMIConnection;)V
+closeClient
+ (Ljavax/management/remote/rmi/RMIConnection;)V
+ (Ljavax/management/remote/rmi/RMIConnection;)V
+getDefaultClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()Ljava/lang/ClassLoader;
+getMBeanServer
+ ()Ljavax/management/MBeanServer;
+ ()Ljavax/management/MBeanServer;
+getProtocol
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getVersion
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+makeClient
+ (Ljava/lang/String;Ljavax/security/auth/Subject;)Ljavax/management/remote/rmi/RMIConnection;
+ (Ljava/lang/String;Ljavax/security/auth/Subject;)Ljavax/management/remote/rmi/RMIConnection;
+newClient
+ (Ljava/lang/Object;)Ljavax/management/remote/rmi/RMIConnection;
+ (Ljava/lang/Object;)Ljavax/management/remote/rmi/RMIConnection;
+setDefaultClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setMBeanServer
+ (Ljavax/management/MBeanServer;)V
+ (Ljavax/management/MBeanServer;)V
+toStub
+ ()Ljava/rmi/Remote;
+ ()Ljava/rmi/Remote;

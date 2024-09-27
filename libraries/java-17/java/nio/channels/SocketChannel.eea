@@ -1,0 +1,57 @@
+class java/nio/channels/SocketChannel
+
+open
+ ()Ljava/nio/channels/SocketChannel;
+ ()Ljava/nio/channels/SocketChannel;
+open
+ (Ljava/net/ProtocolFamily;)Ljava/nio/channels/SocketChannel;
+ (Ljava/net/ProtocolFamily;)Ljava/nio/channels/SocketChannel;
+open
+ (Ljava/net/SocketAddress;)Ljava/nio/channels/SocketChannel;
+ (Ljava/net/SocketAddress;)Ljava/nio/channels/SocketChannel;
+
+<init>
+ (Ljava/nio/channels/spi/SelectorProvider;)V
+ (Ljava/nio/channels/spi/SelectorProvider;)V
+bind
+ (Ljava/net/SocketAddress;)Ljava/nio/channels/SocketChannel;
+ (Ljava/net/SocketAddress;)Ljava/nio/channels/SocketChannel;
+connect
+ (Ljava/net/SocketAddress;)Z
+ (Ljava/net/SocketAddress;)Z
+getLocalAddress
+ ()Ljava/net/SocketAddress;
+ ()Ljava/net/SocketAddress;
+getRemoteAddress
+ ()Ljava/net/SocketAddress;
+ ()Ljava/net/SocketAddress;
+read
+ (Ljava/nio/ByteBuffer;)I
+ (Ljava/nio/ByteBuffer;)I
+read
+ ([Ljava/nio/ByteBuffer;)J
+ ([Ljava/nio/ByteBuffer;)J
+read
+ ([Ljava/nio/ByteBuffer;II)J
+ ([Ljava/nio/ByteBuffer;II)J
+setOption
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/nio/channels/SocketChannel;
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/nio/channels/SocketChannel;
+shutdownInput
+ ()Ljava/nio/channels/SocketChannel;
+ ()Ljava/nio/channels/SocketChannel;
+shutdownOutput
+ ()Ljava/nio/channels/SocketChannel;
+ ()Ljava/nio/channels/SocketChannel;
+socket
+ ()Ljava/net/Socket;
+ ()Ljava/net/Socket;
+write
+ (Ljava/nio/ByteBuffer;)I
+ (Ljava/nio/ByteBuffer;)I
+write
+ ([Ljava/nio/ByteBuffer;)J
+ ([Ljava/nio/ByteBuffer;)J
+write
+ ([Ljava/nio/ByteBuffer;II)J
+ ([Ljava/nio/ByteBuffer;II)J

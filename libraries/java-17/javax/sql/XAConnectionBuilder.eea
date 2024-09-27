@@ -1,0 +1,17 @@
+class javax/sql/XAConnectionBuilder
+
+build
+ ()Ljavax/sql/XAConnection;
+ ()L1javax/sql/XAConnection;
+password
+ (Ljava/lang/String;)Ljavax/sql/XAConnectionBuilder;
+ (Ljava/lang/String;)L1javax/sql/XAConnectionBuilder;
+shardingKey
+ (Ljava/sql/ShardingKey;)Ljavax/sql/XAConnectionBuilder;
+ (Ljava/sql/ShardingKey;)L1javax/sql/XAConnectionBuilder;
+superShardingKey
+ (Ljava/sql/ShardingKey;)Ljavax/sql/XAConnectionBuilder;
+ (Ljava/sql/ShardingKey;)L1javax/sql/XAConnectionBuilder;
+user
+ (Ljava/lang/String;)Ljavax/sql/XAConnectionBuilder;
+ (Ljava/lang/String;)L1javax/sql/XAConnectionBuilder;

@@ -1,0 +1,20 @@
+class javax/sound/midi/spi/MidiFileReader
+
+getMidiFileFormat
+ (Ljava/io/File;)Ljavax/sound/midi/MidiFileFormat;
+ (Ljava/io/File;)Ljavax/sound/midi/MidiFileFormat;
+getMidiFileFormat
+ (Ljava/io/InputStream;)Ljavax/sound/midi/MidiFileFormat;
+ (Ljava/io/InputStream;)Ljavax/sound/midi/MidiFileFormat;
+getMidiFileFormat
+ (Ljava/net/URL;)Ljavax/sound/midi/MidiFileFormat;
+ (Ljava/net/URL;)Ljavax/sound/midi/MidiFileFormat;
+getSequence
+ (Ljava/io/File;)Ljavax/sound/midi/Sequence;
+ (Ljava/io/File;)Ljavax/sound/midi/Sequence;
+getSequence
+ (Ljava/io/InputStream;)Ljavax/sound/midi/Sequence;
+ (Ljava/io/InputStream;)Ljavax/sound/midi/Sequence;
+getSequence
+ (Ljava/net/URL;)Ljavax/sound/midi/Sequence;
+ (Ljava/net/URL;)Ljavax/sound/midi/Sequence;

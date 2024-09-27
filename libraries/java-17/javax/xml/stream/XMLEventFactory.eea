@@ -1,0 +1,96 @@
+class javax/xml/stream/XMLEventFactory
+
+newDefaultFactory
+ ()Ljavax/xml/stream/XMLEventFactory;
+ ()Ljavax/xml/stream/XMLEventFactory;
+newFactory
+ ()Ljavax/xml/stream/XMLEventFactory;
+ ()Ljavax/xml/stream/XMLEventFactory;
+newFactory
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/stream/XMLEventFactory;
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/stream/XMLEventFactory;
+newInstance
+ ()Ljavax/xml/stream/XMLEventFactory;
+ ()Ljavax/xml/stream/XMLEventFactory;
+newInstance
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/stream/XMLEventFactory;
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/stream/XMLEventFactory;
+
+createAttribute
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/stream/events/Attribute;
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/stream/events/Attribute;
+createAttribute
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/stream/events/Attribute;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/stream/events/Attribute;
+createAttribute
+ (Ljavax/xml/namespace/QName;Ljava/lang/String;)Ljavax/xml/stream/events/Attribute;
+ (Ljavax/xml/namespace/QName;Ljava/lang/String;)Ljavax/xml/stream/events/Attribute;
+createCData
+ (Ljava/lang/String;)Ljavax/xml/stream/events/Characters;
+ (Ljava/lang/String;)Ljavax/xml/stream/events/Characters;
+createCharacters
+ (Ljava/lang/String;)Ljavax/xml/stream/events/Characters;
+ (Ljava/lang/String;)Ljavax/xml/stream/events/Characters;
+createComment
+ (Ljava/lang/String;)Ljavax/xml/stream/events/Comment;
+ (Ljava/lang/String;)Ljavax/xml/stream/events/Comment;
+createDTD
+ (Ljava/lang/String;)Ljavax/xml/stream/events/DTD;
+ (Ljava/lang/String;)Ljavax/xml/stream/events/DTD;
+createEndDocument
+ ()Ljavax/xml/stream/events/EndDocument;
+ ()Ljavax/xml/stream/events/EndDocument;
+createEndElement
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/stream/events/EndElement;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/stream/events/EndElement;
+createEndElement
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Iterator<+Ljavax/xml/stream/events/Namespace;>;)Ljavax/xml/stream/events/EndElement;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Iterator<+Ljavax/xml/stream/events/Namespace;>;)Ljavax/xml/stream/events/EndElement;
+createEndElement
+ (Ljavax/xml/namespace/QName;Ljava/util/Iterator<+Ljavax/xml/stream/events/Namespace;>;)Ljavax/xml/stream/events/EndElement;
+ (Ljavax/xml/namespace/QName;Ljava/util/Iterator<+Ljavax/xml/stream/events/Namespace;>;)Ljavax/xml/stream/events/EndElement;
+createEntityReference
+ (Ljava/lang/String;Ljavax/xml/stream/events/EntityDeclaration;)Ljavax/xml/stream/events/EntityReference;
+ (Ljava/lang/String;Ljavax/xml/stream/events/EntityDeclaration;)Ljavax/xml/stream/events/EntityReference;
+createIgnorableSpace
+ (Ljava/lang/String;)Ljavax/xml/stream/events/Characters;
+ (Ljava/lang/String;)Ljavax/xml/stream/events/Characters;
+createNamespace
+ (Ljava/lang/String;)Ljavax/xml/stream/events/Namespace;
+ (Ljava/lang/String;)Ljavax/xml/stream/events/Namespace;
+createNamespace
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/stream/events/Namespace;
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/stream/events/Namespace;
+createProcessingInstruction
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/stream/events/ProcessingInstruction;
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/stream/events/ProcessingInstruction;
+createSpace
+ (Ljava/lang/String;)Ljavax/xml/stream/events/Characters;
+ (Ljava/lang/String;)Ljavax/xml/stream/events/Characters;
+createStartDocument
+ ()Ljavax/xml/stream/events/StartDocument;
+ ()Ljavax/xml/stream/events/StartDocument;
+createStartDocument
+ (Ljava/lang/String;)Ljavax/xml/stream/events/StartDocument;
+ (Ljava/lang/String;)Ljavax/xml/stream/events/StartDocument;
+createStartDocument
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/stream/events/StartDocument;
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/stream/events/StartDocument;
+createStartDocument
+ (Ljava/lang/String;Ljava/lang/String;Z)Ljavax/xml/stream/events/StartDocument;
+ (Ljava/lang/String;Ljava/lang/String;Z)Ljavax/xml/stream/events/StartDocument;
+createStartElement
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/stream/events/StartElement;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/stream/events/StartElement;
+createStartElement
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Iterator<+Ljavax/xml/stream/events/Attribute;>;Ljava/util/Iterator<+Ljavax/xml/stream/events/Namespace;>;)Ljavax/xml/stream/events/StartElement;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Iterator<+Ljavax/xml/stream/events/Attribute;>;Ljava/util/Iterator<+Ljavax/xml/stream/events/Namespace;>;)Ljavax/xml/stream/events/StartElement;
+createStartElement
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Iterator<+Ljavax/xml/stream/events/Attribute;>;Ljava/util/Iterator<+Ljavax/xml/stream/events/Namespace;>;Ljavax/xml/namespace/NamespaceContext;)Ljavax/xml/stream/events/StartElement;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Iterator<+Ljavax/xml/stream/events/Attribute;>;Ljava/util/Iterator<+Ljavax/xml/stream/events/Namespace;>;Ljavax/xml/namespace/NamespaceContext;)Ljavax/xml/stream/events/StartElement;
+createStartElement
+ (Ljavax/xml/namespace/QName;Ljava/util/Iterator<+Ljavax/xml/stream/events/Attribute;>;Ljava/util/Iterator<+Ljavax/xml/stream/events/Namespace;>;)Ljavax/xml/stream/events/StartElement;
+ (Ljavax/xml/namespace/QName;Ljava/util/Iterator<+Ljavax/xml/stream/events/Attribute;>;Ljava/util/Iterator<+Ljavax/xml/stream/events/Namespace;>;)Ljavax/xml/stream/events/StartElement;
+setLocation
+ (Ljavax/xml/stream/Location;)V
+ (Ljavax/xml/stream/Location;)V

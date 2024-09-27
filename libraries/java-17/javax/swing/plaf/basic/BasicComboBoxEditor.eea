@@ -1,0 +1,30 @@
+class javax/swing/plaf/basic/BasicComboBoxEditor
+
+editor
+ Ljavax/swing/JTextField;
+ Ljavax/swing/JTextField;
+
+addActionListener
+ (Ljava/awt/event/ActionListener;)V
+ (L1java/awt/event/ActionListener;)V # @Inherited(javax.swing.ComboBoxEditor)
+createEditorComponent
+ ()Ljavax/swing/JTextField;
+ ()Ljavax/swing/JTextField;
+focusGained
+ (Ljava/awt/event/FocusEvent;)V
+ (L1java/awt/event/FocusEvent;)V # @Inherited(java.awt.event.FocusListener)
+focusLost
+ (Ljava/awt/event/FocusEvent;)V
+ (L1java/awt/event/FocusEvent;)V # @Inherited(java.awt.event.FocusListener)
+getEditorComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getItem
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+removeActionListener
+ (Ljava/awt/event/ActionListener;)V
+ (L1java/awt/event/ActionListener;)V # @Inherited(javax.swing.ComboBoxEditor)
+setItem
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

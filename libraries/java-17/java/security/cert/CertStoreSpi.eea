@@ -1,0 +1,11 @@
+class java/security/cert/CertStoreSpi
+
+<init>
+ (Ljava/security/cert/CertStoreParameters;)V
+ (Ljava/security/cert/CertStoreParameters;)V
+engineGetCRLs
+ (Ljava/security/cert/CRLSelector;)Ljava/util/Collection<+Ljava/security/cert/CRL;>;
+ (Ljava/security/cert/CRLSelector;)Ljava/util/Collection<+Ljava/security/cert/CRL;>;
+engineGetCertificates
+ (Ljava/security/cert/CertSelector;)Ljava/util/Collection<+Ljava/security/cert/Certificate;>;
+ (Ljava/security/cert/CertSelector;)Ljava/util/Collection<+Ljava/security/cert/Certificate;>;

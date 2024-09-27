@@ -1,0 +1,62 @@
+class java/nio/charset/CharsetEncoder
+
+<init>
+ (Ljava/nio/charset/Charset;FF)V
+ (Ljava/nio/charset/Charset;FF)V
+<init>
+ (Ljava/nio/charset/Charset;FF[B)V
+ (Ljava/nio/charset/Charset;FF[B)V
+canEncode
+ (Ljava/lang/CharSequence;)Z
+ (Ljava/lang/CharSequence;)Z
+charset
+ ()Ljava/nio/charset/Charset;
+ ()Ljava/nio/charset/Charset;
+encode
+ (Ljava/nio/CharBuffer;)Ljava/nio/ByteBuffer;
+ (Ljava/nio/CharBuffer;)Ljava/nio/ByteBuffer;
+encode
+ (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;Z)Ljava/nio/charset/CoderResult;
+ (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;Z)Ljava/nio/charset/CoderResult;
+encodeLoop
+ (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;
+ (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;
+flush
+ (Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;
+ (Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;
+implFlush
+ (Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;
+ (Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;
+implOnMalformedInput
+ (Ljava/nio/charset/CodingErrorAction;)V
+ (Ljava/nio/charset/CodingErrorAction;)V
+implOnUnmappableCharacter
+ (Ljava/nio/charset/CodingErrorAction;)V
+ (Ljava/nio/charset/CodingErrorAction;)V
+implReplaceWith
+ ([B)V
+ ([B)V
+isLegalReplacement
+ ([B)Z
+ ([B)Z
+malformedInputAction
+ ()Ljava/nio/charset/CodingErrorAction;
+ ()Ljava/nio/charset/CodingErrorAction;
+onMalformedInput
+ (Ljava/nio/charset/CodingErrorAction;)Ljava/nio/charset/CharsetEncoder;
+ (Ljava/nio/charset/CodingErrorAction;)Ljava/nio/charset/CharsetEncoder;
+onUnmappableCharacter
+ (Ljava/nio/charset/CodingErrorAction;)Ljava/nio/charset/CharsetEncoder;
+ (Ljava/nio/charset/CodingErrorAction;)Ljava/nio/charset/CharsetEncoder;
+replaceWith
+ ([B)Ljava/nio/charset/CharsetEncoder;
+ ([B)Ljava/nio/charset/CharsetEncoder;
+replacement
+ ()[B
+ ()[B
+reset
+ ()Ljava/nio/charset/CharsetEncoder;
+ ()Ljava/nio/charset/CharsetEncoder;
+unmappableCharacterAction
+ ()Ljava/nio/charset/CodingErrorAction;
+ ()Ljava/nio/charset/CodingErrorAction;

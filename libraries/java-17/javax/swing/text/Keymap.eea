@@ -1,0 +1,38 @@
+class javax/swing/text/Keymap
+
+addActionForKeyStroke
+ (Ljavax/swing/KeyStroke;Ljavax/swing/Action;)V
+ (Ljavax/swing/KeyStroke;Ljavax/swing/Action;)V
+getAction
+ (Ljavax/swing/KeyStroke;)Ljavax/swing/Action;
+ (Ljavax/swing/KeyStroke;)Ljavax/swing/Action;
+getBoundActions
+ ()[Ljavax/swing/Action;
+ ()[Ljavax/swing/Action;
+getBoundKeyStrokes
+ ()[Ljavax/swing/KeyStroke;
+ ()[Ljavax/swing/KeyStroke;
+getDefaultAction
+ ()Ljavax/swing/Action;
+ ()Ljavax/swing/Action;
+getKeyStrokesForAction
+ (Ljavax/swing/Action;)[Ljavax/swing/KeyStroke;
+ (Ljavax/swing/Action;)[Ljavax/swing/KeyStroke;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getResolveParent
+ ()Ljavax/swing/text/Keymap;
+ ()Ljavax/swing/text/Keymap;
+isLocallyDefined
+ (Ljavax/swing/KeyStroke;)Z
+ (Ljavax/swing/KeyStroke;)Z
+removeKeyStrokeBinding
+ (Ljavax/swing/KeyStroke;)V
+ (Ljavax/swing/KeyStroke;)V
+setDefaultAction
+ (Ljavax/swing/Action;)V
+ (Ljavax/swing/Action;)V
+setResolveParent
+ (Ljavax/swing/text/Keymap;)V
+ (Ljavax/swing/text/Keymap;)V

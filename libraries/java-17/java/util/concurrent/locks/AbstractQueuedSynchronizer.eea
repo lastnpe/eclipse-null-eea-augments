@@ -1,0 +1,32 @@
+class java/util/concurrent/locks/AbstractQueuedSynchronizer
+
+getExclusiveQueuedThreads
+ ()Ljava/util/Collection<Ljava/lang/Thread;>;
+ ()Ljava/util/Collection<Ljava/lang/Thread;>;
+getFirstQueuedThread
+ ()Ljava/lang/Thread;
+ ()Ljava/lang/Thread;
+getQueuedThreads
+ ()Ljava/util/Collection<Ljava/lang/Thread;>;
+ ()Ljava/util/Collection<Ljava/lang/Thread;>;
+getSharedQueuedThreads
+ ()Ljava/util/Collection<Ljava/lang/Thread;>;
+ ()Ljava/util/Collection<Ljava/lang/Thread;>;
+getWaitQueueLength
+ (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject;)I
+ (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject;)I
+getWaitingThreads
+ (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject;)Ljava/util/Collection<Ljava/lang/Thread;>;
+ (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject;)Ljava/util/Collection<Ljava/lang/Thread;>;
+hasWaiters
+ (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject;)Z
+ (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject;)Z
+isQueued
+ (Ljava/lang/Thread;)Z
+ (Ljava/lang/Thread;)Z
+owns
+ (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject;)Z
+ (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

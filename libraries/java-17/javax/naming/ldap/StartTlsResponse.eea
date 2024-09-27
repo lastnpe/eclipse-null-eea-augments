@@ -1,0 +1,24 @@
+class javax/naming/ldap/StartTlsResponse
+
+OID
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getEncodedValue
+ ()[B
+ ()[B
+getID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+negotiate
+ ()Ljavax/net/ssl/SSLSession;
+ ()Ljavax/net/ssl/SSLSession;
+negotiate
+ (Ljavax/net/ssl/SSLSocketFactory;)Ljavax/net/ssl/SSLSession;
+ (Ljavax/net/ssl/SSLSocketFactory;)Ljavax/net/ssl/SSLSession;
+setEnabledCipherSuites
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setHostnameVerifier
+ (Ljavax/net/ssl/HostnameVerifier;)V
+ (Ljavax/net/ssl/HostnameVerifier;)V

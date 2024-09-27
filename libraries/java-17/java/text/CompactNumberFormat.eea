@@ -1,0 +1,35 @@
+class java/text/CompactNumberFormat
+
+<init>
+ (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;[Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;[Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;[Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;[Ljava/lang/String;Ljava/lang/String;)V
+clone
+ ()Ljava/text/CompactNumberFormat;
+ ()Ljava/text/CompactNumberFormat;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.text.NumberFormat)
+format
+ (DLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
+ (DLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
+format
+ (JLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
+ (JLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
+format
+ (Ljava/lang/Object;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
+ (L1java/lang/Object;L1java/lang/StringBuffer;L1java/text/FieldPosition;)L1java/lang/StringBuffer; # @Inherited(java.text.NumberFormat)
+formatToCharacterIterator
+ (Ljava/lang/Object;)Ljava/text/AttributedCharacterIterator;
+ (L1java/lang/Object;)L1java/text/AttributedCharacterIterator; # @Inherited(java.text.Format)
+getRoundingMode
+ ()Ljava/math/RoundingMode;
+ ()Ljava/math/RoundingMode;
+parse
+ (Ljava/lang/String;Ljava/text/ParsePosition;)Ljava/lang/Number;
+ (Ljava/lang/String;Ljava/text/ParsePosition;)Ljava/lang/Number;
+setRoundingMode
+ (Ljava/math/RoundingMode;)V
+ (Ljava/math/RoundingMode;)V

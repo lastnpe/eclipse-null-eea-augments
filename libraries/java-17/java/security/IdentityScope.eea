@@ -1,0 +1,36 @@
+class java/security/IdentityScope
+
+getSystemScope
+ ()Ljava/security/IdentityScope;
+ ()Ljava/security/IdentityScope;
+setSystemScope
+ (Ljava/security/IdentityScope;)V
+ (Ljava/security/IdentityScope;)V
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/security/IdentityScope;)V
+ (Ljava/lang/String;Ljava/security/IdentityScope;)V
+addIdentity
+ (Ljava/security/Identity;)V
+ (Ljava/security/Identity;)V
+getIdentity
+ (Ljava/lang/String;)Ljava/security/Identity;
+ (Ljava/lang/String;)Ljava/security/Identity;
+getIdentity
+ (Ljava/security/Principal;)Ljava/security/Identity;
+ (Ljava/security/Principal;)Ljava/security/Identity;
+getIdentity
+ (Ljava/security/PublicKey;)Ljava/security/Identity;
+ (Ljava/security/PublicKey;)Ljava/security/Identity;
+identities
+ ()Ljava/util/Enumeration<Ljava/security/Identity;>;
+ ()Ljava/util/Enumeration<Ljava/security/Identity;>;
+removeIdentity
+ (Ljava/security/Identity;)V
+ (Ljava/security/Identity;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.security.Identity)

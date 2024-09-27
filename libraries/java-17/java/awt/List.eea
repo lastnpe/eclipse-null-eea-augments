@@ -1,0 +1,98 @@
+class java/awt/List
+
+add
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+add
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+addActionListener
+ (Ljava/awt/event/ActionListener;)V
+ (L1java/awt/event/ActionListener;)V
+addItem
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+addItem
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+addItemListener
+ (Ljava/awt/event/ItemListener;)V
+ (L1java/awt/event/ItemListener;)V # @Inherited(java.awt.ItemSelectable)
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getActionListeners
+ ()[Ljava/awt/event/ActionListener;
+ ()[Ljava/awt/event/ActionListener;
+getItem
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getItemListeners
+ ()[Ljava/awt/event/ItemListener;
+ ()[Ljava/awt/event/ItemListener;
+getItems
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getListeners
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+getMinimumSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getMinimumSize
+ (I)Ljava/awt/Dimension;
+ (I)Ljava/awt/Dimension;
+getPreferredSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getPreferredSize
+ (I)Ljava/awt/Dimension;
+ (I)Ljava/awt/Dimension;
+getSelectedIndexes
+ ()[I
+ ()[I
+getSelectedItem
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSelectedItems
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getSelectedObjects
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+minimumSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+minimumSize
+ (I)Ljava/awt/Dimension;
+ (I)Ljava/awt/Dimension;
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+preferredSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+preferredSize
+ (I)Ljava/awt/Dimension;
+ (I)Ljava/awt/Dimension;
+processActionEvent
+ (Ljava/awt/event/ActionEvent;)V
+ (Ljava/awt/event/ActionEvent;)V
+processEvent
+ (Ljava/awt/AWTEvent;)V
+ (Ljava/awt/AWTEvent;)V
+processItemEvent
+ (Ljava/awt/event/ItemEvent;)V
+ (Ljava/awt/event/ItemEvent;)V
+remove
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+removeActionListener
+ (Ljava/awt/event/ActionListener;)V
+ (L1java/awt/event/ActionListener;)V
+removeItemListener
+ (Ljava/awt/event/ItemListener;)V
+ (L1java/awt/event/ItemListener;)V # @Inherited(java.awt.ItemSelectable)
+replaceItem
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V

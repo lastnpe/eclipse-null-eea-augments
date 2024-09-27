@@ -1,0 +1,17 @@
+class java/sql/ConnectionBuilder
+
+build
+ ()Ljava/sql/Connection;
+ ()L1java/sql/Connection;
+password
+ (Ljava/lang/String;)Ljava/sql/ConnectionBuilder;
+ (Ljava/lang/String;)L1java/sql/ConnectionBuilder;
+shardingKey
+ (Ljava/sql/ShardingKey;)Ljava/sql/ConnectionBuilder;
+ (Ljava/sql/ShardingKey;)L1java/sql/ConnectionBuilder;
+superShardingKey
+ (Ljava/sql/ShardingKey;)Ljava/sql/ConnectionBuilder;
+ (Ljava/sql/ShardingKey;)L1java/sql/ConnectionBuilder;
+user
+ (Ljava/lang/String;)Ljava/sql/ConnectionBuilder;
+ (Ljava/lang/String;)L1java/sql/ConnectionBuilder;

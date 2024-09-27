@@ -1,0 +1,47 @@
+class java/awt/FileDialog
+
+<init>
+ (Ljava/awt/Dialog;)V
+ (Ljava/awt/Dialog;)V
+<init>
+ (Ljava/awt/Dialog;Ljava/lang/String;)V
+ (Ljava/awt/Dialog;Ljava/lang/String;)V
+<init>
+ (Ljava/awt/Dialog;Ljava/lang/String;I)V
+ (Ljava/awt/Dialog;Ljava/lang/String;I)V
+<init>
+ (Ljava/awt/Frame;)V
+ (Ljava/awt/Frame;)V
+<init>
+ (Ljava/awt/Frame;Ljava/lang/String;)V
+ (Ljava/awt/Frame;Ljava/lang/String;)V
+<init>
+ (Ljava/awt/Frame;Ljava/lang/String;I)V
+ (Ljava/awt/Frame;Ljava/lang/String;I)V
+getDirectory
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFile
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFilenameFilter
+ ()Ljava/io/FilenameFilter;
+ ()Ljava/io/FilenameFilter;
+getFiles
+ ()[Ljava/io/File;
+ ()[Ljava/io/File;
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setDirectory
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setFile
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setFilenameFilter
+ (Ljava/io/FilenameFilter;)V
+ (Ljava/io/FilenameFilter;)V
+setTitle
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

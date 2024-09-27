@@ -1,0 +1,468 @@
+class java/awt/Component
+
+accessibleContext
+ Ljavax/accessibility/AccessibleContext;
+ Ljavax/accessibility/AccessibleContext;
+
+action
+ (Ljava/awt/Event;Ljava/lang/Object;)Z
+ (Ljava/awt/Event;Ljava/lang/Object;)Z
+add
+ (Ljava/awt/PopupMenu;)V
+ (Ljava/awt/PopupMenu;)V
+addComponentListener
+ (Ljava/awt/event/ComponentListener;)V
+ (L1java/awt/event/ComponentListener;)V
+addFocusListener
+ (Ljava/awt/event/FocusListener;)V
+ (L1java/awt/event/FocusListener;)V
+addHierarchyBoundsListener
+ (Ljava/awt/event/HierarchyBoundsListener;)V
+ (L1java/awt/event/HierarchyBoundsListener;)V
+addHierarchyListener
+ (Ljava/awt/event/HierarchyListener;)V
+ (L1java/awt/event/HierarchyListener;)V
+addInputMethodListener
+ (Ljava/awt/event/InputMethodListener;)V
+ (L1java/awt/event/InputMethodListener;)V
+addKeyListener
+ (Ljava/awt/event/KeyListener;)V
+ (L1java/awt/event/KeyListener;)V
+addMouseListener
+ (Ljava/awt/event/MouseListener;)V
+ (L1java/awt/event/MouseListener;)V
+addMouseMotionListener
+ (Ljava/awt/event/MouseMotionListener;)V
+ (L1java/awt/event/MouseMotionListener;)V
+addMouseWheelListener
+ (Ljava/awt/event/MouseWheelListener;)V
+ (L1java/awt/event/MouseWheelListener;)V
+addPropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V
+addPropertyChangeListener
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+applyComponentOrientation
+ (Ljava/awt/ComponentOrientation;)V
+ (Ljava/awt/ComponentOrientation;)V
+bounds
+ ()Ljava/awt/Rectangle;
+ ()Ljava/awt/Rectangle;
+checkImage
+ (Ljava/awt/Image;IILjava/awt/image/ImageObserver;)I
+ (Ljava/awt/Image;IILjava/awt/image/ImageObserver;)I
+checkImage
+ (Ljava/awt/Image;Ljava/awt/image/ImageObserver;)I
+ (Ljava/awt/Image;Ljava/awt/image/ImageObserver;)I
+coalesceEvents
+ (Ljava/awt/AWTEvent;Ljava/awt/AWTEvent;)Ljava/awt/AWTEvent;
+ (Ljava/awt/AWTEvent;Ljava/awt/AWTEvent;)Ljava/awt/AWTEvent;
+contains
+ (Ljava/awt/Point;)Z
+ (Ljava/awt/Point;)Z
+createImage
+ (II)Ljava/awt/Image;
+ (II)Ljava/awt/Image;
+createImage
+ (Ljava/awt/image/ImageProducer;)Ljava/awt/Image;
+ (Ljava/awt/image/ImageProducer;)Ljava/awt/Image;
+createVolatileImage
+ (II)Ljava/awt/image/VolatileImage;
+ (II)Ljava/awt/image/VolatileImage;
+createVolatileImage
+ (IILjava/awt/ImageCapabilities;)Ljava/awt/image/VolatileImage;
+ (IILjava/awt/ImageCapabilities;)Ljava/awt/image/VolatileImage;
+deliverEvent
+ (Ljava/awt/Event;)V
+ (Ljava/awt/Event;)V
+dispatchEvent
+ (Ljava/awt/AWTEvent;)V
+ (Ljava/awt/AWTEvent;)V
+firePropertyChange
+ (Ljava/lang/String;BB)V
+ (Ljava/lang/String;BB)V
+firePropertyChange
+ (Ljava/lang/String;CC)V
+ (Ljava/lang/String;CC)V
+firePropertyChange
+ (Ljava/lang/String;DD)V
+ (Ljava/lang/String;DD)V
+firePropertyChange
+ (Ljava/lang/String;FF)V
+ (Ljava/lang/String;FF)V
+firePropertyChange
+ (Ljava/lang/String;II)V
+ (Ljava/lang/String;II)V
+firePropertyChange
+ (Ljava/lang/String;JJ)V
+ (Ljava/lang/String;JJ)V
+firePropertyChange
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+firePropertyChange
+ (Ljava/lang/String;SS)V
+ (Ljava/lang/String;SS)V
+firePropertyChange
+ (Ljava/lang/String;ZZ)V
+ (Ljava/lang/String;ZZ)V
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getBackground
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getBaselineResizeBehavior
+ ()Ljava/awt/Component$BaselineResizeBehavior;
+ ()Ljava/awt/Component$BaselineResizeBehavior;
+getBounds
+ ()Ljava/awt/Rectangle;
+ ()Ljava/awt/Rectangle;
+getBounds
+ (Ljava/awt/Rectangle;)Ljava/awt/Rectangle;
+ (Ljava/awt/Rectangle;)Ljava/awt/Rectangle;
+getColorModel
+ ()Ljava/awt/image/ColorModel;
+ ()Ljava/awt/image/ColorModel;
+getComponentAt
+ (II)Ljava/awt/Component;
+ (II)Ljava/awt/Component;
+getComponentAt
+ (Ljava/awt/Point;)Ljava/awt/Component;
+ (Ljava/awt/Point;)Ljava/awt/Component;
+getComponentListeners
+ ()[Ljava/awt/event/ComponentListener;
+ ()[Ljava/awt/event/ComponentListener;
+getComponentOrientation
+ ()Ljava/awt/ComponentOrientation;
+ ()Ljava/awt/ComponentOrientation;
+getCursor
+ ()Ljava/awt/Cursor;
+ ()Ljava/awt/Cursor;
+getDropTarget
+ ()Ljava/awt/dnd/DropTarget;
+ ()Ljava/awt/dnd/DropTarget;
+getFocusCycleRootAncestor
+ ()Ljava/awt/Container;
+ ()Ljava/awt/Container;
+getFocusListeners
+ ()[Ljava/awt/event/FocusListener;
+ ()[Ljava/awt/event/FocusListener;
+getFocusTraversalKeys
+ (I)Ljava/util/Set<Ljava/awt/AWTKeyStroke;>;
+ (I)Ljava/util/Set<Ljava/awt/AWTKeyStroke;>;
+getFont
+ ()Ljava/awt/Font;
+ ()Ljava/awt/Font;
+getFontMetrics
+ (Ljava/awt/Font;)Ljava/awt/FontMetrics;
+ (Ljava/awt/Font;)Ljava/awt/FontMetrics;
+getForeground
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getGraphics
+ ()Ljava/awt/Graphics;
+ ()Ljava/awt/Graphics;
+getGraphicsConfiguration
+ ()Ljava/awt/GraphicsConfiguration;
+ ()Ljava/awt/GraphicsConfiguration;
+getHierarchyBoundsListeners
+ ()[Ljava/awt/event/HierarchyBoundsListener;
+ ()[Ljava/awt/event/HierarchyBoundsListener;
+getHierarchyListeners
+ ()[Ljava/awt/event/HierarchyListener;
+ ()[Ljava/awt/event/HierarchyListener;
+getInputContext
+ ()Ljava/awt/im/InputContext;
+ ()Ljava/awt/im/InputContext;
+getInputMethodListeners
+ ()[Ljava/awt/event/InputMethodListener;
+ ()[Ljava/awt/event/InputMethodListener;
+getInputMethodRequests
+ ()Ljava/awt/im/InputMethodRequests;
+ ()Ljava/awt/im/InputMethodRequests;
+getKeyListeners
+ ()[Ljava/awt/event/KeyListener;
+ ()[Ljava/awt/event/KeyListener;
+getListeners
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+getLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+getLocation
+ ()Ljava/awt/Point;
+ ()Ljava/awt/Point;
+getLocation
+ (Ljava/awt/Point;)Ljava/awt/Point;
+ (Ljava/awt/Point;)Ljava/awt/Point;
+getLocationOnScreen
+ ()Ljava/awt/Point;
+ ()Ljava/awt/Point;
+getMaximumSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getMinimumSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getMouseListeners
+ ()[Ljava/awt/event/MouseListener;
+ ()[Ljava/awt/event/MouseListener;
+getMouseMotionListeners
+ ()[Ljava/awt/event/MouseMotionListener;
+ ()[Ljava/awt/event/MouseMotionListener;
+getMousePosition
+ ()Ljava/awt/Point;
+ ()Ljava/awt/Point;
+getMouseWheelListeners
+ ()[Ljava/awt/event/MouseWheelListener;
+ ()[Ljava/awt/event/MouseWheelListener;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getParent
+ ()Ljava/awt/Container;
+ ()Ljava/awt/Container;
+getPreferredSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getPropertyChangeListeners
+ ()[Ljava/beans/PropertyChangeListener;
+ ()[Ljava/beans/PropertyChangeListener;
+getPropertyChangeListeners
+ (Ljava/lang/String;)[Ljava/beans/PropertyChangeListener;
+ (Ljava/lang/String;)[Ljava/beans/PropertyChangeListener;
+getSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getSize
+ (Ljava/awt/Dimension;)Ljava/awt/Dimension;
+ (Ljava/awt/Dimension;)Ljava/awt/Dimension;
+getToolkit
+ ()Ljava/awt/Toolkit;
+ ()Ljava/awt/Toolkit;
+getTreeLock
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+gotFocus
+ (Ljava/awt/Event;Ljava/lang/Object;)Z
+ (Ljava/awt/Event;Ljava/lang/Object;)Z
+handleEvent
+ (Ljava/awt/Event;)Z
+ (Ljava/awt/Event;)Z
+imageUpdate
+ (Ljava/awt/Image;IIIII)Z
+ (Ljava/awt/Image;IIIII)Z
+isFocusCycleRoot
+ (Ljava/awt/Container;)Z
+ (Ljava/awt/Container;)Z
+keyDown
+ (Ljava/awt/Event;I)Z
+ (Ljava/awt/Event;I)Z
+keyUp
+ (Ljava/awt/Event;I)Z
+ (Ljava/awt/Event;I)Z
+list
+ (Ljava/io/PrintStream;)V
+ (Ljava/io/PrintStream;)V
+list
+ (Ljava/io/PrintStream;I)V
+ (Ljava/io/PrintStream;I)V
+list
+ (Ljava/io/PrintWriter;)V
+ (Ljava/io/PrintWriter;)V
+list
+ (Ljava/io/PrintWriter;I)V
+ (Ljava/io/PrintWriter;I)V
+locate
+ (II)Ljava/awt/Component;
+ (II)Ljava/awt/Component;
+location
+ ()Ljava/awt/Point;
+ ()Ljava/awt/Point;
+lostFocus
+ (Ljava/awt/Event;Ljava/lang/Object;)Z
+ (Ljava/awt/Event;Ljava/lang/Object;)Z
+minimumSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+mouseDown
+ (Ljava/awt/Event;II)Z
+ (Ljava/awt/Event;II)Z
+mouseDrag
+ (Ljava/awt/Event;II)Z
+ (Ljava/awt/Event;II)Z
+mouseEnter
+ (Ljava/awt/Event;II)Z
+ (Ljava/awt/Event;II)Z
+mouseExit
+ (Ljava/awt/Event;II)Z
+ (Ljava/awt/Event;II)Z
+mouseMove
+ (Ljava/awt/Event;II)Z
+ (Ljava/awt/Event;II)Z
+mouseUp
+ (Ljava/awt/Event;II)Z
+ (Ljava/awt/Event;II)Z
+paint
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paintAll
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+postEvent
+ (Ljava/awt/Event;)Z
+ (Ljava/awt/Event;)Z
+preferredSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+prepareImage
+ (Ljava/awt/Image;IILjava/awt/image/ImageObserver;)Z
+ (Ljava/awt/Image;IILjava/awt/image/ImageObserver;)Z
+prepareImage
+ (Ljava/awt/Image;Ljava/awt/image/ImageObserver;)Z
+ (Ljava/awt/Image;Ljava/awt/image/ImageObserver;)Z
+print
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+printAll
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+processComponentEvent
+ (Ljava/awt/event/ComponentEvent;)V
+ (Ljava/awt/event/ComponentEvent;)V
+processEvent
+ (Ljava/awt/AWTEvent;)V
+ (Ljava/awt/AWTEvent;)V
+processFocusEvent
+ (Ljava/awt/event/FocusEvent;)V
+ (Ljava/awt/event/FocusEvent;)V
+processHierarchyBoundsEvent
+ (Ljava/awt/event/HierarchyEvent;)V
+ (Ljava/awt/event/HierarchyEvent;)V
+processHierarchyEvent
+ (Ljava/awt/event/HierarchyEvent;)V
+ (Ljava/awt/event/HierarchyEvent;)V
+processInputMethodEvent
+ (Ljava/awt/event/InputMethodEvent;)V
+ (Ljava/awt/event/InputMethodEvent;)V
+processKeyEvent
+ (Ljava/awt/event/KeyEvent;)V
+ (Ljava/awt/event/KeyEvent;)V
+processMouseEvent
+ (Ljava/awt/event/MouseEvent;)V
+ (Ljava/awt/event/MouseEvent;)V
+processMouseMotionEvent
+ (Ljava/awt/event/MouseEvent;)V
+ (Ljava/awt/event/MouseEvent;)V
+processMouseWheelEvent
+ (Ljava/awt/event/MouseWheelEvent;)V
+ (Ljava/awt/event/MouseWheelEvent;)V
+remove
+ (Ljava/awt/MenuComponent;)V
+ (Ljava/awt/MenuComponent;)V
+removeComponentListener
+ (Ljava/awt/event/ComponentListener;)V
+ (L1java/awt/event/ComponentListener;)V
+removeFocusListener
+ (Ljava/awt/event/FocusListener;)V
+ (L1java/awt/event/FocusListener;)V
+removeHierarchyBoundsListener
+ (Ljava/awt/event/HierarchyBoundsListener;)V
+ (L1java/awt/event/HierarchyBoundsListener;)V
+removeHierarchyListener
+ (Ljava/awt/event/HierarchyListener;)V
+ (L1java/awt/event/HierarchyListener;)V
+removeInputMethodListener
+ (Ljava/awt/event/InputMethodListener;)V
+ (L1java/awt/event/InputMethodListener;)V
+removeKeyListener
+ (Ljava/awt/event/KeyListener;)V
+ (L1java/awt/event/KeyListener;)V
+removeMouseListener
+ (Ljava/awt/event/MouseListener;)V
+ (L1java/awt/event/MouseListener;)V
+removeMouseMotionListener
+ (Ljava/awt/event/MouseMotionListener;)V
+ (L1java/awt/event/MouseMotionListener;)V
+removeMouseWheelListener
+ (Ljava/awt/event/MouseWheelListener;)V
+ (L1java/awt/event/MouseWheelListener;)V
+removePropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V
+removePropertyChangeListener
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+requestFocus
+ (Ljava/awt/event/FocusEvent$Cause;)V
+ (Ljava/awt/event/FocusEvent$Cause;)V
+requestFocus
+ (ZLjava/awt/event/FocusEvent$Cause;)Z
+ (ZLjava/awt/event/FocusEvent$Cause;)Z
+requestFocusInWindow
+ (Ljava/awt/event/FocusEvent$Cause;)Z
+ (Ljava/awt/event/FocusEvent$Cause;)Z
+resize
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V
+setBackground
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setBounds
+ (Ljava/awt/Rectangle;)V
+ (Ljava/awt/Rectangle;)V
+setComponentOrientation
+ (Ljava/awt/ComponentOrientation;)V
+ (Ljava/awt/ComponentOrientation;)V
+setCursor
+ (Ljava/awt/Cursor;)V
+ (Ljava/awt/Cursor;)V
+setDropTarget
+ (Ljava/awt/dnd/DropTarget;)V
+ (Ljava/awt/dnd/DropTarget;)V
+setFocusTraversalKeys
+ (ILjava/util/Set<+Ljava/awt/AWTKeyStroke;>;)V
+ (ILjava/util/Set<+Ljava/awt/AWTKeyStroke;>;)V
+setFont
+ (Ljava/awt/Font;)V
+ (Ljava/awt/Font;)V
+setForeground
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setLocale
+ (Ljava/util/Locale;)V
+ (Ljava/util/Locale;)V
+setLocation
+ (Ljava/awt/Point;)V
+ (Ljava/awt/Point;)V
+setMaximumSize
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V
+setMinimumSize
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V
+setMixingCutoutShape
+ (Ljava/awt/Shape;)V
+ (Ljava/awt/Shape;)V
+setName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPreferredSize
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V
+setSize
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V
+size
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+update
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V

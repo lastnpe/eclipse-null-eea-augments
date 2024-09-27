@@ -1,0 +1,29 @@
+class java/util/jar/Manifest
+
+<init>
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+<init>
+ (Ljava/util/jar/Manifest;)V
+ (Ljava/util/jar/Manifest;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAttributes
+ (Ljava/lang/String;)Ljava/util/jar/Attributes;
+ (Ljava/lang/String;)Ljava/util/jar/Attributes;
+getEntries
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/util/jar/Attributes;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/util/jar/Attributes;>;
+getMainAttributes
+ ()Ljava/util/jar/Attributes;
+ ()Ljava/util/jar/Attributes;
+read
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+write
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V

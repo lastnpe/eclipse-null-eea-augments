@@ -1,0 +1,18 @@
+class java/sql/Date
+
+valueOf
+ (Ljava/lang/String;)Ljava/sql/Date;
+ (Ljava/lang/String;)Ljava/sql/Date;
+valueOf
+ (Ljava/time/LocalDate;)Ljava/sql/Date;
+ (Ljava/time/LocalDate;)Ljava/sql/Date;
+
+toInstant
+ ()Ljava/time/Instant;
+ ()L1java/time/Instant; # @Inherited(java.util.Date)
+toLocalDate
+ ()Ljava/time/LocalDate;
+ ()Ljava/time/LocalDate;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.util.Date)

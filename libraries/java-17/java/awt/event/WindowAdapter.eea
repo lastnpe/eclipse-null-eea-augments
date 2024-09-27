@@ -1,0 +1,32 @@
+class java/awt/event/WindowAdapter
+
+windowActivated
+ (Ljava/awt/event/WindowEvent;)V
+ (L1java/awt/event/WindowEvent;)V # @Inherited(java.awt.event.WindowListener)
+windowClosed
+ (Ljava/awt/event/WindowEvent;)V
+ (L1java/awt/event/WindowEvent;)V # @Inherited(java.awt.event.WindowListener)
+windowClosing
+ (Ljava/awt/event/WindowEvent;)V
+ (L1java/awt/event/WindowEvent;)V # @Inherited(java.awt.event.WindowListener)
+windowDeactivated
+ (Ljava/awt/event/WindowEvent;)V
+ (L1java/awt/event/WindowEvent;)V # @Inherited(java.awt.event.WindowListener)
+windowDeiconified
+ (Ljava/awt/event/WindowEvent;)V
+ (L1java/awt/event/WindowEvent;)V # @Inherited(java.awt.event.WindowListener)
+windowGainedFocus
+ (Ljava/awt/event/WindowEvent;)V
+ (L1java/awt/event/WindowEvent;)V # @Inherited(java.awt.event.WindowFocusListener)
+windowIconified
+ (Ljava/awt/event/WindowEvent;)V
+ (L1java/awt/event/WindowEvent;)V # @Inherited(java.awt.event.WindowListener)
+windowLostFocus
+ (Ljava/awt/event/WindowEvent;)V
+ (L1java/awt/event/WindowEvent;)V # @Inherited(java.awt.event.WindowFocusListener)
+windowOpened
+ (Ljava/awt/event/WindowEvent;)V
+ (L1java/awt/event/WindowEvent;)V # @Inherited(java.awt.event.WindowListener)
+windowStateChanged
+ (Ljava/awt/event/WindowEvent;)V
+ (L1java/awt/event/WindowEvent;)V # @Inherited(java.awt.event.WindowStateListener)

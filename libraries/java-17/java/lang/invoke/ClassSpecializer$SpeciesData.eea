@@ -1,0 +1,59 @@
+class java/lang/invoke/ClassSpecializer$SpeciesData
+
+<init>
+ (TK;)V
+ (TK;)V
+deriveClassName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+deriveFieldTypes
+ (TK;)Ljava/util/List<Ljava/lang/Class<*>;>;
+ (TK;)Ljava/util/List<Ljava/lang/Class<*>;>;
+deriveSuperClass
+ ()Ljava/lang/Class<+TT;>;
+ ()Ljava/lang/Class<+TT;>;
+deriveTransformHelper
+ (Ljava/lang/invoke/MemberName;I)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MemberName;I)Ljava/lang/invoke/MethodHandle;
+deriveTransformHelperArguments
+ <X:Ljava/lang/Object;>(Ljava/lang/invoke/MemberName;ILjava/util/List<TX;>;Ljava/util/List<TX;>;)Ljava/util/List<TX;>;
+ <X:Ljava/lang/Object;>(Ljava/lang/invoke/MemberName;ILjava/util/List<TX;>;Ljava/util/List<TX;>;)Ljava/util/List<TX;>;
+deriveTypeString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+factory
+ ()Ljava/lang/invoke/MethodHandle;
+ ()Ljava/lang/invoke/MethodHandle;
+fieldTypes
+ ()Ljava/util/List<Ljava/lang/Class<*>;>;
+ ()Ljava/util/List<Ljava/lang/Class<*>;>;
+getter
+ (I)Ljava/lang/invoke/MethodHandle;
+ (I)Ljava/lang/invoke/MethodHandle;
+getterFunction
+ (I)Ljava/lang/invoke/LambdaForm$NamedFunction;
+ (I)Ljava/lang/invoke/LambdaForm$NamedFunction;
+getterFunctions
+ ()Ljava/util/List<Ljava/lang/invoke/LambdaForm$NamedFunction;>;
+ ()Ljava/util/List<Ljava/lang/invoke/LambdaForm$NamedFunction;>;
+getters
+ ()Ljava/util/List<Ljava/lang/invoke/MethodHandle;>;
+ ()Ljava/util/List<Ljava/lang/invoke/MethodHandle;>;
+key
+ ()TK;
+ ()TK;
+outer
+ ()Ljava/lang/invoke/ClassSpecializer<TT;TK;TS;>;
+ ()Ljava/lang/invoke/ClassSpecializer<TT;TK;TS;>;
+speciesCode
+ ()Ljava/lang/Class<+TT;>;
+ ()Ljava/lang/Class<+TT;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+transformHelper
+ (I)Ljava/lang/invoke/MethodHandle;
+ (I)Ljava/lang/invoke/MethodHandle;

@@ -1,0 +1,53 @@
+class java/lang/reflect/Executable
+
+getAnnotatedExceptionTypes
+ ()[Ljava/lang/reflect/AnnotatedType;
+ ()[Ljava/lang/reflect/AnnotatedType;
+getAnnotatedParameterTypes
+ ()[Ljava/lang/reflect/AnnotatedType;
+ ()[Ljava/lang/reflect/AnnotatedType;
+getAnnotatedReceiverType
+ ()Ljava/lang/reflect/AnnotatedType;
+ ()Ljava/lang/reflect/AnnotatedType;
+getAnnotatedReturnType
+ ()Ljava/lang/reflect/AnnotatedType;
+ ()Ljava/lang/reflect/AnnotatedType;
+getAnnotation
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)T0T; # @Inherited(java.lang.reflect.AccessibleObject)
+getAnnotationsByType
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)[1T1T; # @Inherited(java.lang.reflect.AccessibleObject)
+getDeclaredAnnotations
+ ()[Ljava/lang/annotation/Annotation;
+ ()[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.AccessibleObject)
+getDeclaringClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getExceptionTypes
+ ()[Ljava/lang/Class<*>;
+ ()[Ljava/lang/Class<*>;
+getGenericExceptionTypes
+ ()[Ljava/lang/reflect/Type;
+ ()[Ljava/lang/reflect/Type;
+getGenericParameterTypes
+ ()[Ljava/lang/reflect/Type;
+ ()[Ljava/lang/reflect/Type;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getParameterAnnotations
+ ()[[Ljava/lang/annotation/Annotation;
+ ()[[Ljava/lang/annotation/Annotation;
+getParameterTypes
+ ()[Ljava/lang/Class<*>;
+ ()[Ljava/lang/Class<*>;
+getParameters
+ ()[Ljava/lang/reflect/Parameter;
+ ()[Ljava/lang/reflect/Parameter;
+getTypeParameters
+ ()[Ljava/lang/reflect/TypeVariable<*>;
+ ()[Ljava/lang/reflect/TypeVariable<*>;
+toGenericString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

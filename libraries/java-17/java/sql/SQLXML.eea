@@ -1,0 +1,26 @@
+class java/sql/SQLXML
+
+getBinaryStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getCharacterStream
+ ()Ljava/io/Reader;
+ ()Ljava/io/Reader;
+getSource
+ <T::Ljavax/xml/transform/Source;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljavax/xml/transform/Source;>(Ljava/lang/Class<TT;>;)TT;
+getString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setBinaryStream
+ ()Ljava/io/OutputStream;
+ ()Ljava/io/OutputStream;
+setCharacterStream
+ ()Ljava/io/Writer;
+ ()Ljava/io/Writer;
+setResult
+ <T::Ljavax/xml/transform/Result;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljavax/xml/transform/Result;>(Ljava/lang/Class<TT;>;)TT;
+setString
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

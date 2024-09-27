@@ -1,0 +1,18 @@
+class javax/tools/JavaCompiler$CompilationTask
+
+super java/util/concurrent/Callable
+ <Ljava/lang/Boolean;>
+ <Ljava/lang/Boolean;>
+
+addModules
+ (Ljava/lang/Iterable<Ljava/lang/String;>;)V
+ (Ljava/lang/Iterable<Ljava/lang/String;>;)V
+call
+ ()Ljava/lang/Boolean;
+ ()Ljava/lang/Boolean;
+setLocale
+ (Ljava/util/Locale;)V
+ (Ljava/util/Locale;)V
+setProcessors
+ (Ljava/lang/Iterable<+Ljavax/annotation/processing/Processor;>;)V
+ (Ljava/lang/Iterable<+Ljavax/annotation/processing/Processor;>;)V

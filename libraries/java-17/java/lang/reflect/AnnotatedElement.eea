@@ -1,0 +1,23 @@
+class java/lang/reflect/AnnotatedElement
+
+getAnnotation
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
+getAnnotations
+ ()[Ljava/lang/annotation/Annotation;
+ ()[Ljava/lang/annotation/Annotation;
+getAnnotationsByType
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)[TT;
+getDeclaredAnnotation
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
+getDeclaredAnnotations
+ ()[Ljava/lang/annotation/Annotation;
+ ()[Ljava/lang/annotation/Annotation;
+getDeclaredAnnotationsByType
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)[TT;
+isAnnotationPresent
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z

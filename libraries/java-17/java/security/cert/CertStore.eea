@@ -1,0 +1,33 @@
+class java/security/cert/CertStore
+
+getDefaultType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getInstance
+ (Ljava/lang/String;Ljava/security/cert/CertStoreParameters;)Ljava/security/cert/CertStore;
+ (Ljava/lang/String;Ljava/security/cert/CertStoreParameters;)Ljava/security/cert/CertStore;
+getInstance
+ (Ljava/lang/String;Ljava/security/cert/CertStoreParameters;Ljava/lang/String;)Ljava/security/cert/CertStore;
+ (Ljava/lang/String;Ljava/security/cert/CertStoreParameters;Ljava/lang/String;)Ljava/security/cert/CertStore;
+getInstance
+ (Ljava/lang/String;Ljava/security/cert/CertStoreParameters;Ljava/security/Provider;)Ljava/security/cert/CertStore;
+ (Ljava/lang/String;Ljava/security/cert/CertStoreParameters;Ljava/security/Provider;)Ljava/security/cert/CertStore;
+
+<init>
+ (Ljava/security/cert/CertStoreSpi;Ljava/security/Provider;Ljava/lang/String;Ljava/security/cert/CertStoreParameters;)V
+ (Ljava/security/cert/CertStoreSpi;Ljava/security/Provider;Ljava/lang/String;Ljava/security/cert/CertStoreParameters;)V
+getCRLs
+ (Ljava/security/cert/CRLSelector;)Ljava/util/Collection<+Ljava/security/cert/CRL;>;
+ (Ljava/security/cert/CRLSelector;)Ljava/util/Collection<+Ljava/security/cert/CRL;>;
+getCertStoreParameters
+ ()Ljava/security/cert/CertStoreParameters;
+ ()Ljava/security/cert/CertStoreParameters;
+getCertificates
+ (Ljava/security/cert/CertSelector;)Ljava/util/Collection<+Ljava/security/cert/Certificate;>;
+ (Ljava/security/cert/CertSelector;)Ljava/util/Collection<+Ljava/security/cert/Certificate;>;
+getProvider
+ ()Ljava/security/Provider;
+ ()Ljava/security/Provider;
+getType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

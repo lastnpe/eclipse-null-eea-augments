@@ -1,0 +1,21 @@
+class javax/swing/plaf/basic/BasicTreeUI$ComponentHandler
+
+scrollBar
+ Ljavax/swing/JScrollBar;
+ Ljavax/swing/JScrollBar;
+timer
+ Ljavax/swing/Timer;
+ Ljavax/swing/Timer;
+
+<init>
+ (Ljavax/swing/plaf/basic/BasicTreeUI;)V
+ (Ljavax/swing/plaf/basic/BasicTreeUI;)V
+actionPerformed
+ (Ljava/awt/event/ActionEvent;)V
+ (L1java/awt/event/ActionEvent;)V # @Inherited(java.awt.event.ActionListener)
+componentMoved
+ (Ljava/awt/event/ComponentEvent;)V
+ (L1java/awt/event/ComponentEvent;)V # @Inherited(java.awt.event.ComponentAdapter)
+getScrollPane
+ ()Ljavax/swing/JScrollPane;
+ ()Ljavax/swing/JScrollPane;

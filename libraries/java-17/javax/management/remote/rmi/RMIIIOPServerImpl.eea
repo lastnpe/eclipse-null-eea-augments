@@ -1,0 +1,17 @@
+class javax/management/remote/rmi/RMIIIOPServerImpl
+
+<init>
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+closeClient
+ (Ljavax/management/remote/rmi/RMIConnection;)V
+ (Ljavax/management/remote/rmi/RMIConnection;)V
+getProtocol
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+makeClient
+ (Ljava/lang/String;Ljavax/security/auth/Subject;)Ljavax/management/remote/rmi/RMIConnection;
+ (Ljava/lang/String;Ljavax/security/auth/Subject;)Ljavax/management/remote/rmi/RMIConnection;
+toStub
+ ()Ljava/rmi/Remote;
+ ()Ljava/rmi/Remote;

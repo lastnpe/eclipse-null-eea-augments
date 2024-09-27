@@ -1,4 +1,16 @@
 class java/util/jar/JarFile
+
+MANIFEST_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+baseVersion
+ ()Ljava/lang/Runtime$Version;
+ ()L1java/lang/Runtime$Version;
+runtimeVersion
+ ()Ljava/lang/Runtime$Version;
+ ()L1java/lang/Runtime$Version;
+
 <init>
  (Ljava/io/File;)V
  (L1java/io/File;)V
@@ -17,9 +29,6 @@ class java/util/jar/JarFile
 <init>
  (Ljava/lang/String;Z)V
  (L1java/lang/String;Z)V
-baseVersion
- ()Ljava/lang/Runtime$Version;
- ()L1java/lang/Runtime$Version;
 entries
  ()Ljava/util/Enumeration<Ljava/util/jar/JarEntry;>;
  ()L1java/util/Enumeration<L1java/util/jar/JarEntry;>;
@@ -36,9 +45,6 @@ getManifest
  ()Ljava/util/jar/Manifest;
  ()L0java/util/jar/Manifest;
 getVersion
- ()Ljava/lang/Runtime$Version;
- ()L1java/lang/Runtime$Version;
-runtimeVersion
  ()Ljava/lang/Runtime$Version;
  ()L1java/lang/Runtime$Version;
 stream

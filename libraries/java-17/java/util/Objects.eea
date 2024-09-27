@@ -1,10 +1,26 @@
 class java/util/Objects
-equals
- (Ljava/lang/Object;Ljava/lang/Object;)Z
- (L0java/lang/Object;L0java/lang/Object;)Z
+
+compare
+ <T:Ljava/lang/Object;>(TT;TT;Ljava/util/Comparator<-TT;>;)I
+ <T:Ljava/lang/Object;>(TT;TT;L1java/util/Comparator<-TT;>;)I
 deepEquals
  (Ljava/lang/Object;Ljava/lang/Object;)Z
  (L0java/lang/Object;L0java/lang/Object;)Z
+equals
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+ (L0java/lang/Object;L0java/lang/Object;)Z
+hash
+ ([Ljava/lang/Object;)I
+ ([0L0java/lang/Object;)I
+hashCode
+ (Ljava/lang/Object;)I
+ (L0java/lang/Object;)I
+isNull
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+nonNull
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
 requireNonNull
  <T:Ljava/lang/Object;>(TT;)TT;
  <T:Ljava/lang/Object;>(T0T;)T1T;
@@ -26,18 +42,3 @@ toString
 toString
  (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
  (L0java/lang/Object;L0java/lang/String;)L0java/lang/String;
-compare
- <T:Ljava/lang/Object;>(TT;TT;Ljava/util/Comparator<-TT;>;)I
- <T:Ljava/lang/Object;>(TT;TT;L1java/util/Comparator<-TT;>;)I
-isNull
- (Ljava/lang/Object;)Z
- (L0java/lang/Object;)Z
-nonNull
- (Ljava/lang/Object;)Z
- (L0java/lang/Object;)Z
-hashCode
- (Ljava/lang/Object;)I
- (L0java/lang/Object;)I
-hash
- ([Ljava/lang/Object;)I
- ([0L0java/lang/Object;)I

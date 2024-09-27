@@ -1,0 +1,27 @@
+class javax/swing/table/DefaultTableCellRenderer
+
+noFocusBorder
+ Ljavax/swing/border/Border;
+ Ljavax/swing/border/Border;
+
+firePropertyChange
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+firePropertyChange
+ (Ljava/lang/String;ZZ)V
+ (Ljava/lang/String;ZZ)V
+getTableCellRendererComponent
+ (Ljavax/swing/JTable;Ljava/lang/Object;ZZII)Ljava/awt/Component;
+ (Ljavax/swing/JTable;Ljava/lang/Object;ZZII)Ljava/awt/Component;
+repaint
+ (Ljava/awt/Rectangle;)V
+ (Ljava/awt/Rectangle;)V
+setBackground
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setForeground
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setValue
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

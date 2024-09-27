@@ -1,0 +1,184 @@
+class javax/swing/text/JTextComponent
+
+DEFAULT_KEYMAP
+ Ljava/lang/String;
+ L1java/lang/String;
+FOCUS_ACCELERATOR_KEY
+ Ljava/lang/String;
+ L1java/lang/String;
+
+addKeymap
+ (Ljava/lang/String;Ljavax/swing/text/Keymap;)Ljavax/swing/text/Keymap;
+ (Ljava/lang/String;Ljavax/swing/text/Keymap;)Ljavax/swing/text/Keymap;
+getKeymap
+ (Ljava/lang/String;)Ljavax/swing/text/Keymap;
+ (Ljava/lang/String;)Ljavax/swing/text/Keymap;
+loadKeymap
+ (Ljavax/swing/text/Keymap;[Ljavax/swing/text/JTextComponent$KeyBinding;[Ljavax/swing/Action;)V
+ (Ljavax/swing/text/Keymap;[Ljavax/swing/text/JTextComponent$KeyBinding;[Ljavax/swing/Action;)V
+removeKeymap
+ (Ljava/lang/String;)Ljavax/swing/text/Keymap;
+ (Ljava/lang/String;)Ljavax/swing/text/Keymap;
+
+addCaretListener
+ (Ljavax/swing/event/CaretListener;)V
+ (L1javax/swing/event/CaretListener;)V
+addInputMethodListener
+ (Ljava/awt/event/InputMethodListener;)V
+ (L1java/awt/event/InputMethodListener;)V # @Inherited(java.awt.Component)
+fireCaretUpdate
+ (Ljavax/swing/event/CaretEvent;)V
+ (Ljavax/swing/event/CaretEvent;)V
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getActions
+ ()[Ljavax/swing/Action;
+ ()[Ljavax/swing/Action;
+getCaret
+ ()Ljavax/swing/text/Caret;
+ ()Ljavax/swing/text/Caret;
+getCaretColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getCaretListeners
+ ()[Ljavax/swing/event/CaretListener;
+ ()[Ljavax/swing/event/CaretListener;
+getDisabledTextColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getDocument
+ ()Ljavax/swing/text/Document;
+ ()Ljavax/swing/text/Document;
+getDropLocation
+ ()Ljavax/swing/text/JTextComponent$DropLocation;
+ ()Ljavax/swing/text/JTextComponent$DropLocation;
+getDropMode
+ ()Ljavax/swing/DropMode;
+ ()Ljavax/swing/DropMode;
+getHighlighter
+ ()Ljavax/swing/text/Highlighter;
+ ()Ljavax/swing/text/Highlighter;
+getInputMethodRequests
+ ()Ljava/awt/im/InputMethodRequests;
+ ()Ljava/awt/im/InputMethodRequests;
+getKeymap
+ ()Ljavax/swing/text/Keymap;
+ ()Ljavax/swing/text/Keymap;
+getMargin
+ ()Ljava/awt/Insets;
+ ()Ljava/awt/Insets;
+getNavigationFilter
+ ()Ljavax/swing/text/NavigationFilter;
+ ()Ljavax/swing/text/NavigationFilter;
+getPreferredScrollableViewportSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getPrintable
+ (Ljava/text/MessageFormat;Ljava/text/MessageFormat;)Ljava/awt/print/Printable;
+ (Ljava/text/MessageFormat;Ljava/text/MessageFormat;)Ljava/awt/print/Printable;
+getScrollableBlockIncrement
+ (Ljava/awt/Rectangle;II)I
+ (Ljava/awt/Rectangle;II)I
+getScrollableUnitIncrement
+ (Ljava/awt/Rectangle;II)I
+ (Ljava/awt/Rectangle;II)I
+getSelectedText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSelectedTextColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getSelectionColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getText
+ (II)Ljava/lang/String;
+ (II)Ljava/lang/String;
+getToolTipText
+ (Ljava/awt/event/MouseEvent;)Ljava/lang/String;
+ (L1java/awt/event/MouseEvent;)Ljava/lang/String; # @Inherited(javax.swing.JComponent)
+getUI
+ ()Ljavax/swing/plaf/TextUI;
+ ()Ljavax/swing/plaf/TextUI;
+modelToView
+ (I)Ljava/awt/Rectangle;
+ (I)Ljava/awt/Rectangle;
+modelToView2D
+ (I)Ljava/awt/geom/Rectangle2D;
+ (I)Ljava/awt/geom/Rectangle2D;
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+print
+ (Ljava/text/MessageFormat;Ljava/text/MessageFormat;)Z
+ (Ljava/text/MessageFormat;Ljava/text/MessageFormat;)Z
+print
+ (Ljava/text/MessageFormat;Ljava/text/MessageFormat;ZLjavax/print/PrintService;Ljavax/print/attribute/PrintRequestAttributeSet;Z)Z
+ (Ljava/text/MessageFormat;Ljava/text/MessageFormat;ZLjavax/print/PrintService;Ljavax/print/attribute/PrintRequestAttributeSet;Z)Z
+processInputMethodEvent
+ (Ljava/awt/event/InputMethodEvent;)V
+ (Ljava/awt/event/InputMethodEvent;)V
+read
+ (Ljava/io/Reader;Ljava/lang/Object;)V
+ (Ljava/io/Reader;Ljava/lang/Object;)V
+removeCaretListener
+ (Ljavax/swing/event/CaretListener;)V
+ (L1javax/swing/event/CaretListener;)V
+replaceSelection
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setCaret
+ (Ljavax/swing/text/Caret;)V
+ (Ljavax/swing/text/Caret;)V
+setCaretColor
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setComponentOrientation
+ (Ljava/awt/ComponentOrientation;)V
+ (Ljava/awt/ComponentOrientation;)V
+setDisabledTextColor
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setDocument
+ (Ljavax/swing/text/Document;)V
+ (Ljavax/swing/text/Document;)V
+setDropMode
+ (Ljavax/swing/DropMode;)V
+ (Ljavax/swing/DropMode;)V
+setHighlighter
+ (Ljavax/swing/text/Highlighter;)V
+ (Ljavax/swing/text/Highlighter;)V
+setKeymap
+ (Ljavax/swing/text/Keymap;)V
+ (Ljavax/swing/text/Keymap;)V
+setMargin
+ (Ljava/awt/Insets;)V
+ (Ljava/awt/Insets;)V
+setNavigationFilter
+ (Ljavax/swing/text/NavigationFilter;)V
+ (Ljavax/swing/text/NavigationFilter;)V
+setSelectedTextColor
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setSelectionColor
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setText
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setUI
+ (Ljavax/swing/plaf/TextUI;)V
+ (Ljavax/swing/plaf/TextUI;)V
+viewToModel
+ (Ljava/awt/Point;)I
+ (Ljava/awt/Point;)I
+viewToModel2D
+ (Ljava/awt/geom/Point2D;)I
+ (Ljava/awt/geom/Point2D;)I
+write
+ (Ljava/io/Writer;)V
+ (Ljava/io/Writer;)V

@@ -1,0 +1,23 @@
+class java/beans/XMLEncoder
+
+<init>
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V
+<init>
+ (Ljava/io/OutputStream;Ljava/lang/String;ZI)V
+ (Ljava/io/OutputStream;Ljava/lang/String;ZI)V
+getOwner
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+setOwner
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+writeExpression
+ (Ljava/beans/Expression;)V
+ (Ljava/beans/Expression;)V
+writeObject
+ (Ljava/lang/Object;)V
+ (L1java/lang/Object;)V # @Inherited(java.beans.Encoder)
+writeStatement
+ (Ljava/beans/Statement;)V
+ (Ljava/beans/Statement;)V

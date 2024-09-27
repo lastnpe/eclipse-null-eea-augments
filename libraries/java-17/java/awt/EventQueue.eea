@@ -1,0 +1,33 @@
+class java/awt/EventQueue
+
+getCurrentEvent
+ ()Ljava/awt/AWTEvent;
+ ()Ljava/awt/AWTEvent;
+invokeAndWait
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+invokeLater
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+
+createSecondaryLoop
+ ()Ljava/awt/SecondaryLoop;
+ ()Ljava/awt/SecondaryLoop;
+dispatchEvent
+ (Ljava/awt/AWTEvent;)V
+ (Ljava/awt/AWTEvent;)V
+getNextEvent
+ ()Ljava/awt/AWTEvent;
+ ()Ljava/awt/AWTEvent;
+peekEvent
+ ()Ljava/awt/AWTEvent;
+ ()Ljava/awt/AWTEvent;
+peekEvent
+ (I)Ljava/awt/AWTEvent;
+ (I)Ljava/awt/AWTEvent;
+postEvent
+ (Ljava/awt/AWTEvent;)V
+ (Ljava/awt/AWTEvent;)V
+push
+ (Ljava/awt/EventQueue;)V
+ (Ljava/awt/EventQueue;)V

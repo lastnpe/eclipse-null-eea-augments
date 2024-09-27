@@ -1,0 +1,60 @@
+class javax/swing/JProgressBar
+
+changeEvent
+ Ljavax/swing/event/ChangeEvent;
+ Ljavax/swing/event/ChangeEvent;
+changeListener
+ Ljavax/swing/event/ChangeListener;
+ Ljavax/swing/event/ChangeListener;
+model
+ Ljavax/swing/BoundedRangeModel;
+ Ljavax/swing/BoundedRangeModel;
+progressString
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+<init>
+ (Ljavax/swing/BoundedRangeModel;)V
+ (Ljavax/swing/BoundedRangeModel;)V
+addChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V
+createChangeListener
+ ()Ljavax/swing/event/ChangeListener;
+ ()Ljavax/swing/event/ChangeListener;
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getChangeListeners
+ ()[Ljavax/swing/event/ChangeListener;
+ ()[Ljavax/swing/event/ChangeListener;
+getModel
+ ()Ljavax/swing/BoundedRangeModel;
+ ()Ljavax/swing/BoundedRangeModel;
+getString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getUI
+ ()Ljavax/swing/plaf/ProgressBarUI;
+ ()Ljavax/swing/plaf/ProgressBarUI;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+paintBorder
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+removeChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V
+setModel
+ (Ljavax/swing/BoundedRangeModel;)V
+ (Ljavax/swing/BoundedRangeModel;)V
+setString
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setUI
+ (Ljavax/swing/plaf/ProgressBarUI;)V
+ (Ljavax/swing/plaf/ProgressBarUI;)V

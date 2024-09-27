@@ -1,0 +1,33 @@
+class java/time/temporal/ChronoField
+
+super java/lang/Enum
+ <Ljava/time/temporal/ChronoField;>
+ <Ljava/time/temporal/ChronoField;>
+
+adjustInto
+ <R::Ljava/time/temporal/Temporal;>(TR;J)TR;
+ <R::Ljava/time/temporal/Temporal;>(TR;J)TR;
+getBaseUnit
+ ()Ljava/time/temporal/TemporalUnit;
+ ()Ljava/time/temporal/TemporalUnit;
+getDisplayName
+ (Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/util/Locale;)Ljava/lang/String;
+getFrom
+ (Ljava/time/temporal/TemporalAccessor;)J
+ (Ljava/time/temporal/TemporalAccessor;)J
+getRangeUnit
+ ()Ljava/time/temporal/TemporalUnit;
+ ()Ljava/time/temporal/TemporalUnit;
+isSupportedBy
+ (Ljava/time/temporal/TemporalAccessor;)Z
+ (Ljava/time/temporal/TemporalAccessor;)Z
+range
+ ()Ljava/time/temporal/ValueRange;
+ ()Ljava/time/temporal/ValueRange;
+rangeRefinedBy
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/temporal/ValueRange;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/temporal/ValueRange;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Enum)

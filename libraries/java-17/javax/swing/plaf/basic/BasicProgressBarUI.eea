@@ -1,0 +1,70 @@
+class javax/swing/plaf/basic/BasicProgressBarUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+boxRect
+ Ljava/awt/Rectangle;
+ Ljava/awt/Rectangle;
+changeListener
+ Ljavax/swing/event/ChangeListener;
+ Ljavax/swing/event/ChangeListener;
+progressBar
+ Ljavax/swing/JProgressBar;
+ Ljavax/swing/JProgressBar;
+
+getAmountFull
+ (Ljava/awt/Insets;II)I
+ (Ljava/awt/Insets;II)I
+getBaseline
+ (Ljavax/swing/JComponent;II)I
+ (Ljavax/swing/JComponent;II)I
+getBaselineResizeBehavior
+ (Ljavax/swing/JComponent;)Ljava/awt/Component$BaselineResizeBehavior;
+ (Ljavax/swing/JComponent;)Ljava/awt/Component$BaselineResizeBehavior;
+getBox
+ (Ljava/awt/Rectangle;)Ljava/awt/Rectangle;
+ (Ljava/awt/Rectangle;)Ljava/awt/Rectangle;
+getMaximumSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getMinimumSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getPreferredInnerHorizontal
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getPreferredInnerVertical
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getPreferredSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getSelectionBackground
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getSelectionForeground
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getStringPlacement
+ (Ljava/awt/Graphics;Ljava/lang/String;IIII)Ljava/awt/Point;
+ (Ljava/awt/Graphics;Ljava/lang/String;IIII)Ljava/awt/Point;
+installUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+paint
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+paintDeterminate
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+paintIndeterminate
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+paintString
+ (Ljava/awt/Graphics;IIIIILjava/awt/Insets;)V
+ (Ljava/awt/Graphics;IIIIILjava/awt/Insets;)V
+uninstallUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V

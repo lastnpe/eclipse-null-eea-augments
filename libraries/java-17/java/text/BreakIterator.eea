@@ -1,0 +1,42 @@
+class java/text/BreakIterator
+
+getAvailableLocales
+ ()[Ljava/util/Locale;
+ ()[Ljava/util/Locale;
+getCharacterInstance
+ ()Ljava/text/BreakIterator;
+ ()Ljava/text/BreakIterator;
+getCharacterInstance
+ (Ljava/util/Locale;)Ljava/text/BreakIterator;
+ (Ljava/util/Locale;)Ljava/text/BreakIterator;
+getLineInstance
+ ()Ljava/text/BreakIterator;
+ ()Ljava/text/BreakIterator;
+getLineInstance
+ (Ljava/util/Locale;)Ljava/text/BreakIterator;
+ (Ljava/util/Locale;)Ljava/text/BreakIterator;
+getSentenceInstance
+ ()Ljava/text/BreakIterator;
+ ()Ljava/text/BreakIterator;
+getSentenceInstance
+ (Ljava/util/Locale;)Ljava/text/BreakIterator;
+ (Ljava/util/Locale;)Ljava/text/BreakIterator;
+getWordInstance
+ ()Ljava/text/BreakIterator;
+ ()Ljava/text/BreakIterator;
+getWordInstance
+ (Ljava/util/Locale;)Ljava/text/BreakIterator;
+ (Ljava/util/Locale;)Ljava/text/BreakIterator;
+
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+getText
+ ()Ljava/text/CharacterIterator;
+ ()Ljava/text/CharacterIterator;
+setText
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setText
+ (Ljava/text/CharacterIterator;)V
+ (Ljava/text/CharacterIterator;)V

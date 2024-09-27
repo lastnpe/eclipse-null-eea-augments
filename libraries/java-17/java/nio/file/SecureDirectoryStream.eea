@@ -1,0 +1,29 @@
+class java/nio/file/SecureDirectoryStream
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super java/nio/file/DirectoryStream
+ <TT;>
+ <TT;>
+
+deleteDirectory
+ (TT;)V
+ (TT;)V
+deleteFile
+ (TT;)V
+ (TT;)V
+getFileAttributeView
+ <V::Ljava/nio/file/attribute/FileAttributeView;>(Ljava/lang/Class<TV;>;)TV;
+ <V::Ljava/nio/file/attribute/FileAttributeView;>(Ljava/lang/Class<TV;>;)TV;
+getFileAttributeView
+ <V::Ljava/nio/file/attribute/FileAttributeView;>(TT;Ljava/lang/Class<TV;>;[Ljava/nio/file/LinkOption;)TV;
+ <V::Ljava/nio/file/attribute/FileAttributeView;>(TT;Ljava/lang/Class<TV;>;[Ljava/nio/file/LinkOption;)TV;
+move
+ (TT;Ljava/nio/file/SecureDirectoryStream<TT;>;TT;)V
+ (TT;Ljava/nio/file/SecureDirectoryStream<TT;>;TT;)V
+newByteChannel
+ (TT;Ljava/util/Set<+Ljava/nio/file/OpenOption;>;[Ljava/nio/file/attribute/FileAttribute<*>;)Ljava/nio/channels/SeekableByteChannel;
+ (TT;Ljava/util/Set<+Ljava/nio/file/OpenOption;>;[Ljava/nio/file/attribute/FileAttribute<*>;)Ljava/nio/channels/SeekableByteChannel;
+newDirectoryStream
+ (TT;[Ljava/nio/file/LinkOption;)Ljava/nio/file/SecureDirectoryStream<TT;>;
+ (TT;[Ljava/nio/file/LinkOption;)Ljava/nio/file/SecureDirectoryStream<TT;>;

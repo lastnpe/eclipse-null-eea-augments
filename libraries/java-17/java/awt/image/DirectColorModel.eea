@@ -1,0 +1,47 @@
+class java/awt/image/DirectColorModel
+
+<init>
+ (Ljava/awt/color/ColorSpace;IIIIIZI)V
+ (Ljava/awt/color/ColorSpace;IIIIIZI)V
+coerceData
+ (Ljava/awt/image/WritableRaster;Z)Ljava/awt/image/ColorModel;
+ (Ljava/awt/image/WritableRaster;Z)Ljava/awt/image/ColorModel;
+createCompatibleWritableRaster
+ (II)Ljava/awt/image/WritableRaster;
+ (II)Ljava/awt/image/WritableRaster;
+getAlpha
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+getBlue
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+getComponents
+ (I[II)[I
+ (I[II)[I
+getComponents
+ (Ljava/lang/Object;[II)[I
+ (Ljava/lang/Object;[II)[I
+getDataElement
+ ([II)I
+ ([II)I
+getDataElements
+ (ILjava/lang/Object;)Ljava/lang/Object;
+ (ILjava/lang/Object;)Ljava/lang/Object;
+getDataElements
+ ([IILjava/lang/Object;)Ljava/lang/Object;
+ ([IILjava/lang/Object;)Ljava/lang/Object;
+getGreen
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+getRGB
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+getRed
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+isCompatibleRaster
+ (Ljava/awt/image/Raster;)Z
+ (Ljava/awt/image/Raster;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.awt.image.ColorModel)

@@ -1,0 +1,39 @@
+class javax/swing/border/MatteBorder
+
+color
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+tileIcon
+ Ljavax/swing/Icon;
+ Ljavax/swing/Icon;
+
+<init>
+ (IIIILjava/awt/Color;)V
+ (IIIILjava/awt/Color;)V
+<init>
+ (IIIILjavax/swing/Icon;)V
+ (IIIILjavax/swing/Icon;)V
+<init>
+ (Ljava/awt/Insets;Ljava/awt/Color;)V
+ (Ljava/awt/Insets;Ljava/awt/Color;)V
+<init>
+ (Ljava/awt/Insets;Ljavax/swing/Icon;)V
+ (Ljava/awt/Insets;Ljavax/swing/Icon;)V
+<init>
+ (Ljavax/swing/Icon;)V
+ (Ljavax/swing/Icon;)V
+getBorderInsets
+ ()Ljava/awt/Insets;
+ ()Ljava/awt/Insets;
+getBorderInsets
+ (Ljava/awt/Component;Ljava/awt/Insets;)Ljava/awt/Insets;
+ (Ljava/awt/Component;Ljava/awt/Insets;)Ljava/awt/Insets;
+getMatteColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getTileIcon
+ ()Ljavax/swing/Icon;
+ ()Ljavax/swing/Icon;
+paintBorder
+ (Ljava/awt/Component;Ljava/awt/Graphics;IIII)V
+ (Ljava/awt/Component;Ljava/awt/Graphics;IIII)V

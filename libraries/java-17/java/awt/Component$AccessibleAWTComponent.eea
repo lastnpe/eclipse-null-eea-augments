@@ -1,0 +1,102 @@
+class java/awt/Component$AccessibleAWTComponent
+
+accessibleAWTComponentHandler
+ Ljava/awt/event/ComponentListener;
+ Ljava/awt/event/ComponentListener;
+accessibleAWTFocusHandler
+ Ljava/awt/event/FocusListener;
+ Ljava/awt/event/FocusListener;
+
+<init>
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+addFocusListener
+ (Ljava/awt/event/FocusListener;)V
+ (L1java/awt/event/FocusListener;)V # @Inherited(javax.accessibility.AccessibleComponent)
+addPropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V # @Inherited(javax.accessibility.AccessibleContext)
+contains
+ (Ljava/awt/Point;)Z
+ (Ljava/awt/Point;)Z
+getAccessibleAt
+ (Ljava/awt/Point;)Ljavax/accessibility/Accessible;
+ (Ljava/awt/Point;)Ljavax/accessibility/Accessible;
+getAccessibleChild
+ (I)Ljavax/accessibility/Accessible;
+ (I)Ljavax/accessibility/Accessible;
+getAccessibleComponent
+ ()Ljavax/accessibility/AccessibleComponent;
+ ()Ljavax/accessibility/AccessibleComponent;
+getAccessibleDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getAccessibleName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getAccessibleParent
+ ()Ljavax/accessibility/Accessible;
+ ()Ljavax/accessibility/Accessible;
+getAccessibleRole
+ ()Ljavax/accessibility/AccessibleRole;
+ ()Ljavax/accessibility/AccessibleRole;
+getAccessibleStateSet
+ ()Ljavax/accessibility/AccessibleStateSet;
+ ()Ljavax/accessibility/AccessibleStateSet;
+getBackground
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getBounds
+ ()Ljava/awt/Rectangle;
+ ()Ljava/awt/Rectangle;
+getCursor
+ ()Ljava/awt/Cursor;
+ ()Ljava/awt/Cursor;
+getFont
+ ()Ljava/awt/Font;
+ ()Ljava/awt/Font;
+getFontMetrics
+ (Ljava/awt/Font;)Ljava/awt/FontMetrics;
+ (Ljava/awt/Font;)Ljava/awt/FontMetrics;
+getForeground
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+getLocation
+ ()Ljava/awt/Point;
+ ()Ljava/awt/Point;
+getLocationOnScreen
+ ()Ljava/awt/Point;
+ ()Ljava/awt/Point;
+getSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+removeFocusListener
+ (Ljava/awt/event/FocusListener;)V
+ (L1java/awt/event/FocusListener;)V # @Inherited(javax.accessibility.AccessibleComponent)
+removePropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V # @Inherited(javax.accessibility.AccessibleContext)
+setBackground
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setBounds
+ (Ljava/awt/Rectangle;)V
+ (Ljava/awt/Rectangle;)V
+setCursor
+ (Ljava/awt/Cursor;)V
+ (Ljava/awt/Cursor;)V
+setFont
+ (Ljava/awt/Font;)V
+ (Ljava/awt/Font;)V
+setForeground
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setLocation
+ (Ljava/awt/Point;)V
+ (Ljava/awt/Point;)V
+setSize
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V

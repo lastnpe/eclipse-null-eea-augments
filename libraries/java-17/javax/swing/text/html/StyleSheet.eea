@@ -1,0 +1,95 @@
+class javax/swing/text/html/StyleSheet
+
+addAttribute
+ (Ljavax/swing/text/AttributeSet;Ljava/lang/Object;Ljava/lang/Object;)Ljavax/swing/text/AttributeSet;
+ (Ljavax/swing/text/AttributeSet;Ljava/lang/Object;Ljava/lang/Object;)Ljavax/swing/text/AttributeSet;
+addAttributes
+ (Ljavax/swing/text/AttributeSet;Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/AttributeSet;
+ (Ljavax/swing/text/AttributeSet;Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/AttributeSet;
+addCSSAttribute
+ (Ljavax/swing/text/MutableAttributeSet;Ljavax/swing/text/html/CSS$Attribute;Ljava/lang/String;)V
+ (Ljavax/swing/text/MutableAttributeSet;Ljavax/swing/text/html/CSS$Attribute;Ljava/lang/String;)V
+addCSSAttributeFromHTML
+ (Ljavax/swing/text/MutableAttributeSet;Ljavax/swing/text/html/CSS$Attribute;Ljava/lang/String;)Z
+ (Ljavax/swing/text/MutableAttributeSet;Ljavax/swing/text/html/CSS$Attribute;Ljava/lang/String;)Z
+addRule
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+addStyleSheet
+ (Ljavax/swing/text/html/StyleSheet;)V
+ (Ljavax/swing/text/html/StyleSheet;)V
+createLargeAttributeSet
+ (Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/MutableAttributeSet;
+ (Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/MutableAttributeSet;
+createSmallAttributeSet
+ (Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/StyleContext$SmallAttributeSet;
+ (Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/StyleContext$SmallAttributeSet;
+getBackground
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Color;
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Color;
+getBase
+ ()Ljava/net/URL;
+ ()Ljava/net/URL;
+getBoxPainter
+ (Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/html/StyleSheet$BoxPainter;
+ (Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/html/StyleSheet$BoxPainter;
+getDeclaration
+ (Ljava/lang/String;)Ljavax/swing/text/AttributeSet;
+ (Ljava/lang/String;)Ljavax/swing/text/AttributeSet;
+getFont
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Font;
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Font;
+getForeground
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Color;
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Color;
+getListPainter
+ (Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/html/StyleSheet$ListPainter;
+ (Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/html/StyleSheet$ListPainter;
+getPointSize
+ (Ljava/lang/String;)F
+ (Ljava/lang/String;)F
+getRule
+ (Ljava/lang/String;)Ljavax/swing/text/Style;
+ (Ljava/lang/String;)Ljavax/swing/text/Style;
+getRule
+ (Ljavax/swing/text/html/HTML$Tag;Ljavax/swing/text/Element;)Ljavax/swing/text/Style;
+ (Ljavax/swing/text/html/HTML$Tag;Ljavax/swing/text/Element;)Ljavax/swing/text/Style;
+getStyleSheets
+ ()[Ljavax/swing/text/html/StyleSheet;
+ ()[Ljavax/swing/text/html/StyleSheet;
+getViewAttributes
+ (Ljavax/swing/text/View;)Ljavax/swing/text/AttributeSet;
+ (Ljavax/swing/text/View;)Ljavax/swing/text/AttributeSet;
+importStyleSheet
+ (Ljava/net/URL;)V
+ (Ljava/net/URL;)V
+loadRules
+ (Ljava/io/Reader;Ljava/net/URL;)V
+ (Ljava/io/Reader;Ljava/net/URL;)V
+removeAttribute
+ (Ljavax/swing/text/AttributeSet;Ljava/lang/Object;)Ljavax/swing/text/AttributeSet;
+ (Ljavax/swing/text/AttributeSet;Ljava/lang/Object;)Ljavax/swing/text/AttributeSet;
+removeAttributes
+ (Ljavax/swing/text/AttributeSet;Ljava/util/Enumeration<*>;)Ljavax/swing/text/AttributeSet;
+ (Ljavax/swing/text/AttributeSet;Ljava/util/Enumeration<*>;)Ljavax/swing/text/AttributeSet;
+removeAttributes
+ (Ljavax/swing/text/AttributeSet;Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/AttributeSet;
+ (Ljavax/swing/text/AttributeSet;Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/AttributeSet;
+removeStyle
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+removeStyleSheet
+ (Ljavax/swing/text/html/StyleSheet;)V
+ (Ljavax/swing/text/html/StyleSheet;)V
+setBase
+ (Ljava/net/URL;)V
+ (Ljava/net/URL;)V
+setBaseFontSize
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+stringToColor
+ (Ljava/lang/String;)Ljava/awt/Color;
+ (Ljava/lang/String;)Ljava/awt/Color;
+translateHTMLToCSS
+ (Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/AttributeSet;
+ (Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/AttributeSet;

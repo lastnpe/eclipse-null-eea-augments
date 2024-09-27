@@ -1,0 +1,35 @@
+class java/lang/reflect/RecordComponent
+
+getAccessor
+ ()Ljava/lang/reflect/Method;
+ ()Ljava/lang/reflect/Method;
+getAnnotatedType
+ ()Ljava/lang/reflect/AnnotatedType;
+ ()Ljava/lang/reflect/AnnotatedType;
+getAnnotation
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
+getAnnotations
+ ()[Ljava/lang/annotation/Annotation;
+ ()[Ljava/lang/annotation/Annotation;
+getDeclaredAnnotations
+ ()[Ljava/lang/annotation/Annotation;
+ ()[Ljava/lang/annotation/Annotation;
+getDeclaringRecord
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getGenericSignature
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getGenericType
+ ()Ljava/lang/reflect/Type;
+ ()Ljava/lang/reflect/Type;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

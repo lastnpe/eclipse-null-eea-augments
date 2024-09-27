@@ -1,4 +1,11 @@
 class java/util/concurrent/atomic/AtomicIntegerFieldUpdater
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+newUpdater
+ <U:Ljava/lang/Object;>(Ljava/lang/Class<TU;>;Ljava/lang/String;)Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater<TU;>;
+ <U:Ljava/lang/Object;>(L1java/lang/Class<TU;>;L1java/lang/String;)L1java/util/concurrent/atomic/AtomicIntegerFieldUpdater<T1U;>;
+
 accumulateAndGet
  (TT;ILjava/util/function/IntBinaryOperator;)I
  (T1T;IL1java/util/function/IntBinaryOperator;)I
@@ -38,9 +45,6 @@ incrementAndGet
 lazySet
  (TT;I)V
  (T1T;I)V
-newUpdater
- <U:Ljava/lang/Object;>(Ljava/lang/Class<TU;>;Ljava/lang/String;)Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater<TU;>;
- <U:Ljava/lang/Object;>(L1java/lang/Class<TU;>;L1java/lang/String;)L1java/util/concurrent/atomic/AtomicIntegerFieldUpdater<T1U;>;
 set
  (TT;I)V
  (T1T;I)V

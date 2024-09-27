@@ -1,4 +1,15 @@
 class java/lang/System
+
+err
+ Ljava/io/PrintStream;
+ L0java/io/PrintStream;
+in
+ Ljava/io/InputStream;
+ L0java/io/InputStream;
+out
+ Ljava/io/PrintStream;
+ L0java/io/PrintStream;
+
 arraycopy
  (Ljava/lang/Object;ILjava/lang/Object;II)V
  (L1java/lang/Object;IL1java/lang/Object;II)V
@@ -8,9 +19,6 @@ clearProperty
 console
  ()Ljava/io/Console;
  ()L0java/io/Console;
-err
- Ljava/io/PrintStream;
- L0java/io/PrintStream;
 getLogger
  (Ljava/lang/String;)Ljava/lang/System$Logger;
  (L1java/lang/String;)L1java/lang/System$Logger;
@@ -38,9 +46,6 @@ getenv
 identityHashCode
  (Ljava/lang/Object;)I
  (L0java/lang/Object;)I
-in
- Ljava/io/InputStream;
- L0java/io/InputStream;
 inheritedChannel
  ()Ljava/nio/channels/Channel;
  ()L0java/nio/channels/Channel;
@@ -56,9 +61,6 @@ loadLibrary
 mapLibraryName
  (Ljava/lang/String;)Ljava/lang/String;
  (L1java/lang/String;)Ljava/lang/String;
-out
- Ljava/io/PrintStream;
- L0java/io/PrintStream;
 setErr
  (Ljava/io/PrintStream;)V
  (L0java/io/PrintStream;)V

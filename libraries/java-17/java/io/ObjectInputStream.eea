@@ -1,0 +1,53 @@
+class java/io/ObjectInputStream
+
+<init>
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+getObjectInputFilter
+ ()Ljava/io/ObjectInputFilter;
+ ()Ljava/io/ObjectInputFilter;
+read
+ ([BII)I
+ ([BII)I
+readClassDescriptor
+ ()Ljava/io/ObjectStreamClass;
+ ()Ljava/io/ObjectStreamClass;
+readFields
+ ()Ljava/io/ObjectInputStream$GetField;
+ ()Ljava/io/ObjectInputStream$GetField;
+readFully
+ ([B)V
+ ([B)V
+readFully
+ ([BII)V
+ ([BII)V
+readLine
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+readObject
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.io.ObjectInput)
+readObjectOverride
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+readUTF
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+readUnshared
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+registerValidation
+ (Ljava/io/ObjectInputValidation;I)V
+ (Ljava/io/ObjectInputValidation;I)V
+resolveClass
+ (Ljava/io/ObjectStreamClass;)Ljava/lang/Class<*>;
+ (Ljava/io/ObjectStreamClass;)Ljava/lang/Class<*>;
+resolveObject
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+resolveProxyClass
+ ([Ljava/lang/String;)Ljava/lang/Class<*>;
+ ([Ljava/lang/String;)Ljava/lang/Class<*>;
+setObjectInputFilter
+ (Ljava/io/ObjectInputFilter;)V
+ (Ljava/io/ObjectInputFilter;)V

@@ -1,0 +1,57 @@
+class javax/swing/text/html/HTMLDocument$HTMLReader
+
+charAttr
+ Ljavax/swing/text/MutableAttributeSet;
+ Ljavax/swing/text/MutableAttributeSet;
+parseBuffer
+ Ljava/util/Vector<Ljavax/swing/text/DefaultStyledDocument$ElementSpec;>;
+ Ljava/util/Vector<Ljavax/swing/text/DefaultStyledDocument$ElementSpec;>;
+
+<init>
+ (Ljavax/swing/text/html/HTMLDocument;I)V
+ (Ljavax/swing/text/html/HTMLDocument;I)V
+<init>
+ (Ljavax/swing/text/html/HTMLDocument;IIILjavax/swing/text/html/HTML$Tag;)V
+ (Ljavax/swing/text/html/HTMLDocument;IIILjavax/swing/text/html/HTML$Tag;)V
+addContent
+ ([CII)V
+ ([CII)V
+addContent
+ ([CIIZ)V
+ ([CIIZ)V
+addSpecialElement
+ (Ljavax/swing/text/html/HTML$Tag;Ljavax/swing/text/MutableAttributeSet;)V
+ (Ljavax/swing/text/html/HTML$Tag;Ljavax/swing/text/MutableAttributeSet;)V
+blockClose
+ (Ljavax/swing/text/html/HTML$Tag;)V
+ (Ljavax/swing/text/html/HTML$Tag;)V
+blockOpen
+ (Ljavax/swing/text/html/HTML$Tag;Ljavax/swing/text/MutableAttributeSet;)V
+ (Ljavax/swing/text/html/HTML$Tag;Ljavax/swing/text/MutableAttributeSet;)V
+handleComment
+ ([CI)V
+ ([CI)V
+handleEndOfLineString
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+handleEndTag
+ (Ljavax/swing/text/html/HTML$Tag;I)V
+ (Ljavax/swing/text/html/HTML$Tag;I)V
+handleSimpleTag
+ (Ljavax/swing/text/html/HTML$Tag;Ljavax/swing/text/MutableAttributeSet;I)V
+ (Ljavax/swing/text/html/HTML$Tag;Ljavax/swing/text/MutableAttributeSet;I)V
+handleStartTag
+ (Ljavax/swing/text/html/HTML$Tag;Ljavax/swing/text/MutableAttributeSet;I)V
+ (Ljavax/swing/text/html/HTML$Tag;Ljavax/swing/text/MutableAttributeSet;I)V
+handleText
+ ([CI)V
+ ([CI)V
+preContent
+ ([C)V
+ ([C)V
+registerTag
+ (Ljavax/swing/text/html/HTML$Tag;Ljavax/swing/text/html/HTMLDocument$HTMLReader$TagAction;)V
+ (Ljavax/swing/text/html/HTML$Tag;Ljavax/swing/text/html/HTMLDocument$HTMLReader$TagAction;)V
+textAreaContent
+ ([C)V
+ ([C)V

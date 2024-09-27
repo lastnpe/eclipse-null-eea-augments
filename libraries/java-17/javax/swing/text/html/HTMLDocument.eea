@@ -1,0 +1,90 @@
+class javax/swing/text/html/HTMLDocument
+
+AdditionalComments
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljavax/swing/text/AbstractDocument$Content;Ljavax/swing/text/html/StyleSheet;)V
+ (Ljavax/swing/text/AbstractDocument$Content;Ljavax/swing/text/html/StyleSheet;)V
+<init>
+ (Ljavax/swing/text/html/StyleSheet;)V
+ (Ljavax/swing/text/html/StyleSheet;)V
+create
+ ([Ljavax/swing/text/DefaultStyledDocument$ElementSpec;)V
+ ([Ljavax/swing/text/DefaultStyledDocument$ElementSpec;)V
+createBranchElement
+ (Ljavax/swing/text/Element;Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/Element;
+ (Ljavax/swing/text/Element;Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/Element;
+createDefaultRoot
+ ()Ljavax/swing/text/AbstractDocument$AbstractElement;
+ ()Ljavax/swing/text/AbstractDocument$AbstractElement;
+createLeafElement
+ (Ljavax/swing/text/Element;Ljavax/swing/text/AttributeSet;II)Ljavax/swing/text/Element;
+ (Ljavax/swing/text/Element;Ljavax/swing/text/AttributeSet;II)Ljavax/swing/text/Element;
+fireChangedUpdate
+ (Ljavax/swing/event/DocumentEvent;)V
+ (Ljavax/swing/event/DocumentEvent;)V
+fireUndoableEditUpdate
+ (Ljavax/swing/event/UndoableEditEvent;)V
+ (Ljavax/swing/event/UndoableEditEvent;)V
+getBase
+ ()Ljava/net/URL;
+ ()Ljava/net/URL;
+getElement
+ (Ljava/lang/String;)Ljavax/swing/text/Element;
+ (Ljava/lang/String;)Ljavax/swing/text/Element;
+getElement
+ (Ljavax/swing/text/Element;Ljava/lang/Object;Ljava/lang/Object;)Ljavax/swing/text/Element;
+ (Ljavax/swing/text/Element;Ljava/lang/Object;Ljava/lang/Object;)Ljavax/swing/text/Element;
+getIterator
+ (Ljavax/swing/text/html/HTML$Tag;)Ljavax/swing/text/html/HTMLDocument$Iterator;
+ (Ljavax/swing/text/html/HTML$Tag;)Ljavax/swing/text/html/HTMLDocument$Iterator;
+getParser
+ ()Ljavax/swing/text/html/HTMLEditorKit$Parser;
+ ()Ljavax/swing/text/html/HTMLEditorKit$Parser;
+getReader
+ (I)Ljavax/swing/text/html/HTMLEditorKit$ParserCallback;
+ (I)Ljavax/swing/text/html/HTMLEditorKit$ParserCallback;
+getReader
+ (IIILjavax/swing/text/html/HTML$Tag;)Ljavax/swing/text/html/HTMLEditorKit$ParserCallback;
+ (IIILjavax/swing/text/html/HTML$Tag;)Ljavax/swing/text/html/HTMLEditorKit$ParserCallback;
+getStyleSheet
+ ()Ljavax/swing/text/html/StyleSheet;
+ ()Ljavax/swing/text/html/StyleSheet;
+insert
+ (I[Ljavax/swing/text/DefaultStyledDocument$ElementSpec;)V
+ (I[Ljavax/swing/text/DefaultStyledDocument$ElementSpec;)V
+insertAfterEnd
+ (Ljavax/swing/text/Element;Ljava/lang/String;)V
+ (Ljavax/swing/text/Element;Ljava/lang/String;)V
+insertAfterStart
+ (Ljavax/swing/text/Element;Ljava/lang/String;)V
+ (Ljavax/swing/text/Element;Ljava/lang/String;)V
+insertBeforeEnd
+ (Ljavax/swing/text/Element;Ljava/lang/String;)V
+ (Ljavax/swing/text/Element;Ljava/lang/String;)V
+insertBeforeStart
+ (Ljavax/swing/text/Element;Ljava/lang/String;)V
+ (Ljavax/swing/text/Element;Ljava/lang/String;)V
+insertUpdate
+ (Ljavax/swing/text/AbstractDocument$DefaultDocumentEvent;Ljavax/swing/text/AttributeSet;)V
+ (Ljavax/swing/text/AbstractDocument$DefaultDocumentEvent;Ljavax/swing/text/AttributeSet;)V
+processHTMLFrameHyperlinkEvent
+ (Ljavax/swing/text/html/HTMLFrameHyperlinkEvent;)V
+ (Ljavax/swing/text/html/HTMLFrameHyperlinkEvent;)V
+setBase
+ (Ljava/net/URL;)V
+ (Ljava/net/URL;)V
+setInnerHTML
+ (Ljavax/swing/text/Element;Ljava/lang/String;)V
+ (Ljavax/swing/text/Element;Ljava/lang/String;)V
+setOuterHTML
+ (Ljavax/swing/text/Element;Ljava/lang/String;)V
+ (Ljavax/swing/text/Element;Ljava/lang/String;)V
+setParagraphAttributes
+ (IILjavax/swing/text/AttributeSet;Z)V
+ (IILjavax/swing/text/AttributeSet;Z)V
+setParser
+ (Ljavax/swing/text/html/HTMLEditorKit$Parser;)V
+ (Ljavax/swing/text/html/HTMLEditorKit$Parser;)V

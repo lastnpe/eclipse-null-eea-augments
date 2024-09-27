@@ -1,4 +1,21 @@
 class java/lang/ClassLoader
+
+getPlatformClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()L1java/lang/ClassLoader;
+getSystemClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()L1java/lang/ClassLoader;
+getSystemResource
+ (Ljava/lang/String;)Ljava/net/URL;
+ (L1java/lang/String;)L0java/net/URL;
+getSystemResourceAsStream
+ (Ljava/lang/String;)Ljava/io/InputStream;
+ (L1java/lang/String;)L0java/io/InputStream;
+getSystemResources
+ (Ljava/lang/String;)Ljava/util/Enumeration<Ljava/net/URL;>;
+ (L1java/lang/String;)L1java/util/Enumeration<L1java/net/URL;>;
+
 <init>
  (Ljava/lang/ClassLoader;)V
  (L0java/lang/ClassLoader;)V
@@ -65,9 +82,6 @@ getPackages
 getParent
  ()Ljava/lang/ClassLoader;
  ()L0java/lang/ClassLoader;
-getPlatformClassLoader
- ()Ljava/lang/ClassLoader;
- ()L1java/lang/ClassLoader;
 getResource
  (Ljava/lang/String;)Ljava/net/URL;
  (L1java/lang/String;)L0java/net/URL;
@@ -75,18 +89,6 @@ getResourceAsStream
  (Ljava/lang/String;)Ljava/io/InputStream;
  (L1java/lang/String;)L0java/io/InputStream;
 getResources
- (Ljava/lang/String;)Ljava/util/Enumeration<Ljava/net/URL;>;
- (L1java/lang/String;)L1java/util/Enumeration<L1java/net/URL;>;
-getSystemClassLoader
- ()Ljava/lang/ClassLoader;
- ()L1java/lang/ClassLoader;
-getSystemResource
- (Ljava/lang/String;)Ljava/net/URL;
- (L1java/lang/String;)L0java/net/URL;
-getSystemResourceAsStream
- (Ljava/lang/String;)Ljava/io/InputStream;
- (L1java/lang/String;)L0java/io/InputStream;
-getSystemResources
  (Ljava/lang/String;)Ljava/util/Enumeration<Ljava/net/URL;>;
  (L1java/lang/String;)L1java/util/Enumeration<L1java/net/URL;>;
 getUnnamedModule

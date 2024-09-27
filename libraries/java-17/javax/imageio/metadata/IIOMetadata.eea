@@ -1,0 +1,81 @@
+class javax/imageio/metadata/IIOMetadata
+
+controller
+ Ljavax/imageio/metadata/IIOMetadataController;
+ Ljavax/imageio/metadata/IIOMetadataController;
+defaultController
+ Ljavax/imageio/metadata/IIOMetadataController;
+ Ljavax/imageio/metadata/IIOMetadataController;
+extraMetadataFormatClassNames
+ [Ljava/lang/String;
+ [Ljava/lang/String;
+extraMetadataFormatNames
+ [Ljava/lang/String;
+ [Ljava/lang/String;
+nativeMetadataFormatClassName
+ Ljava/lang/String;
+ Ljava/lang/String;
+nativeMetadataFormatName
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+<init>
+ (ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+ (ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+getAsTree
+ (Ljava/lang/String;)Lorg/w3c/dom/Node;
+ (Ljava/lang/String;)Lorg/w3c/dom/Node;
+getController
+ ()Ljavax/imageio/metadata/IIOMetadataController;
+ ()Ljavax/imageio/metadata/IIOMetadataController;
+getDefaultController
+ ()Ljavax/imageio/metadata/IIOMetadataController;
+ ()Ljavax/imageio/metadata/IIOMetadataController;
+getExtraMetadataFormatNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getMetadataFormat
+ (Ljava/lang/String;)Ljavax/imageio/metadata/IIOMetadataFormat;
+ (Ljava/lang/String;)Ljavax/imageio/metadata/IIOMetadataFormat;
+getMetadataFormatNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getNativeMetadataFormatName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getStandardChromaNode
+ ()Ljavax/imageio/metadata/IIOMetadataNode;
+ ()Ljavax/imageio/metadata/IIOMetadataNode;
+getStandardCompressionNode
+ ()Ljavax/imageio/metadata/IIOMetadataNode;
+ ()Ljavax/imageio/metadata/IIOMetadataNode;
+getStandardDataNode
+ ()Ljavax/imageio/metadata/IIOMetadataNode;
+ ()Ljavax/imageio/metadata/IIOMetadataNode;
+getStandardDimensionNode
+ ()Ljavax/imageio/metadata/IIOMetadataNode;
+ ()Ljavax/imageio/metadata/IIOMetadataNode;
+getStandardDocumentNode
+ ()Ljavax/imageio/metadata/IIOMetadataNode;
+ ()Ljavax/imageio/metadata/IIOMetadataNode;
+getStandardTextNode
+ ()Ljavax/imageio/metadata/IIOMetadataNode;
+ ()Ljavax/imageio/metadata/IIOMetadataNode;
+getStandardTileNode
+ ()Ljavax/imageio/metadata/IIOMetadataNode;
+ ()Ljavax/imageio/metadata/IIOMetadataNode;
+getStandardTransparencyNode
+ ()Ljavax/imageio/metadata/IIOMetadataNode;
+ ()Ljavax/imageio/metadata/IIOMetadataNode;
+getStandardTree
+ ()Ljavax/imageio/metadata/IIOMetadataNode;
+ ()Ljavax/imageio/metadata/IIOMetadataNode;
+mergeTree
+ (Ljava/lang/String;Lorg/w3c/dom/Node;)V
+ (Ljava/lang/String;Lorg/w3c/dom/Node;)V
+setController
+ (Ljavax/imageio/metadata/IIOMetadataController;)V
+ (Ljavax/imageio/metadata/IIOMetadataController;)V
+setFromTree
+ (Ljava/lang/String;Lorg/w3c/dom/Node;)V
+ (Ljava/lang/String;Lorg/w3c/dom/Node;)V

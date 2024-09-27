@@ -1,0 +1,24 @@
+class java/awt/im/InputContext
+
+getInstance
+ ()Ljava/awt/im/InputContext;
+ ()Ljava/awt/im/InputContext;
+
+dispatchEvent
+ (Ljava/awt/AWTEvent;)V
+ (Ljava/awt/AWTEvent;)V
+getInputMethodControlObject
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+removeNotify
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+selectInputMethod
+ (Ljava/util/Locale;)Z
+ (Ljava/util/Locale;)Z
+setCharacterSubsets
+ ([Ljava/lang/Character$Subset;)V
+ ([Ljava/lang/Character$Subset;)V

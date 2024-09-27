@@ -1,0 +1,55 @@
+class javax/swing/plaf/basic/BasicTableUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+focusListener
+ Ljava/awt/event/FocusListener;
+ Ljava/awt/event/FocusListener;
+keyListener
+ Ljava/awt/event/KeyListener;
+ Ljava/awt/event/KeyListener;
+mouseInputListener
+ Ljavax/swing/event/MouseInputListener;
+ Ljavax/swing/event/MouseInputListener;
+rendererPane
+ Ljavax/swing/CellRendererPane;
+ Ljavax/swing/CellRendererPane;
+table
+ Ljavax/swing/JTable;
+ Ljavax/swing/JTable;
+
+createFocusListener
+ ()Ljava/awt/event/FocusListener;
+ ()Ljava/awt/event/FocusListener;
+createKeyListener
+ ()Ljava/awt/event/KeyListener;
+ ()Ljava/awt/event/KeyListener;
+createMouseInputListener
+ ()Ljavax/swing/event/MouseInputListener;
+ ()Ljavax/swing/event/MouseInputListener;
+getBaseline
+ (Ljavax/swing/JComponent;II)I
+ (Ljavax/swing/JComponent;II)I
+getBaselineResizeBehavior
+ (Ljavax/swing/JComponent;)Ljava/awt/Component$BaselineResizeBehavior;
+ (Ljavax/swing/JComponent;)Ljava/awt/Component$BaselineResizeBehavior;
+getMaximumSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getMinimumSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getPreferredSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+installUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+paint
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+uninstallUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V

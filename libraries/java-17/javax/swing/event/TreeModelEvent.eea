@@ -1,0 +1,39 @@
+class javax/swing/event/TreeModelEvent
+
+childIndices
+ [I
+ [I
+children
+ [Ljava/lang/Object;
+ [Ljava/lang/Object;
+path
+ Ljavax/swing/tree/TreePath;
+ Ljavax/swing/tree/TreePath;
+
+<init>
+ (Ljava/lang/Object;Ljavax/swing/tree/TreePath;)V
+ (Ljava/lang/Object;Ljavax/swing/tree/TreePath;)V
+<init>
+ (Ljava/lang/Object;Ljavax/swing/tree/TreePath;[I[Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljavax/swing/tree/TreePath;[I[Ljava/lang/Object;)V
+<init>
+ (Ljava/lang/Object;[Ljava/lang/Object;)V
+ (Ljava/lang/Object;[Ljava/lang/Object;)V
+<init>
+ (Ljava/lang/Object;[Ljava/lang/Object;[I[Ljava/lang/Object;)V
+ (Ljava/lang/Object;[Ljava/lang/Object;[I[Ljava/lang/Object;)V
+getChildIndices
+ ()[I
+ ()[I
+getChildren
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+getPath
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+getTreePath
+ ()Ljavax/swing/tree/TreePath;
+ ()Ljavax/swing/tree/TreePath;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.util.EventObject)

@@ -1,0 +1,114 @@
+class java/awt/font/TextLayout
+
+DEFAULT_CARET_POLICY
+ Ljava/awt/font/TextLayout$CaretPolicy;
+ L1java/awt/font/TextLayout$CaretPolicy;
+
+<init>
+ (Ljava/lang/String;Ljava/awt/Font;Ljava/awt/font/FontRenderContext;)V
+ (Ljava/lang/String;Ljava/awt/Font;Ljava/awt/font/FontRenderContext;)V
+<init>
+ (Ljava/lang/String;Ljava/util/Map<+Ljava/text/AttributedCharacterIterator$Attribute;*>;Ljava/awt/font/FontRenderContext;)V
+ (Ljava/lang/String;Ljava/util/Map<+Ljava/text/AttributedCharacterIterator$Attribute;*>;Ljava/awt/font/FontRenderContext;)V
+<init>
+ (Ljava/text/AttributedCharacterIterator;Ljava/awt/font/FontRenderContext;)V
+ (Ljava/text/AttributedCharacterIterator;Ljava/awt/font/FontRenderContext;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+draw
+ (Ljava/awt/Graphics2D;FF)V
+ (Ljava/awt/Graphics2D;FF)V
+equals
+ (Ljava/awt/font/TextLayout;)Z
+ (Ljava/awt/font/TextLayout;)Z
+getBaselineOffsets
+ ()[F
+ ()[F
+getBlackBoxBounds
+ (II)Ljava/awt/Shape;
+ (II)Ljava/awt/Shape;
+getBounds
+ ()Ljava/awt/geom/Rectangle2D;
+ ()Ljava/awt/geom/Rectangle2D;
+getCaretInfo
+ (Ljava/awt/font/TextHitInfo;)[F
+ (Ljava/awt/font/TextHitInfo;)[F
+getCaretInfo
+ (Ljava/awt/font/TextHitInfo;Ljava/awt/geom/Rectangle2D;)[F
+ (Ljava/awt/font/TextHitInfo;Ljava/awt/geom/Rectangle2D;)[F
+getCaretShape
+ (Ljava/awt/font/TextHitInfo;)Ljava/awt/Shape;
+ (Ljava/awt/font/TextHitInfo;)Ljava/awt/Shape;
+getCaretShape
+ (Ljava/awt/font/TextHitInfo;Ljava/awt/geom/Rectangle2D;)Ljava/awt/Shape;
+ (Ljava/awt/font/TextHitInfo;Ljava/awt/geom/Rectangle2D;)Ljava/awt/Shape;
+getCaretShapes
+ (I)[Ljava/awt/Shape;
+ (I)[Ljava/awt/Shape;
+getCaretShapes
+ (ILjava/awt/geom/Rectangle2D;)[Ljava/awt/Shape;
+ (ILjava/awt/geom/Rectangle2D;)[Ljava/awt/Shape;
+getCaretShapes
+ (ILjava/awt/geom/Rectangle2D;Ljava/awt/font/TextLayout$CaretPolicy;)[Ljava/awt/Shape;
+ (ILjava/awt/geom/Rectangle2D;Ljava/awt/font/TextLayout$CaretPolicy;)[Ljava/awt/Shape;
+getJustifiedLayout
+ (F)Ljava/awt/font/TextLayout;
+ (F)Ljava/awt/font/TextLayout;
+getLayoutPath
+ ()Ljava/awt/font/LayoutPath;
+ ()Ljava/awt/font/LayoutPath;
+getLogicalHighlightShape
+ (II)Ljava/awt/Shape;
+ (II)Ljava/awt/Shape;
+getLogicalHighlightShape
+ (IILjava/awt/geom/Rectangle2D;)Ljava/awt/Shape;
+ (IILjava/awt/geom/Rectangle2D;)Ljava/awt/Shape;
+getLogicalRangesForVisualSelection
+ (Ljava/awt/font/TextHitInfo;Ljava/awt/font/TextHitInfo;)[I
+ (Ljava/awt/font/TextHitInfo;Ljava/awt/font/TextHitInfo;)[I
+getNextLeftHit
+ (I)Ljava/awt/font/TextHitInfo;
+ (I)Ljava/awt/font/TextHitInfo;
+getNextLeftHit
+ (ILjava/awt/font/TextLayout$CaretPolicy;)Ljava/awt/font/TextHitInfo;
+ (ILjava/awt/font/TextLayout$CaretPolicy;)Ljava/awt/font/TextHitInfo;
+getNextLeftHit
+ (Ljava/awt/font/TextHitInfo;)Ljava/awt/font/TextHitInfo;
+ (Ljava/awt/font/TextHitInfo;)Ljava/awt/font/TextHitInfo;
+getNextRightHit
+ (I)Ljava/awt/font/TextHitInfo;
+ (I)Ljava/awt/font/TextHitInfo;
+getNextRightHit
+ (ILjava/awt/font/TextLayout$CaretPolicy;)Ljava/awt/font/TextHitInfo;
+ (ILjava/awt/font/TextLayout$CaretPolicy;)Ljava/awt/font/TextHitInfo;
+getNextRightHit
+ (Ljava/awt/font/TextHitInfo;)Ljava/awt/font/TextHitInfo;
+ (Ljava/awt/font/TextHitInfo;)Ljava/awt/font/TextHitInfo;
+getOutline
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/Shape;
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/Shape;
+getPixelBounds
+ (Ljava/awt/font/FontRenderContext;FF)Ljava/awt/Rectangle;
+ (Ljava/awt/font/FontRenderContext;FF)Ljava/awt/Rectangle;
+getVisualHighlightShape
+ (Ljava/awt/font/TextHitInfo;Ljava/awt/font/TextHitInfo;)Ljava/awt/Shape;
+ (Ljava/awt/font/TextHitInfo;Ljava/awt/font/TextHitInfo;)Ljava/awt/Shape;
+getVisualHighlightShape
+ (Ljava/awt/font/TextHitInfo;Ljava/awt/font/TextHitInfo;Ljava/awt/geom/Rectangle2D;)Ljava/awt/Shape;
+ (Ljava/awt/font/TextHitInfo;Ljava/awt/font/TextHitInfo;Ljava/awt/geom/Rectangle2D;)Ljava/awt/Shape;
+getVisualOtherHit
+ (Ljava/awt/font/TextHitInfo;)Ljava/awt/font/TextHitInfo;
+ (Ljava/awt/font/TextHitInfo;)Ljava/awt/font/TextHitInfo;
+hitTestChar
+ (FF)Ljava/awt/font/TextHitInfo;
+ (FF)Ljava/awt/font/TextHitInfo;
+hitTestChar
+ (FFLjava/awt/geom/Rectangle2D;)Ljava/awt/font/TextHitInfo;
+ (FFLjava/awt/geom/Rectangle2D;)Ljava/awt/font/TextHitInfo;
+hitToPoint
+ (Ljava/awt/font/TextHitInfo;Ljava/awt/geom/Point2D;)V
+ (Ljava/awt/font/TextHitInfo;Ljava/awt/geom/Point2D;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

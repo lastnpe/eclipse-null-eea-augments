@@ -1,0 +1,44 @@
+class java/time/temporal/TemporalAdjusters
+
+dayOfWeekInMonth
+ (ILjava/time/DayOfWeek;)Ljava/time/temporal/TemporalAdjuster;
+ (ILjava/time/DayOfWeek;)Ljava/time/temporal/TemporalAdjuster;
+firstDayOfMonth
+ ()Ljava/time/temporal/TemporalAdjuster;
+ ()Ljava/time/temporal/TemporalAdjuster;
+firstDayOfNextMonth
+ ()Ljava/time/temporal/TemporalAdjuster;
+ ()Ljava/time/temporal/TemporalAdjuster;
+firstDayOfNextYear
+ ()Ljava/time/temporal/TemporalAdjuster;
+ ()Ljava/time/temporal/TemporalAdjuster;
+firstDayOfYear
+ ()Ljava/time/temporal/TemporalAdjuster;
+ ()Ljava/time/temporal/TemporalAdjuster;
+firstInMonth
+ (Ljava/time/DayOfWeek;)Ljava/time/temporal/TemporalAdjuster;
+ (Ljava/time/DayOfWeek;)Ljava/time/temporal/TemporalAdjuster;
+lastDayOfMonth
+ ()Ljava/time/temporal/TemporalAdjuster;
+ ()Ljava/time/temporal/TemporalAdjuster;
+lastDayOfYear
+ ()Ljava/time/temporal/TemporalAdjuster;
+ ()Ljava/time/temporal/TemporalAdjuster;
+lastInMonth
+ (Ljava/time/DayOfWeek;)Ljava/time/temporal/TemporalAdjuster;
+ (Ljava/time/DayOfWeek;)Ljava/time/temporal/TemporalAdjuster;
+next
+ (Ljava/time/DayOfWeek;)Ljava/time/temporal/TemporalAdjuster;
+ (Ljava/time/DayOfWeek;)Ljava/time/temporal/TemporalAdjuster;
+nextOrSame
+ (Ljava/time/DayOfWeek;)Ljava/time/temporal/TemporalAdjuster;
+ (Ljava/time/DayOfWeek;)Ljava/time/temporal/TemporalAdjuster;
+ofDateAdjuster
+ (Ljava/util/function/UnaryOperator<Ljava/time/LocalDate;>;)Ljava/time/temporal/TemporalAdjuster;
+ (Ljava/util/function/UnaryOperator<Ljava/time/LocalDate;>;)Ljava/time/temporal/TemporalAdjuster;
+previous
+ (Ljava/time/DayOfWeek;)Ljava/time/temporal/TemporalAdjuster;
+ (Ljava/time/DayOfWeek;)Ljava/time/temporal/TemporalAdjuster;
+previousOrSame
+ (Ljava/time/DayOfWeek;)Ljava/time/temporal/TemporalAdjuster;
+ (Ljava/time/DayOfWeek;)Ljava/time/temporal/TemporalAdjuster;

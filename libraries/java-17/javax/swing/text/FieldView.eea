@@ -1,0 +1,26 @@
+class javax/swing/text/FieldView
+
+<init>
+ (Ljavax/swing/text/Element;)V
+ (Ljavax/swing/text/Element;)V
+adjustAllocation
+ (Ljava/awt/Shape;)Ljava/awt/Shape;
+ (Ljava/awt/Shape;)Ljava/awt/Shape;
+getFontMetrics
+ ()Ljava/awt/FontMetrics;
+ ()Ljava/awt/FontMetrics;
+insertUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+modelToView
+ (ILjava/awt/Shape;Ljavax/swing/text/Position$Bias;)Ljava/awt/Shape;
+ (ILjava/awt/Shape;Ljavax/swing/text/Position$Bias;)Ljava/awt/Shape;
+paint
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V
+removeUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+viewToModel
+ (FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I
+ (FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I

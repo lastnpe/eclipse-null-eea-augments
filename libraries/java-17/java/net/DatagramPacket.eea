@@ -1,0 +1,41 @@
+class java/net/DatagramPacket
+
+<init>
+ ([BI)V
+ ([BI)V
+<init>
+ ([BII)V
+ ([BII)V
+<init>
+ ([BIILjava/net/InetAddress;I)V
+ ([BIILjava/net/InetAddress;I)V
+<init>
+ ([BIILjava/net/SocketAddress;)V
+ ([BIILjava/net/SocketAddress;)V
+<init>
+ ([BILjava/net/InetAddress;I)V
+ ([BILjava/net/InetAddress;I)V
+<init>
+ ([BILjava/net/SocketAddress;)V
+ ([BILjava/net/SocketAddress;)V
+getAddress
+ ()Ljava/net/InetAddress;
+ ()Ljava/net/InetAddress;
+getData
+ ()[B
+ ()[B
+getSocketAddress
+ ()Ljava/net/SocketAddress;
+ ()Ljava/net/SocketAddress;
+setAddress
+ (Ljava/net/InetAddress;)V
+ (Ljava/net/InetAddress;)V
+setData
+ ([B)V
+ ([B)V
+setData
+ ([BII)V
+ ([BII)V
+setSocketAddress
+ (Ljava/net/SocketAddress;)V
+ (Ljava/net/SocketAddress;)V

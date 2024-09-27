@@ -1,0 +1,33 @@
+class java/net/JarURLConnection
+
+jarFileURLConnection
+ Ljava/net/URLConnection;
+ Ljava/net/URLConnection;
+
+<init>
+ (Ljava/net/URL;)V
+ (Ljava/net/URL;)V
+getAttributes
+ ()Ljava/util/jar/Attributes;
+ ()Ljava/util/jar/Attributes;
+getCertificates
+ ()[Ljava/security/cert/Certificate;
+ ()[Ljava/security/cert/Certificate;
+getEntryName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getJarEntry
+ ()Ljava/util/jar/JarEntry;
+ ()Ljava/util/jar/JarEntry;
+getJarFile
+ ()Ljava/util/jar/JarFile;
+ ()Ljava/util/jar/JarFile;
+getJarFileURL
+ ()Ljava/net/URL;
+ ()Ljava/net/URL;
+getMainAttributes
+ ()Ljava/util/jar/Attributes;
+ ()Ljava/util/jar/Attributes;
+getManifest
+ ()Ljava/util/jar/Manifest;
+ ()Ljava/util/jar/Manifest;

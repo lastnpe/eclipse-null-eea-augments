@@ -1,0 +1,24 @@
+class java/lang/constant/MethodHandleDesc
+
+of
+ (Ljava/lang/constant/DirectMethodHandleDesc$Kind;Ljava/lang/constant/ClassDesc;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/constant/DirectMethodHandleDesc;
+ (Ljava/lang/constant/DirectMethodHandleDesc$Kind;Ljava/lang/constant/ClassDesc;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/constant/DirectMethodHandleDesc;
+ofConstructor
+ (Ljava/lang/constant/ClassDesc;[Ljava/lang/constant/ClassDesc;)Ljava/lang/constant/DirectMethodHandleDesc;
+ (Ljava/lang/constant/ClassDesc;[Ljava/lang/constant/ClassDesc;)Ljava/lang/constant/DirectMethodHandleDesc;
+ofField
+ (Ljava/lang/constant/DirectMethodHandleDesc$Kind;Ljava/lang/constant/ClassDesc;Ljava/lang/String;Ljava/lang/constant/ClassDesc;)Ljava/lang/constant/DirectMethodHandleDesc;
+ (Ljava/lang/constant/DirectMethodHandleDesc$Kind;Ljava/lang/constant/ClassDesc;Ljava/lang/String;Ljava/lang/constant/ClassDesc;)Ljava/lang/constant/DirectMethodHandleDesc;
+ofMethod
+ (Ljava/lang/constant/DirectMethodHandleDesc$Kind;Ljava/lang/constant/ClassDesc;Ljava/lang/String;Ljava/lang/constant/MethodTypeDesc;)Ljava/lang/constant/DirectMethodHandleDesc;
+ (Ljava/lang/constant/DirectMethodHandleDesc$Kind;Ljava/lang/constant/ClassDesc;Ljava/lang/String;Ljava/lang/constant/MethodTypeDesc;)Ljava/lang/constant/DirectMethodHandleDesc;
+
+asType
+ (Ljava/lang/constant/MethodTypeDesc;)Ljava/lang/constant/MethodHandleDesc;
+ (Ljava/lang/constant/MethodTypeDesc;)Ljava/lang/constant/MethodHandleDesc;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+invocationType
+ ()Ljava/lang/constant/MethodTypeDesc;
+ ()Ljava/lang/constant/MethodTypeDesc;

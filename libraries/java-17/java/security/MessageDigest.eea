@@ -1,0 +1,48 @@
+class java/security/MessageDigest
+
+getInstance
+ (Ljava/lang/String;)Ljava/security/MessageDigest;
+ (Ljava/lang/String;)Ljava/security/MessageDigest;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/MessageDigest;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/MessageDigest;
+getInstance
+ (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/MessageDigest;
+ (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/MessageDigest;
+isEqual
+ ([B[B)Z
+ ([B[B)Z
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.security.MessageDigestSpi)
+digest
+ ()[B
+ ()[B
+digest
+ ([B)[B
+ ([B)[B
+digest
+ ([BII)I
+ ([BII)I
+getAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getProvider
+ ()Ljava/security/Provider;
+ ()Ljava/security/Provider;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+update
+ (Ljava/nio/ByteBuffer;)V
+ (Ljava/nio/ByteBuffer;)V
+update
+ ([B)V
+ ([B)V
+update
+ ([BII)V
+ ([BII)V

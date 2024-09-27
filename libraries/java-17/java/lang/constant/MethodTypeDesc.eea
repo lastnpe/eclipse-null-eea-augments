@@ -1,0 +1,46 @@
+class java/lang/constant/MethodTypeDesc
+
+super java/lang/invoke/TypeDescriptor$OfMethod
+ <Ljava/lang/constant/ClassDesc;Ljava/lang/constant/MethodTypeDesc;>
+ <Ljava/lang/constant/ClassDesc;Ljava/lang/constant/MethodTypeDesc;>
+
+of
+ (Ljava/lang/constant/ClassDesc;[Ljava/lang/constant/ClassDesc;)Ljava/lang/constant/MethodTypeDesc;
+ (Ljava/lang/constant/ClassDesc;[Ljava/lang/constant/ClassDesc;)Ljava/lang/constant/MethodTypeDesc;
+ofDescriptor
+ (Ljava/lang/String;)Ljava/lang/constant/MethodTypeDesc;
+ (Ljava/lang/String;)Ljava/lang/constant/MethodTypeDesc;
+
+changeParameterType
+ (ILjava/lang/constant/ClassDesc;)Ljava/lang/constant/MethodTypeDesc;
+ (ILjava/lang/constant/ClassDesc;)Ljava/lang/constant/MethodTypeDesc;
+changeReturnType
+ (Ljava/lang/constant/ClassDesc;)Ljava/lang/constant/MethodTypeDesc;
+ (Ljava/lang/constant/ClassDesc;)Ljava/lang/constant/MethodTypeDesc;
+descriptorString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+displayDescriptor
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+dropParameterTypes
+ (II)Ljava/lang/constant/MethodTypeDesc;
+ (II)Ljava/lang/constant/MethodTypeDesc;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+insertParameterTypes
+ (I[Ljava/lang/constant/ClassDesc;)Ljava/lang/constant/MethodTypeDesc;
+ (I[Ljava/lang/constant/ClassDesc;)Ljava/lang/constant/MethodTypeDesc;
+parameterArray
+ ()[Ljava/lang/constant/ClassDesc;
+ ()[Ljava/lang/constant/ClassDesc;
+parameterList
+ ()Ljava/util/List<Ljava/lang/constant/ClassDesc;>;
+ ()Ljava/util/List<Ljava/lang/constant/ClassDesc;>;
+parameterType
+ (I)Ljava/lang/constant/ClassDesc;
+ (I)Ljava/lang/constant/ClassDesc;
+returnType
+ ()Ljava/lang/constant/ClassDesc;
+ ()Ljava/lang/constant/ClassDesc;
