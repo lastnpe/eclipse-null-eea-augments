@@ -1,0 +1,83 @@
+class javax/swing/text/JTextComponent$AccessibleJTextComponent
+
+<init>
+ (Ljavax/swing/text/JTextComponent;)V
+ (Ljavax/swing/text/JTextComponent;)V
+caretUpdate
+ (Ljavax/swing/event/CaretEvent;)V
+ (L1javax/swing/event/CaretEvent;)V # @Inherited(javax.swing.event.CaretListener)
+changedUpdate
+ (Ljavax/swing/event/DocumentEvent;)V
+ (L1javax/swing/event/DocumentEvent;)V # @Inherited(javax.swing.event.DocumentListener)
+getAccessibleAction
+ ()Ljavax/accessibility/AccessibleAction;
+ ()Ljavax/accessibility/AccessibleAction;
+getAccessibleActionDescription
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getAccessibleEditableText
+ ()Ljavax/accessibility/AccessibleEditableText;
+ ()Ljavax/accessibility/AccessibleEditableText;
+getAccessibleRole
+ ()Ljavax/accessibility/AccessibleRole;
+ ()Ljavax/accessibility/AccessibleRole;
+getAccessibleStateSet
+ ()Ljavax/accessibility/AccessibleStateSet;
+ ()Ljavax/accessibility/AccessibleStateSet;
+getAccessibleText
+ ()Ljavax/accessibility/AccessibleText;
+ ()Ljavax/accessibility/AccessibleText;
+getAfterIndex
+ (II)Ljava/lang/String;
+ (II)Ljava/lang/String;
+getAtIndex
+ (II)Ljava/lang/String;
+ (II)Ljava/lang/String;
+getBeforeIndex
+ (II)Ljava/lang/String;
+ (II)Ljava/lang/String;
+getCharacterAttribute
+ (I)Ljavax/swing/text/AttributeSet;
+ (I)Ljavax/swing/text/AttributeSet;
+getCharacterBounds
+ (I)Ljava/awt/Rectangle;
+ (I)Ljava/awt/Rectangle;
+getIndexAtPoint
+ (Ljava/awt/Point;)I
+ (Ljava/awt/Point;)I
+getSelectedText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTextBounds
+ (II)Ljava/awt/Rectangle;
+ (II)Ljava/awt/Rectangle;
+getTextRange
+ (II)Ljava/lang/String;
+ (II)Ljava/lang/String;
+getTextSequenceAfter
+ (II)Ljavax/accessibility/AccessibleTextSequence;
+ (II)Ljavax/accessibility/AccessibleTextSequence;
+getTextSequenceAt
+ (II)Ljavax/accessibility/AccessibleTextSequence;
+ (II)Ljavax/accessibility/AccessibleTextSequence;
+getTextSequenceBefore
+ (II)Ljavax/accessibility/AccessibleTextSequence;
+ (II)Ljavax/accessibility/AccessibleTextSequence;
+insertTextAtIndex
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+insertUpdate
+ (Ljavax/swing/event/DocumentEvent;)V
+ (L1javax/swing/event/DocumentEvent;)V # @Inherited(javax.swing.event.DocumentListener)
+removeUpdate
+ (Ljavax/swing/event/DocumentEvent;)V
+ (L1javax/swing/event/DocumentEvent;)V # @Inherited(javax.swing.event.DocumentListener)
+replaceText
+ (IILjava/lang/String;)V
+ (IILjava/lang/String;)V
+setAttributes
+ (IILjavax/swing/text/AttributeSet;)V
+ (IILjavax/swing/text/AttributeSet;)V
+setTextContents
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

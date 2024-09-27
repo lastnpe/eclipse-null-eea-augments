@@ -1,0 +1,17 @@
+class java/net/CookieStore
+
+add
+ (Ljava/net/URI;Ljava/net/HttpCookie;)V
+ (Ljava/net/URI;Ljava/net/HttpCookie;)V
+get
+ (Ljava/net/URI;)Ljava/util/List<Ljava/net/HttpCookie;>;
+ (Ljava/net/URI;)Ljava/util/List<Ljava/net/HttpCookie;>;
+getCookies
+ ()Ljava/util/List<Ljava/net/HttpCookie;>;
+ ()Ljava/util/List<Ljava/net/HttpCookie;>;
+getURIs
+ ()Ljava/util/List<Ljava/net/URI;>;
+ ()Ljava/util/List<Ljava/net/URI;>;
+remove
+ (Ljava/net/URI;Ljava/net/HttpCookie;)Z
+ (Ljava/net/URI;Ljava/net/HttpCookie;)Z

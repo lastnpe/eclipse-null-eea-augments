@@ -1,0 +1,86 @@
+class java/awt/image/BufferedImage
+
+<init>
+ (IIILjava/awt/image/IndexColorModel;)V
+ (IIILjava/awt/image/IndexColorModel;)V
+<init>
+ (Ljava/awt/image/ColorModel;Ljava/awt/image/WritableRaster;ZLjava/util/Hashtable<**>;)V
+ (Ljava/awt/image/ColorModel;Ljava/awt/image/WritableRaster;ZLjava/util/Hashtable<**>;)V
+addTileObserver
+ (Ljava/awt/image/TileObserver;)V
+ (Ljava/awt/image/TileObserver;)V
+copyData
+ (Ljava/awt/image/WritableRaster;)Ljava/awt/image/WritableRaster;
+ (Ljava/awt/image/WritableRaster;)Ljava/awt/image/WritableRaster;
+createGraphics
+ ()Ljava/awt/Graphics2D;
+ ()Ljava/awt/Graphics2D;
+getAlphaRaster
+ ()Ljava/awt/image/WritableRaster;
+ ()Ljava/awt/image/WritableRaster;
+getColorModel
+ ()Ljava/awt/image/ColorModel;
+ ()Ljava/awt/image/ColorModel;
+getData
+ ()Ljava/awt/image/Raster;
+ ()Ljava/awt/image/Raster;
+getData
+ (Ljava/awt/Rectangle;)Ljava/awt/image/Raster;
+ (Ljava/awt/Rectangle;)Ljava/awt/image/Raster;
+getGraphics
+ ()Ljava/awt/Graphics;
+ ()Ljava/awt/Graphics;
+getHeight
+ (Ljava/awt/image/ImageObserver;)I
+ (Ljava/awt/image/ImageObserver;)I
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getProperty
+ (Ljava/lang/String;Ljava/awt/image/ImageObserver;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/awt/image/ImageObserver;)Ljava/lang/Object;
+getPropertyNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getRGB
+ (IIII[III)[I
+ (IIII[III)[I
+getRaster
+ ()Ljava/awt/image/WritableRaster;
+ ()Ljava/awt/image/WritableRaster;
+getSampleModel
+ ()Ljava/awt/image/SampleModel;
+ ()Ljava/awt/image/SampleModel;
+getSource
+ ()Ljava/awt/image/ImageProducer;
+ ()Ljava/awt/image/ImageProducer;
+getSources
+ ()Ljava/util/Vector<Ljava/awt/image/RenderedImage;>;
+ ()Ljava/util/Vector<Ljava/awt/image/RenderedImage;>;
+getSubimage
+ (IIII)Ljava/awt/image/BufferedImage;
+ (IIII)Ljava/awt/image/BufferedImage;
+getTile
+ (II)Ljava/awt/image/Raster;
+ (II)Ljava/awt/image/Raster;
+getWidth
+ (Ljava/awt/image/ImageObserver;)I
+ (Ljava/awt/image/ImageObserver;)I
+getWritableTile
+ (II)Ljava/awt/image/WritableRaster;
+ (II)Ljava/awt/image/WritableRaster;
+getWritableTileIndices
+ ()[Ljava/awt/Point;
+ ()[Ljava/awt/Point;
+removeTileObserver
+ (Ljava/awt/image/TileObserver;)V
+ (Ljava/awt/image/TileObserver;)V
+setData
+ (Ljava/awt/image/Raster;)V
+ (Ljava/awt/image/Raster;)V
+setRGB
+ (IIII[III)V
+ (IIII[III)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

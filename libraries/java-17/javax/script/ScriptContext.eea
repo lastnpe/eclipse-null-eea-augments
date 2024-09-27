@@ -1,0 +1,44 @@
+class javax/script/ScriptContext
+
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getAttribute
+ (Ljava/lang/String;I)Ljava/lang/Object;
+ (Ljava/lang/String;I)Ljava/lang/Object;
+getAttributesScope
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+getBindings
+ (I)Ljavax/script/Bindings;
+ (I)Ljavax/script/Bindings;
+getErrorWriter
+ ()Ljava/io/Writer;
+ ()Ljava/io/Writer;
+getReader
+ ()Ljava/io/Reader;
+ ()Ljava/io/Reader;
+getScopes
+ ()Ljava/util/List<Ljava/lang/Integer;>;
+ ()Ljava/util/List<Ljava/lang/Integer;>;
+getWriter
+ ()Ljava/io/Writer;
+ ()Ljava/io/Writer;
+removeAttribute
+ (Ljava/lang/String;I)Ljava/lang/Object;
+ (Ljava/lang/String;I)Ljava/lang/Object;
+setAttribute
+ (Ljava/lang/String;Ljava/lang/Object;I)V
+ (Ljava/lang/String;Ljava/lang/Object;I)V
+setBindings
+ (Ljavax/script/Bindings;I)V
+ (Ljavax/script/Bindings;I)V
+setErrorWriter
+ (Ljava/io/Writer;)V
+ (Ljava/io/Writer;)V
+setReader
+ (Ljava/io/Reader;)V
+ (Ljava/io/Reader;)V
+setWriter
+ (Ljava/io/Writer;)V
+ (Ljava/io/Writer;)V

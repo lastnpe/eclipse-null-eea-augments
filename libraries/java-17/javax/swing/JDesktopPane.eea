@@ -1,0 +1,47 @@
+class javax/swing/JDesktopPane
+
+addImpl
+ (Ljava/awt/Component;Ljava/lang/Object;I)V
+ (Ljava/awt/Component;Ljava/lang/Object;I)V
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getAllFrames
+ ()[Ljavax/swing/JInternalFrame;
+ ()[Ljavax/swing/JInternalFrame;
+getAllFramesInLayer
+ (I)[Ljavax/swing/JInternalFrame;
+ (I)[Ljavax/swing/JInternalFrame;
+getDesktopManager
+ ()Ljavax/swing/DesktopManager;
+ ()Ljavax/swing/DesktopManager;
+getSelectedFrame
+ ()Ljavax/swing/JInternalFrame;
+ ()Ljavax/swing/JInternalFrame;
+getUI
+ ()Ljavax/swing/plaf/DesktopPaneUI;
+ ()Ljavax/swing/plaf/DesktopPaneUI;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+remove
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+selectFrame
+ (Z)Ljavax/swing/JInternalFrame;
+ (Z)Ljavax/swing/JInternalFrame;
+setComponentZOrder
+ (Ljava/awt/Component;I)V
+ (Ljava/awt/Component;I)V
+setDesktopManager
+ (Ljavax/swing/DesktopManager;)V
+ (Ljavax/swing/DesktopManager;)V
+setSelectedFrame
+ (Ljavax/swing/JInternalFrame;)V
+ (Ljavax/swing/JInternalFrame;)V
+setUI
+ (Ljavax/swing/plaf/DesktopPaneUI;)V
+ (Ljavax/swing/plaf/DesktopPaneUI;)V

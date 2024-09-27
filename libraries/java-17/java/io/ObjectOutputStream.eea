@@ -1,0 +1,44 @@
+class java/io/ObjectOutputStream
+
+<init>
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V
+annotateClass
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+annotateProxyClass
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+putFields
+ ()Ljava/io/ObjectOutputStream$PutField;
+ ()Ljava/io/ObjectOutputStream$PutField;
+replaceObject
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+write
+ ([B)V
+ ([B)V
+write
+ ([BII)V
+ ([BII)V
+writeBytes
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeChars
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeClassDescriptor
+ (Ljava/io/ObjectStreamClass;)V
+ (Ljava/io/ObjectStreamClass;)V
+writeObject
+ (Ljava/lang/Object;)V
+ (L1java/lang/Object;)V # @Inherited(java.io.ObjectOutput)
+writeObjectOverride
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+writeUTF
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeUnshared
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

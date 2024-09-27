@@ -1,0 +1,17 @@
+class java/security/Signer
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/security/IdentityScope;)V
+ (Ljava/lang/String;Ljava/security/IdentityScope;)V
+getPrivateKey
+ ()Ljava/security/PrivateKey;
+ ()Ljava/security/PrivateKey;
+setKeyPair
+ (Ljava/security/KeyPair;)V
+ (Ljava/security/KeyPair;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.security.Identity)

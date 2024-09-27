@@ -1,0 +1,33 @@
+class javax/swing/plaf/basic/BasicToolBarUI$DockingListener
+
+origin
+ Ljava/awt/Point;
+ Ljava/awt/Point;
+toolBar
+ Ljavax/swing/JToolBar;
+ Ljavax/swing/JToolBar;
+
+<init>
+ (Ljavax/swing/plaf/basic/BasicToolBarUI;Ljavax/swing/JToolBar;)V
+ (Ljavax/swing/plaf/basic/BasicToolBarUI;Ljavax/swing/JToolBar;)V
+mouseClicked
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseListener)
+mouseDragged
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseMotionListener)
+mouseEntered
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseListener)
+mouseExited
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseListener)
+mouseMoved
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseMotionListener)
+mousePressed
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseListener)
+mouseReleased
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseListener)

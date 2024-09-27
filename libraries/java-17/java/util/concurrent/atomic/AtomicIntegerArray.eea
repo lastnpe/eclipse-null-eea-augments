@@ -1,0 +1,20 @@
+class java/util/concurrent/atomic/AtomicIntegerArray
+
+<init>
+ ([I)V
+ ([I)V
+accumulateAndGet
+ (IILjava/util/function/IntBinaryOperator;)I
+ (IILjava/util/function/IntBinaryOperator;)I
+getAndAccumulate
+ (IILjava/util/function/IntBinaryOperator;)I
+ (IILjava/util/function/IntBinaryOperator;)I
+getAndUpdate
+ (ILjava/util/function/IntUnaryOperator;)I
+ (ILjava/util/function/IntUnaryOperator;)I
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+updateAndGet
+ (ILjava/util/function/IntUnaryOperator;)I
+ (ILjava/util/function/IntUnaryOperator;)I

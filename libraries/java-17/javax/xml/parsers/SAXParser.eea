@@ -1,0 +1,47 @@
+class javax/xml/parsers/SAXParser
+
+getParser
+ ()Lorg/xml/sax/Parser;
+ ()Lorg/xml/sax/Parser;
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getSchema
+ ()Ljavax/xml/validation/Schema;
+ ()Ljavax/xml/validation/Schema;
+getXMLReader
+ ()Lorg/xml/sax/XMLReader;
+ ()Lorg/xml/sax/XMLReader;
+parse
+ (Ljava/io/File;Lorg/xml/sax/HandlerBase;)V
+ (Ljava/io/File;Lorg/xml/sax/HandlerBase;)V
+parse
+ (Ljava/io/File;Lorg/xml/sax/helpers/DefaultHandler;)V
+ (Ljava/io/File;Lorg/xml/sax/helpers/DefaultHandler;)V
+parse
+ (Ljava/io/InputStream;Lorg/xml/sax/HandlerBase;)V
+ (Ljava/io/InputStream;Lorg/xml/sax/HandlerBase;)V
+parse
+ (Ljava/io/InputStream;Lorg/xml/sax/HandlerBase;Ljava/lang/String;)V
+ (Ljava/io/InputStream;Lorg/xml/sax/HandlerBase;Ljava/lang/String;)V
+parse
+ (Ljava/io/InputStream;Lorg/xml/sax/helpers/DefaultHandler;)V
+ (Ljava/io/InputStream;Lorg/xml/sax/helpers/DefaultHandler;)V
+parse
+ (Ljava/io/InputStream;Lorg/xml/sax/helpers/DefaultHandler;Ljava/lang/String;)V
+ (Ljava/io/InputStream;Lorg/xml/sax/helpers/DefaultHandler;Ljava/lang/String;)V
+parse
+ (Ljava/lang/String;Lorg/xml/sax/HandlerBase;)V
+ (Ljava/lang/String;Lorg/xml/sax/HandlerBase;)V
+parse
+ (Ljava/lang/String;Lorg/xml/sax/helpers/DefaultHandler;)V
+ (Ljava/lang/String;Lorg/xml/sax/helpers/DefaultHandler;)V
+parse
+ (Lorg/xml/sax/InputSource;Lorg/xml/sax/HandlerBase;)V
+ (Lorg/xml/sax/InputSource;Lorg/xml/sax/HandlerBase;)V
+parse
+ (Lorg/xml/sax/InputSource;Lorg/xml/sax/helpers/DefaultHandler;)V
+ (Lorg/xml/sax/InputSource;Lorg/xml/sax/helpers/DefaultHandler;)V
+setProperty
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V

@@ -1,0 +1,59 @@
+class javax/lang/model/util/ElementFilter
+
+constructorsIn
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/Element;>;)Ljava/util/List<Ljavax/lang/model/element/ExecutableElement;>;
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/Element;>;)Ljava/util/List<Ljavax/lang/model/element/ExecutableElement;>;
+constructorsIn
+ (Ljava/util/Set<+Ljavax/lang/model/element/Element;>;)Ljava/util/Set<Ljavax/lang/model/element/ExecutableElement;>;
+ (Ljava/util/Set<+Ljavax/lang/model/element/Element;>;)Ljava/util/Set<Ljavax/lang/model/element/ExecutableElement;>;
+exportsIn
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/ModuleElement$Directive;>;)Ljava/util/List<Ljavax/lang/model/element/ModuleElement$ExportsDirective;>;
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/ModuleElement$Directive;>;)Ljava/util/List<Ljavax/lang/model/element/ModuleElement$ExportsDirective;>;
+fieldsIn
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/Element;>;)Ljava/util/List<Ljavax/lang/model/element/VariableElement;>;
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/Element;>;)Ljava/util/List<Ljavax/lang/model/element/VariableElement;>;
+fieldsIn
+ (Ljava/util/Set<+Ljavax/lang/model/element/Element;>;)Ljava/util/Set<Ljavax/lang/model/element/VariableElement;>;
+ (Ljava/util/Set<+Ljavax/lang/model/element/Element;>;)Ljava/util/Set<Ljavax/lang/model/element/VariableElement;>;
+methodsIn
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/Element;>;)Ljava/util/List<Ljavax/lang/model/element/ExecutableElement;>;
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/Element;>;)Ljava/util/List<Ljavax/lang/model/element/ExecutableElement;>;
+methodsIn
+ (Ljava/util/Set<+Ljavax/lang/model/element/Element;>;)Ljava/util/Set<Ljavax/lang/model/element/ExecutableElement;>;
+ (Ljava/util/Set<+Ljavax/lang/model/element/Element;>;)Ljava/util/Set<Ljavax/lang/model/element/ExecutableElement;>;
+modulesIn
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/Element;>;)Ljava/util/List<Ljavax/lang/model/element/ModuleElement;>;
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/Element;>;)Ljava/util/List<Ljavax/lang/model/element/ModuleElement;>;
+modulesIn
+ (Ljava/util/Set<+Ljavax/lang/model/element/Element;>;)Ljava/util/Set<Ljavax/lang/model/element/ModuleElement;>;
+ (Ljava/util/Set<+Ljavax/lang/model/element/Element;>;)Ljava/util/Set<Ljavax/lang/model/element/ModuleElement;>;
+opensIn
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/ModuleElement$Directive;>;)Ljava/util/List<Ljavax/lang/model/element/ModuleElement$OpensDirective;>;
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/ModuleElement$Directive;>;)Ljava/util/List<Ljavax/lang/model/element/ModuleElement$OpensDirective;>;
+packagesIn
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/Element;>;)Ljava/util/List<Ljavax/lang/model/element/PackageElement;>;
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/Element;>;)Ljava/util/List<Ljavax/lang/model/element/PackageElement;>;
+packagesIn
+ (Ljava/util/Set<+Ljavax/lang/model/element/Element;>;)Ljava/util/Set<Ljavax/lang/model/element/PackageElement;>;
+ (Ljava/util/Set<+Ljavax/lang/model/element/Element;>;)Ljava/util/Set<Ljavax/lang/model/element/PackageElement;>;
+providesIn
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/ModuleElement$Directive;>;)Ljava/util/List<Ljavax/lang/model/element/ModuleElement$ProvidesDirective;>;
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/ModuleElement$Directive;>;)Ljava/util/List<Ljavax/lang/model/element/ModuleElement$ProvidesDirective;>;
+recordComponentsIn
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/Element;>;)Ljava/util/List<Ljavax/lang/model/element/RecordComponentElement;>;
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/Element;>;)Ljava/util/List<Ljavax/lang/model/element/RecordComponentElement;>;
+recordComponentsIn
+ (Ljava/util/Set<+Ljavax/lang/model/element/Element;>;)Ljava/util/Set<Ljavax/lang/model/element/RecordComponentElement;>;
+ (Ljava/util/Set<+Ljavax/lang/model/element/Element;>;)Ljava/util/Set<Ljavax/lang/model/element/RecordComponentElement;>;
+requiresIn
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/ModuleElement$Directive;>;)Ljava/util/List<Ljavax/lang/model/element/ModuleElement$RequiresDirective;>;
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/ModuleElement$Directive;>;)Ljava/util/List<Ljavax/lang/model/element/ModuleElement$RequiresDirective;>;
+typesIn
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/Element;>;)Ljava/util/List<Ljavax/lang/model/element/TypeElement;>;
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/Element;>;)Ljava/util/List<Ljavax/lang/model/element/TypeElement;>;
+typesIn
+ (Ljava/util/Set<+Ljavax/lang/model/element/Element;>;)Ljava/util/Set<Ljavax/lang/model/element/TypeElement;>;
+ (Ljava/util/Set<+Ljavax/lang/model/element/Element;>;)Ljava/util/Set<Ljavax/lang/model/element/TypeElement;>;
+usesIn
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/ModuleElement$Directive;>;)Ljava/util/List<Ljavax/lang/model/element/ModuleElement$UsesDirective;>;
+ (Ljava/lang/Iterable<+Ljavax/lang/model/element/ModuleElement$Directive;>;)Ljava/util/List<Ljavax/lang/model/element/ModuleElement$UsesDirective;>;

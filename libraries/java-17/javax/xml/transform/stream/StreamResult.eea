@@ -1,0 +1,39 @@
+class javax/xml/transform/stream/StreamResult
+
+FEATURE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+<init>
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V
+<init>
+ (Ljava/io/Writer;)V
+ (Ljava/io/Writer;)V
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getOutputStream
+ ()Ljava/io/OutputStream;
+ ()Ljava/io/OutputStream;
+getSystemId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getWriter
+ ()Ljava/io/Writer;
+ ()Ljava/io/Writer;
+setOutputStream
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V
+setSystemId
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+setSystemId
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setWriter
+ (Ljava/io/Writer;)V
+ (Ljava/io/Writer;)V

@@ -1,0 +1,30 @@
+class java/beans/EventHandler
+
+create
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/Object;Ljava/lang/String;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/Object;Ljava/lang/String;)TT;
+create
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)TT;
+create
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)TT;
+
+<init>
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+getAction
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getEventPropertyName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getListenerMethodName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTarget
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+invoke
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
+ (L1java/lang/Object;L1java/lang/reflect/Method;[0L0java/lang/Object;)L0java/lang/Object; # @Inherited(java.lang.reflect.InvocationHandler)

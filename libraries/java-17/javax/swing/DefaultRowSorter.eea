@@ -1,1 +1,35 @@
 class javax/swing/DefaultRowSorter
+ <M:Ljava/lang/Object;I:Ljava/lang/Object;>
+ <M:Ljava/lang/Object;I:Ljava/lang/Object;>
+
+super javax/swing/RowSorter
+ <TM;>
+ <TM;>
+
+getComparator
+ (I)Ljava/util/Comparator<*>;
+ (I)Ljava/util/Comparator<*>;
+getModel
+ ()TM;
+ ()TM;
+getModelWrapper
+ ()Ljavax/swing/DefaultRowSorter$ModelWrapper<TM;TI;>;
+ ()Ljavax/swing/DefaultRowSorter$ModelWrapper<TM;TI;>;
+getRowFilter
+ ()Ljavax/swing/RowFilter<-TM;-TI;>;
+ ()Ljavax/swing/RowFilter<-TM;-TI;>;
+getSortKeys
+ ()Ljava/util/List<+Ljavax/swing/RowSorter$SortKey;>;
+ ()Ljava/util/List<+Ljavax/swing/RowSorter$SortKey;>;
+setComparator
+ (ILjava/util/Comparator<*>;)V
+ (ILjava/util/Comparator<*>;)V
+setModelWrapper
+ (Ljavax/swing/DefaultRowSorter$ModelWrapper<TM;TI;>;)V
+ (Ljavax/swing/DefaultRowSorter$ModelWrapper<TM;TI;>;)V
+setRowFilter
+ (Ljavax/swing/RowFilter<-TM;-TI;>;)V
+ (Ljavax/swing/RowFilter<-TM;-TI;>;)V
+setSortKeys
+ (Ljava/util/List<+Ljavax/swing/RowSorter$SortKey;>;)V
+ (Ljava/util/List<+Ljavax/swing/RowSorter$SortKey;>;)V

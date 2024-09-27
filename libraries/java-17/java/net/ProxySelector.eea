@@ -1,0 +1,18 @@
+class java/net/ProxySelector
+
+getDefault
+ ()Ljava/net/ProxySelector;
+ ()Ljava/net/ProxySelector;
+of
+ (Ljava/net/InetSocketAddress;)Ljava/net/ProxySelector;
+ (Ljava/net/InetSocketAddress;)Ljava/net/ProxySelector;
+setDefault
+ (Ljava/net/ProxySelector;)V
+ (Ljava/net/ProxySelector;)V
+
+connectFailed
+ (Ljava/net/URI;Ljava/net/SocketAddress;Ljava/io/IOException;)V
+ (Ljava/net/URI;Ljava/net/SocketAddress;Ljava/io/IOException;)V
+select
+ (Ljava/net/URI;)Ljava/util/List<Ljava/net/Proxy;>;
+ (Ljava/net/URI;)Ljava/util/List<Ljava/net/Proxy;>;

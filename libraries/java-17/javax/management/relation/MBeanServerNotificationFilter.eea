@@ -1,0 +1,17 @@
+class javax/management/relation/MBeanServerNotificationFilter
+
+disableObjectName
+ (Ljavax/management/ObjectName;)V
+ (Ljavax/management/ObjectName;)V
+enableObjectName
+ (Ljavax/management/ObjectName;)V
+ (Ljavax/management/ObjectName;)V
+getDisabledObjectNames
+ ()Ljava/util/Vector<Ljavax/management/ObjectName;>;
+ ()Ljava/util/Vector<Ljavax/management/ObjectName;>;
+getEnabledObjectNames
+ ()Ljava/util/Vector<Ljavax/management/ObjectName;>;
+ ()Ljava/util/Vector<Ljavax/management/ObjectName;>;
+isNotificationEnabled
+ (Ljavax/management/Notification;)Z
+ (Ljavax/management/Notification;)Z

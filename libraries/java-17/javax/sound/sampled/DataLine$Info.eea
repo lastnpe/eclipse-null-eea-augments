@@ -1,0 +1,23 @@
+class javax/sound/sampled/DataLine$Info
+
+<init>
+ (Ljava/lang/Class<*>;Ljavax/sound/sampled/AudioFormat;)V
+ (Ljava/lang/Class<*>;Ljavax/sound/sampled/AudioFormat;)V
+<init>
+ (Ljava/lang/Class<*>;Ljavax/sound/sampled/AudioFormat;I)V
+ (Ljava/lang/Class<*>;Ljavax/sound/sampled/AudioFormat;I)V
+<init>
+ (Ljava/lang/Class<*>;[Ljavax/sound/sampled/AudioFormat;II)V
+ (Ljava/lang/Class<*>;[Ljavax/sound/sampled/AudioFormat;II)V
+getFormats
+ ()[Ljavax/sound/sampled/AudioFormat;
+ ()[Ljavax/sound/sampled/AudioFormat;
+isFormatSupported
+ (Ljavax/sound/sampled/AudioFormat;)Z
+ (Ljavax/sound/sampled/AudioFormat;)Z
+matches
+ (Ljavax/sound/sampled/Line$Info;)Z
+ (Ljavax/sound/sampled/Line$Info;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.sound.sampled.Line$Info)

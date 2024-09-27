@@ -1,0 +1,36 @@
+class javax/swing/Box
+
+createGlue
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+createHorizontalBox
+ ()Ljavax/swing/Box;
+ ()Ljavax/swing/Box;
+createHorizontalGlue
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+createHorizontalStrut
+ (I)Ljava/awt/Component;
+ (I)Ljava/awt/Component;
+createRigidArea
+ (Ljava/awt/Dimension;)Ljava/awt/Component;
+ (Ljava/awt/Dimension;)Ljava/awt/Component;
+createVerticalBox
+ ()Ljavax/swing/Box;
+ ()Ljavax/swing/Box;
+createVerticalGlue
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+createVerticalStrut
+ (I)Ljava/awt/Component;
+ (I)Ljava/awt/Component;
+
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+paintComponent
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+setLayout
+ (Ljava/awt/LayoutManager;)V
+ (Ljava/awt/LayoutManager;)V

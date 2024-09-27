@@ -1,0 +1,68 @@
+class javax/management/modelmbean/RequiredModelMBean
+
+<init>
+ (Ljavax/management/modelmbean/ModelMBeanInfo;)V
+ (Ljavax/management/modelmbean/ModelMBeanInfo;)V
+addAttributeChangeNotificationListener
+ (Ljavax/management/NotificationListener;Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljavax/management/NotificationListener;Ljava/lang/String;Ljava/lang/Object;)V
+addNotificationListener
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getAttributes
+ ([Ljava/lang/String;)Ljavax/management/AttributeList;
+ ([Ljava/lang/String;)Ljavax/management/AttributeList;
+getClassLoaderRepository
+ ()Ljavax/management/loading/ClassLoaderRepository;
+ ()Ljavax/management/loading/ClassLoaderRepository;
+getMBeanInfo
+ ()Ljavax/management/MBeanInfo;
+ ()Ljavax/management/MBeanInfo;
+getNotificationInfo
+ ()[Ljavax/management/MBeanNotificationInfo;
+ ()[Ljavax/management/MBeanNotificationInfo;
+invoke
+ (Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;
+postRegister
+ (Ljava/lang/Boolean;)V
+ (Ljava/lang/Boolean;)V
+preRegister
+ (Ljavax/management/MBeanServer;Ljavax/management/ObjectName;)Ljavax/management/ObjectName;
+ (Ljavax/management/MBeanServer;Ljavax/management/ObjectName;)Ljavax/management/ObjectName;
+removeAttributeChangeNotificationListener
+ (Ljavax/management/NotificationListener;Ljava/lang/String;)V
+ (Ljavax/management/NotificationListener;Ljava/lang/String;)V
+removeNotificationListener
+ (Ljavax/management/NotificationListener;)V
+ (L1javax/management/NotificationListener;)V # @Inherited(javax.management.NotificationBroadcaster)
+removeNotificationListener
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+sendAttributeChangeNotification
+ (Ljavax/management/Attribute;Ljavax/management/Attribute;)V
+ (Ljavax/management/Attribute;Ljavax/management/Attribute;)V
+sendAttributeChangeNotification
+ (Ljavax/management/AttributeChangeNotification;)V
+ (Ljavax/management/AttributeChangeNotification;)V
+sendNotification
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+sendNotification
+ (Ljavax/management/Notification;)V
+ (Ljavax/management/Notification;)V
+setAttribute
+ (Ljavax/management/Attribute;)V
+ (Ljavax/management/Attribute;)V
+setAttributes
+ (Ljavax/management/AttributeList;)Ljavax/management/AttributeList;
+ (Ljavax/management/AttributeList;)Ljavax/management/AttributeList;
+setManagedResource
+ (Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/Object;Ljava/lang/String;)V
+setModelMBeanInfo
+ (Ljavax/management/modelmbean/ModelMBeanInfo;)V
+ (Ljavax/management/modelmbean/ModelMBeanInfo;)V

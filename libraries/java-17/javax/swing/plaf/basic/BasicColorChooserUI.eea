@@ -1,0 +1,31 @@
+class javax/swing/plaf/basic/BasicColorChooserUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+chooser
+ Ljavax/swing/JColorChooser;
+ Ljavax/swing/JColorChooser;
+defaultChoosers
+ [Ljavax/swing/colorchooser/AbstractColorChooserPanel;
+ [Ljavax/swing/colorchooser/AbstractColorChooserPanel;
+previewListener
+ Ljavax/swing/event/ChangeListener;
+ Ljavax/swing/event/ChangeListener;
+propertyChangeListener
+ Ljava/beans/PropertyChangeListener;
+ Ljava/beans/PropertyChangeListener;
+
+createDefaultChoosers
+ ()[Ljavax/swing/colorchooser/AbstractColorChooserPanel;
+ ()[Ljavax/swing/colorchooser/AbstractColorChooserPanel;
+createPropertyChangeListener
+ ()Ljava/beans/PropertyChangeListener;
+ ()Ljava/beans/PropertyChangeListener;
+installUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+uninstallUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V

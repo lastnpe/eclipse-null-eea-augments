@@ -1,0 +1,35 @@
+class javax/xml/validation/ValidatorHandler
+
+getContentHandler
+ ()Lorg/xml/sax/ContentHandler;
+ ()Lorg/xml/sax/ContentHandler;
+getErrorHandler
+ ()Lorg/xml/sax/ErrorHandler;
+ ()Lorg/xml/sax/ErrorHandler;
+getFeature
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getResourceResolver
+ ()Lorg/w3c/dom/ls/LSResourceResolver;
+ ()Lorg/w3c/dom/ls/LSResourceResolver;
+getTypeInfoProvider
+ ()Ljavax/xml/validation/TypeInfoProvider;
+ ()Ljavax/xml/validation/TypeInfoProvider;
+setContentHandler
+ (Lorg/xml/sax/ContentHandler;)V
+ (Lorg/xml/sax/ContentHandler;)V
+setErrorHandler
+ (Lorg/xml/sax/ErrorHandler;)V
+ (Lorg/xml/sax/ErrorHandler;)V
+setFeature
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+setProperty
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+setResourceResolver
+ (Lorg/w3c/dom/ls/LSResourceResolver;)V
+ (Lorg/w3c/dom/ls/LSResourceResolver;)V

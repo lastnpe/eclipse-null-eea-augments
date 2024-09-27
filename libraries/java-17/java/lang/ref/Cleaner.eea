@@ -1,0 +1,12 @@
+class java/lang/ref/Cleaner
+
+create
+ ()Ljava/lang/ref/Cleaner;
+ ()Ljava/lang/ref/Cleaner;
+create
+ (Ljava/util/concurrent/ThreadFactory;)Ljava/lang/ref/Cleaner;
+ (Ljava/util/concurrent/ThreadFactory;)Ljava/lang/ref/Cleaner;
+
+register
+ (Ljava/lang/Object;Ljava/lang/Runnable;)Ljava/lang/ref/Cleaner$Cleanable;
+ (Ljava/lang/Object;Ljava/lang/Runnable;)Ljava/lang/ref/Cleaner$Cleanable;

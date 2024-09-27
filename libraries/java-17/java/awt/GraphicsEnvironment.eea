@@ -1,0 +1,33 @@
+class java/awt/GraphicsEnvironment
+
+getLocalGraphicsEnvironment
+ ()Ljava/awt/GraphicsEnvironment;
+ ()Ljava/awt/GraphicsEnvironment;
+
+createGraphics
+ (Ljava/awt/image/BufferedImage;)Ljava/awt/Graphics2D;
+ (Ljava/awt/image/BufferedImage;)Ljava/awt/Graphics2D;
+getAllFonts
+ ()[Ljava/awt/Font;
+ ()[Ljava/awt/Font;
+getAvailableFontFamilyNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getAvailableFontFamilyNames
+ (Ljava/util/Locale;)[Ljava/lang/String;
+ (Ljava/util/Locale;)[Ljava/lang/String;
+getCenterPoint
+ ()Ljava/awt/Point;
+ ()Ljava/awt/Point;
+getDefaultScreenDevice
+ ()Ljava/awt/GraphicsDevice;
+ ()Ljava/awt/GraphicsDevice;
+getMaximumWindowBounds
+ ()Ljava/awt/Rectangle;
+ ()Ljava/awt/Rectangle;
+getScreenDevices
+ ()[Ljava/awt/GraphicsDevice;
+ ()[Ljava/awt/GraphicsDevice;
+registerFont
+ (Ljava/awt/Font;)Z
+ (Ljava/awt/Font;)Z

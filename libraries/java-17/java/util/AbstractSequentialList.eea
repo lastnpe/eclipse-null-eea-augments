@@ -1,0 +1,29 @@
+class java/util/AbstractSequentialList
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/util/AbstractList
+ <TE;>
+ <TE;>
+
+add
+ (ITE;)V
+ (ITE;)V
+addAll
+ (ILjava/util/Collection<+TE;>;)Z
+ (IL1java/util/Collection<+TE;>;)Z # @Inherited(java.util.AbstractList)
+get
+ (I)TE;
+ (I)TE;
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.AbstractList)
+listIterator
+ (I)Ljava/util/ListIterator<TE;>;
+ (I)L1java/util/ListIterator<TE;>; # @Inherited(java.util.AbstractList)
+remove
+ (I)TE;
+ (I)TE;
+set
+ (ITE;)TE;
+ (ITE;)TE;

@@ -1,0 +1,39 @@
+class java/awt/datatransfer/Clipboard
+
+contents
+ Ljava/awt/datatransfer/Transferable;
+ Ljava/awt/datatransfer/Transferable;
+owner
+ Ljava/awt/datatransfer/ClipboardOwner;
+ Ljava/awt/datatransfer/ClipboardOwner;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+addFlavorListener
+ (Ljava/awt/datatransfer/FlavorListener;)V
+ (L1java/awt/datatransfer/FlavorListener;)V
+getAvailableDataFlavors
+ ()[Ljava/awt/datatransfer/DataFlavor;
+ ()[Ljava/awt/datatransfer/DataFlavor;
+getContents
+ (Ljava/lang/Object;)Ljava/awt/datatransfer/Transferable;
+ (Ljava/lang/Object;)Ljava/awt/datatransfer/Transferable;
+getData
+ (Ljava/awt/datatransfer/DataFlavor;)Ljava/lang/Object;
+ (Ljava/awt/datatransfer/DataFlavor;)Ljava/lang/Object;
+getFlavorListeners
+ ()[Ljava/awt/datatransfer/FlavorListener;
+ ()[Ljava/awt/datatransfer/FlavorListener;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+isDataFlavorAvailable
+ (Ljava/awt/datatransfer/DataFlavor;)Z
+ (Ljava/awt/datatransfer/DataFlavor;)Z
+removeFlavorListener
+ (Ljava/awt/datatransfer/FlavorListener;)V
+ (L1java/awt/datatransfer/FlavorListener;)V
+setContents
+ (Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/ClipboardOwner;)V
+ (Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/ClipboardOwner;)V

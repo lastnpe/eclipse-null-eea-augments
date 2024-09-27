@@ -1,0 +1,14 @@
+class java/lang/reflect/InvocationTargetException
+
+<init>
+ (Ljava/lang/Throwable;)V
+ (L0java/lang/Throwable;)V
+<init>
+ (Ljava/lang/Throwable;Ljava/lang/String;)V
+ (Ljava/lang/Throwable;Ljava/lang/String;)V
+getCause
+ ()Ljava/lang/Throwable;
+ ()L0java/lang/Throwable; # @Inherited(java.lang.Throwable)
+getTargetException
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;

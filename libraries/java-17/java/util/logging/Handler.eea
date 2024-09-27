@@ -1,4 +1,5 @@
 class java/util/logging/Handler
+
 getEncoding
  ()Ljava/lang/String;
  ()L0java/lang/String;
@@ -20,12 +21,15 @@ isLoggable
 publish
  (Ljava/util/logging/LogRecord;)V
  (L0java/util/logging/LogRecord;)V
-setErrorManager
- (Ljava/util/logging/ErrorManager;)V
- (L1java/util/logging/ErrorManager;)V
+reportError
+ (Ljava/lang/String;Ljava/lang/Exception;I)V
+ (Ljava/lang/String;Ljava/lang/Exception;I)V
 setEncoding
  (Ljava/lang/String;)V
  (L0java/lang/String;)V
+setErrorManager
+ (Ljava/util/logging/ErrorManager;)V
+ (L1java/util/logging/ErrorManager;)V
 setFilter
  (Ljava/util/logging/Filter;)V
  (L0java/util/logging/Filter;)V

@@ -1,0 +1,30 @@
+class javax/xml/crypto/dsig/TransformService
+
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/crypto/dsig/TransformService;
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/crypto/dsig/TransformService;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/crypto/dsig/TransformService;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/crypto/dsig/TransformService;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;Ljava/security/Provider;)Ljavax/xml/crypto/dsig/TransformService;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/security/Provider;)Ljavax/xml/crypto/dsig/TransformService;
+
+getAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMechanismType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getProvider
+ ()Ljava/security/Provider;
+ ()Ljava/security/Provider;
+init
+ (Ljavax/xml/crypto/XMLStructure;Ljavax/xml/crypto/XMLCryptoContext;)V
+ (Ljavax/xml/crypto/XMLStructure;Ljavax/xml/crypto/XMLCryptoContext;)V
+init
+ (Ljavax/xml/crypto/dsig/spec/TransformParameterSpec;)V
+ (Ljavax/xml/crypto/dsig/spec/TransformParameterSpec;)V
+marshalParams
+ (Ljavax/xml/crypto/XMLStructure;Ljavax/xml/crypto/XMLCryptoContext;)V
+ (Ljavax/xml/crypto/XMLStructure;Ljavax/xml/crypto/XMLCryptoContext;)V

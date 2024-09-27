@@ -1,0 +1,77 @@
+class javax/naming/ldap/LdapName
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/util/List<Ljavax/naming/ldap/Rdn;>;)V
+ (Ljava/util/List<Ljavax/naming/ldap/Rdn;>;)V
+add
+ (ILjava/lang/String;)Ljavax/naming/Name;
+ (ILjava/lang/String;)Ljavax/naming/Name;
+add
+ (ILjavax/naming/ldap/Rdn;)Ljavax/naming/Name;
+ (ILjavax/naming/ldap/Rdn;)Ljavax/naming/Name;
+add
+ (Ljava/lang/String;)Ljavax/naming/Name;
+ (Ljava/lang/String;)Ljavax/naming/Name;
+add
+ (Ljavax/naming/ldap/Rdn;)Ljavax/naming/Name;
+ (Ljavax/naming/ldap/Rdn;)Ljavax/naming/Name;
+addAll
+ (ILjava/util/List<Ljavax/naming/ldap/Rdn;>;)Ljavax/naming/Name;
+ (ILjava/util/List<Ljavax/naming/ldap/Rdn;>;)Ljavax/naming/Name;
+addAll
+ (ILjavax/naming/Name;)Ljavax/naming/Name;
+ (ILjavax/naming/Name;)Ljavax/naming/Name;
+addAll
+ (Ljava/util/List<Ljavax/naming/ldap/Rdn;>;)Ljavax/naming/Name;
+ (Ljava/util/List<Ljavax/naming/ldap/Rdn;>;)Ljavax/naming/Name;
+addAll
+ (Ljavax/naming/Name;)Ljavax/naming/Name;
+ (Ljavax/naming/Name;)Ljavax/naming/Name;
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+compareTo
+ (Ljava/lang/Object;)I
+ (L1java/lang/Object;)I # @Inherited(javax.naming.Name)
+endsWith
+ (Ljava/util/List<Ljavax/naming/ldap/Rdn;>;)Z
+ (Ljava/util/List<Ljavax/naming/ldap/Rdn;>;)Z
+endsWith
+ (Ljavax/naming/Name;)Z
+ (Ljavax/naming/Name;)Z
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getAll
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+getPrefix
+ (I)Ljavax/naming/Name;
+ (I)Ljavax/naming/Name;
+getRdn
+ (I)Ljavax/naming/ldap/Rdn;
+ (I)Ljavax/naming/ldap/Rdn;
+getRdns
+ ()Ljava/util/List<Ljavax/naming/ldap/Rdn;>;
+ ()Ljava/util/List<Ljavax/naming/ldap/Rdn;>;
+getSuffix
+ (I)Ljavax/naming/Name;
+ (I)Ljavax/naming/Name;
+remove
+ (I)Ljava/lang/Object;
+ (I)Ljava/lang/Object;
+startsWith
+ (Ljava/util/List<Ljavax/naming/ldap/Rdn;>;)Z
+ (Ljava/util/List<Ljavax/naming/ldap/Rdn;>;)Z
+startsWith
+ (Ljavax/naming/Name;)Z
+ (Ljavax/naming/Name;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

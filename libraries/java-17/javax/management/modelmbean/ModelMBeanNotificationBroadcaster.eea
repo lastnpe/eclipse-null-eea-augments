@@ -1,0 +1,20 @@
+class javax/management/modelmbean/ModelMBeanNotificationBroadcaster
+
+addAttributeChangeNotificationListener
+ (Ljavax/management/NotificationListener;Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljavax/management/NotificationListener;Ljava/lang/String;Ljava/lang/Object;)V
+removeAttributeChangeNotificationListener
+ (Ljavax/management/NotificationListener;Ljava/lang/String;)V
+ (Ljavax/management/NotificationListener;Ljava/lang/String;)V
+sendAttributeChangeNotification
+ (Ljavax/management/Attribute;Ljavax/management/Attribute;)V
+ (Ljavax/management/Attribute;Ljavax/management/Attribute;)V
+sendAttributeChangeNotification
+ (Ljavax/management/AttributeChangeNotification;)V
+ (Ljavax/management/AttributeChangeNotification;)V
+sendNotification
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+sendNotification
+ (Ljavax/management/Notification;)V
+ (Ljavax/management/Notification;)V

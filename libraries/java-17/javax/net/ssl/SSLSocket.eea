@@ -1,0 +1,62 @@
+class javax/net/ssl/SSLSocket
+
+<init>
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+<init>
+ (Ljava/lang/String;ILjava/net/InetAddress;I)V
+ (Ljava/lang/String;ILjava/net/InetAddress;I)V
+<init>
+ (Ljava/net/InetAddress;I)V
+ (Ljava/net/InetAddress;I)V
+<init>
+ (Ljava/net/InetAddress;ILjava/net/InetAddress;I)V
+ (Ljava/net/InetAddress;ILjava/net/InetAddress;I)V
+addHandshakeCompletedListener
+ (Ljavax/net/ssl/HandshakeCompletedListener;)V
+ (L1javax/net/ssl/HandshakeCompletedListener;)V
+getApplicationProtocol
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getEnabledCipherSuites
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getEnabledProtocols
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getHandshakeApplicationProtocol
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getHandshakeApplicationProtocolSelector
+ ()Ljava/util/function/BiFunction<Ljavax/net/ssl/SSLSocket;Ljava/util/List<Ljava/lang/String;>;Ljava/lang/String;>;
+ ()Ljava/util/function/BiFunction<Ljavax/net/ssl/SSLSocket;Ljava/util/List<Ljava/lang/String;>;Ljava/lang/String;>;
+getHandshakeSession
+ ()Ljavax/net/ssl/SSLSession;
+ ()Ljavax/net/ssl/SSLSession;
+getSSLParameters
+ ()Ljavax/net/ssl/SSLParameters;
+ ()Ljavax/net/ssl/SSLParameters;
+getSession
+ ()Ljavax/net/ssl/SSLSession;
+ ()Ljavax/net/ssl/SSLSession;
+getSupportedCipherSuites
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getSupportedProtocols
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+removeHandshakeCompletedListener
+ (Ljavax/net/ssl/HandshakeCompletedListener;)V
+ (L1javax/net/ssl/HandshakeCompletedListener;)V
+setEnabledCipherSuites
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setEnabledProtocols
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setHandshakeApplicationProtocolSelector
+ (Ljava/util/function/BiFunction<Ljavax/net/ssl/SSLSocket;Ljava/util/List<Ljava/lang/String;>;Ljava/lang/String;>;)V
+ (Ljava/util/function/BiFunction<Ljavax/net/ssl/SSLSocket;Ljava/util/List<Ljava/lang/String;>;Ljava/lang/String;>;)V
+setSSLParameters
+ (Ljavax/net/ssl/SSLParameters;)V
+ (Ljavax/net/ssl/SSLParameters;)V

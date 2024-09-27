@@ -1,0 +1,78 @@
+class java/awt/image/ComponentSampleModel
+
+bandOffsets
+ [I
+ [I
+bankIndices
+ [I
+ [I
+
+<init>
+ (IIIII[I)V
+ (IIIII[I)V
+<init>
+ (IIIII[I[I)V
+ (IIIII[I[I)V
+createCompatibleSampleModel
+ (II)Ljava/awt/image/SampleModel;
+ (II)Ljava/awt/image/SampleModel;
+createDataBuffer
+ ()Ljava/awt/image/DataBuffer;
+ ()Ljava/awt/image/DataBuffer;
+createSubsetSampleModel
+ ([I)Ljava/awt/image/SampleModel;
+ ([I)Ljava/awt/image/SampleModel;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getBandOffsets
+ ()[I
+ ()[I
+getBankIndices
+ ()[I
+ ()[I
+getDataElements
+ (IILjava/lang/Object;Ljava/awt/image/DataBuffer;)Ljava/lang/Object;
+ (IILjava/lang/Object;Ljava/awt/image/DataBuffer;)Ljava/lang/Object;
+getPixel
+ (II[ILjava/awt/image/DataBuffer;)[I
+ (II[ILjava/awt/image/DataBuffer;)[I
+getPixels
+ (IIII[ILjava/awt/image/DataBuffer;)[I
+ (IIII[ILjava/awt/image/DataBuffer;)[I
+getSample
+ (IIILjava/awt/image/DataBuffer;)I
+ (IIILjava/awt/image/DataBuffer;)I
+getSampleDouble
+ (IIILjava/awt/image/DataBuffer;)D
+ (IIILjava/awt/image/DataBuffer;)D
+getSampleFloat
+ (IIILjava/awt/image/DataBuffer;)F
+ (IIILjava/awt/image/DataBuffer;)F
+getSampleSize
+ ()[I
+ ()[I
+getSamples
+ (IIIII[ILjava/awt/image/DataBuffer;)[I
+ (IIIII[ILjava/awt/image/DataBuffer;)[I
+setDataElements
+ (IILjava/lang/Object;Ljava/awt/image/DataBuffer;)V
+ (IILjava/lang/Object;Ljava/awt/image/DataBuffer;)V
+setPixel
+ (II[ILjava/awt/image/DataBuffer;)V
+ (II[ILjava/awt/image/DataBuffer;)V
+setPixels
+ (IIII[ILjava/awt/image/DataBuffer;)V
+ (IIII[ILjava/awt/image/DataBuffer;)V
+setSample
+ (IIIDLjava/awt/image/DataBuffer;)V
+ (IIIDLjava/awt/image/DataBuffer;)V
+setSample
+ (IIIFLjava/awt/image/DataBuffer;)V
+ (IIIFLjava/awt/image/DataBuffer;)V
+setSample
+ (IIIILjava/awt/image/DataBuffer;)V
+ (IIIILjava/awt/image/DataBuffer;)V
+setSamples
+ (IIIII[ILjava/awt/image/DataBuffer;)V
+ (IIIII[ILjava/awt/image/DataBuffer;)V

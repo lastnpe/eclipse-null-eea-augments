@@ -1,0 +1,30 @@
+class java/awt/Component$FlipBufferStrategy
+
+caps
+ Ljava/awt/BufferCapabilities;
+ Ljava/awt/BufferCapabilities;
+drawBuffer
+ Ljava/awt/Image;
+ Ljava/awt/Image;
+drawVBuffer
+ Ljava/awt/image/VolatileImage;
+ Ljava/awt/image/VolatileImage;
+
+<init>
+ (Ljava/awt/Component;ILjava/awt/BufferCapabilities;)V
+ (Ljava/awt/Component;ILjava/awt/BufferCapabilities;)V
+createBuffers
+ (ILjava/awt/BufferCapabilities;)V
+ (ILjava/awt/BufferCapabilities;)V
+flip
+ (Ljava/awt/BufferCapabilities$FlipContents;)V
+ (Ljava/awt/BufferCapabilities$FlipContents;)V
+getBackBuffer
+ ()Ljava/awt/Image;
+ ()Ljava/awt/Image;
+getCapabilities
+ ()Ljava/awt/BufferCapabilities;
+ ()Ljava/awt/BufferCapabilities;
+getDrawGraphics
+ ()Ljava/awt/Graphics;
+ ()Ljava/awt/Graphics;

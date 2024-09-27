@@ -1,0 +1,17 @@
+class java/nio/channels/NetworkChannel
+
+bind
+ (Ljava/net/SocketAddress;)Ljava/nio/channels/NetworkChannel;
+ (Ljava/net/SocketAddress;)Ljava/nio/channels/NetworkChannel;
+getLocalAddress
+ ()Ljava/net/SocketAddress;
+ ()Ljava/net/SocketAddress;
+getOption
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;)TT;
+setOption
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/nio/channels/NetworkChannel;
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/nio/channels/NetworkChannel;
+supportedOptions
+ ()Ljava/util/Set<Ljava/net/SocketOption<*>;>;
+ ()Ljava/util/Set<Ljava/net/SocketOption<*>;>;

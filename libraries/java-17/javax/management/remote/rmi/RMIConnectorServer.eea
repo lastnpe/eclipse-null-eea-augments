@@ -1,0 +1,48 @@
+class javax/management/remote/rmi/RMIConnectorServer
+
+CREDENTIALS_FILTER_PATTERN
+ Ljava/lang/String;
+ L1java/lang/String;
+JNDI_REBIND_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+RMI_CLIENT_SOCKET_FACTORY_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+RMI_SERVER_SOCKET_FACTORY_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+SERIAL_FILTER_PATTERN
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljavax/management/remote/JMXServiceURL;Ljava/util/Map<Ljava/lang/String;*>;)V
+ (Ljavax/management/remote/JMXServiceURL;Ljava/util/Map<Ljava/lang/String;*>;)V
+<init>
+ (Ljavax/management/remote/JMXServiceURL;Ljava/util/Map<Ljava/lang/String;*>;Ljavax/management/MBeanServer;)V
+ (Ljavax/management/remote/JMXServiceURL;Ljava/util/Map<Ljava/lang/String;*>;Ljavax/management/MBeanServer;)V
+<init>
+ (Ljavax/management/remote/JMXServiceURL;Ljava/util/Map<Ljava/lang/String;*>;Ljavax/management/remote/rmi/RMIServerImpl;Ljavax/management/MBeanServer;)V
+ (Ljavax/management/remote/JMXServiceURL;Ljava/util/Map<Ljava/lang/String;*>;Ljavax/management/remote/rmi/RMIServerImpl;Ljavax/management/MBeanServer;)V
+connectionClosed
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+connectionFailed
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+connectionOpened
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+getAddress
+ ()Ljavax/management/remote/JMXServiceURL;
+ ()Ljavax/management/remote/JMXServiceURL;
+getAttributes
+ ()Ljava/util/Map<Ljava/lang/String;*>;
+ ()Ljava/util/Map<Ljava/lang/String;*>;
+setMBeanServerForwarder
+ (Ljavax/management/remote/MBeanServerForwarder;)V
+ (Ljavax/management/remote/MBeanServerForwarder;)V
+toJMXConnector
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljavax/management/remote/JMXConnector;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljavax/management/remote/JMXConnector;

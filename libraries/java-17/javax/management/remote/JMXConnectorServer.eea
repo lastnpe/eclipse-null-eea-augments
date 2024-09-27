@@ -1,0 +1,39 @@
+class javax/management/remote/JMXConnectorServer
+
+AUTHENTICATOR
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljavax/management/MBeanServer;)V
+ (Ljavax/management/MBeanServer;)V
+connectionClosed
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+connectionFailed
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+connectionOpened
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+getConnectionIds
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getMBeanServer
+ ()Ljavax/management/MBeanServer;
+ ()Ljavax/management/MBeanServer;
+getNotificationInfo
+ ()[Ljavax/management/MBeanNotificationInfo;
+ ()[Ljavax/management/MBeanNotificationInfo;
+postRegister
+ (Ljava/lang/Boolean;)V
+ (Ljava/lang/Boolean;)V
+preRegister
+ (Ljavax/management/MBeanServer;Ljavax/management/ObjectName;)Ljavax/management/ObjectName;
+ (Ljavax/management/MBeanServer;Ljavax/management/ObjectName;)Ljavax/management/ObjectName;
+setMBeanServerForwarder
+ (Ljavax/management/remote/MBeanServerForwarder;)V
+ (Ljavax/management/remote/MBeanServerForwarder;)V
+toJMXConnector
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljavax/management/remote/JMXConnector;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljavax/management/remote/JMXConnector;

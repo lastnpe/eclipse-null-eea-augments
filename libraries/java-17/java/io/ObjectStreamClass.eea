@@ -1,0 +1,28 @@
+class java/io/ObjectStreamClass
+
+NO_FIELDS
+ [Ljava/io/ObjectStreamField;
+ [1Ljava/io/ObjectStreamField;
+
+lookup
+ (Ljava/lang/Class<*>;)Ljava/io/ObjectStreamClass;
+ (Ljava/lang/Class<*>;)Ljava/io/ObjectStreamClass;
+lookupAny
+ (Ljava/lang/Class<*>;)Ljava/io/ObjectStreamClass;
+ (Ljava/lang/Class<*>;)Ljava/io/ObjectStreamClass;
+
+forClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getField
+ (Ljava/lang/String;)Ljava/io/ObjectStreamField;
+ (Ljava/lang/String;)Ljava/io/ObjectStreamField;
+getFields
+ ()[Ljava/io/ObjectStreamField;
+ ()[Ljava/io/ObjectStreamField;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

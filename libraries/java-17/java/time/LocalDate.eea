@@ -1,10 +1,49 @@
 class java/time/LocalDate
+
+EPOCH
+ Ljava/time/LocalDate;
+ L1java/time/LocalDate;
 MAX
  Ljava/time/LocalDate;
  L1java/time/LocalDate;
 MIN
  Ljava/time/LocalDate;
  L1java/time/LocalDate;
+
+from
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/LocalDate;
+ (L1java/time/temporal/TemporalAccessor;)L1java/time/LocalDate;
+now
+ ()Ljava/time/LocalDate;
+ ()L1java/time/LocalDate;
+now
+ (Ljava/time/Clock;)Ljava/time/LocalDate;
+ (L1java/time/Clock;)L1java/time/LocalDate;
+now
+ (Ljava/time/ZoneId;)Ljava/time/LocalDate;
+ (L1java/time/ZoneId;)L1java/time/LocalDate;
+of
+ (III)Ljava/time/LocalDate;
+ (III)L1java/time/LocalDate;
+of
+ (ILjava/time/Month;I)Ljava/time/LocalDate;
+ (IL1java/time/Month;I)L1java/time/LocalDate;
+ofEpochDay
+ (J)Ljava/time/LocalDate;
+ (J)L1java/time/LocalDate;
+ofInstant
+ (Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/LocalDate;
+ (Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/LocalDate;
+ofYearDay
+ (II)Ljava/time/LocalDate;
+ (II)L1java/time/LocalDate;
+parse
+ (Ljava/lang/CharSequence;)Ljava/time/LocalDate;
+ (L1java/lang/CharSequence;)L1java/time/LocalDate;
+parse
+ (Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)Ljava/time/LocalDate;
+ (L1java/lang/CharSequence;L1java/time/format/DateTimeFormatter;)L1java/time/LocalDate;
+
 adjustInto
  (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
  (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal;
@@ -31,16 +70,19 @@ atTime
  (L1java/time/OffsetTime;)L1java/time/OffsetDateTime;
 compareTo
  (Ljava/time/chrono/ChronoLocalDate;)I
- (L1java/time/chrono/ChronoLocalDate;)I
+ (L1java/time/chrono/ChronoLocalDate;)I # @Inherited(java.time.chrono.ChronoLocalDate)
+datesUntil
+ (Ljava/time/LocalDate;)Ljava/util/stream/Stream<Ljava/time/LocalDate;>;
+ (Ljava/time/LocalDate;)Ljava/util/stream/Stream<Ljava/time/LocalDate;>;
+datesUntil
+ (Ljava/time/LocalDate;Ljava/time/Period;)Ljava/util/stream/Stream<Ljava/time/LocalDate;>;
+ (Ljava/time/LocalDate;Ljava/time/Period;)Ljava/util/stream/Stream<Ljava/time/LocalDate;>;
 equals
  (Ljava/lang/Object;)Z
- (L0java/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
 format
  (Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;
  (L1java/time/format/DateTimeFormatter;)L1java/lang/String;
-from
- (Ljava/time/temporal/TemporalAccessor;)Ljava/time/LocalDate;
- (L1java/time/temporal/TemporalAccessor;)L1java/time/LocalDate;
 get
  (Ljava/time/temporal/TemporalField;)I
  (L1java/time/temporal/TemporalField;)I
@@ -92,33 +134,6 @@ minusWeeks
 minusYears
  (J)Ljava/time/LocalDate;
  (J)L1java/time/LocalDate;
-now
- ()Ljava/time/LocalDate;
- ()L1java/time/LocalDate;
-now
- (Ljava/time/Clock;)Ljava/time/LocalDate;
- (L1java/time/Clock;)L1java/time/LocalDate;
-now
- (Ljava/time/ZoneId;)Ljava/time/LocalDate;
- (L1java/time/ZoneId;)L1java/time/LocalDate;
-of
- (III)Ljava/time/LocalDate;
- (III)L1java/time/LocalDate;
-of
- (ILjava/time/Month;I)Ljava/time/LocalDate;
- (IL1java/time/Month;I)L1java/time/LocalDate;
-ofEpochDay
- (J)Ljava/time/LocalDate;
- (J)L1java/time/LocalDate;
-ofYearDay
- (II)Ljava/time/LocalDate;
- (II)L1java/time/LocalDate;
-parse
- (Ljava/lang/CharSequence;)Ljava/time/LocalDate;
- (L1java/lang/CharSequence;)L1java/time/LocalDate;
-parse
- (Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)Ljava/time/LocalDate;
- (L1java/lang/CharSequence;L1java/time/format/DateTimeFormatter;)L1java/time/LocalDate;
 plus
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/LocalDate;
  (JL1java/time/temporal/TemporalUnit;)L1java/time/LocalDate;
@@ -143,9 +158,12 @@ query
 range
  (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
  (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange;
+toEpochSecond
+ (Ljava/time/LocalTime;Ljava/time/ZoneOffset;)J
+ (Ljava/time/LocalTime;Ljava/time/ZoneOffset;)J
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
 until
  (Ljava/time/chrono/ChronoLocalDate;)Ljava/time/Period;
  (L1java/time/chrono/ChronoLocalDate;)L1java/time/Period;
@@ -170,4 +188,3 @@ withMonth
 withYear
  (I)Ljava/time/LocalDate;
  (I)L1java/time/LocalDate;
-

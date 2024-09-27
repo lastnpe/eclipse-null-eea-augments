@@ -1,0 +1,21 @@
+class java/lang/invoke/MethodHandleInfo
+
+referenceKindToString
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+toString
+ (ILjava/lang/Class<*>;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/String;
+ (ILjava/lang/Class<*>;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/String;
+
+getDeclaringClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getMethodType
+ ()Ljava/lang/invoke/MethodType;
+ ()Ljava/lang/invoke/MethodType;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+reflectAs
+ <T::Ljava/lang/reflect/Member;>(Ljava/lang/Class<TT;>;Ljava/lang/invoke/MethodHandles$Lookup;)TT;
+ <T::Ljava/lang/reflect/Member;>(Ljava/lang/Class<TT;>;Ljava/lang/invoke/MethodHandles$Lookup;)TT;

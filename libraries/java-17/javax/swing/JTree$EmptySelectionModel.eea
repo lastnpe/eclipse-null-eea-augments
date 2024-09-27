@@ -1,0 +1,34 @@
+class javax/swing/JTree$EmptySelectionModel
+
+sharedInstance
+ Ljavax/swing/JTree$EmptySelectionModel;
+ L1javax/swing/JTree$EmptySelectionModel;
+
+sharedInstance
+ ()Ljavax/swing/JTree$EmptySelectionModel;
+ ()Ljavax/swing/JTree$EmptySelectionModel;
+
+addPropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V # @Inherited(javax.swing.tree.DefaultTreeSelectionModel)
+addSelectionPaths
+ ([Ljavax/swing/tree/TreePath;)V
+ ([Ljavax/swing/tree/TreePath;)V
+addTreeSelectionListener
+ (Ljavax/swing/event/TreeSelectionListener;)V
+ (L1javax/swing/event/TreeSelectionListener;)V # @Inherited(javax.swing.tree.DefaultTreeSelectionModel)
+removePropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V # @Inherited(javax.swing.tree.DefaultTreeSelectionModel)
+removeSelectionPaths
+ ([Ljavax/swing/tree/TreePath;)V
+ ([Ljavax/swing/tree/TreePath;)V
+removeTreeSelectionListener
+ (Ljavax/swing/event/TreeSelectionListener;)V
+ (L1javax/swing/event/TreeSelectionListener;)V # @Inherited(javax.swing.tree.DefaultTreeSelectionModel)
+setRowMapper
+ (Ljavax/swing/tree/RowMapper;)V
+ (Ljavax/swing/tree/RowMapper;)V
+setSelectionPaths
+ ([Ljavax/swing/tree/TreePath;)V
+ ([Ljavax/swing/tree/TreePath;)V

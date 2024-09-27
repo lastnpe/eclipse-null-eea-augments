@@ -1,0 +1,23 @@
+class java/io/InputStreamReader
+
+<init>
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+<init>
+ (Ljava/io/InputStream;Ljava/lang/String;)V
+ (Ljava/io/InputStream;Ljava/lang/String;)V
+<init>
+ (Ljava/io/InputStream;Ljava/nio/charset/Charset;)V
+ (Ljava/io/InputStream;Ljava/nio/charset/Charset;)V
+<init>
+ (Ljava/io/InputStream;Ljava/nio/charset/CharsetDecoder;)V
+ (Ljava/io/InputStream;Ljava/nio/charset/CharsetDecoder;)V
+getEncoding
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+read
+ (Ljava/nio/CharBuffer;)I
+ (L1java/nio/CharBuffer;)I # @Inherited(java.io.Reader)
+read
+ ([CII)I
+ ([CII)I

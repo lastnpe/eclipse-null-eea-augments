@@ -1,0 +1,75 @@
+class javax/swing/border/TitledBorder
+
+border
+ Ljavax/swing/border/Border;
+ Ljavax/swing/border/Border;
+title
+ Ljava/lang/String;
+ Ljava/lang/String;
+titleColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+titleFont
+ Ljava/awt/Font;
+ Ljava/awt/Font;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljavax/swing/border/Border;)V
+ (Ljavax/swing/border/Border;)V
+<init>
+ (Ljavax/swing/border/Border;Ljava/lang/String;)V
+ (Ljavax/swing/border/Border;Ljava/lang/String;)V
+<init>
+ (Ljavax/swing/border/Border;Ljava/lang/String;II)V
+ (Ljavax/swing/border/Border;Ljava/lang/String;II)V
+<init>
+ (Ljavax/swing/border/Border;Ljava/lang/String;IILjava/awt/Font;)V
+ (Ljavax/swing/border/Border;Ljava/lang/String;IILjava/awt/Font;)V
+<init>
+ (Ljavax/swing/border/Border;Ljava/lang/String;IILjava/awt/Font;Ljava/awt/Color;)V
+ (Ljavax/swing/border/Border;Ljava/lang/String;IILjava/awt/Font;Ljava/awt/Color;)V
+getBaseline
+ (Ljava/awt/Component;II)I
+ (Ljava/awt/Component;II)I
+getBaselineResizeBehavior
+ (Ljava/awt/Component;)Ljava/awt/Component$BaselineResizeBehavior;
+ (Ljava/awt/Component;)Ljava/awt/Component$BaselineResizeBehavior;
+getBorder
+ ()Ljavax/swing/border/Border;
+ ()Ljavax/swing/border/Border;
+getBorderInsets
+ (Ljava/awt/Component;Ljava/awt/Insets;)Ljava/awt/Insets;
+ (Ljava/awt/Component;Ljava/awt/Insets;)Ljava/awt/Insets;
+getFont
+ (Ljava/awt/Component;)Ljava/awt/Font;
+ (Ljava/awt/Component;)Ljava/awt/Font;
+getMinimumSize
+ (Ljava/awt/Component;)Ljava/awt/Dimension;
+ (Ljava/awt/Component;)Ljava/awt/Dimension;
+getTitle
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTitleColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getTitleFont
+ ()Ljava/awt/Font;
+ ()Ljava/awt/Font;
+paintBorder
+ (Ljava/awt/Component;Ljava/awt/Graphics;IIII)V
+ (Ljava/awt/Component;Ljava/awt/Graphics;IIII)V
+setBorder
+ (Ljavax/swing/border/Border;)V
+ (Ljavax/swing/border/Border;)V
+setTitle
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setTitleColor
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setTitleFont
+ (Ljava/awt/Font;)V
+ (Ljava/awt/Font;)V

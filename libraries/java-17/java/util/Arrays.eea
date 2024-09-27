@@ -1,10 +1,596 @@
 class java/util/Arrays
+
 asList
  <T:Ljava/lang/Object;>([TT;)Ljava/util/List<TT;>;
  <T:Ljava/lang/Object;>([TT;)L1java/util/List<TT;>;
+binarySearch
+ ([BB)I
+ ([BB)I
+binarySearch
+ ([BIIB)I
+ ([BIIB)I
+binarySearch
+ ([CC)I
+ ([CC)I
+binarySearch
+ ([CIIC)I
+ ([CIIC)I
+binarySearch
+ ([DD)I
+ ([DD)I
+binarySearch
+ ([DIID)I
+ ([DIID)I
+binarySearch
+ ([FF)I
+ ([FF)I
+binarySearch
+ ([FIIF)I
+ ([FIIF)I
+binarySearch
+ ([II)I
+ ([II)I
+binarySearch
+ ([IIII)I
+ ([IIII)I
+binarySearch
+ ([JIIJ)I
+ ([JIIJ)I
+binarySearch
+ ([JJ)I
+ ([JJ)I
+binarySearch
+ ([Ljava/lang/Object;IILjava/lang/Object;)I
+ ([Ljava/lang/Object;IILjava/lang/Object;)I
+binarySearch
+ ([Ljava/lang/Object;Ljava/lang/Object;)I
+ ([Ljava/lang/Object;Ljava/lang/Object;)I
+binarySearch
+ ([SIIS)I
+ ([SIIS)I
+binarySearch
+ ([SS)I
+ ([SS)I
+binarySearch
+ <T:Ljava/lang/Object;>([TT;IITT;Ljava/util/Comparator<-TT;>;)I
+ <T:Ljava/lang/Object;>([TT;IITT;Ljava/util/Comparator<-TT;>;)I
+binarySearch
+ <T:Ljava/lang/Object;>([TT;TT;Ljava/util/Comparator<-TT;>;)I
+ <T:Ljava/lang/Object;>([TT;TT;Ljava/util/Comparator<-TT;>;)I
+compare
+ ([BII[BII)I
+ ([BII[BII)I
+compare
+ ([B[B)I
+ ([B[B)I
+compare
+ ([CII[CII)I
+ ([CII[CII)I
+compare
+ ([C[C)I
+ ([C[C)I
+compare
+ ([DII[DII)I
+ ([DII[DII)I
+compare
+ ([D[D)I
+ ([D[D)I
+compare
+ ([FII[FII)I
+ ([FII[FII)I
+compare
+ ([F[F)I
+ ([F[F)I
+compare
+ ([III[III)I
+ ([III[III)I
+compare
+ ([I[I)I
+ ([I[I)I
+compare
+ ([JII[JII)I
+ ([JII[JII)I
+compare
+ ([J[J)I
+ ([J[J)I
+compare
+ ([SII[SII)I
+ ([SII[SII)I
+compare
+ ([S[S)I
+ ([S[S)I
+compare
+ ([ZII[ZII)I
+ ([ZII[ZII)I
+compare
+ ([Z[Z)I
+ ([Z[Z)I
+compare
+ <T::Ljava/lang/Comparable<-TT;>;>([TT;II[TT;II)I
+ <T::Ljava/lang/Comparable<-TT;>;>([TT;II[TT;II)I
+compare
+ <T::Ljava/lang/Comparable<-TT;>;>([TT;[TT;)I
+ <T::Ljava/lang/Comparable<-TT;>;>([TT;[TT;)I
+compare
+ <T:Ljava/lang/Object;>([TT;II[TT;IILjava/util/Comparator<-TT;>;)I
+ <T:Ljava/lang/Object;>([TT;II[TT;IILjava/util/Comparator<-TT;>;)I
+compare
+ <T:Ljava/lang/Object;>([TT;[TT;Ljava/util/Comparator<-TT;>;)I
+ <T:Ljava/lang/Object;>([TT;[TT;Ljava/util/Comparator<-TT;>;)I
+compareUnsigned
+ ([BII[BII)I
+ ([BII[BII)I
+compareUnsigned
+ ([B[B)I
+ ([B[B)I
+compareUnsigned
+ ([III[III)I
+ ([III[III)I
+compareUnsigned
+ ([I[I)I
+ ([I[I)I
+compareUnsigned
+ ([JII[JII)I
+ ([JII[JII)I
+compareUnsigned
+ ([J[J)I
+ ([J[J)I
+compareUnsigned
+ ([SII[SII)I
+ ([SII[SII)I
+compareUnsigned
+ ([S[S)I
+ ([S[S)I
+copyOf
+ ([BI)[B
+ ([BI)[B
+copyOf
+ ([CI)[C
+ ([CI)[C
+copyOf
+ ([DI)[D
+ ([DI)[D
+copyOf
+ ([FI)[F
+ ([FI)[F
+copyOf
+ ([II)[I
+ ([II)[I
+copyOf
+ ([JI)[J
+ ([JI)[J
+copyOf
+ ([SI)[S
+ ([SI)[S
+copyOf
+ ([ZI)[Z
+ ([ZI)[Z
+copyOf
+ <T:Ljava/lang/Object;>([TT;I)[TT;
+ <T:Ljava/lang/Object;>([TT;I)[TT;
+copyOf
+ <T:Ljava/lang/Object;U:Ljava/lang/Object;>([TU;ILjava/lang/Class<+[TT;>;)[TT;
+ <T:Ljava/lang/Object;U:Ljava/lang/Object;>([TU;ILjava/lang/Class<+[TT;>;)[TT;
+copyOfRange
+ ([BII)[B
+ ([BII)[B
+copyOfRange
+ ([CII)[C
+ ([CII)[C
+copyOfRange
+ ([DII)[D
+ ([DII)[D
+copyOfRange
+ ([FII)[F
+ ([FII)[F
+copyOfRange
+ ([III)[I
+ ([III)[I
+copyOfRange
+ ([JII)[J
+ ([JII)[J
+copyOfRange
+ ([SII)[S
+ ([SII)[S
+copyOfRange
+ ([ZII)[Z
+ ([ZII)[Z
+copyOfRange
+ <T:Ljava/lang/Object;>([TT;II)[TT;
+ <T:Ljava/lang/Object;>([TT;II)[TT;
+copyOfRange
+ <T:Ljava/lang/Object;U:Ljava/lang/Object;>([TU;IILjava/lang/Class<+[TT;>;)[TT;
+ <T:Ljava/lang/Object;U:Ljava/lang/Object;>([TU;IILjava/lang/Class<+[TT;>;)[TT;
+deepEquals
+ ([Ljava/lang/Object;[Ljava/lang/Object;)Z
+ ([Ljava/lang/Object;[Ljava/lang/Object;)Z
+deepHashCode
+ ([Ljava/lang/Object;)I
+ ([Ljava/lang/Object;)I
 deepToString
  ([Ljava/lang/Object;)Ljava/lang/String;
  ([Ljava/lang/Object;)L1java/lang/String;
+equals
+ ([BII[BII)Z
+ ([BII[BII)Z
+equals
+ ([B[B)Z
+ ([B[B)Z
+equals
+ ([CII[CII)Z
+ ([CII[CII)Z
+equals
+ ([C[C)Z
+ ([C[C)Z
+equals
+ ([DII[DII)Z
+ ([DII[DII)Z
+equals
+ ([D[D)Z
+ ([D[D)Z
+equals
+ ([FII[FII)Z
+ ([FII[FII)Z
+equals
+ ([F[F)Z
+ ([F[F)Z
+equals
+ ([III[III)Z
+ ([III[III)Z
+equals
+ ([I[I)Z
+ ([I[I)Z
+equals
+ ([JII[JII)Z
+ ([JII[JII)Z
+equals
+ ([J[J)Z
+ ([J[J)Z
+equals
+ ([Ljava/lang/Object;II[Ljava/lang/Object;II)Z
+ ([Ljava/lang/Object;II[Ljava/lang/Object;II)Z
+equals
+ ([Ljava/lang/Object;[Ljava/lang/Object;)Z
+ ([Ljava/lang/Object;[Ljava/lang/Object;)Z
+equals
+ ([SII[SII)Z
+ ([SII[SII)Z
+equals
+ ([S[S)Z
+ ([S[S)Z
+equals
+ ([ZII[ZII)Z
+ ([ZII[ZII)Z
+equals
+ ([Z[Z)Z
+ ([Z[Z)Z
+equals
+ <T:Ljava/lang/Object;>([TT;II[TT;IILjava/util/Comparator<-TT;>;)Z
+ <T:Ljava/lang/Object;>([TT;II[TT;IILjava/util/Comparator<-TT;>;)Z
+equals
+ <T:Ljava/lang/Object;>([TT;[TT;Ljava/util/Comparator<-TT;>;)Z
+ <T:Ljava/lang/Object;>([TT;[TT;Ljava/util/Comparator<-TT;>;)Z
+fill
+ ([BB)V
+ ([BB)V
+fill
+ ([BIIB)V
+ ([BIIB)V
+fill
+ ([CC)V
+ ([CC)V
+fill
+ ([CIIC)V
+ ([CIIC)V
+fill
+ ([DD)V
+ ([DD)V
+fill
+ ([DIID)V
+ ([DIID)V
+fill
+ ([FF)V
+ ([FF)V
+fill
+ ([FIIF)V
+ ([FIIF)V
+fill
+ ([II)V
+ ([II)V
+fill
+ ([IIII)V
+ ([IIII)V
+fill
+ ([JIIJ)V
+ ([JIIJ)V
+fill
+ ([JJ)V
+ ([JJ)V
+fill
+ ([Ljava/lang/Object;IILjava/lang/Object;)V
+ ([Ljava/lang/Object;IILjava/lang/Object;)V
+fill
+ ([Ljava/lang/Object;Ljava/lang/Object;)V
+ ([Ljava/lang/Object;Ljava/lang/Object;)V
+fill
+ ([SIIS)V
+ ([SIIS)V
+fill
+ ([SS)V
+ ([SS)V
+fill
+ ([ZIIZ)V
+ ([ZIIZ)V
+fill
+ ([ZZ)V
+ ([ZZ)V
+hashCode
+ ([B)I
+ ([B)I
+hashCode
+ ([C)I
+ ([C)I
+hashCode
+ ([D)I
+ ([D)I
+hashCode
+ ([F)I
+ ([F)I
+hashCode
+ ([I)I
+ ([I)I
+hashCode
+ ([J)I
+ ([J)I
+hashCode
+ ([Ljava/lang/Object;)I
+ ([Ljava/lang/Object;)I
+hashCode
+ ([S)I
+ ([S)I
+hashCode
+ ([Z)I
+ ([Z)I
+mismatch
+ ([BII[BII)I
+ ([BII[BII)I
+mismatch
+ ([B[B)I
+ ([B[B)I
+mismatch
+ ([CII[CII)I
+ ([CII[CII)I
+mismatch
+ ([C[C)I
+ ([C[C)I
+mismatch
+ ([DII[DII)I
+ ([DII[DII)I
+mismatch
+ ([D[D)I
+ ([D[D)I
+mismatch
+ ([FII[FII)I
+ ([FII[FII)I
+mismatch
+ ([F[F)I
+ ([F[F)I
+mismatch
+ ([III[III)I
+ ([III[III)I
+mismatch
+ ([I[I)I
+ ([I[I)I
+mismatch
+ ([JII[JII)I
+ ([JII[JII)I
+mismatch
+ ([J[J)I
+ ([J[J)I
+mismatch
+ ([Ljava/lang/Object;II[Ljava/lang/Object;II)I
+ ([Ljava/lang/Object;II[Ljava/lang/Object;II)I
+mismatch
+ ([Ljava/lang/Object;[Ljava/lang/Object;)I
+ ([Ljava/lang/Object;[Ljava/lang/Object;)I
+mismatch
+ ([SII[SII)I
+ ([SII[SII)I
+mismatch
+ ([S[S)I
+ ([S[S)I
+mismatch
+ ([ZII[ZII)I
+ ([ZII[ZII)I
+mismatch
+ ([Z[Z)I
+ ([Z[Z)I
+mismatch
+ <T:Ljava/lang/Object;>([TT;II[TT;IILjava/util/Comparator<-TT;>;)I
+ <T:Ljava/lang/Object;>([TT;II[TT;IILjava/util/Comparator<-TT;>;)I
+mismatch
+ <T:Ljava/lang/Object;>([TT;[TT;Ljava/util/Comparator<-TT;>;)I
+ <T:Ljava/lang/Object;>([TT;[TT;Ljava/util/Comparator<-TT;>;)I
+parallelPrefix
+ ([DIILjava/util/function/DoubleBinaryOperator;)V
+ ([DIILjava/util/function/DoubleBinaryOperator;)V
+parallelPrefix
+ ([DLjava/util/function/DoubleBinaryOperator;)V
+ ([DLjava/util/function/DoubleBinaryOperator;)V
+parallelPrefix
+ ([IIILjava/util/function/IntBinaryOperator;)V
+ ([IIILjava/util/function/IntBinaryOperator;)V
+parallelPrefix
+ ([ILjava/util/function/IntBinaryOperator;)V
+ ([ILjava/util/function/IntBinaryOperator;)V
+parallelPrefix
+ ([JIILjava/util/function/LongBinaryOperator;)V
+ ([JIILjava/util/function/LongBinaryOperator;)V
+parallelPrefix
+ ([JLjava/util/function/LongBinaryOperator;)V
+ ([JLjava/util/function/LongBinaryOperator;)V
+parallelPrefix
+ <T:Ljava/lang/Object;>([TT;IILjava/util/function/BinaryOperator<TT;>;)V
+ <T:Ljava/lang/Object;>([TT;IILjava/util/function/BinaryOperator<TT;>;)V
+parallelPrefix
+ <T:Ljava/lang/Object;>([TT;Ljava/util/function/BinaryOperator<TT;>;)V
+ <T:Ljava/lang/Object;>([TT;Ljava/util/function/BinaryOperator<TT;>;)V
+parallelSetAll
+ ([DLjava/util/function/IntToDoubleFunction;)V
+ ([DLjava/util/function/IntToDoubleFunction;)V
+parallelSetAll
+ ([ILjava/util/function/IntUnaryOperator;)V
+ ([ILjava/util/function/IntUnaryOperator;)V
+parallelSetAll
+ ([JLjava/util/function/IntToLongFunction;)V
+ ([JLjava/util/function/IntToLongFunction;)V
+parallelSetAll
+ <T:Ljava/lang/Object;>([TT;Ljava/util/function/IntFunction<+TT;>;)V
+ <T:Ljava/lang/Object;>([TT;Ljava/util/function/IntFunction<+TT;>;)V
+parallelSort
+ ([B)V
+ ([B)V
+parallelSort
+ ([BII)V
+ ([BII)V
+parallelSort
+ ([C)V
+ ([C)V
+parallelSort
+ ([CII)V
+ ([CII)V
+parallelSort
+ ([D)V
+ ([D)V
+parallelSort
+ ([DII)V
+ ([DII)V
+parallelSort
+ ([F)V
+ ([F)V
+parallelSort
+ ([FII)V
+ ([FII)V
+parallelSort
+ ([I)V
+ ([I)V
+parallelSort
+ ([III)V
+ ([III)V
+parallelSort
+ ([J)V
+ ([J)V
+parallelSort
+ ([JII)V
+ ([JII)V
+parallelSort
+ ([S)V
+ ([S)V
+parallelSort
+ ([SII)V
+ ([SII)V
+parallelSort
+ <T::Ljava/lang/Comparable<-TT;>;>([TT;)V
+ <T::Ljava/lang/Comparable<-TT;>;>([TT;)V
+parallelSort
+ <T::Ljava/lang/Comparable<-TT;>;>([TT;II)V
+ <T::Ljava/lang/Comparable<-TT;>;>([TT;II)V
+parallelSort
+ <T:Ljava/lang/Object;>([TT;IILjava/util/Comparator<-TT;>;)V
+ <T:Ljava/lang/Object;>([TT;IILjava/util/Comparator<-TT;>;)V
+parallelSort
+ <T:Ljava/lang/Object;>([TT;Ljava/util/Comparator<-TT;>;)V
+ <T:Ljava/lang/Object;>([TT;Ljava/util/Comparator<-TT;>;)V
+setAll
+ ([DLjava/util/function/IntToDoubleFunction;)V
+ ([DLjava/util/function/IntToDoubleFunction;)V
+setAll
+ ([ILjava/util/function/IntUnaryOperator;)V
+ ([ILjava/util/function/IntUnaryOperator;)V
+setAll
+ ([JLjava/util/function/IntToLongFunction;)V
+ ([JLjava/util/function/IntToLongFunction;)V
+setAll
+ <T:Ljava/lang/Object;>([TT;Ljava/util/function/IntFunction<+TT;>;)V
+ <T:Ljava/lang/Object;>([TT;Ljava/util/function/IntFunction<+TT;>;)V
+sort
+ ([B)V
+ ([B)V
+sort
+ ([BII)V
+ ([BII)V
+sort
+ ([C)V
+ ([C)V
+sort
+ ([CII)V
+ ([CII)V
+sort
+ ([D)V
+ ([D)V
+sort
+ ([DII)V
+ ([DII)V
+sort
+ ([F)V
+ ([F)V
+sort
+ ([FII)V
+ ([FII)V
+sort
+ ([I)V
+ ([I)V
+sort
+ ([III)V
+ ([III)V
+sort
+ ([J)V
+ ([J)V
+sort
+ ([JII)V
+ ([JII)V
+sort
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+sort
+ ([Ljava/lang/Object;II)V
+ ([Ljava/lang/Object;II)V
+sort
+ ([S)V
+ ([S)V
+sort
+ ([SII)V
+ ([SII)V
+sort
+ <T:Ljava/lang/Object;>([TT;IILjava/util/Comparator<-TT;>;)V
+ <T:Ljava/lang/Object;>([TT;IILjava/util/Comparator<-TT;>;)V
+sort
+ <T:Ljava/lang/Object;>([TT;Ljava/util/Comparator<-TT;>;)V
+ <T:Ljava/lang/Object;>([TT;Ljava/util/Comparator<-TT;>;)V
+spliterator
+ ([D)Ljava/util/Spliterator$OfDouble;
+ ([D)Ljava/util/Spliterator$OfDouble;
+spliterator
+ ([DII)Ljava/util/Spliterator$OfDouble;
+ ([DII)Ljava/util/Spliterator$OfDouble;
+spliterator
+ ([I)Ljava/util/Spliterator$OfInt;
+ ([I)Ljava/util/Spliterator$OfInt;
+spliterator
+ ([III)Ljava/util/Spliterator$OfInt;
+ ([III)Ljava/util/Spliterator$OfInt;
+spliterator
+ ([J)Ljava/util/Spliterator$OfLong;
+ ([J)Ljava/util/Spliterator$OfLong;
+spliterator
+ ([JII)Ljava/util/Spliterator$OfLong;
+ ([JII)Ljava/util/Spliterator$OfLong;
+spliterator
+ <T:Ljava/lang/Object;>([TT;)Ljava/util/Spliterator<TT;>;
+ <T:Ljava/lang/Object;>([TT;)Ljava/util/Spliterator<TT;>;
+spliterator
+ <T:Ljava/lang/Object;>([TT;II)Ljava/util/Spliterator<TT;>;
+ <T:Ljava/lang/Object;>([TT;II)Ljava/util/Spliterator<TT;>;
 stream
  ([D)Ljava/util/stream/DoubleStream;
  ([D)L1java/util/stream/DoubleStream;
@@ -29,3 +615,30 @@ stream
 stream
  <T:Ljava/lang/Object;>([TT;II)Ljava/util/stream/Stream<TT;>;
  <T:Ljava/lang/Object;>([TT;II)L1java/util/stream/Stream<TT;>;
+toString
+ ([B)Ljava/lang/String;
+ ([B)Ljava/lang/String;
+toString
+ ([C)Ljava/lang/String;
+ ([C)Ljava/lang/String;
+toString
+ ([D)Ljava/lang/String;
+ ([D)Ljava/lang/String;
+toString
+ ([F)Ljava/lang/String;
+ ([F)Ljava/lang/String;
+toString
+ ([I)Ljava/lang/String;
+ ([I)Ljava/lang/String;
+toString
+ ([J)Ljava/lang/String;
+ ([J)Ljava/lang/String;
+toString
+ ([Ljava/lang/Object;)Ljava/lang/String;
+ ([Ljava/lang/Object;)Ljava/lang/String;
+toString
+ ([S)Ljava/lang/String;
+ ([S)Ljava/lang/String;
+toString
+ ([Z)Ljava/lang/String;
+ ([Z)Ljava/lang/String;

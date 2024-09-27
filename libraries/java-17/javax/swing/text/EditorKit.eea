@@ -1,0 +1,38 @@
+class javax/swing/text/EditorKit
+
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+createCaret
+ ()Ljavax/swing/text/Caret;
+ ()Ljavax/swing/text/Caret;
+createDefaultDocument
+ ()Ljavax/swing/text/Document;
+ ()Ljavax/swing/text/Document;
+deinstall
+ (Ljavax/swing/JEditorPane;)V
+ (Ljavax/swing/JEditorPane;)V
+getActions
+ ()[Ljavax/swing/Action;
+ ()[Ljavax/swing/Action;
+getContentType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getViewFactory
+ ()Ljavax/swing/text/ViewFactory;
+ ()Ljavax/swing/text/ViewFactory;
+install
+ (Ljavax/swing/JEditorPane;)V
+ (Ljavax/swing/JEditorPane;)V
+read
+ (Ljava/io/InputStream;Ljavax/swing/text/Document;I)V
+ (Ljava/io/InputStream;Ljavax/swing/text/Document;I)V
+read
+ (Ljava/io/Reader;Ljavax/swing/text/Document;I)V
+ (Ljava/io/Reader;Ljavax/swing/text/Document;I)V
+write
+ (Ljava/io/OutputStream;Ljavax/swing/text/Document;II)V
+ (Ljava/io/OutputStream;Ljavax/swing/text/Document;II)V
+write
+ (Ljava/io/Writer;Ljavax/swing/text/Document;II)V
+ (Ljava/io/Writer;Ljavax/swing/text/Document;II)V

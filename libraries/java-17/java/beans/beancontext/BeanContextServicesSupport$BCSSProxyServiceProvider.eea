@@ -1,0 +1,14 @@
+class java/beans/beancontext/BeanContextServicesSupport$BCSSProxyServiceProvider
+
+getCurrentServiceSelectors
+ (Ljava/beans/beancontext/BeanContextServices;Ljava/lang/Class<*>;)Ljava/util/Iterator<*>;
+ (Ljava/beans/beancontext/BeanContextServices;Ljava/lang/Class<*>;)Ljava/util/Iterator<*>;
+getService
+ (Ljava/beans/beancontext/BeanContextServices;Ljava/lang/Object;Ljava/lang/Class<*>;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/beans/beancontext/BeanContextServices;Ljava/lang/Object;Ljava/lang/Class<*>;Ljava/lang/Object;)Ljava/lang/Object;
+releaseService
+ (Ljava/beans/beancontext/BeanContextServices;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/beans/beancontext/BeanContextServices;Ljava/lang/Object;Ljava/lang/Object;)V
+serviceRevoked
+ (Ljava/beans/beancontext/BeanContextServiceRevokedEvent;)V
+ (L1java/beans/beancontext/BeanContextServiceRevokedEvent;)V # @Inherited(java.beans.beancontext.BeanContextServiceRevokedListener)

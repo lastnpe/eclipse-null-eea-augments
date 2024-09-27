@@ -1,0 +1,29 @@
+class javax/net/ssl/SSLContextSpi
+
+engineCreateSSLEngine
+ ()Ljavax/net/ssl/SSLEngine;
+ ()Ljavax/net/ssl/SSLEngine;
+engineCreateSSLEngine
+ (Ljava/lang/String;I)Ljavax/net/ssl/SSLEngine;
+ (Ljava/lang/String;I)Ljavax/net/ssl/SSLEngine;
+engineGetClientSessionContext
+ ()Ljavax/net/ssl/SSLSessionContext;
+ ()Ljavax/net/ssl/SSLSessionContext;
+engineGetDefaultSSLParameters
+ ()Ljavax/net/ssl/SSLParameters;
+ ()Ljavax/net/ssl/SSLParameters;
+engineGetServerSessionContext
+ ()Ljavax/net/ssl/SSLSessionContext;
+ ()Ljavax/net/ssl/SSLSessionContext;
+engineGetServerSocketFactory
+ ()Ljavax/net/ssl/SSLServerSocketFactory;
+ ()Ljavax/net/ssl/SSLServerSocketFactory;
+engineGetSocketFactory
+ ()Ljavax/net/ssl/SSLSocketFactory;
+ ()Ljavax/net/ssl/SSLSocketFactory;
+engineGetSupportedSSLParameters
+ ()Ljavax/net/ssl/SSLParameters;
+ ()Ljavax/net/ssl/SSLParameters;
+engineInit
+ ([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+ ([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V

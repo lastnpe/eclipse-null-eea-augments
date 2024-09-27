@@ -1,0 +1,30 @@
+class java/nio/channels/ServerSocketChannel
+
+open
+ ()Ljava/nio/channels/ServerSocketChannel;
+ ()Ljava/nio/channels/ServerSocketChannel;
+open
+ (Ljava/net/ProtocolFamily;)Ljava/nio/channels/ServerSocketChannel;
+ (Ljava/net/ProtocolFamily;)Ljava/nio/channels/ServerSocketChannel;
+
+<init>
+ (Ljava/nio/channels/spi/SelectorProvider;)V
+ (Ljava/nio/channels/spi/SelectorProvider;)V
+accept
+ ()Ljava/nio/channels/SocketChannel;
+ ()Ljava/nio/channels/SocketChannel;
+bind
+ (Ljava/net/SocketAddress;)Ljava/nio/channels/ServerSocketChannel;
+ (Ljava/net/SocketAddress;)Ljava/nio/channels/ServerSocketChannel;
+bind
+ (Ljava/net/SocketAddress;I)Ljava/nio/channels/ServerSocketChannel;
+ (Ljava/net/SocketAddress;I)Ljava/nio/channels/ServerSocketChannel;
+getLocalAddress
+ ()Ljava/net/SocketAddress;
+ ()Ljava/net/SocketAddress;
+setOption
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/nio/channels/ServerSocketChannel;
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/nio/channels/ServerSocketChannel;
+socket
+ ()Ljava/net/ServerSocket;
+ ()Ljava/net/ServerSocket;

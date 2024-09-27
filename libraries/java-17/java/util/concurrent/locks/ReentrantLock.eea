@@ -1,4 +1,29 @@
 class java/util/concurrent/locks/ReentrantLock
+
+getOwner
+ ()Ljava/lang/Thread;
+ ()Ljava/lang/Thread;
+getQueuedThreads
+ ()Ljava/util/Collection<Ljava/lang/Thread;>;
+ ()Ljava/util/Collection<Ljava/lang/Thread;>;
+getWaitQueueLength
+ (Ljava/util/concurrent/locks/Condition;)I
+ (Ljava/util/concurrent/locks/Condition;)I
+getWaitingThreads
+ (Ljava/util/concurrent/locks/Condition;)Ljava/util/Collection<Ljava/lang/Thread;>;
+ (Ljava/util/concurrent/locks/Condition;)Ljava/util/Collection<Ljava/lang/Thread;>;
+hasQueuedThread
+ (Ljava/lang/Thread;)Z
+ (Ljava/lang/Thread;)Z
+hasWaiters
+ (Ljava/util/concurrent/locks/Condition;)Z
+ (Ljava/util/concurrent/locks/Condition;)Z
 newCondition
  ()Ljava/util/concurrent/locks/Condition;
  ()L1java/util/concurrent/locks/Condition;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+tryLock
+ (JLjava/util/concurrent/TimeUnit;)Z
+ (JLjava/util/concurrent/TimeUnit;)Z

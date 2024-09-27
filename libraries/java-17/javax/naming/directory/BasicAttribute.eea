@@ -1,0 +1,66 @@
+class javax/naming/directory/BasicAttribute
+
+attrID
+ Ljava/lang/String;
+ Ljava/lang/String;
+values
+ Ljava/util/Vector<Ljava/lang/Object;>;
+ Ljava/util/Vector<Ljava/lang/Object;>;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Object;Z)V
+ (Ljava/lang/String;Ljava/lang/Object;Z)V
+<init>
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+add
+ (ILjava/lang/Object;)V
+ (ILjava/lang/Object;)V
+add
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+contains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+get
+ (I)Ljava/lang/Object;
+ (I)Ljava/lang/Object;
+getAll
+ ()Ljavax/naming/NamingEnumeration<*>;
+ ()Ljavax/naming/NamingEnumeration<*>;
+getAttributeDefinition
+ ()Ljavax/naming/directory/DirContext;
+ ()Ljavax/naming/directory/DirContext;
+getAttributeSyntaxDefinition
+ ()Ljavax/naming/directory/DirContext;
+ ()Ljavax/naming/directory/DirContext;
+getID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+remove
+ (I)Ljava/lang/Object;
+ (I)Ljava/lang/Object;
+remove
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+set
+ (ILjava/lang/Object;)Ljava/lang/Object;
+ (ILjava/lang/Object;)Ljava/lang/Object;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

@@ -1,0 +1,52 @@
+class javax/net/ssl/HttpsURLConnection
+
+getDefaultHostnameVerifier
+ ()Ljavax/net/ssl/HostnameVerifier;
+ ()Ljavax/net/ssl/HostnameVerifier;
+getDefaultSSLSocketFactory
+ ()Ljavax/net/ssl/SSLSocketFactory;
+ ()Ljavax/net/ssl/SSLSocketFactory;
+setDefaultHostnameVerifier
+ (Ljavax/net/ssl/HostnameVerifier;)V
+ (Ljavax/net/ssl/HostnameVerifier;)V
+setDefaultSSLSocketFactory
+ (Ljavax/net/ssl/SSLSocketFactory;)V
+ (Ljavax/net/ssl/SSLSocketFactory;)V
+
+hostnameVerifier
+ Ljavax/net/ssl/HostnameVerifier;
+ Ljavax/net/ssl/HostnameVerifier;
+
+<init>
+ (Ljava/net/URL;)V
+ (Ljava/net/URL;)V
+getCipherSuite
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getHostnameVerifier
+ ()Ljavax/net/ssl/HostnameVerifier;
+ ()Ljavax/net/ssl/HostnameVerifier;
+getLocalCertificates
+ ()[Ljava/security/cert/Certificate;
+ ()[Ljava/security/cert/Certificate;
+getLocalPrincipal
+ ()Ljava/security/Principal;
+ ()Ljava/security/Principal;
+getPeerPrincipal
+ ()Ljava/security/Principal;
+ ()Ljava/security/Principal;
+getSSLSession
+ ()Ljava/util/Optional<Ljavax/net/ssl/SSLSession;>;
+ ()Ljava/util/Optional<Ljavax/net/ssl/SSLSession;>;
+getSSLSocketFactory
+ ()Ljavax/net/ssl/SSLSocketFactory;
+ ()Ljavax/net/ssl/SSLSocketFactory;
+getServerCertificates
+ ()[Ljava/security/cert/Certificate;
+ ()[Ljava/security/cert/Certificate;
+setHostnameVerifier
+ (Ljavax/net/ssl/HostnameVerifier;)V
+ (Ljavax/net/ssl/HostnameVerifier;)V
+setSSLSocketFactory
+ (Ljavax/net/ssl/SSLSocketFactory;)V
+ (Ljavax/net/ssl/SSLSocketFactory;)V

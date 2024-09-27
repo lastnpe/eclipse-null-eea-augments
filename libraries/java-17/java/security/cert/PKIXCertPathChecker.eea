@@ -1,0 +1,14 @@
+class java/security/cert/PKIXCertPathChecker
+
+check
+ (Ljava/security/cert/Certificate;)V
+ (Ljava/security/cert/Certificate;)V
+check
+ (Ljava/security/cert/Certificate;Ljava/util/Collection<Ljava/lang/String;>;)V
+ (Ljava/security/cert/Certificate;Ljava/util/Collection<Ljava/lang/String;>;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+getSupportedExtensions
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;

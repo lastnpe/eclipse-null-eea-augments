@@ -1,0 +1,42 @@
+class javax/swing/JComponent$AccessibleJComponent
+
+accessibleFocusHandler
+ Ljava/awt/event/FocusListener;
+ Ljava/awt/event/FocusListener;
+
+<init>
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+addPropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V # @Inherited(java.awt.Container$AccessibleAWTContainer)
+getAccessibleChild
+ (I)Ljavax/accessibility/Accessible;
+ (I)Ljavax/accessibility/Accessible;
+getAccessibleDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getAccessibleKeyBinding
+ ()Ljavax/accessibility/AccessibleKeyBinding;
+ ()Ljavax/accessibility/AccessibleKeyBinding;
+getAccessibleName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getAccessibleRole
+ ()Ljavax/accessibility/AccessibleRole;
+ ()Ljavax/accessibility/AccessibleRole;
+getAccessibleStateSet
+ ()Ljavax/accessibility/AccessibleStateSet;
+ ()Ljavax/accessibility/AccessibleStateSet;
+getBorderTitle
+ (Ljavax/swing/border/Border;)Ljava/lang/String;
+ (Ljavax/swing/border/Border;)Ljava/lang/String;
+getTitledBorderText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getToolTipText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+removePropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V # @Inherited(java.awt.Container$AccessibleAWTContainer)

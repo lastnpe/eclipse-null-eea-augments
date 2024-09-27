@@ -1,0 +1,45 @@
+class java/net/ServerSocket
+
+setSocketFactory
+ (Ljava/net/SocketImplFactory;)V
+ (Ljava/net/SocketImplFactory;)V
+
+<init>
+ (IILjava/net/InetAddress;)V
+ (IILjava/net/InetAddress;)V
+<init>
+ (Ljava/net/SocketImpl;)V
+ (Ljava/net/SocketImpl;)V
+accept
+ ()Ljava/net/Socket;
+ ()Ljava/net/Socket;
+bind
+ (Ljava/net/SocketAddress;)V
+ (Ljava/net/SocketAddress;)V
+bind
+ (Ljava/net/SocketAddress;I)V
+ (Ljava/net/SocketAddress;I)V
+getChannel
+ ()Ljava/nio/channels/ServerSocketChannel;
+ ()Ljava/nio/channels/ServerSocketChannel;
+getInetAddress
+ ()Ljava/net/InetAddress;
+ ()Ljava/net/InetAddress;
+getLocalSocketAddress
+ ()Ljava/net/SocketAddress;
+ ()Ljava/net/SocketAddress;
+getOption
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;)TT;
+implAccept
+ (Ljava/net/Socket;)V
+ (Ljava/net/Socket;)V
+setOption
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/net/ServerSocket;
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/net/ServerSocket;
+supportedOptions
+ ()Ljava/util/Set<Ljava/net/SocketOption<*>;>;
+ ()Ljava/util/Set<Ljava/net/SocketOption<*>;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

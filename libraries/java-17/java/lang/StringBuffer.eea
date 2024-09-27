@@ -1,4 +1,9 @@
 class java/lang/StringBuffer
+
+super java/lang/Comparable
+ <Ljava/lang/StringBuffer;>
+ <Ljava/lang/StringBuffer;>
+
 <init>
  (Ljava/lang/CharSequence;)V
  (L1java/lang/CharSequence;)V
@@ -115,13 +120,13 @@ reverse
  ()L1java/lang/StringBuffer;
 subSequence
  (II)Ljava/lang/CharSequence;
- (II)L1java/lang/CharSequence;
+ (II)L1java/lang/CharSequence; # @Inherited(java.lang.AbstractStringBuilder)
 substring
  (I)Ljava/lang/String;
- (I)L1java/lang/String;
+ (I)L1java/lang/String; # @Inherited(java.lang.AbstractStringBuilder)
 substring
  (II)Ljava/lang/String;
- (II)L1java/lang/String;
+ (II)L1java/lang/String; # @Inherited(java.lang.AbstractStringBuilder)
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.AbstractStringBuilder)

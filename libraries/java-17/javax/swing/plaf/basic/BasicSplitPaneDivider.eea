@@ -1,0 +1,60 @@
+class javax/swing/plaf/basic/BasicSplitPaneDivider
+
+dragger
+ Ljavax/swing/plaf/basic/BasicSplitPaneDivider$DragController;
+ Ljavax/swing/plaf/basic/BasicSplitPaneDivider$DragController;
+hiddenDivider
+ Ljava/awt/Component;
+ Ljava/awt/Component;
+leftButton
+ Ljavax/swing/JButton;
+ Ljavax/swing/JButton;
+mouseHandler
+ Ljavax/swing/plaf/basic/BasicSplitPaneDivider$MouseHandler;
+ Ljavax/swing/plaf/basic/BasicSplitPaneDivider$MouseHandler;
+rightButton
+ Ljavax/swing/JButton;
+ Ljavax/swing/JButton;
+splitPane
+ Ljavax/swing/JSplitPane;
+ Ljavax/swing/JSplitPane;
+splitPaneUI
+ Ljavax/swing/plaf/basic/BasicSplitPaneUI;
+ Ljavax/swing/plaf/basic/BasicSplitPaneUI;
+
+<init>
+ (Ljavax/swing/plaf/basic/BasicSplitPaneUI;)V
+ (Ljavax/swing/plaf/basic/BasicSplitPaneUI;)V
+createLeftOneTouchButton
+ ()Ljavax/swing/JButton;
+ ()Ljavax/swing/JButton;
+createRightOneTouchButton
+ ()Ljavax/swing/JButton;
+ ()Ljavax/swing/JButton;
+getBasicSplitPaneUI
+ ()Ljavax/swing/plaf/basic/BasicSplitPaneUI;
+ ()Ljavax/swing/plaf/basic/BasicSplitPaneUI;
+getBorder
+ ()Ljavax/swing/border/Border;
+ ()Ljavax/swing/border/Border;
+getInsets
+ ()Ljava/awt/Insets;
+ ()Ljava/awt/Insets;
+getMinimumSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getPreferredSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+paint
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+propertyChange
+ (Ljava/beans/PropertyChangeEvent;)V
+ (L1java/beans/PropertyChangeEvent;)V # @Inherited(java.beans.PropertyChangeListener)
+setBasicSplitPaneUI
+ (Ljavax/swing/plaf/basic/BasicSplitPaneUI;)V
+ (Ljavax/swing/plaf/basic/BasicSplitPaneUI;)V
+setBorder
+ (Ljavax/swing/border/Border;)V
+ (Ljavax/swing/border/Border;)V

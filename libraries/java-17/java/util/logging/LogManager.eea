@@ -1,0 +1,40 @@
+class java/util/logging/LogManager
+
+LOGGING_MXBEAN_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getLogManager
+ ()Ljava/util/logging/LogManager;
+ ()Ljava/util/logging/LogManager;
+getLoggingMXBean
+ ()Ljava/util/logging/LoggingMXBean;
+ ()Ljava/util/logging/LoggingMXBean;
+
+addConfigurationListener
+ (Ljava/lang/Runnable;)Ljava/util/logging/LogManager;
+ (Ljava/lang/Runnable;)Ljava/util/logging/LogManager;
+addLogger
+ (Ljava/util/logging/Logger;)Z
+ (Ljava/util/logging/Logger;)Z
+getLogger
+ (Ljava/lang/String;)Ljava/util/logging/Logger;
+ (Ljava/lang/String;)Ljava/util/logging/Logger;
+getLoggerNames
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+getProperty
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+readConfiguration
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+removeConfigurationListener
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+updateConfiguration
+ (Ljava/io/InputStream;Ljava/util/function/Function<Ljava/lang/String;Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;>;>;)V
+ (Ljava/io/InputStream;Ljava/util/function/Function<Ljava/lang/String;Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;>;>;)V
+updateConfiguration
+ (Ljava/util/function/Function<Ljava/lang/String;Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;>;>;)V
+ (Ljava/util/function/Function<Ljava/lang/String;Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;>;>;)V

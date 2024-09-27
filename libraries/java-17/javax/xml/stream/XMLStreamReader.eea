@@ -1,0 +1,83 @@
+class javax/xml/stream/XMLStreamReader
+
+getAttributeLocalName
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getAttributeName
+ (I)Ljavax/xml/namespace/QName;
+ (I)Ljavax/xml/namespace/QName;
+getAttributeNamespace
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getAttributePrefix
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getAttributeType
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getAttributeValue
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getAttributeValue
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+getCharacterEncodingScheme
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getElementText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getEncoding
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getLocalName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getLocation
+ ()Ljavax/xml/stream/Location;
+ ()Ljavax/xml/stream/Location;
+getName
+ ()Ljavax/xml/namespace/QName;
+ ()Ljavax/xml/namespace/QName;
+getNamespaceContext
+ ()Ljavax/xml/namespace/NamespaceContext;
+ ()Ljavax/xml/namespace/NamespaceContext;
+getNamespacePrefix
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getNamespaceURI
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getNamespaceURI
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getNamespaceURI
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getPIData
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPITarget
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPrefix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTextCharacters
+ ()[C
+ ()[C
+getTextCharacters
+ (I[CII)I
+ (I[CII)I
+getVersion
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+require
+ (ILjava/lang/String;Ljava/lang/String;)V
+ (ILjava/lang/String;Ljava/lang/String;)V

@@ -1,0 +1,72 @@
+class java/util/concurrent/ForkJoinTask
+ <V:Ljava/lang/Object;>
+ <V:Ljava/lang/Object;>
+
+super java/util/concurrent/Future
+ <TV;>
+ <TV;>
+
+adapt
+ (Ljava/lang/Runnable;)Ljava/util/concurrent/ForkJoinTask<*>;
+ (Ljava/lang/Runnable;)Ljava/util/concurrent/ForkJoinTask<*>;
+adapt
+ <T:Ljava/lang/Object;>(Ljava/lang/Runnable;TT;)Ljava/util/concurrent/ForkJoinTask<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Runnable;TT;)Ljava/util/concurrent/ForkJoinTask<TT;>;
+adapt
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<+TT;>;)Ljava/util/concurrent/ForkJoinTask<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<+TT;>;)Ljava/util/concurrent/ForkJoinTask<TT;>;
+getPool
+ ()Ljava/util/concurrent/ForkJoinPool;
+ ()Ljava/util/concurrent/ForkJoinPool;
+invokeAll
+ (Ljava/util/concurrent/ForkJoinTask<*>;Ljava/util/concurrent/ForkJoinTask<*>;)V
+ (Ljava/util/concurrent/ForkJoinTask<*>;Ljava/util/concurrent/ForkJoinTask<*>;)V
+invokeAll
+ ([Ljava/util/concurrent/ForkJoinTask<*>;)V
+ ([Ljava/util/concurrent/ForkJoinTask<*>;)V
+invokeAll
+ <T:Ljava/util/concurrent/ForkJoinTask<*>;>(Ljava/util/Collection<TT;>;)Ljava/util/Collection<TT;>;
+ <T:Ljava/util/concurrent/ForkJoinTask<*>;>(Ljava/util/Collection<TT;>;)Ljava/util/Collection<TT;>;
+peekNextLocalTask
+ ()Ljava/util/concurrent/ForkJoinTask<*>;
+ ()Ljava/util/concurrent/ForkJoinTask<*>;
+pollNextLocalTask
+ ()Ljava/util/concurrent/ForkJoinTask<*>;
+ ()Ljava/util/concurrent/ForkJoinTask<*>;
+pollSubmission
+ ()Ljava/util/concurrent/ForkJoinTask<*>;
+ ()Ljava/util/concurrent/ForkJoinTask<*>;
+pollTask
+ ()Ljava/util/concurrent/ForkJoinTask<*>;
+ ()Ljava/util/concurrent/ForkJoinTask<*>;
+
+complete
+ (TV;)V
+ (TV;)V
+completeExceptionally
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+fork
+ ()Ljava/util/concurrent/ForkJoinTask<TV;>;
+ ()Ljava/util/concurrent/ForkJoinTask<TV;>;
+get
+ ()TV;
+ ()TV;
+get
+ (JLjava/util/concurrent/TimeUnit;)TV;
+ (JLjava/util/concurrent/TimeUnit;)TV;
+getException
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
+getRawResult
+ ()TV;
+ ()TV;
+invoke
+ ()TV;
+ ()TV;
+join
+ ()TV;
+ ()TV;
+setRawResult
+ (TV;)V
+ (TV;)V

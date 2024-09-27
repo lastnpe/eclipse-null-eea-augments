@@ -1,0 +1,64 @@
+class java/time/chrono/HijrahDate
+
+super java/time/chrono/ChronoLocalDateImpl
+ <Ljava/time/chrono/HijrahDate;>
+ <Ljava/time/chrono/HijrahDate;>
+
+from
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/HijrahDate;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/HijrahDate;
+now
+ ()Ljava/time/chrono/HijrahDate;
+ ()Ljava/time/chrono/HijrahDate;
+now
+ (Ljava/time/Clock;)Ljava/time/chrono/HijrahDate;
+ (Ljava/time/Clock;)Ljava/time/chrono/HijrahDate;
+now
+ (Ljava/time/ZoneId;)Ljava/time/chrono/HijrahDate;
+ (Ljava/time/ZoneId;)Ljava/time/chrono/HijrahDate;
+of
+ (III)Ljava/time/chrono/HijrahDate;
+ (III)Ljava/time/chrono/HijrahDate;
+
+atTime
+ (Ljava/time/LocalTime;)Ljava/time/chrono/ChronoLocalDateTime<Ljava/time/chrono/HijrahDate;>;
+ (Ljava/time/LocalTime;)Ljava/time/chrono/ChronoLocalDateTime<Ljava/time/chrono/HijrahDate;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getChronology
+ ()Ljava/time/chrono/HijrahChronology;
+ ()Ljava/time/chrono/HijrahChronology;
+getEra
+ ()Ljava/time/chrono/HijrahEra;
+ ()Ljava/time/chrono/HijrahEra;
+getLong
+ (Ljava/time/temporal/TemporalField;)J
+ (Ljava/time/temporal/TemporalField;)J
+minus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/HijrahDate;
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/HijrahDate;
+minus
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/HijrahDate;
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/HijrahDate;
+plus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/HijrahDate;
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/HijrahDate;
+plus
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/HijrahDate;
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/HijrahDate;
+range
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+until
+ (Ljava/time/chrono/ChronoLocalDate;)Ljava/time/chrono/ChronoPeriod;
+ (Ljava/time/chrono/ChronoLocalDate;)Ljava/time/chrono/ChronoPeriod;
+with
+ (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/chrono/HijrahDate;
+ (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/chrono/HijrahDate;
+with
+ (Ljava/time/temporal/TemporalField;J)Ljava/time/chrono/HijrahDate;
+ (Ljava/time/temporal/TemporalField;J)Ljava/time/chrono/HijrahDate;
+withVariant
+ (Ljava/time/chrono/HijrahChronology;)Ljava/time/chrono/HijrahDate;
+ (Ljava/time/chrono/HijrahChronology;)Ljava/time/chrono/HijrahDate;

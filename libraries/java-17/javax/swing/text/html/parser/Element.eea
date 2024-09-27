@@ -1,0 +1,43 @@
+class javax/swing/text/html/parser/Element
+
+name2type
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+
+atts
+ Ljavax/swing/text/html/parser/AttributeList;
+ Ljavax/swing/text/html/parser/AttributeList;
+content
+ Ljavax/swing/text/html/parser/ContentModel;
+ Ljavax/swing/text/html/parser/ContentModel;
+data
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+exclusions
+ Ljava/util/BitSet;
+ Ljava/util/BitSet;
+inclusions
+ Ljava/util/BitSet;
+ Ljava/util/BitSet;
+name
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+getAttribute
+ (Ljava/lang/String;)Ljavax/swing/text/html/parser/AttributeList;
+ (Ljava/lang/String;)Ljavax/swing/text/html/parser/AttributeList;
+getAttributeByValue
+ (Ljava/lang/String;)Ljavax/swing/text/html/parser/AttributeList;
+ (Ljava/lang/String;)Ljavax/swing/text/html/parser/AttributeList;
+getAttributes
+ ()Ljavax/swing/text/html/parser/AttributeList;
+ ()Ljavax/swing/text/html/parser/AttributeList;
+getContent
+ ()Ljavax/swing/text/html/parser/ContentModel;
+ ()Ljavax/swing/text/html/parser/ContentModel;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

@@ -1,4 +1,7 @@
 class java/util/concurrent/CompletionStage
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
 acceptEither
  (Ljava/util/concurrent/CompletionStage<+TT;>;Ljava/util/function/Consumer<-TT;>;)Ljava/util/concurrent/CompletionStage<Ljava/lang/Void;>;
  (L1java/util/concurrent/CompletionStage<+TT;>;L1java/util/function/Consumer<-TT;>;)L1java/util/concurrent/CompletionStage<L0java/lang/Void;>;
@@ -20,6 +23,21 @@ applyToEitherAsync
 exceptionally
  (Ljava/util/function/Function<Ljava/lang/Throwable;+TT;>;)Ljava/util/concurrent/CompletionStage<TT;>;
  (L1java/util/function/Function<Ljava/lang/Throwable;+TT;>;)L1java/util/concurrent/CompletionStage<TT;>;
+exceptionallyAsync
+ (Ljava/util/function/Function<Ljava/lang/Throwable;+TT;>;)Ljava/util/concurrent/CompletionStage<TT;>;
+ (Ljava/util/function/Function<Ljava/lang/Throwable;+TT;>;)Ljava/util/concurrent/CompletionStage<TT;>;
+exceptionallyAsync
+ (Ljava/util/function/Function<Ljava/lang/Throwable;+TT;>;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletionStage<TT;>;
+ (Ljava/util/function/Function<Ljava/lang/Throwable;+TT;>;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletionStage<TT;>;
+exceptionallyCompose
+ (Ljava/util/function/Function<Ljava/lang/Throwable;+Ljava/util/concurrent/CompletionStage<TT;>;>;)Ljava/util/concurrent/CompletionStage<TT;>;
+ (Ljava/util/function/Function<Ljava/lang/Throwable;+Ljava/util/concurrent/CompletionStage<TT;>;>;)Ljava/util/concurrent/CompletionStage<TT;>;
+exceptionallyComposeAsync
+ (Ljava/util/function/Function<Ljava/lang/Throwable;+Ljava/util/concurrent/CompletionStage<TT;>;>;)Ljava/util/concurrent/CompletionStage<TT;>;
+ (Ljava/util/function/Function<Ljava/lang/Throwable;+Ljava/util/concurrent/CompletionStage<TT;>;>;)Ljava/util/concurrent/CompletionStage<TT;>;
+exceptionallyComposeAsync
+ (Ljava/util/function/Function<Ljava/lang/Throwable;+Ljava/util/concurrent/CompletionStage<TT;>;>;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletionStage<TT;>;
+ (Ljava/util/function/Function<Ljava/lang/Throwable;+Ljava/util/concurrent/CompletionStage<TT;>;>;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletionStage<TT;>;
 handle
  <U:Ljava/lang/Object;>(Ljava/util/function/BiFunction<-TT;Ljava/lang/Throwable;+TU;>;)Ljava/util/concurrent/CompletionStage<TU;>;
  <U:Ljava/lang/Object;>(L1java/util/function/BiFunction<-TT;Ljava/lang/Throwable;+TU;>;)L1java/util/concurrent/CompletionStage<TU;>;

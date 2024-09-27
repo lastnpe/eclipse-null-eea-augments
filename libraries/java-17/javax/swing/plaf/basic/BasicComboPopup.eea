@@ -1,0 +1,111 @@
+class javax/swing/plaf/basic/BasicComboPopup
+
+autoscrollTimer
+ Ljavax/swing/Timer;
+ Ljavax/swing/Timer;
+comboBox
+ Ljavax/swing/JComboBox<Ljava/lang/Object;>;
+ Ljavax/swing/JComboBox<Ljava/lang/Object;>;
+itemListener
+ Ljava/awt/event/ItemListener;
+ Ljava/awt/event/ItemListener;
+keyListener
+ Ljava/awt/event/KeyListener;
+ Ljava/awt/event/KeyListener;
+list
+ Ljavax/swing/JList<Ljava/lang/Object;>;
+ Ljavax/swing/JList<Ljava/lang/Object;>;
+listDataListener
+ Ljavax/swing/event/ListDataListener;
+ Ljavax/swing/event/ListDataListener;
+listMouseListener
+ Ljava/awt/event/MouseListener;
+ Ljava/awt/event/MouseListener;
+listMouseMotionListener
+ Ljava/awt/event/MouseMotionListener;
+ Ljava/awt/event/MouseMotionListener;
+listSelectionListener
+ Ljavax/swing/event/ListSelectionListener;
+ Ljavax/swing/event/ListSelectionListener;
+mouseListener
+ Ljava/awt/event/MouseListener;
+ Ljava/awt/event/MouseListener;
+mouseMotionListener
+ Ljava/awt/event/MouseMotionListener;
+ Ljava/awt/event/MouseMotionListener;
+propertyChangeListener
+ Ljava/beans/PropertyChangeListener;
+ Ljava/beans/PropertyChangeListener;
+scroller
+ Ljavax/swing/JScrollPane;
+ Ljavax/swing/JScrollPane;
+
+<init>
+ (Ljavax/swing/JComboBox<Ljava/lang/Object;>;)V
+ (Ljavax/swing/JComboBox<Ljava/lang/Object;>;)V
+computePopupBounds
+ (IIII)Ljava/awt/Rectangle;
+ (IIII)Ljava/awt/Rectangle;
+convertMouseEvent
+ (Ljava/awt/event/MouseEvent;)Ljava/awt/event/MouseEvent;
+ (Ljava/awt/event/MouseEvent;)Ljava/awt/event/MouseEvent;
+createItemListener
+ ()Ljava/awt/event/ItemListener;
+ ()Ljava/awt/event/ItemListener;
+createKeyListener
+ ()Ljava/awt/event/KeyListener;
+ ()Ljava/awt/event/KeyListener;
+createList
+ ()Ljavax/swing/JList<Ljava/lang/Object;>;
+ ()Ljavax/swing/JList<Ljava/lang/Object;>;
+createListDataListener
+ ()Ljavax/swing/event/ListDataListener;
+ ()Ljavax/swing/event/ListDataListener;
+createListMouseListener
+ ()Ljava/awt/event/MouseListener;
+ ()Ljava/awt/event/MouseListener;
+createListMouseMotionListener
+ ()Ljava/awt/event/MouseMotionListener;
+ ()Ljava/awt/event/MouseMotionListener;
+createListSelectionListener
+ ()Ljavax/swing/event/ListSelectionListener;
+ ()Ljavax/swing/event/ListSelectionListener;
+createMouseListener
+ ()Ljava/awt/event/MouseListener;
+ ()Ljava/awt/event/MouseListener;
+createMouseMotionListener
+ ()Ljava/awt/event/MouseMotionListener;
+ ()Ljava/awt/event/MouseMotionListener;
+createPropertyChangeListener
+ ()Ljava/beans/PropertyChangeListener;
+ ()Ljava/beans/PropertyChangeListener;
+createScroller
+ ()Ljavax/swing/JScrollPane;
+ ()Ljavax/swing/JScrollPane;
+delegateFocus
+ (Ljava/awt/event/MouseEvent;)V
+ (Ljava/awt/event/MouseEvent;)V
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getKeyListener
+ ()Ljava/awt/event/KeyListener;
+ ()Ljava/awt/event/KeyListener;
+getList
+ ()Ljavax/swing/JList<Ljava/lang/Object;>;
+ ()Ljavax/swing/JList<Ljava/lang/Object;>;
+getMouseListener
+ ()Ljava/awt/event/MouseListener;
+ ()Ljava/awt/event/MouseListener;
+getMouseMotionListener
+ ()Ljava/awt/event/MouseMotionListener;
+ ()Ljava/awt/event/MouseMotionListener;
+installComboBoxModelListeners
+ (Ljavax/swing/ComboBoxModel<*>;)V
+ (Ljavax/swing/ComboBoxModel<*>;)V
+uninstallComboBoxModelListeners
+ (Ljavax/swing/ComboBoxModel<*>;)V
+ (Ljavax/swing/ComboBoxModel<*>;)V
+updateListBoxSelectionForEvent
+ (Ljava/awt/event/MouseEvent;Z)V
+ (Ljava/awt/event/MouseEvent;Z)V

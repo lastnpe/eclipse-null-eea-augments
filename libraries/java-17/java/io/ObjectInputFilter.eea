@@ -1,0 +1,18 @@
+class java/io/ObjectInputFilter
+
+allowFilter
+ (Ljava/util/function/Predicate<Ljava/lang/Class<*>;>;Ljava/io/ObjectInputFilter$Status;)Ljava/io/ObjectInputFilter;
+ (Ljava/util/function/Predicate<Ljava/lang/Class<*>;>;Ljava/io/ObjectInputFilter$Status;)Ljava/io/ObjectInputFilter;
+merge
+ (Ljava/io/ObjectInputFilter;Ljava/io/ObjectInputFilter;)Ljava/io/ObjectInputFilter;
+ (Ljava/io/ObjectInputFilter;Ljava/io/ObjectInputFilter;)Ljava/io/ObjectInputFilter;
+rejectFilter
+ (Ljava/util/function/Predicate<Ljava/lang/Class<*>;>;Ljava/io/ObjectInputFilter$Status;)Ljava/io/ObjectInputFilter;
+ (Ljava/util/function/Predicate<Ljava/lang/Class<*>;>;Ljava/io/ObjectInputFilter$Status;)Ljava/io/ObjectInputFilter;
+rejectUndecidedClass
+ (Ljava/io/ObjectInputFilter;)Ljava/io/ObjectInputFilter;
+ (Ljava/io/ObjectInputFilter;)Ljava/io/ObjectInputFilter;
+
+checkInput
+ (Ljava/io/ObjectInputFilter$FilterInfo;)Ljava/io/ObjectInputFilter$Status;
+ (Ljava/io/ObjectInputFilter$FilterInfo;)Ljava/io/ObjectInputFilter$Status;

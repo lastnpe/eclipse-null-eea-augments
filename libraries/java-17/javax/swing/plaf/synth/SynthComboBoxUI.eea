@@ -1,0 +1,48 @@
+class javax/swing/plaf/synth/SynthComboBoxUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+createArrowButton
+ ()Ljavax/swing/JButton;
+ ()Ljavax/swing/JButton;
+createEditor
+ ()Ljavax/swing/ComboBoxEditor;
+ ()Ljavax/swing/ComboBoxEditor;
+createPopup
+ ()Ljavax/swing/plaf/basic/ComboPopup;
+ ()Ljavax/swing/plaf/basic/ComboPopup;
+createRenderer
+ ()Ljavax/swing/ListCellRenderer<Ljava/lang/Object;>;
+ ()Ljavax/swing/ListCellRenderer<Ljava/lang/Object;>;
+getContext
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/synth/SynthContext;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/synth/SynthContext;
+getDefaultSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+installUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+paint
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+paint
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;)V
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;)V
+paintBorder
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;IIII)V
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;IIII)V
+paintCurrentValue
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;Z)V
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;Z)V
+propertyChange
+ (Ljava/beans/PropertyChangeEvent;)V
+ (L1java/beans/PropertyChangeEvent;)V # @Inherited(java.beans.PropertyChangeListener)
+uninstallUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+update
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V

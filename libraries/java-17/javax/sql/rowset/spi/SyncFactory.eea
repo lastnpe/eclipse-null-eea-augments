@@ -1,0 +1,39 @@
+class javax/sql/rowset/spi/SyncFactory
+
+ROWSET_SYNC_PROVIDER
+ Ljava/lang/String;
+ L1java/lang/String;
+ROWSET_SYNC_PROVIDER_VERSION
+ Ljava/lang/String;
+ L1java/lang/String;
+ROWSET_SYNC_VENDOR
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getInstance
+ (Ljava/lang/String;)Ljavax/sql/rowset/spi/SyncProvider;
+ (Ljava/lang/String;)Ljavax/sql/rowset/spi/SyncProvider;
+getLogger
+ ()Ljava/util/logging/Logger;
+ ()Ljava/util/logging/Logger;
+getRegisteredProviders
+ ()Ljava/util/Enumeration<Ljavax/sql/rowset/spi/SyncProvider;>;
+ ()Ljava/util/Enumeration<Ljavax/sql/rowset/spi/SyncProvider;>;
+getSyncFactory
+ ()Ljavax/sql/rowset/spi/SyncFactory;
+ ()Ljavax/sql/rowset/spi/SyncFactory;
+registerProvider
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setJNDIContext
+ (Ljavax/naming/Context;)V
+ (Ljavax/naming/Context;)V
+setLogger
+ (Ljava/util/logging/Logger;)V
+ (Ljava/util/logging/Logger;)V
+setLogger
+ (Ljava/util/logging/Logger;Ljava/util/logging/Level;)V
+ (Ljava/util/logging/Logger;Ljava/util/logging/Level;)V
+unregisterProvider
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

@@ -1,0 +1,25 @@
+class java/net/http/HttpResponse
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+body
+ ()TT;
+ ()TT;
+headers
+ ()Ljava/net/http/HttpHeaders;
+ ()Ljava/net/http/HttpHeaders;
+previousResponse
+ ()Ljava/util/Optional<Ljava/net/http/HttpResponse<TT;>;>;
+ ()Ljava/util/Optional<Ljava/net/http/HttpResponse<TT;>;>;
+request
+ ()Ljava/net/http/HttpRequest;
+ ()Ljava/net/http/HttpRequest;
+sslSession
+ ()Ljava/util/Optional<Ljavax/net/ssl/SSLSession;>;
+ ()Ljava/util/Optional<Ljavax/net/ssl/SSLSession;>;
+uri
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+version
+ ()Ljava/net/http/HttpClient$Version;
+ ()Ljava/net/http/HttpClient$Version;

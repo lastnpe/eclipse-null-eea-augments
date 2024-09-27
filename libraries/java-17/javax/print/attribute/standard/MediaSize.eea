@@ -1,0 +1,27 @@
+class javax/print/attribute/standard/MediaSize
+
+findMedia
+ (FFI)Ljavax/print/attribute/standard/MediaSizeName;
+ (FFI)Ljavax/print/attribute/standard/MediaSizeName;
+getMediaSizeForName
+ (Ljavax/print/attribute/standard/MediaSizeName;)Ljavax/print/attribute/standard/MediaSize;
+ (Ljavax/print/attribute/standard/MediaSizeName;)Ljavax/print/attribute/standard/MediaSize;
+
+<init>
+ (FFILjavax/print/attribute/standard/MediaSizeName;)V
+ (FFILjavax/print/attribute/standard/MediaSizeName;)V
+<init>
+ (IIILjavax/print/attribute/standard/MediaSizeName;)V
+ (IIILjavax/print/attribute/standard/MediaSizeName;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(javax.print.attribute.Size2DSyntax)
+getCategory
+ ()Ljava/lang/Class<+Ljavax/print/attribute/Attribute;>;
+ ()Ljava/lang/Class<+Ljavax/print/attribute/Attribute;>;
+getMediaSizeName
+ ()Ljavax/print/attribute/standard/MediaSizeName;
+ ()Ljavax/print/attribute/standard/MediaSizeName;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

@@ -1,0 +1,80 @@
+class java/io/PrintStream
+
+<init>
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+<init>
+ (Ljava/io/File;Ljava/lang/String;)V
+ (Ljava/io/File;Ljava/lang/String;)V
+<init>
+ (Ljava/io/File;Ljava/nio/charset/Charset;)V
+ (Ljava/io/File;Ljava/nio/charset/Charset;)V
+<init>
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V
+<init>
+ (Ljava/io/OutputStream;Z)V
+ (Ljava/io/OutputStream;Z)V
+<init>
+ (Ljava/io/OutputStream;ZLjava/lang/String;)V
+ (Ljava/io/OutputStream;ZLjava/lang/String;)V
+<init>
+ (Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)V
+ (Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)V
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)V
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)V
+append
+ (C)Ljava/io/PrintStream;
+ (C)Ljava/io/PrintStream;
+append
+ (Ljava/lang/CharSequence;)Ljava/io/PrintStream;
+ (Ljava/lang/CharSequence;)Ljava/io/PrintStream;
+append
+ (Ljava/lang/CharSequence;II)Ljava/io/PrintStream;
+ (Ljava/lang/CharSequence;II)Ljava/io/PrintStream;
+format
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;
+format
+ (Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;
+ (Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;
+print
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+print
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+print
+ ([C)V
+ ([C)V
+printf
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;
+printf
+ (Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;
+ (Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;
+println
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+println
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+println
+ ([C)V
+ ([C)V
+write
+ ([B)V
+ ([B)V
+write
+ ([BII)V
+ ([BII)V
+writeBytes
+ ([B)V
+ ([B)V

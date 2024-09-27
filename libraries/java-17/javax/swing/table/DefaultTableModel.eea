@@ -1,0 +1,82 @@
+class javax/swing/table/DefaultTableModel
+
+convertToVector
+ ([Ljava/lang/Object;)Ljava/util/Vector<Ljava/lang/Object;>;
+ ([Ljava/lang/Object;)Ljava/util/Vector<Ljava/lang/Object;>;
+convertToVector
+ ([[Ljava/lang/Object;)Ljava/util/Vector<Ljava/util/Vector<Ljava/lang/Object;>;>;
+ ([[Ljava/lang/Object;)Ljava/util/Vector<Ljava/util/Vector<Ljava/lang/Object;>;>;
+
+columnIdentifiers
+ Ljava/util/Vector;
+ Ljava/util/Vector;
+dataVector
+ Ljava/util/Vector<Ljava/util/Vector;>;
+ Ljava/util/Vector<Ljava/util/Vector;>;
+
+<init>
+ (Ljava/util/Vector<*>;I)V
+ (Ljava/util/Vector<*>;I)V
+<init>
+ (Ljava/util/Vector<+Ljava/util/Vector;>;Ljava/util/Vector<*>;)V
+ (Ljava/util/Vector<+Ljava/util/Vector;>;Ljava/util/Vector<*>;)V
+<init>
+ ([Ljava/lang/Object;I)V
+ ([Ljava/lang/Object;I)V
+<init>
+ ([[Ljava/lang/Object;[Ljava/lang/Object;)V
+ ([[Ljava/lang/Object;[Ljava/lang/Object;)V
+addColumn
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+addColumn
+ (Ljava/lang/Object;Ljava/util/Vector<*>;)V
+ (Ljava/lang/Object;Ljava/util/Vector<*>;)V
+addColumn
+ (Ljava/lang/Object;[Ljava/lang/Object;)V
+ (Ljava/lang/Object;[Ljava/lang/Object;)V
+addRow
+ (Ljava/util/Vector<*>;)V
+ (Ljava/util/Vector<*>;)V
+addRow
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+getColumnName
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getDataVector
+ ()Ljava/util/Vector<Ljava/util/Vector;>;
+ ()Ljava/util/Vector<Ljava/util/Vector;>;
+getValueAt
+ (II)Ljava/lang/Object;
+ (II)Ljava/lang/Object;
+insertRow
+ (ILjava/util/Vector<*>;)V
+ (ILjava/util/Vector<*>;)V
+insertRow
+ (I[Ljava/lang/Object;)V
+ (I[Ljava/lang/Object;)V
+newDataAvailable
+ (Ljavax/swing/event/TableModelEvent;)V
+ (Ljavax/swing/event/TableModelEvent;)V
+newRowsAdded
+ (Ljavax/swing/event/TableModelEvent;)V
+ (Ljavax/swing/event/TableModelEvent;)V
+rowsRemoved
+ (Ljavax/swing/event/TableModelEvent;)V
+ (Ljavax/swing/event/TableModelEvent;)V
+setColumnIdentifiers
+ (Ljava/util/Vector<*>;)V
+ (Ljava/util/Vector<*>;)V
+setColumnIdentifiers
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+setDataVector
+ (Ljava/util/Vector<+Ljava/util/Vector;>;Ljava/util/Vector<*>;)V
+ (Ljava/util/Vector<+Ljava/util/Vector;>;Ljava/util/Vector<*>;)V
+setDataVector
+ ([[Ljava/lang/Object;[Ljava/lang/Object;)V
+ ([[Ljava/lang/Object;[Ljava/lang/Object;)V
+setValueAt
+ (Ljava/lang/Object;II)V
+ (Ljava/lang/Object;II)V

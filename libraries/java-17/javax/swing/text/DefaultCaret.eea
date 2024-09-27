@@ -1,0 +1,99 @@
+class javax/swing/text/DefaultCaret
+
+changeEvent
+ Ljavax/swing/event/ChangeEvent;
+ Ljavax/swing/event/ChangeEvent;
+listenerList
+ Ljavax/swing/event/EventListenerList;
+ Ljavax/swing/event/EventListenerList;
+
+addChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V # @Inherited(javax.swing.text.Caret)
+adjustVisibility
+ (Ljava/awt/Rectangle;)V
+ (Ljava/awt/Rectangle;)V
+damage
+ (Ljava/awt/Rectangle;)V
+ (Ljava/awt/Rectangle;)V
+deinstall
+ (Ljavax/swing/text/JTextComponent;)V
+ (Ljavax/swing/text/JTextComponent;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.awt.Rectangle)
+focusGained
+ (Ljava/awt/event/FocusEvent;)V
+ (L1java/awt/event/FocusEvent;)V # @Inherited(java.awt.event.FocusListener)
+focusLost
+ (Ljava/awt/event/FocusEvent;)V
+ (L1java/awt/event/FocusEvent;)V # @Inherited(java.awt.event.FocusListener)
+getChangeListeners
+ ()[Ljavax/swing/event/ChangeListener;
+ ()[Ljavax/swing/event/ChangeListener;
+getComponent
+ ()Ljavax/swing/text/JTextComponent;
+ ()Ljavax/swing/text/JTextComponent;
+getDotBias
+ ()Ljavax/swing/text/Position$Bias;
+ ()Ljavax/swing/text/Position$Bias;
+getListeners
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+getMagicCaretPosition
+ ()Ljava/awt/Point;
+ ()Ljava/awt/Point;
+getMarkBias
+ ()Ljavax/swing/text/Position$Bias;
+ ()Ljavax/swing/text/Position$Bias;
+getSelectionPainter
+ ()Ljavax/swing/text/Highlighter$HighlightPainter;
+ ()Ljavax/swing/text/Highlighter$HighlightPainter;
+install
+ (Ljavax/swing/text/JTextComponent;)V
+ (Ljavax/swing/text/JTextComponent;)V
+mouseClicked
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseListener)
+mouseDragged
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseMotionListener)
+mouseEntered
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseListener)
+mouseExited
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseListener)
+mouseMoved
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseMotionListener)
+mousePressed
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseListener)
+mouseReleased
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseListener)
+moveCaret
+ (Ljava/awt/event/MouseEvent;)V
+ (Ljava/awt/event/MouseEvent;)V
+moveDot
+ (ILjavax/swing/text/Position$Bias;)V
+ (ILjavax/swing/text/Position$Bias;)V
+paint
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+positionCaret
+ (Ljava/awt/event/MouseEvent;)V
+ (Ljava/awt/event/MouseEvent;)V
+removeChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V # @Inherited(javax.swing.text.Caret)
+setDot
+ (ILjavax/swing/text/Position$Bias;)V
+ (ILjavax/swing/text/Position$Bias;)V
+setMagicCaretPosition
+ (Ljava/awt/Point;)V
+ (Ljava/awt/Point;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.awt.Rectangle)

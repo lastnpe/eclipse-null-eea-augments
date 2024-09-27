@@ -1,0 +1,53 @@
+class java/net/http/HttpResponse$BodyHandlers
+
+buffering
+ <T:Ljava/lang/Object;>(Ljava/net/http/HttpResponse$BodyHandler<TT;>;I)Ljava/net/http/HttpResponse$BodyHandler<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/net/http/HttpResponse$BodyHandler<TT;>;I)Ljava/net/http/HttpResponse$BodyHandler<TT;>;
+discarding
+ ()Ljava/net/http/HttpResponse$BodyHandler<Ljava/lang/Void;>;
+ ()Ljava/net/http/HttpResponse$BodyHandler<Ljava/lang/Void;>;
+fromLineSubscriber
+ (Ljava/util/concurrent/Flow$Subscriber<-Ljava/lang/String;>;)Ljava/net/http/HttpResponse$BodyHandler<Ljava/lang/Void;>;
+ (Ljava/util/concurrent/Flow$Subscriber<-Ljava/lang/String;>;)Ljava/net/http/HttpResponse$BodyHandler<Ljava/lang/Void;>;
+fromLineSubscriber
+ <S::Ljava/util/concurrent/Flow$Subscriber<-Ljava/lang/String;>;T:Ljava/lang/Object;>(TS;Ljava/util/function/Function<-TS;+TT;>;Ljava/lang/String;)Ljava/net/http/HttpResponse$BodyHandler<TT;>;
+ <S::Ljava/util/concurrent/Flow$Subscriber<-Ljava/lang/String;>;T:Ljava/lang/Object;>(TS;Ljava/util/function/Function<-TS;+TT;>;Ljava/lang/String;)Ljava/net/http/HttpResponse$BodyHandler<TT;>;
+fromSubscriber
+ (Ljava/util/concurrent/Flow$Subscriber<-Ljava/util/List<Ljava/nio/ByteBuffer;>;>;)Ljava/net/http/HttpResponse$BodyHandler<Ljava/lang/Void;>;
+ (Ljava/util/concurrent/Flow$Subscriber<-Ljava/util/List<Ljava/nio/ByteBuffer;>;>;)Ljava/net/http/HttpResponse$BodyHandler<Ljava/lang/Void;>;
+fromSubscriber
+ <S::Ljava/util/concurrent/Flow$Subscriber<-Ljava/util/List<Ljava/nio/ByteBuffer;>;>;T:Ljava/lang/Object;>(TS;Ljava/util/function/Function<-TS;+TT;>;)Ljava/net/http/HttpResponse$BodyHandler<TT;>;
+ <S::Ljava/util/concurrent/Flow$Subscriber<-Ljava/util/List<Ljava/nio/ByteBuffer;>;>;T:Ljava/lang/Object;>(TS;Ljava/util/function/Function<-TS;+TT;>;)Ljava/net/http/HttpResponse$BodyHandler<TT;>;
+ofByteArray
+ ()Ljava/net/http/HttpResponse$BodyHandler<[B>;
+ ()Ljava/net/http/HttpResponse$BodyHandler<[B>;
+ofByteArrayConsumer
+ (Ljava/util/function/Consumer<Ljava/util/Optional<[B>;>;)Ljava/net/http/HttpResponse$BodyHandler<Ljava/lang/Void;>;
+ (Ljava/util/function/Consumer<Ljava/util/Optional<[B>;>;)Ljava/net/http/HttpResponse$BodyHandler<Ljava/lang/Void;>;
+ofFile
+ (Ljava/nio/file/Path;)Ljava/net/http/HttpResponse$BodyHandler<Ljava/nio/file/Path;>;
+ (Ljava/nio/file/Path;)Ljava/net/http/HttpResponse$BodyHandler<Ljava/nio/file/Path;>;
+ofFile
+ (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/net/http/HttpResponse$BodyHandler<Ljava/nio/file/Path;>;
+ (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/net/http/HttpResponse$BodyHandler<Ljava/nio/file/Path;>;
+ofFileDownload
+ (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/net/http/HttpResponse$BodyHandler<Ljava/nio/file/Path;>;
+ (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/net/http/HttpResponse$BodyHandler<Ljava/nio/file/Path;>;
+ofInputStream
+ ()Ljava/net/http/HttpResponse$BodyHandler<Ljava/io/InputStream;>;
+ ()Ljava/net/http/HttpResponse$BodyHandler<Ljava/io/InputStream;>;
+ofLines
+ ()Ljava/net/http/HttpResponse$BodyHandler<Ljava/util/stream/Stream<Ljava/lang/String;>;>;
+ ()Ljava/net/http/HttpResponse$BodyHandler<Ljava/util/stream/Stream<Ljava/lang/String;>;>;
+ofPublisher
+ ()Ljava/net/http/HttpResponse$BodyHandler<Ljava/util/concurrent/Flow$Publisher<Ljava/util/List<Ljava/nio/ByteBuffer;>;>;>;
+ ()Ljava/net/http/HttpResponse$BodyHandler<Ljava/util/concurrent/Flow$Publisher<Ljava/util/List<Ljava/nio/ByteBuffer;>;>;>;
+ofString
+ ()Ljava/net/http/HttpResponse$BodyHandler<Ljava/lang/String;>;
+ ()Ljava/net/http/HttpResponse$BodyHandler<Ljava/lang/String;>;
+ofString
+ (Ljava/nio/charset/Charset;)Ljava/net/http/HttpResponse$BodyHandler<Ljava/lang/String;>;
+ (Ljava/nio/charset/Charset;)Ljava/net/http/HttpResponse$BodyHandler<Ljava/lang/String;>;
+replacing
+ <U:Ljava/lang/Object;>(TU;)Ljava/net/http/HttpResponse$BodyHandler<TU;>;
+ <U:Ljava/lang/Object;>(TU;)Ljava/net/http/HttpResponse$BodyHandler<TU;>;

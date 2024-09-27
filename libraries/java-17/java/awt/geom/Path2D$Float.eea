@@ -1,0 +1,23 @@
+class java/awt/geom/Path2D$Float
+
+<init>
+ (Ljava/awt/Shape;)V
+ (Ljava/awt/Shape;)V
+<init>
+ (Ljava/awt/Shape;Ljava/awt/geom/AffineTransform;)V
+ (Ljava/awt/Shape;Ljava/awt/geom/AffineTransform;)V
+append
+ (Ljava/awt/geom/PathIterator;Z)V
+ (Ljava/awt/geom/PathIterator;Z)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.awt.geom.Path2D)
+getBounds2D
+ ()Ljava/awt/geom/Rectangle2D;
+ ()Ljava/awt/geom/Rectangle2D;
+getPathIterator
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/geom/PathIterator;
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/geom/PathIterator;
+transform
+ (Ljava/awt/geom/AffineTransform;)V
+ (Ljava/awt/geom/AffineTransform;)V

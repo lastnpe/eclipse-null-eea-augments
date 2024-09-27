@@ -1,0 +1,30 @@
+class javax/print/PrintServiceLookup
+
+lookupDefaultPrintService
+ ()Ljavax/print/PrintService;
+ ()Ljavax/print/PrintService;
+lookupMultiDocPrintServices
+ ([Ljavax/print/DocFlavor;Ljavax/print/attribute/AttributeSet;)[Ljavax/print/MultiDocPrintService;
+ ([Ljavax/print/DocFlavor;Ljavax/print/attribute/AttributeSet;)[Ljavax/print/MultiDocPrintService;
+lookupPrintServices
+ (Ljavax/print/DocFlavor;Ljavax/print/attribute/AttributeSet;)[Ljavax/print/PrintService;
+ (Ljavax/print/DocFlavor;Ljavax/print/attribute/AttributeSet;)[Ljavax/print/PrintService;
+registerService
+ (Ljavax/print/PrintService;)Z
+ (Ljavax/print/PrintService;)Z
+registerServiceProvider
+ (Ljavax/print/PrintServiceLookup;)Z
+ (Ljavax/print/PrintServiceLookup;)Z
+
+getDefaultPrintService
+ ()Ljavax/print/PrintService;
+ ()Ljavax/print/PrintService;
+getMultiDocPrintServices
+ ([Ljavax/print/DocFlavor;Ljavax/print/attribute/AttributeSet;)[Ljavax/print/MultiDocPrintService;
+ ([Ljavax/print/DocFlavor;Ljavax/print/attribute/AttributeSet;)[Ljavax/print/MultiDocPrintService;
+getPrintServices
+ ()[Ljavax/print/PrintService;
+ ()[Ljavax/print/PrintService;
+getPrintServices
+ (Ljavax/print/DocFlavor;Ljavax/print/attribute/AttributeSet;)[Ljavax/print/PrintService;
+ (Ljavax/print/DocFlavor;Ljavax/print/attribute/AttributeSet;)[Ljavax/print/PrintService;

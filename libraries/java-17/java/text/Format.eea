@@ -1,7 +1,8 @@
 class java/text/Format
+
 clone
  ()Ljava/lang/Object;
- ()L1java/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
 format
  (Ljava/lang/Object;)Ljava/lang/String;
  (L1java/lang/Object;)L1java/lang/String;
@@ -17,4 +18,3 @@ parseObject
 parseObject
  (Ljava/lang/String;Ljava/text/ParsePosition;)Ljava/lang/Object;
  (L1java/lang/String;L1java/text/ParsePosition;)L0java/lang/Object;
-

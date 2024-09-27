@@ -1,0 +1,35 @@
+class java/lang/management/ThreadMXBean
+
+dumpAllThreads
+ (ZZ)[Ljava/lang/management/ThreadInfo;
+ (ZZ)[Ljava/lang/management/ThreadInfo;
+dumpAllThreads
+ (ZZI)[Ljava/lang/management/ThreadInfo;
+ (ZZI)[Ljava/lang/management/ThreadInfo;
+findDeadlockedThreads
+ ()[J
+ ()[J
+findMonitorDeadlockedThreads
+ ()[J
+ ()[J
+getAllThreadIds
+ ()[J
+ ()[J
+getThreadInfo
+ (J)Ljava/lang/management/ThreadInfo;
+ (J)Ljava/lang/management/ThreadInfo;
+getThreadInfo
+ (JI)Ljava/lang/management/ThreadInfo;
+ (JI)Ljava/lang/management/ThreadInfo;
+getThreadInfo
+ ([J)[Ljava/lang/management/ThreadInfo;
+ ([J)[Ljava/lang/management/ThreadInfo;
+getThreadInfo
+ ([JI)[Ljava/lang/management/ThreadInfo;
+ ([JI)[Ljava/lang/management/ThreadInfo;
+getThreadInfo
+ ([JZZ)[Ljava/lang/management/ThreadInfo;
+ ([JZZ)[Ljava/lang/management/ThreadInfo;
+getThreadInfo
+ ([JZZI)[Ljava/lang/management/ThreadInfo;
+ ([JZZI)[Ljava/lang/management/ThreadInfo;

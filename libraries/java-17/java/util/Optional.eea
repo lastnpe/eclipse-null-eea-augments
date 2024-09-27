@@ -1,10 +1,20 @@
 class java/util/Optional
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
 empty
  <T:Ljava/lang/Object;>()Ljava/util/Optional<TT;>;
  <T:Ljava/lang/Object;>()L1java/util/Optional<TT;>;
+of
+ <T:Ljava/lang/Object;>(TT;)Ljava/util/Optional<TT;>;
+ <T:Ljava/lang/Object;>(T1T;)L1java/util/Optional<T1T;>;
+ofNullable
+ <T:Ljava/lang/Object;>(TT;)Ljava/util/Optional<TT;>;
+ <T:Ljava/lang/Object;>(T0T;)L1java/util/Optional<T1T;>;
+
 equals
  (Ljava/lang/Object;)Z
- (L0java/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
 filter
  (Ljava/util/function/Predicate<-TT;>;)Ljava/util/Optional<TT;>;
  (L1java/util/function/Predicate<-TT;>;)L1java/util/Optional<T1T;>;
@@ -23,12 +33,6 @@ ifPresentOrElse
 map
  <U:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TU;>;)Ljava/util/Optional<TU;>;
  <U:Ljava/lang/Object;>(L1java/util/function/Function<-T1T;+T0U;>;)L1java/util/Optional<T1U;>;
-of
- <T:Ljava/lang/Object;>(TT;)Ljava/util/Optional<TT;>;
- <T:Ljava/lang/Object;>(T1T;)L1java/util/Optional<T1T;>;
-ofNullable
- <T:Ljava/lang/Object;>(TT;)Ljava/util/Optional<TT;>;
- <T:Ljava/lang/Object;>(T0T;)L1java/util/Optional<T1T;>;
 or
  (Ljava/util/function/Supplier<+Ljava/util/Optional<+TT;>;>;)Ljava/util/Optional<TT;>;
  (L1java/util/function/Supplier<+Ljava/util/Optional<+TT;>;>;)L1java/util/Optional<T1T;>;
@@ -49,4 +53,4 @@ stream
  ()L1java/util/stream/Stream<T1T;>;
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

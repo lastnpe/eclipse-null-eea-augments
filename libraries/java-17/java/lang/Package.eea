@@ -1,4 +1,12 @@
 class java/lang/Package
+
+getPackage
+ (Ljava/lang/String;)Ljava/lang/Package;
+ (L1java/lang/String;)L0java/lang/Package;
+getPackages
+ ()[Ljava/lang/Package;
+ ()[1L1java/lang/Package;
+
 getAnnotation
  <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
  <A::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TA;>;)T0A;
@@ -29,12 +37,6 @@ getImplementationVersion
 getName
  ()Ljava/lang/String;
  ()L1java/lang/String;
-getPackage
- (Ljava/lang/String;)Ljava/lang/Package;
- (L1java/lang/String;)L0java/lang/Package;
-getPackages
- ()[Ljava/lang/Package;
- ()[1L1java/lang/Package;
 getSpecificationTitle
  ()Ljava/lang/String;
  ()L0java/lang/String;
@@ -55,4 +57,4 @@ isSealed
  (L1java/net/URL;)Z
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

@@ -1,0 +1,30 @@
+class javax/xml/crypto/dsig/XMLSignature
+
+XMLNS
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getKeyInfo
+ ()Ljavax/xml/crypto/dsig/keyinfo/KeyInfo;
+ ()Ljavax/xml/crypto/dsig/keyinfo/KeyInfo;
+getKeySelectorResult
+ ()Ljavax/xml/crypto/KeySelectorResult;
+ ()Ljavax/xml/crypto/KeySelectorResult;
+getObjects
+ ()Ljava/util/List<Ljavax/xml/crypto/dsig/XMLObject;>;
+ ()Ljava/util/List<Ljavax/xml/crypto/dsig/XMLObject;>;
+getSignatureValue
+ ()Ljavax/xml/crypto/dsig/XMLSignature$SignatureValue;
+ ()Ljavax/xml/crypto/dsig/XMLSignature$SignatureValue;
+getSignedInfo
+ ()Ljavax/xml/crypto/dsig/SignedInfo;
+ ()Ljavax/xml/crypto/dsig/SignedInfo;
+sign
+ (Ljavax/xml/crypto/dsig/XMLSignContext;)V
+ (Ljavax/xml/crypto/dsig/XMLSignContext;)V
+validate
+ (Ljavax/xml/crypto/dsig/XMLValidateContext;)Z
+ (Ljavax/xml/crypto/dsig/XMLValidateContext;)Z

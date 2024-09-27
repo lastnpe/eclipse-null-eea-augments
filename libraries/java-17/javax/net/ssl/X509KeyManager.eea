@@ -1,0 +1,20 @@
+class javax/net/ssl/X509KeyManager
+
+chooseClientAlias
+ ([Ljava/lang/String;[Ljava/security/Principal;Ljava/net/Socket;)Ljava/lang/String;
+ ([Ljava/lang/String;[Ljava/security/Principal;Ljava/net/Socket;)Ljava/lang/String;
+chooseServerAlias
+ (Ljava/lang/String;[Ljava/security/Principal;Ljava/net/Socket;)Ljava/lang/String;
+ (Ljava/lang/String;[Ljava/security/Principal;Ljava/net/Socket;)Ljava/lang/String;
+getCertificateChain
+ (Ljava/lang/String;)[Ljava/security/cert/X509Certificate;
+ (Ljava/lang/String;)[Ljava/security/cert/X509Certificate;
+getClientAliases
+ (Ljava/lang/String;[Ljava/security/Principal;)[Ljava/lang/String;
+ (Ljava/lang/String;[Ljava/security/Principal;)[Ljava/lang/String;
+getPrivateKey
+ (Ljava/lang/String;)Ljava/security/PrivateKey;
+ (Ljava/lang/String;)Ljava/security/PrivateKey;
+getServerAliases
+ (Ljava/lang/String;[Ljava/security/Principal;)[Ljava/lang/String;
+ (Ljava/lang/String;[Ljava/security/Principal;)[Ljava/lang/String;

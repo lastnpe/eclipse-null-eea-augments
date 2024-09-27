@@ -1,0 +1,17 @@
+class java/awt/image/BaseMultiResolutionImage
+
+<init>
+ (I[Ljava/awt/Image;)V
+ (I[Ljava/awt/Image;)V
+<init>
+ ([Ljava/awt/Image;)V
+ ([Ljava/awt/Image;)V
+getBaseImage
+ ()Ljava/awt/Image;
+ ()Ljava/awt/Image;
+getResolutionVariant
+ (DD)Ljava/awt/Image;
+ (DD)Ljava/awt/Image;
+getResolutionVariants
+ ()Ljava/util/List<Ljava/awt/Image;>;
+ ()Ljava/util/List<Ljava/awt/Image;>;

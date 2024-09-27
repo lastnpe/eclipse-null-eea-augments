@@ -1,0 +1,20 @@
+class javax/print/event/PrintJobAdapter
+
+printDataTransferCompleted
+ (Ljavax/print/event/PrintJobEvent;)V
+ (L1javax/print/event/PrintJobEvent;)V # @Inherited(javax.print.event.PrintJobListener)
+printJobCanceled
+ (Ljavax/print/event/PrintJobEvent;)V
+ (L1javax/print/event/PrintJobEvent;)V # @Inherited(javax.print.event.PrintJobListener)
+printJobCompleted
+ (Ljavax/print/event/PrintJobEvent;)V
+ (L1javax/print/event/PrintJobEvent;)V # @Inherited(javax.print.event.PrintJobListener)
+printJobFailed
+ (Ljavax/print/event/PrintJobEvent;)V
+ (L1javax/print/event/PrintJobEvent;)V # @Inherited(javax.print.event.PrintJobListener)
+printJobNoMoreEvents
+ (Ljavax/print/event/PrintJobEvent;)V
+ (L1javax/print/event/PrintJobEvent;)V # @Inherited(javax.print.event.PrintJobListener)
+printJobRequiresAttention
+ (Ljavax/print/event/PrintJobEvent;)V
+ (L1javax/print/event/PrintJobEvent;)V # @Inherited(javax.print.event.PrintJobListener)

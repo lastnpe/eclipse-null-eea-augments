@@ -1,0 +1,78 @@
+class java/lang/management/ManagementFactory
+
+CLASS_LOADING_MXBEAN_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+COMPILATION_MXBEAN_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+GARBAGE_COLLECTOR_MXBEAN_DOMAIN_TYPE
+ Ljava/lang/String;
+ L1java/lang/String;
+MEMORY_MANAGER_MXBEAN_DOMAIN_TYPE
+ Ljava/lang/String;
+ L1java/lang/String;
+MEMORY_MXBEAN_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+MEMORY_POOL_MXBEAN_DOMAIN_TYPE
+ Ljava/lang/String;
+ L1java/lang/String;
+OPERATING_SYSTEM_MXBEAN_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+RUNTIME_MXBEAN_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+THREAD_MXBEAN_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getClassLoadingMXBean
+ ()Ljava/lang/management/ClassLoadingMXBean;
+ ()Ljava/lang/management/ClassLoadingMXBean;
+getCompilationMXBean
+ ()Ljava/lang/management/CompilationMXBean;
+ ()Ljava/lang/management/CompilationMXBean;
+getGarbageCollectorMXBeans
+ ()Ljava/util/List<Ljava/lang/management/GarbageCollectorMXBean;>;
+ ()Ljava/util/List<Ljava/lang/management/GarbageCollectorMXBean;>;
+getMemoryMXBean
+ ()Ljava/lang/management/MemoryMXBean;
+ ()Ljava/lang/management/MemoryMXBean;
+getMemoryManagerMXBeans
+ ()Ljava/util/List<Ljava/lang/management/MemoryManagerMXBean;>;
+ ()Ljava/util/List<Ljava/lang/management/MemoryManagerMXBean;>;
+getMemoryPoolMXBeans
+ ()Ljava/util/List<Ljava/lang/management/MemoryPoolMXBean;>;
+ ()Ljava/util/List<Ljava/lang/management/MemoryPoolMXBean;>;
+getOperatingSystemMXBean
+ ()Ljava/lang/management/OperatingSystemMXBean;
+ ()Ljava/lang/management/OperatingSystemMXBean;
+getPlatformMBeanServer
+ ()Ljavax/management/MBeanServer;
+ ()Ljavax/management/MBeanServer;
+getPlatformMXBean
+ <T::Ljava/lang/management/PlatformManagedObject;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljava/lang/management/PlatformManagedObject;>(Ljava/lang/Class<TT;>;)TT;
+getPlatformMXBean
+ <T::Ljava/lang/management/PlatformManagedObject;>(Ljavax/management/MBeanServerConnection;Ljava/lang/Class<TT;>;)TT;
+ <T::Ljava/lang/management/PlatformManagedObject;>(Ljavax/management/MBeanServerConnection;Ljava/lang/Class<TT;>;)TT;
+getPlatformMXBeans
+ <T::Ljava/lang/management/PlatformManagedObject;>(Ljava/lang/Class<TT;>;)Ljava/util/List<TT;>;
+ <T::Ljava/lang/management/PlatformManagedObject;>(Ljava/lang/Class<TT;>;)Ljava/util/List<TT;>;
+getPlatformMXBeans
+ <T::Ljava/lang/management/PlatformManagedObject;>(Ljavax/management/MBeanServerConnection;Ljava/lang/Class<TT;>;)Ljava/util/List<TT;>;
+ <T::Ljava/lang/management/PlatformManagedObject;>(Ljavax/management/MBeanServerConnection;Ljava/lang/Class<TT;>;)Ljava/util/List<TT;>;
+getPlatformManagementInterfaces
+ ()Ljava/util/Set<Ljava/lang/Class<+Ljava/lang/management/PlatformManagedObject;>;>;
+ ()Ljava/util/Set<Ljava/lang/Class<+Ljava/lang/management/PlatformManagedObject;>;>;
+getRuntimeMXBean
+ ()Ljava/lang/management/RuntimeMXBean;
+ ()Ljava/lang/management/RuntimeMXBean;
+getThreadMXBean
+ ()Ljava/lang/management/ThreadMXBean;
+ ()Ljava/lang/management/ThreadMXBean;
+newPlatformMXBeanProxy
+ <T:Ljava/lang/Object;>(Ljavax/management/MBeanServerConnection;Ljava/lang/String;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljavax/management/MBeanServerConnection;Ljava/lang/String;Ljava/lang/Class<TT;>;)TT;

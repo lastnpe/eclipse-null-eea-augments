@@ -1,0 +1,57 @@
+class java/text/DecimalFormatSymbols
+
+getAvailableLocales
+ ()[Ljava/util/Locale;
+ ()[Ljava/util/Locale;
+getInstance
+ ()Ljava/text/DecimalFormatSymbols;
+ ()Ljava/text/DecimalFormatSymbols;
+getInstance
+ (Ljava/util/Locale;)Ljava/text/DecimalFormatSymbols;
+ (Ljava/util/Locale;)Ljava/text/DecimalFormatSymbols;
+
+<init>
+ (Ljava/util/Locale;)V
+ (Ljava/util/Locale;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getCurrency
+ ()Ljava/util/Currency;
+ ()Ljava/util/Currency;
+getCurrencySymbol
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getExponentSeparator
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getInfinity
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getInternationalCurrencySymbol
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getNaN
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setCurrency
+ (Ljava/util/Currency;)V
+ (Ljava/util/Currency;)V
+setCurrencySymbol
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setExponentSeparator
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setInfinity
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setInternationalCurrencySymbol
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setNaN
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

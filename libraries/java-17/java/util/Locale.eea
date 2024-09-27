@@ -1,4 +1,5 @@
 class java/util/Locale
+
 CANADA
  Ljava/util/Locale;
  L1java/util/Locale;
@@ -65,18 +66,137 @@ UK
 US
  Ljava/util/Locale;
  L1java/util/Locale;
+
+filter
+ (Ljava/util/List<Ljava/util/Locale$LanguageRange;>;Ljava/util/Collection<Ljava/util/Locale;>;)Ljava/util/List<Ljava/util/Locale;>;
+ (Ljava/util/List<Ljava/util/Locale$LanguageRange;>;Ljava/util/Collection<Ljava/util/Locale;>;)Ljava/util/List<Ljava/util/Locale;>;
+filter
+ (Ljava/util/List<Ljava/util/Locale$LanguageRange;>;Ljava/util/Collection<Ljava/util/Locale;>;Ljava/util/Locale$FilteringMode;)Ljava/util/List<Ljava/util/Locale;>;
+ (Ljava/util/List<Ljava/util/Locale$LanguageRange;>;Ljava/util/Collection<Ljava/util/Locale;>;Ljava/util/Locale$FilteringMode;)Ljava/util/List<Ljava/util/Locale;>;
+filterTags
+ (Ljava/util/List<Ljava/util/Locale$LanguageRange;>;Ljava/util/Collection<Ljava/lang/String;>;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/util/List<Ljava/util/Locale$LanguageRange;>;Ljava/util/Collection<Ljava/lang/String;>;)Ljava/util/List<Ljava/lang/String;>;
+filterTags
+ (Ljava/util/List<Ljava/util/Locale$LanguageRange;>;Ljava/util/Collection<Ljava/lang/String;>;Ljava/util/Locale$FilteringMode;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/util/List<Ljava/util/Locale$LanguageRange;>;Ljava/util/Collection<Ljava/lang/String;>;Ljava/util/Locale$FilteringMode;)Ljava/util/List<Ljava/lang/String;>;
 forLanguageTag
  (Ljava/lang/String;)Ljava/util/Locale;
  (L1java/lang/String;)L1java/util/Locale;
+getAvailableLocales
+ ()[Ljava/util/Locale;
+ ()[Ljava/util/Locale;
 getDefault
  ()Ljava/util/Locale;
  ()L1java/util/Locale;
+getDefault
+ (Ljava/util/Locale$Category;)Ljava/util/Locale;
+ (Ljava/util/Locale$Category;)Ljava/util/Locale;
+getISOCountries
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getISOCountries
+ (Ljava/util/Locale$IsoCountryCode;)Ljava/util/Set<Ljava/lang/String;>;
+ (Ljava/util/Locale$IsoCountryCode;)Ljava/util/Set<Ljava/lang/String;>;
+getISOLanguages
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+lookup
+ (Ljava/util/List<Ljava/util/Locale$LanguageRange;>;Ljava/util/Collection<Ljava/util/Locale;>;)Ljava/util/Locale;
+ (Ljava/util/List<Ljava/util/Locale$LanguageRange;>;Ljava/util/Collection<Ljava/util/Locale;>;)Ljava/util/Locale;
+lookupTag
+ (Ljava/util/List<Ljava/util/Locale$LanguageRange;>;Ljava/util/Collection<Ljava/lang/String;>;)Ljava/lang/String;
+ (Ljava/util/List<Ljava/util/Locale$LanguageRange;>;Ljava/util/Collection<Ljava/lang/String;>;)Ljava/lang/String;
+setDefault
+ (Ljava/util/Locale$Category;Ljava/util/Locale;)V
+ (Ljava/util/Locale$Category;Ljava/util/Locale;)V
+setDefault
+ (Ljava/util/Locale;)V
+ (Ljava/util/Locale;)V
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getCountry
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDisplayCountry
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDisplayCountry
+ (Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/util/Locale;)Ljava/lang/String;
 getDisplayLanguage
  ()Ljava/lang/String;
  ()L1java/lang/String;
+getDisplayLanguage
+ (Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/util/Locale;)Ljava/lang/String;
+getDisplayName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDisplayName
+ (Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/util/Locale;)Ljava/lang/String;
+getDisplayScript
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDisplayScript
+ (Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/util/Locale;)Ljava/lang/String;
+getDisplayVariant
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDisplayVariant
+ (Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/util/Locale;)Ljava/lang/String;
+getExtension
+ (C)Ljava/lang/String;
+ (C)Ljava/lang/String;
+getExtensionKeys
+ ()Ljava/util/Set<Ljava/lang/Character;>;
+ ()Ljava/util/Set<Ljava/lang/Character;>;
+getISO3Country
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getISO3Language
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
 getLanguage
  ()Ljava/lang/String;
  ()L1java/lang/String;
+getScript
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getUnicodeLocaleAttributes
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getUnicodeLocaleKeys
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getUnicodeLocaleType
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getVariant
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+stripExtensions
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+toLanguageTag
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

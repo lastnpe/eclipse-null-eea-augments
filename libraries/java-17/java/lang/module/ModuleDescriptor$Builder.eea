@@ -1,0 +1,68 @@
+class java/lang/module/ModuleDescriptor$Builder
+
+build
+ ()Ljava/lang/module/ModuleDescriptor;
+ ()L1java/lang/module/ModuleDescriptor;
+exports
+ (Ljava/lang/String;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/lang/String;)L1java/lang/module/ModuleDescriptor$Builder;
+exports
+ (Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;)L1java/lang/module/ModuleDescriptor$Builder;
+exports
+ (Ljava/lang/module/ModuleDescriptor$Exports;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/lang/module/ModuleDescriptor$Exports;)L1java/lang/module/ModuleDescriptor$Builder;
+exports
+ (Ljava/util/Set<Ljava/lang/module/ModuleDescriptor$Exports$Modifier;>;Ljava/lang/String;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/util/Set<Ljava/lang/module/ModuleDescriptor$Exports$Modifier;>;Ljava/lang/String;)L1java/lang/module/ModuleDescriptor$Builder;
+exports
+ (Ljava/util/Set<Ljava/lang/module/ModuleDescriptor$Exports$Modifier;>;Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/util/Set<Ljava/lang/module/ModuleDescriptor$Exports$Modifier;>;Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;)L1java/lang/module/ModuleDescriptor$Builder;
+mainClass
+ (Ljava/lang/String;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/lang/String;)L1java/lang/module/ModuleDescriptor$Builder;
+opens
+ (Ljava/lang/String;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/lang/String;)L1java/lang/module/ModuleDescriptor$Builder;
+opens
+ (Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;)L1java/lang/module/ModuleDescriptor$Builder;
+opens
+ (Ljava/lang/module/ModuleDescriptor$Opens;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/lang/module/ModuleDescriptor$Opens;)L1java/lang/module/ModuleDescriptor$Builder;
+opens
+ (Ljava/util/Set<Ljava/lang/module/ModuleDescriptor$Opens$Modifier;>;Ljava/lang/String;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/util/Set<Ljava/lang/module/ModuleDescriptor$Opens$Modifier;>;Ljava/lang/String;)L1java/lang/module/ModuleDescriptor$Builder;
+opens
+ (Ljava/util/Set<Ljava/lang/module/ModuleDescriptor$Opens$Modifier;>;Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/util/Set<Ljava/lang/module/ModuleDescriptor$Opens$Modifier;>;Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;)L1java/lang/module/ModuleDescriptor$Builder;
+packages
+ (Ljava/util/Set<Ljava/lang/String;>;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/util/Set<Ljava/lang/String;>;)L1java/lang/module/ModuleDescriptor$Builder;
+provides
+ (Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;)L1java/lang/module/ModuleDescriptor$Builder;
+provides
+ (Ljava/lang/module/ModuleDescriptor$Provides;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/lang/module/ModuleDescriptor$Provides;)L1java/lang/module/ModuleDescriptor$Builder;
+requires
+ (Ljava/lang/String;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/lang/String;)L1java/lang/module/ModuleDescriptor$Builder;
+requires
+ (Ljava/lang/module/ModuleDescriptor$Requires;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/lang/module/ModuleDescriptor$Requires;)L1java/lang/module/ModuleDescriptor$Builder;
+requires
+ (Ljava/util/Set<Ljava/lang/module/ModuleDescriptor$Requires$Modifier;>;Ljava/lang/String;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/util/Set<Ljava/lang/module/ModuleDescriptor$Requires$Modifier;>;Ljava/lang/String;)L1java/lang/module/ModuleDescriptor$Builder;
+requires
+ (Ljava/util/Set<Ljava/lang/module/ModuleDescriptor$Requires$Modifier;>;Ljava/lang/String;Ljava/lang/module/ModuleDescriptor$Version;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/util/Set<Ljava/lang/module/ModuleDescriptor$Requires$Modifier;>;Ljava/lang/String;Ljava/lang/module/ModuleDescriptor$Version;)L1java/lang/module/ModuleDescriptor$Builder;
+uses
+ (Ljava/lang/String;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/lang/String;)L1java/lang/module/ModuleDescriptor$Builder;
+version
+ (Ljava/lang/String;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/lang/String;)L1java/lang/module/ModuleDescriptor$Builder;
+version
+ (Ljava/lang/module/ModuleDescriptor$Version;)Ljava/lang/module/ModuleDescriptor$Builder;
+ (Ljava/lang/module/ModuleDescriptor$Version;)L1java/lang/module/ModuleDescriptor$Builder;

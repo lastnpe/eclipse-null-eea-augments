@@ -1,0 +1,57 @@
+class java/awt/FontMetrics
+
+font
+ Ljava/awt/Font;
+ Ljava/awt/Font;
+
+<init>
+ (Ljava/awt/Font;)V
+ (Ljava/awt/Font;)V
+bytesWidth
+ ([BII)I
+ ([BII)I
+charsWidth
+ ([CII)I
+ ([CII)I
+getFont
+ ()Ljava/awt/Font;
+ ()Ljava/awt/Font;
+getFontRenderContext
+ ()Ljava/awt/font/FontRenderContext;
+ ()Ljava/awt/font/FontRenderContext;
+getLineMetrics
+ (Ljava/lang/String;IILjava/awt/Graphics;)Ljava/awt/font/LineMetrics;
+ (Ljava/lang/String;IILjava/awt/Graphics;)Ljava/awt/font/LineMetrics;
+getLineMetrics
+ (Ljava/lang/String;Ljava/awt/Graphics;)Ljava/awt/font/LineMetrics;
+ (Ljava/lang/String;Ljava/awt/Graphics;)Ljava/awt/font/LineMetrics;
+getLineMetrics
+ (Ljava/text/CharacterIterator;IILjava/awt/Graphics;)Ljava/awt/font/LineMetrics;
+ (Ljava/text/CharacterIterator;IILjava/awt/Graphics;)Ljava/awt/font/LineMetrics;
+getLineMetrics
+ ([CIILjava/awt/Graphics;)Ljava/awt/font/LineMetrics;
+ ([CIILjava/awt/Graphics;)Ljava/awt/font/LineMetrics;
+getMaxCharBounds
+ (Ljava/awt/Graphics;)Ljava/awt/geom/Rectangle2D;
+ (Ljava/awt/Graphics;)Ljava/awt/geom/Rectangle2D;
+getStringBounds
+ (Ljava/lang/String;IILjava/awt/Graphics;)Ljava/awt/geom/Rectangle2D;
+ (Ljava/lang/String;IILjava/awt/Graphics;)Ljava/awt/geom/Rectangle2D;
+getStringBounds
+ (Ljava/lang/String;Ljava/awt/Graphics;)Ljava/awt/geom/Rectangle2D;
+ (Ljava/lang/String;Ljava/awt/Graphics;)Ljava/awt/geom/Rectangle2D;
+getStringBounds
+ (Ljava/text/CharacterIterator;IILjava/awt/Graphics;)Ljava/awt/geom/Rectangle2D;
+ (Ljava/text/CharacterIterator;IILjava/awt/Graphics;)Ljava/awt/geom/Rectangle2D;
+getStringBounds
+ ([CIILjava/awt/Graphics;)Ljava/awt/geom/Rectangle2D;
+ ([CIILjava/awt/Graphics;)Ljava/awt/geom/Rectangle2D;
+getWidths
+ ()[I
+ ()[I
+stringWidth
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

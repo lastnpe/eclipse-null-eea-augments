@@ -1,16 +1,58 @@
 class java/time/ZonedDateTime
-equals
- (Ljava/lang/Object;)Z
- (Ljava/lang/Object;)Z
-format
- (Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;
- (L1java/time/format/DateTimeFormatter;)L1java/lang/String;
+
+super java/time/chrono/ChronoZonedDateTime
+ <Ljava/time/LocalDate;>
+ <Ljava/time/LocalDate;>
+
 from
  (Ljava/time/temporal/TemporalAccessor;)Ljava/time/ZonedDateTime;
  (L1java/time/temporal/TemporalAccessor;)L1java/time/ZonedDateTime;
+now
+ ()Ljava/time/ZonedDateTime;
+ ()L1java/time/ZonedDateTime;
+now
+ (Ljava/time/Clock;)Ljava/time/ZonedDateTime;
+ (L1java/time/Clock;)L1java/time/ZonedDateTime;
+now
+ (Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
+ (L1java/time/ZoneId;)L1java/time/ZonedDateTime;
+of
+ (IIIIIIILjava/time/ZoneId;)Ljava/time/ZonedDateTime;
+ (IIIIIIIL1java/time/ZoneId;)L1java/time/ZonedDateTime;
+of
+ (Ljava/time/LocalDate;Ljava/time/LocalTime;Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
+ (L1java/time/LocalDate;L1java/time/LocalTime;L1java/time/ZoneId;)L1java/time/ZonedDateTime;
+of
+ (Ljava/time/LocalDateTime;Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
+ (L1java/time/LocalDateTime;L1java/time/ZoneId;)Ljava/time/ZonedDateTime;
+ofInstant
+ (Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
+ (L1java/time/Instant;L1java/time/ZoneId;)Ljava/time/ZonedDateTime;
+ofInstant
+ (Ljava/time/LocalDateTime;Ljava/time/ZoneOffset;Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
+ (L1java/time/LocalDateTime;L1java/time/ZoneOffset;L1java/time/ZoneId;)Ljava/time/ZonedDateTime;
+ofLocal
+ (Ljava/time/LocalDateTime;Ljava/time/ZoneId;Ljava/time/ZoneOffset;)Ljava/time/ZonedDateTime;
+ (L1java/time/LocalDateTime;L1java/time/ZoneId;L0java/time/ZoneOffset;)Ljava/time/ZonedDateTime;
+ofStrict
+ (Ljava/time/LocalDateTime;Ljava/time/ZoneOffset;Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
+ (L1java/time/LocalDateTime;L1java/time/ZoneOffset;L1java/time/ZoneId;)Ljava/time/ZonedDateTime;
+parse
+ (Ljava/lang/CharSequence;)Ljava/time/ZonedDateTime;
+ (L1java/lang/CharSequence;)Ljava/time/ZonedDateTime;
+parse
+ (Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)Ljava/time/ZonedDateTime;
+ (L1java/lang/CharSequence;L1java/time/format/DateTimeFormatter;)Ljava/time/ZonedDateTime;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+format
+ (Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;
+ (L1java/time/format/DateTimeFormatter;)L1java/lang/String;
 get
  (Ljava/time/temporal/TemporalField;)I
- (L1java/time/temporal/TemporalField;)I
+ (L1java/time/temporal/TemporalField;)I # @Inherited(java.time.chrono.ChronoZonedDateTime)
 getDayOfWeek
  ()Ljava/time/DayOfWeek;
  ()L1java/time/DayOfWeek;
@@ -62,42 +104,6 @@ minusWeeks
 minusYears
  (J)Ljava/time/ZonedDateTime;
  (J)L1java/time/ZonedDateTime;
-now
- ()Ljava/time/ZonedDateTime;
- ()L1java/time/ZonedDateTime;
-now
- (Ljava/time/Clock;)Ljava/time/ZonedDateTime;
- (L1java/time/Clock;)L1java/time/ZonedDateTime;
-now
- (Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
- (L1java/time/ZoneId;)L1java/time/ZonedDateTime;
-of
- (IIIIIIILjava/time/ZoneId;)Ljava/time/ZonedDateTime;
- (IIIIIIIL1java/time/ZoneId;)L1java/time/ZonedDateTime;
-of
- (Ljava/time/LocalDate;Ljava/time/LocalTime;Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
- (L1java/time/LocalDate;L1java/time/LocalTime;L1java/time/ZoneId;)L1java/time/ZonedDateTime;
-of
- (Ljava/time/LocalDateTime;Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
- (L1java/time/LocalDateTime;L1java/time/ZoneId;)Ljava/time/ZonedDateTime;
-ofInstant
- (Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
- (L1java/time/Instant;L1java/time/ZoneId;)Ljava/time/ZonedDateTime;
-ofInstant
- (Ljava/time/LocalDateTime;Ljava/time/ZoneOffset;Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
- (L1java/time/LocalDateTime;L1java/time/ZoneOffset;L1java/time/ZoneId;)Ljava/time/ZonedDateTime;
-ofLocal
- (Ljava/time/LocalDateTime;Ljava/time/ZoneId;Ljava/time/ZoneOffset;)Ljava/time/ZonedDateTime;
- (L1java/time/LocalDateTime;L1java/time/ZoneId;L0java/time/ZoneOffset;)Ljava/time/ZonedDateTime;
-ofStrict
- (Ljava/time/LocalDateTime;Ljava/time/ZoneOffset;Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
- (L1java/time/LocalDateTime;L1java/time/ZoneOffset;L1java/time/ZoneId;)Ljava/time/ZonedDateTime;
-parse
- (Ljava/lang/CharSequence;)Ljava/time/ZonedDateTime;
- (L1java/lang/CharSequence;)Ljava/time/ZonedDateTime;
-parse
- (Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)Ljava/time/ZonedDateTime;
- (L1java/lang/CharSequence;L1java/time/format/DateTimeFormatter;)Ljava/time/ZonedDateTime;
 plus
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/ZonedDateTime;
  (JL1java/time/temporal/TemporalUnit;)L1java/time/ZonedDateTime;
@@ -148,7 +154,7 @@ toOffsetDateTime
  ()L1java/time/OffsetDateTime;
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
 truncatedTo
  (Ljava/time/temporal/TemporalUnit;)Ljava/time/ZonedDateTime;
  (L1java/time/temporal/TemporalUnit;)L1java/time/ZonedDateTime;
@@ -200,4 +206,3 @@ withZoneSameInstant
 withZoneSameLocal
  (Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
  (L1java/time/ZoneId;)L1java/time/ZonedDateTime;
-

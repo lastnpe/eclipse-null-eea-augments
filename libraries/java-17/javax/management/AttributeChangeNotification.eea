@@ -1,0 +1,21 @@
+class javax/management/AttributeChangeNotification
+
+ATTRIBUTE_CHANGE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljava/lang/Object;JJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;JJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+getAttributeName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getAttributeType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getNewValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getOldValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;

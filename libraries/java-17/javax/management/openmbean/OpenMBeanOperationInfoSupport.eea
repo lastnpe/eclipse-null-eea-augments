@@ -1,0 +1,17 @@
+class javax/management/openmbean/OpenMBeanOperationInfoSupport
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;[Ljavax/management/openmbean/OpenMBeanParameterInfo;Ljavax/management/openmbean/OpenType<*>;I)V
+ (Ljava/lang/String;Ljava/lang/String;[Ljavax/management/openmbean/OpenMBeanParameterInfo;Ljavax/management/openmbean/OpenType<*>;I)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;[Ljavax/management/openmbean/OpenMBeanParameterInfo;Ljavax/management/openmbean/OpenType<*>;ILjavax/management/Descriptor;)V
+ (Ljava/lang/String;Ljava/lang/String;[Ljavax/management/openmbean/OpenMBeanParameterInfo;Ljavax/management/openmbean/OpenType<*>;ILjavax/management/Descriptor;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(javax.management.MBeanOperationInfo)
+getReturnOpenType
+ ()Ljavax/management/openmbean/OpenType<*>;
+ ()Ljavax/management/openmbean/OpenType<*>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.management.MBeanOperationInfo)

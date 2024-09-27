@@ -1,0 +1,38 @@
+class java/util/zip/ZipFile
+
+<init>
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+<init>
+ (Ljava/io/File;I)V
+ (Ljava/io/File;I)V
+<init>
+ (Ljava/io/File;ILjava/nio/charset/Charset;)V
+ (Ljava/io/File;ILjava/nio/charset/Charset;)V
+<init>
+ (Ljava/io/File;Ljava/nio/charset/Charset;)V
+ (Ljava/io/File;Ljava/nio/charset/Charset;)V
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)V
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)V
+entries
+ ()Ljava/util/Enumeration<+Ljava/util/zip/ZipEntry;>;
+ ()Ljava/util/Enumeration<+Ljava/util/zip/ZipEntry;>;
+getComment
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getEntry
+ (Ljava/lang/String;)Ljava/util/zip/ZipEntry;
+ (Ljava/lang/String;)Ljava/util/zip/ZipEntry;
+getInputStream
+ (Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;
+ (Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+stream
+ ()Ljava/util/stream/Stream<+Ljava/util/zip/ZipEntry;>;
+ ()Ljava/util/stream/Stream<+Ljava/util/zip/ZipEntry;>;

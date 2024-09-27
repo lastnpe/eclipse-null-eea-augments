@@ -1,0 +1,40 @@
+class java/time/DayOfWeek
+
+super java/lang/Enum
+ <Ljava/time/DayOfWeek;>
+ <Ljava/time/DayOfWeek;>
+
+from
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/DayOfWeek;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/DayOfWeek;
+of
+ (I)Ljava/time/DayOfWeek;
+ (I)Ljava/time/DayOfWeek;
+
+adjustInto
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+get
+ (Ljava/time/temporal/TemporalField;)I
+ (L1java/time/temporal/TemporalField;)I
+getDisplayName
+ (Ljava/time/format/TextStyle;Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/time/format/TextStyle;Ljava/util/Locale;)Ljava/lang/String;
+getLong
+ (Ljava/time/temporal/TemporalField;)J
+ (Ljava/time/temporal/TemporalField;)J
+isSupported
+ (Ljava/time/temporal/TemporalField;)Z
+ (Ljava/time/temporal/TemporalField;)Z
+minus
+ (J)Ljava/time/DayOfWeek;
+ (J)Ljava/time/DayOfWeek;
+plus
+ (J)Ljava/time/DayOfWeek;
+ (J)Ljava/time/DayOfWeek;
+query
+ <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+ <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+range
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;

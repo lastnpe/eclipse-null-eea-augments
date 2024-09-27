@@ -1,7 +1,24 @@
 class java/io/InputStream
+
 nullInputStream
  ()Ljava/io/InputStream;
  ()L1java/io/InputStream;
+
+read
+ ([B)I
+ ([B)I
+read
+ ([BII)I
+ ([BII)I
+readAllBytes
+ ()[B
+ ()[B
+readNBytes
+ (I)[B
+ (I)[B
+readNBytes
+ ([BII)I
+ ([BII)I
 transferTo
  (Ljava/io/OutputStream;)J
  (L1java/io/OutputStream;)J

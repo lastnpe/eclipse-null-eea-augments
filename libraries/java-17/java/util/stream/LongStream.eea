@@ -1,0 +1,142 @@
+class java/util/stream/LongStream
+
+super java/util/stream/BaseStream
+ <Ljava/lang/Long;Ljava/util/stream/LongStream;>
+ <Ljava/lang/Long;Ljava/util/stream/LongStream;>
+
+builder
+ ()Ljava/util/stream/LongStream$Builder;
+ ()Ljava/util/stream/LongStream$Builder;
+concat
+ (Ljava/util/stream/LongStream;Ljava/util/stream/LongStream;)Ljava/util/stream/LongStream;
+ (Ljava/util/stream/LongStream;Ljava/util/stream/LongStream;)Ljava/util/stream/LongStream;
+empty
+ ()Ljava/util/stream/LongStream;
+ ()Ljava/util/stream/LongStream;
+generate
+ (Ljava/util/function/LongSupplier;)Ljava/util/stream/LongStream;
+ (Ljava/util/function/LongSupplier;)Ljava/util/stream/LongStream;
+iterate
+ (JLjava/util/function/LongPredicate;Ljava/util/function/LongUnaryOperator;)Ljava/util/stream/LongStream;
+ (JLjava/util/function/LongPredicate;Ljava/util/function/LongUnaryOperator;)Ljava/util/stream/LongStream;
+iterate
+ (JLjava/util/function/LongUnaryOperator;)Ljava/util/stream/LongStream;
+ (JLjava/util/function/LongUnaryOperator;)Ljava/util/stream/LongStream;
+of
+ (J)Ljava/util/stream/LongStream;
+ (J)Ljava/util/stream/LongStream;
+of
+ ([J)Ljava/util/stream/LongStream;
+ ([J)Ljava/util/stream/LongStream;
+range
+ (JJ)Ljava/util/stream/LongStream;
+ (JJ)Ljava/util/stream/LongStream;
+rangeClosed
+ (JJ)Ljava/util/stream/LongStream;
+ (JJ)Ljava/util/stream/LongStream;
+
+allMatch
+ (Ljava/util/function/LongPredicate;)Z
+ (Ljava/util/function/LongPredicate;)Z
+anyMatch
+ (Ljava/util/function/LongPredicate;)Z
+ (Ljava/util/function/LongPredicate;)Z
+asDoubleStream
+ ()Ljava/util/stream/DoubleStream;
+ ()Ljava/util/stream/DoubleStream;
+average
+ ()Ljava/util/OptionalDouble;
+ ()Ljava/util/OptionalDouble;
+boxed
+ ()Ljava/util/stream/Stream<Ljava/lang/Long;>;
+ ()Ljava/util/stream/Stream<Ljava/lang/Long;>;
+collect
+ <R:Ljava/lang/Object;>(Ljava/util/function/Supplier<TR;>;Ljava/util/function/ObjLongConsumer<TR;>;Ljava/util/function/BiConsumer<TR;TR;>;)TR;
+ <R:Ljava/lang/Object;>(Ljava/util/function/Supplier<TR;>;Ljava/util/function/ObjLongConsumer<TR;>;Ljava/util/function/BiConsumer<TR;TR;>;)TR;
+distinct
+ ()Ljava/util/stream/LongStream;
+ ()Ljava/util/stream/LongStream;
+dropWhile
+ (Ljava/util/function/LongPredicate;)Ljava/util/stream/LongStream;
+ (Ljava/util/function/LongPredicate;)Ljava/util/stream/LongStream;
+filter
+ (Ljava/util/function/LongPredicate;)Ljava/util/stream/LongStream;
+ (Ljava/util/function/LongPredicate;)Ljava/util/stream/LongStream;
+findAny
+ ()Ljava/util/OptionalLong;
+ ()Ljava/util/OptionalLong;
+findFirst
+ ()Ljava/util/OptionalLong;
+ ()Ljava/util/OptionalLong;
+flatMap
+ (Ljava/util/function/LongFunction<+Ljava/util/stream/LongStream;>;)Ljava/util/stream/LongStream;
+ (Ljava/util/function/LongFunction<+Ljava/util/stream/LongStream;>;)Ljava/util/stream/LongStream;
+forEach
+ (Ljava/util/function/LongConsumer;)V
+ (Ljava/util/function/LongConsumer;)V
+forEachOrdered
+ (Ljava/util/function/LongConsumer;)V
+ (Ljava/util/function/LongConsumer;)V
+iterator
+ ()Ljava/util/PrimitiveIterator$OfLong;
+ ()Ljava/util/PrimitiveIterator$OfLong;
+limit
+ (J)Ljava/util/stream/LongStream;
+ (J)Ljava/util/stream/LongStream;
+map
+ (Ljava/util/function/LongUnaryOperator;)Ljava/util/stream/LongStream;
+ (Ljava/util/function/LongUnaryOperator;)Ljava/util/stream/LongStream;
+mapMulti
+ (Ljava/util/stream/LongStream$LongMapMultiConsumer;)Ljava/util/stream/LongStream;
+ (Ljava/util/stream/LongStream$LongMapMultiConsumer;)Ljava/util/stream/LongStream;
+mapToDouble
+ (Ljava/util/function/LongToDoubleFunction;)Ljava/util/stream/DoubleStream;
+ (Ljava/util/function/LongToDoubleFunction;)Ljava/util/stream/DoubleStream;
+mapToInt
+ (Ljava/util/function/LongToIntFunction;)Ljava/util/stream/IntStream;
+ (Ljava/util/function/LongToIntFunction;)Ljava/util/stream/IntStream;
+mapToObj
+ <U:Ljava/lang/Object;>(Ljava/util/function/LongFunction<+TU;>;)Ljava/util/stream/Stream<TU;>;
+ <U:Ljava/lang/Object;>(Ljava/util/function/LongFunction<+TU;>;)Ljava/util/stream/Stream<TU;>;
+max
+ ()Ljava/util/OptionalLong;
+ ()Ljava/util/OptionalLong;
+min
+ ()Ljava/util/OptionalLong;
+ ()Ljava/util/OptionalLong;
+noneMatch
+ (Ljava/util/function/LongPredicate;)Z
+ (Ljava/util/function/LongPredicate;)Z
+parallel
+ ()Ljava/util/stream/LongStream;
+ ()Ljava/util/stream/LongStream;
+peek
+ (Ljava/util/function/LongConsumer;)Ljava/util/stream/LongStream;
+ (Ljava/util/function/LongConsumer;)Ljava/util/stream/LongStream;
+reduce
+ (JLjava/util/function/LongBinaryOperator;)J
+ (JLjava/util/function/LongBinaryOperator;)J
+reduce
+ (Ljava/util/function/LongBinaryOperator;)Ljava/util/OptionalLong;
+ (Ljava/util/function/LongBinaryOperator;)Ljava/util/OptionalLong;
+sequential
+ ()Ljava/util/stream/LongStream;
+ ()Ljava/util/stream/LongStream;
+skip
+ (J)Ljava/util/stream/LongStream;
+ (J)Ljava/util/stream/LongStream;
+sorted
+ ()Ljava/util/stream/LongStream;
+ ()Ljava/util/stream/LongStream;
+spliterator
+ ()Ljava/util/Spliterator$OfLong;
+ ()Ljava/util/Spliterator$OfLong;
+summaryStatistics
+ ()Ljava/util/LongSummaryStatistics;
+ ()Ljava/util/LongSummaryStatistics;
+takeWhile
+ (Ljava/util/function/LongPredicate;)Ljava/util/stream/LongStream;
+ (Ljava/util/function/LongPredicate;)Ljava/util/stream/LongStream;
+toArray
+ ()[J
+ ()[J

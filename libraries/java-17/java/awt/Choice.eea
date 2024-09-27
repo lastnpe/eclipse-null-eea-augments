@@ -1,0 +1,50 @@
+class java/awt/Choice
+
+add
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+addItem
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+addItemListener
+ (Ljava/awt/event/ItemListener;)V
+ (L1java/awt/event/ItemListener;)V # @Inherited(java.awt.ItemSelectable)
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getItem
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getItemListeners
+ ()[Ljava/awt/event/ItemListener;
+ ()[Ljava/awt/event/ItemListener;
+getListeners
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+getSelectedItem
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSelectedObjects
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+insert
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+processEvent
+ (Ljava/awt/AWTEvent;)V
+ (Ljava/awt/AWTEvent;)V
+processItemEvent
+ (Ljava/awt/event/ItemEvent;)V
+ (Ljava/awt/event/ItemEvent;)V
+remove
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+removeItemListener
+ (Ljava/awt/event/ItemListener;)V
+ (L1java/awt/event/ItemListener;)V # @Inherited(java.awt.ItemSelectable)
+select
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

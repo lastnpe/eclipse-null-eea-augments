@@ -1,0 +1,21 @@
+class java/net/Inet6Address
+
+getByAddress
+ (Ljava/lang/String;[BI)Ljava/net/Inet6Address;
+ (Ljava/lang/String;[BI)Ljava/net/Inet6Address;
+getByAddress
+ (Ljava/lang/String;[BLjava/net/NetworkInterface;)Ljava/net/Inet6Address;
+ (Ljava/lang/String;[BLjava/net/NetworkInterface;)Ljava/net/Inet6Address;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.net.InetAddress)
+getAddress
+ ()[B
+ ()[B
+getHostAddress
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getScopedInterface
+ ()Ljava/net/NetworkInterface;
+ ()Ljava/net/NetworkInterface;

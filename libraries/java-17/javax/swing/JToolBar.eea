@@ -1,0 +1,56 @@
+class javax/swing/JToolBar
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+add
+ (Ljavax/swing/Action;)Ljavax/swing/JButton;
+ (Ljavax/swing/Action;)Ljavax/swing/JButton;
+addImpl
+ (Ljava/awt/Component;Ljava/lang/Object;I)V
+ (Ljava/awt/Component;Ljava/lang/Object;I)V
+addSeparator
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V
+createActionChangeListener
+ (Ljavax/swing/JButton;)Ljava/beans/PropertyChangeListener;
+ (Ljavax/swing/JButton;)Ljava/beans/PropertyChangeListener;
+createActionComponent
+ (Ljavax/swing/Action;)Ljavax/swing/JButton;
+ (Ljavax/swing/Action;)Ljavax/swing/JButton;
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getComponentAtIndex
+ (I)Ljava/awt/Component;
+ (I)Ljava/awt/Component;
+getComponentIndex
+ (Ljava/awt/Component;)I
+ (Ljava/awt/Component;)I
+getMargin
+ ()Ljava/awt/Insets;
+ ()Ljava/awt/Insets;
+getUI
+ ()Ljavax/swing/plaf/ToolBarUI;
+ ()Ljavax/swing/plaf/ToolBarUI;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+paintBorder
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setLayout
+ (Ljava/awt/LayoutManager;)V
+ (Ljava/awt/LayoutManager;)V
+setMargin
+ (Ljava/awt/Insets;)V
+ (Ljava/awt/Insets;)V
+setUI
+ (Ljavax/swing/plaf/ToolBarUI;)V
+ (Ljavax/swing/plaf/ToolBarUI;)V

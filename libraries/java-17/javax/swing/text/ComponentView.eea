@@ -1,0 +1,23 @@
+class javax/swing/text/ComponentView
+
+<init>
+ (Ljavax/swing/text/Element;)V
+ (Ljavax/swing/text/Element;)V
+createComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+modelToView
+ (ILjava/awt/Shape;Ljavax/swing/text/Position$Bias;)Ljava/awt/Shape;
+ (ILjava/awt/Shape;Ljavax/swing/text/Position$Bias;)Ljava/awt/Shape;
+paint
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V
+setParent
+ (Ljavax/swing/text/View;)V
+ (Ljavax/swing/text/View;)V
+viewToModel
+ (FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I
+ (FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I

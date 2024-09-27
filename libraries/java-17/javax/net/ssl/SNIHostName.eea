@@ -1,0 +1,21 @@
+class javax/net/ssl/SNIHostName
+
+createSNIMatcher
+ (Ljava/lang/String;)Ljavax/net/ssl/SNIMatcher;
+ (Ljava/lang/String;)Ljavax/net/ssl/SNIMatcher;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ ([B)V
+ ([B)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(javax.net.ssl.SNIServerName)
+getAsciiName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.net.ssl.SNIServerName)

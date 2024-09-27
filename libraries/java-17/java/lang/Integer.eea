@@ -1,19 +1,16 @@
 class java/lang/Integer
-<init>
- (Ljava/lang/String;)V
- (L1java/lang/String;)V
+
+super java/lang/Comparable
+ <Ljava/lang/Integer;>
+ <Ljava/lang/Integer;>
+
 TYPE
  Ljava/lang/Class<Ljava/lang/Integer;>;
  L1java/lang/Class<L1java/lang/Integer;>;
-compareTo
- (Ljava/lang/Integer;)I
- (L1java/lang/Integer;)I
+
 decode
  (Ljava/lang/String;)Ljava/lang/Integer;
  (L1java/lang/String;)L1java/lang/Integer;
-equals
- (Ljava/lang/Object;)Z
- (L0java/lang/Object;)Z
 getInteger
  (Ljava/lang/String;)Ljava/lang/Integer;
  (L1java/lang/String;)L0java/lang/Integer;
@@ -51,9 +48,6 @@ toOctalString
  (I)Ljava/lang/String;
  (I)L1java/lang/String;
 toString
- ()Ljava/lang/String;
- ()L1java/lang/String;
-toString
  (I)Ljava/lang/String;
  (I)L1java/lang/String;
 toString
@@ -74,3 +68,22 @@ valueOf
 valueOf
  (Ljava/lang/String;I)Ljava/lang/Integer;
  (L1java/lang/String;I)L1java/lang/Integer;
+
+<init>
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V
+compareTo
+ (Ljava/lang/Integer;)I
+ (L1java/lang/Integer;)I
+describeConstable
+ ()Ljava/util/Optional<Ljava/lang/Integer;>;
+ ()Ljava/util/Optional<Ljava/lang/Integer;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+resolveConstantDesc
+ (Ljava/lang/invoke/MethodHandles$Lookup;)Ljava/lang/Integer;
+ (Ljava/lang/invoke/MethodHandles$Lookup;)Ljava/lang/Integer;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

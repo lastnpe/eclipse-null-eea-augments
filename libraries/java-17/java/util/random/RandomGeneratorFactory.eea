@@ -1,0 +1,32 @@
+class java/util/random/RandomGeneratorFactory
+ <T::Ljava/util/random/RandomGenerator;>
+ <T::Ljava/util/random/RandomGenerator;>
+
+all
+ ()Ljava/util/stream/Stream<Ljava/util/random/RandomGeneratorFactory<Ljava/util/random/RandomGenerator;>;>;
+ ()Ljava/util/stream/Stream<Ljava/util/random/RandomGeneratorFactory<Ljava/util/random/RandomGenerator;>;>;
+getDefault
+ ()Ljava/util/random/RandomGeneratorFactory<Ljava/util/random/RandomGenerator;>;
+ ()Ljava/util/random/RandomGeneratorFactory<Ljava/util/random/RandomGenerator;>;
+of
+ <T::Ljava/util/random/RandomGenerator;>(Ljava/lang/String;)Ljava/util/random/RandomGeneratorFactory<TT;>;
+ <T::Ljava/util/random/RandomGenerator;>(Ljava/lang/String;)Ljava/util/random/RandomGeneratorFactory<TT;>;
+
+create
+ ()TT;
+ ()TT;
+create
+ (J)TT;
+ (J)TT;
+create
+ ([B)TT;
+ ([B)TT;
+group
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+name
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+period
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;

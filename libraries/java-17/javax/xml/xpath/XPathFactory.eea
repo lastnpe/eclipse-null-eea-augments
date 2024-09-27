@@ -1,0 +1,40 @@
+class javax/xml/xpath/XPathFactory
+
+DEFAULT_OBJECT_MODEL_URI
+ Ljava/lang/String;
+ L1java/lang/String;
+DEFAULT_PROPERTY_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+newDefaultInstance
+ ()Ljavax/xml/xpath/XPathFactory;
+ ()Ljavax/xml/xpath/XPathFactory;
+newInstance
+ ()Ljavax/xml/xpath/XPathFactory;
+ ()Ljavax/xml/xpath/XPathFactory;
+newInstance
+ (Ljava/lang/String;)Ljavax/xml/xpath/XPathFactory;
+ (Ljava/lang/String;)Ljavax/xml/xpath/XPathFactory;
+newInstance
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/xpath/XPathFactory;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/xpath/XPathFactory;
+
+getFeature
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isObjectModelSupported
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+newXPath
+ ()Ljavax/xml/xpath/XPath;
+ ()Ljavax/xml/xpath/XPath;
+setFeature
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+setXPathFunctionResolver
+ (Ljavax/xml/xpath/XPathFunctionResolver;)V
+ (Ljavax/xml/xpath/XPathFunctionResolver;)V
+setXPathVariableResolver
+ (Ljavax/xml/xpath/XPathVariableResolver;)V
+ (Ljavax/xml/xpath/XPathVariableResolver;)V

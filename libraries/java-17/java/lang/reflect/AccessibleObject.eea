@@ -1,4 +1,12 @@
 class java/lang/reflect/AccessibleObject
+
+setAccessible
+ ([Ljava/lang/reflect/AccessibleObject;Z)V
+ ([Ljava/lang/reflect/AccessibleObject;Z)V
+
+canAccess
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
 getAnnotation
  <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
  <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)T0T;
@@ -17,3 +25,6 @@ getDeclaredAnnotations
 getDeclaredAnnotationsByType
  <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)[TT;
  <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)[1T1T;
+isAnnotationPresent
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z

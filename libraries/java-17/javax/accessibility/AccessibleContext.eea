@@ -1,0 +1,145 @@
+class javax/accessibility/AccessibleContext
+
+ACCESSIBLE_ACTION_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_ACTIVE_DESCENDANT_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_CARET_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_CHILD_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_COMPONENT_BOUNDS_CHANGED
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_DESCRIPTION_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_HYPERTEXT_OFFSET
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_INVALIDATE_CHILDREN
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_NAME_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_SELECTION_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_STATE_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_TABLE_CAPTION_CHANGED
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_TABLE_COLUMN_DESCRIPTION_CHANGED
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_TABLE_COLUMN_HEADER_CHANGED
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_TABLE_MODEL_CHANGED
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_TABLE_ROW_DESCRIPTION_CHANGED
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_TABLE_ROW_HEADER_CHANGED
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_TABLE_SUMMARY_CHANGED
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_TEXT_ATTRIBUTES_CHANGED
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_TEXT_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_VALUE_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSIBLE_VISIBLE_DATA_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+
+accessibleDescription
+ Ljava/lang/String;
+ Ljava/lang/String;
+accessibleName
+ Ljava/lang/String;
+ Ljava/lang/String;
+accessibleParent
+ Ljavax/accessibility/Accessible;
+ Ljavax/accessibility/Accessible;
+
+addPropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V
+firePropertyChange
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+getAccessibleAction
+ ()Ljavax/accessibility/AccessibleAction;
+ ()Ljavax/accessibility/AccessibleAction;
+getAccessibleChild
+ (I)Ljavax/accessibility/Accessible;
+ (I)Ljavax/accessibility/Accessible;
+getAccessibleComponent
+ ()Ljavax/accessibility/AccessibleComponent;
+ ()Ljavax/accessibility/AccessibleComponent;
+getAccessibleDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getAccessibleEditableText
+ ()Ljavax/accessibility/AccessibleEditableText;
+ ()Ljavax/accessibility/AccessibleEditableText;
+getAccessibleIcon
+ ()[Ljavax/accessibility/AccessibleIcon;
+ ()[Ljavax/accessibility/AccessibleIcon;
+getAccessibleName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getAccessibleParent
+ ()Ljavax/accessibility/Accessible;
+ ()Ljavax/accessibility/Accessible;
+getAccessibleRelationSet
+ ()Ljavax/accessibility/AccessibleRelationSet;
+ ()Ljavax/accessibility/AccessibleRelationSet;
+getAccessibleRole
+ ()Ljavax/accessibility/AccessibleRole;
+ ()Ljavax/accessibility/AccessibleRole;
+getAccessibleSelection
+ ()Ljavax/accessibility/AccessibleSelection;
+ ()Ljavax/accessibility/AccessibleSelection;
+getAccessibleStateSet
+ ()Ljavax/accessibility/AccessibleStateSet;
+ ()Ljavax/accessibility/AccessibleStateSet;
+getAccessibleTable
+ ()Ljavax/accessibility/AccessibleTable;
+ ()Ljavax/accessibility/AccessibleTable;
+getAccessibleText
+ ()Ljavax/accessibility/AccessibleText;
+ ()Ljavax/accessibility/AccessibleText;
+getAccessibleValue
+ ()Ljavax/accessibility/AccessibleValue;
+ ()Ljavax/accessibility/AccessibleValue;
+getLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+removePropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V
+setAccessibleDescription
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setAccessibleName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setAccessibleParent
+ (Ljavax/accessibility/Accessible;)V
+ (Ljavax/accessibility/Accessible;)V

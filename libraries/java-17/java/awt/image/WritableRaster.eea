@@ -1,0 +1,62 @@
+class java/awt/image/WritableRaster
+
+<init>
+ (Ljava/awt/image/SampleModel;Ljava/awt/Point;)V
+ (Ljava/awt/image/SampleModel;Ljava/awt/Point;)V
+<init>
+ (Ljava/awt/image/SampleModel;Ljava/awt/image/DataBuffer;Ljava/awt/Point;)V
+ (Ljava/awt/image/SampleModel;Ljava/awt/image/DataBuffer;Ljava/awt/Point;)V
+<init>
+ (Ljava/awt/image/SampleModel;Ljava/awt/image/DataBuffer;Ljava/awt/Rectangle;Ljava/awt/Point;Ljava/awt/image/WritableRaster;)V
+ (Ljava/awt/image/SampleModel;Ljava/awt/image/DataBuffer;Ljava/awt/Rectangle;Ljava/awt/Point;Ljava/awt/image/WritableRaster;)V
+createWritableChild
+ (IIIIII[I)Ljava/awt/image/WritableRaster;
+ (IIIIII[I)Ljava/awt/image/WritableRaster;
+createWritableTranslatedChild
+ (II)Ljava/awt/image/WritableRaster;
+ (II)Ljava/awt/image/WritableRaster;
+getWritableParent
+ ()Ljava/awt/image/WritableRaster;
+ ()Ljava/awt/image/WritableRaster;
+setDataElements
+ (IIIILjava/lang/Object;)V
+ (IIIILjava/lang/Object;)V
+setDataElements
+ (IILjava/awt/image/Raster;)V
+ (IILjava/awt/image/Raster;)V
+setDataElements
+ (IILjava/lang/Object;)V
+ (IILjava/lang/Object;)V
+setPixel
+ (II[D)V
+ (II[D)V
+setPixel
+ (II[F)V
+ (II[F)V
+setPixel
+ (II[I)V
+ (II[I)V
+setPixels
+ (IIII[D)V
+ (IIII[D)V
+setPixels
+ (IIII[F)V
+ (IIII[F)V
+setPixels
+ (IIII[I)V
+ (IIII[I)V
+setRect
+ (IILjava/awt/image/Raster;)V
+ (IILjava/awt/image/Raster;)V
+setRect
+ (Ljava/awt/image/Raster;)V
+ (Ljava/awt/image/Raster;)V
+setSamples
+ (IIIII[D)V
+ (IIIII[D)V
+setSamples
+ (IIIII[F)V
+ (IIIII[F)V
+setSamples
+ (IIIII[I)V
+ (IIIII[I)V

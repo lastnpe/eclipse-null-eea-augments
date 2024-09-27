@@ -1,0 +1,45 @@
+class javax/management/JMX
+
+DEFAULT_VALUE_FIELD
+ Ljava/lang/String;
+ L1java/lang/String;
+IMMUTABLE_INFO_FIELD
+ Ljava/lang/String;
+ L1java/lang/String;
+INTERFACE_CLASS_NAME_FIELD
+ Ljava/lang/String;
+ L1java/lang/String;
+LEGAL_VALUES_FIELD
+ Ljava/lang/String;
+ L1java/lang/String;
+MAX_VALUE_FIELD
+ Ljava/lang/String;
+ L1java/lang/String;
+MIN_VALUE_FIELD
+ Ljava/lang/String;
+ L1java/lang/String;
+MXBEAN_FIELD
+ Ljava/lang/String;
+ L1java/lang/String;
+OPEN_TYPE_FIELD
+ Ljava/lang/String;
+ L1java/lang/String;
+ORIGINAL_TYPE_FIELD
+ Ljava/lang/String;
+ L1java/lang/String;
+
+isMXBeanInterface
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+newMBeanProxy
+ <T:Ljava/lang/Object;>(Ljavax/management/MBeanServerConnection;Ljavax/management/ObjectName;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljavax/management/MBeanServerConnection;Ljavax/management/ObjectName;Ljava/lang/Class<TT;>;)TT;
+newMBeanProxy
+ <T:Ljava/lang/Object;>(Ljavax/management/MBeanServerConnection;Ljavax/management/ObjectName;Ljava/lang/Class<TT;>;Z)TT;
+ <T:Ljava/lang/Object;>(Ljavax/management/MBeanServerConnection;Ljavax/management/ObjectName;Ljava/lang/Class<TT;>;Z)TT;
+newMXBeanProxy
+ <T:Ljava/lang/Object;>(Ljavax/management/MBeanServerConnection;Ljavax/management/ObjectName;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljavax/management/MBeanServerConnection;Ljavax/management/ObjectName;Ljava/lang/Class<TT;>;)TT;
+newMXBeanProxy
+ <T:Ljava/lang/Object;>(Ljavax/management/MBeanServerConnection;Ljavax/management/ObjectName;Ljava/lang/Class<TT;>;Z)TT;
+ <T:Ljava/lang/Object;>(Ljavax/management/MBeanServerConnection;Ljavax/management/ObjectName;Ljava/lang/Class<TT;>;Z)TT;

@@ -1,0 +1,48 @@
+class javax/tools/SimpleJavaFileObject
+
+kind
+ Ljavax/tools/JavaFileObject$Kind;
+ Ljavax/tools/JavaFileObject$Kind;
+uri
+ Ljava/net/URI;
+ Ljava/net/URI;
+
+<init>
+ (Ljava/net/URI;Ljavax/tools/JavaFileObject$Kind;)V
+ (Ljava/net/URI;Ljavax/tools/JavaFileObject$Kind;)V
+getAccessLevel
+ ()Ljavax/lang/model/element/Modifier;
+ ()Ljavax/lang/model/element/Modifier;
+getCharContent
+ (Z)Ljava/lang/CharSequence;
+ (Z)Ljava/lang/CharSequence;
+getKind
+ ()Ljavax/tools/JavaFileObject$Kind;
+ ()Ljavax/tools/JavaFileObject$Kind;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getNestingKind
+ ()Ljavax/lang/model/element/NestingKind;
+ ()Ljavax/lang/model/element/NestingKind;
+isNameCompatible
+ (Ljava/lang/String;Ljavax/tools/JavaFileObject$Kind;)Z
+ (Ljava/lang/String;Ljavax/tools/JavaFileObject$Kind;)Z
+openInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+openOutputStream
+ ()Ljava/io/OutputStream;
+ ()Ljava/io/OutputStream;
+openReader
+ (Z)Ljava/io/Reader;
+ (Z)Ljava/io/Reader;
+openWriter
+ ()Ljava/io/Writer;
+ ()Ljava/io/Writer;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+toUri
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;

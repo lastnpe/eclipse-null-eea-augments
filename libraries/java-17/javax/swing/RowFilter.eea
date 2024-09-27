@@ -1,0 +1,26 @@
+class javax/swing/RowFilter
+ <M:Ljava/lang/Object;I:Ljava/lang/Object;>
+ <M:Ljava/lang/Object;I:Ljava/lang/Object;>
+
+andFilter
+ <M:Ljava/lang/Object;I:Ljava/lang/Object;>(Ljava/lang/Iterable<+Ljavax/swing/RowFilter<-TM;-TI;>;>;)Ljavax/swing/RowFilter<TM;TI;>;
+ <M:Ljava/lang/Object;I:Ljava/lang/Object;>(Ljava/lang/Iterable<+Ljavax/swing/RowFilter<-TM;-TI;>;>;)Ljavax/swing/RowFilter<TM;TI;>;
+dateFilter
+ <M:Ljava/lang/Object;I:Ljava/lang/Object;>(Ljavax/swing/RowFilter$ComparisonType;Ljava/util/Date;[I)Ljavax/swing/RowFilter<TM;TI;>;
+ <M:Ljava/lang/Object;I:Ljava/lang/Object;>(Ljavax/swing/RowFilter$ComparisonType;Ljava/util/Date;[I)Ljavax/swing/RowFilter<TM;TI;>;
+notFilter
+ <M:Ljava/lang/Object;I:Ljava/lang/Object;>(Ljavax/swing/RowFilter<TM;TI;>;)Ljavax/swing/RowFilter<TM;TI;>;
+ <M:Ljava/lang/Object;I:Ljava/lang/Object;>(Ljavax/swing/RowFilter<TM;TI;>;)Ljavax/swing/RowFilter<TM;TI;>;
+numberFilter
+ <M:Ljava/lang/Object;I:Ljava/lang/Object;>(Ljavax/swing/RowFilter$ComparisonType;Ljava/lang/Number;[I)Ljavax/swing/RowFilter<TM;TI;>;
+ <M:Ljava/lang/Object;I:Ljava/lang/Object;>(Ljavax/swing/RowFilter$ComparisonType;Ljava/lang/Number;[I)Ljavax/swing/RowFilter<TM;TI;>;
+orFilter
+ <M:Ljava/lang/Object;I:Ljava/lang/Object;>(Ljava/lang/Iterable<+Ljavax/swing/RowFilter<-TM;-TI;>;>;)Ljavax/swing/RowFilter<TM;TI;>;
+ <M:Ljava/lang/Object;I:Ljava/lang/Object;>(Ljava/lang/Iterable<+Ljavax/swing/RowFilter<-TM;-TI;>;>;)Ljavax/swing/RowFilter<TM;TI;>;
+regexFilter
+ <M:Ljava/lang/Object;I:Ljava/lang/Object;>(Ljava/lang/String;[I)Ljavax/swing/RowFilter<TM;TI;>;
+ <M:Ljava/lang/Object;I:Ljava/lang/Object;>(Ljava/lang/String;[I)Ljavax/swing/RowFilter<TM;TI;>;
+
+include
+ (Ljavax/swing/RowFilter$Entry<+TM;+TI;>;)Z
+ (Ljavax/swing/RowFilter$Entry<+TM;+TI;>;)Z

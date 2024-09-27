@@ -1,0 +1,79 @@
+class java/util/concurrent/atomic/AtomicReference
+ <V:Ljava/lang/Object;>
+ <V:Ljava/lang/Object;>
+
+<init>
+ (TV;)V
+ (TV;)V
+accumulateAndGet
+ (TV;Ljava/util/function/BinaryOperator<TV;>;)TV;
+ (TV;Ljava/util/function/BinaryOperator<TV;>;)TV;
+compareAndExchange
+ (TV;TV;)TV;
+ (TV;TV;)TV;
+compareAndExchangeAcquire
+ (TV;TV;)TV;
+ (TV;TV;)TV;
+compareAndExchangeRelease
+ (TV;TV;)TV;
+ (TV;TV;)TV;
+compareAndSet
+ (TV;TV;)Z
+ (TV;TV;)Z
+get
+ ()TV;
+ ()TV;
+getAcquire
+ ()TV;
+ ()TV;
+getAndAccumulate
+ (TV;Ljava/util/function/BinaryOperator<TV;>;)TV;
+ (TV;Ljava/util/function/BinaryOperator<TV;>;)TV;
+getAndSet
+ (TV;)TV;
+ (TV;)TV;
+getAndUpdate
+ (Ljava/util/function/UnaryOperator<TV;>;)TV;
+ (Ljava/util/function/UnaryOperator<TV;>;)TV;
+getOpaque
+ ()TV;
+ ()TV;
+getPlain
+ ()TV;
+ ()TV;
+lazySet
+ (TV;)V
+ (TV;)V
+set
+ (TV;)V
+ (TV;)V
+setOpaque
+ (TV;)V
+ (TV;)V
+setPlain
+ (TV;)V
+ (TV;)V
+setRelease
+ (TV;)V
+ (TV;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+updateAndGet
+ (Ljava/util/function/UnaryOperator<TV;>;)TV;
+ (Ljava/util/function/UnaryOperator<TV;>;)TV;
+weakCompareAndSet
+ (TV;TV;)Z
+ (TV;TV;)Z
+weakCompareAndSetAcquire
+ (TV;TV;)Z
+ (TV;TV;)Z
+weakCompareAndSetPlain
+ (TV;TV;)Z
+ (TV;TV;)Z
+weakCompareAndSetRelease
+ (TV;TV;)Z
+ (TV;TV;)Z
+weakCompareAndSetVolatile
+ (TV;TV;)Z
+ (TV;TV;)Z

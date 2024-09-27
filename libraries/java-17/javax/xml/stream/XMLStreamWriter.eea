@@ -1,0 +1,83 @@
+class javax/xml/stream/XMLStreamWriter
+
+getNamespaceContext
+ ()Ljavax/xml/namespace/NamespaceContext;
+ ()Ljavax/xml/namespace/NamespaceContext;
+getPrefix
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+setDefaultNamespace
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setNamespaceContext
+ (Ljavax/xml/namespace/NamespaceContext;)V
+ (Ljavax/xml/namespace/NamespaceContext;)V
+setPrefix
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+writeAttribute
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+writeAttribute
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+writeAttribute
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+writeCData
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeCharacters
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeCharacters
+ ([CII)V
+ ([CII)V
+writeComment
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeDTD
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeDefaultNamespace
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeEmptyElement
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeEmptyElement
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+writeEmptyElement
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+writeEntityRef
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeNamespace
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+writeProcessingInstruction
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeProcessingInstruction
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+writeStartDocument
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeStartDocument
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+writeStartElement
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeStartElement
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+writeStartElement
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V

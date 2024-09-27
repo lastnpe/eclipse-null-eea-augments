@@ -1,0 +1,25 @@
+class javax/swing/plaf/metal/MetalInternalFrameUI
+
+IS_PALETTE
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+<init>
+ (Ljavax/swing/JInternalFrame;)V
+ (Ljavax/swing/JInternalFrame;)V
+createBorderListener
+ (Ljavax/swing/JInternalFrame;)Ljavax/swing/event/MouseInputAdapter;
+ (Ljavax/swing/JInternalFrame;)Ljavax/swing/event/MouseInputAdapter;
+createNorthPane
+ (Ljavax/swing/JInternalFrame;)Ljavax/swing/JComponent;
+ (Ljavax/swing/JInternalFrame;)Ljavax/swing/JComponent;
+installUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+uninstallUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V

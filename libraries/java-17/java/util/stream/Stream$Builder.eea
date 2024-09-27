@@ -1,4 +1,14 @@
 class java/util/stream/Stream$Builder
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super java/util/function/Consumer
+ <TT;>
+ <TT;>
+
+accept
+ (TT;)V
+ (TT;)V
 add
  (TT;)Ljava/util/stream/Stream$Builder<TT;>;
  (TT;)L1java/util/stream/Stream$Builder<TT;>;

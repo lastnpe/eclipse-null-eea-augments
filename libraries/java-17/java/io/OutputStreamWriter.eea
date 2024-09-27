@@ -1,0 +1,29 @@
+class java/io/OutputStreamWriter
+
+<init>
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V
+<init>
+ (Ljava/io/OutputStream;Ljava/lang/String;)V
+ (Ljava/io/OutputStream;Ljava/lang/String;)V
+<init>
+ (Ljava/io/OutputStream;Ljava/nio/charset/Charset;)V
+ (Ljava/io/OutputStream;Ljava/nio/charset/Charset;)V
+<init>
+ (Ljava/io/OutputStream;Ljava/nio/charset/CharsetEncoder;)V
+ (Ljava/io/OutputStream;Ljava/nio/charset/CharsetEncoder;)V
+append
+ (Ljava/lang/CharSequence;)Ljava/io/Writer;
+ (Ljava/lang/CharSequence;)Ljava/io/Writer;
+append
+ (Ljava/lang/CharSequence;II)Ljava/io/Writer;
+ (Ljava/lang/CharSequence;II)Ljava/io/Writer;
+getEncoding
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+write
+ (Ljava/lang/String;II)V
+ (Ljava/lang/String;II)V
+write
+ ([CII)V
+ ([CII)V

@@ -1,0 +1,18 @@
+class java/lang/Enum$EnumDesc
+ <E:Ljava/lang/Enum<TE;>;>
+ <E:Ljava/lang/Enum<TE;>;>
+
+super java/lang/constant/DynamicConstantDesc
+ <TE;>
+ <TE;>
+
+of
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/lang/constant/ClassDesc;Ljava/lang/String;)Ljava/lang/Enum$EnumDesc<TE;>;
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/lang/constant/ClassDesc;Ljava/lang/String;)Ljava/lang/Enum$EnumDesc<TE;>;
+
+resolveConstantDesc
+ (Ljava/lang/invoke/MethodHandles$Lookup;)TE;
+ (Ljava/lang/invoke/MethodHandles$Lookup;)TE;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.constant.DynamicConstantDesc)

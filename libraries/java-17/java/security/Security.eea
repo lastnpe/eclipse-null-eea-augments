@@ -1,0 +1,35 @@
+class java/security/Security
+
+addProvider
+ (Ljava/security/Provider;)I
+ (Ljava/security/Provider;)I
+getAlgorithmProperty
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+getAlgorithms
+ (Ljava/lang/String;)Ljava/util/Set<Ljava/lang/String;>;
+ (Ljava/lang/String;)Ljava/util/Set<Ljava/lang/String;>;
+getProperty
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getProvider
+ (Ljava/lang/String;)Ljava/security/Provider;
+ (Ljava/lang/String;)Ljava/security/Provider;
+getProviders
+ ()[Ljava/security/Provider;
+ ()[Ljava/security/Provider;
+getProviders
+ (Ljava/lang/String;)[Ljava/security/Provider;
+ (Ljava/lang/String;)[Ljava/security/Provider;
+getProviders
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)[Ljava/security/Provider;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)[Ljava/security/Provider;
+insertProviderAt
+ (Ljava/security/Provider;I)I
+ (Ljava/security/Provider;I)I
+removeProvider
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setProperty
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V

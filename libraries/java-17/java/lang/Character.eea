@@ -1,7 +1,13 @@
 class java/lang/Character
+
+super java/lang/Comparable
+ <Ljava/lang/Character;>
+ <Ljava/lang/Character;>
+
 TYPE
  Ljava/lang/Class<Ljava/lang/Character;>;
  L1java/lang/Class<L1java/lang/Character;>;
+
 codePointAt
  (Ljava/lang/CharSequence;I)I
  (L1java/lang/CharSequence;I)I
@@ -29,12 +35,6 @@ codePointCount
 codePointOf
  (Ljava/lang/String;)I
  (L1java/lang/String;)I
-compareTo
- (Ljava/lang/Character;)I
- (L1java/lang/Character;)I
-equals
- (Ljava/lang/Object;)Z
- (L0java/lang/Object;)Z
 getName
  (I)Ljava/lang/String;
  (I)L0java/lang/String;
@@ -51,9 +51,6 @@ toChars
  (I[CI)I
  (I[1CI)I
 toString
- ()Ljava/lang/String;
- ()L1java/lang/String;
-toString
  (C)Ljava/lang/String;
  (C)L1java/lang/String;
 toString
@@ -62,3 +59,16 @@ toString
 valueOf
  (C)Ljava/lang/Character;
  (C)L1java/lang/Character;
+
+compareTo
+ (Ljava/lang/Character;)I
+ (L1java/lang/Character;)I
+describeConstable
+ ()Ljava/util/Optional<Ljava/lang/constant/DynamicConstantDesc<Ljava/lang/Character;>;>;
+ ()Ljava/util/Optional<Ljava/lang/constant/DynamicConstantDesc<Ljava/lang/Character;>;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

@@ -1,0 +1,17 @@
+class java/security/spec/RSAPublicKeySpec
+
+<init>
+ (Ljava/math/BigInteger;Ljava/math/BigInteger;)V
+ (Ljava/math/BigInteger;Ljava/math/BigInteger;)V
+<init>
+ (Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/security/spec/AlgorithmParameterSpec;)V
+ (Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/security/spec/AlgorithmParameterSpec;)V
+getModulus
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;
+getParams
+ ()Ljava/security/spec/AlgorithmParameterSpec;
+ ()Ljava/security/spec/AlgorithmParameterSpec;
+getPublicExponent
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;

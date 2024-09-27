@@ -1,4 +1,41 @@
 class java/time/Instant
+
+super java/lang/Comparable
+ <Ljava/time/Instant;>
+ <Ljava/time/Instant;>
+
+EPOCH
+ Ljava/time/Instant;
+ L1java/time/Instant;
+MAX
+ Ljava/time/Instant;
+ L1java/time/Instant;
+MIN
+ Ljava/time/Instant;
+ L1java/time/Instant;
+
+from
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/Instant;
+ (L1java/time/temporal/TemporalAccessor;)L1java/time/Instant;
+now
+ ()Ljava/time/Instant;
+ ()L1java/time/Instant;
+now
+ (Ljava/time/Clock;)Ljava/time/Instant;
+ (L1java/time/Clock;)L1java/time/Instant;
+ofEpochMilli
+ (J)Ljava/time/Instant;
+ (J)L1java/time/Instant;
+ofEpochSecond
+ (J)Ljava/time/Instant;
+ (J)L1java/time/Instant;
+ofEpochSecond
+ (JJ)Ljava/time/Instant;
+ (JJ)L1java/time/Instant;
+parse
+ (Ljava/lang/CharSequence;)Ljava/time/Instant;
+ (L1java/lang/CharSequence;)L1java/time/Instant;
+
 adjustInto
  (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
  (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal;
@@ -13,10 +50,7 @@ compareTo
  (L1java/time/Instant;)I
 equals
  (Ljava/lang/Object;)Z
- (L0java/lang/Object;)Z
-from
- (Ljava/time/temporal/TemporalAccessor;)Ljava/time/Instant;
- (L1java/time/temporal/TemporalAccessor;)L1java/time/Instant;
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
 get
  (Ljava/time/temporal/TemporalField;)I
  (L1java/time/temporal/TemporalField;)I
@@ -50,24 +84,6 @@ minusNanos
 minusSeconds
  (J)Ljava/time/Instant;
  (J)L1java/time/Instant;
-now
- ()Ljava/time/Instant;
- ()L1java/time/Instant;
-now
- (Ljava/time/Clock;)Ljava/time/Instant;
- (L1java/time/Clock;)L1java/time/Instant;
-ofEpochMilli
- (J)Ljava/time/Instant;
- (J)L1java/time/Instant;
-ofEpochSecond
- (J)Ljava/time/Instant;
- (J)L1java/time/Instant;
-ofEpochSecond
- (JJ)Ljava/time/Instant;
- (JJ)L1java/time/Instant;
-parse
- (Ljava/lang/CharSequence;)Ljava/time/Instant;
- (L1java/lang/CharSequence;)L1java/time/Instant;
 plus
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/Instant;
  (JL1java/time/temporal/TemporalUnit;)L1java/time/Instant;
@@ -91,7 +107,7 @@ range
  (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange;
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
 truncatedTo
  (Ljava/time/temporal/TemporalUnit;)Ljava/time/Instant;
  (L1java/time/temporal/TemporalUnit;)L1java/time/Instant;

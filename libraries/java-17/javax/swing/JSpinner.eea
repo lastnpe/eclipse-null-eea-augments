@@ -1,0 +1,53 @@
+class javax/swing/JSpinner
+
+<init>
+ (Ljavax/swing/SpinnerModel;)V
+ (Ljavax/swing/SpinnerModel;)V
+addChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V
+createEditor
+ (Ljavax/swing/SpinnerModel;)Ljavax/swing/JComponent;
+ (Ljavax/swing/SpinnerModel;)Ljavax/swing/JComponent;
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getChangeListeners
+ ()[Ljavax/swing/event/ChangeListener;
+ ()[Ljavax/swing/event/ChangeListener;
+getEditor
+ ()Ljavax/swing/JComponent;
+ ()Ljavax/swing/JComponent;
+getModel
+ ()Ljavax/swing/SpinnerModel;
+ ()Ljavax/swing/SpinnerModel;
+getNextValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getPreviousValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getUI
+ ()Ljavax/swing/plaf/SpinnerUI;
+ ()Ljavax/swing/plaf/SpinnerUI;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+removeChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V
+setEditor
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+setModel
+ (Ljavax/swing/SpinnerModel;)V
+ (Ljavax/swing/SpinnerModel;)V
+setUI
+ (Ljavax/swing/plaf/SpinnerUI;)V
+ (Ljavax/swing/plaf/SpinnerUI;)V
+setValue
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

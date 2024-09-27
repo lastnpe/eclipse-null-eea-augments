@@ -1,0 +1,87 @@
+class javax/swing/filechooser/FileSystemView
+
+getFileSystemView
+ ()Ljavax/swing/filechooser/FileSystemView;
+ ()Ljavax/swing/filechooser/FileSystemView;
+
+createFileObject
+ (Ljava/io/File;Ljava/lang/String;)Ljava/io/File;
+ (Ljava/io/File;Ljava/lang/String;)Ljava/io/File;
+createFileObject
+ (Ljava/lang/String;)Ljava/io/File;
+ (Ljava/lang/String;)Ljava/io/File;
+createFileSystemRoot
+ (Ljava/io/File;)Ljava/io/File;
+ (Ljava/io/File;)Ljava/io/File;
+createNewFolder
+ (Ljava/io/File;)Ljava/io/File;
+ (Ljava/io/File;)Ljava/io/File;
+getChild
+ (Ljava/io/File;Ljava/lang/String;)Ljava/io/File;
+ (Ljava/io/File;Ljava/lang/String;)Ljava/io/File;
+getChooserComboBoxFiles
+ ()[Ljava/io/File;
+ ()[Ljava/io/File;
+getChooserShortcutPanelFiles
+ ()[Ljava/io/File;
+ ()[Ljava/io/File;
+getDefaultDirectory
+ ()Ljava/io/File;
+ ()Ljava/io/File;
+getFiles
+ (Ljava/io/File;Z)[Ljava/io/File;
+ (Ljava/io/File;Z)[Ljava/io/File;
+getHomeDirectory
+ ()Ljava/io/File;
+ ()Ljava/io/File;
+getLinkLocation
+ (Ljava/io/File;)Ljava/io/File;
+ (Ljava/io/File;)Ljava/io/File;
+getParentDirectory
+ (Ljava/io/File;)Ljava/io/File;
+ (Ljava/io/File;)Ljava/io/File;
+getRoots
+ ()[Ljava/io/File;
+ ()[Ljava/io/File;
+getSystemDisplayName
+ (Ljava/io/File;)Ljava/lang/String;
+ (Ljava/io/File;)Ljava/lang/String;
+getSystemIcon
+ (Ljava/io/File;)Ljavax/swing/Icon;
+ (Ljava/io/File;)Ljavax/swing/Icon;
+getSystemIcon
+ (Ljava/io/File;II)Ljavax/swing/Icon;
+ (Ljava/io/File;II)Ljavax/swing/Icon;
+getSystemTypeDescription
+ (Ljava/io/File;)Ljava/lang/String;
+ (Ljava/io/File;)Ljava/lang/String;
+isComputerNode
+ (Ljava/io/File;)Z
+ (Ljava/io/File;)Z
+isDrive
+ (Ljava/io/File;)Z
+ (Ljava/io/File;)Z
+isFileSystem
+ (Ljava/io/File;)Z
+ (Ljava/io/File;)Z
+isFileSystemRoot
+ (Ljava/io/File;)Z
+ (Ljava/io/File;)Z
+isFloppyDrive
+ (Ljava/io/File;)Z
+ (Ljava/io/File;)Z
+isHiddenFile
+ (Ljava/io/File;)Z
+ (Ljava/io/File;)Z
+isLink
+ (Ljava/io/File;)Z
+ (Ljava/io/File;)Z
+isParent
+ (Ljava/io/File;Ljava/io/File;)Z
+ (Ljava/io/File;Ljava/io/File;)Z
+isRoot
+ (Ljava/io/File;)Z
+ (Ljava/io/File;)Z
+isTraversable
+ (Ljava/io/File;)Ljava/lang/Boolean;
+ (Ljava/io/File;)Ljava/lang/Boolean;

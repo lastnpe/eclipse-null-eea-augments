@@ -1,16 +1,78 @@
 class java/net/URL
+
+setURLStreamHandlerFactory
+ (Ljava/net/URLStreamHandlerFactory;)V
+ (Ljava/net/URLStreamHandlerFactory;)V
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/net/URLStreamHandler;)V
+ (Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/net/URLStreamHandler;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/net/URL;Ljava/lang/String;)V
+ (Ljava/net/URL;Ljava/lang/String;)V
+<init>
+ (Ljava/net/URL;Ljava/lang/String;Ljava/net/URLStreamHandler;)V
+ (Ljava/net/URL;Ljava/lang/String;Ljava/net/URLStreamHandler;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAuthority
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getContent
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getContent
+ ([Ljava/lang/Class<*>;)Ljava/lang/Object;
+ ([Ljava/lang/Class<*>;)Ljava/lang/Object;
+getFile
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getHost
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPath
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getProtocol
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getQuery
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRef
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getUserInfo
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
 openConnection
  ()Ljava/net/URLConnection;
  ()L1java/net/URLConnection;
+openConnection
+ (Ljava/net/Proxy;)Ljava/net/URLConnection;
+ (Ljava/net/Proxy;)Ljava/net/URLConnection;
 openStream
  ()Ljava/io/InputStream;
  ()L1java/io/InputStream;
+sameFile
+ (Ljava/net/URL;)Z
+ (Ljava/net/URL;)Z
 toExternalForm
  ()Ljava/lang/String;
  ()L1java/lang/String;
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
 toURI
  ()Ljava/net/URI;
  ()L1java/net/URI;

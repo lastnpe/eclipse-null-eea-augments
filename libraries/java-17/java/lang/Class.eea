@@ -1,10 +1,11 @@
 class java/lang/Class
-asSubclass
- <U:Ljava/lang/Object;>(Ljava/lang/Class<TU;>;)Ljava/lang/Class<+TU;>;
- <U:Ljava/lang/Object;>(L1java/lang/Class<TU;>;)L1java/lang/Class<+TU;>;
-cast
- (Ljava/lang/Object;)TT;
- (L0java/lang/Object;)TT;
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super java/lang/invoke/TypeDescriptor$OfField
+ <Ljava/lang/Class<*>;>
+ <Ljava/lang/Class<*>;>
+
 forName
  (Ljava/lang/Module;Ljava/lang/String;)Ljava/lang/Class<*>;
  (L1java/lang/Module;L1java/lang/String;)L0java/lang/Class<*>;
@@ -14,6 +15,25 @@ forName
 forName
  (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class<*>;
  (L1java/lang/String;ZL0java/lang/ClassLoader;)L1java/lang/Class<*>;
+
+arrayType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+asSubclass
+ <U:Ljava/lang/Object;>(Ljava/lang/Class<TU;>;)Ljava/lang/Class<+TU;>;
+ <U:Ljava/lang/Object;>(L1java/lang/Class<TU;>;)L1java/lang/Class<+TU;>;
+cast
+ (Ljava/lang/Object;)TT;
+ (L0java/lang/Object;)TT;
+componentType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+describeConstable
+ ()Ljava/util/Optional<Ljava/lang/constant/ClassDesc;>;
+ ()Ljava/util/Optional<Ljava/lang/constant/ClassDesc;>;
+descriptorString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
 getAnnotatedInterfaces
  ()[Ljava/lang/reflect/AnnotatedType;
  ()[1L1java/lang/reflect/AnnotatedType;
@@ -131,9 +151,15 @@ getPackage
 getPackageName
  ()Ljava/lang/String;
  ()L1java/lang/String;
+getPermittedSubclasses
+ ()[Ljava/lang/Class<*>;
+ ()[Ljava/lang/Class<*>;
 getProtectionDomain
  ()Ljava/security/ProtectionDomain;
  ()L1java/security/ProtectionDomain;
+getRecordComponents
+ ()[Ljava/lang/reflect/RecordComponent;
+ ()[Ljava/lang/reflect/RecordComponent;
 getResource
  (Ljava/lang/String;)Ljava/net/URL;
  (L1java/lang/String;)L0java/net/URL;
@@ -175,4 +201,4 @@ toGenericString
  ()L1java/lang/String;
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
