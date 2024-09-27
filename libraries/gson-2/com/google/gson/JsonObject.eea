@@ -1,0 +1,50 @@
+class com/google/gson/JsonObject
+
+add
+ (Ljava/lang/String;Lcom/google/gson/JsonElement;)V
+ (Ljava/lang/String;Lcom/google/gson/JsonElement;)V
+addProperty
+ (Ljava/lang/String;Ljava/lang/Boolean;)V
+ (Ljava/lang/String;Ljava/lang/Boolean;)V
+addProperty
+ (Ljava/lang/String;Ljava/lang/Character;)V
+ (Ljava/lang/String;Ljava/lang/Character;)V
+addProperty
+ (Ljava/lang/String;Ljava/lang/Number;)V
+ (Ljava/lang/String;Ljava/lang/Number;)V
+addProperty
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+asMap
+ ()Ljava/util/Map<Ljava/lang/String;Lcom/google/gson/JsonElement;>;
+ ()Ljava/util/Map<Ljava/lang/String;Lcom/google/gson/JsonElement;>;
+deepCopy
+ ()Lcom/google/gson/JsonObject;
+ ()Lcom/google/gson/JsonObject;
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<Ljava/lang/String;Lcom/google/gson/JsonElement;>;>;
+ ()Ljava/util/Set<Ljava/util/Map$Entry<Ljava/lang/String;Lcom/google/gson/JsonElement;>;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (Ljava/lang/String;)Lcom/google/gson/JsonElement;
+ (Ljava/lang/String;)Lcom/google/gson/JsonElement;
+getAsJsonArray
+ (Ljava/lang/String;)Lcom/google/gson/JsonArray;
+ (Ljava/lang/String;)Lcom/google/gson/JsonArray;
+getAsJsonObject
+ (Ljava/lang/String;)Lcom/google/gson/JsonObject;
+ (Ljava/lang/String;)Lcom/google/gson/JsonObject;
+getAsJsonPrimitive
+ (Ljava/lang/String;)Lcom/google/gson/JsonPrimitive;
+ (Ljava/lang/String;)Lcom/google/gson/JsonPrimitive;
+has
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+keySet
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+remove
+ (Ljava/lang/String;)Lcom/google/gson/JsonElement;
+ (Ljava/lang/String;)Lcom/google/gson/JsonElement;

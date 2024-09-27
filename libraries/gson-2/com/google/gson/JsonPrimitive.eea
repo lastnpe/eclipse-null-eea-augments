@@ -1,0 +1,32 @@
+class com/google/gson/JsonPrimitive
+
+<init>
+ (Ljava/lang/Boolean;)V
+ (Ljava/lang/Boolean;)V
+<init>
+ (Ljava/lang/Character;)V
+ (Ljava/lang/Character;)V
+<init>
+ (Ljava/lang/Number;)V
+ (Ljava/lang/Number;)V
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+deepCopy
+ ()Lcom/google/gson/JsonPrimitive;
+ ()Lcom/google/gson/JsonPrimitive;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAsBigDecimal
+ ()Ljava/math/BigDecimal;
+ ()L1java/math/BigDecimal; # @Inherited(com.google.gson.JsonElement)
+getAsBigInteger
+ ()Ljava/math/BigInteger;
+ ()L1java/math/BigInteger; # @Inherited(com.google.gson.JsonElement)
+getAsNumber
+ ()Ljava/lang/Number;
+ ()L1java/lang/Number; # @Inherited(com.google.gson.JsonElement)
+getAsString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(com.google.gson.JsonElement)

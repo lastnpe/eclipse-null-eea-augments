@@ -1,0 +1,63 @@
+class com/google/gson/JsonArray
+
+super java/lang/Iterable
+ <Lcom/google/gson/JsonElement;>
+ <Lcom/google/gson/JsonElement;>
+
+add
+ (Lcom/google/gson/JsonElement;)V
+ (Lcom/google/gson/JsonElement;)V
+add
+ (Ljava/lang/Boolean;)V
+ (Ljava/lang/Boolean;)V
+add
+ (Ljava/lang/Character;)V
+ (Ljava/lang/Character;)V
+add
+ (Ljava/lang/Number;)V
+ (Ljava/lang/Number;)V
+add
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+addAll
+ (Lcom/google/gson/JsonArray;)V
+ (Lcom/google/gson/JsonArray;)V
+asList
+ ()Ljava/util/List<Lcom/google/gson/JsonElement;>;
+ ()Ljava/util/List<Lcom/google/gson/JsonElement;>;
+contains
+ (Lcom/google/gson/JsonElement;)Z
+ (Lcom/google/gson/JsonElement;)Z
+deepCopy
+ ()Lcom/google/gson/JsonArray;
+ ()Lcom/google/gson/JsonArray;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (I)Lcom/google/gson/JsonElement;
+ (I)Lcom/google/gson/JsonElement;
+getAsBigDecimal
+ ()Ljava/math/BigDecimal;
+ ()L1java/math/BigDecimal; # @Inherited(com.google.gson.JsonElement)
+getAsBigInteger
+ ()Ljava/math/BigInteger;
+ ()L1java/math/BigInteger; # @Inherited(com.google.gson.JsonElement)
+getAsNumber
+ ()Ljava/lang/Number;
+ ()L1java/lang/Number; # @Inherited(com.google.gson.JsonElement)
+getAsString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(com.google.gson.JsonElement)
+iterator
+ ()Ljava/util/Iterator<Lcom/google/gson/JsonElement;>;
+ ()Ljava/util/Iterator<Lcom/google/gson/JsonElement;>;
+remove
+ (I)Lcom/google/gson/JsonElement;
+ (I)Lcom/google/gson/JsonElement;
+remove
+ (Lcom/google/gson/JsonElement;)Z
+ (Lcom/google/gson/JsonElement;)Z
+set
+ (ILcom/google/gson/JsonElement;)Lcom/google/gson/JsonElement;
+ (ILcom/google/gson/JsonElement;)Lcom/google/gson/JsonElement;
