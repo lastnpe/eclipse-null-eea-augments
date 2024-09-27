@@ -1,0 +1,33 @@
+class org/osgi/framework/wiring/BundleRevision
+
+BUNDLE_NAMESPACE
+ Ljava/lang/String;
+ L1java/lang/String;
+HOST_NAMESPACE
+ Ljava/lang/String;
+ L1java/lang/String;
+PACKAGE_NAMESPACE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getCapabilities
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Capability;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Capability;>;
+getDeclaredCapabilities
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/framework/wiring/BundleCapability;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/framework/wiring/BundleCapability;>;
+getDeclaredRequirements
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/framework/wiring/BundleRequirement;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/framework/wiring/BundleRequirement;>;
+getRequirements
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Requirement;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Requirement;>;
+getSymbolicName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getVersion
+ ()Lorg/osgi/framework/Version;
+ ()Lorg/osgi/framework/Version;
+getWiring
+ ()Lorg/osgi/framework/wiring/BundleWiring;
+ ()Lorg/osgi/framework/wiring/BundleWiring;

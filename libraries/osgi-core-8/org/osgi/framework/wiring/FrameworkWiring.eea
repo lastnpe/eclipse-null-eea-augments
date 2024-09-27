@@ -1,0 +1,17 @@
+class org/osgi/framework/wiring/FrameworkWiring
+
+findProviders
+ (Lorg/osgi/resource/Requirement;)Ljava/util/Collection<Lorg/osgi/framework/wiring/BundleCapability;>;
+ (Lorg/osgi/resource/Requirement;)Ljava/util/Collection<Lorg/osgi/framework/wiring/BundleCapability;>;
+getDependencyClosure
+ (Ljava/util/Collection<Lorg/osgi/framework/Bundle;>;)Ljava/util/Collection<Lorg/osgi/framework/Bundle;>;
+ (Ljava/util/Collection<Lorg/osgi/framework/Bundle;>;)Ljava/util/Collection<Lorg/osgi/framework/Bundle;>;
+getRemovalPendingBundles
+ ()Ljava/util/Collection<Lorg/osgi/framework/Bundle;>;
+ ()Ljava/util/Collection<Lorg/osgi/framework/Bundle;>;
+refreshBundles
+ (Ljava/util/Collection<Lorg/osgi/framework/Bundle;>;[Lorg/osgi/framework/FrameworkListener;)V
+ (Ljava/util/Collection<Lorg/osgi/framework/Bundle;>;[Lorg/osgi/framework/FrameworkListener;)V
+resolveBundles
+ (Ljava/util/Collection<Lorg/osgi/framework/Bundle;>;)Z
+ (Ljava/util/Collection<Lorg/osgi/framework/Bundle;>;)Z

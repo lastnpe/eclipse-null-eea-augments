@@ -1,0 +1,36 @@
+class org/osgi/service/url/AbstractURLStreamHandlerService
+
+realHandler
+ Lorg/osgi/service/url/URLStreamHandlerSetter;
+ Lorg/osgi/service/url/URLStreamHandlerSetter;
+
+equals
+ (Ljava/net/URL;Ljava/net/URL;)Z
+ (Ljava/net/URL;Ljava/net/URL;)Z
+getHostAddress
+ (Ljava/net/URL;)Ljava/net/InetAddress;
+ (Ljava/net/URL;)Ljava/net/InetAddress;
+hashCode
+ (Ljava/net/URL;)I
+ (Ljava/net/URL;)I
+hostsEqual
+ (Ljava/net/URL;Ljava/net/URL;)Z
+ (Ljava/net/URL;Ljava/net/URL;)Z
+openConnection
+ (Ljava/net/URL;)Ljava/net/URLConnection;
+ (Ljava/net/URL;)Ljava/net/URLConnection;
+parseURL
+ (Lorg/osgi/service/url/URLStreamHandlerSetter;Ljava/net/URL;Ljava/lang/String;II)V
+ (Lorg/osgi/service/url/URLStreamHandlerSetter;Ljava/net/URL;Ljava/lang/String;II)V
+sameFile
+ (Ljava/net/URL;Ljava/net/URL;)Z
+ (Ljava/net/URL;Ljava/net/URL;)Z
+setURL
+ (Ljava/net/URL;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
+ (Ljava/net/URL;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
+setURL
+ (Ljava/net/URL;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/net/URL;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+toExternalForm
+ (Ljava/net/URL;)Ljava/lang/String;
+ (Ljava/net/URL;)Ljava/lang/String;
