@@ -1,0 +1,20 @@
+class org/mockito/internal/session/DefaultMockitoSessionBuilder
+
+initMocks
+ (Ljava/lang/Object;)Lorg/mockito/session/MockitoSessionBuilder;
+ (Ljava/lang/Object;)L1org/mockito/session/MockitoSessionBuilder; # @Inherited(org.mockito.session.MockitoSessionBuilder)
+initMocks
+ ([Ljava/lang/Object;)Lorg/mockito/session/MockitoSessionBuilder;
+ ([Ljava/lang/Object;)L1org/mockito/session/MockitoSessionBuilder; # @Inherited(org.mockito.session.MockitoSessionBuilder)
+logger
+ (Lorg/mockito/session/MockitoSessionLogger;)Lorg/mockito/session/MockitoSessionBuilder;
+ (Lorg/mockito/session/MockitoSessionLogger;)L1org/mockito/session/MockitoSessionBuilder; # @Inherited(org.mockito.session.MockitoSessionBuilder)
+name
+ (Ljava/lang/String;)Lorg/mockito/session/MockitoSessionBuilder;
+ (Ljava/lang/String;)L1org/mockito/session/MockitoSessionBuilder; # @Inherited(org.mockito.session.MockitoSessionBuilder)
+startMocking
+ ()Lorg/mockito/MockitoSession;
+ ()Lorg/mockito/MockitoSession;
+strictness
+ (Lorg/mockito/quality/Strictness;)Lorg/mockito/session/MockitoSessionBuilder;
+ (Lorg/mockito/quality/Strictness;)L1org/mockito/session/MockitoSessionBuilder; # @Inherited(org.mockito.session.MockitoSessionBuilder)

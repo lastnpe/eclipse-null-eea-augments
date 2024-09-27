@@ -1,0 +1,12 @@
+class org/mockito/internal/invocation/DefaultInvocationFactory
+
+createInvocation
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;Lorg/mockito/internal/invocation/RealMethod;Lorg/mockito/mock/MockCreationSettings;Lorg/mockito/invocation/Location;)Lorg/mockito/internal/invocation/InterceptedInvocation;
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;Lorg/mockito/internal/invocation/RealMethod;Lorg/mockito/mock/MockCreationSettings;Lorg/mockito/invocation/Location;)Lorg/mockito/internal/invocation/InterceptedInvocation;
+
+createInvocation
+ (Ljava/lang/Object;Lorg/mockito/mock/MockCreationSettings;Ljava/lang/reflect/Method;Ljava/util/concurrent/Callable;[Ljava/lang/Object;)Lorg/mockito/invocation/Invocation;
+ (Ljava/lang/Object;Lorg/mockito/mock/MockCreationSettings;Ljava/lang/reflect/Method;Ljava/util/concurrent/Callable;[Ljava/lang/Object;)Lorg/mockito/invocation/Invocation;
+createInvocation
+ (Ljava/lang/Object;Lorg/mockito/mock/MockCreationSettings;Ljava/lang/reflect/Method;Lorg/mockito/invocation/InvocationFactory$RealMethodBehavior;[Ljava/lang/Object;)Lorg/mockito/invocation/Invocation;
+ (Ljava/lang/Object;Lorg/mockito/mock/MockCreationSettings;Ljava/lang/reflect/Method;Lorg/mockito/invocation/InvocationFactory$RealMethodBehavior;[Ljava/lang/Object;)Lorg/mockito/invocation/Invocation;

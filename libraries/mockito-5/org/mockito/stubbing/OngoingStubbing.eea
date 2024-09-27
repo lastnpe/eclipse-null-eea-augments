@@ -1,0 +1,31 @@
+class org/mockito/stubbing/OngoingStubbing
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+getMock
+ <M:Ljava/lang/Object;>()TM;
+ <M:Ljava/lang/Object;>()TM;
+then
+ (Lorg/mockito/stubbing/Answer<*>;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+ (Lorg/mockito/stubbing/Answer<*>;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+thenAnswer
+ (Lorg/mockito/stubbing/Answer<*>;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+ (Lorg/mockito/stubbing/Answer<*>;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+thenCallRealMethod
+ ()Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+ ()Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+thenReturn
+ (TT;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+ (TT;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+thenReturn
+ (TT;[TT;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+ (TT;[TT;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+thenThrow
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+thenThrow
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;[Ljava/lang/Class<+Ljava/lang/Throwable;>;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;[Ljava/lang/Class<+Ljava/lang/Throwable;>;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+thenThrow
+ ([Ljava/lang/Throwable;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+ ([Ljava/lang/Throwable;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;

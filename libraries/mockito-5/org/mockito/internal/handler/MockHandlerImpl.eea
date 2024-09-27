@@ -1,0 +1,20 @@
+class org/mockito/internal/handler/MockHandlerImpl
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/mockito/invocation/MockHandler
+ <TT;>
+ <TT;>
+
+<init>
+ (Lorg/mockito/mock/MockCreationSettings<TT;>;)V
+ (Lorg/mockito/mock/MockCreationSettings<TT;>;)V
+getInvocationContainer
+ ()Lorg/mockito/invocation/InvocationContainer;
+ ()Lorg/mockito/invocation/InvocationContainer;
+getMockSettings
+ ()Lorg/mockito/mock/MockCreationSettings<TT;>;
+ ()Lorg/mockito/mock/MockCreationSettings<TT;>;
+handle
+ (Lorg/mockito/invocation/Invocation;)Ljava/lang/Object;
+ (Lorg/mockito/invocation/Invocation;)Ljava/lang/Object;

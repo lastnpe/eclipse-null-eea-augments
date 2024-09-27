@@ -1,0 +1,20 @@
+class org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker
+
+<init>
+ (Lorg/mockito/internal/creation/bytebuddy/SubclassLoader;)V
+ (Lorg/mockito/internal/creation/bytebuddy/SubclassLoader;)V
+createMock
+ <T:Ljava/lang/Object;>(Lorg/mockito/mock/MockCreationSettings<TT;>;Lorg/mockito/invocation/MockHandler;)TT;
+ <T:Ljava/lang/Object;>(Lorg/mockito/mock/MockCreationSettings<TT;>;Lorg/mockito/invocation/MockHandler;)TT;
+createMockType
+ <T:Ljava/lang/Object;>(Lorg/mockito/mock/MockCreationSettings<TT;>;)Ljava/lang/Class<+TT;>;
+ <T:Ljava/lang/Object;>(Lorg/mockito/mock/MockCreationSettings<TT;>;)Ljava/lang/Class<+TT;>;
+getHandler
+ (Ljava/lang/Object;)Lorg/mockito/invocation/MockHandler;
+ (Ljava/lang/Object;)Lorg/mockito/invocation/MockHandler;
+isTypeMockable
+ (Ljava/lang/Class<*>;)Lorg/mockito/plugins/MockMaker$TypeMockability;
+ (Ljava/lang/Class<*>;)Lorg/mockito/plugins/MockMaker$TypeMockability;
+resetMock
+ (Ljava/lang/Object;Lorg/mockito/invocation/MockHandler;Lorg/mockito/mock/MockCreationSettings;)V
+ (Ljava/lang/Object;Lorg/mockito/invocation/MockHandler;Lorg/mockito/mock/MockCreationSettings;)V

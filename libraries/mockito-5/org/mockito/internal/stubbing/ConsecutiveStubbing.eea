@@ -1,0 +1,11 @@
+class org/mockito/internal/stubbing/ConsecutiveStubbing
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/mockito/internal/stubbing/BaseStubbing
+ <TT;>
+ <TT;>
+
+thenAnswer
+ (Lorg/mockito/stubbing/Answer<*>;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+ (Lorg/mockito/stubbing/Answer<*>;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;

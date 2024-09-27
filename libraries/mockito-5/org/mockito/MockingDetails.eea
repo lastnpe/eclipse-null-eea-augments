@@ -1,0 +1,20 @@
+class org/mockito/MockingDetails
+
+getInvocations
+ ()Ljava/util/Collection<Lorg/mockito/invocation/Invocation;>;
+ ()Ljava/util/Collection<Lorg/mockito/invocation/Invocation;>;
+getMock
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getMockCreationSettings
+ ()Lorg/mockito/mock/MockCreationSettings<*>;
+ ()Lorg/mockito/mock/MockCreationSettings<*>;
+getMockHandler
+ ()Lorg/mockito/invocation/MockHandler;
+ ()Lorg/mockito/invocation/MockHandler;
+getStubbings
+ ()Ljava/util/Collection<Lorg/mockito/stubbing/Stubbing;>;
+ ()Ljava/util/Collection<Lorg/mockito/stubbing/Stubbing;>;
+printInvocations
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

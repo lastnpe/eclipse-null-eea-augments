@@ -1,0 +1,17 @@
+class org/mockito/invocation/Invocation
+
+getArgumentsAsMatchers
+ ()Ljava/util/List<Lorg/mockito/ArgumentMatcher;>;
+ ()Ljava/util/List<Lorg/mockito/ArgumentMatcher;>;
+getLocation
+ ()Lorg/mockito/invocation/Location;
+ ()Lorg/mockito/invocation/Location;
+getRawReturnType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+markStubbed
+ (Lorg/mockito/invocation/StubInfo;)V
+ (Lorg/mockito/invocation/StubInfo;)V
+stubInfo
+ ()Lorg/mockito/invocation/StubInfo;
+ ()Lorg/mockito/invocation/StubInfo;

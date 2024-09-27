@@ -1,0 +1,14 @@
+class org/mockito/internal/junit/JUnitRule
+
+<init>
+ (Lorg/mockito/plugins/MockitoLogger;Lorg/mockito/quality/Strictness;)V
+ (Lorg/mockito/plugins/MockitoLogger;Lorg/mockito/quality/Strictness;)V
+apply
+ (Lorg/junit/runners/model/Statement;Lorg/junit/runners/model/FrameworkMethod;Ljava/lang/Object;)Lorg/junit/runners/model/Statement;
+ (Lorg/junit/runners/model/Statement;Lorg/junit/runners/model/FrameworkMethod;Ljava/lang/Object;)Lorg/junit/runners/model/Statement;
+silent
+ ()Lorg/mockito/junit/MockitoRule;
+ ()Lorg/mockito/junit/MockitoRule;
+strictness
+ (Lorg/mockito/quality/Strictness;)Lorg/mockito/junit/MockitoRule;
+ (Lorg/mockito/quality/Strictness;)Lorg/mockito/junit/MockitoRule;

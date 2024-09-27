@@ -1,0 +1,40 @@
+class org/mockito/internal/util/reflection/GenericMetadataSupport
+
+inferFrom
+ (Ljava/lang/reflect/Type;)Lorg/mockito/internal/util/reflection/GenericMetadataSupport;
+ (Ljava/lang/reflect/Type;)Lorg/mockito/internal/util/reflection/GenericMetadataSupport;
+
+contextualActualTypeParameters
+ Ljava/util/Map<Ljava/lang/reflect/TypeVariable<*>;Ljava/lang/reflect/Type;>;
+ Ljava/util/Map<Ljava/lang/reflect/TypeVariable<*>;Ljava/lang/reflect/Type;>;
+
+actualTypeArguments
+ ()Ljava/util/Map<Ljava/lang/reflect/TypeVariable<*>;Ljava/lang/reflect/Type;>;
+ ()Ljava/util/Map<Ljava/lang/reflect/TypeVariable<*>;Ljava/lang/reflect/Type;>;
+extraInterfaces
+ ()Ljava/util/List<Ljava/lang/reflect/Type;>;
+ ()Ljava/util/List<Ljava/lang/reflect/Type;>;
+extractRawTypeOf
+ (Ljava/lang/reflect/Type;)Ljava/lang/Class<*>;
+ (Ljava/lang/reflect/Type;)Ljava/lang/Class<*>;
+getActualTypeArgumentFor
+ (Ljava/lang/reflect/TypeVariable<*>;)Ljava/lang/reflect/Type;
+ (Ljava/lang/reflect/TypeVariable<*>;)Ljava/lang/reflect/Type;
+rawExtraInterfaces
+ ()[Ljava/lang/Class<*>;
+ ()[Ljava/lang/Class<*>;
+rawType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+registerAllTypeVariables
+ (Ljava/lang/reflect/Type;)V
+ (Ljava/lang/reflect/Type;)V
+registerTypeParametersOn
+ ([Ljava/lang/reflect/TypeVariable<*>;)V
+ ([Ljava/lang/reflect/TypeVariable<*>;)V
+registerTypeVariablesOn
+ (Ljava/lang/reflect/Type;)V
+ (Ljava/lang/reflect/Type;)V
+resolveGenericReturnType
+ (Ljava/lang/reflect/Method;)Lorg/mockito/internal/util/reflection/GenericMetadataSupport;
+ (Ljava/lang/reflect/Method;)Lorg/mockito/internal/util/reflection/GenericMetadataSupport;

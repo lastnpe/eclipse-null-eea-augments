@@ -1,0 +1,20 @@
+class org/mockito/internal/stubbing/OngoingStubbingImpl
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/mockito/internal/stubbing/BaseStubbing
+ <TT;>
+ <TT;>
+
+<init>
+ (Lorg/mockito/internal/stubbing/InvocationContainerImpl;)V
+ (Lorg/mockito/internal/stubbing/InvocationContainerImpl;)V
+getRegisteredInvocations
+ ()Ljava/util/List<Lorg/mockito/invocation/Invocation;>;
+ ()Ljava/util/List<Lorg/mockito/invocation/Invocation;>;
+setStrictness
+ (Lorg/mockito/quality/Strictness;)V
+ (Lorg/mockito/quality/Strictness;)V
+thenAnswer
+ (Lorg/mockito/stubbing/Answer<*>;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+ (Lorg/mockito/stubbing/Answer<*>;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;

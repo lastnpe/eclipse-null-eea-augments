@@ -1,0 +1,32 @@
+class org/mockito/internal/verification/VerificationModeFactory
+
+atLeast
+ (I)Lorg/mockito/verification/VerificationMode;
+ (I)Lorg/mockito/verification/VerificationMode;
+atLeastOnce
+ ()Lorg/mockito/verification/VerificationMode;
+ ()Lorg/mockito/verification/VerificationMode;
+atMost
+ (I)Lorg/mockito/verification/VerificationMode;
+ (I)Lorg/mockito/verification/VerificationMode;
+atMostOnce
+ ()Lorg/mockito/verification/VerificationMode;
+ ()Lorg/mockito/verification/VerificationMode;
+calls
+ (I)Lorg/mockito/internal/verification/Calls;
+ (I)Lorg/mockito/internal/verification/Calls;
+description
+ (Lorg/mockito/verification/VerificationMode;Ljava/lang/String;)Lorg/mockito/verification/VerificationMode;
+ (Lorg/mockito/verification/VerificationMode;Ljava/lang/String;)Lorg/mockito/verification/VerificationMode;
+noInteractions
+ ()Lorg/mockito/internal/verification/NoInteractions;
+ ()Lorg/mockito/internal/verification/NoInteractions;
+noMoreInteractions
+ ()Lorg/mockito/internal/verification/NoMoreInteractions;
+ ()Lorg/mockito/internal/verification/NoMoreInteractions;
+only
+ ()Lorg/mockito/verification/VerificationMode;
+ ()Lorg/mockito/verification/VerificationMode;
+times
+ (I)Lorg/mockito/internal/verification/Times;
+ (I)Lorg/mockito/internal/verification/Times;
