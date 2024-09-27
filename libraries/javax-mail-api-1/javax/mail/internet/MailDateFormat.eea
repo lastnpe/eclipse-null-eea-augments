@@ -1,0 +1,32 @@
+class javax/mail/internet/MailDateFormat
+
+applyLocalizedPattern
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+applyPattern
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+clone
+ ()Ljavax/mail/internet/MailDateFormat;
+ ()Ljavax/mail/internet/MailDateFormat;
+format
+ (Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
+ (Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
+get2DigitYearStart
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+parse
+ (Ljava/lang/String;Ljava/text/ParsePosition;)Ljava/util/Date;
+ (Ljava/lang/String;Ljava/text/ParsePosition;)Ljava/util/Date;
+set2DigitYearStart
+ (Ljava/util/Date;)V
+ (Ljava/util/Date;)V
+setCalendar
+ (Ljava/util/Calendar;)V
+ (Ljava/util/Calendar;)V
+setDateFormatSymbols
+ (Ljava/text/DateFormatSymbols;)V
+ (Ljava/text/DateFormatSymbols;)V
+setNumberFormat
+ (Ljava/text/NumberFormat;)V
+ (Ljava/text/NumberFormat;)V

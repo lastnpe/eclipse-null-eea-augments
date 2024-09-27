@@ -1,0 +1,33 @@
+class javax/mail/event/TransportEvent
+
+invalid
+ [Ljavax/mail/Address;
+ [Ljavax/mail/Address;
+msg
+ Ljavax/mail/Message;
+ Ljavax/mail/Message;
+validSent
+ [Ljavax/mail/Address;
+ [Ljavax/mail/Address;
+validUnsent
+ [Ljavax/mail/Address;
+ [Ljavax/mail/Address;
+
+<init>
+ (Ljavax/mail/Transport;I[Ljavax/mail/Address;[Ljavax/mail/Address;[Ljavax/mail/Address;Ljavax/mail/Message;)V
+ (Ljavax/mail/Transport;I[Ljavax/mail/Address;[Ljavax/mail/Address;[Ljavax/mail/Address;Ljavax/mail/Message;)V
+dispatch
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+getInvalidAddresses
+ ()[Ljavax/mail/Address;
+ ()[Ljavax/mail/Address;
+getMessage
+ ()Ljavax/mail/Message;
+ ()Ljavax/mail/Message;
+getValidSentAddresses
+ ()[Ljavax/mail/Address;
+ ()[Ljavax/mail/Address;
+getValidUnsentAddresses
+ ()[Ljavax/mail/Address;
+ ()[Ljavax/mail/Address;

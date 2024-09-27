@@ -1,0 +1,30 @@
+class javax/mail/Transport
+
+send
+ (Ljavax/mail/Message;)V
+ (Ljavax/mail/Message;)V
+send
+ (Ljavax/mail/Message;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljavax/mail/Message;Ljava/lang/String;Ljava/lang/String;)V
+send
+ (Ljavax/mail/Message;[Ljavax/mail/Address;)V
+ (Ljavax/mail/Message;[Ljavax/mail/Address;)V
+send
+ (Ljavax/mail/Message;[Ljavax/mail/Address;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljavax/mail/Message;[Ljavax/mail/Address;Ljava/lang/String;Ljava/lang/String;)V
+
+<init>
+ (Ljavax/mail/Session;Ljavax/mail/URLName;)V
+ (Ljavax/mail/Session;Ljavax/mail/URLName;)V
+addTransportListener
+ (Ljavax/mail/event/TransportListener;)V
+ (L1javax/mail/event/TransportListener;)V
+notifyTransportListeners
+ (I[Ljavax/mail/Address;[Ljavax/mail/Address;[Ljavax/mail/Address;Ljavax/mail/Message;)V
+ (I[Ljavax/mail/Address;[Ljavax/mail/Address;[Ljavax/mail/Address;Ljavax/mail/Message;)V
+removeTransportListener
+ (Ljavax/mail/event/TransportListener;)V
+ (L1javax/mail/event/TransportListener;)V
+sendMessage
+ (Ljavax/mail/Message;[Ljavax/mail/Address;)V
+ (Ljavax/mail/Message;[Ljavax/mail/Address;)V

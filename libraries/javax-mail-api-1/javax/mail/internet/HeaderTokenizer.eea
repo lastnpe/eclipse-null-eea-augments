@@ -1,0 +1,33 @@
+class javax/mail/internet/HeaderTokenizer
+
+MIME
+ Ljava/lang/String;
+ L1java/lang/String;
+RFC822
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Z)V
+ (Ljava/lang/String;Ljava/lang/String;Z)V
+getRemainder
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+next
+ ()Ljavax/mail/internet/HeaderTokenizer$Token;
+ ()Ljavax/mail/internet/HeaderTokenizer$Token;
+next
+ (C)Ljavax/mail/internet/HeaderTokenizer$Token;
+ (C)Ljavax/mail/internet/HeaderTokenizer$Token;
+next
+ (CZ)Ljavax/mail/internet/HeaderTokenizer$Token;
+ (CZ)Ljavax/mail/internet/HeaderTokenizer$Token;
+peek
+ ()Ljavax/mail/internet/HeaderTokenizer$Token;
+ ()Ljavax/mail/internet/HeaderTokenizer$Token;

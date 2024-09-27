@@ -1,10 +1,25 @@
 class javax/mail/Message$RecipientType
-TO
+
+BCC
  Ljavax/mail/Message$RecipientType;
  L1javax/mail/Message$RecipientType;
 CC
  Ljavax/mail/Message$RecipientType;
  L1javax/mail/Message$RecipientType;
-BCC
+TO
  Ljavax/mail/Message$RecipientType;
  L1javax/mail/Message$RecipientType;
+
+type
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+readResolve
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

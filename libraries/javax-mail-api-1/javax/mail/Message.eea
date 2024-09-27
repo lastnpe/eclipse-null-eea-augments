@@ -1,0 +1,87 @@
+class javax/mail/Message
+
+folder
+ Ljavax/mail/Folder;
+ Ljavax/mail/Folder;
+session
+ Ljavax/mail/Session;
+ Ljavax/mail/Session;
+
+<init>
+ (Ljavax/mail/Folder;I)V
+ (Ljavax/mail/Folder;I)V
+<init>
+ (Ljavax/mail/Session;)V
+ (Ljavax/mail/Session;)V
+addFrom
+ ([Ljavax/mail/Address;)V
+ ([Ljavax/mail/Address;)V
+addRecipient
+ (Ljavax/mail/Message$RecipientType;Ljavax/mail/Address;)V
+ (Ljavax/mail/Message$RecipientType;Ljavax/mail/Address;)V
+addRecipients
+ (Ljavax/mail/Message$RecipientType;[Ljavax/mail/Address;)V
+ (Ljavax/mail/Message$RecipientType;[Ljavax/mail/Address;)V
+getAllRecipients
+ ()[Ljavax/mail/Address;
+ ()[Ljavax/mail/Address;
+getFlags
+ ()Ljavax/mail/Flags;
+ ()Ljavax/mail/Flags;
+getFolder
+ ()Ljavax/mail/Folder;
+ ()Ljavax/mail/Folder;
+getFrom
+ ()[Ljavax/mail/Address;
+ ()[Ljavax/mail/Address;
+getReceivedDate
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+getRecipients
+ (Ljavax/mail/Message$RecipientType;)[Ljavax/mail/Address;
+ (Ljavax/mail/Message$RecipientType;)[Ljavax/mail/Address;
+getReplyTo
+ ()[Ljavax/mail/Address;
+ ()[Ljavax/mail/Address;
+getSentDate
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+getSession
+ ()Ljavax/mail/Session;
+ ()Ljavax/mail/Session;
+getSubject
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+isSet
+ (Ljavax/mail/Flags$Flag;)Z
+ (Ljavax/mail/Flags$Flag;)Z
+match
+ (Ljavax/mail/search/SearchTerm;)Z
+ (Ljavax/mail/search/SearchTerm;)Z
+reply
+ (Z)Ljavax/mail/Message;
+ (Z)Ljavax/mail/Message;
+setFlag
+ (Ljavax/mail/Flags$Flag;Z)V
+ (Ljavax/mail/Flags$Flag;Z)V
+setFlags
+ (Ljavax/mail/Flags;Z)V
+ (Ljavax/mail/Flags;Z)V
+setFrom
+ (Ljavax/mail/Address;)V
+ (Ljavax/mail/Address;)V
+setRecipient
+ (Ljavax/mail/Message$RecipientType;Ljavax/mail/Address;)V
+ (Ljavax/mail/Message$RecipientType;Ljavax/mail/Address;)V
+setRecipients
+ (Ljavax/mail/Message$RecipientType;[Ljavax/mail/Address;)V
+ (Ljavax/mail/Message$RecipientType;[Ljavax/mail/Address;)V
+setReplyTo
+ ([Ljavax/mail/Address;)V
+ ([Ljavax/mail/Address;)V
+setSentDate
+ (Ljava/util/Date;)V
+ (Ljava/util/Date;)V
+setSubject
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

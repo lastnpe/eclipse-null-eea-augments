@@ -1,0 +1,11 @@
+class javax/mail/event/TransportAdapter
+
+messageDelivered
+ (Ljavax/mail/event/TransportEvent;)V
+ (L1javax/mail/event/TransportEvent;)V # @Inherited(javax.mail.event.TransportListener)
+messageNotDelivered
+ (Ljavax/mail/event/TransportEvent;)V
+ (L1javax/mail/event/TransportEvent;)V # @Inherited(javax.mail.event.TransportListener)
+messagePartiallyDelivered
+ (Ljavax/mail/event/TransportEvent;)V
+ (L1javax/mail/event/TransportEvent;)V # @Inherited(javax.mail.event.TransportListener)
