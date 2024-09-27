@@ -1,27 +1,9 @@
-class org/slf4j/Logger
+class org/slf4j/helpers/NOPLogger
 
-ROOT_LOGGER_NAME
- Ljava/lang/String;
- L1java/lang/String;
+NOP_LOGGER
+ Lorg/slf4j/helpers/NOPLogger;
+ L1org/slf4j/helpers/NOPLogger;
 
-atDebug
- ()Lorg/slf4j/spi/LoggingEventBuilder;
- ()Lorg/slf4j/spi/LoggingEventBuilder;
-atError
- ()Lorg/slf4j/spi/LoggingEventBuilder;
- ()Lorg/slf4j/spi/LoggingEventBuilder;
-atInfo
- ()Lorg/slf4j/spi/LoggingEventBuilder;
- ()Lorg/slf4j/spi/LoggingEventBuilder;
-atLevel
- (Lorg/slf4j/event/Level;)Lorg/slf4j/spi/LoggingEventBuilder;
- (Lorg/slf4j/event/Level;)Lorg/slf4j/spi/LoggingEventBuilder;
-atTrace
- ()Lorg/slf4j/spi/LoggingEventBuilder;
- ()Lorg/slf4j/spi/LoggingEventBuilder;
-atWarn
- ()Lorg/slf4j/spi/LoggingEventBuilder;
- ()Lorg/slf4j/spi/LoggingEventBuilder;
 debug
  (Ljava/lang/String;)V
  (Ljava/lang/String;)V
@@ -84,7 +66,7 @@ error
  (Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
 getName
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(org.slf4j.Logger)
 info
  (Ljava/lang/String;)V
  (Ljava/lang/String;)V
@@ -118,9 +100,6 @@ info
 isDebugEnabled
  (Lorg/slf4j/Marker;)Z
  (Lorg/slf4j/Marker;)Z
-isEnabledForLevel
- (Lorg/slf4j/event/Level;)Z
- (Lorg/slf4j/event/Level;)Z
 isErrorEnabled
  (Lorg/slf4j/Marker;)Z
  (Lorg/slf4j/Marker;)Z
@@ -133,9 +112,6 @@ isTraceEnabled
 isWarnEnabled
  (Lorg/slf4j/Marker;)Z
  (Lorg/slf4j/Marker;)Z
-makeLoggingEventBuilder
- (Lorg/slf4j/event/Level;)Lorg/slf4j/spi/LoggingEventBuilder;
- (Lorg/slf4j/event/Level;)Lorg/slf4j/spi/LoggingEventBuilder;
 trace
  (Ljava/lang/String;)V
  (Ljava/lang/String;)V

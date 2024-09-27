@@ -1,0 +1,41 @@
+class org/slf4j/spi/LoggingEventBuilder
+
+addArgument
+ (Ljava/lang/Object;)Lorg/slf4j/spi/LoggingEventBuilder;
+ (Ljava/lang/Object;)L1org/slf4j/spi/LoggingEventBuilder;
+addArgument
+ (Ljava/util/function/Supplier<*>;)Lorg/slf4j/spi/LoggingEventBuilder;
+ (Ljava/util/function/Supplier<*>;)L1org/slf4j/spi/LoggingEventBuilder;
+addKeyValue
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/slf4j/spi/LoggingEventBuilder;
+ (Ljava/lang/String;Ljava/lang/Object;)L1org/slf4j/spi/LoggingEventBuilder;
+addKeyValue
+ (Ljava/lang/String;Ljava/util/function/Supplier<Ljava/lang/Object;>;)Lorg/slf4j/spi/LoggingEventBuilder;
+ (Ljava/lang/String;Ljava/util/function/Supplier<Ljava/lang/Object;>;)L1org/slf4j/spi/LoggingEventBuilder;
+addMarker
+ (Lorg/slf4j/Marker;)Lorg/slf4j/spi/LoggingEventBuilder;
+ (Lorg/slf4j/Marker;)L1org/slf4j/spi/LoggingEventBuilder;
+log
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+log
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+log
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+log
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+log
+ (Ljava/util/function/Supplier<Ljava/lang/String;>;)V
+ (Ljava/util/function/Supplier<Ljava/lang/String;>;)V
+setCause
+ (Ljava/lang/Throwable;)Lorg/slf4j/spi/LoggingEventBuilder;
+ (Ljava/lang/Throwable;)L1org/slf4j/spi/LoggingEventBuilder;
+setMessage
+ (Ljava/lang/String;)Lorg/slf4j/spi/LoggingEventBuilder;
+ (Ljava/lang/String;)L1org/slf4j/spi/LoggingEventBuilder;
+setMessage
+ (Ljava/util/function/Supplier<Ljava/lang/String;>;)Lorg/slf4j/spi/LoggingEventBuilder;
+ (Ljava/util/function/Supplier<Ljava/lang/String;>;)L1org/slf4j/spi/LoggingEventBuilder;

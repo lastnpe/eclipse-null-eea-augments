@@ -1,0 +1,30 @@
+class org/slf4j/Marker
+
+ANY_MARKER
+ Ljava/lang/String;
+ L1java/lang/String;
+ANY_NON_NULL_MARKER
+ Ljava/lang/String;
+ L1java/lang/String;
+
+add
+ (Lorg/slf4j/Marker;)V
+ (Lorg/slf4j/Marker;)V
+contains
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+contains
+ (Lorg/slf4j/Marker;)Z
+ (Lorg/slf4j/Marker;)Z
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+iterator
+ ()Ljava/util/Iterator<Lorg/slf4j/Marker;>;
+ ()Ljava/util/Iterator<Lorg/slf4j/Marker;>;
+remove
+ (Lorg/slf4j/Marker;)Z
+ (Lorg/slf4j/Marker;)Z

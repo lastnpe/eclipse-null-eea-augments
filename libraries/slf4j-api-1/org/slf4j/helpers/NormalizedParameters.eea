@@ -1,0 +1,30 @@
+class org/slf4j/helpers/NormalizedParameters
+
+getThrowableCandidate
+ ([Ljava/lang/Object;)Ljava/lang/Throwable;
+ ([Ljava/lang/Object;)Ljava/lang/Throwable;
+normalize
+ (Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/Throwable;)Lorg/slf4j/helpers/NormalizedParameters;
+ (Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/Throwable;)Lorg/slf4j/helpers/NormalizedParameters;
+normalize
+ (Lorg/slf4j/event/LoggingEvent;)Lorg/slf4j/helpers/NormalizedParameters;
+ (Lorg/slf4j/event/LoggingEvent;)Lorg/slf4j/helpers/NormalizedParameters;
+trimmedCopy
+ ([Ljava/lang/Object;)[Ljava/lang/Object;
+ ([Ljava/lang/Object;)[Ljava/lang/Object;
+
+<init>
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+<init>
+ (Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/Throwable;)V
+ (Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/Throwable;)V
+getArguments
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+getMessage
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getThrowable
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
