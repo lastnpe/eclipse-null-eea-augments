@@ -1,0 +1,34 @@
+class org/springframework/javapoet/AnnotationSpec
+
+builder
+ (Ljava/lang/Class<*>;)Lorg/springframework/javapoet/AnnotationSpec$Builder;
+ (Ljava/lang/Class<*>;)Lorg/springframework/javapoet/AnnotationSpec$Builder;
+builder
+ (Lorg/springframework/javapoet/ClassName;)Lorg/springframework/javapoet/AnnotationSpec$Builder;
+ (Lorg/springframework/javapoet/ClassName;)Lorg/springframework/javapoet/AnnotationSpec$Builder;
+get
+ (Ljava/lang/annotation/Annotation;)Lorg/springframework/javapoet/AnnotationSpec;
+ (Ljava/lang/annotation/Annotation;)Lorg/springframework/javapoet/AnnotationSpec;
+get
+ (Ljava/lang/annotation/Annotation;Z)Lorg/springframework/javapoet/AnnotationSpec;
+ (Ljava/lang/annotation/Annotation;Z)Lorg/springframework/javapoet/AnnotationSpec;
+get
+ (Ljavax/lang/model/element/AnnotationMirror;)Lorg/springframework/javapoet/AnnotationSpec;
+ (Ljavax/lang/model/element/AnnotationMirror;)Lorg/springframework/javapoet/AnnotationSpec;
+
+members
+ Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Lorg/springframework/javapoet/CodeBlock;>;>;
+ Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Lorg/springframework/javapoet/CodeBlock;>;>;
+type
+ Lorg/springframework/javapoet/TypeName;
+ Lorg/springframework/javapoet/TypeName;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+toBuilder
+ ()Lorg/springframework/javapoet/AnnotationSpec$Builder;
+ ()Lorg/springframework/javapoet/AnnotationSpec$Builder;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

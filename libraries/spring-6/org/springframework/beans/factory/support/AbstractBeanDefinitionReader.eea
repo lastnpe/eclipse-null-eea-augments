@@ -1,0 +1,48 @@
+class org/springframework/beans/factory/support/AbstractBeanDefinitionReader
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+<init>
+ (Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;)V
+ (Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;)V
+getBeanClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()L0java/lang/ClassLoader; # @Inherited(org.springframework.beans.factory.support.BeanDefinitionReader)
+getBeanNameGenerator
+ ()Lorg/springframework/beans/factory/support/BeanNameGenerator;
+ ()Lorg/springframework/beans/factory/support/BeanNameGenerator;
+getEnvironment
+ ()Lorg/springframework/core/env/Environment;
+ ()Lorg/springframework/core/env/Environment;
+getRegistry
+ ()Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;
+ ()Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;
+getResourceLoader
+ ()Lorg/springframework/core/io/ResourceLoader;
+ ()L0org/springframework/core/io/ResourceLoader; # @Inherited(org.springframework.beans.factory.support.BeanDefinitionReader)
+loadBeanDefinitions
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+loadBeanDefinitions
+ (Ljava/lang/String;Ljava/util/Set<Lorg/springframework/core/io/Resource;>;)I
+ (Ljava/lang/String;Ljava/util/Set<Lorg/springframework/core/io/Resource;>;)I
+loadBeanDefinitions
+ ([Ljava/lang/String;)I
+ ([Ljava/lang/String;)I
+loadBeanDefinitions
+ ([Lorg/springframework/core/io/Resource;)I
+ ([Lorg/springframework/core/io/Resource;)I
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setBeanNameGenerator
+ (Lorg/springframework/beans/factory/support/BeanNameGenerator;)V
+ (Lorg/springframework/beans/factory/support/BeanNameGenerator;)V
+setEnvironment
+ (Lorg/springframework/core/env/Environment;)V
+ (Lorg/springframework/core/env/Environment;)V
+setResourceLoader
+ (Lorg/springframework/core/io/ResourceLoader;)V
+ (Lorg/springframework/core/io/ResourceLoader;)V

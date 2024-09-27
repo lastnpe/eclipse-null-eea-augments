@@ -1,0 +1,19 @@
+class org/springframework/util/concurrent/ListenableFutureCallbackRegistry
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+addCallback
+ (Lorg/springframework/util/concurrent/ListenableFutureCallback<-TT;>;)V
+ (Lorg/springframework/util/concurrent/ListenableFutureCallback<-TT;>;)V
+addFailureCallback
+ (Lorg/springframework/util/concurrent/FailureCallback;)V
+ (Lorg/springframework/util/concurrent/FailureCallback;)V
+addSuccessCallback
+ (Lorg/springframework/util/concurrent/SuccessCallback<-TT;>;)V
+ (Lorg/springframework/util/concurrent/SuccessCallback<-TT;>;)V
+failure
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+success
+ (TT;)V
+ (TT;)V

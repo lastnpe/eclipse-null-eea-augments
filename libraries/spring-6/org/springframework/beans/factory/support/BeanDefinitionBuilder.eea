@@ -1,0 +1,102 @@
+class org/springframework/beans/factory/support/BeanDefinitionBuilder
+
+childBeanDefinition
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+genericBeanDefinition
+ ()Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ ()Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+genericBeanDefinition
+ (Ljava/lang/Class<*>;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Ljava/lang/Class<*>;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+genericBeanDefinition
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+genericBeanDefinition
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Supplier<TT;>;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Supplier<TT;>;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+rootBeanDefinition
+ (Ljava/lang/Class<*>;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Ljava/lang/Class<*>;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+rootBeanDefinition
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+rootBeanDefinition
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+rootBeanDefinition
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+rootBeanDefinition
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Supplier<TT;>;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Supplier<TT;>;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+rootBeanDefinition
+ <T:Ljava/lang/Object;>(Lorg/springframework/core/ResolvableType;Ljava/util/function/Supplier<TT;>;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ <T:Ljava/lang/Object;>(Lorg/springframework/core/ResolvableType;Ljava/util/function/Supplier<TT;>;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+
+addAutowiredProperty
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Ljava/lang/String;)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;
+addConstructorArgReference
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Ljava/lang/String;)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;
+addConstructorArgValue
+ (Ljava/lang/Object;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Ljava/lang/Object;)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;
+addDependsOn
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Ljava/lang/String;)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;
+addPropertyReference
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Ljava/lang/String;Ljava/lang/String;)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;
+addPropertyValue
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Ljava/lang/String;Ljava/lang/Object;)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;
+applyCustomizers
+ ([Lorg/springframework/beans/factory/config/BeanDefinitionCustomizer;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ ([Lorg/springframework/beans/factory/config/BeanDefinitionCustomizer;)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;
+getBeanDefinition
+ ()Lorg/springframework/beans/factory/support/AbstractBeanDefinition;
+ ()Lorg/springframework/beans/factory/support/AbstractBeanDefinition;
+getRawBeanDefinition
+ ()Lorg/springframework/beans/factory/support/AbstractBeanDefinition;
+ ()Lorg/springframework/beans/factory/support/AbstractBeanDefinition;
+setAbstract
+ (Z)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Z)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;
+setAutowireMode
+ (I)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (I)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;
+setDependencyCheck
+ (I)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (I)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;
+setDestroyMethodName
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Ljava/lang/String;)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;
+setFactoryMethod
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Ljava/lang/String;)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;
+setFactoryMethodOnBean
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Ljava/lang/String;Ljava/lang/String;)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;
+setInitMethodName
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Ljava/lang/String;)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;
+setLazyInit
+ (Z)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Z)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;
+setParentName
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Ljava/lang/String;)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;
+setPrimary
+ (Z)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Z)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;
+setRole
+ (I)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (I)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;
+setScope
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Ljava/lang/String;)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;
+setSynthetic
+ (Z)Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;
+ (Z)L1org/springframework/beans/factory/support/BeanDefinitionBuilder;

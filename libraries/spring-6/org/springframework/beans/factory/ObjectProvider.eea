@@ -1,0 +1,41 @@
+class org/springframework/beans/factory/ObjectProvider
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/springframework/beans/factory/ObjectFactory
+ <TT;>
+ <TT;>
+super java/lang/Iterable
+ <TT;>
+ <TT;>
+
+getIfAvailable
+ ()TT;
+ ()T0T;
+getIfAvailable
+ (Ljava/util/function/Supplier<TT;>;)TT;
+ (Ljava/util/function/Supplier<TT;>;)TT;
+getIfUnique
+ ()TT;
+ ()T0T;
+getIfUnique
+ (Ljava/util/function/Supplier<TT;>;)TT;
+ (Ljava/util/function/Supplier<TT;>;)TT;
+getObject
+ ([Ljava/lang/Object;)TT;
+ ([Ljava/lang/Object;)TT;
+ifAvailable
+ (Ljava/util/function/Consumer<TT;>;)V
+ (Ljava/util/function/Consumer<TT;>;)V
+ifUnique
+ (Ljava/util/function/Consumer<TT;>;)V
+ (Ljava/util/function/Consumer<TT;>;)V
+iterator
+ ()Ljava/util/Iterator<TT;>;
+ ()Ljava/util/Iterator<TT;>;
+orderedStream
+ ()Ljava/util/stream/Stream<TT;>;
+ ()Ljava/util/stream/Stream<TT;>;
+stream
+ ()Ljava/util/stream/Stream<TT;>;
+ ()Ljava/util/stream/Stream<TT;>;

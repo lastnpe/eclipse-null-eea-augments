@@ -1,0 +1,26 @@
+class org/springframework/core/codec/CharSequenceEncoder
+
+super org/springframework/core/codec/AbstractEncoder
+ <Ljava/lang/CharSequence;>
+ <Ljava/lang/CharSequence;>
+
+DEFAULT_CHARSET
+ Ljava/nio/charset/Charset;
+ L1java/nio/charset/Charset;
+
+allMimeTypes
+ ()Lorg/springframework/core/codec/CharSequenceEncoder;
+ ()Lorg/springframework/core/codec/CharSequenceEncoder;
+textPlainOnly
+ ()Lorg/springframework/core/codec/CharSequenceEncoder;
+ ()Lorg/springframework/core/codec/CharSequenceEncoder;
+
+canEncode
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Z
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Z
+encode
+ (Lorg/reactivestreams/Publisher<+Ljava/lang/CharSequence;>;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+ (Lorg/reactivestreams/Publisher<+Ljava/lang/CharSequence;>;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+encodeValue
+ (Ljava/lang/CharSequence;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/springframework/core/io/buffer/DataBuffer;
+ (Ljava/lang/CharSequence;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/springframework/core/io/buffer/DataBuffer;

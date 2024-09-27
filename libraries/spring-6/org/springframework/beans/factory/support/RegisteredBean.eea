@@ -1,0 +1,45 @@
+class org/springframework/beans/factory/support/RegisteredBean
+
+of
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;Ljava/lang/String;)Lorg/springframework/beans/factory/support/RegisteredBean;
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;Ljava/lang/String;)Lorg/springframework/beans/factory/support/RegisteredBean;
+ofInnerBean
+ (Lorg/springframework/beans/factory/support/RegisteredBean;Ljava/lang/String;Lorg/springframework/beans/factory/config/BeanDefinition;)Lorg/springframework/beans/factory/support/RegisteredBean;
+ (Lorg/springframework/beans/factory/support/RegisteredBean;Ljava/lang/String;Lorg/springframework/beans/factory/config/BeanDefinition;)Lorg/springframework/beans/factory/support/RegisteredBean;
+ofInnerBean
+ (Lorg/springframework/beans/factory/support/RegisteredBean;Lorg/springframework/beans/factory/config/BeanDefinition;)Lorg/springframework/beans/factory/support/RegisteredBean;
+ (Lorg/springframework/beans/factory/support/RegisteredBean;Lorg/springframework/beans/factory/config/BeanDefinition;)Lorg/springframework/beans/factory/support/RegisteredBean;
+ofInnerBean
+ (Lorg/springframework/beans/factory/support/RegisteredBean;Lorg/springframework/beans/factory/config/BeanDefinitionHolder;)Lorg/springframework/beans/factory/support/RegisteredBean;
+ (Lorg/springframework/beans/factory/support/RegisteredBean;Lorg/springframework/beans/factory/config/BeanDefinitionHolder;)Lorg/springframework/beans/factory/support/RegisteredBean;
+
+getBeanClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getBeanFactory
+ ()Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;
+ ()Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;
+getBeanName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getBeanType
+ ()Lorg/springframework/core/ResolvableType;
+ ()Lorg/springframework/core/ResolvableType;
+getMergedBeanDefinition
+ ()Lorg/springframework/beans/factory/support/RootBeanDefinition;
+ ()Lorg/springframework/beans/factory/support/RootBeanDefinition;
+getParent
+ ()Lorg/springframework/beans/factory/support/RegisteredBean;
+ ()L0org/springframework/beans/factory/support/RegisteredBean;
+resolveAutowiredArgument
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;Lorg/springframework/beans/TypeConverter;Ljava/util/Set<Ljava/lang/String;>;)Ljava/lang/Object;
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;Lorg/springframework/beans/TypeConverter;Ljava/util/Set<Ljava/lang/String;>;)L0java/lang/Object;
+resolveConstructorOrFactoryMethod
+ ()Ljava/lang/reflect/Executable;
+ ()Ljava/lang/reflect/Executable;
+resolveInstantiationDescriptor
+ ()Lorg/springframework/beans/factory/support/RegisteredBean$InstantiationDescriptor;
+ ()Lorg/springframework/beans/factory/support/RegisteredBean$InstantiationDescriptor;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

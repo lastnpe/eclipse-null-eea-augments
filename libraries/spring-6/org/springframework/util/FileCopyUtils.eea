@@ -1,0 +1,29 @@
+class org/springframework/util/FileCopyUtils
+
+copy
+ (Ljava/io/File;Ljava/io/File;)I
+ (Ljava/io/File;Ljava/io/File;)I
+copy
+ (Ljava/io/InputStream;Ljava/io/OutputStream;)I
+ (Ljava/io/InputStream;Ljava/io/OutputStream;)I
+copy
+ (Ljava/io/Reader;Ljava/io/Writer;)I
+ (Ljava/io/Reader;Ljava/io/Writer;)I
+copy
+ (Ljava/lang/String;Ljava/io/Writer;)V
+ (Ljava/lang/String;Ljava/io/Writer;)V
+copy
+ ([BLjava/io/File;)V
+ ([BLjava/io/File;)V
+copy
+ ([BLjava/io/OutputStream;)V
+ ([BLjava/io/OutputStream;)V
+copyToByteArray
+ (Ljava/io/File;)[B
+ (Ljava/io/File;)[B
+copyToByteArray
+ (Ljava/io/InputStream;)[B
+ (Ljava/io/InputStream;)[B
+copyToString
+ (Ljava/io/Reader;)Ljava/lang/String;
+ (Ljava/io/Reader;)Ljava/lang/String;

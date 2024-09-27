@@ -1,0 +1,116 @@
+class org/springframework/beans/factory/support/RootBeanDefinition
+
+<init>
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+<init>
+ (Ljava/lang/Class<*>;IZ)V
+ (Ljava/lang/Class<*>;IZ)V
+<init>
+ (Ljava/lang/Class<*>;Lorg/springframework/beans/factory/config/ConstructorArgumentValues;Lorg/springframework/beans/MutablePropertyValues;)V
+ (Ljava/lang/Class<*>;Lorg/springframework/beans/factory/config/ConstructorArgumentValues;Lorg/springframework/beans/MutablePropertyValues;)V
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Lorg/springframework/beans/factory/config/ConstructorArgumentValues;Lorg/springframework/beans/MutablePropertyValues;)V
+ (Ljava/lang/String;Lorg/springframework/beans/factory/config/ConstructorArgumentValues;Lorg/springframework/beans/MutablePropertyValues;)V
+<init>
+ (Lorg/springframework/beans/factory/support/RootBeanDefinition;)V
+ (Lorg/springframework/beans/factory/support/RootBeanDefinition;)V
+<init>
+ (Lorg/springframework/core/ResolvableType;)V
+ (Lorg/springframework/core/ResolvableType;)V
+<init>
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/String;Ljava/util/function/Supplier<TT;>;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/String;Ljava/util/function/Supplier<TT;>;)V
+<init>
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Supplier<TT;>;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Supplier<TT;>;)V
+cloneBeanDefinition
+ ()Lorg/springframework/beans/factory/support/RootBeanDefinition;
+ ()Lorg/springframework/beans/factory/support/RootBeanDefinition;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(org.springframework.beans.factory.support.AbstractBeanDefinition)
+getDecoratedDefinition
+ ()Lorg/springframework/beans/factory/config/BeanDefinitionHolder;
+ ()L0org/springframework/beans/factory/config/BeanDefinitionHolder;
+getExternallyManagedConfigMembers
+ ()Ljava/util/Set<Ljava/lang/reflect/Member;>;
+ ()Ljava/util/Set<Ljava/lang/reflect/Member;>;
+getExternallyManagedDestroyMethods
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getExternallyManagedInitMethods
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getParentName
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.beans.factory.config.BeanDefinition)
+getPreferredConstructors
+ ()[Ljava/lang/reflect/Constructor<*>;
+ ()[0Ljava/lang/reflect/Constructor<*>;
+getQualifiedElement
+ ()Ljava/lang/reflect/AnnotatedElement;
+ ()L0java/lang/reflect/AnnotatedElement;
+getResolvableType
+ ()Lorg/springframework/core/ResolvableType;
+ ()Lorg/springframework/core/ResolvableType;
+getResolvedFactoryMethod
+ ()Ljava/lang/reflect/Method;
+ ()L0java/lang/reflect/Method;
+getTargetType
+ ()Ljava/lang/Class<*>;
+ ()L0java/lang/Class<*>;
+isExternallyManagedConfigMember
+ (Ljava/lang/reflect/Member;)Z
+ (Ljava/lang/reflect/Member;)Z
+isExternallyManagedDestroyMethod
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isExternallyManagedInitMethod
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isFactoryMethod
+ (Ljava/lang/reflect/Method;)Z
+ (Ljava/lang/reflect/Method;)Z
+registerExternallyManagedConfigMember
+ (Ljava/lang/reflect/Member;)V
+ (Ljava/lang/reflect/Member;)V
+registerExternallyManagedDestroyMethod
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+registerExternallyManagedInitMethod
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setDecoratedDefinition
+ (Lorg/springframework/beans/factory/config/BeanDefinitionHolder;)V
+ (Lorg/springframework/beans/factory/config/BeanDefinitionHolder;)V
+setInstanceSupplier
+ (Ljava/util/function/Supplier<*>;)V
+ (Ljava/util/function/Supplier<*>;)V
+setNonUniqueFactoryMethodName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setParentName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setQualifiedElement
+ (Ljava/lang/reflect/AnnotatedElement;)V
+ (Ljava/lang/reflect/AnnotatedElement;)V
+setResolvedFactoryMethod
+ (Ljava/lang/reflect/Method;)V
+ (Ljava/lang/reflect/Method;)V
+setTargetType
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+setTargetType
+ (Lorg/springframework/core/ResolvableType;)V
+ (Lorg/springframework/core/ResolvableType;)V
+setUniqueFactoryMethodName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.springframework.beans.factory.support.AbstractBeanDefinition)

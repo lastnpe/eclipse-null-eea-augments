@@ -1,0 +1,42 @@
+class org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+determineBeanType
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/Class<*>;
+determineCandidateConstructors
+ (Ljava/lang/Class<*>;Ljava/lang/String;)[Ljava/lang/reflect/Constructor<*>;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)[0Ljava/lang/reflect/Constructor<*>; # @Inherited(org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor)
+determineRequiredStatus
+ (Lorg/springframework/core/annotation/MergedAnnotation<*>;)Z
+ (Lorg/springframework/core/annotation/MergedAnnotation<*>;)Z
+postProcessMergedBeanDefinition
+ (Lorg/springframework/beans/factory/support/RootBeanDefinition;Ljava/lang/Class<*>;Ljava/lang/String;)V
+ (Lorg/springframework/beans/factory/support/RootBeanDefinition;Ljava/lang/Class<*>;Ljava/lang/String;)V
+postProcessProperties
+ (Lorg/springframework/beans/PropertyValues;Ljava/lang/Object;Ljava/lang/String;)Lorg/springframework/beans/PropertyValues;
+ (Lorg/springframework/beans/PropertyValues;Ljava/lang/Object;Ljava/lang/String;)L0org/springframework/beans/PropertyValues; # @Inherited(org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor)
+processAheadOfTime
+ (Lorg/springframework/beans/factory/support/RegisteredBean;)Lorg/springframework/beans/factory/aot/BeanRegistrationAotContribution;
+ (Lorg/springframework/beans/factory/support/RegisteredBean;)L0org/springframework/beans/factory/aot/BeanRegistrationAotContribution; # @Inherited(org.springframework.beans.factory.aot.BeanRegistrationAotProcessor)
+processInjection
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+resetBeanDefinition
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setAutowiredAnnotationType
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+setAutowiredAnnotationTypes
+ (Ljava/util/Set<Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;>;)V
+ (Ljava/util/Set<Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;>;)V
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setRequiredParameterName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

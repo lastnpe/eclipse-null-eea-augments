@@ -1,0 +1,18 @@
+class org/springframework/beans/factory/wiring/BeanConfigurerSupport
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+configureBean
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+createDefaultBeanWiringInfoResolver
+ ()Lorg/springframework/beans/factory/wiring/BeanWiringInfoResolver;
+ ()L0org/springframework/beans/factory/wiring/BeanWiringInfoResolver;
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setBeanWiringInfoResolver
+ (Lorg/springframework/beans/factory/wiring/BeanWiringInfoResolver;)V
+ (Lorg/springframework/beans/factory/wiring/BeanWiringInfoResolver;)V

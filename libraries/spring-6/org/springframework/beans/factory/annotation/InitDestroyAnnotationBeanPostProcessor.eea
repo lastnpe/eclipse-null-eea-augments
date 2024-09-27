@@ -1,0 +1,36 @@
+class org/springframework/beans/factory/annotation/InitDestroyAnnotationBeanPostProcessor
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+addDestroyAnnotationType
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+addInitAnnotationType
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+postProcessAfterInitialization
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+ (L1java/lang/Object;L1java/lang/String;)Ljava/lang/Object; # @Inherited(org.springframework.beans.factory.config.BeanPostProcessor)
+postProcessBeforeDestruction
+ (Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/Object;Ljava/lang/String;)V
+postProcessBeforeInitialization
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+ (L1java/lang/Object;L1java/lang/String;)Ljava/lang/Object; # @Inherited(org.springframework.beans.factory.config.BeanPostProcessor)
+postProcessMergedBeanDefinition
+ (Lorg/springframework/beans/factory/support/RootBeanDefinition;Ljava/lang/Class<*>;Ljava/lang/String;)V
+ (Lorg/springframework/beans/factory/support/RootBeanDefinition;Ljava/lang/Class<*>;Ljava/lang/String;)V
+processAheadOfTime
+ (Lorg/springframework/beans/factory/support/RegisteredBean;)Lorg/springframework/beans/factory/aot/BeanRegistrationAotContribution;
+ (Lorg/springframework/beans/factory/support/RegisteredBean;)L0org/springframework/beans/factory/aot/BeanRegistrationAotContribution; # @Inherited(org.springframework.beans.factory.aot.BeanRegistrationAotProcessor)
+requiresDestruction
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+setDestroyAnnotationType
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+setInitAnnotationType
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V

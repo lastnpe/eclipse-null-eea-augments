@@ -1,0 +1,17 @@
+class org/springframework/core/convert/converter/ConverterRegistry
+
+addConverter
+ (Lorg/springframework/core/convert/converter/Converter<**>;)V
+ (Lorg/springframework/core/convert/converter/Converter<**>;)V
+addConverter
+ (Lorg/springframework/core/convert/converter/GenericConverter;)V
+ (Lorg/springframework/core/convert/converter/GenericConverter;)V
+addConverter
+ <S:Ljava/lang/Object;T:Ljava/lang/Object;>(Ljava/lang/Class<TS;>;Ljava/lang/Class<TT;>;Lorg/springframework/core/convert/converter/Converter<-TS;+TT;>;)V
+ <S:Ljava/lang/Object;T:Ljava/lang/Object;>(Ljava/lang/Class<TS;>;Ljava/lang/Class<TT;>;Lorg/springframework/core/convert/converter/Converter<-TS;+TT;>;)V
+addConverterFactory
+ (Lorg/springframework/core/convert/converter/ConverterFactory<**>;)V
+ (Lorg/springframework/core/convert/converter/ConverterFactory<**>;)V
+removeConvertible
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)V

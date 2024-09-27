@@ -1,0 +1,38 @@
+class org/springframework/beans/factory/xml/ParserContext
+
+<init>
+ (Lorg/springframework/beans/factory/xml/XmlReaderContext;Lorg/springframework/beans/factory/xml/BeanDefinitionParserDelegate;)V
+ (Lorg/springframework/beans/factory/xml/XmlReaderContext;Lorg/springframework/beans/factory/xml/BeanDefinitionParserDelegate;)V
+<init>
+ (Lorg/springframework/beans/factory/xml/XmlReaderContext;Lorg/springframework/beans/factory/xml/BeanDefinitionParserDelegate;Lorg/springframework/beans/factory/config/BeanDefinition;)V
+ (Lorg/springframework/beans/factory/xml/XmlReaderContext;Lorg/springframework/beans/factory/xml/BeanDefinitionParserDelegate;Lorg/springframework/beans/factory/config/BeanDefinition;)V
+extractSource
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)L0java/lang/Object;
+getContainingBeanDefinition
+ ()Lorg/springframework/beans/factory/config/BeanDefinition;
+ ()L0org/springframework/beans/factory/config/BeanDefinition;
+getContainingComponent
+ ()Lorg/springframework/beans/factory/parsing/CompositeComponentDefinition;
+ ()L0org/springframework/beans/factory/parsing/CompositeComponentDefinition;
+getDelegate
+ ()Lorg/springframework/beans/factory/xml/BeanDefinitionParserDelegate;
+ ()Lorg/springframework/beans/factory/xml/BeanDefinitionParserDelegate;
+getReaderContext
+ ()Lorg/springframework/beans/factory/xml/XmlReaderContext;
+ ()Lorg/springframework/beans/factory/xml/XmlReaderContext;
+getRegistry
+ ()Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;
+ ()Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;
+popContainingComponent
+ ()Lorg/springframework/beans/factory/parsing/CompositeComponentDefinition;
+ ()Lorg/springframework/beans/factory/parsing/CompositeComponentDefinition;
+pushContainingComponent
+ (Lorg/springframework/beans/factory/parsing/CompositeComponentDefinition;)V
+ (Lorg/springframework/beans/factory/parsing/CompositeComponentDefinition;)V
+registerBeanComponent
+ (Lorg/springframework/beans/factory/parsing/BeanComponentDefinition;)V
+ (Lorg/springframework/beans/factory/parsing/BeanComponentDefinition;)V
+registerComponent
+ (Lorg/springframework/beans/factory/parsing/ComponentDefinition;)V
+ (Lorg/springframework/beans/factory/parsing/ComponentDefinition;)V

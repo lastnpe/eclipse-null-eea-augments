@@ -1,0 +1,45 @@
+class org/springframework/beans/PropertyAccessor
+
+NESTED_PROPERTY_SEPARATOR
+ Ljava/lang/String;
+ L1java/lang/String;
+PROPERTY_KEY_PREFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+PROPERTY_KEY_SUFFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getPropertyType
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;)L0java/lang/Class<*>;
+getPropertyTypeDescriptor
+ (Ljava/lang/String;)Lorg/springframework/core/convert/TypeDescriptor;
+ (Ljava/lang/String;)L0org/springframework/core/convert/TypeDescriptor;
+getPropertyValue
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object;
+isReadableProperty
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isWritableProperty
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+setPropertyValue
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+setPropertyValue
+ (Lorg/springframework/beans/PropertyValue;)V
+ (Lorg/springframework/beans/PropertyValue;)V
+setPropertyValues
+ (Ljava/util/Map<**>;)V
+ (Ljava/util/Map<**>;)V
+setPropertyValues
+ (Lorg/springframework/beans/PropertyValues;)V
+ (Lorg/springframework/beans/PropertyValues;)V
+setPropertyValues
+ (Lorg/springframework/beans/PropertyValues;Z)V
+ (Lorg/springframework/beans/PropertyValues;Z)V
+setPropertyValues
+ (Lorg/springframework/beans/PropertyValues;ZZ)V
+ (Lorg/springframework/beans/PropertyValues;ZZ)V

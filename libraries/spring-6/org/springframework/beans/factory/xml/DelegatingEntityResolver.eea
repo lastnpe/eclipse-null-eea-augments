@@ -1,0 +1,21 @@
+class org/springframework/beans/factory/xml/DelegatingEntityResolver
+
+DTD_SUFFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+XSD_SUFFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+<init>
+ (Lorg/xml/sax/EntityResolver;Lorg/xml/sax/EntityResolver;)V
+ (Lorg/xml/sax/EntityResolver;Lorg/xml/sax/EntityResolver;)V
+resolveEntity
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/xml/sax/InputSource;
+ (Ljava/lang/String;Ljava/lang/String;)L0org/xml/sax/InputSource;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

@@ -1,0 +1,17 @@
+class org/springframework/beans/factory/annotation/AnnotatedGenericBeanDefinition
+
+<init>
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+<init>
+ (Lorg/springframework/core/type/AnnotationMetadata;)V
+ (Lorg/springframework/core/type/AnnotationMetadata;)V
+<init>
+ (Lorg/springframework/core/type/AnnotationMetadata;Lorg/springframework/core/type/MethodMetadata;)V
+ (Lorg/springframework/core/type/AnnotationMetadata;Lorg/springframework/core/type/MethodMetadata;)V
+getFactoryMethodMetadata
+ ()Lorg/springframework/core/type/MethodMetadata;
+ ()L0org/springframework/core/type/MethodMetadata; # @Inherited(org.springframework.beans.factory.annotation.AnnotatedBeanDefinition)
+getMetadata
+ ()Lorg/springframework/core/type/AnnotationMetadata;
+ ()Lorg/springframework/core/type/AnnotationMetadata;

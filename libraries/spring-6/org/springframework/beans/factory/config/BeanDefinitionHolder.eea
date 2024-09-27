@@ -1,0 +1,38 @@
+class org/springframework/beans/factory/config/BeanDefinitionHolder
+
+<init>
+ (Lorg/springframework/beans/factory/config/BeanDefinition;Ljava/lang/String;)V
+ (Lorg/springframework/beans/factory/config/BeanDefinition;Ljava/lang/String;)V
+<init>
+ (Lorg/springframework/beans/factory/config/BeanDefinition;Ljava/lang/String;[Ljava/lang/String;)V
+ (Lorg/springframework/beans/factory/config/BeanDefinition;Ljava/lang/String;[Ljava/lang/String;)V
+<init>
+ (Lorg/springframework/beans/factory/config/BeanDefinitionHolder;)V
+ (Lorg/springframework/beans/factory/config/BeanDefinitionHolder;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAliases
+ ()[Ljava/lang/String;
+ ()[0Ljava/lang/String;
+getBeanDefinition
+ ()Lorg/springframework/beans/factory/config/BeanDefinition;
+ ()Lorg/springframework/beans/factory/config/BeanDefinition;
+getBeanName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getLongDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getShortDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSource
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object; # @Inherited(org.springframework.beans.BeanMetadataElement)
+matchesName
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

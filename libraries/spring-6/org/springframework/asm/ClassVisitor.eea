@@ -1,0 +1,54 @@
+class org/springframework/asm/ClassVisitor
+
+cv
+ Lorg/springframework/asm/ClassVisitor;
+ Lorg/springframework/asm/ClassVisitor;
+
+<init>
+ (ILorg/springframework/asm/ClassVisitor;)V
+ (ILorg/springframework/asm/ClassVisitor;)V
+getDelegate
+ ()Lorg/springframework/asm/ClassVisitor;
+ ()Lorg/springframework/asm/ClassVisitor;
+visit
+ (IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
+ (IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
+visitAnnotation
+ (Ljava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;
+ (Ljava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;
+visitAttribute
+ (Lorg/springframework/asm/Attribute;)V
+ (Lorg/springframework/asm/Attribute;)V
+visitField
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/asm/FieldVisitor;
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/asm/FieldVisitor;
+visitInnerClass
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
+visitMethod
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/asm/MethodVisitor;
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/asm/MethodVisitor;
+visitModule
+ (Ljava/lang/String;ILjava/lang/String;)Lorg/springframework/asm/ModuleVisitor;
+ (Ljava/lang/String;ILjava/lang/String;)Lorg/springframework/asm/ModuleVisitor;
+visitNestHost
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+visitNestMember
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+visitOuterClass
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+visitPermittedSubclass
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+visitRecordComponent
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/asm/RecordComponentVisitor;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/asm/RecordComponentVisitor;
+visitSource
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+visitTypeAnnotation
+ (ILorg/springframework/asm/TypePath;Ljava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;
+ (ILorg/springframework/asm/TypePath;Ljava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;

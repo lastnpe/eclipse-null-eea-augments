@@ -1,0 +1,129 @@
+class org/springframework/core/MethodParameter
+
+findParameterIndex
+ (Ljava/lang/reflect/Parameter;)I
+ (Ljava/lang/reflect/Parameter;)I
+forExecutable
+ (Ljava/lang/reflect/Executable;I)Lorg/springframework/core/MethodParameter;
+ (Ljava/lang/reflect/Executable;I)Lorg/springframework/core/MethodParameter;
+forFieldAwareConstructor
+ (Ljava/lang/reflect/Constructor<*>;ILjava/lang/String;)Lorg/springframework/core/MethodParameter;
+ (Ljava/lang/reflect/Constructor<*>;ILjava/lang/String;)Lorg/springframework/core/MethodParameter;
+forMethodOrConstructor
+ (Ljava/lang/Object;I)Lorg/springframework/core/MethodParameter;
+ (Ljava/lang/Object;I)Lorg/springframework/core/MethodParameter;
+forParameter
+ (Ljava/lang/reflect/Parameter;)Lorg/springframework/core/MethodParameter;
+ (Ljava/lang/reflect/Parameter;)Lorg/springframework/core/MethodParameter;
+
+<init>
+ (Ljava/lang/reflect/Constructor<*>;I)V
+ (Ljava/lang/reflect/Constructor<*>;I)V
+<init>
+ (Ljava/lang/reflect/Constructor<*>;II)V
+ (Ljava/lang/reflect/Constructor<*>;II)V
+<init>
+ (Ljava/lang/reflect/Method;I)V
+ (Ljava/lang/reflect/Method;I)V
+<init>
+ (Ljava/lang/reflect/Method;II)V
+ (Ljava/lang/reflect/Method;II)V
+<init>
+ (Lorg/springframework/core/MethodParameter;)V
+ (Lorg/springframework/core/MethodParameter;)V
+adaptAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(TA;)TA;
+ <A::Ljava/lang/annotation/Annotation;>(TA;)TA;
+adaptAnnotationArray
+ ([Ljava/lang/annotation/Annotation;)[Ljava/lang/annotation/Annotation;
+ ([Ljava/lang/annotation/Annotation;)[Ljava/lang/annotation/Annotation;
+clone
+ ()Lorg/springframework/core/MethodParameter;
+ ()Lorg/springframework/core/MethodParameter;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAnnotatedElement
+ ()Ljava/lang/reflect/AnnotatedElement;
+ ()Ljava/lang/reflect/AnnotatedElement;
+getConstructor
+ ()Ljava/lang/reflect/Constructor<*>;
+ ()L0java/lang/reflect/Constructor<*>;
+getContainingClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getDeclaringClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getExecutable
+ ()Ljava/lang/reflect/Executable;
+ ()Ljava/lang/reflect/Executable;
+getGenericParameterType
+ ()Ljava/lang/reflect/Type;
+ ()Ljava/lang/reflect/Type;
+getMember
+ ()Ljava/lang/reflect/Member;
+ ()Ljava/lang/reflect/Member;
+getMethod
+ ()Ljava/lang/reflect/Method;
+ ()L0java/lang/reflect/Method;
+getMethodAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)T0A;
+getMethodAnnotations
+ ()[Ljava/lang/annotation/Annotation;
+ ()[Ljava/lang/annotation/Annotation;
+getNestedGenericParameterType
+ ()Ljava/lang/reflect/Type;
+ ()Ljava/lang/reflect/Type;
+getNestedParameterType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getParameter
+ ()Ljava/lang/reflect/Parameter;
+ ()Ljava/lang/reflect/Parameter;
+getParameterAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)T0A;
+getParameterAnnotations
+ ()[Ljava/lang/annotation/Annotation;
+ ()[Ljava/lang/annotation/Annotation;
+getParameterName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getParameterType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getTypeIndexForCurrentLevel
+ ()Ljava/lang/Integer;
+ ()L0java/lang/Integer;
+getTypeIndexForLevel
+ (I)Ljava/lang/Integer;
+ (I)L0java/lang/Integer;
+hasMethodAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Z
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Z
+hasParameterAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Z
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Z
+initParameterNameDiscovery
+ (Lorg/springframework/core/ParameterNameDiscoverer;)V
+ (Lorg/springframework/core/ParameterNameDiscoverer;)V
+nested
+ ()Lorg/springframework/core/MethodParameter;
+ ()Lorg/springframework/core/MethodParameter;
+nested
+ (Ljava/lang/Integer;)Lorg/springframework/core/MethodParameter;
+ (Ljava/lang/Integer;)Lorg/springframework/core/MethodParameter;
+nestedIfOptional
+ ()Lorg/springframework/core/MethodParameter;
+ ()Lorg/springframework/core/MethodParameter;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+withContainingClass
+ (Ljava/lang/Class<*>;)Lorg/springframework/core/MethodParameter;
+ (Ljava/lang/Class<*>;)Lorg/springframework/core/MethodParameter;
+withTypeIndex
+ (I)Lorg/springframework/core/MethodParameter;
+ (I)Lorg/springframework/core/MethodParameter;

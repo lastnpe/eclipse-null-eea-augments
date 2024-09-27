@@ -1,0 +1,56 @@
+class org/springframework/core/io/FileSystemResource
+
+<init>
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/nio/file/FileSystem;Ljava/lang/String;)V
+ (Ljava/nio/file/FileSystem;Ljava/lang/String;)V
+<init>
+ (Ljava/nio/file/Path;)V
+ (Ljava/nio/file/Path;)V
+createRelative
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(org.springframework.core.io.AbstractResource)
+getContentAsByteArray
+ ()[B
+ ()[B
+getContentAsString
+ (Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/nio/charset/Charset;)Ljava/lang/String;
+getDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFile
+ ()Ljava/io/File;
+ ()Ljava/io/File;
+getFilename
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.core.io.AbstractResource)
+getInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getOutputStream
+ ()Ljava/io/OutputStream;
+ ()Ljava/io/OutputStream;
+getPath
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getURI
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+getURL
+ ()Ljava/net/URL;
+ ()Ljava/net/URL;
+readableChannel
+ ()Ljava/nio/channels/ReadableByteChannel;
+ ()Ljava/nio/channels/ReadableByteChannel;
+writableChannel
+ ()Ljava/nio/channels/WritableByteChannel;
+ ()Ljava/nio/channels/WritableByteChannel;

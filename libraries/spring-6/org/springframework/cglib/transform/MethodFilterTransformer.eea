@@ -1,0 +1,11 @@
+class org/springframework/cglib/transform/MethodFilterTransformer
+
+<init>
+ (Lorg/springframework/cglib/transform/MethodFilter;Lorg/springframework/cglib/core/ClassTransformer;)V
+ (Lorg/springframework/cglib/transform/MethodFilter;Lorg/springframework/cglib/core/ClassTransformer;)V
+setTarget
+ (Lorg/springframework/asm/ClassVisitor;)V
+ (Lorg/springframework/asm/ClassVisitor;)V
+visitMethod
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/asm/MethodVisitor;
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/asm/MethodVisitor;

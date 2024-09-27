@@ -1,0 +1,32 @@
+class org/springframework/beans/factory/xml/XmlReaderContext
+
+<init>
+ (Lorg/springframework/core/io/Resource;Lorg/springframework/beans/factory/parsing/ProblemReporter;Lorg/springframework/beans/factory/parsing/ReaderEventListener;Lorg/springframework/beans/factory/parsing/SourceExtractor;Lorg/springframework/beans/factory/xml/XmlBeanDefinitionReader;Lorg/springframework/beans/factory/xml/NamespaceHandlerResolver;)V
+ (Lorg/springframework/core/io/Resource;Lorg/springframework/beans/factory/parsing/ProblemReporter;Lorg/springframework/beans/factory/parsing/ReaderEventListener;Lorg/springframework/beans/factory/parsing/SourceExtractor;Lorg/springframework/beans/factory/xml/XmlBeanDefinitionReader;Lorg/springframework/beans/factory/xml/NamespaceHandlerResolver;)V
+generateBeanName
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)Ljava/lang/String;
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)Ljava/lang/String;
+getBeanClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()L0java/lang/ClassLoader;
+getEnvironment
+ ()Lorg/springframework/core/env/Environment;
+ ()Lorg/springframework/core/env/Environment;
+getNamespaceHandlerResolver
+ ()Lorg/springframework/beans/factory/xml/NamespaceHandlerResolver;
+ ()Lorg/springframework/beans/factory/xml/NamespaceHandlerResolver;
+getReader
+ ()Lorg/springframework/beans/factory/xml/XmlBeanDefinitionReader;
+ ()Lorg/springframework/beans/factory/xml/XmlBeanDefinitionReader;
+getRegistry
+ ()Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;
+ ()Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;
+getResourceLoader
+ ()Lorg/springframework/core/io/ResourceLoader;
+ ()L0org/springframework/core/io/ResourceLoader;
+readDocumentFromString
+ (Ljava/lang/String;)Lorg/w3c/dom/Document;
+ (Ljava/lang/String;)Lorg/w3c/dom/Document;
+registerWithGeneratedName
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)Ljava/lang/String;
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)Ljava/lang/String;

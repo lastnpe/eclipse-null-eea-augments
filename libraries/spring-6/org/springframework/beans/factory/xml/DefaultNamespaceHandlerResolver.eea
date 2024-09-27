@@ -1,0 +1,22 @@
+class org/springframework/beans/factory/xml/DefaultNamespaceHandlerResolver
+
+DEFAULT_HANDLER_MAPPINGS_LOCATION
+ Ljava/lang/String;
+ L1java/lang/String;
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+<init>
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+<init>
+ (Ljava/lang/ClassLoader;Ljava/lang/String;)V
+ (Ljava/lang/ClassLoader;Ljava/lang/String;)V
+resolve
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/xml/NamespaceHandler;
+ (Ljava/lang/String;)L0org/springframework/beans/factory/xml/NamespaceHandler; # @Inherited(org.springframework.beans.factory.xml.NamespaceHandlerResolver)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

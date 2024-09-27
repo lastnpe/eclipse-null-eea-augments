@@ -1,0 +1,21 @@
+class org/springframework/core/type/filter/AbstractTypeHierarchyTraversingFilter
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+match
+ (Lorg/springframework/core/type/classreading/MetadataReader;Lorg/springframework/core/type/classreading/MetadataReaderFactory;)Z
+ (Lorg/springframework/core/type/classreading/MetadataReader;Lorg/springframework/core/type/classreading/MetadataReaderFactory;)Z
+matchClassName
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+matchInterface
+ (Ljava/lang/String;)Ljava/lang/Boolean;
+ (Ljava/lang/String;)L0java/lang/Boolean;
+matchSelf
+ (Lorg/springframework/core/type/classreading/MetadataReader;)Z
+ (Lorg/springframework/core/type/classreading/MetadataReader;)Z
+matchSuperClass
+ (Ljava/lang/String;)Ljava/lang/Boolean;
+ (Ljava/lang/String;)L0java/lang/Boolean;

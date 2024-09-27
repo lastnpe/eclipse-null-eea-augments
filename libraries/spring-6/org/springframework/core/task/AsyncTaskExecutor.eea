@@ -1,0 +1,17 @@
+class org/springframework/core/task/AsyncTaskExecutor
+
+execute
+ (Ljava/lang/Runnable;J)V
+ (Ljava/lang/Runnable;J)V
+submit
+ (Ljava/lang/Runnable;)Ljava/util/concurrent/Future<*>;
+ (Ljava/lang/Runnable;)Ljava/util/concurrent/Future<*>;
+submit
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)Ljava/util/concurrent/Future<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)Ljava/util/concurrent/Future<TT;>;
+submitCompletable
+ (Ljava/lang/Runnable;)Ljava/util/concurrent/CompletableFuture<Ljava/lang/Void;>;
+ (Ljava/lang/Runnable;)Ljava/util/concurrent/CompletableFuture<Ljava/lang/Void;>;
+submitCompletable
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)Ljava/util/concurrent/CompletableFuture<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)Ljava/util/concurrent/CompletableFuture<TT;>;

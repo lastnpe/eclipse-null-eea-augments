@@ -1,0 +1,18 @@
+class org/springframework/beans/factory/xml/PluggableSchemaResolver
+
+DEFAULT_SCHEMA_MAPPINGS_LOCATION
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+<init>
+ (Ljava/lang/ClassLoader;Ljava/lang/String;)V
+ (Ljava/lang/ClassLoader;Ljava/lang/String;)V
+resolveEntity
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/xml/sax/InputSource;
+ (Ljava/lang/String;Ljava/lang/String;)L0org/xml/sax/InputSource;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

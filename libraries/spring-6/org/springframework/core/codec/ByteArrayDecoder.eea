@@ -1,0 +1,12 @@
+class org/springframework/core/codec/ByteArrayDecoder
+
+super org/springframework/core/codec/AbstractDataBufferDecoder
+ <[B>
+ <[B>
+
+canDecode
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Z
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Z
+decode
+ (Lorg/springframework/core/io/buffer/DataBuffer;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)[B
+ (Lorg/springframework/core/io/buffer/DataBuffer;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)[B

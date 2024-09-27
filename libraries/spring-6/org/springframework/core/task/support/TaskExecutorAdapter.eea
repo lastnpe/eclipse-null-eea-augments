@@ -1,0 +1,26 @@
+class org/springframework/core/task/support/TaskExecutorAdapter
+
+<init>
+ (Ljava/util/concurrent/Executor;)V
+ (Ljava/util/concurrent/Executor;)V
+doExecute
+ (Ljava/util/concurrent/Executor;Lorg/springframework/core/task/TaskDecorator;Ljava/lang/Runnable;)V
+ (Ljava/util/concurrent/Executor;Lorg/springframework/core/task/TaskDecorator;Ljava/lang/Runnable;)V
+execute
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+setTaskDecorator
+ (Lorg/springframework/core/task/TaskDecorator;)V
+ (Lorg/springframework/core/task/TaskDecorator;)V
+submit
+ (Ljava/lang/Runnable;)Ljava/util/concurrent/Future<*>;
+ (Ljava/lang/Runnable;)Ljava/util/concurrent/Future<*>;
+submit
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)Ljava/util/concurrent/Future<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)Ljava/util/concurrent/Future<TT;>;
+submitListenable
+ (Ljava/lang/Runnable;)Lorg/springframework/util/concurrent/ListenableFuture<*>;
+ (Ljava/lang/Runnable;)Lorg/springframework/util/concurrent/ListenableFuture<*>;
+submitListenable
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)Lorg/springframework/util/concurrent/ListenableFuture<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)Lorg/springframework/util/concurrent/ListenableFuture<TT;>;

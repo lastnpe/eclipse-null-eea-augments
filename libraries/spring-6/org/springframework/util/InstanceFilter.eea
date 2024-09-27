@@ -1,0 +1,19 @@
+class org/springframework/util/InstanceFilter
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+<init>
+ (Ljava/util/Collection<+TT;>;Ljava/util/Collection<+TT;>;Z)V
+ (Ljava/util/Collection<+TT;>;Ljava/util/Collection<+TT;>;Z)V
+match
+ (TT;)Z
+ (TT;)Z
+match
+ (TT;Ljava/util/Collection<+TT;>;)Z
+ (TT;Ljava/util/Collection<+TT;>;)Z
+match
+ (TT;TT;)Z
+ (TT;TT;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

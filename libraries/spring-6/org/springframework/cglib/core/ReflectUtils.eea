@@ -1,0 +1,101 @@
+class org/springframework/cglib/core/ReflectUtils
+
+addAllInterfaces
+ (Ljava/lang/Class;Ljava/util/List;)Ljava/util/List;
+ (Ljava/lang/Class;Ljava/util/List;)Ljava/util/List;
+addAllMethods
+ (Ljava/lang/Class;Ljava/util/List;)Ljava/util/List;
+ (Ljava/lang/Class;Ljava/util/List;)Ljava/util/List;
+defineClass
+ (Ljava/lang/String;[BLjava/lang/ClassLoader;)Ljava/lang/Class;
+ (Ljava/lang/String;[BLjava/lang/ClassLoader;)Ljava/lang/Class;
+defineClass
+ (Ljava/lang/String;[BLjava/lang/ClassLoader;Ljava/security/ProtectionDomain;)Ljava/lang/Class;
+ (Ljava/lang/String;[BLjava/lang/ClassLoader;Ljava/security/ProtectionDomain;)Ljava/lang/Class;
+defineClass
+ (Ljava/lang/String;[BLjava/lang/ClassLoader;Ljava/security/ProtectionDomain;Ljava/lang/Class<*>;)Ljava/lang/Class;
+ (Ljava/lang/String;[BLjava/lang/ClassLoader;Ljava/security/ProtectionDomain;Ljava/lang/Class<*>;)Ljava/lang/Class;
+findConstructor
+ (Ljava/lang/String;)Ljava/lang/reflect/Constructor;
+ (Ljava/lang/String;)Ljava/lang/reflect/Constructor;
+findConstructor
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/reflect/Constructor;
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/reflect/Constructor;
+findDeclaredMethod
+ (Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+ (Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+findInterfaceMethod
+ (Ljava/lang/Class;)Ljava/lang/reflect/Method;
+ (Ljava/lang/Class;)Ljava/lang/reflect/Method;
+findMethod
+ (Ljava/lang/String;)Ljava/lang/reflect/Method;
+ (Ljava/lang/String;)Ljava/lang/reflect/Method;
+findMethod
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/reflect/Method;
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/reflect/Method;
+findMethods
+ ([Ljava/lang/String;[Ljava/lang/reflect/Method;)[Ljava/lang/reflect/Method;
+ ([Ljava/lang/String;[Ljava/lang/reflect/Method;)[Ljava/lang/reflect/Method;
+findNewInstance
+ (Ljava/lang/Class;)Ljava/lang/reflect/Method;
+ (Ljava/lang/Class;)Ljava/lang/reflect/Method;
+findPackageProtected
+ ([Ljava/lang/Class;)I
+ ([Ljava/lang/Class;)I
+getBeanGetters
+ (Ljava/lang/Class;)[Ljava/beans/PropertyDescriptor;
+ (Ljava/lang/Class;)[Ljava/beans/PropertyDescriptor;
+getBeanProperties
+ (Ljava/lang/Class;)[Ljava/beans/PropertyDescriptor;
+ (Ljava/lang/Class;)[Ljava/beans/PropertyDescriptor;
+getBeanSetters
+ (Ljava/lang/Class;)[Ljava/beans/PropertyDescriptor;
+ (Ljava/lang/Class;)[Ljava/beans/PropertyDescriptor;
+getClassInfo
+ (Ljava/lang/Class;)Lorg/springframework/cglib/core/ClassInfo;
+ (Ljava/lang/Class;)Lorg/springframework/cglib/core/ClassInfo;
+getClasses
+ ([Ljava/lang/Object;)[Ljava/lang/Class;
+ ([Ljava/lang/Object;)[Ljava/lang/Class;
+getConstructor
+ (Ljava/lang/Class;[Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+ (Ljava/lang/Class;[Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+getExceptionTypes
+ (Ljava/lang/reflect/Member;)[Lorg/springframework/asm/Type;
+ (Ljava/lang/reflect/Member;)[Lorg/springframework/asm/Type;
+getMethodInfo
+ (Ljava/lang/reflect/Member;)Lorg/springframework/cglib/core/MethodInfo;
+ (Ljava/lang/reflect/Member;)Lorg/springframework/cglib/core/MethodInfo;
+getMethodInfo
+ (Ljava/lang/reflect/Member;I)Lorg/springframework/cglib/core/MethodInfo;
+ (Ljava/lang/reflect/Member;I)Lorg/springframework/cglib/core/MethodInfo;
+getNames
+ ([Ljava/lang/Class;)[Ljava/lang/String;
+ ([Ljava/lang/Class;)[Ljava/lang/String;
+getPropertyMethods
+ ([Ljava/beans/PropertyDescriptor;ZZ)[Ljava/lang/reflect/Method;
+ ([Ljava/beans/PropertyDescriptor;ZZ)[Ljava/lang/reflect/Method;
+getProtectionDomain
+ (Ljava/lang/Class;)Ljava/security/ProtectionDomain;
+ (Ljava/lang/Class;)Ljava/security/ProtectionDomain;
+getSignature
+ (Ljava/lang/reflect/Member;)Lorg/springframework/cglib/core/Signature;
+ (Ljava/lang/reflect/Member;)Lorg/springframework/cglib/core/Signature;
+loadClass
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/Class<*>;
+newInstance
+ (Ljava/lang/Class;)Ljava/lang/Object;
+ (Ljava/lang/Class;)Ljava/lang/Object;
+newInstance
+ (Ljava/lang/Class;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Class;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;
+newInstance
+ (Ljava/lang/reflect/Constructor;[Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/reflect/Constructor;[Ljava/lang/Object;)Ljava/lang/Object;
+setGeneratedClassHandler
+ (Ljava/util/function/BiConsumer<Ljava/lang/String;[B>;)V
+ (Ljava/util/function/BiConsumer<Ljava/lang/String;[B>;)V
+setLoadedClassHandler
+ (Ljava/util/function/Consumer<Ljava/lang/Class<*>;>;)V
+ (Ljava/util/function/Consumer<Ljava/lang/Class<*>;>;)V

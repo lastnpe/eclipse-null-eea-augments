@@ -1,0 +1,20 @@
+class org/springframework/beans/factory/support/FactoryBeanRegistrySupport
+
+getCachedObjectForFactoryBean
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object;
+getFactoryBean
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/beans/factory/FactoryBean<*>;
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/beans/factory/FactoryBean<*>;
+getObjectFromFactoryBean
+ (Lorg/springframework/beans/factory/FactoryBean<*>;Ljava/lang/String;Z)Ljava/lang/Object;
+ (Lorg/springframework/beans/factory/FactoryBean<*>;Ljava/lang/String;Z)Ljava/lang/Object;
+getTypeForFactoryBean
+ (Lorg/springframework/beans/factory/FactoryBean<*>;)Ljava/lang/Class<*>;
+ (Lorg/springframework/beans/factory/FactoryBean<*>;)L0java/lang/Class<*>;
+postProcessObjectFromFactoryBean
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+removeSingleton
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

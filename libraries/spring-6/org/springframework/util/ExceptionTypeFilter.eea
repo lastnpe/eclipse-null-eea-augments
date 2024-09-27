@@ -1,0 +1,12 @@
+class org/springframework/util/ExceptionTypeFilter
+
+super org/springframework/util/InstanceFilter
+ <Ljava/lang/Class<+Ljava/lang/Throwable;>;>
+ <Ljava/lang/Class<+Ljava/lang/Throwable;>;>
+
+<init>
+ (Ljava/util/Collection<+Ljava/lang/Class<+Ljava/lang/Throwable;>;>;Ljava/util/Collection<+Ljava/lang/Class<+Ljava/lang/Throwable;>;>;Z)V
+ (Ljava/util/Collection<+Ljava/lang/Class<+Ljava/lang/Throwable;>;>;Ljava/util/Collection<+Ljava/lang/Class<+Ljava/lang/Throwable;>;>;Z)V
+match
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;Ljava/lang/Class<+Ljava/lang/Throwable;>;)Z
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;Ljava/lang/Class<+Ljava/lang/Throwable;>;)Z

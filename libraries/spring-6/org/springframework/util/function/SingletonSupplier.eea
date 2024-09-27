@@ -1,0 +1,33 @@
+class org/springframework/util/function/SingletonSupplier
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super java/util/function/Supplier
+ <TT;>
+ <TT;>
+
+of
+ <T:Ljava/lang/Object;>(Ljava/util/function/Supplier<TT;>;)Lorg/springframework/util/function/SingletonSupplier<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/function/Supplier<TT;>;)Lorg/springframework/util/function/SingletonSupplier<TT;>;
+of
+ <T:Ljava/lang/Object;>(TT;)Lorg/springframework/util/function/SingletonSupplier<TT;>;
+ <T:Ljava/lang/Object;>(TT;)Lorg/springframework/util/function/SingletonSupplier<TT;>;
+ofNullable
+ <T:Ljava/lang/Object;>(Ljava/util/function/Supplier<TT;>;)Lorg/springframework/util/function/SingletonSupplier<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/function/Supplier<TT;>;)L0org/springframework/util/function/SingletonSupplier<TT;>;
+ofNullable
+ <T:Ljava/lang/Object;>(TT;)Lorg/springframework/util/function/SingletonSupplier<TT;>;
+ <T:Ljava/lang/Object;>(TT;)L0org/springframework/util/function/SingletonSupplier<TT;>;
+
+<init>
+ (Ljava/util/function/Supplier<+TT;>;Ljava/util/function/Supplier<+TT;>;)V
+ (Ljava/util/function/Supplier<+TT;>;Ljava/util/function/Supplier<+TT;>;)V
+<init>
+ (TT;Ljava/util/function/Supplier<+TT;>;)V
+ (TT;Ljava/util/function/Supplier<+TT;>;)V
+get
+ ()TT;
+ ()T0T;
+obtain
+ ()TT;
+ ()TT;

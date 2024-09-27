@@ -1,0 +1,20 @@
+class org/springframework/util/RouteMatcher
+
+combine
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+getPatternComparator
+ (Lorg/springframework/util/RouteMatcher$Route;)Ljava/util/Comparator<Ljava/lang/String;>;
+ (Lorg/springframework/util/RouteMatcher$Route;)Ljava/util/Comparator<Ljava/lang/String;>;
+isPattern
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+match
+ (Ljava/lang/String;Lorg/springframework/util/RouteMatcher$Route;)Z
+ (Ljava/lang/String;Lorg/springframework/util/RouteMatcher$Route;)Z
+matchAndExtract
+ (Ljava/lang/String;Lorg/springframework/util/RouteMatcher$Route;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+ (Ljava/lang/String;Lorg/springframework/util/RouteMatcher$Route;)L0java/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+parseRoute
+ (Ljava/lang/String;)Lorg/springframework/util/RouteMatcher$Route;
+ (Ljava/lang/String;)Lorg/springframework/util/RouteMatcher$Route;

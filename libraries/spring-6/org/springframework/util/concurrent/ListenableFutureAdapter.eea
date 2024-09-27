@@ -1,0 +1,20 @@
+class org/springframework/util/concurrent/ListenableFutureAdapter
+ <T:Ljava/lang/Object;S:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;S:Ljava/lang/Object;>
+
+super org/springframework/util/concurrent/FutureAdapter
+ <TT;TS;>
+ <TT;TS;>
+super org/springframework/util/concurrent/ListenableFuture
+ <TT;>
+ <TT;>
+
+<init>
+ (Lorg/springframework/util/concurrent/ListenableFuture<TS;>;)V
+ (Lorg/springframework/util/concurrent/ListenableFuture<TS;>;)V
+addCallback
+ (Lorg/springframework/util/concurrent/ListenableFutureCallback<-TT;>;)V
+ (Lorg/springframework/util/concurrent/ListenableFutureCallback<-TT;>;)V
+addCallback
+ (Lorg/springframework/util/concurrent/SuccessCallback<-TT;>;Lorg/springframework/util/concurrent/FailureCallback;)V
+ (Lorg/springframework/util/concurrent/SuccessCallback<-TT;>;Lorg/springframework/util/concurrent/FailureCallback;)V

@@ -1,0 +1,74 @@
+class org/springframework/util/xml/StaxUtils
+
+createContentHandler
+ (Ljavax/xml/stream/XMLEventWriter;)Lorg/xml/sax/ContentHandler;
+ (Ljavax/xml/stream/XMLEventWriter;)Lorg/xml/sax/ContentHandler;
+createContentHandler
+ (Ljavax/xml/stream/XMLStreamWriter;)Lorg/xml/sax/ContentHandler;
+ (Ljavax/xml/stream/XMLStreamWriter;)Lorg/xml/sax/ContentHandler;
+createCustomStaxResult
+ (Ljavax/xml/stream/XMLEventWriter;)Ljavax/xml/transform/Result;
+ (Ljavax/xml/stream/XMLEventWriter;)Ljavax/xml/transform/Result;
+createCustomStaxResult
+ (Ljavax/xml/stream/XMLStreamWriter;)Ljavax/xml/transform/Result;
+ (Ljavax/xml/stream/XMLStreamWriter;)Ljavax/xml/transform/Result;
+createCustomStaxSource
+ (Ljavax/xml/stream/XMLEventReader;)Ljavax/xml/transform/Source;
+ (Ljavax/xml/stream/XMLEventReader;)Ljavax/xml/transform/Source;
+createCustomStaxSource
+ (Ljavax/xml/stream/XMLStreamReader;)Ljavax/xml/transform/Source;
+ (Ljavax/xml/stream/XMLStreamReader;)Ljavax/xml/transform/Source;
+createDefensiveInputFactory
+ ()Ljavax/xml/stream/XMLInputFactory;
+ ()Ljavax/xml/stream/XMLInputFactory;
+createDefensiveInputFactory
+ <T:Ljavax/xml/stream/XMLInputFactory;>(Ljava/util/function/Supplier<TT;>;)TT;
+ <T:Ljavax/xml/stream/XMLInputFactory;>(Ljava/util/function/Supplier<TT;>;)TT;
+createEventStreamReader
+ (Ljavax/xml/stream/XMLEventReader;)Ljavax/xml/stream/XMLStreamReader;
+ (Ljavax/xml/stream/XMLEventReader;)Ljavax/xml/stream/XMLStreamReader;
+createEventStreamWriter
+ (Ljavax/xml/stream/XMLEventWriter;)Ljavax/xml/stream/XMLStreamWriter;
+ (Ljavax/xml/stream/XMLEventWriter;)Ljavax/xml/stream/XMLStreamWriter;
+createEventStreamWriter
+ (Ljavax/xml/stream/XMLEventWriter;Ljavax/xml/stream/XMLEventFactory;)Ljavax/xml/stream/XMLStreamWriter;
+ (Ljavax/xml/stream/XMLEventWriter;Ljavax/xml/stream/XMLEventFactory;)Ljavax/xml/stream/XMLStreamWriter;
+createStaxResult
+ (Ljavax/xml/stream/XMLEventWriter;)Ljavax/xml/transform/Result;
+ (Ljavax/xml/stream/XMLEventWriter;)Ljavax/xml/transform/Result;
+createStaxResult
+ (Ljavax/xml/stream/XMLStreamWriter;)Ljavax/xml/transform/Result;
+ (Ljavax/xml/stream/XMLStreamWriter;)Ljavax/xml/transform/Result;
+createStaxSource
+ (Ljavax/xml/stream/XMLEventReader;)Ljavax/xml/transform/Source;
+ (Ljavax/xml/stream/XMLEventReader;)Ljavax/xml/transform/Source;
+createStaxSource
+ (Ljavax/xml/stream/XMLStreamReader;)Ljavax/xml/transform/Source;
+ (Ljavax/xml/stream/XMLStreamReader;)Ljavax/xml/transform/Source;
+createXMLEventReader
+ (Ljava/util/List<Ljavax/xml/stream/events/XMLEvent;>;)Ljavax/xml/stream/XMLEventReader;
+ (Ljava/util/List<Ljavax/xml/stream/events/XMLEvent;>;)Ljavax/xml/stream/XMLEventReader;
+createXMLReader
+ (Ljavax/xml/stream/XMLEventReader;)Lorg/xml/sax/XMLReader;
+ (Ljavax/xml/stream/XMLEventReader;)Lorg/xml/sax/XMLReader;
+createXMLReader
+ (Ljavax/xml/stream/XMLStreamReader;)Lorg/xml/sax/XMLReader;
+ (Ljavax/xml/stream/XMLStreamReader;)Lorg/xml/sax/XMLReader;
+getXMLEventReader
+ (Ljavax/xml/transform/Source;)Ljavax/xml/stream/XMLEventReader;
+ (Ljavax/xml/transform/Source;)L0javax/xml/stream/XMLEventReader;
+getXMLEventWriter
+ (Ljavax/xml/transform/Result;)Ljavax/xml/stream/XMLEventWriter;
+ (Ljavax/xml/transform/Result;)L0javax/xml/stream/XMLEventWriter;
+getXMLStreamReader
+ (Ljavax/xml/transform/Source;)Ljavax/xml/stream/XMLStreamReader;
+ (Ljavax/xml/transform/Source;)L0javax/xml/stream/XMLStreamReader;
+getXMLStreamWriter
+ (Ljavax/xml/transform/Result;)Ljavax/xml/stream/XMLStreamWriter;
+ (Ljavax/xml/transform/Result;)L0javax/xml/stream/XMLStreamWriter;
+isStaxResult
+ (Ljavax/xml/transform/Result;)Z
+ (Ljavax/xml/transform/Result;)Z
+isStaxSource
+ (Ljavax/xml/transform/Source;)Z
+ (Ljavax/xml/transform/Source;)Z

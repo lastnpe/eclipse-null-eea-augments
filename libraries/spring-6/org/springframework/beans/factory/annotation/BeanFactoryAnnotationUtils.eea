@@ -1,0 +1,11 @@
+class org/springframework/beans/factory/annotation/BeanFactoryAnnotationUtils
+
+isQualifierMatch
+ (Ljava/util/function/Predicate<Ljava/lang/String;>;Ljava/lang/String;Lorg/springframework/beans/factory/BeanFactory;)Z
+ (Ljava/util/function/Predicate<Ljava/lang/String;>;Ljava/lang/String;Lorg/springframework/beans/factory/BeanFactory;)Z
+qualifiedBeanOfType
+ <T:Ljava/lang/Object;>(Lorg/springframework/beans/factory/BeanFactory;Ljava/lang/Class<TT;>;Ljava/lang/String;)TT;
+ <T:Ljava/lang/Object;>(Lorg/springframework/beans/factory/BeanFactory;Ljava/lang/Class<TT;>;Ljava/lang/String;)TT;
+qualifiedBeansOfType
+ <T:Ljava/lang/Object;>(Lorg/springframework/beans/factory/ListableBeanFactory;Ljava/lang/Class<TT;>;Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/beans/factory/ListableBeanFactory;Ljava/lang/Class<TT;>;Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;TT;>;

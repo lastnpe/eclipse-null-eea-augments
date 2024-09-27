@@ -1,0 +1,83 @@
+class org/springframework/util/AutoPopulatingList
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/util/List
+ <TE;>
+ <TE;>
+
+<init>
+ (Ljava/lang/Class<+TE;>;)V
+ (Ljava/lang/Class<+TE;>;)V
+<init>
+ (Ljava/util/List<TE;>;Ljava/lang/Class<+TE;>;)V
+ (Ljava/util/List<TE;>;Ljava/lang/Class<+TE;>;)V
+<init>
+ (Ljava/util/List<TE;>;Lorg/springframework/util/AutoPopulatingList$ElementFactory<TE;>;)V
+ (Ljava/util/List<TE;>;Lorg/springframework/util/AutoPopulatingList$ElementFactory<TE;>;)V
+<init>
+ (Lorg/springframework/util/AutoPopulatingList$ElementFactory<TE;>;)V
+ (Lorg/springframework/util/AutoPopulatingList$ElementFactory<TE;>;)V
+add
+ (ITE;)V
+ (ITE;)V
+add
+ (TE;)Z
+ (TE;)Z
+addAll
+ (ILjava/util/Collection<+TE;>;)Z
+ (ILjava/util/Collection<+TE;>;)Z
+addAll
+ (Ljava/util/Collection<+TE;>;)Z
+ (Ljava/util/Collection<+TE;>;)Z
+contains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+containsAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (I)TE;
+ (I)TE;
+indexOf
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()Ljava/util/Iterator<TE;>;
+lastIndexOf
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+listIterator
+ ()Ljava/util/ListIterator<TE;>;
+ ()Ljava/util/ListIterator<TE;>;
+listIterator
+ (I)Ljava/util/ListIterator<TE;>;
+ (I)Ljava/util/ListIterator<TE;>;
+remove
+ (I)TE;
+ (I)TE;
+remove
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+removeAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+retainAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+set
+ (ITE;)TE;
+ (ITE;)TE;
+subList
+ (II)Ljava/util/List<TE;>;
+ (II)Ljava/util/List<TE;>;
+toArray
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+toArray
+ <T:Ljava/lang/Object;>([TT;)[TT;
+ <T:Ljava/lang/Object;>([TT;)[TT;

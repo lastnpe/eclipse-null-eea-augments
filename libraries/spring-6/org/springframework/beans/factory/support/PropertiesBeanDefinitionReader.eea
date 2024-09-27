@@ -1,0 +1,81 @@
+class org/springframework/beans/factory/support/PropertiesBeanDefinitionReader
+
+ABSTRACT_KEY
+ Ljava/lang/String;
+ L1java/lang/String;
+CLASS_KEY
+ Ljava/lang/String;
+ L1java/lang/String;
+CONSTRUCTOR_ARG_PREFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+LAZY_INIT_KEY
+ Ljava/lang/String;
+ L1java/lang/String;
+PARENT_KEY
+ Ljava/lang/String;
+ L1java/lang/String;
+REF_PREFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+REF_SUFFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+SCOPE_KEY
+ Ljava/lang/String;
+ L1java/lang/String;
+SEPARATOR
+ Ljava/lang/String;
+ L1java/lang/String;
+SINGLETON_KEY
+ Ljava/lang/String;
+ L1java/lang/String;
+TRUE_VALUE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;)V
+ (Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;)V
+getDefaultParentBean
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getPropertiesPersister
+ ()Lorg/springframework/util/PropertiesPersister;
+ ()Lorg/springframework/util/PropertiesPersister;
+loadBeanDefinitions
+ (Lorg/springframework/core/io/Resource;)I
+ (Lorg/springframework/core/io/Resource;)I
+loadBeanDefinitions
+ (Lorg/springframework/core/io/Resource;Ljava/lang/String;)I
+ (Lorg/springframework/core/io/Resource;Ljava/lang/String;)I
+loadBeanDefinitions
+ (Lorg/springframework/core/io/support/EncodedResource;)I
+ (Lorg/springframework/core/io/support/EncodedResource;)I
+loadBeanDefinitions
+ (Lorg/springframework/core/io/support/EncodedResource;Ljava/lang/String;)I
+ (Lorg/springframework/core/io/support/EncodedResource;Ljava/lang/String;)I
+registerBeanDefinition
+ (Ljava/lang/String;Ljava/util/Map<**>;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/util/Map<**>;Ljava/lang/String;Ljava/lang/String;)V
+registerBeanDefinitions
+ (Ljava/util/Map<**>;)I
+ (Ljava/util/Map<**>;)I
+registerBeanDefinitions
+ (Ljava/util/Map<**>;Ljava/lang/String;)I
+ (Ljava/util/Map<**>;Ljava/lang/String;)I
+registerBeanDefinitions
+ (Ljava/util/Map<**>;Ljava/lang/String;Ljava/lang/String;)I
+ (Ljava/util/Map<**>;Ljava/lang/String;Ljava/lang/String;)I
+registerBeanDefinitions
+ (Ljava/util/ResourceBundle;)I
+ (Ljava/util/ResourceBundle;)I
+registerBeanDefinitions
+ (Ljava/util/ResourceBundle;Ljava/lang/String;)I
+ (Ljava/util/ResourceBundle;Ljava/lang/String;)I
+setDefaultParentBean
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPropertiesPersister
+ (Lorg/springframework/util/PropertiesPersister;)V
+ (Lorg/springframework/util/PropertiesPersister;)V

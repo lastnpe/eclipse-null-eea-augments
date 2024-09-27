@@ -1,0 +1,92 @@
+class org/springframework/core/io/buffer/Netty5DataBuffer
+
+asByteBuffer
+ ()Ljava/nio/ByteBuffer;
+ ()Ljava/nio/ByteBuffer;
+asByteBuffer
+ (II)Ljava/nio/ByteBuffer;
+ (II)Ljava/nio/ByteBuffer;
+capacity
+ (I)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+ (I)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+ensureWritable
+ (I)Lorg/springframework/core/io/buffer/DataBuffer;
+ (I)Lorg/springframework/core/io/buffer/DataBuffer;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+factory
+ ()Lorg/springframework/core/io/buffer/DataBufferFactory;
+ ()Lorg/springframework/core/io/buffer/DataBufferFactory;
+getNativeBuffer
+ ()Lio/netty5/buffer/Buffer;
+ ()Lio/netty5/buffer/Buffer;
+indexOf
+ (Ljava/util/function/IntPredicate;I)I
+ (Ljava/util/function/IntPredicate;I)I
+lastIndexOf
+ (Ljava/util/function/IntPredicate;I)I
+ (Ljava/util/function/IntPredicate;I)I
+read
+ ([B)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+ ([B)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+read
+ ([BII)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+ ([BII)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+readPosition
+ (I)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+ (I)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+readableByteBuffers
+ ()Lorg/springframework/core/io/buffer/DataBuffer$ByteBufferIterator;
+ ()Lorg/springframework/core/io/buffer/DataBuffer$ByteBufferIterator;
+slice
+ (II)Lorg/springframework/core/io/buffer/DataBuffer;
+ (II)Lorg/springframework/core/io/buffer/DataBuffer;
+split
+ (I)Lorg/springframework/core/io/buffer/DataBuffer;
+ (I)Lorg/springframework/core/io/buffer/DataBuffer;
+toByteBuffer
+ (II)Ljava/nio/ByteBuffer;
+ (II)Ljava/nio/ByteBuffer;
+toByteBuffer
+ (ILjava/nio/ByteBuffer;II)V
+ (ILjava/nio/ByteBuffer;II)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+toString
+ (IILjava/nio/charset/Charset;)Ljava/lang/String;
+ (IILjava/nio/charset/Charset;)Ljava/lang/String;
+toString
+ (Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/nio/charset/Charset;)Ljava/lang/String;
+touch
+ (Ljava/lang/Object;)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+ (Ljava/lang/Object;)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+writableByteBuffers
+ ()Lorg/springframework/core/io/buffer/DataBuffer$ByteBufferIterator;
+ ()Lorg/springframework/core/io/buffer/DataBuffer$ByteBufferIterator;
+write
+ (B)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+ (B)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+write
+ (Ljava/lang/CharSequence;Ljava/nio/charset/Charset;)Lorg/springframework/core/io/buffer/DataBuffer;
+ (Ljava/lang/CharSequence;Ljava/nio/charset/Charset;)Lorg/springframework/core/io/buffer/DataBuffer;
+write
+ ([B)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+ ([B)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+write
+ ([BII)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+ ([BII)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+write
+ ([Lio/netty5/buffer/Buffer;)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+ ([Lio/netty5/buffer/Buffer;)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+write
+ ([Ljava/nio/ByteBuffer;)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+ ([Ljava/nio/ByteBuffer;)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+write
+ ([Lorg/springframework/core/io/buffer/DataBuffer;)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+ ([Lorg/springframework/core/io/buffer/DataBuffer;)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+writePosition
+ (I)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+ (I)Lorg/springframework/core/io/buffer/Netty5DataBuffer;

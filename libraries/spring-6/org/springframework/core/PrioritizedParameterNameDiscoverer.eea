@@ -1,0 +1,11 @@
+class org/springframework/core/PrioritizedParameterNameDiscoverer
+
+addDiscoverer
+ (Lorg/springframework/core/ParameterNameDiscoverer;)V
+ (Lorg/springframework/core/ParameterNameDiscoverer;)V
+getParameterNames
+ (Ljava/lang/reflect/Constructor<*>;)[Ljava/lang/String;
+ (Ljava/lang/reflect/Constructor<*>;)[0Ljava/lang/String; # @Inherited(org.springframework.core.ParameterNameDiscoverer)
+getParameterNames
+ (Ljava/lang/reflect/Method;)[Ljava/lang/String;
+ (Ljava/lang/reflect/Method;)[0Ljava/lang/String; # @Inherited(org.springframework.core.ParameterNameDiscoverer)

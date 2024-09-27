@@ -1,0 +1,33 @@
+class org/springframework/core/io/buffer/NettyDataBufferFactory
+
+toByteBuf
+ (Lorg/springframework/core/io/buffer/DataBuffer;)Lio/netty/buffer/ByteBuf;
+ (Lorg/springframework/core/io/buffer/DataBuffer;)Lio/netty/buffer/ByteBuf;
+
+<init>
+ (Lio/netty/buffer/ByteBufAllocator;)V
+ (Lio/netty/buffer/ByteBufAllocator;)V
+allocateBuffer
+ ()Lorg/springframework/core/io/buffer/NettyDataBuffer;
+ ()Lorg/springframework/core/io/buffer/NettyDataBuffer;
+allocateBuffer
+ (I)Lorg/springframework/core/io/buffer/NettyDataBuffer;
+ (I)Lorg/springframework/core/io/buffer/NettyDataBuffer;
+getByteBufAllocator
+ ()Lio/netty/buffer/ByteBufAllocator;
+ ()Lio/netty/buffer/ByteBufAllocator;
+join
+ (Ljava/util/List<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Lorg/springframework/core/io/buffer/DataBuffer;
+ (Ljava/util/List<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Lorg/springframework/core/io/buffer/DataBuffer;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+wrap
+ (Lio/netty/buffer/ByteBuf;)Lorg/springframework/core/io/buffer/NettyDataBuffer;
+ (Lio/netty/buffer/ByteBuf;)Lorg/springframework/core/io/buffer/NettyDataBuffer;
+wrap
+ (Ljava/nio/ByteBuffer;)Lorg/springframework/core/io/buffer/NettyDataBuffer;
+ (Ljava/nio/ByteBuffer;)Lorg/springframework/core/io/buffer/NettyDataBuffer;
+wrap
+ ([B)Lorg/springframework/core/io/buffer/DataBuffer;
+ ([B)Lorg/springframework/core/io/buffer/DataBuffer;

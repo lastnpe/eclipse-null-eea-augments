@@ -1,0 +1,21 @@
+class org/springframework/cglib/transform/AnnotationVisitorTee
+
+getInstance
+ (Lorg/springframework/asm/AnnotationVisitor;Lorg/springframework/asm/AnnotationVisitor;)Lorg/springframework/asm/AnnotationVisitor;
+ (Lorg/springframework/asm/AnnotationVisitor;Lorg/springframework/asm/AnnotationVisitor;)Lorg/springframework/asm/AnnotationVisitor;
+
+<init>
+ (Lorg/springframework/asm/AnnotationVisitor;Lorg/springframework/asm/AnnotationVisitor;)V
+ (Lorg/springframework/asm/AnnotationVisitor;Lorg/springframework/asm/AnnotationVisitor;)V
+visit
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+visitAnnotation
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/asm/AnnotationVisitor;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/asm/AnnotationVisitor;
+visitArray
+ (Ljava/lang/String;)Lorg/springframework/asm/AnnotationVisitor;
+ (Ljava/lang/String;)Lorg/springframework/asm/AnnotationVisitor;
+visitEnum
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V

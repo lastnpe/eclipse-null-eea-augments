@@ -1,0 +1,20 @@
+class org/springframework/aot/generate/DefaultMethodReference
+
+<init>
+ (Lorg/springframework/javapoet/MethodSpec;Lorg/springframework/javapoet/ClassName;)V
+ (Lorg/springframework/javapoet/MethodSpec;Lorg/springframework/javapoet/ClassName;)V
+addArguments
+ (Lorg/springframework/javapoet/CodeBlock$Builder;Lorg/springframework/aot/generate/MethodReference$ArgumentCodeGenerator;)V
+ (Lorg/springframework/javapoet/CodeBlock$Builder;Lorg/springframework/aot/generate/MethodReference$ArgumentCodeGenerator;)V
+instantiateDeclaringClass
+ (Lorg/springframework/javapoet/ClassName;)Lorg/springframework/javapoet/CodeBlock;
+ (Lorg/springframework/javapoet/ClassName;)Lorg/springframework/javapoet/CodeBlock;
+toCodeBlock
+ ()Lorg/springframework/javapoet/CodeBlock;
+ ()Lorg/springframework/javapoet/CodeBlock;
+toInvokeCodeBlock
+ (Lorg/springframework/aot/generate/MethodReference$ArgumentCodeGenerator;Lorg/springframework/javapoet/ClassName;)Lorg/springframework/javapoet/CodeBlock;
+ (Lorg/springframework/aot/generate/MethodReference$ArgumentCodeGenerator;Lorg/springframework/javapoet/ClassName;)Lorg/springframework/javapoet/CodeBlock;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

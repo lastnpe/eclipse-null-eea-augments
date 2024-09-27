@@ -1,0 +1,27 @@
+class org/springframework/util/function/ThrowingSupplier
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super java/util/function/Supplier
+ <TT;>
+ <TT;>
+
+of
+ <T:Ljava/lang/Object;>(Lorg/springframework/util/function/ThrowingSupplier<TT;>;)Lorg/springframework/util/function/ThrowingSupplier<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/util/function/ThrowingSupplier<TT;>;)Lorg/springframework/util/function/ThrowingSupplier<TT;>;
+of
+ <T:Ljava/lang/Object;>(Lorg/springframework/util/function/ThrowingSupplier<TT;>;Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Exception;Ljava/lang/RuntimeException;>;)Lorg/springframework/util/function/ThrowingSupplier<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/util/function/ThrowingSupplier<TT;>;Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Exception;Ljava/lang/RuntimeException;>;)Lorg/springframework/util/function/ThrowingSupplier<TT;>;
+
+get
+ ()TT;
+ ()TT;
+get
+ (Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Exception;Ljava/lang/RuntimeException;>;)TT;
+ (Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Exception;Ljava/lang/RuntimeException;>;)TT;
+getWithException
+ ()TT;
+ ()TT;
+throwing
+ (Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Exception;Ljava/lang/RuntimeException;>;)Lorg/springframework/util/function/ThrowingSupplier<TT;>;
+ (Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Exception;Ljava/lang/RuntimeException;>;)Lorg/springframework/util/function/ThrowingSupplier<TT;>;
