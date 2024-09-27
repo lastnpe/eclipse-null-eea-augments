@@ -1,4 +1,5 @@
 class javax/servlet/http/HttpServlet
+
 doDelete
  (Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
  (L1javax/servlet/http/HttpServletRequest;L1javax/servlet/http/HttpServletResponse;)V
@@ -25,7 +26,7 @@ getLastModified
  (L1javax/servlet/http/HttpServletRequest;)J
 service
  (Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V
- (L1javax/servlet/ServletRequest;L1javax/servlet/ServletResponse;)V
+ (L1javax/servlet/ServletRequest;L1javax/servlet/ServletResponse;)V # @Inherited(javax.servlet.GenericServlet)
 service
  (Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
  (L1javax/servlet/http/HttpServletRequest;L1javax/servlet/http/HttpServletResponse;)V

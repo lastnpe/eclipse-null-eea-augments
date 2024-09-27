@@ -1,0 +1,14 @@
+class javax/servlet/FilterRegistration
+
+addMappingForServletNames
+ (Ljava/util/EnumSet<Ljavax/servlet/DispatcherType;>;Z[Ljava/lang/String;)V
+ (Ljava/util/EnumSet<Ljavax/servlet/DispatcherType;>;Z[Ljava/lang/String;)V
+addMappingForUrlPatterns
+ (Ljava/util/EnumSet<Ljavax/servlet/DispatcherType;>;Z[Ljava/lang/String;)V
+ (Ljava/util/EnumSet<Ljavax/servlet/DispatcherType;>;Z[Ljava/lang/String;)V
+getServletNameMappings
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+getUrlPatternMappings
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+ ()Ljava/util/Collection<Ljava/lang/String;>;

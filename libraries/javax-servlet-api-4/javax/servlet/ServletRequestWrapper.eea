@@ -1,5 +1,8 @@
-class javax/servlet/ServletRequest
+class javax/servlet/ServletRequestWrapper
 
+<init>
+ (Ljavax/servlet/ServletRequest;)V
+ (Ljavax/servlet/ServletRequest;)V
 getAsyncContext
  ()Ljavax/servlet/AsyncContext;
  ()Ljavax/servlet/AsyncContext;
@@ -11,16 +14,16 @@ getAttributeNames
  ()Ljava/util/Enumeration<Ljava/lang/String;>;
 getCharacterEncoding
  ()Ljava/lang/String;
- ()L0java/lang/String;
+ ()L0java/lang/String; # @Inherited(javax.servlet.ServletRequest)
 getContentType
  ()Ljava/lang/String;
- ()L0java/lang/String;
+ ()L0java/lang/String; # @Inherited(javax.servlet.ServletRequest)
 getDispatcherType
  ()Ljavax/servlet/DispatcherType;
  ()Ljavax/servlet/DispatcherType;
 getInputStream
  ()Ljavax/servlet/ServletInputStream;
- ()L1javax/servlet/ServletInputStream;
+ ()L1javax/servlet/ServletInputStream; # @Inherited(javax.servlet.ServletRequest)
 getLocalAddr
  ()Ljava/lang/String;
  ()Ljava/lang/String;
@@ -35,16 +38,16 @@ getLocales
  ()Ljava/util/Enumeration<Ljava/util/Locale;>;
 getParameter
  (Ljava/lang/String;)Ljava/lang/String;
- (L1java/lang/String;)L0java/lang/String;
+ (L1java/lang/String;)L0java/lang/String; # @Inherited(javax.servlet.ServletRequest)
 getParameterMap
  ()Ljava/util/Map<Ljava/lang/String;[Ljava/lang/String;>;
- ()L1java/util/Map<Ljava/lang/String;[Ljava/lang/String;>;
+ ()L1java/util/Map<Ljava/lang/String;[Ljava/lang/String;>; # @Inherited(javax.servlet.ServletRequest)
 getParameterNames
  ()Ljava/util/Enumeration<Ljava/lang/String;>;
- ()L1java/util/Enumeration<Ljava/lang/String;>;
+ ()L1java/util/Enumeration<Ljava/lang/String;>; # @Inherited(javax.servlet.ServletRequest)
 getParameterValues
  (Ljava/lang/String;)[Ljava/lang/String;
- (L1java/lang/String;)[0L1java/lang/String;
+ (L1java/lang/String;)[0L1java/lang/String; # @Inherited(javax.servlet.ServletRequest)
 getProtocol
  ()Ljava/lang/String;
  ()Ljava/lang/String;
@@ -60,6 +63,9 @@ getRemoteAddr
 getRemoteHost
  ()Ljava/lang/String;
  ()Ljava/lang/String;
+getRequest
+ ()Ljavax/servlet/ServletRequest;
+ ()Ljavax/servlet/ServletRequest;
 getRequestDispatcher
  (Ljava/lang/String;)Ljavax/servlet/RequestDispatcher;
  (Ljava/lang/String;)Ljavax/servlet/RequestDispatcher;
@@ -72,6 +78,12 @@ getServerName
 getServletContext
  ()Ljavax/servlet/ServletContext;
  ()Ljavax/servlet/ServletContext;
+isWrapperFor
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isWrapperFor
+ (Ljavax/servlet/ServletRequest;)Z
+ (Ljavax/servlet/ServletRequest;)Z
 removeAttribute
  (Ljava/lang/String;)V
  (Ljava/lang/String;)V
@@ -80,7 +92,10 @@ setAttribute
  (Ljava/lang/String;Ljava/lang/Object;)V
 setCharacterEncoding
  (Ljava/lang/String;)V
- (L0java/lang/String;)V
+ (L0java/lang/String;)V # @Inherited(javax.servlet.ServletRequest)
+setRequest
+ (Ljavax/servlet/ServletRequest;)V
+ (Ljavax/servlet/ServletRequest;)V
 startAsync
  ()Ljavax/servlet/AsyncContext;
  ()Ljavax/servlet/AsyncContext;
