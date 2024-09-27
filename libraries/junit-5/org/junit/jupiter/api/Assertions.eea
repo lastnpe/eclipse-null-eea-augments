@@ -1,4 +1,5 @@
 class org/junit/jupiter/api/Assertions
+
 assertAll
  (Ljava/lang/String;Ljava/util/Collection<Lorg/junit/jupiter/api/function/Executable;>;)V
  (L0java/lang/String;L1java/util/Collection<L1org/junit/jupiter/api/function/Executable;>;)V
@@ -401,6 +402,15 @@ assertFalse
 assertFalse
  (ZLjava/util/function/Supplier<Ljava/lang/String;>;)V
  (ZL0java/util/function/Supplier<L0java/lang/String;>;)V
+assertInstanceOf
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/Object;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/Object;)TT;
+assertInstanceOf
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/Object;Ljava/lang/String;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/Object;Ljava/lang/String;)TT;
+assertInstanceOf
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/Object;Ljava/util/function/Supplier<Ljava/lang/String;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/Object;Ljava/util/function/Supplier<Ljava/lang/String;>;)TT;
 assertIterableEquals
  (Ljava/lang/Iterable<*>;Ljava/lang/Iterable<*>;)V
  (L0java/lang/Iterable<*>;L0java/lang/Iterable<*>;)V
@@ -725,6 +735,15 @@ assertThrows
 assertThrows
  <T:Ljava/lang/Throwable;>(Ljava/lang/Class<TT;>;Lorg/junit/jupiter/api/function/Executable;Ljava/util/function/Supplier<Ljava/lang/String;>;)TT;
  <T:Ljava/lang/Throwable;>(L1java/lang/Class<TT;>;L1org/junit/jupiter/api/function/Executable;L0java/util/function/Supplier<L0java/lang/String;>;)T1T;
+assertThrowsExactly
+ <T:Ljava/lang/Throwable;>(Ljava/lang/Class<TT;>;Lorg/junit/jupiter/api/function/Executable;)TT;
+ <T:Ljava/lang/Throwable;>(Ljava/lang/Class<TT;>;Lorg/junit/jupiter/api/function/Executable;)TT;
+assertThrowsExactly
+ <T:Ljava/lang/Throwable;>(Ljava/lang/Class<TT;>;Lorg/junit/jupiter/api/function/Executable;Ljava/lang/String;)TT;
+ <T:Ljava/lang/Throwable;>(Ljava/lang/Class<TT;>;Lorg/junit/jupiter/api/function/Executable;Ljava/lang/String;)TT;
+assertThrowsExactly
+ <T:Ljava/lang/Throwable;>(Ljava/lang/Class<TT;>;Lorg/junit/jupiter/api/function/Executable;Ljava/util/function/Supplier<Ljava/lang/String;>;)TT;
+ <T:Ljava/lang/Throwable;>(Ljava/lang/Class<TT;>;Lorg/junit/jupiter/api/function/Executable;Ljava/util/function/Supplier<Ljava/lang/String;>;)TT;
 assertTimeout
  (Ljava/time/Duration;Lorg/junit/jupiter/api/function/Executable;)V
  (L1java/time/Duration;L1org/junit/jupiter/api/function/Executable;)V
@@ -761,6 +780,9 @@ assertTimeoutPreemptively
 assertTimeoutPreemptively
  <T:Ljava/lang/Object;>(Ljava/time/Duration;Lorg/junit/jupiter/api/function/ThrowingSupplier<TT;>;Ljava/util/function/Supplier<Ljava/lang/String;>;)TT;
  <T:Ljava/lang/Object;>(L1java/time/Duration;L1org/junit/jupiter/api/function/ThrowingSupplier<TT;>;L0java/util/function/Supplier<L0java/lang/String;>;)T1T;
+assertTimeoutPreemptively
+ <T:Ljava/lang/Object;E:Ljava/lang/Throwable;>(Ljava/time/Duration;Lorg/junit/jupiter/api/function/ThrowingSupplier<TT;>;Ljava/util/function/Supplier<Ljava/lang/String;>;Lorg/junit/jupiter/api/Assertions$TimeoutFailureFactory<TE;>;)TT;^TE;
+ <T:Ljava/lang/Object;E:Ljava/lang/Throwable;>(Ljava/time/Duration;Lorg/junit/jupiter/api/function/ThrowingSupplier<TT;>;Ljava/util/function/Supplier<Ljava/lang/String;>;Lorg/junit/jupiter/api/Assertions$TimeoutFailureFactory<TE;>;)TT;^TE;
 assertTrue
  (Ljava/util/function/BooleanSupplier;)V
  (L1java/util/function/BooleanSupplier;)V
@@ -776,6 +798,9 @@ assertTrue
 assertTrue
  (ZLjava/util/function/Supplier<Ljava/lang/String;>;)V
  (ZL0java/util/function/Supplier<L0java/lang/String;>;)V
+fail
+ <V:Ljava/lang/Object;>()TV;
+ <V:Ljava/lang/Object;>()TV;
 fail
  <V:Ljava/lang/Object;>(Ljava/lang/String;)TV;
  <V:Ljava/lang/Object;>(L0java/lang/String;)TV;

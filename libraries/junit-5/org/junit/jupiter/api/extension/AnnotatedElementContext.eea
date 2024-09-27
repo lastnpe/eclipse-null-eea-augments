@@ -1,0 +1,14 @@
+class org/junit/jupiter/api/extension/AnnotatedElementContext
+
+findAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Ljava/util/Optional<TA;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Ljava/util/Optional<TA;>;
+findRepeatableAnnotations
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Ljava/util/List<TA;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Ljava/util/List<TA;>;
+getAnnotatedElement
+ ()Ljava/lang/reflect/AnnotatedElement;
+ ()Ljava/lang/reflect/AnnotatedElement;
+isAnnotated
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
