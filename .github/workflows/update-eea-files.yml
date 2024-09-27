@@ -131,7 +131,6 @@ jobs:
         committer: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
         commit-message: "chore: Update EEA ${{ github.event.inputs.library && format('{0} ', github.event.inputs.library) || '' }}files"
         signoff: true
-        sign-commits: true
         body: ${{ steps.eea_updates.outputs.updates }}
         add-paths: libraries
         branch: ${{ github.event.inputs.library && format('eea_{0}_updates', github.event.inputs.library) || 'eea_updates' }}
