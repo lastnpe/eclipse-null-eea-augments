@@ -1,0 +1,82 @@
+class javax/mail/internet/InternetAddress
+
+getLocalAddress
+ (Ljavax/mail/Session;)Ljavax/mail/internet/InternetAddress;
+ (Ljavax/mail/Session;)Ljavax/mail/internet/InternetAddress;
+parse
+ (Ljava/lang/String;)[Ljavax/mail/internet/InternetAddress;
+ (Ljava/lang/String;)[Ljavax/mail/internet/InternetAddress;
+parse
+ (Ljava/lang/String;Z)[Ljavax/mail/internet/InternetAddress;
+ (Ljava/lang/String;Z)[Ljavax/mail/internet/InternetAddress;
+parseHeader
+ (Ljava/lang/String;Z)[Ljavax/mail/internet/InternetAddress;
+ (Ljava/lang/String;Z)[Ljavax/mail/internet/InternetAddress;
+toString
+ ([Ljavax/mail/Address;)Ljava/lang/String;
+ ([Ljavax/mail/Address;)Ljava/lang/String;
+toString
+ ([Ljavax/mail/Address;I)Ljava/lang/String;
+ ([Ljavax/mail/Address;I)Ljava/lang/String;
+toUnicodeString
+ ([Ljavax/mail/Address;)Ljava/lang/String;
+ ([Ljavax/mail/Address;)Ljava/lang/String;
+toUnicodeString
+ ([Ljavax/mail/Address;I)Ljava/lang/String;
+ ([Ljavax/mail/Address;I)Ljava/lang/String;
+
+address
+ Ljava/lang/String;
+ Ljava/lang/String;
+encodedPersonal
+ Ljava/lang/String;
+ Ljava/lang/String;
+personal
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(javax.mail.Address)
+getAddress
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getGroup
+ (Z)[Ljavax/mail/internet/InternetAddress;
+ (Z)[Ljavax/mail/internet/InternetAddress;
+getPersonal
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setAddress
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPersonal
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPersonal
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.mail.Address)
+toUnicodeString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

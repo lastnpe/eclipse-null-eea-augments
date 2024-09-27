@@ -1,0 +1,249 @@
+class javax/mail/internet/MimeMessage
+
+cachedContent
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+content
+ [B
+ [B
+contentStream
+ Ljava/io/InputStream;
+ Ljava/io/InputStream;
+dh
+ Ljavax/activation/DataHandler;
+ Ljavax/activation/DataHandler;
+flags
+ Ljavax/mail/Flags;
+ Ljavax/mail/Flags;
+headers
+ Ljavax/mail/internet/InternetHeaders;
+ Ljavax/mail/internet/InternetHeaders;
+
+<init>
+ (Ljavax/mail/Folder;I)V
+ (Ljavax/mail/Folder;I)V
+<init>
+ (Ljavax/mail/Folder;Ljava/io/InputStream;I)V
+ (Ljavax/mail/Folder;Ljava/io/InputStream;I)V
+<init>
+ (Ljavax/mail/Folder;Ljavax/mail/internet/InternetHeaders;[BI)V
+ (Ljavax/mail/Folder;Ljavax/mail/internet/InternetHeaders;[BI)V
+<init>
+ (Ljavax/mail/Session;)V
+ (Ljavax/mail/Session;)V
+<init>
+ (Ljavax/mail/Session;Ljava/io/InputStream;)V
+ (Ljavax/mail/Session;Ljava/io/InputStream;)V
+<init>
+ (Ljavax/mail/internet/MimeMessage;)V
+ (Ljavax/mail/internet/MimeMessage;)V
+addFrom
+ ([Ljavax/mail/Address;)V
+ ([Ljavax/mail/Address;)V
+addHeader
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+addHeaderLine
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+addRecipients
+ (Ljavax/mail/Message$RecipientType;Ljava/lang/String;)V
+ (Ljavax/mail/Message$RecipientType;Ljava/lang/String;)V
+addRecipients
+ (Ljavax/mail/Message$RecipientType;[Ljavax/mail/Address;)V
+ (Ljavax/mail/Message$RecipientType;[Ljavax/mail/Address;)V
+createInternetHeaders
+ (Ljava/io/InputStream;)Ljavax/mail/internet/InternetHeaders;
+ (Ljava/io/InputStream;)Ljavax/mail/internet/InternetHeaders;
+createMimeMessage
+ (Ljavax/mail/Session;)Ljavax/mail/internet/MimeMessage;
+ (Ljavax/mail/Session;)Ljavax/mail/internet/MimeMessage;
+getAllHeaderLines
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+getAllHeaders
+ ()Ljava/util/Enumeration<Ljavax/mail/Header;>;
+ ()Ljava/util/Enumeration<Ljavax/mail/Header;>;
+getAllRecipients
+ ()[Ljavax/mail/Address;
+ ()[Ljavax/mail/Address;
+getContent
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getContentID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getContentLanguage
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getContentMD5
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getContentStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getContentType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDataHandler
+ ()Ljavax/activation/DataHandler;
+ ()Ljavax/activation/DataHandler;
+getDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDisposition
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getEncoding
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFileName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFlags
+ ()Ljavax/mail/Flags;
+ ()Ljavax/mail/Flags;
+getFrom
+ ()[Ljavax/mail/Address;
+ ()[Ljavax/mail/Address;
+getHeader
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[Ljava/lang/String;
+getHeader
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+getInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getMatchingHeaderLines
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+getMatchingHeaders
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljavax/mail/Header;>;
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljavax/mail/Header;>;
+getMessageID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getNonMatchingHeaderLines
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+getNonMatchingHeaders
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljavax/mail/Header;>;
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljavax/mail/Header;>;
+getRawInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getReceivedDate
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+getRecipients
+ (Ljavax/mail/Message$RecipientType;)[Ljavax/mail/Address;
+ (Ljavax/mail/Message$RecipientType;)[Ljavax/mail/Address;
+getReplyTo
+ ()[Ljavax/mail/Address;
+ ()[Ljavax/mail/Address;
+getSender
+ ()Ljavax/mail/Address;
+ ()Ljavax/mail/Address;
+getSentDate
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+getSubject
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+isMimeType
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isSet
+ (Ljavax/mail/Flags$Flag;)Z
+ (Ljavax/mail/Flags$Flag;)Z
+parse
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+removeHeader
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+reply
+ (Z)Ljavax/mail/Message;
+ (Z)Ljavax/mail/Message;
+reply
+ (ZZ)Ljavax/mail/Message;
+ (ZZ)Ljavax/mail/Message;
+setContent
+ (Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/Object;Ljava/lang/String;)V
+setContent
+ (Ljavax/mail/Multipart;)V
+ (Ljavax/mail/Multipart;)V
+setContentID
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setContentLanguage
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setContentMD5
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setDataHandler
+ (Ljavax/activation/DataHandler;)V
+ (Ljavax/activation/DataHandler;)V
+setDescription
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setDescription
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setDisposition
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setFileName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setFlags
+ (Ljavax/mail/Flags;Z)V
+ (Ljavax/mail/Flags;Z)V
+setFrom
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setFrom
+ (Ljavax/mail/Address;)V
+ (Ljavax/mail/Address;)V
+setHeader
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setRecipients
+ (Ljavax/mail/Message$RecipientType;Ljava/lang/String;)V
+ (Ljavax/mail/Message$RecipientType;Ljava/lang/String;)V
+setRecipients
+ (Ljavax/mail/Message$RecipientType;[Ljavax/mail/Address;)V
+ (Ljavax/mail/Message$RecipientType;[Ljavax/mail/Address;)V
+setReplyTo
+ ([Ljavax/mail/Address;)V
+ ([Ljavax/mail/Address;)V
+setSender
+ (Ljavax/mail/Address;)V
+ (Ljavax/mail/Address;)V
+setSentDate
+ (Ljava/util/Date;)V
+ (Ljava/util/Date;)V
+setSubject
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSubject
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setText
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setText
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setText
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+writeTo
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V
+writeTo
+ (Ljava/io/OutputStream;[Ljava/lang/String;)V
+ (Ljava/io/OutputStream;[Ljava/lang/String;)V

@@ -1,0 +1,18 @@
+class javax/mail/search/DateTerm
+
+date
+ Ljava/util/Date;
+ Ljava/util/Date;
+
+<init>
+ (ILjava/util/Date;)V
+ (ILjava/util/Date;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(javax.mail.search.ComparisonTerm)
+getDate
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+match
+ (Ljava/util/Date;)Z
+ (Ljava/util/Date;)Z

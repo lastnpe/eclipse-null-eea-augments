@@ -1,0 +1,57 @@
+class javax/mail/internet/MimeMultipart
+
+ds
+ Ljavax/activation/DataSource;
+ Ljavax/activation/DataSource;
+preamble
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;[Ljavax/mail/BodyPart;)V
+ (Ljava/lang/String;[Ljavax/mail/BodyPart;)V
+<init>
+ (Ljavax/activation/DataSource;)V
+ (Ljavax/activation/DataSource;)V
+<init>
+ ([Ljavax/mail/BodyPart;)V
+ ([Ljavax/mail/BodyPart;)V
+addBodyPart
+ (Ljavax/mail/BodyPart;)V
+ (Ljavax/mail/BodyPart;)V
+addBodyPart
+ (Ljavax/mail/BodyPart;I)V
+ (Ljavax/mail/BodyPart;I)V
+createInternetHeaders
+ (Ljava/io/InputStream;)Ljavax/mail/internet/InternetHeaders;
+ (Ljava/io/InputStream;)Ljavax/mail/internet/InternetHeaders;
+createMimeBodyPart
+ (Ljava/io/InputStream;)Ljavax/mail/internet/MimeBodyPart;
+ (Ljava/io/InputStream;)Ljavax/mail/internet/MimeBodyPart;
+createMimeBodyPart
+ (Ljavax/mail/internet/InternetHeaders;[B)Ljavax/mail/internet/MimeBodyPart;
+ (Ljavax/mail/internet/InternetHeaders;[B)Ljavax/mail/internet/MimeBodyPart;
+getBodyPart
+ (I)Ljavax/mail/BodyPart;
+ (I)Ljavax/mail/BodyPart;
+getBodyPart
+ (Ljava/lang/String;)Ljavax/mail/BodyPart;
+ (Ljava/lang/String;)Ljavax/mail/BodyPart;
+getPreamble
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+removeBodyPart
+ (Ljavax/mail/BodyPart;)Z
+ (Ljavax/mail/BodyPart;)Z
+setPreamble
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSubType
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeTo
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V

@@ -1,0 +1,56 @@
+class javax/mail/Flags
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljavax/mail/Flags$Flag;)V
+ (Ljavax/mail/Flags$Flag;)V
+<init>
+ (Ljavax/mail/Flags;)V
+ (Ljavax/mail/Flags;)V
+add
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+add
+ (Ljavax/mail/Flags$Flag;)V
+ (Ljavax/mail/Flags$Flag;)V
+add
+ (Ljavax/mail/Flags;)V
+ (Ljavax/mail/Flags;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+contains
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+contains
+ (Ljavax/mail/Flags$Flag;)Z
+ (Ljavax/mail/Flags$Flag;)Z
+contains
+ (Ljavax/mail/Flags;)Z
+ (Ljavax/mail/Flags;)Z
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getSystemFlags
+ ()[Ljavax/mail/Flags$Flag;
+ ()[Ljavax/mail/Flags$Flag;
+getUserFlags
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+remove
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+remove
+ (Ljavax/mail/Flags$Flag;)V
+ (Ljavax/mail/Flags$Flag;)V
+remove
+ (Ljavax/mail/Flags;)V
+ (Ljavax/mail/Flags;)V
+retainAll
+ (Ljavax/mail/Flags;)Z
+ (Ljavax/mail/Flags;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

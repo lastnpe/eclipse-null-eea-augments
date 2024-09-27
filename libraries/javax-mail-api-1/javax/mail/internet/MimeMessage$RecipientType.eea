@@ -1,0 +1,12 @@
+class javax/mail/internet/MimeMessage$RecipientType
+
+NEWSGROUPS
+ Ljavax/mail/internet/MimeMessage$RecipientType;
+ L1javax/mail/internet/MimeMessage$RecipientType;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+readResolve
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(javax.mail.Message$RecipientType)

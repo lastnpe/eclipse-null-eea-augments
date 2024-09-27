@@ -1,0 +1,39 @@
+class javax/mail/Multipart
+
+contentType
+ Ljava/lang/String;
+ Ljava/lang/String;
+parent
+ Ljavax/mail/Part;
+ Ljavax/mail/Part;
+parts
+ Ljava/util/Vector<Ljavax/mail/BodyPart;>;
+ Ljava/util/Vector<Ljavax/mail/BodyPart;>;
+
+addBodyPart
+ (Ljavax/mail/BodyPart;)V
+ (Ljavax/mail/BodyPart;)V
+addBodyPart
+ (Ljavax/mail/BodyPart;I)V
+ (Ljavax/mail/BodyPart;I)V
+getBodyPart
+ (I)Ljavax/mail/BodyPart;
+ (I)Ljavax/mail/BodyPart;
+getContentType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getParent
+ ()Ljavax/mail/Part;
+ ()Ljavax/mail/Part;
+removeBodyPart
+ (Ljavax/mail/BodyPart;)Z
+ (Ljavax/mail/BodyPart;)Z
+setMultipartDataSource
+ (Ljavax/mail/MultipartDataSource;)V
+ (Ljavax/mail/MultipartDataSource;)V
+setParent
+ (Ljavax/mail/Part;)V
+ (Ljavax/mail/Part;)V
+writeTo
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V

@@ -1,0 +1,44 @@
+class javax/mail/internet/ContentType
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljavax/mail/internet/ParameterList;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljavax/mail/internet/ParameterList;)V
+getBaseType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getParameter
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getParameterList
+ ()Ljavax/mail/internet/ParameterList;
+ ()Ljavax/mail/internet/ParameterList;
+getPrimaryType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSubType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+match
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+match
+ (Ljavax/mail/internet/ContentType;)Z
+ (Ljavax/mail/internet/ContentType;)Z
+setParameter
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setParameterList
+ (Ljavax/mail/internet/ParameterList;)V
+ (Ljavax/mail/internet/ParameterList;)V
+setPrimaryType
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSubType
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
