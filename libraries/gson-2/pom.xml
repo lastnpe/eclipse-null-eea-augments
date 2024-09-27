@@ -10,8 +10,8 @@
     <version>3.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>jetty-client-eea</artifactId>
-  <name>EEA :: jetty-client</name>
+  <artifactId>gson-2-eea</artifactId>
+  <name>EEA :: Gson 2.x</name>
 
   <!-- Do NOT use a <version> of the JAR for which this is an EEA here,
        but version the EEA itself.  Put the version of the lib into
@@ -19,9 +19,10 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.eclipse.jetty</groupId>
-      <artifactId>jetty-client</artifactId>
-      <version>12.0.13</version>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.11.0</version>
+      <scope>provided</scope>
     </dependency>
   </dependencies>
 </project>
