@@ -1,0 +1,133 @@
+class com/google/common/base/CharMatcher
+
+super com/google/common/base/Predicate
+ <Ljava/lang/Character;>
+ <Ljava/lang/Character;>
+
+any
+ ()Lcom/google/common/base/CharMatcher;
+ ()Lcom/google/common/base/CharMatcher;
+anyOf
+ (Ljava/lang/CharSequence;)Lcom/google/common/base/CharMatcher;
+ (Ljava/lang/CharSequence;)Lcom/google/common/base/CharMatcher;
+ascii
+ ()Lcom/google/common/base/CharMatcher;
+ ()Lcom/google/common/base/CharMatcher;
+breakingWhitespace
+ ()Lcom/google/common/base/CharMatcher;
+ ()Lcom/google/common/base/CharMatcher;
+digit
+ ()Lcom/google/common/base/CharMatcher;
+ ()Lcom/google/common/base/CharMatcher;
+forPredicate
+ (Lcom/google/common/base/Predicate<-Ljava/lang/Character;>;)Lcom/google/common/base/CharMatcher;
+ (Lcom/google/common/base/Predicate<-Ljava/lang/Character;>;)Lcom/google/common/base/CharMatcher;
+inRange
+ (CC)Lcom/google/common/base/CharMatcher;
+ (CC)Lcom/google/common/base/CharMatcher;
+invisible
+ ()Lcom/google/common/base/CharMatcher;
+ ()Lcom/google/common/base/CharMatcher;
+is
+ (C)Lcom/google/common/base/CharMatcher;
+ (C)Lcom/google/common/base/CharMatcher;
+isNot
+ (C)Lcom/google/common/base/CharMatcher;
+ (C)Lcom/google/common/base/CharMatcher;
+javaDigit
+ ()Lcom/google/common/base/CharMatcher;
+ ()Lcom/google/common/base/CharMatcher;
+javaIsoControl
+ ()Lcom/google/common/base/CharMatcher;
+ ()Lcom/google/common/base/CharMatcher;
+javaLetter
+ ()Lcom/google/common/base/CharMatcher;
+ ()Lcom/google/common/base/CharMatcher;
+javaLetterOrDigit
+ ()Lcom/google/common/base/CharMatcher;
+ ()Lcom/google/common/base/CharMatcher;
+javaLowerCase
+ ()Lcom/google/common/base/CharMatcher;
+ ()Lcom/google/common/base/CharMatcher;
+javaUpperCase
+ ()Lcom/google/common/base/CharMatcher;
+ ()Lcom/google/common/base/CharMatcher;
+none
+ ()Lcom/google/common/base/CharMatcher;
+ ()Lcom/google/common/base/CharMatcher;
+noneOf
+ (Ljava/lang/CharSequence;)Lcom/google/common/base/CharMatcher;
+ (Ljava/lang/CharSequence;)Lcom/google/common/base/CharMatcher;
+singleWidth
+ ()Lcom/google/common/base/CharMatcher;
+ ()Lcom/google/common/base/CharMatcher;
+whitespace
+ ()Lcom/google/common/base/CharMatcher;
+ ()Lcom/google/common/base/CharMatcher;
+
+and
+ (Lcom/google/common/base/CharMatcher;)Lcom/google/common/base/CharMatcher;
+ (Lcom/google/common/base/CharMatcher;)Lcom/google/common/base/CharMatcher;
+apply
+ (Ljava/lang/Character;)Z
+ (Ljava/lang/Character;)Z
+collapseFrom
+ (Ljava/lang/CharSequence;C)Ljava/lang/String;
+ (Ljava/lang/CharSequence;C)Ljava/lang/String;
+countIn
+ (Ljava/lang/CharSequence;)I
+ (Ljava/lang/CharSequence;)I
+indexIn
+ (Ljava/lang/CharSequence;)I
+ (Ljava/lang/CharSequence;)I
+indexIn
+ (Ljava/lang/CharSequence;I)I
+ (Ljava/lang/CharSequence;I)I
+lastIndexIn
+ (Ljava/lang/CharSequence;)I
+ (Ljava/lang/CharSequence;)I
+matchesAllOf
+ (Ljava/lang/CharSequence;)Z
+ (Ljava/lang/CharSequence;)Z
+matchesAnyOf
+ (Ljava/lang/CharSequence;)Z
+ (Ljava/lang/CharSequence;)Z
+matchesNoneOf
+ (Ljava/lang/CharSequence;)Z
+ (Ljava/lang/CharSequence;)Z
+negate
+ ()Lcom/google/common/base/CharMatcher;
+ ()Lcom/google/common/base/CharMatcher;
+or
+ (Lcom/google/common/base/CharMatcher;)Lcom/google/common/base/CharMatcher;
+ (Lcom/google/common/base/CharMatcher;)Lcom/google/common/base/CharMatcher;
+precomputed
+ ()Lcom/google/common/base/CharMatcher;
+ ()Lcom/google/common/base/CharMatcher;
+removeFrom
+ (Ljava/lang/CharSequence;)Ljava/lang/String;
+ (Ljava/lang/CharSequence;)Ljava/lang/String;
+replaceFrom
+ (Ljava/lang/CharSequence;C)Ljava/lang/String;
+ (Ljava/lang/CharSequence;C)Ljava/lang/String;
+replaceFrom
+ (Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+ (Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+retainFrom
+ (Ljava/lang/CharSequence;)Ljava/lang/String;
+ (Ljava/lang/CharSequence;)Ljava/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+trimAndCollapseFrom
+ (Ljava/lang/CharSequence;C)Ljava/lang/String;
+ (Ljava/lang/CharSequence;C)Ljava/lang/String;
+trimFrom
+ (Ljava/lang/CharSequence;)Ljava/lang/String;
+ (Ljava/lang/CharSequence;)Ljava/lang/String;
+trimLeadingFrom
+ (Ljava/lang/CharSequence;)Ljava/lang/String;
+ (Ljava/lang/CharSequence;)Ljava/lang/String;
+trimTrailingFrom
+ (Ljava/lang/CharSequence;)Ljava/lang/String;
+ (Ljava/lang/CharSequence;)Ljava/lang/String;

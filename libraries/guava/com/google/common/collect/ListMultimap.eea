@@ -1,0 +1,23 @@
+class com/google/common/collect/ListMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/collect/Multimap
+ <TK;TV;>
+ <TK;TV;>
+
+asMap
+ ()Ljava/util/Map<TK;Ljava/util/Collection<TV;>;>;
+ ()Ljava/util/Map<TK;Ljava/util/Collection<TV;>;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (TK;)Ljava/util/List<TV;>;
+ (TK;)Ljava/util/List<TV;>;
+removeAll
+ (Ljava/lang/Object;)Ljava/util/List<TV;>;
+ (Ljava/lang/Object;)Ljava/util/List<TV;>;
+replaceValues
+ (TK;Ljava/lang/Iterable<+TV;>;)Ljava/util/List<TV;>;
+ (TK;Ljava/lang/Iterable<+TV;>;)Ljava/util/List<TV;>;

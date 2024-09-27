@@ -1,0 +1,29 @@
+class com/google/common/collect/DiscreteDomain
+ <C::Ljava/lang/Comparable;>
+ <C::Ljava/lang/Comparable;>
+
+bigIntegers
+ ()Lcom/google/common/collect/DiscreteDomain<Ljava/math/BigInteger;>;
+ ()Lcom/google/common/collect/DiscreteDomain<Ljava/math/BigInteger;>;
+integers
+ ()Lcom/google/common/collect/DiscreteDomain<Ljava/lang/Integer;>;
+ ()Lcom/google/common/collect/DiscreteDomain<Ljava/lang/Integer;>;
+longs
+ ()Lcom/google/common/collect/DiscreteDomain<Ljava/lang/Long;>;
+ ()Lcom/google/common/collect/DiscreteDomain<Ljava/lang/Long;>;
+
+distance
+ (TC;TC;)J
+ (TC;TC;)J
+maxValue
+ ()TC;
+ ()TC;
+minValue
+ ()TC;
+ ()TC;
+next
+ (TC;)TC;
+ (TC;)T0C;
+previous
+ (TC;)TC;
+ (TC;)T0C;

@@ -1,4 +1,23 @@
 class com/google/common/collect/ImmutableMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/collect/BaseImmutableMultimap
+ <TK;TV;>
+ <TK;TV;>
+
+builder
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+builderWithExpectedKeys
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(I)Lcom/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(I)Lcom/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+copyOf
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<+TK;+TV;>;)Lcom/google/common/collect/ImmutableMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<+TK;+TV;>;)Lcom/google/common/collect/ImmutableMultimap<TK;TV;>;
+copyOf
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/lang/Iterable<+Ljava/util/Map$Entry<+TK;+TV;>;>;)Lcom/google/common/collect/ImmutableMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/lang/Iterable<+Ljava/util/Map$Entry<+TK;+TV;>;>;)Lcom/google/common/collect/ImmutableMultimap<TK;TV;>;
 of
  <K:Ljava/lang/Object;V:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableMultimap<TK;TV;>;
  <K:Ljava/lang/Object;V:Ljava/lang/Object;>()L1com/google/common/collect/ImmutableMultimap<TK;TV;>;
@@ -17,3 +36,52 @@ of
 of
  <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableMultimap<TK;TV;>;
  <K:Ljava/lang/Object;V:Ljava/lang/Object;>(T1K;T1V;T1K;T1V;T1K;T1V;T1K;T1V;T1K;T1V;)L1com/google/common/collect/ImmutableMultimap<TK;TV;>;
+
+asMap
+ ()Lcom/google/common/collect/ImmutableMap<TK;Ljava/util/Collection<TV;>;>;
+ ()Lcom/google/common/collect/ImmutableMap<TK;Ljava/util/Collection<TV;>;>;
+containsKey
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+containsValue
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+entries
+ ()Lcom/google/common/collect/ImmutableCollection<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()Lcom/google/common/collect/ImmutableCollection<Ljava/util/Map$Entry<TK;TV;>;>;
+forEach
+ (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
+ (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
+get
+ (TK;)Lcom/google/common/collect/ImmutableCollection<TV;>;
+ (TK;)Lcom/google/common/collect/ImmutableCollection<TV;>;
+inverse
+ ()Lcom/google/common/collect/ImmutableMultimap<TV;TK;>;
+ ()Lcom/google/common/collect/ImmutableMultimap<TV;TK;>;
+keySet
+ ()Lcom/google/common/collect/ImmutableSet<TK;>;
+ ()Lcom/google/common/collect/ImmutableSet<TK;>;
+keys
+ ()Lcom/google/common/collect/ImmutableMultiset<TK;>;
+ ()Lcom/google/common/collect/ImmutableMultiset<TK;>;
+put
+ (TK;TV;)Z
+ (TK;TV;)Z
+putAll
+ (Lcom/google/common/collect/Multimap<+TK;+TV;>;)Z
+ (Lcom/google/common/collect/Multimap<+TK;+TV;>;)Z
+putAll
+ (TK;Ljava/lang/Iterable<+TV;>;)Z
+ (TK;Ljava/lang/Iterable<+TV;>;)Z
+remove
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+removeAll
+ (Ljava/lang/Object;)Lcom/google/common/collect/ImmutableCollection<TV;>;
+ (Ljava/lang/Object;)Lcom/google/common/collect/ImmutableCollection<TV;>;
+replaceValues
+ (TK;Ljava/lang/Iterable<+TV;>;)Lcom/google/common/collect/ImmutableCollection<TV;>;
+ (TK;Ljava/lang/Iterable<+TV;>;)Lcom/google/common/collect/ImmutableCollection<TV;>;
+values
+ ()Lcom/google/common/collect/ImmutableCollection<TV;>;
+ ()Lcom/google/common/collect/ImmutableCollection<TV;>;

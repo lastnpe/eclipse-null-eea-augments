@@ -1,0 +1,27 @@
+class com/google/common/util/concurrent/RateLimiter
+
+create
+ (D)Lcom/google/common/util/concurrent/RateLimiter;
+ (D)Lcom/google/common/util/concurrent/RateLimiter;
+create
+ (DJLjava/util/concurrent/TimeUnit;)Lcom/google/common/util/concurrent/RateLimiter;
+ (DJLjava/util/concurrent/TimeUnit;)Lcom/google/common/util/concurrent/RateLimiter;
+create
+ (DLjava/time/Duration;)Lcom/google/common/util/concurrent/RateLimiter;
+ (DLjava/time/Duration;)Lcom/google/common/util/concurrent/RateLimiter;
+
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+tryAcquire
+ (IJLjava/util/concurrent/TimeUnit;)Z
+ (IJLjava/util/concurrent/TimeUnit;)Z
+tryAcquire
+ (ILjava/time/Duration;)Z
+ (ILjava/time/Duration;)Z
+tryAcquire
+ (JLjava/util/concurrent/TimeUnit;)Z
+ (JLjava/util/concurrent/TimeUnit;)Z
+tryAcquire
+ (Ljava/time/Duration;)Z
+ (Ljava/time/Duration;)Z

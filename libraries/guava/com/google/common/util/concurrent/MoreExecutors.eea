@@ -1,0 +1,50 @@
+class com/google/common/util/concurrent/MoreExecutors
+
+addDelayedShutdownHook
+ (Ljava/util/concurrent/ExecutorService;JLjava/util/concurrent/TimeUnit;)V
+ (Ljava/util/concurrent/ExecutorService;JLjava/util/concurrent/TimeUnit;)V
+addDelayedShutdownHook
+ (Ljava/util/concurrent/ExecutorService;Ljava/time/Duration;)V
+ (Ljava/util/concurrent/ExecutorService;Ljava/time/Duration;)V
+directExecutor
+ ()Ljava/util/concurrent/Executor;
+ ()Ljava/util/concurrent/Executor;
+getExitingExecutorService
+ (Ljava/util/concurrent/ThreadPoolExecutor;)Ljava/util/concurrent/ExecutorService;
+ (Ljava/util/concurrent/ThreadPoolExecutor;)Ljava/util/concurrent/ExecutorService;
+getExitingExecutorService
+ (Ljava/util/concurrent/ThreadPoolExecutor;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ExecutorService;
+ (Ljava/util/concurrent/ThreadPoolExecutor;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ExecutorService;
+getExitingExecutorService
+ (Ljava/util/concurrent/ThreadPoolExecutor;Ljava/time/Duration;)Ljava/util/concurrent/ExecutorService;
+ (Ljava/util/concurrent/ThreadPoolExecutor;Ljava/time/Duration;)Ljava/util/concurrent/ExecutorService;
+getExitingScheduledExecutorService
+ (Ljava/util/concurrent/ScheduledThreadPoolExecutor;)Ljava/util/concurrent/ScheduledExecutorService;
+ (Ljava/util/concurrent/ScheduledThreadPoolExecutor;)Ljava/util/concurrent/ScheduledExecutorService;
+getExitingScheduledExecutorService
+ (Ljava/util/concurrent/ScheduledThreadPoolExecutor;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledExecutorService;
+ (Ljava/util/concurrent/ScheduledThreadPoolExecutor;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledExecutorService;
+getExitingScheduledExecutorService
+ (Ljava/util/concurrent/ScheduledThreadPoolExecutor;Ljava/time/Duration;)Ljava/util/concurrent/ScheduledExecutorService;
+ (Ljava/util/concurrent/ScheduledThreadPoolExecutor;Ljava/time/Duration;)Ljava/util/concurrent/ScheduledExecutorService;
+listeningDecorator
+ (Ljava/util/concurrent/ExecutorService;)Lcom/google/common/util/concurrent/ListeningExecutorService;
+ (Ljava/util/concurrent/ExecutorService;)Lcom/google/common/util/concurrent/ListeningExecutorService;
+listeningDecorator
+ (Ljava/util/concurrent/ScheduledExecutorService;)Lcom/google/common/util/concurrent/ListeningScheduledExecutorService;
+ (Ljava/util/concurrent/ScheduledExecutorService;)Lcom/google/common/util/concurrent/ListeningScheduledExecutorService;
+newDirectExecutorService
+ ()Lcom/google/common/util/concurrent/ListeningExecutorService;
+ ()Lcom/google/common/util/concurrent/ListeningExecutorService;
+newSequentialExecutor
+ (Ljava/util/concurrent/Executor;)Ljava/util/concurrent/Executor;
+ (Ljava/util/concurrent/Executor;)Ljava/util/concurrent/Executor;
+platformThreadFactory
+ ()Ljava/util/concurrent/ThreadFactory;
+ ()Ljava/util/concurrent/ThreadFactory;
+shutdownAndAwaitTermination
+ (Ljava/util/concurrent/ExecutorService;JLjava/util/concurrent/TimeUnit;)Z
+ (Ljava/util/concurrent/ExecutorService;JLjava/util/concurrent/TimeUnit;)Z
+shutdownAndAwaitTermination
+ (Ljava/util/concurrent/ExecutorService;Ljava/time/Duration;)Z
+ (Ljava/util/concurrent/ExecutorService;Ljava/time/Duration;)Z

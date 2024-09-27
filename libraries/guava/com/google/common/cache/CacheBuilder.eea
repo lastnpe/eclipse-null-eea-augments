@@ -1,0 +1,74 @@
+class com/google/common/cache/CacheBuilder
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+from
+ (Lcom/google/common/cache/CacheBuilderSpec;)Lcom/google/common/cache/CacheBuilder<Ljava/lang/Object;Ljava/lang/Object;>;
+ (Lcom/google/common/cache/CacheBuilderSpec;)Lcom/google/common/cache/CacheBuilder<Ljava/lang/Object;Ljava/lang/Object;>;
+from
+ (Ljava/lang/String;)Lcom/google/common/cache/CacheBuilder<Ljava/lang/Object;Ljava/lang/Object;>;
+ (Ljava/lang/String;)Lcom/google/common/cache/CacheBuilder<Ljava/lang/Object;Ljava/lang/Object;>;
+newBuilder
+ ()Lcom/google/common/cache/CacheBuilder<Ljava/lang/Object;Ljava/lang/Object;>;
+ ()Lcom/google/common/cache/CacheBuilder<Ljava/lang/Object;Ljava/lang/Object;>;
+
+build
+ <K1:TK;V1:TV;>()Lcom/google/common/cache/Cache<TK1;TV1;>;
+ <K1:TK;V1:TV;>()L1com/google/common/cache/Cache<TK1;TV1;>;
+build
+ <K1:TK;V1:TV;>(Lcom/google/common/cache/CacheLoader<-TK1;TV1;>;)Lcom/google/common/cache/LoadingCache<TK1;TV1;>;
+ <K1:TK;V1:TV;>(Lcom/google/common/cache/CacheLoader<-TK1;TV1;>;)Lcom/google/common/cache/LoadingCache<TK1;TV1;>;
+concurrencyLevel
+ (I)Lcom/google/common/cache/CacheBuilder<TK;TV;>;
+ (I)L1com/google/common/cache/CacheBuilder<TK;TV;>;
+expireAfterAccess
+ (JLjava/util/concurrent/TimeUnit;)Lcom/google/common/cache/CacheBuilder<TK;TV;>;
+ (JLjava/util/concurrent/TimeUnit;)L1com/google/common/cache/CacheBuilder<TK;TV;>;
+expireAfterAccess
+ (Ljava/time/Duration;)Lcom/google/common/cache/CacheBuilder<TK;TV;>;
+ (Ljava/time/Duration;)L1com/google/common/cache/CacheBuilder<TK;TV;>;
+expireAfterWrite
+ (JLjava/util/concurrent/TimeUnit;)Lcom/google/common/cache/CacheBuilder<TK;TV;>;
+ (JLjava/util/concurrent/TimeUnit;)L1com/google/common/cache/CacheBuilder<TK;TV;>;
+expireAfterWrite
+ (Ljava/time/Duration;)Lcom/google/common/cache/CacheBuilder<TK;TV;>;
+ (Ljava/time/Duration;)L1com/google/common/cache/CacheBuilder<TK;TV;>;
+initialCapacity
+ (I)Lcom/google/common/cache/CacheBuilder<TK;TV;>;
+ (I)L1com/google/common/cache/CacheBuilder<TK;TV;>;
+maximumSize
+ (J)Lcom/google/common/cache/CacheBuilder<TK;TV;>;
+ (J)L1com/google/common/cache/CacheBuilder<TK;TV;>;
+maximumWeight
+ (J)Lcom/google/common/cache/CacheBuilder<TK;TV;>;
+ (J)L1com/google/common/cache/CacheBuilder<TK;TV;>;
+recordStats
+ ()Lcom/google/common/cache/CacheBuilder<TK;TV;>;
+ ()L1com/google/common/cache/CacheBuilder<TK;TV;>;
+refreshAfterWrite
+ (JLjava/util/concurrent/TimeUnit;)Lcom/google/common/cache/CacheBuilder<TK;TV;>;
+ (JLjava/util/concurrent/TimeUnit;)L1com/google/common/cache/CacheBuilder<TK;TV;>;
+refreshAfterWrite
+ (Ljava/time/Duration;)Lcom/google/common/cache/CacheBuilder<TK;TV;>;
+ (Ljava/time/Duration;)L1com/google/common/cache/CacheBuilder<TK;TV;>;
+removalListener
+ <K1:TK;V1:TV;>(Lcom/google/common/cache/RemovalListener<-TK1;-TV1;>;)Lcom/google/common/cache/CacheBuilder<TK1;TV1;>;
+ <K1:TK;V1:TV;>(Lcom/google/common/cache/RemovalListener<-TK1;-TV1;>;)L1com/google/common/cache/CacheBuilder<TK1;TV1;>;
+softValues
+ ()Lcom/google/common/cache/CacheBuilder<TK;TV;>;
+ ()L1com/google/common/cache/CacheBuilder<TK;TV;>;
+ticker
+ (Lcom/google/common/base/Ticker;)Lcom/google/common/cache/CacheBuilder<TK;TV;>;
+ (Lcom/google/common/base/Ticker;)L1com/google/common/cache/CacheBuilder<TK;TV;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+weakKeys
+ ()Lcom/google/common/cache/CacheBuilder<TK;TV;>;
+ ()L1com/google/common/cache/CacheBuilder<TK;TV;>;
+weakValues
+ ()Lcom/google/common/cache/CacheBuilder<TK;TV;>;
+ ()L1com/google/common/cache/CacheBuilder<TK;TV;>;
+weigher
+ <K1:TK;V1:TV;>(Lcom/google/common/cache/Weigher<-TK1;-TV1;>;)Lcom/google/common/cache/CacheBuilder<TK1;TV1;>;
+ <K1:TK;V1:TV;>(Lcom/google/common/cache/Weigher<-TK1;-TV1;>;)L1com/google/common/cache/CacheBuilder<TK1;TV1;>;

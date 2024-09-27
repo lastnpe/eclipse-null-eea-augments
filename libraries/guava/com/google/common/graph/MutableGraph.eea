@@ -1,0 +1,26 @@
+class com/google/common/graph/MutableGraph
+ <N:Ljava/lang/Object;>
+ <N:Ljava/lang/Object;>
+
+super com/google/common/graph/Graph
+ <TN;>
+ <TN;>
+
+addNode
+ (TN;)Z
+ (TN;)Z
+putEdge
+ (Lcom/google/common/graph/EndpointPair<TN;>;)Z
+ (Lcom/google/common/graph/EndpointPair<TN;>;)Z
+putEdge
+ (TN;TN;)Z
+ (TN;TN;)Z
+removeEdge
+ (Lcom/google/common/graph/EndpointPair<TN;>;)Z
+ (Lcom/google/common/graph/EndpointPair<TN;>;)Z
+removeEdge
+ (TN;TN;)Z
+ (TN;TN;)Z
+removeNode
+ (TN;)Z
+ (TN;)Z

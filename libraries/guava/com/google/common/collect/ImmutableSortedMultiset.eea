@@ -1,0 +1,120 @@
+class com/google/common/collect/ImmutableSortedMultiset
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super com/google/common/collect/ImmutableMultiset
+ <TE;>
+ <TE;>
+super com/google/common/collect/SortedMultiset
+ <TE;>
+ <TE;>
+
+builder
+ <E:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableSortedMultiset$Builder<TE;>;
+ <E:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableSortedMultiset$Builder<TE;>;
+copyOf
+ <E::Ljava/lang/Comparable<-TE;>;>([TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ <E::Ljava/lang/Comparable<-TE;>;>([TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+copyOf
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<+TE;>;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<+TE;>;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+copyOf
+ <E:Ljava/lang/Object;>(Ljava/util/Comparator<-TE;>;Ljava/lang/Iterable<+TE;>;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Comparator<-TE;>;Ljava/lang/Iterable<+TE;>;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+copyOf
+ <E:Ljava/lang/Object;>(Ljava/util/Comparator<-TE;>;Ljava/util/Iterator<+TE;>;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Comparator<-TE;>;Ljava/util/Iterator<+TE;>;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+copyOf
+ <E:Ljava/lang/Object;>(Ljava/util/Iterator<+TE;>;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Iterator<+TE;>;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+copyOf
+ <Z:Ljava/lang/Object;>([TZ;)Lcom/google/common/collect/ImmutableSortedMultiset<TZ;>;
+ <Z:Ljava/lang/Object;>([TZ;)Lcom/google/common/collect/ImmutableSortedMultiset<TZ;>;
+copyOfSorted
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/SortedMultiset<TE;>;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/SortedMultiset<TE;>;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+naturalOrder
+ <E::Ljava/lang/Comparable<*>;>()Lcom/google/common/collect/ImmutableSortedMultiset$Builder<TE;>;
+ <E::Ljava/lang/Comparable<*>;>()Lcom/google/common/collect/ImmutableSortedMultiset$Builder<TE;>;
+of
+ <E::Ljava/lang/Comparable<-TE;>;>(TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ <E::Ljava/lang/Comparable<-TE;>;>(TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+of
+ <E::Ljava/lang/Comparable<-TE;>;>(TE;TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ <E::Ljava/lang/Comparable<-TE;>;>(TE;TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+of
+ <E::Ljava/lang/Comparable<-TE;>;>(TE;TE;TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ <E::Ljava/lang/Comparable<-TE;>;>(TE;TE;TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+of
+ <E::Ljava/lang/Comparable<-TE;>;>(TE;TE;TE;TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ <E::Ljava/lang/Comparable<-TE;>;>(TE;TE;TE;TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+of
+ <E::Ljava/lang/Comparable<-TE;>;>(TE;TE;TE;TE;TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ <E::Ljava/lang/Comparable<-TE;>;>(TE;TE;TE;TE;TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+of
+ <E::Ljava/lang/Comparable<-TE;>;>(TE;TE;TE;TE;TE;TE;[TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ <E::Ljava/lang/Comparable<-TE;>;>(TE;TE;TE;TE;TE;TE;[TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+of
+ <E:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ <E:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+of
+ <E:Ljava/lang/Object;>(TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ <E:Ljava/lang/Object;>(TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+of
+ <E:Ljava/lang/Object;>(TE;TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ <E:Ljava/lang/Object;>(TE;TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+of
+ <E:Ljava/lang/Object;>(TE;TE;TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ <E:Ljava/lang/Object;>(TE;TE;TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+of
+ <E:Ljava/lang/Object;>(TE;TE;TE;TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ <E:Ljava/lang/Object;>(TE;TE;TE;TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+of
+ <E:Ljava/lang/Object;>(TE;TE;TE;TE;TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ <E:Ljava/lang/Object;>(TE;TE;TE;TE;TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+of
+ <E:Ljava/lang/Object;>(TE;TE;TE;TE;TE;TE;[TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ <E:Ljava/lang/Object;>(TE;TE;TE;TE;TE;TE;[TE;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+orderedBy
+ <E:Ljava/lang/Object;>(Ljava/util/Comparator<TE;>;)Lcom/google/common/collect/ImmutableSortedMultiset$Builder<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Comparator<TE;>;)Lcom/google/common/collect/ImmutableSortedMultiset$Builder<TE;>;
+reverseOrder
+ <E::Ljava/lang/Comparable<*>;>()Lcom/google/common/collect/ImmutableSortedMultiset$Builder<TE;>;
+ <E::Ljava/lang/Comparable<*>;>()Lcom/google/common/collect/ImmutableSortedMultiset$Builder<TE;>;
+toImmutableMultiset
+ <E:Ljava/lang/Object;>()Ljava/util/stream/Collector<TE;*Lcom/google/common/collect/ImmutableMultiset<TE;>;>;
+ <E:Ljava/lang/Object;>()Ljava/util/stream/Collector<TE;*Lcom/google/common/collect/ImmutableMultiset<TE;>;>;
+toImmutableMultiset
+ <T:Ljava/lang/Object;E:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TE;>;Ljava/util/function/ToIntFunction<-TT;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableMultiset<TE;>;>;
+ <T:Ljava/lang/Object;E:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TE;>;Ljava/util/function/ToIntFunction<-TT;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableMultiset<TE;>;>;
+toImmutableSortedMultiset
+ <E:Ljava/lang/Object;>(Ljava/util/Comparator<-TE;>;)Ljava/util/stream/Collector<TE;*Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Comparator<-TE;>;)Ljava/util/stream/Collector<TE;*Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;>;
+toImmutableSortedMultiset
+ <T:Ljava/lang/Object;E:Ljava/lang/Object;>(Ljava/util/Comparator<-TE;>;Ljava/util/function/Function<-TT;+TE;>;Ljava/util/function/ToIntFunction<-TT;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;>;
+ <T:Ljava/lang/Object;E:Ljava/lang/Object;>(Ljava/util/Comparator<-TE;>;Ljava/util/function/Function<-TT;+TE;>;Ljava/util/function/ToIntFunction<-TT;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;>;
+
+comparator
+ ()Ljava/util/Comparator<-TE;>;
+ ()Ljava/util/Comparator<-TE;>;
+descendingMultiset
+ ()Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ ()Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+elementSet
+ ()Lcom/google/common/collect/ImmutableSortedSet<TE;>;
+ ()Lcom/google/common/collect/ImmutableSortedSet<TE;>;
+headMultiset
+ (TE;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ (TE;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+pollFirstEntry
+ ()Lcom/google/common/collect/Multiset$Entry<TE;>;
+ ()L0com/google/common/collect/Multiset$Entry<TE;>; # @Inherited(com.google.common.collect.SortedMultiset)
+pollLastEntry
+ ()Lcom/google/common/collect/Multiset$Entry<TE;>;
+ ()L0com/google/common/collect/Multiset$Entry<TE;>; # @Inherited(com.google.common.collect.SortedMultiset)
+subMultiset
+ (TE;Lcom/google/common/collect/BoundType;TE;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ (TE;Lcom/google/common/collect/BoundType;TE;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+tailMultiset
+ (TE;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;
+ (TE;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/ImmutableSortedMultiset<TE;>;

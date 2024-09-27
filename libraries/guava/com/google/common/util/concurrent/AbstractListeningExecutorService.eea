@@ -1,0 +1,17 @@
+class com/google/common/util/concurrent/AbstractListeningExecutorService
+
+newTaskFor
+ <T:Ljava/lang/Object;>(Ljava/lang/Runnable;TT;)Ljava/util/concurrent/RunnableFuture<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Runnable;TT;)Ljava/util/concurrent/RunnableFuture<TT;>;
+newTaskFor
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)Ljava/util/concurrent/RunnableFuture<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)Ljava/util/concurrent/RunnableFuture<TT;>;
+submit
+ (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture<*>;
+ (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture<*>;
+submit
+ <T:Ljava/lang/Object;>(Ljava/lang/Runnable;TT;)Lcom/google/common/util/concurrent/ListenableFuture<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Runnable;TT;)Lcom/google/common/util/concurrent/ListenableFuture<TT;>;
+submit
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)Lcom/google/common/util/concurrent/ListenableFuture<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)Lcom/google/common/util/concurrent/ListenableFuture<TT;>;

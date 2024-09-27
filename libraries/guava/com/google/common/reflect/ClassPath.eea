@@ -1,0 +1,21 @@
+class com/google/common/reflect/ClassPath
+
+from
+ (Ljava/lang/ClassLoader;)Lcom/google/common/reflect/ClassPath;
+ (Ljava/lang/ClassLoader;)Lcom/google/common/reflect/ClassPath;
+
+getAllClasses
+ ()Lcom/google/common/collect/ImmutableSet<Lcom/google/common/reflect/ClassPath$ClassInfo;>;
+ ()Lcom/google/common/collect/ImmutableSet<Lcom/google/common/reflect/ClassPath$ClassInfo;>;
+getResources
+ ()Lcom/google/common/collect/ImmutableSet<Lcom/google/common/reflect/ClassPath$ResourceInfo;>;
+ ()Lcom/google/common/collect/ImmutableSet<Lcom/google/common/reflect/ClassPath$ResourceInfo;>;
+getTopLevelClasses
+ ()Lcom/google/common/collect/ImmutableSet<Lcom/google/common/reflect/ClassPath$ClassInfo;>;
+ ()Lcom/google/common/collect/ImmutableSet<Lcom/google/common/reflect/ClassPath$ClassInfo;>;
+getTopLevelClasses
+ (Ljava/lang/String;)Lcom/google/common/collect/ImmutableSet<Lcom/google/common/reflect/ClassPath$ClassInfo;>;
+ (Ljava/lang/String;)Lcom/google/common/collect/ImmutableSet<Lcom/google/common/reflect/ClassPath$ClassInfo;>;
+getTopLevelClassesRecursive
+ (Ljava/lang/String;)Lcom/google/common/collect/ImmutableSet<Lcom/google/common/reflect/ClassPath$ClassInfo;>;
+ (Ljava/lang/String;)Lcom/google/common/collect/ImmutableSet<Lcom/google/common/reflect/ClassPath$ClassInfo;>;

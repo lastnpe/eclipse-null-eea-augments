@@ -1,0 +1,42 @@
+class com/google/common/graph/NetworkBuilder
+ <N:Ljava/lang/Object;E:Ljava/lang/Object;>
+ <N:Ljava/lang/Object;E:Ljava/lang/Object;>
+
+super com/google/common/graph/AbstractGraphBuilder
+ <TN;>
+ <TN;>
+
+directed
+ ()Lcom/google/common/graph/NetworkBuilder<Ljava/lang/Object;Ljava/lang/Object;>;
+ ()Lcom/google/common/graph/NetworkBuilder<Ljava/lang/Object;Ljava/lang/Object;>;
+from
+ <N:Ljava/lang/Object;E:Ljava/lang/Object;>(Lcom/google/common/graph/Network<TN;TE;>;)Lcom/google/common/graph/NetworkBuilder<TN;TE;>;
+ <N:Ljava/lang/Object;E:Ljava/lang/Object;>(Lcom/google/common/graph/Network<TN;TE;>;)Lcom/google/common/graph/NetworkBuilder<TN;TE;>;
+undirected
+ ()Lcom/google/common/graph/NetworkBuilder<Ljava/lang/Object;Ljava/lang/Object;>;
+ ()Lcom/google/common/graph/NetworkBuilder<Ljava/lang/Object;Ljava/lang/Object;>;
+
+allowsParallelEdges
+ (Z)Lcom/google/common/graph/NetworkBuilder<TN;TE;>;
+ (Z)L1com/google/common/graph/NetworkBuilder<TN;TE;>;
+allowsSelfLoops
+ (Z)Lcom/google/common/graph/NetworkBuilder<TN;TE;>;
+ (Z)L1com/google/common/graph/NetworkBuilder<TN;TE;>;
+build
+ <N1:TN;E1:TE;>()Lcom/google/common/graph/MutableNetwork<TN1;TE1;>;
+ <N1:TN;E1:TE;>()L1com/google/common/graph/MutableNetwork<TN1;TE1;>;
+edgeOrder
+ <E1:TE;>(Lcom/google/common/graph/ElementOrder<TE1;>;)Lcom/google/common/graph/NetworkBuilder<TN;TE1;>;
+ <E1:TE;>(Lcom/google/common/graph/ElementOrder<TE1;>;)L1com/google/common/graph/NetworkBuilder<TN;TE1;>;
+expectedEdgeCount
+ (I)Lcom/google/common/graph/NetworkBuilder<TN;TE;>;
+ (I)L1com/google/common/graph/NetworkBuilder<TN;TE;>;
+expectedNodeCount
+ (I)Lcom/google/common/graph/NetworkBuilder<TN;TE;>;
+ (I)L1com/google/common/graph/NetworkBuilder<TN;TE;>;
+immutable
+ <N1:TN;E1:TE;>()Lcom/google/common/graph/ImmutableNetwork$Builder<TN1;TE1;>;
+ <N1:TN;E1:TE;>()Lcom/google/common/graph/ImmutableNetwork$Builder<TN1;TE1;>;
+nodeOrder
+ <N1:TN;>(Lcom/google/common/graph/ElementOrder<TN1;>;)Lcom/google/common/graph/NetworkBuilder<TN1;TE;>;
+ <N1:TN;>(Lcom/google/common/graph/ElementOrder<TN1;>;)L1com/google/common/graph/NetworkBuilder<TN1;TE;>;

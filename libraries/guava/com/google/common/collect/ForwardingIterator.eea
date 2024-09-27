@@ -1,0 +1,14 @@
+class com/google/common/collect/ForwardingIterator
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super java/util/Iterator
+ <TT;>
+ <TT;>
+
+delegate
+ ()Ljava/util/Iterator<TT;>;
+ ()Ljava/util/Iterator<TT;>;
+next
+ ()TT;
+ ()T1T;

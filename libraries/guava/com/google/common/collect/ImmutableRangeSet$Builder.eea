@@ -1,0 +1,16 @@
+class com/google/common/collect/ImmutableRangeSet$Builder
+ <C::Ljava/lang/Comparable<*>;>
+ <C::Ljava/lang/Comparable<*>;>
+
+add
+ (Lcom/google/common/collect/Range<TC;>;)Lcom/google/common/collect/ImmutableRangeSet$Builder<TC;>;
+ (Lcom/google/common/collect/Range<TC;>;)L1com/google/common/collect/ImmutableRangeSet$Builder<TC;>;
+addAll
+ (Lcom/google/common/collect/RangeSet<TC;>;)Lcom/google/common/collect/ImmutableRangeSet$Builder<TC;>;
+ (Lcom/google/common/collect/RangeSet<TC;>;)L1com/google/common/collect/ImmutableRangeSet$Builder<TC;>;
+addAll
+ (Ljava/lang/Iterable<Lcom/google/common/collect/Range<TC;>;>;)Lcom/google/common/collect/ImmutableRangeSet$Builder<TC;>;
+ (Ljava/lang/Iterable<Lcom/google/common/collect/Range<TC;>;>;)L1com/google/common/collect/ImmutableRangeSet$Builder<TC;>;
+build
+ ()Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+ ()L1com/google/common/collect/ImmutableRangeSet<TC;>;

@@ -1,7 +1,20 @@
 class com/google/common/collect/ImmutableMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super java/util/Map
+ <TK;TV;>
+ <TK;TV;>
+
 builder
  <K:Ljava/lang/Object;V:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableMap$Builder<TK;TV;>;
  <K:Ljava/lang/Object;V:Ljava/lang/Object;>()L1com/google/common/collect/ImmutableMap$Builder<TK;TV;>;
+builderWithExpectedSize
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(I)Lcom/google/common/collect/ImmutableMap$Builder<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(I)Lcom/google/common/collect/ImmutableMap$Builder<TK;TV;>;
+copyOf
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/lang/Iterable<+Ljava/util/Map$Entry<+TK;+TV;>;>;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/lang/Iterable<+Ljava/util/Map$Entry<+TK;+TV;>;>;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
 copyOf
  <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<+TK;+TV;>;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
  <K:Ljava/lang/Object;V:Ljava/lang/Object;>(L1java/util/Map<+TK;+TV;>;)L1com/google/common/collect/ImmutableMap<TK;TV;>;
@@ -23,3 +36,94 @@ of
 of
  <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
  <K:Ljava/lang/Object;V:Ljava/lang/Object;>(T1K;T1V;T1K;T1V;T1K;T1V;T1K;T1V;T1K;T1V;)L1com/google/common/collect/ImmutableMap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+ofEntries
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>([Ljava/util/Map$Entry<+TK;+TV;>;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>([Ljava/util/Map$Entry<+TK;+TV;>;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+toImmutableMap
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+TV;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableMap<TK;TV;>;>;
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+TV;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableMap<TK;TV;>;>;
+toImmutableMap
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+TV;>;Ljava/util/function/BinaryOperator<TV;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableMap<TK;TV;>;>;
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+TV;>;Ljava/util/function/BinaryOperator<TV;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableMap<TK;TV;>;>;
+
+asMultimap
+ ()Lcom/google/common/collect/ImmutableSetMultimap<TK;TV;>;
+ ()Lcom/google/common/collect/ImmutableSetMultimap<TK;TV;>;
+compute
+ (TK;Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)TV;
+ (TK;Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)T0V;
+computeIfAbsent
+ (TK;Ljava/util/function/Function<-TK;+TV;>;)TV;
+ (TK;Ljava/util/function/Function<-TK;+TV;>;)TV;
+computeIfPresent
+ (TK;Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)TV;
+ (TK;Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)T0V;
+containsKey
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+containsValue
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+entrySet
+ ()Lcom/google/common/collect/ImmutableSet<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()Lcom/google/common/collect/ImmutableSet<Ljava/util/Map$Entry<TK;TV;>;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (Ljava/lang/Object;)TV;
+ (Ljava/lang/Object;)T0V;
+getOrDefault
+ (Ljava/lang/Object;TV;)TV;
+ (Ljava/lang/Object;TV;)T0V;
+keySet
+ ()Lcom/google/common/collect/ImmutableSet<TK;>;
+ ()Lcom/google/common/collect/ImmutableSet<TK;>;
+merge
+ (TK;TV;Ljava/util/function/BiFunction<-TV;-TV;+TV;>;)TV;
+ (TK;TV;Ljava/util/function/BiFunction<-TV;-TV;+TV;>;)T0V;
+put
+ (TK;TV;)TV;
+ (TK;TV;)T0V;
+putAll
+ (Ljava/util/Map<+TK;+TV;>;)V
+ (Ljava/util/Map<+TK;+TV;>;)V
+putIfAbsent
+ (TK;TV;)TV;
+ (TK;TV;)T0V;
+remove
+ (Ljava/lang/Object;)TV;
+ (Ljava/lang/Object;)T0V;
+remove
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+replace
+ (TK;TV;)TV;
+ (TK;TV;)T0V;
+replace
+ (TK;TV;TV;)Z
+ (TK;TV;TV;)Z
+replaceAll
+ (Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)V
+ (Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+values
+ ()Lcom/google/common/collect/ImmutableCollection<TV;>;
+ ()Lcom/google/common/collect/ImmutableCollection<TV;>;

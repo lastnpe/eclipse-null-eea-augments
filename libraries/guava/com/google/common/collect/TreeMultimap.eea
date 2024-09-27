@@ -1,4 +1,11 @@
 class com/google/common/collect/TreeMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/collect/AbstractSortedKeySortedSetMultimap
+ <TK;TV;>
+ <TK;TV;>
+
 create
  <K::Ljava/lang/Comparable;V::Ljava/lang/Comparable;>()Lcom/google/common/collect/TreeMultimap<TK;TV;>;
  <K::Ljava/lang/Comparable;V::Ljava/lang/Comparable;>()L1com/google/common/collect/TreeMultimap<TK;TV;>;
@@ -8,3 +15,19 @@ create
 create
  <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Comparator<-TK;>;Ljava/util/Comparator<-TV;>;)Lcom/google/common/collect/TreeMultimap<TK;TV;>;
  <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Comparator<-TK;>;Ljava/util/Comparator<-TV;>;)L1com/google/common/collect/TreeMultimap<TK;TV;>;
+
+asMap
+ ()Ljava/util/NavigableMap<TK;Ljava/util/Collection<TV;>;>;
+ ()Ljava/util/NavigableMap<TK;Ljava/util/Collection<TV;>;>;
+get
+ (TK;)Ljava/util/NavigableSet<TV;>;
+ (TK;)Ljava/util/NavigableSet<TV;>;
+keyComparator
+ ()Ljava/util/Comparator<-TK;>;
+ ()Ljava/util/Comparator<-TK;>;
+keySet
+ ()Ljava/util/NavigableSet<TK;>;
+ ()Ljava/util/NavigableSet<TK;>;
+valueComparator
+ ()Ljava/util/Comparator<-TV;>;
+ ()L0java/util/Comparator<-TV;>; # @Inherited(com.google.common.collect.SortedSetMultimap)

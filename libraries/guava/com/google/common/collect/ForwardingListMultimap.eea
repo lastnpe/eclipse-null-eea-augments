@@ -1,0 +1,23 @@
+class com/google/common/collect/ForwardingListMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/collect/ForwardingMultimap
+ <TK;TV;>
+ <TK;TV;>
+super com/google/common/collect/ListMultimap
+ <TK;TV;>
+ <TK;TV;>
+
+delegate
+ ()Lcom/google/common/collect/ListMultimap<TK;TV;>;
+ ()Lcom/google/common/collect/ListMultimap<TK;TV;>;
+get
+ (TK;)Ljava/util/List<TV;>;
+ (TK;)Ljava/util/List<TV;>;
+removeAll
+ (Ljava/lang/Object;)Ljava/util/List<TV;>;
+ (Ljava/lang/Object;)Ljava/util/List<TV;>;
+replaceValues
+ (TK;Ljava/lang/Iterable<+TV;>;)Ljava/util/List<TV;>;
+ (TK;Ljava/lang/Iterable<+TV;>;)Ljava/util/List<TV;>;

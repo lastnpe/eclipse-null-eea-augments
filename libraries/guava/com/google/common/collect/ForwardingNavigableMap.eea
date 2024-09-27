@@ -1,0 +1,122 @@
+class com/google/common/collect/ForwardingNavigableMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/collect/ForwardingSortedMap
+ <TK;TV;>
+ <TK;TV;>
+super java/util/NavigableMap
+ <TK;TV;>
+ <TK;TV;>
+
+ceilingEntry
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+ (TK;)L0java/util/Map$Entry<TK;TV;>;
+ceilingKey
+ (TK;)TK;
+ (TK;)T0K;
+delegate
+ ()Ljava/util/NavigableMap<TK;TV;>;
+ ()Ljava/util/NavigableMap<TK;TV;>;
+descendingKeySet
+ ()Ljava/util/NavigableSet<TK;>;
+ ()Ljava/util/NavigableSet<TK;>;
+descendingMap
+ ()Ljava/util/NavigableMap<TK;TV;>;
+ ()Ljava/util/NavigableMap<TK;TV;>;
+firstEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()L0java/util/Map$Entry<TK;TV;>;
+floorEntry
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+ (TK;)L0java/util/Map$Entry<TK;TV;>;
+floorKey
+ (TK;)TK;
+ (TK;)T0K;
+headMap
+ (TK;Z)Ljava/util/NavigableMap<TK;TV;>;
+ (TK;Z)Ljava/util/NavigableMap<TK;TV;>;
+higherEntry
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+ (TK;)L0java/util/Map$Entry<TK;TV;>;
+higherKey
+ (TK;)TK;
+ (TK;)T0K;
+lastEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()L0java/util/Map$Entry<TK;TV;>;
+lowerEntry
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+ (TK;)L0java/util/Map$Entry<TK;TV;>;
+lowerKey
+ (TK;)TK;
+ (TK;)T0K;
+navigableKeySet
+ ()Ljava/util/NavigableSet<TK;>;
+ ()Ljava/util/NavigableSet<TK;>;
+pollFirstEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()L0java/util/Map$Entry<TK;TV;>;
+pollLastEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()L0java/util/Map$Entry<TK;TV;>;
+standardCeilingEntry
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+ (TK;)L0java/util/Map$Entry<TK;TV;>;
+standardCeilingKey
+ (TK;)TK;
+ (TK;)T0K;
+standardDescendingKeySet
+ ()Ljava/util/NavigableSet<TK;>;
+ ()Ljava/util/NavigableSet<TK;>;
+standardFirstEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()L0java/util/Map$Entry<TK;TV;>;
+standardFirstKey
+ ()TK;
+ ()TK;
+standardFloorEntry
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+ (TK;)L0java/util/Map$Entry<TK;TV;>;
+standardFloorKey
+ (TK;)TK;
+ (TK;)T0K;
+standardHeadMap
+ (TK;)Ljava/util/SortedMap<TK;TV;>;
+ (TK;)Ljava/util/SortedMap<TK;TV;>;
+standardHigherEntry
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+ (TK;)L0java/util/Map$Entry<TK;TV;>;
+standardHigherKey
+ (TK;)TK;
+ (TK;)T0K;
+standardLastEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()L0java/util/Map$Entry<TK;TV;>;
+standardLastKey
+ ()TK;
+ ()TK;
+standardLowerEntry
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+ (TK;)L0java/util/Map$Entry<TK;TV;>;
+standardLowerKey
+ (TK;)TK;
+ (TK;)T0K;
+standardPollFirstEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()L0java/util/Map$Entry<TK;TV;>;
+standardPollLastEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()L0java/util/Map$Entry<TK;TV;>;
+standardSubMap
+ (TK;TK;)Ljava/util/SortedMap<TK;TV;>;
+ (TK;TK;)Ljava/util/SortedMap<TK;TV;>;
+standardTailMap
+ (TK;)Ljava/util/SortedMap<TK;TV;>;
+ (TK;)Ljava/util/SortedMap<TK;TV;>;
+subMap
+ (TK;ZTK;Z)Ljava/util/NavigableMap<TK;TV;>;
+ (TK;ZTK;Z)Ljava/util/NavigableMap<TK;TV;>;
+tailMap
+ (TK;Z)Ljava/util/NavigableMap<TK;TV;>;
+ (TK;Z)Ljava/util/NavigableMap<TK;TV;>;

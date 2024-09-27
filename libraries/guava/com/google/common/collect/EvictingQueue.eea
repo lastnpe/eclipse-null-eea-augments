@@ -1,0 +1,27 @@
+class com/google/common/collect/EvictingQueue
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super com/google/common/collect/ForwardingQueue
+ <TE;>
+ <TE;>
+
+create
+ <E:Ljava/lang/Object;>(I)Lcom/google/common/collect/EvictingQueue<TE;>;
+ <E:Ljava/lang/Object;>(I)Lcom/google/common/collect/EvictingQueue<TE;>;
+
+add
+ (TE;)Z
+ (TE;)Z
+addAll
+ (Ljava/util/Collection<+TE;>;)Z
+ (Ljava/util/Collection<+TE;>;)Z
+delegate
+ ()Ljava/util/Queue<TE;>;
+ ()Ljava/util/Queue<TE;>;
+offer
+ (TE;)Z
+ (TE;)Z
+toArray
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;

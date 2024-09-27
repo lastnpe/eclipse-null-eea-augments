@@ -1,0 +1,110 @@
+class com/google/common/collect/Multimaps
+
+asMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/ListMultimap<TK;TV;>;)Ljava/util/Map<TK;Ljava/util/List<TV;>;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/ListMultimap<TK;TV;>;)Ljava/util/Map<TK;Ljava/util/List<TV;>;>;
+asMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<TK;TV;>;)Ljava/util/Map<TK;Ljava/util/Collection<TV;>;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<TK;TV;>;)Ljava/util/Map<TK;Ljava/util/Collection<TV;>;>;
+asMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/SetMultimap<TK;TV;>;)Ljava/util/Map<TK;Ljava/util/Set<TV;>;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/SetMultimap<TK;TV;>;)Ljava/util/Map<TK;Ljava/util/Set<TV;>;>;
+asMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/SortedSetMultimap<TK;TV;>;)Ljava/util/Map<TK;Ljava/util/SortedSet<TV;>;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/SortedSetMultimap<TK;TV;>;)Ljava/util/Map<TK;Ljava/util/SortedSet<TV;>;>;
+filterEntries
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<TK;TV;>;Lcom/google/common/base/Predicate<-Ljava/util/Map$Entry<TK;TV;>;>;)Lcom/google/common/collect/Multimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<TK;TV;>;Lcom/google/common/base/Predicate<-Ljava/util/Map$Entry<TK;TV;>;>;)Lcom/google/common/collect/Multimap<TK;TV;>;
+filterEntries
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/SetMultimap<TK;TV;>;Lcom/google/common/base/Predicate<-Ljava/util/Map$Entry<TK;TV;>;>;)Lcom/google/common/collect/SetMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/SetMultimap<TK;TV;>;Lcom/google/common/base/Predicate<-Ljava/util/Map$Entry<TK;TV;>;>;)Lcom/google/common/collect/SetMultimap<TK;TV;>;
+filterKeys
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/ListMultimap<TK;TV;>;Lcom/google/common/base/Predicate<-TK;>;)Lcom/google/common/collect/ListMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/ListMultimap<TK;TV;>;Lcom/google/common/base/Predicate<-TK;>;)Lcom/google/common/collect/ListMultimap<TK;TV;>;
+filterKeys
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<TK;TV;>;Lcom/google/common/base/Predicate<-TK;>;)Lcom/google/common/collect/Multimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<TK;TV;>;Lcom/google/common/base/Predicate<-TK;>;)Lcom/google/common/collect/Multimap<TK;TV;>;
+filterKeys
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/SetMultimap<TK;TV;>;Lcom/google/common/base/Predicate<-TK;>;)Lcom/google/common/collect/SetMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/SetMultimap<TK;TV;>;Lcom/google/common/base/Predicate<-TK;>;)Lcom/google/common/collect/SetMultimap<TK;TV;>;
+filterValues
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<TK;TV;>;Lcom/google/common/base/Predicate<-TV;>;)Lcom/google/common/collect/Multimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<TK;TV;>;Lcom/google/common/base/Predicate<-TV;>;)Lcom/google/common/collect/Multimap<TK;TV;>;
+filterValues
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/SetMultimap<TK;TV;>;Lcom/google/common/base/Predicate<-TV;>;)Lcom/google/common/collect/SetMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/SetMultimap<TK;TV;>;Lcom/google/common/base/Predicate<-TV;>;)Lcom/google/common/collect/SetMultimap<TK;TV;>;
+flatteningToMultimap
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;M::Lcom/google/common/collect/Multimap<TK;TV;>;>(Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+Ljava/util/stream/Stream<+TV;>;>;Ljava/util/function/Supplier<TM;>;)Ljava/util/stream/Collector<TT;*TM;>;
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;M::Lcom/google/common/collect/Multimap<TK;TV;>;>(Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+Ljava/util/stream/Stream<+TV;>;>;Ljava/util/function/Supplier<TM;>;)Ljava/util/stream/Collector<TT;*TM;>;
+forMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<TK;TV;>;)Lcom/google/common/collect/SetMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<TK;TV;>;)Lcom/google/common/collect/SetMultimap<TK;TV;>;
+index
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/lang/Iterable<TV;>;Lcom/google/common/base/Function<-TV;TK;>;)Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/lang/Iterable<TV;>;Lcom/google/common/base/Function<-TV;TK;>;)Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+index
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Iterator<TV;>;Lcom/google/common/base/Function<-TV;TK;>;)Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Iterator<TV;>;Lcom/google/common/base/Function<-TV;TK;>;)Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+invertFrom
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;M::Lcom/google/common/collect/Multimap<TK;TV;>;>(Lcom/google/common/collect/Multimap<+TV;+TK;>;TM;)TM;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;M::Lcom/google/common/collect/Multimap<TK;TV;>;>(Lcom/google/common/collect/Multimap<+TV;+TK;>;TM;)TM;
+newListMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<TK;Ljava/util/Collection<TV;>;>;Lcom/google/common/base/Supplier<+Ljava/util/List<TV;>;>;)Lcom/google/common/collect/ListMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<TK;Ljava/util/Collection<TV;>;>;Lcom/google/common/base/Supplier<+Ljava/util/List<TV;>;>;)Lcom/google/common/collect/ListMultimap<TK;TV;>;
+newMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<TK;Ljava/util/Collection<TV;>;>;Lcom/google/common/base/Supplier<+Ljava/util/Collection<TV;>;>;)Lcom/google/common/collect/Multimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<TK;Ljava/util/Collection<TV;>;>;Lcom/google/common/base/Supplier<+Ljava/util/Collection<TV;>;>;)Lcom/google/common/collect/Multimap<TK;TV;>;
+newSetMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<TK;Ljava/util/Collection<TV;>;>;Lcom/google/common/base/Supplier<+Ljava/util/Set<TV;>;>;)Lcom/google/common/collect/SetMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<TK;Ljava/util/Collection<TV;>;>;Lcom/google/common/base/Supplier<+Ljava/util/Set<TV;>;>;)Lcom/google/common/collect/SetMultimap<TK;TV;>;
+newSortedSetMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<TK;Ljava/util/Collection<TV;>;>;Lcom/google/common/base/Supplier<+Ljava/util/SortedSet<TV;>;>;)Lcom/google/common/collect/SortedSetMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<TK;Ljava/util/Collection<TV;>;>;Lcom/google/common/base/Supplier<+Ljava/util/SortedSet<TV;>;>;)Lcom/google/common/collect/SortedSetMultimap<TK;TV;>;
+synchronizedListMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/ListMultimap<TK;TV;>;)Lcom/google/common/collect/ListMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/ListMultimap<TK;TV;>;)Lcom/google/common/collect/ListMultimap<TK;TV;>;
+synchronizedMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<TK;TV;>;)Lcom/google/common/collect/Multimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<TK;TV;>;)Lcom/google/common/collect/Multimap<TK;TV;>;
+synchronizedSetMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/SetMultimap<TK;TV;>;)Lcom/google/common/collect/SetMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/SetMultimap<TK;TV;>;)Lcom/google/common/collect/SetMultimap<TK;TV;>;
+synchronizedSortedSetMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/SortedSetMultimap<TK;TV;>;)Lcom/google/common/collect/SortedSetMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/SortedSetMultimap<TK;TV;>;)Lcom/google/common/collect/SortedSetMultimap<TK;TV;>;
+toMultimap
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;M::Lcom/google/common/collect/Multimap<TK;TV;>;>(Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+TV;>;Ljava/util/function/Supplier<TM;>;)Ljava/util/stream/Collector<TT;*TM;>;
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;M::Lcom/google/common/collect/Multimap<TK;TV;>;>(Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+TV;>;Ljava/util/function/Supplier<TM;>;)Ljava/util/stream/Collector<TT;*TM;>;
+transformEntries
+ <K:Ljava/lang/Object;V1:Ljava/lang/Object;V2:Ljava/lang/Object;>(Lcom/google/common/collect/ListMultimap<TK;TV1;>;Lcom/google/common/collect/Maps$EntryTransformer<-TK;-TV1;TV2;>;)Lcom/google/common/collect/ListMultimap<TK;TV2;>;
+ <K:Ljava/lang/Object;V1:Ljava/lang/Object;V2:Ljava/lang/Object;>(Lcom/google/common/collect/ListMultimap<TK;TV1;>;Lcom/google/common/collect/Maps$EntryTransformer<-TK;-TV1;TV2;>;)Lcom/google/common/collect/ListMultimap<TK;TV2;>;
+transformEntries
+ <K:Ljava/lang/Object;V1:Ljava/lang/Object;V2:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<TK;TV1;>;Lcom/google/common/collect/Maps$EntryTransformer<-TK;-TV1;TV2;>;)Lcom/google/common/collect/Multimap<TK;TV2;>;
+ <K:Ljava/lang/Object;V1:Ljava/lang/Object;V2:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<TK;TV1;>;Lcom/google/common/collect/Maps$EntryTransformer<-TK;-TV1;TV2;>;)Lcom/google/common/collect/Multimap<TK;TV2;>;
+transformValues
+ <K:Ljava/lang/Object;V1:Ljava/lang/Object;V2:Ljava/lang/Object;>(Lcom/google/common/collect/ListMultimap<TK;TV1;>;Lcom/google/common/base/Function<-TV1;TV2;>;)Lcom/google/common/collect/ListMultimap<TK;TV2;>;
+ <K:Ljava/lang/Object;V1:Ljava/lang/Object;V2:Ljava/lang/Object;>(Lcom/google/common/collect/ListMultimap<TK;TV1;>;Lcom/google/common/base/Function<-TV1;TV2;>;)Lcom/google/common/collect/ListMultimap<TK;TV2;>;
+transformValues
+ <K:Ljava/lang/Object;V1:Ljava/lang/Object;V2:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<TK;TV1;>;Lcom/google/common/base/Function<-TV1;TV2;>;)Lcom/google/common/collect/Multimap<TK;TV2;>;
+ <K:Ljava/lang/Object;V1:Ljava/lang/Object;V2:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<TK;TV1;>;Lcom/google/common/base/Function<-TV1;TV2;>;)Lcom/google/common/collect/Multimap<TK;TV2;>;
+unmodifiableListMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;)Lcom/google/common/collect/ListMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;)Lcom/google/common/collect/ListMultimap<TK;TV;>;
+unmodifiableListMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/ListMultimap<TK;TV;>;)Lcom/google/common/collect/ListMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/ListMultimap<TK;TV;>;)Lcom/google/common/collect/ListMultimap<TK;TV;>;
+unmodifiableMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/ImmutableMultimap<TK;TV;>;)Lcom/google/common/collect/Multimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/ImmutableMultimap<TK;TV;>;)Lcom/google/common/collect/Multimap<TK;TV;>;
+unmodifiableMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<TK;TV;>;)Lcom/google/common/collect/Multimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<TK;TV;>;)Lcom/google/common/collect/Multimap<TK;TV;>;
+unmodifiableSetMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/ImmutableSetMultimap<TK;TV;>;)Lcom/google/common/collect/SetMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/ImmutableSetMultimap<TK;TV;>;)Lcom/google/common/collect/SetMultimap<TK;TV;>;
+unmodifiableSetMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/SetMultimap<TK;TV;>;)Lcom/google/common/collect/SetMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/SetMultimap<TK;TV;>;)Lcom/google/common/collect/SetMultimap<TK;TV;>;
+unmodifiableSortedSetMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/SortedSetMultimap<TK;TV;>;)Lcom/google/common/collect/SortedSetMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/SortedSetMultimap<TK;TV;>;)Lcom/google/common/collect/SortedSetMultimap<TK;TV;>;

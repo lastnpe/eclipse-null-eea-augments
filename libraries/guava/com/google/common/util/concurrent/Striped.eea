@@ -1,0 +1,32 @@
+class com/google/common/util/concurrent/Striped
+ <L:Ljava/lang/Object;>
+ <L:Ljava/lang/Object;>
+
+lazyWeakLock
+ (I)Lcom/google/common/util/concurrent/Striped<Ljava/util/concurrent/locks/Lock;>;
+ (I)Lcom/google/common/util/concurrent/Striped<Ljava/util/concurrent/locks/Lock;>;
+lazyWeakReadWriteLock
+ (I)Lcom/google/common/util/concurrent/Striped<Ljava/util/concurrent/locks/ReadWriteLock;>;
+ (I)Lcom/google/common/util/concurrent/Striped<Ljava/util/concurrent/locks/ReadWriteLock;>;
+lazyWeakSemaphore
+ (II)Lcom/google/common/util/concurrent/Striped<Ljava/util/concurrent/Semaphore;>;
+ (II)Lcom/google/common/util/concurrent/Striped<Ljava/util/concurrent/Semaphore;>;
+lock
+ (I)Lcom/google/common/util/concurrent/Striped<Ljava/util/concurrent/locks/Lock;>;
+ (I)Lcom/google/common/util/concurrent/Striped<Ljava/util/concurrent/locks/Lock;>;
+readWriteLock
+ (I)Lcom/google/common/util/concurrent/Striped<Ljava/util/concurrent/locks/ReadWriteLock;>;
+ (I)Lcom/google/common/util/concurrent/Striped<Ljava/util/concurrent/locks/ReadWriteLock;>;
+semaphore
+ (II)Lcom/google/common/util/concurrent/Striped<Ljava/util/concurrent/Semaphore;>;
+ (II)Lcom/google/common/util/concurrent/Striped<Ljava/util/concurrent/Semaphore;>;
+
+bulkGet
+ (Ljava/lang/Iterable<+Ljava/lang/Object;>;)Ljava/lang/Iterable<TL;>;
+ (Ljava/lang/Iterable<+Ljava/lang/Object;>;)Ljava/lang/Iterable<TL;>;
+get
+ (Ljava/lang/Object;)TL;
+ (Ljava/lang/Object;)TL;
+getAt
+ (I)TL;
+ (I)TL;

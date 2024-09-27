@@ -1,0 +1,60 @@
+class com/google/common/io/BaseEncoding
+
+base16
+ ()Lcom/google/common/io/BaseEncoding;
+ ()Lcom/google/common/io/BaseEncoding;
+base32
+ ()Lcom/google/common/io/BaseEncoding;
+ ()Lcom/google/common/io/BaseEncoding;
+base32Hex
+ ()Lcom/google/common/io/BaseEncoding;
+ ()Lcom/google/common/io/BaseEncoding;
+base64
+ ()Lcom/google/common/io/BaseEncoding;
+ ()Lcom/google/common/io/BaseEncoding;
+base64Url
+ ()Lcom/google/common/io/BaseEncoding;
+ ()Lcom/google/common/io/BaseEncoding;
+
+canDecode
+ (Ljava/lang/CharSequence;)Z
+ (Ljava/lang/CharSequence;)Z
+decode
+ (Ljava/lang/CharSequence;)[B
+ (Ljava/lang/CharSequence;)[B
+decodingSource
+ (Lcom/google/common/io/CharSource;)Lcom/google/common/io/ByteSource;
+ (Lcom/google/common/io/CharSource;)Lcom/google/common/io/ByteSource;
+decodingStream
+ (Ljava/io/Reader;)Ljava/io/InputStream;
+ (Ljava/io/Reader;)Ljava/io/InputStream;
+encode
+ ([B)Ljava/lang/String;
+ ([B)Ljava/lang/String;
+encode
+ ([BII)Ljava/lang/String;
+ ([BII)Ljava/lang/String;
+encodingSink
+ (Lcom/google/common/io/CharSink;)Lcom/google/common/io/ByteSink;
+ (Lcom/google/common/io/CharSink;)Lcom/google/common/io/ByteSink;
+encodingStream
+ (Ljava/io/Writer;)Ljava/io/OutputStream;
+ (Ljava/io/Writer;)Ljava/io/OutputStream;
+ignoreCase
+ ()Lcom/google/common/io/BaseEncoding;
+ ()Lcom/google/common/io/BaseEncoding;
+lowerCase
+ ()Lcom/google/common/io/BaseEncoding;
+ ()Lcom/google/common/io/BaseEncoding;
+omitPadding
+ ()Lcom/google/common/io/BaseEncoding;
+ ()Lcom/google/common/io/BaseEncoding;
+upperCase
+ ()Lcom/google/common/io/BaseEncoding;
+ ()Lcom/google/common/io/BaseEncoding;
+withPadChar
+ (C)Lcom/google/common/io/BaseEncoding;
+ (C)Lcom/google/common/io/BaseEncoding;
+withSeparator
+ (Ljava/lang/String;I)Lcom/google/common/io/BaseEncoding;
+ (Ljava/lang/String;I)Lcom/google/common/io/BaseEncoding;

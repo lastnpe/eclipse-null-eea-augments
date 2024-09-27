@@ -1,0 +1,35 @@
+class com/google/common/collect/ImmutableSortedMap$Builder
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/collect/ImmutableMap$Builder
+ <TK;TV;>
+ <TK;TV;>
+
+<init>
+ (Ljava/util/Comparator<-TK;>;)V
+ (Ljava/util/Comparator<-TK;>;)V
+build
+ ()Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ ()L1com/google/common/collect/ImmutableSortedMap<TK;TV;>;
+buildKeepingLast
+ ()Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ ()Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+buildOrThrow
+ ()Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ ()Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+orderEntriesByValue
+ (Ljava/util/Comparator<-TV;>;)Lcom/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;
+ (Ljava/util/Comparator<-TV;>;)L1com/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;
+put
+ (Ljava/util/Map$Entry<+TK;+TV;>;)Lcom/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;
+ (Ljava/util/Map$Entry<+TK;+TV;>;)L1com/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;
+put
+ (TK;TV;)Lcom/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;
+ (TK;TV;)L1com/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;
+putAll
+ (Ljava/lang/Iterable<+Ljava/util/Map$Entry<+TK;+TV;>;>;)Lcom/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;
+ (Ljava/lang/Iterable<+Ljava/util/Map$Entry<+TK;+TV;>;>;)L1com/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;
+putAll
+ (Ljava/util/Map<+TK;+TV;>;)Lcom/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;
+ (Ljava/util/Map<+TK;+TV;>;)L1com/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;

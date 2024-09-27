@@ -1,0 +1,23 @@
+class com/google/common/collect/SortedSetMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/collect/SetMultimap
+ <TK;TV;>
+ <TK;TV;>
+
+asMap
+ ()Ljava/util/Map<TK;Ljava/util/Collection<TV;>;>;
+ ()Ljava/util/Map<TK;Ljava/util/Collection<TV;>;>;
+get
+ (TK;)Ljava/util/SortedSet<TV;>;
+ (TK;)Ljava/util/SortedSet<TV;>;
+removeAll
+ (Ljava/lang/Object;)Ljava/util/SortedSet<TV;>;
+ (Ljava/lang/Object;)Ljava/util/SortedSet<TV;>;
+replaceValues
+ (TK;Ljava/lang/Iterable<+TV;>;)Ljava/util/SortedSet<TV;>;
+ (TK;Ljava/lang/Iterable<+TV;>;)Ljava/util/SortedSet<TV;>;
+valueComparator
+ ()Ljava/util/Comparator<-TV;>;
+ ()L0java/util/Comparator<-TV;>;

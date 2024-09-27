@@ -1,0 +1,33 @@
+class com/google/common/base/Stopwatch
+
+createStarted
+ ()Lcom/google/common/base/Stopwatch;
+ ()Lcom/google/common/base/Stopwatch;
+createStarted
+ (Lcom/google/common/base/Ticker;)Lcom/google/common/base/Stopwatch;
+ (Lcom/google/common/base/Ticker;)Lcom/google/common/base/Stopwatch;
+createUnstarted
+ ()Lcom/google/common/base/Stopwatch;
+ ()Lcom/google/common/base/Stopwatch;
+createUnstarted
+ (Lcom/google/common/base/Ticker;)Lcom/google/common/base/Stopwatch;
+ (Lcom/google/common/base/Ticker;)Lcom/google/common/base/Stopwatch;
+
+elapsed
+ ()Ljava/time/Duration;
+ ()Ljava/time/Duration;
+elapsed
+ (Ljava/util/concurrent/TimeUnit;)J
+ (Ljava/util/concurrent/TimeUnit;)J
+reset
+ ()Lcom/google/common/base/Stopwatch;
+ ()Lcom/google/common/base/Stopwatch;
+start
+ ()Lcom/google/common/base/Stopwatch;
+ ()Lcom/google/common/base/Stopwatch;
+stop
+ ()Lcom/google/common/base/Stopwatch;
+ ()Lcom/google/common/base/Stopwatch;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

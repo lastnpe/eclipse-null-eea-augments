@@ -1,0 +1,65 @@
+class com/google/common/collect/Multiset
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/util/Collection
+ <TE;>
+ <TE;>
+
+add
+ (TE;)Z
+ (TE;)Z
+add
+ (TE;I)I
+ (TE;I)I
+contains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+containsAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+count
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+elementSet
+ ()Ljava/util/Set<TE;>;
+ ()Ljava/util/Set<TE;>;
+entrySet
+ ()Ljava/util/Set<Lcom/google/common/collect/Multiset$Entry<TE;>;>;
+ ()Ljava/util/Set<Lcom/google/common/collect/Multiset$Entry<TE;>;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+forEach
+ (Ljava/util/function/Consumer<-TE;>;)V
+ (Ljava/util/function/Consumer<-TE;>;)V
+forEachEntry
+ (Ljava/util/function/ObjIntConsumer<-TE;>;)V
+ (Ljava/util/function/ObjIntConsumer<-TE;>;)V
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()Ljava/util/Iterator<TE;>;
+remove
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+remove
+ (Ljava/lang/Object;I)I
+ (Ljava/lang/Object;I)I
+removeAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+retainAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+setCount
+ (TE;I)I
+ (TE;I)I
+setCount
+ (TE;II)Z
+ (TE;II)Z
+spliterator
+ ()Ljava/util/Spliterator<TE;>;
+ ()Ljava/util/Spliterator<TE;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

@@ -1,0 +1,36 @@
+class com/google/common/collect/EnumMultiset
+ <E:Ljava/lang/Enum<TE;>;>
+ <E:Ljava/lang/Enum<TE;>;>
+
+super com/google/common/collect/AbstractMultiset
+ <TE;>
+ <TE;>
+
+create
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/lang/Class<TE;>;)Lcom/google/common/collect/EnumMultiset<TE;>;
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/lang/Class<TE;>;)Lcom/google/common/collect/EnumMultiset<TE;>;
+create
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/lang/Iterable<TE;>;)Lcom/google/common/collect/EnumMultiset<TE;>;
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/lang/Iterable<TE;>;)Lcom/google/common/collect/EnumMultiset<TE;>;
+create
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/lang/Iterable<TE;>;Ljava/lang/Class<TE;>;)Lcom/google/common/collect/EnumMultiset<TE;>;
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/lang/Iterable<TE;>;Ljava/lang/Class<TE;>;)Lcom/google/common/collect/EnumMultiset<TE;>;
+
+add
+ (TE;I)I
+ (TE;I)I
+count
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+forEachEntry
+ (Ljava/util/function/ObjIntConsumer<-TE;>;)V
+ (Ljava/util/function/ObjIntConsumer<-TE;>;)V
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()Ljava/util/Iterator<TE;>;
+remove
+ (Ljava/lang/Object;I)I
+ (Ljava/lang/Object;I)I
+setCount
+ (TE;I)I
+ (TE;I)I

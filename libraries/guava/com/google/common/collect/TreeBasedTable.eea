@@ -1,0 +1,33 @@
+class com/google/common/collect/TreeBasedTable
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/collect/StandardRowSortedTable
+ <TR;TC;TV;>
+ <TR;TC;TV;>
+
+create
+ <R::Ljava/lang/Comparable;C::Ljava/lang/Comparable;V:Ljava/lang/Object;>()Lcom/google/common/collect/TreeBasedTable<TR;TC;TV;>;
+ <R::Ljava/lang/Comparable;C::Ljava/lang/Comparable;V:Ljava/lang/Object;>()Lcom/google/common/collect/TreeBasedTable<TR;TC;TV;>;
+create
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/TreeBasedTable<TR;TC;+TV;>;)Lcom/google/common/collect/TreeBasedTable<TR;TC;TV;>;
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/TreeBasedTable<TR;TC;+TV;>;)Lcom/google/common/collect/TreeBasedTable<TR;TC;TV;>;
+create
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Comparator<-TR;>;Ljava/util/Comparator<-TC;>;)Lcom/google/common/collect/TreeBasedTable<TR;TC;TV;>;
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Comparator<-TR;>;Ljava/util/Comparator<-TC;>;)Lcom/google/common/collect/TreeBasedTable<TR;TC;TV;>;
+
+columnComparator
+ ()Ljava/util/Comparator<-TC;>;
+ ()Ljava/util/Comparator<-TC;>;
+row
+ (TR;)Ljava/util/SortedMap<TC;TV;>;
+ (TR;)Ljava/util/SortedMap<TC;TV;>;
+rowComparator
+ ()Ljava/util/Comparator<-TR;>;
+ ()Ljava/util/Comparator<-TR;>;
+rowKeySet
+ ()Ljava/util/SortedSet<TR;>;
+ ()Ljava/util/SortedSet<TR;>;
+rowMap
+ ()Ljava/util/SortedMap<TR;Ljava/util/Map<TC;TV;>;>;
+ ()Ljava/util/SortedMap<TR;Ljava/util/Map<TC;TV;>;>;

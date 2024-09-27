@@ -1,4 +1,44 @@
 class com/google/common/collect/ImmutableCollection
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/util/AbstractCollection
+ <TE;>
+ <TE;>
+
+add
+ (TE;)Z
+ (TE;)Z
+addAll
+ (Ljava/util/Collection<+TE;>;)Z
+ (Ljava/util/Collection<+TE;>;)Z
 asList
  ()Lcom/google/common/collect/ImmutableList<TE;>;
  ()L1com/google/common/collect/ImmutableList<TE;>;
+contains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+iterator
+ ()Lcom/google/common/collect/UnmodifiableIterator<TE;>;
+ ()Lcom/google/common/collect/UnmodifiableIterator<TE;>;
+remove
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+removeAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+removeIf
+ (Ljava/util/function/Predicate<-TE;>;)Z
+ (Ljava/util/function/Predicate<-TE;>;)Z
+retainAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+spliterator
+ ()Ljava/util/Spliterator<TE;>;
+ ()Ljava/util/Spliterator<TE;>;
+toArray
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+toArray
+ <T:Ljava/lang/Object;>([TT;)[TT;
+ <T:Ljava/lang/Object;>([TT;)[TT;

@@ -1,4 +1,5 @@
 class com/google/common/base/Strings
+
 commonPrefix
  (Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
  (L1java/lang/CharSequence;L1java/lang/CharSequence;)L1java/lang/String;
@@ -11,6 +12,9 @@ emptyToNull
 isNullOrEmpty
  (Ljava/lang/String;)Z
  (L0java/lang/String;)Z
+lenientFormat
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 nullToEmpty
  (Ljava/lang/String;)Ljava/lang/String;
  (L0java/lang/String;)L1java/lang/String;

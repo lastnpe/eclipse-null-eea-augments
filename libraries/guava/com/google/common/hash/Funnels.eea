@@ -1,0 +1,23 @@
+class com/google/common/hash/Funnels
+
+asOutputStream
+ (Lcom/google/common/hash/PrimitiveSink;)Ljava/io/OutputStream;
+ (Lcom/google/common/hash/PrimitiveSink;)Ljava/io/OutputStream;
+byteArrayFunnel
+ ()Lcom/google/common/hash/Funnel<[B>;
+ ()Lcom/google/common/hash/Funnel<[B>;
+integerFunnel
+ ()Lcom/google/common/hash/Funnel<Ljava/lang/Integer;>;
+ ()Lcom/google/common/hash/Funnel<Ljava/lang/Integer;>;
+longFunnel
+ ()Lcom/google/common/hash/Funnel<Ljava/lang/Long;>;
+ ()Lcom/google/common/hash/Funnel<Ljava/lang/Long;>;
+sequentialFunnel
+ <E:Ljava/lang/Object;>(Lcom/google/common/hash/Funnel<TE;>;)Lcom/google/common/hash/Funnel<Ljava/lang/Iterable<+TE;>;>;
+ <E:Ljava/lang/Object;>(Lcom/google/common/hash/Funnel<TE;>;)Lcom/google/common/hash/Funnel<Ljava/lang/Iterable<+TE;>;>;
+stringFunnel
+ (Ljava/nio/charset/Charset;)Lcom/google/common/hash/Funnel<Ljava/lang/CharSequence;>;
+ (Ljava/nio/charset/Charset;)Lcom/google/common/hash/Funnel<Ljava/lang/CharSequence;>;
+unencodedCharsFunnel
+ ()Lcom/google/common/hash/Funnel<Ljava/lang/CharSequence;>;
+ ()Lcom/google/common/hash/Funnel<Ljava/lang/CharSequence;>;

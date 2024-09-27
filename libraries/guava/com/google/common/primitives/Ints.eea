@@ -1,0 +1,71 @@
+class com/google/common/primitives/Ints
+
+asList
+ ([I)Ljava/util/List<Ljava/lang/Integer;>;
+ ([I)Ljava/util/List<Ljava/lang/Integer;>;
+concat
+ ([[I)[I
+ ([[I)[I
+contains
+ ([II)Z
+ ([II)Z
+ensureCapacity
+ ([III)[I
+ ([III)[I
+fromByteArray
+ ([B)I
+ ([B)I
+indexOf
+ ([II)I
+ ([II)I
+indexOf
+ ([I[I)I
+ ([I[I)I
+join
+ (Ljava/lang/String;[I)Ljava/lang/String;
+ (Ljava/lang/String;[I)Ljava/lang/String;
+lastIndexOf
+ ([II)I
+ ([II)I
+lexicographicalComparator
+ ()Ljava/util/Comparator<[I>;
+ ()Ljava/util/Comparator<[I>;
+max
+ ([I)I
+ ([I)I
+min
+ ([I)I
+ ([I)I
+reverse
+ ([I)V
+ ([I)V
+reverse
+ ([III)V
+ ([III)V
+rotate
+ ([II)V
+ ([II)V
+rotate
+ ([IIII)V
+ ([IIII)V
+sortDescending
+ ([I)V
+ ([I)V
+sortDescending
+ ([III)V
+ ([III)V
+stringConverter
+ ()Lcom/google/common/base/Converter<Ljava/lang/String;Ljava/lang/Integer;>;
+ ()Lcom/google/common/base/Converter<Ljava/lang/String;Ljava/lang/Integer;>;
+toArray
+ (Ljava/util/Collection<+Ljava/lang/Number;>;)[I
+ (Ljava/util/Collection<+Ljava/lang/Number;>;)[I
+toByteArray
+ (I)[B
+ (I)[B
+tryParse
+ (Ljava/lang/String;)Ljava/lang/Integer;
+ (Ljava/lang/String;)L0java/lang/Integer;
+tryParse
+ (Ljava/lang/String;I)Ljava/lang/Integer;
+ (Ljava/lang/String;I)L0java/lang/Integer;

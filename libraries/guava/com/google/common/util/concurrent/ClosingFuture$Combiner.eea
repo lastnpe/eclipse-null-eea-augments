@@ -1,0 +1,12 @@
+class com/google/common/util/concurrent/ClosingFuture$Combiner
+
+inputs
+ Lcom/google/common/collect/ImmutableList<Lcom/google/common/util/concurrent/ClosingFuture<*>;>;
+ Lcom/google/common/collect/ImmutableList<Lcom/google/common/util/concurrent/ClosingFuture<*>;>;
+
+call
+ <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture$Combiner$CombiningCallable<TV;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ClosingFuture<TV;>;
+ <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture$Combiner$CombiningCallable<TV;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ClosingFuture<TV;>;
+callAsync
+ <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture$Combiner$AsyncCombiningCallable<TV;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ClosingFuture<TV;>;
+ <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture$Combiner$AsyncCombiningCallable<TV;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ClosingFuture<TV;>;

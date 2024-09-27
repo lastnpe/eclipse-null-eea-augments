@@ -1,0 +1,54 @@
+class com/google/common/io/CharSource
+
+concat
+ (Ljava/lang/Iterable<+Lcom/google/common/io/CharSource;>;)Lcom/google/common/io/CharSource;
+ (Ljava/lang/Iterable<+Lcom/google/common/io/CharSource;>;)Lcom/google/common/io/CharSource;
+concat
+ (Ljava/util/Iterator<+Lcom/google/common/io/CharSource;>;)Lcom/google/common/io/CharSource;
+ (Ljava/util/Iterator<+Lcom/google/common/io/CharSource;>;)Lcom/google/common/io/CharSource;
+concat
+ ([Lcom/google/common/io/CharSource;)Lcom/google/common/io/CharSource;
+ ([Lcom/google/common/io/CharSource;)Lcom/google/common/io/CharSource;
+empty
+ ()Lcom/google/common/io/CharSource;
+ ()Lcom/google/common/io/CharSource;
+wrap
+ (Ljava/lang/CharSequence;)Lcom/google/common/io/CharSource;
+ (Ljava/lang/CharSequence;)Lcom/google/common/io/CharSource;
+
+asByteSource
+ (Ljava/nio/charset/Charset;)Lcom/google/common/io/ByteSource;
+ (Ljava/nio/charset/Charset;)Lcom/google/common/io/ByteSource;
+copyTo
+ (Lcom/google/common/io/CharSink;)J
+ (Lcom/google/common/io/CharSink;)J
+copyTo
+ (Ljava/lang/Appendable;)J
+ (Ljava/lang/Appendable;)J
+forEachLine
+ (Ljava/util/function/Consumer<-Ljava/lang/String;>;)V
+ (Ljava/util/function/Consumer<-Ljava/lang/String;>;)V
+lengthIfKnown
+ ()Lcom/google/common/base/Optional<Ljava/lang/Long;>;
+ ()Lcom/google/common/base/Optional<Ljava/lang/Long;>;
+lines
+ ()Ljava/util/stream/Stream<Ljava/lang/String;>;
+ ()Ljava/util/stream/Stream<Ljava/lang/String;>;
+openBufferedStream
+ ()Ljava/io/BufferedReader;
+ ()Ljava/io/BufferedReader;
+openStream
+ ()Ljava/io/Reader;
+ ()Ljava/io/Reader;
+read
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+readFirstLine
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+readLines
+ ()Lcom/google/common/collect/ImmutableList<Ljava/lang/String;>;
+ ()Lcom/google/common/collect/ImmutableList<Ljava/lang/String;>;
+readLines
+ <T:Ljava/lang/Object;>(Lcom/google/common/io/LineProcessor<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lcom/google/common/io/LineProcessor<TT;>;)T1T;

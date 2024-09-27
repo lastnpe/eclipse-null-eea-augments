@@ -1,0 +1,26 @@
+class com/google/common/base/Functions
+
+compose
+ <A:Ljava/lang/Object;B:Ljava/lang/Object;C:Ljava/lang/Object;>(Lcom/google/common/base/Function<TB;TC;>;Lcom/google/common/base/Function<TA;+TB;>;)Lcom/google/common/base/Function<TA;TC;>;
+ <A:Ljava/lang/Object;B:Ljava/lang/Object;C:Ljava/lang/Object;>(Lcom/google/common/base/Function<TB;TC;>;Lcom/google/common/base/Function<TA;+TB;>;)Lcom/google/common/base/Function<TA;TC;>;
+constant
+ <E:Ljava/lang/Object;>(TE;)Lcom/google/common/base/Function<Ljava/lang/Object;TE;>;
+ <E:Ljava/lang/Object;>(TE;)Lcom/google/common/base/Function<Ljava/lang/Object;TE;>;
+forMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<TK;+TV;>;TV;)Lcom/google/common/base/Function<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<TK;+TV;>;TV;)Lcom/google/common/base/Function<TK;TV;>;
+forMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<TK;TV;>;)Lcom/google/common/base/Function<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<TK;TV;>;)Lcom/google/common/base/Function<TK;TV;>;
+forPredicate
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Predicate<TT;>;)Lcom/google/common/base/Function<TT;Ljava/lang/Boolean;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Predicate<TT;>;)Lcom/google/common/base/Function<TT;Ljava/lang/Boolean;>;
+forSupplier
+ <F:Ljava/lang/Object;T:Ljava/lang/Object;>(Lcom/google/common/base/Supplier<TT;>;)Lcom/google/common/base/Function<TF;TT;>;
+ <F:Ljava/lang/Object;T:Ljava/lang/Object;>(Lcom/google/common/base/Supplier<TT;>;)Lcom/google/common/base/Function<TF;TT;>;
+identity
+ <E:Ljava/lang/Object;>()Lcom/google/common/base/Function<TE;TE;>;
+ <E:Ljava/lang/Object;>()Lcom/google/common/base/Function<TE;TE;>;
+toStringFunction
+ ()Lcom/google/common/base/Function<Ljava/lang/Object;Ljava/lang/String;>;
+ ()Lcom/google/common/base/Function<Ljava/lang/Object;Ljava/lang/String;>;

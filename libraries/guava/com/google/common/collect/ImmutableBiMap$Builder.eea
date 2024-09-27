@@ -1,4 +1,32 @@
 class com/google/common/collect/ImmutableBiMap$Builder
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/collect/ImmutableMap$Builder
+ <TK;TV;>
+ <TK;TV;>
+
 build
  ()Lcom/google/common/collect/ImmutableBiMap<TK;TV;>;
  ()L1com/google/common/collect/ImmutableBiMap<TK;TV;>;
+buildKeepingLast
+ ()Lcom/google/common/collect/ImmutableBiMap<TK;TV;>;
+ ()Lcom/google/common/collect/ImmutableBiMap<TK;TV;>;
+buildOrThrow
+ ()Lcom/google/common/collect/ImmutableBiMap<TK;TV;>;
+ ()Lcom/google/common/collect/ImmutableBiMap<TK;TV;>;
+orderEntriesByValue
+ (Ljava/util/Comparator<-TV;>;)Lcom/google/common/collect/ImmutableBiMap$Builder<TK;TV;>;
+ (Ljava/util/Comparator<-TV;>;)L1com/google/common/collect/ImmutableBiMap$Builder<TK;TV;>;
+put
+ (Ljava/util/Map$Entry<+TK;+TV;>;)Lcom/google/common/collect/ImmutableBiMap$Builder<TK;TV;>;
+ (Ljava/util/Map$Entry<+TK;+TV;>;)L1com/google/common/collect/ImmutableBiMap$Builder<TK;TV;>;
+put
+ (TK;TV;)Lcom/google/common/collect/ImmutableBiMap$Builder<TK;TV;>;
+ (TK;TV;)L1com/google/common/collect/ImmutableBiMap$Builder<TK;TV;>;
+putAll
+ (Ljava/lang/Iterable<+Ljava/util/Map$Entry<+TK;+TV;>;>;)Lcom/google/common/collect/ImmutableBiMap$Builder<TK;TV;>;
+ (Ljava/lang/Iterable<+Ljava/util/Map$Entry<+TK;+TV;>;>;)L1com/google/common/collect/ImmutableBiMap$Builder<TK;TV;>;
+putAll
+ (Ljava/util/Map<+TK;+TV;>;)Lcom/google/common/collect/ImmutableBiMap$Builder<TK;TV;>;
+ (Ljava/util/Map<+TK;+TV;>;)L1com/google/common/collect/ImmutableBiMap$Builder<TK;TV;>;

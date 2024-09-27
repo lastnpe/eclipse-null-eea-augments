@@ -1,0 +1,51 @@
+class com/google/common/base/Splitter
+
+fixedLength
+ (I)Lcom/google/common/base/Splitter;
+ (I)Lcom/google/common/base/Splitter;
+on
+ (C)Lcom/google/common/base/Splitter;
+ (C)Lcom/google/common/base/Splitter;
+on
+ (Lcom/google/common/base/CharMatcher;)Lcom/google/common/base/Splitter;
+ (Lcom/google/common/base/CharMatcher;)Lcom/google/common/base/Splitter;
+on
+ (Ljava/lang/String;)Lcom/google/common/base/Splitter;
+ (Ljava/lang/String;)Lcom/google/common/base/Splitter;
+on
+ (Ljava/util/regex/Pattern;)Lcom/google/common/base/Splitter;
+ (Ljava/util/regex/Pattern;)Lcom/google/common/base/Splitter;
+onPattern
+ (Ljava/lang/String;)Lcom/google/common/base/Splitter;
+ (Ljava/lang/String;)Lcom/google/common/base/Splitter;
+
+limit
+ (I)Lcom/google/common/base/Splitter;
+ (I)Lcom/google/common/base/Splitter;
+omitEmptyStrings
+ ()Lcom/google/common/base/Splitter;
+ ()Lcom/google/common/base/Splitter;
+split
+ (Ljava/lang/CharSequence;)Ljava/lang/Iterable<Ljava/lang/String;>;
+ (Ljava/lang/CharSequence;)Ljava/lang/Iterable<Ljava/lang/String;>;
+splitToList
+ (Ljava/lang/CharSequence;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/lang/CharSequence;)Ljava/util/List<Ljava/lang/String;>;
+splitToStream
+ (Ljava/lang/CharSequence;)Ljava/util/stream/Stream<Ljava/lang/String;>;
+ (Ljava/lang/CharSequence;)Ljava/util/stream/Stream<Ljava/lang/String;>;
+trimResults
+ ()Lcom/google/common/base/Splitter;
+ ()Lcom/google/common/base/Splitter;
+trimResults
+ (Lcom/google/common/base/CharMatcher;)Lcom/google/common/base/Splitter;
+ (Lcom/google/common/base/CharMatcher;)Lcom/google/common/base/Splitter;
+withKeyValueSeparator
+ (C)Lcom/google/common/base/Splitter$MapSplitter;
+ (C)Lcom/google/common/base/Splitter$MapSplitter;
+withKeyValueSeparator
+ (Lcom/google/common/base/Splitter;)Lcom/google/common/base/Splitter$MapSplitter;
+ (Lcom/google/common/base/Splitter;)Lcom/google/common/base/Splitter$MapSplitter;
+withKeyValueSeparator
+ (Ljava/lang/String;)Lcom/google/common/base/Splitter$MapSplitter;
+ (Ljava/lang/String;)Lcom/google/common/base/Splitter$MapSplitter;

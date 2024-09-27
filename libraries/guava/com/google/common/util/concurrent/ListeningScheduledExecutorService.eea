@@ -1,0 +1,26 @@
+class com/google/common/util/concurrent/ListeningScheduledExecutorService
+
+schedule
+ (Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Lcom/google/common/util/concurrent/ListenableScheduledFuture<*>;
+ (Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Lcom/google/common/util/concurrent/ListenableScheduledFuture<*>;
+schedule
+ (Ljava/lang/Runnable;Ljava/time/Duration;)Lcom/google/common/util/concurrent/ListenableScheduledFuture<*>;
+ (Ljava/lang/Runnable;Ljava/time/Duration;)Lcom/google/common/util/concurrent/ListenableScheduledFuture<*>;
+schedule
+ <V:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TV;>;JLjava/util/concurrent/TimeUnit;)Lcom/google/common/util/concurrent/ListenableScheduledFuture<TV;>;
+ <V:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TV;>;JLjava/util/concurrent/TimeUnit;)Lcom/google/common/util/concurrent/ListenableScheduledFuture<TV;>;
+schedule
+ <V:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TV;>;Ljava/time/Duration;)Lcom/google/common/util/concurrent/ListenableScheduledFuture<TV;>;
+ <V:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TV;>;Ljava/time/Duration;)Lcom/google/common/util/concurrent/ListenableScheduledFuture<TV;>;
+scheduleAtFixedRate
+ (Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Lcom/google/common/util/concurrent/ListenableScheduledFuture<*>;
+ (Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Lcom/google/common/util/concurrent/ListenableScheduledFuture<*>;
+scheduleAtFixedRate
+ (Ljava/lang/Runnable;Ljava/time/Duration;Ljava/time/Duration;)Lcom/google/common/util/concurrent/ListenableScheduledFuture<*>;
+ (Ljava/lang/Runnable;Ljava/time/Duration;Ljava/time/Duration;)Lcom/google/common/util/concurrent/ListenableScheduledFuture<*>;
+scheduleWithFixedDelay
+ (Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Lcom/google/common/util/concurrent/ListenableScheduledFuture<*>;
+ (Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Lcom/google/common/util/concurrent/ListenableScheduledFuture<*>;
+scheduleWithFixedDelay
+ (Ljava/lang/Runnable;Ljava/time/Duration;Ljava/time/Duration;)Lcom/google/common/util/concurrent/ListenableScheduledFuture<*>;
+ (Ljava/lang/Runnable;Ljava/time/Duration;Ljava/time/Duration;)Lcom/google/common/util/concurrent/ListenableScheduledFuture<*>;

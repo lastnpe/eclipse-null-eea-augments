@@ -1,0 +1,39 @@
+class com/google/common/reflect/ImmutableTypeToInstanceMap
+ <B:Ljava/lang/Object;>
+ <B:Ljava/lang/Object;>
+
+super com/google/common/collect/ForwardingMap
+ <Lcom/google/common/reflect/TypeToken<+TB;>;TB;>
+ <Lcom/google/common/reflect/TypeToken<+TB;>;TB;>
+super com/google/common/reflect/TypeToInstanceMap
+ <TB;>
+ <TB;>
+
+builder
+ <B:Ljava/lang/Object;>()Lcom/google/common/reflect/ImmutableTypeToInstanceMap$Builder<TB;>;
+ <B:Ljava/lang/Object;>()Lcom/google/common/reflect/ImmutableTypeToInstanceMap$Builder<TB;>;
+of
+ <B:Ljava/lang/Object;>()Lcom/google/common/reflect/ImmutableTypeToInstanceMap<TB;>;
+ <B:Ljava/lang/Object;>()Lcom/google/common/reflect/ImmutableTypeToInstanceMap<TB;>;
+
+delegate
+ ()Ljava/util/Map<Lcom/google/common/reflect/TypeToken<+TB;>;TB;>;
+ ()Ljava/util/Map<Lcom/google/common/reflect/TypeToken<+TB;>;TB;>;
+getInstance
+ <T:TB;>(Lcom/google/common/reflect/TypeToken<TT;>;)TT;
+ <T:TB;>(Lcom/google/common/reflect/TypeToken<TT;>;)T0T; # @Inherited(com.google.common.reflect.TypeToInstanceMap)
+getInstance
+ <T:TB;>(Ljava/lang/Class<TT;>;)TT;
+ <T:TB;>(Ljava/lang/Class<TT;>;)T0T; # @Inherited(com.google.common.reflect.TypeToInstanceMap)
+put
+ (Lcom/google/common/reflect/TypeToken<+TB;>;TB;)TB;
+ (Lcom/google/common/reflect/TypeToken<+TB;>;TB;)T0B;
+putAll
+ (Ljava/util/Map<+Lcom/google/common/reflect/TypeToken<+TB;>;+TB;>;)V
+ (Ljava/util/Map<+Lcom/google/common/reflect/TypeToken<+TB;>;+TB;>;)V
+putInstance
+ <T:TB;>(Lcom/google/common/reflect/TypeToken<TT;>;TT;)TT;
+ <T:TB;>(Lcom/google/common/reflect/TypeToken<TT;>;TT;)T0T; # @Inherited(com.google.common.reflect.TypeToInstanceMap)
+putInstance
+ <T:TB;>(Ljava/lang/Class<TT;>;TT;)TT;
+ <T:TB;>(Ljava/lang/Class<TT;>;TT;)T0T; # @Inherited(com.google.common.reflect.TypeToInstanceMap)

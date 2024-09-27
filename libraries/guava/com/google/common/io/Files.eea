@@ -1,0 +1,101 @@
+class com/google/common/io/Files
+
+append
+ (Ljava/lang/CharSequence;Ljava/io/File;Ljava/nio/charset/Charset;)V
+ (Ljava/lang/CharSequence;Ljava/io/File;Ljava/nio/charset/Charset;)V
+asByteSink
+ (Ljava/io/File;[Lcom/google/common/io/FileWriteMode;)Lcom/google/common/io/ByteSink;
+ (Ljava/io/File;[Lcom/google/common/io/FileWriteMode;)Lcom/google/common/io/ByteSink;
+asByteSource
+ (Ljava/io/File;)Lcom/google/common/io/ByteSource;
+ (Ljava/io/File;)Lcom/google/common/io/ByteSource;
+asCharSink
+ (Ljava/io/File;Ljava/nio/charset/Charset;[Lcom/google/common/io/FileWriteMode;)Lcom/google/common/io/CharSink;
+ (Ljava/io/File;Ljava/nio/charset/Charset;[Lcom/google/common/io/FileWriteMode;)Lcom/google/common/io/CharSink;
+asCharSource
+ (Ljava/io/File;Ljava/nio/charset/Charset;)Lcom/google/common/io/CharSource;
+ (Ljava/io/File;Ljava/nio/charset/Charset;)Lcom/google/common/io/CharSource;
+copy
+ (Ljava/io/File;Ljava/io/File;)V
+ (Ljava/io/File;Ljava/io/File;)V
+copy
+ (Ljava/io/File;Ljava/io/OutputStream;)V
+ (Ljava/io/File;Ljava/io/OutputStream;)V
+copy
+ (Ljava/io/File;Ljava/nio/charset/Charset;Ljava/lang/Appendable;)V
+ (Ljava/io/File;Ljava/nio/charset/Charset;Ljava/lang/Appendable;)V
+createParentDirs
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+createTempDir
+ ()Ljava/io/File;
+ ()Ljava/io/File;
+equal
+ (Ljava/io/File;Ljava/io/File;)Z
+ (Ljava/io/File;Ljava/io/File;)Z
+fileTraverser
+ ()Lcom/google/common/graph/Traverser<Ljava/io/File;>;
+ ()Lcom/google/common/graph/Traverser<Ljava/io/File;>;
+getFileExtension
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getNameWithoutExtension
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+hash
+ (Ljava/io/File;Lcom/google/common/hash/HashFunction;)Lcom/google/common/hash/HashCode;
+ (Ljava/io/File;Lcom/google/common/hash/HashFunction;)Lcom/google/common/hash/HashCode;
+isDirectory
+ ()Lcom/google/common/base/Predicate<Ljava/io/File;>;
+ ()Lcom/google/common/base/Predicate<Ljava/io/File;>;
+isFile
+ ()Lcom/google/common/base/Predicate<Ljava/io/File;>;
+ ()Lcom/google/common/base/Predicate<Ljava/io/File;>;
+map
+ (Ljava/io/File;)Ljava/nio/MappedByteBuffer;
+ (Ljava/io/File;)Ljava/nio/MappedByteBuffer;
+map
+ (Ljava/io/File;Ljava/nio/channels/FileChannel$MapMode;)Ljava/nio/MappedByteBuffer;
+ (Ljava/io/File;Ljava/nio/channels/FileChannel$MapMode;)Ljava/nio/MappedByteBuffer;
+map
+ (Ljava/io/File;Ljava/nio/channels/FileChannel$MapMode;J)Ljava/nio/MappedByteBuffer;
+ (Ljava/io/File;Ljava/nio/channels/FileChannel$MapMode;J)Ljava/nio/MappedByteBuffer;
+move
+ (Ljava/io/File;Ljava/io/File;)V
+ (Ljava/io/File;Ljava/io/File;)V
+newReader
+ (Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/io/BufferedReader;
+ (Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/io/BufferedReader;
+newWriter
+ (Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/io/BufferedWriter;
+ (Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/io/BufferedWriter;
+readBytes
+ <T:Ljava/lang/Object;>(Ljava/io/File;Lcom/google/common/io/ByteProcessor<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/io/File;Lcom/google/common/io/ByteProcessor<TT;>;)T1T;
+readFirstLine
+ (Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/io/File;Ljava/nio/charset/Charset;)L0java/lang/String;
+readLines
+ (Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List<Ljava/lang/String;>;
+readLines
+ <T:Ljava/lang/Object;>(Ljava/io/File;Ljava/nio/charset/Charset;Lcom/google/common/io/LineProcessor<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/io/File;Ljava/nio/charset/Charset;Lcom/google/common/io/LineProcessor<TT;>;)T1T;
+simplifyPath
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+toByteArray
+ (Ljava/io/File;)[B
+ (Ljava/io/File;)[B
+toString
+ (Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;
+touch
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+write
+ (Ljava/lang/CharSequence;Ljava/io/File;Ljava/nio/charset/Charset;)V
+ (Ljava/lang/CharSequence;Ljava/io/File;Ljava/nio/charset/Charset;)V
+write
+ ([BLjava/io/File;)V
+ ([BLjava/io/File;)V

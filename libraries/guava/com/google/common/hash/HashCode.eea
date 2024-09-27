@@ -1,0 +1,27 @@
+class com/google/common/hash/HashCode
+
+fromBytes
+ ([B)Lcom/google/common/hash/HashCode;
+ ([B)Lcom/google/common/hash/HashCode;
+fromInt
+ (I)Lcom/google/common/hash/HashCode;
+ (I)Lcom/google/common/hash/HashCode;
+fromLong
+ (J)Lcom/google/common/hash/HashCode;
+ (J)Lcom/google/common/hash/HashCode;
+fromString
+ (Ljava/lang/String;)Lcom/google/common/hash/HashCode;
+ (Ljava/lang/String;)Lcom/google/common/hash/HashCode;
+
+asBytes
+ ()[B
+ ()[B
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+writeBytesTo
+ ([BII)I
+ ([BII)I

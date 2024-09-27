@@ -1,4 +1,14 @@
 class com/google/common/collect/HashBiMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/collect/Maps$IteratorBasedAbstractMap
+ <TK;TV;>
+ <TK;TV;>
+super com/google/common/collect/BiMap
+ <TK;TV;>
+ <TK;TV;>
+
 create
  <K:Ljava/lang/Object;V:Ljava/lang/Object;>()Lcom/google/common/collect/HashBiMap<TK;TV;>;
  <K:Ljava/lang/Object;V:Ljava/lang/Object;>()L1com/google/common/collect/HashBiMap<TK;TV;>;
@@ -8,3 +18,37 @@ create
 create
  <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<+TK;+TV;>;)Lcom/google/common/collect/HashBiMap<TK;TV;>;
  <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<+TK;+TV;>;)L1com/google/common/collect/HashBiMap<TK;TV;>;
+
+containsKey
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+containsValue
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+forEach
+ (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
+ (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
+forcePut
+ (TK;TV;)TV;
+ (TK;TV;)T0V; # @Inherited(com.google.common.collect.BiMap)
+get
+ (Ljava/lang/Object;)TV;
+ (Ljava/lang/Object;)T0V;
+inverse
+ ()Lcom/google/common/collect/BiMap<TV;TK;>;
+ ()Lcom/google/common/collect/BiMap<TV;TK;>;
+keySet
+ ()Ljava/util/Set<TK;>;
+ ()Ljava/util/Set<TK;>;
+put
+ (TK;TV;)TV;
+ (TK;TV;)T0V; # @Inherited(com.google.common.collect.BiMap)
+remove
+ (Ljava/lang/Object;)TV;
+ (Ljava/lang/Object;)T0V;
+replaceAll
+ (Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)V
+ (Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)V
+values
+ ()Ljava/util/Set<TV;>;
+ ()Ljava/util/Set<TV;>;

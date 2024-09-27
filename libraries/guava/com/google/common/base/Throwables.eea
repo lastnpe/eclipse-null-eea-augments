@@ -1,0 +1,38 @@
+class com/google/common/base/Throwables
+
+getCausalChain
+ (Ljava/lang/Throwable;)Ljava/util/List<Ljava/lang/Throwable;>;
+ (Ljava/lang/Throwable;)Ljava/util/List<Ljava/lang/Throwable;>;
+getCauseAs
+ <X:Ljava/lang/Throwable;>(Ljava/lang/Throwable;Ljava/lang/Class<TX;>;)TX;
+ <X:Ljava/lang/Throwable;>(Ljava/lang/Throwable;Ljava/lang/Class<TX;>;)T0X;
+getRootCause
+ (Ljava/lang/Throwable;)Ljava/lang/Throwable;
+ (Ljava/lang/Throwable;)Ljava/lang/Throwable;
+getStackTraceAsString
+ (Ljava/lang/Throwable;)Ljava/lang/String;
+ (Ljava/lang/Throwable;)Ljava/lang/String;
+lazyStackTrace
+ (Ljava/lang/Throwable;)Ljava/util/List<Ljava/lang/StackTraceElement;>;
+ (Ljava/lang/Throwable;)Ljava/util/List<Ljava/lang/StackTraceElement;>;
+propagate
+ (Ljava/lang/Throwable;)Ljava/lang/RuntimeException;
+ (Ljava/lang/Throwable;)Ljava/lang/RuntimeException;
+propagateIfInstanceOf
+ <X:Ljava/lang/Throwable;>(Ljava/lang/Throwable;Ljava/lang/Class<TX;>;)V^TX;
+ <X:Ljava/lang/Throwable;>(Ljava/lang/Throwable;Ljava/lang/Class<TX;>;)V^TX;
+propagateIfPossible
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+propagateIfPossible
+ <X1:Ljava/lang/Throwable;X2:Ljava/lang/Throwable;>(Ljava/lang/Throwable;Ljava/lang/Class<TX1;>;Ljava/lang/Class<TX2;>;)V^TX1;^TX2;
+ <X1:Ljava/lang/Throwable;X2:Ljava/lang/Throwable;>(Ljava/lang/Throwable;Ljava/lang/Class<TX1;>;Ljava/lang/Class<TX2;>;)V^TX1;^TX2;
+propagateIfPossible
+ <X:Ljava/lang/Throwable;>(Ljava/lang/Throwable;Ljava/lang/Class<TX;>;)V^TX;
+ <X:Ljava/lang/Throwable;>(Ljava/lang/Throwable;Ljava/lang/Class<TX;>;)V^TX;
+throwIfInstanceOf
+ <X:Ljava/lang/Throwable;>(Ljava/lang/Throwable;Ljava/lang/Class<TX;>;)V^TX;
+ <X:Ljava/lang/Throwable;>(Ljava/lang/Throwable;Ljava/lang/Class<TX;>;)V^TX;
+throwIfUnchecked
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V

@@ -1,0 +1,20 @@
+class com/google/common/util/concurrent/ThreadFactoryBuilder
+
+build
+ ()Ljava/util/concurrent/ThreadFactory;
+ ()L1java/util/concurrent/ThreadFactory;
+setDaemon
+ (Z)Lcom/google/common/util/concurrent/ThreadFactoryBuilder;
+ (Z)L1com/google/common/util/concurrent/ThreadFactoryBuilder;
+setNameFormat
+ (Ljava/lang/String;)Lcom/google/common/util/concurrent/ThreadFactoryBuilder;
+ (Ljava/lang/String;)L1com/google/common/util/concurrent/ThreadFactoryBuilder;
+setPriority
+ (I)Lcom/google/common/util/concurrent/ThreadFactoryBuilder;
+ (I)L1com/google/common/util/concurrent/ThreadFactoryBuilder;
+setThreadFactory
+ (Ljava/util/concurrent/ThreadFactory;)Lcom/google/common/util/concurrent/ThreadFactoryBuilder;
+ (Ljava/util/concurrent/ThreadFactory;)L1com/google/common/util/concurrent/ThreadFactoryBuilder;
+setUncaughtExceptionHandler
+ (Ljava/lang/Thread$UncaughtExceptionHandler;)Lcom/google/common/util/concurrent/ThreadFactoryBuilder;
+ (Ljava/lang/Thread$UncaughtExceptionHandler;)L1com/google/common/util/concurrent/ThreadFactoryBuilder;

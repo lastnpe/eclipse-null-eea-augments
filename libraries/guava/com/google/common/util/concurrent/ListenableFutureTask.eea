@@ -1,0 +1,24 @@
+class com/google/common/util/concurrent/ListenableFutureTask
+ <V:Ljava/lang/Object;>
+ <V:Ljava/lang/Object;>
+
+super java/util/concurrent/FutureTask
+ <TV;>
+ <TV;>
+super com/google/common/util/concurrent/ListenableFuture
+ <TV;>
+ <TV;>
+
+create
+ <V:Ljava/lang/Object;>(Ljava/lang/Runnable;TV;)Lcom/google/common/util/concurrent/ListenableFutureTask<TV;>;
+ <V:Ljava/lang/Object;>(Ljava/lang/Runnable;TV;)Lcom/google/common/util/concurrent/ListenableFutureTask<TV;>;
+create
+ <V:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TV;>;)Lcom/google/common/util/concurrent/ListenableFutureTask<TV;>;
+ <V:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TV;>;)Lcom/google/common/util/concurrent/ListenableFutureTask<TV;>;
+
+addListener
+ (Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+ (Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+get
+ (JLjava/util/concurrent/TimeUnit;)TV;
+ (JLjava/util/concurrent/TimeUnit;)T1V;

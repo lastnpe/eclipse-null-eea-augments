@@ -1,0 +1,17 @@
+class com/google/common/util/concurrent/ForwardingListenableFuture
+ <V:Ljava/lang/Object;>
+ <V:Ljava/lang/Object;>
+
+super com/google/common/util/concurrent/ForwardingFuture
+ <TV;>
+ <TV;>
+super com/google/common/util/concurrent/ListenableFuture
+ <TV;>
+ <TV;>
+
+addListener
+ (Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+ (Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+delegate
+ ()Lcom/google/common/util/concurrent/ListenableFuture<+TV;>;
+ ()Lcom/google/common/util/concurrent/ListenableFuture<+TV;>;
