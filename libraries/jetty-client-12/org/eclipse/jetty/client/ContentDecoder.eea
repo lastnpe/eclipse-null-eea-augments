@@ -1,0 +1,11 @@
+class org/eclipse/jetty/client/ContentDecoder
+
+afterDecoding
+ (Lorg/eclipse/jetty/client/Response;)V
+ (Lorg/eclipse/jetty/client/Response;)V
+beforeDecoding
+ (Lorg/eclipse/jetty/client/Response;)V
+ (Lorg/eclipse/jetty/client/Response;)V
+decode
+ (Ljava/nio/ByteBuffer;)Lorg/eclipse/jetty/io/RetainableByteBuffer;
+ (Ljava/nio/ByteBuffer;)Lorg/eclipse/jetty/io/RetainableByteBuffer;

@@ -1,0 +1,41 @@
+class org/eclipse/jetty/client/SPNEGOAuthentication
+
+<init>
+ (Ljava/net/URI;)V
+ (Ljava/net/URI;)V
+authenticate
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/ContentResponse;Lorg/eclipse/jetty/client/Authentication$HeaderInfo;Lorg/eclipse/jetty/util/Attributes;)Lorg/eclipse/jetty/client/Authentication$Result;
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/ContentResponse;Lorg/eclipse/jetty/client/Authentication$HeaderInfo;Lorg/eclipse/jetty/util/Attributes;)Lorg/eclipse/jetty/client/Authentication$Result;
+getServiceName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTicketCachePath
+ ()Ljava/nio/file/Path;
+ ()Ljava/nio/file/Path;
+getType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getUserKeyTabPath
+ ()Ljava/nio/file/Path;
+ ()Ljava/nio/file/Path;
+getUserName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getUserPassword
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setServiceName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setTicketCachePath
+ (Ljava/nio/file/Path;)V
+ (Ljava/nio/file/Path;)V
+setUserKeyTabPath
+ (Ljava/nio/file/Path;)V
+ (Ljava/nio/file/Path;)V
+setUserName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setUserPassword
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

@@ -1,0 +1,32 @@
+class org/eclipse/jetty/client/transport/internal/HttpChannelOverHTTP
+
+<init>
+ (Lorg/eclipse/jetty/client/transport/internal/HttpConnectionOverHTTP;)V
+ (Lorg/eclipse/jetty/client/transport/internal/HttpConnectionOverHTTP;)V
+exchangeTerminated
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Lorg/eclipse/jetty/client/Result;)V
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Lorg/eclipse/jetty/client/Result;)V
+getConnection
+ ()Lorg/eclipse/jetty/client/Connection;
+ ()Lorg/eclipse/jetty/client/Connection;
+getHttpConnection
+ ()Lorg/eclipse/jetty/client/transport/internal/HttpConnectionOverHTTP;
+ ()Lorg/eclipse/jetty/client/transport/internal/HttpConnectionOverHTTP;
+getHttpReceiver
+ ()Lorg/eclipse/jetty/client/transport/internal/HttpReceiverOverHTTP;
+ ()Lorg/eclipse/jetty/client/transport/internal/HttpReceiverOverHTTP;
+getHttpSender
+ ()Lorg/eclipse/jetty/client/transport/internal/HttpSenderOverHTTP;
+ ()Lorg/eclipse/jetty/client/transport/internal/HttpSenderOverHTTP;
+newHttpReceiver
+ ()Lorg/eclipse/jetty/client/transport/internal/HttpReceiverOverHTTP;
+ ()Lorg/eclipse/jetty/client/transport/internal/HttpReceiverOverHTTP;
+newHttpSender
+ ()Lorg/eclipse/jetty/client/transport/internal/HttpSenderOverHTTP;
+ ()Lorg/eclipse/jetty/client/transport/internal/HttpSenderOverHTTP;
+send
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)V
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.eclipse.jetty.client.transport.HttpChannel)

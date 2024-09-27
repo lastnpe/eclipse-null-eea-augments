@@ -1,0 +1,23 @@
+class org/eclipse/jetty/client/transport/HttpClientTransportDynamic
+
+<init>
+ (Lorg/eclipse/jetty/io/ClientConnector;[Lorg/eclipse/jetty/io/ClientConnectionFactory$Info;)V
+ (Lorg/eclipse/jetty/io/ClientConnector;[Lorg/eclipse/jetty/io/ClientConnectionFactory$Info;)V
+<init>
+ ([Lorg/eclipse/jetty/io/ClientConnectionFactory$Info;)V
+ ([Lorg/eclipse/jetty/io/ClientConnectionFactory$Info;)V
+newConnection
+ (Lorg/eclipse/jetty/io/EndPoint;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/eclipse/jetty/io/Connection;
+ (Lorg/eclipse/jetty/io/EndPoint;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/eclipse/jetty/io/Connection;
+newDestination
+ (Lorg/eclipse/jetty/client/Origin;)Lorg/eclipse/jetty/client/Destination;
+ (Lorg/eclipse/jetty/client/Origin;)Lorg/eclipse/jetty/client/Destination;
+newNegotiatedConnection
+ (Lorg/eclipse/jetty/io/EndPoint;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/eclipse/jetty/io/Connection;
+ (Lorg/eclipse/jetty/io/EndPoint;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/eclipse/jetty/io/Connection;
+newOrigin
+ (Lorg/eclipse/jetty/client/Request;)Lorg/eclipse/jetty/client/Origin;
+ (Lorg/eclipse/jetty/client/Request;)Lorg/eclipse/jetty/client/Origin;
+upgrade
+ (Lorg/eclipse/jetty/io/EndPoint;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+ (Lorg/eclipse/jetty/io/EndPoint;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V

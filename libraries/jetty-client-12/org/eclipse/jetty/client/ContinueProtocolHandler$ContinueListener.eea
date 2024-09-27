@@ -1,0 +1,14 @@
+class org/eclipse/jetty/client/ContinueProtocolHandler$ContinueListener
+
+<init>
+ (Lorg/eclipse/jetty/client/ContinueProtocolHandler;)V
+ (Lorg/eclipse/jetty/client/ContinueProtocolHandler;)V
+onComplete
+ (Lorg/eclipse/jetty/client/Result;)V
+ (L1org/eclipse/jetty/client/Result;)V # @Inherited(org.eclipse.jetty.client.BufferingResponseListener)
+onFailure
+ (Lorg/eclipse/jetty/client/Response;Ljava/lang/Throwable;)V
+ (L1org/eclipse/jetty/client/Response;L1java/lang/Throwable;)V # @Inherited(org.eclipse.jetty.client.Response$Listener)
+onSuccess
+ (Lorg/eclipse/jetty/client/Response;)V
+ (L1org/eclipse/jetty/client/Response;)V # @Inherited(org.eclipse.jetty.client.Response$Listener)

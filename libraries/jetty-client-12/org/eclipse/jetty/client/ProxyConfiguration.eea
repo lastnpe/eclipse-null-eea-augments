@@ -1,0 +1,14 @@
+class org/eclipse/jetty/client/ProxyConfiguration
+
+addProxy
+ (Lorg/eclipse/jetty/client/ProxyConfiguration$Proxy;)V
+ (Lorg/eclipse/jetty/client/ProxyConfiguration$Proxy;)V
+getProxies
+ ()Ljava/util/List<Lorg/eclipse/jetty/client/ProxyConfiguration$Proxy;>;
+ ()Ljava/util/List<Lorg/eclipse/jetty/client/ProxyConfiguration$Proxy;>;
+match
+ (Lorg/eclipse/jetty/client/Origin;)Lorg/eclipse/jetty/client/ProxyConfiguration$Proxy;
+ (Lorg/eclipse/jetty/client/Origin;)Lorg/eclipse/jetty/client/ProxyConfiguration$Proxy;
+removeProxy
+ (Lorg/eclipse/jetty/client/ProxyConfiguration$Proxy;)Z
+ (Lorg/eclipse/jetty/client/ProxyConfiguration$Proxy;)Z

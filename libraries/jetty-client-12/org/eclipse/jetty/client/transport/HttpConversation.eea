@@ -1,0 +1,17 @@
+class org/eclipse/jetty/client/transport/HttpConversation
+
+abort
+ (Ljava/lang/Throwable;Lorg/eclipse/jetty/util/Promise<Ljava/lang/Boolean;>;)V
+ (Ljava/lang/Throwable;Lorg/eclipse/jetty/util/Promise<Ljava/lang/Boolean;>;)V
+getExchanges
+ ()Ljava/util/Deque<Lorg/eclipse/jetty/client/transport/HttpExchange;>;
+ ()Ljava/util/Deque<Lorg/eclipse/jetty/client/transport/HttpExchange;>;
+getResponseListeners
+ ()Lorg/eclipse/jetty/client/transport/ResponseListeners;
+ ()Lorg/eclipse/jetty/client/transport/ResponseListeners;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+updateResponseListeners
+ (Lorg/eclipse/jetty/client/Response$Listener;)V
+ (Lorg/eclipse/jetty/client/Response$Listener;)V

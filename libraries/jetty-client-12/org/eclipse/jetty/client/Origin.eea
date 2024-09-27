@@ -1,0 +1,47 @@
+class org/eclipse/jetty/client/Origin
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;I)V
+ (Ljava/lang/String;Ljava/lang/String;I)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;Lorg/eclipse/jetty/client/Origin$Protocol;)V
+ (Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;Lorg/eclipse/jetty/client/Origin$Protocol;)V
+<init>
+ (Ljava/lang/String;Lorg/eclipse/jetty/client/Origin$Address;)V
+ (Ljava/lang/String;Lorg/eclipse/jetty/client/Origin$Address;)V
+<init>
+ (Ljava/lang/String;Lorg/eclipse/jetty/client/Origin$Address;Ljava/lang/Object;)V
+ (Ljava/lang/String;Lorg/eclipse/jetty/client/Origin$Address;Ljava/lang/Object;)V
+<init>
+ (Ljava/lang/String;Lorg/eclipse/jetty/client/Origin$Address;Ljava/lang/Object;Lorg/eclipse/jetty/client/Origin$Protocol;)V
+ (Ljava/lang/String;Lorg/eclipse/jetty/client/Origin$Address;Ljava/lang/Object;Lorg/eclipse/jetty/client/Origin$Protocol;)V
+<init>
+ (Ljava/lang/String;Lorg/eclipse/jetty/client/Origin$Address;Ljava/lang/Object;Lorg/eclipse/jetty/client/Origin$Protocol;Lorg/eclipse/jetty/io/Transport;)V
+ (Ljava/lang/String;Lorg/eclipse/jetty/client/Origin$Address;Ljava/lang/Object;Lorg/eclipse/jetty/client/Origin$Protocol;Lorg/eclipse/jetty/io/Transport;)V
+asString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAddress
+ ()Lorg/eclipse/jetty/client/Origin$Address;
+ ()Lorg/eclipse/jetty/client/Origin$Address;
+getProtocol
+ ()Lorg/eclipse/jetty/client/Origin$Protocol;
+ ()Lorg/eclipse/jetty/client/Origin$Protocol;
+getScheme
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTag
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getTransport
+ ()Lorg/eclipse/jetty/io/Transport;
+ ()Lorg/eclipse/jetty/io/Transport;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

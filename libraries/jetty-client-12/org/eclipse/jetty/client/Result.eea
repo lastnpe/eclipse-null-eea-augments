@@ -1,0 +1,35 @@
+class org/eclipse/jetty/client/Result
+
+<init>
+ (Lorg/eclipse/jetty/client/Request;Ljava/lang/Throwable;Lorg/eclipse/jetty/client/Response;)V
+ (Lorg/eclipse/jetty/client/Request;Ljava/lang/Throwable;Lorg/eclipse/jetty/client/Response;)V
+<init>
+ (Lorg/eclipse/jetty/client/Request;Ljava/lang/Throwable;Lorg/eclipse/jetty/client/Response;Ljava/lang/Throwable;)V
+ (Lorg/eclipse/jetty/client/Request;Ljava/lang/Throwable;Lorg/eclipse/jetty/client/Response;Ljava/lang/Throwable;)V
+<init>
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;)V
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;)V
+<init>
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;Ljava/lang/Throwable;)V
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;Ljava/lang/Throwable;)V
+<init>
+ (Lorg/eclipse/jetty/client/Result;Ljava/lang/Throwable;)V
+ (Lorg/eclipse/jetty/client/Result;Ljava/lang/Throwable;)V
+getFailure
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
+getRequest
+ ()Lorg/eclipse/jetty/client/Request;
+ ()Lorg/eclipse/jetty/client/Request;
+getRequestFailure
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
+getResponse
+ ()Lorg/eclipse/jetty/client/Response;
+ ()Lorg/eclipse/jetty/client/Response;
+getResponseFailure
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

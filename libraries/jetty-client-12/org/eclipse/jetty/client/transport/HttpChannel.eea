@@ -1,0 +1,47 @@
+class org/eclipse/jetty/client/transport/HttpChannel
+
+<init>
+ (Lorg/eclipse/jetty/client/transport/HttpDestination;)V
+ (Lorg/eclipse/jetty/client/transport/HttpDestination;)V
+abort
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/lang/Throwable;Ljava/lang/Throwable;Lorg/eclipse/jetty/util/Promise<Ljava/lang/Boolean;>;)V
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/lang/Throwable;Ljava/lang/Throwable;Lorg/eclipse/jetty/util/Promise<Ljava/lang/Boolean;>;)V
+abortResponse
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/lang/Throwable;Lorg/eclipse/jetty/util/Promise<Ljava/lang/Boolean;>;)V
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/lang/Throwable;Lorg/eclipse/jetty/util/Promise<Ljava/lang/Boolean;>;)V
+associate
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)Z
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)Z
+disassociate
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)Z
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)Z
+exchangeTerminated
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Lorg/eclipse/jetty/client/Result;)V
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Lorg/eclipse/jetty/client/Result;)V
+exchangeTerminating
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Lorg/eclipse/jetty/client/Result;)Lorg/eclipse/jetty/client/Result;
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Lorg/eclipse/jetty/client/Result;)Lorg/eclipse/jetty/client/Result;
+getConnection
+ ()Lorg/eclipse/jetty/client/Connection;
+ ()Lorg/eclipse/jetty/client/Connection;
+getHttpDestination
+ ()Lorg/eclipse/jetty/client/transport/HttpDestination;
+ ()Lorg/eclipse/jetty/client/transport/HttpDestination;
+getHttpExchange
+ ()Lorg/eclipse/jetty/client/transport/HttpExchange;
+ ()Lorg/eclipse/jetty/client/transport/HttpExchange;
+getHttpReceiver
+ ()Lorg/eclipse/jetty/client/transport/HttpReceiver;
+ ()Lorg/eclipse/jetty/client/transport/HttpReceiver;
+getHttpSender
+ ()Lorg/eclipse/jetty/client/transport/HttpSender;
+ ()Lorg/eclipse/jetty/client/transport/HttpSender;
+proceed
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/lang/Runnable;Ljava/lang/Throwable;)V
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/lang/Runnable;Ljava/lang/Throwable;)V
+send
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)V
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

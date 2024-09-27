@@ -1,0 +1,27 @@
+class org/eclipse/jetty/client/RedirectProtocolHandler
+
+NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Lorg/eclipse/jetty/client/HttpClient;)V
+ (Lorg/eclipse/jetty/client/HttpClient;)V
+accept
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;)Z
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;)Z
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getResponseListener
+ ()Lorg/eclipse/jetty/client/Response$Listener;
+ ()Lorg/eclipse/jetty/client/Response$Listener;
+onComplete
+ (Lorg/eclipse/jetty/client/Result;)V
+ (L1org/eclipse/jetty/client/Result;)V # @Inherited(org.eclipse.jetty.client.Response$Listener)
+onHeader
+ (Lorg/eclipse/jetty/client/Response;Lorg/eclipse/jetty/http/HttpField;)Z
+ (L1org/eclipse/jetty/client/Response;L1org/eclipse/jetty/http/HttpField;)Z # @Inherited(org.eclipse.jetty.client.Response$Listener)
+onSuccess
+ (Lorg/eclipse/jetty/client/Response;)V
+ (L1org/eclipse/jetty/client/Response;)V # @Inherited(org.eclipse.jetty.client.Response$Listener)

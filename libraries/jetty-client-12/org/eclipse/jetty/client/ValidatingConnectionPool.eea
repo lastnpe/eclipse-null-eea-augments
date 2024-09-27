@@ -1,0 +1,17 @@
+class org/eclipse/jetty/client/ValidatingConnectionPool
+
+<init>
+ (Lorg/eclipse/jetty/client/Destination;ILorg/eclipse/jetty/util/thread/Scheduler;J)V
+ (Lorg/eclipse/jetty/client/Destination;ILorg/eclipse/jetty/util/thread/Scheduler;J)V
+dump
+ (Ljava/lang/Appendable;Ljava/lang/String;)V
+ (Ljava/lang/Appendable;Ljava/lang/String;)V
+release
+ (Lorg/eclipse/jetty/client/Connection;)Z
+ (Lorg/eclipse/jetty/client/Connection;)Z
+remove
+ (Lorg/eclipse/jetty/client/Connection;)Z
+ (Lorg/eclipse/jetty/client/Connection;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.eclipse.jetty.client.AbstractConnectionPool)

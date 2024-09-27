@@ -1,0 +1,23 @@
+class org/eclipse/jetty/client/HttpRedirector
+
+<init>
+ (Lorg/eclipse/jetty/client/HttpClient;)V
+ (Lorg/eclipse/jetty/client/HttpClient;)V
+extractRedirectURI
+ (Lorg/eclipse/jetty/client/Response;)Ljava/net/URI;
+ (Lorg/eclipse/jetty/client/Response;)Ljava/net/URI;
+fail
+ (Lorg/eclipse/jetty/client/Request;Ljava/lang/Throwable;Lorg/eclipse/jetty/client/Response;)V
+ (Lorg/eclipse/jetty/client/Request;Ljava/lang/Throwable;Lorg/eclipse/jetty/client/Response;)V
+fail
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;Ljava/lang/Throwable;)V
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;Ljava/lang/Throwable;)V
+isRedirect
+ (Lorg/eclipse/jetty/client/Response;)Z
+ (Lorg/eclipse/jetty/client/Response;)Z
+redirect
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;)Lorg/eclipse/jetty/client/Result;
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;)Lorg/eclipse/jetty/client/Result;
+redirect
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;Lorg/eclipse/jetty/client/Response$CompleteListener;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;Lorg/eclipse/jetty/client/Response$CompleteListener;)Lorg/eclipse/jetty/client/Request;

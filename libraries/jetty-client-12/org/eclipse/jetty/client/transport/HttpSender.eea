@@ -1,0 +1,50 @@
+class org/eclipse/jetty/client/transport/HttpSender
+
+<init>
+ (Lorg/eclipse/jetty/client/transport/HttpChannel;)V
+ (Lorg/eclipse/jetty/client/transport/HttpChannel;)V
+abort
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/lang/Throwable;Lorg/eclipse/jetty/util/Promise<Ljava/lang/Boolean;>;)V
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/lang/Throwable;Lorg/eclipse/jetty/util/Promise<Ljava/lang/Boolean;>;)V
+beginToHeaders
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)Z
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)Z
+expects100Continue
+ (Lorg/eclipse/jetty/client/Request;)Z
+ (Lorg/eclipse/jetty/client/Request;)Z
+getHttpChannel
+ ()Lorg/eclipse/jetty/client/transport/HttpChannel;
+ ()Lorg/eclipse/jetty/client/transport/HttpChannel;
+getHttpExchange
+ ()Lorg/eclipse/jetty/client/transport/HttpExchange;
+ ()Lorg/eclipse/jetty/client/transport/HttpExchange;
+headersToCommit
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)Z
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)Z
+proceed
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/lang/Runnable;Ljava/lang/Throwable;)V
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/lang/Runnable;Ljava/lang/Throwable;)V
+queuedToBegin
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)Z
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)Z
+relativize
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+send
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)V
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)V
+sendContent
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/nio/ByteBuffer;ZLorg/eclipse/jetty/util/Callback;)V
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/nio/ByteBuffer;ZLorg/eclipse/jetty/util/Callback;)V
+sendHeaders
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/nio/ByteBuffer;ZLorg/eclipse/jetty/util/Callback;)V
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/nio/ByteBuffer;ZLorg/eclipse/jetty/util/Callback;)V
+someToContent
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/nio/ByteBuffer;)Z
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;Ljava/nio/ByteBuffer;)Z
+someToSuccess
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)Z
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
