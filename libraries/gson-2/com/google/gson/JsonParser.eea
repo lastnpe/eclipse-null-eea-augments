@@ -1,4 +1,5 @@
 class com/google/gson/JsonParser
+
 parseReader
  (Lcom/google/gson/stream/JsonReader;)Lcom/google/gson/JsonElement;
  (L1com/google/gson/stream/JsonReader;)L1com/google/gson/JsonElement;
@@ -8,3 +9,13 @@ parseReader
 parseString
  (Ljava/lang/String;)Lcom/google/gson/JsonElement;
  (L1java/lang/String;)L1com/google/gson/JsonElement;
+
+parse
+ (Lcom/google/gson/stream/JsonReader;)Lcom/google/gson/JsonElement;
+ (Lcom/google/gson/stream/JsonReader;)Lcom/google/gson/JsonElement;
+parse
+ (Ljava/io/Reader;)Lcom/google/gson/JsonElement;
+ (Ljava/io/Reader;)Lcom/google/gson/JsonElement;
+parse
+ (Ljava/lang/String;)Lcom/google/gson/JsonElement;
+ (Ljava/lang/String;)Lcom/google/gson/JsonElement;
