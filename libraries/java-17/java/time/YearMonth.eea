@@ -31,7 +31,7 @@ parse
 
 adjustInto
  (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
- (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal; # @Inherited(java.time.temporal.TemporalAdjuster)
 atDay
  (I)Ljava/time/LocalDate;
  (I)Ljava/time/LocalDate;
@@ -49,10 +49,10 @@ format
  (Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;
 get
  (Ljava/time/temporal/TemporalField;)I
- (L1java/time/temporal/TemporalField;)I
+ (L1java/time/temporal/TemporalField;)I # @Inherited(java.time.temporal.TemporalAccessor)
 getLong
  (Ljava/time/temporal/TemporalField;)J
- (Ljava/time/temporal/TemporalField;)J
+ (L1java/time/temporal/TemporalField;)J # @Inherited(java.time.temporal.TemporalAccessor)
 getMonth
  ()Ljava/time/Month;
  ()Ljava/time/Month;
@@ -64,10 +64,10 @@ isBefore
  (Ljava/time/YearMonth;)Z
 isSupported
  (Ljava/time/temporal/TemporalField;)Z
- (Ljava/time/temporal/TemporalField;)Z
+ (L1java/time/temporal/TemporalField;)Z # @Inherited(java.time.temporal.TemporalAccessor)
 isSupported
  (Ljava/time/temporal/TemporalUnit;)Z
- (Ljava/time/temporal/TemporalUnit;)Z
+ (L1java/time/temporal/TemporalUnit;)Z # @Inherited(java.time.temporal.Temporal)
 minus
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/YearMonth;
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/YearMonth;
@@ -94,16 +94,16 @@ plusYears
  (J)Ljava/time/YearMonth;
 query
  <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
- <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+ <R:Ljava/lang/Object;>(L1java/time/temporal/TemporalQuery<TR;>;)T0R; # @Inherited(java.time.temporal.TemporalAccessor)
 range
  (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
- (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange; # @Inherited(java.time.temporal.TemporalAccessor)
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)
 until
  (Ljava/time/temporal/Temporal;Ljava/time/temporal/TemporalUnit;)J
- (Ljava/time/temporal/Temporal;Ljava/time/temporal/TemporalUnit;)J
+ (L1java/time/temporal/Temporal;L1java/time/temporal/TemporalUnit;)J # @Inherited(java.time.temporal.Temporal)
 with
  (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/YearMonth;
  (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/YearMonth;

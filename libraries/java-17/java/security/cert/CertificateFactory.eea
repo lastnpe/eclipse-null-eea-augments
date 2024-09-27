@@ -2,13 +2,13 @@ class java/security/cert/CertificateFactory
 
 getInstance
  (Ljava/lang/String;)Ljava/security/cert/CertificateFactory;
- (Ljava/lang/String;)Ljava/security/cert/CertificateFactory;
+ (L1java/lang/String;)L1java/security/cert/CertificateFactory;
 getInstance
  (Ljava/lang/String;Ljava/lang/String;)Ljava/security/cert/CertificateFactory;
- (Ljava/lang/String;Ljava/lang/String;)Ljava/security/cert/CertificateFactory;
+ (L1java/lang/String;L1java/lang/String;)L1java/security/cert/CertificateFactory;
 getInstance
  (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/cert/CertificateFactory;
- (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/cert/CertificateFactory;
+ (L1java/lang/String;L1java/security/Provider;)L1java/security/cert/CertificateFactory;
 
 <init>
  (Ljava/security/cert/CertificateFactorySpi;Ljava/security/Provider;Ljava/lang/String;)V
@@ -30,7 +30,7 @@ generateCertPath
  (Ljava/util/List<+Ljava/security/cert/Certificate;>;)Ljava/security/cert/CertPath;
 generateCertificate
  (Ljava/io/InputStream;)Ljava/security/cert/Certificate;
- (Ljava/io/InputStream;)Ljava/security/cert/Certificate;
+ (L1java/io/InputStream;)L1java/security/cert/Certificate;
 generateCertificates
  (Ljava/io/InputStream;)Ljava/util/Collection<+Ljava/security/cert/Certificate;>;
  (Ljava/io/InputStream;)Ljava/util/Collection<+Ljava/security/cert/Certificate;>;

@@ -6,16 +6,16 @@ super java/util/stream/Node$OfPrimitive
 
 copyInto
  ([Ljava/lang/Integer;I)V
- ([Ljava/lang/Integer;I)V
+ ([1Ljava/lang/Integer;I)V
 forEach
  (Ljava/util/function/Consumer<-Ljava/lang/Integer;>;)V
- (Ljava/util/function/Consumer<-Ljava/lang/Integer;>;)V
+ (L1java/util/function/Consumer<-Ljava/lang/Integer;>;)V
 getShape
  ()Ljava/util/stream/StreamShape;
- ()Ljava/util/stream/StreamShape;
+ ()L1java/util/stream/StreamShape;
 newArray
  (I)[I
- (I)[I
+ (I)[1I
 truncate
  (JJLjava/util/function/IntFunction<[Ljava/lang/Integer;>;)Ljava/util/stream/Node$OfInt;
  (JJLjava/util/function/IntFunction<[Ljava/lang/Integer;>;)Ljava/util/stream/Node$OfInt;

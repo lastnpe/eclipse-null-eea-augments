@@ -34,10 +34,10 @@ entries
  ()L1java/util/Enumeration<L1java/util/jar/JarEntry;>;
 getEntry
  (Ljava/lang/String;)Ljava/util/zip/ZipEntry;
- (L1java/lang/String;)L0java/util/zip/ZipEntry;
+ (L1java/lang/String;)L0java/util/zip/ZipEntry; # @Inherited(java.util.zip.ZipFile)
 getInputStream
  (Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;
- (L1java/util/zip/ZipEntry;)L1java/io/InputStream;
+ (L1java/util/zip/ZipEntry;)L1java/io/InputStream; # @Inherited(java.util.zip.ZipFile)
 getJarEntry
  (Ljava/lang/String;)Ljava/util/jar/JarEntry;
  (L1java/lang/String;)L0java/util/jar/JarEntry;

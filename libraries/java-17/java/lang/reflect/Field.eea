@@ -29,7 +29,7 @@ getDeclaredAnnotations
  ()[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.AccessibleObject)
 getDeclaringClass
  ()Ljava/lang/Class<*>;
- ()L1java/lang/Class<*>;
+ ()L1java/lang/Class<*>; # @Inherited(java.lang.reflect.Member)
 getDouble
  (Ljava/lang/Object;)D
  (L0java/lang/Object;)D
@@ -47,7 +47,7 @@ getLong
  (L0java/lang/Object;)J
 getName
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.reflect.Member)
 getShort
  (Ljava/lang/Object;)S
  (L0java/lang/Object;)S

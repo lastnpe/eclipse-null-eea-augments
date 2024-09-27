@@ -2,10 +2,10 @@ class javax/lang/model/util/Types
 
 asElement
  (Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/element/Element;
- (Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/element/Element;
+ (L1javax/lang/model/type/TypeMirror;)L0javax/lang/model/element/Element;
 asMemberOf
  (Ljavax/lang/model/type/DeclaredType;Ljavax/lang/model/element/Element;)Ljavax/lang/model/type/TypeMirror;
- (Ljavax/lang/model/type/DeclaredType;Ljavax/lang/model/element/Element;)Ljavax/lang/model/type/TypeMirror;
+ (L1javax/lang/model/type/DeclaredType;L1javax/lang/model/element/Element;)L1javax/lang/model/type/TypeMirror;
 boxedClass
  (Ljavax/lang/model/type/PrimitiveType;)Ljavax/lang/model/element/TypeElement;
  (Ljavax/lang/model/type/PrimitiveType;)Ljavax/lang/model/element/TypeElement;
@@ -38,10 +38,10 @@ getNullType
  ()Ljavax/lang/model/type/NullType;
 getPrimitiveType
  (Ljavax/lang/model/type/TypeKind;)Ljavax/lang/model/type/PrimitiveType;
- (Ljavax/lang/model/type/TypeKind;)Ljavax/lang/model/type/PrimitiveType;
+ (L1javax/lang/model/type/TypeKind;)L1javax/lang/model/type/PrimitiveType;
 getWildcardType
  (Ljavax/lang/model/type/TypeMirror;Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/type/WildcardType;
- (Ljavax/lang/model/type/TypeMirror;Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/type/WildcardType;
+ (L0javax/lang/model/type/TypeMirror;L0javax/lang/model/type/TypeMirror;)L1javax/lang/model/type/WildcardType;
 isAssignable
  (Ljavax/lang/model/type/TypeMirror;Ljavax/lang/model/type/TypeMirror;)Z
  (Ljavax/lang/model/type/TypeMirror;Ljavax/lang/model/type/TypeMirror;)Z

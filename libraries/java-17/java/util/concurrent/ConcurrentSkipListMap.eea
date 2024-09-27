@@ -35,10 +35,10 @@ compute
  (TK;L1java/util/function/BiFunction<-TK;-T0V;+T0V;>;)T0V; # @Inherited(java.util.concurrent.ConcurrentMap)
 computeIfAbsent
  (TK;Ljava/util/function/Function<-TK;+TV;>;)TV;
- (TK;L1java/util/function/Function<-TK;+T0V;>;)T0V; # @Inherited(java.util.concurrent.ConcurrentMap)
+ (TK;L1java/util/function/Function<-TK;+T0V;>;)TV; # @Inherited(java.util.concurrent.ConcurrentMap)
 computeIfPresent
  (TK;Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)TV;
- (TK;L1java/util/function/BiFunction<-TK;-TV;+T0V;>;)T0V; # @Inherited(java.util.concurrent.ConcurrentMap)
+ (TK;Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)TV;
 containsKey
  (Ljava/lang/Object;)Z
  (L0java/lang/Object;)Z # @Inherited(java.util.AbstractMap)
@@ -71,7 +71,7 @@ floorKey
  (TK;)TK;
 forEach
  (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
- (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
+ (L1java/util/function/BiConsumer<-TK;-TV;>;)V # @Inherited(java.util.concurrent.ConcurrentMap)
 get
  (Ljava/lang/Object;)TV;
  (Ljava/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
@@ -107,7 +107,7 @@ lowerKey
  (TK;)TK;
 merge
  (TK;TV;Ljava/util/function/BiFunction<-TV;-TV;+TV;>;)TV;
- (TK;T1V;L1java/util/function/BiFunction<-TV;-TV;+TV;>;)T0V; # @Inherited(java.util.concurrent.ConcurrentMap)
+ (TK;TV;Ljava/util/function/BiFunction<-TV;-TV;+TV;>;)TV;
 navigableKeySet
  ()Ljava/util/NavigableSet<TK;>;
  ()Ljava/util/NavigableSet<TK;>;
@@ -125,10 +125,10 @@ putIfAbsent
  (TK;TV;)T0V; # @Inherited(java.util.concurrent.ConcurrentMap)
 remove
  (Ljava/lang/Object;)TV;
- (Ljava/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
+ (L0java/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
 remove
  (Ljava/lang/Object;Ljava/lang/Object;)Z
- (Ljava/lang/Object;Ljava/lang/Object;)Z
+ (L0java/lang/Object;L0java/lang/Object;)Z # @Inherited(java.util.concurrent.ConcurrentMap)
 replace
  (TK;TV;)TV;
  (TK;TV;)T0V; # @Inherited(java.util.concurrent.ConcurrentMap)

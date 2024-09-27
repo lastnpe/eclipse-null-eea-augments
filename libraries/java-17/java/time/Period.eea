@@ -31,19 +31,19 @@ parse
 
 addTo
  (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
- (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal; # @Inherited(java.time.chrono.ChronoPeriod)
 equals
  (Ljava/lang/Object;)Z
  (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
 get
  (Ljava/time/temporal/TemporalUnit;)J
- (Ljava/time/temporal/TemporalUnit;)J
+ (L1java/time/temporal/TemporalUnit;)J # @Inherited(java.time.chrono.ChronoPeriod)
 getChronology
  ()Ljava/time/chrono/IsoChronology;
  ()Ljava/time/chrono/IsoChronology;
 getUnits
  ()Ljava/util/List<Ljava/time/temporal/TemporalUnit;>;
- ()Ljava/util/List<Ljava/time/temporal/TemporalUnit;>;
+ ()L1java/util/List<L1java/time/temporal/TemporalUnit;>; # @Inherited(java.time.chrono.ChronoPeriod)
 minus
  (Ljava/time/temporal/TemporalAmount;)Ljava/time/Period;
  (Ljava/time/temporal/TemporalAmount;)Ljava/time/Period;
@@ -79,7 +79,7 @@ plusYears
  (J)Ljava/time/Period;
 subtractFrom
  (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
- (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal; # @Inherited(java.time.chrono.ChronoPeriod)
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)

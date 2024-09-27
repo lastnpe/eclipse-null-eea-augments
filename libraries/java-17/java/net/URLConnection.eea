@@ -8,7 +8,7 @@ getDefaultUseCaches
  (Ljava/lang/String;)Z
 getFileNameMap
  ()Ljava/net/FileNameMap;
- ()Ljava/net/FileNameMap;
+ ()L1java/net/FileNameMap;
 guessContentTypeFromName
  (Ljava/lang/String;)Ljava/lang/String;
  (Ljava/lang/String;)Ljava/lang/String;
@@ -40,22 +40,22 @@ addRequestProperty
  (Ljava/lang/String;Ljava/lang/String;)V
 getContent
  ()Ljava/lang/Object;
- ()Ljava/lang/Object;
+ ()L1java/lang/Object;
 getContent
  ([Ljava/lang/Class<*>;)Ljava/lang/Object;
  ([Ljava/lang/Class<*>;)Ljava/lang/Object;
 getContentEncoding
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String;
 getContentType
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String;
 getHeaderField
  (I)Ljava/lang/String;
- (I)Ljava/lang/String;
+ (I)L0java/lang/String;
 getHeaderField
  (Ljava/lang/String;)Ljava/lang/String;
- (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
 getHeaderFieldDate
  (Ljava/lang/String;J)J
  (Ljava/lang/String;J)J
@@ -79,7 +79,7 @@ getOutputStream
  ()L1java/io/OutputStream;
 getPermission
  ()Ljava/security/Permission;
- ()Ljava/security/Permission;
+ ()L1java/security/Permission;
 getRequestProperties
  ()Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;
  ()Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;

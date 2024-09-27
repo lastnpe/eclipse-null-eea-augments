@@ -2,6 +2,6 @@ class java/util/function/Supplier
  <T:Ljava/lang/Object;>
  <T:Ljava/lang/Object;>
 
-get
+get # @Keep -> to prevent "Unsafe interpretation of method return type as '@NonNull' based on the receiver type '@NonNull ...'. Type 'Supplier<T>' doesn't seem to be designed with null type annotations in mind
  ()TT;
  ()TT;

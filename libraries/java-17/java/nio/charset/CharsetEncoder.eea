@@ -2,61 +2,61 @@ class java/nio/charset/CharsetEncoder
 
 <init>
  (Ljava/nio/charset/Charset;FF)V
- (Ljava/nio/charset/Charset;FF)V
+ (L1java/nio/charset/Charset;FF)V
 <init>
  (Ljava/nio/charset/Charset;FF[B)V
- (Ljava/nio/charset/Charset;FF[B)V
+ (L1java/nio/charset/Charset;FF[B)V
 canEncode
  (Ljava/lang/CharSequence;)Z
- (Ljava/lang/CharSequence;)Z
+ (L1java/lang/CharSequence;)Z
 charset
  ()Ljava/nio/charset/Charset;
- ()Ljava/nio/charset/Charset;
+ ()L1java/nio/charset/Charset;
 encode
  (Ljava/nio/CharBuffer;)Ljava/nio/ByteBuffer;
- (Ljava/nio/CharBuffer;)Ljava/nio/ByteBuffer;
+ (L1java/nio/CharBuffer;)L1java/nio/ByteBuffer;
 encode
  (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;Z)Ljava/nio/charset/CoderResult;
- (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;Z)Ljava/nio/charset/CoderResult;
+ (L1java/nio/CharBuffer;L1java/nio/ByteBuffer;Z)L1java/nio/charset/CoderResult;
 encodeLoop
  (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;
- (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;
+ (L1java/nio/CharBuffer;L1java/nio/ByteBuffer;)L1java/nio/charset/CoderResult;
 flush
  (Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;
- (Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;
+ (L1java/nio/ByteBuffer;)L1java/nio/charset/CoderResult;
 implFlush
  (Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;
- (Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;
+ (L1java/nio/ByteBuffer;)L1java/nio/charset/CoderResult;
 implOnMalformedInput
  (Ljava/nio/charset/CodingErrorAction;)V
- (Ljava/nio/charset/CodingErrorAction;)V
+ (L1java/nio/charset/CodingErrorAction;)V
 implOnUnmappableCharacter
  (Ljava/nio/charset/CodingErrorAction;)V
- (Ljava/nio/charset/CodingErrorAction;)V
+ (L1java/nio/charset/CodingErrorAction;)V
 implReplaceWith
  ([B)V
- ([B)V
+ ([1B)V
 isLegalReplacement
  ([B)Z
- ([B)Z
+ ([1B)Z
 malformedInputAction
  ()Ljava/nio/charset/CodingErrorAction;
- ()Ljava/nio/charset/CodingErrorAction;
+ ()L1java/nio/charset/CodingErrorAction;
 onMalformedInput
  (Ljava/nio/charset/CodingErrorAction;)Ljava/nio/charset/CharsetEncoder;
- (Ljava/nio/charset/CodingErrorAction;)Ljava/nio/charset/CharsetEncoder;
+ (L1java/nio/charset/CodingErrorAction;)L1java/nio/charset/CharsetEncoder;
 onUnmappableCharacter
  (Ljava/nio/charset/CodingErrorAction;)Ljava/nio/charset/CharsetEncoder;
- (Ljava/nio/charset/CodingErrorAction;)Ljava/nio/charset/CharsetEncoder;
+ (L1java/nio/charset/CodingErrorAction;)L1java/nio/charset/CharsetEncoder;
 replaceWith
  ([B)Ljava/nio/charset/CharsetEncoder;
- ([B)Ljava/nio/charset/CharsetEncoder;
+ ([1B)L1java/nio/charset/CharsetEncoder;
 replacement
  ()[B
- ()[B
+ ()[1B
 reset
  ()Ljava/nio/charset/CharsetEncoder;
- ()Ljava/nio/charset/CharsetEncoder;
+ ()L1java/nio/charset/CharsetEncoder;
 unmappableCharacterAction
  ()Ljava/nio/charset/CodingErrorAction;
- ()Ljava/nio/charset/CodingErrorAction;
+ ()L1java/nio/charset/CodingErrorAction;

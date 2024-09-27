@@ -51,7 +51,7 @@ getOperatingSystemMXBean
  ()Ljava/lang/management/OperatingSystemMXBean;
 getPlatformMBeanServer
  ()Ljavax/management/MBeanServer;
- ()Ljavax/management/MBeanServer;
+ ()L1javax/management/MBeanServer;
 getPlatformMXBean
  <T::Ljava/lang/management/PlatformManagedObject;>(Ljava/lang/Class<TT;>;)TT;
  <T::Ljava/lang/management/PlatformManagedObject;>(Ljava/lang/Class<TT;>;)TT;
@@ -69,7 +69,7 @@ getPlatformManagementInterfaces
  ()Ljava/util/Set<Ljava/lang/Class<+Ljava/lang/management/PlatformManagedObject;>;>;
 getRuntimeMXBean
  ()Ljava/lang/management/RuntimeMXBean;
- ()Ljava/lang/management/RuntimeMXBean;
+ ()L1java/lang/management/RuntimeMXBean;
 getThreadMXBean
  ()Ljava/lang/management/ThreadMXBean;
  ()Ljava/lang/management/ThreadMXBean;

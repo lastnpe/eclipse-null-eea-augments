@@ -47,7 +47,7 @@ abs
  ()L1java/time/Duration;
 addTo
  (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
- (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal;
+ (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal; # @Inherited(java.time.temporal.TemporalAmount)
 compareTo
  (Ljava/time/Duration;)I
  (L1java/time/Duration;)I
@@ -62,10 +62,10 @@ equals
  (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
 get
  (Ljava/time/temporal/TemporalUnit;)J
- (L0java/time/temporal/TemporalUnit;)J
+ (L0java/time/temporal/TemporalUnit;)J # @Overrides(java.time.temporal.TemporalAmount)
 getUnits
  ()Ljava/util/List<Ljava/time/temporal/TemporalUnit;>;
- ()L1java/util/List<Ljava/time/temporal/TemporalUnit;>;
+ ()L1java/util/List<Ljava/time/temporal/TemporalUnit;>; # @Overrides(java.time.temporal.TemporalAmount)
 minus
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/Duration;
  (JL1java/time/temporal/TemporalUnit;)L1java/time/Duration;
@@ -122,7 +122,7 @@ plusSeconds
  (J)L1java/time/Duration;
 subtractFrom
  (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
- (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal;
+ (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal; # @Inherited(java.time.temporal.TemporalAmount)
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)

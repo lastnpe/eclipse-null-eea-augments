@@ -11,10 +11,10 @@ getAlgorithm
  ()Ljava/lang/String;
 getEncoded
  ()[B
- ()[B
+ ()[0B # @Inherited(java.security.Key)
 getFormat
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(java.security.Key)
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)

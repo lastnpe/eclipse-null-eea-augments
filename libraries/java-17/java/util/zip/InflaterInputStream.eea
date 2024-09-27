@@ -2,20 +2,20 @@ class java/util/zip/InflaterInputStream
 
 buf
  [B
- [B
+ [1B
 inf
  Ljava/util/zip/Inflater;
- Ljava/util/zip/Inflater;
+ L1java/util/zip/Inflater;
 
 <init>
  (Ljava/io/InputStream;)V
- (Ljava/io/InputStream;)V
+ (L1java/io/InputStream;)V
 <init>
  (Ljava/io/InputStream;Ljava/util/zip/Inflater;)V
- (Ljava/io/InputStream;Ljava/util/zip/Inflater;)V
+ (L1java/io/InputStream;L1java/util/zip/Inflater;)V
 <init>
  (Ljava/io/InputStream;Ljava/util/zip/Inflater;I)V
- (Ljava/io/InputStream;Ljava/util/zip/Inflater;I)V
+ (L1java/io/InputStream;L1java/util/zip/Inflater;I)V
 read
  ([BII)I
- ([BII)I
+ ([1BII)I # @Inherited(java.io.FilterInputStream)

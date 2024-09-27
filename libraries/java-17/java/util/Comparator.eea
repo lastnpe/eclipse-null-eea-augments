@@ -4,31 +4,31 @@ class java/util/Comparator
 
 comparing
  <T:Ljava/lang/Object;U::Ljava/lang/Comparable<-TU;>;>(Ljava/util/function/Function<-TT;+TU;>;)Ljava/util/Comparator<TT;>;
- <T:Ljava/lang/Object;U::Ljava/lang/Comparable<-TU;>;>(Ljava/util/function/Function<-TT;+TU;>;)Ljava/util/Comparator<TT;>;
+ <T:Ljava/lang/Object;U::Ljava/lang/Comparable<-TU;>;>(Ljava/util/function/Function<-TT;+TU;>;)L1java/util/Comparator<TT;>;
 comparing
  <T:Ljava/lang/Object;U:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TU;>;Ljava/util/Comparator<-TU;>;)Ljava/util/Comparator<TT;>;
- <T:Ljava/lang/Object;U:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TU;>;Ljava/util/Comparator<-TU;>;)Ljava/util/Comparator<TT;>;
+ <T:Ljava/lang/Object;U:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TU;>;Ljava/util/Comparator<-TU;>;)L1java/util/Comparator<TT;>;
 comparingDouble
  <T:Ljava/lang/Object;>(Ljava/util/function/ToDoubleFunction<-TT;>;)Ljava/util/Comparator<TT;>;
- <T:Ljava/lang/Object;>(Ljava/util/function/ToDoubleFunction<-TT;>;)Ljava/util/Comparator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/function/ToDoubleFunction<-TT;>;)L1java/util/Comparator<TT;>;
 comparingInt
  <T:Ljava/lang/Object;>(Ljava/util/function/ToIntFunction<-TT;>;)Ljava/util/Comparator<TT;>;
- <T:Ljava/lang/Object;>(Ljava/util/function/ToIntFunction<-TT;>;)Ljava/util/Comparator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/function/ToIntFunction<-TT;>;)L1java/util/Comparator<TT;>;
 comparingLong
  <T:Ljava/lang/Object;>(Ljava/util/function/ToLongFunction<-TT;>;)Ljava/util/Comparator<TT;>;
- <T:Ljava/lang/Object;>(Ljava/util/function/ToLongFunction<-TT;>;)Ljava/util/Comparator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/function/ToLongFunction<-TT;>;)L1java/util/Comparator<TT;>;
 naturalOrder
  <T::Ljava/lang/Comparable<-TT;>;>()Ljava/util/Comparator<TT;>;
- <T::Ljava/lang/Comparable<-TT;>;>()Ljava/util/Comparator<TT;>;
+ <T::Ljava/lang/Comparable<-TT;>;>()L1java/util/Comparator<TT;>;
 nullsFirst
  <T:Ljava/lang/Object;>(Ljava/util/Comparator<-TT;>;)Ljava/util/Comparator<TT;>;
- <T:Ljava/lang/Object;>(Ljava/util/Comparator<-TT;>;)Ljava/util/Comparator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Comparator<-TT;>;)L1java/util/Comparator<TT;>;
 nullsLast
  <T:Ljava/lang/Object;>(Ljava/util/Comparator<-TT;>;)Ljava/util/Comparator<TT;>;
- <T:Ljava/lang/Object;>(Ljava/util/Comparator<-TT;>;)Ljava/util/Comparator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Comparator<-TT;>;)L1java/util/Comparator<TT;>;
 reverseOrder
  <T::Ljava/lang/Comparable<-TT;>;>()Ljava/util/Comparator<TT;>;
- <T::Ljava/lang/Comparable<-TT;>;>()Ljava/util/Comparator<TT;>;
+ <T::Ljava/lang/Comparable<-TT;>;>()L1java/util/Comparator<TT;>;
 
 compare
  (TT;TT;)I
@@ -41,19 +41,19 @@ reversed
  ()L1java/util/Comparator<TT;>;
 thenComparing
  (Ljava/util/Comparator<-TT;>;)Ljava/util/Comparator<TT;>;
- (Ljava/util/Comparator<-TT;>;)Ljava/util/Comparator<TT;>;
+ (Ljava/util/Comparator<-TT;>;)L1java/util/Comparator<TT;>;
 thenComparing
  <U::Ljava/lang/Comparable<-TU;>;>(Ljava/util/function/Function<-TT;+TU;>;)Ljava/util/Comparator<TT;>;
- <U::Ljava/lang/Comparable<-TU;>;>(Ljava/util/function/Function<-TT;+TU;>;)Ljava/util/Comparator<TT;>;
+ <U::Ljava/lang/Comparable<-TU;>;>(Ljava/util/function/Function<-TT;+TU;>;)L1java/util/Comparator<TT;>;
 thenComparing
  <U:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TU;>;Ljava/util/Comparator<-TU;>;)Ljava/util/Comparator<TT;>;
- <U:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TU;>;Ljava/util/Comparator<-TU;>;)Ljava/util/Comparator<TT;>;
+ <U:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TU;>;Ljava/util/Comparator<-TU;>;)L1java/util/Comparator<TT;>;
 thenComparingDouble
  (Ljava/util/function/ToDoubleFunction<-TT;>;)Ljava/util/Comparator<TT;>;
- (Ljava/util/function/ToDoubleFunction<-TT;>;)Ljava/util/Comparator<TT;>;
+ (Ljava/util/function/ToDoubleFunction<-TT;>;)L1java/util/Comparator<TT;>;
 thenComparingInt
  (Ljava/util/function/ToIntFunction<-TT;>;)Ljava/util/Comparator<TT;>;
- (Ljava/util/function/ToIntFunction<-TT;>;)Ljava/util/Comparator<TT;>;
+ (Ljava/util/function/ToIntFunction<-TT;>;)L1java/util/Comparator<TT;>;
 thenComparingLong
  (Ljava/util/function/ToLongFunction<-TT;>;)Ljava/util/Comparator<TT;>;
- (Ljava/util/function/ToLongFunction<-TT;>;)Ljava/util/Comparator<TT;>;
+ (Ljava/util/function/ToLongFunction<-TT;>;)L1java/util/Comparator<TT;>;

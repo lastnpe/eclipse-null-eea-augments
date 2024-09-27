@@ -2,32 +2,32 @@ class javax/net/ssl/TrustManagerFactory
 
 getDefaultAlgorithm
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String;
 getInstance
  (Ljava/lang/String;)Ljavax/net/ssl/TrustManagerFactory;
- (Ljava/lang/String;)Ljavax/net/ssl/TrustManagerFactory;
+ (L1java/lang/String;)L1javax/net/ssl/TrustManagerFactory;
 getInstance
  (Ljava/lang/String;Ljava/lang/String;)Ljavax/net/ssl/TrustManagerFactory;
- (Ljava/lang/String;Ljava/lang/String;)Ljavax/net/ssl/TrustManagerFactory;
+ (L1java/lang/String;L1java/lang/String;)L1javax/net/ssl/TrustManagerFactory;
 getInstance
  (Ljava/lang/String;Ljava/security/Provider;)Ljavax/net/ssl/TrustManagerFactory;
- (Ljava/lang/String;Ljava/security/Provider;)Ljavax/net/ssl/TrustManagerFactory;
+ (L1java/lang/String;L1java/security/Provider;)L1javax/net/ssl/TrustManagerFactory;
 
 <init>
  (Ljavax/net/ssl/TrustManagerFactorySpi;Ljava/security/Provider;Ljava/lang/String;)V
  (Ljavax/net/ssl/TrustManagerFactorySpi;Ljava/security/Provider;Ljava/lang/String;)V
 getAlgorithm
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String;
 getProvider
  ()Ljava/security/Provider;
- ()Ljava/security/Provider;
+ ()L1java/security/Provider;
 getTrustManagers
  ()[Ljavax/net/ssl/TrustManager;
- ()[Ljavax/net/ssl/TrustManager;
+ ()[1L1javax/net/ssl/TrustManager;
 init
  (Ljava/security/KeyStore;)V
- (Ljava/security/KeyStore;)V
+ (L0java/security/KeyStore;)V
 init
  (Ljavax/net/ssl/ManagerFactoryParameters;)V
- (Ljavax/net/ssl/ManagerFactoryParameters;)V
+ (L1javax/net/ssl/ManagerFactoryParameters;)V

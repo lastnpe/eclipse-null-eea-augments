@@ -2,22 +2,22 @@ class java/io/InputStreamReader
 
 <init>
  (Ljava/io/InputStream;)V
- (Ljava/io/InputStream;)V
+ (L1java/io/InputStream;)V
 <init>
  (Ljava/io/InputStream;Ljava/lang/String;)V
- (Ljava/io/InputStream;Ljava/lang/String;)V
+ (L1java/io/InputStream;L1java/lang/String;)V
 <init>
  (Ljava/io/InputStream;Ljava/nio/charset/Charset;)V
- (Ljava/io/InputStream;Ljava/nio/charset/Charset;)V
+ (L1java/io/InputStream;L1java/nio/charset/Charset;)V
 <init>
  (Ljava/io/InputStream;Ljava/nio/charset/CharsetDecoder;)V
- (Ljava/io/InputStream;Ljava/nio/charset/CharsetDecoder;)V
+ (L1java/io/InputStream;L1java/nio/charset/CharsetDecoder;)V
 getEncoding
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String;
 read
  (Ljava/nio/CharBuffer;)I
  (L1java/nio/CharBuffer;)I # @Inherited(java.io.Reader)
 read
  ([CII)I
- ([CII)I
+ ([1CII)I # @Inherited(java.io.Reader)

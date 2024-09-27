@@ -11,19 +11,19 @@ super java/util/Map
 
 <init>
  (Ljava/util/Map<+TK;+TV;>;)V
- (Ljava/util/Map<+TK;+TV;>;)V
+ (L1java/util/Map<+TK;+TV;>;)V
 containsValue
  (Ljava/lang/Object;)Z
  (L0java/lang/Object;)Z # @Inherited(java.util.HashMap)
 entrySet
  ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
- ()L1java/util/Set<Ljava/util/Map$Entry<TK;TV;>;>; # @Inherited(java.util.HashMap)
+ ()L1java/util/Set<L1java/util/Map$Entry<TK;TV;>;>; # @Inherited(java.util.HashMap)
 forEach
  (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
  (L1java/util/function/BiConsumer<-TK;-TV;>;)V # @Inherited(java.util.HashMap)
 get
  (Ljava/lang/Object;)TV;
- (L0java/lang/Object;)T0V; # @Inherited(java.util.HashMap)
+ (Ljava/lang/Object;)T0V; # @Inherited(java.util.HashMap)
 getOrDefault
  (Ljava/lang/Object;TV;)TV;
  (Ljava/lang/Object;TV;)TV;
@@ -32,7 +32,7 @@ keySet
  ()L1java/util/Set<TK;>; # @Inherited(java.util.HashMap)
 removeEldestEntry
  (Ljava/util/Map$Entry<TK;TV;>;)Z
- (Ljava/util/Map$Entry<TK;TV;>;)Z
+ (L1java/util/Map$Entry<TK;TV;>;)Z
 replaceAll
  (Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)V
  (L1java/util/function/BiFunction<-TK;-TV;+TV;>;)V # @Inherited(java.util.HashMap)

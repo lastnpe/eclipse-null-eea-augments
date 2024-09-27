@@ -15,7 +15,7 @@ getErrorStream
  ()Ljava/io/InputStream;
 getHeaderField
  (I)Ljava/lang/String;
- (I)Ljava/lang/String;
+ (I)L0java/lang/String; # @Inherited(java.net.URLConnection)
 getHeaderFieldDate
  (Ljava/lang/String;J)J
  (Ljava/lang/String;J)J
@@ -24,7 +24,7 @@ getHeaderFieldKey
  (I)Ljava/lang/String;
 getPermission
  ()Ljava/security/Permission;
- ()Ljava/security/Permission;
+ ()L1java/security/Permission; # @Inherited(java.net.URLConnection)
 getRequestMethod
  ()Ljava/lang/String;
  ()Ljava/lang/String;

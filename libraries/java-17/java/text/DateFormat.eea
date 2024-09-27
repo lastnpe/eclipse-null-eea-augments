@@ -2,37 +2,37 @@ class java/text/DateFormat
 
 getAvailableLocales
  ()[Ljava/util/Locale;
- ()[Ljava/util/Locale;
+ ()[1Ljava/util/Locale;
 getDateInstance
  ()Ljava/text/DateFormat;
- ()Ljava/text/DateFormat;
+ ()L1java/text/DateFormat;
 getDateInstance
  (I)Ljava/text/DateFormat;
- (I)Ljava/text/DateFormat;
+ (I)L1java/text/DateFormat;
 getDateInstance
  (ILjava/util/Locale;)Ljava/text/DateFormat;
- (ILjava/util/Locale;)Ljava/text/DateFormat;
+ (IL1java/util/Locale;)L1java/text/DateFormat;
 getDateTimeInstance
  ()Ljava/text/DateFormat;
- ()Ljava/text/DateFormat;
+ ()L1java/text/DateFormat;
 getDateTimeInstance
  (II)Ljava/text/DateFormat;
- (II)Ljava/text/DateFormat;
+ (II)L1java/text/DateFormat;
 getDateTimeInstance
  (IILjava/util/Locale;)Ljava/text/DateFormat;
- (IILjava/util/Locale;)Ljava/text/DateFormat;
+ (IIL1java/util/Locale;)L1java/text/DateFormat;
 getInstance
  ()Ljava/text/DateFormat;
- ()Ljava/text/DateFormat;
+ ()L1java/text/DateFormat;
 getTimeInstance
  ()Ljava/text/DateFormat;
- ()Ljava/text/DateFormat;
+ ()L1java/text/DateFormat;
 getTimeInstance
  (I)Ljava/text/DateFormat;
- (I)Ljava/text/DateFormat;
+ (I)L1java/text/DateFormat;
 getTimeInstance
  (ILjava/util/Locale;)Ljava/text/DateFormat;
- (ILjava/util/Locale;)Ljava/text/DateFormat;
+ (IL1java/util/Locale;)L1java/text/DateFormat;
 
 calendar
  Ljava/util/Calendar;
@@ -49,7 +49,7 @@ equals
  (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
 format
  (Ljava/lang/Object;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
- (L1java/lang/Object;L1java/lang/StringBuffer;L1java/text/FieldPosition;)L1java/lang/StringBuffer; # @Inherited(java.text.Format)
+ (L0java/lang/Object;L1java/lang/StringBuffer;L1java/text/FieldPosition;)L1java/lang/StringBuffer; # @Inherited(java.text.Format)
 format
  (Ljava/util/Date;)Ljava/lang/String;
  (Ljava/util/Date;)L1java/lang/String;

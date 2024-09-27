@@ -5,88 +5,88 @@ class javax/xml/stream/util/StreamReaderDelegate
  (Ljavax/xml/stream/XMLStreamReader;)V
 getAttributeLocalName
  (I)Ljava/lang/String;
- (I)Ljava/lang/String;
+ (I)L1java/lang/String; # @Inherited(javax.xml.stream.XMLStreamReader)
 getAttributeName
  (I)Ljavax/xml/namespace/QName;
- (I)Ljavax/xml/namespace/QName;
+ (I)L1javax/xml/namespace/QName; # @Inherited(javax.xml.stream.XMLStreamReader)
 getAttributeNamespace
  (I)Ljava/lang/String;
- (I)Ljava/lang/String;
+ (I)L1java/lang/String; # @Inherited(javax.xml.stream.XMLStreamReader)
 getAttributePrefix
  (I)Ljava/lang/String;
- (I)Ljava/lang/String;
+ (I)L1java/lang/String; # @Inherited(javax.xml.stream.XMLStreamReader)
 getAttributeType
  (I)Ljava/lang/String;
- (I)Ljava/lang/String;
+ (I)L1java/lang/String; # @Inherited(javax.xml.stream.XMLStreamReader)
 getAttributeValue
  (I)Ljava/lang/String;
- (I)Ljava/lang/String;
+ (I)L1java/lang/String; # @Inherited(javax.xml.stream.XMLStreamReader)
 getAttributeValue
  (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
- (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (L0java/lang/String;L1java/lang/String;)L1java/lang/String; # @Inherited(javax.xml.stream.XMLStreamReader)
 getCharacterEncodingScheme
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(javax.xml.stream.XMLStreamReader)
 getElementText
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.xml.stream.XMLStreamReader)
 getEncoding
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(javax.xml.stream.XMLStreamReader)
 getLocalName
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.xml.stream.XMLStreamReader)
 getLocation
  ()Ljavax/xml/stream/Location;
- ()Ljavax/xml/stream/Location;
+ ()L1javax/xml/stream/Location; # @Inherited(javax.xml.stream.XMLStreamReader)
 getName
  ()Ljavax/xml/namespace/QName;
- ()Ljavax/xml/namespace/QName;
+ ()L1javax/xml/namespace/QName; # @Inherited(javax.xml.stream.XMLStreamReader)
 getNamespaceContext
  ()Ljavax/xml/namespace/NamespaceContext;
- ()Ljavax/xml/namespace/NamespaceContext;
+ ()L1javax/xml/namespace/NamespaceContext; # @Inherited(javax.xml.stream.XMLStreamReader)
 getNamespacePrefix
  (I)Ljava/lang/String;
- (I)Ljava/lang/String;
+ (I)L0java/lang/String; # @Inherited(javax.xml.stream.XMLStreamReader)
 getNamespaceURI
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(javax.xml.stream.XMLStreamReader)
 getNamespaceURI
  (I)Ljava/lang/String;
  (I)Ljava/lang/String;
 getNamespaceURI
  (Ljava/lang/String;)Ljava/lang/String;
- (Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;)L0java/lang/String; # @Inherited(javax.xml.stream.XMLStreamReader)
 getPIData
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(javax.xml.stream.XMLStreamReader)
 getPITarget
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(javax.xml.stream.XMLStreamReader)
 getParent
  ()Ljavax/xml/stream/XMLStreamReader;
  ()Ljavax/xml/stream/XMLStreamReader;
 getPrefix
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(javax.xml.stream.XMLStreamReader)
 getProperty
  (Ljava/lang/String;)Ljava/lang/Object;
- (Ljava/lang/String;)Ljava/lang/Object;
+ (L1java/lang/String;)Ljava/lang/Object; # @Inherited(javax.xml.stream.XMLStreamReader)
 getText
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(javax.xml.stream.XMLStreamReader)
 getTextCharacters
  ()[C
- ()[C
+ ()[1C # @Inherited(javax.xml.stream.XMLStreamReader)
 getTextCharacters
  (I[CII)I
- (I[CII)I
+ (I[1CII)I # @Inherited(javax.xml.stream.XMLStreamReader)
 getVersion
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(javax.xml.stream.XMLStreamReader)
 require
  (ILjava/lang/String;Ljava/lang/String;)V
- (ILjava/lang/String;Ljava/lang/String;)V
+ (IL0java/lang/String;L0java/lang/String;)V # @Inherited(javax.xml.stream.XMLStreamReader)
 setParent
  (Ljavax/xml/stream/XMLStreamReader;)V
  (Ljavax/xml/stream/XMLStreamReader;)V

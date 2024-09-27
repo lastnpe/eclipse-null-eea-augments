@@ -2,23 +2,23 @@ class java/io/ByteArrayInputStream
 
 buf
  [B
- [B
+ [1B
 
 <init>
  ([B)V
- ([B)V
+ ([1B)V
 <init>
  ([BII)V
- ([BII)V
+ ([1BII)V
 read
  ([BII)I
- ([BII)I
+ ([1BII)I # @Inherited(java.io.InputStream)
 readAllBytes
  ()[B
- ()[B
+ ()[1B # @Inherited(java.io.InputStream)
 readNBytes
  ([BII)I
- ([BII)I
+ ([1BII)I # @Inherited(java.io.InputStream)
 transferTo
  (Ljava/io/OutputStream;)J
  (L1java/io/OutputStream;)J # @Inherited(java.io.InputStream)

@@ -17,19 +17,19 @@ append
  (J)L1java/lang/AbstractStringBuilder;
 append
  (Ljava/lang/CharSequence;)Ljava/lang/AbstractStringBuilder;
- (Ljava/lang/CharSequence;)L1java/lang/AbstractStringBuilder;
+ (L0java/lang/CharSequence;)L1java/lang/AbstractStringBuilder;
 append
  (Ljava/lang/CharSequence;II)Ljava/lang/AbstractStringBuilder;
- (Ljava/lang/CharSequence;II)L1java/lang/AbstractStringBuilder;
+ (L0java/lang/CharSequence;II)L1java/lang/AbstractStringBuilder;
 append
  (Ljava/lang/Object;)Ljava/lang/AbstractStringBuilder;
- (Ljava/lang/Object;)L1java/lang/AbstractStringBuilder;
+ (L0java/lang/Object;)L1java/lang/AbstractStringBuilder;
 append
  (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
- (Ljava/lang/String;)L1java/lang/AbstractStringBuilder;
+ (L0java/lang/String;)L1java/lang/AbstractStringBuilder;
 append
  (Ljava/lang/StringBuffer;)Ljava/lang/AbstractStringBuilder;
- (Ljava/lang/StringBuffer;)L1java/lang/AbstractStringBuilder;
+ (L0java/lang/StringBuffer;)L1java/lang/AbstractStringBuilder;
 append
  (Z)Ljava/lang/AbstractStringBuilder;
  (Z)L1java/lang/AbstractStringBuilder;
@@ -56,13 +56,13 @@ deleteCharAt
  (I)L1java/lang/AbstractStringBuilder;
 getChars
  (II[CI)V
- (II[CI)V
+ (II[1CI)V
 indexOf
  (Ljava/lang/String;)I
- (Ljava/lang/String;)I
+ (L1java/lang/String;)I
 indexOf
  (Ljava/lang/String;I)I
- (Ljava/lang/String;I)I
+ (L1java/lang/String;I)I
 insert
  (IC)Ljava/lang/AbstractStringBuilder;
  (IC)L1java/lang/AbstractStringBuilder;
@@ -80,16 +80,16 @@ insert
  (IJ)L1java/lang/AbstractStringBuilder;
 insert
  (ILjava/lang/CharSequence;)Ljava/lang/AbstractStringBuilder;
- (ILjava/lang/CharSequence;)L1java/lang/AbstractStringBuilder;
+ (IL0java/lang/CharSequence;)L1java/lang/AbstractStringBuilder;
 insert
  (ILjava/lang/CharSequence;II)Ljava/lang/AbstractStringBuilder;
- (ILjava/lang/CharSequence;II)L1java/lang/AbstractStringBuilder;
+ (IL0java/lang/CharSequence;II)L1java/lang/AbstractStringBuilder;
 insert
  (ILjava/lang/Object;)Ljava/lang/AbstractStringBuilder;
- (ILjava/lang/Object;)L1java/lang/AbstractStringBuilder;
+ (IL0java/lang/Object;)L1java/lang/AbstractStringBuilder;
 insert
  (ILjava/lang/String;)Ljava/lang/AbstractStringBuilder;
- (ILjava/lang/String;)L1java/lang/AbstractStringBuilder;
+ (IL0java/lang/String;)L1java/lang/AbstractStringBuilder;
 insert
  (IZ)Ljava/lang/AbstractStringBuilder;
  (IZ)L1java/lang/AbstractStringBuilder;
@@ -101,13 +101,13 @@ insert
  (I[CII)L1java/lang/AbstractStringBuilder;
 lastIndexOf
  (Ljava/lang/String;)I
- (Ljava/lang/String;)I
+ (L1java/lang/String;)I
 lastIndexOf
  (Ljava/lang/String;I)I
- (Ljava/lang/String;I)I
+ (L1java/lang/String;I)I
 replace
  (IILjava/lang/String;)Ljava/lang/AbstractStringBuilder;
- (IILjava/lang/String;)L1java/lang/AbstractStringBuilder;
+ (IIL1java/lang/String;)L1java/lang/AbstractStringBuilder;
 reverse
  ()Ljava/lang/AbstractStringBuilder;
  ()L1java/lang/AbstractStringBuilder;

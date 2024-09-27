@@ -27,7 +27,7 @@ computeIfAbsent
  (T1K;L1java/util/function/Function<-TK;+TV;>;)T0V; # @Overrides(java.util.concurrent.ConcurrentMap)
 computeIfPresent
  (TK;Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)TV;
- (T1K;L1java/util/function/BiFunction<-TK;-TV;+TV;>;)T0V; # @Overrides(java.util.concurrent.ConcurrentMap)
+ (T1K;L1java/util/function/BiFunction<-TK;-TV;+TV;>;)T0V;
 contains
  (Ljava/lang/Object;)Z
  (L1java/lang/Object;)Z
@@ -42,7 +42,7 @@ elements
  ()L1java/util/Enumeration<TV;>;
 entrySet
  ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
- ()L1java/util/Set<Ljava/util/Map$Entry<TK;TV;>;>; # @Overrides(java.util.AbstractMap)
+ ()L1java/util/Set<L1java/util/Map$Entry<TK;TV;>;>; # @Inherited(java.util.AbstractMap)
 equals
  (Ljava/lang/Object;)Z
  (L0java/lang/Object;)Z # @Inherited(java.util.AbstractMap)
@@ -51,7 +51,7 @@ forEach
  (JL1java/util/function/BiConsumer<-TK;-TV;>;)V
 forEach
  (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
- (L1java/util/function/BiConsumer<-TK;-TV;>;)V
+ (L1java/util/function/BiConsumer<-TK;-TV;>;)V # @Inherited(java.util.concurrent.ConcurrentMap)
 forEach
  <U:Ljava/lang/Object;>(JLjava/util/function/BiFunction<-TK;-TV;+TU;>;Ljava/util/function/Consumer<-TU;>;)V
  <U:Ljava/lang/Object;>(JL1java/util/function/BiFunction<-TK;-TV;+TU;>;L1java/util/function/Consumer<-TU;>;)V
@@ -90,7 +90,7 @@ keys
  ()L1java/util/Enumeration<TK;>;
 merge
  (TK;TV;Ljava/util/function/BiFunction<-TV;-TV;+TV;>;)TV;
- (T1K;T1V;L1java/util/function/BiFunction<-TV;-TV;+TV;>;)T0V; # @Overrides(java.util.concurrent.ConcurrentMap)
+ (T1K;T1V;L1java/util/function/BiFunction<-TV;-TV;+TV;>;)T0V;
 put
  (TK;TV;)TV;
  (T1K;T1V;)T0V; # @Overrides(java.util.AbstractMap)
@@ -162,7 +162,7 @@ remove
  (L1java/lang/Object;)T0V; # @Overrides(java.util.AbstractMap)
 remove
  (Ljava/lang/Object;Ljava/lang/Object;)Z
- (L1java/lang/Object;L0java/lang/Object;)Z
+ (L1java/lang/Object;L0java/lang/Object;)Z # @Overrides(java.util.concurrent.ConcurrentMap)
 replace
  (TK;TV;)TV;
  (T1K;T1V;)T0V; # @Overrides(java.util.concurrent.ConcurrentMap)

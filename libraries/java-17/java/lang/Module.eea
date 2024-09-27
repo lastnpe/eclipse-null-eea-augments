@@ -20,16 +20,16 @@ canUse
  (L1java/lang/Class<*>;)Z
 getAnnotation
  <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
- <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)T0T;
+ <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)T0T; # @Inherited(java.lang.reflect.AnnotatedElement)
 getAnnotations
  ()[Ljava/lang/annotation/Annotation;
- ()[1L1java/lang/annotation/Annotation;
+ ()[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.AnnotatedElement)
 getClassLoader
  ()Ljava/lang/ClassLoader;
  ()L0java/lang/ClassLoader;
 getDeclaredAnnotations
  ()[Ljava/lang/annotation/Annotation;
- ()[1L1java/lang/annotation/Annotation;
+ ()[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.AnnotatedElement)
 getDescriptor
  ()Ljava/lang/module/ModuleDescriptor;
  ()L0java/lang/module/ModuleDescriptor;

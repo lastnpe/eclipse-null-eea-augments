@@ -5,16 +5,16 @@ class org/xml/sax/helpers/XMLReaderAdapter
  (Lorg/xml/sax/XMLReader;)V
 characters
  ([CII)V
- ([CII)V
+ ([1CII)V # @Inherited(org.xml.sax.ContentHandler)
 endElement
  (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
- (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (L1java/lang/String;L1java/lang/String;L1java/lang/String;)V # @Inherited(org.xml.sax.ContentHandler)
 endPrefixMapping
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(org.xml.sax.ContentHandler)
 ignorableWhitespace
  ([CII)V
- ([CII)V
+ ([1CII)V # @Inherited(org.xml.sax.ContentHandler)
 parse
  (Ljava/lang/String;)V
  (Ljava/lang/String;)V
@@ -23,7 +23,7 @@ parse
  (Lorg/xml/sax/InputSource;)V
 processingInstruction
  (Ljava/lang/String;Ljava/lang/String;)V
- (Ljava/lang/String;Ljava/lang/String;)V
+ (L1java/lang/String;L0java/lang/String;)V # @Inherited(org.xml.sax.ContentHandler)
 setDTDHandler
  (Lorg/xml/sax/DTDHandler;)V
  (Lorg/xml/sax/DTDHandler;)V
@@ -32,7 +32,7 @@ setDocumentHandler
  (Lorg/xml/sax/DocumentHandler;)V
 setDocumentLocator
  (Lorg/xml/sax/Locator;)V
- (Lorg/xml/sax/Locator;)V
+ (L1org/xml/sax/Locator;)V # @Inherited(org.xml.sax.ContentHandler)
 setEntityResolver
  (Lorg/xml/sax/EntityResolver;)V
  (Lorg/xml/sax/EntityResolver;)V
@@ -44,10 +44,10 @@ setLocale
  (Ljava/util/Locale;)V
 skippedEntity
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(org.xml.sax.ContentHandler)
 startElement
  (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V
- (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+ (L1java/lang/String;L1java/lang/String;L1java/lang/String;L1org/xml/sax/Attributes;)V # @Inherited(org.xml.sax.ContentHandler)
 startPrefixMapping
  (Ljava/lang/String;Ljava/lang/String;)V
- (Ljava/lang/String;Ljava/lang/String;)V
+ (L1java/lang/String;L1java/lang/String;)V # @Inherited(org.xml.sax.ContentHandler)

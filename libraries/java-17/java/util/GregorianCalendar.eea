@@ -21,19 +21,19 @@ equals
  (L0java/lang/Object;)Z # @Inherited(java.util.Calendar)
 getCalendarType
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.util.Calendar)
 getGregorianChange
  ()Ljava/util/Date;
  ()Ljava/util/Date;
 getTimeZone
  ()Ljava/util/TimeZone;
- ()Ljava/util/TimeZone;
+ ()L1java/util/TimeZone; # @Inherited(java.util.Calendar)
 setGregorianChange
  (Ljava/util/Date;)V
  (Ljava/util/Date;)V
 setTimeZone
  (Ljava/util/TimeZone;)V
- (Ljava/util/TimeZone;)V
+ (L1java/util/TimeZone;)V # @Inherited(java.util.Calendar)
 toZonedDateTime
  ()Ljava/time/ZonedDateTime;
  ()Ljava/time/ZonedDateTime;

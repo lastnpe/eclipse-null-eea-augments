@@ -8,16 +8,16 @@ super javax/lang/model/type/TypeVisitor
 
 visit
  (Ljavax/lang/model/type/TypeMirror;)TR;
- (Ljavax/lang/model/type/TypeMirror;)TR;
+ (L1javax/lang/model/type/TypeMirror;)TR; # @Inherited(javax.lang.model.type.TypeVisitor)
 visit
  (Ljavax/lang/model/type/TypeMirror;TP;)TR;
- (Ljavax/lang/model/type/TypeMirror;TP;)TR;
+ (L1javax/lang/model/type/TypeMirror;TP;)TR; # @Inherited(javax.lang.model.type.TypeVisitor)
 visitIntersection
  (Ljavax/lang/model/type/IntersectionType;TP;)TR;
- (Ljavax/lang/model/type/IntersectionType;TP;)TR;
+ (L1javax/lang/model/type/IntersectionType;TP;)TR; # @Inherited(javax.lang.model.type.TypeVisitor)
 visitUnion
  (Ljavax/lang/model/type/UnionType;TP;)TR;
- (Ljavax/lang/model/type/UnionType;TP;)TR;
+ (L1javax/lang/model/type/UnionType;TP;)TR; # @Inherited(javax.lang.model.type.TypeVisitor)
 visitUnknown
  (Ljavax/lang/model/type/TypeMirror;TP;)TR;
- (Ljavax/lang/model/type/TypeMirror;TP;)TR;
+ (L1javax/lang/model/type/TypeMirror;TP;)TR; # @Inherited(javax.lang.model.type.TypeVisitor)

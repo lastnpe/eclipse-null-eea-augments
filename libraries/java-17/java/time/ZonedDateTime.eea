@@ -58,7 +58,7 @@ getDayOfWeek
  ()L1java/time/DayOfWeek;
 getLong
  (Ljava/time/temporal/TemporalField;)J
- (L1java/time/temporal/TemporalField;)J
+ (L1java/time/temporal/TemporalField;)J # @Inherited(java.time.chrono.ChronoZonedDateTime)
 getMonth
  ()Ljava/time/Month;
  ()L1java/time/Month;
@@ -70,10 +70,10 @@ getZone
  ()L1java/time/ZoneId;
 isSupported
  (Ljava/time/temporal/TemporalField;)Z
- (L1java/time/temporal/TemporalField;)Z
+ (L1java/time/temporal/TemporalField;)Z # @Inherited(java.time.chrono.ChronoZonedDateTime)
 isSupported
  (Ljava/time/temporal/TemporalUnit;)Z
- (L1java/time/temporal/TemporalUnit;)Z
+ (L1java/time/temporal/TemporalUnit;)Z # @Inherited(java.time.temporal.Temporal)
 minus
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/ZonedDateTime;
  (JL1java/time/temporal/TemporalUnit;)Ljava/time/ZonedDateTime;
@@ -136,10 +136,10 @@ plusYears
  (J)L1java/time/ZonedDateTime;
 query
  <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
- <R:Ljava/lang/Object;>(L1java/time/temporal/TemporalQuery<TR;>;)TR;
+ <R:Ljava/lang/Object;>(L1java/time/temporal/TemporalQuery<TR;>;)TR; # @Overrides(java.time.chrono.ChronoZonedDateTime)
 range
  (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
- (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange;
+ (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange; # @Inherited(java.time.chrono.ChronoZonedDateTime)
 toLocalDate
  ()Ljava/time/LocalDate;
  ()L1java/time/LocalDate;
@@ -160,7 +160,7 @@ truncatedTo
  (L1java/time/temporal/TemporalUnit;)L1java/time/ZonedDateTime;
 until
  (Ljava/time/temporal/Temporal;Ljava/time/temporal/TemporalUnit;)J
- (L1java/time/temporal/Temporal;L1java/time/temporal/TemporalUnit;)J
+ (L1java/time/temporal/Temporal;L1java/time/temporal/TemporalUnit;)J # @Inherited(java.time.temporal.Temporal)
 with
  (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/ZonedDateTime;
  (L1java/time/temporal/TemporalAdjuster;)L1java/time/ZonedDateTime;

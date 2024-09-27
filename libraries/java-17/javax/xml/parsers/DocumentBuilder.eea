@@ -2,31 +2,31 @@ class javax/xml/parsers/DocumentBuilder
 
 getDOMImplementation
  ()Lorg/w3c/dom/DOMImplementation;
- ()Lorg/w3c/dom/DOMImplementation;
+ ()L1org/w3c/dom/DOMImplementation;
 getSchema
  ()Ljavax/xml/validation/Schema;
- ()Ljavax/xml/validation/Schema;
+ ()L0javax/xml/validation/Schema;
 newDocument
  ()Lorg/w3c/dom/Document;
- ()Lorg/w3c/dom/Document;
+ ()L1org/w3c/dom/Document;
 parse
  (Ljava/io/File;)Lorg/w3c/dom/Document;
- (Ljava/io/File;)Lorg/w3c/dom/Document;
+ (L1java/io/File;)L1org/w3c/dom/Document;
 parse
  (Ljava/io/InputStream;)Lorg/w3c/dom/Document;
- (Ljava/io/InputStream;)Lorg/w3c/dom/Document;
+ (L1java/io/InputStream;)L1org/w3c/dom/Document;
 parse
  (Ljava/io/InputStream;Ljava/lang/String;)Lorg/w3c/dom/Document;
- (Ljava/io/InputStream;Ljava/lang/String;)Lorg/w3c/dom/Document;
+ (L1java/io/InputStream;L0java/lang/String;)L1org/w3c/dom/Document;
 parse
  (Ljava/lang/String;)Lorg/w3c/dom/Document;
- (Ljava/lang/String;)Lorg/w3c/dom/Document;
+ (L1java/lang/String;)L1org/w3c/dom/Document;
 parse
  (Lorg/xml/sax/InputSource;)Lorg/w3c/dom/Document;
- (Lorg/xml/sax/InputSource;)Lorg/w3c/dom/Document;
+ (L1org/xml/sax/InputSource;)L1org/w3c/dom/Document;
 setEntityResolver
  (Lorg/xml/sax/EntityResolver;)V
- (Lorg/xml/sax/EntityResolver;)V
+ (L0org/xml/sax/EntityResolver;)V
 setErrorHandler
  (Lorg/xml/sax/ErrorHandler;)V
- (Lorg/xml/sax/ErrorHandler;)V
+ (L0org/xml/sax/ErrorHandler;)V

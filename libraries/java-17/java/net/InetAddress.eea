@@ -2,41 +2,41 @@ class java/net/InetAddress
 
 getAllByName
  (Ljava/lang/String;)[Ljava/net/InetAddress;
- (Ljava/lang/String;)[Ljava/net/InetAddress;
+ (L0java/lang/String;)[1L1java/net/InetAddress;
 getByAddress
  (Ljava/lang/String;[B)Ljava/net/InetAddress;
- (Ljava/lang/String;[B)Ljava/net/InetAddress;
+ (L1java/lang/String;[1B)L1java/net/InetAddress;
 getByAddress
  ([B)Ljava/net/InetAddress;
- ([B)Ljava/net/InetAddress;
+ ([1B)L1java/net/InetAddress;
 getByName
  (Ljava/lang/String;)Ljava/net/InetAddress;
- (Ljava/lang/String;)Ljava/net/InetAddress;
+ (L1java/lang/String;)L1java/net/InetAddress;
 getLocalHost
  ()Ljava/net/InetAddress;
- ()Ljava/net/InetAddress;
+ ()L1java/net/InetAddress;
 getLoopbackAddress
  ()Ljava/net/InetAddress;
- ()Ljava/net/InetAddress;
+ ()L1java/net/InetAddress;
 
 equals
  (Ljava/lang/Object;)Z
  (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
 getAddress
  ()[B
- ()[B
+ ()[1B
 getCanonicalHostName
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String;
 getHostAddress
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String;
 getHostName
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String;
 isReachable
  (Ljava/net/NetworkInterface;II)Z
- (Ljava/net/NetworkInterface;II)Z
+ (L1java/net/NetworkInterface;II)Z
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)

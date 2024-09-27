@@ -20,28 +20,28 @@ read
  ([BII)I
 readFully
  ([B)V
- ([B)V
+ ([1B)V # @Inherited(java.io.DataInput)
 readFully
  ([BII)V
- ([BII)V
+ ([1BII)V # @Inherited(java.io.DataInput)
 readLine
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.io.DataInput)
 readUTF
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.io.DataInput)
 write
  ([B)V
- ([B)V
+ ([1B)V # @Inherited(java.io.DataOutput)
 write
  ([BII)V
- ([BII)V
+ ([1BII)V # @Inherited(java.io.DataOutput)
 writeBytes
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(java.io.DataOutput)
 writeChars
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(java.io.DataOutput)
 writeUTF
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(java.io.DataOutput)

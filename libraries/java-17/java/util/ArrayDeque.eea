@@ -26,13 +26,13 @@ addLast
  (TE;)V
 clone
  ()Ljava/util/ArrayDeque<TE;>;
- ()Ljava/util/ArrayDeque<TE;>;
+ ()L1java/util/ArrayDeque<TE;>;
 contains
  (Ljava/lang/Object;)Z
  (Ljava/lang/Object;)Z
 descendingIterator
  ()Ljava/util/Iterator<TE;>;
- ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.Deque)
 element
  ()TE;
  ()T1E; # @Inherited(java.util.Deque)
@@ -41,10 +41,10 @@ forEach
  (Ljava/util/function/Consumer<-TE;>;)V
 getFirst
  ()TE;
- ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
 getLast
  ()TE;
- ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
 iterator
  ()Ljava/util/Iterator<TE;>;
  ()L1java/util/Iterator<TE;>; # @Inherited(java.util.AbstractCollection)
@@ -62,22 +62,22 @@ peek
  ()T0E; # @Inherited(java.util.Deque)
 peekFirst
  ()TE;
- ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
 peekLast
  ()TE;
- ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
 poll
  ()TE;
  ()T0E; # @Inherited(java.util.Deque)
 pollFirst
  ()TE;
- ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
 pollLast
  ()TE;
- ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
 pop
  ()TE;
- ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
 push
  (TE;)V
  (TE;)V
@@ -92,7 +92,7 @@ removeAll
  (L1java/util/Collection<*>;)Z # @Inherited(java.util.AbstractCollection)
 removeFirst
  ()TE;
- ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
 removeFirstOccurrence
  (Ljava/lang/Object;)Z
  (Ljava/lang/Object;)Z
@@ -101,7 +101,7 @@ removeIf
  (L1java/util/function/Predicate<-TE;>;)Z # @Inherited(java.util.Collection)
 removeLast
  ()TE;
- ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
 removeLastOccurrence
  (Ljava/lang/Object;)Z
  (Ljava/lang/Object;)Z

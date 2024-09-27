@@ -11,7 +11,7 @@ super java/util/Map
 
 <init>
  (Ljava/util/Map<+TK;+TV;>;)V
- (Ljava/util/Map<+TK;+TV;>;)V
+ (L1java/util/Map<+TK;+TV;>;)V
 clone
  ()Ljava/lang/Object;
  ()L1java/lang/Object; # @Inherited(java.util.AbstractMap)
@@ -29,7 +29,7 @@ equals
  (L0java/lang/Object;)Z # @Inherited(java.util.AbstractMap)
 forEach
  (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
- (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
+ (L1java/util/function/BiConsumer<-TK;-TV;>;)V # @Inherited(java.util.Map)
 get
  (Ljava/lang/Object;)TV;
  (Ljava/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
@@ -44,7 +44,7 @@ putAll
  (L1java/util/Map<+TK;+TV;>;)V # @Inherited(java.util.AbstractMap)
 remove
  (Ljava/lang/Object;)TV;
- (Ljava/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
+ (L0java/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
 replaceAll
  (Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)V
  (L1java/util/function/BiFunction<-TK;-TV;+TV;>;)V # @Inherited(java.util.Map)

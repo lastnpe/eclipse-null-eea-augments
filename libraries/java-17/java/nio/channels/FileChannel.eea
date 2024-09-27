@@ -2,10 +2,10 @@ class java/nio/channels/FileChannel
 
 open
  (Ljava/nio/file/Path;Ljava/util/Set<+Ljava/nio/file/OpenOption;>;[Ljava/nio/file/attribute/FileAttribute<*>;)Ljava/nio/channels/FileChannel;
- (Ljava/nio/file/Path;Ljava/util/Set<+Ljava/nio/file/OpenOption;>;[Ljava/nio/file/attribute/FileAttribute<*>;)Ljava/nio/channels/FileChannel;
+ (L1java/nio/file/Path;L1java/util/Set<+Ljava/nio/file/OpenOption;>;[L1java/nio/file/attribute/FileAttribute<*>;)L1java/nio/channels/FileChannel;
 open
  (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/nio/channels/FileChannel;
- (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/nio/channels/FileChannel;
+ (L1java/nio/file/Path;[Ljava/nio/file/OpenOption;)L1java/nio/channels/FileChannel;
 
 lock
  ()Ljava/nio/channels/FileLock;
@@ -21,7 +21,7 @@ position
  (J)Ljava/nio/channels/FileChannel;
 read
  (Ljava/nio/ByteBuffer;)I
- (Ljava/nio/ByteBuffer;)I
+ (L1java/nio/ByteBuffer;)I # @Inherited(java.nio.channels.SeekableByteChannel)
 read
  (Ljava/nio/ByteBuffer;J)I
  (Ljava/nio/ByteBuffer;J)I
@@ -48,7 +48,7 @@ tryLock
  (JJZ)Ljava/nio/channels/FileLock;
 write
  (Ljava/nio/ByteBuffer;)I
- (Ljava/nio/ByteBuffer;)I
+ (L1java/nio/ByteBuffer;)I # @Inherited(java.nio.channels.SeekableByteChannel)
 write
  (Ljava/nio/ByteBuffer;J)I
  (Ljava/nio/ByteBuffer;J)I

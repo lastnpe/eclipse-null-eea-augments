@@ -23,7 +23,7 @@ entrySet
  ()L1java/util/Set<L1java/util/Map$Entry<TK;TV;>;>; # @Inherited(java.util.AbstractMap)
 forEach
  (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
- (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
+ (L1java/util/function/BiConsumer<-TK;-TV;>;)V # @Inherited(java.util.Map)
 get
  (Ljava/lang/Object;)TV;
  (Ljava/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
@@ -38,7 +38,7 @@ putAll
  (L1java/util/Map<+TK;+TV;>;)V # @Inherited(java.util.AbstractMap)
 remove
  (Ljava/lang/Object;)TV;
- (Ljava/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
+ (L1java/lang/Object;)T0V; # @Overrides(java.util.AbstractMap)
 replaceAll
  (Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)V
  (L1java/util/function/BiFunction<-TK;-TV;+TV;>;)V # @Inherited(java.util.Map)

@@ -17,16 +17,16 @@ replaceObject
  (Ljava/lang/Object;)Ljava/lang/Object;
 write
  ([B)V
- ([B)V
+ ([1B)V # @Inherited(java.io.OutputStream)
 write
  ([BII)V
- ([BII)V
+ ([1BII)V # @Inherited(java.io.OutputStream)
 writeBytes
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(java.io.DataOutput)
 writeChars
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(java.io.DataOutput)
 writeClassDescriptor
  (Ljava/io/ObjectStreamClass;)V
  (Ljava/io/ObjectStreamClass;)V
@@ -38,7 +38,7 @@ writeObjectOverride
  (Ljava/lang/Object;)V
 writeUTF
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(java.io.DataOutput)
 writeUnshared
  (Ljava/lang/Object;)V
  (Ljava/lang/Object;)V

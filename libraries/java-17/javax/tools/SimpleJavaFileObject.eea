@@ -30,19 +30,19 @@ isNameCompatible
  (Ljava/lang/String;Ljavax/tools/JavaFileObject$Kind;)Z
 openInputStream
  ()Ljava/io/InputStream;
- ()Ljava/io/InputStream;
+ ()L1java/io/InputStream; # @Inherited(javax.tools.FileObject)
 openOutputStream
  ()Ljava/io/OutputStream;
- ()Ljava/io/OutputStream;
+ ()L1java/io/OutputStream; # @Inherited(javax.tools.FileObject)
 openReader
  (Z)Ljava/io/Reader;
  (Z)Ljava/io/Reader;
 openWriter
  ()Ljava/io/Writer;
- ()Ljava/io/Writer;
+ ()L1java/io/Writer; # @Inherited(javax.tools.FileObject)
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)
 toUri
  ()Ljava/net/URI;
- ()Ljava/net/URI;
+ ()L1java/net/URI; # @Inherited(javax.tools.FileObject)

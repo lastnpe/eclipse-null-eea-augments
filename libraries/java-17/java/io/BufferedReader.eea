@@ -2,16 +2,16 @@ class java/io/BufferedReader
 
 <init>
  (Ljava/io/Reader;)V
- (Ljava/io/Reader;)V
+ (L1java/io/Reader;)V
 <init>
  (Ljava/io/Reader;I)V
- (Ljava/io/Reader;I)V
+ (L1java/io/Reader;I)V
 lines
  ()Ljava/util/stream/Stream<Ljava/lang/String;>;
- ()Ljava/util/stream/Stream<Ljava/lang/String;>;
+ ()L1java/util/stream/Stream<L1java/lang/String;>;
 read
  ([CII)I
- ([CII)I
+ ([1CII)I # @Inherited(java.io.Reader)
 readLine
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String;

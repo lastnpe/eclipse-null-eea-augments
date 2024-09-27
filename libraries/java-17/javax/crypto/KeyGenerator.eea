@@ -2,35 +2,35 @@ class javax/crypto/KeyGenerator
 
 getInstance
  (Ljava/lang/String;)Ljavax/crypto/KeyGenerator;
- (Ljava/lang/String;)Ljavax/crypto/KeyGenerator;
+ (L1java/lang/String;)L1javax/crypto/KeyGenerator;
 getInstance
  (Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/KeyGenerator;
- (Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/KeyGenerator;
+ (L1java/lang/String;Ljava/lang/String;)L1javax/crypto/KeyGenerator;
 getInstance
  (Ljava/lang/String;Ljava/security/Provider;)Ljavax/crypto/KeyGenerator;
- (Ljava/lang/String;Ljava/security/Provider;)Ljavax/crypto/KeyGenerator;
+ (L1java/lang/String;L1java/security/Provider;)L1javax/crypto/KeyGenerator;
 
 <init>
  (Ljavax/crypto/KeyGeneratorSpi;Ljava/security/Provider;Ljava/lang/String;)V
- (Ljavax/crypto/KeyGeneratorSpi;Ljava/security/Provider;Ljava/lang/String;)V
+ (L1javax/crypto/KeyGeneratorSpi;L1java/security/Provider;L1java/lang/String;)V
 generateKey
  ()Ljavax/crypto/SecretKey;
- ()Ljavax/crypto/SecretKey;
+ ()L1javax/crypto/SecretKey;
 getAlgorithm
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String;
 getProvider
  ()Ljava/security/Provider;
- ()Ljava/security/Provider;
+ ()L1java/security/Provider;
 init
  (ILjava/security/SecureRandom;)V
- (ILjava/security/SecureRandom;)V
+ (IL1java/security/SecureRandom;)V
 init
  (Ljava/security/SecureRandom;)V
- (Ljava/security/SecureRandom;)V
+ (L1java/security/SecureRandom;)V
 init
  (Ljava/security/spec/AlgorithmParameterSpec;)V
- (Ljava/security/spec/AlgorithmParameterSpec;)V
+ (L1java/security/spec/AlgorithmParameterSpec;)V
 init
  (Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V
- (Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V
+ (L1java/security/spec/AlgorithmParameterSpec;L1java/security/SecureRandom;)V

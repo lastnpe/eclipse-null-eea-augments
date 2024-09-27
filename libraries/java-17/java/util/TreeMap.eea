@@ -11,13 +11,13 @@ super java/util/NavigableMap
 
 <init>
  (Ljava/util/Comparator<-TK;>;)V
- (Ljava/util/Comparator<-TK;>;)V
+ (L0java/util/Comparator<-TK;>;)V
 <init>
  (Ljava/util/Map<+TK;+TV;>;)V
- (Ljava/util/Map<+TK;+TV;>;)V
+ (L1java/util/Map<+TK;+TV;>;)V
 <init>
  (Ljava/util/SortedMap<TK;+TV;>;)V
- (Ljava/util/SortedMap<TK;+TV;>;)V
+ (L1java/util/SortedMap<TK;+TV;>;)V
 ceilingEntry
  (TK;)Ljava/util/Map$Entry<TK;TV;>;
  (TK;)Ljava/util/Map$Entry<TK;TV;>;
@@ -29,13 +29,13 @@ clone
  ()L1java/lang/Object; # @Inherited(java.util.AbstractMap)
 comparator
  ()Ljava/util/Comparator<-TK;>;
- ()Ljava/util/Comparator<-TK;>;
+ ()L0java/util/Comparator<-TK;>;
 compute
  (TK;Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)TV;
  (TK;L1java/util/function/BiFunction<-TK;-T0V;+T0V;>;)T0V; # @Inherited(java.util.Map)
 computeIfAbsent
  (TK;Ljava/util/function/Function<-TK;+TV;>;)TV;
- (TK;L1java/util/function/Function<-TK;+T0V;>;)T0V; # @Inherited(java.util.Map)
+ (TK;L1java/util/function/Function<-TK;+T0V;>;)TV; # @Inherited(java.util.Map)
 computeIfPresent
  (TK;Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)TV;
  (TK;L1java/util/function/BiFunction<-TK;-TV;+T0V;>;)T0V; # @Inherited(java.util.Map)
@@ -68,7 +68,7 @@ floorKey
  (TK;)TK;
 forEach
  (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
- (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
+ (L1java/util/function/BiConsumer<-TK;-TV;>;)V # @Inherited(java.util.Map)
 get
  (Ljava/lang/Object;)TV;
  (Ljava/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
@@ -122,7 +122,7 @@ putIfAbsent
  (TK;TV;)T0V; # @Inherited(java.util.Map)
 remove
  (Ljava/lang/Object;)TV;
- (Ljava/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
+ (L0java/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
 replace
  (TK;TV;)TV;
  (TK;TV;)T0V; # @Inherited(java.util.Map)

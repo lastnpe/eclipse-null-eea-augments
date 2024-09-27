@@ -63,10 +63,10 @@ deleteCharAt
  (I)L1java/lang/StringBuilder;
 indexOf
  (Ljava/lang/String;)I
- (L1java/lang/String;)I
+ (L1java/lang/String;)I # @Inherited(java.lang.AbstractStringBuilder)
 indexOf
  (Ljava/lang/String;I)I
- (L1java/lang/String;I)I
+ (L1java/lang/String;I)I # @Inherited(java.lang.AbstractStringBuilder)
 insert
  (IC)Ljava/lang/StringBuilder;
  (IC)L1java/lang/StringBuilder;
@@ -105,10 +105,10 @@ insert
  (I[1CII)L1java/lang/StringBuilder;
 lastIndexOf
  (Ljava/lang/String;)I
- (L1java/lang/String;)I
+ (L1java/lang/String;)I # @Inherited(java.lang.AbstractStringBuilder)
 lastIndexOf
  (Ljava/lang/String;I)I
- (L1java/lang/String;I)I
+ (L1java/lang/String;I)I # @Inherited(java.lang.AbstractStringBuilder)
 replace
  (IILjava/lang/String;)Ljava/lang/StringBuilder;
  (IIL1java/lang/String;)L1java/lang/StringBuilder;

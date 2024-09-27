@@ -11,7 +11,7 @@ super javax/lang/model/util/SimpleTypeVisitor6
  (TR;)V
 visitNoType
  (Ljavax/lang/model/type/NoType;TP;)TR;
- (Ljavax/lang/model/type/NoType;TP;)TR;
+ (L1javax/lang/model/type/NoType;TP;)TR; # @Inherited(javax.lang.model.util.SimpleTypeVisitor6)
 visitNoTypeAsModule
  (Ljavax/lang/model/type/NoType;TP;)TR;
  (Ljavax/lang/model/type/NoType;TP;)TR;
@@ -26,7 +26,7 @@ visitNoTypeAsVoid
  (Ljavax/lang/model/type/NoType;TP;)TR;
 visitPrimitive
  (Ljavax/lang/model/type/PrimitiveType;TP;)TR;
- (Ljavax/lang/model/type/PrimitiveType;TP;)TR;
+ (L1javax/lang/model/type/PrimitiveType;TP;)TR; # @Inherited(javax.lang.model.util.SimpleTypeVisitor6)
 visitPrimitiveAsBoolean
  (Ljavax/lang/model/type/PrimitiveType;TP;)TR;
  (Ljavax/lang/model/type/PrimitiveType;TP;)TR;

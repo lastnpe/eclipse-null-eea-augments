@@ -2,20 +2,20 @@ class java/util/zip/DeflaterInputStream
 
 buf
  [B
- [B
+ [1B
 def
  Ljava/util/zip/Deflater;
- Ljava/util/zip/Deflater;
+ L1java/util/zip/Deflater;
 
 <init>
  (Ljava/io/InputStream;)V
- (Ljava/io/InputStream;)V
+ (L1java/io/InputStream;)V
 <init>
  (Ljava/io/InputStream;Ljava/util/zip/Deflater;)V
- (Ljava/io/InputStream;Ljava/util/zip/Deflater;)V
+ (L1java/io/InputStream;L1java/util/zip/Deflater;)V
 <init>
  (Ljava/io/InputStream;Ljava/util/zip/Deflater;I)V
- (Ljava/io/InputStream;Ljava/util/zip/Deflater;I)V
+ (L1java/io/InputStream;L1java/util/zip/Deflater;I)V
 read
  ([BII)I
- ([BII)I
+ ([1BII)I # @Inherited(java.io.FilterInputStream)

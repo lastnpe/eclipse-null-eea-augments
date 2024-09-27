@@ -2,7 +2,7 @@ class java/util/logging/StreamHandler
 
 <init>
  (Ljava/io/OutputStream;Ljava/util/logging/Formatter;)V
- (Ljava/io/OutputStream;Ljava/util/logging/Formatter;)V
+ (L1java/io/OutputStream;L1java/util/logging/Formatter;)V
 isLoggable
  (Ljava/util/logging/LogRecord;)Z
  (L0java/util/logging/LogRecord;)Z # @Inherited(java.util.logging.Handler)
@@ -14,4 +14,4 @@ setEncoding
  (L0java/lang/String;)V # @Inherited(java.util.logging.Handler)
 setOutputStream
  (Ljava/io/OutputStream;)V
- (Ljava/io/OutputStream;)V
+ (L1java/io/OutputStream;)V

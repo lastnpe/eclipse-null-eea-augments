@@ -2,52 +2,52 @@ class java/util/zip/ZipEntry
 
 <init>
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V
 <init>
  (Ljava/util/zip/ZipEntry;)V
- (Ljava/util/zip/ZipEntry;)V
+ (L1java/util/zip/ZipEntry;)V
 clone
  ()Ljava/lang/Object;
  ()L1java/lang/Object; # @Inherited(java.lang.Object)
 getComment
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String;
 getCreationTime
  ()Ljava/nio/file/attribute/FileTime;
- ()Ljava/nio/file/attribute/FileTime;
+ ()L0java/nio/file/attribute/FileTime;
 getExtra
  ()[B
- ()[B
+ ()[0B
 getLastAccessTime
  ()Ljava/nio/file/attribute/FileTime;
- ()Ljava/nio/file/attribute/FileTime;
+ ()L0java/nio/file/attribute/FileTime;
 getLastModifiedTime
  ()Ljava/nio/file/attribute/FileTime;
- ()Ljava/nio/file/attribute/FileTime;
+ ()L0java/nio/file/attribute/FileTime;
 getName
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String;
 getTimeLocal
  ()Ljava/time/LocalDateTime;
- ()Ljava/time/LocalDateTime;
+ ()L1java/time/LocalDateTime;
 setComment
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L0java/lang/String;)V
 setCreationTime
  (Ljava/nio/file/attribute/FileTime;)Ljava/util/zip/ZipEntry;
- (Ljava/nio/file/attribute/FileTime;)Ljava/util/zip/ZipEntry;
+ (L0java/nio/file/attribute/FileTime;)L1java/util/zip/ZipEntry;
 setExtra
  ([B)V
- ([B)V
+ ([0B)V
 setLastAccessTime
  (Ljava/nio/file/attribute/FileTime;)Ljava/util/zip/ZipEntry;
- (Ljava/nio/file/attribute/FileTime;)Ljava/util/zip/ZipEntry;
+ (L1java/nio/file/attribute/FileTime;)L1java/util/zip/ZipEntry;
 setLastModifiedTime
  (Ljava/nio/file/attribute/FileTime;)Ljava/util/zip/ZipEntry;
- (Ljava/nio/file/attribute/FileTime;)Ljava/util/zip/ZipEntry;
+ (L1java/nio/file/attribute/FileTime;)L1java/util/zip/ZipEntry;
 setTimeLocal
  (Ljava/time/LocalDateTime;)V
- (Ljava/time/LocalDateTime;)V
+ (L1java/time/LocalDateTime;)V
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)

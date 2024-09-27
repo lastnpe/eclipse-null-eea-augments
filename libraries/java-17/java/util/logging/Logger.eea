@@ -9,185 +9,185 @@ global
 
 getAnonymousLogger
  ()Ljava/util/logging/Logger;
- ()Ljava/util/logging/Logger;
+ ()L1java/util/logging/Logger;
 getAnonymousLogger
  (Ljava/lang/String;)Ljava/util/logging/Logger;
- (Ljava/lang/String;)Ljava/util/logging/Logger;
+ (L0java/lang/String;)L1java/util/logging/Logger;
 getGlobal
  ()Ljava/util/logging/Logger;
- ()Ljava/util/logging/Logger;
+ ()L1java/util/logging/Logger;
 getLogger
  (Ljava/lang/String;)Ljava/util/logging/Logger;
  (Ljava/lang/String;)L1java/util/logging/Logger;
 getLogger
  (Ljava/lang/String;Ljava/lang/String;)Ljava/util/logging/Logger;
- (Ljava/lang/String;Ljava/lang/String;)Ljava/util/logging/Logger;
+ (L1java/lang/String;L0java/lang/String;)L1java/util/logging/Logger;
 
 <init>
  (Ljava/lang/String;Ljava/lang/String;)V
- (Ljava/lang/String;Ljava/lang/String;)V
+ (L1java/lang/String;L0java/lang/String;)V
 addHandler
  (Ljava/util/logging/Handler;)V
- (Ljava/util/logging/Handler;)V
+ (L1java/util/logging/Handler;)V
 config
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L0java/lang/String;)V
 config
  (Ljava/util/function/Supplier<Ljava/lang/String;>;)V
- (Ljava/util/function/Supplier<Ljava/lang/String;>;)V
+ (L1java/util/function/Supplier<L0java/lang/String;>;)V
 entering
  (Ljava/lang/String;Ljava/lang/String;)V
- (Ljava/lang/String;Ljava/lang/String;)V
+ (L0java/lang/String;L0java/lang/String;)V
 entering
  (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
- (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+ (L0java/lang/String;L0java/lang/String;L0java/lang/Object;)V
 entering
  (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
- (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+ (L0java/lang/String;L0java/lang/String;[0Ljava/lang/Object;)V
 exiting
  (Ljava/lang/String;Ljava/lang/String;)V
- (Ljava/lang/String;Ljava/lang/String;)V
+ (L0java/lang/String;L0java/lang/String;)V
 exiting
  (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
- (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+ (L0java/lang/String;L0java/lang/String;L0java/lang/Object;)V
 fine
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L0java/lang/String;)V
 fine
  (Ljava/util/function/Supplier<Ljava/lang/String;>;)V
- (Ljava/util/function/Supplier<Ljava/lang/String;>;)V
+ (L1java/util/function/Supplier<L0java/lang/String;>;)V
 finer
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L0java/lang/String;)V
 finer
  (Ljava/util/function/Supplier<Ljava/lang/String;>;)V
- (Ljava/util/function/Supplier<Ljava/lang/String;>;)V
+ (L1java/util/function/Supplier<L0java/lang/String;>;)V
 finest
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L0java/lang/String;)V
 finest
  (Ljava/util/function/Supplier<Ljava/lang/String;>;)V
- (Ljava/util/function/Supplier<Ljava/lang/String;>;)V
+ (L1java/util/function/Supplier<L0java/lang/String;>;)V
 getFilter
  ()Ljava/util/logging/Filter;
- ()Ljava/util/logging/Filter;
+ ()L0java/util/logging/Filter;
 getHandlers
  ()[Ljava/util/logging/Handler;
- ()[Ljava/util/logging/Handler;
+ ()[1L1java/util/logging/Handler;
 getLevel
  ()Ljava/util/logging/Level;
  ()L0java/util/logging/Level;
 getName
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String;
 getParent
  ()Ljava/util/logging/Logger;
  ()Ljava/util/logging/Logger;
 getResourceBundle
  ()Ljava/util/ResourceBundle;
- ()Ljava/util/ResourceBundle;
+ ()L0java/util/ResourceBundle;
 getResourceBundleName
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String;
 info
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V
 info
  (Ljava/util/function/Supplier<Ljava/lang/String;>;)V
- (Ljava/util/function/Supplier<Ljava/lang/String;>;)V
+ (L1java/util/function/Supplier<L0java/lang/String;>;)V
 isLoggable
  (Ljava/util/logging/Level;)Z
- (Ljava/util/logging/Level;)Z
+ (L1java/util/logging/Level;)Z
 log
  (Ljava/util/logging/Level;Ljava/lang/String;)V
- (Ljava/util/logging/Level;Ljava/lang/String;)V
+ (L1java/util/logging/Level;L0java/lang/String;)V
 log
  (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Object;)V
- (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Object;)V
+ (L1java/util/logging/Level;L0java/lang/String;L0java/lang/Object;)V
 log
  (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
- (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
+ (L1java/util/logging/Level;L0java/lang/String;L0java/lang/Throwable;)V
 log
  (Ljava/util/logging/Level;Ljava/lang/String;[Ljava/lang/Object;)V
- (Ljava/util/logging/Level;Ljava/lang/String;[Ljava/lang/Object;)V
+ (L1java/util/logging/Level;L0java/lang/String;[0Ljava/lang/Object;)V
 log
  (Ljava/util/logging/Level;Ljava/lang/Throwable;Ljava/util/function/Supplier<Ljava/lang/String;>;)V
- (Ljava/util/logging/Level;Ljava/lang/Throwable;Ljava/util/function/Supplier<Ljava/lang/String;>;)V
+ (L1java/util/logging/Level;Ljava/lang/Throwable;L1java/util/function/Supplier<L0java/lang/String;>;)V
 log
  (Ljava/util/logging/Level;Ljava/util/function/Supplier<Ljava/lang/String;>;)V
- (Ljava/util/logging/Level;Ljava/util/function/Supplier<Ljava/lang/String;>;)V
+ (L1java/util/logging/Level;L1java/util/function/Supplier<L0java/lang/String;>;)V
 log
  (Ljava/util/logging/LogRecord;)V
- (Ljava/util/logging/LogRecord;)V
+ (L1java/util/logging/LogRecord;)V
 logp
  (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
- (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (L1java/util/logging/Level;L0java/lang/String;L0java/lang/String;L0java/lang/String;)V
 logp
  (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
- (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+ (L1java/util/logging/Level;L0java/lang/String;L0java/lang/String;L0java/lang/String;L0java/lang/Object;)V
 logp
  (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
- (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+ (L1java/util/logging/Level;L0java/lang/String;L0java/lang/String;L0java/lang/String;L0java/lang/Throwable;)V
 logp
  (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
- (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+ (L1java/util/logging/Level;L0java/lang/String;L0java/lang/String;L0java/lang/String;[0Ljava/lang/Object;)V
 logp
  (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;Ljava/util/function/Supplier<Ljava/lang/String;>;)V
- (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;Ljava/util/function/Supplier<Ljava/lang/String;>;)V
+ (L1java/util/logging/Level;L0java/lang/String;L0java/lang/String;L0java/lang/Throwable;L1java/util/function/Supplier<L0java/lang/String;>;)V
 logp
  (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/util/function/Supplier<Ljava/lang/String;>;)V
- (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/util/function/Supplier<Ljava/lang/String;>;)V
+ (L1java/util/logging/Level;L0java/lang/String;L0java/lang/String;L1java/util/function/Supplier<L0java/lang/String;>;)V
 logrb
  (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
- (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (L1java/util/logging/Level;L0java/lang/String;L0java/lang/String;L0java/lang/String;L0java/lang/String;)V
 logrb
  (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
- (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+ (L1java/util/logging/Level;L0java/lang/String;L0java/lang/String;L0java/lang/String;L0java/lang/String;L0java/lang/Object;)V
 logrb
  (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
- (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+ (Ljava/util/logging/Level;L0java/lang/String;L0java/lang/String;L0java/lang/String;L0java/lang/String;L0java/lang/Throwable;)V
 logrb
  (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
- (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+ (L1java/util/logging/Level;L0java/lang/String;L0java/lang/String;L0java/lang/String;L0java/lang/String;[0Ljava/lang/Object;)V
 logrb
  (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/util/ResourceBundle;Ljava/lang/String;Ljava/lang/Throwable;)V
- (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/util/ResourceBundle;Ljava/lang/String;Ljava/lang/Throwable;)V
+ (L1java/util/logging/Level;L0java/lang/String;L0java/lang/String;L0java/util/ResourceBundle;L0java/lang/String;L0java/lang/Throwable;)V
 logrb
  (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/util/ResourceBundle;Ljava/lang/String;[Ljava/lang/Object;)V
- (Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/util/ResourceBundle;Ljava/lang/String;[Ljava/lang/Object;)V
+ (L1java/util/logging/Level;L0java/lang/String;L0java/lang/String;L0java/util/ResourceBundle;L0java/lang/String;[0Ljava/lang/Object;)V
 logrb
  (Ljava/util/logging/Level;Ljava/util/ResourceBundle;Ljava/lang/String;Ljava/lang/Throwable;)V
- (Ljava/util/logging/Level;Ljava/util/ResourceBundle;Ljava/lang/String;Ljava/lang/Throwable;)V
+ (L1java/util/logging/Level;L0java/util/ResourceBundle;L0java/lang/String;L0java/lang/Throwable;)V
 logrb
  (Ljava/util/logging/Level;Ljava/util/ResourceBundle;Ljava/lang/String;[Ljava/lang/Object;)V
- (Ljava/util/logging/Level;Ljava/util/ResourceBundle;Ljava/lang/String;[Ljava/lang/Object;)V
+ (L1java/util/logging/Level;L0java/util/ResourceBundle;L0java/lang/String;[0Ljava/lang/Object;)V
 removeHandler
  (Ljava/util/logging/Handler;)V
- (Ljava/util/logging/Handler;)V
+ (L0java/util/logging/Handler;)V
 setFilter
  (Ljava/util/logging/Filter;)V
- (Ljava/util/logging/Filter;)V
+ (L0java/util/logging/Filter;)V
 setLevel
  (Ljava/util/logging/Level;)V
- (Ljava/util/logging/Level;)V
+ (L0java/util/logging/Level;)V
 setParent
  (Ljava/util/logging/Logger;)V
- (Ljava/util/logging/Logger;)V
+ (L1java/util/logging/Logger;)V
 setResourceBundle
  (Ljava/util/ResourceBundle;)V
- (Ljava/util/ResourceBundle;)V
+ (L1java/util/ResourceBundle;)V
 severe
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L0java/lang/String;)V
 severe
  (Ljava/util/function/Supplier<Ljava/lang/String;>;)V
- (Ljava/util/function/Supplier<Ljava/lang/String;>;)V
+ (L1java/util/function/Supplier<L0java/lang/String;>;)V
 throwing
  (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
- (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+ (L0java/lang/String;L0java/lang/String;L0java/lang/Throwable;)V
 warning
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L0java/lang/String;)V
 warning
  (Ljava/util/function/Supplier<Ljava/lang/String;>;)V
- (Ljava/util/function/Supplier<Ljava/lang/String;>;)V
+ (L1java/util/function/Supplier<L0java/lang/String;>;)V
