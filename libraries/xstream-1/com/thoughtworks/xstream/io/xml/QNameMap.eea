@@ -1,0 +1,26 @@
+class com/thoughtworks/xstream/io/xml/QNameMap
+
+getDefaultNamespace
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDefaultPrefix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getJavaClassName
+ (Ljavax/xml/namespace/QName;)Ljava/lang/String;
+ (Ljavax/xml/namespace/QName;)Ljava/lang/String;
+getQName
+ (Ljava/lang/String;)Ljavax/xml/namespace/QName;
+ (Ljava/lang/String;)Ljavax/xml/namespace/QName;
+registerMapping
+ (Ljavax/xml/namespace/QName;Ljava/lang/Class;)V
+ (Ljavax/xml/namespace/QName;Ljava/lang/Class;)V
+registerMapping
+ (Ljavax/xml/namespace/QName;Ljava/lang/String;)V
+ (Ljavax/xml/namespace/QName;Ljava/lang/String;)V
+setDefaultNamespace
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setDefaultPrefix
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

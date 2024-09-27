@@ -1,0 +1,72 @@
+class com/thoughtworks/xstream/io/xml/SaxWriter
+
+CONFIGURED_XSTREAM_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+SOURCE_OBJECT_LIST_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Lcom/thoughtworks/xstream/io/naming/NameCoder;)V
+ (Lcom/thoughtworks/xstream/io/naming/NameCoder;)V
+<init>
+ (Lcom/thoughtworks/xstream/io/xml/XmlFriendlyReplacer;)V
+ (Lcom/thoughtworks/xstream/io/xml/XmlFriendlyReplacer;)V
+<init>
+ (ZLcom/thoughtworks/xstream/io/naming/NameCoder;)V
+ (ZLcom/thoughtworks/xstream/io/naming/NameCoder;)V
+<init>
+ (ZLcom/thoughtworks/xstream/io/xml/XmlFriendlyReplacer;)V
+ (ZLcom/thoughtworks/xstream/io/xml/XmlFriendlyReplacer;)V
+addAttribute
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+getContentHandler
+ ()Lorg/xml/sax/ContentHandler;
+ ()Lorg/xml/sax/ContentHandler;
+getDTDHandler
+ ()Lorg/xml/sax/DTDHandler;
+ ()Lorg/xml/sax/DTDHandler;
+getEntityResolver
+ ()Lorg/xml/sax/EntityResolver;
+ ()Lorg/xml/sax/EntityResolver;
+getErrorHandler
+ ()Lorg/xml/sax/ErrorHandler;
+ ()Lorg/xml/sax/ErrorHandler;
+getFeature
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+parse
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+parse
+ (Lorg/xml/sax/InputSource;)V
+ (Lorg/xml/sax/InputSource;)V
+setContentHandler
+ (Lorg/xml/sax/ContentHandler;)V
+ (Lorg/xml/sax/ContentHandler;)V
+setDTDHandler
+ (Lorg/xml/sax/DTDHandler;)V
+ (Lorg/xml/sax/DTDHandler;)V
+setEntityResolver
+ (Lorg/xml/sax/EntityResolver;)V
+ (Lorg/xml/sax/EntityResolver;)V
+setErrorHandler
+ (Lorg/xml/sax/ErrorHandler;)V
+ (Lorg/xml/sax/ErrorHandler;)V
+setFeature
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+setProperty
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+setValue
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+startNode
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

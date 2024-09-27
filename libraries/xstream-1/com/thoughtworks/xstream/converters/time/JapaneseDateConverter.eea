@@ -1,0 +1,18 @@
+class com/thoughtworks/xstream/converters/time/JapaneseDateConverter
+
+super com/thoughtworks/xstream/converters/time/AbstractChronoLocalDateConverter
+ <Ljava/time/chrono/JapaneseEra;>
+ <Ljava/time/chrono/JapaneseEra;>
+
+canConvert
+ (Ljava/lang/Class;)Z
+ (Ljava/lang/Class;)Z
+chronoLocalDateOf
+ (Ljava/time/chrono/JapaneseEra;III)Ljava/time/chrono/ChronoLocalDate;
+ (Ljava/time/chrono/JapaneseEra;III)Ljava/time/chrono/ChronoLocalDate;
+eraOf
+ (Ljava/lang/String;)Ljava/time/chrono/JapaneseEra;
+ (Ljava/lang/String;)Ljava/time/chrono/JapaneseEra;
+fromString
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;

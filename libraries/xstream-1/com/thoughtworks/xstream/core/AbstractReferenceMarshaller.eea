@@ -1,0 +1,17 @@
+class com/thoughtworks/xstream/core/AbstractReferenceMarshaller
+
+<init>
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Lcom/thoughtworks/xstream/converters/ConverterLookup;Lcom/thoughtworks/xstream/mapper/Mapper;)V
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Lcom/thoughtworks/xstream/converters/ConverterLookup;Lcom/thoughtworks/xstream/mapper/Mapper;)V
+convert
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/converters/Converter;)V
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/converters/Converter;)V
+createReference
+ (Lcom/thoughtworks/xstream/io/path/Path;Ljava/lang/Object;)Ljava/lang/String;
+ (Lcom/thoughtworks/xstream/io/path/Path;Ljava/lang/Object;)Ljava/lang/String;
+createReferenceKey
+ (Lcom/thoughtworks/xstream/io/path/Path;Ljava/lang/Object;)Ljava/lang/Object;
+ (Lcom/thoughtworks/xstream/io/path/Path;Ljava/lang/Object;)Ljava/lang/Object;
+fireValidReference
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

@@ -1,0 +1,27 @@
+class com/thoughtworks/xstream/mapper/FieldAliasingMapper
+
+aliasToFieldMap
+ Ljava/util/Map;
+ Ljava/util/Map;
+fieldToAliasMap
+ Ljava/util/Map;
+ Ljava/util/Map;
+
+<init>
+ (Lcom/thoughtworks/xstream/mapper/Mapper;)V
+ (Lcom/thoughtworks/xstream/mapper/Mapper;)V
+addFieldAlias
+ (Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
+addFieldsToIgnore
+ (Ljava/util/regex/Pattern;)V
+ (Ljava/util/regex/Pattern;)V
+omitField
+ (Ljava/lang/Class;Ljava/lang/String;)V
+ (Ljava/lang/Class;Ljava/lang/String;)V
+realMember
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
+serializedMember
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;

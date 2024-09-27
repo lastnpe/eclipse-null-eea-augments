@@ -1,0 +1,35 @@
+class com/thoughtworks/xstream/persistence/AbstractFilePersistenceStrategy
+
+<init>
+ (Ljava/io/File;Lcom/thoughtworks/xstream/XStream;Ljava/lang/String;)V
+ (Ljava/io/File;Lcom/thoughtworks/xstream/XStream;Ljava/lang/String;)V
+containsKey
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+extractKey
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+get
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+getConverterLookup
+ ()Lcom/thoughtworks/xstream/converters/ConverterLookup;
+ ()Lcom/thoughtworks/xstream/converters/ConverterLookup;
+getMapper
+ ()Lcom/thoughtworks/xstream/mapper/Mapper;
+ ()Lcom/thoughtworks/xstream/mapper/Mapper;
+getName
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+isValid
+ (Ljava/io/File;Ljava/lang/String;)Z
+ (Ljava/io/File;Ljava/lang/String;)Z
+iterator
+ ()Ljava/util/Iterator;
+ ()Ljava/util/Iterator;
+put
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+remove
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;

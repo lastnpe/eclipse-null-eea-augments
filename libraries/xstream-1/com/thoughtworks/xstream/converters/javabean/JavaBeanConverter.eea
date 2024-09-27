@@ -1,0 +1,33 @@
+class com/thoughtworks/xstream/converters/javabean/JavaBeanConverter
+
+beanProvider
+ Lcom/thoughtworks/xstream/converters/javabean/JavaBeanProvider;
+ Lcom/thoughtworks/xstream/converters/javabean/JavaBeanProvider;
+mapper
+ Lcom/thoughtworks/xstream/mapper/Mapper;
+ Lcom/thoughtworks/xstream/mapper/Mapper;
+
+<init>
+ (Lcom/thoughtworks/xstream/mapper/Mapper;)V
+ (Lcom/thoughtworks/xstream/mapper/Mapper;)V
+<init>
+ (Lcom/thoughtworks/xstream/mapper/Mapper;Lcom/thoughtworks/xstream/converters/javabean/JavaBeanProvider;)V
+ (Lcom/thoughtworks/xstream/mapper/Mapper;Lcom/thoughtworks/xstream/converters/javabean/JavaBeanProvider;)V
+<init>
+ (Lcom/thoughtworks/xstream/mapper/Mapper;Lcom/thoughtworks/xstream/converters/javabean/JavaBeanProvider;Ljava/lang/Class;)V
+ (Lcom/thoughtworks/xstream/mapper/Mapper;Lcom/thoughtworks/xstream/converters/javabean/JavaBeanProvider;Ljava/lang/Class;)V
+<init>
+ (Lcom/thoughtworks/xstream/mapper/Mapper;Ljava/lang/Class;)V
+ (Lcom/thoughtworks/xstream/mapper/Mapper;Ljava/lang/Class;)V
+<init>
+ (Lcom/thoughtworks/xstream/mapper/Mapper;Ljava/lang/String;)V
+ (Lcom/thoughtworks/xstream/mapper/Mapper;Ljava/lang/String;)V
+canConvert
+ (Ljava/lang/Class;)Z
+ (Ljava/lang/Class;)Z
+marshal
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Lcom/thoughtworks/xstream/converters/MarshallingContext;)V
+ (L0java/lang/Object;L1com/thoughtworks/xstream/io/HierarchicalStreamWriter;L1com/thoughtworks/xstream/converters/MarshallingContext;)V # @Inherited(com.thoughtworks.xstream.converters.Converter)
+unmarshal
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Lcom/thoughtworks/xstream/converters/UnmarshallingContext;)Ljava/lang/Object;
+ (L1com/thoughtworks/xstream/io/HierarchicalStreamReader;L1com/thoughtworks/xstream/converters/UnmarshallingContext;)L0java/lang/Object; # @Inherited(com.thoughtworks.xstream.converters.Converter)

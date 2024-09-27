@@ -1,0 +1,23 @@
+class com/thoughtworks/xstream/core/util/SerializationMembers
+
+callReadObject
+ (Ljava/lang/Class;Ljava/lang/Object;Ljava/io/ObjectInputStream;)V
+ (Ljava/lang/Class;Ljava/lang/Object;Ljava/io/ObjectInputStream;)V
+callReadResolve
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+callWriteObject
+ (Ljava/lang/Class;Ljava/lang/Object;Ljava/io/ObjectOutputStream;)V
+ (Ljava/lang/Class;Ljava/lang/Object;Ljava/io/ObjectOutputStream;)V
+callWriteReplace
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+getSerializablePersistentFields
+ (Ljava/lang/Class;)Ljava/util/Map;
+ (Ljava/lang/Class;)Ljava/util/Map;
+supportsReadObject
+ (Ljava/lang/Class;Z)Z
+ (Ljava/lang/Class;Z)Z
+supportsWriteObject
+ (Ljava/lang/Class;Z)Z
+ (Ljava/lang/Class;Z)Z
