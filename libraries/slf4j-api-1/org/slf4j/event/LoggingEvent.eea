@@ -1,0 +1,32 @@
+class org/slf4j/event/LoggingEvent
+
+getArgumentArray
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+getArguments
+ ()Ljava/util/List<Ljava/lang/Object;>;
+ ()Ljava/util/List<Ljava/lang/Object;>;
+getCallerBoundary
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getKeyValuePairs
+ ()Ljava/util/List<Lorg/slf4j/event/KeyValuePair;>;
+ ()Ljava/util/List<Lorg/slf4j/event/KeyValuePair;>;
+getLevel
+ ()Lorg/slf4j/event/Level;
+ ()Lorg/slf4j/event/Level;
+getLoggerName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMarkers
+ ()Ljava/util/List<Lorg/slf4j/Marker;>;
+ ()Ljava/util/List<Lorg/slf4j/Marker;>;
+getMessage
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getThreadName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getThrowable
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;

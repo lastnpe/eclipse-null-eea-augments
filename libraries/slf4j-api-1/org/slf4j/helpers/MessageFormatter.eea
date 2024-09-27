@@ -1,0 +1,26 @@
+class org/slf4j/helpers/MessageFormatter
+
+arrayFormat
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/slf4j/helpers/FormattingTuple;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/slf4j/helpers/FormattingTuple;
+arrayFormat
+ (Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/Throwable;)Lorg/slf4j/helpers/FormattingTuple;
+ (Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/Throwable;)Lorg/slf4j/helpers/FormattingTuple;
+basicArrayFormat
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+basicArrayFormat
+ (Lorg/slf4j/helpers/NormalizedParameters;)Ljava/lang/String;
+ (Lorg/slf4j/helpers/NormalizedParameters;)Ljava/lang/String;
+format
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/slf4j/helpers/FormattingTuple;
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/slf4j/helpers/FormattingTuple;
+format
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)Lorg/slf4j/helpers/FormattingTuple;
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)Lorg/slf4j/helpers/FormattingTuple;
+getThrowableCandidate
+ ([Ljava/lang/Object;)Ljava/lang/Throwable;
+ ([Ljava/lang/Object;)Ljava/lang/Throwable;
+trimmedCopy
+ ([Ljava/lang/Object;)[Ljava/lang/Object;
+ ([Ljava/lang/Object;)[Ljava/lang/Object;

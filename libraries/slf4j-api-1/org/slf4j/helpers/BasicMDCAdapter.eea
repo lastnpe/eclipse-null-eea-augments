@@ -1,0 +1,32 @@
+class org/slf4j/helpers/BasicMDCAdapter
+
+clearDequeByKey
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+get
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getCopyOfContextMap
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+getCopyOfDequeByKey
+ (Ljava/lang/String;)Ljava/util/Deque<Ljava/lang/String;>;
+ (Ljava/lang/String;)Ljava/util/Deque<Ljava/lang/String;>;
+getKeys
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+popByKey
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+pushByKey
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+put
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+remove
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setContextMap
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
