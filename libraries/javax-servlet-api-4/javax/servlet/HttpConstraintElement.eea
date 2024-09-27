@@ -1,0 +1,20 @@
+class javax/servlet/HttpConstraintElement
+
+<init>
+ (Ljavax/servlet/annotation/ServletSecurity$EmptyRoleSemantic;)V
+ (Ljavax/servlet/annotation/ServletSecurity$EmptyRoleSemantic;)V
+<init>
+ (Ljavax/servlet/annotation/ServletSecurity$EmptyRoleSemantic;Ljavax/servlet/annotation/ServletSecurity$TransportGuarantee;[Ljava/lang/String;)V
+ (Ljavax/servlet/annotation/ServletSecurity$EmptyRoleSemantic;Ljavax/servlet/annotation/ServletSecurity$TransportGuarantee;[Ljava/lang/String;)V
+<init>
+ (Ljavax/servlet/annotation/ServletSecurity$TransportGuarantee;[Ljava/lang/String;)V
+ (Ljavax/servlet/annotation/ServletSecurity$TransportGuarantee;[Ljava/lang/String;)V
+getEmptyRoleSemantic
+ ()Ljavax/servlet/annotation/ServletSecurity$EmptyRoleSemantic;
+ ()Ljavax/servlet/annotation/ServletSecurity$EmptyRoleSemantic;
+getRolesAllowed
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getTransportGuarantee
+ ()Ljavax/servlet/annotation/ServletSecurity$TransportGuarantee;
+ ()Ljavax/servlet/annotation/ServletSecurity$TransportGuarantee;

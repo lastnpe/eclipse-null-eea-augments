@@ -1,0 +1,20 @@
+class javax/servlet/GenericFilter
+
+getFilterConfig
+ ()Ljavax/servlet/FilterConfig;
+ ()Ljavax/servlet/FilterConfig;
+getFilterName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getInitParameter
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getInitParameterNames
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+getServletContext
+ ()Ljavax/servlet/ServletContext;
+ ()Ljavax/servlet/ServletContext;
+init
+ (Ljavax/servlet/FilterConfig;)V
+ (Ljavax/servlet/FilterConfig;)V
