@@ -1,0 +1,30 @@
+class org/springframework/beans/factory/support/InstanceSupplier
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/springframework/util/function/ThrowingSupplier
+ <TT;>
+ <TT;>
+
+of
+ <T:Ljava/lang/Object;>(Lorg/springframework/beans/factory/support/InstanceSupplier<TT;>;)Lorg/springframework/beans/factory/support/InstanceSupplier<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/beans/factory/support/InstanceSupplier<TT;>;)Lorg/springframework/beans/factory/support/InstanceSupplier<TT;>;
+using
+ <T:Ljava/lang/Object;>(Ljava/lang/reflect/Method;Lorg/springframework/util/function/ThrowingSupplier<TT;>;)Lorg/springframework/beans/factory/support/InstanceSupplier<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/reflect/Method;Lorg/springframework/util/function/ThrowingSupplier<TT;>;)Lorg/springframework/beans/factory/support/InstanceSupplier<TT;>;
+using
+ <T:Ljava/lang/Object;>(Lorg/springframework/util/function/ThrowingSupplier<TT;>;)Lorg/springframework/beans/factory/support/InstanceSupplier<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/util/function/ThrowingSupplier<TT;>;)Lorg/springframework/beans/factory/support/InstanceSupplier<TT;>;
+
+andThen
+ <V:Ljava/lang/Object;>(Lorg/springframework/util/function/ThrowingBiFunction<Lorg/springframework/beans/factory/support/RegisteredBean;-TT;+TV;>;)Lorg/springframework/beans/factory/support/InstanceSupplier<TV;>;
+ <V:Ljava/lang/Object;>(Lorg/springframework/util/function/ThrowingBiFunction<Lorg/springframework/beans/factory/support/RegisteredBean;-TT;+TV;>;)Lorg/springframework/beans/factory/support/InstanceSupplier<TV;>;
+get
+ (Lorg/springframework/beans/factory/support/RegisteredBean;)TT;
+ (Lorg/springframework/beans/factory/support/RegisteredBean;)TT;
+getFactoryMethod
+ ()Ljava/lang/reflect/Method;
+ ()L0java/lang/reflect/Method;
+getWithException
+ ()TT;
+ ()TT;

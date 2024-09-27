@@ -1,0 +1,15 @@
+class org/springframework/beans/factory/aot/BeanRegistrationAotContribution
+
+concat
+ (Lorg/springframework/beans/factory/aot/BeanRegistrationAotContribution;Lorg/springframework/beans/factory/aot/BeanRegistrationAotContribution;)Lorg/springframework/beans/factory/aot/BeanRegistrationAotContribution;
+ (Lorg/springframework/beans/factory/aot/BeanRegistrationAotContribution;Lorg/springframework/beans/factory/aot/BeanRegistrationAotContribution;)L0org/springframework/beans/factory/aot/BeanRegistrationAotContribution;
+withCustomCodeFragments
+ (Ljava/util/function/UnaryOperator<Lorg/springframework/beans/factory/aot/BeanRegistrationCodeFragments;>;)Lorg/springframework/beans/factory/aot/BeanRegistrationAotContribution;
+ (Ljava/util/function/UnaryOperator<Lorg/springframework/beans/factory/aot/BeanRegistrationCodeFragments;>;)Lorg/springframework/beans/factory/aot/BeanRegistrationAotContribution;
+
+applyTo
+ (Lorg/springframework/aot/generate/GenerationContext;Lorg/springframework/beans/factory/aot/BeanRegistrationCode;)V
+ (Lorg/springframework/aot/generate/GenerationContext;Lorg/springframework/beans/factory/aot/BeanRegistrationCode;)V
+customizeBeanRegistrationCodeFragments
+ (Lorg/springframework/aot/generate/GenerationContext;Lorg/springframework/beans/factory/aot/BeanRegistrationCodeFragments;)Lorg/springframework/beans/factory/aot/BeanRegistrationCodeFragments;
+ (Lorg/springframework/aot/generate/GenerationContext;Lorg/springframework/beans/factory/aot/BeanRegistrationCodeFragments;)Lorg/springframework/beans/factory/aot/BeanRegistrationCodeFragments;

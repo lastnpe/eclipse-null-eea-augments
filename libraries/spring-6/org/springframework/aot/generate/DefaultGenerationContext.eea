@@ -1,0 +1,23 @@
+class org/springframework/aot/generate/DefaultGenerationContext
+
+<init>
+ (Lorg/springframework/aot/generate/ClassNameGenerator;Lorg/springframework/aot/generate/GeneratedFiles;)V
+ (Lorg/springframework/aot/generate/ClassNameGenerator;Lorg/springframework/aot/generate/GeneratedFiles;)V
+<init>
+ (Lorg/springframework/aot/generate/ClassNameGenerator;Lorg/springframework/aot/generate/GeneratedFiles;Lorg/springframework/aot/hint/RuntimeHints;)V
+ (Lorg/springframework/aot/generate/ClassNameGenerator;Lorg/springframework/aot/generate/GeneratedFiles;Lorg/springframework/aot/hint/RuntimeHints;)V
+<init>
+ (Lorg/springframework/aot/generate/DefaultGenerationContext;Ljava/lang/String;)V
+ (Lorg/springframework/aot/generate/DefaultGenerationContext;Ljava/lang/String;)V
+getGeneratedClasses
+ ()Lorg/springframework/aot/generate/GeneratedClasses;
+ ()Lorg/springframework/aot/generate/GeneratedClasses;
+getGeneratedFiles
+ ()Lorg/springframework/aot/generate/GeneratedFiles;
+ ()Lorg/springframework/aot/generate/GeneratedFiles;
+getRuntimeHints
+ ()Lorg/springframework/aot/hint/RuntimeHints;
+ ()Lorg/springframework/aot/hint/RuntimeHints;
+withName
+ (Ljava/lang/String;)Lorg/springframework/aot/generate/DefaultGenerationContext;
+ (Ljava/lang/String;)Lorg/springframework/aot/generate/DefaultGenerationContext;

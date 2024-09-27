@@ -1,0 +1,29 @@
+class org/springframework/core/io/VfsResource
+
+<init>
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+createRelative
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(org.springframework.core.io.AbstractResource)
+getDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFile
+ ()Ljava/io/File;
+ ()Ljava/io/File;
+getFilename
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.core.io.AbstractResource)
+getInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getURI
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+getURL
+ ()Ljava/net/URL;
+ ()Ljava/net/URL;

@@ -1,0 +1,74 @@
+class org/springframework/util/CollectionUtils
+
+arrayToList
+ (Ljava/lang/Object;)Ljava/util/List<*>;
+ (Ljava/lang/Object;)Ljava/util/List<*>;
+contains
+ (Ljava/util/Enumeration<*>;Ljava/lang/Object;)Z
+ (Ljava/util/Enumeration<*>;Ljava/lang/Object;)Z
+contains
+ (Ljava/util/Iterator<*>;Ljava/lang/Object;)Z
+ (Ljava/util/Iterator<*>;Ljava/lang/Object;)Z
+containsAny
+ (Ljava/util/Collection<*>;Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;Ljava/util/Collection<*>;)Z
+containsInstance
+ (Ljava/util/Collection<*>;Ljava/lang/Object;)Z
+ (Ljava/util/Collection<*>;Ljava/lang/Object;)Z
+findCommonElementType
+ (Ljava/util/Collection<*>;)Ljava/lang/Class<*>;
+ (Ljava/util/Collection<*>;)L0java/lang/Class<*>;
+findFirstMatch
+ <E:Ljava/lang/Object;>(Ljava/util/Collection<*>;Ljava/util/Collection<TE;>;)TE;
+ <E:Ljava/lang/Object;>(Ljava/util/Collection<*>;Ljava/util/Collection<TE;>;)T0E;
+findValueOfType
+ (Ljava/util/Collection<*>;[Ljava/lang/Class<*>;)Ljava/lang/Object;
+ (Ljava/util/Collection<*>;[Ljava/lang/Class<*>;)L0java/lang/Object;
+findValueOfType
+ <T:Ljava/lang/Object;>(Ljava/util/Collection<*>;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/Collection<*>;Ljava/lang/Class<TT;>;)T0T;
+firstElement
+ <T:Ljava/lang/Object;>(Ljava/util/List<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/List<TT;>;)T0T;
+firstElement
+ <T:Ljava/lang/Object;>(Ljava/util/Set<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/Set<TT;>;)T0T;
+hasUniqueObject
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+isEmpty
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+isEmpty
+ (Ljava/util/Map<**>;)Z
+ (Ljava/util/Map<**>;)Z
+lastElement
+ <T:Ljava/lang/Object;>(Ljava/util/List<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/List<TT;>;)T0T;
+lastElement
+ <T:Ljava/lang/Object;>(Ljava/util/Set<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/Set<TT;>;)T0T;
+mergeArrayIntoCollection
+ <E:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/util/Collection<TE;>;)V
+ <E:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/util/Collection<TE;>;)V
+mergePropertiesIntoMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Properties;Ljava/util/Map<TK;TV;>;)V
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Properties;Ljava/util/Map<TK;TV;>;)V
+newHashMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(I)Ljava/util/HashMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(I)Ljava/util/HashMap<TK;TV;>;
+newLinkedHashMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(I)Ljava/util/LinkedHashMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(I)Ljava/util/LinkedHashMap<TK;TV;>;
+toArray
+ <A:Ljava/lang/Object;E:TA;>(Ljava/util/Enumeration<TE;>;[TA;)[TA;
+ <A:Ljava/lang/Object;E:TA;>(Ljava/util/Enumeration<TE;>;[TA;)[TA;
+toIterator
+ <E:Ljava/lang/Object;>(Ljava/util/Enumeration<TE;>;)Ljava/util/Iterator<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Enumeration<TE;>;)Ljava/util/Iterator<TE;>;
+toMultiValueMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<TK;Ljava/util/List<TV;>;>;)Lorg/springframework/util/MultiValueMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<TK;Ljava/util/List<TV;>;>;)Lorg/springframework/util/MultiValueMap<TK;TV;>;
+unmodifiableMultiValueMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lorg/springframework/util/MultiValueMap<+TK;+TV;>;)Lorg/springframework/util/MultiValueMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lorg/springframework/util/MultiValueMap<+TK;+TV;>;)Lorg/springframework/util/MultiValueMap<TK;TV;>;

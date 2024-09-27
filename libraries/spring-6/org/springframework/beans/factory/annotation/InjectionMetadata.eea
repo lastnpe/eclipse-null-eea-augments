@@ -1,0 +1,34 @@
+class org/springframework/beans/factory/annotation/InjectionMetadata
+
+EMPTY
+ Lorg/springframework/beans/factory/annotation/InjectionMetadata;
+ L1org/springframework/beans/factory/annotation/InjectionMetadata;
+
+forElements
+ (Ljava/util/Collection<Lorg/springframework/beans/factory/annotation/InjectionMetadata$InjectedElement;>;Ljava/lang/Class<*>;)Lorg/springframework/beans/factory/annotation/InjectionMetadata;
+ (Ljava/util/Collection<Lorg/springframework/beans/factory/annotation/InjectionMetadata$InjectedElement;>;Ljava/lang/Class<*>;)Lorg/springframework/beans/factory/annotation/InjectionMetadata;
+needsRefresh
+ (Lorg/springframework/beans/factory/annotation/InjectionMetadata;Ljava/lang/Class<*>;)Z
+ (Lorg/springframework/beans/factory/annotation/InjectionMetadata;Ljava/lang/Class<*>;)Z
+
+<init>
+ (Ljava/lang/Class<*>;Ljava/util/Collection<Lorg/springframework/beans/factory/annotation/InjectionMetadata$InjectedElement;>;)V
+ (Ljava/lang/Class<*>;Ljava/util/Collection<Lorg/springframework/beans/factory/annotation/InjectionMetadata$InjectedElement;>;)V
+checkConfigMembers
+ (Lorg/springframework/beans/factory/support/RootBeanDefinition;)V
+ (Lorg/springframework/beans/factory/support/RootBeanDefinition;)V
+clear
+ (Lorg/springframework/beans/PropertyValues;)V
+ (Lorg/springframework/beans/PropertyValues;)V
+getInjectedElements
+ ()Ljava/util/Collection<Lorg/springframework/beans/factory/annotation/InjectionMetadata$InjectedElement;>;
+ ()Ljava/util/Collection<Lorg/springframework/beans/factory/annotation/InjectionMetadata$InjectedElement;>;
+getInjectedElements
+ (Lorg/springframework/beans/PropertyValues;)Ljava/util/Collection<Lorg/springframework/beans/factory/annotation/InjectionMetadata$InjectedElement;>;
+ (Lorg/springframework/beans/PropertyValues;)Ljava/util/Collection<Lorg/springframework/beans/factory/annotation/InjectionMetadata$InjectedElement;>;
+inject
+ (Ljava/lang/Object;Ljava/lang/String;Lorg/springframework/beans/PropertyValues;)V
+ (Ljava/lang/Object;Ljava/lang/String;Lorg/springframework/beans/PropertyValues;)V
+needsRefresh
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z

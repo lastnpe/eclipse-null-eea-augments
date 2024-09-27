@@ -1,0 +1,20 @@
+class org/springframework/core/type/filter/AssignableTypeFilter
+
+<init>
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+getTargetType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+matchClassName
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+matchInterface
+ (Ljava/lang/String;)Ljava/lang/Boolean;
+ (Ljava/lang/String;)L0java/lang/Boolean; # @Inherited(org.springframework.core.type.filter.AbstractTypeHierarchyTraversingFilter)
+matchSuperClass
+ (Ljava/lang/String;)Ljava/lang/Boolean;
+ (Ljava/lang/String;)L0java/lang/Boolean; # @Inherited(org.springframework.core.type.filter.AbstractTypeHierarchyTraversingFilter)
+matchTargetType
+ (Ljava/lang/String;)Ljava/lang/Boolean;
+ (Ljava/lang/String;)L0java/lang/Boolean;

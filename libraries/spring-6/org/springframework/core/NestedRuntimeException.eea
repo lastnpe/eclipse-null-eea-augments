@@ -1,0 +1,17 @@
+class org/springframework/core/NestedRuntimeException
+
+<init>
+ (Ljava/lang/String;)V
+ (L0java/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+ (L0java/lang/String;L0java/lang/Throwable;)V
+contains
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+getMostSpecificCause
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
+getRootCause
+ ()Ljava/lang/Throwable;
+ ()L0java/lang/Throwable;

@@ -1,0 +1,18 @@
+class org/springframework/asm/Attribute
+
+type
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getLabels
+ ()[Lorg/springframework/asm/Label;
+ ()[Lorg/springframework/asm/Label;
+read
+ (Lorg/springframework/asm/ClassReader;II[CI[Lorg/springframework/asm/Label;)Lorg/springframework/asm/Attribute;
+ (Lorg/springframework/asm/ClassReader;II[CI[Lorg/springframework/asm/Label;)Lorg/springframework/asm/Attribute;
+write
+ (Lorg/springframework/asm/ClassWriter;[BIII)Lorg/springframework/asm/ByteVector;
+ (Lorg/springframework/asm/ClassWriter;[BIII)Lorg/springframework/asm/ByteVector;

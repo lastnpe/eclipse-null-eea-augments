@@ -1,0 +1,41 @@
+class org/springframework/javapoet/CodeBlock$Builder
+
+add
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/javapoet/CodeBlock$Builder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/javapoet/CodeBlock$Builder;
+add
+ (Lorg/springframework/javapoet/CodeBlock;)Lorg/springframework/javapoet/CodeBlock$Builder;
+ (Lorg/springframework/javapoet/CodeBlock;)L1org/springframework/javapoet/CodeBlock$Builder;
+addNamed
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/javapoet/CodeBlock$Builder;
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;*>;)L1org/springframework/javapoet/CodeBlock$Builder;
+addStatement
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/javapoet/CodeBlock$Builder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/javapoet/CodeBlock$Builder;
+addStatement
+ (Lorg/springframework/javapoet/CodeBlock;)Lorg/springframework/javapoet/CodeBlock$Builder;
+ (Lorg/springframework/javapoet/CodeBlock;)L1org/springframework/javapoet/CodeBlock$Builder;
+beginControlFlow
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/javapoet/CodeBlock$Builder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/javapoet/CodeBlock$Builder;
+build
+ ()Lorg/springframework/javapoet/CodeBlock;
+ ()L1org/springframework/javapoet/CodeBlock;
+clear
+ ()Lorg/springframework/javapoet/CodeBlock$Builder;
+ ()L1org/springframework/javapoet/CodeBlock$Builder;
+endControlFlow
+ ()Lorg/springframework/javapoet/CodeBlock$Builder;
+ ()L1org/springframework/javapoet/CodeBlock$Builder;
+endControlFlow
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/javapoet/CodeBlock$Builder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/javapoet/CodeBlock$Builder;
+indent
+ ()Lorg/springframework/javapoet/CodeBlock$Builder;
+ ()L1org/springframework/javapoet/CodeBlock$Builder;
+nextControlFlow
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/javapoet/CodeBlock$Builder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/javapoet/CodeBlock$Builder;
+unindent
+ ()Lorg/springframework/javapoet/CodeBlock$Builder;
+ ()L1org/springframework/javapoet/CodeBlock$Builder;

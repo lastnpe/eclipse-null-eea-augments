@@ -1,0 +1,144 @@
+class org/springframework/javapoet/TypeSpec$Builder
+
+alwaysQualifiedNames
+ Ljava/util/Set<Ljava/lang/String;>;
+ Ljava/util/Set<Ljava/lang/String;>;
+annotations
+ Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;
+ Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;
+enumConstants
+ Ljava/util/Map<Ljava/lang/String;Lorg/springframework/javapoet/TypeSpec;>;
+ Ljava/util/Map<Ljava/lang/String;Lorg/springframework/javapoet/TypeSpec;>;
+fieldSpecs
+ Ljava/util/List<Lorg/springframework/javapoet/FieldSpec;>;
+ Ljava/util/List<Lorg/springframework/javapoet/FieldSpec;>;
+methodSpecs
+ Ljava/util/List<Lorg/springframework/javapoet/MethodSpec;>;
+ Ljava/util/List<Lorg/springframework/javapoet/MethodSpec;>;
+modifiers
+ Ljava/util/List<Ljavax/lang/model/element/Modifier;>;
+ Ljava/util/List<Ljavax/lang/model/element/Modifier;>;
+originatingElements
+ Ljava/util/List<Ljavax/lang/model/element/Element;>;
+ Ljava/util/List<Ljavax/lang/model/element/Element;>;
+superinterfaces
+ Ljava/util/List<Lorg/springframework/javapoet/TypeName;>;
+ Ljava/util/List<Lorg/springframework/javapoet/TypeName;>;
+typeSpecs
+ Ljava/util/List<Lorg/springframework/javapoet/TypeSpec;>;
+ Ljava/util/List<Lorg/springframework/javapoet/TypeSpec;>;
+typeVariables
+ Ljava/util/List<Lorg/springframework/javapoet/TypeVariableName;>;
+ Ljava/util/List<Lorg/springframework/javapoet/TypeVariableName;>;
+
+addAnnotation
+ (Ljava/lang/Class<*>;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/Class<*>;)L1org/springframework/javapoet/TypeSpec$Builder;
+addAnnotation
+ (Lorg/springframework/javapoet/AnnotationSpec;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Lorg/springframework/javapoet/AnnotationSpec;)L1org/springframework/javapoet/TypeSpec$Builder;
+addAnnotation
+ (Lorg/springframework/javapoet/ClassName;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Lorg/springframework/javapoet/ClassName;)L1org/springframework/javapoet/TypeSpec$Builder;
+addAnnotations
+ (Ljava/lang/Iterable<Lorg/springframework/javapoet/AnnotationSpec;>;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/Iterable<Lorg/springframework/javapoet/AnnotationSpec;>;)L1org/springframework/javapoet/TypeSpec$Builder;
+addEnumConstant
+ (Ljava/lang/String;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/String;)L1org/springframework/javapoet/TypeSpec$Builder;
+addEnumConstant
+ (Ljava/lang/String;Lorg/springframework/javapoet/TypeSpec;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/String;Lorg/springframework/javapoet/TypeSpec;)L1org/springframework/javapoet/TypeSpec$Builder;
+addField
+ (Ljava/lang/reflect/Type;Ljava/lang/String;[Ljavax/lang/model/element/Modifier;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/reflect/Type;Ljava/lang/String;[Ljavax/lang/model/element/Modifier;)L1org/springframework/javapoet/TypeSpec$Builder;
+addField
+ (Lorg/springframework/javapoet/FieldSpec;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Lorg/springframework/javapoet/FieldSpec;)L1org/springframework/javapoet/TypeSpec$Builder;
+addField
+ (Lorg/springframework/javapoet/TypeName;Ljava/lang/String;[Ljavax/lang/model/element/Modifier;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Lorg/springframework/javapoet/TypeName;Ljava/lang/String;[Ljavax/lang/model/element/Modifier;)L1org/springframework/javapoet/TypeSpec$Builder;
+addFields
+ (Ljava/lang/Iterable<Lorg/springframework/javapoet/FieldSpec;>;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/Iterable<Lorg/springframework/javapoet/FieldSpec;>;)L1org/springframework/javapoet/TypeSpec$Builder;
+addInitializerBlock
+ (Lorg/springframework/javapoet/CodeBlock;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Lorg/springframework/javapoet/CodeBlock;)L1org/springframework/javapoet/TypeSpec$Builder;
+addJavadoc
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/javapoet/TypeSpec$Builder;
+addJavadoc
+ (Lorg/springframework/javapoet/CodeBlock;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Lorg/springframework/javapoet/CodeBlock;)L1org/springframework/javapoet/TypeSpec$Builder;
+addMethod
+ (Lorg/springframework/javapoet/MethodSpec;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Lorg/springframework/javapoet/MethodSpec;)L1org/springframework/javapoet/TypeSpec$Builder;
+addMethods
+ (Ljava/lang/Iterable<Lorg/springframework/javapoet/MethodSpec;>;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/Iterable<Lorg/springframework/javapoet/MethodSpec;>;)L1org/springframework/javapoet/TypeSpec$Builder;
+addModifiers
+ ([Ljavax/lang/model/element/Modifier;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ ([Ljavax/lang/model/element/Modifier;)L1org/springframework/javapoet/TypeSpec$Builder;
+addOriginatingElement
+ (Ljavax/lang/model/element/Element;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljavax/lang/model/element/Element;)L1org/springframework/javapoet/TypeSpec$Builder;
+addStaticBlock
+ (Lorg/springframework/javapoet/CodeBlock;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Lorg/springframework/javapoet/CodeBlock;)L1org/springframework/javapoet/TypeSpec$Builder;
+addSuperinterface
+ (Ljava/lang/reflect/Type;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/reflect/Type;)L1org/springframework/javapoet/TypeSpec$Builder;
+addSuperinterface
+ (Ljava/lang/reflect/Type;Z)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/reflect/Type;Z)L1org/springframework/javapoet/TypeSpec$Builder;
+addSuperinterface
+ (Ljavax/lang/model/type/TypeMirror;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljavax/lang/model/type/TypeMirror;)L1org/springframework/javapoet/TypeSpec$Builder;
+addSuperinterface
+ (Ljavax/lang/model/type/TypeMirror;Z)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljavax/lang/model/type/TypeMirror;Z)L1org/springframework/javapoet/TypeSpec$Builder;
+addSuperinterface
+ (Lorg/springframework/javapoet/TypeName;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Lorg/springframework/javapoet/TypeName;)L1org/springframework/javapoet/TypeSpec$Builder;
+addSuperinterfaces
+ (Ljava/lang/Iterable<+Lorg/springframework/javapoet/TypeName;>;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/Iterable<+Lorg/springframework/javapoet/TypeName;>;)L1org/springframework/javapoet/TypeSpec$Builder;
+addType
+ (Lorg/springframework/javapoet/TypeSpec;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Lorg/springframework/javapoet/TypeSpec;)L1org/springframework/javapoet/TypeSpec$Builder;
+addTypeVariable
+ (Lorg/springframework/javapoet/TypeVariableName;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Lorg/springframework/javapoet/TypeVariableName;)L1org/springframework/javapoet/TypeSpec$Builder;
+addTypeVariables
+ (Ljava/lang/Iterable<Lorg/springframework/javapoet/TypeVariableName;>;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/Iterable<Lorg/springframework/javapoet/TypeVariableName;>;)L1org/springframework/javapoet/TypeSpec$Builder;
+addTypes
+ (Ljava/lang/Iterable<Lorg/springframework/javapoet/TypeSpec;>;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/Iterable<Lorg/springframework/javapoet/TypeSpec;>;)L1org/springframework/javapoet/TypeSpec$Builder;
+alwaysQualify
+ ([Ljava/lang/String;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ ([Ljava/lang/String;)L1org/springframework/javapoet/TypeSpec$Builder;
+avoidClashesWithNestedClasses
+ (Ljava/lang/Class<*>;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/Class<*>;)L1org/springframework/javapoet/TypeSpec$Builder;
+avoidClashesWithNestedClasses
+ (Ljavax/lang/model/element/TypeElement;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljavax/lang/model/element/TypeElement;)L1org/springframework/javapoet/TypeSpec$Builder;
+build
+ ()Lorg/springframework/javapoet/TypeSpec;
+ ()L1org/springframework/javapoet/TypeSpec;
+superclass
+ (Ljava/lang/reflect/Type;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/reflect/Type;)L1org/springframework/javapoet/TypeSpec$Builder;
+superclass
+ (Ljava/lang/reflect/Type;Z)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/reflect/Type;Z)L1org/springframework/javapoet/TypeSpec$Builder;
+superclass
+ (Ljavax/lang/model/type/TypeMirror;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljavax/lang/model/type/TypeMirror;)L1org/springframework/javapoet/TypeSpec$Builder;
+superclass
+ (Ljavax/lang/model/type/TypeMirror;Z)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljavax/lang/model/type/TypeMirror;Z)L1org/springframework/javapoet/TypeSpec$Builder;
+superclass
+ (Lorg/springframework/javapoet/TypeName;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Lorg/springframework/javapoet/TypeName;)L1org/springframework/javapoet/TypeSpec$Builder;

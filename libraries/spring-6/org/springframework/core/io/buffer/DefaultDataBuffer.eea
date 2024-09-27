@@ -1,0 +1,80 @@
+class org/springframework/core/io/buffer/DefaultDataBuffer
+
+asByteBuffer
+ ()Ljava/nio/ByteBuffer;
+ ()Ljava/nio/ByteBuffer;
+asByteBuffer
+ (II)Ljava/nio/ByteBuffer;
+ (II)Ljava/nio/ByteBuffer;
+capacity
+ (I)Lorg/springframework/core/io/buffer/DataBuffer;
+ (I)Lorg/springframework/core/io/buffer/DataBuffer;
+ensureWritable
+ (I)Lorg/springframework/core/io/buffer/DataBuffer;
+ (I)Lorg/springframework/core/io/buffer/DataBuffer;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+factory
+ ()Lorg/springframework/core/io/buffer/DefaultDataBufferFactory;
+ ()Lorg/springframework/core/io/buffer/DefaultDataBufferFactory;
+getNativeBuffer
+ ()Ljava/nio/ByteBuffer;
+ ()Ljava/nio/ByteBuffer;
+indexOf
+ (Ljava/util/function/IntPredicate;I)I
+ (Ljava/util/function/IntPredicate;I)I
+lastIndexOf
+ (Ljava/util/function/IntPredicate;I)I
+ (Ljava/util/function/IntPredicate;I)I
+read
+ ([B)Lorg/springframework/core/io/buffer/DefaultDataBuffer;
+ ([B)Lorg/springframework/core/io/buffer/DefaultDataBuffer;
+read
+ ([BII)Lorg/springframework/core/io/buffer/DefaultDataBuffer;
+ ([BII)Lorg/springframework/core/io/buffer/DefaultDataBuffer;
+readPosition
+ (I)Lorg/springframework/core/io/buffer/DefaultDataBuffer;
+ (I)Lorg/springframework/core/io/buffer/DefaultDataBuffer;
+readableByteBuffers
+ ()Lorg/springframework/core/io/buffer/DataBuffer$ByteBufferIterator;
+ ()Lorg/springframework/core/io/buffer/DataBuffer$ByteBufferIterator;
+slice
+ (II)Lorg/springframework/core/io/buffer/DefaultDataBuffer;
+ (II)Lorg/springframework/core/io/buffer/DefaultDataBuffer;
+split
+ (I)Lorg/springframework/core/io/buffer/DataBuffer;
+ (I)Lorg/springframework/core/io/buffer/DataBuffer;
+toByteBuffer
+ (II)Ljava/nio/ByteBuffer;
+ (II)Ljava/nio/ByteBuffer;
+toByteBuffer
+ (ILjava/nio/ByteBuffer;II)V
+ (ILjava/nio/ByteBuffer;II)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+toString
+ (IILjava/nio/charset/Charset;)Ljava/lang/String;
+ (IILjava/nio/charset/Charset;)Ljava/lang/String;
+writableByteBuffers
+ ()Lorg/springframework/core/io/buffer/DataBuffer$ByteBufferIterator;
+ ()Lorg/springframework/core/io/buffer/DataBuffer$ByteBufferIterator;
+write
+ (B)Lorg/springframework/core/io/buffer/DefaultDataBuffer;
+ (B)Lorg/springframework/core/io/buffer/DefaultDataBuffer;
+write
+ ([B)Lorg/springframework/core/io/buffer/DefaultDataBuffer;
+ ([B)Lorg/springframework/core/io/buffer/DefaultDataBuffer;
+write
+ ([BII)Lorg/springframework/core/io/buffer/DefaultDataBuffer;
+ ([BII)Lorg/springframework/core/io/buffer/DefaultDataBuffer;
+write
+ ([Ljava/nio/ByteBuffer;)Lorg/springframework/core/io/buffer/DefaultDataBuffer;
+ ([Ljava/nio/ByteBuffer;)Lorg/springframework/core/io/buffer/DefaultDataBuffer;
+write
+ ([Lorg/springframework/core/io/buffer/DataBuffer;)Lorg/springframework/core/io/buffer/DefaultDataBuffer;
+ ([Lorg/springframework/core/io/buffer/DataBuffer;)Lorg/springframework/core/io/buffer/DefaultDataBuffer;
+writePosition
+ (I)Lorg/springframework/core/io/buffer/DefaultDataBuffer;
+ (I)Lorg/springframework/core/io/buffer/DefaultDataBuffer;

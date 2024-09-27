@@ -1,0 +1,40 @@
+class org/springframework/javapoet/ParameterSpec
+
+builder
+ (Ljava/lang/reflect/Type;Ljava/lang/String;[Ljavax/lang/model/element/Modifier;)Lorg/springframework/javapoet/ParameterSpec$Builder;
+ (Ljava/lang/reflect/Type;Ljava/lang/String;[Ljavax/lang/model/element/Modifier;)Lorg/springframework/javapoet/ParameterSpec$Builder;
+builder
+ (Lorg/springframework/javapoet/TypeName;Ljava/lang/String;[Ljavax/lang/model/element/Modifier;)Lorg/springframework/javapoet/ParameterSpec$Builder;
+ (Lorg/springframework/javapoet/TypeName;Ljava/lang/String;[Ljavax/lang/model/element/Modifier;)Lorg/springframework/javapoet/ParameterSpec$Builder;
+get
+ (Ljavax/lang/model/element/VariableElement;)Lorg/springframework/javapoet/ParameterSpec;
+ (Ljavax/lang/model/element/VariableElement;)Lorg/springframework/javapoet/ParameterSpec;
+
+annotations
+ Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;
+ Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;
+javadoc
+ Lorg/springframework/javapoet/CodeBlock;
+ Lorg/springframework/javapoet/CodeBlock;
+modifiers
+ Ljava/util/Set<Ljavax/lang/model/element/Modifier;>;
+ Ljava/util/Set<Ljavax/lang/model/element/Modifier;>;
+name
+ Ljava/lang/String;
+ Ljava/lang/String;
+type
+ Lorg/springframework/javapoet/TypeName;
+ Lorg/springframework/javapoet/TypeName;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+hasModifier
+ (Ljavax/lang/model/element/Modifier;)Z
+ (Ljavax/lang/model/element/Modifier;)Z
+toBuilder
+ ()Lorg/springframework/javapoet/ParameterSpec$Builder;
+ ()Lorg/springframework/javapoet/ParameterSpec$Builder;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

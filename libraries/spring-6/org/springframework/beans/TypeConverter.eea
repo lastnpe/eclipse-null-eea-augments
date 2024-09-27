@@ -1,0 +1,14 @@
+class org/springframework/beans/TypeConverter
+
+convertIfNecessary
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;)T0T;
+convertIfNecessary
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;Ljava/lang/reflect/Field;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;Ljava/lang/reflect/Field;)T0T;
+convertIfNecessary
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;Lorg/springframework/core/MethodParameter;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;Lorg/springframework/core/MethodParameter;)T0T;
+convertIfNecessary
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;Lorg/springframework/core/convert/TypeDescriptor;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;Lorg/springframework/core/convert/TypeDescriptor;)T0T;

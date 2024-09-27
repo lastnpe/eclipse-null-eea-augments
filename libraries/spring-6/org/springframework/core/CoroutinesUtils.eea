@@ -1,0 +1,14 @@
+class org/springframework/core/CoroutinesUtils
+
+deferredToMono
+ <T:Ljava/lang/Object;>(Lkotlinx/coroutines/Deferred<TT;>;)Lreactor/core/publisher/Mono<TT;>;
+ <T:Ljava/lang/Object;>(Lkotlinx/coroutines/Deferred<TT;>;)Lreactor/core/publisher/Mono<TT;>;
+invokeSuspendingFunction
+ (Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Lorg/reactivestreams/Publisher<*>;
+ (Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Lorg/reactivestreams/Publisher<*>;
+invokeSuspendingFunction
+ (Lkotlin/coroutines/CoroutineContext;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Lorg/reactivestreams/Publisher<*>;
+ (Lkotlin/coroutines/CoroutineContext;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Lorg/reactivestreams/Publisher<*>;
+monoToDeferred
+ <T:Ljava/lang/Object;>(Lreactor/core/publisher/Mono<TT;>;)Lkotlinx/coroutines/Deferred<TT;>;
+ <T:Ljava/lang/Object;>(Lreactor/core/publisher/Mono<TT;>;)Lkotlinx/coroutines/Deferred<TT;>;

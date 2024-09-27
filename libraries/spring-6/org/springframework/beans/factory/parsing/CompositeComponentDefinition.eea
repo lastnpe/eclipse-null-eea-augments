@@ -1,0 +1,17 @@
+class org/springframework/beans/factory/parsing/CompositeComponentDefinition
+
+<init>
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+addNestedComponent
+ (Lorg/springframework/beans/factory/parsing/ComponentDefinition;)V
+ (Lorg/springframework/beans/factory/parsing/ComponentDefinition;)V
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getNestedComponents
+ ()[Lorg/springframework/beans/factory/parsing/ComponentDefinition;
+ ()[Lorg/springframework/beans/factory/parsing/ComponentDefinition;
+getSource
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object; # @Inherited(org.springframework.beans.BeanMetadataElement)

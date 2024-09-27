@@ -1,0 +1,54 @@
+class org/springframework/core/io/UrlResource
+
+from
+ (Ljava/lang/String;)Lorg/springframework/core/io/UrlResource;
+ (Ljava/lang/String;)Lorg/springframework/core/io/UrlResource;
+from
+ (Ljava/net/URI;)Lorg/springframework/core/io/UrlResource;
+ (Ljava/net/URI;)Lorg/springframework/core/io/UrlResource;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/net/URI;)V
+ (Ljava/net/URI;)V
+<init>
+ (Ljava/net/URL;)V
+ (Ljava/net/URL;)V
+createRelative
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+createRelativeURL
+ (Ljava/lang/String;)Ljava/net/URL;
+ (Ljava/lang/String;)Ljava/net/URL;
+customizeConnection
+ (Ljava/net/URLConnection;)V
+ (Ljava/net/URLConnection;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(org.springframework.core.io.AbstractResource)
+getDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFile
+ ()Ljava/io/File;
+ ()Ljava/io/File;
+getFilename
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.core.io.AbstractResource)
+getInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getURI
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+getURL
+ ()Ljava/net/URL;
+ ()Ljava/net/URL;

@@ -1,0 +1,20 @@
+class org/springframework/beans/factory/support/GenericBeanDefinition
+
+<init>
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+cloneBeanDefinition
+ ()Lorg/springframework/beans/factory/support/AbstractBeanDefinition;
+ ()Lorg/springframework/beans/factory/support/AbstractBeanDefinition;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(org.springframework.beans.factory.support.AbstractBeanDefinition)
+getParentName
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.beans.factory.config.BeanDefinition)
+setParentName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.springframework.beans.factory.support.AbstractBeanDefinition)

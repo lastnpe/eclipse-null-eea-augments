@@ -1,0 +1,30 @@
+class org/springframework/beans/factory/config/ServiceLocatorFactoryBean
+
+super org/springframework/beans/factory/FactoryBean
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+createServiceLocatorException
+ (Ljava/lang/reflect/Constructor<Ljava/lang/Exception;>;Lorg/springframework/beans/BeansException;)Ljava/lang/Exception;
+ (Ljava/lang/reflect/Constructor<Ljava/lang/Exception;>;Lorg/springframework/beans/BeansException;)Ljava/lang/Exception;
+determineServiceLocatorExceptionConstructor
+ (Ljava/lang/Class<+Ljava/lang/Exception;>;)Ljava/lang/reflect/Constructor<Ljava/lang/Exception;>;
+ (Ljava/lang/Class<+Ljava/lang/Exception;>;)Ljava/lang/reflect/Constructor<Ljava/lang/Exception;>;
+getObject
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getObjectType
+ ()Ljava/lang/Class<*>;
+ ()L0java/lang/Class<*>; # @Inherited(org.springframework.beans.factory.FactoryBean)
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setServiceLocatorExceptionClass
+ (Ljava/lang/Class<+Ljava/lang/Exception;>;)V
+ (Ljava/lang/Class<+Ljava/lang/Exception;>;)V
+setServiceLocatorInterface
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+setServiceMappings
+ (Ljava/util/Properties;)V
+ (Ljava/util/Properties;)V

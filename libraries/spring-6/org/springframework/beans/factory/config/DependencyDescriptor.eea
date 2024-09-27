@@ -1,0 +1,50 @@
+class org/springframework/beans/factory/config/DependencyDescriptor
+
+<init>
+ (Ljava/lang/reflect/Field;Z)V
+ (Ljava/lang/reflect/Field;Z)V
+<init>
+ (Ljava/lang/reflect/Field;ZZ)V
+ (Ljava/lang/reflect/Field;ZZ)V
+<init>
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;)V
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;)V
+<init>
+ (Lorg/springframework/core/MethodParameter;Z)V
+ (Lorg/springframework/core/MethodParameter;Z)V
+<init>
+ (Lorg/springframework/core/MethodParameter;ZZ)V
+ (Lorg/springframework/core/MethodParameter;ZZ)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(org.springframework.beans.factory.InjectionPoint)
+forFallbackMatch
+ ()Lorg/springframework/beans/factory/config/DependencyDescriptor;
+ ()Lorg/springframework/beans/factory/config/DependencyDescriptor;
+getDependencyName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getDependencyType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getResolvableType
+ ()Lorg/springframework/core/ResolvableType;
+ ()Lorg/springframework/core/ResolvableType;
+getTypeDescriptor
+ ()Lorg/springframework/core/convert/TypeDescriptor;
+ ()Lorg/springframework/core/convert/TypeDescriptor;
+initParameterNameDiscovery
+ (Lorg/springframework/core/ParameterNameDiscoverer;)V
+ (Lorg/springframework/core/ParameterNameDiscoverer;)V
+resolveCandidate
+ (Ljava/lang/String;Ljava/lang/Class<*>;Lorg/springframework/beans/factory/BeanFactory;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/lang/Class<*>;Lorg/springframework/beans/factory/BeanFactory;)Ljava/lang/Object;
+resolveNotUnique
+ (Lorg/springframework/core/ResolvableType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Ljava/lang/Object;
+ (Lorg/springframework/core/ResolvableType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)L0java/lang/Object;
+resolveShortcut
+ (Lorg/springframework/beans/factory/BeanFactory;)Ljava/lang/Object;
+ (Lorg/springframework/beans/factory/BeanFactory;)L0java/lang/Object;
+setContainingClass
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V

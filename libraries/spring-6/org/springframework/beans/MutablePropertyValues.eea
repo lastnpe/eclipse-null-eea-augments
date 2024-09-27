@@ -1,0 +1,74 @@
+class org/springframework/beans/MutablePropertyValues
+
+<init>
+ (Ljava/util/List<Lorg/springframework/beans/PropertyValue;>;)V
+ (Ljava/util/List<Lorg/springframework/beans/PropertyValue;>;)V
+<init>
+ (Ljava/util/Map<**>;)V
+ (Ljava/util/Map<**>;)V
+<init>
+ (Lorg/springframework/beans/PropertyValues;)V
+ (Lorg/springframework/beans/PropertyValues;)V
+add
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/beans/MutablePropertyValues;
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/beans/MutablePropertyValues;
+addPropertyValue
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+addPropertyValue
+ (Lorg/springframework/beans/PropertyValue;)Lorg/springframework/beans/MutablePropertyValues;
+ (Lorg/springframework/beans/PropertyValue;)Lorg/springframework/beans/MutablePropertyValues;
+addPropertyValues
+ (Ljava/util/Map<**>;)Lorg/springframework/beans/MutablePropertyValues;
+ (Ljava/util/Map<**>;)Lorg/springframework/beans/MutablePropertyValues;
+addPropertyValues
+ (Lorg/springframework/beans/PropertyValues;)Lorg/springframework/beans/MutablePropertyValues;
+ (Lorg/springframework/beans/PropertyValues;)Lorg/springframework/beans/MutablePropertyValues;
+changesSince
+ (Lorg/springframework/beans/PropertyValues;)Lorg/springframework/beans/PropertyValues;
+ (Lorg/springframework/beans/PropertyValues;)Lorg/springframework/beans/PropertyValues;
+clearProcessedProperty
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+contains
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object;
+getPropertyValue
+ (Ljava/lang/String;)Lorg/springframework/beans/PropertyValue;
+ (Ljava/lang/String;)L0org/springframework/beans/PropertyValue; # @Inherited(org.springframework.beans.PropertyValues)
+getPropertyValueList
+ ()Ljava/util/List<Lorg/springframework/beans/PropertyValue;>;
+ ()Ljava/util/List<Lorg/springframework/beans/PropertyValue;>;
+getPropertyValues
+ ()[Lorg/springframework/beans/PropertyValue;
+ ()[Lorg/springframework/beans/PropertyValue;
+iterator
+ ()Ljava/util/Iterator<Lorg/springframework/beans/PropertyValue;>;
+ ()Ljava/util/Iterator<Lorg/springframework/beans/PropertyValue;>;
+registerProcessedProperty
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+removePropertyValue
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+removePropertyValue
+ (Lorg/springframework/beans/PropertyValue;)V
+ (Lorg/springframework/beans/PropertyValue;)V
+setPropertyValueAt
+ (Lorg/springframework/beans/PropertyValue;I)V
+ (Lorg/springframework/beans/PropertyValue;I)V
+spliterator
+ ()Ljava/util/Spliterator<Lorg/springframework/beans/PropertyValue;>;
+ ()Ljava/util/Spliterator<Lorg/springframework/beans/PropertyValue;>;
+stream
+ ()Ljava/util/stream/Stream<Lorg/springframework/beans/PropertyValue;>;
+ ()Ljava/util/stream/Stream<Lorg/springframework/beans/PropertyValue;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

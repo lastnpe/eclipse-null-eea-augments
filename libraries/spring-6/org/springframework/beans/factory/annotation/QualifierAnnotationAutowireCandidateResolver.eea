@@ -1,0 +1,47 @@
+class org/springframework/beans/factory/annotation/QualifierAnnotationAutowireCandidateResolver
+
+<init>
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+<init>
+ (Ljava/util/Set<Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;>;)V
+ (Ljava/util/Set<Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;>;)V
+addQualifierType
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+checkQualifier
+ (Lorg/springframework/beans/factory/config/BeanDefinitionHolder;Ljava/lang/annotation/Annotation;Lorg/springframework/beans/TypeConverter;)Z
+ (Lorg/springframework/beans/factory/config/BeanDefinitionHolder;Ljava/lang/annotation/Annotation;Lorg/springframework/beans/TypeConverter;)Z
+checkQualifiers
+ (Lorg/springframework/beans/factory/config/BeanDefinitionHolder;[Ljava/lang/annotation/Annotation;)Z
+ (Lorg/springframework/beans/factory/config/BeanDefinitionHolder;[Ljava/lang/annotation/Annotation;)Z
+extractValue
+ (Lorg/springframework/core/annotation/AnnotationAttributes;)Ljava/lang/Object;
+ (Lorg/springframework/core/annotation/AnnotationAttributes;)Ljava/lang/Object;
+findValue
+ ([Ljava/lang/annotation/Annotation;)Ljava/lang/Object;
+ ([Ljava/lang/annotation/Annotation;)L0java/lang/Object;
+getFactoryMethodAnnotation
+ (Lorg/springframework/beans/factory/support/RootBeanDefinition;Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Ljava/lang/annotation/Annotation;
+ (Lorg/springframework/beans/factory/support/RootBeanDefinition;Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)L0java/lang/annotation/Annotation;
+getQualifiedElementAnnotation
+ (Lorg/springframework/beans/factory/support/RootBeanDefinition;Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Ljava/lang/annotation/Annotation;
+ (Lorg/springframework/beans/factory/support/RootBeanDefinition;Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)L0java/lang/annotation/Annotation;
+getSuggestedValue
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;)Ljava/lang/Object;
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;)L0java/lang/Object; # @Inherited(org.springframework.beans.factory.support.SimpleAutowireCandidateResolver)
+hasQualifier
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;)Z
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;)Z
+isAutowireCandidate
+ (Lorg/springframework/beans/factory/config/BeanDefinitionHolder;Lorg/springframework/beans/factory/config/DependencyDescriptor;)Z
+ (Lorg/springframework/beans/factory/config/BeanDefinitionHolder;Lorg/springframework/beans/factory/config/DependencyDescriptor;)Z
+isQualifier
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+isRequired
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;)Z
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;)Z
+setValueAnnotationType
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V

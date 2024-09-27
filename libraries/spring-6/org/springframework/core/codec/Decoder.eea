@@ -1,0 +1,22 @@
+class org/springframework/core/codec/Decoder
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+canDecode
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Z
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Z
+decode
+ (Lorg/reactivestreams/Publisher<Lorg/springframework/core/io/buffer/DataBuffer;>;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<TT;>;
+ (Lorg/reactivestreams/Publisher<Lorg/springframework/core/io/buffer/DataBuffer;>;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<TT;>;
+decode
+ (Lorg/springframework/core/io/buffer/DataBuffer;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)TT;
+ (Lorg/springframework/core/io/buffer/DataBuffer;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)T0T;
+decodeToMono
+ (Lorg/reactivestreams/Publisher<Lorg/springframework/core/io/buffer/DataBuffer;>;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Mono<TT;>;
+ (Lorg/reactivestreams/Publisher<Lorg/springframework/core/io/buffer/DataBuffer;>;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Mono<TT;>;
+getDecodableMimeTypes
+ ()Ljava/util/List<Lorg/springframework/util/MimeType;>;
+ ()Ljava/util/List<Lorg/springframework/util/MimeType;>;
+getDecodableMimeTypes
+ (Lorg/springframework/core/ResolvableType;)Ljava/util/List<Lorg/springframework/util/MimeType;>;
+ (Lorg/springframework/core/ResolvableType;)Ljava/util/List<Lorg/springframework/util/MimeType;>;

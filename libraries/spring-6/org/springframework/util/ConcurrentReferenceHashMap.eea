@@ -1,0 +1,59 @@
+class org/springframework/util/ConcurrentReferenceHashMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super java/util/AbstractMap
+ <TK;TV;>
+ <TK;TV;>
+super java/util/concurrent/ConcurrentMap
+ <TK;TV;>
+ <TK;TV;>
+
+<init>
+ (IFILorg/springframework/util/ConcurrentReferenceHashMap$ReferenceType;)V
+ (IFILorg/springframework/util/ConcurrentReferenceHashMap$ReferenceType;)V
+<init>
+ (ILorg/springframework/util/ConcurrentReferenceHashMap$ReferenceType;)V
+ (ILorg/springframework/util/ConcurrentReferenceHashMap$ReferenceType;)V
+containsKey
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+createReferenceManager
+ ()Lorg/springframework/util/ConcurrentReferenceHashMap<TK;TV;>.ReferenceManager;
+ ()Lorg/springframework/util/ConcurrentReferenceHashMap<TK;TV;>.ReferenceManager;
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+get
+ (Ljava/lang/Object;)TV;
+ (Ljava/lang/Object;)T0V;
+getHash
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+getOrDefault
+ (Ljava/lang/Object;TV;)TV;
+ (Ljava/lang/Object;TV;)T0V;
+getReference
+ (Ljava/lang/Object;Lorg/springframework/util/ConcurrentReferenceHashMap$Restructure;)Lorg/springframework/util/ConcurrentReferenceHashMap$Reference<TK;TV;>;
+ (Ljava/lang/Object;Lorg/springframework/util/ConcurrentReferenceHashMap$Restructure;)L0org/springframework/util/ConcurrentReferenceHashMap$Reference<TK;TV;>;
+getSegment
+ (I)Lorg/springframework/util/ConcurrentReferenceHashMap<TK;TV;>.Segment;
+ (I)Lorg/springframework/util/ConcurrentReferenceHashMap<TK;TV;>.Segment;
+put
+ (TK;TV;)TV;
+ (TK;TV;)T0V;
+putIfAbsent
+ (TK;TV;)TV;
+ (TK;TV;)T0V;
+remove
+ (Ljava/lang/Object;)TV;
+ (Ljava/lang/Object;)T0V;
+remove
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+replace
+ (TK;TV;)TV;
+ (TK;TV;)T0V;
+replace
+ (TK;TV;TV;)Z
+ (TK;TV;TV;)Z

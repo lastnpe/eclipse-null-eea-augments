@@ -1,0 +1,11 @@
+class org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor
+
+postProcessAfterInstantiation
+ (Ljava/lang/Object;Ljava/lang/String;)Z
+ (Ljava/lang/Object;Ljava/lang/String;)Z
+postProcessBeforeInstantiation
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)L0java/lang/Object;
+postProcessProperties
+ (Lorg/springframework/beans/PropertyValues;Ljava/lang/Object;Ljava/lang/String;)Lorg/springframework/beans/PropertyValues;
+ (Lorg/springframework/beans/PropertyValues;Ljava/lang/Object;Ljava/lang/String;)L0org/springframework/beans/PropertyValues;

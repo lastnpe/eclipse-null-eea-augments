@@ -1,0 +1,26 @@
+class org/springframework/core/io/DefaultResourceLoader
+
+<init>
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+addProtocolResolver
+ (Lorg/springframework/core/io/ProtocolResolver;)V
+ (Lorg/springframework/core/io/ProtocolResolver;)V
+getClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()L0java/lang/ClassLoader; # @Inherited(org.springframework.core.io.ResourceLoader)
+getProtocolResolvers
+ ()Ljava/util/Collection<Lorg/springframework/core/io/ProtocolResolver;>;
+ ()Ljava/util/Collection<Lorg/springframework/core/io/ProtocolResolver;>;
+getResource
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+getResourceByPath
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+getResourceCache
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/util/Map<Lorg/springframework/core/io/Resource;TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/util/Map<Lorg/springframework/core/io/Resource;TT;>;
+setClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V

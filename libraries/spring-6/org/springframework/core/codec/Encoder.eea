@@ -1,0 +1,19 @@
+class org/springframework/core/codec/Encoder
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+canEncode
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Z
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Z
+encode
+ (Lorg/reactivestreams/Publisher<+TT;>;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+ (Lorg/reactivestreams/Publisher<+TT;>;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+encodeValue
+ (TT;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/springframework/core/io/buffer/DataBuffer;
+ (TT;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/springframework/core/io/buffer/DataBuffer;
+getEncodableMimeTypes
+ ()Ljava/util/List<Lorg/springframework/util/MimeType;>;
+ ()Ljava/util/List<Lorg/springframework/util/MimeType;>;
+getEncodableMimeTypes
+ (Lorg/springframework/core/ResolvableType;)Ljava/util/List<Lorg/springframework/util/MimeType;>;
+ (Lorg/springframework/core/ResolvableType;)Ljava/util/List<Lorg/springframework/util/MimeType;>;

@@ -1,0 +1,29 @@
+class org/springframework/core/io/Resource
+
+createRelative
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+getContentAsByteArray
+ ()[B
+ ()[B
+getContentAsString
+ (Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/nio/charset/Charset;)Ljava/lang/String;
+getDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFile
+ ()Ljava/io/File;
+ ()Ljava/io/File;
+getFilename
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getURI
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+getURL
+ ()Ljava/net/URL;
+ ()Ljava/net/URL;
+readableChannel
+ ()Ljava/nio/channels/ReadableByteChannel;
+ ()Ljava/nio/channels/ReadableByteChannel;

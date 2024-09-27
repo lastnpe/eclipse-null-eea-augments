@@ -1,0 +1,35 @@
+class org/springframework/core/io/support/EncodedResource
+
+<init>
+ (Lorg/springframework/core/io/Resource;)V
+ (Lorg/springframework/core/io/Resource;)V
+<init>
+ (Lorg/springframework/core/io/Resource;Ljava/lang/String;)V
+ (Lorg/springframework/core/io/Resource;Ljava/lang/String;)V
+<init>
+ (Lorg/springframework/core/io/Resource;Ljava/nio/charset/Charset;)V
+ (Lorg/springframework/core/io/Resource;Ljava/nio/charset/Charset;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getCharset
+ ()Ljava/nio/charset/Charset;
+ ()L0java/nio/charset/Charset;
+getContentAsString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getEncoding
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getReader
+ ()Ljava/io/Reader;
+ ()Ljava/io/Reader;
+getResource
+ ()Lorg/springframework/core/io/Resource;
+ ()Lorg/springframework/core/io/Resource;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

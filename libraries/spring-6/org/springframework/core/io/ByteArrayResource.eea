@@ -1,0 +1,26 @@
+class org/springframework/core/io/ByteArrayResource
+
+<init>
+ ([B)V
+ ([B)V
+<init>
+ ([BLjava/lang/String;)V
+ ([BLjava/lang/String;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(org.springframework.core.io.AbstractResource)
+getByteArray
+ ()[B
+ ()[B
+getContentAsByteArray
+ ()[B
+ ()[B
+getContentAsString
+ (Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/nio/charset/Charset;)Ljava/lang/String;
+getDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;

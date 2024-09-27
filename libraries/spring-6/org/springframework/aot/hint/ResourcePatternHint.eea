@@ -1,0 +1,14 @@
+class org/springframework/aot/hint/ResourcePatternHint
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getPattern
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getReachableType
+ ()Lorg/springframework/aot/hint/TypeReference;
+ ()L0org/springframework/aot/hint/TypeReference; # @Inherited(org.springframework.aot.hint.ConditionalHint)
+toRegex
+ ()Ljava/util/regex/Pattern;
+ ()Ljava/util/regex/Pattern;

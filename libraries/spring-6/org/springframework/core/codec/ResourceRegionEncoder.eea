@@ -1,0 +1,16 @@
+class org/springframework/core/codec/ResourceRegionEncoder
+
+super org/springframework/core/codec/AbstractEncoder
+ <Lorg/springframework/core/io/support/ResourceRegion;>
+ <Lorg/springframework/core/io/support/ResourceRegion;>
+
+BOUNDARY_STRING_HINT
+ Ljava/lang/String;
+ L1java/lang/String;
+
+canEncode
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Z
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Z
+encode
+ (Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/support/ResourceRegion;>;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+ (Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/support/ResourceRegion;>;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;

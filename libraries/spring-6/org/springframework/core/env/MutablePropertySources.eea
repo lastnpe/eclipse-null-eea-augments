@@ -1,0 +1,50 @@
+class org/springframework/core/env/MutablePropertySources
+
+<init>
+ (Lorg/springframework/core/env/PropertySources;)V
+ (Lorg/springframework/core/env/PropertySources;)V
+addAfter
+ (Ljava/lang/String;Lorg/springframework/core/env/PropertySource<*>;)V
+ (Ljava/lang/String;Lorg/springframework/core/env/PropertySource<*>;)V
+addBefore
+ (Ljava/lang/String;Lorg/springframework/core/env/PropertySource<*>;)V
+ (Ljava/lang/String;Lorg/springframework/core/env/PropertySource<*>;)V
+addFirst
+ (Lorg/springframework/core/env/PropertySource<*>;)V
+ (Lorg/springframework/core/env/PropertySource<*>;)V
+addLast
+ (Lorg/springframework/core/env/PropertySource<*>;)V
+ (Lorg/springframework/core/env/PropertySource<*>;)V
+assertLegalRelativeAddition
+ (Ljava/lang/String;Lorg/springframework/core/env/PropertySource<*>;)V
+ (Ljava/lang/String;Lorg/springframework/core/env/PropertySource<*>;)V
+contains
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+get
+ (Ljava/lang/String;)Lorg/springframework/core/env/PropertySource<*>;
+ (Ljava/lang/String;)L0org/springframework/core/env/PropertySource<*>; # @Inherited(org.springframework.core.env.PropertySources)
+iterator
+ ()Ljava/util/Iterator<Lorg/springframework/core/env/PropertySource<*>;>;
+ ()Ljava/util/Iterator<Lorg/springframework/core/env/PropertySource<*>;>;
+precedenceOf
+ (Lorg/springframework/core/env/PropertySource<*>;)I
+ (Lorg/springframework/core/env/PropertySource<*>;)I
+remove
+ (Ljava/lang/String;)Lorg/springframework/core/env/PropertySource<*>;
+ (Ljava/lang/String;)L0org/springframework/core/env/PropertySource<*>;
+removeIfPresent
+ (Lorg/springframework/core/env/PropertySource<*>;)V
+ (Lorg/springframework/core/env/PropertySource<*>;)V
+replace
+ (Ljava/lang/String;Lorg/springframework/core/env/PropertySource<*>;)V
+ (Ljava/lang/String;Lorg/springframework/core/env/PropertySource<*>;)V
+spliterator
+ ()Ljava/util/Spliterator<Lorg/springframework/core/env/PropertySource<*>;>;
+ ()Ljava/util/Spliterator<Lorg/springframework/core/env/PropertySource<*>;>;
+stream
+ ()Ljava/util/stream/Stream<Lorg/springframework/core/env/PropertySource<*>;>;
+ ()Ljava/util/stream/Stream<Lorg/springframework/core/env/PropertySource<*>;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

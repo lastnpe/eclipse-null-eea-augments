@@ -1,0 +1,20 @@
+class org/springframework/aot/hint/TypeHint$Builder
+
+onReachableType
+ (Ljava/lang/Class<*>;)Lorg/springframework/aot/hint/TypeHint$Builder;
+ (Ljava/lang/Class<*>;)L1org/springframework/aot/hint/TypeHint$Builder;
+onReachableType
+ (Lorg/springframework/aot/hint/TypeReference;)Lorg/springframework/aot/hint/TypeHint$Builder;
+ (Lorg/springframework/aot/hint/TypeReference;)L1org/springframework/aot/hint/TypeHint$Builder;
+withConstructor
+ (Ljava/util/List<Lorg/springframework/aot/hint/TypeReference;>;Lorg/springframework/aot/hint/ExecutableMode;)Lorg/springframework/aot/hint/TypeHint$Builder;
+ (Ljava/util/List<Lorg/springframework/aot/hint/TypeReference;>;Lorg/springframework/aot/hint/ExecutableMode;)L1org/springframework/aot/hint/TypeHint$Builder;
+withField
+ (Ljava/lang/String;)Lorg/springframework/aot/hint/TypeHint$Builder;
+ (Ljava/lang/String;)L1org/springframework/aot/hint/TypeHint$Builder;
+withMembers
+ ([Lorg/springframework/aot/hint/MemberCategory;)Lorg/springframework/aot/hint/TypeHint$Builder;
+ ([Lorg/springframework/aot/hint/MemberCategory;)L1org/springframework/aot/hint/TypeHint$Builder;
+withMethod
+ (Ljava/lang/String;Ljava/util/List<Lorg/springframework/aot/hint/TypeReference;>;Lorg/springframework/aot/hint/ExecutableMode;)Lorg/springframework/aot/hint/TypeHint$Builder;
+ (Ljava/lang/String;Ljava/util/List<Lorg/springframework/aot/hint/TypeReference;>;Lorg/springframework/aot/hint/ExecutableMode;)L1org/springframework/aot/hint/TypeHint$Builder;

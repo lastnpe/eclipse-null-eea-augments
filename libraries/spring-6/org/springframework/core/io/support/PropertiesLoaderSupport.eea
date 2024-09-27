@@ -1,0 +1,33 @@
+class org/springframework/core/io/support/PropertiesLoaderSupport
+
+localProperties
+ [Ljava/util/Properties;
+ [0Ljava/util/Properties;
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+loadProperties
+ (Ljava/util/Properties;)V
+ (Ljava/util/Properties;)V
+mergeProperties
+ ()Ljava/util/Properties;
+ ()Ljava/util/Properties;
+setFileEncoding
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setLocation
+ (Lorg/springframework/core/io/Resource;)V
+ (Lorg/springframework/core/io/Resource;)V
+setLocations
+ ([Lorg/springframework/core/io/Resource;)V
+ ([Lorg/springframework/core/io/Resource;)V
+setProperties
+ (Ljava/util/Properties;)V
+ (Ljava/util/Properties;)V
+setPropertiesArray
+ ([Ljava/util/Properties;)V
+ ([Ljava/util/Properties;)V
+setPropertiesPersister
+ (Lorg/springframework/util/PropertiesPersister;)V
+ (Lorg/springframework/util/PropertiesPersister;)V

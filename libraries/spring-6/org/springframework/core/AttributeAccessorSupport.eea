@@ -1,0 +1,26 @@
+class org/springframework/core/AttributeAccessorSupport
+
+attributeNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+computeAttribute
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/util/function/Function<Ljava/lang/String;TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/util/function/Function<Ljava/lang/String;TT;>;)TT;
+copyAttributesFrom
+ (Lorg/springframework/core/AttributeAccessor;)V
+ (Lorg/springframework/core/AttributeAccessor;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.core.AttributeAccessor)
+hasAttribute
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+removeAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.core.AttributeAccessor)
+setAttribute
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V

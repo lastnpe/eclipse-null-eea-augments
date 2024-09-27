@@ -1,0 +1,27 @@
+class org/springframework/core/convert/converter/ConvertingComparator
+ <S:Ljava/lang/Object;T:Ljava/lang/Object;>
+ <S:Ljava/lang/Object;T:Ljava/lang/Object;>
+
+super java/util/Comparator
+ <TS;>
+ <TS;>
+
+mapEntryKeys
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Comparator<TK;>;)Lorg/springframework/core/convert/converter/ConvertingComparator<Ljava/util/Map$Entry<TK;TV;>;TK;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Comparator<TK;>;)Lorg/springframework/core/convert/converter/ConvertingComparator<Ljava/util/Map$Entry<TK;TV;>;TK;>;
+mapEntryValues
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Comparator<TV;>;)Lorg/springframework/core/convert/converter/ConvertingComparator<Ljava/util/Map$Entry<TK;TV;>;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Comparator<TV;>;)Lorg/springframework/core/convert/converter/ConvertingComparator<Ljava/util/Map$Entry<TK;TV;>;TV;>;
+
+<init>
+ (Ljava/util/Comparator<TT;>;Lorg/springframework/core/convert/ConversionService;Ljava/lang/Class<+TT;>;)V
+ (Ljava/util/Comparator<TT;>;Lorg/springframework/core/convert/ConversionService;Ljava/lang/Class<+TT;>;)V
+<init>
+ (Ljava/util/Comparator<TT;>;Lorg/springframework/core/convert/converter/Converter<TS;TT;>;)V
+ (Ljava/util/Comparator<TT;>;Lorg/springframework/core/convert/converter/Converter<TS;TT;>;)V
+<init>
+ (Lorg/springframework/core/convert/converter/Converter<TS;TT;>;)V
+ (Lorg/springframework/core/convert/converter/Converter<TS;TT;>;)V
+compare
+ (TS;TS;)I
+ (TS;TS;)I

@@ -1,0 +1,35 @@
+class org/springframework/util/StreamUtils
+
+copy
+ (Ljava/io/InputStream;Ljava/io/OutputStream;)I
+ (Ljava/io/InputStream;Ljava/io/OutputStream;)I
+copy
+ (Ljava/lang/String;Ljava/nio/charset/Charset;Ljava/io/OutputStream;)V
+ (Ljava/lang/String;Ljava/nio/charset/Charset;Ljava/io/OutputStream;)V
+copy
+ ([BLjava/io/OutputStream;)V
+ ([BLjava/io/OutputStream;)V
+copyRange
+ (Ljava/io/InputStream;Ljava/io/OutputStream;JJ)J
+ (Ljava/io/InputStream;Ljava/io/OutputStream;JJ)J
+copyToByteArray
+ (Ljava/io/InputStream;)[B
+ (Ljava/io/InputStream;)[B
+copyToString
+ (Ljava/io/ByteArrayOutputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/io/ByteArrayOutputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;
+copyToString
+ (Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;
+drain
+ (Ljava/io/InputStream;)I
+ (Ljava/io/InputStream;)I
+emptyInput
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+nonClosing
+ (Ljava/io/InputStream;)Ljava/io/InputStream;
+ (Ljava/io/InputStream;)Ljava/io/InputStream;
+nonClosing
+ (Ljava/io/OutputStream;)Ljava/io/OutputStream;
+ (Ljava/io/OutputStream;)Ljava/io/OutputStream;
