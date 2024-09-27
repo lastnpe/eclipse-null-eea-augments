@@ -1,0 +1,124 @@
+class java/awt/image/Raster
+
+createBandedRaster
+ (IIIILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+ (IIIILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+createBandedRaster
+ (IIII[I[ILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+ (IIII[I[ILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+createBandedRaster
+ (Ljava/awt/image/DataBuffer;III[I[ILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+ (Ljava/awt/image/DataBuffer;III[I[ILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+createInterleavedRaster
+ (IIIII[ILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+ (IIIII[ILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+createInterleavedRaster
+ (IIIILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+ (IIIILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+createInterleavedRaster
+ (Ljava/awt/image/DataBuffer;IIII[ILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+ (Ljava/awt/image/DataBuffer;IIII[ILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+createPackedRaster
+ (IIIIILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+ (IIIIILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+createPackedRaster
+ (III[ILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+ (III[ILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+createPackedRaster
+ (Ljava/awt/image/DataBuffer;IIILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+ (Ljava/awt/image/DataBuffer;IIILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+createPackedRaster
+ (Ljava/awt/image/DataBuffer;III[ILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+ (Ljava/awt/image/DataBuffer;III[ILjava/awt/Point;)Ljava/awt/image/WritableRaster;
+createRaster
+ (Ljava/awt/image/SampleModel;Ljava/awt/image/DataBuffer;Ljava/awt/Point;)Ljava/awt/image/Raster;
+ (Ljava/awt/image/SampleModel;Ljava/awt/image/DataBuffer;Ljava/awt/Point;)Ljava/awt/image/Raster;
+createWritableRaster
+ (Ljava/awt/image/SampleModel;Ljava/awt/Point;)Ljava/awt/image/WritableRaster;
+ (Ljava/awt/image/SampleModel;Ljava/awt/Point;)Ljava/awt/image/WritableRaster;
+createWritableRaster
+ (Ljava/awt/image/SampleModel;Ljava/awt/image/DataBuffer;Ljava/awt/Point;)Ljava/awt/image/WritableRaster;
+ (Ljava/awt/image/SampleModel;Ljava/awt/image/DataBuffer;Ljava/awt/Point;)Ljava/awt/image/WritableRaster;
+
+dataBuffer
+ Ljava/awt/image/DataBuffer;
+ Ljava/awt/image/DataBuffer;
+parent
+ Ljava/awt/image/Raster;
+ Ljava/awt/image/Raster;
+sampleModel
+ Ljava/awt/image/SampleModel;
+ Ljava/awt/image/SampleModel;
+
+<init>
+ (Ljava/awt/image/SampleModel;Ljava/awt/Point;)V
+ (Ljava/awt/image/SampleModel;Ljava/awt/Point;)V
+<init>
+ (Ljava/awt/image/SampleModel;Ljava/awt/image/DataBuffer;Ljava/awt/Point;)V
+ (Ljava/awt/image/SampleModel;Ljava/awt/image/DataBuffer;Ljava/awt/Point;)V
+<init>
+ (Ljava/awt/image/SampleModel;Ljava/awt/image/DataBuffer;Ljava/awt/Rectangle;Ljava/awt/Point;Ljava/awt/image/Raster;)V
+ (Ljava/awt/image/SampleModel;Ljava/awt/image/DataBuffer;Ljava/awt/Rectangle;Ljava/awt/Point;Ljava/awt/image/Raster;)V
+createChild
+ (IIIIII[I)Ljava/awt/image/Raster;
+ (IIIIII[I)Ljava/awt/image/Raster;
+createCompatibleWritableRaster
+ ()Ljava/awt/image/WritableRaster;
+ ()Ljava/awt/image/WritableRaster;
+createCompatibleWritableRaster
+ (II)Ljava/awt/image/WritableRaster;
+ (II)Ljava/awt/image/WritableRaster;
+createCompatibleWritableRaster
+ (IIII)Ljava/awt/image/WritableRaster;
+ (IIII)Ljava/awt/image/WritableRaster;
+createCompatibleWritableRaster
+ (Ljava/awt/Rectangle;)Ljava/awt/image/WritableRaster;
+ (Ljava/awt/Rectangle;)Ljava/awt/image/WritableRaster;
+createTranslatedChild
+ (II)Ljava/awt/image/Raster;
+ (II)Ljava/awt/image/Raster;
+getBounds
+ ()Ljava/awt/Rectangle;
+ ()Ljava/awt/Rectangle;
+getDataBuffer
+ ()Ljava/awt/image/DataBuffer;
+ ()Ljava/awt/image/DataBuffer;
+getDataElements
+ (IIIILjava/lang/Object;)Ljava/lang/Object;
+ (IIIILjava/lang/Object;)Ljava/lang/Object;
+getDataElements
+ (IILjava/lang/Object;)Ljava/lang/Object;
+ (IILjava/lang/Object;)Ljava/lang/Object;
+getParent
+ ()Ljava/awt/image/Raster;
+ ()Ljava/awt/image/Raster;
+getPixel
+ (II[D)[D
+ (II[D)[D
+getPixel
+ (II[F)[F
+ (II[F)[F
+getPixel
+ (II[I)[I
+ (II[I)[I
+getPixels
+ (IIII[D)[D
+ (IIII[D)[D
+getPixels
+ (IIII[F)[F
+ (IIII[F)[F
+getPixels
+ (IIII[I)[I
+ (IIII[I)[I
+getSampleModel
+ ()Ljava/awt/image/SampleModel;
+ ()Ljava/awt/image/SampleModel;
+getSamples
+ (IIIII[D)[D
+ (IIIII[D)[D
+getSamples
+ (IIIII[F)[F
+ (IIIII[F)[F
+getSamples
+ (IIIII[I)[I
+ (IIIII[I)[I

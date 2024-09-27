@@ -1,0 +1,68 @@
+class com/google/common/util/concurrent/ClosingFuture
+ <V:Ljava/lang/Object;>
+ <V:Ljava/lang/Object;>
+
+eventuallyClosing
+ <C:Ljava/lang/Object;:Ljava/lang/AutoCloseable;>(Lcom/google/common/util/concurrent/ListenableFuture<TC;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ClosingFuture<TC;>;
+ <C:Ljava/lang/Object;:Ljava/lang/AutoCloseable;>(Lcom/google/common/util/concurrent/ListenableFuture<TC;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ClosingFuture<TC;>;
+from
+ <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ListenableFuture<TV;>;)Lcom/google/common/util/concurrent/ClosingFuture<TV;>;
+ <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ListenableFuture<TV;>;)Lcom/google/common/util/concurrent/ClosingFuture<TV;>;
+submit
+ <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture$ClosingCallable<TV;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ClosingFuture<TV;>;
+ <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture$ClosingCallable<TV;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ClosingFuture<TV;>;
+submitAsync
+ <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture$AsyncClosingCallable<TV;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ClosingFuture<TV;>;
+ <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture$AsyncClosingCallable<TV;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ClosingFuture<TV;>;
+whenAllComplete
+ (Lcom/google/common/util/concurrent/ClosingFuture<*>;[Lcom/google/common/util/concurrent/ClosingFuture<*>;)Lcom/google/common/util/concurrent/ClosingFuture$Combiner;
+ (Lcom/google/common/util/concurrent/ClosingFuture<*>;[Lcom/google/common/util/concurrent/ClosingFuture<*>;)Lcom/google/common/util/concurrent/ClosingFuture$Combiner;
+whenAllComplete
+ (Ljava/lang/Iterable<+Lcom/google/common/util/concurrent/ClosingFuture<*>;>;)Lcom/google/common/util/concurrent/ClosingFuture$Combiner;
+ (Ljava/lang/Iterable<+Lcom/google/common/util/concurrent/ClosingFuture<*>;>;)Lcom/google/common/util/concurrent/ClosingFuture$Combiner;
+whenAllSucceed
+ (Lcom/google/common/util/concurrent/ClosingFuture<*>;Lcom/google/common/util/concurrent/ClosingFuture<*>;Lcom/google/common/util/concurrent/ClosingFuture<*>;Lcom/google/common/util/concurrent/ClosingFuture<*>;Lcom/google/common/util/concurrent/ClosingFuture<*>;Lcom/google/common/util/concurrent/ClosingFuture<*>;[Lcom/google/common/util/concurrent/ClosingFuture<*>;)Lcom/google/common/util/concurrent/ClosingFuture$Combiner;
+ (Lcom/google/common/util/concurrent/ClosingFuture<*>;Lcom/google/common/util/concurrent/ClosingFuture<*>;Lcom/google/common/util/concurrent/ClosingFuture<*>;Lcom/google/common/util/concurrent/ClosingFuture<*>;Lcom/google/common/util/concurrent/ClosingFuture<*>;Lcom/google/common/util/concurrent/ClosingFuture<*>;[Lcom/google/common/util/concurrent/ClosingFuture<*>;)Lcom/google/common/util/concurrent/ClosingFuture$Combiner;
+whenAllSucceed
+ (Ljava/lang/Iterable<+Lcom/google/common/util/concurrent/ClosingFuture<*>;>;)Lcom/google/common/util/concurrent/ClosingFuture$Combiner;
+ (Ljava/lang/Iterable<+Lcom/google/common/util/concurrent/ClosingFuture<*>;>;)Lcom/google/common/util/concurrent/ClosingFuture$Combiner;
+whenAllSucceed
+ <V1:Ljava/lang/Object;V2:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture<TV1;>;Lcom/google/common/util/concurrent/ClosingFuture<TV2;>;)Lcom/google/common/util/concurrent/ClosingFuture$Combiner2<TV1;TV2;>;
+ <V1:Ljava/lang/Object;V2:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture<TV1;>;Lcom/google/common/util/concurrent/ClosingFuture<TV2;>;)Lcom/google/common/util/concurrent/ClosingFuture$Combiner2<TV1;TV2;>;
+whenAllSucceed
+ <V1:Ljava/lang/Object;V2:Ljava/lang/Object;V3:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture<TV1;>;Lcom/google/common/util/concurrent/ClosingFuture<TV2;>;Lcom/google/common/util/concurrent/ClosingFuture<TV3;>;)Lcom/google/common/util/concurrent/ClosingFuture$Combiner3<TV1;TV2;TV3;>;
+ <V1:Ljava/lang/Object;V2:Ljava/lang/Object;V3:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture<TV1;>;Lcom/google/common/util/concurrent/ClosingFuture<TV2;>;Lcom/google/common/util/concurrent/ClosingFuture<TV3;>;)Lcom/google/common/util/concurrent/ClosingFuture$Combiner3<TV1;TV2;TV3;>;
+whenAllSucceed
+ <V1:Ljava/lang/Object;V2:Ljava/lang/Object;V3:Ljava/lang/Object;V4:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture<TV1;>;Lcom/google/common/util/concurrent/ClosingFuture<TV2;>;Lcom/google/common/util/concurrent/ClosingFuture<TV3;>;Lcom/google/common/util/concurrent/ClosingFuture<TV4;>;)Lcom/google/common/util/concurrent/ClosingFuture$Combiner4<TV1;TV2;TV3;TV4;>;
+ <V1:Ljava/lang/Object;V2:Ljava/lang/Object;V3:Ljava/lang/Object;V4:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture<TV1;>;Lcom/google/common/util/concurrent/ClosingFuture<TV2;>;Lcom/google/common/util/concurrent/ClosingFuture<TV3;>;Lcom/google/common/util/concurrent/ClosingFuture<TV4;>;)Lcom/google/common/util/concurrent/ClosingFuture$Combiner4<TV1;TV2;TV3;TV4;>;
+whenAllSucceed
+ <V1:Ljava/lang/Object;V2:Ljava/lang/Object;V3:Ljava/lang/Object;V4:Ljava/lang/Object;V5:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture<TV1;>;Lcom/google/common/util/concurrent/ClosingFuture<TV2;>;Lcom/google/common/util/concurrent/ClosingFuture<TV3;>;Lcom/google/common/util/concurrent/ClosingFuture<TV4;>;Lcom/google/common/util/concurrent/ClosingFuture<TV5;>;)Lcom/google/common/util/concurrent/ClosingFuture$Combiner5<TV1;TV2;TV3;TV4;TV5;>;
+ <V1:Ljava/lang/Object;V2:Ljava/lang/Object;V3:Ljava/lang/Object;V4:Ljava/lang/Object;V5:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture<TV1;>;Lcom/google/common/util/concurrent/ClosingFuture<TV2;>;Lcom/google/common/util/concurrent/ClosingFuture<TV3;>;Lcom/google/common/util/concurrent/ClosingFuture<TV4;>;Lcom/google/common/util/concurrent/ClosingFuture<TV5;>;)Lcom/google/common/util/concurrent/ClosingFuture$Combiner5<TV1;TV2;TV3;TV4;TV5;>;
+withoutCloser
+ <V:Ljava/lang/Object;U:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/AsyncFunction<TV;TU;>;)Lcom/google/common/util/concurrent/ClosingFuture$AsyncClosingFunction<TV;TU;>;
+ <V:Ljava/lang/Object;U:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/AsyncFunction<TV;TU;>;)Lcom/google/common/util/concurrent/ClosingFuture$AsyncClosingFunction<TV;TU;>;
+
+catching
+ <X:Ljava/lang/Throwable;>(Ljava/lang/Class<TX;>;Lcom/google/common/util/concurrent/ClosingFuture$ClosingFunction<-TX;+TV;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ClosingFuture<TV;>;
+ <X:Ljava/lang/Throwable;>(Ljava/lang/Class<TX;>;Lcom/google/common/util/concurrent/ClosingFuture$ClosingFunction<-TX;+TV;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ClosingFuture<TV;>;
+catchingAsync
+ <X:Ljava/lang/Throwable;>(Ljava/lang/Class<TX;>;Lcom/google/common/util/concurrent/ClosingFuture$AsyncClosingFunction<-TX;+TV;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ClosingFuture<TV;>;
+ <X:Ljava/lang/Throwable;>(Ljava/lang/Class<TX;>;Lcom/google/common/util/concurrent/ClosingFuture$AsyncClosingFunction<-TX;+TV;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ClosingFuture<TV;>;
+finishToFuture
+ ()Lcom/google/common/util/concurrent/FluentFuture<TV;>;
+ ()Lcom/google/common/util/concurrent/FluentFuture<TV;>;
+finishToValueAndCloser
+ (Lcom/google/common/util/concurrent/ClosingFuture$ValueAndCloserConsumer<-TV;>;Ljava/util/concurrent/Executor;)V
+ (Lcom/google/common/util/concurrent/ClosingFuture$ValueAndCloserConsumer<-TV;>;Ljava/util/concurrent/Executor;)V
+statusFuture
+ ()Lcom/google/common/util/concurrent/ListenableFuture<*>;
+ ()Lcom/google/common/util/concurrent/ListenableFuture<*>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+transform
+ <U:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture$ClosingFunction<-TV;TU;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ClosingFuture<TU;>;
+ <U:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture$ClosingFunction<-TV;TU;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ClosingFuture<TU;>;
+transformAsync
+ <U:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture$AsyncClosingFunction<-TV;TU;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ClosingFuture<TU;>;
+ <U:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ClosingFuture$AsyncClosingFunction<-TV;TU;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ClosingFuture<TU;>;

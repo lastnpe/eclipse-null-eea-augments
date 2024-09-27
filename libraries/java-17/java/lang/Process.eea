@@ -1,4 +1,5 @@
 class java/lang/Process
+
 children
  ()Ljava/util/stream/Stream<Ljava/lang/ProcessHandle;>;
  ()L1java/util/stream/Stream<L1java/lang/ProcessHandle;>;
@@ -8,6 +9,12 @@ descendants
 destroyForcibly
  ()Ljava/lang/Process;
  ()L1java/lang/Process;
+errorReader
+ ()Ljava/io/BufferedReader;
+ ()Ljava/io/BufferedReader;
+errorReader
+ (Ljava/nio/charset/Charset;)Ljava/io/BufferedReader;
+ (Ljava/nio/charset/Charset;)Ljava/io/BufferedReader;
 getErrorStream
  ()Ljava/io/InputStream;
  ()L1java/io/InputStream;
@@ -20,9 +27,21 @@ getOutputStream
 info
  ()Ljava/lang/ProcessHandle$Info;
  ()L1java/lang/ProcessHandle$Info;
+inputReader
+ ()Ljava/io/BufferedReader;
+ ()Ljava/io/BufferedReader;
+inputReader
+ (Ljava/nio/charset/Charset;)Ljava/io/BufferedReader;
+ (Ljava/nio/charset/Charset;)Ljava/io/BufferedReader;
 onExit
  ()Ljava/util/concurrent/CompletableFuture<Ljava/lang/Process;>;
  ()L1java/util/concurrent/CompletableFuture<L1java/lang/Process;>;
+outputWriter
+ ()Ljava/io/BufferedWriter;
+ ()Ljava/io/BufferedWriter;
+outputWriter
+ (Ljava/nio/charset/Charset;)Ljava/io/BufferedWriter;
+ (Ljava/nio/charset/Charset;)Ljava/io/BufferedWriter;
 toHandle
  ()Ljava/lang/ProcessHandle;
  ()L1java/lang/ProcessHandle;

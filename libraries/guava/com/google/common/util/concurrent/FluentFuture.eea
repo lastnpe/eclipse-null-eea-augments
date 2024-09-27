@@ -1,0 +1,36 @@
+class com/google/common/util/concurrent/FluentFuture
+ <V:Ljava/lang/Object;>
+ <V:Ljava/lang/Object;>
+
+super com/google/common/util/concurrent/GwtFluentFutureCatchingSpecialization
+ <TV;>
+ <TV;>
+
+from
+ <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/FluentFuture<TV;>;)Lcom/google/common/util/concurrent/FluentFuture<TV;>;
+ <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/FluentFuture<TV;>;)Lcom/google/common/util/concurrent/FluentFuture<TV;>;
+from
+ <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ListenableFuture<TV;>;)Lcom/google/common/util/concurrent/FluentFuture<TV;>;
+ <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ListenableFuture<TV;>;)Lcom/google/common/util/concurrent/FluentFuture<TV;>;
+
+addCallback
+ (Lcom/google/common/util/concurrent/FutureCallback<-TV;>;Ljava/util/concurrent/Executor;)V
+ (Lcom/google/common/util/concurrent/FutureCallback<-TV;>;Ljava/util/concurrent/Executor;)V
+catching
+ <X:Ljava/lang/Throwable;>(Ljava/lang/Class<TX;>;Lcom/google/common/base/Function<-TX;+TV;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/FluentFuture<TV;>;
+ <X:Ljava/lang/Throwable;>(Ljava/lang/Class<TX;>;Lcom/google/common/base/Function<-TX;+TV;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/FluentFuture<TV;>;
+catchingAsync
+ <X:Ljava/lang/Throwable;>(Ljava/lang/Class<TX;>;Lcom/google/common/util/concurrent/AsyncFunction<-TX;+TV;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/FluentFuture<TV;>;
+ <X:Ljava/lang/Throwable;>(Ljava/lang/Class<TX;>;Lcom/google/common/util/concurrent/AsyncFunction<-TX;+TV;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/FluentFuture<TV;>;
+transform
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Function<-TV;TT;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/FluentFuture<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Function<-TV;TT;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/FluentFuture<TT;>;
+transformAsync
+ <T:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/AsyncFunction<-TV;TT;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/FluentFuture<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/AsyncFunction<-TV;TT;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/FluentFuture<TT;>;
+withTimeout
+ (JLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/ScheduledExecutorService;)Lcom/google/common/util/concurrent/FluentFuture<TV;>;
+ (JLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/ScheduledExecutorService;)Lcom/google/common/util/concurrent/FluentFuture<TV;>;
+withTimeout
+ (Ljava/time/Duration;Ljava/util/concurrent/ScheduledExecutorService;)Lcom/google/common/util/concurrent/FluentFuture<TV;>;
+ (Ljava/time/Duration;Ljava/util/concurrent/ScheduledExecutorService;)Lcom/google/common/util/concurrent/FluentFuture<TV;>;

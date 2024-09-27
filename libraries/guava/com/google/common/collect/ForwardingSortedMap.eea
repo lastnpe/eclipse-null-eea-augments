@@ -1,0 +1,38 @@
+class com/google/common/collect/ForwardingSortedMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/collect/ForwardingMap
+ <TK;TV;>
+ <TK;TV;>
+super java/util/SortedMap
+ <TK;TV;>
+ <TK;TV;>
+
+comparator
+ ()Ljava/util/Comparator<-TK;>;
+ ()L0java/util/Comparator<-TK;>;
+delegate
+ ()Ljava/util/SortedMap<TK;TV;>;
+ ()Ljava/util/SortedMap<TK;TV;>;
+firstKey
+ ()TK;
+ ()T1K;
+headMap
+ (TK;)Ljava/util/SortedMap<TK;TV;>;
+ (TK;)Ljava/util/SortedMap<TK;TV;>;
+lastKey
+ ()TK;
+ ()T1K;
+standardContainsKey
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+standardSubMap
+ (TK;TK;)Ljava/util/SortedMap<TK;TV;>;
+ (TK;TK;)Ljava/util/SortedMap<TK;TV;>;
+subMap
+ (TK;TK;)Ljava/util/SortedMap<TK;TV;>;
+ (TK;TK;)Ljava/util/SortedMap<TK;TV;>;
+tailMap
+ (TK;)Ljava/util/SortedMap<TK;TV;>;
+ (TK;)Ljava/util/SortedMap<TK;TV;>;

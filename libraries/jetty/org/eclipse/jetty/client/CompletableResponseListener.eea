@@ -1,0 +1,23 @@
+class org/eclipse/jetty/client/CompletableResponseListener
+
+<init>
+ (Lorg/eclipse/jetty/client/Request;)V
+ (Lorg/eclipse/jetty/client/Request;)V
+<init>
+ (Lorg/eclipse/jetty/client/Request;I)V
+ (Lorg/eclipse/jetty/client/Request;I)V
+getRequest
+ ()Lorg/eclipse/jetty/client/Request;
+ ()Lorg/eclipse/jetty/client/Request;
+onComplete
+ (Lorg/eclipse/jetty/client/Result;)V
+ (L1org/eclipse/jetty/client/Result;)V # @Inherited(org.eclipse.jetty.client.BufferingResponseListener)
+send
+ ()Ljava/util/concurrent/CompletableFuture<Lorg/eclipse/jetty/client/ContentResponse;>;
+ ()Ljava/util/concurrent/CompletableFuture<Lorg/eclipse/jetty/client/ContentResponse;>;
+send
+ (Lorg/eclipse/jetty/client/Connection;)Ljava/util/concurrent/CompletableFuture<Lorg/eclipse/jetty/client/ContentResponse;>;
+ (Lorg/eclipse/jetty/client/Connection;)Ljava/util/concurrent/CompletableFuture<Lorg/eclipse/jetty/client/ContentResponse;>;
+send
+ (Lorg/eclipse/jetty/client/Destination;)Ljava/util/concurrent/CompletableFuture<Lorg/eclipse/jetty/client/ContentResponse;>;
+ (Lorg/eclipse/jetty/client/Destination;)Ljava/util/concurrent/CompletableFuture<Lorg/eclipse/jetty/client/ContentResponse;>;

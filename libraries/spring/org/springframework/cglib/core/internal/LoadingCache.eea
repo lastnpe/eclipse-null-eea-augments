@@ -1,0 +1,31 @@
+class org/springframework/cglib/core/internal/LoadingCache
+ <K:Ljava/lang/Object;KK:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;KK:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+IDENTITY
+ Lorg/springframework/cglib/core/internal/Function;
+ L1org/springframework/cglib/core/internal/Function;
+
+identity
+ <K:Ljava/lang/Object;>()Lorg/springframework/cglib/core/internal/Function<TK;TK;>;
+ <K:Ljava/lang/Object;>()Lorg/springframework/cglib/core/internal/Function<TK;TK;>;
+
+keyMapper
+ Lorg/springframework/cglib/core/internal/Function<TK;TKK;>;
+ Lorg/springframework/cglib/core/internal/Function<TK;TKK;>;
+loader
+ Lorg/springframework/cglib/core/internal/Function<TK;TV;>;
+ Lorg/springframework/cglib/core/internal/Function<TK;TV;>;
+map
+ Ljava/util/concurrent/ConcurrentMap<TKK;Ljava/lang/Object;>;
+ Ljava/util/concurrent/ConcurrentMap<TKK;Ljava/lang/Object;>;
+
+<init>
+ (Lorg/springframework/cglib/core/internal/Function<TK;TKK;>;Lorg/springframework/cglib/core/internal/Function<TK;TV;>;)V
+ (Lorg/springframework/cglib/core/internal/Function<TK;TKK;>;Lorg/springframework/cglib/core/internal/Function<TK;TV;>;)V
+createEntry
+ (TK;TKK;Ljava/lang/Object;)TV;
+ (TK;TKK;Ljava/lang/Object;)TV;
+get
+ (TK;)TV;
+ (TK;)TV;

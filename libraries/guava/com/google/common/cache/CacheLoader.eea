@@ -1,0 +1,23 @@
+class com/google/common/cache/CacheLoader
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+asyncReloading
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/cache/CacheLoader<TK;TV;>;Ljava/util/concurrent/Executor;)Lcom/google/common/cache/CacheLoader<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/cache/CacheLoader<TK;TV;>;Ljava/util/concurrent/Executor;)Lcom/google/common/cache/CacheLoader<TK;TV;>;
+from
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/base/Function<TK;TV;>;)Lcom/google/common/cache/CacheLoader<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/base/Function<TK;TV;>;)Lcom/google/common/cache/CacheLoader<TK;TV;>;
+from
+ <V:Ljava/lang/Object;>(Lcom/google/common/base/Supplier<TV;>;)Lcom/google/common/cache/CacheLoader<Ljava/lang/Object;TV;>;
+ <V:Ljava/lang/Object;>(Lcom/google/common/base/Supplier<TV;>;)Lcom/google/common/cache/CacheLoader<Ljava/lang/Object;TV;>;
+
+load
+ (TK;)TV;
+ (TK;)TV;
+loadAll
+ (Ljava/lang/Iterable<+TK;>;)Ljava/util/Map<TK;TV;>;
+ (Ljava/lang/Iterable<+TK;>;)Ljava/util/Map<TK;TV;>;
+reload
+ (TK;TV;)Lcom/google/common/util/concurrent/ListenableFuture<TV;>;
+ (TK;TV;)Lcom/google/common/util/concurrent/ListenableFuture<TV;>;

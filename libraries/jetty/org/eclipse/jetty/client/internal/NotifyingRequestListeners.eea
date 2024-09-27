@@ -1,0 +1,23 @@
+class org/eclipse/jetty/client/internal/NotifyingRequestListeners
+
+notifyBegin
+ (Lorg/eclipse/jetty/client/Request;)V
+ (Lorg/eclipse/jetty/client/Request;)V
+notifyCommit
+ (Lorg/eclipse/jetty/client/Request;)V
+ (Lorg/eclipse/jetty/client/Request;)V
+notifyContent
+ (Lorg/eclipse/jetty/client/Request;Ljava/nio/ByteBuffer;)V
+ (Lorg/eclipse/jetty/client/Request;Ljava/nio/ByteBuffer;)V
+notifyFailure
+ (Lorg/eclipse/jetty/client/Request;Ljava/lang/Throwable;)V
+ (Lorg/eclipse/jetty/client/Request;Ljava/lang/Throwable;)V
+notifyHeaders
+ (Lorg/eclipse/jetty/client/Request;)V
+ (Lorg/eclipse/jetty/client/Request;)V
+notifyQueued
+ (Lorg/eclipse/jetty/client/Request;)V
+ (Lorg/eclipse/jetty/client/Request;)V
+notifySuccess
+ (Lorg/eclipse/jetty/client/Request;)V
+ (Lorg/eclipse/jetty/client/Request;)V

@@ -1,0 +1,14 @@
+class javax/xml/catalog/CatalogResolver
+
+resolve
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/transform/Source;
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/transform/Source;
+resolveEntity
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/xml/sax/InputSource;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/xml/sax/InputSource;
+resolveEntity
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/io/InputStream;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/io/InputStream;
+resolveResource
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/w3c/dom/ls/LSInput;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/w3c/dom/ls/LSInput;

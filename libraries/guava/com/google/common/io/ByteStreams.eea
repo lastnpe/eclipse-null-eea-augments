@@ -1,0 +1,53 @@
+class com/google/common/io/ByteStreams
+
+copy
+ (Ljava/io/InputStream;Ljava/io/OutputStream;)J
+ (Ljava/io/InputStream;Ljava/io/OutputStream;)J
+copy
+ (Ljava/nio/channels/ReadableByteChannel;Ljava/nio/channels/WritableByteChannel;)J
+ (Ljava/nio/channels/ReadableByteChannel;Ljava/nio/channels/WritableByteChannel;)J
+exhaust
+ (Ljava/io/InputStream;)J
+ (Ljava/io/InputStream;)J
+limit
+ (Ljava/io/InputStream;J)Ljava/io/InputStream;
+ (Ljava/io/InputStream;J)Ljava/io/InputStream;
+newDataInput
+ (Ljava/io/ByteArrayInputStream;)Lcom/google/common/io/ByteArrayDataInput;
+ (Ljava/io/ByteArrayInputStream;)Lcom/google/common/io/ByteArrayDataInput;
+newDataInput
+ ([B)Lcom/google/common/io/ByteArrayDataInput;
+ ([B)Lcom/google/common/io/ByteArrayDataInput;
+newDataInput
+ ([BI)Lcom/google/common/io/ByteArrayDataInput;
+ ([BI)Lcom/google/common/io/ByteArrayDataInput;
+newDataOutput
+ ()Lcom/google/common/io/ByteArrayDataOutput;
+ ()Lcom/google/common/io/ByteArrayDataOutput;
+newDataOutput
+ (I)Lcom/google/common/io/ByteArrayDataOutput;
+ (I)Lcom/google/common/io/ByteArrayDataOutput;
+newDataOutput
+ (Ljava/io/ByteArrayOutputStream;)Lcom/google/common/io/ByteArrayDataOutput;
+ (Ljava/io/ByteArrayOutputStream;)Lcom/google/common/io/ByteArrayDataOutput;
+nullOutputStream
+ ()Ljava/io/OutputStream;
+ ()Ljava/io/OutputStream;
+read
+ (Ljava/io/InputStream;[BII)I
+ (Ljava/io/InputStream;[BII)I
+readBytes
+ <T:Ljava/lang/Object;>(Ljava/io/InputStream;Lcom/google/common/io/ByteProcessor<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/io/InputStream;Lcom/google/common/io/ByteProcessor<TT;>;)T1T;
+readFully
+ (Ljava/io/InputStream;[B)V
+ (Ljava/io/InputStream;[B)V
+readFully
+ (Ljava/io/InputStream;[BII)V
+ (Ljava/io/InputStream;[BII)V
+skipFully
+ (Ljava/io/InputStream;J)V
+ (Ljava/io/InputStream;J)V
+toByteArray
+ (Ljava/io/InputStream;)[B
+ (Ljava/io/InputStream;)[B

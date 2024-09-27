@@ -1,0 +1,38 @@
+class com/google/common/collect/ForwardingQueue
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super com/google/common/collect/ForwardingCollection
+ <TE;>
+ <TE;>
+super java/util/Queue
+ <TE;>
+ <TE;>
+
+delegate
+ ()Ljava/util/Queue<TE;>;
+ ()Ljava/util/Queue<TE;>;
+element
+ ()TE;
+ ()T1E;
+offer
+ (TE;)Z
+ (TE;)Z
+peek
+ ()TE;
+ ()T0E;
+poll
+ ()TE;
+ ()T0E;
+remove
+ ()TE;
+ ()T1E;
+standardOffer
+ (TE;)Z
+ (TE;)Z
+standardPeek
+ ()TE;
+ ()T0E;
+standardPoll
+ ()TE;
+ ()T0E;

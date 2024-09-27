@@ -1,0 +1,20 @@
+class org/mockito/internal/stubbing/answers/InvocationInfo
+
+<init>
+ (Lorg/mockito/invocation/InvocationOnMock;)V
+ (Lorg/mockito/invocation/InvocationOnMock;)V
+getMethod
+ ()Ljava/lang/reflect/Method;
+ ()Ljava/lang/reflect/Method;
+getMethodName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+isValidException
+ (Ljava/lang/Throwable;)Z
+ (Ljava/lang/Throwable;)Z
+isValidReturnType
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+printMethodReturnType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

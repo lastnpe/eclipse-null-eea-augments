@@ -1,0 +1,20 @@
+class org/mockito/internal/stubbing/StubbedInvocationMatcher
+
+<init>
+ (Lorg/mockito/stubbing/Answer;Lorg/mockito/invocation/MatchableInvocation;Lorg/mockito/quality/Strictness;)V
+ (Lorg/mockito/stubbing/Answer;Lorg/mockito/invocation/MatchableInvocation;Lorg/mockito/quality/Strictness;)V
+addAnswer
+ (Lorg/mockito/stubbing/Answer;)V
+ (Lorg/mockito/stubbing/Answer;)V
+answer
+ (Lorg/mockito/invocation/InvocationOnMock;)Ljava/lang/Object;
+ (Lorg/mockito/invocation/InvocationOnMock;)Ljava/lang/Object;
+getStrictness
+ ()Lorg/mockito/quality/Strictness;
+ ()Lorg/mockito/quality/Strictness;
+markStubUsed
+ (Lorg/mockito/invocation/DescribedInvocation;)V
+ (Lorg/mockito/invocation/DescribedInvocation;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.mockito.internal.invocation.InvocationMatcher)

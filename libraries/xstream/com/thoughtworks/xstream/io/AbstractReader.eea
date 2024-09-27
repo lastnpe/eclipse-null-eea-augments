@@ -1,0 +1,23 @@
+class com/thoughtworks/xstream/io/AbstractReader
+
+<init>
+ (Lcom/thoughtworks/xstream/io/naming/NameCoder;)V
+ (Lcom/thoughtworks/xstream/io/naming/NameCoder;)V
+decodeAttribute
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+decodeNode
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+encodeAttribute
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+encodeNode
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+peekNextChild
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+underlyingReader
+ ()Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ ()Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;

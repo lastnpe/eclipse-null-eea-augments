@@ -1,0 +1,27 @@
+class java/awt/image/RGBImageFilter
+
+newmodel
+ Ljava/awt/image/ColorModel;
+ Ljava/awt/image/ColorModel;
+origmodel
+ Ljava/awt/image/ColorModel;
+ Ljava/awt/image/ColorModel;
+
+filterIndexColorModel
+ (Ljava/awt/image/IndexColorModel;)Ljava/awt/image/IndexColorModel;
+ (Ljava/awt/image/IndexColorModel;)Ljava/awt/image/IndexColorModel;
+filterRGBPixels
+ (IIII[III)V
+ (IIII[III)V
+setColorModel
+ (Ljava/awt/image/ColorModel;)V
+ (Ljava/awt/image/ColorModel;)V
+setPixels
+ (IIIILjava/awt/image/ColorModel;[BII)V
+ (IIIILjava/awt/image/ColorModel;[BII)V
+setPixels
+ (IIIILjava/awt/image/ColorModel;[III)V
+ (IIIILjava/awt/image/ColorModel;[III)V
+substituteColorModel
+ (Ljava/awt/image/ColorModel;Ljava/awt/image/ColorModel;)V
+ (Ljava/awt/image/ColorModel;Ljava/awt/image/ColorModel;)V

@@ -1,0 +1,20 @@
+class com/google/common/collect/SortedMapDifference
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/collect/MapDifference
+ <TK;TV;>
+ <TK;TV;>
+
+entriesDiffering
+ ()Ljava/util/SortedMap<TK;Lcom/google/common/collect/MapDifference$ValueDifference<TV;>;>;
+ ()Ljava/util/SortedMap<TK;Lcom/google/common/collect/MapDifference$ValueDifference<TV;>;>;
+entriesInCommon
+ ()Ljava/util/SortedMap<TK;TV;>;
+ ()Ljava/util/SortedMap<TK;TV;>;
+entriesOnlyOnLeft
+ ()Ljava/util/SortedMap<TK;TV;>;
+ ()Ljava/util/SortedMap<TK;TV;>;
+entriesOnlyOnRight
+ ()Ljava/util/SortedMap<TK;TV;>;
+ ()Ljava/util/SortedMap<TK;TV;>;

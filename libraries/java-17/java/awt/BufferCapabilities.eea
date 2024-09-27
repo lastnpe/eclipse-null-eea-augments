@@ -1,0 +1,17 @@
+class java/awt/BufferCapabilities
+
+<init>
+ (Ljava/awt/ImageCapabilities;Ljava/awt/ImageCapabilities;Ljava/awt/BufferCapabilities$FlipContents;)V
+ (Ljava/awt/ImageCapabilities;Ljava/awt/ImageCapabilities;Ljava/awt/BufferCapabilities$FlipContents;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+getBackBufferCapabilities
+ ()Ljava/awt/ImageCapabilities;
+ ()Ljava/awt/ImageCapabilities;
+getFlipContents
+ ()Ljava/awt/BufferCapabilities$FlipContents;
+ ()Ljava/awt/BufferCapabilities$FlipContents;
+getFrontBufferCapabilities
+ ()Ljava/awt/ImageCapabilities;
+ ()Ljava/awt/ImageCapabilities;

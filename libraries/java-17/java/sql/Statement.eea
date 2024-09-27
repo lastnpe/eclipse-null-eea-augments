@@ -1,0 +1,77 @@
+class java/sql/Statement
+
+addBatch
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+enquoteIdentifier
+ (Ljava/lang/String;Z)Ljava/lang/String;
+ (Ljava/lang/String;Z)Ljava/lang/String;
+enquoteLiteral
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+enquoteNCharLiteral
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+execute
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+execute
+ (Ljava/lang/String;I)Z
+ (Ljava/lang/String;I)Z
+execute
+ (Ljava/lang/String;[I)Z
+ (Ljava/lang/String;[I)Z
+execute
+ (Ljava/lang/String;[Ljava/lang/String;)Z
+ (Ljava/lang/String;[Ljava/lang/String;)Z
+executeBatch
+ ()[I
+ ()[I
+executeLargeBatch
+ ()[J
+ ()[J
+executeLargeUpdate
+ (Ljava/lang/String;)J
+ (Ljava/lang/String;)J
+executeLargeUpdate
+ (Ljava/lang/String;I)J
+ (Ljava/lang/String;I)J
+executeLargeUpdate
+ (Ljava/lang/String;[I)J
+ (Ljava/lang/String;[I)J
+executeLargeUpdate
+ (Ljava/lang/String;[Ljava/lang/String;)J
+ (Ljava/lang/String;[Ljava/lang/String;)J
+executeQuery
+ (Ljava/lang/String;)Ljava/sql/ResultSet;
+ (Ljava/lang/String;)Ljava/sql/ResultSet;
+executeUpdate
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+executeUpdate
+ (Ljava/lang/String;I)I
+ (Ljava/lang/String;I)I
+executeUpdate
+ (Ljava/lang/String;[I)I
+ (Ljava/lang/String;[I)I
+executeUpdate
+ (Ljava/lang/String;[Ljava/lang/String;)I
+ (Ljava/lang/String;[Ljava/lang/String;)I
+getConnection
+ ()Ljava/sql/Connection;
+ ()Ljava/sql/Connection;
+getGeneratedKeys
+ ()Ljava/sql/ResultSet;
+ ()Ljava/sql/ResultSet;
+getResultSet
+ ()Ljava/sql/ResultSet;
+ ()Ljava/sql/ResultSet;
+getWarnings
+ ()Ljava/sql/SQLWarning;
+ ()Ljava/sql/SQLWarning;
+isSimpleIdentifier
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+setCursorName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

@@ -1,0 +1,39 @@
+class org/mockito/internal/invocation/InvocationMatcher
+
+createFrom
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;)Ljava/util/List<Lorg/mockito/internal/invocation/InvocationMatcher;>;
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;)Ljava/util/List<Lorg/mockito/internal/invocation/InvocationMatcher;>;
+
+<init>
+ (Lorg/mockito/invocation/Invocation;)V
+ (Lorg/mockito/invocation/Invocation;)V
+<init>
+ (Lorg/mockito/invocation/Invocation;Ljava/util/List<Lorg/mockito/ArgumentMatcher;>;)V
+ (Lorg/mockito/invocation/Invocation;Ljava/util/List<Lorg/mockito/ArgumentMatcher;>;)V
+captureArgumentsFrom
+ (Lorg/mockito/invocation/Invocation;)V
+ (Lorg/mockito/invocation/Invocation;)V
+getInvocation
+ ()Lorg/mockito/invocation/Invocation;
+ ()Lorg/mockito/invocation/Invocation;
+getLocation
+ ()Lorg/mockito/invocation/Location;
+ ()Lorg/mockito/invocation/Location;
+getMatchers
+ ()Ljava/util/List<Lorg/mockito/ArgumentMatcher;>;
+ ()Ljava/util/List<Lorg/mockito/ArgumentMatcher;>;
+getMethod
+ ()Ljava/lang/reflect/Method;
+ ()Ljava/lang/reflect/Method;
+hasSameMethod
+ (Lorg/mockito/invocation/Invocation;)Z
+ (Lorg/mockito/invocation/Invocation;)Z
+hasSimilarMethod
+ (Lorg/mockito/invocation/Invocation;)Z
+ (Lorg/mockito/invocation/Invocation;)Z
+matches
+ (Lorg/mockito/invocation/Invocation;)Z
+ (Lorg/mockito/invocation/Invocation;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

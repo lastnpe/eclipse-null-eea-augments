@@ -1,0 +1,17 @@
+class org/springframework/core/annotation/MergedAnnotationPredicates
+
+firstRunOf
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/util/function/Function<-Lorg/springframework/core/annotation/MergedAnnotation<TA;>;*>;)Ljava/util/function/Predicate<Lorg/springframework/core/annotation/MergedAnnotation<TA;>;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/util/function/Function<-Lorg/springframework/core/annotation/MergedAnnotation<TA;>;*>;)Ljava/util/function/Predicate<Lorg/springframework/core/annotation/MergedAnnotation<TA;>;>;
+typeIn
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/util/Collection<*>;)Ljava/util/function/Predicate<Lorg/springframework/core/annotation/MergedAnnotation<+TA;>;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/util/Collection<*>;)Ljava/util/function/Predicate<Lorg/springframework/core/annotation/MergedAnnotation<+TA;>;>;
+typeIn
+ <A::Ljava/lang/annotation/Annotation;>([Ljava/lang/Class<*>;)Ljava/util/function/Predicate<Lorg/springframework/core/annotation/MergedAnnotation<+TA;>;>;
+ <A::Ljava/lang/annotation/Annotation;>([Ljava/lang/Class<*>;)Ljava/util/function/Predicate<Lorg/springframework/core/annotation/MergedAnnotation<+TA;>;>;
+typeIn
+ <A::Ljava/lang/annotation/Annotation;>([Ljava/lang/String;)Ljava/util/function/Predicate<Lorg/springframework/core/annotation/MergedAnnotation<+TA;>;>;
+ <A::Ljava/lang/annotation/Annotation;>([Ljava/lang/String;)Ljava/util/function/Predicate<Lorg/springframework/core/annotation/MergedAnnotation<+TA;>;>;
+unique
+ <A::Ljava/lang/annotation/Annotation;K:Ljava/lang/Object;>(Ljava/util/function/Function<-Lorg/springframework/core/annotation/MergedAnnotation<TA;>;TK;>;)Ljava/util/function/Predicate<Lorg/springframework/core/annotation/MergedAnnotation<TA;>;>;
+ <A::Ljava/lang/annotation/Annotation;K:Ljava/lang/Object;>(Ljava/util/function/Function<-Lorg/springframework/core/annotation/MergedAnnotation<TA;>;TK;>;)Ljava/util/function/Predicate<Lorg/springframework/core/annotation/MergedAnnotation<TA;>;>;

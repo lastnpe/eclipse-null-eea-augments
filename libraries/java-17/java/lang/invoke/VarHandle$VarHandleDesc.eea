@@ -1,0 +1,25 @@
+class java/lang/invoke/VarHandle$VarHandleDesc
+
+super java/lang/constant/DynamicConstantDesc
+ <Ljava/lang/invoke/VarHandle;>
+ <Ljava/lang/invoke/VarHandle;>
+
+ofArray
+ (Ljava/lang/constant/ClassDesc;)Ljava/lang/invoke/VarHandle$VarHandleDesc;
+ (Ljava/lang/constant/ClassDesc;)Ljava/lang/invoke/VarHandle$VarHandleDesc;
+ofField
+ (Ljava/lang/constant/ClassDesc;Ljava/lang/String;Ljava/lang/constant/ClassDesc;)Ljava/lang/invoke/VarHandle$VarHandleDesc;
+ (Ljava/lang/constant/ClassDesc;Ljava/lang/String;Ljava/lang/constant/ClassDesc;)Ljava/lang/invoke/VarHandle$VarHandleDesc;
+ofStaticField
+ (Ljava/lang/constant/ClassDesc;Ljava/lang/String;Ljava/lang/constant/ClassDesc;)Ljava/lang/invoke/VarHandle$VarHandleDesc;
+ (Ljava/lang/constant/ClassDesc;Ljava/lang/String;Ljava/lang/constant/ClassDesc;)Ljava/lang/invoke/VarHandle$VarHandleDesc;
+
+resolveConstantDesc
+ (Ljava/lang/invoke/MethodHandles$Lookup;)Ljava/lang/invoke/VarHandle;
+ (Ljava/lang/invoke/MethodHandles$Lookup;)Ljava/lang/invoke/VarHandle;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.constant.DynamicConstantDesc)
+varType
+ ()Ljava/lang/constant/ClassDesc;
+ ()Ljava/lang/constant/ClassDesc;

@@ -1,0 +1,33 @@
+class org/slf4j/MDC
+
+get
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getCopyOfContextMap
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+getMDCAdapter
+ ()Lorg/slf4j/spi/MDCAdapter;
+ ()Lorg/slf4j/spi/MDCAdapter;
+popByKey
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+pushByKey
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+put
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+putCloseable
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/slf4j/MDC$MDCCloseable;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/slf4j/MDC$MDCCloseable;
+remove
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setContextMap
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+
+getCopyOfDequeByKey
+ (Ljava/lang/String;)Ljava/util/Deque<Ljava/lang/String;>;
+ (Ljava/lang/String;)Ljava/util/Deque<Ljava/lang/String;>;

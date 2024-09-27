@@ -1,0 +1,76 @@
+class javax/swing/plaf/basic/BasicListUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+cellHeights
+ [I
+ [I
+focusListener
+ Ljava/awt/event/FocusListener;
+ Ljava/awt/event/FocusListener;
+list
+ Ljavax/swing/JList<Ljava/lang/Object;>;
+ Ljavax/swing/JList<Ljava/lang/Object;>;
+listDataListener
+ Ljavax/swing/event/ListDataListener;
+ Ljavax/swing/event/ListDataListener;
+listSelectionListener
+ Ljavax/swing/event/ListSelectionListener;
+ Ljavax/swing/event/ListSelectionListener;
+mouseInputListener
+ Ljavax/swing/event/MouseInputListener;
+ Ljavax/swing/event/MouseInputListener;
+propertyChangeListener
+ Ljava/beans/PropertyChangeListener;
+ Ljava/beans/PropertyChangeListener;
+rendererPane
+ Ljavax/swing/CellRendererPane;
+ Ljavax/swing/CellRendererPane;
+
+createFocusListener
+ ()Ljava/awt/event/FocusListener;
+ ()Ljava/awt/event/FocusListener;
+createListDataListener
+ ()Ljavax/swing/event/ListDataListener;
+ ()Ljavax/swing/event/ListDataListener;
+createListSelectionListener
+ ()Ljavax/swing/event/ListSelectionListener;
+ ()Ljavax/swing/event/ListSelectionListener;
+createMouseInputListener
+ ()Ljavax/swing/event/MouseInputListener;
+ ()Ljavax/swing/event/MouseInputListener;
+createPropertyChangeListener
+ ()Ljava/beans/PropertyChangeListener;
+ ()Ljava/beans/PropertyChangeListener;
+getBaseline
+ (Ljavax/swing/JComponent;II)I
+ (Ljavax/swing/JComponent;II)I
+getBaselineResizeBehavior
+ (Ljavax/swing/JComponent;)Ljava/awt/Component$BaselineResizeBehavior;
+ (Ljavax/swing/JComponent;)Ljava/awt/Component$BaselineResizeBehavior;
+getCellBounds
+ (Ljavax/swing/JList<*>;II)Ljava/awt/Rectangle;
+ (Ljavax/swing/JList<*>;II)Ljava/awt/Rectangle;
+getPreferredSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+indexToLocation
+ (Ljavax/swing/JList<*>;I)Ljava/awt/Point;
+ (Ljavax/swing/JList<*>;I)Ljava/awt/Point;
+installUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+locationToIndex
+ (Ljavax/swing/JList<*>;Ljava/awt/Point;)I
+ (Ljavax/swing/JList<*>;Ljava/awt/Point;)I
+paint
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+paintCell
+ (Ljava/awt/Graphics;ILjava/awt/Rectangle;Ljavax/swing/ListCellRenderer<Ljava/lang/Object;>;Ljavax/swing/ListModel<Ljava/lang/Object;>;Ljavax/swing/ListSelectionModel;I)V
+ (Ljava/awt/Graphics;ILjava/awt/Rectangle;Ljavax/swing/ListCellRenderer<Ljava/lang/Object;>;Ljavax/swing/ListModel<Ljava/lang/Object;>;Ljavax/swing/ListSelectionModel;I)V
+uninstallUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V

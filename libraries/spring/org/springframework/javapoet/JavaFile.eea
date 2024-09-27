@@ -1,0 +1,52 @@
+class org/springframework/javapoet/JavaFile
+
+builder
+ (Ljava/lang/String;Lorg/springframework/javapoet/TypeSpec;)Lorg/springframework/javapoet/JavaFile$Builder;
+ (Ljava/lang/String;Lorg/springframework/javapoet/TypeSpec;)Lorg/springframework/javapoet/JavaFile$Builder;
+
+fileComment
+ Lorg/springframework/javapoet/CodeBlock;
+ Lorg/springframework/javapoet/CodeBlock;
+packageName
+ Ljava/lang/String;
+ Ljava/lang/String;
+typeSpec
+ Lorg/springframework/javapoet/TypeSpec;
+ Lorg/springframework/javapoet/TypeSpec;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+toBuilder
+ ()Lorg/springframework/javapoet/JavaFile$Builder;
+ ()Lorg/springframework/javapoet/JavaFile$Builder;
+toJavaFileObject
+ ()Ljavax/tools/JavaFileObject;
+ ()Ljavax/tools/JavaFileObject;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+writeTo
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+writeTo
+ (Ljava/lang/Appendable;)V
+ (Ljava/lang/Appendable;)V
+writeTo
+ (Ljava/nio/file/Path;)V
+ (Ljava/nio/file/Path;)V
+writeTo
+ (Ljava/nio/file/Path;Ljava/nio/charset/Charset;)V
+ (Ljava/nio/file/Path;Ljava/nio/charset/Charset;)V
+writeTo
+ (Ljavax/annotation/processing/Filer;)V
+ (Ljavax/annotation/processing/Filer;)V
+writeToFile
+ (Ljava/io/File;)Ljava/io/File;
+ (Ljava/io/File;)Ljava/io/File;
+writeToPath
+ (Ljava/nio/file/Path;)Ljava/nio/file/Path;
+ (Ljava/nio/file/Path;)Ljava/nio/file/Path;
+writeToPath
+ (Ljava/nio/file/Path;Ljava/nio/charset/Charset;)Ljava/nio/file/Path;
+ (Ljava/nio/file/Path;Ljava/nio/charset/Charset;)Ljava/nio/file/Path;

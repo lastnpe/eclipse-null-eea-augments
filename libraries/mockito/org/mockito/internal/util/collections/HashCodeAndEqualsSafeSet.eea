@@ -1,0 +1,52 @@
+class org/mockito/internal/util/collections/HashCodeAndEqualsSafeSet
+
+super java/util/Set
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+of
+ (Ljava/lang/Iterable<Ljava/lang/Object;>;)Lorg/mockito/internal/util/collections/HashCodeAndEqualsSafeSet;
+ (Ljava/lang/Iterable<Ljava/lang/Object;>;)Lorg/mockito/internal/util/collections/HashCodeAndEqualsSafeSet;
+of
+ ([Ljava/lang/Object;)Lorg/mockito/internal/util/collections/HashCodeAndEqualsSafeSet;
+ ([Ljava/lang/Object;)Lorg/mockito/internal/util/collections/HashCodeAndEqualsSafeSet;
+
+add
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+addAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+contains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+containsAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+iterator
+ ()Ljava/util/Iterator<Ljava/lang/Object;>;
+ ()Ljava/util/Iterator<Ljava/lang/Object;>;
+remove
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+removeAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+retainAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+toArray
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+toArray
+ <T:Ljava/lang/Object;>([TT;)[TT;
+ <T:Ljava/lang/Object;>([TT;)[TT;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

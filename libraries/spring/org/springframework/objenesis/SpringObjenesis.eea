@@ -1,0 +1,21 @@
+class org/springframework/objenesis/SpringObjenesis
+
+IGNORE_OBJENESIS_PROPERTY_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Lorg/springframework/objenesis/strategy/InstantiatorStrategy;)V
+ (Lorg/springframework/objenesis/strategy/InstantiatorStrategy;)V
+getInstantiatorOf
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/springframework/objenesis/instantiator/ObjectInstantiator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/springframework/objenesis/instantiator/ObjectInstantiator<TT;>;
+newInstance
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+newInstance
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Z)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Z)TT;
+newInstantiatorOf
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/springframework/objenesis/instantiator/ObjectInstantiator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/springframework/objenesis/instantiator/ObjectInstantiator<TT;>;

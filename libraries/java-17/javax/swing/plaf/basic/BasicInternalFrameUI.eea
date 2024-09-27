@@ -1,0 +1,148 @@
+class javax/swing/plaf/basic/BasicInternalFrameUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+borderListener
+ Ljavax/swing/event/MouseInputAdapter;
+ Ljavax/swing/event/MouseInputAdapter;
+componentListener
+ Ljava/awt/event/ComponentListener;
+ Ljava/awt/event/ComponentListener;
+eastPane
+ Ljavax/swing/JComponent;
+ Ljavax/swing/JComponent;
+frame
+ Ljavax/swing/JInternalFrame;
+ Ljavax/swing/JInternalFrame;
+glassPaneDispatcher
+ Ljavax/swing/event/MouseInputListener;
+ Ljavax/swing/event/MouseInputListener;
+internalFrameLayout
+ Ljava/awt/LayoutManager;
+ Ljava/awt/LayoutManager;
+northPane
+ Ljavax/swing/JComponent;
+ Ljavax/swing/JComponent;
+openMenuKey
+ Ljavax/swing/KeyStroke;
+ Ljavax/swing/KeyStroke;
+propertyChangeListener
+ Ljava/beans/PropertyChangeListener;
+ Ljava/beans/PropertyChangeListener;
+southPane
+ Ljavax/swing/JComponent;
+ Ljavax/swing/JComponent;
+titlePane
+ Ljavax/swing/plaf/basic/BasicInternalFrameTitlePane;
+ Ljavax/swing/plaf/basic/BasicInternalFrameTitlePane;
+westPane
+ Ljavax/swing/JComponent;
+ Ljavax/swing/JComponent;
+
+<init>
+ (Ljavax/swing/JInternalFrame;)V
+ (Ljavax/swing/JInternalFrame;)V
+activateFrame
+ (Ljavax/swing/JInternalFrame;)V
+ (Ljavax/swing/JInternalFrame;)V
+closeFrame
+ (Ljavax/swing/JInternalFrame;)V
+ (Ljavax/swing/JInternalFrame;)V
+createBorderListener
+ (Ljavax/swing/JInternalFrame;)Ljavax/swing/event/MouseInputAdapter;
+ (Ljavax/swing/JInternalFrame;)Ljavax/swing/event/MouseInputAdapter;
+createComponentListener
+ ()Ljava/awt/event/ComponentListener;
+ ()Ljava/awt/event/ComponentListener;
+createDesktopManager
+ ()Ljavax/swing/DesktopManager;
+ ()Ljavax/swing/DesktopManager;
+createEastPane
+ (Ljavax/swing/JInternalFrame;)Ljavax/swing/JComponent;
+ (Ljavax/swing/JInternalFrame;)Ljavax/swing/JComponent;
+createGlassPaneDispatcher
+ ()Ljavax/swing/event/MouseInputListener;
+ ()Ljavax/swing/event/MouseInputListener;
+createLayoutManager
+ ()Ljava/awt/LayoutManager;
+ ()Ljava/awt/LayoutManager;
+createNorthPane
+ (Ljavax/swing/JInternalFrame;)Ljavax/swing/JComponent;
+ (Ljavax/swing/JInternalFrame;)Ljavax/swing/JComponent;
+createPropertyChangeListener
+ ()Ljava/beans/PropertyChangeListener;
+ ()Ljava/beans/PropertyChangeListener;
+createSouthPane
+ (Ljavax/swing/JInternalFrame;)Ljavax/swing/JComponent;
+ (Ljavax/swing/JInternalFrame;)Ljavax/swing/JComponent;
+createWestPane
+ (Ljavax/swing/JInternalFrame;)Ljavax/swing/JComponent;
+ (Ljavax/swing/JInternalFrame;)Ljavax/swing/JComponent;
+deactivateFrame
+ (Ljavax/swing/JInternalFrame;)V
+ (Ljavax/swing/JInternalFrame;)V
+deiconifyFrame
+ (Ljavax/swing/JInternalFrame;)V
+ (Ljavax/swing/JInternalFrame;)V
+deinstallMouseHandlers
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+getDesktopManager
+ ()Ljavax/swing/DesktopManager;
+ ()Ljavax/swing/DesktopManager;
+getEastPane
+ ()Ljavax/swing/JComponent;
+ ()Ljavax/swing/JComponent;
+getMaximumSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getMinimumSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getNorthPane
+ ()Ljavax/swing/JComponent;
+ ()Ljavax/swing/JComponent;
+getPreferredSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getSouthPane
+ ()Ljavax/swing/JComponent;
+ ()Ljavax/swing/JComponent;
+getWestPane
+ ()Ljavax/swing/JComponent;
+ ()Ljavax/swing/JComponent;
+iconifyFrame
+ (Ljavax/swing/JInternalFrame;)V
+ (Ljavax/swing/JInternalFrame;)V
+installMouseHandlers
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+installUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+maximizeFrame
+ (Ljavax/swing/JInternalFrame;)V
+ (Ljavax/swing/JInternalFrame;)V
+minimizeFrame
+ (Ljavax/swing/JInternalFrame;)V
+ (Ljavax/swing/JInternalFrame;)V
+replacePane
+ (Ljavax/swing/JComponent;Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;Ljavax/swing/JComponent;)V
+setEastPane
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+setNorthPane
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+setSouthPane
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+setWestPane
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+uninstallUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V

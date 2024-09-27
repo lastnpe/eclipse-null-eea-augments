@@ -1,0 +1,57 @@
+class javax/swing/text/PlainView
+
+metrics
+ Ljava/awt/FontMetrics;
+ Ljava/awt/FontMetrics;
+
+<init>
+ (Ljavax/swing/text/Element;)V
+ (Ljavax/swing/text/Element;)V
+changedUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+damageLineRange
+ (IILjava/awt/Shape;Ljava/awt/Component;)V
+ (IILjava/awt/Shape;Ljava/awt/Component;)V
+drawLine
+ (ILjava/awt/Graphics2D;FF)V
+ (ILjava/awt/Graphics2D;FF)V
+drawLine
+ (ILjava/awt/Graphics;II)V
+ (ILjava/awt/Graphics;II)V
+drawSelectedText
+ (Ljava/awt/Graphics2D;FFII)F
+ (Ljava/awt/Graphics2D;FFII)F
+drawSelectedText
+ (Ljava/awt/Graphics;IIII)I
+ (Ljava/awt/Graphics;IIII)I
+drawUnselectedText
+ (Ljava/awt/Graphics2D;FFII)F
+ (Ljava/awt/Graphics2D;FFII)F
+drawUnselectedText
+ (Ljava/awt/Graphics;IIII)I
+ (Ljava/awt/Graphics;IIII)I
+getLineBuffer
+ ()Ljavax/swing/text/Segment;
+ ()Ljavax/swing/text/Segment;
+insertUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+lineToRect
+ (Ljava/awt/Shape;I)Ljava/awt/Rectangle;
+ (Ljava/awt/Shape;I)Ljava/awt/Rectangle;
+modelToView
+ (ILjava/awt/Shape;Ljavax/swing/text/Position$Bias;)Ljava/awt/Shape;
+ (ILjava/awt/Shape;Ljavax/swing/text/Position$Bias;)Ljava/awt/Shape;
+paint
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V
+removeUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+updateDamage
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+viewToModel
+ (FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I
+ (FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I

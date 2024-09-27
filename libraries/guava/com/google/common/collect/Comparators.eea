@@ -1,0 +1,35 @@
+class com/google/common/collect/Comparators
+
+emptiesFirst
+ <T:Ljava/lang/Object;>(Ljava/util/Comparator<-TT;>;)Ljava/util/Comparator<Ljava/util/Optional<TT;>;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Comparator<-TT;>;)Ljava/util/Comparator<Ljava/util/Optional<TT;>;>;
+emptiesLast
+ <T:Ljava/lang/Object;>(Ljava/util/Comparator<-TT;>;)Ljava/util/Comparator<Ljava/util/Optional<TT;>;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Comparator<-TT;>;)Ljava/util/Comparator<Ljava/util/Optional<TT;>;>;
+greatest
+ <T:Ljava/lang/Object;>(ILjava/util/Comparator<-TT;>;)Ljava/util/stream/Collector<TT;*Ljava/util/List<TT;>;>;
+ <T:Ljava/lang/Object;>(ILjava/util/Comparator<-TT;>;)Ljava/util/stream/Collector<TT;*Ljava/util/List<TT;>;>;
+isInOrder
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+TT;>;Ljava/util/Comparator<TT;>;)Z
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+TT;>;Ljava/util/Comparator<TT;>;)Z
+isInStrictOrder
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+TT;>;Ljava/util/Comparator<TT;>;)Z
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+TT;>;Ljava/util/Comparator<TT;>;)Z
+least
+ <T:Ljava/lang/Object;>(ILjava/util/Comparator<-TT;>;)Ljava/util/stream/Collector<TT;*Ljava/util/List<TT;>;>;
+ <T:Ljava/lang/Object;>(ILjava/util/Comparator<-TT;>;)Ljava/util/stream/Collector<TT;*Ljava/util/List<TT;>;>;
+lexicographical
+ <T:Ljava/lang/Object;S:TT;>(Ljava/util/Comparator<TT;>;)Ljava/util/Comparator<Ljava/lang/Iterable<TS;>;>;
+ <T:Ljava/lang/Object;S:TT;>(Ljava/util/Comparator<TT;>;)Ljava/util/Comparator<Ljava/lang/Iterable<TS;>;>;
+max
+ <T::Ljava/lang/Comparable<-TT;>;>(TT;TT;)TT;
+ <T::Ljava/lang/Comparable<-TT;>;>(TT;TT;)TT;
+max
+ <T:Ljava/lang/Object;>(TT;TT;Ljava/util/Comparator<-TT;>;)TT;
+ <T:Ljava/lang/Object;>(TT;TT;Ljava/util/Comparator<-TT;>;)T1T;
+min
+ <T::Ljava/lang/Comparable<-TT;>;>(TT;TT;)TT;
+ <T::Ljava/lang/Comparable<-TT;>;>(TT;TT;)TT;
+min
+ <T:Ljava/lang/Object;>(TT;TT;Ljava/util/Comparator<-TT;>;)TT;
+ <T:Ljava/lang/Object;>(TT;TT;Ljava/util/Comparator<-TT;>;)T1T;

@@ -1,0 +1,104 @@
+class javax/management/relation/RelationService
+
+addRelation
+ (Ljavax/management/ObjectName;)V
+ (Ljavax/management/ObjectName;)V
+addRelationType
+ (Ljavax/management/relation/RelationType;)V
+ (Ljavax/management/relation/RelationType;)V
+checkRoleReading
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Integer;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Integer;
+checkRoleWriting
+ (Ljavax/management/relation/Role;Ljava/lang/String;Ljava/lang/Boolean;)Ljava/lang/Integer;
+ (Ljavax/management/relation/Role;Ljava/lang/String;Ljava/lang/Boolean;)Ljava/lang/Integer;
+createRelation
+ (Ljava/lang/String;Ljava/lang/String;Ljavax/management/relation/RoleList;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljavax/management/relation/RoleList;)V
+createRelationType
+ (Ljava/lang/String;[Ljavax/management/relation/RoleInfo;)V
+ (Ljava/lang/String;[Ljavax/management/relation/RoleInfo;)V
+findAssociatedMBeans
+ (Ljavax/management/ObjectName;Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map<Ljavax/management/ObjectName;Ljava/util/List<Ljava/lang/String;>;>;
+ (Ljavax/management/ObjectName;Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map<Ljavax/management/ObjectName;Ljava/util/List<Ljava/lang/String;>;>;
+findReferencingRelations
+ (Ljavax/management/ObjectName;Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;
+ (Ljavax/management/ObjectName;Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;
+findRelationsOfType
+ (Ljava/lang/String;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/lang/String;)Ljava/util/List<Ljava/lang/String;>;
+getAllRelationIds
+ ()Ljava/util/List<Ljava/lang/String;>;
+ ()Ljava/util/List<Ljava/lang/String;>;
+getAllRelationTypeNames
+ ()Ljava/util/List<Ljava/lang/String;>;
+ ()Ljava/util/List<Ljava/lang/String;>;
+getAllRoles
+ (Ljava/lang/String;)Ljavax/management/relation/RoleResult;
+ (Ljava/lang/String;)Ljavax/management/relation/RoleResult;
+getNotificationInfo
+ ()[Ljavax/management/MBeanNotificationInfo;
+ ()[Ljavax/management/MBeanNotificationInfo;
+getReferencedMBeans
+ (Ljava/lang/String;)Ljava/util/Map<Ljavax/management/ObjectName;Ljava/util/List<Ljava/lang/String;>;>;
+ (Ljava/lang/String;)Ljava/util/Map<Ljavax/management/ObjectName;Ljava/util/List<Ljava/lang/String;>;>;
+getRelationTypeName
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getRole
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/util/List<Ljavax/management/ObjectName;>;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/util/List<Ljavax/management/ObjectName;>;
+getRoleCardinality
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Integer;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Integer;
+getRoleInfo
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/management/relation/RoleInfo;
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/management/relation/RoleInfo;
+getRoleInfos
+ (Ljava/lang/String;)Ljava/util/List<Ljavax/management/relation/RoleInfo;>;
+ (Ljava/lang/String;)Ljava/util/List<Ljavax/management/relation/RoleInfo;>;
+getRoles
+ (Ljava/lang/String;[Ljava/lang/String;)Ljavax/management/relation/RoleResult;
+ (Ljava/lang/String;[Ljava/lang/String;)Ljavax/management/relation/RoleResult;
+handleNotification
+ (Ljavax/management/Notification;Ljava/lang/Object;)V
+ (Ljavax/management/Notification;Ljava/lang/Object;)V
+hasRelation
+ (Ljava/lang/String;)Ljava/lang/Boolean;
+ (Ljava/lang/String;)Ljava/lang/Boolean;
+isRelation
+ (Ljavax/management/ObjectName;)Ljava/lang/String;
+ (Ljavax/management/ObjectName;)Ljava/lang/String;
+isRelationMBean
+ (Ljava/lang/String;)Ljavax/management/ObjectName;
+ (Ljava/lang/String;)Ljavax/management/ObjectName;
+postRegister
+ (Ljava/lang/Boolean;)V
+ (Ljava/lang/Boolean;)V
+preRegister
+ (Ljavax/management/MBeanServer;Ljavax/management/ObjectName;)Ljavax/management/ObjectName;
+ (Ljavax/management/MBeanServer;Ljavax/management/ObjectName;)Ljavax/management/ObjectName;
+removeRelation
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+removeRelationType
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+sendRelationCreationNotification
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+sendRelationRemovalNotification
+ (Ljava/lang/String;Ljava/util/List<Ljavax/management/ObjectName;>;)V
+ (Ljava/lang/String;Ljava/util/List<Ljavax/management/ObjectName;>;)V
+sendRoleUpdateNotification
+ (Ljava/lang/String;Ljavax/management/relation/Role;Ljava/util/List<Ljavax/management/ObjectName;>;)V
+ (Ljava/lang/String;Ljavax/management/relation/Role;Ljava/util/List<Ljavax/management/ObjectName;>;)V
+setRole
+ (Ljava/lang/String;Ljavax/management/relation/Role;)V
+ (Ljava/lang/String;Ljavax/management/relation/Role;)V
+setRoles
+ (Ljava/lang/String;Ljavax/management/relation/RoleList;)Ljavax/management/relation/RoleResult;
+ (Ljava/lang/String;Ljavax/management/relation/RoleList;)Ljavax/management/relation/RoleResult;
+updateRoleMap
+ (Ljava/lang/String;Ljavax/management/relation/Role;Ljava/util/List<Ljavax/management/ObjectName;>;)V
+ (Ljava/lang/String;Ljavax/management/relation/Role;Ljava/util/List<Ljavax/management/ObjectName;>;)V

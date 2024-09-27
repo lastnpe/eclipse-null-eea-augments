@@ -1,0 +1,38 @@
+class com/google/common/cache/ForwardingCache
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/cache/Cache
+ <TK;TV;>
+ <TK;TV;>
+
+asMap
+ ()Ljava/util/concurrent/ConcurrentMap<TK;TV;>;
+ ()L1java/util/concurrent/ConcurrentMap<TK;TV;>; # @Inherited(com.google.common.cache.Cache)
+delegate
+ ()Lcom/google/common/cache/Cache<TK;TV;>;
+ ()Lcom/google/common/cache/Cache<TK;TV;>;
+get
+ (TK;Ljava/util/concurrent/Callable<+TV;>;)TV;
+ (TK;Ljava/util/concurrent/Callable<+1TV;>;)T1V; # @Inherited(com.google.common.cache.Cache)
+getAllPresent
+ (Ljava/lang/Iterable<+Ljava/lang/Object;>;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+ (Ljava/lang/Iterable<+Ljava/lang/Object;>;)L1com/google/common/collect/ImmutableMap<TK;TV;>; # @Inherited(com.google.common.cache.Cache)
+getIfPresent
+ (Ljava/lang/Object;)TV;
+ (Ljava/lang/Object;)T0V; # @Inherited(com.google.common.cache.Cache)
+invalidate
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+invalidateAll
+ (Ljava/lang/Iterable<+Ljava/lang/Object;>;)V
+ (Ljava/lang/Iterable<+Ljava/lang/Object;>;)V
+put
+ (TK;TV;)V
+ (TK;TV;)V
+putAll
+ (Ljava/util/Map<+TK;+TV;>;)V
+ (L1java/util/Map<+TK;+TV;>;)V # @Inherited(com.google.common.cache.Cache)
+stats
+ ()Lcom/google/common/cache/CacheStats;
+ ()Lcom/google/common/cache/CacheStats;

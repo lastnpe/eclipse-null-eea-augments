@@ -1,0 +1,92 @@
+class org/mockito/internal/creation/MockSettingsImpl
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/mockito/internal/creation/settings/CreationSettings
+ <TT;>
+ <TT;>
+super org/mockito/mock/MockCreationSettings
+ <TT;>
+ <TT;>
+
+build
+ <T2:Ljava/lang/Object;>(Ljava/lang/Class<TT2;>;)Lorg/mockito/mock/MockCreationSettings<TT2;>;
+ <T2:Ljava/lang/Object;>(Ljava/lang/Class<TT2;>;)Lorg/mockito/mock/MockCreationSettings<TT2;>;
+buildStatic
+ <T2:Ljava/lang/Object;>(Ljava/lang/Class<TT2;>;)Lorg/mockito/mock/MockCreationSettings<TT2;>;
+ <T2:Ljava/lang/Object;>(Ljava/lang/Class<TT2;>;)Lorg/mockito/mock/MockCreationSettings<TT2;>;
+defaultAnswer
+ (Lorg/mockito/stubbing/Answer;)Lorg/mockito/MockSettings;
+ (Lorg/mockito/stubbing/Answer;)Lorg/mockito/MockSettings;
+extraInterfaces
+ ([Ljava/lang/Class<*>;)Lorg/mockito/MockSettings;
+ ([Ljava/lang/Class<*>;)Lorg/mockito/MockSettings;
+genericTypeToMock
+ (Ljava/lang/reflect/Type;)Lorg/mockito/MockSettings;
+ (Ljava/lang/reflect/Type;)Lorg/mockito/MockSettings;
+getConstructorArgs
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+getDefaultAnswer
+ ()Lorg/mockito/stubbing/Answer<Ljava/lang/Object;>;
+ ()Lorg/mockito/stubbing/Answer<Ljava/lang/Object;>;
+getExtraInterfaces
+ ()Ljava/util/Set<Ljava/lang/Class<*>;>;
+ ()Ljava/util/Set<Ljava/lang/Class<*>;>;
+getMockName
+ ()Lorg/mockito/mock/MockName;
+ ()Lorg/mockito/mock/MockName;
+getOuterClassInstance
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getSpiedInstance
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getTypeToMock
+ ()Ljava/lang/Class<TT;>;
+ ()Ljava/lang/Class<TT;>;
+invocationListeners
+ ([Lorg/mockito/listeners/InvocationListener;)Lorg/mockito/MockSettings;
+ ([Lorg/mockito/listeners/InvocationListener;)Lorg/mockito/MockSettings;
+lenient
+ ()Lorg/mockito/MockSettings;
+ ()Lorg/mockito/MockSettings;
+mockMaker
+ (Ljava/lang/String;)Lorg/mockito/MockSettings;
+ (Ljava/lang/String;)Lorg/mockito/MockSettings;
+name
+ (Ljava/lang/String;)Lorg/mockito/MockSettings;
+ (Ljava/lang/String;)Lorg/mockito/MockSettings;
+outerInstance
+ (Ljava/lang/Object;)Lorg/mockito/MockSettings;
+ (Ljava/lang/Object;)Lorg/mockito/MockSettings;
+serializable
+ ()Lorg/mockito/MockSettings;
+ ()Lorg/mockito/MockSettings;
+serializable
+ (Lorg/mockito/mock/SerializableMode;)Lorg/mockito/MockSettings;
+ (Lorg/mockito/mock/SerializableMode;)Lorg/mockito/MockSettings;
+spiedInstance
+ (Ljava/lang/Object;)Lorg/mockito/MockSettings;
+ (Ljava/lang/Object;)Lorg/mockito/MockSettings;
+strictness
+ (Lorg/mockito/quality/Strictness;)Lorg/mockito/MockSettings;
+ (Lorg/mockito/quality/Strictness;)Lorg/mockito/MockSettings;
+stubOnly
+ ()Lorg/mockito/internal/creation/MockSettingsImpl<TT;>;
+ ()Lorg/mockito/internal/creation/MockSettingsImpl<TT;>;
+stubbingLookupListeners
+ ([Lorg/mockito/listeners/StubbingLookupListener;)Lorg/mockito/MockSettings;
+ ([Lorg/mockito/listeners/StubbingLookupListener;)Lorg/mockito/MockSettings;
+useConstructor
+ ([Ljava/lang/Object;)Lorg/mockito/MockSettings;
+ ([Ljava/lang/Object;)Lorg/mockito/MockSettings;
+verboseLogging
+ ()Lorg/mockito/MockSettings;
+ ()Lorg/mockito/MockSettings;
+verificationStartedListeners
+ ([Lorg/mockito/listeners/VerificationStartedListener;)Lorg/mockito/MockSettings;
+ ([Lorg/mockito/listeners/VerificationStartedListener;)Lorg/mockito/MockSettings;
+withoutAnnotations
+ ()Lorg/mockito/MockSettings;
+ ()Lorg/mockito/MockSettings;

@@ -1,0 +1,40 @@
+class java/security/Policy
+
+UNSUPPORTED_EMPTY_COLLECTION
+ Ljava/security/PermissionCollection;
+ L1java/security/PermissionCollection;
+
+getInstance
+ (Ljava/lang/String;Ljava/security/Policy$Parameters;)Ljava/security/Policy;
+ (Ljava/lang/String;Ljava/security/Policy$Parameters;)Ljava/security/Policy;
+getInstance
+ (Ljava/lang/String;Ljava/security/Policy$Parameters;Ljava/lang/String;)Ljava/security/Policy;
+ (Ljava/lang/String;Ljava/security/Policy$Parameters;Ljava/lang/String;)Ljava/security/Policy;
+getInstance
+ (Ljava/lang/String;Ljava/security/Policy$Parameters;Ljava/security/Provider;)Ljava/security/Policy;
+ (Ljava/lang/String;Ljava/security/Policy$Parameters;Ljava/security/Provider;)Ljava/security/Policy;
+getPolicy
+ ()Ljava/security/Policy;
+ ()Ljava/security/Policy;
+setPolicy
+ (Ljava/security/Policy;)V
+ (Ljava/security/Policy;)V
+
+getParameters
+ ()Ljava/security/Policy$Parameters;
+ ()Ljava/security/Policy$Parameters;
+getPermissions
+ (Ljava/security/CodeSource;)Ljava/security/PermissionCollection;
+ (Ljava/security/CodeSource;)Ljava/security/PermissionCollection;
+getPermissions
+ (Ljava/security/ProtectionDomain;)Ljava/security/PermissionCollection;
+ (Ljava/security/ProtectionDomain;)Ljava/security/PermissionCollection;
+getProvider
+ ()Ljava/security/Provider;
+ ()Ljava/security/Provider;
+getType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+implies
+ (Ljava/security/ProtectionDomain;Ljava/security/Permission;)Z
+ (Ljava/security/ProtectionDomain;Ljava/security/Permission;)Z

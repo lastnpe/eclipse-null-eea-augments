@@ -1,0 +1,27 @@
+class javax/imageio/spi/IIOServiceProvider
+
+vendorName
+ Ljava/lang/String;
+ Ljava/lang/String;
+version
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+getDescription
+ (Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/util/Locale;)Ljava/lang/String;
+getVendorName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getVersion
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+onDeregistration
+ (Ljavax/imageio/spi/ServiceRegistry;Ljava/lang/Class<*>;)V
+ (Ljavax/imageio/spi/ServiceRegistry;Ljava/lang/Class<*>;)V
+onRegistration
+ (Ljavax/imageio/spi/ServiceRegistry;Ljava/lang/Class<*>;)V
+ (Ljavax/imageio/spi/ServiceRegistry;Ljava/lang/Class<*>;)V

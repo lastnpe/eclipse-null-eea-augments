@@ -1,0 +1,33 @@
+class javax/imageio/ImageReadParam
+
+destination
+ Ljava/awt/image/BufferedImage;
+ Ljava/awt/image/BufferedImage;
+destinationBands
+ [I
+ [I
+sourceRenderSize
+ Ljava/awt/Dimension;
+ Ljava/awt/Dimension;
+
+getDestination
+ ()Ljava/awt/image/BufferedImage;
+ ()Ljava/awt/image/BufferedImage;
+getDestinationBands
+ ()[I
+ ()[I
+getSourceRenderSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+setDestination
+ (Ljava/awt/image/BufferedImage;)V
+ (Ljava/awt/image/BufferedImage;)V
+setDestinationBands
+ ([I)V
+ ([I)V
+setDestinationType
+ (Ljavax/imageio/ImageTypeSpecifier;)V
+ (Ljavax/imageio/ImageTypeSpecifier;)V
+setSourceRenderSize
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V

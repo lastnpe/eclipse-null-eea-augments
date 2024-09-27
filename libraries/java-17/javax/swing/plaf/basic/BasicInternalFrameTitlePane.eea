@@ -1,0 +1,115 @@
+class javax/swing/plaf/basic/BasicInternalFrameTitlePane
+
+CLOSE_CMD
+ Ljava/lang/String;
+ L1java/lang/String;
+ICONIFY_CMD
+ Ljava/lang/String;
+ L1java/lang/String;
+MAXIMIZE_CMD
+ Ljava/lang/String;
+ L1java/lang/String;
+MOVE_CMD
+ Ljava/lang/String;
+ L1java/lang/String;
+RESTORE_CMD
+ Ljava/lang/String;
+ L1java/lang/String;
+SIZE_CMD
+ Ljava/lang/String;
+ L1java/lang/String;
+
+closeAction
+ Ljavax/swing/Action;
+ Ljavax/swing/Action;
+closeButton
+ Ljavax/swing/JButton;
+ Ljavax/swing/JButton;
+closeIcon
+ Ljavax/swing/Icon;
+ Ljavax/swing/Icon;
+frame
+ Ljavax/swing/JInternalFrame;
+ Ljavax/swing/JInternalFrame;
+iconButton
+ Ljavax/swing/JButton;
+ Ljavax/swing/JButton;
+iconIcon
+ Ljavax/swing/Icon;
+ Ljavax/swing/Icon;
+iconifyAction
+ Ljavax/swing/Action;
+ Ljavax/swing/Action;
+maxButton
+ Ljavax/swing/JButton;
+ Ljavax/swing/JButton;
+maxIcon
+ Ljavax/swing/Icon;
+ Ljavax/swing/Icon;
+maximizeAction
+ Ljavax/swing/Action;
+ Ljavax/swing/Action;
+menuBar
+ Ljavax/swing/JMenuBar;
+ Ljavax/swing/JMenuBar;
+minIcon
+ Ljavax/swing/Icon;
+ Ljavax/swing/Icon;
+moveAction
+ Ljavax/swing/Action;
+ Ljavax/swing/Action;
+notSelectedTextColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+notSelectedTitleColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+propertyChangeListener
+ Ljava/beans/PropertyChangeListener;
+ Ljava/beans/PropertyChangeListener;
+restoreAction
+ Ljavax/swing/Action;
+ Ljavax/swing/Action;
+selectedTextColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+selectedTitleColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+sizeAction
+ Ljavax/swing/Action;
+ Ljavax/swing/Action;
+windowMenu
+ Ljavax/swing/JMenu;
+ Ljavax/swing/JMenu;
+
+<init>
+ (Ljavax/swing/JInternalFrame;)V
+ (Ljavax/swing/JInternalFrame;)V
+addSystemMenuItems
+ (Ljavax/swing/JMenu;)V
+ (Ljavax/swing/JMenu;)V
+createLayout
+ ()Ljava/awt/LayoutManager;
+ ()Ljava/awt/LayoutManager;
+createPropertyChangeListener
+ ()Ljava/beans/PropertyChangeListener;
+ ()Ljava/beans/PropertyChangeListener;
+createSystemMenu
+ ()Ljavax/swing/JMenu;
+ ()Ljavax/swing/JMenu;
+createSystemMenuBar
+ ()Ljavax/swing/JMenuBar;
+ ()Ljavax/swing/JMenuBar;
+getTitle
+ (Ljava/lang/String;Ljava/awt/FontMetrics;I)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/awt/FontMetrics;I)Ljava/lang/String;
+paintComponent
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paintTitleBackground
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+postClosingEvent
+ (Ljavax/swing/JInternalFrame;)V
+ (Ljavax/swing/JInternalFrame;)V

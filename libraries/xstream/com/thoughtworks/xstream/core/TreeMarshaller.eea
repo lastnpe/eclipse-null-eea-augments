@@ -1,0 +1,36 @@
+class com/thoughtworks/xstream/core/TreeMarshaller
+
+converterLookup
+ Lcom/thoughtworks/xstream/converters/ConverterLookup;
+ Lcom/thoughtworks/xstream/converters/ConverterLookup;
+writer
+ Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+ Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+
+<init>
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Lcom/thoughtworks/xstream/converters/ConverterLookup;Lcom/thoughtworks/xstream/mapper/Mapper;)V
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Lcom/thoughtworks/xstream/converters/ConverterLookup;Lcom/thoughtworks/xstream/mapper/Mapper;)V
+convert
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/converters/Converter;)V
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/converters/Converter;)V
+convertAnother
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+convertAnother
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/converters/Converter;)V
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/converters/Converter;)V
+get
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+getMapper
+ ()Lcom/thoughtworks/xstream/mapper/Mapper;
+ ()Lcom/thoughtworks/xstream/mapper/Mapper;
+keys
+ ()Ljava/util/Iterator;
+ ()Ljava/util/Iterator;
+put
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+start
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/converters/DataHolder;)V
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/converters/DataHolder;)V

@@ -1,0 +1,48 @@
+class com/google/common/collect/ConcurrentHashMultiset
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super com/google/common/collect/AbstractMultiset
+ <TE;>
+ <TE;>
+
+create
+ <E:Ljava/lang/Object;>()Lcom/google/common/collect/ConcurrentHashMultiset<TE;>;
+ <E:Ljava/lang/Object;>()Lcom/google/common/collect/ConcurrentHashMultiset<TE;>;
+create
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<+TE;>;)Lcom/google/common/collect/ConcurrentHashMultiset<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<+TE;>;)Lcom/google/common/collect/ConcurrentHashMultiset<TE;>;
+create
+ <E:Ljava/lang/Object;>(Ljava/util/concurrent/ConcurrentMap<TE;Ljava/util/concurrent/atomic/AtomicInteger;>;)Lcom/google/common/collect/ConcurrentHashMultiset<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/concurrent/ConcurrentMap<TE;Ljava/util/concurrent/atomic/AtomicInteger;>;)Lcom/google/common/collect/ConcurrentHashMultiset<TE;>;
+
+add
+ (TE;I)I
+ (TE;I)I
+count
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+createEntrySet
+ ()Ljava/util/Set<Lcom/google/common/collect/Multiset$Entry<TE;>;>;
+ ()Ljava/util/Set<Lcom/google/common/collect/Multiset$Entry<TE;>;>;
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()Ljava/util/Iterator<TE;>;
+remove
+ (Ljava/lang/Object;I)I
+ (Ljava/lang/Object;I)I
+removeExactly
+ (Ljava/lang/Object;I)Z
+ (Ljava/lang/Object;I)Z
+setCount
+ (TE;I)I
+ (TE;I)I
+setCount
+ (TE;II)Z
+ (TE;II)Z
+toArray
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+toArray
+ <T:Ljava/lang/Object;>([TT;)[TT;
+ <T:Ljava/lang/Object;>([TT;)[TT;

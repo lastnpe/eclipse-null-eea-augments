@@ -1,0 +1,74 @@
+class org/junit/jupiter/api/extension/ExtensionContext
+
+getConfigurationParameter
+ (Ljava/lang/String;)Ljava/util/Optional<Ljava/lang/String;>;
+ (Ljava/lang/String;)Ljava/util/Optional<Ljava/lang/String;>;
+getConfigurationParameter
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/util/function/Function<Ljava/lang/String;TT;>;)Ljava/util/Optional<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/util/function/Function<Ljava/lang/String;TT;>;)Ljava/util/Optional<TT;>;
+getDisplayName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getElement
+ ()Ljava/util/Optional<Ljava/lang/reflect/AnnotatedElement;>;
+ ()Ljava/util/Optional<Ljava/lang/reflect/AnnotatedElement;>;
+getExecutableInvoker
+ ()Lorg/junit/jupiter/api/extension/ExecutableInvoker;
+ ()Lorg/junit/jupiter/api/extension/ExecutableInvoker;
+getExecutionException
+ ()Ljava/util/Optional<Ljava/lang/Throwable;>;
+ ()Ljava/util/Optional<Ljava/lang/Throwable;>;
+getExecutionMode
+ ()Lorg/junit/jupiter/api/parallel/ExecutionMode;
+ ()Lorg/junit/jupiter/api/parallel/ExecutionMode;
+getParent
+ ()Ljava/util/Optional<Lorg/junit/jupiter/api/extension/ExtensionContext;>;
+ ()Ljava/util/Optional<Lorg/junit/jupiter/api/extension/ExtensionContext;>;
+getRequiredTestClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getRequiredTestInstance
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getRequiredTestInstances
+ ()Lorg/junit/jupiter/api/extension/TestInstances;
+ ()Lorg/junit/jupiter/api/extension/TestInstances;
+getRequiredTestMethod
+ ()Ljava/lang/reflect/Method;
+ ()Ljava/lang/reflect/Method;
+getRoot
+ ()Lorg/junit/jupiter/api/extension/ExtensionContext;
+ ()Lorg/junit/jupiter/api/extension/ExtensionContext;
+getStore
+ (Lorg/junit/jupiter/api/extension/ExtensionContext$Namespace;)Lorg/junit/jupiter/api/extension/ExtensionContext$Store;
+ (Lorg/junit/jupiter/api/extension/ExtensionContext$Namespace;)Lorg/junit/jupiter/api/extension/ExtensionContext$Store;
+getTags
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getTestClass
+ ()Ljava/util/Optional<Ljava/lang/Class<*>;>;
+ ()Ljava/util/Optional<Ljava/lang/Class<*>;>;
+getTestInstance
+ ()Ljava/util/Optional<Ljava/lang/Object;>;
+ ()Ljava/util/Optional<Ljava/lang/Object;>;
+getTestInstanceLifecycle
+ ()Ljava/util/Optional<Lorg/junit/jupiter/api/TestInstance$Lifecycle;>;
+ ()Ljava/util/Optional<Lorg/junit/jupiter/api/TestInstance$Lifecycle;>;
+getTestInstances
+ ()Ljava/util/Optional<Lorg/junit/jupiter/api/extension/TestInstances;>;
+ ()Ljava/util/Optional<Lorg/junit/jupiter/api/extension/TestInstances;>;
+getTestMethod
+ ()Ljava/util/Optional<Ljava/lang/reflect/Method;>;
+ ()Ljava/util/Optional<Ljava/lang/reflect/Method;>;
+getUniqueId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+publishReportEntry
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+publishReportEntry
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+publishReportEntry
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V

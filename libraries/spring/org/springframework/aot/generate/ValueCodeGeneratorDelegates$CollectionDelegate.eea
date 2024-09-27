@@ -1,0 +1,16 @@
+class org/springframework/aot/generate/ValueCodeGeneratorDelegates$CollectionDelegate
+ <T::Ljava/util/Collection<*>;>
+ <T::Ljava/util/Collection<*>;>
+
+<init>
+ (Ljava/lang/Class<*>;Lorg/springframework/javapoet/CodeBlock;)V
+ (Ljava/lang/Class<*>;Lorg/springframework/javapoet/CodeBlock;)V
+generateCode
+ (Lorg/springframework/aot/generate/ValueCodeGenerator;Ljava/lang/Object;)Lorg/springframework/javapoet/CodeBlock;
+ (Lorg/springframework/aot/generate/ValueCodeGenerator;Ljava/lang/Object;)L0org/springframework/javapoet/CodeBlock; # @Inherited(org.springframework.aot.generate.ValueCodeGenerator$Delegate)
+generateCollectionCode
+ (Lorg/springframework/aot/generate/ValueCodeGenerator;TT;)Lorg/springframework/javapoet/CodeBlock;
+ (Lorg/springframework/aot/generate/ValueCodeGenerator;TT;)Lorg/springframework/javapoet/CodeBlock;
+generateCollectionOf
+ (Lorg/springframework/aot/generate/ValueCodeGenerator;Ljava/util/Collection<*>;Ljava/lang/Class<*>;)Lorg/springframework/javapoet/CodeBlock;
+ (Lorg/springframework/aot/generate/ValueCodeGenerator;Ljava/util/Collection<*>;Ljava/lang/Class<*>;)Lorg/springframework/javapoet/CodeBlock;

@@ -1,0 +1,98 @@
+class org/xml/sax/helpers/XMLFilterImpl
+
+<init>
+ (Lorg/xml/sax/XMLReader;)V
+ (Lorg/xml/sax/XMLReader;)V
+characters
+ ([CII)V
+ ([CII)V
+endElement
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+endPrefixMapping
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+error
+ (Lorg/xml/sax/SAXParseException;)V
+ (Lorg/xml/sax/SAXParseException;)V
+fatalError
+ (Lorg/xml/sax/SAXParseException;)V
+ (Lorg/xml/sax/SAXParseException;)V
+getContentHandler
+ ()Lorg/xml/sax/ContentHandler;
+ ()Lorg/xml/sax/ContentHandler;
+getDTDHandler
+ ()Lorg/xml/sax/DTDHandler;
+ ()Lorg/xml/sax/DTDHandler;
+getEntityResolver
+ ()Lorg/xml/sax/EntityResolver;
+ ()Lorg/xml/sax/EntityResolver;
+getErrorHandler
+ ()Lorg/xml/sax/ErrorHandler;
+ ()Lorg/xml/sax/ErrorHandler;
+getFeature
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+getParent
+ ()Lorg/xml/sax/XMLReader;
+ ()Lorg/xml/sax/XMLReader;
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+ignorableWhitespace
+ ([CII)V
+ ([CII)V
+notationDecl
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+parse
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+parse
+ (Lorg/xml/sax/InputSource;)V
+ (Lorg/xml/sax/InputSource;)V
+processingInstruction
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+resolveEntity
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/xml/sax/InputSource;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/xml/sax/InputSource;
+setContentHandler
+ (Lorg/xml/sax/ContentHandler;)V
+ (Lorg/xml/sax/ContentHandler;)V
+setDTDHandler
+ (Lorg/xml/sax/DTDHandler;)V
+ (Lorg/xml/sax/DTDHandler;)V
+setDocumentLocator
+ (Lorg/xml/sax/Locator;)V
+ (Lorg/xml/sax/Locator;)V
+setEntityResolver
+ (Lorg/xml/sax/EntityResolver;)V
+ (Lorg/xml/sax/EntityResolver;)V
+setErrorHandler
+ (Lorg/xml/sax/ErrorHandler;)V
+ (Lorg/xml/sax/ErrorHandler;)V
+setFeature
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+setParent
+ (Lorg/xml/sax/XMLReader;)V
+ (Lorg/xml/sax/XMLReader;)V
+setProperty
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+skippedEntity
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+startElement
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+startPrefixMapping
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+unparsedEntityDecl
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+warning
+ (Lorg/xml/sax/SAXParseException;)V
+ (Lorg/xml/sax/SAXParseException;)V

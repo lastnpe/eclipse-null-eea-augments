@@ -1,0 +1,79 @@
+class java/util/concurrent/atomic/AtomicReferenceArray
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+<init>
+ ([TE;)V
+ ([TE;)V
+accumulateAndGet
+ (ITE;Ljava/util/function/BinaryOperator<TE;>;)TE;
+ (ITE;Ljava/util/function/BinaryOperator<TE;>;)TE;
+compareAndExchange
+ (ITE;TE;)TE;
+ (ITE;TE;)TE;
+compareAndExchangeAcquire
+ (ITE;TE;)TE;
+ (ITE;TE;)TE;
+compareAndExchangeRelease
+ (ITE;TE;)TE;
+ (ITE;TE;)TE;
+compareAndSet
+ (ITE;TE;)Z
+ (ITE;TE;)Z
+get
+ (I)TE;
+ (I)TE;
+getAcquire
+ (I)TE;
+ (I)TE;
+getAndAccumulate
+ (ITE;Ljava/util/function/BinaryOperator<TE;>;)TE;
+ (ITE;Ljava/util/function/BinaryOperator<TE;>;)TE;
+getAndSet
+ (ITE;)TE;
+ (ITE;)TE;
+getAndUpdate
+ (ILjava/util/function/UnaryOperator<TE;>;)TE;
+ (ILjava/util/function/UnaryOperator<TE;>;)TE;
+getOpaque
+ (I)TE;
+ (I)TE;
+getPlain
+ (I)TE;
+ (I)TE;
+lazySet
+ (ITE;)V
+ (ITE;)V
+set
+ (ITE;)V
+ (ITE;)V
+setOpaque
+ (ITE;)V
+ (ITE;)V
+setPlain
+ (ITE;)V
+ (ITE;)V
+setRelease
+ (ITE;)V
+ (ITE;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+updateAndGet
+ (ILjava/util/function/UnaryOperator<TE;>;)TE;
+ (ILjava/util/function/UnaryOperator<TE;>;)TE;
+weakCompareAndSet
+ (ITE;TE;)Z
+ (ITE;TE;)Z
+weakCompareAndSetAcquire
+ (ITE;TE;)Z
+ (ITE;TE;)Z
+weakCompareAndSetPlain
+ (ITE;TE;)Z
+ (ITE;TE;)Z
+weakCompareAndSetRelease
+ (ITE;TE;)Z
+ (ITE;TE;)Z
+weakCompareAndSetVolatile
+ (ITE;TE;)Z
+ (ITE;TE;)Z

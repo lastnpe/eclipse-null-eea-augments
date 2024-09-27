@@ -1,0 +1,23 @@
+class org/osgi/framework/hooks/weaving/WovenClass
+
+getBundleWiring
+ ()Lorg/osgi/framework/wiring/BundleWiring;
+ ()Lorg/osgi/framework/wiring/BundleWiring;
+getBytes
+ ()[B
+ ()[B
+getClassName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDefinedClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getDynamicImports
+ ()Ljava/util/List<Ljava/lang/String;>;
+ ()Ljava/util/List<Ljava/lang/String;>;
+getProtectionDomain
+ ()Ljava/security/ProtectionDomain;
+ ()Ljava/security/ProtectionDomain;
+setBytes
+ ([B)V
+ ([B)V

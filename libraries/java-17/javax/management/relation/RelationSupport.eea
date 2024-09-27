@@ -1,0 +1,56 @@
+class javax/management/relation/RelationSupport
+
+<init>
+ (Ljava/lang/String;Ljavax/management/ObjectName;Ljava/lang/String;Ljavax/management/relation/RoleList;)V
+ (Ljava/lang/String;Ljavax/management/ObjectName;Ljava/lang/String;Ljavax/management/relation/RoleList;)V
+<init>
+ (Ljava/lang/String;Ljavax/management/ObjectName;Ljavax/management/MBeanServer;Ljava/lang/String;Ljavax/management/relation/RoleList;)V
+ (Ljava/lang/String;Ljavax/management/ObjectName;Ljavax/management/MBeanServer;Ljava/lang/String;Ljavax/management/relation/RoleList;)V
+getAllRoles
+ ()Ljavax/management/relation/RoleResult;
+ ()Ljavax/management/relation/RoleResult;
+getReferencedMBeans
+ ()Ljava/util/Map<Ljavax/management/ObjectName;Ljava/util/List<Ljava/lang/String;>;>;
+ ()Ljava/util/Map<Ljavax/management/ObjectName;Ljava/util/List<Ljava/lang/String;>;>;
+getRelationId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRelationServiceName
+ ()Ljavax/management/ObjectName;
+ ()Ljavax/management/ObjectName;
+getRelationTypeName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRole
+ (Ljava/lang/String;)Ljava/util/List<Ljavax/management/ObjectName;>;
+ (Ljava/lang/String;)Ljava/util/List<Ljavax/management/ObjectName;>;
+getRoleCardinality
+ (Ljava/lang/String;)Ljava/lang/Integer;
+ (Ljava/lang/String;)Ljava/lang/Integer;
+getRoles
+ ([Ljava/lang/String;)Ljavax/management/relation/RoleResult;
+ ([Ljava/lang/String;)Ljavax/management/relation/RoleResult;
+handleMBeanUnregistration
+ (Ljavax/management/ObjectName;Ljava/lang/String;)V
+ (Ljavax/management/ObjectName;Ljava/lang/String;)V
+isInRelationService
+ ()Ljava/lang/Boolean;
+ ()Ljava/lang/Boolean;
+postRegister
+ (Ljava/lang/Boolean;)V
+ (Ljava/lang/Boolean;)V
+preRegister
+ (Ljavax/management/MBeanServer;Ljavax/management/ObjectName;)Ljavax/management/ObjectName;
+ (Ljavax/management/MBeanServer;Ljavax/management/ObjectName;)Ljavax/management/ObjectName;
+retrieveAllRoles
+ ()Ljavax/management/relation/RoleList;
+ ()Ljavax/management/relation/RoleList;
+setRelationServiceManagementFlag
+ (Ljava/lang/Boolean;)V
+ (Ljava/lang/Boolean;)V
+setRole
+ (Ljavax/management/relation/Role;)V
+ (Ljavax/management/relation/Role;)V
+setRoles
+ (Ljavax/management/relation/RoleList;)Ljavax/management/relation/RoleResult;
+ (Ljavax/management/relation/RoleList;)Ljavax/management/relation/RoleResult;

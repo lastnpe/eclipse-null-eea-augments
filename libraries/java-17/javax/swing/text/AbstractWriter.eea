@@ -1,0 +1,50 @@
+class javax/swing/text/AbstractWriter
+
+<init>
+ (Ljava/io/Writer;Ljavax/swing/text/Document;)V
+ (Ljava/io/Writer;Ljavax/swing/text/Document;)V
+<init>
+ (Ljava/io/Writer;Ljavax/swing/text/Document;II)V
+ (Ljava/io/Writer;Ljavax/swing/text/Document;II)V
+<init>
+ (Ljava/io/Writer;Ljavax/swing/text/Element;)V
+ (Ljava/io/Writer;Ljavax/swing/text/Element;)V
+<init>
+ (Ljava/io/Writer;Ljavax/swing/text/Element;II)V
+ (Ljava/io/Writer;Ljavax/swing/text/Element;II)V
+getDocument
+ ()Ljavax/swing/text/Document;
+ ()Ljavax/swing/text/Document;
+getElementIterator
+ ()Ljavax/swing/text/ElementIterator;
+ ()Ljavax/swing/text/ElementIterator;
+getLineSeparator
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getText
+ (Ljavax/swing/text/Element;)Ljava/lang/String;
+ (Ljavax/swing/text/Element;)Ljava/lang/String;
+getWriter
+ ()Ljava/io/Writer;
+ ()Ljava/io/Writer;
+inRange
+ (Ljavax/swing/text/Element;)Z
+ (Ljavax/swing/text/Element;)Z
+output
+ ([CII)V
+ ([CII)V
+setLineSeparator
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+text
+ (Ljavax/swing/text/Element;)V
+ (Ljavax/swing/text/Element;)V
+write
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+write
+ ([CII)V
+ ([CII)V
+writeAttributes
+ (Ljavax/swing/text/AttributeSet;)V
+ (Ljavax/swing/text/AttributeSet;)V

@@ -1,0 +1,26 @@
+class javax/transaction/xa/XAResource
+
+commit
+ (Ljavax/transaction/xa/Xid;Z)V
+ (Ljavax/transaction/xa/Xid;Z)V
+end
+ (Ljavax/transaction/xa/Xid;I)V
+ (Ljavax/transaction/xa/Xid;I)V
+forget
+ (Ljavax/transaction/xa/Xid;)V
+ (Ljavax/transaction/xa/Xid;)V
+isSameRM
+ (Ljavax/transaction/xa/XAResource;)Z
+ (Ljavax/transaction/xa/XAResource;)Z
+prepare
+ (Ljavax/transaction/xa/Xid;)I
+ (Ljavax/transaction/xa/Xid;)I
+recover
+ (I)[Ljavax/transaction/xa/Xid;
+ (I)[Ljavax/transaction/xa/Xid;
+rollback
+ (Ljavax/transaction/xa/Xid;)V
+ (Ljavax/transaction/xa/Xid;)V
+start
+ (Ljavax/transaction/xa/Xid;I)V
+ (Ljavax/transaction/xa/Xid;I)V

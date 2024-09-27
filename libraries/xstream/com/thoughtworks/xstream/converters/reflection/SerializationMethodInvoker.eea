@@ -1,0 +1,20 @@
+class com/thoughtworks/xstream/converters/reflection/SerializationMethodInvoker
+
+callReadObject
+ (Ljava/lang/Class;Ljava/lang/Object;Ljava/io/ObjectInputStream;)V
+ (Ljava/lang/Class;Ljava/lang/Object;Ljava/io/ObjectInputStream;)V
+callReadResolve
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+callWriteObject
+ (Ljava/lang/Class;Ljava/lang/Object;Ljava/io/ObjectOutputStream;)V
+ (Ljava/lang/Class;Ljava/lang/Object;Ljava/io/ObjectOutputStream;)V
+callWriteReplace
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+supportsReadObject
+ (Ljava/lang/Class;Z)Z
+ (Ljava/lang/Class;Z)Z
+supportsWriteObject
+ (Ljava/lang/Class;Z)Z
+ (Ljava/lang/Class;Z)Z

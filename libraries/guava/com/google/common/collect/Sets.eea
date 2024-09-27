@@ -1,0 +1,113 @@
+class com/google/common/collect/Sets
+
+cartesianProduct
+ <B:Ljava/lang/Object;>(Ljava/util/List<+Ljava/util/Set<+TB;>;>;)Ljava/util/Set<Ljava/util/List<TB;>;>;
+ <B:Ljava/lang/Object;>(Ljava/util/List<+Ljava/util/Set<+TB;>;>;)Ljava/util/Set<Ljava/util/List<TB;>;>;
+cartesianProduct
+ <B:Ljava/lang/Object;>([Ljava/util/Set<+TB;>;)Ljava/util/Set<Ljava/util/List<TB;>;>;
+ <B:Ljava/lang/Object;>([Ljava/util/Set<+TB;>;)Ljava/util/Set<Ljava/util/List<TB;>;>;
+combinations
+ <E:Ljava/lang/Object;>(Ljava/util/Set<TE;>;I)Ljava/util/Set<Ljava/util/Set<TE;>;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Set<TE;>;I)Ljava/util/Set<Ljava/util/Set<TE;>;>;
+complementOf
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/util/Collection<TE;>;)Ljava/util/EnumSet<TE;>;
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/util/Collection<TE;>;)Ljava/util/EnumSet<TE;>;
+complementOf
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/util/Collection<TE;>;Ljava/lang/Class<TE;>;)Ljava/util/EnumSet<TE;>;
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/util/Collection<TE;>;Ljava/lang/Class<TE;>;)Ljava/util/EnumSet<TE;>;
+difference
+ <E:Ljava/lang/Object;>(Ljava/util/Set<TE;>;Ljava/util/Set<*>;)Lcom/google/common/collect/Sets$SetView<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Set<TE;>;Ljava/util/Set<*>;)Lcom/google/common/collect/Sets$SetView<TE;>;
+filter
+ <E:Ljava/lang/Object;>(Ljava/util/NavigableSet<TE;>;Lcom/google/common/base/Predicate<-TE;>;)Ljava/util/NavigableSet<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/NavigableSet<TE;>;Lcom/google/common/base/Predicate<-TE;>;)Ljava/util/NavigableSet<TE;>;
+filter
+ <E:Ljava/lang/Object;>(Ljava/util/Set<TE;>;Lcom/google/common/base/Predicate<-TE;>;)Ljava/util/Set<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Set<TE;>;Lcom/google/common/base/Predicate<-TE;>;)Ljava/util/Set<TE;>;
+filter
+ <E:Ljava/lang/Object;>(Ljava/util/SortedSet<TE;>;Lcom/google/common/base/Predicate<-TE;>;)Ljava/util/SortedSet<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/SortedSet<TE;>;Lcom/google/common/base/Predicate<-TE;>;)Ljava/util/SortedSet<TE;>;
+immutableEnumSet
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/lang/Iterable<TE;>;)Lcom/google/common/collect/ImmutableSet<TE;>;
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/lang/Iterable<TE;>;)Lcom/google/common/collect/ImmutableSet<TE;>;
+immutableEnumSet
+ <E:Ljava/lang/Enum<TE;>;>(TE;[TE;)Lcom/google/common/collect/ImmutableSet<TE;>;
+ <E:Ljava/lang/Enum<TE;>;>(TE;[TE;)Lcom/google/common/collect/ImmutableSet<TE;>;
+intersection
+ <E:Ljava/lang/Object;>(Ljava/util/Set<TE;>;Ljava/util/Set<*>;)Lcom/google/common/collect/Sets$SetView<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Set<TE;>;Ljava/util/Set<*>;)Lcom/google/common/collect/Sets$SetView<TE;>;
+newConcurrentHashSet
+ <E:Ljava/lang/Object;>()Ljava/util/Set<TE;>;
+ <E:Ljava/lang/Object;>()Ljava/util/Set<TE;>;
+newConcurrentHashSet
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<+TE;>;)Ljava/util/Set<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<+TE;>;)Ljava/util/Set<TE;>;
+newCopyOnWriteArraySet
+ <E:Ljava/lang/Object;>()Ljava/util/concurrent/CopyOnWriteArraySet<TE;>;
+ <E:Ljava/lang/Object;>()Ljava/util/concurrent/CopyOnWriteArraySet<TE;>;
+newCopyOnWriteArraySet
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<+TE;>;)Ljava/util/concurrent/CopyOnWriteArraySet<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<+TE;>;)Ljava/util/concurrent/CopyOnWriteArraySet<TE;>;
+newEnumSet
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/lang/Iterable<TE;>;Ljava/lang/Class<TE;>;)Ljava/util/EnumSet<TE;>;
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/lang/Iterable<TE;>;Ljava/lang/Class<TE;>;)Ljava/util/EnumSet<TE;>;
+newHashSet
+ <E:Ljava/lang/Object;>()Ljava/util/HashSet<TE;>;
+ <E:Ljava/lang/Object;>()Ljava/util/HashSet<TE;>;
+newHashSet
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<+TE;>;)Ljava/util/HashSet<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<+TE;>;)Ljava/util/HashSet<TE;>;
+newHashSet
+ <E:Ljava/lang/Object;>(Ljava/util/Iterator<+TE;>;)Ljava/util/HashSet<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Iterator<+TE;>;)Ljava/util/HashSet<TE;>;
+newHashSet
+ <E:Ljava/lang/Object;>([TE;)Ljava/util/HashSet<TE;>;
+ <E:Ljava/lang/Object;>([TE;)Ljava/util/HashSet<TE;>;
+newHashSetWithExpectedSize
+ <E:Ljava/lang/Object;>(I)Ljava/util/HashSet<TE;>;
+ <E:Ljava/lang/Object;>(I)Ljava/util/HashSet<TE;>;
+newIdentityHashSet
+ <E:Ljava/lang/Object;>()Ljava/util/Set<TE;>;
+ <E:Ljava/lang/Object;>()Ljava/util/Set<TE;>;
+newLinkedHashSet
+ <E:Ljava/lang/Object;>()Ljava/util/LinkedHashSet<TE;>;
+ <E:Ljava/lang/Object;>()Ljava/util/LinkedHashSet<TE;>;
+newLinkedHashSet
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<+TE;>;)Ljava/util/LinkedHashSet<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<+TE;>;)Ljava/util/LinkedHashSet<TE;>;
+newLinkedHashSetWithExpectedSize
+ <E:Ljava/lang/Object;>(I)Ljava/util/LinkedHashSet<TE;>;
+ <E:Ljava/lang/Object;>(I)Ljava/util/LinkedHashSet<TE;>;
+newSetFromMap
+ <E:Ljava/lang/Object;>(Ljava/util/Map<TE;Ljava/lang/Boolean;>;)Ljava/util/Set<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Map<TE;Ljava/lang/Boolean;>;)Ljava/util/Set<TE;>;
+newTreeSet
+ <E::Ljava/lang/Comparable;>()Ljava/util/TreeSet<TE;>;
+ <E::Ljava/lang/Comparable;>()Ljava/util/TreeSet<TE;>;
+newTreeSet
+ <E::Ljava/lang/Comparable;>(Ljava/lang/Iterable<+TE;>;)Ljava/util/TreeSet<TE;>;
+ <E::Ljava/lang/Comparable;>(Ljava/lang/Iterable<+TE;>;)Ljava/util/TreeSet<TE;>;
+newTreeSet
+ <E:Ljava/lang/Object;>(Ljava/util/Comparator<-TE;>;)Ljava/util/TreeSet<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Comparator<-TE;>;)Ljava/util/TreeSet<TE;>;
+powerSet
+ <E:Ljava/lang/Object;>(Ljava/util/Set<TE;>;)Ljava/util/Set<Ljava/util/Set<TE;>;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Set<TE;>;)Ljava/util/Set<Ljava/util/Set<TE;>;>;
+subSet
+ <K::Ljava/lang/Comparable<-TK;>;>(Ljava/util/NavigableSet<TK;>;Lcom/google/common/collect/Range<TK;>;)Ljava/util/NavigableSet<TK;>;
+ <K::Ljava/lang/Comparable<-TK;>;>(Ljava/util/NavigableSet<TK;>;Lcom/google/common/collect/Range<TK;>;)Ljava/util/NavigableSet<TK;>;
+symmetricDifference
+ <E:Ljava/lang/Object;>(Ljava/util/Set<+TE;>;Ljava/util/Set<+TE;>;)Lcom/google/common/collect/Sets$SetView<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Set<+TE;>;Ljava/util/Set<+TE;>;)Lcom/google/common/collect/Sets$SetView<TE;>;
+synchronizedNavigableSet
+ <E:Ljava/lang/Object;>(Ljava/util/NavigableSet<TE;>;)Ljava/util/NavigableSet<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/NavigableSet<TE;>;)Ljava/util/NavigableSet<TE;>;
+toImmutableEnumSet
+ <E:Ljava/lang/Enum<TE;>;>()Ljava/util/stream/Collector<TE;*Lcom/google/common/collect/ImmutableSet<TE;>;>;
+ <E:Ljava/lang/Enum<TE;>;>()Ljava/util/stream/Collector<TE;*Lcom/google/common/collect/ImmutableSet<TE;>;>;
+union
+ <E:Ljava/lang/Object;>(Ljava/util/Set<+TE;>;Ljava/util/Set<+TE;>;)Lcom/google/common/collect/Sets$SetView<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Set<+TE;>;Ljava/util/Set<+TE;>;)Lcom/google/common/collect/Sets$SetView<TE;>;
+unmodifiableNavigableSet
+ <E:Ljava/lang/Object;>(Ljava/util/NavigableSet<TE;>;)Ljava/util/NavigableSet<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/NavigableSet<TE;>;)Ljava/util/NavigableSet<TE;>;

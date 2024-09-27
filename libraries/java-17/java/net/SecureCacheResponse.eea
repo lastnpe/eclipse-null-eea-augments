@@ -1,0 +1,20 @@
+class java/net/SecureCacheResponse
+
+getCipherSuite
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getLocalCertificateChain
+ ()Ljava/util/List<Ljava/security/cert/Certificate;>;
+ ()Ljava/util/List<Ljava/security/cert/Certificate;>;
+getLocalPrincipal
+ ()Ljava/security/Principal;
+ ()Ljava/security/Principal;
+getPeerPrincipal
+ ()Ljava/security/Principal;
+ ()Ljava/security/Principal;
+getSSLSession
+ ()Ljava/util/Optional<Ljavax/net/ssl/SSLSession;>;
+ ()Ljava/util/Optional<Ljavax/net/ssl/SSLSession;>;
+getServerCertificateChain
+ ()Ljava/util/List<Ljava/security/cert/Certificate;>;
+ ()Ljava/util/List<Ljava/security/cert/Certificate;>;

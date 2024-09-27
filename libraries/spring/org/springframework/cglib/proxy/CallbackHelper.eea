@@ -1,0 +1,20 @@
+class org/springframework/cglib/proxy/CallbackHelper
+
+<init>
+ (Ljava/lang/Class;[Ljava/lang/Class;)V
+ (Ljava/lang/Class;[Ljava/lang/Class;)V
+accept
+ (Ljava/lang/reflect/Method;)I
+ (Ljava/lang/reflect/Method;)I
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getCallback
+ (Ljava/lang/reflect/Method;)Ljava/lang/Object;
+ (Ljava/lang/reflect/Method;)Ljava/lang/Object;
+getCallbackTypes
+ ()[Ljava/lang/Class;
+ ()[Ljava/lang/Class;
+getCallbacks
+ ()[Lorg/springframework/cglib/proxy/Callback;
+ ()[Lorg/springframework/cglib/proxy/Callback;

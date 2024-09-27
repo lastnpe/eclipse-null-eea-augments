@@ -1,0 +1,26 @@
+class javax/swing/tree/TreeModel
+
+addTreeModelListener
+ (Ljavax/swing/event/TreeModelListener;)V
+ (L1javax/swing/event/TreeModelListener;)V
+getChild
+ (Ljava/lang/Object;I)Ljava/lang/Object;
+ (Ljava/lang/Object;I)Ljava/lang/Object;
+getChildCount
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+getIndexOfChild
+ (Ljava/lang/Object;Ljava/lang/Object;)I
+ (Ljava/lang/Object;Ljava/lang/Object;)I
+getRoot
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+isLeaf
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+removeTreeModelListener
+ (Ljavax/swing/event/TreeModelListener;)V
+ (L1javax/swing/event/TreeModelListener;)V
+valueForPathChanged
+ (Ljavax/swing/tree/TreePath;Ljava/lang/Object;)V
+ (Ljavax/swing/tree/TreePath;Ljava/lang/Object;)V

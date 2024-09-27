@@ -1,0 +1,42 @@
+class com/google/common/base/Equivalence
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super java/util/function/BiPredicate
+ <TT;TT;>
+ <TT;TT;>
+
+equals
+ ()Lcom/google/common/base/Equivalence<Ljava/lang/Object;>;
+ ()Lcom/google/common/base/Equivalence<Ljava/lang/Object;>;
+identity
+ ()Lcom/google/common/base/Equivalence<Ljava/lang/Object;>;
+ ()Lcom/google/common/base/Equivalence<Ljava/lang/Object;>;
+
+doEquivalent
+ (TT;TT;)Z
+ (TT;TT;)Z
+doHash
+ (TT;)I
+ (TT;)I
+equivalent
+ (TT;TT;)Z
+ (TT;TT;)Z
+equivalentTo
+ (TT;)Lcom/google/common/base/Predicate<TT;>;
+ (TT;)Lcom/google/common/base/Predicate<TT;>;
+hash
+ (TT;)I
+ (TT;)I
+onResultOf
+ <F:Ljava/lang/Object;>(Lcom/google/common/base/Function<-TF;+TT;>;)Lcom/google/common/base/Equivalence<TF;>;
+ <F:Ljava/lang/Object;>(Lcom/google/common/base/Function<-TF;+TT;>;)Lcom/google/common/base/Equivalence<TF;>;
+pairwise
+ <S:TT;>()Lcom/google/common/base/Equivalence<Ljava/lang/Iterable<TS;>;>;
+ <S:TT;>()Lcom/google/common/base/Equivalence<Ljava/lang/Iterable<TS;>;>;
+test
+ (TT;TT;)Z
+ (TT;TT;)Z
+wrap
+ <S:TT;>(TS;)Lcom/google/common/base/Equivalence$Wrapper<TS;>;
+ <S:TT;>(TS;)Lcom/google/common/base/Equivalence$Wrapper<TS;>;

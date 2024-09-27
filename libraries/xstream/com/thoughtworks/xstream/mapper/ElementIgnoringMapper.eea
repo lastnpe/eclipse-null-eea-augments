@@ -1,0 +1,24 @@
+class com/thoughtworks/xstream/mapper/ElementIgnoringMapper
+
+fieldsToOmit
+ Ljava/util/Set;
+ Ljava/util/Set;
+unknownElementsToIgnore
+ Ljava/util/Set;
+ Ljava/util/Set;
+
+<init>
+ (Lcom/thoughtworks/xstream/mapper/Mapper;)V
+ (Lcom/thoughtworks/xstream/mapper/Mapper;)V
+addElementsToIgnore
+ (Ljava/util/regex/Pattern;)V
+ (Ljava/util/regex/Pattern;)V
+isIgnoredElement
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+omitField
+ (Ljava/lang/Class;Ljava/lang/String;)V
+ (Ljava/lang/Class;Ljava/lang/String;)V
+shouldSerializeMember
+ (Ljava/lang/Class;Ljava/lang/String;)Z
+ (Ljava/lang/Class;Ljava/lang/String;)Z

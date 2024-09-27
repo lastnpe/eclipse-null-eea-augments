@@ -1,0 +1,32 @@
+class org/mockito/internal/invocation/InvocationsFinder
+
+findAllMatchingUnverifiedChunks
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;Lorg/mockito/invocation/MatchableInvocation;Lorg/mockito/internal/verification/api/InOrderContext;)Ljava/util/List<Lorg/mockito/invocation/Invocation;>;
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;Lorg/mockito/invocation/MatchableInvocation;Lorg/mockito/internal/verification/api/InOrderContext;)Ljava/util/List<Lorg/mockito/invocation/Invocation;>;
+findFirstMatchingUnverifiedInvocation
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;Lorg/mockito/invocation/MatchableInvocation;Lorg/mockito/internal/verification/api/InOrderContext;)Lorg/mockito/invocation/Invocation;
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;Lorg/mockito/invocation/MatchableInvocation;Lorg/mockito/internal/verification/api/InOrderContext;)Lorg/mockito/invocation/Invocation;
+findFirstUnverified
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;)Lorg/mockito/invocation/Invocation;
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;)Lorg/mockito/invocation/Invocation;
+findFirstUnverifiedInOrder
+ (Lorg/mockito/internal/verification/api/InOrderContext;Ljava/util/List<Lorg/mockito/invocation/Invocation;>;)Lorg/mockito/invocation/Invocation;
+ (Lorg/mockito/internal/verification/api/InOrderContext;Ljava/util/List<Lorg/mockito/invocation/Invocation;>;)Lorg/mockito/invocation/Invocation;
+findInvocations
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;Lorg/mockito/invocation/MatchableInvocation;)Ljava/util/List<Lorg/mockito/invocation/Invocation;>;
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;Lorg/mockito/invocation/MatchableInvocation;)Ljava/util/List<Lorg/mockito/invocation/Invocation;>;
+findMatchingChunk
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;Lorg/mockito/invocation/MatchableInvocation;ILorg/mockito/internal/verification/api/InOrderContext;)Ljava/util/List<Lorg/mockito/invocation/Invocation;>;
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;Lorg/mockito/invocation/MatchableInvocation;ILorg/mockito/internal/verification/api/InOrderContext;)Ljava/util/List<Lorg/mockito/invocation/Invocation;>;
+findPreviousVerifiedInOrder
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;Lorg/mockito/internal/verification/api/InOrderContext;)Lorg/mockito/invocation/Invocation;
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;Lorg/mockito/internal/verification/api/InOrderContext;)Lorg/mockito/invocation/Invocation;
+findSimilarInvocation
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;Lorg/mockito/invocation/MatchableInvocation;)Lorg/mockito/invocation/Invocation;
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;Lorg/mockito/invocation/MatchableInvocation;)Lorg/mockito/invocation/Invocation;
+getAllLocations
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;)Ljava/util/List<Lorg/mockito/invocation/Location;>;
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;)Ljava/util/List<Lorg/mockito/invocation/Location;>;
+getLastLocation
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;)Lorg/mockito/invocation/Location;
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;)Lorg/mockito/invocation/Location;

@@ -1,0 +1,30 @@
+class org/mockito/internal/matchers/Equals
+
+super org/mockito/ArgumentMatcher
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+<init>
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getWanted
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+matches
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+toStringWithType
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+type
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+typeMatches
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z

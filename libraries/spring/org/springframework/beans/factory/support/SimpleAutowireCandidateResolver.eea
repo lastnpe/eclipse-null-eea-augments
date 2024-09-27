@@ -1,0 +1,27 @@
+class org/springframework/beans/factory/support/SimpleAutowireCandidateResolver
+
+INSTANCE
+ Lorg/springframework/beans/factory/support/SimpleAutowireCandidateResolver;
+ L1org/springframework/beans/factory/support/SimpleAutowireCandidateResolver;
+
+cloneIfNecessary
+ ()Lorg/springframework/beans/factory/support/AutowireCandidateResolver;
+ ()Lorg/springframework/beans/factory/support/AutowireCandidateResolver;
+getLazyResolutionProxyClass
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;Ljava/lang/String;)L0java/lang/Class<*>; # @Inherited(org.springframework.beans.factory.support.AutowireCandidateResolver)
+getLazyResolutionProxyIfNecessary
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;Ljava/lang/String;)Ljava/lang/Object;
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;Ljava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.beans.factory.support.AutowireCandidateResolver)
+getSuggestedValue
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;)Ljava/lang/Object;
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;)L0java/lang/Object; # @Inherited(org.springframework.beans.factory.support.AutowireCandidateResolver)
+hasQualifier
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;)Z
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;)Z
+isAutowireCandidate
+ (Lorg/springframework/beans/factory/config/BeanDefinitionHolder;Lorg/springframework/beans/factory/config/DependencyDescriptor;)Z
+ (Lorg/springframework/beans/factory/config/BeanDefinitionHolder;Lorg/springframework/beans/factory/config/DependencyDescriptor;)Z
+isRequired
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;)Z
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;)Z

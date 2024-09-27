@@ -1,4 +1,28 @@
 class com/google/common/collect/ImmutableMap$Builder
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
 build
  ()Lcom/google/common/collect/ImmutableMap<TK;TV;>;
  ()L1com/google/common/collect/ImmutableMap<TK;TV;>;
+buildKeepingLast
+ ()Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+ ()Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+buildOrThrow
+ ()Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+ ()Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+orderEntriesByValue
+ (Ljava/util/Comparator<-TV;>;)Lcom/google/common/collect/ImmutableMap$Builder<TK;TV;>;
+ (Ljava/util/Comparator<-TV;>;)L1com/google/common/collect/ImmutableMap$Builder<TK;TV;>;
+put
+ (Ljava/util/Map$Entry<+TK;+TV;>;)Lcom/google/common/collect/ImmutableMap$Builder<TK;TV;>;
+ (Ljava/util/Map$Entry<+TK;+TV;>;)L1com/google/common/collect/ImmutableMap$Builder<TK;TV;>;
+put
+ (TK;TV;)Lcom/google/common/collect/ImmutableMap$Builder<TK;TV;>;
+ (TK;TV;)L1com/google/common/collect/ImmutableMap$Builder<TK;TV;>;
+putAll
+ (Ljava/lang/Iterable<+Ljava/util/Map$Entry<+TK;+TV;>;>;)Lcom/google/common/collect/ImmutableMap$Builder<TK;TV;>;
+ (Ljava/lang/Iterable<+Ljava/util/Map$Entry<+TK;+TV;>;>;)L1com/google/common/collect/ImmutableMap$Builder<TK;TV;>;
+putAll
+ (Ljava/util/Map<+TK;+TV;>;)Lcom/google/common/collect/ImmutableMap$Builder<TK;TV;>;
+ (Ljava/util/Map<+TK;+TV;>;)L1com/google/common/collect/ImmutableMap$Builder<TK;TV;>;

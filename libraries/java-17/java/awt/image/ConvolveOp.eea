@@ -1,0 +1,35 @@
+class java/awt/image/ConvolveOp
+
+<init>
+ (Ljava/awt/image/Kernel;)V
+ (Ljava/awt/image/Kernel;)V
+<init>
+ (Ljava/awt/image/Kernel;ILjava/awt/RenderingHints;)V
+ (Ljava/awt/image/Kernel;ILjava/awt/RenderingHints;)V
+createCompatibleDestImage
+ (Ljava/awt/image/BufferedImage;Ljava/awt/image/ColorModel;)Ljava/awt/image/BufferedImage;
+ (Ljava/awt/image/BufferedImage;Ljava/awt/image/ColorModel;)Ljava/awt/image/BufferedImage;
+createCompatibleDestRaster
+ (Ljava/awt/image/Raster;)Ljava/awt/image/WritableRaster;
+ (Ljava/awt/image/Raster;)Ljava/awt/image/WritableRaster;
+filter
+ (Ljava/awt/image/BufferedImage;Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+ (Ljava/awt/image/BufferedImage;Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+filter
+ (Ljava/awt/image/Raster;Ljava/awt/image/WritableRaster;)Ljava/awt/image/WritableRaster;
+ (Ljava/awt/image/Raster;Ljava/awt/image/WritableRaster;)Ljava/awt/image/WritableRaster;
+getBounds2D
+ (Ljava/awt/image/BufferedImage;)Ljava/awt/geom/Rectangle2D;
+ (Ljava/awt/image/BufferedImage;)Ljava/awt/geom/Rectangle2D;
+getBounds2D
+ (Ljava/awt/image/Raster;)Ljava/awt/geom/Rectangle2D;
+ (Ljava/awt/image/Raster;)Ljava/awt/geom/Rectangle2D;
+getKernel
+ ()Ljava/awt/image/Kernel;
+ ()Ljava/awt/image/Kernel;
+getPoint2D
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)Ljava/awt/geom/Point2D;
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)Ljava/awt/geom/Point2D;
+getRenderingHints
+ ()Ljava/awt/RenderingHints;
+ ()Ljava/awt/RenderingHints;

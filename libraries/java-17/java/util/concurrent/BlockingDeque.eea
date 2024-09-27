@@ -1,0 +1,95 @@
+class java/util/concurrent/BlockingDeque
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/util/concurrent/BlockingQueue
+ <TE;>
+ <TE;>
+super java/util/Deque
+ <TE;>
+ <TE;>
+
+add
+ (TE;)Z
+ (T1E;)Z # @Inherited(java.util.concurrent.BlockingQueue)
+addFirst
+ (TE;)V
+ (TE;)V
+addLast
+ (TE;)V
+ (TE;)V
+contains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+element
+ ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.Deque)
+offer
+ (TE;)Z
+ (T1E;)Z # @Inherited(java.util.concurrent.BlockingQueue)
+offer
+ (TE;JLjava/util/concurrent/TimeUnit;)Z
+ (TE;JLjava/util/concurrent/TimeUnit;)Z
+offerFirst
+ (TE;)Z
+ (TE;)Z
+offerFirst
+ (TE;JLjava/util/concurrent/TimeUnit;)Z
+ (TE;JLjava/util/concurrent/TimeUnit;)Z
+offerLast
+ (TE;)Z
+ (TE;)Z
+offerLast
+ (TE;JLjava/util/concurrent/TimeUnit;)Z
+ (TE;JLjava/util/concurrent/TimeUnit;)Z
+peek
+ ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
+poll
+ ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
+poll
+ (JLjava/util/concurrent/TimeUnit;)TE;
+ (JLjava/util/concurrent/TimeUnit;)T0E; # @Inherited(java.util.concurrent.BlockingQueue)
+pollFirst
+ (JLjava/util/concurrent/TimeUnit;)TE;
+ (JLjava/util/concurrent/TimeUnit;)TE;
+pollLast
+ (JLjava/util/concurrent/TimeUnit;)TE;
+ (JLjava/util/concurrent/TimeUnit;)TE;
+push
+ (TE;)V
+ (TE;)V
+put
+ (TE;)V
+ (TE;)V
+putFirst
+ (TE;)V
+ (TE;)V
+putLast
+ (TE;)V
+ (TE;)V
+remove
+ ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
+remove
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+removeFirstOccurrence
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+removeLastOccurrence
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+take
+ ()TE;
+ ()TE;
+takeFirst
+ ()TE;
+ ()TE;
+takeLast
+ ()TE;
+ ()TE;

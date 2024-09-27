@@ -1,4 +1,63 @@
 class org/osgi/util/tracker/ServiceTracker
+ <S:Ljava/lang/Object;T:Ljava/lang/Object;>
+ <S:Ljava/lang/Object;T:Ljava/lang/Object;>
+
+super org/osgi/util/tracker/ServiceTrackerCustomizer
+ <TS;TT;>
+ <TS;TT;>
+
+context
+ Lorg/osgi/framework/BundleContext;
+ Lorg/osgi/framework/BundleContext;
+filter
+ Lorg/osgi/framework/Filter;
+ Lorg/osgi/framework/Filter;
+
+<init>
+ (Lorg/osgi/framework/BundleContext;Ljava/lang/Class<TS;>;Lorg/osgi/util/tracker/ServiceTrackerCustomizer<TS;TT;>;)V
+ (Lorg/osgi/framework/BundleContext;Ljava/lang/Class<TS;>;Lorg/osgi/util/tracker/ServiceTrackerCustomizer<TS;TT;>;)V
+<init>
+ (Lorg/osgi/framework/BundleContext;Ljava/lang/String;Lorg/osgi/util/tracker/ServiceTrackerCustomizer<TS;TT;>;)V
+ (Lorg/osgi/framework/BundleContext;Ljava/lang/String;Lorg/osgi/util/tracker/ServiceTrackerCustomizer<TS;TT;>;)V
+<init>
+ (Lorg/osgi/framework/BundleContext;Lorg/osgi/framework/Filter;Lorg/osgi/util/tracker/ServiceTrackerCustomizer<TS;TT;>;)V
+ (Lorg/osgi/framework/BundleContext;Lorg/osgi/framework/Filter;Lorg/osgi/util/tracker/ServiceTrackerCustomizer<TS;TT;>;)V
+<init>
+ (Lorg/osgi/framework/BundleContext;Lorg/osgi/framework/ServiceReference<TS;>;Lorg/osgi/util/tracker/ServiceTrackerCustomizer<TS;TT;>;)V
+ (Lorg/osgi/framework/BundleContext;Lorg/osgi/framework/ServiceReference<TS;>;Lorg/osgi/util/tracker/ServiceTrackerCustomizer<TS;TT;>;)V
+addingService
+ (Lorg/osgi/framework/ServiceReference<TS;>;)TT;
+ (Lorg/osgi/framework/ServiceReference<TS;>;)TT;
 getService
  ()TT;
  ()T0T;
+getService
+ (Lorg/osgi/framework/ServiceReference<TS;>;)TT;
+ (Lorg/osgi/framework/ServiceReference<TS;>;)TT;
+getServiceReference
+ ()Lorg/osgi/framework/ServiceReference<TS;>;
+ ()Lorg/osgi/framework/ServiceReference<TS;>;
+getServiceReferences
+ ()[Lorg/osgi/framework/ServiceReference<TS;>;
+ ()[Lorg/osgi/framework/ServiceReference<TS;>;
+getServices
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+getServices
+ ([TT;)[TT;
+ ([TT;)[TT;
+getTracked
+ ()Ljava/util/SortedMap<Lorg/osgi/framework/ServiceReference<TS;>;TT;>;
+ ()Ljava/util/SortedMap<Lorg/osgi/framework/ServiceReference<TS;>;TT;>;
+modifiedService
+ (Lorg/osgi/framework/ServiceReference<TS;>;TT;)V
+ (Lorg/osgi/framework/ServiceReference<TS;>;TT;)V
+remove
+ (Lorg/osgi/framework/ServiceReference<TS;>;)V
+ (Lorg/osgi/framework/ServiceReference<TS;>;)V
+removedService
+ (Lorg/osgi/framework/ServiceReference<TS;>;TT;)V
+ (Lorg/osgi/framework/ServiceReference<TS;>;TT;)V
+waitForService
+ (J)TT;
+ (J)TT;

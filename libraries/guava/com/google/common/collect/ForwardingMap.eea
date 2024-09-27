@@ -1,0 +1,59 @@
+class com/google/common/collect/ForwardingMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super java/util/Map
+ <TK;TV;>
+ <TK;TV;>
+
+containsKey
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+containsValue
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+delegate
+ ()Ljava/util/Map<TK;TV;>;
+ ()Ljava/util/Map<TK;TV;>;
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (Ljava/lang/Object;)TV;
+ (Ljava/lang/Object;)T0V;
+keySet
+ ()Ljava/util/Set<TK;>;
+ ()Ljava/util/Set<TK;>;
+put
+ (TK;TV;)TV;
+ (TK;TV;)T0V;
+putAll
+ (Ljava/util/Map<+TK;+TV;>;)V
+ (Ljava/util/Map<+TK;+TV;>;)V
+remove
+ (Ljava/lang/Object;)TV;
+ (Ljava/lang/Object;)T0V;
+standardContainsKey
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+standardContainsValue
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+standardEquals
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+standardPutAll
+ (Ljava/util/Map<+TK;+TV;>;)V
+ (Ljava/util/Map<+TK;+TV;>;)V
+standardRemove
+ (Ljava/lang/Object;)TV;
+ (Ljava/lang/Object;)T0V;
+standardToString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+values
+ ()Ljava/util/Collection<TV;>;
+ ()Ljava/util/Collection<TV;>;

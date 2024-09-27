@@ -1,0 +1,19 @@
+class com/google/common/collect/ImmutableCollection$Builder
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+add
+ (TE;)Lcom/google/common/collect/ImmutableCollection$Builder<TE;>;
+ (TE;)L1com/google/common/collect/ImmutableCollection$Builder<TE;>;
+add
+ ([TE;)Lcom/google/common/collect/ImmutableCollection$Builder<TE;>;
+ ([TE;)L1com/google/common/collect/ImmutableCollection$Builder<TE;>;
+addAll
+ (Ljava/lang/Iterable<+TE;>;)Lcom/google/common/collect/ImmutableCollection$Builder<TE;>;
+ (Ljava/lang/Iterable<+TE;>;)L1com/google/common/collect/ImmutableCollection$Builder<TE;>;
+addAll
+ (Ljava/util/Iterator<+TE;>;)Lcom/google/common/collect/ImmutableCollection$Builder<TE;>;
+ (Ljava/util/Iterator<+TE;>;)L1com/google/common/collect/ImmutableCollection$Builder<TE;>;
+build
+ ()Lcom/google/common/collect/ImmutableCollection<TE;>;
+ ()L1com/google/common/collect/ImmutableCollection<TE;>;

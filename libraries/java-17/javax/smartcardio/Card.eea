@@ -1,0 +1,17 @@
+class javax/smartcardio/Card
+
+getATR
+ ()Ljavax/smartcardio/ATR;
+ ()Ljavax/smartcardio/ATR;
+getBasicChannel
+ ()Ljavax/smartcardio/CardChannel;
+ ()Ljavax/smartcardio/CardChannel;
+getProtocol
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+openLogicalChannel
+ ()Ljavax/smartcardio/CardChannel;
+ ()Ljavax/smartcardio/CardChannel;
+transmitControlCommand
+ (I[B)[B
+ (I[B)[B

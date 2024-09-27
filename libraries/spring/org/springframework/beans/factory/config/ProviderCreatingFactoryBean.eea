@@ -1,0 +1,15 @@
+class org/springframework/beans/factory/config/ProviderCreatingFactoryBean
+
+super org/springframework/beans/factory/config/AbstractFactoryBean
+ <Ljakarta/inject/Provider<Ljava/lang/Object;>;>
+ <Ljakarta/inject/Provider<Ljava/lang/Object;>;>
+
+createInstance
+ ()Ljakarta/inject/Provider<Ljava/lang/Object;>;
+ ()Ljakarta/inject/Provider<Ljava/lang/Object;>;
+getObjectType
+ ()Ljava/lang/Class<*>;
+ ()L0java/lang/Class<*>; # @Inherited(org.springframework.beans.factory.config.AbstractFactoryBean)
+setTargetBeanName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

@@ -1,0 +1,104 @@
+class javax/swing/JTable$AccessibleJTable
+
+<init>
+ (Ljavax/swing/JTable;)V
+ (Ljavax/swing/JTable;)V
+columnAdded
+ (Ljavax/swing/event/TableColumnModelEvent;)V
+ (L1javax/swing/event/TableColumnModelEvent;)V # @Inherited(javax.swing.event.TableColumnModelListener)
+columnMarginChanged
+ (Ljavax/swing/event/ChangeEvent;)V
+ (L1javax/swing/event/ChangeEvent;)V # @Inherited(javax.swing.event.TableColumnModelListener)
+columnMoved
+ (Ljavax/swing/event/TableColumnModelEvent;)V
+ (L1javax/swing/event/TableColumnModelEvent;)V # @Inherited(javax.swing.event.TableColumnModelListener)
+columnRemoved
+ (Ljavax/swing/event/TableColumnModelEvent;)V
+ (L1javax/swing/event/TableColumnModelEvent;)V # @Inherited(javax.swing.event.TableColumnModelListener)
+columnSelectionChanged
+ (Ljavax/swing/event/ListSelectionEvent;)V
+ (L1javax/swing/event/ListSelectionEvent;)V # @Inherited(javax.swing.event.TableColumnModelListener)
+editingCanceled
+ (Ljavax/swing/event/ChangeEvent;)V
+ (L1javax/swing/event/ChangeEvent;)V # @Inherited(javax.swing.event.CellEditorListener)
+editingStopped
+ (Ljavax/swing/event/ChangeEvent;)V
+ (L1javax/swing/event/ChangeEvent;)V # @Inherited(javax.swing.event.CellEditorListener)
+getAccessibleAt
+ (II)Ljavax/accessibility/Accessible;
+ (II)Ljavax/accessibility/Accessible;
+getAccessibleAt
+ (Ljava/awt/Point;)Ljavax/accessibility/Accessible;
+ (Ljava/awt/Point;)Ljavax/accessibility/Accessible;
+getAccessibleCaption
+ ()Ljavax/accessibility/Accessible;
+ ()Ljavax/accessibility/Accessible;
+getAccessibleChild
+ (I)Ljavax/accessibility/Accessible;
+ (I)Ljavax/accessibility/Accessible;
+getAccessibleColumnDescription
+ (I)Ljavax/accessibility/Accessible;
+ (I)Ljavax/accessibility/Accessible;
+getAccessibleColumnHeader
+ ()Ljavax/accessibility/AccessibleTable;
+ ()Ljavax/accessibility/AccessibleTable;
+getAccessibleRole
+ ()Ljavax/accessibility/AccessibleRole;
+ ()Ljavax/accessibility/AccessibleRole;
+getAccessibleRowDescription
+ (I)Ljavax/accessibility/Accessible;
+ (I)Ljavax/accessibility/Accessible;
+getAccessibleRowHeader
+ ()Ljavax/accessibility/AccessibleTable;
+ ()Ljavax/accessibility/AccessibleTable;
+getAccessibleSelection
+ ()Ljavax/accessibility/AccessibleSelection;
+ ()Ljavax/accessibility/AccessibleSelection;
+getAccessibleSelection
+ (I)Ljavax/accessibility/Accessible;
+ (I)Ljavax/accessibility/Accessible;
+getAccessibleSummary
+ ()Ljavax/accessibility/Accessible;
+ ()Ljavax/accessibility/Accessible;
+getAccessibleTable
+ ()Ljavax/accessibility/AccessibleTable;
+ ()Ljavax/accessibility/AccessibleTable;
+getSelectedAccessibleColumns
+ ()[I
+ ()[I
+getSelectedAccessibleRows
+ ()[I
+ ()[I
+propertyChange
+ (Ljava/beans/PropertyChangeEvent;)V
+ (L1java/beans/PropertyChangeEvent;)V # @Inherited(java.beans.PropertyChangeListener)
+setAccessibleCaption
+ (Ljavax/accessibility/Accessible;)V
+ (Ljavax/accessibility/Accessible;)V
+setAccessibleColumnDescription
+ (ILjavax/accessibility/Accessible;)V
+ (ILjavax/accessibility/Accessible;)V
+setAccessibleColumnHeader
+ (Ljavax/accessibility/AccessibleTable;)V
+ (Ljavax/accessibility/AccessibleTable;)V
+setAccessibleRowDescription
+ (ILjavax/accessibility/Accessible;)V
+ (ILjavax/accessibility/Accessible;)V
+setAccessibleRowHeader
+ (Ljavax/accessibility/AccessibleTable;)V
+ (Ljavax/accessibility/AccessibleTable;)V
+setAccessibleSummary
+ (Ljavax/accessibility/Accessible;)V
+ (Ljavax/accessibility/Accessible;)V
+tableChanged
+ (Ljavax/swing/event/TableModelEvent;)V
+ (L1javax/swing/event/TableModelEvent;)V # @Inherited(javax.swing.event.TableModelListener)
+tableRowsDeleted
+ (Ljavax/swing/event/TableModelEvent;)V
+ (Ljavax/swing/event/TableModelEvent;)V
+tableRowsInserted
+ (Ljavax/swing/event/TableModelEvent;)V
+ (Ljavax/swing/event/TableModelEvent;)V
+valueChanged
+ (Ljavax/swing/event/ListSelectionEvent;)V
+ (L1javax/swing/event/ListSelectionEvent;)V # @Inherited(javax.swing.event.ListSelectionListener)

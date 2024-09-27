@@ -1,0 +1,54 @@
+class javax/xml/validation/SchemaFactory
+
+newDefaultInstance
+ ()Ljavax/xml/validation/SchemaFactory;
+ ()Ljavax/xml/validation/SchemaFactory;
+newInstance
+ (Ljava/lang/String;)Ljavax/xml/validation/SchemaFactory;
+ (Ljava/lang/String;)Ljavax/xml/validation/SchemaFactory;
+newInstance
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/validation/SchemaFactory;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/validation/SchemaFactory;
+
+getErrorHandler
+ ()Lorg/xml/sax/ErrorHandler;
+ ()Lorg/xml/sax/ErrorHandler;
+getFeature
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getResourceResolver
+ ()Lorg/w3c/dom/ls/LSResourceResolver;
+ ()Lorg/w3c/dom/ls/LSResourceResolver;
+isSchemaLanguageSupported
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+newSchema
+ ()Ljavax/xml/validation/Schema;
+ ()Ljavax/xml/validation/Schema;
+newSchema
+ (Ljava/io/File;)Ljavax/xml/validation/Schema;
+ (Ljava/io/File;)Ljavax/xml/validation/Schema;
+newSchema
+ (Ljava/net/URL;)Ljavax/xml/validation/Schema;
+ (Ljava/net/URL;)Ljavax/xml/validation/Schema;
+newSchema
+ (Ljavax/xml/transform/Source;)Ljavax/xml/validation/Schema;
+ (Ljavax/xml/transform/Source;)Ljavax/xml/validation/Schema;
+newSchema
+ ([Ljavax/xml/transform/Source;)Ljavax/xml/validation/Schema;
+ ([Ljavax/xml/transform/Source;)Ljavax/xml/validation/Schema;
+setErrorHandler
+ (Lorg/xml/sax/ErrorHandler;)V
+ (Lorg/xml/sax/ErrorHandler;)V
+setFeature
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+setProperty
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+setResourceResolver
+ (Lorg/w3c/dom/ls/LSResourceResolver;)V
+ (Lorg/w3c/dom/ls/LSResourceResolver;)V

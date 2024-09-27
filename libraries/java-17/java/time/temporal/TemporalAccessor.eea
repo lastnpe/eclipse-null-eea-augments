@@ -1,0 +1,17 @@
+class java/time/temporal/TemporalAccessor
+
+get
+ (Ljava/time/temporal/TemporalField;)I
+ (Ljava/time/temporal/TemporalField;)I
+getLong
+ (Ljava/time/temporal/TemporalField;)J
+ (Ljava/time/temporal/TemporalField;)J
+isSupported
+ (Ljava/time/temporal/TemporalField;)Z
+ (Ljava/time/temporal/TemporalField;)Z
+query
+ <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+ <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+range
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;

@@ -1,0 +1,56 @@
+class java/awt/peer/DesktopPeer
+
+addAppEventListener
+ (Ljava/awt/desktop/SystemEventListener;)V
+ (L1java/awt/desktop/SystemEventListener;)V
+browse
+ (Ljava/net/URI;)V
+ (Ljava/net/URI;)V
+browseFileDirectory
+ (Ljava/io/File;)Z
+ (Ljava/io/File;)Z
+edit
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+isSupported
+ (Ljava/awt/Desktop$Action;)Z
+ (Ljava/awt/Desktop$Action;)Z
+mail
+ (Ljava/net/URI;)V
+ (Ljava/net/URI;)V
+moveToTrash
+ (Ljava/io/File;)Z
+ (Ljava/io/File;)Z
+open
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+print
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+removeAppEventListener
+ (Ljava/awt/desktop/SystemEventListener;)V
+ (L1java/awt/desktop/SystemEventListener;)V
+setAboutHandler
+ (Ljava/awt/desktop/AboutHandler;)V
+ (Ljava/awt/desktop/AboutHandler;)V
+setDefaultMenuBar
+ (Ljavax/swing/JMenuBar;)V
+ (Ljavax/swing/JMenuBar;)V
+setOpenFileHandler
+ (Ljava/awt/desktop/OpenFilesHandler;)V
+ (Ljava/awt/desktop/OpenFilesHandler;)V
+setOpenURIHandler
+ (Ljava/awt/desktop/OpenURIHandler;)V
+ (Ljava/awt/desktop/OpenURIHandler;)V
+setPreferencesHandler
+ (Ljava/awt/desktop/PreferencesHandler;)V
+ (Ljava/awt/desktop/PreferencesHandler;)V
+setPrintFileHandler
+ (Ljava/awt/desktop/PrintFilesHandler;)V
+ (Ljava/awt/desktop/PrintFilesHandler;)V
+setQuitHandler
+ (Ljava/awt/desktop/QuitHandler;)V
+ (Ljava/awt/desktop/QuitHandler;)V
+setQuitStrategy
+ (Ljava/awt/desktop/QuitStrategy;)V
+ (Ljava/awt/desktop/QuitStrategy;)V

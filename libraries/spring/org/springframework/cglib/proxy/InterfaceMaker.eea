@@ -1,0 +1,26 @@
+class org/springframework/cglib/proxy/InterfaceMaker
+
+add
+ (Ljava/lang/Class;)V
+ (Ljava/lang/Class;)V
+add
+ (Ljava/lang/reflect/Method;)V
+ (Ljava/lang/reflect/Method;)V
+add
+ (Lorg/springframework/cglib/core/Signature;[Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/cglib/core/Signature;[Lorg/springframework/asm/Type;)V
+create
+ ()Ljava/lang/Class;
+ ()Ljava/lang/Class;
+firstInstance
+ (Ljava/lang/Class;)Ljava/lang/Object;
+ (Ljava/lang/Class;)Ljava/lang/Object;
+generateClass
+ (Lorg/springframework/asm/ClassVisitor;)V
+ (Lorg/springframework/asm/ClassVisitor;)V
+getDefaultClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()Ljava/lang/ClassLoader;
+nextInstance
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;

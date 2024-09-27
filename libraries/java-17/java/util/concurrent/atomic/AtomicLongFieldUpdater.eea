@@ -1,0 +1,56 @@
+class java/util/concurrent/atomic/AtomicLongFieldUpdater
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+newUpdater
+ <U:Ljava/lang/Object;>(Ljava/lang/Class<TU;>;Ljava/lang/String;)Ljava/util/concurrent/atomic/AtomicLongFieldUpdater<TU;>;
+ <U:Ljava/lang/Object;>(Ljava/lang/Class<TU;>;Ljava/lang/String;)Ljava/util/concurrent/atomic/AtomicLongFieldUpdater<TU;>;
+
+accumulateAndGet
+ (TT;JLjava/util/function/LongBinaryOperator;)J
+ (TT;JLjava/util/function/LongBinaryOperator;)J
+addAndGet
+ (TT;J)J
+ (TT;J)J
+compareAndSet
+ (TT;JJ)Z
+ (TT;JJ)Z
+decrementAndGet
+ (TT;)J
+ (TT;)J
+get
+ (TT;)J
+ (TT;)J
+getAndAccumulate
+ (TT;JLjava/util/function/LongBinaryOperator;)J
+ (TT;JLjava/util/function/LongBinaryOperator;)J
+getAndAdd
+ (TT;J)J
+ (TT;J)J
+getAndDecrement
+ (TT;)J
+ (TT;)J
+getAndIncrement
+ (TT;)J
+ (TT;)J
+getAndSet
+ (TT;J)J
+ (TT;J)J
+getAndUpdate
+ (TT;Ljava/util/function/LongUnaryOperator;)J
+ (TT;Ljava/util/function/LongUnaryOperator;)J
+incrementAndGet
+ (TT;)J
+ (TT;)J
+lazySet
+ (TT;J)V
+ (TT;J)V
+set
+ (TT;J)V
+ (TT;J)V
+updateAndGet
+ (TT;Ljava/util/function/LongUnaryOperator;)J
+ (TT;Ljava/util/function/LongUnaryOperator;)J
+weakCompareAndSet
+ (TT;JJ)Z
+ (TT;JJ)Z

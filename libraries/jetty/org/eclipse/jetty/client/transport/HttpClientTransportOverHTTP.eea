@@ -1,0 +1,18 @@
+class org/eclipse/jetty/client/transport/HttpClientTransportOverHTTP
+
+HTTP11
+ Lorg/eclipse/jetty/client/Origin$Protocol;
+ L1org/eclipse/jetty/client/Origin$Protocol;
+
+<init>
+ (Lorg/eclipse/jetty/io/ClientConnector;)V
+ (Lorg/eclipse/jetty/io/ClientConnector;)V
+newConnection
+ (Lorg/eclipse/jetty/io/EndPoint;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/eclipse/jetty/io/Connection;
+ (Lorg/eclipse/jetty/io/EndPoint;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/eclipse/jetty/io/Connection;
+newDestination
+ (Lorg/eclipse/jetty/client/Origin;)Lorg/eclipse/jetty/client/Destination;
+ (Lorg/eclipse/jetty/client/Origin;)Lorg/eclipse/jetty/client/Destination;
+newOrigin
+ (Lorg/eclipse/jetty/client/Request;)Lorg/eclipse/jetty/client/Origin;
+ (Lorg/eclipse/jetty/client/Request;)Lorg/eclipse/jetty/client/Origin;

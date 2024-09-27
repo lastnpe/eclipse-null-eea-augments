@@ -1,0 +1,10 @@
+class org/osgi/framework/ServiceFactory
+ <S:Ljava/lang/Object;>
+ <S:Ljava/lang/Object;>
+
+getService
+ (Lorg/osgi/framework/Bundle;Lorg/osgi/framework/ServiceRegistration<TS;>;)TS;
+ (Lorg/osgi/framework/Bundle;Lorg/osgi/framework/ServiceRegistration<TS;>;)TS;
+ungetService
+ (Lorg/osgi/framework/Bundle;Lorg/osgi/framework/ServiceRegistration<TS;>;TS;)V
+ (Lorg/osgi/framework/Bundle;Lorg/osgi/framework/ServiceRegistration<TS;>;TS;)V

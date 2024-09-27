@@ -1,0 +1,20 @@
+class org/eclipse/jetty/client/ConnectionPool
+
+accept
+ (Lorg/eclipse/jetty/client/Connection;)Z
+ (Lorg/eclipse/jetty/client/Connection;)Z
+acquire
+ (Z)Lorg/eclipse/jetty/client/Connection;
+ (Z)Lorg/eclipse/jetty/client/Connection;
+isActive
+ (Lorg/eclipse/jetty/client/Connection;)Z
+ (Lorg/eclipse/jetty/client/Connection;)Z
+preCreateConnections
+ (I)Ljava/util/concurrent/CompletableFuture<Ljava/lang/Void;>;
+ (I)Ljava/util/concurrent/CompletableFuture<Ljava/lang/Void;>;
+release
+ (Lorg/eclipse/jetty/client/Connection;)Z
+ (Lorg/eclipse/jetty/client/Connection;)Z
+remove
+ (Lorg/eclipse/jetty/client/Connection;)Z
+ (Lorg/eclipse/jetty/client/Connection;)Z

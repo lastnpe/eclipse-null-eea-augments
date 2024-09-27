@@ -1,19 +1,35 @@
 class java/util/Collection
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/lang/Iterable
+ <TE;>
+ <TE;>
+
+add
+ (TE;)Z
+ (TE;)Z
 addAll
  (Ljava/util/Collection<+TE;>;)Z
  (L1java/util/Collection<+TE;>;)Z
+contains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
 containsAll
  (Ljava/util/Collection<*>;)Z
  (L1java/util/Collection<*>;)Z
 equals
  (Ljava/lang/Object;)Z
- (L0java/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
 iterator
  ()Ljava/util/Iterator<TE;>;
  ()L1java/util/Iterator<TE;>;
 parallelStream
  ()Ljava/util/stream/Stream<TE;>;
  ()L1java/util/stream/Stream<TE;>;
+remove
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
 removeAll
  (Ljava/util/Collection<*>;)Z
  (L1java/util/Collection<*>;)Z

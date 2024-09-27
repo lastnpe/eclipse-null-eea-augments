@@ -1,0 +1,16 @@
+class com/google/common/graph/ImmutableGraph$Builder
+ <N:Ljava/lang/Object;>
+ <N:Ljava/lang/Object;>
+
+addNode
+ (TN;)Lcom/google/common/graph/ImmutableGraph$Builder<TN;>;
+ (TN;)L1com/google/common/graph/ImmutableGraph$Builder<TN;>;
+build
+ ()Lcom/google/common/graph/ImmutableGraph<TN;>;
+ ()L1com/google/common/graph/ImmutableGraph<TN;>;
+putEdge
+ (Lcom/google/common/graph/EndpointPair<TN;>;)Lcom/google/common/graph/ImmutableGraph$Builder<TN;>;
+ (Lcom/google/common/graph/EndpointPair<TN;>;)L1com/google/common/graph/ImmutableGraph$Builder<TN;>;
+putEdge
+ (TN;TN;)Lcom/google/common/graph/ImmutableGraph$Builder<TN;>;
+ (TN;TN;)L1com/google/common/graph/ImmutableGraph$Builder<TN;>;

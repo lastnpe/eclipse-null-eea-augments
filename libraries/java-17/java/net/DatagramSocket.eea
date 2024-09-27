@@ -1,0 +1,60 @@
+class java/net/DatagramSocket
+
+setDatagramSocketImplFactory
+ (Ljava/net/DatagramSocketImplFactory;)V
+ (Ljava/net/DatagramSocketImplFactory;)V
+
+<init>
+ (ILjava/net/InetAddress;)V
+ (ILjava/net/InetAddress;)V
+<init>
+ (Ljava/net/DatagramSocketImpl;)V
+ (Ljava/net/DatagramSocketImpl;)V
+<init>
+ (Ljava/net/SocketAddress;)V
+ (Ljava/net/SocketAddress;)V
+bind
+ (Ljava/net/SocketAddress;)V
+ (Ljava/net/SocketAddress;)V
+connect
+ (Ljava/net/InetAddress;I)V
+ (Ljava/net/InetAddress;I)V
+connect
+ (Ljava/net/SocketAddress;)V
+ (Ljava/net/SocketAddress;)V
+getChannel
+ ()Ljava/nio/channels/DatagramChannel;
+ ()Ljava/nio/channels/DatagramChannel;
+getInetAddress
+ ()Ljava/net/InetAddress;
+ ()Ljava/net/InetAddress;
+getLocalAddress
+ ()Ljava/net/InetAddress;
+ ()Ljava/net/InetAddress;
+getLocalSocketAddress
+ ()Ljava/net/SocketAddress;
+ ()Ljava/net/SocketAddress;
+getOption
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;)TT;
+getRemoteSocketAddress
+ ()Ljava/net/SocketAddress;
+ ()Ljava/net/SocketAddress;
+joinGroup
+ (Ljava/net/SocketAddress;Ljava/net/NetworkInterface;)V
+ (Ljava/net/SocketAddress;Ljava/net/NetworkInterface;)V
+leaveGroup
+ (Ljava/net/SocketAddress;Ljava/net/NetworkInterface;)V
+ (Ljava/net/SocketAddress;Ljava/net/NetworkInterface;)V
+receive
+ (Ljava/net/DatagramPacket;)V
+ (Ljava/net/DatagramPacket;)V
+send
+ (Ljava/net/DatagramPacket;)V
+ (Ljava/net/DatagramPacket;)V
+setOption
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/net/DatagramSocket;
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/net/DatagramSocket;
+supportedOptions
+ ()Ljava/util/Set<Ljava/net/SocketOption<*>;>;
+ ()Ljava/util/Set<Ljava/net/SocketOption<*>;>;

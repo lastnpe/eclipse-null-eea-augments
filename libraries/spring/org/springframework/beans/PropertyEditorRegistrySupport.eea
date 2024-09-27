@@ -1,0 +1,38 @@
+class org/springframework/beans/PropertyEditorRegistrySupport
+
+copyCustomEditorsTo
+ (Lorg/springframework/beans/PropertyEditorRegistry;Ljava/lang/String;)V
+ (Lorg/springframework/beans/PropertyEditorRegistry;Ljava/lang/String;)V
+copyDefaultEditorsTo
+ (Lorg/springframework/beans/PropertyEditorRegistrySupport;)V
+ (Lorg/springframework/beans/PropertyEditorRegistrySupport;)V
+findCustomEditor
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/beans/PropertyEditor;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)L0java/beans/PropertyEditor; # @Inherited(org.springframework.beans.PropertyEditorRegistry)
+getConversionService
+ ()Lorg/springframework/core/convert/ConversionService;
+ ()L0org/springframework/core/convert/ConversionService;
+getDefaultEditor
+ (Ljava/lang/Class<*>;)Ljava/beans/PropertyEditor;
+ (Ljava/lang/Class<*>;)L0java/beans/PropertyEditor;
+getPropertyType
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;)L0java/lang/Class<*>;
+guessPropertyTypeFromEditors
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;)L0java/lang/Class<*>;
+hasCustomEditorForElement
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Z
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Z
+overrideDefaultEditor
+ (Ljava/lang/Class<*>;Ljava/beans/PropertyEditor;)V
+ (Ljava/lang/Class<*>;Ljava/beans/PropertyEditor;)V
+registerCustomEditor
+ (Ljava/lang/Class<*>;Ljava/beans/PropertyEditor;)V
+ (Ljava/lang/Class<*>;Ljava/beans/PropertyEditor;)V
+registerCustomEditor
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/beans/PropertyEditor;)V
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/beans/PropertyEditor;)V
+setConversionService
+ (Lorg/springframework/core/convert/ConversionService;)V
+ (Lorg/springframework/core/convert/ConversionService;)V

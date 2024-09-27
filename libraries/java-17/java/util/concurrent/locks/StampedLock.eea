@@ -1,0 +1,20 @@
+class java/util/concurrent/locks/StampedLock
+
+asReadLock
+ ()Ljava/util/concurrent/locks/Lock;
+ ()Ljava/util/concurrent/locks/Lock;
+asReadWriteLock
+ ()Ljava/util/concurrent/locks/ReadWriteLock;
+ ()Ljava/util/concurrent/locks/ReadWriteLock;
+asWriteLock
+ ()Ljava/util/concurrent/locks/Lock;
+ ()Ljava/util/concurrent/locks/Lock;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+tryReadLock
+ (JLjava/util/concurrent/TimeUnit;)J
+ (JLjava/util/concurrent/TimeUnit;)J
+tryWriteLock
+ (JLjava/util/concurrent/TimeUnit;)J
+ (JLjava/util/concurrent/TimeUnit;)J

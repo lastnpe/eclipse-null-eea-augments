@@ -1,0 +1,90 @@
+class javax/swing/tree/DefaultTreeModel
+
+listenerList
+ Ljavax/swing/event/EventListenerList;
+ Ljavax/swing/event/EventListenerList;
+root
+ Ljavax/swing/tree/TreeNode;
+ Ljavax/swing/tree/TreeNode;
+
+<init>
+ (Ljavax/swing/tree/TreeNode;)V
+ (Ljavax/swing/tree/TreeNode;)V
+<init>
+ (Ljavax/swing/tree/TreeNode;Z)V
+ (Ljavax/swing/tree/TreeNode;Z)V
+addTreeModelListener
+ (Ljavax/swing/event/TreeModelListener;)V
+ (L1javax/swing/event/TreeModelListener;)V # @Inherited(javax.swing.tree.TreeModel)
+fireTreeNodesChanged
+ (Ljava/lang/Object;[Ljava/lang/Object;[I[Ljava/lang/Object;)V
+ (Ljava/lang/Object;[Ljava/lang/Object;[I[Ljava/lang/Object;)V
+fireTreeNodesInserted
+ (Ljava/lang/Object;[Ljava/lang/Object;[I[Ljava/lang/Object;)V
+ (Ljava/lang/Object;[Ljava/lang/Object;[I[Ljava/lang/Object;)V
+fireTreeNodesRemoved
+ (Ljava/lang/Object;[Ljava/lang/Object;[I[Ljava/lang/Object;)V
+ (Ljava/lang/Object;[Ljava/lang/Object;[I[Ljava/lang/Object;)V
+fireTreeStructureChanged
+ (Ljava/lang/Object;[Ljava/lang/Object;[I[Ljava/lang/Object;)V
+ (Ljava/lang/Object;[Ljava/lang/Object;[I[Ljava/lang/Object;)V
+getChild
+ (Ljava/lang/Object;I)Ljava/lang/Object;
+ (Ljava/lang/Object;I)Ljava/lang/Object;
+getChildCount
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+getIndexOfChild
+ (Ljava/lang/Object;Ljava/lang/Object;)I
+ (Ljava/lang/Object;Ljava/lang/Object;)I
+getListeners
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+getPathToRoot
+ (Ljavax/swing/tree/TreeNode;)[Ljavax/swing/tree/TreeNode;
+ (Ljavax/swing/tree/TreeNode;)[Ljavax/swing/tree/TreeNode;
+getPathToRoot
+ (Ljavax/swing/tree/TreeNode;I)[Ljavax/swing/tree/TreeNode;
+ (Ljavax/swing/tree/TreeNode;I)[Ljavax/swing/tree/TreeNode;
+getRoot
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getTreeModelListeners
+ ()[Ljavax/swing/event/TreeModelListener;
+ ()[Ljavax/swing/event/TreeModelListener;
+insertNodeInto
+ (Ljavax/swing/tree/MutableTreeNode;Ljavax/swing/tree/MutableTreeNode;I)V
+ (Ljavax/swing/tree/MutableTreeNode;Ljavax/swing/tree/MutableTreeNode;I)V
+isLeaf
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+nodeChanged
+ (Ljavax/swing/tree/TreeNode;)V
+ (Ljavax/swing/tree/TreeNode;)V
+nodeStructureChanged
+ (Ljavax/swing/tree/TreeNode;)V
+ (Ljavax/swing/tree/TreeNode;)V
+nodesChanged
+ (Ljavax/swing/tree/TreeNode;[I)V
+ (Ljavax/swing/tree/TreeNode;[I)V
+nodesWereInserted
+ (Ljavax/swing/tree/TreeNode;[I)V
+ (Ljavax/swing/tree/TreeNode;[I)V
+nodesWereRemoved
+ (Ljavax/swing/tree/TreeNode;[I[Ljava/lang/Object;)V
+ (Ljavax/swing/tree/TreeNode;[I[Ljava/lang/Object;)V
+reload
+ (Ljavax/swing/tree/TreeNode;)V
+ (Ljavax/swing/tree/TreeNode;)V
+removeNodeFromParent
+ (Ljavax/swing/tree/MutableTreeNode;)V
+ (Ljavax/swing/tree/MutableTreeNode;)V
+removeTreeModelListener
+ (Ljavax/swing/event/TreeModelListener;)V
+ (L1javax/swing/event/TreeModelListener;)V # @Inherited(javax.swing.tree.TreeModel)
+setRoot
+ (Ljavax/swing/tree/TreeNode;)V
+ (Ljavax/swing/tree/TreeNode;)V
+valueForPathChanged
+ (Ljavax/swing/tree/TreePath;Ljava/lang/Object;)V
+ (Ljavax/swing/tree/TreePath;Ljava/lang/Object;)V

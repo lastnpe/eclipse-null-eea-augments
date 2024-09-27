@@ -1,16 +1,17 @@
 class java/lang/reflect/Method
+
 equals
  (Ljava/lang/Object;)Z
- (L0java/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
 getAnnotatedReturnType
  ()Ljava/lang/reflect/AnnotatedType;
  ()L1java/lang/reflect/AnnotatedType;
 getAnnotation
  <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
- <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)T0T;
+ <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)T0T; # @Inherited(java.lang.reflect.Executable)
 getDeclaredAnnotations
  ()[Ljava/lang/annotation/Annotation;
- ()[1L1java/lang/annotation/Annotation;
+ ()[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.Executable)
 getDeclaringClass
  ()Ljava/lang/Class<*>;
  ()L1java/lang/Class<*>;
@@ -52,4 +53,4 @@ toGenericString
  ()L1java/lang/String;
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

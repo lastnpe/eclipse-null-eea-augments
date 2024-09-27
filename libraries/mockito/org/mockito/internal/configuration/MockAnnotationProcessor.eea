@@ -1,0 +1,13 @@
+class org/mockito/internal/configuration/MockAnnotationProcessor
+
+super org/mockito/internal/configuration/FieldAnnotationProcessor
+ <Lorg/mockito/Mock;>
+ <Lorg/mockito/Mock;>
+
+processAnnotationForMock
+ (Lorg/mockito/Mock;Ljava/lang/Class<*>;Lorg/mockito/internal/util/Supplier<Ljava/lang/reflect/Type;>;Ljava/lang/String;)Ljava/lang/Object;
+ (Lorg/mockito/Mock;Ljava/lang/Class<*>;Lorg/mockito/internal/util/Supplier<Ljava/lang/reflect/Type;>;Ljava/lang/String;)Ljava/lang/Object;
+
+process
+ (Lorg/mockito/Mock;Ljava/lang/reflect/Field;)Ljava/lang/Object;
+ (Lorg/mockito/Mock;Ljava/lang/reflect/Field;)Ljava/lang/Object;

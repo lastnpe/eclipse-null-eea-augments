@@ -1,0 +1,24 @@
+class org/springframework/objenesis/ObjenesisBase
+
+cache
+ Ljava/util/concurrent/ConcurrentHashMap<Ljava/lang/String;Lorg/springframework/objenesis/instantiator/ObjectInstantiator<*>;>;
+ Ljava/util/concurrent/ConcurrentHashMap<Ljava/lang/String;Lorg/springframework/objenesis/instantiator/ObjectInstantiator<*>;>;
+strategy
+ Lorg/springframework/objenesis/strategy/InstantiatorStrategy;
+ Lorg/springframework/objenesis/strategy/InstantiatorStrategy;
+
+<init>
+ (Lorg/springframework/objenesis/strategy/InstantiatorStrategy;)V
+ (Lorg/springframework/objenesis/strategy/InstantiatorStrategy;)V
+<init>
+ (Lorg/springframework/objenesis/strategy/InstantiatorStrategy;Z)V
+ (Lorg/springframework/objenesis/strategy/InstantiatorStrategy;Z)V
+getInstantiatorOf
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/springframework/objenesis/instantiator/ObjectInstantiator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/springframework/objenesis/instantiator/ObjectInstantiator<TT;>;
+newInstance
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

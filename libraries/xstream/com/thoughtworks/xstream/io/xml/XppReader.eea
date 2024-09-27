@@ -1,0 +1,35 @@
+class com/thoughtworks/xstream/io/xml/XppReader
+
+<init>
+ (Ljava/io/Reader;)V
+ (Ljava/io/Reader;)V
+<init>
+ (Ljava/io/Reader;Lcom/thoughtworks/xstream/io/xml/XmlFriendlyReplacer;)V
+ (Ljava/io/Reader;Lcom/thoughtworks/xstream/io/xml/XmlFriendlyReplacer;)V
+<init>
+ (Ljava/io/Reader;Lorg/xmlpull/v1/XmlPullParser;)V
+ (Ljava/io/Reader;Lorg/xmlpull/v1/XmlPullParser;)V
+<init>
+ (Ljava/io/Reader;Lorg/xmlpull/v1/XmlPullParser;Lcom/thoughtworks/xstream/io/naming/NameCoder;)V
+ (Ljava/io/Reader;Lorg/xmlpull/v1/XmlPullParser;Lcom/thoughtworks/xstream/io/naming/NameCoder;)V
+appendErrors
+ (Lcom/thoughtworks/xstream/converters/ErrorWriter;)V
+ (Lcom/thoughtworks/xstream/converters/ErrorWriter;)V
+createParser
+ ()Lorg/xmlpull/v1/XmlPullParser;
+ ()Lorg/xmlpull/v1/XmlPullParser;
+getAttribute
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getAttributeName
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+pullElementName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+pullText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

@@ -1,0 +1,18 @@
+class com/google/common/escape/UnicodeEscaper
+
+codePointAt
+ (Ljava/lang/CharSequence;II)I
+ (Ljava/lang/CharSequence;II)I
+
+escape
+ (I)[C
+ (I)[0C
+escape
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+escapeSlow
+ (Ljava/lang/String;I)Ljava/lang/String;
+ (Ljava/lang/String;I)Ljava/lang/String;
+nextEscapeIndex
+ (Ljava/lang/CharSequence;II)I
+ (Ljava/lang/CharSequence;II)I

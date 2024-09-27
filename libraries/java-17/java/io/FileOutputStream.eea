@@ -1,0 +1,29 @@
+class java/io/FileOutputStream
+
+<init>
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+<init>
+ (Ljava/io/File;Z)V
+ (Ljava/io/File;Z)V
+<init>
+ (Ljava/io/FileDescriptor;)V
+ (Ljava/io/FileDescriptor;)V
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+getChannel
+ ()Ljava/nio/channels/FileChannel;
+ ()Ljava/nio/channels/FileChannel;
+getFD
+ ()Ljava/io/FileDescriptor;
+ ()Ljava/io/FileDescriptor;
+write
+ ([B)V
+ ([B)V
+write
+ ([BII)V
+ ([BII)V

@@ -1,0 +1,55 @@
+class javax/xml/stream/XMLOutputFactory
+
+IS_REPAIRING_NAMESPACES
+ Ljava/lang/String;
+ L1java/lang/String;
+
+newDefaultFactory
+ ()Ljavax/xml/stream/XMLOutputFactory;
+ ()Ljavax/xml/stream/XMLOutputFactory;
+newFactory
+ ()Ljavax/xml/stream/XMLOutputFactory;
+ ()Ljavax/xml/stream/XMLOutputFactory;
+newFactory
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/stream/XMLOutputFactory;
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/stream/XMLOutputFactory;
+newInstance
+ ()Ljavax/xml/stream/XMLOutputFactory;
+ ()Ljavax/xml/stream/XMLOutputFactory;
+newInstance
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/stream/XMLInputFactory;
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/stream/XMLInputFactory;
+
+createXMLEventWriter
+ (Ljava/io/OutputStream;)Ljavax/xml/stream/XMLEventWriter;
+ (Ljava/io/OutputStream;)Ljavax/xml/stream/XMLEventWriter;
+createXMLEventWriter
+ (Ljava/io/OutputStream;Ljava/lang/String;)Ljavax/xml/stream/XMLEventWriter;
+ (Ljava/io/OutputStream;Ljava/lang/String;)Ljavax/xml/stream/XMLEventWriter;
+createXMLEventWriter
+ (Ljava/io/Writer;)Ljavax/xml/stream/XMLEventWriter;
+ (Ljava/io/Writer;)Ljavax/xml/stream/XMLEventWriter;
+createXMLEventWriter
+ (Ljavax/xml/transform/Result;)Ljavax/xml/stream/XMLEventWriter;
+ (Ljavax/xml/transform/Result;)Ljavax/xml/stream/XMLEventWriter;
+createXMLStreamWriter
+ (Ljava/io/OutputStream;)Ljavax/xml/stream/XMLStreamWriter;
+ (Ljava/io/OutputStream;)Ljavax/xml/stream/XMLStreamWriter;
+createXMLStreamWriter
+ (Ljava/io/OutputStream;Ljava/lang/String;)Ljavax/xml/stream/XMLStreamWriter;
+ (Ljava/io/OutputStream;Ljava/lang/String;)Ljavax/xml/stream/XMLStreamWriter;
+createXMLStreamWriter
+ (Ljava/io/Writer;)Ljavax/xml/stream/XMLStreamWriter;
+ (Ljava/io/Writer;)Ljavax/xml/stream/XMLStreamWriter;
+createXMLStreamWriter
+ (Ljavax/xml/transform/Result;)Ljavax/xml/stream/XMLStreamWriter;
+ (Ljavax/xml/transform/Result;)Ljavax/xml/stream/XMLStreamWriter;
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+isPropertySupported
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+setProperty
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V

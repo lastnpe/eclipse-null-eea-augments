@@ -1,0 +1,20 @@
+class java/nio/file/SimpleFileVisitor
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super java/nio/file/FileVisitor
+ <TT;>
+ <TT;>
+
+postVisitDirectory
+ (TT;Ljava/io/IOException;)Ljava/nio/file/FileVisitResult;
+ (TT;Ljava/io/IOException;)Ljava/nio/file/FileVisitResult;
+preVisitDirectory
+ (TT;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;
+ (TT;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;
+visitFile
+ (TT;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;
+ (TT;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;
+visitFileFailed
+ (TT;Ljava/io/IOException;)Ljava/nio/file/FileVisitResult;
+ (TT;Ljava/io/IOException;)Ljava/nio/file/FileVisitResult;

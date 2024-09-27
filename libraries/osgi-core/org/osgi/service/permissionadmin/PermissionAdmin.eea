@@ -1,0 +1,17 @@
+class org/osgi/service/permissionadmin/PermissionAdmin
+
+getDefaultPermissions
+ ()[Lorg/osgi/service/permissionadmin/PermissionInfo;
+ ()[Lorg/osgi/service/permissionadmin/PermissionInfo;
+getLocations
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getPermissions
+ (Ljava/lang/String;)[Lorg/osgi/service/permissionadmin/PermissionInfo;
+ (Ljava/lang/String;)[Lorg/osgi/service/permissionadmin/PermissionInfo;
+setDefaultPermissions
+ ([Lorg/osgi/service/permissionadmin/PermissionInfo;)V
+ ([Lorg/osgi/service/permissionadmin/PermissionInfo;)V
+setPermissions
+ (Ljava/lang/String;[Lorg/osgi/service/permissionadmin/PermissionInfo;)V
+ (Ljava/lang/String;[Lorg/osgi/service/permissionadmin/PermissionInfo;)V

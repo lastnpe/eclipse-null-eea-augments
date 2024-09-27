@@ -1,0 +1,41 @@
+class com/google/common/graph/Graphs
+
+copyOf
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/Graph<TN;>;)Lcom/google/common/graph/MutableGraph<TN;>;
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/Graph<TN;>;)Lcom/google/common/graph/MutableGraph<TN;>;
+copyOf
+ <N:Ljava/lang/Object;E:Ljava/lang/Object;>(Lcom/google/common/graph/Network<TN;TE;>;)Lcom/google/common/graph/MutableNetwork<TN;TE;>;
+ <N:Ljava/lang/Object;E:Ljava/lang/Object;>(Lcom/google/common/graph/Network<TN;TE;>;)Lcom/google/common/graph/MutableNetwork<TN;TE;>;
+copyOf
+ <N:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/graph/ValueGraph<TN;TV;>;)Lcom/google/common/graph/MutableValueGraph<TN;TV;>;
+ <N:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/graph/ValueGraph<TN;TV;>;)Lcom/google/common/graph/MutableValueGraph<TN;TV;>;
+hasCycle
+ (Lcom/google/common/graph/Network<**>;)Z
+ (Lcom/google/common/graph/Network<**>;)Z
+hasCycle
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/Graph<TN;>;)Z
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/Graph<TN;>;)Z
+inducedSubgraph
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/Graph<TN;>;Ljava/lang/Iterable<+TN;>;)Lcom/google/common/graph/MutableGraph<TN;>;
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/Graph<TN;>;Ljava/lang/Iterable<+TN;>;)Lcom/google/common/graph/MutableGraph<TN;>;
+inducedSubgraph
+ <N:Ljava/lang/Object;E:Ljava/lang/Object;>(Lcom/google/common/graph/Network<TN;TE;>;Ljava/lang/Iterable<+TN;>;)Lcom/google/common/graph/MutableNetwork<TN;TE;>;
+ <N:Ljava/lang/Object;E:Ljava/lang/Object;>(Lcom/google/common/graph/Network<TN;TE;>;Ljava/lang/Iterable<+TN;>;)Lcom/google/common/graph/MutableNetwork<TN;TE;>;
+inducedSubgraph
+ <N:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/graph/ValueGraph<TN;TV;>;Ljava/lang/Iterable<+TN;>;)Lcom/google/common/graph/MutableValueGraph<TN;TV;>;
+ <N:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/graph/ValueGraph<TN;TV;>;Ljava/lang/Iterable<+TN;>;)Lcom/google/common/graph/MutableValueGraph<TN;TV;>;
+reachableNodes
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/Graph<TN;>;TN;)Lcom/google/common/collect/ImmutableSet<TN;>;
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/Graph<TN;>;TN;)Lcom/google/common/collect/ImmutableSet<TN;>;
+transitiveClosure
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/Graph<TN;>;)Lcom/google/common/graph/ImmutableGraph<TN;>;
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/Graph<TN;>;)Lcom/google/common/graph/ImmutableGraph<TN;>;
+transpose
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/Graph<TN;>;)Lcom/google/common/graph/Graph<TN;>;
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/Graph<TN;>;)Lcom/google/common/graph/Graph<TN;>;
+transpose
+ <N:Ljava/lang/Object;E:Ljava/lang/Object;>(Lcom/google/common/graph/Network<TN;TE;>;)Lcom/google/common/graph/Network<TN;TE;>;
+ <N:Ljava/lang/Object;E:Ljava/lang/Object;>(Lcom/google/common/graph/Network<TN;TE;>;)Lcom/google/common/graph/Network<TN;TE;>;
+transpose
+ <N:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/graph/ValueGraph<TN;TV;>;)Lcom/google/common/graph/ValueGraph<TN;TV;>;
+ <N:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/graph/ValueGraph<TN;TV;>;)Lcom/google/common/graph/ValueGraph<TN;TV;>;

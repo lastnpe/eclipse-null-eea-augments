@@ -1,0 +1,26 @@
+class org/w3c/dom/ls/LSSerializer
+
+getDomConfig
+ ()Lorg/w3c/dom/DOMConfiguration;
+ ()Lorg/w3c/dom/DOMConfiguration;
+getFilter
+ ()Lorg/w3c/dom/ls/LSSerializerFilter;
+ ()Lorg/w3c/dom/ls/LSSerializerFilter;
+getNewLine
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setFilter
+ (Lorg/w3c/dom/ls/LSSerializerFilter;)V
+ (Lorg/w3c/dom/ls/LSSerializerFilter;)V
+setNewLine
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+write
+ (Lorg/w3c/dom/Node;Lorg/w3c/dom/ls/LSOutput;)Z
+ (Lorg/w3c/dom/Node;Lorg/w3c/dom/ls/LSOutput;)Z
+writeToString
+ (Lorg/w3c/dom/Node;)Ljava/lang/String;
+ (Lorg/w3c/dom/Node;)Ljava/lang/String;
+writeToURI
+ (Lorg/w3c/dom/Node;Ljava/lang/String;)Z
+ (Lorg/w3c/dom/Node;Ljava/lang/String;)Z

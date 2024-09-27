@@ -1,0 +1,20 @@
+class org/springframework/beans/factory/support/SimpleBeanDefinitionRegistry
+
+containsBeanDefinition
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+getBeanDefinition
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/config/BeanDefinition;
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/config/BeanDefinition;
+getBeanDefinitionNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+isBeanNameInUse
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+registerBeanDefinition
+ (Ljava/lang/String;Lorg/springframework/beans/factory/config/BeanDefinition;)V
+ (Ljava/lang/String;Lorg/springframework/beans/factory/config/BeanDefinition;)V
+removeBeanDefinition
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

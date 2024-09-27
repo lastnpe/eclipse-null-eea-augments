@@ -1,0 +1,56 @@
+class org/slf4j/event/SubstituteLoggingEvent
+
+addMarker
+ (Lorg/slf4j/Marker;)V
+ (Lorg/slf4j/Marker;)V
+getArgumentArray
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+getArguments
+ ()Ljava/util/List<Ljava/lang/Object;>;
+ ()Ljava/util/List<Ljava/lang/Object;>;
+getKeyValuePairs
+ ()Ljava/util/List<Lorg/slf4j/event/KeyValuePair;>;
+ ()Ljava/util/List<Lorg/slf4j/event/KeyValuePair;>;
+getLevel
+ ()Lorg/slf4j/event/Level;
+ ()Lorg/slf4j/event/Level;
+getLogger
+ ()Lorg/slf4j/helpers/SubstituteLogger;
+ ()Lorg/slf4j/helpers/SubstituteLogger;
+getLoggerName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMarkers
+ ()Ljava/util/List<Lorg/slf4j/Marker;>;
+ ()Ljava/util/List<Lorg/slf4j/Marker;>;
+getMessage
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getThreadName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getThrowable
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
+setArgumentArray
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+setLevel
+ (Lorg/slf4j/event/Level;)V
+ (Lorg/slf4j/event/Level;)V
+setLogger
+ (Lorg/slf4j/helpers/SubstituteLogger;)V
+ (Lorg/slf4j/helpers/SubstituteLogger;)V
+setLoggerName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setMessage
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setThreadName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setThrowable
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V

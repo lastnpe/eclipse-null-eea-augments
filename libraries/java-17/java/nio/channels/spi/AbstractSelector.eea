@@ -1,0 +1,17 @@
+class java/nio/channels/spi/AbstractSelector
+
+<init>
+ (Ljava/nio/channels/spi/SelectorProvider;)V
+ (Ljava/nio/channels/spi/SelectorProvider;)V
+cancelledKeys
+ ()Ljava/util/Set<Ljava/nio/channels/SelectionKey;>;
+ ()Ljava/util/Set<Ljava/nio/channels/SelectionKey;>;
+deregister
+ (Ljava/nio/channels/spi/AbstractSelectionKey;)V
+ (Ljava/nio/channels/spi/AbstractSelectionKey;)V
+provider
+ ()Ljava/nio/channels/spi/SelectorProvider;
+ ()Ljava/nio/channels/spi/SelectorProvider;
+register
+ (Ljava/nio/channels/spi/AbstractSelectableChannel;ILjava/lang/Object;)Ljava/nio/channels/SelectionKey;
+ (Ljava/nio/channels/spi/AbstractSelectableChannel;ILjava/lang/Object;)Ljava/nio/channels/SelectionKey;

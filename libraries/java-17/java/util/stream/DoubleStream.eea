@@ -1,0 +1,133 @@
+class java/util/stream/DoubleStream
+
+super java/util/stream/BaseStream
+ <Ljava/lang/Double;Ljava/util/stream/DoubleStream;>
+ <Ljava/lang/Double;Ljava/util/stream/DoubleStream;>
+
+builder
+ ()Ljava/util/stream/DoubleStream$Builder;
+ ()Ljava/util/stream/DoubleStream$Builder;
+concat
+ (Ljava/util/stream/DoubleStream;Ljava/util/stream/DoubleStream;)Ljava/util/stream/DoubleStream;
+ (Ljava/util/stream/DoubleStream;Ljava/util/stream/DoubleStream;)Ljava/util/stream/DoubleStream;
+empty
+ ()Ljava/util/stream/DoubleStream;
+ ()Ljava/util/stream/DoubleStream;
+generate
+ (Ljava/util/function/DoubleSupplier;)Ljava/util/stream/DoubleStream;
+ (Ljava/util/function/DoubleSupplier;)Ljava/util/stream/DoubleStream;
+iterate
+ (DLjava/util/function/DoublePredicate;Ljava/util/function/DoubleUnaryOperator;)Ljava/util/stream/DoubleStream;
+ (DLjava/util/function/DoublePredicate;Ljava/util/function/DoubleUnaryOperator;)Ljava/util/stream/DoubleStream;
+iterate
+ (DLjava/util/function/DoubleUnaryOperator;)Ljava/util/stream/DoubleStream;
+ (DLjava/util/function/DoubleUnaryOperator;)Ljava/util/stream/DoubleStream;
+of
+ (D)Ljava/util/stream/DoubleStream;
+ (D)Ljava/util/stream/DoubleStream;
+of
+ ([D)Ljava/util/stream/DoubleStream;
+ ([D)Ljava/util/stream/DoubleStream;
+
+allMatch
+ (Ljava/util/function/DoublePredicate;)Z
+ (Ljava/util/function/DoublePredicate;)Z
+anyMatch
+ (Ljava/util/function/DoublePredicate;)Z
+ (Ljava/util/function/DoublePredicate;)Z
+average
+ ()Ljava/util/OptionalDouble;
+ ()Ljava/util/OptionalDouble;
+boxed
+ ()Ljava/util/stream/Stream<Ljava/lang/Double;>;
+ ()Ljava/util/stream/Stream<Ljava/lang/Double;>;
+collect
+ <R:Ljava/lang/Object;>(Ljava/util/function/Supplier<TR;>;Ljava/util/function/ObjDoubleConsumer<TR;>;Ljava/util/function/BiConsumer<TR;TR;>;)TR;
+ <R:Ljava/lang/Object;>(Ljava/util/function/Supplier<TR;>;Ljava/util/function/ObjDoubleConsumer<TR;>;Ljava/util/function/BiConsumer<TR;TR;>;)TR;
+distinct
+ ()Ljava/util/stream/DoubleStream;
+ ()Ljava/util/stream/DoubleStream;
+dropWhile
+ (Ljava/util/function/DoublePredicate;)Ljava/util/stream/DoubleStream;
+ (Ljava/util/function/DoublePredicate;)Ljava/util/stream/DoubleStream;
+filter
+ (Ljava/util/function/DoublePredicate;)Ljava/util/stream/DoubleStream;
+ (Ljava/util/function/DoublePredicate;)Ljava/util/stream/DoubleStream;
+findAny
+ ()Ljava/util/OptionalDouble;
+ ()Ljava/util/OptionalDouble;
+findFirst
+ ()Ljava/util/OptionalDouble;
+ ()Ljava/util/OptionalDouble;
+flatMap
+ (Ljava/util/function/DoubleFunction<+Ljava/util/stream/DoubleStream;>;)Ljava/util/stream/DoubleStream;
+ (Ljava/util/function/DoubleFunction<+Ljava/util/stream/DoubleStream;>;)Ljava/util/stream/DoubleStream;
+forEach
+ (Ljava/util/function/DoubleConsumer;)V
+ (Ljava/util/function/DoubleConsumer;)V
+forEachOrdered
+ (Ljava/util/function/DoubleConsumer;)V
+ (Ljava/util/function/DoubleConsumer;)V
+iterator
+ ()Ljava/util/PrimitiveIterator$OfDouble;
+ ()Ljava/util/PrimitiveIterator$OfDouble;
+limit
+ (J)Ljava/util/stream/DoubleStream;
+ (J)Ljava/util/stream/DoubleStream;
+map
+ (Ljava/util/function/DoubleUnaryOperator;)Ljava/util/stream/DoubleStream;
+ (Ljava/util/function/DoubleUnaryOperator;)Ljava/util/stream/DoubleStream;
+mapMulti
+ (Ljava/util/stream/DoubleStream$DoubleMapMultiConsumer;)Ljava/util/stream/DoubleStream;
+ (Ljava/util/stream/DoubleStream$DoubleMapMultiConsumer;)Ljava/util/stream/DoubleStream;
+mapToInt
+ (Ljava/util/function/DoubleToIntFunction;)Ljava/util/stream/IntStream;
+ (Ljava/util/function/DoubleToIntFunction;)Ljava/util/stream/IntStream;
+mapToLong
+ (Ljava/util/function/DoubleToLongFunction;)Ljava/util/stream/LongStream;
+ (Ljava/util/function/DoubleToLongFunction;)Ljava/util/stream/LongStream;
+mapToObj
+ <U:Ljava/lang/Object;>(Ljava/util/function/DoubleFunction<+TU;>;)Ljava/util/stream/Stream<TU;>;
+ <U:Ljava/lang/Object;>(Ljava/util/function/DoubleFunction<+TU;>;)Ljava/util/stream/Stream<TU;>;
+max
+ ()Ljava/util/OptionalDouble;
+ ()Ljava/util/OptionalDouble;
+min
+ ()Ljava/util/OptionalDouble;
+ ()Ljava/util/OptionalDouble;
+noneMatch
+ (Ljava/util/function/DoublePredicate;)Z
+ (Ljava/util/function/DoublePredicate;)Z
+parallel
+ ()Ljava/util/stream/DoubleStream;
+ ()Ljava/util/stream/DoubleStream;
+peek
+ (Ljava/util/function/DoubleConsumer;)Ljava/util/stream/DoubleStream;
+ (Ljava/util/function/DoubleConsumer;)Ljava/util/stream/DoubleStream;
+reduce
+ (DLjava/util/function/DoubleBinaryOperator;)D
+ (DLjava/util/function/DoubleBinaryOperator;)D
+reduce
+ (Ljava/util/function/DoubleBinaryOperator;)Ljava/util/OptionalDouble;
+ (Ljava/util/function/DoubleBinaryOperator;)Ljava/util/OptionalDouble;
+sequential
+ ()Ljava/util/stream/DoubleStream;
+ ()Ljava/util/stream/DoubleStream;
+skip
+ (J)Ljava/util/stream/DoubleStream;
+ (J)Ljava/util/stream/DoubleStream;
+sorted
+ ()Ljava/util/stream/DoubleStream;
+ ()Ljava/util/stream/DoubleStream;
+spliterator
+ ()Ljava/util/Spliterator$OfDouble;
+ ()Ljava/util/Spliterator$OfDouble;
+summaryStatistics
+ ()Ljava/util/DoubleSummaryStatistics;
+ ()Ljava/util/DoubleSummaryStatistics;
+takeWhile
+ (Ljava/util/function/DoublePredicate;)Ljava/util/stream/DoubleStream;
+ (Ljava/util/function/DoublePredicate;)Ljava/util/stream/DoubleStream;
+toArray
+ ()[D
+ ()[D

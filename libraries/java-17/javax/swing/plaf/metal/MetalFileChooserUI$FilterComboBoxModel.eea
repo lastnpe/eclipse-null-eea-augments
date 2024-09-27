@@ -1,0 +1,28 @@
+class javax/swing/plaf/metal/MetalFileChooserUI$FilterComboBoxModel
+
+super javax/swing/AbstractListModel
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+super javax/swing/ComboBoxModel
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+filters
+ [Ljavax/swing/filechooser/FileFilter;
+ [Ljavax/swing/filechooser/FileFilter;
+
+<init>
+ (Ljavax/swing/plaf/metal/MetalFileChooserUI;)V
+ (Ljavax/swing/plaf/metal/MetalFileChooserUI;)V
+getElementAt
+ (I)Ljava/lang/Object;
+ (I)Ljava/lang/Object;
+getSelectedItem
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+propertyChange
+ (Ljava/beans/PropertyChangeEvent;)V
+ (L1java/beans/PropertyChangeEvent;)V # @Inherited(java.beans.PropertyChangeListener)
+setSelectedItem
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

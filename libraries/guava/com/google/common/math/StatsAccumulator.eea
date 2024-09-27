@@ -1,0 +1,35 @@
+class com/google/common/math/StatsAccumulator
+
+addAll
+ (Lcom/google/common/math/Stats;)V
+ (Lcom/google/common/math/Stats;)V
+addAll
+ (Lcom/google/common/math/StatsAccumulator;)V
+ (Lcom/google/common/math/StatsAccumulator;)V
+addAll
+ (Ljava/lang/Iterable<+Ljava/lang/Number;>;)V
+ (Ljava/lang/Iterable<+Ljava/lang/Number;>;)V
+addAll
+ (Ljava/util/Iterator<+Ljava/lang/Number;>;)V
+ (Ljava/util/Iterator<+Ljava/lang/Number;>;)V
+addAll
+ (Ljava/util/stream/DoubleStream;)V
+ (Ljava/util/stream/DoubleStream;)V
+addAll
+ (Ljava/util/stream/IntStream;)V
+ (Ljava/util/stream/IntStream;)V
+addAll
+ (Ljava/util/stream/LongStream;)V
+ (Ljava/util/stream/LongStream;)V
+addAll
+ ([D)V
+ ([D)V
+addAll
+ ([I)V
+ ([I)V
+addAll
+ ([J)V
+ ([J)V
+snapshot
+ ()Lcom/google/common/math/Stats;
+ ()Lcom/google/common/math/Stats;

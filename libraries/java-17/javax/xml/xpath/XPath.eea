@@ -1,0 +1,47 @@
+class javax/xml/xpath/XPath
+
+compile
+ (Ljava/lang/String;)Ljavax/xml/xpath/XPathExpression;
+ (Ljava/lang/String;)Ljavax/xml/xpath/XPathExpression;
+evaluate
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+evaluate
+ (Ljava/lang/String;Ljava/lang/Object;Ljavax/xml/namespace/QName;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/lang/Object;Ljavax/xml/namespace/QName;)Ljava/lang/Object;
+evaluate
+ (Ljava/lang/String;Lorg/xml/sax/InputSource;)Ljava/lang/String;
+ (Ljava/lang/String;Lorg/xml/sax/InputSource;)Ljava/lang/String;
+evaluate
+ (Ljava/lang/String;Lorg/xml/sax/InputSource;Ljavax/xml/namespace/QName;)Ljava/lang/Object;
+ (Ljava/lang/String;Lorg/xml/sax/InputSource;Ljavax/xml/namespace/QName;)Ljava/lang/Object;
+evaluateExpression
+ (Ljava/lang/String;Ljava/lang/Object;)Ljavax/xml/xpath/XPathEvaluationResult<*>;
+ (Ljava/lang/String;Ljava/lang/Object;)Ljavax/xml/xpath/XPathEvaluationResult<*>;
+evaluateExpression
+ (Ljava/lang/String;Lorg/xml/sax/InputSource;)Ljavax/xml/xpath/XPathEvaluationResult<*>;
+ (Ljava/lang/String;Lorg/xml/sax/InputSource;)Ljavax/xml/xpath/XPathEvaluationResult<*>;
+evaluateExpression
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Class<TT;>;)TT;
+evaluateExpression
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/xml/sax/InputSource;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/xml/sax/InputSource;Ljava/lang/Class<TT;>;)TT;
+getNamespaceContext
+ ()Ljavax/xml/namespace/NamespaceContext;
+ ()Ljavax/xml/namespace/NamespaceContext;
+getXPathFunctionResolver
+ ()Ljavax/xml/xpath/XPathFunctionResolver;
+ ()Ljavax/xml/xpath/XPathFunctionResolver;
+getXPathVariableResolver
+ ()Ljavax/xml/xpath/XPathVariableResolver;
+ ()Ljavax/xml/xpath/XPathVariableResolver;
+setNamespaceContext
+ (Ljavax/xml/namespace/NamespaceContext;)V
+ (Ljavax/xml/namespace/NamespaceContext;)V
+setXPathFunctionResolver
+ (Ljavax/xml/xpath/XPathFunctionResolver;)V
+ (Ljavax/xml/xpath/XPathFunctionResolver;)V
+setXPathVariableResolver
+ (Ljavax/xml/xpath/XPathVariableResolver;)V
+ (Ljavax/xml/xpath/XPathVariableResolver;)V

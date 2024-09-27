@@ -1,0 +1,59 @@
+class javax/lang/model/util/Types
+
+asElement
+ (Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/element/Element;
+ (Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/element/Element;
+asMemberOf
+ (Ljavax/lang/model/type/DeclaredType;Ljavax/lang/model/element/Element;)Ljavax/lang/model/type/TypeMirror;
+ (Ljavax/lang/model/type/DeclaredType;Ljavax/lang/model/element/Element;)Ljavax/lang/model/type/TypeMirror;
+boxedClass
+ (Ljavax/lang/model/type/PrimitiveType;)Ljavax/lang/model/element/TypeElement;
+ (Ljavax/lang/model/type/PrimitiveType;)Ljavax/lang/model/element/TypeElement;
+capture
+ (Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/type/TypeMirror;
+ (Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/type/TypeMirror;
+contains
+ (Ljavax/lang/model/type/TypeMirror;Ljavax/lang/model/type/TypeMirror;)Z
+ (Ljavax/lang/model/type/TypeMirror;Ljavax/lang/model/type/TypeMirror;)Z
+directSupertypes
+ (Ljavax/lang/model/type/TypeMirror;)Ljava/util/List<+Ljavax/lang/model/type/TypeMirror;>;
+ (Ljavax/lang/model/type/TypeMirror;)Ljava/util/List<+Ljavax/lang/model/type/TypeMirror;>;
+erasure
+ (Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/type/TypeMirror;
+ (Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/type/TypeMirror;
+getArrayType
+ (Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/type/ArrayType;
+ (Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/type/ArrayType;
+getDeclaredType
+ (Ljavax/lang/model/element/TypeElement;[Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/type/DeclaredType;
+ (Ljavax/lang/model/element/TypeElement;[Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/type/DeclaredType;
+getDeclaredType
+ (Ljavax/lang/model/type/DeclaredType;Ljavax/lang/model/element/TypeElement;[Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/type/DeclaredType;
+ (Ljavax/lang/model/type/DeclaredType;Ljavax/lang/model/element/TypeElement;[Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/type/DeclaredType;
+getNoType
+ (Ljavax/lang/model/type/TypeKind;)Ljavax/lang/model/type/NoType;
+ (Ljavax/lang/model/type/TypeKind;)Ljavax/lang/model/type/NoType;
+getNullType
+ ()Ljavax/lang/model/type/NullType;
+ ()Ljavax/lang/model/type/NullType;
+getPrimitiveType
+ (Ljavax/lang/model/type/TypeKind;)Ljavax/lang/model/type/PrimitiveType;
+ (Ljavax/lang/model/type/TypeKind;)Ljavax/lang/model/type/PrimitiveType;
+getWildcardType
+ (Ljavax/lang/model/type/TypeMirror;Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/type/WildcardType;
+ (Ljavax/lang/model/type/TypeMirror;Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/type/WildcardType;
+isAssignable
+ (Ljavax/lang/model/type/TypeMirror;Ljavax/lang/model/type/TypeMirror;)Z
+ (Ljavax/lang/model/type/TypeMirror;Ljavax/lang/model/type/TypeMirror;)Z
+isSameType
+ (Ljavax/lang/model/type/TypeMirror;Ljavax/lang/model/type/TypeMirror;)Z
+ (Ljavax/lang/model/type/TypeMirror;Ljavax/lang/model/type/TypeMirror;)Z
+isSubsignature
+ (Ljavax/lang/model/type/ExecutableType;Ljavax/lang/model/type/ExecutableType;)Z
+ (Ljavax/lang/model/type/ExecutableType;Ljavax/lang/model/type/ExecutableType;)Z
+isSubtype
+ (Ljavax/lang/model/type/TypeMirror;Ljavax/lang/model/type/TypeMirror;)Z
+ (Ljavax/lang/model/type/TypeMirror;Ljavax/lang/model/type/TypeMirror;)Z
+unboxedType
+ (Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/type/PrimitiveType;
+ (Ljavax/lang/model/type/TypeMirror;)Ljavax/lang/model/type/PrimitiveType;

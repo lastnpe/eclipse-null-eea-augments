@@ -1,0 +1,38 @@
+class org/mockito/internal/progress/MockingProgress
+
+addListener
+ (Lorg/mockito/listeners/MockitoListener;)V
+ (L1org/mockito/listeners/MockitoListener;)V
+getArgumentMatcherStorage
+ ()Lorg/mockito/internal/progress/ArgumentMatcherStorage;
+ ()Lorg/mockito/internal/progress/ArgumentMatcherStorage;
+maybeVerifyLazily
+ (Lorg/mockito/verification/VerificationMode;)Lorg/mockito/verification/VerificationMode;
+ (Lorg/mockito/verification/VerificationMode;)Lorg/mockito/verification/VerificationMode;
+mockingStarted
+ (Ljava/lang/Class<*>;Lorg/mockito/mock/MockCreationSettings;)V
+ (Ljava/lang/Class<*>;Lorg/mockito/mock/MockCreationSettings;)V
+mockingStarted
+ (Ljava/lang/Object;Lorg/mockito/mock/MockCreationSettings;)V
+ (Ljava/lang/Object;Lorg/mockito/mock/MockCreationSettings;)V
+pullOngoingStubbing
+ ()Lorg/mockito/stubbing/OngoingStubbing<*>;
+ ()Lorg/mockito/stubbing/OngoingStubbing<*>;
+pullVerificationMode
+ ()Lorg/mockito/verification/VerificationMode;
+ ()Lorg/mockito/verification/VerificationMode;
+removeListener
+ (Lorg/mockito/listeners/MockitoListener;)V
+ (L1org/mockito/listeners/MockitoListener;)V
+reportOngoingStubbing
+ (Lorg/mockito/stubbing/OngoingStubbing<*>;)V
+ (Lorg/mockito/stubbing/OngoingStubbing<*>;)V
+setVerificationStrategy
+ (Lorg/mockito/verification/VerificationStrategy;)V
+ (Lorg/mockito/verification/VerificationStrategy;)V
+verificationListeners
+ ()Ljava/util/Set<Lorg/mockito/listeners/VerificationListener;>;
+ ()Ljava/util/Set<Lorg/mockito/listeners/VerificationListener;>;
+verificationStarted
+ (Lorg/mockito/verification/VerificationMode;)V
+ (Lorg/mockito/verification/VerificationMode;)V

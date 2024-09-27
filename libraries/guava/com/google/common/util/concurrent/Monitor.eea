@@ -1,0 +1,83 @@
+class com/google/common/util/concurrent/Monitor
+
+enter
+ (JLjava/util/concurrent/TimeUnit;)Z
+ (JLjava/util/concurrent/TimeUnit;)Z
+enter
+ (Ljava/time/Duration;)Z
+ (Ljava/time/Duration;)Z
+enterIf
+ (Lcom/google/common/util/concurrent/Monitor$Guard;)Z
+ (Lcom/google/common/util/concurrent/Monitor$Guard;)Z
+enterIf
+ (Lcom/google/common/util/concurrent/Monitor$Guard;JLjava/util/concurrent/TimeUnit;)Z
+ (Lcom/google/common/util/concurrent/Monitor$Guard;JLjava/util/concurrent/TimeUnit;)Z
+enterIf
+ (Lcom/google/common/util/concurrent/Monitor$Guard;Ljava/time/Duration;)Z
+ (Lcom/google/common/util/concurrent/Monitor$Guard;Ljava/time/Duration;)Z
+enterIfInterruptibly
+ (Lcom/google/common/util/concurrent/Monitor$Guard;)Z
+ (Lcom/google/common/util/concurrent/Monitor$Guard;)Z
+enterIfInterruptibly
+ (Lcom/google/common/util/concurrent/Monitor$Guard;JLjava/util/concurrent/TimeUnit;)Z
+ (Lcom/google/common/util/concurrent/Monitor$Guard;JLjava/util/concurrent/TimeUnit;)Z
+enterIfInterruptibly
+ (Lcom/google/common/util/concurrent/Monitor$Guard;Ljava/time/Duration;)Z
+ (Lcom/google/common/util/concurrent/Monitor$Guard;Ljava/time/Duration;)Z
+enterInterruptibly
+ (JLjava/util/concurrent/TimeUnit;)Z
+ (JLjava/util/concurrent/TimeUnit;)Z
+enterInterruptibly
+ (Ljava/time/Duration;)Z
+ (Ljava/time/Duration;)Z
+enterWhen
+ (Lcom/google/common/util/concurrent/Monitor$Guard;)V
+ (Lcom/google/common/util/concurrent/Monitor$Guard;)V
+enterWhen
+ (Lcom/google/common/util/concurrent/Monitor$Guard;JLjava/util/concurrent/TimeUnit;)Z
+ (Lcom/google/common/util/concurrent/Monitor$Guard;JLjava/util/concurrent/TimeUnit;)Z
+enterWhen
+ (Lcom/google/common/util/concurrent/Monitor$Guard;Ljava/time/Duration;)Z
+ (Lcom/google/common/util/concurrent/Monitor$Guard;Ljava/time/Duration;)Z
+enterWhenUninterruptibly
+ (Lcom/google/common/util/concurrent/Monitor$Guard;)V
+ (Lcom/google/common/util/concurrent/Monitor$Guard;)V
+enterWhenUninterruptibly
+ (Lcom/google/common/util/concurrent/Monitor$Guard;JLjava/util/concurrent/TimeUnit;)Z
+ (Lcom/google/common/util/concurrent/Monitor$Guard;JLjava/util/concurrent/TimeUnit;)Z
+enterWhenUninterruptibly
+ (Lcom/google/common/util/concurrent/Monitor$Guard;Ljava/time/Duration;)Z
+ (Lcom/google/common/util/concurrent/Monitor$Guard;Ljava/time/Duration;)Z
+getWaitQueueLength
+ (Lcom/google/common/util/concurrent/Monitor$Guard;)I
+ (Lcom/google/common/util/concurrent/Monitor$Guard;)I
+hasQueuedThread
+ (Ljava/lang/Thread;)Z
+ (Ljava/lang/Thread;)Z
+hasWaiters
+ (Lcom/google/common/util/concurrent/Monitor$Guard;)Z
+ (Lcom/google/common/util/concurrent/Monitor$Guard;)Z
+newGuard
+ (Ljava/util/function/BooleanSupplier;)Lcom/google/common/util/concurrent/Monitor$Guard;
+ (Ljava/util/function/BooleanSupplier;)Lcom/google/common/util/concurrent/Monitor$Guard;
+tryEnterIf
+ (Lcom/google/common/util/concurrent/Monitor$Guard;)Z
+ (Lcom/google/common/util/concurrent/Monitor$Guard;)Z
+waitFor
+ (Lcom/google/common/util/concurrent/Monitor$Guard;)V
+ (Lcom/google/common/util/concurrent/Monitor$Guard;)V
+waitFor
+ (Lcom/google/common/util/concurrent/Monitor$Guard;JLjava/util/concurrent/TimeUnit;)Z
+ (Lcom/google/common/util/concurrent/Monitor$Guard;JLjava/util/concurrent/TimeUnit;)Z
+waitFor
+ (Lcom/google/common/util/concurrent/Monitor$Guard;Ljava/time/Duration;)Z
+ (Lcom/google/common/util/concurrent/Monitor$Guard;Ljava/time/Duration;)Z
+waitForUninterruptibly
+ (Lcom/google/common/util/concurrent/Monitor$Guard;)V
+ (Lcom/google/common/util/concurrent/Monitor$Guard;)V
+waitForUninterruptibly
+ (Lcom/google/common/util/concurrent/Monitor$Guard;JLjava/util/concurrent/TimeUnit;)Z
+ (Lcom/google/common/util/concurrent/Monitor$Guard;JLjava/util/concurrent/TimeUnit;)Z
+waitForUninterruptibly
+ (Lcom/google/common/util/concurrent/Monitor$Guard;Ljava/time/Duration;)Z
+ (Lcom/google/common/util/concurrent/Monitor$Guard;Ljava/time/Duration;)Z

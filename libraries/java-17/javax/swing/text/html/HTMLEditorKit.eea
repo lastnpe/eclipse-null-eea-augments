@@ -1,0 +1,102 @@
+class javax/swing/text/html/HTMLEditorKit
+
+BOLD_ACTION
+ Ljava/lang/String;
+ L1java/lang/String;
+COLOR_ACTION
+ Ljava/lang/String;
+ L1java/lang/String;
+DEFAULT_CSS
+ Ljava/lang/String;
+ L1java/lang/String;
+FONT_CHANGE_BIGGER
+ Ljava/lang/String;
+ L1java/lang/String;
+FONT_CHANGE_SMALLER
+ Ljava/lang/String;
+ L1java/lang/String;
+IMG_ALIGN_BOTTOM
+ Ljava/lang/String;
+ L1java/lang/String;
+IMG_ALIGN_MIDDLE
+ Ljava/lang/String;
+ L1java/lang/String;
+IMG_ALIGN_TOP
+ Ljava/lang/String;
+ L1java/lang/String;
+IMG_BORDER
+ Ljava/lang/String;
+ L1java/lang/String;
+ITALIC_ACTION
+ Ljava/lang/String;
+ L1java/lang/String;
+LOGICAL_STYLE_ACTION
+ Ljava/lang/String;
+ L1java/lang/String;
+PARA_INDENT_LEFT
+ Ljava/lang/String;
+ L1java/lang/String;
+PARA_INDENT_RIGHT
+ Ljava/lang/String;
+ L1java/lang/String;
+
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(javax.swing.text.StyledEditorKit)
+createDefaultDocument
+ ()Ljavax/swing/text/Document;
+ ()Ljavax/swing/text/Document;
+createInputAttributes
+ (Ljavax/swing/text/Element;Ljavax/swing/text/MutableAttributeSet;)V
+ (Ljavax/swing/text/Element;Ljavax/swing/text/MutableAttributeSet;)V
+deinstall
+ (Ljavax/swing/JEditorPane;)V
+ (Ljavax/swing/JEditorPane;)V
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getActions
+ ()[Ljavax/swing/Action;
+ ()[Ljavax/swing/Action;
+getContentType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDefaultCursor
+ ()Ljava/awt/Cursor;
+ ()Ljava/awt/Cursor;
+getInputAttributes
+ ()Ljavax/swing/text/MutableAttributeSet;
+ ()Ljavax/swing/text/MutableAttributeSet;
+getLinkCursor
+ ()Ljava/awt/Cursor;
+ ()Ljava/awt/Cursor;
+getParser
+ ()Ljavax/swing/text/html/HTMLEditorKit$Parser;
+ ()Ljavax/swing/text/html/HTMLEditorKit$Parser;
+getStyleSheet
+ ()Ljavax/swing/text/html/StyleSheet;
+ ()Ljavax/swing/text/html/StyleSheet;
+getViewFactory
+ ()Ljavax/swing/text/ViewFactory;
+ ()Ljavax/swing/text/ViewFactory;
+insertHTML
+ (Ljavax/swing/text/html/HTMLDocument;ILjava/lang/String;IILjavax/swing/text/html/HTML$Tag;)V
+ (Ljavax/swing/text/html/HTMLDocument;ILjava/lang/String;IILjavax/swing/text/html/HTML$Tag;)V
+install
+ (Ljavax/swing/JEditorPane;)V
+ (Ljavax/swing/JEditorPane;)V
+read
+ (Ljava/io/Reader;Ljavax/swing/text/Document;I)V
+ (Ljava/io/Reader;Ljavax/swing/text/Document;I)V
+setDefaultCursor
+ (Ljava/awt/Cursor;)V
+ (Ljava/awt/Cursor;)V
+setLinkCursor
+ (Ljava/awt/Cursor;)V
+ (Ljava/awt/Cursor;)V
+setStyleSheet
+ (Ljavax/swing/text/html/StyleSheet;)V
+ (Ljavax/swing/text/html/StyleSheet;)V
+write
+ (Ljava/io/Writer;Ljavax/swing/text/Document;II)V
+ (Ljava/io/Writer;Ljavax/swing/text/Document;II)V

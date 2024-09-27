@@ -1,0 +1,159 @@
+class org/springframework/core/annotation/MergedAnnotation
+ <A::Ljava/lang/annotation/Annotation;>
+ <A::Ljava/lang/annotation/Annotation;>
+
+VALUE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+from
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Object;TA;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Object;TA;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+from
+ <A::Ljava/lang/annotation/Annotation;>(TA;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+ <A::Ljava/lang/annotation/Annotation;>(TA;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+missing
+ <A::Ljava/lang/annotation/Annotation;>()Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+ <A::Ljava/lang/annotation/Annotation;>()Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+of
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+of
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+of
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/ClassLoader;Ljava/lang/Object;Ljava/lang/Class<TA;>;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/ClassLoader;Ljava/lang/Object;Ljava/lang/Class<TA;>;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+of
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/reflect/AnnotatedElement;Ljava/lang/Class<TA;>;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/reflect/AnnotatedElement;Ljava/lang/Class<TA;>;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+
+asAnnotationAttributes
+ ([Lorg/springframework/core/annotation/MergedAnnotation$Adapt;)Lorg/springframework/core/annotation/AnnotationAttributes;
+ ([Lorg/springframework/core/annotation/MergedAnnotation$Adapt;)Lorg/springframework/core/annotation/AnnotationAttributes;
+asMap
+ ([Lorg/springframework/core/annotation/MergedAnnotation$Adapt;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ([Lorg/springframework/core/annotation/MergedAnnotation$Adapt;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+asMap
+ <T::Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;>(Ljava/util/function/Function<Lorg/springframework/core/annotation/MergedAnnotation<*>;TT;>;[Lorg/springframework/core/annotation/MergedAnnotation$Adapt;)TT;
+ <T::Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;>(Ljava/util/function/Function<Lorg/springframework/core/annotation/MergedAnnotation<*>;TT;>;[Lorg/springframework/core/annotation/MergedAnnotation$Adapt;)TT;
+filterAttributes
+ (Ljava/util/function/Predicate<Ljava/lang/String;>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+ (Ljava/util/function/Predicate<Ljava/lang/String;>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+filterDefaultValues
+ ()Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+ ()Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+getAnnotation
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/String;Ljava/lang/Class<TT;>;)Lorg/springframework/core/annotation/MergedAnnotation<TT;>;
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/String;Ljava/lang/Class<TT;>;)Lorg/springframework/core/annotation/MergedAnnotation<TT;>;
+getAnnotationArray
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/String;Ljava/lang/Class<TT;>;)[Lorg/springframework/core/annotation/MergedAnnotation<TT;>;
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/String;Ljava/lang/Class<TT;>;)[Lorg/springframework/core/annotation/MergedAnnotation<TT;>;
+getBoolean
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+getBooleanArray
+ (Ljava/lang/String;)[Z
+ (Ljava/lang/String;)[Z
+getByte
+ (Ljava/lang/String;)B
+ (Ljava/lang/String;)B
+getByteArray
+ (Ljava/lang/String;)[B
+ (Ljava/lang/String;)[B
+getChar
+ (Ljava/lang/String;)C
+ (Ljava/lang/String;)C
+getCharArray
+ (Ljava/lang/String;)[C
+ (Ljava/lang/String;)[C
+getClass
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+getClassArray
+ (Ljava/lang/String;)[Ljava/lang/Class<*>;
+ (Ljava/lang/String;)[Ljava/lang/Class<*>;
+getDefaultValue
+ (Ljava/lang/String;)Ljava/util/Optional<Ljava/lang/Object;>;
+ (Ljava/lang/String;)Ljava/util/Optional<Ljava/lang/Object;>;
+getDefaultValue
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;)Ljava/util/Optional<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;)Ljava/util/Optional<TT;>;
+getDouble
+ (Ljava/lang/String;)D
+ (Ljava/lang/String;)D
+getDoubleArray
+ (Ljava/lang/String;)[D
+ (Ljava/lang/String;)[D
+getEnum
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/lang/String;Ljava/lang/Class<TE;>;)TE;
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/lang/String;Ljava/lang/Class<TE;>;)TE;
+getEnumArray
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/lang/String;Ljava/lang/Class<TE;>;)[TE;
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/lang/String;Ljava/lang/Class<TE;>;)[TE;
+getFloat
+ (Ljava/lang/String;)F
+ (Ljava/lang/String;)F
+getFloatArray
+ (Ljava/lang/String;)[F
+ (Ljava/lang/String;)[F
+getInt
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+getIntArray
+ (Ljava/lang/String;)[I
+ (Ljava/lang/String;)[I
+getLong
+ (Ljava/lang/String;)J
+ (Ljava/lang/String;)J
+getLongArray
+ (Ljava/lang/String;)[J
+ (Ljava/lang/String;)[J
+getMetaSource
+ ()Lorg/springframework/core/annotation/MergedAnnotation<*>;
+ ()L0org/springframework/core/annotation/MergedAnnotation<*>;
+getMetaTypes
+ ()Ljava/util/List<Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;>;
+ ()Ljava/util/List<Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;>;
+getRoot
+ ()Lorg/springframework/core/annotation/MergedAnnotation<*>;
+ ()Lorg/springframework/core/annotation/MergedAnnotation<*>;
+getShort
+ (Ljava/lang/String;)S
+ (Ljava/lang/String;)S
+getShortArray
+ (Ljava/lang/String;)[S
+ (Ljava/lang/String;)[S
+getSource
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getString
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getStringArray
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[Ljava/lang/String;
+getType
+ ()Ljava/lang/Class<TA;>;
+ ()Ljava/lang/Class<TA;>;
+getValue
+ (Ljava/lang/String;)Ljava/util/Optional<Ljava/lang/Object;>;
+ (Ljava/lang/String;)Ljava/util/Optional<Ljava/lang/Object;>;
+getValue
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;)Ljava/util/Optional<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;)Ljava/util/Optional<TT;>;
+hasDefaultValue
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+hasNonDefaultValue
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+synthesize
+ ()TA;
+ ()TA;
+synthesize
+ (Ljava/util/function/Predicate<-Lorg/springframework/core/annotation/MergedAnnotation<TA;>;>;)Ljava/util/Optional<TA;>;
+ (Ljava/util/function/Predicate<-Lorg/springframework/core/annotation/MergedAnnotation<TA;>;>;)Ljava/util/Optional<TA;>;
+withNonMergedAttributes
+ ()Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+ ()Lorg/springframework/core/annotation/MergedAnnotation<TA;>;

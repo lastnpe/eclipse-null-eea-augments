@@ -1,0 +1,42 @@
+class com/thoughtworks/xstream/core/TreeUnmarshaller
+
+reader
+ Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+
+<init>
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Lcom/thoughtworks/xstream/converters/ConverterLookup;Lcom/thoughtworks/xstream/mapper/Mapper;)V
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Lcom/thoughtworks/xstream/converters/ConverterLookup;Lcom/thoughtworks/xstream/mapper/Mapper;)V
+addCompletionCallback
+ (Ljava/lang/Runnable;I)V
+ (Ljava/lang/Runnable;I)V
+convert
+ (Ljava/lang/Object;Ljava/lang/Class;Lcom/thoughtworks/xstream/converters/Converter;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/Class;Lcom/thoughtworks/xstream/converters/Converter;)Ljava/lang/Object;
+convertAnother
+ (Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;
+convertAnother
+ (Ljava/lang/Object;Ljava/lang/Class;Lcom/thoughtworks/xstream/converters/Converter;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/Class;Lcom/thoughtworks/xstream/converters/Converter;)Ljava/lang/Object;
+currentObject
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+get
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+getMapper
+ ()Lcom/thoughtworks/xstream/mapper/Mapper;
+ ()Lcom/thoughtworks/xstream/mapper/Mapper;
+getRequiredType
+ ()Ljava/lang/Class;
+ ()Ljava/lang/Class;
+keys
+ ()Ljava/util/Iterator;
+ ()Ljava/util/Iterator;
+put
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+start
+ (Lcom/thoughtworks/xstream/converters/DataHolder;)Ljava/lang/Object;
+ (Lcom/thoughtworks/xstream/converters/DataHolder;)Ljava/lang/Object;

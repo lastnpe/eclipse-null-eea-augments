@@ -1,0 +1,22 @@
+class java/lang/management/MemoryNotificationInfo
+
+MEMORY_COLLECTION_THRESHOLD_EXCEEDED
+ Ljava/lang/String;
+ L1java/lang/String;
+MEMORY_THRESHOLD_EXCEEDED
+ Ljava/lang/String;
+ L1java/lang/String;
+
+from
+ (Ljavax/management/openmbean/CompositeData;)Ljava/lang/management/MemoryNotificationInfo;
+ (Ljavax/management/openmbean/CompositeData;)Ljava/lang/management/MemoryNotificationInfo;
+
+<init>
+ (Ljava/lang/String;Ljava/lang/management/MemoryUsage;J)V
+ (Ljava/lang/String;Ljava/lang/management/MemoryUsage;J)V
+getPoolName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getUsage
+ ()Ljava/lang/management/MemoryUsage;
+ ()Ljava/lang/management/MemoryUsage;

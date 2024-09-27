@@ -1,0 +1,27 @@
+class javax/swing/undo/AbstractUndoableEdit
+
+RedoName
+ Ljava/lang/String;
+ L1java/lang/String;
+UndoName
+ Ljava/lang/String;
+ L1java/lang/String;
+
+addEdit
+ (Ljavax/swing/undo/UndoableEdit;)Z
+ (Ljavax/swing/undo/UndoableEdit;)Z
+getPresentationName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRedoPresentationName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getUndoPresentationName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+replaceEdit
+ (Ljavax/swing/undo/UndoableEdit;)Z
+ (Ljavax/swing/undo/UndoableEdit;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

@@ -1,0 +1,63 @@
+class java/time/chrono/ThaiBuddhistChronology
+
+INSTANCE
+ Ljava/time/chrono/ThaiBuddhistChronology;
+ L1java/time/chrono/ThaiBuddhistChronology;
+
+date
+ (III)Ljava/time/chrono/ThaiBuddhistDate;
+ (III)Ljava/time/chrono/ThaiBuddhistDate;
+date
+ (Ljava/time/chrono/Era;III)Ljava/time/chrono/ThaiBuddhistDate;
+ (Ljava/time/chrono/Era;III)Ljava/time/chrono/ThaiBuddhistDate;
+date
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/ThaiBuddhistDate;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/ThaiBuddhistDate;
+dateEpochDay
+ (J)Ljava/time/chrono/ThaiBuddhistDate;
+ (J)Ljava/time/chrono/ThaiBuddhistDate;
+dateNow
+ ()Ljava/time/chrono/ThaiBuddhistDate;
+ ()Ljava/time/chrono/ThaiBuddhistDate;
+dateNow
+ (Ljava/time/Clock;)Ljava/time/chrono/ThaiBuddhistDate;
+ (Ljava/time/Clock;)Ljava/time/chrono/ThaiBuddhistDate;
+dateNow
+ (Ljava/time/ZoneId;)Ljava/time/chrono/ThaiBuddhistDate;
+ (Ljava/time/ZoneId;)Ljava/time/chrono/ThaiBuddhistDate;
+dateYearDay
+ (II)Ljava/time/chrono/ThaiBuddhistDate;
+ (II)Ljava/time/chrono/ThaiBuddhistDate;
+dateYearDay
+ (Ljava/time/chrono/Era;II)Ljava/time/chrono/ThaiBuddhistDate;
+ (Ljava/time/chrono/Era;II)Ljava/time/chrono/ThaiBuddhistDate;
+eraOf
+ (I)Ljava/time/chrono/ThaiBuddhistEra;
+ (I)Ljava/time/chrono/ThaiBuddhistEra;
+eras
+ ()Ljava/util/List<Ljava/time/chrono/Era;>;
+ ()Ljava/util/List<Ljava/time/chrono/Era;>;
+getCalendarType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+localDateTime
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/ChronoLocalDateTime<Ljava/time/chrono/ThaiBuddhistDate;>;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/ChronoLocalDateTime<Ljava/time/chrono/ThaiBuddhistDate;>;
+prolepticYear
+ (Ljava/time/chrono/Era;I)I
+ (Ljava/time/chrono/Era;I)I
+range
+ (Ljava/time/temporal/ChronoField;)Ljava/time/temporal/ValueRange;
+ (Ljava/time/temporal/ChronoField;)Ljava/time/temporal/ValueRange;
+resolveDate
+ (Ljava/util/Map<Ljava/time/temporal/TemporalField;Ljava/lang/Long;>;Ljava/time/format/ResolverStyle;)Ljava/time/chrono/ThaiBuddhistDate;
+ (Ljava/util/Map<Ljava/time/temporal/TemporalField;Ljava/lang/Long;>;Ljava/time/format/ResolverStyle;)Ljava/time/chrono/ThaiBuddhistDate;
+zonedDateTime
+ (Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/chrono/ChronoZonedDateTime<Ljava/time/chrono/ThaiBuddhistDate;>;
+ (Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/chrono/ChronoZonedDateTime<Ljava/time/chrono/ThaiBuddhistDate;>;
+zonedDateTime
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/ChronoZonedDateTime<Ljava/time/chrono/ThaiBuddhistDate;>;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/ChronoZonedDateTime<Ljava/time/chrono/ThaiBuddhistDate;>;

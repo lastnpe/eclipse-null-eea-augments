@@ -1,0 +1,209 @@
+class org/slf4j/helpers/SubstituteLogger
+
+<init>
+ (Ljava/lang/String;Ljava/util/Queue<Lorg/slf4j/event/SubstituteLoggingEvent;>;Z)V
+ (Ljava/lang/String;Ljava/util/Queue<Lorg/slf4j/event/SubstituteLoggingEvent;>;Z)V
+atDebug
+ ()Lorg/slf4j/spi/LoggingEventBuilder;
+ ()Lorg/slf4j/spi/LoggingEventBuilder;
+atError
+ ()Lorg/slf4j/spi/LoggingEventBuilder;
+ ()Lorg/slf4j/spi/LoggingEventBuilder;
+atInfo
+ ()Lorg/slf4j/spi/LoggingEventBuilder;
+ ()Lorg/slf4j/spi/LoggingEventBuilder;
+atLevel
+ (Lorg/slf4j/event/Level;)Lorg/slf4j/spi/LoggingEventBuilder;
+ (Lorg/slf4j/event/Level;)Lorg/slf4j/spi/LoggingEventBuilder;
+atTrace
+ ()Lorg/slf4j/spi/LoggingEventBuilder;
+ ()Lorg/slf4j/spi/LoggingEventBuilder;
+atWarn
+ ()Lorg/slf4j/spi/LoggingEventBuilder;
+ ()Lorg/slf4j/spi/LoggingEventBuilder;
+debug
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+debug
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+debug
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+debug
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+debug
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+debug
+ (Lorg/slf4j/Marker;Ljava/lang/String;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;)V
+debug
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
+debug
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+debug
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
+debug
+ (Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
+delegate
+ ()Lorg/slf4j/Logger;
+ ()Lorg/slf4j/Logger;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+error
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+error
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+error
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+error
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+error
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+error
+ (Lorg/slf4j/Marker;Ljava/lang/String;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;)V
+error
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
+error
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+error
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
+error
+ (Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
+getName
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.slf4j.Logger)
+info
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+info
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+info
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+info
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+info
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+info
+ (Lorg/slf4j/Marker;Ljava/lang/String;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;)V
+info
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
+info
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+info
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
+info
+ (Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
+isDebugEnabled
+ (Lorg/slf4j/Marker;)Z
+ (Lorg/slf4j/Marker;)Z
+isEnabledForLevel
+ (Lorg/slf4j/event/Level;)Z
+ (Lorg/slf4j/event/Level;)Z
+isErrorEnabled
+ (Lorg/slf4j/Marker;)Z
+ (Lorg/slf4j/Marker;)Z
+isInfoEnabled
+ (Lorg/slf4j/Marker;)Z
+ (Lorg/slf4j/Marker;)Z
+isTraceEnabled
+ (Lorg/slf4j/Marker;)Z
+ (Lorg/slf4j/Marker;)Z
+isWarnEnabled
+ (Lorg/slf4j/Marker;)Z
+ (Lorg/slf4j/Marker;)Z
+log
+ (Lorg/slf4j/event/LoggingEvent;)V
+ (Lorg/slf4j/event/LoggingEvent;)V
+makeLoggingEventBuilder
+ (Lorg/slf4j/event/Level;)Lorg/slf4j/spi/LoggingEventBuilder;
+ (Lorg/slf4j/event/Level;)Lorg/slf4j/spi/LoggingEventBuilder;
+setDelegate
+ (Lorg/slf4j/Logger;)V
+ (Lorg/slf4j/Logger;)V
+trace
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+trace
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+trace
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+trace
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+trace
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+trace
+ (Lorg/slf4j/Marker;Ljava/lang/String;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;)V
+trace
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
+trace
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+trace
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
+trace
+ (Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
+warn
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+warn
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+warn
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+warn
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+warn
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+warn
+ (Lorg/slf4j/Marker;Ljava/lang/String;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;)V
+warn
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;)V
+warn
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+warn
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;Ljava/lang/Throwable;)V
+warn
+ (Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V
+ (Lorg/slf4j/Marker;Ljava/lang/String;[Ljava/lang/Object;)V

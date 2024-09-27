@@ -1,0 +1,20 @@
+class org/springframework/core/io/FileUrlResource
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/net/URL;)V
+ (Ljava/net/URL;)V
+createRelative
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+getFile
+ ()Ljava/io/File;
+ ()Ljava/io/File;
+getOutputStream
+ ()Ljava/io/OutputStream;
+ ()Ljava/io/OutputStream;
+writableChannel
+ ()Ljava/nio/channels/WritableByteChannel;
+ ()Ljava/nio/channels/WritableByteChannel;

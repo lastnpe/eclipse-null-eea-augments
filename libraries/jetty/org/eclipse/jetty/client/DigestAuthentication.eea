@@ -1,0 +1,17 @@
+class org/eclipse/jetty/client/DigestAuthentication
+
+<init>
+ (Ljava/net/URI;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/net/URI;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/net/URI;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Random;)V
+ (Ljava/net/URI;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Random;)V
+authenticate
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/ContentResponse;Lorg/eclipse/jetty/client/Authentication$HeaderInfo;Lorg/eclipse/jetty/util/Attributes;)Lorg/eclipse/jetty/client/Authentication$Result;
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/ContentResponse;Lorg/eclipse/jetty/client/Authentication$HeaderInfo;Lorg/eclipse/jetty/util/Attributes;)Lorg/eclipse/jetty/client/Authentication$Result;
+getType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+matches
+ (Ljava/lang/String;Ljava/net/URI;Ljava/lang/String;)Z
+ (Ljava/lang/String;Ljava/net/URI;Ljava/lang/String;)Z

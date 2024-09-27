@@ -1,0 +1,34 @@
+class org/mockito/internal/util/concurrent/DetachedThreadLocal
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+<init>
+ (Lorg/mockito/internal/util/concurrent/DetachedThreadLocal$Cleaner;)V
+ (Lorg/mockito/internal/util/concurrent/DetachedThreadLocal$Cleaner;)V
+define
+ (Ljava/lang/Thread;TT;)V
+ (Ljava/lang/Thread;TT;)V
+fetchFrom
+ (Ljava/lang/Thread;)TT;
+ (Ljava/lang/Thread;)TT;
+get
+ ()TT;
+ ()TT;
+get
+ (Ljava/lang/Thread;)TT;
+ (Ljava/lang/Thread;)TT;
+getBackingMap
+ ()Lorg/mockito/internal/util/concurrent/WeakConcurrentMap<Ljava/lang/Thread;TT;>;
+ ()Lorg/mockito/internal/util/concurrent/WeakConcurrentMap<Ljava/lang/Thread;TT;>;
+inheritValue
+ (TT;)TT;
+ (TT;)TT;
+initialValue
+ (Ljava/lang/Thread;)TT;
+ (Ljava/lang/Thread;)TT;
+pushTo
+ (Ljava/lang/Thread;)TT;
+ (Ljava/lang/Thread;)TT;
+set
+ (TT;)V
+ (TT;)V

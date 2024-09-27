@@ -1,0 +1,36 @@
+class java/security/KeyPairGenerator
+
+getInstance
+ (Ljava/lang/String;)Ljava/security/KeyPairGenerator;
+ (Ljava/lang/String;)Ljava/security/KeyPairGenerator;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/KeyPairGenerator;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/KeyPairGenerator;
+getInstance
+ (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/KeyPairGenerator;
+ (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/KeyPairGenerator;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+genKeyPair
+ ()Ljava/security/KeyPair;
+ ()Ljava/security/KeyPair;
+generateKeyPair
+ ()Ljava/security/KeyPair;
+ ()Ljava/security/KeyPair;
+getAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getProvider
+ ()Ljava/security/Provider;
+ ()Ljava/security/Provider;
+initialize
+ (ILjava/security/SecureRandom;)V
+ (ILjava/security/SecureRandom;)V
+initialize
+ (Ljava/security/spec/AlgorithmParameterSpec;)V
+ (Ljava/security/spec/AlgorithmParameterSpec;)V
+initialize
+ (Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V
+ (Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V

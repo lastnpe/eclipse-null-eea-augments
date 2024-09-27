@@ -1,0 +1,39 @@
+class com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider
+
+fieldDictionary
+ Lcom/thoughtworks/xstream/converters/reflection/FieldDictionary;
+ Lcom/thoughtworks/xstream/converters/reflection/FieldDictionary;
+
+<init>
+ (Lcom/thoughtworks/xstream/converters/reflection/FieldDictionary;)V
+ (Lcom/thoughtworks/xstream/converters/reflection/FieldDictionary;)V
+fieldDefinedInClass
+ (Ljava/lang/String;Ljava/lang/Class;)Z
+ (Ljava/lang/String;Ljava/lang/Class;)Z
+fieldModifiersSupported
+ (Ljava/lang/reflect/Field;)Z
+ (Ljava/lang/reflect/Field;)Z
+getField
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
+getFieldOrNull
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
+getFieldType
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Class;
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Class;
+newInstance
+ (Ljava/lang/Class;)Ljava/lang/Object;
+ (Ljava/lang/Class;)Ljava/lang/Object;
+setFieldDictionary
+ (Lcom/thoughtworks/xstream/converters/reflection/FieldDictionary;)V
+ (Lcom/thoughtworks/xstream/converters/reflection/FieldDictionary;)V
+validateFieldAccess
+ (Ljava/lang/reflect/Field;)V
+ (Ljava/lang/reflect/Field;)V
+visitSerializableFields
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider$Visitor;)V
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider$Visitor;)V
+writeField
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Class;)V
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Class;)V

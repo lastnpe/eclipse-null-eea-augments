@@ -1,0 +1,22 @@
+class org/springframework/core/annotation/AnnotationAwareOrderComparator
+
+INSTANCE
+ Lorg/springframework/core/annotation/AnnotationAwareOrderComparator;
+ L1org/springframework/core/annotation/AnnotationAwareOrderComparator;
+
+sort
+ (Ljava/util/List<*>;)V
+ (Ljava/util/List<*>;)V
+sort
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+sortIfNecessary
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+
+findOrder
+ (Ljava/lang/Object;)Ljava/lang/Integer;
+ (Ljava/lang/Object;)L0java/lang/Integer; # @Inherited(org.springframework.core.OrderComparator)
+getPriority
+ (Ljava/lang/Object;)Ljava/lang/Integer;
+ (Ljava/lang/Object;)L0java/lang/Integer; # @Inherited(org.springframework.core.OrderComparator)

@@ -1,0 +1,21 @@
+class org/springframework/aot/generate/AccessControl
+
+forClass
+ (Ljava/lang/Class<*>;)Lorg/springframework/aot/generate/AccessControl;
+ (Ljava/lang/Class<*>;)Lorg/springframework/aot/generate/AccessControl;
+forMember
+ (Ljava/lang/reflect/Member;)Lorg/springframework/aot/generate/AccessControl;
+ (Ljava/lang/reflect/Member;)Lorg/springframework/aot/generate/AccessControl;
+forResolvableType
+ (Lorg/springframework/core/ResolvableType;)Lorg/springframework/aot/generate/AccessControl;
+ (Lorg/springframework/core/ResolvableType;)Lorg/springframework/aot/generate/AccessControl;
+lowest
+ ([Lorg/springframework/aot/generate/AccessControl;)Lorg/springframework/aot/generate/AccessControl;
+ ([Lorg/springframework/aot/generate/AccessControl;)Lorg/springframework/aot/generate/AccessControl;
+
+getVisibility
+ ()Lorg/springframework/aot/generate/AccessControl$Visibility;
+ ()Lorg/springframework/aot/generate/AccessControl$Visibility;
+isAccessibleFrom
+ (Lorg/springframework/javapoet/ClassName;)Z
+ (Lorg/springframework/javapoet/ClassName;)Z

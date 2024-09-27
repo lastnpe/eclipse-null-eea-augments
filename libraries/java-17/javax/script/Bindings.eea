@@ -1,0 +1,21 @@
+class javax/script/Bindings
+
+super java/util/Map
+ <Ljava/lang/String;Ljava/lang/Object;>
+ <Ljava/lang/String;Ljava/lang/Object;>
+
+containsKey
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.Map)
+get
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+put
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+putAll
+ (Ljava/util/Map<+Ljava/lang/String;+Ljava/lang/Object;>;)V
+ (Ljava/util/Map<+Ljava/lang/String;+Ljava/lang/Object;>;)V
+remove
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;

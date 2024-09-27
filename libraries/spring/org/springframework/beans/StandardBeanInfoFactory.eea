@@ -1,0 +1,9 @@
+class org/springframework/beans/StandardBeanInfoFactory
+
+IGNORE_BEANINFO_PROPERTY_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getBeanInfo
+ (Ljava/lang/Class<*>;)Ljava/beans/BeanInfo;
+ (Ljava/lang/Class<*>;)L1java/beans/BeanInfo; # @Overrides(org.springframework.beans.BeanInfoFactory)

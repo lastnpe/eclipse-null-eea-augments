@@ -1,0 +1,21 @@
+class org/eclipse/jetty/client/AbstractAuthentication
+
+matchesURI
+ (Ljava/net/URI;Ljava/net/URI;)Z
+ (Ljava/net/URI;Ljava/net/URI;)Z
+
+<init>
+ (Ljava/net/URI;Ljava/lang/String;)V
+ (Ljava/net/URI;Ljava/lang/String;)V
+getRealm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getURI
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+matches
+ (Ljava/lang/String;Ljava/net/URI;Ljava/lang/String;)Z
+ (Ljava/lang/String;Ljava/net/URI;Ljava/lang/String;)Z

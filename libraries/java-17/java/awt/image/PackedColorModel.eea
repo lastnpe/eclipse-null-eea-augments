@@ -1,0 +1,23 @@
+class java/awt/image/PackedColorModel
+
+<init>
+ (Ljava/awt/color/ColorSpace;IIIIIZII)V
+ (Ljava/awt/color/ColorSpace;IIIIIZII)V
+<init>
+ (Ljava/awt/color/ColorSpace;I[IIZII)V
+ (Ljava/awt/color/ColorSpace;I[IIZII)V
+createCompatibleSampleModel
+ (II)Ljava/awt/image/SampleModel;
+ (II)Ljava/awt/image/SampleModel;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.awt.image.ColorModel)
+getAlphaRaster
+ (Ljava/awt/image/WritableRaster;)Ljava/awt/image/WritableRaster;
+ (Ljava/awt/image/WritableRaster;)Ljava/awt/image/WritableRaster;
+getMasks
+ ()[I
+ ()[I
+isCompatibleSampleModel
+ (Ljava/awt/image/SampleModel;)Z
+ (Ljava/awt/image/SampleModel;)Z

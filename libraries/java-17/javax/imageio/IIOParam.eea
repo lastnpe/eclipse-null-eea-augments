@@ -1,0 +1,54 @@
+class javax/imageio/IIOParam
+
+controller
+ Ljavax/imageio/IIOParamController;
+ Ljavax/imageio/IIOParamController;
+defaultController
+ Ljavax/imageio/IIOParamController;
+ Ljavax/imageio/IIOParamController;
+destinationOffset
+ Ljava/awt/Point;
+ Ljava/awt/Point;
+destinationType
+ Ljavax/imageio/ImageTypeSpecifier;
+ Ljavax/imageio/ImageTypeSpecifier;
+sourceBands
+ [I
+ [I
+sourceRegion
+ Ljava/awt/Rectangle;
+ Ljava/awt/Rectangle;
+
+getController
+ ()Ljavax/imageio/IIOParamController;
+ ()Ljavax/imageio/IIOParamController;
+getDefaultController
+ ()Ljavax/imageio/IIOParamController;
+ ()Ljavax/imageio/IIOParamController;
+getDestinationOffset
+ ()Ljava/awt/Point;
+ ()Ljava/awt/Point;
+getDestinationType
+ ()Ljavax/imageio/ImageTypeSpecifier;
+ ()Ljavax/imageio/ImageTypeSpecifier;
+getSourceBands
+ ()[I
+ ()[I
+getSourceRegion
+ ()Ljava/awt/Rectangle;
+ ()Ljava/awt/Rectangle;
+setController
+ (Ljavax/imageio/IIOParamController;)V
+ (Ljavax/imageio/IIOParamController;)V
+setDestinationOffset
+ (Ljava/awt/Point;)V
+ (Ljava/awt/Point;)V
+setDestinationType
+ (Ljavax/imageio/ImageTypeSpecifier;)V
+ (Ljavax/imageio/ImageTypeSpecifier;)V
+setSourceBands
+ ([I)V
+ ([I)V
+setSourceRegion
+ (Ljava/awt/Rectangle;)V
+ (Ljava/awt/Rectangle;)V

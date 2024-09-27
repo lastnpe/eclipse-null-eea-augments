@@ -1,0 +1,43 @@
+class java/time/Month
+
+super java/lang/Enum
+ <Ljava/time/Month;>
+ <Ljava/time/Month;>
+
+from
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/Month;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/Month;
+of
+ (I)Ljava/time/Month;
+ (I)Ljava/time/Month;
+
+adjustInto
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+firstMonthOfQuarter
+ ()Ljava/time/Month;
+ ()Ljava/time/Month;
+get
+ (Ljava/time/temporal/TemporalField;)I
+ (L1java/time/temporal/TemporalField;)I
+getDisplayName
+ (Ljava/time/format/TextStyle;Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/time/format/TextStyle;Ljava/util/Locale;)Ljava/lang/String;
+getLong
+ (Ljava/time/temporal/TemporalField;)J
+ (Ljava/time/temporal/TemporalField;)J
+isSupported
+ (Ljava/time/temporal/TemporalField;)Z
+ (Ljava/time/temporal/TemporalField;)Z
+minus
+ (J)Ljava/time/Month;
+ (J)Ljava/time/Month;
+plus
+ (J)Ljava/time/Month;
+ (J)Ljava/time/Month;
+query
+ <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+ <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+range
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;

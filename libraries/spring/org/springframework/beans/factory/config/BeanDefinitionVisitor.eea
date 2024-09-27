@@ -1,0 +1,50 @@
+class org/springframework/beans/factory/config/BeanDefinitionVisitor
+
+<init>
+ (Lorg/springframework/util/StringValueResolver;)V
+ (Lorg/springframework/util/StringValueResolver;)V
+resolveStringValue
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+resolveValue
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)L0java/lang/Object;
+visitArray
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+visitBeanClassName
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+visitBeanDefinition
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+visitFactoryBeanName
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+visitFactoryMethodName
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+visitGenericArgumentValues
+ (Ljava/util/List<Lorg/springframework/beans/factory/config/ConstructorArgumentValues$ValueHolder;>;)V
+ (Ljava/util/List<Lorg/springframework/beans/factory/config/ConstructorArgumentValues$ValueHolder;>;)V
+visitIndexedArgumentValues
+ (Ljava/util/Map<Ljava/lang/Integer;Lorg/springframework/beans/factory/config/ConstructorArgumentValues$ValueHolder;>;)V
+ (Ljava/util/Map<Ljava/lang/Integer;Lorg/springframework/beans/factory/config/ConstructorArgumentValues$ValueHolder;>;)V
+visitList
+ (Ljava/util/List;)V
+ (Ljava/util/List;)V
+visitMap
+ (Ljava/util/Map<**>;)V
+ (Ljava/util/Map<**>;)V
+visitParentName
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+visitPropertyValues
+ (Lorg/springframework/beans/MutablePropertyValues;)V
+ (Lorg/springframework/beans/MutablePropertyValues;)V
+visitScope
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+visitSet
+ (Ljava/util/Set;)V
+ (Ljava/util/Set;)V

@@ -1,0 +1,65 @@
+class com/google/common/util/concurrent/AtomicLongMap
+ <K:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;>
+
+create
+ <K:Ljava/lang/Object;>()Lcom/google/common/util/concurrent/AtomicLongMap<TK;>;
+ <K:Ljava/lang/Object;>()Lcom/google/common/util/concurrent/AtomicLongMap<TK;>;
+create
+ <K:Ljava/lang/Object;>(Ljava/util/Map<+TK;+Ljava/lang/Long;>;)Lcom/google/common/util/concurrent/AtomicLongMap<TK;>;
+ <K:Ljava/lang/Object;>(Ljava/util/Map<+TK;+Ljava/lang/Long;>;)Lcom/google/common/util/concurrent/AtomicLongMap<TK;>;
+
+accumulateAndGet
+ (TK;JLjava/util/function/LongBinaryOperator;)J
+ (TK;JLjava/util/function/LongBinaryOperator;)J
+addAndGet
+ (TK;J)J
+ (TK;J)J
+asMap
+ ()Ljava/util/Map<TK;Ljava/lang/Long;>;
+ ()Ljava/util/Map<TK;Ljava/lang/Long;>;
+containsKey
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+decrementAndGet
+ (TK;)J
+ (TK;)J
+get
+ (TK;)J
+ (TK;)J
+getAndAccumulate
+ (TK;JLjava/util/function/LongBinaryOperator;)J
+ (TK;JLjava/util/function/LongBinaryOperator;)J
+getAndAdd
+ (TK;J)J
+ (TK;J)J
+getAndDecrement
+ (TK;)J
+ (TK;)J
+getAndIncrement
+ (TK;)J
+ (TK;)J
+getAndUpdate
+ (TK;Ljava/util/function/LongUnaryOperator;)J
+ (TK;Ljava/util/function/LongUnaryOperator;)J
+incrementAndGet
+ (TK;)J
+ (TK;)J
+put
+ (TK;J)J
+ (TK;J)J
+putAll
+ (Ljava/util/Map<+TK;+Ljava/lang/Long;>;)V
+ (Ljava/util/Map<+TK;+Ljava/lang/Long;>;)V
+remove
+ (TK;)J
+ (TK;)J
+removeIfZero
+ (TK;)Z
+ (TK;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+updateAndGet
+ (TK;Ljava/util/function/LongUnaryOperator;)J
+ (TK;Ljava/util/function/LongUnaryOperator;)J

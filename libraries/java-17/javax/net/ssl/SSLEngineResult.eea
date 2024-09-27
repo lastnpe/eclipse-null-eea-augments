@@ -1,0 +1,17 @@
+class javax/net/ssl/SSLEngineResult
+
+<init>
+ (Ljavax/net/ssl/SSLEngineResult$Status;Ljavax/net/ssl/SSLEngineResult$HandshakeStatus;II)V
+ (Ljavax/net/ssl/SSLEngineResult$Status;Ljavax/net/ssl/SSLEngineResult$HandshakeStatus;II)V
+<init>
+ (Ljavax/net/ssl/SSLEngineResult$Status;Ljavax/net/ssl/SSLEngineResult$HandshakeStatus;IIJ)V
+ (Ljavax/net/ssl/SSLEngineResult$Status;Ljavax/net/ssl/SSLEngineResult$HandshakeStatus;IIJ)V
+getHandshakeStatus
+ ()Ljavax/net/ssl/SSLEngineResult$HandshakeStatus;
+ ()Ljavax/net/ssl/SSLEngineResult$HandshakeStatus;
+getStatus
+ ()Ljavax/net/ssl/SSLEngineResult$Status;
+ ()Ljavax/net/ssl/SSLEngineResult$Status;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

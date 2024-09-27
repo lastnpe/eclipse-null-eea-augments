@@ -1,4 +1,9 @@
 class java/lang/ProcessBuilder
+
+startPipeline
+ (Ljava/util/List<Ljava/lang/ProcessBuilder;>;)Ljava/util/List<Ljava/lang/Process;>;
+ (L1java/util/List<L1java/lang/ProcessBuilder;>;)L1java/util/List<L1java/lang/Process;>;
+
 <init>
  (Ljava/util/List<Ljava/lang/String;>;)V
  (L1java/util/List<L1java/lang/String;>;)V
@@ -59,6 +64,3 @@ redirectOutput
 start
  ()Ljava/lang/Process;
  ()L1java/lang/Process;
-startPipeline
- (Ljava/util/List<Ljava/lang/ProcessBuilder;>;)Ljava/util/List<Ljava/lang/Process;>;
- (L1java/util/List<L1java/lang/ProcessBuilder;>;)L1java/util/List<L1java/lang/Process;>;

@@ -1,0 +1,20 @@
+class com/thoughtworks/xstream/converters/javabean/JavaBeanProvider
+
+canInstantiate
+ (Ljava/lang/Class;)Z
+ (Ljava/lang/Class;)Z
+getPropertyType
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Class;
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Class;
+newInstance
+ (Ljava/lang/Class;)Ljava/lang/Object;
+ (Ljava/lang/Class;)Ljava/lang/Object;
+propertyDefinedInClass
+ (Ljava/lang/String;Ljava/lang/Class;)Z
+ (Ljava/lang/String;Ljava/lang/Class;)Z
+visitSerializableProperties
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/converters/javabean/JavaBeanProvider$Visitor;)V
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/converters/javabean/JavaBeanProvider$Visitor;)V
+writeProperty
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V

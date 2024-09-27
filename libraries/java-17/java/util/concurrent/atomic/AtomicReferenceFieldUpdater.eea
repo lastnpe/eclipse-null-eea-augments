@@ -1,0 +1,38 @@
+class java/util/concurrent/atomic/AtomicReferenceFieldUpdater
+ <T:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+newUpdater
+ <U:Ljava/lang/Object;W:Ljava/lang/Object;>(Ljava/lang/Class<TU;>;Ljava/lang/Class<TW;>;Ljava/lang/String;)Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater<TU;TW;>;
+ <U:Ljava/lang/Object;W:Ljava/lang/Object;>(Ljava/lang/Class<TU;>;Ljava/lang/Class<TW;>;Ljava/lang/String;)Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater<TU;TW;>;
+
+accumulateAndGet
+ (TT;TV;Ljava/util/function/BinaryOperator<TV;>;)TV;
+ (TT;TV;Ljava/util/function/BinaryOperator<TV;>;)TV;
+compareAndSet
+ (TT;TV;TV;)Z
+ (TT;TV;TV;)Z
+get
+ (TT;)TV;
+ (TT;)TV;
+getAndAccumulate
+ (TT;TV;Ljava/util/function/BinaryOperator<TV;>;)TV;
+ (TT;TV;Ljava/util/function/BinaryOperator<TV;>;)TV;
+getAndSet
+ (TT;TV;)TV;
+ (TT;TV;)TV;
+getAndUpdate
+ (TT;Ljava/util/function/UnaryOperator<TV;>;)TV;
+ (TT;Ljava/util/function/UnaryOperator<TV;>;)TV;
+lazySet
+ (TT;TV;)V
+ (TT;TV;)V
+set
+ (TT;TV;)V
+ (TT;TV;)V
+updateAndGet
+ (TT;Ljava/util/function/UnaryOperator<TV;>;)TV;
+ (TT;Ljava/util/function/UnaryOperator<TV;>;)TV;
+weakCompareAndSet
+ (TT;TV;TV;)Z
+ (TT;TV;TV;)Z

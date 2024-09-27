@@ -1,0 +1,51 @@
+class com/google/common/io/ByteSource
+
+concat
+ (Ljava/lang/Iterable<+Lcom/google/common/io/ByteSource;>;)Lcom/google/common/io/ByteSource;
+ (Ljava/lang/Iterable<+Lcom/google/common/io/ByteSource;>;)Lcom/google/common/io/ByteSource;
+concat
+ (Ljava/util/Iterator<+Lcom/google/common/io/ByteSource;>;)Lcom/google/common/io/ByteSource;
+ (Ljava/util/Iterator<+Lcom/google/common/io/ByteSource;>;)Lcom/google/common/io/ByteSource;
+concat
+ ([Lcom/google/common/io/ByteSource;)Lcom/google/common/io/ByteSource;
+ ([Lcom/google/common/io/ByteSource;)Lcom/google/common/io/ByteSource;
+empty
+ ()Lcom/google/common/io/ByteSource;
+ ()Lcom/google/common/io/ByteSource;
+wrap
+ ([B)Lcom/google/common/io/ByteSource;
+ ([B)Lcom/google/common/io/ByteSource;
+
+asCharSource
+ (Ljava/nio/charset/Charset;)Lcom/google/common/io/CharSource;
+ (Ljava/nio/charset/Charset;)Lcom/google/common/io/CharSource;
+contentEquals
+ (Lcom/google/common/io/ByteSource;)Z
+ (Lcom/google/common/io/ByteSource;)Z
+copyTo
+ (Lcom/google/common/io/ByteSink;)J
+ (Lcom/google/common/io/ByteSink;)J
+copyTo
+ (Ljava/io/OutputStream;)J
+ (Ljava/io/OutputStream;)J
+hash
+ (Lcom/google/common/hash/HashFunction;)Lcom/google/common/hash/HashCode;
+ (Lcom/google/common/hash/HashFunction;)Lcom/google/common/hash/HashCode;
+openBufferedStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+openStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+read
+ ()[B
+ ()[B
+read
+ <T:Ljava/lang/Object;>(Lcom/google/common/io/ByteProcessor<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lcom/google/common/io/ByteProcessor<TT;>;)T1T;
+sizeIfKnown
+ ()Lcom/google/common/base/Optional<Ljava/lang/Long;>;
+ ()Lcom/google/common/base/Optional<Ljava/lang/Long;>;
+slice
+ (JJ)Lcom/google/common/io/ByteSource;
+ (JJ)Lcom/google/common/io/ByteSource;

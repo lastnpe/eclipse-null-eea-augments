@@ -1,0 +1,68 @@
+class org/springframework/javapoet/TypeName
+
+BOOLEAN
+ Lorg/springframework/javapoet/TypeName;
+ L1org/springframework/javapoet/TypeName;
+BYTE
+ Lorg/springframework/javapoet/TypeName;
+ L1org/springframework/javapoet/TypeName;
+CHAR
+ Lorg/springframework/javapoet/TypeName;
+ L1org/springframework/javapoet/TypeName;
+DOUBLE
+ Lorg/springframework/javapoet/TypeName;
+ L1org/springframework/javapoet/TypeName;
+FLOAT
+ Lorg/springframework/javapoet/TypeName;
+ L1org/springframework/javapoet/TypeName;
+INT
+ Lorg/springframework/javapoet/TypeName;
+ L1org/springframework/javapoet/TypeName;
+LONG
+ Lorg/springframework/javapoet/TypeName;
+ L1org/springframework/javapoet/TypeName;
+OBJECT
+ Lorg/springframework/javapoet/ClassName;
+ L1org/springframework/javapoet/ClassName;
+SHORT
+ Lorg/springframework/javapoet/TypeName;
+ L1org/springframework/javapoet/TypeName;
+VOID
+ Lorg/springframework/javapoet/TypeName;
+ L1org/springframework/javapoet/TypeName;
+
+get
+ (Ljava/lang/reflect/Type;)Lorg/springframework/javapoet/TypeName;
+ (Ljava/lang/reflect/Type;)Lorg/springframework/javapoet/TypeName;
+get
+ (Ljavax/lang/model/type/TypeMirror;)Lorg/springframework/javapoet/TypeName;
+ (Ljavax/lang/model/type/TypeMirror;)Lorg/springframework/javapoet/TypeName;
+
+annotations
+ Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;
+ Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;
+
+annotated
+ (Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;)Lorg/springframework/javapoet/TypeName;
+ (Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;)Lorg/springframework/javapoet/TypeName;
+annotated
+ ([Lorg/springframework/javapoet/AnnotationSpec;)Lorg/springframework/javapoet/TypeName;
+ ([Lorg/springframework/javapoet/AnnotationSpec;)Lorg/springframework/javapoet/TypeName;
+box
+ ()Lorg/springframework/javapoet/TypeName;
+ ()Lorg/springframework/javapoet/TypeName;
+concatAnnotations
+ (Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;)Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;
+ (Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;)Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+unbox
+ ()Lorg/springframework/javapoet/TypeName;
+ ()Lorg/springframework/javapoet/TypeName;
+withoutAnnotations
+ ()Lorg/springframework/javapoet/TypeName;
+ ()Lorg/springframework/javapoet/TypeName;

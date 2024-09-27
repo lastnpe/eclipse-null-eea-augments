@@ -1,0 +1,12 @@
+class org/eclipse/jetty/client/Authentication
+
+ANY_REALM
+ Ljava/lang/String;
+ L1java/lang/String;
+
+authenticate
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/ContentResponse;Lorg/eclipse/jetty/client/Authentication$HeaderInfo;Lorg/eclipse/jetty/util/Attributes;)Lorg/eclipse/jetty/client/Authentication$Result;
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/ContentResponse;Lorg/eclipse/jetty/client/Authentication$HeaderInfo;Lorg/eclipse/jetty/util/Attributes;)Lorg/eclipse/jetty/client/Authentication$Result;
+matches
+ (Ljava/lang/String;Ljava/net/URI;Ljava/lang/String;)Z
+ (Ljava/lang/String;Ljava/net/URI;Ljava/lang/String;)Z

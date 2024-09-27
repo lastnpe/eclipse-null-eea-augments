@@ -1,0 +1,50 @@
+class java/net/http/HttpResponse$BodySubscribers
+
+buffering
+ <T:Ljava/lang/Object;>(Ljava/net/http/HttpResponse$BodySubscriber<TT;>;I)Ljava/net/http/HttpResponse$BodySubscriber<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/net/http/HttpResponse$BodySubscriber<TT;>;I)Ljava/net/http/HttpResponse$BodySubscriber<TT;>;
+discarding
+ ()Ljava/net/http/HttpResponse$BodySubscriber<Ljava/lang/Void;>;
+ ()Ljava/net/http/HttpResponse$BodySubscriber<Ljava/lang/Void;>;
+fromLineSubscriber
+ (Ljava/util/concurrent/Flow$Subscriber<-Ljava/lang/String;>;)Ljava/net/http/HttpResponse$BodySubscriber<Ljava/lang/Void;>;
+ (Ljava/util/concurrent/Flow$Subscriber<-Ljava/lang/String;>;)Ljava/net/http/HttpResponse$BodySubscriber<Ljava/lang/Void;>;
+fromLineSubscriber
+ <S::Ljava/util/concurrent/Flow$Subscriber<-Ljava/lang/String;>;T:Ljava/lang/Object;>(TS;Ljava/util/function/Function<-TS;+TT;>;Ljava/nio/charset/Charset;Ljava/lang/String;)Ljava/net/http/HttpResponse$BodySubscriber<TT;>;
+ <S::Ljava/util/concurrent/Flow$Subscriber<-Ljava/lang/String;>;T:Ljava/lang/Object;>(TS;Ljava/util/function/Function<-TS;+TT;>;Ljava/nio/charset/Charset;Ljava/lang/String;)Ljava/net/http/HttpResponse$BodySubscriber<TT;>;
+fromSubscriber
+ (Ljava/util/concurrent/Flow$Subscriber<-Ljava/util/List<Ljava/nio/ByteBuffer;>;>;)Ljava/net/http/HttpResponse$BodySubscriber<Ljava/lang/Void;>;
+ (Ljava/util/concurrent/Flow$Subscriber<-Ljava/util/List<Ljava/nio/ByteBuffer;>;>;)Ljava/net/http/HttpResponse$BodySubscriber<Ljava/lang/Void;>;
+fromSubscriber
+ <S::Ljava/util/concurrent/Flow$Subscriber<-Ljava/util/List<Ljava/nio/ByteBuffer;>;>;T:Ljava/lang/Object;>(TS;Ljava/util/function/Function<-TS;+TT;>;)Ljava/net/http/HttpResponse$BodySubscriber<TT;>;
+ <S::Ljava/util/concurrent/Flow$Subscriber<-Ljava/util/List<Ljava/nio/ByteBuffer;>;>;T:Ljava/lang/Object;>(TS;Ljava/util/function/Function<-TS;+TT;>;)Ljava/net/http/HttpResponse$BodySubscriber<TT;>;
+mapping
+ <T:Ljava/lang/Object;U:Ljava/lang/Object;>(Ljava/net/http/HttpResponse$BodySubscriber<TT;>;Ljava/util/function/Function<-TT;+TU;>;)Ljava/net/http/HttpResponse$BodySubscriber<TU;>;
+ <T:Ljava/lang/Object;U:Ljava/lang/Object;>(Ljava/net/http/HttpResponse$BodySubscriber<TT;>;Ljava/util/function/Function<-TT;+TU;>;)Ljava/net/http/HttpResponse$BodySubscriber<TU;>;
+ofByteArray
+ ()Ljava/net/http/HttpResponse$BodySubscriber<[B>;
+ ()Ljava/net/http/HttpResponse$BodySubscriber<[B>;
+ofByteArrayConsumer
+ (Ljava/util/function/Consumer<Ljava/util/Optional<[B>;>;)Ljava/net/http/HttpResponse$BodySubscriber<Ljava/lang/Void;>;
+ (Ljava/util/function/Consumer<Ljava/util/Optional<[B>;>;)Ljava/net/http/HttpResponse$BodySubscriber<Ljava/lang/Void;>;
+ofFile
+ (Ljava/nio/file/Path;)Ljava/net/http/HttpResponse$BodySubscriber<Ljava/nio/file/Path;>;
+ (Ljava/nio/file/Path;)Ljava/net/http/HttpResponse$BodySubscriber<Ljava/nio/file/Path;>;
+ofFile
+ (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/net/http/HttpResponse$BodySubscriber<Ljava/nio/file/Path;>;
+ (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/net/http/HttpResponse$BodySubscriber<Ljava/nio/file/Path;>;
+ofInputStream
+ ()Ljava/net/http/HttpResponse$BodySubscriber<Ljava/io/InputStream;>;
+ ()Ljava/net/http/HttpResponse$BodySubscriber<Ljava/io/InputStream;>;
+ofLines
+ (Ljava/nio/charset/Charset;)Ljava/net/http/HttpResponse$BodySubscriber<Ljava/util/stream/Stream<Ljava/lang/String;>;>;
+ (Ljava/nio/charset/Charset;)Ljava/net/http/HttpResponse$BodySubscriber<Ljava/util/stream/Stream<Ljava/lang/String;>;>;
+ofPublisher
+ ()Ljava/net/http/HttpResponse$BodySubscriber<Ljava/util/concurrent/Flow$Publisher<Ljava/util/List<Ljava/nio/ByteBuffer;>;>;>;
+ ()Ljava/net/http/HttpResponse$BodySubscriber<Ljava/util/concurrent/Flow$Publisher<Ljava/util/List<Ljava/nio/ByteBuffer;>;>;>;
+ofString
+ (Ljava/nio/charset/Charset;)Ljava/net/http/HttpResponse$BodySubscriber<Ljava/lang/String;>;
+ (Ljava/nio/charset/Charset;)Ljava/net/http/HttpResponse$BodySubscriber<Ljava/lang/String;>;
+replacing
+ <U:Ljava/lang/Object;>(TU;)Ljava/net/http/HttpResponse$BodySubscriber<TU;>;
+ <U:Ljava/lang/Object;>(TU;)Ljava/net/http/HttpResponse$BodySubscriber<TU;>;

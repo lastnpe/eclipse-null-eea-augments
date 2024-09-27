@@ -1,0 +1,17 @@
+class java/util/concurrent/TransferQueue
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/util/concurrent/BlockingQueue
+ <TE;>
+ <TE;>
+
+transfer
+ (TE;)V
+ (TE;)V
+tryTransfer
+ (TE;)Z
+ (TE;)Z
+tryTransfer
+ (TE;JLjava/util/concurrent/TimeUnit;)Z
+ (TE;JLjava/util/concurrent/TimeUnit;)Z

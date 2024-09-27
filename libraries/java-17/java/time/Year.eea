@@ -1,0 +1,109 @@
+class java/time/Year
+
+super java/lang/Comparable
+ <Ljava/time/Year;>
+ <Ljava/time/Year;>
+
+from
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/Year;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/Year;
+now
+ ()Ljava/time/Year;
+ ()Ljava/time/Year;
+now
+ (Ljava/time/Clock;)Ljava/time/Year;
+ (Ljava/time/Clock;)Ljava/time/Year;
+now
+ (Ljava/time/ZoneId;)Ljava/time/Year;
+ (Ljava/time/ZoneId;)Ljava/time/Year;
+of
+ (I)Ljava/time/Year;
+ (I)Ljava/time/Year;
+parse
+ (Ljava/lang/CharSequence;)Ljava/time/Year;
+ (Ljava/lang/CharSequence;)Ljava/time/Year;
+parse
+ (Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)Ljava/time/Year;
+ (Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)Ljava/time/Year;
+
+adjustInto
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+atDay
+ (I)Ljava/time/LocalDate;
+ (I)Ljava/time/LocalDate;
+atMonth
+ (I)Ljava/time/YearMonth;
+ (I)Ljava/time/YearMonth;
+atMonth
+ (Ljava/time/Month;)Ljava/time/YearMonth;
+ (Ljava/time/Month;)Ljava/time/YearMonth;
+atMonthDay
+ (Ljava/time/MonthDay;)Ljava/time/LocalDate;
+ (Ljava/time/MonthDay;)Ljava/time/LocalDate;
+compareTo
+ (Ljava/time/Year;)I
+ (L1java/time/Year;)I
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+format
+ (Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;
+ (Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;
+get
+ (Ljava/time/temporal/TemporalField;)I
+ (L1java/time/temporal/TemporalField;)I
+getLong
+ (Ljava/time/temporal/TemporalField;)J
+ (Ljava/time/temporal/TemporalField;)J
+isAfter
+ (Ljava/time/Year;)Z
+ (Ljava/time/Year;)Z
+isBefore
+ (Ljava/time/Year;)Z
+ (Ljava/time/Year;)Z
+isSupported
+ (Ljava/time/temporal/TemporalField;)Z
+ (Ljava/time/temporal/TemporalField;)Z
+isSupported
+ (Ljava/time/temporal/TemporalUnit;)Z
+ (Ljava/time/temporal/TemporalUnit;)Z
+isValidMonthDay
+ (Ljava/time/MonthDay;)Z
+ (Ljava/time/MonthDay;)Z
+minus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/Year;
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/Year;
+minus
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/Year;
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/Year;
+minusYears
+ (J)Ljava/time/Year;
+ (J)Ljava/time/Year;
+plus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/Year;
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/Year;
+plus
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/Year;
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/Year;
+plusYears
+ (J)Ljava/time/Year;
+ (J)Ljava/time/Year;
+query
+ <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+ <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+range
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+until
+ (Ljava/time/temporal/Temporal;Ljava/time/temporal/TemporalUnit;)J
+ (Ljava/time/temporal/Temporal;Ljava/time/temporal/TemporalUnit;)J
+with
+ (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/Year;
+ (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/Year;
+with
+ (Ljava/time/temporal/TemporalField;J)Ljava/time/Year;
+ (Ljava/time/temporal/TemporalField;J)Ljava/time/Year;

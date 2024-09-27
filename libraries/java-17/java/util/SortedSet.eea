@@ -1,13 +1,26 @@
 class java/util/SortedSet
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/util/Set
+ <TE;>
+ <TE;>
+
 comparator
  ()Ljava/util/Comparator<-TE;>;
  ()L0java/util/Comparator<-TE;>;
+first
+ ()TE;
+ ()TE;
 headSet
  (TE;)Ljava/util/SortedSet<TE;>;
  (TE;)L1java/util/SortedSet<TE;>;
+last
+ ()TE;
+ ()TE;
 spliterator
  ()Ljava/util/Spliterator<TE;>;
- ()L1java/util/Spliterator<TE;>;
+ ()L1java/util/Spliterator<TE;>; # @Inherited(java.util.Set)
 subSet
  (TE;TE;)Ljava/util/SortedSet<TE;>;
  (TE;TE;)L1java/util/SortedSet<TE;>;

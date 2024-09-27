@@ -1,0 +1,62 @@
+class java/security/cert/X509Certificate
+
+checkValidity
+ (Ljava/util/Date;)V
+ (Ljava/util/Date;)V
+getExtendedKeyUsage
+ ()Ljava/util/List<Ljava/lang/String;>;
+ ()Ljava/util/List<Ljava/lang/String;>;
+getIssuerAlternativeNames
+ ()Ljava/util/Collection<Ljava/util/List<*>;>;
+ ()Ljava/util/Collection<Ljava/util/List<*>;>;
+getIssuerDN
+ ()Ljava/security/Principal;
+ ()Ljava/security/Principal;
+getIssuerUniqueID
+ ()[Z
+ ()[Z
+getIssuerX500Principal
+ ()Ljavax/security/auth/x500/X500Principal;
+ ()Ljavax/security/auth/x500/X500Principal;
+getKeyUsage
+ ()[Z
+ ()[Z
+getNotAfter
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+getNotBefore
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+getSerialNumber
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;
+getSigAlgName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSigAlgOID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSigAlgParams
+ ()[B
+ ()[B
+getSignature
+ ()[B
+ ()[B
+getSubjectAlternativeNames
+ ()Ljava/util/Collection<Ljava/util/List<*>;>;
+ ()Ljava/util/Collection<Ljava/util/List<*>;>;
+getSubjectDN
+ ()Ljava/security/Principal;
+ ()Ljava/security/Principal;
+getSubjectUniqueID
+ ()[Z
+ ()[Z
+getSubjectX500Principal
+ ()Ljavax/security/auth/x500/X500Principal;
+ ()Ljavax/security/auth/x500/X500Principal;
+getTBSCertificate
+ ()[B
+ ()[B
+verify
+ (Ljava/security/PublicKey;Ljava/security/Provider;)V
+ (Ljava/security/PublicKey;Ljava/security/Provider;)V

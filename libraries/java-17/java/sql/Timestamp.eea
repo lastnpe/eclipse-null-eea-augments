@@ -1,0 +1,39 @@
+class java/sql/Timestamp
+
+from
+ (Ljava/time/Instant;)Ljava/sql/Timestamp;
+ (Ljava/time/Instant;)Ljava/sql/Timestamp;
+valueOf
+ (Ljava/lang/String;)Ljava/sql/Timestamp;
+ (Ljava/lang/String;)Ljava/sql/Timestamp;
+valueOf
+ (Ljava/time/LocalDateTime;)Ljava/sql/Timestamp;
+ (Ljava/time/LocalDateTime;)Ljava/sql/Timestamp;
+
+after
+ (Ljava/sql/Timestamp;)Z
+ (Ljava/sql/Timestamp;)Z
+before
+ (Ljava/sql/Timestamp;)Z
+ (Ljava/sql/Timestamp;)Z
+compareTo
+ (Ljava/sql/Timestamp;)I
+ (L1java/sql/Timestamp;)I
+compareTo
+ (Ljava/util/Date;)I
+ (L1java/util/Date;)I # @Inherited(java.util.Date)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.Date)
+equals
+ (Ljava/sql/Timestamp;)Z
+ (Ljava/sql/Timestamp;)Z
+toInstant
+ ()Ljava/time/Instant;
+ ()L1java/time/Instant; # @Inherited(java.util.Date)
+toLocalDateTime
+ ()Ljava/time/LocalDateTime;
+ ()Ljava/time/LocalDateTime;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.util.Date)

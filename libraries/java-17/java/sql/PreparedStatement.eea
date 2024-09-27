@@ -1,0 +1,137 @@
+class java/sql/PreparedStatement
+
+executeQuery
+ ()Ljava/sql/ResultSet;
+ ()Ljava/sql/ResultSet;
+getMetaData
+ ()Ljava/sql/ResultSetMetaData;
+ ()Ljava/sql/ResultSetMetaData;
+getParameterMetaData
+ ()Ljava/sql/ParameterMetaData;
+ ()Ljava/sql/ParameterMetaData;
+setArray
+ (ILjava/sql/Array;)V
+ (ILjava/sql/Array;)V
+setAsciiStream
+ (ILjava/io/InputStream;)V
+ (ILjava/io/InputStream;)V
+setAsciiStream
+ (ILjava/io/InputStream;I)V
+ (ILjava/io/InputStream;I)V
+setAsciiStream
+ (ILjava/io/InputStream;J)V
+ (ILjava/io/InputStream;J)V
+setBigDecimal
+ (ILjava/math/BigDecimal;)V
+ (ILjava/math/BigDecimal;)V
+setBinaryStream
+ (ILjava/io/InputStream;)V
+ (ILjava/io/InputStream;)V
+setBinaryStream
+ (ILjava/io/InputStream;I)V
+ (ILjava/io/InputStream;I)V
+setBinaryStream
+ (ILjava/io/InputStream;J)V
+ (ILjava/io/InputStream;J)V
+setBlob
+ (ILjava/io/InputStream;)V
+ (ILjava/io/InputStream;)V
+setBlob
+ (ILjava/io/InputStream;J)V
+ (ILjava/io/InputStream;J)V
+setBlob
+ (ILjava/sql/Blob;)V
+ (ILjava/sql/Blob;)V
+setBytes
+ (I[B)V
+ (I[B)V
+setCharacterStream
+ (ILjava/io/Reader;)V
+ (ILjava/io/Reader;)V
+setCharacterStream
+ (ILjava/io/Reader;I)V
+ (ILjava/io/Reader;I)V
+setCharacterStream
+ (ILjava/io/Reader;J)V
+ (ILjava/io/Reader;J)V
+setClob
+ (ILjava/io/Reader;)V
+ (ILjava/io/Reader;)V
+setClob
+ (ILjava/io/Reader;J)V
+ (ILjava/io/Reader;J)V
+setClob
+ (ILjava/sql/Clob;)V
+ (ILjava/sql/Clob;)V
+setDate
+ (ILjava/sql/Date;)V
+ (ILjava/sql/Date;)V
+setDate
+ (ILjava/sql/Date;Ljava/util/Calendar;)V
+ (ILjava/sql/Date;Ljava/util/Calendar;)V
+setNCharacterStream
+ (ILjava/io/Reader;)V
+ (ILjava/io/Reader;)V
+setNCharacterStream
+ (ILjava/io/Reader;J)V
+ (ILjava/io/Reader;J)V
+setNClob
+ (ILjava/io/Reader;)V
+ (ILjava/io/Reader;)V
+setNClob
+ (ILjava/io/Reader;J)V
+ (ILjava/io/Reader;J)V
+setNClob
+ (ILjava/sql/NClob;)V
+ (ILjava/sql/NClob;)V
+setNString
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+setNull
+ (IILjava/lang/String;)V
+ (IILjava/lang/String;)V
+setObject
+ (ILjava/lang/Object;)V
+ (ILjava/lang/Object;)V
+setObject
+ (ILjava/lang/Object;I)V
+ (ILjava/lang/Object;I)V
+setObject
+ (ILjava/lang/Object;II)V
+ (ILjava/lang/Object;II)V
+setObject
+ (ILjava/lang/Object;Ljava/sql/SQLType;)V
+ (ILjava/lang/Object;Ljava/sql/SQLType;)V
+setObject
+ (ILjava/lang/Object;Ljava/sql/SQLType;I)V
+ (ILjava/lang/Object;Ljava/sql/SQLType;I)V
+setRef
+ (ILjava/sql/Ref;)V
+ (ILjava/sql/Ref;)V
+setRowId
+ (ILjava/sql/RowId;)V
+ (ILjava/sql/RowId;)V
+setSQLXML
+ (ILjava/sql/SQLXML;)V
+ (ILjava/sql/SQLXML;)V
+setString
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+setTime
+ (ILjava/sql/Time;)V
+ (ILjava/sql/Time;)V
+setTime
+ (ILjava/sql/Time;Ljava/util/Calendar;)V
+ (ILjava/sql/Time;Ljava/util/Calendar;)V
+setTimestamp
+ (ILjava/sql/Timestamp;)V
+ (ILjava/sql/Timestamp;)V
+setTimestamp
+ (ILjava/sql/Timestamp;Ljava/util/Calendar;)V
+ (ILjava/sql/Timestamp;Ljava/util/Calendar;)V
+setURL
+ (ILjava/net/URL;)V
+ (ILjava/net/URL;)V
+setUnicodeStream
+ (ILjava/io/InputStream;I)V
+ (ILjava/io/InputStream;I)V

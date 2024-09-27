@@ -1,0 +1,27 @@
+class org/springframework/core/type/AnnotationMetadata
+
+introspect
+ (Ljava/lang/Class<*>;)Lorg/springframework/core/type/AnnotationMetadata;
+ (Ljava/lang/Class<*>;)Lorg/springframework/core/type/AnnotationMetadata;
+
+getAnnotatedMethods
+ (Ljava/lang/String;)Ljava/util/Set<Lorg/springframework/core/type/MethodMetadata;>;
+ (Ljava/lang/String;)Ljava/util/Set<Lorg/springframework/core/type/MethodMetadata;>;
+getAnnotationTypes
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getDeclaredMethods
+ ()Ljava/util/Set<Lorg/springframework/core/type/MethodMetadata;>;
+ ()Ljava/util/Set<Lorg/springframework/core/type/MethodMetadata;>;
+getMetaAnnotationTypes
+ (Ljava/lang/String;)Ljava/util/Set<Ljava/lang/String;>;
+ (Ljava/lang/String;)Ljava/util/Set<Ljava/lang/String;>;
+hasAnnotatedMethods
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+hasAnnotation
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+hasMetaAnnotation
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z

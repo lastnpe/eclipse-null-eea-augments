@@ -1,0 +1,26 @@
+class java/util/stream/Collector
+ <T:Ljava/lang/Object;A:Ljava/lang/Object;R:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;A:Ljava/lang/Object;R:Ljava/lang/Object;>
+
+of
+ <T:Ljava/lang/Object;A:Ljava/lang/Object;R:Ljava/lang/Object;>(Ljava/util/function/Supplier<TA;>;Ljava/util/function/BiConsumer<TA;TT;>;Ljava/util/function/BinaryOperator<TA;>;Ljava/util/function/Function<TA;TR;>;[Ljava/util/stream/Collector$Characteristics;)Ljava/util/stream/Collector<TT;TA;TR;>;
+ <T:Ljava/lang/Object;A:Ljava/lang/Object;R:Ljava/lang/Object;>(Ljava/util/function/Supplier<TA;>;Ljava/util/function/BiConsumer<TA;TT;>;Ljava/util/function/BinaryOperator<TA;>;Ljava/util/function/Function<TA;TR;>;[Ljava/util/stream/Collector$Characteristics;)Ljava/util/stream/Collector<TT;TA;TR;>;
+of
+ <T:Ljava/lang/Object;R:Ljava/lang/Object;>(Ljava/util/function/Supplier<TR;>;Ljava/util/function/BiConsumer<TR;TT;>;Ljava/util/function/BinaryOperator<TR;>;[Ljava/util/stream/Collector$Characteristics;)Ljava/util/stream/Collector<TT;TR;TR;>;
+ <T:Ljava/lang/Object;R:Ljava/lang/Object;>(Ljava/util/function/Supplier<TR;>;Ljava/util/function/BiConsumer<TR;TT;>;Ljava/util/function/BinaryOperator<TR;>;[Ljava/util/stream/Collector$Characteristics;)Ljava/util/stream/Collector<TT;TR;TR;>;
+
+accumulator
+ ()Ljava/util/function/BiConsumer<TA;TT;>;
+ ()Ljava/util/function/BiConsumer<TA;TT;>;
+characteristics
+ ()Ljava/util/Set<Ljava/util/stream/Collector$Characteristics;>;
+ ()Ljava/util/Set<Ljava/util/stream/Collector$Characteristics;>;
+combiner
+ ()Ljava/util/function/BinaryOperator<TA;>;
+ ()Ljava/util/function/BinaryOperator<TA;>;
+finisher
+ ()Ljava/util/function/Function<TA;TR;>;
+ ()Ljava/util/function/Function<TA;TR;>;
+supplier
+ ()Ljava/util/function/Supplier<TA;>;
+ ()Ljava/util/function/Supplier<TA;>;

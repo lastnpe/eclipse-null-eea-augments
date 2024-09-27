@@ -1,0 +1,27 @@
+class org/springframework/javapoet/JavaFile$Builder
+
+staticImports
+ Ljava/util/Set<Ljava/lang/String;>;
+ Ljava/util/Set<Ljava/lang/String;>;
+
+addFileComment
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/javapoet/JavaFile$Builder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/javapoet/JavaFile$Builder;
+addStaticImport
+ (Ljava/lang/Class<*>;[Ljava/lang/String;)Lorg/springframework/javapoet/JavaFile$Builder;
+ (Ljava/lang/Class<*>;[Ljava/lang/String;)L1org/springframework/javapoet/JavaFile$Builder;
+addStaticImport
+ (Ljava/lang/Enum<*>;)Lorg/springframework/javapoet/JavaFile$Builder;
+ (Ljava/lang/Enum<*>;)L1org/springframework/javapoet/JavaFile$Builder;
+addStaticImport
+ (Lorg/springframework/javapoet/ClassName;[Ljava/lang/String;)Lorg/springframework/javapoet/JavaFile$Builder;
+ (Lorg/springframework/javapoet/ClassName;[Ljava/lang/String;)L1org/springframework/javapoet/JavaFile$Builder;
+build
+ ()Lorg/springframework/javapoet/JavaFile;
+ ()L1org/springframework/javapoet/JavaFile;
+indent
+ (Ljava/lang/String;)Lorg/springframework/javapoet/JavaFile$Builder;
+ (Ljava/lang/String;)L1org/springframework/javapoet/JavaFile$Builder;
+skipJavaLangImports
+ (Z)Lorg/springframework/javapoet/JavaFile$Builder;
+ (Z)L1org/springframework/javapoet/JavaFile$Builder;

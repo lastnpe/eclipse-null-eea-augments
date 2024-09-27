@@ -1,0 +1,38 @@
+class java/awt/dnd/DragGestureEvent
+
+<init>
+ (Ljava/awt/dnd/DragGestureRecognizer;ILjava/awt/Point;Ljava/util/List<+Ljava/awt/event/InputEvent;>;)V
+ (Ljava/awt/dnd/DragGestureRecognizer;ILjava/awt/Point;Ljava/util/List<+Ljava/awt/event/InputEvent;>;)V
+getComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getDragOrigin
+ ()Ljava/awt/Point;
+ ()Ljava/awt/Point;
+getDragSource
+ ()Ljava/awt/dnd/DragSource;
+ ()Ljava/awt/dnd/DragSource;
+getSourceAsDragGestureRecognizer
+ ()Ljava/awt/dnd/DragGestureRecognizer;
+ ()Ljava/awt/dnd/DragGestureRecognizer;
+getTriggerEvent
+ ()Ljava/awt/event/InputEvent;
+ ()Ljava/awt/event/InputEvent;
+iterator
+ ()Ljava/util/Iterator<Ljava/awt/event/InputEvent;>;
+ ()Ljava/util/Iterator<Ljava/awt/event/InputEvent;>;
+startDrag
+ (Ljava/awt/Cursor;Ljava/awt/Image;Ljava/awt/Point;Ljava/awt/datatransfer/Transferable;Ljava/awt/dnd/DragSourceListener;)V
+ (Ljava/awt/Cursor;Ljava/awt/Image;Ljava/awt/Point;Ljava/awt/datatransfer/Transferable;Ljava/awt/dnd/DragSourceListener;)V
+startDrag
+ (Ljava/awt/Cursor;Ljava/awt/datatransfer/Transferable;)V
+ (Ljava/awt/Cursor;Ljava/awt/datatransfer/Transferable;)V
+startDrag
+ (Ljava/awt/Cursor;Ljava/awt/datatransfer/Transferable;Ljava/awt/dnd/DragSourceListener;)V
+ (Ljava/awt/Cursor;Ljava/awt/datatransfer/Transferable;Ljava/awt/dnd/DragSourceListener;)V
+toArray
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+toArray
+ ([Ljava/lang/Object;)[Ljava/lang/Object;
+ ([Ljava/lang/Object;)[Ljava/lang/Object;

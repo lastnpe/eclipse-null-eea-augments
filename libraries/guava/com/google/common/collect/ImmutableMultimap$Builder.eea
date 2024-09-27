@@ -1,0 +1,34 @@
+class com/google/common/collect/ImmutableMultimap$Builder
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+build
+ ()Lcom/google/common/collect/ImmutableMultimap<TK;TV;>;
+ ()L1com/google/common/collect/ImmutableMultimap<TK;TV;>;
+expectedValuesPerKey
+ (I)Lcom/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+ (I)L1com/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+orderKeysBy
+ (Ljava/util/Comparator<-TK;>;)Lcom/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+ (Ljava/util/Comparator<-TK;>;)L1com/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+orderValuesBy
+ (Ljava/util/Comparator<-TV;>;)Lcom/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+ (Ljava/util/Comparator<-TV;>;)L1com/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+put
+ (Ljava/util/Map$Entry<+TK;+TV;>;)Lcom/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+ (Ljava/util/Map$Entry<+TK;+TV;>;)L1com/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+put
+ (TK;TV;)Lcom/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+ (TK;TV;)L1com/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+putAll
+ (Lcom/google/common/collect/Multimap<+TK;+TV;>;)Lcom/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+ (Lcom/google/common/collect/Multimap<+TK;+TV;>;)L1com/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+putAll
+ (Ljava/lang/Iterable<+Ljava/util/Map$Entry<+TK;+TV;>;>;)Lcom/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+ (Ljava/lang/Iterable<+Ljava/util/Map$Entry<+TK;+TV;>;>;)L1com/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+putAll
+ (TK;Ljava/lang/Iterable<+TV;>;)Lcom/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+ (TK;Ljava/lang/Iterable<+TV;>;)L1com/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+putAll
+ (TK;[TV;)Lcom/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;
+ (TK;[TV;)L1com/google/common/collect/ImmutableMultimap$Builder<TK;TV;>;

@@ -1,0 +1,43 @@
+class java/util/ResourceBundle$Control
+
+FORMAT_CLASS
+ Ljava/util/List<Ljava/lang/String;>;
+ L1java/util/List<Ljava/lang/String;>;
+FORMAT_DEFAULT
+ Ljava/util/List<Ljava/lang/String;>;
+ L1java/util/List<Ljava/lang/String;>;
+FORMAT_PROPERTIES
+ Ljava/util/List<Ljava/lang/String;>;
+ L1java/util/List<Ljava/lang/String;>;
+
+getControl
+ (Ljava/util/List<Ljava/lang/String;>;)Ljava/util/ResourceBundle$Control;
+ (Ljava/util/List<Ljava/lang/String;>;)Ljava/util/ResourceBundle$Control;
+getNoFallbackControl
+ (Ljava/util/List<Ljava/lang/String;>;)Ljava/util/ResourceBundle$Control;
+ (Ljava/util/List<Ljava/lang/String;>;)Ljava/util/ResourceBundle$Control;
+
+getCandidateLocales
+ (Ljava/lang/String;Ljava/util/Locale;)Ljava/util/List<Ljava/util/Locale;>;
+ (Ljava/lang/String;Ljava/util/Locale;)Ljava/util/List<Ljava/util/Locale;>;
+getFallbackLocale
+ (Ljava/lang/String;Ljava/util/Locale;)Ljava/util/Locale;
+ (Ljava/lang/String;Ljava/util/Locale;)Ljava/util/Locale;
+getFormats
+ (Ljava/lang/String;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/lang/String;)Ljava/util/List<Ljava/lang/String;>;
+getTimeToLive
+ (Ljava/lang/String;Ljava/util/Locale;)J
+ (Ljava/lang/String;Ljava/util/Locale;)J
+needsReload
+ (Ljava/lang/String;Ljava/util/Locale;Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/util/ResourceBundle;J)Z
+ (Ljava/lang/String;Ljava/util/Locale;Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/util/ResourceBundle;J)Z
+newBundle
+ (Ljava/lang/String;Ljava/util/Locale;Ljava/lang/String;Ljava/lang/ClassLoader;Z)Ljava/util/ResourceBundle;
+ (Ljava/lang/String;Ljava/util/Locale;Ljava/lang/String;Ljava/lang/ClassLoader;Z)Ljava/util/ResourceBundle;
+toBundleName
+ (Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;
+toResourceName
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;

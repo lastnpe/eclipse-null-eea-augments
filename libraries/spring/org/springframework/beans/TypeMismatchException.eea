@@ -1,0 +1,33 @@
+class org/springframework/beans/TypeMismatchException
+
+ERROR_CODE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljava/beans/PropertyChangeEvent;Ljava/lang/Class<*>;)V
+ (Ljava/beans/PropertyChangeEvent;Ljava/lang/Class<*>;)V
+<init>
+ (Ljava/beans/PropertyChangeEvent;Ljava/lang/Class<*>;Ljava/lang/Throwable;)V
+ (Ljava/beans/PropertyChangeEvent;Ljava/lang/Class<*>;Ljava/lang/Throwable;)V
+<init>
+ (Ljava/lang/Object;Ljava/lang/Class<*>;)V
+ (Ljava/lang/Object;Ljava/lang/Class<*>;)V
+<init>
+ (Ljava/lang/Object;Ljava/lang/Class<*>;Ljava/lang/Throwable;)V
+ (Ljava/lang/Object;Ljava/lang/Class<*>;Ljava/lang/Throwable;)V
+getErrorCode
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPropertyName
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.beans.PropertyAccessException)
+getRequiredType
+ ()Ljava/lang/Class<*>;
+ ()L0java/lang/Class<*>;
+getValue
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object; # @Inherited(org.springframework.beans.PropertyAccessException)
+initPropertyName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

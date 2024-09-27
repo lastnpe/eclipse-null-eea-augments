@@ -1,0 +1,80 @@
+class org/springframework/beans/BeanUtils
+
+copyProperties
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+copyProperties
+ (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Class<*>;)V
+ (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Class<*>;)V
+copyProperties
+ (Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/String;)V
+ (Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/String;)V
+findDeclaredMethod
+ (Ljava/lang/Class<*>;Ljava/lang/String;[Ljava/lang/Class<*>;)Ljava/lang/reflect/Method;
+ (Ljava/lang/Class<*>;Ljava/lang/String;[Ljava/lang/Class<*>;)L0java/lang/reflect/Method;
+findDeclaredMethodWithMinimalParameters
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/reflect/Method;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)L0java/lang/reflect/Method;
+findEditorByConvention
+ (Ljava/lang/Class<*>;)Ljava/beans/PropertyEditor;
+ (Ljava/lang/Class<*>;)L0java/beans/PropertyEditor;
+findMethod
+ (Ljava/lang/Class<*>;Ljava/lang/String;[Ljava/lang/Class<*>;)Ljava/lang/reflect/Method;
+ (Ljava/lang/Class<*>;Ljava/lang/String;[Ljava/lang/Class<*>;)L0java/lang/reflect/Method;
+findMethodWithMinimalParameters
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/reflect/Method;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)L0java/lang/reflect/Method;
+findMethodWithMinimalParameters
+ ([Ljava/lang/reflect/Method;Ljava/lang/String;)Ljava/lang/reflect/Method;
+ ([Ljava/lang/reflect/Method;Ljava/lang/String;)L0java/lang/reflect/Method;
+findPrimaryConstructor
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/lang/reflect/Constructor<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)L0java/lang/reflect/Constructor<TT;>;
+findPropertyForMethod
+ (Ljava/lang/reflect/Method;)Ljava/beans/PropertyDescriptor;
+ (Ljava/lang/reflect/Method;)L0java/beans/PropertyDescriptor;
+findPropertyForMethod
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Ljava/beans/PropertyDescriptor;
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)L0java/beans/PropertyDescriptor;
+findPropertyType
+ (Ljava/lang/String;[Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;[Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+getParameterNames
+ (Ljava/lang/reflect/Constructor<*>;)[Ljava/lang/String;
+ (Ljava/lang/reflect/Constructor<*>;)[Ljava/lang/String;
+getPropertyDescriptor
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/beans/PropertyDescriptor;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)L0java/beans/PropertyDescriptor;
+getPropertyDescriptors
+ (Ljava/lang/Class<*>;)[Ljava/beans/PropertyDescriptor;
+ (Ljava/lang/Class<*>;)[Ljava/beans/PropertyDescriptor;
+getResolvableConstructor
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/lang/reflect/Constructor<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/lang/reflect/Constructor<TT;>;
+getWriteMethodParameter
+ (Ljava/beans/PropertyDescriptor;)Lorg/springframework/core/MethodParameter;
+ (Ljava/beans/PropertyDescriptor;)Lorg/springframework/core/MethodParameter;
+hasUniqueWriteMethod
+ (Ljava/beans/PropertyDescriptor;)Z
+ (Ljava/beans/PropertyDescriptor;)Z
+instantiate
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+instantiateClass
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<*>;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<*>;Ljava/lang/Class<TT;>;)TT;
+instantiateClass
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+instantiateClass
+ <T:Ljava/lang/Object;>(Ljava/lang/reflect/Constructor<TT;>;[Ljava/lang/Object;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/reflect/Constructor<TT;>;[Ljava/lang/Object;)TT;
+isSimpleProperty
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isSimpleValueType
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+resolveSignature
+ (Ljava/lang/String;Ljava/lang/Class<*>;)Ljava/lang/reflect/Method;
+ (Ljava/lang/String;Ljava/lang/Class<*>;)L0java/lang/reflect/Method;

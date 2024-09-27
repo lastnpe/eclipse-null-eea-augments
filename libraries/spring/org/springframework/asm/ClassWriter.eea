@@ -1,0 +1,95 @@
+class org/springframework/asm/ClassWriter
+
+<init>
+ (Lorg/springframework/asm/ClassReader;I)V
+ (Lorg/springframework/asm/ClassReader;I)V
+getClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()Ljava/lang/ClassLoader;
+getCommonSuperClass
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+newClass
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+newConst
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+newConstantDynamic
+ (Ljava/lang/String;Ljava/lang/String;Lorg/springframework/asm/Handle;[Ljava/lang/Object;)I
+ (Ljava/lang/String;Ljava/lang/String;Lorg/springframework/asm/Handle;[Ljava/lang/Object;)I
+newField
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+newHandle
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+newHandle
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)I
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)I
+newInvokeDynamic
+ (Ljava/lang/String;Ljava/lang/String;Lorg/springframework/asm/Handle;[Ljava/lang/Object;)I
+ (Ljava/lang/String;Ljava/lang/String;Lorg/springframework/asm/Handle;[Ljava/lang/Object;)I
+newMethod
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)I
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)I
+newMethodType
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+newModule
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+newNameType
+ (Ljava/lang/String;Ljava/lang/String;)I
+ (Ljava/lang/String;Ljava/lang/String;)I
+newPackage
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+newUTF8
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+toByteArray
+ ()[B
+ ()[B
+visit
+ (IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
+ (IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
+visitAnnotation
+ (Ljava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;
+ (Ljava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;
+visitAttribute
+ (Lorg/springframework/asm/Attribute;)V
+ (Lorg/springframework/asm/Attribute;)V
+visitField
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/asm/FieldVisitor;
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/asm/FieldVisitor;
+visitInnerClass
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
+visitMethod
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/asm/MethodVisitor;
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/asm/MethodVisitor;
+visitModule
+ (Ljava/lang/String;ILjava/lang/String;)Lorg/springframework/asm/ModuleVisitor;
+ (Ljava/lang/String;ILjava/lang/String;)Lorg/springframework/asm/ModuleVisitor;
+visitNestHost
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+visitNestMember
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+visitOuterClass
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+visitPermittedSubclass
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+visitRecordComponent
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/asm/RecordComponentVisitor;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/asm/RecordComponentVisitor;
+visitSource
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+visitTypeAnnotation
+ (ILorg/springframework/asm/TypePath;Ljava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;
+ (ILorg/springframework/asm/TypePath;Ljava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;

@@ -1,0 +1,30 @@
+class com/google/common/collect/LinkedHashMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/collect/LinkedHashMultimapGwtSerializationDependencies
+ <TK;TV;>
+ <TK;TV;>
+
+create
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>()Lcom/google/common/collect/LinkedHashMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>()Lcom/google/common/collect/LinkedHashMultimap<TK;TV;>;
+create
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(II)Lcom/google/common/collect/LinkedHashMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(II)Lcom/google/common/collect/LinkedHashMultimap<TK;TV;>;
+create
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<+TK;+TV;>;)Lcom/google/common/collect/LinkedHashMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<+TK;+TV;>;)Lcom/google/common/collect/LinkedHashMultimap<TK;TV;>;
+
+entries
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+keySet
+ ()Ljava/util/Set<TK;>;
+ ()L1java/util/Set<TK;>; # @Inherited(com.google.common.collect.Multimap)
+replaceValues
+ (TK;Ljava/lang/Iterable<+TV;>;)Ljava/util/Set<TV;>;
+ (TK;Ljava/lang/Iterable<+TV;>;)Ljava/util/Set<TV;>;
+values
+ ()Ljava/util/Collection<TV;>;
+ ()L1java/util/Collection<TV;>; # @Inherited(com.google.common.collect.Multimap)

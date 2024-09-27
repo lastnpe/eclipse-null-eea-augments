@@ -1,0 +1,71 @@
+class org/springframework/util/LinkedCaseInsensitiveMap
+ <V:Ljava/lang/Object;>
+ <V:Ljava/lang/Object;>
+
+super java/util/Map
+ <Ljava/lang/String;TV;>
+ <Ljava/lang/String;TV;>
+
+<init>
+ (ILjava/util/Locale;)V
+ (ILjava/util/Locale;)V
+<init>
+ (Ljava/util/Locale;)V
+ (Ljava/util/Locale;)V
+clone
+ ()Lorg/springframework/util/LinkedCaseInsensitiveMap<TV;>;
+ ()Lorg/springframework/util/LinkedCaseInsensitiveMap<TV;>;
+computeIfAbsent
+ (Ljava/lang/String;Ljava/util/function/Function<-Ljava/lang/String;+TV;>;)TV;
+ (Ljava/lang/String;Ljava/util/function/Function<-Ljava/lang/String;+TV;>;)T0V;
+containsKey
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+containsValue
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+convertKey
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<Ljava/lang/String;TV;>;>;
+ ()Ljava/util/Set<Ljava/util/Map$Entry<Ljava/lang/String;TV;>;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+forEach
+ (Ljava/util/function/BiConsumer<-Ljava/lang/String;-TV;>;)V
+ (Ljava/util/function/BiConsumer<-Ljava/lang/String;-TV;>;)V
+get
+ (Ljava/lang/Object;)TV;
+ (Ljava/lang/Object;)T0V;
+getLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+getOrDefault
+ (Ljava/lang/Object;TV;)TV;
+ (Ljava/lang/Object;TV;)T0V;
+keySet
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+put
+ (Ljava/lang/String;TV;)TV;
+ (Ljava/lang/String;TV;)T0V;
+putAll
+ (Ljava/util/Map<+Ljava/lang/String;+TV;>;)V
+ (Ljava/util/Map<+Ljava/lang/String;+TV;>;)V
+putIfAbsent
+ (Ljava/lang/String;TV;)TV;
+ (Ljava/lang/String;TV;)T0V;
+remove
+ (Ljava/lang/Object;)TV;
+ (Ljava/lang/Object;)T0V;
+removeEldestEntry
+ (Ljava/util/Map$Entry<Ljava/lang/String;TV;>;)Z
+ (Ljava/util/Map$Entry<Ljava/lang/String;TV;>;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+values
+ ()Ljava/util/Collection<TV;>;
+ ()Ljava/util/Collection<TV;>;

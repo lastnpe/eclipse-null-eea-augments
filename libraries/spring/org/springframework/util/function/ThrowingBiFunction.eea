@@ -1,0 +1,27 @@
+class org/springframework/util/function/ThrowingBiFunction
+ <T:Ljava/lang/Object;U:Ljava/lang/Object;R:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;U:Ljava/lang/Object;R:Ljava/lang/Object;>
+
+super java/util/function/BiFunction
+ <TT;TU;TR;>
+ <TT;TU;TR;>
+
+of
+ <T:Ljava/lang/Object;U:Ljava/lang/Object;R:Ljava/lang/Object;>(Lorg/springframework/util/function/ThrowingBiFunction<TT;TU;TR;>;)Lorg/springframework/util/function/ThrowingBiFunction<TT;TU;TR;>;
+ <T:Ljava/lang/Object;U:Ljava/lang/Object;R:Ljava/lang/Object;>(Lorg/springframework/util/function/ThrowingBiFunction<TT;TU;TR;>;)Lorg/springframework/util/function/ThrowingBiFunction<TT;TU;TR;>;
+of
+ <T:Ljava/lang/Object;U:Ljava/lang/Object;R:Ljava/lang/Object;>(Lorg/springframework/util/function/ThrowingBiFunction<TT;TU;TR;>;Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Exception;Ljava/lang/RuntimeException;>;)Lorg/springframework/util/function/ThrowingBiFunction<TT;TU;TR;>;
+ <T:Ljava/lang/Object;U:Ljava/lang/Object;R:Ljava/lang/Object;>(Lorg/springframework/util/function/ThrowingBiFunction<TT;TU;TR;>;Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Exception;Ljava/lang/RuntimeException;>;)Lorg/springframework/util/function/ThrowingBiFunction<TT;TU;TR;>;
+
+apply
+ (TT;TU;)TR;
+ (TT;TU;)TR;
+apply
+ (TT;TU;Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Exception;Ljava/lang/RuntimeException;>;)TR;
+ (TT;TU;Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Exception;Ljava/lang/RuntimeException;>;)TR;
+applyWithException
+ (TT;TU;)TR;
+ (TT;TU;)TR;
+throwing
+ (Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Exception;Ljava/lang/RuntimeException;>;)Lorg/springframework/util/function/ThrowingBiFunction<TT;TU;TR;>;
+ (Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Exception;Ljava/lang/RuntimeException;>;)Lorg/springframework/util/function/ThrowingBiFunction<TT;TU;TR;>;

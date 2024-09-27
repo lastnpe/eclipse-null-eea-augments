@@ -1,0 +1,17 @@
+class javax/sql/DataSource
+
+createConnectionBuilder
+ ()Ljava/sql/ConnectionBuilder;
+ ()Ljava/sql/ConnectionBuilder;
+getConnection
+ ()Ljava/sql/Connection;
+ ()Ljava/sql/Connection;
+getConnection
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;
+getLogWriter
+ ()Ljava/io/PrintWriter;
+ ()Ljava/io/PrintWriter;
+setLogWriter
+ (Ljava/io/PrintWriter;)V
+ (Ljava/io/PrintWriter;)V

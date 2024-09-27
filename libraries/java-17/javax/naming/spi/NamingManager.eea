@@ -1,0 +1,27 @@
+class javax/naming/spi/NamingManager
+
+CPE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getContinuationContext
+ (Ljavax/naming/CannotProceedException;)Ljavax/naming/Context;
+ (Ljavax/naming/CannotProceedException;)Ljavax/naming/Context;
+getInitialContext
+ (Ljava/util/Hashtable<**>;)Ljavax/naming/Context;
+ (Ljava/util/Hashtable<**>;)Ljavax/naming/Context;
+getObjectInstance
+ (Ljava/lang/Object;Ljavax/naming/Name;Ljavax/naming/Context;Ljava/util/Hashtable<**>;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljavax/naming/Name;Ljavax/naming/Context;Ljava/util/Hashtable<**>;)Ljava/lang/Object;
+getStateToBind
+ (Ljava/lang/Object;Ljavax/naming/Name;Ljavax/naming/Context;Ljava/util/Hashtable<**>;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljavax/naming/Name;Ljavax/naming/Context;Ljava/util/Hashtable<**>;)Ljava/lang/Object;
+getURLContext
+ (Ljava/lang/String;Ljava/util/Hashtable<**>;)Ljavax/naming/Context;
+ (Ljava/lang/String;Ljava/util/Hashtable<**>;)Ljavax/naming/Context;
+setInitialContextFactoryBuilder
+ (Ljavax/naming/spi/InitialContextFactoryBuilder;)V
+ (Ljavax/naming/spi/InitialContextFactoryBuilder;)V
+setObjectFactoryBuilder
+ (Ljavax/naming/spi/ObjectFactoryBuilder;)V
+ (Ljavax/naming/spi/ObjectFactoryBuilder;)V

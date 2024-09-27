@@ -1,0 +1,136 @@
+class java/nio/CharBuffer
+
+super java/lang/Comparable
+ <Ljava/nio/CharBuffer;>
+ <Ljava/nio/CharBuffer;>
+
+allocate
+ (I)Ljava/nio/CharBuffer;
+ (I)Ljava/nio/CharBuffer;
+wrap
+ (Ljava/lang/CharSequence;)Ljava/nio/CharBuffer;
+ (Ljava/lang/CharSequence;)Ljava/nio/CharBuffer;
+wrap
+ (Ljava/lang/CharSequence;II)Ljava/nio/CharBuffer;
+ (Ljava/lang/CharSequence;II)Ljava/nio/CharBuffer;
+wrap
+ ([C)Ljava/nio/CharBuffer;
+ ([C)Ljava/nio/CharBuffer;
+wrap
+ ([CII)Ljava/nio/CharBuffer;
+ ([CII)Ljava/nio/CharBuffer;
+
+append
+ (C)Ljava/nio/CharBuffer;
+ (C)Ljava/nio/CharBuffer;
+append
+ (Ljava/lang/CharSequence;)Ljava/nio/CharBuffer;
+ (Ljava/lang/CharSequence;)Ljava/nio/CharBuffer;
+append
+ (Ljava/lang/CharSequence;II)Ljava/nio/CharBuffer;
+ (Ljava/lang/CharSequence;II)Ljava/nio/CharBuffer;
+array
+ ()[C
+ ()[C
+asReadOnlyBuffer
+ ()Ljava/nio/CharBuffer;
+ ()Ljava/nio/CharBuffer;
+chars
+ ()Ljava/util/stream/IntStream;
+ ()L1java/util/stream/IntStream; # @Inherited(java.lang.CharSequence)
+clear
+ ()Ljava/nio/CharBuffer;
+ ()Ljava/nio/CharBuffer;
+compact
+ ()Ljava/nio/CharBuffer;
+ ()Ljava/nio/CharBuffer;
+compareTo
+ (Ljava/nio/CharBuffer;)I
+ (L1java/nio/CharBuffer;)I
+duplicate
+ ()Ljava/nio/CharBuffer;
+ ()Ljava/nio/CharBuffer;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+flip
+ ()Ljava/nio/CharBuffer;
+ ()Ljava/nio/CharBuffer;
+get
+ (I[C)Ljava/nio/CharBuffer;
+ (I[C)Ljava/nio/CharBuffer;
+get
+ (I[CII)Ljava/nio/CharBuffer;
+ (I[CII)Ljava/nio/CharBuffer;
+get
+ ([C)Ljava/nio/CharBuffer;
+ ([C)Ljava/nio/CharBuffer;
+get
+ ([CII)Ljava/nio/CharBuffer;
+ ([CII)Ljava/nio/CharBuffer;
+limit
+ (I)Ljava/nio/CharBuffer;
+ (I)Ljava/nio/CharBuffer;
+mark
+ ()Ljava/nio/CharBuffer;
+ ()Ljava/nio/CharBuffer;
+mismatch
+ (Ljava/nio/CharBuffer;)I
+ (L1java/nio/CharBuffer;)I
+order
+ ()Ljava/nio/ByteOrder;
+ ()Ljava/nio/ByteOrder;
+position
+ (I)Ljava/nio/CharBuffer;
+ (I)Ljava/nio/CharBuffer;
+put
+ (C)Ljava/nio/CharBuffer;
+ (C)Ljava/nio/CharBuffer;
+put
+ (IC)Ljava/nio/CharBuffer;
+ (IC)Ljava/nio/CharBuffer;
+put
+ (ILjava/nio/CharBuffer;II)Ljava/nio/CharBuffer;
+ (ILjava/nio/CharBuffer;II)Ljava/nio/CharBuffer;
+put
+ (I[C)Ljava/nio/CharBuffer;
+ (I[C)Ljava/nio/CharBuffer;
+put
+ (I[CII)Ljava/nio/CharBuffer;
+ (I[CII)Ljava/nio/CharBuffer;
+put
+ (Ljava/lang/String;)Ljava/nio/CharBuffer;
+ (Ljava/lang/String;)Ljava/nio/CharBuffer;
+put
+ (Ljava/lang/String;II)Ljava/nio/CharBuffer;
+ (Ljava/lang/String;II)Ljava/nio/CharBuffer;
+put
+ (Ljava/nio/CharBuffer;)Ljava/nio/CharBuffer;
+ (Ljava/nio/CharBuffer;)Ljava/nio/CharBuffer;
+put
+ ([C)Ljava/nio/CharBuffer;
+ ([C)Ljava/nio/CharBuffer;
+put
+ ([CII)Ljava/nio/CharBuffer;
+ ([CII)Ljava/nio/CharBuffer;
+read
+ (Ljava/nio/CharBuffer;)I
+ (L1java/nio/CharBuffer;)I # @Inherited(java.lang.Readable)
+reset
+ ()Ljava/nio/CharBuffer;
+ ()Ljava/nio/CharBuffer;
+rewind
+ ()Ljava/nio/CharBuffer;
+ ()Ljava/nio/CharBuffer;
+slice
+ ()Ljava/nio/CharBuffer;
+ ()Ljava/nio/CharBuffer;
+slice
+ (II)Ljava/nio/CharBuffer;
+ (II)Ljava/nio/CharBuffer;
+subSequence
+ (II)Ljava/nio/CharBuffer;
+ (II)Ljava/nio/CharBuffer;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

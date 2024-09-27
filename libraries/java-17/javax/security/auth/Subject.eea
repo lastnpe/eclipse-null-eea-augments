@@ -1,0 +1,45 @@
+class javax/security/auth/Subject
+
+doAs
+ <T:Ljava/lang/Object;>(Ljavax/security/auth/Subject;Ljava/security/PrivilegedAction<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljavax/security/auth/Subject;Ljava/security/PrivilegedAction<TT;>;)TT;
+doAs
+ <T:Ljava/lang/Object;>(Ljavax/security/auth/Subject;Ljava/security/PrivilegedExceptionAction<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljavax/security/auth/Subject;Ljava/security/PrivilegedExceptionAction<TT;>;)TT;
+doAsPrivileged
+ <T:Ljava/lang/Object;>(Ljavax/security/auth/Subject;Ljava/security/PrivilegedAction<TT;>;Ljava/security/AccessControlContext;)TT;
+ <T:Ljava/lang/Object;>(Ljavax/security/auth/Subject;Ljava/security/PrivilegedAction<TT;>;Ljava/security/AccessControlContext;)TT;
+doAsPrivileged
+ <T:Ljava/lang/Object;>(Ljavax/security/auth/Subject;Ljava/security/PrivilegedExceptionAction<TT;>;Ljava/security/AccessControlContext;)TT;
+ <T:Ljava/lang/Object;>(Ljavax/security/auth/Subject;Ljava/security/PrivilegedExceptionAction<TT;>;Ljava/security/AccessControlContext;)TT;
+getSubject
+ (Ljava/security/AccessControlContext;)Ljavax/security/auth/Subject;
+ (Ljava/security/AccessControlContext;)Ljavax/security/auth/Subject;
+
+<init>
+ (ZLjava/util/Set<+Ljava/security/Principal;>;Ljava/util/Set<*>;Ljava/util/Set<*>;)V
+ (ZLjava/util/Set<+Ljava/security/Principal;>;Ljava/util/Set<*>;Ljava/util/Set<*>;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getPrincipals
+ ()Ljava/util/Set<Ljava/security/Principal;>;
+ ()Ljava/util/Set<Ljava/security/Principal;>;
+getPrincipals
+ <T::Ljava/security/Principal;>(Ljava/lang/Class<TT;>;)Ljava/util/Set<TT;>;
+ <T::Ljava/security/Principal;>(Ljava/lang/Class<TT;>;)Ljava/util/Set<TT;>;
+getPrivateCredentials
+ ()Ljava/util/Set<Ljava/lang/Object;>;
+ ()Ljava/util/Set<Ljava/lang/Object;>;
+getPrivateCredentials
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/util/Set<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/util/Set<TT;>;
+getPublicCredentials
+ ()Ljava/util/Set<Ljava/lang/Object;>;
+ ()Ljava/util/Set<Ljava/lang/Object;>;
+getPublicCredentials
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/util/Set<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/util/Set<TT;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

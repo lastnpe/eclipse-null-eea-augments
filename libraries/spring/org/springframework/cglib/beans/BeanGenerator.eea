@@ -1,0 +1,39 @@
+class org/springframework/cglib/beans/BeanGenerator
+
+addProperties
+ (Lorg/springframework/cglib/beans/BeanGenerator;Ljava/lang/Class;)V
+ (Lorg/springframework/cglib/beans/BeanGenerator;Ljava/lang/Class;)V
+addProperties
+ (Lorg/springframework/cglib/beans/BeanGenerator;Ljava/util/Map;)V
+ (Lorg/springframework/cglib/beans/BeanGenerator;Ljava/util/Map;)V
+addProperties
+ (Lorg/springframework/cglib/beans/BeanGenerator;[Ljava/beans/PropertyDescriptor;)V
+ (Lorg/springframework/cglib/beans/BeanGenerator;[Ljava/beans/PropertyDescriptor;)V
+
+addProperty
+ (Ljava/lang/String;Ljava/lang/Class;)V
+ (Ljava/lang/String;Ljava/lang/Class;)V
+create
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+createClass
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+firstInstance
+ (Ljava/lang/Class;)Ljava/lang/Object;
+ (Ljava/lang/Class;)Ljava/lang/Object;
+generateClass
+ (Lorg/springframework/asm/ClassVisitor;)V
+ (Lorg/springframework/asm/ClassVisitor;)V
+getDefaultClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()Ljava/lang/ClassLoader;
+getProtectionDomain
+ ()Ljava/security/ProtectionDomain;
+ ()Ljava/security/ProtectionDomain;
+nextInstance
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+setSuperclass
+ (Ljava/lang/Class;)V
+ (Ljava/lang/Class;)V

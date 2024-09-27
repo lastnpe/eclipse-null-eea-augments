@@ -1,0 +1,21 @@
+class javax/print/attribute/standard/PrinterStateReasons
+
+super java/util/HashMap
+ <Ljavax/print/attribute/standard/PrinterStateReason;Ljavax/print/attribute/standard/Severity;>
+ <Ljavax/print/attribute/standard/PrinterStateReason;Ljavax/print/attribute/standard/Severity;>
+
+<init>
+ (Ljava/util/Map<Ljavax/print/attribute/standard/PrinterStateReason;Ljavax/print/attribute/standard/Severity;>;)V
+ (Ljava/util/Map<Ljavax/print/attribute/standard/PrinterStateReason;Ljavax/print/attribute/standard/Severity;>;)V
+getCategory
+ ()Ljava/lang/Class<+Ljavax/print/attribute/Attribute;>;
+ ()Ljava/lang/Class<+Ljavax/print/attribute/Attribute;>;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+printerStateReasonSet
+ (Ljavax/print/attribute/standard/Severity;)Ljava/util/Set<Ljavax/print/attribute/standard/PrinterStateReason;>;
+ (Ljavax/print/attribute/standard/Severity;)Ljava/util/Set<Ljavax/print/attribute/standard/PrinterStateReason;>;
+put
+ (Ljavax/print/attribute/standard/PrinterStateReason;Ljavax/print/attribute/standard/Severity;)Ljavax/print/attribute/standard/Severity;
+ (Ljavax/print/attribute/standard/PrinterStateReason;Ljavax/print/attribute/standard/Severity;)Ljavax/print/attribute/standard/Severity;

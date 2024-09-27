@@ -1,0 +1,35 @@
+class org/eclipse/jetty/client/transport/HttpConnection
+
+<init>
+ (Lorg/eclipse/jetty/client/transport/HttpDestination;)V
+ (Lorg/eclipse/jetty/client/transport/HttpDestination;)V
+getAttachment
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getHttpChannels
+ ()Ljava/util/Iterator<Lorg/eclipse/jetty/client/transport/HttpChannel;>;
+ ()Ljava/util/Iterator<Lorg/eclipse/jetty/client/transport/HttpChannel;>;
+getHttpClient
+ ()Lorg/eclipse/jetty/client/HttpClient;
+ ()Lorg/eclipse/jetty/client/HttpClient;
+getHttpDestination
+ ()Lorg/eclipse/jetty/client/transport/HttpDestination;
+ ()Lorg/eclipse/jetty/client/transport/HttpDestination;
+normalizeRequest
+ (Lorg/eclipse/jetty/client/transport/HttpRequest;)V
+ (Lorg/eclipse/jetty/client/transport/HttpRequest;)V
+onIdleTimeout
+ (JLjava/lang/Throwable;)Z
+ (JLjava/lang/Throwable;)Z
+send
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response$CompleteListener;)V
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response$CompleteListener;)V
+send
+ (Lorg/eclipse/jetty/client/transport/HttpChannel;Lorg/eclipse/jetty/client/transport/HttpExchange;)Lorg/eclipse/jetty/client/transport/SendFailure;
+ (Lorg/eclipse/jetty/client/transport/HttpChannel;Lorg/eclipse/jetty/client/transport/HttpExchange;)Lorg/eclipse/jetty/client/transport/SendFailure;
+setAttachment
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

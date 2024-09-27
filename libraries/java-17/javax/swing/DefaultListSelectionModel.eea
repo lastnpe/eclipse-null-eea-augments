@@ -1,0 +1,24 @@
+class javax/swing/DefaultListSelectionModel
+
+listenerList
+ Ljavax/swing/event/EventListenerList;
+ Ljavax/swing/event/EventListenerList;
+
+addListSelectionListener
+ (Ljavax/swing/event/ListSelectionListener;)V
+ (L1javax/swing/event/ListSelectionListener;)V # @Inherited(javax.swing.ListSelectionModel)
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+getListSelectionListeners
+ ()[Ljavax/swing/event/ListSelectionListener;
+ ()[Ljavax/swing/event/ListSelectionListener;
+getListeners
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+removeListSelectionListener
+ (Ljavax/swing/event/ListSelectionListener;)V
+ (L1javax/swing/event/ListSelectionListener;)V # @Inherited(javax.swing.ListSelectionModel)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

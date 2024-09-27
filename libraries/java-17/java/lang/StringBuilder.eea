@@ -1,4 +1,9 @@
 class java/lang/StringBuilder
+
+super java/lang/Comparable
+ <Ljava/lang/StringBuilder;>
+ <Ljava/lang/StringBuilder;>
+
 <init>
  (Ljava/lang/CharSequence;)V
  (L1java/lang/CharSequence;)V
@@ -112,4 +117,4 @@ reverse
  ()L1java/lang/StringBuilder;
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.AbstractStringBuilder)

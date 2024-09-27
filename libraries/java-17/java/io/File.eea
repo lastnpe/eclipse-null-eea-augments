@@ -1,10 +1,26 @@
 class java/io/File
+
+super java/lang/Comparable
+ <Ljava/io/File;>
+ <Ljava/io/File;>
+
 pathSeparator
  Ljava/lang/String;
  L1java/lang/String;
 separator
  Ljava/lang/String;
  L1java/lang/String;
+
+createTempFile
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;
+ (L1java/lang/String;L0java/lang/String;)L1java/io/File;
+createTempFile
+ (Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
+ (L1java/lang/String;L0java/lang/String;L0java/io/File;)L1java/io/File;
+listRoots
+ ()[Ljava/io/File;
+ ()[0L1java/io/File;
+
 <init>
  (Ljava/io/File;Ljava/lang/String;)V
  (L0java/io/File;L1java/lang/String;)V
@@ -20,15 +36,9 @@ separator
 compareTo
  (Ljava/io/File;)I
  (L1java/io/File;)I
-createTempFile
- (Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;
- (L1java/lang/String;L0java/lang/String;)L1java/io/File;
-createTempFile
- (Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
- (L1java/lang/String;L0java/lang/String;L0java/io/File;)L1java/io/File;
 equals
  (Ljava/lang/Object;)Z
- (L0java/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
 getAbsoluteFile
  ()Ljava/io/File;
  ()L1java/io/File;
@@ -68,9 +78,6 @@ listFiles
 listFiles
  (Ljava/io/FilenameFilter;)[Ljava/io/File;
  (L0java/io/FilenameFilter;)[0L1java/io/File;
-listRoots
- ()[Ljava/io/File;
- ()[0L1java/io/File;
 renameTo
  (Ljava/io/File;)Z
  (L1java/io/File;)Z
@@ -79,7 +86,7 @@ toPath
  ()L1java/nio/file/Path;
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
 toURI
  ()Ljava/net/URI;
  ()L1java/net/URI;

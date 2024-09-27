@@ -1,0 +1,29 @@
+class org/osgi/service/resolver/ResolveContext
+
+findProviders
+ (Lorg/osgi/resource/Requirement;)Ljava/util/List<Lorg/osgi/resource/Capability;>;
+ (Lorg/osgi/resource/Requirement;)Ljava/util/List<Lorg/osgi/resource/Capability;>;
+findRelatedResources
+ (Lorg/osgi/resource/Resource;)Ljava/util/Collection<Lorg/osgi/resource/Resource;>;
+ (Lorg/osgi/resource/Resource;)Ljava/util/Collection<Lorg/osgi/resource/Resource;>;
+getMandatoryResources
+ ()Ljava/util/Collection<Lorg/osgi/resource/Resource;>;
+ ()Ljava/util/Collection<Lorg/osgi/resource/Resource;>;
+getOptionalResources
+ ()Ljava/util/Collection<Lorg/osgi/resource/Resource;>;
+ ()Ljava/util/Collection<Lorg/osgi/resource/Resource;>;
+getSubstitutionWires
+ (Lorg/osgi/resource/Wiring;)Ljava/util/List<Lorg/osgi/resource/Wire;>;
+ (Lorg/osgi/resource/Wiring;)Ljava/util/List<Lorg/osgi/resource/Wire;>;
+getWirings
+ ()Ljava/util/Map<Lorg/osgi/resource/Resource;Lorg/osgi/resource/Wiring;>;
+ ()Ljava/util/Map<Lorg/osgi/resource/Resource;Lorg/osgi/resource/Wiring;>;
+insertHostedCapability
+ (Ljava/util/List<Lorg/osgi/resource/Capability;>;Lorg/osgi/service/resolver/HostedCapability;)I
+ (Ljava/util/List<Lorg/osgi/resource/Capability;>;Lorg/osgi/service/resolver/HostedCapability;)I
+isEffective
+ (Lorg/osgi/resource/Requirement;)Z
+ (Lorg/osgi/resource/Requirement;)Z
+onCancel
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V

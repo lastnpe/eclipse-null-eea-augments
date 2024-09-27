@@ -1,0 +1,24 @@
+class java/io/ByteArrayInputStream
+
+buf
+ [B
+ [B
+
+<init>
+ ([B)V
+ ([B)V
+<init>
+ ([BII)V
+ ([BII)V
+read
+ ([BII)I
+ ([BII)I
+readAllBytes
+ ()[B
+ ()[B
+readNBytes
+ ([BII)I
+ ([BII)I
+transferTo
+ (Ljava/io/OutputStream;)J
+ (L1java/io/OutputStream;)J # @Inherited(java.io.InputStream)

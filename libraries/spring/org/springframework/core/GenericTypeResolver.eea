@@ -1,0 +1,26 @@
+class org/springframework/core/GenericTypeResolver
+
+getTypeVariableMap
+ (Ljava/lang/Class<*>;)Ljava/util/Map<Ljava/lang/reflect/TypeVariable;Ljava/lang/reflect/Type;>;
+ (Ljava/lang/Class<*>;)Ljava/util/Map<Ljava/lang/reflect/TypeVariable;Ljava/lang/reflect/Type;>;
+resolveParameterType
+ (Lorg/springframework/core/MethodParameter;Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+ (Lorg/springframework/core/MethodParameter;Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+resolveReturnType
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+resolveReturnTypeArgument
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)L0java/lang/Class<*>;
+resolveType
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;)Ljava/lang/reflect/Type;
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;)Ljava/lang/reflect/Type;
+resolveType
+ (Ljava/lang/reflect/Type;Ljava/util/Map<Ljava/lang/reflect/TypeVariable;Ljava/lang/reflect/Type;>;)Ljava/lang/Class<*>;
+ (Ljava/lang/reflect/Type;Ljava/util/Map<Ljava/lang/reflect/TypeVariable;Ljava/lang/reflect/Type;>;)Ljava/lang/Class<*>;
+resolveTypeArgument
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)L0java/lang/Class<*>;
+resolveTypeArguments
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)[Ljava/lang/Class<*>;
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)[0Ljava/lang/Class<*>;

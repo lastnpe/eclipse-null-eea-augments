@@ -1,0 +1,17 @@
+class com/thoughtworks/xstream/core/util/ThreadSafeSimpleDateFormat
+
+<init>
+ (Ljava/lang/String;Ljava/util/TimeZone;IIZ)V
+ (Ljava/lang/String;Ljava/util/TimeZone;IIZ)V
+<init>
+ (Ljava/lang/String;Ljava/util/TimeZone;Ljava/util/Locale;IIZ)V
+ (Ljava/lang/String;Ljava/util/TimeZone;Ljava/util/Locale;IIZ)V
+format
+ (Ljava/util/Date;)Ljava/lang/String;
+ (Ljava/util/Date;)Ljava/lang/String;
+parse
+ (Ljava/lang/String;)Ljava/util/Date;
+ (Ljava/lang/String;)Ljava/util/Date;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

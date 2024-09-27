@@ -1,0 +1,23 @@
+class org/mockito/internal/InOrderImpl
+
+<init>
+ (Ljava/util/List<*>;)V
+ (Ljava/util/List<*>;)V
+getMocksToBeVerifiedInOrder
+ ()Ljava/util/List<Ljava/lang/Object;>;
+ ()Ljava/util/List<Ljava/lang/Object;>;
+isVerified
+ (Lorg/mockito/invocation/Invocation;)Z
+ (Lorg/mockito/invocation/Invocation;)Z
+markVerified
+ (Lorg/mockito/invocation/Invocation;)V
+ (Lorg/mockito/invocation/Invocation;)V
+verify
+ (Lorg/mockito/MockedStatic<*>;Lorg/mockito/MockedStatic$Verification;Lorg/mockito/verification/VerificationMode;)V
+ (Lorg/mockito/MockedStatic<*>;Lorg/mockito/MockedStatic$Verification;Lorg/mockito/verification/VerificationMode;)V
+verify
+ <T:Ljava/lang/Object;>(TT;)TT;
+ <T:Ljava/lang/Object;>(TT;)TT;
+verify
+ <T:Ljava/lang/Object;>(TT;Lorg/mockito/verification/VerificationMode;)TT;
+ <T:Ljava/lang/Object;>(TT;Lorg/mockito/verification/VerificationMode;)TT;

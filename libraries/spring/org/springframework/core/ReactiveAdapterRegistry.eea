@@ -1,0 +1,18 @@
+class org/springframework/core/ReactiveAdapterRegistry
+
+getSharedInstance
+ ()Lorg/springframework/core/ReactiveAdapterRegistry;
+ ()Lorg/springframework/core/ReactiveAdapterRegistry;
+
+getAdapter
+ (Ljava/lang/Class<*>;)Lorg/springframework/core/ReactiveAdapter;
+ (Ljava/lang/Class<*>;)L0org/springframework/core/ReactiveAdapter;
+getAdapter
+ (Ljava/lang/Class<*>;Ljava/lang/Object;)Lorg/springframework/core/ReactiveAdapter;
+ (Ljava/lang/Class<*>;Ljava/lang/Object;)L0org/springframework/core/ReactiveAdapter;
+registerReactiveType
+ (Lorg/springframework/core/ReactiveTypeDescriptor;Ljava/util/function/Function<Ljava/lang/Object;Lorg/reactivestreams/Publisher<*>;>;Ljava/util/function/Function<Lorg/reactivestreams/Publisher<*>;Ljava/lang/Object;>;)V
+ (Lorg/springframework/core/ReactiveTypeDescriptor;Ljava/util/function/Function<Ljava/lang/Object;Lorg/reactivestreams/Publisher<*>;>;Ljava/util/function/Function<Lorg/reactivestreams/Publisher<*>;Ljava/lang/Object;>;)V
+registerReactiveTypeOverride
+ (Lorg/springframework/core/ReactiveTypeDescriptor;Ljava/util/function/Function<Ljava/lang/Object;Lorg/reactivestreams/Publisher<*>;>;Ljava/util/function/Function<Lorg/reactivestreams/Publisher<*>;Ljava/lang/Object;>;)V
+ (Lorg/springframework/core/ReactiveTypeDescriptor;Ljava/util/function/Function<Ljava/lang/Object;Lorg/reactivestreams/Publisher<*>;>;Ljava/util/function/Function<Lorg/reactivestreams/Publisher<*>;Ljava/lang/Object;>;)V

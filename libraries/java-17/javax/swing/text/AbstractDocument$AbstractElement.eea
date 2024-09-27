@@ -1,0 +1,77 @@
+class javax/swing/text/AbstractDocument$AbstractElement
+
+<init>
+ (Ljavax/swing/text/AbstractDocument;Ljavax/swing/text/Element;Ljavax/swing/text/AttributeSet;)V
+ (Ljavax/swing/text/AbstractDocument;Ljavax/swing/text/Element;Ljavax/swing/text/AttributeSet;)V
+addAttribute
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+addAttributes
+ (Ljavax/swing/text/AttributeSet;)V
+ (Ljavax/swing/text/AttributeSet;)V
+children
+ ()Ljava/util/Enumeration<Ljavax/swing/tree/TreeNode;>;
+ ()Ljava/util/Enumeration<Ljavax/swing/tree/TreeNode;>;
+containsAttribute
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+containsAttributes
+ (Ljavax/swing/text/AttributeSet;)Z
+ (Ljavax/swing/text/AttributeSet;)Z
+copyAttributes
+ ()Ljavax/swing/text/AttributeSet;
+ ()Ljavax/swing/text/AttributeSet;
+dump
+ (Ljava/io/PrintStream;I)V
+ (Ljava/io/PrintStream;I)V
+getAttribute
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+getAttributeNames
+ ()Ljava/util/Enumeration<*>;
+ ()Ljava/util/Enumeration<*>;
+getAttributes
+ ()Ljavax/swing/text/AttributeSet;
+ ()Ljavax/swing/text/AttributeSet;
+getChildAt
+ (I)Ljavax/swing/tree/TreeNode;
+ (I)Ljavax/swing/tree/TreeNode;
+getDocument
+ ()Ljavax/swing/text/Document;
+ ()Ljavax/swing/text/Document;
+getElement
+ (I)Ljavax/swing/text/Element;
+ (I)Ljavax/swing/text/Element;
+getIndex
+ (Ljavax/swing/tree/TreeNode;)I
+ (Ljavax/swing/tree/TreeNode;)I
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getParent
+ ()Ljavax/swing/tree/TreeNode;
+ ()Ljavax/swing/tree/TreeNode;
+getParentElement
+ ()Ljavax/swing/text/Element;
+ ()Ljavax/swing/text/Element;
+getResolveParent
+ ()Ljavax/swing/text/AttributeSet;
+ ()Ljavax/swing/text/AttributeSet;
+isDefined
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+isEqual
+ (Ljavax/swing/text/AttributeSet;)Z
+ (Ljavax/swing/text/AttributeSet;)Z
+removeAttribute
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+removeAttributes
+ (Ljava/util/Enumeration<*>;)V
+ (Ljava/util/Enumeration<*>;)V
+removeAttributes
+ (Ljavax/swing/text/AttributeSet;)V
+ (Ljavax/swing/text/AttributeSet;)V
+setResolveParent
+ (Ljavax/swing/text/AttributeSet;)V
+ (Ljavax/swing/text/AttributeSet;)V

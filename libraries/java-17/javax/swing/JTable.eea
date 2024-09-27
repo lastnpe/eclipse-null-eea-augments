@@ -1,4 +1,283 @@
 class javax/swing/JTable
+
+createScrollPaneForTable
+ (Ljavax/swing/JTable;)Ljavax/swing/JScrollPane;
+ (Ljavax/swing/JTable;)Ljavax/swing/JScrollPane;
+
+cellEditor
+ Ljavax/swing/table/TableCellEditor;
+ Ljavax/swing/table/TableCellEditor;
+columnModel
+ Ljavax/swing/table/TableColumnModel;
+ Ljavax/swing/table/TableColumnModel;
+dataModel
+ Ljavax/swing/table/TableModel;
+ Ljavax/swing/table/TableModel;
+defaultEditorsByColumnClass
+ Ljava/util/Hashtable<Ljava/lang/Object;Ljava/lang/Object;>;
+ Ljava/util/Hashtable<Ljava/lang/Object;Ljava/lang/Object;>;
+defaultRenderersByColumnClass
+ Ljava/util/Hashtable<Ljava/lang/Object;Ljava/lang/Object;>;
+ Ljava/util/Hashtable<Ljava/lang/Object;Ljava/lang/Object;>;
+editorComp
+ Ljava/awt/Component;
+ Ljava/awt/Component;
+gridColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+preferredViewportSize
+ Ljava/awt/Dimension;
+ Ljava/awt/Dimension;
+selectionBackground
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+selectionForeground
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+selectionModel
+ Ljavax/swing/ListSelectionModel;
+ Ljavax/swing/ListSelectionModel;
+tableHeader
+ Ljavax/swing/table/JTableHeader;
+ Ljavax/swing/table/JTableHeader;
+
+<init>
+ (Ljava/util/Vector<+Ljava/util/Vector;>;Ljava/util/Vector<*>;)V
+ (Ljava/util/Vector<+Ljava/util/Vector;>;Ljava/util/Vector<*>;)V
+<init>
+ (Ljavax/swing/table/TableModel;)V
+ (Ljavax/swing/table/TableModel;)V
+<init>
+ (Ljavax/swing/table/TableModel;Ljavax/swing/table/TableColumnModel;)V
+ (Ljavax/swing/table/TableModel;Ljavax/swing/table/TableColumnModel;)V
+<init>
+ (Ljavax/swing/table/TableModel;Ljavax/swing/table/TableColumnModel;Ljavax/swing/ListSelectionModel;)V
+ (Ljavax/swing/table/TableModel;Ljavax/swing/table/TableColumnModel;Ljavax/swing/ListSelectionModel;)V
+<init>
+ ([[Ljava/lang/Object;[Ljava/lang/Object;)V
+ ([[Ljava/lang/Object;[Ljava/lang/Object;)V
+addColumn
+ (Ljavax/swing/table/TableColumn;)V
+ (Ljavax/swing/table/TableColumn;)V
+columnAdded
+ (Ljavax/swing/event/TableColumnModelEvent;)V
+ (L1javax/swing/event/TableColumnModelEvent;)V # @Inherited(javax.swing.event.TableColumnModelListener)
+columnAtPoint
+ (Ljava/awt/Point;)I
+ (Ljava/awt/Point;)I
+columnMarginChanged
+ (Ljavax/swing/event/ChangeEvent;)V
+ (L1javax/swing/event/ChangeEvent;)V # @Inherited(javax.swing.event.TableColumnModelListener)
+columnMoved
+ (Ljavax/swing/event/TableColumnModelEvent;)V
+ (L1javax/swing/event/TableColumnModelEvent;)V # @Inherited(javax.swing.event.TableColumnModelListener)
+columnRemoved
+ (Ljavax/swing/event/TableColumnModelEvent;)V
+ (L1javax/swing/event/TableColumnModelEvent;)V # @Inherited(javax.swing.event.TableColumnModelListener)
+columnSelectionChanged
+ (Ljavax/swing/event/ListSelectionEvent;)V
+ (L1javax/swing/event/ListSelectionEvent;)V # @Inherited(javax.swing.event.TableColumnModelListener)
+createDefaultColumnModel
+ ()Ljavax/swing/table/TableColumnModel;
+ ()Ljavax/swing/table/TableColumnModel;
+createDefaultDataModel
+ ()Ljavax/swing/table/TableModel;
+ ()Ljavax/swing/table/TableModel;
+createDefaultSelectionModel
+ ()Ljavax/swing/ListSelectionModel;
+ ()Ljavax/swing/ListSelectionModel;
+createDefaultTableHeader
+ ()Ljavax/swing/table/JTableHeader;
+ ()Ljavax/swing/table/JTableHeader;
+editCellAt
+ (IILjava/util/EventObject;)Z
+ (IILjava/util/EventObject;)Z
+editingCanceled
+ (Ljavax/swing/event/ChangeEvent;)V
+ (L1javax/swing/event/ChangeEvent;)V # @Inherited(javax.swing.event.CellEditorListener)
+editingStopped
+ (Ljavax/swing/event/ChangeEvent;)V
+ (L1javax/swing/event/ChangeEvent;)V # @Inherited(javax.swing.event.CellEditorListener)
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getCellEditor
+ ()Ljavax/swing/table/TableCellEditor;
+ ()Ljavax/swing/table/TableCellEditor;
+getCellEditor
+ (II)Ljavax/swing/table/TableCellEditor;
+ (II)Ljavax/swing/table/TableCellEditor;
+getCellRect
+ (IIZ)Ljava/awt/Rectangle;
+ (IIZ)Ljava/awt/Rectangle;
+getCellRenderer
+ (II)Ljavax/swing/table/TableCellRenderer;
+ (II)Ljavax/swing/table/TableCellRenderer;
+getColumn
+ (Ljava/lang/Object;)Ljavax/swing/table/TableColumn;
+ (Ljava/lang/Object;)Ljavax/swing/table/TableColumn;
+getColumnClass
+ (I)Ljava/lang/Class<*>;
+ (I)Ljava/lang/Class<*>;
+getColumnModel
+ ()Ljavax/swing/table/TableColumnModel;
+ ()Ljavax/swing/table/TableColumnModel;
+getColumnName
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getDefaultEditor
+ (Ljava/lang/Class<*>;)Ljavax/swing/table/TableCellEditor;
+ (Ljava/lang/Class<*>;)Ljavax/swing/table/TableCellEditor;
+getDefaultRenderer
+ (Ljava/lang/Class<*>;)Ljavax/swing/table/TableCellRenderer;
+ (Ljava/lang/Class<*>;)Ljavax/swing/table/TableCellRenderer;
+getDropLocation
+ ()Ljavax/swing/JTable$DropLocation;
+ ()Ljavax/swing/JTable$DropLocation;
+getDropMode
+ ()Ljavax/swing/DropMode;
+ ()Ljavax/swing/DropMode;
+getEditorComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getGridColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getIntercellSpacing
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getModel
+ ()Ljavax/swing/table/TableModel;
+ ()Ljavax/swing/table/TableModel;
+getPreferredScrollableViewportSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getPrintable
+ (Ljavax/swing/JTable$PrintMode;Ljava/text/MessageFormat;Ljava/text/MessageFormat;)Ljava/awt/print/Printable;
+ (Ljavax/swing/JTable$PrintMode;Ljava/text/MessageFormat;Ljava/text/MessageFormat;)Ljava/awt/print/Printable;
+getRowSorter
+ ()Ljavax/swing/RowSorter<+Ljavax/swing/table/TableModel;>;
+ ()Ljavax/swing/RowSorter<+Ljavax/swing/table/TableModel;>;
+getScrollableBlockIncrement
+ (Ljava/awt/Rectangle;II)I
+ (Ljava/awt/Rectangle;II)I
+getScrollableUnitIncrement
+ (Ljava/awt/Rectangle;II)I
+ (Ljava/awt/Rectangle;II)I
+getSelectedColumns
+ ()[I
+ ()[I
+getSelectedRows
+ ()[I
+ ()[I
+getSelectionBackground
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getSelectionForeground
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getSelectionModel
+ ()Ljavax/swing/ListSelectionModel;
+ ()Ljavax/swing/ListSelectionModel;
+getTableHeader
+ ()Ljavax/swing/table/JTableHeader;
+ ()Ljavax/swing/table/JTableHeader;
+getToolTipText
+ (Ljava/awt/event/MouseEvent;)Ljava/lang/String;
+ (L1java/awt/event/MouseEvent;)Ljava/lang/String; # @Inherited(javax.swing.JComponent)
+getUI
+ ()Ljavax/swing/plaf/TableUI;
+ ()Ljavax/swing/plaf/TableUI;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getValueAt
+ (II)Ljava/lang/Object;
+ (II)Ljava/lang/Object;
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+prepareEditor
+ (Ljavax/swing/table/TableCellEditor;II)Ljava/awt/Component;
+ (Ljavax/swing/table/TableCellEditor;II)Ljava/awt/Component;
 prepareRenderer
  (Ljavax/swing/table/TableCellRenderer;II)Ljava/awt/Component;
  (L1javax/swing/table/TableCellRenderer;II)L1java/awt/Component;
+print
+ (Ljavax/swing/JTable$PrintMode;)Z
+ (Ljavax/swing/JTable$PrintMode;)Z
+print
+ (Ljavax/swing/JTable$PrintMode;Ljava/text/MessageFormat;Ljava/text/MessageFormat;)Z
+ (Ljavax/swing/JTable$PrintMode;Ljava/text/MessageFormat;Ljava/text/MessageFormat;)Z
+print
+ (Ljavax/swing/JTable$PrintMode;Ljava/text/MessageFormat;Ljava/text/MessageFormat;ZLjavax/print/attribute/PrintRequestAttributeSet;Z)Z
+ (Ljavax/swing/JTable$PrintMode;Ljava/text/MessageFormat;Ljava/text/MessageFormat;ZLjavax/print/attribute/PrintRequestAttributeSet;Z)Z
+print
+ (Ljavax/swing/JTable$PrintMode;Ljava/text/MessageFormat;Ljava/text/MessageFormat;ZLjavax/print/attribute/PrintRequestAttributeSet;ZLjavax/print/PrintService;)Z
+ (Ljavax/swing/JTable$PrintMode;Ljava/text/MessageFormat;Ljava/text/MessageFormat;ZLjavax/print/attribute/PrintRequestAttributeSet;ZLjavax/print/PrintService;)Z
+processKeyBinding
+ (Ljavax/swing/KeyStroke;Ljava/awt/event/KeyEvent;IZ)Z
+ (Ljavax/swing/KeyStroke;Ljava/awt/event/KeyEvent;IZ)Z
+removeColumn
+ (Ljavax/swing/table/TableColumn;)V
+ (Ljavax/swing/table/TableColumn;)V
+rowAtPoint
+ (Ljava/awt/Point;)I
+ (Ljava/awt/Point;)I
+setCellEditor
+ (Ljavax/swing/table/TableCellEditor;)V
+ (Ljavax/swing/table/TableCellEditor;)V
+setColumnModel
+ (Ljavax/swing/table/TableColumnModel;)V
+ (Ljavax/swing/table/TableColumnModel;)V
+setDefaultEditor
+ (Ljava/lang/Class<*>;Ljavax/swing/table/TableCellEditor;)V
+ (Ljava/lang/Class<*>;Ljavax/swing/table/TableCellEditor;)V
+setDefaultRenderer
+ (Ljava/lang/Class<*>;Ljavax/swing/table/TableCellRenderer;)V
+ (Ljava/lang/Class<*>;Ljavax/swing/table/TableCellRenderer;)V
+setDropMode
+ (Ljavax/swing/DropMode;)V
+ (Ljavax/swing/DropMode;)V
+setGridColor
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setIntercellSpacing
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V
+setModel
+ (Ljavax/swing/table/TableModel;)V
+ (Ljavax/swing/table/TableModel;)V
+setPreferredScrollableViewportSize
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V
+setRowSorter
+ (Ljavax/swing/RowSorter<+Ljavax/swing/table/TableModel;>;)V
+ (Ljavax/swing/RowSorter<+Ljavax/swing/table/TableModel;>;)V
+setSelectionBackground
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setSelectionForeground
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setSelectionModel
+ (Ljavax/swing/ListSelectionModel;)V
+ (Ljavax/swing/ListSelectionModel;)V
+setTableHeader
+ (Ljavax/swing/table/JTableHeader;)V
+ (Ljavax/swing/table/JTableHeader;)V
+setUI
+ (Ljavax/swing/plaf/TableUI;)V
+ (Ljavax/swing/plaf/TableUI;)V
+setValueAt
+ (Ljava/lang/Object;II)V
+ (Ljava/lang/Object;II)V
+sorterChanged
+ (Ljavax/swing/event/RowSorterEvent;)V
+ (L1javax/swing/event/RowSorterEvent;)V # @Inherited(javax.swing.event.RowSorterListener)
+tableChanged
+ (Ljavax/swing/event/TableModelEvent;)V
+ (L1javax/swing/event/TableModelEvent;)V # @Inherited(javax.swing.event.TableModelListener)
+valueChanged
+ (Ljavax/swing/event/ListSelectionEvent;)V
+ (L1javax/swing/event/ListSelectionEvent;)V # @Inherited(javax.swing.event.ListSelectionListener)

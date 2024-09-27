@@ -1,0 +1,24 @@
+class javax/annotation/processing/AbstractProcessor
+
+processingEnv
+ Ljavax/annotation/processing/ProcessingEnvironment;
+ Ljavax/annotation/processing/ProcessingEnvironment;
+
+getCompletions
+ (Ljavax/lang/model/element/Element;Ljavax/lang/model/element/AnnotationMirror;Ljavax/lang/model/element/ExecutableElement;Ljava/lang/String;)Ljava/lang/Iterable<+Ljavax/annotation/processing/Completion;>;
+ (Ljavax/lang/model/element/Element;Ljavax/lang/model/element/AnnotationMirror;Ljavax/lang/model/element/ExecutableElement;Ljava/lang/String;)Ljava/lang/Iterable<+Ljavax/annotation/processing/Completion;>;
+getSupportedAnnotationTypes
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getSupportedOptions
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getSupportedSourceVersion
+ ()Ljavax/lang/model/SourceVersion;
+ ()Ljavax/lang/model/SourceVersion;
+init
+ (Ljavax/annotation/processing/ProcessingEnvironment;)V
+ (Ljavax/annotation/processing/ProcessingEnvironment;)V
+process
+ (Ljava/util/Set<+Ljavax/lang/model/element/TypeElement;>;Ljavax/annotation/processing/RoundEnvironment;)Z
+ (Ljava/util/Set<+Ljavax/lang/model/element/TypeElement;>;Ljavax/annotation/processing/RoundEnvironment;)Z

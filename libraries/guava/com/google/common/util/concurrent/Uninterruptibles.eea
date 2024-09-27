@@ -1,0 +1,74 @@
+class com/google/common/util/concurrent/Uninterruptibles
+
+awaitTerminationUninterruptibly
+ (Ljava/util/concurrent/ExecutorService;)V
+ (Ljava/util/concurrent/ExecutorService;)V
+awaitTerminationUninterruptibly
+ (Ljava/util/concurrent/ExecutorService;JLjava/util/concurrent/TimeUnit;)Z
+ (Ljava/util/concurrent/ExecutorService;JLjava/util/concurrent/TimeUnit;)Z
+awaitTerminationUninterruptibly
+ (Ljava/util/concurrent/ExecutorService;Ljava/time/Duration;)Z
+ (Ljava/util/concurrent/ExecutorService;Ljava/time/Duration;)Z
+awaitUninterruptibly
+ (Ljava/util/concurrent/CountDownLatch;)V
+ (Ljava/util/concurrent/CountDownLatch;)V
+awaitUninterruptibly
+ (Ljava/util/concurrent/CountDownLatch;JLjava/util/concurrent/TimeUnit;)Z
+ (Ljava/util/concurrent/CountDownLatch;JLjava/util/concurrent/TimeUnit;)Z
+awaitUninterruptibly
+ (Ljava/util/concurrent/CountDownLatch;Ljava/time/Duration;)Z
+ (Ljava/util/concurrent/CountDownLatch;Ljava/time/Duration;)Z
+awaitUninterruptibly
+ (Ljava/util/concurrent/locks/Condition;JLjava/util/concurrent/TimeUnit;)Z
+ (Ljava/util/concurrent/locks/Condition;JLjava/util/concurrent/TimeUnit;)Z
+awaitUninterruptibly
+ (Ljava/util/concurrent/locks/Condition;Ljava/time/Duration;)Z
+ (Ljava/util/concurrent/locks/Condition;Ljava/time/Duration;)Z
+getUninterruptibly
+ <V:Ljava/lang/Object;>(Ljava/util/concurrent/Future<TV;>;)TV;
+ <V:Ljava/lang/Object;>(Ljava/util/concurrent/Future<TV;>;)T1V;
+getUninterruptibly
+ <V:Ljava/lang/Object;>(Ljava/util/concurrent/Future<TV;>;JLjava/util/concurrent/TimeUnit;)TV;
+ <V:Ljava/lang/Object;>(Ljava/util/concurrent/Future<TV;>;JLjava/util/concurrent/TimeUnit;)T1V;
+getUninterruptibly
+ <V:Ljava/lang/Object;>(Ljava/util/concurrent/Future<TV;>;Ljava/time/Duration;)TV;
+ <V:Ljava/lang/Object;>(Ljava/util/concurrent/Future<TV;>;Ljava/time/Duration;)T1V;
+joinUninterruptibly
+ (Ljava/lang/Thread;)V
+ (Ljava/lang/Thread;)V
+joinUninterruptibly
+ (Ljava/lang/Thread;JLjava/util/concurrent/TimeUnit;)V
+ (Ljava/lang/Thread;JLjava/util/concurrent/TimeUnit;)V
+joinUninterruptibly
+ (Ljava/lang/Thread;Ljava/time/Duration;)V
+ (Ljava/lang/Thread;Ljava/time/Duration;)V
+putUninterruptibly
+ <E:Ljava/lang/Object;>(Ljava/util/concurrent/BlockingQueue<TE;>;TE;)V
+ <E:Ljava/lang/Object;>(Ljava/util/concurrent/BlockingQueue<TE;>;TE;)V
+sleepUninterruptibly
+ (JLjava/util/concurrent/TimeUnit;)V
+ (JLjava/util/concurrent/TimeUnit;)V
+sleepUninterruptibly
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V
+takeUninterruptibly
+ <E:Ljava/lang/Object;>(Ljava/util/concurrent/BlockingQueue<TE;>;)TE;
+ <E:Ljava/lang/Object;>(Ljava/util/concurrent/BlockingQueue<TE;>;)TE;
+tryAcquireUninterruptibly
+ (Ljava/util/concurrent/Semaphore;IJLjava/util/concurrent/TimeUnit;)Z
+ (Ljava/util/concurrent/Semaphore;IJLjava/util/concurrent/TimeUnit;)Z
+tryAcquireUninterruptibly
+ (Ljava/util/concurrent/Semaphore;ILjava/time/Duration;)Z
+ (Ljava/util/concurrent/Semaphore;ILjava/time/Duration;)Z
+tryAcquireUninterruptibly
+ (Ljava/util/concurrent/Semaphore;JLjava/util/concurrent/TimeUnit;)Z
+ (Ljava/util/concurrent/Semaphore;JLjava/util/concurrent/TimeUnit;)Z
+tryAcquireUninterruptibly
+ (Ljava/util/concurrent/Semaphore;Ljava/time/Duration;)Z
+ (Ljava/util/concurrent/Semaphore;Ljava/time/Duration;)Z
+tryLockUninterruptibly
+ (Ljava/util/concurrent/locks/Lock;JLjava/util/concurrent/TimeUnit;)Z
+ (Ljava/util/concurrent/locks/Lock;JLjava/util/concurrent/TimeUnit;)Z
+tryLockUninterruptibly
+ (Ljava/util/concurrent/locks/Lock;Ljava/time/Duration;)Z
+ (Ljava/util/concurrent/locks/Lock;Ljava/time/Duration;)Z

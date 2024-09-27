@@ -1,0 +1,76 @@
+class javax/swing/table/TableColumn
+
+CELL_RENDERER_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+COLUMN_WIDTH_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+HEADER_RENDERER_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+HEADER_VALUE_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+
+cellEditor
+ Ljavax/swing/table/TableCellEditor;
+ Ljavax/swing/table/TableCellEditor;
+cellRenderer
+ Ljavax/swing/table/TableCellRenderer;
+ Ljavax/swing/table/TableCellRenderer;
+headerRenderer
+ Ljavax/swing/table/TableCellRenderer;
+ Ljavax/swing/table/TableCellRenderer;
+headerValue
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+identifier
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+
+<init>
+ (IILjavax/swing/table/TableCellRenderer;Ljavax/swing/table/TableCellEditor;)V
+ (IILjavax/swing/table/TableCellRenderer;Ljavax/swing/table/TableCellEditor;)V
+addPropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V
+createDefaultHeaderRenderer
+ ()Ljavax/swing/table/TableCellRenderer;
+ ()Ljavax/swing/table/TableCellRenderer;
+getCellEditor
+ ()Ljavax/swing/table/TableCellEditor;
+ ()Ljavax/swing/table/TableCellEditor;
+getCellRenderer
+ ()Ljavax/swing/table/TableCellRenderer;
+ ()Ljavax/swing/table/TableCellRenderer;
+getHeaderRenderer
+ ()Ljavax/swing/table/TableCellRenderer;
+ ()Ljavax/swing/table/TableCellRenderer;
+getHeaderValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getIdentifier
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getPropertyChangeListeners
+ ()[Ljava/beans/PropertyChangeListener;
+ ()[Ljava/beans/PropertyChangeListener;
+removePropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V
+setCellEditor
+ (Ljavax/swing/table/TableCellEditor;)V
+ (Ljavax/swing/table/TableCellEditor;)V
+setCellRenderer
+ (Ljavax/swing/table/TableCellRenderer;)V
+ (Ljavax/swing/table/TableCellRenderer;)V
+setHeaderRenderer
+ (Ljavax/swing/table/TableCellRenderer;)V
+ (Ljavax/swing/table/TableCellRenderer;)V
+setHeaderValue
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setIdentifier
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

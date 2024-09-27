@@ -1,0 +1,53 @@
+class java/security/cert/X509CRL
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getEncoded
+ ()[B
+ ()[B
+getIssuerDN
+ ()Ljava/security/Principal;
+ ()Ljava/security/Principal;
+getIssuerX500Principal
+ ()Ljavax/security/auth/x500/X500Principal;
+ ()Ljavax/security/auth/x500/X500Principal;
+getNextUpdate
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+getRevokedCertificate
+ (Ljava/math/BigInteger;)Ljava/security/cert/X509CRLEntry;
+ (Ljava/math/BigInteger;)Ljava/security/cert/X509CRLEntry;
+getRevokedCertificate
+ (Ljava/security/cert/X509Certificate;)Ljava/security/cert/X509CRLEntry;
+ (Ljava/security/cert/X509Certificate;)Ljava/security/cert/X509CRLEntry;
+getRevokedCertificates
+ ()Ljava/util/Set<+Ljava/security/cert/X509CRLEntry;>;
+ ()Ljava/util/Set<+Ljava/security/cert/X509CRLEntry;>;
+getSigAlgName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSigAlgOID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSigAlgParams
+ ()[B
+ ()[B
+getSignature
+ ()[B
+ ()[B
+getTBSCertList
+ ()[B
+ ()[B
+getThisUpdate
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+verify
+ (Ljava/security/PublicKey;)V
+ (Ljava/security/PublicKey;)V
+verify
+ (Ljava/security/PublicKey;Ljava/lang/String;)V
+ (Ljava/security/PublicKey;Ljava/lang/String;)V
+verify
+ (Ljava/security/PublicKey;Ljava/security/Provider;)V
+ (Ljava/security/PublicKey;Ljava/security/Provider;)V

@@ -1,0 +1,39 @@
+class javax/imageio/plugins/tiff/TIFFDirectory
+
+createFromMetadata
+ (Ljavax/imageio/metadata/IIOMetadata;)Ljavax/imageio/plugins/tiff/TIFFDirectory;
+ (Ljavax/imageio/metadata/IIOMetadata;)Ljavax/imageio/plugins/tiff/TIFFDirectory;
+
+<init>
+ ([Ljavax/imageio/plugins/tiff/TIFFTagSet;Ljavax/imageio/plugins/tiff/TIFFTag;)V
+ ([Ljavax/imageio/plugins/tiff/TIFFTagSet;Ljavax/imageio/plugins/tiff/TIFFTag;)V
+addTIFFField
+ (Ljavax/imageio/plugins/tiff/TIFFField;)V
+ (Ljavax/imageio/plugins/tiff/TIFFField;)V
+addTagSet
+ (Ljavax/imageio/plugins/tiff/TIFFTagSet;)V
+ (Ljavax/imageio/plugins/tiff/TIFFTagSet;)V
+clone
+ ()Ljavax/imageio/plugins/tiff/TIFFDirectory;
+ ()Ljavax/imageio/plugins/tiff/TIFFDirectory;
+getAsMetadata
+ ()Ljavax/imageio/metadata/IIOMetadata;
+ ()Ljavax/imageio/metadata/IIOMetadata;
+getParentTag
+ ()Ljavax/imageio/plugins/tiff/TIFFTag;
+ ()Ljavax/imageio/plugins/tiff/TIFFTag;
+getTIFFField
+ (I)Ljavax/imageio/plugins/tiff/TIFFField;
+ (I)Ljavax/imageio/plugins/tiff/TIFFField;
+getTIFFFields
+ ()[Ljavax/imageio/plugins/tiff/TIFFField;
+ ()[Ljavax/imageio/plugins/tiff/TIFFField;
+getTag
+ (I)Ljavax/imageio/plugins/tiff/TIFFTag;
+ (I)Ljavax/imageio/plugins/tiff/TIFFTag;
+getTagSets
+ ()[Ljavax/imageio/plugins/tiff/TIFFTagSet;
+ ()[Ljavax/imageio/plugins/tiff/TIFFTagSet;
+removeTagSet
+ (Ljavax/imageio/plugins/tiff/TIFFTagSet;)V
+ (Ljavax/imageio/plugins/tiff/TIFFTagSet;)V

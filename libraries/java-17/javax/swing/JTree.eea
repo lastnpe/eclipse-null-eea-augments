@@ -1,0 +1,329 @@
+class javax/swing/JTree
+
+ANCHOR_SELECTION_PATH_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+CELL_EDITOR_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+CELL_RENDERER_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+EDITABLE_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+EXPANDS_SELECTED_PATHS_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+INVOKES_STOP_CELL_EDITING_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+LARGE_MODEL_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+LEAD_SELECTION_PATH_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+ROOT_VISIBLE_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+ROW_HEIGHT_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+SCROLLS_ON_EXPAND_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+SELECTION_MODEL_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+SHOWS_ROOT_HANDLES_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+TOGGLE_CLICK_COUNT_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+TREE_MODEL_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+VISIBLE_ROW_COUNT_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+
+createTreeModel
+ (Ljava/lang/Object;)Ljavax/swing/tree/TreeModel;
+ (Ljava/lang/Object;)Ljavax/swing/tree/TreeModel;
+getDefaultTreeModel
+ ()Ljavax/swing/tree/TreeModel;
+ ()Ljavax/swing/tree/TreeModel;
+
+cellEditor
+ Ljavax/swing/tree/TreeCellEditor;
+ Ljavax/swing/tree/TreeCellEditor;
+cellRenderer
+ Ljavax/swing/tree/TreeCellRenderer;
+ Ljavax/swing/tree/TreeCellRenderer;
+selectionModel
+ Ljavax/swing/tree/TreeSelectionModel;
+ Ljavax/swing/tree/TreeSelectionModel;
+selectionRedirector
+ Ljavax/swing/JTree$TreeSelectionRedirector;
+ Ljavax/swing/JTree$TreeSelectionRedirector;
+treeModel
+ Ljavax/swing/tree/TreeModel;
+ Ljavax/swing/tree/TreeModel;
+treeModelListener
+ Ljavax/swing/event/TreeModelListener;
+ Ljavax/swing/event/TreeModelListener;
+
+<init>
+ (Ljava/util/Hashtable<**>;)V
+ (Ljava/util/Hashtable<**>;)V
+<init>
+ (Ljava/util/Vector<*>;)V
+ (Ljava/util/Vector<*>;)V
+<init>
+ (Ljavax/swing/tree/TreeModel;)V
+ (Ljavax/swing/tree/TreeModel;)V
+<init>
+ (Ljavax/swing/tree/TreeNode;)V
+ (Ljavax/swing/tree/TreeNode;)V
+<init>
+ (Ljavax/swing/tree/TreeNode;Z)V
+ (Ljavax/swing/tree/TreeNode;Z)V
+<init>
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+addSelectionPath
+ (Ljavax/swing/tree/TreePath;)V
+ (Ljavax/swing/tree/TreePath;)V
+addSelectionPaths
+ ([Ljavax/swing/tree/TreePath;)V
+ ([Ljavax/swing/tree/TreePath;)V
+addSelectionRows
+ ([I)V
+ ([I)V
+addTreeExpansionListener
+ (Ljavax/swing/event/TreeExpansionListener;)V
+ (L1javax/swing/event/TreeExpansionListener;)V
+addTreeSelectionListener
+ (Ljavax/swing/event/TreeSelectionListener;)V
+ (L1javax/swing/event/TreeSelectionListener;)V
+addTreeWillExpandListener
+ (Ljavax/swing/event/TreeWillExpandListener;)V
+ (L1javax/swing/event/TreeWillExpandListener;)V
+collapsePath
+ (Ljavax/swing/tree/TreePath;)V
+ (Ljavax/swing/tree/TreePath;)V
+convertValueToText
+ (Ljava/lang/Object;ZZZIZ)Ljava/lang/String;
+ (Ljava/lang/Object;ZZZIZ)Ljava/lang/String;
+createTreeModelListener
+ ()Ljavax/swing/event/TreeModelListener;
+ ()Ljavax/swing/event/TreeModelListener;
+expandPath
+ (Ljavax/swing/tree/TreePath;)V
+ (Ljavax/swing/tree/TreePath;)V
+fireTreeCollapsed
+ (Ljavax/swing/tree/TreePath;)V
+ (Ljavax/swing/tree/TreePath;)V
+fireTreeExpanded
+ (Ljavax/swing/tree/TreePath;)V
+ (Ljavax/swing/tree/TreePath;)V
+fireTreeWillCollapse
+ (Ljavax/swing/tree/TreePath;)V
+ (Ljavax/swing/tree/TreePath;)V
+fireTreeWillExpand
+ (Ljavax/swing/tree/TreePath;)V
+ (Ljavax/swing/tree/TreePath;)V
+fireValueChanged
+ (Ljavax/swing/event/TreeSelectionEvent;)V
+ (Ljavax/swing/event/TreeSelectionEvent;)V
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getAnchorSelectionPath
+ ()Ljavax/swing/tree/TreePath;
+ ()Ljavax/swing/tree/TreePath;
+getCellEditor
+ ()Ljavax/swing/tree/TreeCellEditor;
+ ()Ljavax/swing/tree/TreeCellEditor;
+getCellRenderer
+ ()Ljavax/swing/tree/TreeCellRenderer;
+ ()Ljavax/swing/tree/TreeCellRenderer;
+getClosestPathForLocation
+ (II)Ljavax/swing/tree/TreePath;
+ (II)Ljavax/swing/tree/TreePath;
+getDescendantToggledPaths
+ (Ljavax/swing/tree/TreePath;)Ljava/util/Enumeration<Ljavax/swing/tree/TreePath;>;
+ (Ljavax/swing/tree/TreePath;)Ljava/util/Enumeration<Ljavax/swing/tree/TreePath;>;
+getDropLocation
+ ()Ljavax/swing/JTree$DropLocation;
+ ()Ljavax/swing/JTree$DropLocation;
+getDropMode
+ ()Ljavax/swing/DropMode;
+ ()Ljavax/swing/DropMode;
+getEditingPath
+ ()Ljavax/swing/tree/TreePath;
+ ()Ljavax/swing/tree/TreePath;
+getExpandedDescendants
+ (Ljavax/swing/tree/TreePath;)Ljava/util/Enumeration<Ljavax/swing/tree/TreePath;>;
+ (Ljavax/swing/tree/TreePath;)Ljava/util/Enumeration<Ljavax/swing/tree/TreePath;>;
+getLastSelectedPathComponent
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getLeadSelectionPath
+ ()Ljavax/swing/tree/TreePath;
+ ()Ljavax/swing/tree/TreePath;
+getModel
+ ()Ljavax/swing/tree/TreeModel;
+ ()Ljavax/swing/tree/TreeModel;
+getNextMatch
+ (Ljava/lang/String;ILjavax/swing/text/Position$Bias;)Ljavax/swing/tree/TreePath;
+ (Ljava/lang/String;ILjavax/swing/text/Position$Bias;)Ljavax/swing/tree/TreePath;
+getPathBetweenRows
+ (II)[Ljavax/swing/tree/TreePath;
+ (II)[Ljavax/swing/tree/TreePath;
+getPathBounds
+ (Ljavax/swing/tree/TreePath;)Ljava/awt/Rectangle;
+ (Ljavax/swing/tree/TreePath;)Ljava/awt/Rectangle;
+getPathForLocation
+ (II)Ljavax/swing/tree/TreePath;
+ (II)Ljavax/swing/tree/TreePath;
+getPathForRow
+ (I)Ljavax/swing/tree/TreePath;
+ (I)Ljavax/swing/tree/TreePath;
+getPreferredScrollableViewportSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getRowBounds
+ (I)Ljava/awt/Rectangle;
+ (I)Ljava/awt/Rectangle;
+getRowForPath
+ (Ljavax/swing/tree/TreePath;)I
+ (Ljavax/swing/tree/TreePath;)I
+getScrollableBlockIncrement
+ (Ljava/awt/Rectangle;II)I
+ (Ljava/awt/Rectangle;II)I
+getScrollableUnitIncrement
+ (Ljava/awt/Rectangle;II)I
+ (Ljava/awt/Rectangle;II)I
+getSelectionModel
+ ()Ljavax/swing/tree/TreeSelectionModel;
+ ()Ljavax/swing/tree/TreeSelectionModel;
+getSelectionPath
+ ()Ljavax/swing/tree/TreePath;
+ ()Ljavax/swing/tree/TreePath;
+getSelectionPaths
+ ()[Ljavax/swing/tree/TreePath;
+ ()[Ljavax/swing/tree/TreePath;
+getSelectionRows
+ ()[I
+ ()[I
+getToolTipText
+ (Ljava/awt/event/MouseEvent;)Ljava/lang/String;
+ (L1java/awt/event/MouseEvent;)Ljava/lang/String; # @Inherited(javax.swing.JComponent)
+getTreeExpansionListeners
+ ()[Ljavax/swing/event/TreeExpansionListener;
+ ()[Ljavax/swing/event/TreeExpansionListener;
+getTreeSelectionListeners
+ ()[Ljavax/swing/event/TreeSelectionListener;
+ ()[Ljavax/swing/event/TreeSelectionListener;
+getTreeWillExpandListeners
+ ()[Ljavax/swing/event/TreeWillExpandListener;
+ ()[Ljavax/swing/event/TreeWillExpandListener;
+getUI
+ ()Ljavax/swing/plaf/TreeUI;
+ ()Ljavax/swing/plaf/TreeUI;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+hasBeenExpanded
+ (Ljavax/swing/tree/TreePath;)Z
+ (Ljavax/swing/tree/TreePath;)Z
+isCollapsed
+ (Ljavax/swing/tree/TreePath;)Z
+ (Ljavax/swing/tree/TreePath;)Z
+isExpanded
+ (Ljavax/swing/tree/TreePath;)Z
+ (Ljavax/swing/tree/TreePath;)Z
+isPathEditable
+ (Ljavax/swing/tree/TreePath;)Z
+ (Ljavax/swing/tree/TreePath;)Z
+isPathSelected
+ (Ljavax/swing/tree/TreePath;)Z
+ (Ljavax/swing/tree/TreePath;)Z
+isVisible
+ (Ljavax/swing/tree/TreePath;)Z
+ (Ljavax/swing/tree/TreePath;)Z
+makeVisible
+ (Ljavax/swing/tree/TreePath;)V
+ (Ljavax/swing/tree/TreePath;)V
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+removeDescendantSelectedPaths
+ (Ljavax/swing/tree/TreePath;Z)Z
+ (Ljavax/swing/tree/TreePath;Z)Z
+removeDescendantToggledPaths
+ (Ljava/util/Enumeration<Ljavax/swing/tree/TreePath;>;)V
+ (Ljava/util/Enumeration<Ljavax/swing/tree/TreePath;>;)V
+removeSelectionPath
+ (Ljavax/swing/tree/TreePath;)V
+ (Ljavax/swing/tree/TreePath;)V
+removeSelectionPaths
+ ([Ljavax/swing/tree/TreePath;)V
+ ([Ljavax/swing/tree/TreePath;)V
+removeSelectionRows
+ ([I)V
+ ([I)V
+removeTreeExpansionListener
+ (Ljavax/swing/event/TreeExpansionListener;)V
+ (L1javax/swing/event/TreeExpansionListener;)V
+removeTreeSelectionListener
+ (Ljavax/swing/event/TreeSelectionListener;)V
+ (L1javax/swing/event/TreeSelectionListener;)V
+removeTreeWillExpandListener
+ (Ljavax/swing/event/TreeWillExpandListener;)V
+ (L1javax/swing/event/TreeWillExpandListener;)V
+scrollPathToVisible
+ (Ljavax/swing/tree/TreePath;)V
+ (Ljavax/swing/tree/TreePath;)V
+setAnchorSelectionPath
+ (Ljavax/swing/tree/TreePath;)V
+ (Ljavax/swing/tree/TreePath;)V
+setCellEditor
+ (Ljavax/swing/tree/TreeCellEditor;)V
+ (Ljavax/swing/tree/TreeCellEditor;)V
+setCellRenderer
+ (Ljavax/swing/tree/TreeCellRenderer;)V
+ (Ljavax/swing/tree/TreeCellRenderer;)V
+setDropMode
+ (Ljavax/swing/DropMode;)V
+ (Ljavax/swing/DropMode;)V
+setExpandedState
+ (Ljavax/swing/tree/TreePath;Z)V
+ (Ljavax/swing/tree/TreePath;Z)V
+setLeadSelectionPath
+ (Ljavax/swing/tree/TreePath;)V
+ (Ljavax/swing/tree/TreePath;)V
+setModel
+ (Ljavax/swing/tree/TreeModel;)V
+ (Ljavax/swing/tree/TreeModel;)V
+setSelectionModel
+ (Ljavax/swing/tree/TreeSelectionModel;)V
+ (Ljavax/swing/tree/TreeSelectionModel;)V
+setSelectionPath
+ (Ljavax/swing/tree/TreePath;)V
+ (Ljavax/swing/tree/TreePath;)V
+setSelectionPaths
+ ([Ljavax/swing/tree/TreePath;)V
+ ([Ljavax/swing/tree/TreePath;)V
+setSelectionRows
+ ([I)V
+ ([I)V
+setUI
+ (Ljavax/swing/plaf/TreeUI;)V
+ (Ljavax/swing/plaf/TreeUI;)V
+startEditingAtPath
+ (Ljavax/swing/tree/TreePath;)V
+ (Ljavax/swing/tree/TreePath;)V

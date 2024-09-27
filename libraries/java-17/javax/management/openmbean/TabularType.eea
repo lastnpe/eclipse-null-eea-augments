@@ -1,0 +1,24 @@
+class javax/management/openmbean/TabularType
+
+super javax/management/openmbean/OpenType
+ <Ljavax/management/openmbean/TabularData;>
+ <Ljavax/management/openmbean/TabularData;>
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljavax/management/openmbean/CompositeType;[Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljavax/management/openmbean/CompositeType;[Ljava/lang/String;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(javax.management.openmbean.OpenType)
+getIndexNames
+ ()Ljava/util/List<Ljava/lang/String;>;
+ ()Ljava/util/List<Ljava/lang/String;>;
+getRowType
+ ()Ljavax/management/openmbean/CompositeType;
+ ()Ljavax/management/openmbean/CompositeType;
+isValue
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.management.openmbean.OpenType)

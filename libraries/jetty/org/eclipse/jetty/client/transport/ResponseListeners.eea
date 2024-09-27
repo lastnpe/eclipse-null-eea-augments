@@ -1,0 +1,68 @@
+class org/eclipse/jetty/client/transport/ResponseListeners
+
+<init>
+ (Lorg/eclipse/jetty/client/Response$Listener;)V
+ (Lorg/eclipse/jetty/client/Response$Listener;)V
+<init>
+ (Lorg/eclipse/jetty/client/transport/ResponseListeners;)V
+ (Lorg/eclipse/jetty/client/transport/ResponseListeners;)V
+addBeginListener
+ (Lorg/eclipse/jetty/client/Response$BeginListener;)Z
+ (Lorg/eclipse/jetty/client/Response$BeginListener;)Z
+addCompleteListener
+ (Lorg/eclipse/jetty/client/Response$CompleteListener;Z)Z
+ (Lorg/eclipse/jetty/client/Response$CompleteListener;Z)Z
+addContentSourceListener
+ (Lorg/eclipse/jetty/client/Response$ContentSourceListener;)Z
+ (Lorg/eclipse/jetty/client/Response$ContentSourceListener;)Z
+addFailureListener
+ (Lorg/eclipse/jetty/client/Response$FailureListener;)Z
+ (Lorg/eclipse/jetty/client/Response$FailureListener;)Z
+addHeaderListener
+ (Lorg/eclipse/jetty/client/Response$HeaderListener;)Z
+ (Lorg/eclipse/jetty/client/Response$HeaderListener;)Z
+addHeadersListener
+ (Lorg/eclipse/jetty/client/Response$HeadersListener;)Z
+ (Lorg/eclipse/jetty/client/Response$HeadersListener;)Z
+addListener
+ (Lorg/eclipse/jetty/client/Response$Listener;)Z
+ (Lorg/eclipse/jetty/client/Response$Listener;)Z
+addResponseListeners
+ (Lorg/eclipse/jetty/client/transport/ResponseListeners;)Z
+ (Lorg/eclipse/jetty/client/transport/ResponseListeners;)Z
+addSuccessListener
+ (Lorg/eclipse/jetty/client/Response$SuccessListener;)Z
+ (Lorg/eclipse/jetty/client/Response$SuccessListener;)Z
+emitFailure
+ (Lorg/eclipse/jetty/client/Response;Ljava/lang/Throwable;)V
+ (Lorg/eclipse/jetty/client/Response;Ljava/lang/Throwable;)V
+emitFailureComplete
+ (Lorg/eclipse/jetty/client/Result;)V
+ (Lorg/eclipse/jetty/client/Result;)V
+emitSuccess
+ (Lorg/eclipse/jetty/client/Response;)V
+ (Lorg/eclipse/jetty/client/Response;)V
+emitSuccessComplete
+ (Lorg/eclipse/jetty/client/Result;)V
+ (Lorg/eclipse/jetty/client/Result;)V
+notifyBegin
+ (Lorg/eclipse/jetty/client/Response;)V
+ (Lorg/eclipse/jetty/client/Response;)V
+notifyComplete
+ (Lorg/eclipse/jetty/client/Result;)V
+ (Lorg/eclipse/jetty/client/Result;)V
+notifyContentSource
+ (Lorg/eclipse/jetty/client/Response;Lorg/eclipse/jetty/io/Content$Source;)V
+ (Lorg/eclipse/jetty/client/Response;Lorg/eclipse/jetty/io/Content$Source;)V
+notifyFailure
+ (Lorg/eclipse/jetty/client/Response;Ljava/lang/Throwable;)V
+ (Lorg/eclipse/jetty/client/Response;Ljava/lang/Throwable;)V
+notifyHeader
+ (Lorg/eclipse/jetty/client/Response;Lorg/eclipse/jetty/http/HttpField;)Z
+ (Lorg/eclipse/jetty/client/Response;Lorg/eclipse/jetty/http/HttpField;)Z
+notifyHeaders
+ (Lorg/eclipse/jetty/client/Response;)V
+ (Lorg/eclipse/jetty/client/Response;)V
+notifySuccess
+ (Lorg/eclipse/jetty/client/Response;)V
+ (Lorg/eclipse/jetty/client/Response;)V

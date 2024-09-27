@@ -1,0 +1,27 @@
+class java/io/ObjectStreamField
+
+super java/lang/Comparable
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+<init>
+ (Ljava/lang/String;Ljava/lang/Class<*>;)V
+ (Ljava/lang/String;Ljava/lang/Class<*>;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Class<*>;Z)V
+ (Ljava/lang/String;Ljava/lang/Class<*>;Z)V
+compareTo
+ (Ljava/lang/Object;)I
+ (L1java/lang/Object;)I
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getTypeString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

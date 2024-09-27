@@ -1,0 +1,83 @@
+class com/google/common/net/InetAddresses
+
+coerceToInteger
+ (Ljava/net/InetAddress;)I
+ (Ljava/net/InetAddress;)I
+decrement
+ (Ljava/net/InetAddress;)Ljava/net/InetAddress;
+ (Ljava/net/InetAddress;)Ljava/net/InetAddress;
+forString
+ (Ljava/lang/String;)Ljava/net/InetAddress;
+ (Ljava/lang/String;)Ljava/net/InetAddress;
+forUriString
+ (Ljava/lang/String;)Ljava/net/InetAddress;
+ (Ljava/lang/String;)Ljava/net/InetAddress;
+fromIPv4BigInteger
+ (Ljava/math/BigInteger;)Ljava/net/Inet4Address;
+ (Ljava/math/BigInteger;)Ljava/net/Inet4Address;
+fromIPv6BigInteger
+ (Ljava/math/BigInteger;)Ljava/net/Inet6Address;
+ (Ljava/math/BigInteger;)Ljava/net/Inet6Address;
+fromInteger
+ (I)Ljava/net/Inet4Address;
+ (I)Ljava/net/Inet4Address;
+fromLittleEndianByteArray
+ ([B)Ljava/net/InetAddress;
+ ([B)Ljava/net/InetAddress;
+get6to4IPv4Address
+ (Ljava/net/Inet6Address;)Ljava/net/Inet4Address;
+ (Ljava/net/Inet6Address;)Ljava/net/Inet4Address;
+getCoercedIPv4Address
+ (Ljava/net/InetAddress;)Ljava/net/Inet4Address;
+ (Ljava/net/InetAddress;)Ljava/net/Inet4Address;
+getCompatIPv4Address
+ (Ljava/net/Inet6Address;)Ljava/net/Inet4Address;
+ (Ljava/net/Inet6Address;)Ljava/net/Inet4Address;
+getEmbeddedIPv4ClientAddress
+ (Ljava/net/Inet6Address;)Ljava/net/Inet4Address;
+ (Ljava/net/Inet6Address;)Ljava/net/Inet4Address;
+getIsatapIPv4Address
+ (Ljava/net/Inet6Address;)Ljava/net/Inet4Address;
+ (Ljava/net/Inet6Address;)Ljava/net/Inet4Address;
+getTeredoInfo
+ (Ljava/net/Inet6Address;)Lcom/google/common/net/InetAddresses$TeredoInfo;
+ (Ljava/net/Inet6Address;)Lcom/google/common/net/InetAddresses$TeredoInfo;
+hasEmbeddedIPv4ClientAddress
+ (Ljava/net/Inet6Address;)Z
+ (Ljava/net/Inet6Address;)Z
+increment
+ (Ljava/net/InetAddress;)Ljava/net/InetAddress;
+ (Ljava/net/InetAddress;)Ljava/net/InetAddress;
+is6to4Address
+ (Ljava/net/Inet6Address;)Z
+ (Ljava/net/Inet6Address;)Z
+isCompatIPv4Address
+ (Ljava/net/Inet6Address;)Z
+ (Ljava/net/Inet6Address;)Z
+isInetAddress
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isIsatapAddress
+ (Ljava/net/Inet6Address;)Z
+ (Ljava/net/Inet6Address;)Z
+isMappedIPv4Address
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isMaximum
+ (Ljava/net/InetAddress;)Z
+ (Ljava/net/InetAddress;)Z
+isTeredoAddress
+ (Ljava/net/Inet6Address;)Z
+ (Ljava/net/Inet6Address;)Z
+isUriInetAddress
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+toAddrString
+ (Ljava/net/InetAddress;)Ljava/lang/String;
+ (Ljava/net/InetAddress;)Ljava/lang/String;
+toBigInteger
+ (Ljava/net/InetAddress;)Ljava/math/BigInteger;
+ (Ljava/net/InetAddress;)Ljava/math/BigInteger;
+toUriString
+ (Ljava/net/InetAddress;)Ljava/lang/String;
+ (Ljava/net/InetAddress;)Ljava/lang/String;

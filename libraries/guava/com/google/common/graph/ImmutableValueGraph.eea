@@ -1,0 +1,21 @@
+class com/google/common/graph/ImmutableValueGraph
+ <N:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <N:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/graph/StandardValueGraph
+ <TN;TV;>
+ <TN;TV;>
+
+copyOf
+ <N:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/graph/ImmutableValueGraph<TN;TV;>;)Lcom/google/common/graph/ImmutableValueGraph<TN;TV;>;
+ <N:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/graph/ImmutableValueGraph<TN;TV;>;)Lcom/google/common/graph/ImmutableValueGraph<TN;TV;>;
+copyOf
+ <N:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/graph/ValueGraph<TN;TV;>;)Lcom/google/common/graph/ImmutableValueGraph<TN;TV;>;
+ <N:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/graph/ValueGraph<TN;TV;>;)Lcom/google/common/graph/ImmutableValueGraph<TN;TV;>;
+
+asGraph
+ ()Lcom/google/common/graph/ImmutableGraph<TN;>;
+ ()Lcom/google/common/graph/ImmutableGraph<TN;>;
+incidentEdgeOrder
+ ()Lcom/google/common/graph/ElementOrder<TN;>;
+ ()Lcom/google/common/graph/ElementOrder<TN;>;

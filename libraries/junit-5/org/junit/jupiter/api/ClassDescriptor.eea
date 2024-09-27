@@ -1,0 +1,17 @@
+class org/junit/jupiter/api/ClassDescriptor
+
+findAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Ljava/util/Optional<TA;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Ljava/util/Optional<TA;>;
+findRepeatableAnnotations
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Ljava/util/List<TA;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Ljava/util/List<TA;>;
+getDisplayName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTestClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+isAnnotated
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z

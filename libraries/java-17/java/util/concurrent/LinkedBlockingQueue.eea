@@ -1,4 +1,17 @@
 class java/util/concurrent/LinkedBlockingQueue
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/util/AbstractQueue
+ <TE;>
+ <TE;>
+super java/util/concurrent/BlockingQueue
+ <TE;>
+ <TE;>
+
+<init>
+ (Ljava/util/Collection<+TE;>;)V
+ (Ljava/util/Collection<+TE;>;)V
 contains
  (Ljava/lang/Object;)Z
  (L0java/lang/Object;)Z
@@ -13,22 +26,22 @@ forEach
  (L1java/util/function/Consumer<-TE;>;)V
 iterator
  ()Ljava/util/Iterator<TE;>;
- ()L1java/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.AbstractCollection)
 offer
  (TE;)Z
- (T1E;)Z
+ (T1E;)Z # @Inherited(java.util.concurrent.BlockingQueue)
 offer
  (TE;JLjava/util/concurrent/TimeUnit;)Z
  (T1E;JL1java/util/concurrent/TimeUnit;)Z
 peek
  ()TE;
- ()T0E;
+ ()T0E; # @Inherited(java.util.Queue)
 poll
  ()TE;
- ()T0E;
+ ()T0E; # @Inherited(java.util.Queue)
 poll
  (JLjava/util/concurrent/TimeUnit;)TE;
- (JL1java/util/concurrent/TimeUnit;)T0E;
+ (JL1java/util/concurrent/TimeUnit;)T0E; # @Overrides(java.util.concurrent.BlockingQueue)
 put
  (TE;)V
  (T1E;)V
@@ -37,25 +50,25 @@ remove
  (L0java/lang/Object;)Z
 removeAll
  (Ljava/util/Collection<*>;)Z
- (L1java/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.AbstractCollection)
 removeIf
  (Ljava/util/function/Predicate<-TE;>;)Z
- (L1java/util/function/Predicate<-TE;>;)Z
+ (L1java/util/function/Predicate<-TE;>;)Z # @Inherited(java.util.Collection)
 retainAll
  (Ljava/util/Collection<*>;)Z
- (L1java/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.AbstractCollection)
 spliterator
  ()Ljava/util/Spliterator<TE;>;
- ()L1java/util/Spliterator<TE;>;
+ ()L1java/util/Spliterator<TE;>; # @Inherited(java.util.Collection)
 take
  ()TE;
  ()T1E;
 toArray
  ()[Ljava/lang/Object;
- ()[1L1java/lang/Object;
+ ()[1L1java/lang/Object; # @Overrides(java.util.AbstractCollection)
 toArray
  <T:Ljava/lang/Object;>([TT;)[TT;
- <T:Ljava/lang/Object;>([1T1T;)[1T1T;
+ <T:Ljava/lang/Object;>([1T1T;)[1T1T; # @Overrides(java.util.AbstractCollection)
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.util.AbstractCollection)

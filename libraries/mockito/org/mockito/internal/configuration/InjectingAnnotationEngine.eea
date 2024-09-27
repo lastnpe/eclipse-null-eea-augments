@@ -1,0 +1,11 @@
+class org/mockito/internal/configuration/InjectingAnnotationEngine
+
+injectMocks
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+onInjection
+ (Ljava/lang/Object;Ljava/lang/Class<*>;Ljava/util/Set<Ljava/lang/reflect/Field;>;Ljava/util/Set<Ljava/lang/Object;>;)V
+ (Ljava/lang/Object;Ljava/lang/Class<*>;Ljava/util/Set<Ljava/lang/reflect/Field;>;Ljava/util/Set<Ljava/lang/Object;>;)V
+process
+ (Ljava/lang/Class<*>;Ljava/lang/Object;)Ljava/lang/AutoCloseable;
+ (Ljava/lang/Class<*>;Ljava/lang/Object;)Ljava/lang/AutoCloseable;

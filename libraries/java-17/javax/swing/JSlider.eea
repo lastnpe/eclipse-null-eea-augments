@@ -1,0 +1,66 @@
+class javax/swing/JSlider
+
+changeEvent
+ Ljavax/swing/event/ChangeEvent;
+ Ljavax/swing/event/ChangeEvent;
+changeListener
+ Ljavax/swing/event/ChangeListener;
+ Ljavax/swing/event/ChangeListener;
+sliderModel
+ Ljavax/swing/BoundedRangeModel;
+ Ljavax/swing/BoundedRangeModel;
+
+<init>
+ (Ljavax/swing/BoundedRangeModel;)V
+ (Ljavax/swing/BoundedRangeModel;)V
+addChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V
+createChangeListener
+ ()Ljavax/swing/event/ChangeListener;
+ ()Ljavax/swing/event/ChangeListener;
+createStandardLabels
+ (I)Ljava/util/Hashtable<Ljava/lang/Integer;Ljavax/swing/JComponent;>;
+ (I)Ljava/util/Hashtable<Ljava/lang/Integer;Ljavax/swing/JComponent;>;
+createStandardLabels
+ (II)Ljava/util/Hashtable<Ljava/lang/Integer;Ljavax/swing/JComponent;>;
+ (II)Ljava/util/Hashtable<Ljava/lang/Integer;Ljavax/swing/JComponent;>;
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getChangeListeners
+ ()[Ljavax/swing/event/ChangeListener;
+ ()[Ljavax/swing/event/ChangeListener;
+getLabelTable
+ ()Ljava/util/Dictionary;
+ ()Ljava/util/Dictionary;
+getModel
+ ()Ljavax/swing/BoundedRangeModel;
+ ()Ljavax/swing/BoundedRangeModel;
+getUI
+ ()Ljavax/swing/plaf/SliderUI;
+ ()Ljavax/swing/plaf/SliderUI;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+imageUpdate
+ (Ljava/awt/Image;IIIII)Z
+ (Ljava/awt/Image;IIIII)Z
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+removeChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V
+setFont
+ (Ljava/awt/Font;)V
+ (Ljava/awt/Font;)V
+setLabelTable
+ (Ljava/util/Dictionary;)V
+ (Ljava/util/Dictionary;)V
+setModel
+ (Ljavax/swing/BoundedRangeModel;)V
+ (Ljavax/swing/BoundedRangeModel;)V
+setUI
+ (Ljavax/swing/plaf/SliderUI;)V
+ (Ljavax/swing/plaf/SliderUI;)V

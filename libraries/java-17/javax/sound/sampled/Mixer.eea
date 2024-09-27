@@ -1,0 +1,41 @@
+class javax/sound/sampled/Mixer
+
+getLine
+ (Ljavax/sound/sampled/Line$Info;)Ljavax/sound/sampled/Line;
+ (Ljavax/sound/sampled/Line$Info;)Ljavax/sound/sampled/Line;
+getMaxLines
+ (Ljavax/sound/sampled/Line$Info;)I
+ (Ljavax/sound/sampled/Line$Info;)I
+getMixerInfo
+ ()Ljavax/sound/sampled/Mixer$Info;
+ ()Ljavax/sound/sampled/Mixer$Info;
+getSourceLineInfo
+ ()[Ljavax/sound/sampled/Line$Info;
+ ()[Ljavax/sound/sampled/Line$Info;
+getSourceLineInfo
+ (Ljavax/sound/sampled/Line$Info;)[Ljavax/sound/sampled/Line$Info;
+ (Ljavax/sound/sampled/Line$Info;)[Ljavax/sound/sampled/Line$Info;
+getSourceLines
+ ()[Ljavax/sound/sampled/Line;
+ ()[Ljavax/sound/sampled/Line;
+getTargetLineInfo
+ ()[Ljavax/sound/sampled/Line$Info;
+ ()[Ljavax/sound/sampled/Line$Info;
+getTargetLineInfo
+ (Ljavax/sound/sampled/Line$Info;)[Ljavax/sound/sampled/Line$Info;
+ (Ljavax/sound/sampled/Line$Info;)[Ljavax/sound/sampled/Line$Info;
+getTargetLines
+ ()[Ljavax/sound/sampled/Line;
+ ()[Ljavax/sound/sampled/Line;
+isLineSupported
+ (Ljavax/sound/sampled/Line$Info;)Z
+ (Ljavax/sound/sampled/Line$Info;)Z
+isSynchronizationSupported
+ ([Ljavax/sound/sampled/Line;Z)Z
+ ([Ljavax/sound/sampled/Line;Z)Z
+synchronize
+ ([Ljavax/sound/sampled/Line;Z)V
+ ([Ljavax/sound/sampled/Line;Z)V
+unsynchronize
+ ([Ljavax/sound/sampled/Line;)V
+ ([Ljavax/sound/sampled/Line;)V

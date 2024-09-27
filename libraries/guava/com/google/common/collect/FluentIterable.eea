@@ -1,0 +1,126 @@
+class com/google/common/collect/FluentIterable
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/lang/Iterable
+ <TE;>
+ <TE;>
+
+concat
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+Ljava/lang/Iterable<+TT;>;>;)Lcom/google/common/collect/FluentIterable<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+Ljava/lang/Iterable<+TT;>;>;)Lcom/google/common/collect/FluentIterable<TT;>;
+concat
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+TT;>;Ljava/lang/Iterable<+TT;>;)Lcom/google/common/collect/FluentIterable<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+TT;>;Ljava/lang/Iterable<+TT;>;)Lcom/google/common/collect/FluentIterable<TT;>;
+concat
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+TT;>;Ljava/lang/Iterable<+TT;>;Ljava/lang/Iterable<+TT;>;)Lcom/google/common/collect/FluentIterable<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+TT;>;Ljava/lang/Iterable<+TT;>;Ljava/lang/Iterable<+TT;>;)Lcom/google/common/collect/FluentIterable<TT;>;
+concat
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+TT;>;Ljava/lang/Iterable<+TT;>;Ljava/lang/Iterable<+TT;>;Ljava/lang/Iterable<+TT;>;)Lcom/google/common/collect/FluentIterable<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+TT;>;Ljava/lang/Iterable<+TT;>;Ljava/lang/Iterable<+TT;>;Ljava/lang/Iterable<+TT;>;)Lcom/google/common/collect/FluentIterable<TT;>;
+concat
+ <T:Ljava/lang/Object;>([Ljava/lang/Iterable<+TT;>;)Lcom/google/common/collect/FluentIterable<TT;>;
+ <T:Ljava/lang/Object;>([Ljava/lang/Iterable<+TT;>;)Lcom/google/common/collect/FluentIterable<TT;>;
+from
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/FluentIterable<TE;>;)Lcom/google/common/collect/FluentIterable<TE;>;
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/FluentIterable<TE;>;)Lcom/google/common/collect/FluentIterable<TE;>;
+from
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<TE;>;)Lcom/google/common/collect/FluentIterable<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<TE;>;)Lcom/google/common/collect/FluentIterable<TE;>;
+from
+ <E:Ljava/lang/Object;>([TE;)Lcom/google/common/collect/FluentIterable<TE;>;
+ <E:Ljava/lang/Object;>([TE;)Lcom/google/common/collect/FluentIterable<TE;>;
+of
+ <E:Ljava/lang/Object;>()Lcom/google/common/collect/FluentIterable<TE;>;
+ <E:Ljava/lang/Object;>()Lcom/google/common/collect/FluentIterable<TE;>;
+of
+ <E:Ljava/lang/Object;>(TE;[TE;)Lcom/google/common/collect/FluentIterable<TE;>;
+ <E:Ljava/lang/Object;>(TE;[TE;)Lcom/google/common/collect/FluentIterable<TE;>;
+
+allMatch
+ (Lcom/google/common/base/Predicate<-TE;>;)Z
+ (Lcom/google/common/base/Predicate<-TE;>;)Z
+anyMatch
+ (Lcom/google/common/base/Predicate<-TE;>;)Z
+ (Lcom/google/common/base/Predicate<-TE;>;)Z
+append
+ (Ljava/lang/Iterable<+TE;>;)Lcom/google/common/collect/FluentIterable<TE;>;
+ (Ljava/lang/Iterable<+TE;>;)Lcom/google/common/collect/FluentIterable<TE;>;
+append
+ ([TE;)Lcom/google/common/collect/FluentIterable<TE;>;
+ ([TE;)Lcom/google/common/collect/FluentIterable<TE;>;
+contains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+copyInto
+ <C::Ljava/util/Collection<-TE;>;>(TC;)TC;
+ <C::Ljava/util/Collection<-TE;>;>(TC;)TC;
+cycle
+ ()Lcom/google/common/collect/FluentIterable<TE;>;
+ ()Lcom/google/common/collect/FluentIterable<TE;>;
+filter
+ (Lcom/google/common/base/Predicate<-TE;>;)Lcom/google/common/collect/FluentIterable<TE;>;
+ (Lcom/google/common/base/Predicate<-TE;>;)Lcom/google/common/collect/FluentIterable<TE;>;
+filter
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lcom/google/common/collect/FluentIterable<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lcom/google/common/collect/FluentIterable<TT;>;
+first
+ ()Lcom/google/common/base/Optional<TE;>;
+ ()Lcom/google/common/base/Optional<TE;>;
+firstMatch
+ (Lcom/google/common/base/Predicate<-TE;>;)Lcom/google/common/base/Optional<TE;>;
+ (Lcom/google/common/base/Predicate<-TE;>;)Lcom/google/common/base/Optional<TE;>;
+get
+ (I)TE;
+ (I)T1E;
+index
+ <K:Ljava/lang/Object;>(Lcom/google/common/base/Function<-TE;TK;>;)Lcom/google/common/collect/ImmutableListMultimap<TK;TE;>;
+ <K:Ljava/lang/Object;>(Lcom/google/common/base/Function<-TE;TK;>;)Lcom/google/common/collect/ImmutableListMultimap<TK;TE;>;
+join
+ (Lcom/google/common/base/Joiner;)Ljava/lang/String;
+ (Lcom/google/common/base/Joiner;)Ljava/lang/String;
+last
+ ()Lcom/google/common/base/Optional<TE;>;
+ ()Lcom/google/common/base/Optional<TE;>;
+limit
+ (I)Lcom/google/common/collect/FluentIterable<TE;>;
+ (I)Lcom/google/common/collect/FluentIterable<TE;>;
+skip
+ (I)Lcom/google/common/collect/FluentIterable<TE;>;
+ (I)Lcom/google/common/collect/FluentIterable<TE;>;
+stream
+ ()Ljava/util/stream/Stream<TE;>;
+ ()Ljava/util/stream/Stream<TE;>;
+toArray
+ (Ljava/lang/Class<TE;>;)[TE;
+ (Ljava/lang/Class<TE;>;)[TE;
+toList
+ ()Lcom/google/common/collect/ImmutableList<TE;>;
+ ()Lcom/google/common/collect/ImmutableList<TE;>;
+toMap
+ <V:Ljava/lang/Object;>(Lcom/google/common/base/Function<-TE;TV;>;)Lcom/google/common/collect/ImmutableMap<TE;TV;>;
+ <V:Ljava/lang/Object;>(Lcom/google/common/base/Function<-TE;TV;>;)Lcom/google/common/collect/ImmutableMap<TE;TV;>;
+toMultiset
+ ()Lcom/google/common/collect/ImmutableMultiset<TE;>;
+ ()Lcom/google/common/collect/ImmutableMultiset<TE;>;
+toSet
+ ()Lcom/google/common/collect/ImmutableSet<TE;>;
+ ()Lcom/google/common/collect/ImmutableSet<TE;>;
+toSortedList
+ (Ljava/util/Comparator<-TE;>;)Lcom/google/common/collect/ImmutableList<TE;>;
+ (Ljava/util/Comparator<-TE;>;)Lcom/google/common/collect/ImmutableList<TE;>;
+toSortedSet
+ (Ljava/util/Comparator<-TE;>;)Lcom/google/common/collect/ImmutableSortedSet<TE;>;
+ (Ljava/util/Comparator<-TE;>;)Lcom/google/common/collect/ImmutableSortedSet<TE;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+transform
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Function<-TE;TT;>;)Lcom/google/common/collect/FluentIterable<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Function<-TE;TT;>;)Lcom/google/common/collect/FluentIterable<TT;>;
+transformAndConcat
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Function<-TE;+Ljava/lang/Iterable<+TT;>;>;)Lcom/google/common/collect/FluentIterable<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Function<-TE;+Ljava/lang/Iterable<+TT;>;>;)Lcom/google/common/collect/FluentIterable<TT;>;
+uniqueIndex
+ <K:Ljava/lang/Object;>(Lcom/google/common/base/Function<-TE;TK;>;)Lcom/google/common/collect/ImmutableMap<TK;TE;>;
+ <K:Ljava/lang/Object;>(Lcom/google/common/base/Function<-TE;TK;>;)Lcom/google/common/collect/ImmutableMap<TK;TE;>;

@@ -1,0 +1,39 @@
+class org/springframework/beans/factory/config/AbstractFactoryBean
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/springframework/beans/factory/FactoryBean
+ <TT;>
+ <TT;>
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+createInstance
+ ()TT;
+ ()TT;
+destroyInstance
+ (TT;)V
+ (TT;)V
+getBeanFactory
+ ()Lorg/springframework/beans/factory/BeanFactory;
+ ()L0org/springframework/beans/factory/BeanFactory;
+getBeanTypeConverter
+ ()Lorg/springframework/beans/TypeConverter;
+ ()Lorg/springframework/beans/TypeConverter;
+getEarlySingletonInterfaces
+ ()[Ljava/lang/Class<*>;
+ ()[0Ljava/lang/Class<*>;
+getObject
+ ()TT;
+ ()T0T; # @Inherited(org.springframework.beans.factory.FactoryBean)
+getObjectType
+ ()Ljava/lang/Class<*>;
+ ()L0java/lang/Class<*>; # @Inherited(org.springframework.beans.factory.FactoryBean)
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V

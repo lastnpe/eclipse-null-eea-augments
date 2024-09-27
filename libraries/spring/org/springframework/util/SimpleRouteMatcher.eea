@@ -1,0 +1,26 @@
+class org/springframework/util/SimpleRouteMatcher
+
+<init>
+ (Lorg/springframework/util/PathMatcher;)V
+ (Lorg/springframework/util/PathMatcher;)V
+combine
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+getPathMatcher
+ ()Lorg/springframework/util/PathMatcher;
+ ()Lorg/springframework/util/PathMatcher;
+getPatternComparator
+ (Lorg/springframework/util/RouteMatcher$Route;)Ljava/util/Comparator<Ljava/lang/String;>;
+ (Lorg/springframework/util/RouteMatcher$Route;)Ljava/util/Comparator<Ljava/lang/String;>;
+isPattern
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+match
+ (Ljava/lang/String;Lorg/springframework/util/RouteMatcher$Route;)Z
+ (Ljava/lang/String;Lorg/springframework/util/RouteMatcher$Route;)Z
+matchAndExtract
+ (Ljava/lang/String;Lorg/springframework/util/RouteMatcher$Route;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+ (Ljava/lang/String;Lorg/springframework/util/RouteMatcher$Route;)L0java/util/Map<Ljava/lang/String;Ljava/lang/String;>; # @Inherited(org.springframework.util.RouteMatcher)
+parseRoute
+ (Ljava/lang/String;)Lorg/springframework/util/RouteMatcher$Route;
+ (Ljava/lang/String;)Lorg/springframework/util/RouteMatcher$Route;

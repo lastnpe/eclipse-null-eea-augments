@@ -1,0 +1,14 @@
+class java/util/function/BinaryOperator
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super java/util/function/BiFunction
+ <TT;TT;TT;>
+ <TT;TT;TT;>
+
+maxBy
+ <T:Ljava/lang/Object;>(Ljava/util/Comparator<-TT;>;)Ljava/util/function/BinaryOperator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Comparator<-TT;>;)Ljava/util/function/BinaryOperator<TT;>;
+minBy
+ <T:Ljava/lang/Object;>(Ljava/util/Comparator<-TT;>;)Ljava/util/function/BinaryOperator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Comparator<-TT;>;)Ljava/util/function/BinaryOperator<TT;>;

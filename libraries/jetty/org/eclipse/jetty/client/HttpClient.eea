@@ -1,0 +1,157 @@
+class org/eclipse/jetty/client/HttpClient
+
+USER_AGENT
+ Ljava/lang/String;
+ L1java/lang/String;
+
+normalizePort
+ (Ljava/lang/String;I)I
+ (Ljava/lang/String;I)I
+
+<init>
+ (Lorg/eclipse/jetty/client/HttpClientTransport;)V
+ (Lorg/eclipse/jetty/client/HttpClientTransport;)V
+FORM
+ (Ljava/lang/String;Lorg/eclipse/jetty/util/Fields;)Lorg/eclipse/jetty/client/ContentResponse;
+ (Ljava/lang/String;Lorg/eclipse/jetty/util/Fields;)Lorg/eclipse/jetty/client/ContentResponse;
+FORM
+ (Ljava/net/URI;Lorg/eclipse/jetty/util/Fields;)Lorg/eclipse/jetty/client/ContentResponse;
+ (Ljava/net/URI;Lorg/eclipse/jetty/util/Fields;)Lorg/eclipse/jetty/client/ContentResponse;
+GET
+ (Ljava/lang/String;)Lorg/eclipse/jetty/client/ContentResponse;
+ (Ljava/lang/String;)Lorg/eclipse/jetty/client/ContentResponse;
+GET
+ (Ljava/net/URI;)Lorg/eclipse/jetty/client/ContentResponse;
+ (Ljava/net/URI;)Lorg/eclipse/jetty/client/ContentResponse;
+POST
+ (Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+ (Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+POST
+ (Ljava/net/URI;)Lorg/eclipse/jetty/client/Request;
+ (Ljava/net/URI;)Lorg/eclipse/jetty/client/Request;
+copyRequest
+ (Lorg/eclipse/jetty/client/Request;Ljava/net/URI;)Lorg/eclipse/jetty/client/Request;
+ (Lorg/eclipse/jetty/client/Request;Ljava/net/URI;)Lorg/eclipse/jetty/client/Request;
+createOrigin
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Origin$Protocol;)Lorg/eclipse/jetty/client/Origin;
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Origin$Protocol;)Lorg/eclipse/jetty/client/Origin;
+findProtocolHandler
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;)Lorg/eclipse/jetty/client/ProtocolHandler;
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response;)Lorg/eclipse/jetty/client/ProtocolHandler;
+getAuthenticationStore
+ ()Lorg/eclipse/jetty/client/AuthenticationStore;
+ ()Lorg/eclipse/jetty/client/AuthenticationStore;
+getBindAddress
+ ()Ljava/net/SocketAddress;
+ ()Ljava/net/SocketAddress;
+getByteBufferPool
+ ()Lorg/eclipse/jetty/io/ByteBufferPool;
+ ()Lorg/eclipse/jetty/io/ByteBufferPool;
+getContentDecoderFactories
+ ()Lorg/eclipse/jetty/client/ContentDecoder$Factories;
+ ()Lorg/eclipse/jetty/client/ContentDecoder$Factories;
+getDefaultRequestContentType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDestinations
+ ()Ljava/util/List<Lorg/eclipse/jetty/client/Destination;>;
+ ()Ljava/util/List<Lorg/eclipse/jetty/client/Destination;>;
+getExecutor
+ ()Ljava/util/concurrent/Executor;
+ ()Ljava/util/concurrent/Executor;
+getHttpCompliance
+ ()Lorg/eclipse/jetty/http/HttpCompliance;
+ ()Lorg/eclipse/jetty/http/HttpCompliance;
+getHttpCookieStore
+ ()Lorg/eclipse/jetty/http/HttpCookieStore;
+ ()Lorg/eclipse/jetty/http/HttpCookieStore;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getProtocolHandlers
+ ()Lorg/eclipse/jetty/client/ProtocolHandlers;
+ ()Lorg/eclipse/jetty/client/ProtocolHandlers;
+getProxyConfiguration
+ ()Lorg/eclipse/jetty/client/ProxyConfiguration;
+ ()Lorg/eclipse/jetty/client/ProxyConfiguration;
+getRequestListeners
+ ()Lorg/eclipse/jetty/client/RequestListeners;
+ ()Lorg/eclipse/jetty/client/RequestListeners;
+getScheduler
+ ()Lorg/eclipse/jetty/util/thread/Scheduler;
+ ()Lorg/eclipse/jetty/util/thread/Scheduler;
+getSocketAddressResolver
+ ()Lorg/eclipse/jetty/util/SocketAddressResolver;
+ ()Lorg/eclipse/jetty/util/SocketAddressResolver;
+getSslContextFactory
+ ()Lorg/eclipse/jetty/util/ssl/SslContextFactory$Client;
+ ()Lorg/eclipse/jetty/util/ssl/SslContextFactory$Client;
+getTransport
+ ()Lorg/eclipse/jetty/client/HttpClientTransport;
+ ()Lorg/eclipse/jetty/client/HttpClientTransport;
+getUserAgentField
+ ()Lorg/eclipse/jetty/http/HttpField;
+ ()Lorg/eclipse/jetty/http/HttpField;
+newConnection
+ (Lorg/eclipse/jetty/client/Destination;Lorg/eclipse/jetty/util/Promise<Lorg/eclipse/jetty/client/Connection;>;)V
+ (Lorg/eclipse/jetty/client/Destination;Lorg/eclipse/jetty/util/Promise<Lorg/eclipse/jetty/client/Connection;>;)V
+newRequest
+ (Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+ (Ljava/lang/String;)Lorg/eclipse/jetty/client/Request;
+newRequest
+ (Ljava/lang/String;I)Lorg/eclipse/jetty/client/Request;
+ (Ljava/lang/String;I)Lorg/eclipse/jetty/client/Request;
+newRequest
+ (Ljava/net/URI;)Lorg/eclipse/jetty/client/Request;
+ (Ljava/net/URI;)Lorg/eclipse/jetty/client/Request;
+newSslClientConnectionFactory
+ (Lorg/eclipse/jetty/util/ssl/SslContextFactory$Client;Lorg/eclipse/jetty/io/ClientConnectionFactory;)Lorg/eclipse/jetty/io/ClientConnectionFactory;
+ (Lorg/eclipse/jetty/util/ssl/SslContextFactory$Client;Lorg/eclipse/jetty/io/ClientConnectionFactory;)Lorg/eclipse/jetty/io/ClientConnectionFactory;
+putCookie
+ (Ljava/net/URI;Lorg/eclipse/jetty/http/HttpField;)V
+ (Ljava/net/URI;Lorg/eclipse/jetty/http/HttpField;)V
+removeDestination
+ (Lorg/eclipse/jetty/client/Destination;)Z
+ (Lorg/eclipse/jetty/client/Destination;)Z
+resolveDestination
+ (Lorg/eclipse/jetty/client/Origin;)Lorg/eclipse/jetty/client/Destination;
+ (Lorg/eclipse/jetty/client/Origin;)Lorg/eclipse/jetty/client/Destination;
+resolveDestination
+ (Lorg/eclipse/jetty/client/Request;)Lorg/eclipse/jetty/client/Destination;
+ (Lorg/eclipse/jetty/client/Request;)Lorg/eclipse/jetty/client/Destination;
+setAuthenticationStore
+ (Lorg/eclipse/jetty/client/AuthenticationStore;)V
+ (Lorg/eclipse/jetty/client/AuthenticationStore;)V
+setBindAddress
+ (Ljava/net/SocketAddress;)V
+ (Ljava/net/SocketAddress;)V
+setByteBufferPool
+ (Lorg/eclipse/jetty/io/ByteBufferPool;)V
+ (Lorg/eclipse/jetty/io/ByteBufferPool;)V
+setDefaultRequestContentType
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setExecutor
+ (Ljava/util/concurrent/Executor;)V
+ (Ljava/util/concurrent/Executor;)V
+setHttpCompliance
+ (Lorg/eclipse/jetty/http/HttpCompliance;)V
+ (Lorg/eclipse/jetty/http/HttpCompliance;)V
+setHttpCookieStore
+ (Lorg/eclipse/jetty/http/HttpCookieStore;)V
+ (Lorg/eclipse/jetty/http/HttpCookieStore;)V
+setName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setScheduler
+ (Lorg/eclipse/jetty/util/thread/Scheduler;)V
+ (Lorg/eclipse/jetty/util/thread/Scheduler;)V
+setSocketAddressResolver
+ (Lorg/eclipse/jetty/util/SocketAddressResolver;)V
+ (Lorg/eclipse/jetty/util/SocketAddressResolver;)V
+setSslContextFactory
+ (Lorg/eclipse/jetty/util/ssl/SslContextFactory$Client;)V
+ (Lorg/eclipse/jetty/util/ssl/SslContextFactory$Client;)V
+setUserAgentField
+ (Lorg/eclipse/jetty/http/HttpField;)V
+ (Lorg/eclipse/jetty/http/HttpField;)V

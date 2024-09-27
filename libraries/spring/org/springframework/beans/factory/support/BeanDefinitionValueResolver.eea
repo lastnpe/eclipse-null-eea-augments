@@ -1,0 +1,23 @@
+class org/springframework/beans/factory/support/BeanDefinitionValueResolver
+
+<init>
+ (Lorg/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory;Ljava/lang/String;Lorg/springframework/beans/factory/config/BeanDefinition;)V
+ (Lorg/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory;Ljava/lang/String;Lorg/springframework/beans/factory/config/BeanDefinition;)V
+<init>
+ (Lorg/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory;Ljava/lang/String;Lorg/springframework/beans/factory/config/BeanDefinition;Lorg/springframework/beans/TypeConverter;)V
+ (Lorg/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory;Ljava/lang/String;Lorg/springframework/beans/factory/config/BeanDefinition;Lorg/springframework/beans/TypeConverter;)V
+evaluate
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)L0java/lang/Object;
+evaluate
+ (Lorg/springframework/beans/factory/config/TypedStringValue;)Ljava/lang/Object;
+ (Lorg/springframework/beans/factory/config/TypedStringValue;)L0java/lang/Object;
+resolveInnerBean
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/springframework/beans/factory/config/BeanDefinition;Ljava/util/function/BiFunction<Ljava/lang/String;Lorg/springframework/beans/factory/support/RootBeanDefinition;TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/springframework/beans/factory/config/BeanDefinition;Ljava/util/function/BiFunction<Ljava/lang/String;Lorg/springframework/beans/factory/support/RootBeanDefinition;TT;>;)TT;
+resolveTargetType
+ (Lorg/springframework/beans/factory/config/TypedStringValue;)Ljava/lang/Class<*>;
+ (Lorg/springframework/beans/factory/config/TypedStringValue;)L0java/lang/Class<*>;
+resolveValueIfNecessary
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/Object;)L0java/lang/Object;

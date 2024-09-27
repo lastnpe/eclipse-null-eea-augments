@@ -1,0 +1,43 @@
+class java/time/ZoneId
+
+SHORT_IDS
+ Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+ L1java/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+
+from
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/ZoneId;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/ZoneId;
+getAvailableZoneIds
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+of
+ (Ljava/lang/String;)Ljava/time/ZoneId;
+ (Ljava/lang/String;)Ljava/time/ZoneId;
+of
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)Ljava/time/ZoneId;
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)Ljava/time/ZoneId;
+ofOffset
+ (Ljava/lang/String;Ljava/time/ZoneOffset;)Ljava/time/ZoneId;
+ (Ljava/lang/String;Ljava/time/ZoneOffset;)Ljava/time/ZoneId;
+systemDefault
+ ()Ljava/time/ZoneId;
+ ()Ljava/time/ZoneId;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getDisplayName
+ (Ljava/time/format/TextStyle;Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/time/format/TextStyle;Ljava/util/Locale;)Ljava/lang/String;
+getId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRules
+ ()Ljava/time/zone/ZoneRules;
+ ()Ljava/time/zone/ZoneRules;
+normalized
+ ()Ljava/time/ZoneId;
+ ()Ljava/time/ZoneId;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

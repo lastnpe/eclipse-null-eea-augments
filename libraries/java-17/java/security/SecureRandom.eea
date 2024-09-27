@@ -1,0 +1,60 @@
+class java/security/SecureRandom
+
+getInstance
+ (Ljava/lang/String;)Ljava/security/SecureRandom;
+ (Ljava/lang/String;)Ljava/security/SecureRandom;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/SecureRandom;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/SecureRandom;
+getInstance
+ (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/SecureRandom;
+ (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/SecureRandom;
+getInstance
+ (Ljava/lang/String;Ljava/security/SecureRandomParameters;)Ljava/security/SecureRandom;
+ (Ljava/lang/String;Ljava/security/SecureRandomParameters;)Ljava/security/SecureRandom;
+getInstance
+ (Ljava/lang/String;Ljava/security/SecureRandomParameters;Ljava/lang/String;)Ljava/security/SecureRandom;
+ (Ljava/lang/String;Ljava/security/SecureRandomParameters;Ljava/lang/String;)Ljava/security/SecureRandom;
+getInstance
+ (Ljava/lang/String;Ljava/security/SecureRandomParameters;Ljava/security/Provider;)Ljava/security/SecureRandom;
+ (Ljava/lang/String;Ljava/security/SecureRandomParameters;Ljava/security/Provider;)Ljava/security/SecureRandom;
+getInstanceStrong
+ ()Ljava/security/SecureRandom;
+ ()Ljava/security/SecureRandom;
+getSeed
+ (I)[B
+ (I)[B
+
+<init>
+ (Ljava/security/SecureRandomSpi;Ljava/security/Provider;)V
+ (Ljava/security/SecureRandomSpi;Ljava/security/Provider;)V
+<init>
+ ([B)V
+ ([B)V
+generateSeed
+ (I)[B
+ (I)[B
+getAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getParameters
+ ()Ljava/security/SecureRandomParameters;
+ ()Ljava/security/SecureRandomParameters;
+getProvider
+ ()Ljava/security/Provider;
+ ()Ljava/security/Provider;
+nextBytes
+ ([B)V
+ ([B)V
+nextBytes
+ ([BLjava/security/SecureRandomParameters;)V
+ ([BLjava/security/SecureRandomParameters;)V
+reseed
+ (Ljava/security/SecureRandomParameters;)V
+ (Ljava/security/SecureRandomParameters;)V
+setSeed
+ ([B)V
+ ([B)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

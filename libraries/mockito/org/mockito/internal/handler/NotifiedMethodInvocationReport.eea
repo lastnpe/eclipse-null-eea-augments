@@ -1,0 +1,23 @@
+class org/mockito/internal/handler/NotifiedMethodInvocationReport
+
+<init>
+ (Lorg/mockito/invocation/Invocation;Ljava/lang/Object;)V
+ (Lorg/mockito/invocation/Invocation;Ljava/lang/Object;)V
+<init>
+ (Lorg/mockito/invocation/Invocation;Ljava/lang/Throwable;)V
+ (Lorg/mockito/invocation/Invocation;Ljava/lang/Throwable;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getInvocation
+ ()Lorg/mockito/invocation/DescribedInvocation;
+ ()Lorg/mockito/invocation/DescribedInvocation;
+getLocationOfStubbing
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getReturnedValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getThrowable
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;

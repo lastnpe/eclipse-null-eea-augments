@@ -1,31 +1,57 @@
 class java/util/stream/Stream
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super java/util/stream/BaseStream
+ <TT;Ljava/util/stream/Stream<TT;>;>
+ <TT;Ljava/util/stream/Stream<TT;>;>
+
+builder
+ <T:Ljava/lang/Object;>()Ljava/util/stream/Stream$Builder<TT;>;
+ <T:Ljava/lang/Object;>()L1java/util/stream/Stream$Builder<TT;>;
+concat
+ <T:Ljava/lang/Object;>(Ljava/util/stream/Stream<+TT;>;Ljava/util/stream/Stream<+TT;>;)Ljava/util/stream/Stream<TT;>;
+ <T:Ljava/lang/Object;>(L1java/util/stream/Stream<+TT;>;L1java/util/stream/Stream<+TT;>;)L1java/util/stream/Stream<TT;>;
+empty
+ <T:Ljava/lang/Object;>()Ljava/util/stream/Stream<TT;>;
+ <T:Ljava/lang/Object;>()L1java/util/stream/Stream<TT;>;
+generate
+ <T:Ljava/lang/Object;>(Ljava/util/function/Supplier<+TT;>;)Ljava/util/stream/Stream<TT;>;
+ <T:Ljava/lang/Object;>(L1java/util/function/Supplier<+TT;>;)L1java/util/stream/Stream<TT;>;
+iterate
+ <T:Ljava/lang/Object;>(TT;Ljava/util/function/Predicate<-TT;>;Ljava/util/function/UnaryOperator<TT;>;)Ljava/util/stream/Stream<TT;>;
+ <T:Ljava/lang/Object;>(TT;L1java/util/function/Predicate<-TT;>;L1java/util/function/UnaryOperator<TT;>;)L1java/util/stream/Stream<TT;>;
+iterate
+ <T:Ljava/lang/Object;>(TT;Ljava/util/function/UnaryOperator<TT;>;)Ljava/util/stream/Stream<TT;>;
+ <T:Ljava/lang/Object;>(TT;L1java/util/function/UnaryOperator<TT;>;)L1java/util/stream/Stream<TT;>;
+of
+ <T:Ljava/lang/Object;>(TT;)Ljava/util/stream/Stream<TT;>;
+ <T:Ljava/lang/Object;>(TT;)L1java/util/stream/Stream<TT;>;
+of
+ <T:Ljava/lang/Object;>([TT;)Ljava/util/stream/Stream<TT;>;
+ <T:Ljava/lang/Object;>([1TT;)L1java/util/stream/Stream<TT;>;
+ofNullable
+ <T:Ljava/lang/Object;>(TT;)Ljava/util/stream/Stream<TT;>;
+ <T:Ljava/lang/Object;>(TT;)L1java/util/stream/Stream<TT;>;
+
 allMatch
  (Ljava/util/function/Predicate<-TT;>;)Z
  (L1java/util/function/Predicate<-TT;>;)Z
 anyMatch
  (Ljava/util/function/Predicate<-TT;>;)Z
  (L1java/util/function/Predicate<-TT;>;)Z
-builder
- <T:Ljava/lang/Object;>()Ljava/util/stream/Stream$Builder<TT;>;
- <T:Ljava/lang/Object;>()L1java/util/stream/Stream$Builder<TT;>;
 collect
  <R:Ljava/lang/Object;>(Ljava/util/function/Supplier<TR;>;Ljava/util/function/BiConsumer<TR;-TT;>;Ljava/util/function/BiConsumer<TR;TR;>;)TR;
  <R:Ljava/lang/Object;>(L1java/util/function/Supplier<T1R;>;L1java/util/function/BiConsumer<T1R;-TT;>;L1java/util/function/BiConsumer<T1R;T1R;>;)T1R;
 collect
  <R:Ljava/lang/Object;A:Ljava/lang/Object;>(Ljava/util/stream/Collector<-TT;TA;TR;>;)TR;
  <R:Ljava/lang/Object;A:Ljava/lang/Object;>(L1java/util/stream/Collector<-TT;TA;T1R;>;)T1R;
-concat
- <T:Ljava/lang/Object;>(Ljava/util/stream/Stream<+TT;>;Ljava/util/stream/Stream<+TT;>;)Ljava/util/stream/Stream<TT;>;
- <T:Ljava/lang/Object;>(L1java/util/stream/Stream<+TT;>;L1java/util/stream/Stream<+TT;>;)L1java/util/stream/Stream<TT;>;
 distinct
  ()Ljava/util/stream/Stream<TT;>;
  ()L1java/util/stream/Stream<TT;>;
 dropWhile
  (Ljava/util/function/Predicate<-TT;>;)Ljava/util/stream/Stream<TT;>;
  (L1java/util/function/Predicate<-TT;>;)L1java/util/stream/Stream<TT;>;
-empty
- <T:Ljava/lang/Object;>()Ljava/util/stream/Stream<TT;>;
- <T:Ljava/lang/Object;>()L1java/util/stream/Stream<TT;>;
 filter
  (Ljava/util/function/Predicate<-TT;>;)Ljava/util/stream/Stream<TT;>;
  (L1java/util/function/Predicate<-TT;>;)L1java/util/stream/Stream<TT;>;
@@ -53,21 +79,24 @@ forEach
 forEachOrdered
  (Ljava/util/function/Consumer<-TT;>;)V
  (L1java/util/function/Consumer<-TT;>;)V
-generate
- <T:Ljava/lang/Object;>(Ljava/util/function/Supplier<+TT;>;)Ljava/util/stream/Stream<TT;>;
- <T:Ljava/lang/Object;>(L1java/util/function/Supplier<+TT;>;)L1java/util/stream/Stream<TT;>;
-iterate
- <T:Ljava/lang/Object;>(TT;Ljava/util/function/Predicate<-TT;>;Ljava/util/function/UnaryOperator<TT;>;)Ljava/util/stream/Stream<TT;>;
- <T:Ljava/lang/Object;>(TT;L1java/util/function/Predicate<-TT;>;L1java/util/function/UnaryOperator<TT;>;)L1java/util/stream/Stream<TT;>;
-iterate
- <T:Ljava/lang/Object;>(TT;Ljava/util/function/UnaryOperator<TT;>;)Ljava/util/stream/Stream<TT;>;
- <T:Ljava/lang/Object;>(TT;L1java/util/function/UnaryOperator<TT;>;)L1java/util/stream/Stream<TT;>;
 limit
  (J)Ljava/util/stream/Stream<TT;>;
  (J)L1java/util/stream/Stream<TT;>;
 map
  <R:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TR;>;)Ljava/util/stream/Stream<TR;>;
  <R:Ljava/lang/Object;>(L1java/util/function/Function<-TT;+TR;>;)L1java/util/stream/Stream<TR;>;
+mapMulti
+ <R:Ljava/lang/Object;>(Ljava/util/function/BiConsumer<-TT;-Ljava/util/function/Consumer<TR;>;>;)Ljava/util/stream/Stream<TR;>;
+ <R:Ljava/lang/Object;>(Ljava/util/function/BiConsumer<-TT;-Ljava/util/function/Consumer<TR;>;>;)Ljava/util/stream/Stream<TR;>;
+mapMultiToDouble
+ (Ljava/util/function/BiConsumer<-TT;-Ljava/util/function/DoubleConsumer;>;)Ljava/util/stream/DoubleStream;
+ (Ljava/util/function/BiConsumer<-TT;-Ljava/util/function/DoubleConsumer;>;)Ljava/util/stream/DoubleStream;
+mapMultiToInt
+ (Ljava/util/function/BiConsumer<-TT;-Ljava/util/function/IntConsumer;>;)Ljava/util/stream/IntStream;
+ (Ljava/util/function/BiConsumer<-TT;-Ljava/util/function/IntConsumer;>;)Ljava/util/stream/IntStream;
+mapMultiToLong
+ (Ljava/util/function/BiConsumer<-TT;-Ljava/util/function/LongConsumer;>;)Ljava/util/stream/LongStream;
+ (Ljava/util/function/BiConsumer<-TT;-Ljava/util/function/LongConsumer;>;)Ljava/util/stream/LongStream;
 mapToDouble
  (Ljava/util/function/ToDoubleFunction<-TT;>;)Ljava/util/stream/DoubleStream;
  (L1java/util/function/ToDoubleFunction<-TT;>;)L1java/util/stream/DoubleStream;
@@ -86,15 +115,6 @@ min
 noneMatch
  (Ljava/util/function/Predicate<-TT;>;)Z
  (L1java/util/function/Predicate<-TT;>;)Z
-of
- <T:Ljava/lang/Object;>(TT;)Ljava/util/stream/Stream<TT;>;
- <T:Ljava/lang/Object;>(TT;)L1java/util/stream/Stream<TT;>;
-of
- <T:Ljava/lang/Object;>([TT;)Ljava/util/stream/Stream<TT;>;
- <T:Ljava/lang/Object;>([1TT;)L1java/util/stream/Stream<TT;>;
-ofNullable
- <T:Ljava/lang/Object;>(TT;)Ljava/util/stream/Stream<TT;>;
- <T:Ljava/lang/Object;>(TT;)L1java/util/stream/Stream<TT;>;
 peek
  (Ljava/util/function/Consumer<-TT;>;)Ljava/util/stream/Stream<TT;>;
  (L1java/util/function/Consumer<-TT;>;)L1java/util/stream/Stream<TT;>;
@@ -125,3 +145,6 @@ toArray
 toArray
  <A:Ljava/lang/Object;>(Ljava/util/function/IntFunction<[TA;>;)[TA;
  <A:Ljava/lang/Object;>(L1java/util/function/IntFunction<[1TA;>;)[1TA;
+toList
+ ()Ljava/util/List<TT;>;
+ ()Ljava/util/List<TT;>;

@@ -1,0 +1,21 @@
+class org/springframework/beans/factory/serviceloader/AbstractServiceLoaderBasedFactoryBean
+
+super org/springframework/beans/factory/config/AbstractFactoryBean
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+createInstance
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getObjectToExpose
+ (Ljava/util/ServiceLoader<*>;)Ljava/lang/Object;
+ (Ljava/util/ServiceLoader<*>;)Ljava/lang/Object;
+getServiceType
+ ()Ljava/lang/Class<*>;
+ ()L0java/lang/Class<*>;
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setServiceType
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V

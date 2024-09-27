@@ -1,0 +1,62 @@
+class com/thoughtworks/xstream/core/util/PresortedSet
+
+<init>
+ (Ljava/util/Comparator;)V
+ (Ljava/util/Comparator;)V
+<init>
+ (Ljava/util/Comparator;Ljava/util/Collection;)V
+ (Ljava/util/Comparator;Ljava/util/Collection;)V
+add
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+addAll
+ (Ljava/util/Collection;)Z
+ (Ljava/util/Collection;)Z
+comparator
+ ()Ljava/util/Comparator;
+ ()Ljava/util/Comparator;
+contains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+containsAll
+ (Ljava/util/Collection;)Z
+ (Ljava/util/Collection;)Z
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+first
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+headSet
+ (Ljava/lang/Object;)Ljava/util/SortedSet;
+ (Ljava/lang/Object;)Ljava/util/SortedSet;
+iterator
+ ()Ljava/util/Iterator;
+ ()Ljava/util/Iterator;
+last
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+remove
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+removeAll
+ (Ljava/util/Collection;)Z
+ (Ljava/util/Collection;)Z
+retainAll
+ (Ljava/util/Collection;)Z
+ (Ljava/util/Collection;)Z
+subList
+ (II)Ljava/util/List;
+ (II)Ljava/util/List;
+subSet
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/SortedSet;
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/SortedSet;
+tailSet
+ (Ljava/lang/Object;)Ljava/util/SortedSet;
+ (Ljava/lang/Object;)Ljava/util/SortedSet;
+toArray
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+toArray
+ ([Ljava/lang/Object;)[Ljava/lang/Object;
+ ([Ljava/lang/Object;)[Ljava/lang/Object;

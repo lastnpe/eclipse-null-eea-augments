@@ -1,0 +1,23 @@
+class javax/management/MBeanServerFactory
+
+createMBeanServer
+ ()Ljavax/management/MBeanServer;
+ ()Ljavax/management/MBeanServer;
+createMBeanServer
+ (Ljava/lang/String;)Ljavax/management/MBeanServer;
+ (Ljava/lang/String;)Ljavax/management/MBeanServer;
+findMBeanServer
+ (Ljava/lang/String;)Ljava/util/ArrayList<Ljavax/management/MBeanServer;>;
+ (Ljava/lang/String;)Ljava/util/ArrayList<Ljavax/management/MBeanServer;>;
+getClassLoaderRepository
+ (Ljavax/management/MBeanServer;)Ljavax/management/loading/ClassLoaderRepository;
+ (Ljavax/management/MBeanServer;)Ljavax/management/loading/ClassLoaderRepository;
+newMBeanServer
+ ()Ljavax/management/MBeanServer;
+ ()Ljavax/management/MBeanServer;
+newMBeanServer
+ (Ljava/lang/String;)Ljavax/management/MBeanServer;
+ (Ljava/lang/String;)Ljavax/management/MBeanServer;
+releaseMBeanServer
+ (Ljavax/management/MBeanServer;)V
+ (Ljavax/management/MBeanServer;)V

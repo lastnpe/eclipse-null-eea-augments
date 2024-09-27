@@ -1,0 +1,47 @@
+class com/google/common/collect/Multisets
+
+containsOccurrences
+ (Lcom/google/common/collect/Multiset<*>;Lcom/google/common/collect/Multiset<*>;)Z
+ (Lcom/google/common/collect/Multiset<*>;Lcom/google/common/collect/Multiset<*>;)Z
+copyHighestCountFirst
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/Multiset<TE;>;)Lcom/google/common/collect/ImmutableMultiset<TE;>;
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/Multiset<TE;>;)Lcom/google/common/collect/ImmutableMultiset<TE;>;
+difference
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/Multiset<TE;>;Lcom/google/common/collect/Multiset<*>;)Lcom/google/common/collect/Multiset<TE;>;
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/Multiset<TE;>;Lcom/google/common/collect/Multiset<*>;)Lcom/google/common/collect/Multiset<TE;>;
+filter
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/Multiset<TE;>;Lcom/google/common/base/Predicate<-TE;>;)Lcom/google/common/collect/Multiset<TE;>;
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/Multiset<TE;>;Lcom/google/common/base/Predicate<-TE;>;)Lcom/google/common/collect/Multiset<TE;>;
+immutableEntry
+ <E:Ljava/lang/Object;>(TE;I)Lcom/google/common/collect/Multiset$Entry<TE;>;
+ <E:Ljava/lang/Object;>(TE;I)Lcom/google/common/collect/Multiset$Entry<TE;>;
+intersection
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/Multiset<TE;>;Lcom/google/common/collect/Multiset<*>;)Lcom/google/common/collect/Multiset<TE;>;
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/Multiset<TE;>;Lcom/google/common/collect/Multiset<*>;)Lcom/google/common/collect/Multiset<TE;>;
+removeOccurrences
+ (Lcom/google/common/collect/Multiset<*>;Lcom/google/common/collect/Multiset<*>;)Z
+ (Lcom/google/common/collect/Multiset<*>;Lcom/google/common/collect/Multiset<*>;)Z
+removeOccurrences
+ (Lcom/google/common/collect/Multiset<*>;Ljava/lang/Iterable<*>;)Z
+ (Lcom/google/common/collect/Multiset<*>;Ljava/lang/Iterable<*>;)Z
+retainOccurrences
+ (Lcom/google/common/collect/Multiset<*>;Lcom/google/common/collect/Multiset<*>;)Z
+ (Lcom/google/common/collect/Multiset<*>;Lcom/google/common/collect/Multiset<*>;)Z
+sum
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/Multiset<+TE;>;Lcom/google/common/collect/Multiset<+TE;>;)Lcom/google/common/collect/Multiset<TE;>;
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/Multiset<+TE;>;Lcom/google/common/collect/Multiset<+TE;>;)Lcom/google/common/collect/Multiset<TE;>;
+toMultiset
+ <T:Ljava/lang/Object;E:Ljava/lang/Object;M::Lcom/google/common/collect/Multiset<TE;>;>(Ljava/util/function/Function<-TT;TE;>;Ljava/util/function/ToIntFunction<-TT;>;Ljava/util/function/Supplier<TM;>;)Ljava/util/stream/Collector<TT;*TM;>;
+ <T:Ljava/lang/Object;E:Ljava/lang/Object;M::Lcom/google/common/collect/Multiset<TE;>;>(Ljava/util/function/Function<-TT;TE;>;Ljava/util/function/ToIntFunction<-TT;>;Ljava/util/function/Supplier<TM;>;)Ljava/util/stream/Collector<TT;*TM;>;
+union
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/Multiset<+TE;>;Lcom/google/common/collect/Multiset<+TE;>;)Lcom/google/common/collect/Multiset<TE;>;
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/Multiset<+TE;>;Lcom/google/common/collect/Multiset<+TE;>;)Lcom/google/common/collect/Multiset<TE;>;
+unmodifiableMultiset
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/ImmutableMultiset<TE;>;)Lcom/google/common/collect/Multiset<TE;>;
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/ImmutableMultiset<TE;>;)Lcom/google/common/collect/Multiset<TE;>;
+unmodifiableMultiset
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/Multiset<+TE;>;)Lcom/google/common/collect/Multiset<TE;>;
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/Multiset<+TE;>;)Lcom/google/common/collect/Multiset<TE;>;
+unmodifiableSortedMultiset
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/SortedMultiset<TE;>;)Lcom/google/common/collect/SortedMultiset<TE;>;
+ <E:Ljava/lang/Object;>(Lcom/google/common/collect/SortedMultiset<TE;>;)Lcom/google/common/collect/SortedMultiset<TE;>;

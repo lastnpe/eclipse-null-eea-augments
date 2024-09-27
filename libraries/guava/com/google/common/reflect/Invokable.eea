@@ -1,0 +1,62 @@
+class com/google/common/reflect/Invokable
+ <T:Ljava/lang/Object;R:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;R:Ljava/lang/Object;>
+
+from
+ (Ljava/lang/reflect/Method;)Lcom/google/common/reflect/Invokable<*Ljava/lang/Object;>;
+ (Ljava/lang/reflect/Method;)Lcom/google/common/reflect/Invokable<*Ljava/lang/Object;>;
+from
+ <T:Ljava/lang/Object;>(Ljava/lang/reflect/Constructor<TT;>;)Lcom/google/common/reflect/Invokable<TT;TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/reflect/Constructor<TT;>;)Lcom/google/common/reflect/Invokable<TT;TT;>;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAnnotatedReturnType
+ ()Ljava/lang/reflect/AnnotatedType;
+ ()Ljava/lang/reflect/AnnotatedType;
+getAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)T0A;
+getAnnotations
+ ()[Ljava/lang/annotation/Annotation;
+ ()[Ljava/lang/annotation/Annotation;
+getDeclaredAnnotations
+ ()[Ljava/lang/annotation/Annotation;
+ ()[Ljava/lang/annotation/Annotation;
+getDeclaringClass
+ ()Ljava/lang/Class<-TT;>;
+ ()Ljava/lang/Class<-TT;>;
+getExceptionTypes
+ ()Lcom/google/common/collect/ImmutableList<Lcom/google/common/reflect/TypeToken<+Ljava/lang/Throwable;>;>;
+ ()Lcom/google/common/collect/ImmutableList<Lcom/google/common/reflect/TypeToken<+Ljava/lang/Throwable;>;>;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getOwnerType
+ ()Lcom/google/common/reflect/TypeToken<TT;>;
+ ()Lcom/google/common/reflect/TypeToken<TT;>;
+getParameters
+ ()Lcom/google/common/collect/ImmutableList<Lcom/google/common/reflect/Parameter;>;
+ ()L1com/google/common/collect/ImmutableList<Lcom/google/common/reflect/Parameter;>;
+getReturnType
+ ()Lcom/google/common/reflect/TypeToken<+TR;>;
+ ()Lcom/google/common/reflect/TypeToken<+TR;>;
+getTypeParameters
+ ()[Ljava/lang/reflect/TypeVariable<*>;
+ ()[Ljava/lang/reflect/TypeVariable<*>;
+invoke
+ (TT;[Ljava/lang/Object;)TR;
+ (TT;[Ljava/lang/Object;)T0R;
+isAnnotationPresent
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+returning
+ <R1:TR;>(Lcom/google/common/reflect/TypeToken<TR1;>;)Lcom/google/common/reflect/Invokable<TT;TR1;>;
+ <R1:TR;>(Lcom/google/common/reflect/TypeToken<TR1;>;)Lcom/google/common/reflect/Invokable<TT;TR1;>;
+returning
+ <R1:TR;>(Ljava/lang/Class<TR1;>;)Lcom/google/common/reflect/Invokable<TT;TR1;>;
+ <R1:TR;>(Ljava/lang/Class<TR1;>;)Lcom/google/common/reflect/Invokable<TT;TR1;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

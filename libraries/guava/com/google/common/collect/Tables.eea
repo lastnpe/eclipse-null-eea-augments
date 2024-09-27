@@ -1,0 +1,29 @@
+class com/google/common/collect/Tables
+
+immutableCell
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>(TR;TC;TV;)Lcom/google/common/collect/Table$Cell<TR;TC;TV;>;
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>(TR;TC;TV;)Lcom/google/common/collect/Table$Cell<TR;TC;TV;>;
+newCustomTable
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<TR;Ljava/util/Map<TC;TV;>;>;Lcom/google/common/base/Supplier<+Ljava/util/Map<TC;TV;>;>;)Lcom/google/common/collect/Table<TR;TC;TV;>;
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<TR;Ljava/util/Map<TC;TV;>;>;Lcom/google/common/base/Supplier<+Ljava/util/Map<TC;TV;>;>;)Lcom/google/common/collect/Table<TR;TC;TV;>;
+synchronizedTable
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Table<TR;TC;TV;>;)Lcom/google/common/collect/Table<TR;TC;TV;>;
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Table<TR;TC;TV;>;)Lcom/google/common/collect/Table<TR;TC;TV;>;
+toTable
+ <T:Ljava/lang/Object;R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;I::Lcom/google/common/collect/Table<TR;TC;TV;>;>(Ljava/util/function/Function<-TT;+TR;>;Ljava/util/function/Function<-TT;+TC;>;Ljava/util/function/Function<-TT;+TV;>;Ljava/util/function/BinaryOperator<TV;>;Ljava/util/function/Supplier<TI;>;)Ljava/util/stream/Collector<TT;*TI;>;
+ <T:Ljava/lang/Object;R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;I::Lcom/google/common/collect/Table<TR;TC;TV;>;>(Ljava/util/function/Function<-TT;+TR;>;Ljava/util/function/Function<-TT;+TC;>;Ljava/util/function/Function<-TT;+TV;>;Ljava/util/function/BinaryOperator<TV;>;Ljava/util/function/Supplier<TI;>;)Ljava/util/stream/Collector<TT;*TI;>;
+toTable
+ <T:Ljava/lang/Object;R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;I::Lcom/google/common/collect/Table<TR;TC;TV;>;>(Ljava/util/function/Function<-TT;+TR;>;Ljava/util/function/Function<-TT;+TC;>;Ljava/util/function/Function<-TT;+TV;>;Ljava/util/function/Supplier<TI;>;)Ljava/util/stream/Collector<TT;*TI;>;
+ <T:Ljava/lang/Object;R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;I::Lcom/google/common/collect/Table<TR;TC;TV;>;>(Ljava/util/function/Function<-TT;+TR;>;Ljava/util/function/Function<-TT;+TC;>;Ljava/util/function/Function<-TT;+TV;>;Ljava/util/function/Supplier<TI;>;)Ljava/util/stream/Collector<TT;*TI;>;
+transformValues
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V1:Ljava/lang/Object;V2:Ljava/lang/Object;>(Lcom/google/common/collect/Table<TR;TC;TV1;>;Lcom/google/common/base/Function<-TV1;TV2;>;)Lcom/google/common/collect/Table<TR;TC;TV2;>;
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V1:Ljava/lang/Object;V2:Ljava/lang/Object;>(Lcom/google/common/collect/Table<TR;TC;TV1;>;Lcom/google/common/base/Function<-TV1;TV2;>;)Lcom/google/common/collect/Table<TR;TC;TV2;>;
+transpose
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Table<TR;TC;TV;>;)Lcom/google/common/collect/Table<TC;TR;TV;>;
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Table<TR;TC;TV;>;)Lcom/google/common/collect/Table<TC;TR;TV;>;
+unmodifiableRowSortedTable
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/RowSortedTable<TR;+TC;+TV;>;)Lcom/google/common/collect/RowSortedTable<TR;TC;TV;>;
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/RowSortedTable<TR;+TC;+TV;>;)Lcom/google/common/collect/RowSortedTable<TR;TC;TV;>;
+unmodifiableTable
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Table<+TR;+TC;+TV;>;)Lcom/google/common/collect/Table<TR;TC;TV;>;
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Table<+TR;+TC;+TV;>;)Lcom/google/common/collect/Table<TR;TC;TV;>;

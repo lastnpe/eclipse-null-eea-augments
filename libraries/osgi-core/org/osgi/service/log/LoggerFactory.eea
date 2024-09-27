@@ -1,0 +1,17 @@
+class org/osgi/service/log/LoggerFactory
+
+getLogger
+ (Ljava/lang/Class<*>;)Lorg/osgi/service/log/Logger;
+ (Ljava/lang/Class<*>;)Lorg/osgi/service/log/Logger;
+getLogger
+ (Ljava/lang/String;)Lorg/osgi/service/log/Logger;
+ (Ljava/lang/String;)Lorg/osgi/service/log/Logger;
+getLogger
+ <L::Lorg/osgi/service/log/Logger;>(Ljava/lang/Class<*>;Ljava/lang/Class<TL;>;)TL;
+ <L::Lorg/osgi/service/log/Logger;>(Ljava/lang/Class<*>;Ljava/lang/Class<TL;>;)TL;
+getLogger
+ <L::Lorg/osgi/service/log/Logger;>(Ljava/lang/String;Ljava/lang/Class<TL;>;)TL;
+ <L::Lorg/osgi/service/log/Logger;>(Ljava/lang/String;Ljava/lang/Class<TL;>;)TL;
+getLogger
+ <L::Lorg/osgi/service/log/Logger;>(Lorg/osgi/framework/Bundle;Ljava/lang/String;Ljava/lang/Class<TL;>;)TL;
+ <L::Lorg/osgi/service/log/Logger;>(Lorg/osgi/framework/Bundle;Ljava/lang/String;Ljava/lang/Class<TL;>;)TL;

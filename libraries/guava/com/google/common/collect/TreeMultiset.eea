@@ -1,0 +1,45 @@
+class com/google/common/collect/TreeMultiset
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super com/google/common/collect/AbstractSortedMultiset
+ <TE;>
+ <TE;>
+
+create
+ <E::Ljava/lang/Comparable;>()Lcom/google/common/collect/TreeMultiset<TE;>;
+ <E::Ljava/lang/Comparable;>()Lcom/google/common/collect/TreeMultiset<TE;>;
+create
+ <E::Ljava/lang/Comparable;>(Ljava/lang/Iterable<+TE;>;)Lcom/google/common/collect/TreeMultiset<TE;>;
+ <E::Ljava/lang/Comparable;>(Ljava/lang/Iterable<+TE;>;)Lcom/google/common/collect/TreeMultiset<TE;>;
+create
+ <E:Ljava/lang/Object;>(Ljava/util/Comparator<-TE;>;)Lcom/google/common/collect/TreeMultiset<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Comparator<-TE;>;)Lcom/google/common/collect/TreeMultiset<TE;>;
+
+add
+ (TE;I)I
+ (TE;I)I
+count
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+forEachEntry
+ (Ljava/util/function/ObjIntConsumer<-TE;>;)V
+ (Ljava/util/function/ObjIntConsumer<-TE;>;)V
+headMultiset
+ (TE;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/SortedMultiset<TE;>;
+ (TE;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/SortedMultiset<TE;>;
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()Ljava/util/Iterator<TE;>;
+remove
+ (Ljava/lang/Object;I)I
+ (Ljava/lang/Object;I)I
+setCount
+ (TE;I)I
+ (TE;I)I
+setCount
+ (TE;II)Z
+ (TE;II)Z
+tailMultiset
+ (TE;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/SortedMultiset<TE;>;
+ (TE;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/SortedMultiset<TE;>;

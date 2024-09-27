@@ -1,0 +1,38 @@
+class javax/sql/rowset/serial/SerialBlob
+
+<init>
+ (Ljava/sql/Blob;)V
+ (Ljava/sql/Blob;)V
+<init>
+ ([B)V
+ ([B)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getBinaryStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getBinaryStream
+ (JJ)Ljava/io/InputStream;
+ (JJ)Ljava/io/InputStream;
+getBytes
+ (JI)[B
+ (JI)[B
+position
+ (Ljava/sql/Blob;J)J
+ (Ljava/sql/Blob;J)J
+position
+ ([BJ)J
+ ([BJ)J
+setBinaryStream
+ (J)Ljava/io/OutputStream;
+ (J)Ljava/io/OutputStream;
+setBytes
+ (J[B)I
+ (J[B)I
+setBytes
+ (J[BII)I
+ (J[BII)I

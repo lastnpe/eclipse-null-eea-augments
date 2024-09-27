@@ -1,0 +1,14 @@
+class org/springframework/core/task/support/ExecutorServiceAdapter
+
+<init>
+ (Lorg/springframework/core/task/TaskExecutor;)V
+ (Lorg/springframework/core/task/TaskExecutor;)V
+awaitTermination
+ (JLjava/util/concurrent/TimeUnit;)Z
+ (JLjava/util/concurrent/TimeUnit;)Z
+execute
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+shutdownNow
+ ()Ljava/util/List<Ljava/lang/Runnable;>;
+ ()Ljava/util/List<Ljava/lang/Runnable;>;

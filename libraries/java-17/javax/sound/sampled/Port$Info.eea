@@ -1,0 +1,36 @@
+class javax/sound/sampled/Port$Info
+
+COMPACT_DISC
+ Ljavax/sound/sampled/Port$Info;
+ L1javax/sound/sampled/Port$Info;
+HEADPHONE
+ Ljavax/sound/sampled/Port$Info;
+ L1javax/sound/sampled/Port$Info;
+LINE_IN
+ Ljavax/sound/sampled/Port$Info;
+ L1javax/sound/sampled/Port$Info;
+LINE_OUT
+ Ljavax/sound/sampled/Port$Info;
+ L1javax/sound/sampled/Port$Info;
+MICROPHONE
+ Ljavax/sound/sampled/Port$Info;
+ L1javax/sound/sampled/Port$Info;
+SPEAKER
+ Ljavax/sound/sampled/Port$Info;
+ L1javax/sound/sampled/Port$Info;
+
+<init>
+ (Ljava/lang/Class<*>;Ljava/lang/String;Z)V
+ (Ljava/lang/Class<*>;Ljava/lang/String;Z)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+matches
+ (Ljavax/sound/sampled/Line$Info;)Z
+ (Ljavax/sound/sampled/Line$Info;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.sound.sampled.Line$Info)

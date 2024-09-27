@@ -1,0 +1,35 @@
+class javax/xml/transform/Transformer
+
+getErrorListener
+ ()Ljavax/xml/transform/ErrorListener;
+ ()Ljavax/xml/transform/ErrorListener;
+getOutputProperties
+ ()Ljava/util/Properties;
+ ()Ljava/util/Properties;
+getOutputProperty
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getParameter
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getURIResolver
+ ()Ljavax/xml/transform/URIResolver;
+ ()Ljavax/xml/transform/URIResolver;
+setErrorListener
+ (Ljavax/xml/transform/ErrorListener;)V
+ (Ljavax/xml/transform/ErrorListener;)V
+setOutputProperties
+ (Ljava/util/Properties;)V
+ (Ljava/util/Properties;)V
+setOutputProperty
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setParameter
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+setURIResolver
+ (Ljavax/xml/transform/URIResolver;)V
+ (Ljavax/xml/transform/URIResolver;)V
+transform
+ (Ljavax/xml/transform/Source;Ljavax/xml/transform/Result;)V
+ (Ljavax/xml/transform/Source;Ljavax/xml/transform/Result;)V

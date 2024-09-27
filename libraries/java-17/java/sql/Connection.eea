@@ -1,0 +1,125 @@
+class java/sql/Connection
+
+abort
+ (Ljava/util/concurrent/Executor;)V
+ (Ljava/util/concurrent/Executor;)V
+createArrayOf
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/sql/Array;
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/sql/Array;
+createBlob
+ ()Ljava/sql/Blob;
+ ()Ljava/sql/Blob;
+createClob
+ ()Ljava/sql/Clob;
+ ()Ljava/sql/Clob;
+createNClob
+ ()Ljava/sql/NClob;
+ ()Ljava/sql/NClob;
+createSQLXML
+ ()Ljava/sql/SQLXML;
+ ()Ljava/sql/SQLXML;
+createStatement
+ ()Ljava/sql/Statement;
+ ()Ljava/sql/Statement;
+createStatement
+ (II)Ljava/sql/Statement;
+ (II)Ljava/sql/Statement;
+createStatement
+ (III)Ljava/sql/Statement;
+ (III)Ljava/sql/Statement;
+createStruct
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/sql/Struct;
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/sql/Struct;
+getCatalog
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getClientInfo
+ ()Ljava/util/Properties;
+ ()Ljava/util/Properties;
+getClientInfo
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getMetaData
+ ()Ljava/sql/DatabaseMetaData;
+ ()Ljava/sql/DatabaseMetaData;
+getSchema
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTypeMap
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Class<*>;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Class<*>;>;
+getWarnings
+ ()Ljava/sql/SQLWarning;
+ ()Ljava/sql/SQLWarning;
+nativeSQL
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+prepareCall
+ (Ljava/lang/String;)Ljava/sql/CallableStatement;
+ (Ljava/lang/String;)Ljava/sql/CallableStatement;
+prepareCall
+ (Ljava/lang/String;II)Ljava/sql/CallableStatement;
+ (Ljava/lang/String;II)Ljava/sql/CallableStatement;
+prepareCall
+ (Ljava/lang/String;III)Ljava/sql/CallableStatement;
+ (Ljava/lang/String;III)Ljava/sql/CallableStatement;
+prepareStatement
+ (Ljava/lang/String;)Ljava/sql/PreparedStatement;
+ (Ljava/lang/String;)Ljava/sql/PreparedStatement;
+prepareStatement
+ (Ljava/lang/String;I)Ljava/sql/PreparedStatement;
+ (Ljava/lang/String;I)Ljava/sql/PreparedStatement;
+prepareStatement
+ (Ljava/lang/String;II)Ljava/sql/PreparedStatement;
+ (Ljava/lang/String;II)Ljava/sql/PreparedStatement;
+prepareStatement
+ (Ljava/lang/String;III)Ljava/sql/PreparedStatement;
+ (Ljava/lang/String;III)Ljava/sql/PreparedStatement;
+prepareStatement
+ (Ljava/lang/String;[I)Ljava/sql/PreparedStatement;
+ (Ljava/lang/String;[I)Ljava/sql/PreparedStatement;
+prepareStatement
+ (Ljava/lang/String;[Ljava/lang/String;)Ljava/sql/PreparedStatement;
+ (Ljava/lang/String;[Ljava/lang/String;)Ljava/sql/PreparedStatement;
+releaseSavepoint
+ (Ljava/sql/Savepoint;)V
+ (Ljava/sql/Savepoint;)V
+rollback
+ (Ljava/sql/Savepoint;)V
+ (Ljava/sql/Savepoint;)V
+setCatalog
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setClientInfo
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setClientInfo
+ (Ljava/util/Properties;)V
+ (Ljava/util/Properties;)V
+setNetworkTimeout
+ (Ljava/util/concurrent/Executor;I)V
+ (Ljava/util/concurrent/Executor;I)V
+setSavepoint
+ ()Ljava/sql/Savepoint;
+ ()Ljava/sql/Savepoint;
+setSavepoint
+ (Ljava/lang/String;)Ljava/sql/Savepoint;
+ (Ljava/lang/String;)Ljava/sql/Savepoint;
+setSchema
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setShardingKey
+ (Ljava/sql/ShardingKey;)V
+ (Ljava/sql/ShardingKey;)V
+setShardingKey
+ (Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;)V
+ (Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;)V
+setShardingKeyIfValid
+ (Ljava/sql/ShardingKey;I)Z
+ (Ljava/sql/ShardingKey;I)Z
+setShardingKeyIfValid
+ (Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;I)Z
+ (Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;I)Z
+setTypeMap
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Class<*>;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Class<*>;>;)V

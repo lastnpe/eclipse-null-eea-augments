@@ -1,0 +1,15 @@
+class java/beans/VetoableChangeListenerProxy
+
+super java/util/EventListenerProxy
+ <Ljava/beans/VetoableChangeListener;>
+ <Ljava/beans/VetoableChangeListener;>
+
+<init>
+ (Ljava/lang/String;Ljava/beans/VetoableChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/VetoableChangeListener;)V
+getPropertyName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+vetoableChange
+ (Ljava/beans/PropertyChangeEvent;)V
+ (L1java/beans/PropertyChangeEvent;)V # @Inherited(java.beans.VetoableChangeListener)

@@ -1,0 +1,23 @@
+class javax/annotation/processing/ProcessingEnvironment
+
+getElementUtils
+ ()Ljavax/lang/model/util/Elements;
+ ()Ljavax/lang/model/util/Elements;
+getFiler
+ ()Ljavax/annotation/processing/Filer;
+ ()Ljavax/annotation/processing/Filer;
+getLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+getMessager
+ ()Ljavax/annotation/processing/Messager;
+ ()Ljavax/annotation/processing/Messager;
+getOptions
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+getSourceVersion
+ ()Ljavax/lang/model/SourceVersion;
+ ()Ljavax/lang/model/SourceVersion;
+getTypeUtils
+ ()Ljavax/lang/model/util/Types;
+ ()Ljavax/lang/model/util/Types;

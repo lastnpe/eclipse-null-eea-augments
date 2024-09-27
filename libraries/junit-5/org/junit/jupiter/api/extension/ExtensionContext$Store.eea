@@ -1,0 +1,29 @@
+class org/junit/jupiter/api/extension/ExtensionContext$Store
+
+get
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+get
+ <V:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TV;>;)TV;
+ <V:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TV;>;)TV;
+getOrComputeIfAbsent
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;Ljava/util/function/Function<TK;TV;>;)Ljava/lang/Object;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;Ljava/util/function/Function<TK;TV;>;)Ljava/lang/Object;
+getOrComputeIfAbsent
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;Ljava/util/function/Function<TK;TV;>;Ljava/lang/Class<TV;>;)TV;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;Ljava/util/function/Function<TK;TV;>;Ljava/lang/Class<TV;>;)TV;
+getOrComputeIfAbsent
+ <V:Ljava/lang/Object;>(Ljava/lang/Class<TV;>;)TV;
+ <V:Ljava/lang/Object;>(Ljava/lang/Class<TV;>;)TV;
+getOrDefault
+ <V:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TV;>;TV;)TV;
+ <V:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TV;>;TV;)TV;
+put
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+remove
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+remove
+ <V:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TV;>;)TV;
+ <V:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TV;>;)TV;

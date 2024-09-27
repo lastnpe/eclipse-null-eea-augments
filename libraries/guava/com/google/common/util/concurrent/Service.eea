@@ -1,0 +1,29 @@
+class com/google/common/util/concurrent/Service
+
+addListener
+ (Lcom/google/common/util/concurrent/Service$Listener;Ljava/util/concurrent/Executor;)V
+ (Lcom/google/common/util/concurrent/Service$Listener;Ljava/util/concurrent/Executor;)V
+awaitRunning
+ (JLjava/util/concurrent/TimeUnit;)V
+ (JLjava/util/concurrent/TimeUnit;)V
+awaitRunning
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V
+awaitTerminated
+ (JLjava/util/concurrent/TimeUnit;)V
+ (JLjava/util/concurrent/TimeUnit;)V
+awaitTerminated
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V
+failureCause
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
+startAsync
+ ()Lcom/google/common/util/concurrent/Service;
+ ()Lcom/google/common/util/concurrent/Service;
+state
+ ()Lcom/google/common/util/concurrent/Service$State;
+ ()Lcom/google/common/util/concurrent/Service$State;
+stopAsync
+ ()Lcom/google/common/util/concurrent/Service;
+ ()Lcom/google/common/util/concurrent/Service;

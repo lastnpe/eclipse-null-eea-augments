@@ -1,0 +1,26 @@
+class org/springframework/util/xml/DomUtils
+
+createContentHandler
+ (Lorg/w3c/dom/Node;)Lorg/xml/sax/ContentHandler;
+ (Lorg/w3c/dom/Node;)Lorg/xml/sax/ContentHandler;
+getChildElementByTagName
+ (Lorg/w3c/dom/Element;Ljava/lang/String;)Lorg/w3c/dom/Element;
+ (Lorg/w3c/dom/Element;Ljava/lang/String;)L0org/w3c/dom/Element;
+getChildElementValueByTagName
+ (Lorg/w3c/dom/Element;Ljava/lang/String;)Ljava/lang/String;
+ (Lorg/w3c/dom/Element;Ljava/lang/String;)L0java/lang/String;
+getChildElements
+ (Lorg/w3c/dom/Element;)Ljava/util/List<Lorg/w3c/dom/Element;>;
+ (Lorg/w3c/dom/Element;)Ljava/util/List<Lorg/w3c/dom/Element;>;
+getChildElementsByTagName
+ (Lorg/w3c/dom/Element;Ljava/lang/String;)Ljava/util/List<Lorg/w3c/dom/Element;>;
+ (Lorg/w3c/dom/Element;Ljava/lang/String;)Ljava/util/List<Lorg/w3c/dom/Element;>;
+getChildElementsByTagName
+ (Lorg/w3c/dom/Element;[Ljava/lang/String;)Ljava/util/List<Lorg/w3c/dom/Element;>;
+ (Lorg/w3c/dom/Element;[Ljava/lang/String;)Ljava/util/List<Lorg/w3c/dom/Element;>;
+getTextValue
+ (Lorg/w3c/dom/Element;)Ljava/lang/String;
+ (Lorg/w3c/dom/Element;)Ljava/lang/String;
+nodeNameEquals
+ (Lorg/w3c/dom/Node;Ljava/lang/String;)Z
+ (Lorg/w3c/dom/Node;Ljava/lang/String;)Z

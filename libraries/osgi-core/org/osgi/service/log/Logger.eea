@@ -1,0 +1,96 @@
+class org/osgi/service/log/Logger
+
+ROOT_LOGGER_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+audit
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+audit
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+audit
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+audit
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+debug
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+debug
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+debug
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+debug
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+debug
+ <E:Ljava/lang/Exception;>(Lorg/osgi/service/log/LoggerConsumer<TE;>;)V^TE;
+ <E:Ljava/lang/Exception;>(Lorg/osgi/service/log/LoggerConsumer<TE;>;)V^TE;
+error
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+error
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+error
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+error
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+error
+ <E:Ljava/lang/Exception;>(Lorg/osgi/service/log/LoggerConsumer<TE;>;)V^TE;
+ <E:Ljava/lang/Exception;>(Lorg/osgi/service/log/LoggerConsumer<TE;>;)V^TE;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+info
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+info
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+info
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+info
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+info
+ <E:Ljava/lang/Exception;>(Lorg/osgi/service/log/LoggerConsumer<TE;>;)V^TE;
+ <E:Ljava/lang/Exception;>(Lorg/osgi/service/log/LoggerConsumer<TE;>;)V^TE;
+trace
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+trace
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+trace
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+trace
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+trace
+ <E:Ljava/lang/Exception;>(Lorg/osgi/service/log/LoggerConsumer<TE;>;)V^TE;
+ <E:Ljava/lang/Exception;>(Lorg/osgi/service/log/LoggerConsumer<TE;>;)V^TE;
+warn
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+warn
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+warn
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+warn
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+warn
+ <E:Ljava/lang/Exception;>(Lorg/osgi/service/log/LoggerConsumer<TE;>;)V^TE;
+ <E:Ljava/lang/Exception;>(Lorg/osgi/service/log/LoggerConsumer<TE;>;)V^TE;

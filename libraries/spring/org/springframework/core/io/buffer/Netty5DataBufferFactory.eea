@@ -1,0 +1,33 @@
+class org/springframework/core/io/buffer/Netty5DataBufferFactory
+
+toBuffer
+ (Lorg/springframework/core/io/buffer/DataBuffer;)Lio/netty5/buffer/Buffer;
+ (Lorg/springframework/core/io/buffer/DataBuffer;)Lio/netty5/buffer/Buffer;
+
+<init>
+ (Lio/netty5/buffer/BufferAllocator;)V
+ (Lio/netty5/buffer/BufferAllocator;)V
+allocateBuffer
+ ()Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+ ()Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+allocateBuffer
+ (I)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+ (I)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+getBufferAllocator
+ ()Lio/netty5/buffer/BufferAllocator;
+ ()Lio/netty5/buffer/BufferAllocator;
+join
+ (Ljava/util/List<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Lorg/springframework/core/io/buffer/DataBuffer;
+ (Ljava/util/List<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Lorg/springframework/core/io/buffer/DataBuffer;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+wrap
+ (Lio/netty5/buffer/Buffer;)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+ (Lio/netty5/buffer/Buffer;)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+wrap
+ (Ljava/nio/ByteBuffer;)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+ (Ljava/nio/ByteBuffer;)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+wrap
+ ([B)Lorg/springframework/core/io/buffer/Netty5DataBuffer;
+ ([B)Lorg/springframework/core/io/buffer/Netty5DataBuffer;

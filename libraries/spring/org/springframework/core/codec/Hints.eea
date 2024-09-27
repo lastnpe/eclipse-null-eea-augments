@@ -1,0 +1,33 @@
+class org/springframework/core/codec/Hints
+
+LOG_PREFIX_HINT
+ Ljava/lang/String;
+ L1java/lang/String;
+SUPPRESS_LOGGING_HINT
+ Ljava/lang/String;
+ L1java/lang/String;
+
+from
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getLogPrefix
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Ljava/lang/String;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Ljava/lang/String;
+getRequiredHint
+ <T:Ljava/lang/Object;>(Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/lang/String;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/lang/String;)TT;
+isLoggingSuppressed
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Z
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Z
+merge
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/lang/String;Ljava/lang/Object;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/lang/String;Ljava/lang/Object;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+merge
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+none
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+touchDataBuffer
+ (Lorg/springframework/core/io/buffer/DataBuffer;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Lorg/apache/commons/logging/Log;)V
+ (Lorg/springframework/core/io/buffer/DataBuffer;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Lorg/apache/commons/logging/Log;)V

@@ -1,0 +1,63 @@
+class org/springframework/cglib/reflect/FastClass
+
+create
+ (Ljava/lang/Class;)Lorg/springframework/cglib/reflect/FastClass;
+ (Ljava/lang/Class;)Lorg/springframework/cglib/reflect/FastClass;
+create
+ (Ljava/lang/ClassLoader;Ljava/lang/Class;)Lorg/springframework/cglib/reflect/FastClass;
+ (Ljava/lang/ClassLoader;Ljava/lang/Class;)Lorg/springframework/cglib/reflect/FastClass;
+getSignatureWithoutReturnType
+ (Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/String;
+ (Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/String;
+
+<init>
+ (Ljava/lang/Class;)V
+ (Ljava/lang/Class;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getConstructor
+ (Ljava/lang/reflect/Constructor;)Lorg/springframework/cglib/reflect/FastConstructor;
+ (Ljava/lang/reflect/Constructor;)Lorg/springframework/cglib/reflect/FastConstructor;
+getConstructor
+ ([Ljava/lang/Class;)Lorg/springframework/cglib/reflect/FastConstructor;
+ ([Ljava/lang/Class;)Lorg/springframework/cglib/reflect/FastConstructor;
+getIndex
+ (Ljava/lang/String;[Ljava/lang/Class;)I
+ (Ljava/lang/String;[Ljava/lang/Class;)I
+getIndex
+ (Lorg/springframework/cglib/core/Signature;)I
+ (Lorg/springframework/cglib/core/Signature;)I
+getIndex
+ ([Ljava/lang/Class;)I
+ ([Ljava/lang/Class;)I
+getJavaClass
+ ()Ljava/lang/Class;
+ ()Ljava/lang/Class;
+getMethod
+ (Ljava/lang/String;[Ljava/lang/Class;)Lorg/springframework/cglib/reflect/FastMethod;
+ (Ljava/lang/String;[Ljava/lang/Class;)Lorg/springframework/cglib/reflect/FastMethod;
+getMethod
+ (Ljava/lang/reflect/Method;)Lorg/springframework/cglib/reflect/FastMethod;
+ (Ljava/lang/reflect/Method;)Lorg/springframework/cglib/reflect/FastMethod;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+invoke
+ (ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+ (ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+invoke
+ (Ljava/lang/String;[Ljava/lang/Class;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/String;[Ljava/lang/Class;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+newInstance
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+newInstance
+ (I[Ljava/lang/Object;)Ljava/lang/Object;
+ (I[Ljava/lang/Object;)Ljava/lang/Object;
+newInstance
+ ([Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

@@ -1,0 +1,26 @@
+class org/mockito/internal/util/concurrent/WeakConcurrentSet
+ <V:Ljava/lang/Object;>
+ <V:Ljava/lang/Object;>
+
+super java/lang/Iterable
+ <TV;>
+ <TV;>
+
+<init>
+ (Lorg/mockito/internal/util/concurrent/WeakConcurrentSet$Cleaner;)V
+ (Lorg/mockito/internal/util/concurrent/WeakConcurrentSet$Cleaner;)V
+add
+ (TV;)Z
+ (TV;)Z
+contains
+ (TV;)Z
+ (TV;)Z
+getCleanerThread
+ ()Ljava/lang/Thread;
+ ()Ljava/lang/Thread;
+iterator
+ ()Ljava/util/Iterator<TV;>;
+ ()Ljava/util/Iterator<TV;>;
+remove
+ (TV;)Z
+ (TV;)Z

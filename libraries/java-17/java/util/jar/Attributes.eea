@@ -1,22 +1,31 @@
 class java/util/jar/Attributes
+
+super java/util/Map
+ <Ljava/lang/Object;Ljava/lang/Object;>
+ <Ljava/lang/Object;Ljava/lang/Object;>
+
+map
+ Ljava/util/Map<Ljava/lang/Object;Ljava/lang/Object;>;
+ Ljava/util/Map<Ljava/lang/Object;Ljava/lang/Object;>;
+
 <init>
  (Ljava/util/jar/Attributes;)V
  (L1java/util/jar/Attributes;)V
 clone
  ()Ljava/lang/Object;
- ()L1java/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
 containsKey
  (Ljava/lang/Object;)Z
- (L1java/lang/Object;)Z
+ (L1java/lang/Object;)Z # @Overrides(java.util.Map)
 containsValue
  (Ljava/lang/Object;)Z
- (L1java/lang/Object;)Z
+ (L1java/lang/Object;)Z # @Overrides(java.util.Map)
 entrySet
  ()Ljava/util/Set<Ljava/util/Map$Entry<Ljava/lang/Object;Ljava/lang/Object;>;>;
  ()L1java/util/Set<L1java/util/Map$Entry<L1java/lang/Object;L1java/lang/Object;>;>;
 equals
  (Ljava/lang/Object;)Z
- (L0java/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
 get
  (Ljava/lang/Object;)Ljava/lang/Object;
  (Ljava/lang/Object;)L0java/lang/Object;

@@ -1,0 +1,35 @@
+class java/awt/geom/RectangularShape
+
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+contains
+ (Ljava/awt/geom/Point2D;)Z
+ (Ljava/awt/geom/Point2D;)Z
+contains
+ (Ljava/awt/geom/Rectangle2D;)Z
+ (Ljava/awt/geom/Rectangle2D;)Z
+getBounds
+ ()Ljava/awt/Rectangle;
+ ()Ljava/awt/Rectangle;
+getFrame
+ ()Ljava/awt/geom/Rectangle2D;
+ ()Ljava/awt/geom/Rectangle2D;
+getPathIterator
+ (Ljava/awt/geom/AffineTransform;D)Ljava/awt/geom/PathIterator;
+ (Ljava/awt/geom/AffineTransform;D)Ljava/awt/geom/PathIterator;
+intersects
+ (Ljava/awt/geom/Rectangle2D;)Z
+ (Ljava/awt/geom/Rectangle2D;)Z
+setFrame
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Dimension2D;)V
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Dimension2D;)V
+setFrame
+ (Ljava/awt/geom/Rectangle2D;)V
+ (Ljava/awt/geom/Rectangle2D;)V
+setFrameFromCenter
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)V
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)V
+setFrameFromDiagonal
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)V
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)V

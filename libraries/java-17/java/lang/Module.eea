@@ -1,4 +1,5 @@
 class java/lang/Module
+
 addExports
  (Ljava/lang/String;Ljava/lang/Module;)Ljava/lang/Module;
  (L1java/lang/String;L1java/lang/Module;)Ljava/lang/Module;
@@ -58,4 +59,4 @@ isOpen
  (L1java/lang/String;L1java/lang/Module;)Z
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

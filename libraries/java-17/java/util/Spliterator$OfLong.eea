@@ -1,0 +1,21 @@
+class java/util/Spliterator$OfLong
+
+super java/util/Spliterator$OfPrimitive
+ <Ljava/lang/Long;Ljava/util/function/LongConsumer;Ljava/util/Spliterator$OfLong;>
+ <Ljava/lang/Long;Ljava/util/function/LongConsumer;Ljava/util/Spliterator$OfLong;>
+
+forEachRemaining
+ (Ljava/util/function/Consumer<-Ljava/lang/Long;>;)V
+ (Ljava/util/function/Consumer<-Ljava/lang/Long;>;)V
+forEachRemaining
+ (Ljava/util/function/LongConsumer;)V
+ (Ljava/util/function/LongConsumer;)V
+tryAdvance
+ (Ljava/util/function/Consumer<-Ljava/lang/Long;>;)Z
+ (Ljava/util/function/Consumer<-Ljava/lang/Long;>;)Z
+tryAdvance
+ (Ljava/util/function/LongConsumer;)Z
+ (Ljava/util/function/LongConsumer;)Z
+trySplit
+ ()Ljava/util/Spliterator$OfLong;
+ ()Ljava/util/Spliterator$OfLong;

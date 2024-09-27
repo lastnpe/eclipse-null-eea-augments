@@ -1,0 +1,21 @@
+class java/security/DigestInputStream
+
+digest
+ Ljava/security/MessageDigest;
+ Ljava/security/MessageDigest;
+
+<init>
+ (Ljava/io/InputStream;Ljava/security/MessageDigest;)V
+ (Ljava/io/InputStream;Ljava/security/MessageDigest;)V
+getMessageDigest
+ ()Ljava/security/MessageDigest;
+ ()Ljava/security/MessageDigest;
+read
+ ([BII)I
+ ([BII)I
+setMessageDigest
+ (Ljava/security/MessageDigest;)V
+ (Ljava/security/MessageDigest;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

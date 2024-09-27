@@ -1,4 +1,24 @@
 class java/lang/Thread
+
+currentThread
+ ()Ljava/lang/Thread;
+ ()L1java/lang/Thread;
+enumerate
+ ([Ljava/lang/Thread;)I
+ ([1L1java/lang/Thread;)I
+getAllStackTraces
+ ()Ljava/util/Map<Ljava/lang/Thread;[Ljava/lang/StackTraceElement;>;
+ ()L1java/util/Map<L1java/lang/Thread;[1L1java/lang/StackTraceElement;>;
+getDefaultUncaughtExceptionHandler
+ ()Ljava/lang/Thread$UncaughtExceptionHandler;
+ ()L0java/lang/Thread$UncaughtExceptionHandler;
+holdsLock
+ (Ljava/lang/Object;)Z
+ (L1java/lang/Object;)Z
+setDefaultUncaughtExceptionHandler
+ (Ljava/lang/Thread$UncaughtExceptionHandler;)V
+ (L0java/lang/Thread$UncaughtExceptionHandler;)V
+
 <init>
  (Ljava/lang/Runnable;)V
  (L0java/lang/Runnable;)V
@@ -23,18 +43,12 @@ class java/lang/Thread
 <init>
  (Ljava/lang/ThreadGroup;Ljava/lang/String;)V
  (L0java/lang/ThreadGroup;L1java/lang/String;)V
-currentThread
- ()Ljava/lang/Thread;
- ()L1java/lang/Thread;
-enumerate
- ([Ljava/lang/Thread;)I
- ([1L1java/lang/Thread;)I
-getAllStackTraces
- ()Ljava/util/Map<Ljava/lang/Thread;[Ljava/lang/StackTraceElement;>;
- ()L1java/util/Map<L1java/lang/Thread;[1L1java/lang/StackTraceElement;>;
-getDefaultUncaughtExceptionHandler
- ()Ljava/lang/Thread$UncaughtExceptionHandler;
- ()L0java/lang/Thread$UncaughtExceptionHandler;
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+getContextClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()Ljava/lang/ClassLoader;
 getName
  ()Ljava/lang/String;
  ()L1java/lang/String;
@@ -50,15 +64,9 @@ getThreadGroup
 getUncaughtExceptionHandler
  ()Ljava/lang/Thread$UncaughtExceptionHandler;
  ()L0java/lang/Thread$UncaughtExceptionHandler;
-holdsLock
- (Ljava/lang/Object;)Z
- (L1java/lang/Object;)Z
 setContextClassLoader
  (Ljava/lang/ClassLoader;)V
  (L0java/lang/ClassLoader;)V
-setDefaultUncaughtExceptionHandler
- (Ljava/lang/Thread$UncaughtExceptionHandler;)V
- (L0java/lang/Thread$UncaughtExceptionHandler;)V
 setName
  (Ljava/lang/String;)V
  (L1java/lang/String;)V
@@ -67,4 +75,4 @@ setUncaughtExceptionHandler
  (L0java/lang/Thread$UncaughtExceptionHandler;)V
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

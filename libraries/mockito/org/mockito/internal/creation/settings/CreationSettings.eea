@@ -1,0 +1,120 @@
+class org/mockito/internal/creation/settings/CreationSettings
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/mockito/mock/MockCreationSettings
+ <TT;>
+ <TT;>
+
+defaultAnswer
+ Lorg/mockito/stubbing/Answer<Ljava/lang/Object;>;
+ Lorg/mockito/stubbing/Answer<Ljava/lang/Object;>;
+extraInterfaces
+ Ljava/util/Set<Ljava/lang/Class<*>;>;
+ Ljava/util/Set<Ljava/lang/Class<*>;>;
+genericTypeToMock
+ Ljava/lang/reflect/Type;
+ Ljava/lang/reflect/Type;
+invocationListeners
+ Ljava/util/List<Lorg/mockito/listeners/InvocationListener;>;
+ Ljava/util/List<Lorg/mockito/listeners/InvocationListener;>;
+mockMaker
+ Ljava/lang/String;
+ Ljava/lang/String;
+mockName
+ Lorg/mockito/mock/MockName;
+ Lorg/mockito/mock/MockName;
+mockType
+ Lorg/mockito/mock/MockType;
+ Lorg/mockito/mock/MockType;
+name
+ Ljava/lang/String;
+ Ljava/lang/String;
+serializableMode
+ Lorg/mockito/mock/SerializableMode;
+ Lorg/mockito/mock/SerializableMode;
+spiedInstance
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+strictness
+ Lorg/mockito/quality/Strictness;
+ Lorg/mockito/quality/Strictness;
+stubbingLookupListeners
+ Ljava/util/List<Lorg/mockito/listeners/StubbingLookupListener;>;
+ Ljava/util/List<Lorg/mockito/listeners/StubbingLookupListener;>;
+typeToMock
+ Ljava/lang/Class<TT;>;
+ Ljava/lang/Class<TT;>;
+verificationStartedListeners
+ Ljava/util/List<Lorg/mockito/listeners/VerificationStartedListener;>;
+ Ljava/util/List<Lorg/mockito/listeners/VerificationStartedListener;>;
+
+<init>
+ (Lorg/mockito/internal/creation/settings/CreationSettings;)V
+ (Lorg/mockito/internal/creation/settings/CreationSettings;)V
+getConstructorArgs
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+getDefaultAnswer
+ ()Lorg/mockito/stubbing/Answer<Ljava/lang/Object;>;
+ ()Lorg/mockito/stubbing/Answer<Ljava/lang/Object;>;
+getExtraInterfaces
+ ()Ljava/util/Set<Ljava/lang/Class<*>;>;
+ ()Ljava/util/Set<Ljava/lang/Class<*>;>;
+getGenericTypeToMock
+ ()Ljava/lang/reflect/Type;
+ ()Ljava/lang/reflect/Type;
+getInvocationListeners
+ ()Ljava/util/List<Lorg/mockito/listeners/InvocationListener;>;
+ ()Ljava/util/List<Lorg/mockito/listeners/InvocationListener;>;
+getMockMaker
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMockName
+ ()Lorg/mockito/mock/MockName;
+ ()Lorg/mockito/mock/MockName;
+getMockType
+ ()Lorg/mockito/mock/MockType;
+ ()Lorg/mockito/mock/MockType;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getOuterClassInstance
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getSerializableMode
+ ()Lorg/mockito/mock/SerializableMode;
+ ()Lorg/mockito/mock/SerializableMode;
+getSpiedInstance
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getStrictness
+ ()Lorg/mockito/quality/Strictness;
+ ()Lorg/mockito/quality/Strictness;
+getStubbingLookupListeners
+ ()Ljava/util/List<Lorg/mockito/listeners/StubbingLookupListener;>;
+ ()Ljava/util/List<Lorg/mockito/listeners/StubbingLookupListener;>;
+getTypeToMock
+ ()Ljava/lang/Class<TT;>;
+ ()Ljava/lang/Class<TT;>;
+getVerificationStartedListeners
+ ()Ljava/util/List<Lorg/mockito/listeners/VerificationStartedListener;>;
+ ()Ljava/util/List<Lorg/mockito/listeners/VerificationStartedListener;>;
+setExtraInterfaces
+ (Ljava/util/Set<Ljava/lang/Class<*>;>;)Lorg/mockito/internal/creation/settings/CreationSettings<TT;>;
+ (Ljava/util/Set<Ljava/lang/Class<*>;>;)Lorg/mockito/internal/creation/settings/CreationSettings<TT;>;
+setGenericTypeToMock
+ (Ljava/lang/reflect/Type;)Lorg/mockito/internal/creation/settings/CreationSettings<TT;>;
+ (Ljava/lang/reflect/Type;)Lorg/mockito/internal/creation/settings/CreationSettings<TT;>;
+setMockName
+ (Lorg/mockito/mock/MockName;)Lorg/mockito/internal/creation/settings/CreationSettings<TT;>;
+ (Lorg/mockito/mock/MockName;)Lorg/mockito/internal/creation/settings/CreationSettings<TT;>;
+setMockType
+ (Lorg/mockito/mock/MockType;)V
+ (Lorg/mockito/mock/MockType;)V
+setSerializableMode
+ (Lorg/mockito/mock/SerializableMode;)Lorg/mockito/internal/creation/settings/CreationSettings<TT;>;
+ (Lorg/mockito/mock/SerializableMode;)Lorg/mockito/internal/creation/settings/CreationSettings<TT;>;
+setTypeToMock
+ (Ljava/lang/Class<TT;>;)Lorg/mockito/internal/creation/settings/CreationSettings<TT;>;
+ (Ljava/lang/Class<TT;>;)Lorg/mockito/internal/creation/settings/CreationSettings<TT;>;

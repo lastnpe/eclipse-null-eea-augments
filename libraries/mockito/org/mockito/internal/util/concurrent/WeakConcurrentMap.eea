@@ -1,0 +1,36 @@
+class org/mockito/internal/util/concurrent/WeakConcurrentMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super java/lang/ref/ReferenceQueue
+ <TK;>
+ <TK;>
+super java/lang/Iterable
+ <Ljava/util/Map$Entry<TK;TV;>;>
+ <Ljava/util/Map$Entry<TK;TV;>;>
+
+target
+ Ljava/util/concurrent/ConcurrentMap<Lorg/mockito/internal/util/concurrent/WeakConcurrentMap$WeakKey<TK;>;TV;>;
+ Ljava/util/concurrent/ConcurrentMap<Lorg/mockito/internal/util/concurrent/WeakConcurrentMap$WeakKey<TK;>;TV;>;
+
+containsKey
+ (TK;)Z
+ (TK;)Z
+defaultValue
+ (TK;)TV;
+ (TK;)TV;
+get
+ (TK;)TV;
+ (TK;)TV;
+getCleanerThread
+ ()Ljava/lang/Thread;
+ ()Ljava/lang/Thread;
+iterator
+ ()Ljava/util/Iterator<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()Ljava/util/Iterator<Ljava/util/Map$Entry<TK;TV;>;>;
+put
+ (TK;TV;)TV;
+ (TK;TV;)TV;
+remove
+ (TK;)TV;
+ (TK;)TV;

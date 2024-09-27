@@ -1,0 +1,51 @@
+class org/springframework/beans/factory/BeanFactory
+
+FACTORY_BEAN_PREFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+
+containsBean
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+getAliases
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[Ljava/lang/String;
+getBean
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getBean
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+getBean
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+getBean
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;[Ljava/lang/Object;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;[Ljava/lang/Object;)TT;
+getBean
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;)TT;
+getBeanProvider
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/springframework/beans/factory/ObjectProvider<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/springframework/beans/factory/ObjectProvider<TT;>;
+getBeanProvider
+ <T:Ljava/lang/Object;>(Lorg/springframework/core/ResolvableType;)Lorg/springframework/beans/factory/ObjectProvider<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/core/ResolvableType;)Lorg/springframework/beans/factory/ObjectProvider<TT;>;
+getType
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;)L0java/lang/Class<*>;
+getType
+ (Ljava/lang/String;Z)Ljava/lang/Class<*>;
+ (Ljava/lang/String;Z)L0java/lang/Class<*>;
+isPrototype
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isSingleton
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isTypeMatch
+ (Ljava/lang/String;Ljava/lang/Class<*>;)Z
+ (Ljava/lang/String;Ljava/lang/Class<*>;)Z
+isTypeMatch
+ (Ljava/lang/String;Lorg/springframework/core/ResolvableType;)Z
+ (Ljava/lang/String;Lorg/springframework/core/ResolvableType;)Z

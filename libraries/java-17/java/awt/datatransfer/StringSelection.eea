@@ -1,0 +1,17 @@
+class java/awt/datatransfer/StringSelection
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getTransferData
+ (Ljava/awt/datatransfer/DataFlavor;)Ljava/lang/Object;
+ (Ljava/awt/datatransfer/DataFlavor;)Ljava/lang/Object;
+getTransferDataFlavors
+ ()[Ljava/awt/datatransfer/DataFlavor;
+ ()[Ljava/awt/datatransfer/DataFlavor;
+isDataFlavorSupported
+ (Ljava/awt/datatransfer/DataFlavor;)Z
+ (Ljava/awt/datatransfer/DataFlavor;)Z
+lostOwnership
+ (Ljava/awt/datatransfer/Clipboard;Ljava/awt/datatransfer/Transferable;)V
+ (Ljava/awt/datatransfer/Clipboard;Ljava/awt/datatransfer/Transferable;)V

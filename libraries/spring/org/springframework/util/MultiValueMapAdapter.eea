@@ -1,0 +1,71 @@
+class org/springframework/util/MultiValueMapAdapter
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super org/springframework/util/MultiValueMap
+ <TK;TV;>
+ <TK;TV;>
+
+<init>
+ (Ljava/util/Map<TK;Ljava/util/List<TV;>;>;)V
+ (Ljava/util/Map<TK;Ljava/util/List<TV;>;>;)V
+add
+ (TK;TV;)V
+ (TK;TV;)V
+addAll
+ (Lorg/springframework/util/MultiValueMap<TK;TV;>;)V
+ (Lorg/springframework/util/MultiValueMap<TK;TV;>;)V
+addAll
+ (TK;Ljava/util/List<+TV;>;)V
+ (TK;Ljava/util/List<+TV;>;)V
+containsKey
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+containsValue
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;Ljava/util/List<TV;>;>;>;
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;Ljava/util/List<TV;>;>;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+forEach
+ (Ljava/util/function/BiConsumer<-TK;-Ljava/util/List<TV;>;>;)V
+ (Ljava/util/function/BiConsumer<-TK;-Ljava/util/List<TV;>;>;)V
+get
+ (Ljava/lang/Object;)Ljava/util/List<TV;>;
+ (Ljava/lang/Object;)L0java/util/List<TV;>;
+getFirst
+ (TK;)TV;
+ (TK;)T0V; # @Inherited(org.springframework.util.MultiValueMap)
+keySet
+ ()Ljava/util/Set<TK;>;
+ ()Ljava/util/Set<TK;>;
+put
+ (TK;Ljava/util/List<TV;>;)Ljava/util/List<TV;>;
+ (TK;Ljava/util/List<TV;>;)L0java/util/List<TV;>;
+putAll
+ (Ljava/util/Map<+TK;+Ljava/util/List<TV;>;>;)V
+ (Ljava/util/Map<+TK;+Ljava/util/List<TV;>;>;)V
+putIfAbsent
+ (TK;Ljava/util/List<TV;>;)Ljava/util/List<TV;>;
+ (TK;Ljava/util/List<TV;>;)L0java/util/List<TV;>;
+remove
+ (Ljava/lang/Object;)Ljava/util/List<TV;>;
+ (Ljava/lang/Object;)L0java/util/List<TV;>;
+set
+ (TK;TV;)V
+ (TK;TV;)V
+setAll
+ (Ljava/util/Map<TK;TV;>;)V
+ (Ljava/util/Map<TK;TV;>;)V
+toSingleValueMap
+ ()Ljava/util/Map<TK;TV;>;
+ ()Ljava/util/Map<TK;TV;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+values
+ ()Ljava/util/Collection<Ljava/util/List<TV;>;>;
+ ()Ljava/util/Collection<Ljava/util/List<TV;>;>;

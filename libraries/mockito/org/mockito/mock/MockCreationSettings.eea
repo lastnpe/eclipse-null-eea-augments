@@ -1,0 +1,49 @@
+class org/mockito/mock/MockCreationSettings
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+getConstructorArgs
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+getDefaultAnswer
+ ()Lorg/mockito/stubbing/Answer<*>;
+ ()Lorg/mockito/stubbing/Answer<*>;
+getExtraInterfaces
+ ()Ljava/util/Set<Ljava/lang/Class<*>;>;
+ ()Ljava/util/Set<Ljava/lang/Class<*>;>;
+getGenericTypeToMock
+ ()Ljava/lang/reflect/Type;
+ ()Ljava/lang/reflect/Type;
+getInvocationListeners
+ ()Ljava/util/List<Lorg/mockito/listeners/InvocationListener;>;
+ ()Ljava/util/List<Lorg/mockito/listeners/InvocationListener;>;
+getMockMaker
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMockName
+ ()Lorg/mockito/mock/MockName;
+ ()Lorg/mockito/mock/MockName;
+getMockType
+ ()Lorg/mockito/mock/MockType;
+ ()Lorg/mockito/mock/MockType;
+getOuterClassInstance
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getSerializableMode
+ ()Lorg/mockito/mock/SerializableMode;
+ ()Lorg/mockito/mock/SerializableMode;
+getSpiedInstance
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getStrictness
+ ()Lorg/mockito/quality/Strictness;
+ ()Lorg/mockito/quality/Strictness;
+getStubbingLookupListeners
+ ()Ljava/util/List<Lorg/mockito/listeners/StubbingLookupListener;>;
+ ()Ljava/util/List<Lorg/mockito/listeners/StubbingLookupListener;>;
+getTypeToMock
+ ()Ljava/lang/Class<TT;>;
+ ()Ljava/lang/Class<TT;>;
+getVerificationStartedListeners
+ ()Ljava/util/List<Lorg/mockito/listeners/VerificationStartedListener;>;
+ ()Ljava/util/List<Lorg/mockito/listeners/VerificationStartedListener;>;

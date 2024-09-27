@@ -1,0 +1,27 @@
+class org/springframework/beans/factory/aot/BeanRegistrationCodeFragments
+
+BEAN_DEFINITION_VARIABLE
+ Ljava/lang/String;
+ L1java/lang/String;
+INSTANCE_SUPPLIER_VARIABLE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+generateInstanceSupplierCode
+ (Lorg/springframework/aot/generate/GenerationContext;Lorg/springframework/beans/factory/aot/BeanRegistrationCode;Z)Lorg/springframework/javapoet/CodeBlock;
+ (Lorg/springframework/aot/generate/GenerationContext;Lorg/springframework/beans/factory/aot/BeanRegistrationCode;Z)Lorg/springframework/javapoet/CodeBlock;
+generateNewBeanDefinitionCode
+ (Lorg/springframework/aot/generate/GenerationContext;Lorg/springframework/core/ResolvableType;Lorg/springframework/beans/factory/aot/BeanRegistrationCode;)Lorg/springframework/javapoet/CodeBlock;
+ (Lorg/springframework/aot/generate/GenerationContext;Lorg/springframework/core/ResolvableType;Lorg/springframework/beans/factory/aot/BeanRegistrationCode;)Lorg/springframework/javapoet/CodeBlock;
+generateReturnCode
+ (Lorg/springframework/aot/generate/GenerationContext;Lorg/springframework/beans/factory/aot/BeanRegistrationCode;)Lorg/springframework/javapoet/CodeBlock;
+ (Lorg/springframework/aot/generate/GenerationContext;Lorg/springframework/beans/factory/aot/BeanRegistrationCode;)Lorg/springframework/javapoet/CodeBlock;
+generateSetBeanDefinitionPropertiesCode
+ (Lorg/springframework/aot/generate/GenerationContext;Lorg/springframework/beans/factory/aot/BeanRegistrationCode;Lorg/springframework/beans/factory/support/RootBeanDefinition;Ljava/util/function/Predicate<Ljava/lang/String;>;)Lorg/springframework/javapoet/CodeBlock;
+ (Lorg/springframework/aot/generate/GenerationContext;Lorg/springframework/beans/factory/aot/BeanRegistrationCode;Lorg/springframework/beans/factory/support/RootBeanDefinition;Ljava/util/function/Predicate<Ljava/lang/String;>;)Lorg/springframework/javapoet/CodeBlock;
+generateSetBeanInstanceSupplierCode
+ (Lorg/springframework/aot/generate/GenerationContext;Lorg/springframework/beans/factory/aot/BeanRegistrationCode;Lorg/springframework/javapoet/CodeBlock;Ljava/util/List<Lorg/springframework/aot/generate/MethodReference;>;)Lorg/springframework/javapoet/CodeBlock;
+ (Lorg/springframework/aot/generate/GenerationContext;Lorg/springframework/beans/factory/aot/BeanRegistrationCode;Lorg/springframework/javapoet/CodeBlock;Ljava/util/List<Lorg/springframework/aot/generate/MethodReference;>;)Lorg/springframework/javapoet/CodeBlock;
+getTarget
+ (Lorg/springframework/beans/factory/support/RegisteredBean;)Lorg/springframework/javapoet/ClassName;
+ (Lorg/springframework/beans/factory/support/RegisteredBean;)Lorg/springframework/javapoet/ClassName;

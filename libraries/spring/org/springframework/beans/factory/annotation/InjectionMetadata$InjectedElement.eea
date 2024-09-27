@@ -1,0 +1,45 @@
+class org/springframework/beans/factory/annotation/InjectionMetadata$InjectedElement
+
+member
+ Ljava/lang/reflect/Member;
+ Ljava/lang/reflect/Member;
+pd
+ Ljava/beans/PropertyDescriptor;
+ L0java/beans/PropertyDescriptor;
+skip
+ Ljava/lang/Boolean;
+ L0java/lang/Boolean;
+
+<init>
+ (Ljava/lang/reflect/Member;Ljava/beans/PropertyDescriptor;)V
+ (Ljava/lang/reflect/Member;Ljava/beans/PropertyDescriptor;)V
+checkPropertySkipping
+ (Lorg/springframework/beans/PropertyValues;)Z
+ (Lorg/springframework/beans/PropertyValues;)Z
+checkResourceType
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+clearPropertySkipping
+ (Lorg/springframework/beans/PropertyValues;)V
+ (Lorg/springframework/beans/PropertyValues;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getMember
+ ()Ljava/lang/reflect/Member;
+ ()Ljava/lang/reflect/Member;
+getResourceToInject
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/String;)L0java/lang/Object;
+getResourceType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+inject
+ (Ljava/lang/Object;Ljava/lang/String;Lorg/springframework/beans/PropertyValues;)V
+ (Ljava/lang/Object;Ljava/lang/String;Lorg/springframework/beans/PropertyValues;)V
+shouldInject
+ (Lorg/springframework/beans/PropertyValues;)Z
+ (Lorg/springframework/beans/PropertyValues;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

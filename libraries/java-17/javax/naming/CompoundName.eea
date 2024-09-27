@@ -1,0 +1,57 @@
+class javax/naming/CompoundName
+
+mySyntax
+ Ljava/util/Properties;
+ Ljava/util/Properties;
+
+<init>
+ (Ljava/lang/String;Ljava/util/Properties;)V
+ (Ljava/lang/String;Ljava/util/Properties;)V
+<init>
+ (Ljava/util/Enumeration<Ljava/lang/String;>;Ljava/util/Properties;)V
+ (Ljava/util/Enumeration<Ljava/lang/String;>;Ljava/util/Properties;)V
+add
+ (ILjava/lang/String;)Ljavax/naming/Name;
+ (ILjava/lang/String;)Ljavax/naming/Name;
+add
+ (Ljava/lang/String;)Ljavax/naming/Name;
+ (Ljava/lang/String;)Ljavax/naming/Name;
+addAll
+ (ILjavax/naming/Name;)Ljavax/naming/Name;
+ (ILjavax/naming/Name;)Ljavax/naming/Name;
+addAll
+ (Ljavax/naming/Name;)Ljavax/naming/Name;
+ (Ljavax/naming/Name;)Ljavax/naming/Name;
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+compareTo
+ (Ljava/lang/Object;)I
+ (L1java/lang/Object;)I # @Inherited(javax.naming.Name)
+endsWith
+ (Ljavax/naming/Name;)Z
+ (Ljavax/naming/Name;)Z
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getAll
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+getPrefix
+ (I)Ljavax/naming/Name;
+ (I)Ljavax/naming/Name;
+getSuffix
+ (I)Ljavax/naming/Name;
+ (I)Ljavax/naming/Name;
+remove
+ (I)Ljava/lang/Object;
+ (I)Ljava/lang/Object;
+startsWith
+ (Ljavax/naming/Name;)Z
+ (Ljavax/naming/Name;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

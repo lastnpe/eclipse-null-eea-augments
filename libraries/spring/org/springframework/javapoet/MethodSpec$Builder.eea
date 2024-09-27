@@ -1,0 +1,129 @@
+class org/springframework/javapoet/MethodSpec$Builder
+
+annotations
+ Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;
+ Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;
+modifiers
+ Ljava/util/List<Ljavax/lang/model/element/Modifier;>;
+ Ljava/util/List<Ljavax/lang/model/element/Modifier;>;
+parameters
+ Ljava/util/List<Lorg/springframework/javapoet/ParameterSpec;>;
+ Ljava/util/List<Lorg/springframework/javapoet/ParameterSpec;>;
+typeVariables
+ Ljava/util/List<Lorg/springframework/javapoet/TypeVariableName;>;
+ Ljava/util/List<Lorg/springframework/javapoet/TypeVariableName;>;
+
+addAnnotation
+ (Ljava/lang/Class<*>;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Ljava/lang/Class<*>;)L1org/springframework/javapoet/MethodSpec$Builder;
+addAnnotation
+ (Lorg/springframework/javapoet/AnnotationSpec;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Lorg/springframework/javapoet/AnnotationSpec;)L1org/springframework/javapoet/MethodSpec$Builder;
+addAnnotation
+ (Lorg/springframework/javapoet/ClassName;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Lorg/springframework/javapoet/ClassName;)L1org/springframework/javapoet/MethodSpec$Builder;
+addAnnotations
+ (Ljava/lang/Iterable<Lorg/springframework/javapoet/AnnotationSpec;>;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Ljava/lang/Iterable<Lorg/springframework/javapoet/AnnotationSpec;>;)L1org/springframework/javapoet/MethodSpec$Builder;
+addCode
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/javapoet/MethodSpec$Builder;
+addCode
+ (Lorg/springframework/javapoet/CodeBlock;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Lorg/springframework/javapoet/CodeBlock;)L1org/springframework/javapoet/MethodSpec$Builder;
+addComment
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/javapoet/MethodSpec$Builder;
+addException
+ (Ljava/lang/reflect/Type;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Ljava/lang/reflect/Type;)L1org/springframework/javapoet/MethodSpec$Builder;
+addException
+ (Lorg/springframework/javapoet/TypeName;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Lorg/springframework/javapoet/TypeName;)L1org/springframework/javapoet/MethodSpec$Builder;
+addExceptions
+ (Ljava/lang/Iterable<+Lorg/springframework/javapoet/TypeName;>;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Ljava/lang/Iterable<+Lorg/springframework/javapoet/TypeName;>;)L1org/springframework/javapoet/MethodSpec$Builder;
+addJavadoc
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/javapoet/MethodSpec$Builder;
+addJavadoc
+ (Lorg/springframework/javapoet/CodeBlock;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Lorg/springframework/javapoet/CodeBlock;)L1org/springframework/javapoet/MethodSpec$Builder;
+addModifiers
+ (Ljava/lang/Iterable<Ljavax/lang/model/element/Modifier;>;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Ljava/lang/Iterable<Ljavax/lang/model/element/Modifier;>;)L1org/springframework/javapoet/MethodSpec$Builder;
+addModifiers
+ ([Ljavax/lang/model/element/Modifier;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ ([Ljavax/lang/model/element/Modifier;)L1org/springframework/javapoet/MethodSpec$Builder;
+addNamedCode
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;*>;)L1org/springframework/javapoet/MethodSpec$Builder;
+addParameter
+ (Ljava/lang/reflect/Type;Ljava/lang/String;[Ljavax/lang/model/element/Modifier;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Ljava/lang/reflect/Type;Ljava/lang/String;[Ljavax/lang/model/element/Modifier;)L1org/springframework/javapoet/MethodSpec$Builder;
+addParameter
+ (Lorg/springframework/javapoet/ParameterSpec;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Lorg/springframework/javapoet/ParameterSpec;)L1org/springframework/javapoet/MethodSpec$Builder;
+addParameter
+ (Lorg/springframework/javapoet/TypeName;Ljava/lang/String;[Ljavax/lang/model/element/Modifier;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Lorg/springframework/javapoet/TypeName;Ljava/lang/String;[Ljavax/lang/model/element/Modifier;)L1org/springframework/javapoet/MethodSpec$Builder;
+addParameters
+ (Ljava/lang/Iterable<Lorg/springframework/javapoet/ParameterSpec;>;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Ljava/lang/Iterable<Lorg/springframework/javapoet/ParameterSpec;>;)L1org/springframework/javapoet/MethodSpec$Builder;
+addStatement
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/javapoet/MethodSpec$Builder;
+addStatement
+ (Lorg/springframework/javapoet/CodeBlock;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Lorg/springframework/javapoet/CodeBlock;)L1org/springframework/javapoet/MethodSpec$Builder;
+addTypeVariable
+ (Lorg/springframework/javapoet/TypeVariableName;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Lorg/springframework/javapoet/TypeVariableName;)L1org/springframework/javapoet/MethodSpec$Builder;
+addTypeVariables
+ (Ljava/lang/Iterable<Lorg/springframework/javapoet/TypeVariableName;>;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Ljava/lang/Iterable<Lorg/springframework/javapoet/TypeVariableName;>;)L1org/springframework/javapoet/MethodSpec$Builder;
+beginControlFlow
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/javapoet/MethodSpec$Builder;
+beginControlFlow
+ (Lorg/springframework/javapoet/CodeBlock;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Lorg/springframework/javapoet/CodeBlock;)L1org/springframework/javapoet/MethodSpec$Builder;
+build
+ ()Lorg/springframework/javapoet/MethodSpec;
+ ()L1org/springframework/javapoet/MethodSpec;
+defaultValue
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/javapoet/MethodSpec$Builder;
+defaultValue
+ (Lorg/springframework/javapoet/CodeBlock;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Lorg/springframework/javapoet/CodeBlock;)L1org/springframework/javapoet/MethodSpec$Builder;
+endControlFlow
+ ()Lorg/springframework/javapoet/MethodSpec$Builder;
+ ()L1org/springframework/javapoet/MethodSpec$Builder;
+endControlFlow
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/javapoet/MethodSpec$Builder;
+endControlFlow
+ (Lorg/springframework/javapoet/CodeBlock;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Lorg/springframework/javapoet/CodeBlock;)L1org/springframework/javapoet/MethodSpec$Builder;
+nextControlFlow
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/javapoet/MethodSpec$Builder;
+nextControlFlow
+ (Lorg/springframework/javapoet/CodeBlock;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Lorg/springframework/javapoet/CodeBlock;)L1org/springframework/javapoet/MethodSpec$Builder;
+returns
+ (Ljava/lang/reflect/Type;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Ljava/lang/reflect/Type;)L1org/springframework/javapoet/MethodSpec$Builder;
+returns
+ (Lorg/springframework/javapoet/TypeName;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Lorg/springframework/javapoet/TypeName;)L1org/springframework/javapoet/MethodSpec$Builder;
+setName
+ (Ljava/lang/String;)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Ljava/lang/String;)L1org/springframework/javapoet/MethodSpec$Builder;
+varargs
+ ()Lorg/springframework/javapoet/MethodSpec$Builder;
+ ()L1org/springframework/javapoet/MethodSpec$Builder;
+varargs
+ (Z)Lorg/springframework/javapoet/MethodSpec$Builder;
+ (Z)L1org/springframework/javapoet/MethodSpec$Builder;

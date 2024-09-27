@@ -1,0 +1,48 @@
+class java/awt/TextComponent
+
+textListener
+ Ljava/awt/event/TextListener;
+ Ljava/awt/event/TextListener;
+
+addTextListener
+ (Ljava/awt/event/TextListener;)V
+ (L1java/awt/event/TextListener;)V
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getBackground
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getInputMethodRequests
+ ()Ljava/awt/im/InputMethodRequests;
+ ()Ljava/awt/im/InputMethodRequests;
+getListeners
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+getSelectedText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTextListeners
+ ()[Ljava/awt/event/TextListener;
+ ()[Ljava/awt/event/TextListener;
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+processEvent
+ (Ljava/awt/AWTEvent;)V
+ (Ljava/awt/AWTEvent;)V
+processTextEvent
+ (Ljava/awt/event/TextEvent;)V
+ (Ljava/awt/event/TextEvent;)V
+removeTextListener
+ (Ljava/awt/event/TextListener;)V
+ (L1java/awt/event/TextListener;)V
+setBackground
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setText
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

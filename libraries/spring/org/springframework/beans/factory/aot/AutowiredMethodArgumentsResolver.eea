@@ -1,0 +1,21 @@
+class org/springframework/beans/factory/aot/AutowiredMethodArgumentsResolver
+
+forMethod
+ (Ljava/lang/String;[Ljava/lang/Class<*>;)Lorg/springframework/beans/factory/aot/AutowiredMethodArgumentsResolver;
+ (Ljava/lang/String;[Ljava/lang/Class<*>;)Lorg/springframework/beans/factory/aot/AutowiredMethodArgumentsResolver;
+forRequiredMethod
+ (Ljava/lang/String;[Ljava/lang/Class<*>;)Lorg/springframework/beans/factory/aot/AutowiredMethodArgumentsResolver;
+ (Ljava/lang/String;[Ljava/lang/Class<*>;)Lorg/springframework/beans/factory/aot/AutowiredMethodArgumentsResolver;
+
+resolve
+ (Lorg/springframework/beans/factory/support/RegisteredBean;)Lorg/springframework/beans/factory/aot/AutowiredArguments;
+ (Lorg/springframework/beans/factory/support/RegisteredBean;)L0org/springframework/beans/factory/aot/AutowiredArguments;
+resolve
+ (Lorg/springframework/beans/factory/support/RegisteredBean;Lorg/springframework/util/function/ThrowingConsumer<Lorg/springframework/beans/factory/aot/AutowiredArguments;>;)V
+ (Lorg/springframework/beans/factory/support/RegisteredBean;Lorg/springframework/util/function/ThrowingConsumer<Lorg/springframework/beans/factory/aot/AutowiredArguments;>;)V
+resolveAndInvoke
+ (Lorg/springframework/beans/factory/support/RegisteredBean;Ljava/lang/Object;)V
+ (Lorg/springframework/beans/factory/support/RegisteredBean;Ljava/lang/Object;)V
+withShortcut
+ ([Ljava/lang/String;)Lorg/springframework/beans/factory/aot/AutowiredMethodArgumentsResolver;
+ ([Ljava/lang/String;)Lorg/springframework/beans/factory/aot/AutowiredMethodArgumentsResolver;

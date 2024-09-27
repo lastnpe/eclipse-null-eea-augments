@@ -1,0 +1,23 @@
+class org/eclipse/jetty/client/Request$Listener
+
+onBegin
+ (Lorg/eclipse/jetty/client/Request;)V
+ (Lorg/eclipse/jetty/client/Request;)V
+onCommit
+ (Lorg/eclipse/jetty/client/Request;)V
+ (Lorg/eclipse/jetty/client/Request;)V
+onContent
+ (Lorg/eclipse/jetty/client/Request;Ljava/nio/ByteBuffer;)V
+ (Lorg/eclipse/jetty/client/Request;Ljava/nio/ByteBuffer;)V
+onFailure
+ (Lorg/eclipse/jetty/client/Request;Ljava/lang/Throwable;)V
+ (Lorg/eclipse/jetty/client/Request;Ljava/lang/Throwable;)V
+onHeaders
+ (Lorg/eclipse/jetty/client/Request;)V
+ (Lorg/eclipse/jetty/client/Request;)V
+onQueued
+ (Lorg/eclipse/jetty/client/Request;)V
+ (Lorg/eclipse/jetty/client/Request;)V
+onSuccess
+ (Lorg/eclipse/jetty/client/Request;)V
+ (Lorg/eclipse/jetty/client/Request;)V

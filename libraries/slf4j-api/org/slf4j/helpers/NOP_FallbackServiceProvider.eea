@@ -1,0 +1,18 @@
+class org/slf4j/helpers/NOP_FallbackServiceProvider
+
+REQUESTED_API_VERSION
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+getLoggerFactory
+ ()Lorg/slf4j/ILoggerFactory;
+ ()Lorg/slf4j/ILoggerFactory;
+getMDCAdapter
+ ()Lorg/slf4j/spi/MDCAdapter;
+ ()Lorg/slf4j/spi/MDCAdapter;
+getMarkerFactory
+ ()Lorg/slf4j/IMarkerFactory;
+ ()Lorg/slf4j/IMarkerFactory;
+getRequestedApiVersion
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

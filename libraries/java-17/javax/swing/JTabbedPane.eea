@@ -1,0 +1,147 @@
+class javax/swing/JTabbedPane
+
+changeEvent
+ Ljavax/swing/event/ChangeEvent;
+ Ljavax/swing/event/ChangeEvent;
+changeListener
+ Ljavax/swing/event/ChangeListener;
+ Ljavax/swing/event/ChangeListener;
+model
+ Ljavax/swing/SingleSelectionModel;
+ Ljavax/swing/SingleSelectionModel;
+
+add
+ (Ljava/awt/Component;)Ljava/awt/Component;
+ (Ljava/awt/Component;)Ljava/awt/Component;
+add
+ (Ljava/awt/Component;I)Ljava/awt/Component;
+ (Ljava/awt/Component;I)Ljava/awt/Component;
+add
+ (Ljava/awt/Component;Ljava/lang/Object;)V
+ (Ljava/awt/Component;Ljava/lang/Object;)V
+add
+ (Ljava/awt/Component;Ljava/lang/Object;I)V
+ (Ljava/awt/Component;Ljava/lang/Object;I)V
+add
+ (Ljava/lang/String;Ljava/awt/Component;)Ljava/awt/Component;
+ (Ljava/lang/String;Ljava/awt/Component;)Ljava/awt/Component;
+addChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V
+addTab
+ (Ljava/lang/String;Ljava/awt/Component;)V
+ (Ljava/lang/String;Ljava/awt/Component;)V
+addTab
+ (Ljava/lang/String;Ljavax/swing/Icon;Ljava/awt/Component;)V
+ (Ljava/lang/String;Ljavax/swing/Icon;Ljava/awt/Component;)V
+addTab
+ (Ljava/lang/String;Ljavax/swing/Icon;Ljava/awt/Component;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljavax/swing/Icon;Ljava/awt/Component;Ljava/lang/String;)V
+createChangeListener
+ ()Ljavax/swing/event/ChangeListener;
+ ()Ljavax/swing/event/ChangeListener;
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getBackgroundAt
+ (I)Ljava/awt/Color;
+ (I)Ljava/awt/Color;
+getBoundsAt
+ (I)Ljava/awt/Rectangle;
+ (I)Ljava/awt/Rectangle;
+getChangeListeners
+ ()[Ljavax/swing/event/ChangeListener;
+ ()[Ljavax/swing/event/ChangeListener;
+getComponentAt
+ (I)Ljava/awt/Component;
+ (I)Ljava/awt/Component;
+getDisabledIconAt
+ (I)Ljavax/swing/Icon;
+ (I)Ljavax/swing/Icon;
+getForegroundAt
+ (I)Ljava/awt/Color;
+ (I)Ljava/awt/Color;
+getIconAt
+ (I)Ljavax/swing/Icon;
+ (I)Ljavax/swing/Icon;
+getModel
+ ()Ljavax/swing/SingleSelectionModel;
+ ()Ljavax/swing/SingleSelectionModel;
+getSelectedComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getTabComponentAt
+ (I)Ljava/awt/Component;
+ (I)Ljava/awt/Component;
+getTitleAt
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getToolTipText
+ (Ljava/awt/event/MouseEvent;)Ljava/lang/String;
+ (L1java/awt/event/MouseEvent;)Ljava/lang/String; # @Inherited(javax.swing.JComponent)
+getToolTipTextAt
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getUI
+ ()Ljavax/swing/plaf/TabbedPaneUI;
+ ()Ljavax/swing/plaf/TabbedPaneUI;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+indexOfComponent
+ (Ljava/awt/Component;)I
+ (Ljava/awt/Component;)I
+indexOfTab
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+indexOfTab
+ (Ljavax/swing/Icon;)I
+ (Ljavax/swing/Icon;)I
+indexOfTabComponent
+ (Ljava/awt/Component;)I
+ (Ljava/awt/Component;)I
+insertTab
+ (Ljava/lang/String;Ljavax/swing/Icon;Ljava/awt/Component;Ljava/lang/String;I)V
+ (Ljava/lang/String;Ljavax/swing/Icon;Ljava/awt/Component;Ljava/lang/String;I)V
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+remove
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+removeChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V
+setBackgroundAt
+ (ILjava/awt/Color;)V
+ (ILjava/awt/Color;)V
+setComponentAt
+ (ILjava/awt/Component;)V
+ (ILjava/awt/Component;)V
+setDisabledIconAt
+ (ILjavax/swing/Icon;)V
+ (ILjavax/swing/Icon;)V
+setForegroundAt
+ (ILjava/awt/Color;)V
+ (ILjava/awt/Color;)V
+setIconAt
+ (ILjavax/swing/Icon;)V
+ (ILjavax/swing/Icon;)V
+setModel
+ (Ljavax/swing/SingleSelectionModel;)V
+ (Ljavax/swing/SingleSelectionModel;)V
+setSelectedComponent
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+setTabComponentAt
+ (ILjava/awt/Component;)V
+ (ILjava/awt/Component;)V
+setTitleAt
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+setToolTipTextAt
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+setUI
+ (Ljavax/swing/plaf/TabbedPaneUI;)V
+ (Ljavax/swing/plaf/TabbedPaneUI;)V

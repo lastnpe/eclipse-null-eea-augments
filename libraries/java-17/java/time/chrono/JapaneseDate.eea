@@ -1,0 +1,67 @@
+class java/time/chrono/JapaneseDate
+
+super java/time/chrono/ChronoLocalDateImpl
+ <Ljava/time/chrono/JapaneseDate;>
+ <Ljava/time/chrono/JapaneseDate;>
+
+from
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/JapaneseDate;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/JapaneseDate;
+now
+ ()Ljava/time/chrono/JapaneseDate;
+ ()Ljava/time/chrono/JapaneseDate;
+now
+ (Ljava/time/Clock;)Ljava/time/chrono/JapaneseDate;
+ (Ljava/time/Clock;)Ljava/time/chrono/JapaneseDate;
+now
+ (Ljava/time/ZoneId;)Ljava/time/chrono/JapaneseDate;
+ (Ljava/time/ZoneId;)Ljava/time/chrono/JapaneseDate;
+of
+ (III)Ljava/time/chrono/JapaneseDate;
+ (III)Ljava/time/chrono/JapaneseDate;
+of
+ (Ljava/time/chrono/JapaneseEra;III)Ljava/time/chrono/JapaneseDate;
+ (Ljava/time/chrono/JapaneseEra;III)Ljava/time/chrono/JapaneseDate;
+
+atTime
+ (Ljava/time/LocalTime;)Ljava/time/chrono/ChronoLocalDateTime<Ljava/time/chrono/JapaneseDate;>;
+ (Ljava/time/LocalTime;)Ljava/time/chrono/ChronoLocalDateTime<Ljava/time/chrono/JapaneseDate;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getChronology
+ ()Ljava/time/chrono/JapaneseChronology;
+ ()Ljava/time/chrono/JapaneseChronology;
+getEra
+ ()Ljava/time/chrono/JapaneseEra;
+ ()Ljava/time/chrono/JapaneseEra;
+getLong
+ (Ljava/time/temporal/TemporalField;)J
+ (Ljava/time/temporal/TemporalField;)J
+isSupported
+ (Ljava/time/temporal/TemporalField;)Z
+ (Ljava/time/temporal/TemporalField;)Z
+minus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/JapaneseDate;
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/JapaneseDate;
+minus
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/JapaneseDate;
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/JapaneseDate;
+plus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/JapaneseDate;
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/JapaneseDate;
+plus
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/JapaneseDate;
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/JapaneseDate;
+range
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+until
+ (Ljava/time/chrono/ChronoLocalDate;)Ljava/time/chrono/ChronoPeriod;
+ (Ljava/time/chrono/ChronoLocalDate;)Ljava/time/chrono/ChronoPeriod;
+with
+ (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/chrono/JapaneseDate;
+ (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/chrono/JapaneseDate;
+with
+ (Ljava/time/temporal/TemporalField;J)Ljava/time/chrono/JapaneseDate;
+ (Ljava/time/temporal/TemporalField;J)Ljava/time/chrono/JapaneseDate;

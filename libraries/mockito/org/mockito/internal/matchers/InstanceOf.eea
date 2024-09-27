@@ -1,0 +1,21 @@
+class org/mockito/internal/matchers/InstanceOf
+
+super org/mockito/ArgumentMatcher
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+<init>
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+<init>
+ (Ljava/lang/Class<*>;Ljava/lang/String;)V
+ (Ljava/lang/Class<*>;Ljava/lang/String;)V
+matches
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+type
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;

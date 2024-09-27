@@ -1,0 +1,60 @@
+class com/thoughtworks/xstream/core/util/CustomObjectInputStream
+
+getInstance
+ (Lcom/thoughtworks/xstream/converters/DataHolder;Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream$StreamCallback;)Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream;
+ (Lcom/thoughtworks/xstream/converters/DataHolder;Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream$StreamCallback;)Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream;
+getInstance
+ (Lcom/thoughtworks/xstream/converters/DataHolder;Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream$StreamCallback;Lcom/thoughtworks/xstream/core/ClassLoaderReference;)Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream;
+ (Lcom/thoughtworks/xstream/converters/DataHolder;Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream$StreamCallback;Lcom/thoughtworks/xstream/core/ClassLoaderReference;)Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream;
+getInstance
+ (Lcom/thoughtworks/xstream/converters/DataHolder;Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream$StreamCallback;Ljava/lang/ClassLoader;)Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream;
+ (Lcom/thoughtworks/xstream/converters/DataHolder;Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream$StreamCallback;Ljava/lang/ClassLoader;)Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream;
+
+<init>
+ (Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream$StreamCallback;Lcom/thoughtworks/xstream/core/ClassLoaderReference;)V
+ (Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream$StreamCallback;Lcom/thoughtworks/xstream/core/ClassLoaderReference;)V
+<init>
+ (Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream$StreamCallback;Ljava/lang/ClassLoader;)V
+ (Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream$StreamCallback;Ljava/lang/ClassLoader;)V
+peekCallback
+ ()Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream$StreamCallback;
+ ()Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream$StreamCallback;
+popCallback
+ ()Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream$StreamCallback;
+ ()Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream$StreamCallback;
+pushCallback
+ (Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream$StreamCallback;)V
+ (Lcom/thoughtworks/xstream/core/util/CustomObjectInputStream$StreamCallback;)V
+read
+ ([B)I
+ ([B)I
+read
+ ([BII)I
+ ([BII)I
+readFields
+ ()Ljava/io/ObjectInputStream$GetField;
+ ()Ljava/io/ObjectInputStream$GetField;
+readFully
+ ([B)V
+ ([B)V
+readFully
+ ([BII)V
+ ([BII)V
+readLine
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+readObjectOverride
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+readUTF
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+readUnshared
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+registerValidation
+ (Ljava/io/ObjectInputValidation;I)V
+ (Ljava/io/ObjectInputValidation;I)V
+resolveClass
+ (Ljava/io/ObjectStreamClass;)Ljava/lang/Class;
+ (Ljava/io/ObjectStreamClass;)Ljava/lang/Class;

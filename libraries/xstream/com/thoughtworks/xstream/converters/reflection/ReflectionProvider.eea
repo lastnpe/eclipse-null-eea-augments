@@ -1,0 +1,23 @@
+class com/thoughtworks/xstream/converters/reflection/ReflectionProvider
+
+fieldDefinedInClass
+ (Ljava/lang/String;Ljava/lang/Class;)Z
+ (Ljava/lang/String;Ljava/lang/Class;)Z
+getField
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
+getFieldOrNull
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
+getFieldType
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Class;
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Class;
+newInstance
+ (Ljava/lang/Class;)Ljava/lang/Object;
+ (Ljava/lang/Class;)Ljava/lang/Object;
+visitSerializableFields
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider$Visitor;)V
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider$Visitor;)V
+writeField
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Class;)V
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Class;)V

@@ -1,0 +1,38 @@
+class java/nio/channels/Channels
+
+newChannel
+ (Ljava/io/InputStream;)Ljava/nio/channels/ReadableByteChannel;
+ (Ljava/io/InputStream;)Ljava/nio/channels/ReadableByteChannel;
+newChannel
+ (Ljava/io/OutputStream;)Ljava/nio/channels/WritableByteChannel;
+ (Ljava/io/OutputStream;)Ljava/nio/channels/WritableByteChannel;
+newInputStream
+ (Ljava/nio/channels/AsynchronousByteChannel;)Ljava/io/InputStream;
+ (Ljava/nio/channels/AsynchronousByteChannel;)Ljava/io/InputStream;
+newInputStream
+ (Ljava/nio/channels/ReadableByteChannel;)Ljava/io/InputStream;
+ (Ljava/nio/channels/ReadableByteChannel;)Ljava/io/InputStream;
+newOutputStream
+ (Ljava/nio/channels/AsynchronousByteChannel;)Ljava/io/OutputStream;
+ (Ljava/nio/channels/AsynchronousByteChannel;)Ljava/io/OutputStream;
+newOutputStream
+ (Ljava/nio/channels/WritableByteChannel;)Ljava/io/OutputStream;
+ (Ljava/nio/channels/WritableByteChannel;)Ljava/io/OutputStream;
+newReader
+ (Ljava/nio/channels/ReadableByteChannel;Ljava/lang/String;)Ljava/io/Reader;
+ (Ljava/nio/channels/ReadableByteChannel;Ljava/lang/String;)Ljava/io/Reader;
+newReader
+ (Ljava/nio/channels/ReadableByteChannel;Ljava/nio/charset/Charset;)Ljava/io/Reader;
+ (Ljava/nio/channels/ReadableByteChannel;Ljava/nio/charset/Charset;)Ljava/io/Reader;
+newReader
+ (Ljava/nio/channels/ReadableByteChannel;Ljava/nio/charset/CharsetDecoder;I)Ljava/io/Reader;
+ (Ljava/nio/channels/ReadableByteChannel;Ljava/nio/charset/CharsetDecoder;I)Ljava/io/Reader;
+newWriter
+ (Ljava/nio/channels/WritableByteChannel;Ljava/lang/String;)Ljava/io/Writer;
+ (Ljava/nio/channels/WritableByteChannel;Ljava/lang/String;)Ljava/io/Writer;
+newWriter
+ (Ljava/nio/channels/WritableByteChannel;Ljava/nio/charset/Charset;)Ljava/io/Writer;
+ (Ljava/nio/channels/WritableByteChannel;Ljava/nio/charset/Charset;)Ljava/io/Writer;
+newWriter
+ (Ljava/nio/channels/WritableByteChannel;Ljava/nio/charset/CharsetEncoder;I)Ljava/io/Writer;
+ (Ljava/nio/channels/WritableByteChannel;Ljava/nio/charset/CharsetEncoder;I)Ljava/io/Writer;

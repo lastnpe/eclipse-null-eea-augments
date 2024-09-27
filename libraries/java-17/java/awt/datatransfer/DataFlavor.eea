@@ -1,0 +1,121 @@
+class java/awt/datatransfer/DataFlavor
+
+allHtmlFlavor
+ Ljava/awt/datatransfer/DataFlavor;
+ L1java/awt/datatransfer/DataFlavor;
+fragmentHtmlFlavor
+ Ljava/awt/datatransfer/DataFlavor;
+ L1java/awt/datatransfer/DataFlavor;
+imageFlavor
+ Ljava/awt/datatransfer/DataFlavor;
+ L1java/awt/datatransfer/DataFlavor;
+javaFileListFlavor
+ Ljava/awt/datatransfer/DataFlavor;
+ L1java/awt/datatransfer/DataFlavor;
+javaJVMLocalObjectMimeType
+ Ljava/lang/String;
+ L1java/lang/String;
+javaRemoteObjectMimeType
+ Ljava/lang/String;
+ L1java/lang/String;
+javaSerializedObjectMimeType
+ Ljava/lang/String;
+ L1java/lang/String;
+plainTextFlavor
+ Ljava/awt/datatransfer/DataFlavor;
+ L1java/awt/datatransfer/DataFlavor;
+selectionHtmlFlavor
+ Ljava/awt/datatransfer/DataFlavor;
+ L1java/awt/datatransfer/DataFlavor;
+stringFlavor
+ Ljava/awt/datatransfer/DataFlavor;
+ L1java/awt/datatransfer/DataFlavor;
+
+getTextPlainUnicodeFlavor
+ ()Ljava/awt/datatransfer/DataFlavor;
+ ()Ljava/awt/datatransfer/DataFlavor;
+selectBestTextFlavor
+ ([Ljava/awt/datatransfer/DataFlavor;)Ljava/awt/datatransfer/DataFlavor;
+ ([Ljava/awt/datatransfer/DataFlavor;)Ljava/awt/datatransfer/DataFlavor;
+tryToLoadClass
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/Class<*>;
+
+<init>
+ (Ljava/lang/Class<*>;Ljava/lang/String;)V
+ (Ljava/lang/Class<*>;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+equals
+ (Ljava/awt/datatransfer/DataFlavor;)Z
+ (Ljava/awt/datatransfer/DataFlavor;)Z
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+equals
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+getDefaultRepresentationClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getDefaultRepresentationClassAsString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getHumanPresentableName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMimeType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getParameter
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getPrimaryType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getReaderForText
+ (Ljava/awt/datatransfer/Transferable;)Ljava/io/Reader;
+ (Ljava/awt/datatransfer/Transferable;)Ljava/io/Reader;
+getRepresentationClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getSubType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+isMimeTypeEqual
+ (Ljava/awt/datatransfer/DataFlavor;)Z
+ (Ljava/awt/datatransfer/DataFlavor;)Z
+isMimeTypeEqual
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+match
+ (Ljava/awt/datatransfer/DataFlavor;)Z
+ (Ljava/awt/datatransfer/DataFlavor;)Z
+normalizeMimeType
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+normalizeMimeTypeParameter
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+readExternal
+ (Ljava/io/ObjectInput;)V
+ (L1java/io/ObjectInput;)V # @Inherited(java.io.Externalizable)
+setHumanPresentableName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+writeExternal
+ (Ljava/io/ObjectOutput;)V
+ (L1java/io/ObjectOutput;)V # @Inherited(java.io.Externalizable)

@@ -1,0 +1,61 @@
+class org/springframework/core/annotation/AnnotationAttributes
+
+super java/util/LinkedHashMap
+ <Ljava/lang/String;Ljava/lang/Object;>
+ <Ljava/lang/String;Ljava/lang/Object;>
+
+fromMap
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/springframework/core/annotation/AnnotationAttributes;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)L0org/springframework/core/annotation/AnnotationAttributes;
+
+<init>
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)V
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)V
+<init>
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+<init>
+ (Lorg/springframework/core/annotation/AnnotationAttributes;)V
+ (Lorg/springframework/core/annotation/AnnotationAttributes;)V
+annotationType
+ ()Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;
+ ()L0java/lang/Class<+Ljava/lang/annotation/Annotation;>;
+getAnnotation
+ (Ljava/lang/String;)Lorg/springframework/core/annotation/AnnotationAttributes;
+ (Ljava/lang/String;)Lorg/springframework/core/annotation/AnnotationAttributes;
+getAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/String;Ljava/lang/Class<TA;>;)TA;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/String;Ljava/lang/Class<TA;>;)TA;
+getAnnotationArray
+ (Ljava/lang/String;)[Lorg/springframework/core/annotation/AnnotationAttributes;
+ (Ljava/lang/String;)[Lorg/springframework/core/annotation/AnnotationAttributes;
+getAnnotationArray
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/String;Ljava/lang/Class<TA;>;)[TA;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/String;Ljava/lang/Class<TA;>;)[TA;
+getBoolean
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+getClass
+ <T:Ljava/lang/Object;>(Ljava/lang/String;)Ljava/lang/Class<+TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;)Ljava/lang/Class<+TT;>;
+getClassArray
+ (Ljava/lang/String;)[Ljava/lang/Class<*>;
+ (Ljava/lang/String;)[Ljava/lang/Class<*>;
+getEnum
+ <E:Ljava/lang/Enum<*>;>(Ljava/lang/String;)TE;
+ <E:Ljava/lang/Enum<*>;>(Ljava/lang/String;)TE;
+getNumber
+ <N:Ljava/lang/Number;>(Ljava/lang/String;)TN;
+ <N:Ljava/lang/Number;>(Ljava/lang/String;)TN;
+getString
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getStringArray
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[Ljava/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

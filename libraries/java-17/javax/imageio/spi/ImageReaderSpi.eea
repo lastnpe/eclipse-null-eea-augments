@@ -1,0 +1,34 @@
+class javax/imageio/spi/ImageReaderSpi
+
+STANDARD_INPUT_TYPE
+ [Ljava/lang/Class<*>;
+ [1Ljava/lang/Class<*>;
+
+inputTypes
+ [Ljava/lang/Class<*>;
+ [Ljava/lang/Class<*>;
+writerSpiNames
+ [Ljava/lang/String;
+ [Ljava/lang/String;
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class<*>;[Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class<*>;[Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+canDecodeInput
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+createReaderInstance
+ ()Ljavax/imageio/ImageReader;
+ ()Ljavax/imageio/ImageReader;
+createReaderInstance
+ (Ljava/lang/Object;)Ljavax/imageio/ImageReader;
+ (Ljava/lang/Object;)Ljavax/imageio/ImageReader;
+getImageWriterSpiNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getInputTypes
+ ()[Ljava/lang/Class<*>;
+ ()[Ljava/lang/Class<*>;
+isOwnReader
+ (Ljavax/imageio/ImageReader;)Z
+ (Ljavax/imageio/ImageReader;)Z

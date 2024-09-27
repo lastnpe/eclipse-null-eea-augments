@@ -1,0 +1,22 @@
+class org/mockito/internal/configuration/plugins/DefaultMockitoPlugins
+
+MEMBER_ACCESSOR_ALIASES
+ Ljava/util/Set<Ljava/lang/String;>;
+ L1java/util/Set<Ljava/lang/String;>;
+MOCK_MAKER_ALIASES
+ Ljava/util/Set<Ljava/lang/String;>;
+ L1java/util/Set<Ljava/lang/String;>;
+
+getDefaultPluginClass
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+
+getDefaultPlugin
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+getInlineMockMaker
+ ()Lorg/mockito/plugins/MockMaker;
+ ()Lorg/mockito/plugins/MockMaker;
+getMockMaker
+ (Ljava/lang/String;)Lorg/mockito/plugins/MockMaker;
+ (Ljava/lang/String;)Lorg/mockito/plugins/MockMaker;

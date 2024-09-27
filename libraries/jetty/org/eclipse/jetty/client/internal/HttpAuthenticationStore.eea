@@ -1,0 +1,20 @@
+class org/eclipse/jetty/client/internal/HttpAuthenticationStore
+
+addAuthentication
+ (Lorg/eclipse/jetty/client/Authentication;)V
+ (Lorg/eclipse/jetty/client/Authentication;)V
+addAuthenticationResult
+ (Lorg/eclipse/jetty/client/Authentication$Result;)V
+ (Lorg/eclipse/jetty/client/Authentication$Result;)V
+findAuthentication
+ (Ljava/lang/String;Ljava/net/URI;Ljava/lang/String;)Lorg/eclipse/jetty/client/Authentication;
+ (Ljava/lang/String;Ljava/net/URI;Ljava/lang/String;)Lorg/eclipse/jetty/client/Authentication;
+findAuthenticationResult
+ (Ljava/net/URI;)Lorg/eclipse/jetty/client/Authentication$Result;
+ (Ljava/net/URI;)Lorg/eclipse/jetty/client/Authentication$Result;
+removeAuthentication
+ (Lorg/eclipse/jetty/client/Authentication;)V
+ (Lorg/eclipse/jetty/client/Authentication;)V
+removeAuthenticationResult
+ (Lorg/eclipse/jetty/client/Authentication$Result;)V
+ (Lorg/eclipse/jetty/client/Authentication$Result;)V

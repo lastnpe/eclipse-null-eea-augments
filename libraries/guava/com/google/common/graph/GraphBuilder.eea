@@ -1,0 +1,36 @@
+class com/google/common/graph/GraphBuilder
+ <N:Ljava/lang/Object;>
+ <N:Ljava/lang/Object;>
+
+super com/google/common/graph/AbstractGraphBuilder
+ <TN;>
+ <TN;>
+
+directed
+ ()Lcom/google/common/graph/GraphBuilder<Ljava/lang/Object;>;
+ ()Lcom/google/common/graph/GraphBuilder<Ljava/lang/Object;>;
+from
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/Graph<TN;>;)Lcom/google/common/graph/GraphBuilder<TN;>;
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/Graph<TN;>;)Lcom/google/common/graph/GraphBuilder<TN;>;
+undirected
+ ()Lcom/google/common/graph/GraphBuilder<Ljava/lang/Object;>;
+ ()Lcom/google/common/graph/GraphBuilder<Ljava/lang/Object;>;
+
+allowsSelfLoops
+ (Z)Lcom/google/common/graph/GraphBuilder<TN;>;
+ (Z)L1com/google/common/graph/GraphBuilder<TN;>;
+build
+ <N1:TN;>()Lcom/google/common/graph/MutableGraph<TN1;>;
+ <N1:TN;>()L1com/google/common/graph/MutableGraph<TN1;>;
+expectedNodeCount
+ (I)Lcom/google/common/graph/GraphBuilder<TN;>;
+ (I)L1com/google/common/graph/GraphBuilder<TN;>;
+immutable
+ <N1:TN;>()Lcom/google/common/graph/ImmutableGraph$Builder<TN1;>;
+ <N1:TN;>()Lcom/google/common/graph/ImmutableGraph$Builder<TN1;>;
+incidentEdgeOrder
+ <N1:TN;>(Lcom/google/common/graph/ElementOrder<TN1;>;)Lcom/google/common/graph/GraphBuilder<TN1;>;
+ <N1:TN;>(Lcom/google/common/graph/ElementOrder<TN1;>;)L1com/google/common/graph/GraphBuilder<TN1;>;
+nodeOrder
+ <N1:TN;>(Lcom/google/common/graph/ElementOrder<TN1;>;)Lcom/google/common/graph/GraphBuilder<TN1;>;
+ <N1:TN;>(Lcom/google/common/graph/ElementOrder<TN1;>;)L1com/google/common/graph/GraphBuilder<TN1;>;

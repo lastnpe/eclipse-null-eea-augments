@@ -1,0 +1,30 @@
+class java/util/OptionalLong
+
+empty
+ ()Ljava/util/OptionalLong;
+ ()Ljava/util/OptionalLong;
+of
+ (J)Ljava/util/OptionalLong;
+ (J)Ljava/util/OptionalLong;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+ifPresent
+ (Ljava/util/function/LongConsumer;)V
+ (Ljava/util/function/LongConsumer;)V
+ifPresentOrElse
+ (Ljava/util/function/LongConsumer;Ljava/lang/Runnable;)V
+ (Ljava/util/function/LongConsumer;Ljava/lang/Runnable;)V
+orElseGet
+ (Ljava/util/function/LongSupplier;)J
+ (Ljava/util/function/LongSupplier;)J
+orElseThrow
+ <X:Ljava/lang/Throwable;>(Ljava/util/function/Supplier<+TX;>;)J^TX;
+ <X:Ljava/lang/Throwable;>(Ljava/util/function/Supplier<+TX;>;)J^TX;
+stream
+ ()Ljava/util/stream/LongStream;
+ ()Ljava/util/stream/LongStream;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

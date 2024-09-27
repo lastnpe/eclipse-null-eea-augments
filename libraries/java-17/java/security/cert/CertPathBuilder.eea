@@ -1,0 +1,30 @@
+class java/security/cert/CertPathBuilder
+
+getDefaultType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getInstance
+ (Ljava/lang/String;)Ljava/security/cert/CertPathBuilder;
+ (Ljava/lang/String;)Ljava/security/cert/CertPathBuilder;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/cert/CertPathBuilder;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/cert/CertPathBuilder;
+getInstance
+ (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/cert/CertPathBuilder;
+ (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/cert/CertPathBuilder;
+
+<init>
+ (Ljava/security/cert/CertPathBuilderSpi;Ljava/security/Provider;Ljava/lang/String;)V
+ (Ljava/security/cert/CertPathBuilderSpi;Ljava/security/Provider;Ljava/lang/String;)V
+build
+ (Ljava/security/cert/CertPathParameters;)Ljava/security/cert/CertPathBuilderResult;
+ (Ljava/security/cert/CertPathParameters;)Ljava/security/cert/CertPathBuilderResult;
+getAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getProvider
+ ()Ljava/security/Provider;
+ ()Ljava/security/Provider;
+getRevocationChecker
+ ()Ljava/security/cert/CertPathChecker;
+ ()Ljava/security/cert/CertPathChecker;

@@ -1,0 +1,33 @@
+class com/thoughtworks/xstream/io/binary/Token
+
+value
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getValue
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+readFrom
+ (Ljava/io/DataInput;B)V
+ (Ljava/io/DataInput;B)V
+readId
+ (Ljava/io/DataInput;B)J
+ (Ljava/io/DataInput;B)J
+readString
+ (Ljava/io/DataInput;)Ljava/lang/String;
+ (Ljava/io/DataInput;)Ljava/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+writeId
+ (Ljava/io/DataOutput;JB)V
+ (Ljava/io/DataOutput;JB)V
+writeString
+ (Ljava/io/DataOutput;Ljava/lang/String;)V
+ (Ljava/io/DataOutput;Ljava/lang/String;)V
+writeTo
+ (Ljava/io/DataOutput;B)V
+ (Ljava/io/DataOutput;B)V

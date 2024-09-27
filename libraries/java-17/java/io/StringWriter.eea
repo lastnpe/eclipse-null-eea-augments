@@ -1,0 +1,26 @@
+class java/io/StringWriter
+
+append
+ (C)Ljava/io/StringWriter;
+ (C)Ljava/io/StringWriter;
+append
+ (Ljava/lang/CharSequence;)Ljava/io/StringWriter;
+ (Ljava/lang/CharSequence;)Ljava/io/StringWriter;
+append
+ (Ljava/lang/CharSequence;II)Ljava/io/StringWriter;
+ (Ljava/lang/CharSequence;II)Ljava/io/StringWriter;
+getBuffer
+ ()Ljava/lang/StringBuffer;
+ ()Ljava/lang/StringBuffer;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+write
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+write
+ (Ljava/lang/String;II)V
+ (Ljava/lang/String;II)V
+write
+ ([CII)V
+ ([CII)V
