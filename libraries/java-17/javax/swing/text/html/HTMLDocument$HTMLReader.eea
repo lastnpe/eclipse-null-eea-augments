@@ -30,22 +30,22 @@ blockOpen
  (Ljavax/swing/text/html/HTML$Tag;Ljavax/swing/text/MutableAttributeSet;)V
 handleComment
  ([CI)V
- ([CI)V
+ ([1CI)V # @Inherited(javax.swing.text.html.HTMLEditorKit$ParserCallback)
 handleEndOfLineString
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(javax.swing.text.html.HTMLEditorKit$ParserCallback)
 handleEndTag
  (Ljavax/swing/text/html/HTML$Tag;I)V
- (Ljavax/swing/text/html/HTML$Tag;I)V
+ (L1javax/swing/text/html/HTML$Tag;I)V # @Inherited(javax.swing.text.html.HTMLEditorKit$ParserCallback)
 handleSimpleTag
  (Ljavax/swing/text/html/HTML$Tag;Ljavax/swing/text/MutableAttributeSet;I)V
- (Ljavax/swing/text/html/HTML$Tag;Ljavax/swing/text/MutableAttributeSet;I)V
+ (L1javax/swing/text/html/HTML$Tag;L1javax/swing/text/MutableAttributeSet;I)V # @Inherited(javax.swing.text.html.HTMLEditorKit$ParserCallback)
 handleStartTag
  (Ljavax/swing/text/html/HTML$Tag;Ljavax/swing/text/MutableAttributeSet;I)V
- (Ljavax/swing/text/html/HTML$Tag;Ljavax/swing/text/MutableAttributeSet;I)V
+ (L1javax/swing/text/html/HTML$Tag;L1javax/swing/text/MutableAttributeSet;I)V # @Inherited(javax.swing.text.html.HTMLEditorKit$ParserCallback)
 handleText
  ([CI)V
- ([CI)V
+ ([1CI)V # @Inherited(javax.swing.text.html.HTMLEditorKit$ParserCallback)
 preContent
  ([C)V
  ([C)V

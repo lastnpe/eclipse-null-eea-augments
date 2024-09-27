@@ -11,16 +11,16 @@ super java/util/concurrent/BlockingQueue
 
 contains
  (Ljava/lang/Object;)Z
- (Ljava/lang/Object;)Z
+ (L1java/lang/Object;)Z # @Inherited(java.util.concurrent.BlockingQueue)
 containsAll
  (Ljava/util/Collection<*>;)Z
  (L1java/util/Collection<*>;)Z # @Inherited(java.util.AbstractCollection)
 drainTo
  (Ljava/util/Collection<-TE;>;)I
- (Ljava/util/Collection<-TE;>;)I
+ (L1java/util/Collection<-TE;>;)I # @Inherited(java.util.concurrent.BlockingQueue)
 drainTo
  (Ljava/util/Collection<-TE;>;I)I
- (Ljava/util/Collection<-TE;>;I)I
+ (L1java/util/Collection<-TE;>;I)I # @Inherited(java.util.concurrent.BlockingQueue)
 iterator
  ()Ljava/util/Iterator<TE;>;
  ()L1java/util/Iterator<TE;>; # @Inherited(java.util.AbstractCollection)
@@ -29,7 +29,7 @@ offer
  (T1E;)Z # @Inherited(java.util.concurrent.BlockingQueue)
 offer
  (TE;JLjava/util/concurrent/TimeUnit;)Z
- (TE;JLjava/util/concurrent/TimeUnit;)Z
+ (T1E;JL1java/util/concurrent/TimeUnit;)Z # @Inherited(java.util.concurrent.BlockingQueue)
 peek
  ()TE;
  ()T0E; # @Inherited(java.util.Queue)
@@ -38,13 +38,13 @@ poll
  ()T0E; # @Inherited(java.util.Queue)
 poll
  (JLjava/util/concurrent/TimeUnit;)TE;
- (JLjava/util/concurrent/TimeUnit;)T0E; # @Inherited(java.util.concurrent.BlockingQueue)
+ (JL1java/util/concurrent/TimeUnit;)T0E; # @Inherited(java.util.concurrent.BlockingQueue)
 put
  (TE;)V
- (TE;)V
+ (T1E;)V # @Inherited(java.util.concurrent.BlockingQueue)
 remove
  (Ljava/lang/Object;)Z
- (Ljava/lang/Object;)Z
+ (L1java/lang/Object;)Z # @Inherited(java.util.concurrent.BlockingQueue)
 removeAll
  (Ljava/util/Collection<*>;)Z
  (L1java/util/Collection<*>;)Z # @Inherited(java.util.AbstractCollection)
@@ -56,7 +56,7 @@ spliterator
  ()L1java/util/Spliterator<TE;>; # @Inherited(java.util.Collection)
 take
  ()TE;
- ()TE;
+ ()T1E; # @Inherited(java.util.concurrent.BlockingQueue)
 toArray
  ()[Ljava/lang/Object;
  ()[1Ljava/lang/Object; # @Inherited(java.util.AbstractCollection)

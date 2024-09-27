@@ -5,10 +5,10 @@ class java/util/concurrent/locks/AbstractQueuedLongSynchronizer$ConditionObject
  (Ljava/util/concurrent/locks/AbstractQueuedLongSynchronizer;)V
 await
  (JLjava/util/concurrent/TimeUnit;)Z
- (JLjava/util/concurrent/TimeUnit;)Z
+ (JL1java/util/concurrent/TimeUnit;)Z # @Inherited(java.util.concurrent.locks.Condition)
 awaitUntil
  (Ljava/util/Date;)Z
- (Ljava/util/Date;)Z
+ (L1java/util/Date;)Z # @Inherited(java.util.concurrent.locks.Condition)
 getWaitingThreads
  ()Ljava/util/Collection<Ljava/lang/Thread;>;
  ()Ljava/util/Collection<Ljava/lang/Thread;>;

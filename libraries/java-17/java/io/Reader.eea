@@ -2,24 +2,24 @@ class java/io/Reader
 
 nullReader
  ()Ljava/io/Reader;
- ()Ljava/io/Reader;
+ ()L1java/io/Reader;
 
 lock
  Ljava/lang/Object;
- Ljava/lang/Object;
+ L1java/lang/Object;
 
 <init>
  (Ljava/lang/Object;)V
- (Ljava/lang/Object;)V
+ (L1java/lang/Object;)V
 read
  (Ljava/nio/CharBuffer;)I
  (L1java/nio/CharBuffer;)I # @Inherited(java.lang.Readable)
 read
  ([C)I
- ([C)I
+ ([1C)I
 read
  ([CII)I
- ([CII)I
+ ([1CII)I
 transferTo
  (Ljava/io/Writer;)J
- (Ljava/io/Writer;)J
+ (L1java/io/Writer;)J

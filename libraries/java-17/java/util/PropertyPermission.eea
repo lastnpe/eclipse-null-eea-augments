@@ -8,10 +8,10 @@ equals
  (L0java/lang/Object;)Z # @Inherited(java.security.BasicPermission)
 getActions
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.security.BasicPermission)
 implies
  (Ljava/security/Permission;)Z
  (Ljava/security/Permission;)Z
 newPermissionCollection
  ()Ljava/security/PermissionCollection;
- ()Ljava/security/PermissionCollection;
+ ()L1java/security/PermissionCollection; # @Inherited(java.security.BasicPermission)

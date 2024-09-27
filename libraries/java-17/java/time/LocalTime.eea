@@ -56,7 +56,7 @@ parse
 
 adjustInto
  (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
- (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal;
+ (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal; # @Inherited(java.time.temporal.TemporalAdjuster)
 atDate
  (Ljava/time/LocalDate;)Ljava/time/LocalDateTime;
  (L1java/time/LocalDate;)L1java/time/LocalDateTime;
@@ -74,10 +74,10 @@ format
  (L1java/time/format/DateTimeFormatter;)L1java/lang/String;
 get
  (Ljava/time/temporal/TemporalField;)I
- (L1java/time/temporal/TemporalField;)I
+ (L1java/time/temporal/TemporalField;)I # @Inherited(java.time.temporal.TemporalAccessor)
 getLong
  (Ljava/time/temporal/TemporalField;)J
- (L1java/time/temporal/TemporalField;)J
+ (L1java/time/temporal/TemporalField;)J # @Inherited(java.time.temporal.TemporalAccessor)
 isAfter
  (Ljava/time/LocalTime;)Z
  (L1java/time/LocalTime;)Z
@@ -86,10 +86,10 @@ isBefore
  (L1java/time/LocalTime;)Z
 isSupported
  (Ljava/time/temporal/TemporalField;)Z
- (L1java/time/temporal/TemporalField;)Z
+ (L1java/time/temporal/TemporalField;)Z # @Inherited(java.time.temporal.TemporalAccessor)
 isSupported
  (Ljava/time/temporal/TemporalUnit;)Z
- (L1java/time/temporal/TemporalUnit;)Z
+ (L1java/time/temporal/TemporalUnit;)Z # @Inherited(java.time.temporal.Temporal)
 minus
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/LocalTime;
  (JL1java/time/temporal/TemporalUnit;)L1java/time/LocalTime;
@@ -128,10 +128,10 @@ plusSeconds
  (J)L1java/time/LocalTime;
 query
  <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
- <R:Ljava/lang/Object;>(L1java/time/temporal/TemporalQuery<TR;>;)TR;
+ <R:Ljava/lang/Object;>(L1java/time/temporal/TemporalQuery<TR;>;)TR; # @Overrides(java.time.temporal.TemporalAccessor)
 range
  (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
- (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange;
+ (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange; # @Inherited(java.time.temporal.TemporalAccessor)
 toEpochSecond
  (Ljava/time/LocalDate;Ljava/time/ZoneOffset;)J
  (Ljava/time/LocalDate;Ljava/time/ZoneOffset;)J
@@ -143,7 +143,7 @@ truncatedTo
  (L1java/time/temporal/TemporalUnit;)L1java/time/LocalTime;
 until
  (Ljava/time/temporal/Temporal;Ljava/time/temporal/TemporalUnit;)J
- (L1java/time/temporal/Temporal;L1java/time/temporal/TemporalUnit;)J
+ (L1java/time/temporal/Temporal;L1java/time/temporal/TemporalUnit;)J # @Inherited(java.time.temporal.Temporal)
 with
  (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/LocalTime;
  (L1java/time/temporal/TemporalAdjuster;)L1java/time/LocalTime;

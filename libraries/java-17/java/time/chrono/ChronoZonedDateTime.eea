@@ -24,13 +24,13 @@ format
  (Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;
 get
  (Ljava/time/temporal/TemporalField;)I
- (L1java/time/temporal/TemporalField;)I
+ (L1java/time/temporal/TemporalField;)I # @Inherited(java.time.temporal.TemporalAccessor)
 getChronology
  ()Ljava/time/chrono/Chronology;
  ()Ljava/time/chrono/Chronology;
 getLong
  (Ljava/time/temporal/TemporalField;)J
- (Ljava/time/temporal/TemporalField;)J
+ (L1java/time/temporal/TemporalField;)J # @Inherited(java.time.temporal.TemporalAccessor)
 getOffset
  ()Ljava/time/ZoneOffset;
  ()Ljava/time/ZoneOffset;
@@ -48,10 +48,10 @@ isEqual
  (Ljava/time/chrono/ChronoZonedDateTime<*>;)Z
 isSupported
  (Ljava/time/temporal/TemporalField;)Z
- (Ljava/time/temporal/TemporalField;)Z
+ (L1java/time/temporal/TemporalField;)Z # @Inherited(java.time.temporal.TemporalAccessor)
 isSupported
  (Ljava/time/temporal/TemporalUnit;)Z
- (Ljava/time/temporal/TemporalUnit;)Z
+ (L1java/time/temporal/TemporalUnit;)Z # @Inherited(java.time.temporal.Temporal)
 minus
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/ChronoZonedDateTime<TD;>;
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/ChronoZonedDateTime<TD;>;
@@ -66,10 +66,10 @@ plus
  (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/ChronoZonedDateTime<TD;>;
 query
  <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
- <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+ <R:Ljava/lang/Object;>(L1java/time/temporal/TemporalQuery<TR;>;)T0R; # @Inherited(java.time.temporal.TemporalAccessor)
 range
  (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
- (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange; # @Inherited(java.time.temporal.TemporalAccessor)
 toInstant
  ()Ljava/time/Instant;
  ()L1java/time/Instant;

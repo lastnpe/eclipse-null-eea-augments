@@ -8,7 +8,7 @@ class javax/crypto/CipherOutputStream
  (Ljava/io/OutputStream;Ljavax/crypto/Cipher;)V
 write
  ([B)V
- ([B)V
+ ([1B)V # @Inherited(java.io.FilterOutputStream)
 write
  ([BII)V
- ([BII)V
+ ([1BII)V # @Inherited(java.io.FilterOutputStream)

@@ -8,34 +8,34 @@ getAnnotatedType
  ()Ljava/lang/reflect/AnnotatedType;
 getAnnotation
  <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
- <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)T0T; # @Inherited(java.lang.reflect.AnnotatedElement)
 getAnnotations
  ()[Ljava/lang/annotation/Annotation;
- ()[Ljava/lang/annotation/Annotation;
+ ()[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.AnnotatedElement)
 getAnnotationsByType
  <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)[TT;
- <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)[1T1T; # @Inherited(java.lang.reflect.AnnotatedElement)
 getDeclaredAnnotation
  <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
- <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)T0T; # @Inherited(java.lang.reflect.AnnotatedElement)
 getDeclaredAnnotations
  ()[Ljava/lang/annotation/Annotation;
- ()[Ljava/lang/annotation/Annotation;
+ ()[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.AnnotatedElement)
 getDeclaredAnnotationsByType
  <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)[TT;
- <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)[1T1T; # @Inherited(java.lang.reflect.AnnotatedElement)
 getDeclaringExecutable
  ()Ljava/lang/reflect/Executable;
- ()Ljava/lang/reflect/Executable;
+ ()L1java/lang/reflect/Executable;
 getName
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String;
 getParameterizedType
  ()Ljava/lang/reflect/Type;
  ()Ljava/lang/reflect/Type;
 getType
  ()Ljava/lang/Class<*>;
- ()Ljava/lang/Class<*>;
+ ()L1java/lang/Class<*>;
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)

@@ -20,22 +20,22 @@ addAll
  (L1java/util/Collection<+TE;>;)Z # @Inherited(java.util.AbstractQueue)
 addFirst
  (TE;)V
- (TE;)V
+ (T1E;)V # @Inherited(java.util.concurrent.BlockingDeque)
 addLast
  (TE;)V
- (TE;)V
+ (T1E;)V # @Inherited(java.util.concurrent.BlockingDeque)
 contains
  (Ljava/lang/Object;)Z
- (Ljava/lang/Object;)Z
+ (L1java/lang/Object;)Z # @Inherited(java.util.concurrent.BlockingDeque)
 descendingIterator
  ()Ljava/util/Iterator<TE;>;
- ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.Deque)
 drainTo
  (Ljava/util/Collection<-TE;>;)I
- (Ljava/util/Collection<-TE;>;)I
+ (L1java/util/Collection<-TE;>;)I # @Inherited(java.util.concurrent.BlockingQueue)
 drainTo
  (Ljava/util/Collection<-TE;>;I)I
- (Ljava/util/Collection<-TE;>;I)I
+ (L1java/util/Collection<-TE;>;I)I # @Inherited(java.util.concurrent.BlockingQueue)
 element
  ()TE;
  ()T1E; # @Inherited(java.util.AbstractQueue)
@@ -44,10 +44,10 @@ forEach
  (Ljava/util/function/Consumer<-TE;>;)V
 getFirst
  ()TE;
- ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
 getLast
  ()TE;
- ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
 iterator
  ()Ljava/util/Iterator<TE;>;
  ()L1java/util/Iterator<TE;>; # @Inherited(java.util.AbstractCollection)
@@ -56,85 +56,85 @@ offer
  (T1E;)Z # @Inherited(java.util.concurrent.BlockingDeque)
 offer
  (TE;JLjava/util/concurrent/TimeUnit;)Z
- (TE;JLjava/util/concurrent/TimeUnit;)Z
+ (T1E;JL1java/util/concurrent/TimeUnit;)Z # @Inherited(java.util.concurrent.BlockingDeque)
 offerFirst
  (TE;)Z
- (TE;)Z
+ (T1E;)Z # @Inherited(java.util.concurrent.BlockingDeque)
 offerFirst
  (TE;JLjava/util/concurrent/TimeUnit;)Z
- (TE;JLjava/util/concurrent/TimeUnit;)Z
+ (T1E;JLjava/util/concurrent/TimeUnit;)Z # @Inherited(java.util.concurrent.BlockingDeque)
 offerLast
  (TE;)Z
- (TE;)Z
+ (T1E;)Z # @Inherited(java.util.concurrent.BlockingDeque)
 offerLast
  (TE;JLjava/util/concurrent/TimeUnit;)Z
- (TE;JLjava/util/concurrent/TimeUnit;)Z
+ (T1E;JLjava/util/concurrent/TimeUnit;)Z # @Inherited(java.util.concurrent.BlockingDeque)
 peek
  ()TE;
  ()T0E; # @Inherited(java.util.concurrent.BlockingDeque)
 peekFirst
  ()TE;
- ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
 peekLast
  ()TE;
- ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
 poll
  ()TE;
  ()T0E; # @Inherited(java.util.concurrent.BlockingDeque)
 poll
  (JLjava/util/concurrent/TimeUnit;)TE;
- (JLjava/util/concurrent/TimeUnit;)T0E; # @Inherited(java.util.concurrent.BlockingDeque)
+ (JL1java/util/concurrent/TimeUnit;)T0E; # @Inherited(java.util.concurrent.BlockingDeque)
 pollFirst
  ()TE;
- ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
 pollFirst
  (JLjava/util/concurrent/TimeUnit;)TE;
- (JLjava/util/concurrent/TimeUnit;)TE;
+ (JL0java/util/concurrent/TimeUnit;)TE; # @Inherited(java.util.concurrent.BlockingDeque)
 pollLast
  ()TE;
- ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
 pollLast
  (JLjava/util/concurrent/TimeUnit;)TE;
- (JLjava/util/concurrent/TimeUnit;)TE;
+ (JL0java/util/concurrent/TimeUnit;)TE; # @Inherited(java.util.concurrent.BlockingDeque)
 pop
  ()TE;
- ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
 push
  (TE;)V
- (TE;)V
+ (T1E;)V # @Inherited(java.util.concurrent.BlockingDeque)
 put
  (TE;)V
- (TE;)V
+ (T1E;)V # @Inherited(java.util.concurrent.BlockingDeque)
 putFirst
  (TE;)V
- (TE;)V
+ (T1E;)V # @Inherited(java.util.concurrent.BlockingDeque)
 putLast
  (TE;)V
- (TE;)V
+ (T1E;)V # @Inherited(java.util.concurrent.BlockingDeque)
 remove
  ()TE;
  ()T1E; # @Inherited(java.util.AbstractQueue)
 remove
  (Ljava/lang/Object;)Z
- (Ljava/lang/Object;)Z
+ (L1java/lang/Object;)Z # @Inherited(java.util.concurrent.BlockingDeque)
 removeAll
  (Ljava/util/Collection<*>;)Z
  (L1java/util/Collection<*>;)Z # @Inherited(java.util.AbstractCollection)
 removeFirst
  ()TE;
- ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
 removeFirstOccurrence
  (Ljava/lang/Object;)Z
- (Ljava/lang/Object;)Z
+ (L1java/lang/Object;)Z # @Inherited(java.util.concurrent.BlockingDeque)
 removeIf
  (Ljava/util/function/Predicate<-TE;>;)Z
  (L1java/util/function/Predicate<-TE;>;)Z # @Inherited(java.util.Collection)
 removeLast
  ()TE;
- ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
 removeLastOccurrence
  (Ljava/lang/Object;)Z
- (Ljava/lang/Object;)Z
+ (L1java/lang/Object;)Z # @Inherited(java.util.concurrent.BlockingDeque)
 retainAll
  (Ljava/util/Collection<*>;)Z
  (L1java/util/Collection<*>;)Z # @Inherited(java.util.AbstractCollection)
@@ -143,13 +143,13 @@ spliterator
  ()L1java/util/Spliterator<TE;>; # @Inherited(java.util.Collection)
 take
  ()TE;
- ()TE;
+ ()T1E; # @Inherited(java.util.concurrent.BlockingDeque)
 takeFirst
  ()TE;
- ()TE;
+ ()T1E; # @Inherited(java.util.concurrent.BlockingDeque)
 takeLast
  ()TE;
- ()TE;
+ ()T1E; # @Inherited(java.util.concurrent.BlockingDeque)
 toArray
  ()[Ljava/lang/Object;
  ()[1Ljava/lang/Object; # @Inherited(java.util.AbstractCollection)

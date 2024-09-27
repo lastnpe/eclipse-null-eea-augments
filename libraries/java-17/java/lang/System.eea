@@ -2,13 +2,13 @@ class java/lang/System
 
 err
  Ljava/io/PrintStream;
- L0java/io/PrintStream;
+ L1java/io/PrintStream;
 in
  Ljava/io/InputStream;
- L0java/io/InputStream;
+ L1java/io/InputStream;
 out
  Ljava/io/PrintStream;
- L0java/io/PrintStream;
+ L1java/io/PrintStream;
 
 arraycopy
  (Ljava/lang/Object;ILjava/lang/Object;II)V
@@ -33,7 +33,7 @@ getProperty
  (L1java/lang/String;)L0java/lang/String;
 getProperty
  (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
- (L1java/lang/String;L0java/lang/String;)L0java/lang/String;
+ (L1java/lang/String;L1java/lang/String;)L1java/lang/String;
 getSecurityManager
  ()Ljava/lang/SecurityManager;
  ()L0java/lang/SecurityManager;

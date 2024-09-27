@@ -5,10 +5,10 @@ class org/xml/sax/helpers/ParserAdapter
  (Lorg/xml/sax/Parser;)V
 characters
  ([CII)V
- ([CII)V
+ ([1CII)V # @Inherited(org.xml.sax.DocumentHandler)
 endElement
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(org.xml.sax.DocumentHandler)
 getContentHandler
  ()Lorg/xml/sax/ContentHandler;
  ()Lorg/xml/sax/ContentHandler;
@@ -29,7 +29,7 @@ getProperty
  (Ljava/lang/String;)Ljava/lang/Object;
 ignorableWhitespace
  ([CII)V
- ([CII)V
+ ([1CII)V # @Inherited(org.xml.sax.DocumentHandler)
 parse
  (Ljava/lang/String;)V
  (Ljava/lang/String;)V
@@ -38,7 +38,7 @@ parse
  (Lorg/xml/sax/InputSource;)V
 processingInstruction
  (Ljava/lang/String;Ljava/lang/String;)V
- (Ljava/lang/String;Ljava/lang/String;)V
+ (L1java/lang/String;L0java/lang/String;)V # @Inherited(org.xml.sax.DocumentHandler)
 setContentHandler
  (Lorg/xml/sax/ContentHandler;)V
  (Lorg/xml/sax/ContentHandler;)V
@@ -47,7 +47,7 @@ setDTDHandler
  (Lorg/xml/sax/DTDHandler;)V
 setDocumentLocator
  (Lorg/xml/sax/Locator;)V
- (Lorg/xml/sax/Locator;)V
+ (L1org/xml/sax/Locator;)V # @Inherited(org.xml.sax.DocumentHandler)
 setEntityResolver
  (Lorg/xml/sax/EntityResolver;)V
  (Lorg/xml/sax/EntityResolver;)V
@@ -62,4 +62,4 @@ setProperty
  (Ljava/lang/String;Ljava/lang/Object;)V
 startElement
  (Ljava/lang/String;Lorg/xml/sax/AttributeList;)V
- (Ljava/lang/String;Lorg/xml/sax/AttributeList;)V
+ (L1java/lang/String;L0org/xml/sax/AttributeList;)V # @Inherited(org.xml.sax.DocumentHandler)

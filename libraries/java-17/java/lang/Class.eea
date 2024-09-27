@@ -45,13 +45,13 @@ getAnnotation
  <A::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TA;>;)T0A;
 getAnnotations
  ()[Ljava/lang/annotation/Annotation;
- ()[1L1java/lang/annotation/Annotation;
+ ()[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.AnnotatedElement)
 getAnnotationsByType
  <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)[TA;
  <A::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TA;>;)[1T1A;
 getCanonicalName
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L0java/lang/String;
 getClassLoader
  ()Ljava/lang/ClassLoader;
  ()L0java/lang/ClassLoader;
@@ -63,7 +63,7 @@ getComponentType
  ()L0java/lang/Class<*>;
 getConstructor
  ([Ljava/lang/Class<*>;)Ljava/lang/reflect/Constructor<TT;>;
- ([0L0java/lang/Class<*>;)L1java/lang/reflect/Constructor<TT;>;
+ ([0Ljava/lang/Class<*>;)L1java/lang/reflect/Constructor<TT;>;
 getConstructors
  ()[Ljava/lang/reflect/Constructor<*>;
  ()[1L1java/lang/reflect/Constructor<*>;
@@ -72,7 +72,7 @@ getDeclaredAnnotation
  <A::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TA;>;)T0A;
 getDeclaredAnnotations
  ()[Ljava/lang/annotation/Annotation;
- ()[1L1java/lang/annotation/Annotation;
+ ()[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.AnnotatedElement)
 getDeclaredAnnotationsByType
  <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)[TA;
  <A::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TA;>;)[1T1A;
@@ -81,7 +81,7 @@ getDeclaredClasses
  ()[1L1java/lang/Class<*>;
 getDeclaredConstructor
  ([Ljava/lang/Class<*>;)Ljava/lang/reflect/Constructor<TT;>;
- ([0L0java/lang/Class<*>;)L1java/lang/reflect/Constructor<TT;>;
+ ([0Ljava/lang/Class<*>;)L1java/lang/reflect/Constructor<TT;>;
 getDeclaredConstructors
  ()[Ljava/lang/reflect/Constructor<*>;
  ()[1L1java/lang/reflect/Constructor<*>;
@@ -93,7 +93,7 @@ getDeclaredFields
  ()[1L1java/lang/reflect/Field;
 getDeclaredMethod
  (Ljava/lang/String;[Ljava/lang/Class<*>;)Ljava/lang/reflect/Method;
- (L1java/lang/String;[0L0java/lang/Class<*>;)L1java/lang/reflect/Method;
+ (L1java/lang/String;[0Ljava/lang/Class<*>;)L1java/lang/reflect/Method;
 getDeclaredMethods
  ()[Ljava/lang/reflect/Method;
  ()[1L1java/lang/reflect/Method;
@@ -129,7 +129,7 @@ getInterfaces
  ()[1L1java/lang/Class<*>;
 getMethod
  (Ljava/lang/String;[Ljava/lang/Class<*>;)Ljava/lang/reflect/Method;
- (L1java/lang/String;[0L0java/lang/Class<*>;)L1java/lang/reflect/Method;
+ (L1java/lang/String;[0Ljava/lang/Class<*>;)L1java/lang/reflect/Method;
 getMethods
  ()[Ljava/lang/reflect/Method;
  ()[1L1java/lang/reflect/Method;
@@ -177,13 +177,13 @@ getSuperclass
  ()L0java/lang/Class<-TT;>;
 getTypeName
  ()Ljava/lang/String;
- ()L1java/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.reflect.Type)
 getTypeParameters
  ()[Ljava/lang/reflect/TypeVariable<Ljava/lang/Class<TT;>;>;
  ()[1L1java/lang/reflect/TypeVariable<Ljava/lang/Class<TT;>;>;
 isAnnotationPresent
  (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
- (L1java/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+ (L1java/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z # @Inherited(java.lang.reflect.AnnotatedElement)
 isAssignableFrom
  (Ljava/lang/Class<*>;)Z
  (L1java/lang/Class<*>;)Z
@@ -195,7 +195,7 @@ isNestmateOf
  (L1java/lang/Class<*>;)Z
 newInstance
  ()TT;
- ()TT;
+ ()T1T;
 toGenericString
  ()Ljava/lang/String;
  ()L1java/lang/String;

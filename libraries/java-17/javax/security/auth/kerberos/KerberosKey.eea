@@ -14,10 +14,10 @@ getAlgorithm
  ()Ljava/lang/String;
 getEncoded
  ()[B
- ()[B
+ ()[0B # @Inherited(java.security.Key)
 getFormat
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(java.security.Key)
 getPrincipal
  ()Ljavax/security/auth/kerberos/KerberosPrincipal;
  ()Ljavax/security/auth/kerberos/KerberosPrincipal;

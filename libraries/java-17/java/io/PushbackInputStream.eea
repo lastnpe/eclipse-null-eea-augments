@@ -2,20 +2,20 @@ class java/io/PushbackInputStream
 
 buf
  [B
- [B
+ [1B
 
 <init>
  (Ljava/io/InputStream;)V
- (Ljava/io/InputStream;)V
+ (L1java/io/InputStream;)V
 <init>
  (Ljava/io/InputStream;I)V
- (Ljava/io/InputStream;I)V
+ (L1java/io/InputStream;I)V
 read
  ([BII)I
- ([BII)I
+ ([1BII)I # @Inherited(java.io.FilterInputStream)
 unread
  ([B)V
- ([B)V
+ ([1B)V
 unread
  ([BII)V
- ([BII)V
+ ([1BII)V

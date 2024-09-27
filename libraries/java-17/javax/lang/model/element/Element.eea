@@ -5,31 +5,31 @@ accept
  <R:Ljava/lang/Object;P:Ljava/lang/Object;>(Ljavax/lang/model/element/ElementVisitor<TR;TP;>;TP;)TR;
 asType
  ()Ljavax/lang/model/type/TypeMirror;
- ()Ljavax/lang/model/type/TypeMirror;
+ ()L1javax/lang/model/type/TypeMirror;
 equals
  (Ljava/lang/Object;)Z
  (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
 getAnnotation
  <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
- <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)T0A; # @Inherited(javax.lang.model.AnnotatedConstruct)
 getAnnotationMirrors
  ()Ljava/util/List<+Ljavax/lang/model/element/AnnotationMirror;>;
- ()Ljava/util/List<+Ljavax/lang/model/element/AnnotationMirror;>;
+ ()L1java/util/List<+L1javax/lang/model/element/AnnotationMirror;>; # @Inherited(javax.lang.model.AnnotatedConstruct)
 getAnnotationsByType
  <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)[TA;
- <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)[TA;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)[1T1A; # @Inherited(javax.lang.model.AnnotatedConstruct)
 getEnclosedElements
  ()Ljava/util/List<+Ljavax/lang/model/element/Element;>;
- ()Ljava/util/List<+Ljavax/lang/model/element/Element;>;
+ ()L1java/util/List<+L1javax/lang/model/element/Element;>;
 getEnclosingElement
  ()Ljavax/lang/model/element/Element;
- ()Ljavax/lang/model/element/Element;
+ ()L0javax/lang/model/element/Element;
 getKind
  ()Ljavax/lang/model/element/ElementKind;
- ()Ljavax/lang/model/element/ElementKind;
+ ()L1javax/lang/model/element/ElementKind;
 getModifiers
  ()Ljava/util/Set<Ljavax/lang/model/element/Modifier;>;
- ()Ljava/util/Set<Ljavax/lang/model/element/Modifier;>;
+ ()L1java/util/Set<L1javax/lang/model/element/Modifier;>;
 getSimpleName
  ()Ljavax/lang/model/element/Name;
- ()Ljavax/lang/model/element/Name;
+ ()L1javax/lang/model/element/Name;

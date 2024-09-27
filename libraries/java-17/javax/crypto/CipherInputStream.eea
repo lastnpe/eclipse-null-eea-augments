@@ -8,7 +8,7 @@ class javax/crypto/CipherInputStream
  (Ljava/io/InputStream;Ljavax/crypto/Cipher;)V
 read
  ([B)I
- ([B)I
+ ([1B)I # @Inherited(java.io.FilterInputStream)
 read
  ([BII)I
- ([BII)I
+ ([1BII)I # @Inherited(java.io.FilterInputStream)

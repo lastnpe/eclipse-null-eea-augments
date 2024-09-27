@@ -35,13 +35,13 @@ getHeight
  (Ljava/awt/image/ImageObserver;)I
 getProperty
  (Ljava/lang/String;)Ljava/lang/Object;
- (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L1java/lang/Object; # @Inherited(java.awt.image.RenderedImage)
 getProperty
  (Ljava/lang/String;Ljava/awt/image/ImageObserver;)Ljava/lang/Object;
  (Ljava/lang/String;Ljava/awt/image/ImageObserver;)Ljava/lang/Object;
 getPropertyNames
  ()[Ljava/lang/String;
- ()[Ljava/lang/String;
+ ()[0L1java/lang/String; # @Inherited(java.awt.image.RenderedImage)
 getRGB
  (IIII[III)[I
  (IIII[III)[I

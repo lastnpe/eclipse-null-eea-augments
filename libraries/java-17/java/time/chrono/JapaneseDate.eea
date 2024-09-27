@@ -37,10 +37,10 @@ getEra
  ()Ljava/time/chrono/JapaneseEra;
 getLong
  (Ljava/time/temporal/TemporalField;)J
- (Ljava/time/temporal/TemporalField;)J
+ (L1java/time/temporal/TemporalField;)J # @Inherited(java.time.temporal.TemporalAccessor)
 isSupported
  (Ljava/time/temporal/TemporalField;)Z
- (Ljava/time/temporal/TemporalField;)Z
+ (L1java/time/temporal/TemporalField;)Z # @Inherited(java.time.chrono.ChronoLocalDate)
 minus
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/JapaneseDate;
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/JapaneseDate;
@@ -55,7 +55,7 @@ plus
  (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/JapaneseDate;
 range
  (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
- (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange; # @Inherited(java.time.temporal.TemporalAccessor)
 until
  (Ljava/time/chrono/ChronoLocalDate;)Ljava/time/chrono/ChronoPeriod;
  (Ljava/time/chrono/ChronoLocalDate;)Ljava/time/chrono/ChronoPeriod;

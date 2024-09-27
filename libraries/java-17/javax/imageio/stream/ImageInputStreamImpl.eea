@@ -18,10 +18,10 @@ readBytes
  (Ljavax/imageio/stream/IIOByteBuffer;I)V
 readFully
  ([B)V
- ([B)V
+ ([1B)V # @Inherited(javax.imageio.stream.ImageInputStream)
 readFully
  ([BII)V
- ([BII)V
+ ([1BII)V # @Inherited(javax.imageio.stream.ImageInputStream)
 readFully
  ([CII)V
  ([CII)V
@@ -42,10 +42,10 @@ readFully
  ([SII)V
 readLine
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.imageio.stream.ImageInputStream)
 readUTF
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.imageio.stream.ImageInputStream)
 setByteOrder
  (Ljava/nio/ByteOrder;)V
  (Ljava/nio/ByteOrder;)V

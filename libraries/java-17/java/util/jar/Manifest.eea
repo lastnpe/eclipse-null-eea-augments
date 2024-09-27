@@ -2,10 +2,10 @@ class java/util/jar/Manifest
 
 <init>
  (Ljava/io/InputStream;)V
- (Ljava/io/InputStream;)V
+ (L1java/io/InputStream;)V
 <init>
  (Ljava/util/jar/Manifest;)V
- (Ljava/util/jar/Manifest;)V
+ (L1java/util/jar/Manifest;)V
 clone
  ()Ljava/lang/Object;
  ()L1java/lang/Object; # @Inherited(java.lang.Object)
@@ -20,10 +20,10 @@ getEntries
  ()Ljava/util/Map<Ljava/lang/String;Ljava/util/jar/Attributes;>;
 getMainAttributes
  ()Ljava/util/jar/Attributes;
- ()Ljava/util/jar/Attributes;
+ ()L1java/util/jar/Attributes;
 read
  (Ljava/io/InputStream;)V
- (Ljava/io/InputStream;)V
+ (L1java/io/InputStream;)V
 write
  (Ljava/io/OutputStream;)V
- (Ljava/io/OutputStream;)V
+ (L1java/io/OutputStream;)V

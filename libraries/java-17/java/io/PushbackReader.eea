@@ -2,16 +2,16 @@ class java/io/PushbackReader
 
 <init>
  (Ljava/io/Reader;)V
- (Ljava/io/Reader;)V
+ (L1java/io/Reader;)V
 <init>
  (Ljava/io/Reader;I)V
- (Ljava/io/Reader;I)V
+ (L1java/io/Reader;I)V
 read
  ([CII)I
- ([CII)I
+ ([1CII)I # @Inherited(java.io.FilterReader)
 unread
  ([C)V
- ([C)V
+ ([1C)V
 unread
  ([CII)V
- ([CII)V
+ ([1CII)V

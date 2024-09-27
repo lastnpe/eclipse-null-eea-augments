@@ -8,13 +8,13 @@ super java/nio/file/FileVisitor
 
 postVisitDirectory
  (TT;Ljava/io/IOException;)Ljava/nio/file/FileVisitResult;
- (TT;Ljava/io/IOException;)Ljava/nio/file/FileVisitResult;
+ (T1T;L0java/io/IOException;)L1java/nio/file/FileVisitResult; # @Inherited(java.nio.file.FileVisitor)
 preVisitDirectory
  (TT;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;
- (TT;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;
+ (T1T;L1java/nio/file/attribute/BasicFileAttributes;)L1java/nio/file/FileVisitResult; # @Inherited(java.nio.file.FileVisitor)
 visitFile
  (TT;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;
- (TT;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;
+ (T1T;L1java/nio/file/attribute/BasicFileAttributes;)L1java/nio/file/FileVisitResult; # @Inherited(java.nio.file.FileVisitor)
 visitFileFailed
  (TT;Ljava/io/IOException;)Ljava/nio/file/FileVisitResult;
- (TT;Ljava/io/IOException;)Ljava/nio/file/FileVisitResult;
+ (T1T;L1java/io/IOException;)L1java/nio/file/FileVisitResult; # @Inherited(java.nio.file.FileVisitor)

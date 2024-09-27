@@ -34,7 +34,7 @@ getEra
  ()Ljava/time/chrono/ThaiBuddhistEra;
 getLong
  (Ljava/time/temporal/TemporalField;)J
- (Ljava/time/temporal/TemporalField;)J
+ (L1java/time/temporal/TemporalField;)J # @Inherited(java.time.temporal.TemporalAccessor)
 minus
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/ThaiBuddhistDate;
  (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/ThaiBuddhistDate;
@@ -49,7 +49,7 @@ plus
  (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/ThaiBuddhistDate;
 range
  (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
- (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange; # @Inherited(java.time.temporal.TemporalAccessor)
 until
  (Ljava/time/chrono/ChronoLocalDate;)Ljava/time/chrono/ChronoPeriod;
  (Ljava/time/chrono/ChronoLocalDate;)Ljava/time/chrono/ChronoPeriod;

@@ -14,22 +14,22 @@ equals
  (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
 get
  (Ljava/lang/String;)Ljavax/naming/directory/Attribute;
- (Ljava/lang/String;)Ljavax/naming/directory/Attribute;
+ (L1java/lang/String;)L0javax/naming/directory/Attribute; # @Inherited(javax.naming.directory.Attributes)
 getAll
  ()Ljavax/naming/NamingEnumeration<Ljavax/naming/directory/Attribute;>;
  ()Ljavax/naming/NamingEnumeration<Ljavax/naming/directory/Attribute;>;
 getIDs
  ()Ljavax/naming/NamingEnumeration<Ljava/lang/String;>;
- ()Ljavax/naming/NamingEnumeration<Ljava/lang/String;>;
+ ()L1javax/naming/NamingEnumeration<Ljava/lang/String;>; # @Inherited(javax.naming.directory.Attributes)
 put
  (Ljava/lang/String;Ljava/lang/Object;)Ljavax/naming/directory/Attribute;
- (Ljava/lang/String;Ljava/lang/Object;)Ljavax/naming/directory/Attribute;
+ (L1java/lang/String;Ljava/lang/Object;)Ljavax/naming/directory/Attribute; # @Inherited(javax.naming.directory.Attributes)
 put
  (Ljavax/naming/directory/Attribute;)Ljavax/naming/directory/Attribute;
- (Ljavax/naming/directory/Attribute;)Ljavax/naming/directory/Attribute;
+ (L1javax/naming/directory/Attribute;)Ljavax/naming/directory/Attribute; # @Inherited(javax.naming.directory.Attributes)
 remove
  (Ljava/lang/String;)Ljavax/naming/directory/Attribute;
- (Ljava/lang/String;)Ljavax/naming/directory/Attribute;
+ (L1java/lang/String;)Ljavax/naming/directory/Attribute; # @Inherited(javax.naming.directory.Attributes)
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)

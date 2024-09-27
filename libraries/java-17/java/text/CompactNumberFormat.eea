@@ -20,16 +20,16 @@ format
  (JLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
 format
  (Ljava/lang/Object;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
- (L1java/lang/Object;L1java/lang/StringBuffer;L1java/text/FieldPosition;)L1java/lang/StringBuffer; # @Inherited(java.text.NumberFormat)
+ (L0java/lang/Object;L1java/lang/StringBuffer;L1java/text/FieldPosition;)L1java/lang/StringBuffer; # @Inherited(java.text.NumberFormat)
 formatToCharacterIterator
  (Ljava/lang/Object;)Ljava/text/AttributedCharacterIterator;
  (L1java/lang/Object;)L1java/text/AttributedCharacterIterator; # @Inherited(java.text.Format)
 getRoundingMode
  ()Ljava/math/RoundingMode;
- ()Ljava/math/RoundingMode;
+ ()L1java/math/RoundingMode; # @Inherited(java.text.NumberFormat)
 parse
  (Ljava/lang/String;Ljava/text/ParsePosition;)Ljava/lang/Number;
- (Ljava/lang/String;Ljava/text/ParsePosition;)Ljava/lang/Number;
+ (L1java/lang/String;L1java/text/ParsePosition;)L1java/lang/Number; # @Inherited(java.text.NumberFormat)
 setRoundingMode
  (Ljava/math/RoundingMode;)V
  (Ljava/math/RoundingMode;)V

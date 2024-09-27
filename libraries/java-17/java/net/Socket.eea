@@ -33,40 +33,40 @@ bind
  (Ljava/net/SocketAddress;)V
 connect
  (Ljava/net/SocketAddress;)V
- (Ljava/net/SocketAddress;)V
+ (L1java/net/SocketAddress;)V
 connect
  (Ljava/net/SocketAddress;I)V
- (Ljava/net/SocketAddress;I)V
+ (L1java/net/SocketAddress;I)V
 getChannel
  ()Ljava/nio/channels/SocketChannel;
- ()Ljava/nio/channels/SocketChannel;
+ ()L0java/nio/channels/SocketChannel;
 getInetAddress
  ()Ljava/net/InetAddress;
  ()Ljava/net/InetAddress;
 getInputStream
  ()Ljava/io/InputStream;
- ()Ljava/io/InputStream;
+ ()L1java/io/InputStream;
 getLocalAddress
  ()Ljava/net/InetAddress;
- ()Ljava/net/InetAddress;
+ ()L1java/net/InetAddress;
 getLocalSocketAddress
  ()Ljava/net/SocketAddress;
  ()Ljava/net/SocketAddress;
 getOption
  <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;)TT;
- <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;)TT;
+ <T:Ljava/lang/Object;>(L1java/net/SocketOption<TT;>;)TT;
 getOutputStream
  ()Ljava/io/OutputStream;
- ()Ljava/io/OutputStream;
+ ()L1java/io/OutputStream;
 getRemoteSocketAddress
  ()Ljava/net/SocketAddress;
  ()Ljava/net/SocketAddress;
 setOption
  <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/net/Socket;
- <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/net/Socket;
+ <T:Ljava/lang/Object;>(L1java/net/SocketOption<TT;>;TT;)L1java/net/Socket;
 supportedOptions
  ()Ljava/util/Set<Ljava/net/SocketOption<*>;>;
- ()Ljava/util/Set<Ljava/net/SocketOption<*>;>;
+ ()L1java/util/Set<L1java/net/SocketOption<*>;>;
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)

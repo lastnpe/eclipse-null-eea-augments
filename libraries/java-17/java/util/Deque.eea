@@ -23,16 +23,16 @@ contains
  (Ljava/lang/Object;)Z
 descendingIterator
  ()Ljava/util/Iterator<TE;>;
- ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>;
 element
  ()TE;
  ()T1E; # @Inherited(java.util.Queue)
 getFirst
  ()TE;
- ()TE;
+ ()T1E;
 getLast
  ()TE;
- ()TE;
+ ()T1E;
 iterator
  ()Ljava/util/Iterator<TE;>;
  ()L1java/util/Iterator<TE;>; # @Inherited(java.util.Collection)
@@ -50,22 +50,22 @@ peek
  ()T0E; # @Inherited(java.util.Queue)
 peekFirst
  ()TE;
- ()TE;
+ ()T0E;
 peekLast
  ()TE;
- ()TE;
+ ()T0E;
 poll
  ()TE;
  ()T0E; # @Inherited(java.util.Queue)
 pollFirst
  ()TE;
- ()TE;
+ ()T0E;
 pollLast
  ()TE;
- ()TE;
+ ()T0E;
 pop
  ()TE;
- ()TE;
+ ()T1E;
 push
  (TE;)V
  (TE;)V
@@ -77,13 +77,13 @@ remove
  (Ljava/lang/Object;)Z
 removeFirst
  ()TE;
- ()TE;
+ ()T1E;
 removeFirstOccurrence
  (Ljava/lang/Object;)Z
  (Ljava/lang/Object;)Z
 removeLast
  ()TE;
- ()TE;
+ ()T1E;
 removeLastOccurrence
  (Ljava/lang/Object;)Z
  (Ljava/lang/Object;)Z

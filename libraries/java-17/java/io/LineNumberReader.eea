@@ -2,13 +2,13 @@ class java/io/LineNumberReader
 
 <init>
  (Ljava/io/Reader;)V
- (Ljava/io/Reader;)V
+ (L1java/io/Reader;)V
 <init>
  (Ljava/io/Reader;I)V
- (Ljava/io/Reader;I)V
+ (L1java/io/Reader;I)V
 read
  ([CII)I
- ([CII)I
+ ([1CII)I # @Inherited(java.io.BufferedReader)
 readLine
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(java.io.BufferedReader)

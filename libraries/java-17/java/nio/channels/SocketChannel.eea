@@ -27,7 +27,7 @@ getRemoteAddress
  ()Ljava/net/SocketAddress;
 read
  (Ljava/nio/ByteBuffer;)I
- (Ljava/nio/ByteBuffer;)I
+ (L1java/nio/ByteBuffer;)I # @Inherited(java.nio.channels.ReadableByteChannel)
 read
  ([Ljava/nio/ByteBuffer;)J
  ([Ljava/nio/ByteBuffer;)J
@@ -48,7 +48,7 @@ socket
  ()Ljava/net/Socket;
 write
  (Ljava/nio/ByteBuffer;)I
- (Ljava/nio/ByteBuffer;)I
+ (L1java/nio/ByteBuffer;)I # @Inherited(java.nio.channels.WritableByteChannel)
 write
  ([Ljava/nio/ByteBuffer;)J
  ([Ljava/nio/ByteBuffer;)J

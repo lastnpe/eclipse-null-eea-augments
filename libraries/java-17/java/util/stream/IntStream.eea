@@ -6,140 +6,140 @@ super java/util/stream/BaseStream
 
 builder
  ()Ljava/util/stream/IntStream$Builder;
- ()Ljava/util/stream/IntStream$Builder;
+ ()L1java/util/stream/IntStream$Builder;
 concat
  (Ljava/util/stream/IntStream;Ljava/util/stream/IntStream;)Ljava/util/stream/IntStream;
- (Ljava/util/stream/IntStream;Ljava/util/stream/IntStream;)Ljava/util/stream/IntStream;
+ (L1java/util/stream/IntStream;L1java/util/stream/IntStream;)L1java/util/stream/IntStream;
 empty
  ()Ljava/util/stream/IntStream;
- ()Ljava/util/stream/IntStream;
+ ()L1java/util/stream/IntStream;
 generate
  (Ljava/util/function/IntSupplier;)Ljava/util/stream/IntStream;
- (Ljava/util/function/IntSupplier;)Ljava/util/stream/IntStream;
+ (L1java/util/function/IntSupplier;)L1java/util/stream/IntStream;
 iterate
  (ILjava/util/function/IntPredicate;Ljava/util/function/IntUnaryOperator;)Ljava/util/stream/IntStream;
- (ILjava/util/function/IntPredicate;Ljava/util/function/IntUnaryOperator;)Ljava/util/stream/IntStream;
+ (IL1java/util/function/IntPredicate;L1java/util/function/IntUnaryOperator;)L1java/util/stream/IntStream;
 iterate
  (ILjava/util/function/IntUnaryOperator;)Ljava/util/stream/IntStream;
- (ILjava/util/function/IntUnaryOperator;)Ljava/util/stream/IntStream;
+ (IL1java/util/function/IntUnaryOperator;)L1java/util/stream/IntStream;
 of
  (I)Ljava/util/stream/IntStream;
- (I)Ljava/util/stream/IntStream;
+ (I)L1java/util/stream/IntStream;
 of
  ([I)Ljava/util/stream/IntStream;
- ([I)Ljava/util/stream/IntStream;
+ ([1I)L1java/util/stream/IntStream;
 range
  (II)Ljava/util/stream/IntStream;
- (II)Ljava/util/stream/IntStream;
+ (II)L1java/util/stream/IntStream;
 rangeClosed
  (II)Ljava/util/stream/IntStream;
- (II)Ljava/util/stream/IntStream;
+ (II)L1java/util/stream/IntStream;
 
 allMatch
  (Ljava/util/function/IntPredicate;)Z
- (Ljava/util/function/IntPredicate;)Z
+ (L1java/util/function/IntPredicate;)Z
 anyMatch
  (Ljava/util/function/IntPredicate;)Z
- (Ljava/util/function/IntPredicate;)Z
+ (L1java/util/function/IntPredicate;)Z
 asDoubleStream
  ()Ljava/util/stream/DoubleStream;
- ()Ljava/util/stream/DoubleStream;
+ ()L1java/util/stream/DoubleStream;
 asLongStream
  ()Ljava/util/stream/LongStream;
- ()Ljava/util/stream/LongStream;
+ ()L1java/util/stream/LongStream;
 average
  ()Ljava/util/OptionalDouble;
- ()Ljava/util/OptionalDouble;
+ ()L1java/util/OptionalDouble;
 boxed
  ()Ljava/util/stream/Stream<Ljava/lang/Integer;>;
- ()Ljava/util/stream/Stream<Ljava/lang/Integer;>;
+ ()L1java/util/stream/Stream<Ljava/lang/Integer;>;
 collect
  <R:Ljava/lang/Object;>(Ljava/util/function/Supplier<TR;>;Ljava/util/function/ObjIntConsumer<TR;>;Ljava/util/function/BiConsumer<TR;TR;>;)TR;
- <R:Ljava/lang/Object;>(Ljava/util/function/Supplier<TR;>;Ljava/util/function/ObjIntConsumer<TR;>;Ljava/util/function/BiConsumer<TR;TR;>;)TR;
+ <R:Ljava/lang/Object;>(L1java/util/function/Supplier<TR;>;L1java/util/function/ObjIntConsumer<TR;>;L1java/util/function/BiConsumer<TR;TR;>;)T1R;
 distinct
  ()Ljava/util/stream/IntStream;
- ()Ljava/util/stream/IntStream;
+ ()L1java/util/stream/IntStream;
 dropWhile
  (Ljava/util/function/IntPredicate;)Ljava/util/stream/IntStream;
- (Ljava/util/function/IntPredicate;)Ljava/util/stream/IntStream;
+ (L1java/util/function/IntPredicate;)L1java/util/stream/IntStream;
 filter
  (Ljava/util/function/IntPredicate;)Ljava/util/stream/IntStream;
- (Ljava/util/function/IntPredicate;)Ljava/util/stream/IntStream;
+ (L1java/util/function/IntPredicate;)L1java/util/stream/IntStream;
 findAny
  ()Ljava/util/OptionalInt;
- ()Ljava/util/OptionalInt;
+ ()L1java/util/OptionalInt;
 findFirst
  ()Ljava/util/OptionalInt;
- ()Ljava/util/OptionalInt;
+ ()L1java/util/OptionalInt;
 flatMap
  (Ljava/util/function/IntFunction<+Ljava/util/stream/IntStream;>;)Ljava/util/stream/IntStream;
- (Ljava/util/function/IntFunction<+Ljava/util/stream/IntStream;>;)Ljava/util/stream/IntStream;
+ (L1java/util/function/IntFunction<+L1java/util/stream/IntStream;>;)L1java/util/stream/IntStream;
 forEach
  (Ljava/util/function/IntConsumer;)V
- (Ljava/util/function/IntConsumer;)V
+ (L1java/util/function/IntConsumer;)V
 forEachOrdered
  (Ljava/util/function/IntConsumer;)V
- (Ljava/util/function/IntConsumer;)V
+ (L1java/util/function/IntConsumer;)V
 iterator
  ()Ljava/util/PrimitiveIterator$OfInt;
- ()Ljava/util/PrimitiveIterator$OfInt;
+ ()L1java/util/PrimitiveIterator$OfInt;
 limit
  (J)Ljava/util/stream/IntStream;
- (J)Ljava/util/stream/IntStream;
+ (J)L1java/util/stream/IntStream;
 map
  (Ljava/util/function/IntUnaryOperator;)Ljava/util/stream/IntStream;
- (Ljava/util/function/IntUnaryOperator;)Ljava/util/stream/IntStream;
+ (L1java/util/function/IntUnaryOperator;)L1java/util/stream/IntStream;
 mapMulti
  (Ljava/util/stream/IntStream$IntMapMultiConsumer;)Ljava/util/stream/IntStream;
  (Ljava/util/stream/IntStream$IntMapMultiConsumer;)Ljava/util/stream/IntStream;
 mapToDouble
  (Ljava/util/function/IntToDoubleFunction;)Ljava/util/stream/DoubleStream;
- (Ljava/util/function/IntToDoubleFunction;)Ljava/util/stream/DoubleStream;
+ (L1java/util/function/IntToDoubleFunction;)L1java/util/stream/DoubleStream;
 mapToLong
  (Ljava/util/function/IntToLongFunction;)Ljava/util/stream/LongStream;
- (Ljava/util/function/IntToLongFunction;)Ljava/util/stream/LongStream;
+ (L1java/util/function/IntToLongFunction;)L1java/util/stream/LongStream;
 mapToObj
  <U:Ljava/lang/Object;>(Ljava/util/function/IntFunction<+TU;>;)Ljava/util/stream/Stream<TU;>;
- <U:Ljava/lang/Object;>(Ljava/util/function/IntFunction<+TU;>;)Ljava/util/stream/Stream<TU;>;
+ <U:Ljava/lang/Object;>(L1java/util/function/IntFunction<+TU;>;)L1java/util/stream/Stream<TU;>;
 max
  ()Ljava/util/OptionalInt;
- ()Ljava/util/OptionalInt;
+ ()L1java/util/OptionalInt;
 min
  ()Ljava/util/OptionalInt;
- ()Ljava/util/OptionalInt;
+ ()L1java/util/OptionalInt;
 noneMatch
  (Ljava/util/function/IntPredicate;)Z
- (Ljava/util/function/IntPredicate;)Z
+ (L1java/util/function/IntPredicate;)Z
 parallel
  ()Ljava/util/stream/IntStream;
- ()Ljava/util/stream/IntStream;
+ ()L1java/util/stream/IntStream;
 peek
  (Ljava/util/function/IntConsumer;)Ljava/util/stream/IntStream;
- (Ljava/util/function/IntConsumer;)Ljava/util/stream/IntStream;
+ (L1java/util/function/IntConsumer;)L1java/util/stream/IntStream;
 reduce
  (ILjava/util/function/IntBinaryOperator;)I
- (ILjava/util/function/IntBinaryOperator;)I
+ (IL1java/util/function/IntBinaryOperator;)I
 reduce
  (Ljava/util/function/IntBinaryOperator;)Ljava/util/OptionalInt;
- (Ljava/util/function/IntBinaryOperator;)Ljava/util/OptionalInt;
+ (L1java/util/function/IntBinaryOperator;)L1java/util/OptionalInt;
 sequential
  ()Ljava/util/stream/IntStream;
- ()Ljava/util/stream/IntStream;
+ ()L1java/util/stream/IntStream;
 skip
  (J)Ljava/util/stream/IntStream;
- (J)Ljava/util/stream/IntStream;
+ (J)L1java/util/stream/IntStream;
 sorted
  ()Ljava/util/stream/IntStream;
- ()Ljava/util/stream/IntStream;
+ ()L1java/util/stream/IntStream;
 spliterator
  ()Ljava/util/Spliterator$OfInt;
- ()Ljava/util/Spliterator$OfInt;
+ ()L1java/util/Spliterator$OfInt;
 summaryStatistics
  ()Ljava/util/IntSummaryStatistics;
- ()Ljava/util/IntSummaryStatistics;
+ ()L1java/util/IntSummaryStatistics;
 takeWhile
  (Ljava/util/function/IntPredicate;)Ljava/util/stream/IntStream;
- (Ljava/util/function/IntPredicate;)Ljava/util/stream/IntStream;
+ (Ljava/util/function/IntPredicate;)L1java/util/stream/IntStream;
 toArray
  ()[I
- ()[I
+ ()[1I

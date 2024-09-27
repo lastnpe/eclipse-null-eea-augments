@@ -63,13 +63,13 @@ deleteCharAt
  (I)L1java/lang/StringBuffer;
 getChars
  (II[CI)V
- (II[1CI)V
+ (II[1CI)V # @Inherited(java.lang.AbstractStringBuilder)
 indexOf
  (Ljava/lang/String;)I
- (L1java/lang/String;)I
+ (L1java/lang/String;)I # @Inherited(java.lang.AbstractStringBuilder)
 indexOf
  (Ljava/lang/String;I)I
- (L1java/lang/String;I)I
+ (L1java/lang/String;I)I # @Inherited(java.lang.AbstractStringBuilder)
 insert
  (IC)Ljava/lang/StringBuffer;
  (IC)L1java/lang/StringBuffer;
@@ -108,10 +108,10 @@ insert
  (I[1CII)L1java/lang/StringBuffer;
 lastIndexOf
  (Ljava/lang/String;)I
- (L1java/lang/String;)I
+ (L1java/lang/String;)I # @Inherited(java.lang.AbstractStringBuilder)
 lastIndexOf
  (Ljava/lang/String;I)I
- (L1java/lang/String;I)I
+ (L1java/lang/String;I)I # @Inherited(java.lang.AbstractStringBuilder)
 replace
  (IILjava/lang/String;)Ljava/lang/StringBuffer;
  (IIL1java/lang/String;)L1java/lang/StringBuffer;

@@ -2,31 +2,31 @@ class java/time/temporal/TemporalField
 
 adjustInto
  <R::Ljava/time/temporal/Temporal;>(TR;J)TR;
- <R::Ljava/time/temporal/Temporal;>(TR;J)TR;
+ <1R::Ljava/time/temporal/Temporal;>(TR;J)TR;
 getBaseUnit
  ()Ljava/time/temporal/TemporalUnit;
- ()Ljava/time/temporal/TemporalUnit;
+ ()L1java/time/temporal/TemporalUnit;
 getDisplayName
  (Ljava/util/Locale;)Ljava/lang/String;
- (Ljava/util/Locale;)Ljava/lang/String;
+ (L1java/util/Locale;)L1java/lang/String;
 getFrom
  (Ljava/time/temporal/TemporalAccessor;)J
- (Ljava/time/temporal/TemporalAccessor;)J
+ (L1java/time/temporal/TemporalAccessor;)J
 getRangeUnit
  ()Ljava/time/temporal/TemporalUnit;
- ()Ljava/time/temporal/TemporalUnit;
+ ()L1java/time/temporal/TemporalUnit;
 isSupportedBy
  (Ljava/time/temporal/TemporalAccessor;)Z
- (Ljava/time/temporal/TemporalAccessor;)Z
+ (L1java/time/temporal/TemporalAccessor;)Z
 range
  ()Ljava/time/temporal/ValueRange;
- ()Ljava/time/temporal/ValueRange;
+ ()L1java/time/temporal/ValueRange;
 rangeRefinedBy
  (Ljava/time/temporal/TemporalAccessor;)Ljava/time/temporal/ValueRange;
- (Ljava/time/temporal/TemporalAccessor;)Ljava/time/temporal/ValueRange;
+ (L1java/time/temporal/TemporalAccessor;)L1java/time/temporal/ValueRange;
 resolve
  (Ljava/util/Map<Ljava/time/temporal/TemporalField;Ljava/lang/Long;>;Ljava/time/temporal/TemporalAccessor;Ljava/time/format/ResolverStyle;)Ljava/time/temporal/TemporalAccessor;
- (Ljava/util/Map<Ljava/time/temporal/TemporalField;Ljava/lang/Long;>;Ljava/time/temporal/TemporalAccessor;Ljava/time/format/ResolverStyle;)Ljava/time/temporal/TemporalAccessor;
+ (L1java/util/Map<L1java/time/temporal/TemporalField;L1java/lang/Long;>;L1java/time/temporal/TemporalAccessor;L1java/time/format/ResolverStyle;)L0java/time/temporal/TemporalAccessor;
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)

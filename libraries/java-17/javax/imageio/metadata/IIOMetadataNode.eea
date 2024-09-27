@@ -5,10 +5,10 @@ class javax/imageio/metadata/IIOMetadataNode
  (Ljava/lang/String;)V
 appendChild
  (Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
- (Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+ (L1org/w3c/dom/Node;)L1org/w3c/dom/Node; # @Inherited(org.w3c.dom.Node)
 cloneNode
  (Z)Lorg/w3c/dom/Node;
- (Z)Lorg/w3c/dom/Node;
+ (Z)L1org/w3c/dom/Node; # @Inherited(org.w3c.dom.Node)
 compareDocumentPosition
  (Lorg/w3c/dom/Node;)S
  (Lorg/w3c/dom/Node;)S
@@ -29,58 +29,58 @@ getAttributes
  ()Lorg/w3c/dom/NamedNodeMap;
 getBaseURI
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.w3c.dom.Node)
 getChildNodes
  ()Lorg/w3c/dom/NodeList;
- ()Lorg/w3c/dom/NodeList;
+ ()L1org/w3c/dom/NodeList; # @Inherited(org.w3c.dom.Node)
 getElementsByTagName
  (Ljava/lang/String;)Lorg/w3c/dom/NodeList;
- (Ljava/lang/String;)Lorg/w3c/dom/NodeList;
+ (Ljava/lang/String;)L1org/w3c/dom/NodeList; # @Inherited(org.w3c.dom.Element)
 getElementsByTagNameNS
  (Ljava/lang/String;Ljava/lang/String;)Lorg/w3c/dom/NodeList;
- (Ljava/lang/String;Ljava/lang/String;)Lorg/w3c/dom/NodeList;
+ (Ljava/lang/String;Ljava/lang/String;)L1org/w3c/dom/NodeList; # @Inherited(org.w3c.dom.Element)
 getFeature
  (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
- (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/lang/String;)L0java/lang/Object; # @Inherited(org.w3c.dom.Node)
 getFirstChild
  ()Lorg/w3c/dom/Node;
- ()Lorg/w3c/dom/Node;
+ ()L0org/w3c/dom/Node; # @Inherited(org.w3c.dom.Node)
 getLastChild
  ()Lorg/w3c/dom/Node;
- ()Lorg/w3c/dom/Node;
+ ()L0org/w3c/dom/Node; # @Inherited(org.w3c.dom.Node)
 getLocalName
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.w3c.dom.Node)
 getNamespaceURI
  ()Ljava/lang/String;
  ()Ljava/lang/String;
 getNextSibling
  ()Lorg/w3c/dom/Node;
- ()Lorg/w3c/dom/Node;
+ ()L0org/w3c/dom/Node; # @Inherited(org.w3c.dom.Node)
 getNodeName
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.w3c.dom.Node)
 getNodeValue
  ()Ljava/lang/String;
  ()Ljava/lang/String;
 getOwnerDocument
  ()Lorg/w3c/dom/Document;
- ()Lorg/w3c/dom/Document;
+ ()L0org/w3c/dom/Document; # @Inherited(org.w3c.dom.Node)
 getParentNode
  ()Lorg/w3c/dom/Node;
- ()Lorg/w3c/dom/Node;
+ ()L0org/w3c/dom/Node; # @Inherited(org.w3c.dom.Node)
 getPrefix
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.w3c.dom.Node)
 getPreviousSibling
  ()Lorg/w3c/dom/Node;
- ()Lorg/w3c/dom/Node;
+ ()L0org/w3c/dom/Node; # @Inherited(org.w3c.dom.Node)
 getSchemaTypeInfo
  ()Lorg/w3c/dom/TypeInfo;
  ()Lorg/w3c/dom/TypeInfo;
 getTagName
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.w3c.dom.Element)
 getTextContent
  ()Ljava/lang/String;
  ()Ljava/lang/String;
@@ -98,7 +98,7 @@ hasAttributeNS
  (Ljava/lang/String;Ljava/lang/String;)Z
 insertBefore
  (Lorg/w3c/dom/Node;Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
- (Lorg/w3c/dom/Node;Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+ (L1org/w3c/dom/Node;L0org/w3c/dom/Node;)L1org/w3c/dom/Node; # @Inherited(org.w3c.dom.Node)
 isDefaultNamespace
  (Ljava/lang/String;)Z
  (Ljava/lang/String;)Z
@@ -116,10 +116,10 @@ item
  (I)Lorg/w3c/dom/Node;
 lookupNamespaceURI
  (Ljava/lang/String;)Ljava/lang/String;
- (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String; # @Inherited(org.w3c.dom.Node)
 lookupPrefix
  (Ljava/lang/String;)Ljava/lang/String;
- (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String; # @Inherited(org.w3c.dom.Node)
 removeAttribute
  (Ljava/lang/String;)V
  (Ljava/lang/String;)V
@@ -131,10 +131,10 @@ removeAttributeNode
  (Lorg/w3c/dom/Attr;)Lorg/w3c/dom/Attr;
 removeChild
  (Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
- (Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+ (L1org/w3c/dom/Node;)L1org/w3c/dom/Node; # @Inherited(org.w3c.dom.Node)
 replaceChild
  (Lorg/w3c/dom/Node;Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
- (Lorg/w3c/dom/Node;Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+ (L1org/w3c/dom/Node;L1org/w3c/dom/Node;)L1org/w3c/dom/Node; # @Inherited(org.w3c.dom.Node)
 setAttribute
  (Ljava/lang/String;Ljava/lang/String;)V
  (Ljava/lang/String;Ljava/lang/String;)V

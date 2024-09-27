@@ -2,47 +2,47 @@ class java/security/MessageDigest
 
 getInstance
  (Ljava/lang/String;)Ljava/security/MessageDigest;
- (Ljava/lang/String;)Ljava/security/MessageDigest;
+ (L1java/lang/String;)L1java/security/MessageDigest;
 getInstance
  (Ljava/lang/String;Ljava/lang/String;)Ljava/security/MessageDigest;
- (Ljava/lang/String;Ljava/lang/String;)Ljava/security/MessageDigest;
+ (L1java/lang/String;Ljava/lang/String;)L1java/security/MessageDigest;
 getInstance
  (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/MessageDigest;
- (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/MessageDigest;
+ (L1java/lang/String;Ljava/security/Provider;)L1java/security/MessageDigest;
 isEqual
  ([B[B)Z
- ([B[B)Z
+ ([0B[0B)Z
 
 <init>
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V
 clone
  ()Ljava/lang/Object;
  ()L1java/lang/Object; # @Inherited(java.security.MessageDigestSpi)
 digest
  ()[B
- ()[B
+ ()[1B
 digest
  ([B)[B
- ([B)[B
+ ([1B)[1B
 digest
  ([BII)I
- ([BII)I
+ ([1BII)I
 getAlgorithm
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String;
 getProvider
  ()Ljava/security/Provider;
- ()Ljava/security/Provider;
+ ()L1java/security/Provider;
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)
 update
  (Ljava/nio/ByteBuffer;)V
- (Ljava/nio/ByteBuffer;)V
+ (L1java/nio/ByteBuffer;)V
 update
  ([B)V
- ([B)V
+ ([1B)V
 update
  ([BII)V
- ([BII)V
+ ([1BII)V

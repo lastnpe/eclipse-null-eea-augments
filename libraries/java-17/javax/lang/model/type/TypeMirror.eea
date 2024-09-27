@@ -8,16 +8,16 @@ equals
  (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
 getAnnotation
  <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
- <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)T0A; # @Inherited(javax.lang.model.AnnotatedConstruct)
 getAnnotationMirrors
  ()Ljava/util/List<+Ljavax/lang/model/element/AnnotationMirror;>;
- ()Ljava/util/List<+Ljavax/lang/model/element/AnnotationMirror;>;
+ ()L1java/util/List<+L1javax/lang/model/element/AnnotationMirror;>; # @Inherited(javax.lang.model.AnnotatedConstruct)
 getAnnotationsByType
  <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)[TA;
- <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)[TA;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)[1T1A; # @Inherited(javax.lang.model.AnnotatedConstruct)
 getKind
  ()Ljavax/lang/model/type/TypeKind;
- ()Ljavax/lang/model/type/TypeKind;
+ ()L1javax/lang/model/type/TypeKind;
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)

@@ -50,7 +50,7 @@ compute
  (TK;L1java/util/function/BiFunction<-TK;-T0V;+T0V;>;)T0V;
 computeIfAbsent
  (TK;Ljava/util/function/Function<-TK;+TV;>;)TV;
- (TK;L1java/util/function/Function<-TK;+T0V;>;)T0V;
+ (TK;L1java/util/function/Function<-TK;+T0V;>;)TV;
 computeIfPresent
  (TK;Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)TV;
  (TK;L1java/util/function/BiFunction<-TK;-TV;+T0V;>;)T0V;
@@ -68,7 +68,7 @@ equals
  (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
 forEach
  (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
- (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
+ (L1java/util/function/BiConsumer<-TK;-TV;>;)V
 get
  (Ljava/lang/Object;)TV;
  (Ljava/lang/Object;)T0V;
@@ -92,10 +92,10 @@ putIfAbsent
  (TK;TV;)T0V;
 remove
  (Ljava/lang/Object;)TV;
- (Ljava/lang/Object;)T0V;
+ (L0java/lang/Object;)T0V;
 remove
  (Ljava/lang/Object;Ljava/lang/Object;)Z
- (Ljava/lang/Object;Ljava/lang/Object;)Z
+ (L0java/lang/Object;L0java/lang/Object;)Z
 replace
  (TK;TV;)TV;
  (TK;TV;)T0V;

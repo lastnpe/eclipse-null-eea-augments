@@ -23,25 +23,25 @@ getQueue
  ()Ljava/util/concurrent/BlockingQueue<Ljava/lang/Runnable;>;
 schedule
  (Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture<*>;
- (Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)L1java/util/concurrent/ScheduledFuture<*>; # @Inherited(java.util.concurrent.ScheduledExecutorService)
+ (L1java/lang/Runnable;JL1java/util/concurrent/TimeUnit;)L1java/util/concurrent/ScheduledFuture<*>; # @Inherited(java.util.concurrent.ScheduledExecutorService)
 schedule
  <V:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TV;>;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture<TV;>;
- <V:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TV;>;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture<TV;>;
+ <V:Ljava/lang/Object;>(L1java/util/concurrent/Callable<TV;>;JL1java/util/concurrent/TimeUnit;)L1java/util/concurrent/ScheduledFuture<TV;>; # @Inherited(java.util.concurrent.ScheduledExecutorService)
 scheduleAtFixedRate
  (Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture<*>;
- (Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture<*>;
+ (L1java/lang/Runnable;JJL1java/util/concurrent/TimeUnit;)L1java/util/concurrent/ScheduledFuture<*>; # @Inherited(java.util.concurrent.ScheduledExecutorService)
 scheduleWithFixedDelay
  (Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture<*>;
- (Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture<*>;
+ (L1java/lang/Runnable;JJL1java/util/concurrent/TimeUnit;)L1java/util/concurrent/ScheduledFuture<*>; # @Inherited(java.util.concurrent.ScheduledExecutorService)
 shutdownNow
  ()Ljava/util/List<Ljava/lang/Runnable;>;
- ()Ljava/util/List<Ljava/lang/Runnable;>;
+ ()L1java/util/List<L1java/lang/Runnable;>; # @Inherited(java.util.concurrent.ThreadPoolExecutor)
 submit
  (Ljava/lang/Runnable;)Ljava/util/concurrent/Future<*>;
- (Ljava/lang/Runnable;)Ljava/util/concurrent/Future<*>;
+ (L1java/lang/Runnable;)L1java/util/concurrent/Future<*>; # @Inherited(java.util.concurrent.AbstractExecutorService)
 submit
  <T:Ljava/lang/Object;>(Ljava/lang/Runnable;TT;)Ljava/util/concurrent/Future<TT;>;
- <T:Ljava/lang/Object;>(Ljava/lang/Runnable;TT;)Ljava/util/concurrent/Future<TT;>;
+ <T:Ljava/lang/Object;>(L1java/lang/Runnable;TT;)L1java/util/concurrent/Future<TT;>; # @Inherited(java.util.concurrent.AbstractExecutorService)
 submit
  <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)Ljava/util/concurrent/Future<TT;>;
- <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)Ljava/util/concurrent/Future<TT;>;
+ <T:Ljava/lang/Object;>(L1java/util/concurrent/Callable<TT;>;)L1java/util/concurrent/Future<TT;>; # @Inherited(java.util.concurrent.AbstractExecutorService)

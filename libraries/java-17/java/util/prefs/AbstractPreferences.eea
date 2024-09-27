@@ -9,7 +9,7 @@ lock
  (Ljava/util/prefs/AbstractPreferences;Ljava/lang/String;)V
 absolutePath
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.util.prefs.Preferences)
 addNodeChangeListener
  (Ljava/util/prefs/NodeChangeListener;)V
  (L1java/util/prefs/NodeChangeListener;)V # @Inherited(java.util.prefs.Preferences)
@@ -24,88 +24,88 @@ childSpi
  (Ljava/lang/String;)Ljava/util/prefs/AbstractPreferences;
 childrenNames
  ()[Ljava/lang/String;
- ()[Ljava/lang/String;
+ ()[1L1java/lang/String; # @Inherited(java.util.prefs.Preferences)
 childrenNamesSpi
  ()[Ljava/lang/String;
- ()[Ljava/lang/String;
+ ()[1L1java/lang/String;
 exportNode
  (Ljava/io/OutputStream;)V
- (Ljava/io/OutputStream;)V
+ (L1java/io/OutputStream;)V # @Inherited(java.util.prefs.Preferences)
 exportSubtree
  (Ljava/io/OutputStream;)V
- (Ljava/io/OutputStream;)V
+ (L1java/io/OutputStream;)V # @Inherited(java.util.prefs.Preferences)
 get
  (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
- (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;Ljava/lang/String;)Ljava/lang/String; # @Inherited(java.util.prefs.Preferences)
 getBoolean
  (Ljava/lang/String;Z)Z
- (Ljava/lang/String;Z)Z
+ (L1java/lang/String;Z)Z # @Inherited(java.util.prefs.Preferences)
 getByteArray
  (Ljava/lang/String;[B)[B
- (Ljava/lang/String;[B)[B
+ (L1java/lang/String;[B)[B # @Inherited(java.util.prefs.Preferences)
 getChild
  (Ljava/lang/String;)Ljava/util/prefs/AbstractPreferences;
  (Ljava/lang/String;)Ljava/util/prefs/AbstractPreferences;
 getDouble
  (Ljava/lang/String;D)D
- (Ljava/lang/String;D)D
+ (L1java/lang/String;D)D # @Inherited(java.util.prefs.Preferences)
 getFloat
  (Ljava/lang/String;F)F
- (Ljava/lang/String;F)F
+ (L1java/lang/String;F)F # @Inherited(java.util.prefs.Preferences)
 getInt
  (Ljava/lang/String;I)I
- (Ljava/lang/String;I)I
+ (L1java/lang/String;I)I # @Inherited(java.util.prefs.Preferences)
 getLong
  (Ljava/lang/String;J)J
- (Ljava/lang/String;J)J
+ (L1java/lang/String;J)J # @Inherited(java.util.prefs.Preferences)
 getSpi
  (Ljava/lang/String;)Ljava/lang/String;
  (Ljava/lang/String;)Ljava/lang/String;
 keys
  ()[Ljava/lang/String;
- ()[Ljava/lang/String;
+ ()[1L1java/lang/String; # @Inherited(java.util.prefs.Preferences)
 keysSpi
  ()[Ljava/lang/String;
  ()[Ljava/lang/String;
 name
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.util.prefs.Preferences)
 node
  (Ljava/lang/String;)Ljava/util/prefs/Preferences;
- (Ljava/lang/String;)Ljava/util/prefs/Preferences;
+ (L1java/lang/String;)L1java/util/prefs/Preferences; # @Inherited(java.util.prefs.Preferences)
 nodeExists
  (Ljava/lang/String;)Z
- (Ljava/lang/String;)Z
+ (L1java/lang/String;)Z # @Inherited(java.util.prefs.Preferences)
 parent
  ()Ljava/util/prefs/Preferences;
  ()Ljava/util/prefs/Preferences;
 put
  (Ljava/lang/String;Ljava/lang/String;)V
- (Ljava/lang/String;Ljava/lang/String;)V
+ (L1java/lang/String;Ljava/lang/String;)V # @Inherited(java.util.prefs.Preferences)
 putBoolean
  (Ljava/lang/String;Z)V
- (Ljava/lang/String;Z)V
+ (L1java/lang/String;Z)V # @Inherited(java.util.prefs.Preferences)
 putByteArray
  (Ljava/lang/String;[B)V
- (Ljava/lang/String;[B)V
+ (L1java/lang/String;[B)V # @Inherited(java.util.prefs.Preferences)
 putDouble
  (Ljava/lang/String;D)V
- (Ljava/lang/String;D)V
+ (L1java/lang/String;D)V # @Inherited(java.util.prefs.Preferences)
 putFloat
  (Ljava/lang/String;F)V
- (Ljava/lang/String;F)V
+ (L1java/lang/String;F)V # @Inherited(java.util.prefs.Preferences)
 putInt
  (Ljava/lang/String;I)V
- (Ljava/lang/String;I)V
+ (L1java/lang/String;I)V # @Inherited(java.util.prefs.Preferences)
 putLong
  (Ljava/lang/String;J)V
- (Ljava/lang/String;J)V
+ (L1java/lang/String;J)V # @Inherited(java.util.prefs.Preferences)
 putSpi
  (Ljava/lang/String;Ljava/lang/String;)V
  (Ljava/lang/String;Ljava/lang/String;)V
 remove
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(java.util.prefs.Preferences)
 removeNodeChangeListener
  (Ljava/util/prefs/NodeChangeListener;)V
  (L1java/util/prefs/NodeChangeListener;)V # @Inherited(java.util.prefs.Preferences)

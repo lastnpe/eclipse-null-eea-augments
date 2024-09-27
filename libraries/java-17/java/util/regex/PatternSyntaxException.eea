@@ -2,13 +2,13 @@ class java/util/regex/PatternSyntaxException
 
 <init>
  (Ljava/lang/String;Ljava/lang/String;I)V
- (Ljava/lang/String;Ljava/lang/String;I)V
+ (L1java/lang/String;L1java/lang/String;I)V
 getDescription
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String;
 getMessage
  ()Ljava/lang/String;
- ()L0java/lang/String; # @Inherited(java.lang.Throwable)
+ ()L1java/lang/String; # @Overrides(java.lang.Throwable)
 getPattern
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String;

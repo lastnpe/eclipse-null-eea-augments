@@ -8,16 +8,16 @@ super javax/lang/model/element/ElementVisitor
 
 visit
  (Ljavax/lang/model/element/Element;)TR;
- (Ljavax/lang/model/element/Element;)TR;
+ (L1javax/lang/model/element/Element;)TR; # @Inherited(javax.lang.model.element.ElementVisitor)
 visit
  (Ljavax/lang/model/element/Element;TP;)TR;
- (Ljavax/lang/model/element/Element;TP;)TR;
+ (L1javax/lang/model/element/Element;TP;)TR; # @Inherited(javax.lang.model.element.ElementVisitor)
 visitModule
  (Ljavax/lang/model/element/ModuleElement;TP;)TR;
- (Ljavax/lang/model/element/ModuleElement;TP;)TR;
+ (L1javax/lang/model/element/ModuleElement;TP;)TR; # @Inherited(javax.lang.model.element.ElementVisitor)
 visitRecordComponent
  (Ljavax/lang/model/element/RecordComponentElement;TP;)TR;
  (Ljavax/lang/model/element/RecordComponentElement;TP;)TR;
 visitUnknown
  (Ljavax/lang/model/element/Element;TP;)TR;
- (Ljavax/lang/model/element/Element;TP;)TR;
+ (L1javax/lang/model/element/Element;TP;)TR; # @Inherited(javax.lang.model.element.ElementVisitor)
