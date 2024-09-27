@@ -1,0 +1,26 @@
+class org/osgi/service/condpermadmin/ConditionalPermissionAdmin
+
+addConditionalPermissionInfo
+ ([Lorg/osgi/service/condpermadmin/ConditionInfo;[Lorg/osgi/service/permissionadmin/PermissionInfo;)Lorg/osgi/service/condpermadmin/ConditionalPermissionInfo;
+ ([Lorg/osgi/service/condpermadmin/ConditionInfo;[Lorg/osgi/service/permissionadmin/PermissionInfo;)Lorg/osgi/service/condpermadmin/ConditionalPermissionInfo;
+getAccessControlContext
+ ([Ljava/lang/String;)Ljava/security/AccessControlContext;
+ ([Ljava/lang/String;)Ljava/security/AccessControlContext;
+getConditionalPermissionInfo
+ (Ljava/lang/String;)Lorg/osgi/service/condpermadmin/ConditionalPermissionInfo;
+ (Ljava/lang/String;)Lorg/osgi/service/condpermadmin/ConditionalPermissionInfo;
+getConditionalPermissionInfos
+ ()Ljava/util/Enumeration<Lorg/osgi/service/condpermadmin/ConditionalPermissionInfo;>;
+ ()Ljava/util/Enumeration<Lorg/osgi/service/condpermadmin/ConditionalPermissionInfo;>;
+newConditionalPermissionInfo
+ (Ljava/lang/String;)Lorg/osgi/service/condpermadmin/ConditionalPermissionInfo;
+ (Ljava/lang/String;)Lorg/osgi/service/condpermadmin/ConditionalPermissionInfo;
+newConditionalPermissionInfo
+ (Ljava/lang/String;[Lorg/osgi/service/condpermadmin/ConditionInfo;[Lorg/osgi/service/permissionadmin/PermissionInfo;Ljava/lang/String;)Lorg/osgi/service/condpermadmin/ConditionalPermissionInfo;
+ (Ljava/lang/String;[Lorg/osgi/service/condpermadmin/ConditionInfo;[Lorg/osgi/service/permissionadmin/PermissionInfo;Ljava/lang/String;)Lorg/osgi/service/condpermadmin/ConditionalPermissionInfo;
+newConditionalPermissionUpdate
+ ()Lorg/osgi/service/condpermadmin/ConditionalPermissionUpdate;
+ ()Lorg/osgi/service/condpermadmin/ConditionalPermissionUpdate;
+setConditionalPermissionInfo
+ (Ljava/lang/String;[Lorg/osgi/service/condpermadmin/ConditionInfo;[Lorg/osgi/service/permissionadmin/PermissionInfo;)Lorg/osgi/service/condpermadmin/ConditionalPermissionInfo;
+ (Ljava/lang/String;[Lorg/osgi/service/condpermadmin/ConditionInfo;[Lorg/osgi/service/permissionadmin/PermissionInfo;)Lorg/osgi/service/condpermadmin/ConditionalPermissionInfo;

@@ -1,0 +1,13 @@
+class org/osgi/util/tracker/BundleTrackerCustomizer
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+addingBundle
+ (Lorg/osgi/framework/Bundle;Lorg/osgi/framework/BundleEvent;)TT;
+ (Lorg/osgi/framework/Bundle;Lorg/osgi/framework/BundleEvent;)TT;
+modifiedBundle
+ (Lorg/osgi/framework/Bundle;Lorg/osgi/framework/BundleEvent;TT;)V
+ (Lorg/osgi/framework/Bundle;Lorg/osgi/framework/BundleEvent;TT;)V
+removedBundle
+ (Lorg/osgi/framework/Bundle;Lorg/osgi/framework/BundleEvent;TT;)V
+ (Lorg/osgi/framework/Bundle;Lorg/osgi/framework/BundleEvent;TT;)V

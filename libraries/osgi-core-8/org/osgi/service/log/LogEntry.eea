@@ -1,0 +1,26 @@
+class org/osgi/service/log/LogEntry
+
+getBundle
+ ()Lorg/osgi/framework/Bundle;
+ ()Lorg/osgi/framework/Bundle;
+getException
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
+getLocation
+ ()Ljava/lang/StackTraceElement;
+ ()Ljava/lang/StackTraceElement;
+getLogLevel
+ ()Lorg/osgi/service/log/LogLevel;
+ ()Lorg/osgi/service/log/LogLevel;
+getLoggerName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMessage
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getServiceReference
+ ()Lorg/osgi/framework/ServiceReference<*>;
+ ()Lorg/osgi/framework/ServiceReference<*>;
+getThreadInfo
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

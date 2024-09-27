@@ -1,0 +1,11 @@
+class org/osgi/framework/connect/ModuleConnector
+
+connect
+ (Ljava/lang/String;)Ljava/util/Optional<Lorg/osgi/framework/connect/ConnectModule;>;
+ (Ljava/lang/String;)Ljava/util/Optional<Lorg/osgi/framework/connect/ConnectModule;>;
+initialize
+ (Ljava/io/File;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Ljava/io/File;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+newBundleActivator
+ ()Ljava/util/Optional<Lorg/osgi/framework/BundleActivator;>;
+ ()Ljava/util/Optional<Lorg/osgi/framework/BundleActivator;>;

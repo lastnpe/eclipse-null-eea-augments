@@ -1,0 +1,18 @@
+class org/osgi/framework/connect/ConnectContent
+
+TAG_OSGI_CONNECT
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getClassLoader
+ ()Ljava/util/Optional<Ljava/lang/ClassLoader;>;
+ ()Ljava/util/Optional<Ljava/lang/ClassLoader;>;
+getEntries
+ ()Ljava/lang/Iterable<Ljava/lang/String;>;
+ ()Ljava/lang/Iterable<Ljava/lang/String;>;
+getEntry
+ (Ljava/lang/String;)Ljava/util/Optional<Lorg/osgi/framework/connect/ConnectContent$ConnectEntry;>;
+ (Ljava/lang/String;)Ljava/util/Optional<Lorg/osgi/framework/connect/ConnectContent$ConnectEntry;>;
+getHeaders
+ ()Ljava/util/Optional<Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;>;
+ ()Ljava/util/Optional<Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;>;

@@ -1,0 +1,29 @@
+class org/osgi/framework/launch/Framework
+
+adapt
+ <A:Ljava/lang/Object;>(Ljava/lang/Class<TA;>;)TA;
+ <A:Ljava/lang/Object;>(Ljava/lang/Class<TA;>;)TA;
+findEntries
+ (Ljava/lang/String;Ljava/lang/String;Z)Ljava/util/Enumeration<Ljava/net/URL;>;
+ (Ljava/lang/String;Ljava/lang/String;Z)Ljava/util/Enumeration<Ljava/net/URL;>;
+getEntry
+ (Ljava/lang/String;)Ljava/net/URL;
+ (Ljava/lang/String;)Ljava/net/URL;
+getEntryPaths
+ (Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+ (Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+getLocation
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSymbolicName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+init
+ ([Lorg/osgi/framework/FrameworkListener;)V
+ ([Lorg/osgi/framework/FrameworkListener;)V
+update
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+waitForStop
+ (J)Lorg/osgi/framework/FrameworkEvent;
+ (J)Lorg/osgi/framework/FrameworkEvent;

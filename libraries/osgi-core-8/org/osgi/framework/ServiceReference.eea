@@ -1,0 +1,32 @@
+class org/osgi/framework/ServiceReference
+ <S:Ljava/lang/Object;>
+ <S:Ljava/lang/Object;>
+
+super java/lang/Comparable
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+adapt
+ <A:Ljava/lang/Object;>(Ljava/lang/Class<TA;>;)TA;
+ <A:Ljava/lang/Object;>(Ljava/lang/Class<TA;>;)TA;
+compareTo
+ (Ljava/lang/Object;)I
+ (L1java/lang/Object;)I
+getBundle
+ ()Lorg/osgi/framework/Bundle;
+ ()Lorg/osgi/framework/Bundle;
+getProperties
+ ()Ljava/util/Dictionary<Ljava/lang/String;Ljava/lang/Object;>;
+ ()Ljava/util/Dictionary<Ljava/lang/String;Ljava/lang/Object;>;
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getPropertyKeys
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getUsingBundles
+ ()[Lorg/osgi/framework/Bundle;
+ ()[Lorg/osgi/framework/Bundle;
+isAssignableTo
+ (Lorg/osgi/framework/Bundle;Ljava/lang/String;)Z
+ (Lorg/osgi/framework/Bundle;Ljava/lang/String;)Z

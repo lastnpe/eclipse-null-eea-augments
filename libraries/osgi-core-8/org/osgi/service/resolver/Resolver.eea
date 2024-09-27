@@ -1,0 +1,8 @@
+class org/osgi/service/resolver/Resolver
+
+resolve
+ (Lorg/osgi/service/resolver/ResolveContext;)Ljava/util/Map<Lorg/osgi/resource/Resource;Ljava/util/List<Lorg/osgi/resource/Wire;>;>;
+ (Lorg/osgi/service/resolver/ResolveContext;)Ljava/util/Map<Lorg/osgi/resource/Resource;Ljava/util/List<Lorg/osgi/resource/Wire;>;>;
+resolveDynamic
+ (Lorg/osgi/service/resolver/ResolveContext;Lorg/osgi/resource/Wiring;Lorg/osgi/resource/Requirement;)Ljava/util/Map<Lorg/osgi/resource/Resource;Ljava/util/List<Lorg/osgi/resource/Wire;>;>;
+ (Lorg/osgi/service/resolver/ResolveContext;Lorg/osgi/resource/Wiring;Lorg/osgi/resource/Requirement;)Ljava/util/Map<Lorg/osgi/resource/Resource;Ljava/util/List<Lorg/osgi/resource/Wire;>;>;

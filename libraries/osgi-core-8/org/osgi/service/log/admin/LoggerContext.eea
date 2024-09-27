@@ -1,0 +1,21 @@
+class org/osgi/service/log/admin/LoggerContext
+
+LOGGER_CONTEXT_DEFAULT_LOGLEVEL
+ Ljava/lang/String;
+ L1java/lang/String;
+LOGGER_CONTEXT_PID
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getEffectiveLogLevel
+ (Ljava/lang/String;)Lorg/osgi/service/log/LogLevel;
+ (Ljava/lang/String;)Lorg/osgi/service/log/LogLevel;
+getLogLevels
+ ()Ljava/util/Map<Ljava/lang/String;Lorg/osgi/service/log/LogLevel;>;
+ ()Ljava/util/Map<Ljava/lang/String;Lorg/osgi/service/log/LogLevel;>;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setLogLevels
+ (Ljava/util/Map<Ljava/lang/String;Lorg/osgi/service/log/LogLevel;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Lorg/osgi/service/log/LogLevel;>;)V
