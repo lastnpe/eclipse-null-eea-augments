@@ -1,0 +1,107 @@
+class org/mockito/ArgumentMatchers
+
+any
+ <T:Ljava/lang/Object;>()TT;
+ <T:Ljava/lang/Object;>()TT;
+any
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+anyCollection
+ <T:Ljava/lang/Object;>()Ljava/util/Collection<TT;>;
+ <T:Ljava/lang/Object;>()Ljava/util/Collection<TT;>;
+anyIterable
+ <T:Ljava/lang/Object;>()Ljava/lang/Iterable<TT;>;
+ <T:Ljava/lang/Object;>()Ljava/lang/Iterable<TT;>;
+anyList
+ <T:Ljava/lang/Object;>()Ljava/util/List<TT;>;
+ <T:Ljava/lang/Object;>()Ljava/util/List<TT;>;
+anyMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>()Ljava/util/Map<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>()Ljava/util/Map<TK;TV;>;
+anySet
+ <T:Ljava/lang/Object;>()Ljava/util/Set<TT;>;
+ <T:Ljava/lang/Object;>()Ljava/util/Set<TT;>;
+anyString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+argThat
+ <T:Ljava/lang/Object;>(Lorg/mockito/ArgumentMatcher<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lorg/mockito/ArgumentMatcher<TT;>;)TT;
+assertArg
+ <T:Ljava/lang/Object;>(Ljava/util/function/Consumer<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/function/Consumer<TT;>;)TT;
+assertArg
+ <T:Ljava/lang/Object;>(Lorg/mockito/ThrowingConsumer<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lorg/mockito/ThrowingConsumer<TT;>;)TT;
+booleanThat
+ (Lorg/mockito/ArgumentMatcher<Ljava/lang/Boolean;>;)Z
+ (Lorg/mockito/ArgumentMatcher<Ljava/lang/Boolean;>;)Z
+byteThat
+ (Lorg/mockito/ArgumentMatcher<Ljava/lang/Byte;>;)B
+ (Lorg/mockito/ArgumentMatcher<Ljava/lang/Byte;>;)B
+charThat
+ (Lorg/mockito/ArgumentMatcher<Ljava/lang/Character;>;)C
+ (Lorg/mockito/ArgumentMatcher<Ljava/lang/Character;>;)C
+contains
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+doubleThat
+ (Lorg/mockito/ArgumentMatcher<Ljava/lang/Double;>;)D
+ (Lorg/mockito/ArgumentMatcher<Ljava/lang/Double;>;)D
+endsWith
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+eq
+ <T:Ljava/lang/Object;>(TT;)TT;
+ <T:Ljava/lang/Object;>(TT;)TT;
+floatThat
+ (Lorg/mockito/ArgumentMatcher<Ljava/lang/Float;>;)F
+ (Lorg/mockito/ArgumentMatcher<Ljava/lang/Float;>;)F
+intThat
+ (Lorg/mockito/ArgumentMatcher<Ljava/lang/Integer;>;)I
+ (Lorg/mockito/ArgumentMatcher<Ljava/lang/Integer;>;)I
+isA
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+isNotNull
+ <T:Ljava/lang/Object;>()TT;
+ <T:Ljava/lang/Object;>()TT;
+isNotNull
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+isNull
+ <T:Ljava/lang/Object;>()TT;
+ <T:Ljava/lang/Object;>()TT;
+isNull
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+longThat
+ (Lorg/mockito/ArgumentMatcher<Ljava/lang/Long;>;)J
+ (Lorg/mockito/ArgumentMatcher<Ljava/lang/Long;>;)J
+matches
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+matches
+ (Ljava/util/regex/Pattern;)Ljava/lang/String;
+ (Ljava/util/regex/Pattern;)Ljava/lang/String;
+notNull
+ <T:Ljava/lang/Object;>()TT;
+ <T:Ljava/lang/Object;>()TT;
+notNull
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+nullable
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+refEq
+ <T:Ljava/lang/Object;>(TT;[Ljava/lang/String;)TT;
+ <T:Ljava/lang/Object;>(TT;[Ljava/lang/String;)TT;
+same
+ <T:Ljava/lang/Object;>(TT;)TT;
+ <T:Ljava/lang/Object;>(TT;)TT;
+shortThat
+ (Lorg/mockito/ArgumentMatcher<Ljava/lang/Short;>;)S
+ (Lorg/mockito/ArgumentMatcher<Ljava/lang/Short;>;)S
+startsWith
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;

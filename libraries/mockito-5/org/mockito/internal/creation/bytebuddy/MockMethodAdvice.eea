@@ -1,0 +1,29 @@
+class org/mockito/internal/creation/bytebuddy/MockMethodAdvice
+
+<init>
+ (Lorg/mockito/internal/util/concurrent/WeakConcurrentMap<Ljava/lang/Object;Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;>;Lorg/mockito/internal/util/concurrent/DetachedThreadLocal<Ljava/util/Map<Ljava/lang/Class<*>;Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;>;>;Ljava/lang/String;Ljava/util/function/Predicate<Ljava/lang/Class<*>;>;Lorg/mockito/internal/creation/bytebuddy/ConstructionCallback;)V
+ (Lorg/mockito/internal/util/concurrent/WeakConcurrentMap<Ljava/lang/Object;Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;>;Lorg/mockito/internal/util/concurrent/DetachedThreadLocal<Ljava/util/Map<Ljava/lang/Class<*>;Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;>;>;Ljava/lang/String;Ljava/util/function/Predicate<Ljava/lang/Class<*>;>;Lorg/mockito/internal/creation/bytebuddy/ConstructionCallback;)V
+handle
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/util/concurrent/Callable<*>;
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/util/concurrent/Callable<*>;
+handleConstruction
+ (Ljava/lang/Class<*>;Ljava/lang/Object;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/Class<*>;Ljava/lang/Object;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;
+handleStatic
+ (Ljava/lang/Class<*>;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/util/concurrent/Callable<*>;
+ (Ljava/lang/Class<*>;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/util/concurrent/Callable<*>;
+isConstructorMock
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isMock
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+isMocked
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+isMockedStatic
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isOverridden
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;)Z
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;)Z

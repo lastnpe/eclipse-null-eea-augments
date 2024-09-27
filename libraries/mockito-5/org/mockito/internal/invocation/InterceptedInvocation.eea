@@ -1,0 +1,60 @@
+class org/mockito/internal/invocation/InterceptedInvocation
+
+NO_OP
+ Lorg/mockito/internal/invocation/RealMethod;
+ L1org/mockito/internal/invocation/RealMethod;
+
+<init>
+ (Lorg/mockito/internal/invocation/mockref/MockReference<Ljava/lang/Object;>;Lorg/mockito/internal/invocation/MockitoMethod;[Ljava/lang/Object;Lorg/mockito/internal/invocation/RealMethod;Lorg/mockito/invocation/Location;I)V
+ (Lorg/mockito/internal/invocation/mockref/MockReference<Ljava/lang/Object;>;Lorg/mockito/internal/invocation/MockitoMethod;[Ljava/lang/Object;Lorg/mockito/internal/invocation/RealMethod;Lorg/mockito/invocation/Location;I)V
+callRealMethod
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getArgument
+ <T:Ljava/lang/Object;>(I)TT;
+ <T:Ljava/lang/Object;>(I)TT;
+getArgument
+ <T:Ljava/lang/Object;>(ILjava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(ILjava/lang/Class<TT;>;)TT;
+getArguments
+ ()[Ljava/lang/Object;
+ ()[1L1java/lang/Object; # @Inherited(org.mockito.invocation.InvocationOnMock)
+getArgumentsAsMatchers
+ ()Ljava/util/List<Lorg/mockito/ArgumentMatcher;>;
+ ()Ljava/util/List<Lorg/mockito/ArgumentMatcher;>;
+getLocation
+ ()Lorg/mockito/invocation/Location;
+ ()Lorg/mockito/invocation/Location;
+getMethod
+ ()Ljava/lang/reflect/Method;
+ ()Ljava/lang/reflect/Method;
+getMock
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getMockRef
+ ()Lorg/mockito/internal/invocation/mockref/MockReference<Ljava/lang/Object;>;
+ ()Lorg/mockito/internal/invocation/mockref/MockReference<Ljava/lang/Object;>;
+getMockitoMethod
+ ()Lorg/mockito/internal/invocation/MockitoMethod;
+ ()Lorg/mockito/internal/invocation/MockitoMethod;
+getRawArguments
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+getRawReturnType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getRealMethod
+ ()Lorg/mockito/internal/invocation/RealMethod;
+ ()Lorg/mockito/internal/invocation/RealMethod;
+markStubbed
+ (Lorg/mockito/invocation/StubInfo;)V
+ (Lorg/mockito/invocation/StubInfo;)V
+stubInfo
+ ()Lorg/mockito/invocation/StubInfo;
+ ()Lorg/mockito/invocation/StubInfo;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

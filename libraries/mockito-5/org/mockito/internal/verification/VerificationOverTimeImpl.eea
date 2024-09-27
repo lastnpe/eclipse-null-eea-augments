@@ -1,0 +1,23 @@
+class org/mockito/internal/verification/VerificationOverTimeImpl
+
+<init>
+ (JJLorg/mockito/verification/VerificationMode;Z)V
+ (JJLorg/mockito/verification/VerificationMode;Z)V
+<init>
+ (JLorg/mockito/verification/VerificationMode;ZLorg/mockito/internal/util/Timer;)V
+ (JLorg/mockito/verification/VerificationMode;ZLorg/mockito/internal/util/Timer;)V
+canRecoverFromFailure
+ (Lorg/mockito/verification/VerificationMode;)Z
+ (Lorg/mockito/verification/VerificationMode;)Z
+copyWithVerificationMode
+ (Lorg/mockito/verification/VerificationMode;)Lorg/mockito/internal/verification/VerificationOverTimeImpl;
+ (Lorg/mockito/verification/VerificationMode;)Lorg/mockito/internal/verification/VerificationOverTimeImpl;
+getDelegate
+ ()Lorg/mockito/verification/VerificationMode;
+ ()Lorg/mockito/verification/VerificationMode;
+getTimer
+ ()Lorg/mockito/internal/util/Timer;
+ ()Lorg/mockito/internal/util/Timer;
+verify
+ (Lorg/mockito/internal/verification/api/VerificationData;)V
+ (Lorg/mockito/internal/verification/api/VerificationData;)V

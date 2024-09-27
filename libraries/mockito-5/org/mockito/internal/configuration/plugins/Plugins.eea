@@ -1,0 +1,29 @@
+class org/mockito/internal/configuration/plugins/Plugins
+
+getAnnotationEngine
+ ()Lorg/mockito/plugins/AnnotationEngine;
+ ()Lorg/mockito/plugins/AnnotationEngine;
+getDoNotMockEnforcer
+ ()Lorg/mockito/plugins/DoNotMockEnforcerWithType;
+ ()Lorg/mockito/plugins/DoNotMockEnforcerWithType;
+getInstantiatorProvider
+ ()Lorg/mockito/plugins/InstantiatorProvider2;
+ ()Lorg/mockito/plugins/InstantiatorProvider2;
+getMemberAccessor
+ ()Lorg/mockito/plugins/MemberAccessor;
+ ()Lorg/mockito/plugins/MemberAccessor;
+getMockMaker
+ ()Lorg/mockito/plugins/MockMaker;
+ ()Lorg/mockito/plugins/MockMaker;
+getMockResolvers
+ ()Ljava/util/List<Lorg/mockito/plugins/MockResolver;>;
+ ()Ljava/util/List<Lorg/mockito/plugins/MockResolver;>;
+getMockitoLogger
+ ()Lorg/mockito/plugins/MockitoLogger;
+ ()Lorg/mockito/plugins/MockitoLogger;
+getPlugins
+ ()Lorg/mockito/plugins/MockitoPlugins;
+ ()Lorg/mockito/plugins/MockitoPlugins;
+getStackTraceCleanerProvider
+ ()Lorg/mockito/plugins/StackTraceCleanerProvider;
+ ()Lorg/mockito/plugins/StackTraceCleanerProvider;

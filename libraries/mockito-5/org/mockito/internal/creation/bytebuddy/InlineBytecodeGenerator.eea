@@ -1,0 +1,17 @@
+class org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator
+
+<init>
+ (Ljava/lang/instrument/Instrumentation;Lorg/mockito/internal/util/concurrent/WeakConcurrentMap<Ljava/lang/Object;Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;>;Lorg/mockito/internal/util/concurrent/DetachedThreadLocal<Ljava/util/Map<Ljava/lang/Class<*>;Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;>;>;Ljava/util/function/Predicate<Ljava/lang/Class<*>;>;Lorg/mockito/internal/creation/bytebuddy/ConstructionCallback;)V
+ (Ljava/lang/instrument/Instrumentation;Lorg/mockito/internal/util/concurrent/WeakConcurrentMap<Ljava/lang/Object;Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;>;Lorg/mockito/internal/util/concurrent/DetachedThreadLocal<Ljava/util/Map<Ljava/lang/Class<*>;Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;>;>;Ljava/util/function/Predicate<Ljava/lang/Class<*>;>;Lorg/mockito/internal/creation/bytebuddy/ConstructionCallback;)V
+mockClass
+ <T:Ljava/lang/Object;>(Lorg/mockito/internal/creation/bytebuddy/MockFeatures<TT;>;)Ljava/lang/Class<+TT;>;
+ <T:Ljava/lang/Object;>(Lorg/mockito/internal/creation/bytebuddy/MockFeatures<TT;>;)Ljava/lang/Class<+TT;>;
+mockClassConstruction
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+mockClassStatic
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+transform
+ (Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/lang/Class<*>;Ljava/security/ProtectionDomain;[B)[B
+ (Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/lang/Class<*>;Ljava/security/ProtectionDomain;[B)[B

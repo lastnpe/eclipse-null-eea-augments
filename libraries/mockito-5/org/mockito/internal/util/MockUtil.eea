@@ -1,0 +1,44 @@
+class org/mockito/internal/util/MockUtil
+
+areSameMocks
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+createConstructionMock
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Function<Lorg/mockito/MockedConstruction$Context;Lorg/mockito/mock/MockCreationSettings<TT;>;>;Lorg/mockito/MockedConstruction$MockInitializer<TT;>;)Lorg/mockito/plugins/MockMaker$ConstructionMockControl<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Function<Lorg/mockito/MockedConstruction$Context;Lorg/mockito/mock/MockCreationSettings<TT;>;>;Lorg/mockito/MockedConstruction$MockInitializer<TT;>;)Lorg/mockito/plugins/MockMaker$ConstructionMockControl<TT;>;
+createMock
+ <T:Ljava/lang/Object;>(Lorg/mockito/mock/MockCreationSettings<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lorg/mockito/mock/MockCreationSettings<TT;>;)TT;
+createStaticMock
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/mock/MockCreationSettings<TT;>;)Lorg/mockito/plugins/MockMaker$StaticMockControl<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/mock/MockCreationSettings<TT;>;)Lorg/mockito/plugins/MockMaker$StaticMockControl<TT;>;
+getInvocationContainer
+ (Ljava/lang/Object;)Lorg/mockito/internal/stubbing/InvocationContainerImpl;
+ (Ljava/lang/Object;)Lorg/mockito/internal/stubbing/InvocationContainerImpl;
+getMockHandler
+ (Ljava/lang/Object;)Lorg/mockito/invocation/MockHandler<*>;
+ (Ljava/lang/Object;)Lorg/mockito/invocation/MockHandler<*>;
+getMockMaker
+ (Ljava/lang/String;)Lorg/mockito/plugins/MockMaker;
+ (Ljava/lang/String;)Lorg/mockito/plugins/MockMaker;
+getMockName
+ (Ljava/lang/Object;)Lorg/mockito/mock/MockName;
+ (Ljava/lang/Object;)Lorg/mockito/mock/MockName;
+getMockSettings
+ (Ljava/lang/Object;)Lorg/mockito/mock/MockCreationSettings;
+ (Ljava/lang/Object;)Lorg/mockito/mock/MockCreationSettings;
+isMock
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+isSpy
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+maybeRedefineMockName
+ (Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/Object;Ljava/lang/String;)V
+resetMock
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+typeMockabilityOf
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Lorg/mockito/plugins/MockMaker$TypeMockability;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Lorg/mockito/plugins/MockMaker$TypeMockability;

@@ -1,0 +1,53 @@
+class org/mockito/internal/MockitoCore
+
+clearInvocations
+ <T:Ljava/lang/Object;>([TT;)V
+ <T:Ljava/lang/Object;>([TT;)V
+getLastInvocation
+ ()Lorg/mockito/invocation/Invocation;
+ ()Lorg/mockito/invocation/Invocation;
+ignoreStubs
+ ([Ljava/lang/Object;)[Ljava/lang/Object;
+ ([Ljava/lang/Object;)[Ljava/lang/Object;
+inOrder
+ ([Ljava/lang/Object;)Lorg/mockito/InOrder;
+ ([Ljava/lang/Object;)Lorg/mockito/InOrder;
+lenient
+ ()Lorg/mockito/stubbing/LenientStubber;
+ ()Lorg/mockito/stubbing/LenientStubber;
+mock
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/MockSettings;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/MockSettings;)TT;
+mockConstruction
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Function<Lorg/mockito/MockedConstruction$Context;+Lorg/mockito/MockSettings;>;Lorg/mockito/MockedConstruction$MockInitializer<TT;>;)Lorg/mockito/MockedConstruction<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Function<Lorg/mockito/MockedConstruction$Context;+Lorg/mockito/MockSettings;>;Lorg/mockito/MockedConstruction$MockInitializer<TT;>;)Lorg/mockito/MockedConstruction<TT;>;
+mockStatic
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/MockSettings;)Lorg/mockito/MockedStatic<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/MockSettings;)Lorg/mockito/MockedStatic<TT;>;
+mockingDetails
+ (Ljava/lang/Object;)Lorg/mockito/MockingDetails;
+ (Ljava/lang/Object;)Lorg/mockito/MockingDetails;
+reset
+ <T:Ljava/lang/Object;>([TT;)V
+ <T:Ljava/lang/Object;>([TT;)V
+stubber
+ ()Lorg/mockito/stubbing/Stubber;
+ ()Lorg/mockito/stubbing/Stubber;
+stubber
+ (Lorg/mockito/quality/Strictness;)Lorg/mockito/stubbing/Stubber;
+ (Lorg/mockito/quality/Strictness;)Lorg/mockito/stubbing/Stubber;
+verify
+ <T:Ljava/lang/Object;>(TT;Lorg/mockito/verification/VerificationMode;)TT;
+ <T:Ljava/lang/Object;>(TT;Lorg/mockito/verification/VerificationMode;)TT;
+verifyNoInteractions
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+verifyNoMoreInteractions
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+verifyNoMoreInteractionsInOrder
+ (Ljava/util/List<Ljava/lang/Object;>;Lorg/mockito/internal/verification/api/InOrderContext;)V
+ (Ljava/util/List<Ljava/lang/Object;>;Lorg/mockito/internal/verification/api/InOrderContext;)V
+when
+ <T:Ljava/lang/Object;>(TT;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+ <T:Ljava/lang/Object;>(TT;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;

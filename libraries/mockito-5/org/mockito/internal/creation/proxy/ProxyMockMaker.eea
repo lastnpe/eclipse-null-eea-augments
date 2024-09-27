@@ -1,0 +1,14 @@
+class org/mockito/internal/creation/proxy/ProxyMockMaker
+
+createMock
+ <T:Ljava/lang/Object;>(Lorg/mockito/mock/MockCreationSettings<TT;>;Lorg/mockito/invocation/MockHandler;)TT;
+ <T:Ljava/lang/Object;>(Lorg/mockito/mock/MockCreationSettings<TT;>;Lorg/mockito/invocation/MockHandler;)TT;
+getHandler
+ (Ljava/lang/Object;)Lorg/mockito/invocation/MockHandler;
+ (Ljava/lang/Object;)Lorg/mockito/invocation/MockHandler;
+isTypeMockable
+ (Ljava/lang/Class<*>;)Lorg/mockito/plugins/MockMaker$TypeMockability;
+ (Ljava/lang/Class<*>;)Lorg/mockito/plugins/MockMaker$TypeMockability;
+resetMock
+ (Ljava/lang/Object;Lorg/mockito/invocation/MockHandler;Lorg/mockito/mock/MockCreationSettings;)V
+ (Ljava/lang/Object;Lorg/mockito/invocation/MockHandler;Lorg/mockito/mock/MockCreationSettings;)V

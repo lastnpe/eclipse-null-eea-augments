@@ -1,0 +1,20 @@
+class org/mockito/internal/MockedStaticImpl
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/mockito/MockedStatic
+ <TT;>
+ <TT;>
+
+<init>
+ (Lorg/mockito/plugins/MockMaker$StaticMockControl<TT;>;)V
+ (Lorg/mockito/plugins/MockMaker$StaticMockControl<TT;>;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+verify
+ (Lorg/mockito/MockedStatic$Verification;Lorg/mockito/verification/VerificationMode;)V
+ (Lorg/mockito/MockedStatic$Verification;Lorg/mockito/verification/VerificationMode;)V
+when
+ <S:Ljava/lang/Object;>(Lorg/mockito/MockedStatic$Verification;)Lorg/mockito/stubbing/OngoingStubbing<TS;>;
+ <S:Ljava/lang/Object;>(Lorg/mockito/MockedStatic$Verification;)Lorg/mockito/stubbing/OngoingStubbing<TS;>;

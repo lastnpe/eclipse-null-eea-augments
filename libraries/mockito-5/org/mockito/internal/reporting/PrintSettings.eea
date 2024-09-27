@@ -1,0 +1,24 @@
+class org/mockito/internal/reporting/PrintSettings
+
+verboseMatchers
+ ([Ljava/lang/Integer;)Lorg/mockito/internal/reporting/PrintSettings;
+ ([Ljava/lang/Integer;)Lorg/mockito/internal/reporting/PrintSettings;
+
+fullyQualifiedNameFor
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+print
+ (Ljava/util/List<Lorg/mockito/ArgumentMatcher;>;Lorg/mockito/invocation/Invocation;)Ljava/lang/String;
+ (Ljava/util/List<Lorg/mockito/ArgumentMatcher;>;Lorg/mockito/invocation/Invocation;)Ljava/lang/String;
+print
+ (Lorg/mockito/invocation/Invocation;)Ljava/lang/String;
+ (Lorg/mockito/invocation/Invocation;)Ljava/lang/String;
+print
+ (Lorg/mockito/invocation/MatchableInvocation;)Ljava/lang/String;
+ (Lorg/mockito/invocation/MatchableInvocation;)Ljava/lang/String;
+setMatchersToBeDescribedWithExtraTypeInfo
+ ([Ljava/lang/Integer;)V
+ ([Ljava/lang/Integer;)V
+setMatchersToBeDescribedWithFullName
+ (Ljava/util/Set<Ljava/lang/String;>;)V
+ (Ljava/util/Set<Ljava/lang/String;>;)V
