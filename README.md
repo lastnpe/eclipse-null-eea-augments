@@ -3,6 +3,8 @@
 [![Build Status](https://github.com/lastnpe/eclipse-null-eea-augments/workflows/Build/badge.svg "GitHub Actions")](https://github.com/lastnpe/eclipse-null-eea-augments/actions?query=workflow%3A%22Build%22)
 [![License](https://img.shields.io/github/license/lastnpe/eclipse-null-eea-augments.svg?color=blue)](LICENSE.txt)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.1%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+[![Maven Central](https://img.shields.io/maven-central/v/org.lastnpe.eea/eea-all)](https://central.sonatype.com/artifact/org.lastnpe.eea/eea-all)
+
 
 1. [What is this?](#what-is-this)
 1. [How to use this](#usage)
