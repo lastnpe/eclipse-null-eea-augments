@@ -1,0 +1,54 @@
+class com/google/common/hash/BloomFilter
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super com/google/common/base/Predicate
+ <TT;>
+ <TT;>
+
+create
+ <T:Ljava/lang/Object;>(Lcom/google/common/hash/Funnel<-TT;>;I)Lcom/google/common/hash/BloomFilter<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/hash/Funnel<-TT;>;I)Lcom/google/common/hash/BloomFilter<TT;>;
+create
+ <T:Ljava/lang/Object;>(Lcom/google/common/hash/Funnel<-TT;>;ID)Lcom/google/common/hash/BloomFilter<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/hash/Funnel<-TT;>;ID)Lcom/google/common/hash/BloomFilter<TT;>;
+create
+ <T:Ljava/lang/Object;>(Lcom/google/common/hash/Funnel<-TT;>;J)Lcom/google/common/hash/BloomFilter<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/hash/Funnel<-TT;>;J)Lcom/google/common/hash/BloomFilter<TT;>;
+create
+ <T:Ljava/lang/Object;>(Lcom/google/common/hash/Funnel<-TT;>;JD)Lcom/google/common/hash/BloomFilter<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/hash/Funnel<-TT;>;JD)Lcom/google/common/hash/BloomFilter<TT;>;
+readFrom
+ <T:Ljava/lang/Object;>(Ljava/io/InputStream;Lcom/google/common/hash/Funnel<-TT;>;)Lcom/google/common/hash/BloomFilter<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/io/InputStream;Lcom/google/common/hash/Funnel<-TT;>;)Lcom/google/common/hash/BloomFilter<TT;>;
+toBloomFilter
+ <T:Ljava/lang/Object;>(Lcom/google/common/hash/Funnel<-TT;>;J)Ljava/util/stream/Collector<TT;*Lcom/google/common/hash/BloomFilter<TT;>;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/hash/Funnel<-TT;>;J)Ljava/util/stream/Collector<TT;*Lcom/google/common/hash/BloomFilter<TT;>;>;
+toBloomFilter
+ <T:Ljava/lang/Object;>(Lcom/google/common/hash/Funnel<-TT;>;JD)Ljava/util/stream/Collector<TT;*Lcom/google/common/hash/BloomFilter<TT;>;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/hash/Funnel<-TT;>;JD)Ljava/util/stream/Collector<TT;*Lcom/google/common/hash/BloomFilter<TT;>;>;
+
+apply
+ (TT;)Z
+ (TT;)Z
+copy
+ ()Lcom/google/common/hash/BloomFilter<TT;>;
+ ()Lcom/google/common/hash/BloomFilter<TT;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+isCompatible
+ (Lcom/google/common/hash/BloomFilter<TT;>;)Z
+ (Lcom/google/common/hash/BloomFilter<TT;>;)Z
+mightContain
+ (TT;)Z
+ (TT;)Z
+put
+ (TT;)Z
+ (TT;)Z
+putAll
+ (Lcom/google/common/hash/BloomFilter<TT;>;)V
+ (Lcom/google/common/hash/BloomFilter<TT;>;)V
+writeTo
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V

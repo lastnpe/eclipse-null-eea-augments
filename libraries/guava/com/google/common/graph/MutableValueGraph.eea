@@ -1,0 +1,26 @@
+class com/google/common/graph/MutableValueGraph
+ <N:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <N:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/graph/ValueGraph
+ <TN;TV;>
+ <TN;TV;>
+
+addNode
+ (TN;)Z
+ (TN;)Z
+putEdgeValue
+ (Lcom/google/common/graph/EndpointPair<TN;>;TV;)TV;
+ (Lcom/google/common/graph/EndpointPair<TN;>;TV;)T0V;
+putEdgeValue
+ (TN;TN;TV;)TV;
+ (TN;TN;TV;)T0V;
+removeEdge
+ (Lcom/google/common/graph/EndpointPair<TN;>;)TV;
+ (Lcom/google/common/graph/EndpointPair<TN;>;)T0V;
+removeEdge
+ (TN;TN;)TV;
+ (TN;TN;)T0V;
+removeNode
+ (TN;)Z
+ (TN;)Z

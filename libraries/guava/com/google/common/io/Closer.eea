@@ -1,0 +1,18 @@
+class com/google/common/io/Closer
+
+create
+ ()Lcom/google/common/io/Closer;
+ ()Lcom/google/common/io/Closer;
+
+register
+ <C::Ljava/io/Closeable;>(TC;)TC;
+ <C::Ljava/io/Closeable;>(TC;)T1C;
+rethrow
+ (Ljava/lang/Throwable;)Ljava/lang/RuntimeException;
+ (Ljava/lang/Throwable;)Ljava/lang/RuntimeException;
+rethrow
+ <X1:Ljava/lang/Exception;X2:Ljava/lang/Exception;>(Ljava/lang/Throwable;Ljava/lang/Class<TX1;>;Ljava/lang/Class<TX2;>;)Ljava/lang/RuntimeException;^Ljava/io/IOException;^TX1;^TX2;
+ <X1:Ljava/lang/Exception;X2:Ljava/lang/Exception;>(Ljava/lang/Throwable;Ljava/lang/Class<TX1;>;Ljava/lang/Class<TX2;>;)Ljava/lang/RuntimeException;^Ljava/io/IOException;^TX1;^TX2;
+rethrow
+ <X:Ljava/lang/Exception;>(Ljava/lang/Throwable;Ljava/lang/Class<TX;>;)Ljava/lang/RuntimeException;^Ljava/io/IOException;^TX;
+ <X:Ljava/lang/Exception;>(Ljava/lang/Throwable;Ljava/lang/Class<TX;>;)Ljava/lang/RuntimeException;^Ljava/io/IOException;^TX;

@@ -1,0 +1,32 @@
+class com/google/common/base/Joiner$MapJoiner
+
+appendTo
+ (Ljava/lang/StringBuilder;Ljava/lang/Iterable<+Ljava/util/Map$Entry<**>;>;)Ljava/lang/StringBuilder;
+ (Ljava/lang/StringBuilder;Ljava/lang/Iterable<+Ljava/util/Map$Entry<**>;>;)Ljava/lang/StringBuilder;
+appendTo
+ (Ljava/lang/StringBuilder;Ljava/util/Iterator<+Ljava/util/Map$Entry<**>;>;)Ljava/lang/StringBuilder;
+ (Ljava/lang/StringBuilder;Ljava/util/Iterator<+Ljava/util/Map$Entry<**>;>;)Ljava/lang/StringBuilder;
+appendTo
+ (Ljava/lang/StringBuilder;Ljava/util/Map<**>;)Ljava/lang/StringBuilder;
+ (Ljava/lang/StringBuilder;Ljava/util/Map<**>;)Ljava/lang/StringBuilder;
+appendTo
+ <A::Ljava/lang/Appendable;>(TA;Ljava/lang/Iterable<+Ljava/util/Map$Entry<**>;>;)TA;
+ <A::Ljava/lang/Appendable;>(TA;Ljava/lang/Iterable<+Ljava/util/Map$Entry<**>;>;)TA;
+appendTo
+ <A::Ljava/lang/Appendable;>(TA;Ljava/util/Iterator<+Ljava/util/Map$Entry<**>;>;)TA;
+ <A::Ljava/lang/Appendable;>(TA;Ljava/util/Iterator<+Ljava/util/Map$Entry<**>;>;)TA;
+appendTo
+ <A::Ljava/lang/Appendable;>(TA;Ljava/util/Map<**>;)TA;
+ <A::Ljava/lang/Appendable;>(TA;Ljava/util/Map<**>;)TA;
+join
+ (Ljava/lang/Iterable<+Ljava/util/Map$Entry<**>;>;)Ljava/lang/String;
+ (Ljava/lang/Iterable<+Ljava/util/Map$Entry<**>;>;)Ljava/lang/String;
+join
+ (Ljava/util/Iterator<+Ljava/util/Map$Entry<**>;>;)Ljava/lang/String;
+ (Ljava/util/Iterator<+Ljava/util/Map$Entry<**>;>;)Ljava/lang/String;
+join
+ (Ljava/util/Map<**>;)Ljava/lang/String;
+ (Ljava/util/Map<**>;)Ljava/lang/String;
+useForNull
+ (Ljava/lang/String;)Lcom/google/common/base/Joiner$MapJoiner;
+ (Ljava/lang/String;)Lcom/google/common/base/Joiner$MapJoiner;

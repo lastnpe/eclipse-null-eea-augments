@@ -1,0 +1,21 @@
+class com/google/common/collect/EnumBiMap
+ <K:Ljava/lang/Enum<TK;>;V:Ljava/lang/Enum<TV;>;>
+ <K:Ljava/lang/Enum<TK;>;V:Ljava/lang/Enum<TV;>;>
+
+super com/google/common/collect/AbstractBiMap
+ <TK;TV;>
+ <TK;TV;>
+
+create
+ <K:Ljava/lang/Enum<TK;>;V:Ljava/lang/Enum<TV;>;>(Ljava/lang/Class<TK;>;Ljava/lang/Class<TV;>;)Lcom/google/common/collect/EnumBiMap<TK;TV;>;
+ <K:Ljava/lang/Enum<TK;>;V:Ljava/lang/Enum<TV;>;>(Ljava/lang/Class<TK;>;Ljava/lang/Class<TV;>;)Lcom/google/common/collect/EnumBiMap<TK;TV;>;
+create
+ <K:Ljava/lang/Enum<TK;>;V:Ljava/lang/Enum<TV;>;>(Ljava/util/Map<TK;TV;>;)Lcom/google/common/collect/EnumBiMap<TK;TV;>;
+ <K:Ljava/lang/Enum<TK;>;V:Ljava/lang/Enum<TV;>;>(Ljava/util/Map<TK;TV;>;)Lcom/google/common/collect/EnumBiMap<TK;TV;>;
+
+keyType
+ ()Ljava/lang/Class<TK;>;
+ ()Ljava/lang/Class<TK;>;
+valueType
+ ()Ljava/lang/Class<TV;>;
+ ()Ljava/lang/Class<TV;>;

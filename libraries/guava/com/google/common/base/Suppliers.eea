@@ -1,0 +1,23 @@
+class com/google/common/base/Suppliers
+
+compose
+ <F:Ljava/lang/Object;T:Ljava/lang/Object;>(Lcom/google/common/base/Function<-TF;TT;>;Lcom/google/common/base/Supplier<TF;>;)Lcom/google/common/base/Supplier<TT;>;
+ <F:Ljava/lang/Object;T:Ljava/lang/Object;>(Lcom/google/common/base/Function<-TF;TT;>;Lcom/google/common/base/Supplier<TF;>;)Lcom/google/common/base/Supplier<TT;>;
+memoize
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Supplier<TT;>;)Lcom/google/common/base/Supplier<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Supplier<TT;>;)Lcom/google/common/base/Supplier<TT;>;
+memoizeWithExpiration
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Supplier<TT;>;JLjava/util/concurrent/TimeUnit;)Lcom/google/common/base/Supplier<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Supplier<TT;>;JLjava/util/concurrent/TimeUnit;)Lcom/google/common/base/Supplier<TT;>;
+memoizeWithExpiration
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Supplier<TT;>;Ljava/time/Duration;)Lcom/google/common/base/Supplier<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Supplier<TT;>;Ljava/time/Duration;)L1com/google/common/base/Supplier<TT;>;
+ofInstance
+ <T:Ljava/lang/Object;>(TT;)Lcom/google/common/base/Supplier<TT;>;
+ <T:Ljava/lang/Object;>(TT;)Lcom/google/common/base/Supplier<TT;>;
+supplierFunction
+ <T:Ljava/lang/Object;>()Lcom/google/common/base/Function<Lcom/google/common/base/Supplier<TT;>;TT;>;
+ <T:Ljava/lang/Object;>()Lcom/google/common/base/Function<Lcom/google/common/base/Supplier<TT;>;TT;>;
+synchronizedSupplier
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Supplier<TT;>;)Lcom/google/common/base/Supplier<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Supplier<TT;>;)Lcom/google/common/base/Supplier<TT;>;

@@ -1,0 +1,207 @@
+class com/google/common/collect/ImmutableSortedMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/collect/ImmutableMap
+ <TK;TV;>
+ <TK;TV;>
+super java/util/NavigableMap
+ <TK;TV;>
+ <TK;TV;>
+
+builder
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;
+builderWithExpectedSize
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(I)Lcom/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(I)Lcom/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;
+copyOf
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/lang/Iterable<+Ljava/util/Map$Entry<+TK;+TV;>;>;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/lang/Iterable<+Ljava/util/Map$Entry<+TK;+TV;>;>;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+copyOf
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/lang/Iterable<+Ljava/util/Map$Entry<+TK;+TV;>;>;Ljava/util/Comparator<-TK;>;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/lang/Iterable<+Ljava/util/Map$Entry<+TK;+TV;>;>;Ljava/util/Comparator<-TK;>;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+copyOf
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<+TK;+TV;>;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<+TK;+TV;>;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+copyOf
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<+TK;+TV;>;Ljava/util/Comparator<-TK;>;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<+TK;+TV;>;Ljava/util/Comparator<-TK;>;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+copyOfSorted
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/SortedMap<TK;+TV;>;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/SortedMap<TK;+TV;>;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+naturalOrder
+ <K::Ljava/lang/Comparable<*>;V:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;
+ <K::Ljava/lang/Comparable<*>;V:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;
+of
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K::Ljava/lang/Comparable<-TK;>;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ofEntries
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>([Ljava/util/Map$Entry<+TK;+TV;>;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>([Ljava/util/Map$Entry<+TK;+TV;>;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+orderedBy
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Comparator<TK;>;)Lcom/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Comparator<TK;>;)Lcom/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;
+reverseOrder
+ <K::Ljava/lang/Comparable<*>;V:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;
+ <K::Ljava/lang/Comparable<*>;V:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableSortedMap$Builder<TK;TV;>;
+toImmutableMap
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+TV;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableMap<TK;TV;>;>;
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+TV;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableMap<TK;TV;>;>;
+toImmutableMap
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+TV;>;Ljava/util/function/BinaryOperator<TV;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableMap<TK;TV;>;>;
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+TV;>;Ljava/util/function/BinaryOperator<TV;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableMap<TK;TV;>;>;
+toImmutableSortedMap
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Comparator<-TK;>;Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+TV;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;>;
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Comparator<-TK;>;Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+TV;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;>;
+toImmutableSortedMap
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Comparator<-TK;>;Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+TV;>;Ljava/util/function/BinaryOperator<TV;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;>;
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Comparator<-TK;>;Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+TV;>;Ljava/util/function/BinaryOperator<TV;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;>;
+
+ceilingEntry
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+ (TK;)L0java/util/Map$Entry<TK;TV;>;
+ceilingKey
+ (TK;)TK;
+ (TK;)T0K;
+comparator
+ ()Ljava/util/Comparator<-TK;>;
+ ()Ljava/util/Comparator<-TK;>;
+descendingKeySet
+ ()Lcom/google/common/collect/ImmutableSortedSet<TK;>;
+ ()Lcom/google/common/collect/ImmutableSortedSet<TK;>;
+descendingMap
+ ()Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ ()Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+entrySet
+ ()Lcom/google/common/collect/ImmutableSet<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()Lcom/google/common/collect/ImmutableSet<Ljava/util/Map$Entry<TK;TV;>;>;
+firstEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()L0java/util/Map$Entry<TK;TV;>;
+firstKey
+ ()TK;
+ ()TK;
+floorEntry
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+ (TK;)L0java/util/Map$Entry<TK;TV;>;
+floorKey
+ (TK;)TK;
+ (TK;)T0K;
+forEach
+ (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
+ (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
+get
+ (Ljava/lang/Object;)TV;
+ (Ljava/lang/Object;)T0V; # @Inherited(com.google.common.collect.ImmutableMap)
+headMap
+ (TK;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ (TK;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+headMap
+ (TK;Z)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ (TK;Z)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+higherEntry
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+ (TK;)L0java/util/Map$Entry<TK;TV;>;
+higherKey
+ (TK;)TK;
+ (TK;)T0K;
+keySet
+ ()Lcom/google/common/collect/ImmutableSortedSet<TK;>;
+ ()Lcom/google/common/collect/ImmutableSortedSet<TK;>;
+lastEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()L0java/util/Map$Entry<TK;TV;>;
+lastKey
+ ()TK;
+ ()TK;
+lowerEntry
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+ (TK;)L0java/util/Map$Entry<TK;TV;>;
+lowerKey
+ (TK;)TK;
+ (TK;)T0K;
+navigableKeySet
+ ()Lcom/google/common/collect/ImmutableSortedSet<TK;>;
+ ()Lcom/google/common/collect/ImmutableSortedSet<TK;>;
+pollFirstEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()L0java/util/Map$Entry<TK;TV;>;
+pollLastEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()L0java/util/Map$Entry<TK;TV;>;
+subMap
+ (TK;TK;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ (TK;TK;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+subMap
+ (TK;ZTK;Z)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ (TK;ZTK;Z)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+tailMap
+ (TK;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ (TK;)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+tailMap
+ (TK;Z)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+ (TK;Z)Lcom/google/common/collect/ImmutableSortedMap<TK;TV;>;
+values
+ ()Lcom/google/common/collect/ImmutableCollection<TV;>;
+ ()Lcom/google/common/collect/ImmutableCollection<TV;>;

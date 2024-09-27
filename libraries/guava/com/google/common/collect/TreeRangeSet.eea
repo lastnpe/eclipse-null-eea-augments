@@ -1,0 +1,48 @@
+class com/google/common/collect/TreeRangeSet
+ <C::Ljava/lang/Comparable<*>;>
+ <C::Ljava/lang/Comparable<*>;>
+
+super com/google/common/collect/AbstractRangeSet
+ <TC;>
+ <TC;>
+
+create
+ <C::Ljava/lang/Comparable<*>;>()Lcom/google/common/collect/TreeRangeSet<TC;>;
+ <C::Ljava/lang/Comparable<*>;>()Lcom/google/common/collect/TreeRangeSet<TC;>;
+create
+ <C::Ljava/lang/Comparable<*>;>(Lcom/google/common/collect/RangeSet<TC;>;)Lcom/google/common/collect/TreeRangeSet<TC;>;
+ <C::Ljava/lang/Comparable<*>;>(Lcom/google/common/collect/RangeSet<TC;>;)Lcom/google/common/collect/TreeRangeSet<TC;>;
+create
+ <C::Ljava/lang/Comparable<*>;>(Ljava/lang/Iterable<Lcom/google/common/collect/Range<TC;>;>;)Lcom/google/common/collect/TreeRangeSet<TC;>;
+ <C::Ljava/lang/Comparable<*>;>(Ljava/lang/Iterable<Lcom/google/common/collect/Range<TC;>;>;)Lcom/google/common/collect/TreeRangeSet<TC;>;
+
+add
+ (Lcom/google/common/collect/Range<TC;>;)V
+ (Lcom/google/common/collect/Range<TC;>;)V
+asDescendingSetOfRanges
+ ()Ljava/util/Set<Lcom/google/common/collect/Range<TC;>;>;
+ ()Ljava/util/Set<Lcom/google/common/collect/Range<TC;>;>;
+asRanges
+ ()Ljava/util/Set<Lcom/google/common/collect/Range<TC;>;>;
+ ()Ljava/util/Set<Lcom/google/common/collect/Range<TC;>;>;
+complement
+ ()Lcom/google/common/collect/RangeSet<TC;>;
+ ()Lcom/google/common/collect/RangeSet<TC;>;
+encloses
+ (Lcom/google/common/collect/Range<TC;>;)Z
+ (Lcom/google/common/collect/Range<TC;>;)Z
+intersects
+ (Lcom/google/common/collect/Range<TC;>;)Z
+ (Lcom/google/common/collect/Range<TC;>;)Z
+rangeContaining
+ (TC;)Lcom/google/common/collect/Range<TC;>;
+ (TC;)L0com/google/common/collect/Range<TC;>; # @Inherited(com.google.common.collect.RangeSet)
+remove
+ (Lcom/google/common/collect/Range<TC;>;)V
+ (Lcom/google/common/collect/Range<TC;>;)V
+span
+ ()Lcom/google/common/collect/Range<TC;>;
+ ()Lcom/google/common/collect/Range<TC;>;
+subRangeSet
+ (Lcom/google/common/collect/Range<TC;>;)Lcom/google/common/collect/RangeSet<TC;>;
+ (Lcom/google/common/collect/Range<TC;>;)Lcom/google/common/collect/RangeSet<TC;>;

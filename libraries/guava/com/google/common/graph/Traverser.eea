@@ -1,0 +1,29 @@
+class com/google/common/graph/Traverser
+ <N:Ljava/lang/Object;>
+ <N:Ljava/lang/Object;>
+
+forGraph
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/SuccessorsFunction<TN;>;)Lcom/google/common/graph/Traverser<TN;>;
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/SuccessorsFunction<TN;>;)Lcom/google/common/graph/Traverser<TN;>;
+forTree
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/SuccessorsFunction<TN;>;)Lcom/google/common/graph/Traverser<TN;>;
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/SuccessorsFunction<TN;>;)Lcom/google/common/graph/Traverser<TN;>;
+
+breadthFirst
+ (Ljava/lang/Iterable<+TN;>;)Ljava/lang/Iterable<TN;>;
+ (Ljava/lang/Iterable<+TN;>;)Ljava/lang/Iterable<TN;>;
+breadthFirst
+ (TN;)Ljava/lang/Iterable<TN;>;
+ (TN;)Ljava/lang/Iterable<TN;>;
+depthFirstPostOrder
+ (Ljava/lang/Iterable<+TN;>;)Ljava/lang/Iterable<TN;>;
+ (Ljava/lang/Iterable<+TN;>;)Ljava/lang/Iterable<TN;>;
+depthFirstPostOrder
+ (TN;)Ljava/lang/Iterable<TN;>;
+ (TN;)Ljava/lang/Iterable<TN;>;
+depthFirstPreOrder
+ (Ljava/lang/Iterable<+TN;>;)Ljava/lang/Iterable<TN;>;
+ (Ljava/lang/Iterable<+TN;>;)Ljava/lang/Iterable<TN;>;
+depthFirstPreOrder
+ (TN;)Ljava/lang/Iterable<TN;>;
+ (TN;)Ljava/lang/Iterable<TN;>;

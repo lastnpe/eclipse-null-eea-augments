@@ -1,0 +1,27 @@
+class com/google/common/net/HostAndPort
+
+fromHost
+ (Ljava/lang/String;)Lcom/google/common/net/HostAndPort;
+ (Ljava/lang/String;)Lcom/google/common/net/HostAndPort;
+fromParts
+ (Ljava/lang/String;I)Lcom/google/common/net/HostAndPort;
+ (Ljava/lang/String;I)Lcom/google/common/net/HostAndPort;
+fromString
+ (Ljava/lang/String;)Lcom/google/common/net/HostAndPort;
+ (Ljava/lang/String;)Lcom/google/common/net/HostAndPort;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getHost
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+requireBracketsForIPv6
+ ()Lcom/google/common/net/HostAndPort;
+ ()Lcom/google/common/net/HostAndPort;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+withDefaultPort
+ (I)Lcom/google/common/net/HostAndPort;
+ (I)Lcom/google/common/net/HostAndPort;

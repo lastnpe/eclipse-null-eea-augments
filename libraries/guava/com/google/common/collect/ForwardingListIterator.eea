@@ -1,0 +1,23 @@
+class com/google/common/collect/ForwardingListIterator
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super com/google/common/collect/ForwardingIterator
+ <TE;>
+ <TE;>
+super java/util/ListIterator
+ <TE;>
+ <TE;>
+
+add
+ (TE;)V
+ (TE;)V
+delegate
+ ()Ljava/util/ListIterator<TE;>;
+ ()Ljava/util/ListIterator<TE;>;
+previous
+ ()TE;
+ ()T1E;
+set
+ (TE;)V
+ (TE;)V

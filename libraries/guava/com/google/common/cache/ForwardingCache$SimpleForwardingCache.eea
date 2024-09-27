@@ -1,0 +1,14 @@
+class com/google/common/cache/ForwardingCache$SimpleForwardingCache
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/cache/ForwardingCache
+ <TK;TV;>
+ <TK;TV;>
+
+<init>
+ (Lcom/google/common/cache/Cache<TK;TV;>;)V
+ (Lcom/google/common/cache/Cache<TK;TV;>;)V
+delegate
+ ()Lcom/google/common/cache/Cache<TK;TV;>;
+ ()Lcom/google/common/cache/Cache<TK;TV;>;

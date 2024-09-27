@@ -1,0 +1,60 @@
+class com/google/common/collect/ImmutableListMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/collect/ImmutableMultimap
+ <TK;TV;>
+ <TK;TV;>
+super com/google/common/collect/ListMultimap
+ <TK;TV;>
+ <TK;TV;>
+
+builder
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableListMultimap$Builder<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableListMultimap$Builder<TK;TV;>;
+builderWithExpectedKeys
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(I)Lcom/google/common/collect/ImmutableListMultimap$Builder<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(I)Lcom/google/common/collect/ImmutableListMultimap$Builder<TK;TV;>;
+copyOf
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<+TK;+TV;>;)Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<+TK;+TV;>;)Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+copyOf
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/lang/Iterable<+Ljava/util/Map$Entry<+TK;+TV;>;>;)Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/lang/Iterable<+Ljava/util/Map$Entry<+TK;+TV;>;>;)Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+flatteningToImmutableListMultimap
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+Ljava/util/stream/Stream<+TV;>;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;>;
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+Ljava/util/stream/Stream<+TV;>;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;)Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;)Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+of
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(TK;TV;TK;TV;TK;TV;TK;TV;TK;TV;)Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;
+toImmutableListMultimap
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+TV;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;>;
+ <T:Ljava/lang/Object;K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+TK;>;Ljava/util/function/Function<-TT;+TV;>;)Ljava/util/stream/Collector<TT;*Lcom/google/common/collect/ImmutableListMultimap<TK;TV;>;>;
+
+get
+ (TK;)Lcom/google/common/collect/ImmutableList<TV;>;
+ (TK;)Lcom/google/common/collect/ImmutableList<TV;>;
+inverse
+ ()Lcom/google/common/collect/ImmutableListMultimap<TV;TK;>;
+ ()Lcom/google/common/collect/ImmutableListMultimap<TV;TK;>;
+removeAll
+ (Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList<TV;>;
+ (Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList<TV;>;
+replaceValues
+ (TK;Ljava/lang/Iterable<+TV;>;)Lcom/google/common/collect/ImmutableList<TV;>;
+ (TK;Ljava/lang/Iterable<+TV;>;)Lcom/google/common/collect/ImmutableList<TV;>;

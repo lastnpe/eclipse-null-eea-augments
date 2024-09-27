@@ -1,0 +1,68 @@
+class com/google/common/collect/ForwardingCollection
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/util/Collection
+ <TE;>
+ <TE;>
+
+add
+ (TE;)Z
+ (TE;)Z
+addAll
+ (Ljava/util/Collection<+TE;>;)Z
+ (Ljava/util/Collection<+TE;>;)Z
+contains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+containsAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+delegate
+ ()Ljava/util/Collection<TE;>;
+ ()Ljava/util/Collection<TE;>;
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()Ljava/util/Iterator<TE;>;
+remove
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+removeAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+retainAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+standardAddAll
+ (Ljava/util/Collection<+TE;>;)Z
+ (Ljava/util/Collection<+TE;>;)Z
+standardContains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+standardContainsAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+standardRemove
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+standardRemoveAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+standardRetainAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+standardToArray
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+standardToArray
+ <T:Ljava/lang/Object;>([TT;)[TT;
+ <T:Ljava/lang/Object;>([TT;)[TT;
+standardToString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+toArray
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+toArray
+ <T:Ljava/lang/Object;>([TT;)[TT;
+ <T:Ljava/lang/Object;>([TT;)[TT;

@@ -1,0 +1,26 @@
+class com/google/common/collect/ForwardingSetMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/collect/ForwardingMultimap
+ <TK;TV;>
+ <TK;TV;>
+super com/google/common/collect/SetMultimap
+ <TK;TV;>
+ <TK;TV;>
+
+delegate
+ ()Lcom/google/common/collect/SetMultimap<TK;TV;>;
+ ()Lcom/google/common/collect/SetMultimap<TK;TV;>;
+entries
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+get
+ (TK;)Ljava/util/Set<TV;>;
+ (TK;)Ljava/util/Set<TV;>;
+removeAll
+ (Ljava/lang/Object;)Ljava/util/Set<TV;>;
+ (Ljava/lang/Object;)Ljava/util/Set<TV;>;
+replaceValues
+ (TK;Ljava/lang/Iterable<+TV;>;)Ljava/util/Set<TV;>;
+ (TK;Ljava/lang/Iterable<+TV;>;)Ljava/util/Set<TV;>;

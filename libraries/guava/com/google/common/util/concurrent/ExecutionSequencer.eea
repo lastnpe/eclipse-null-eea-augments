@@ -1,0 +1,12 @@
+class com/google/common/util/concurrent/ExecutionSequencer
+
+create
+ ()Lcom/google/common/util/concurrent/ExecutionSequencer;
+ ()Lcom/google/common/util/concurrent/ExecutionSequencer;
+
+submit
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture<TT;>;
+submitAsync
+ <T:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/AsyncCallable<TT;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/AsyncCallable<TT;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture<TT;>;

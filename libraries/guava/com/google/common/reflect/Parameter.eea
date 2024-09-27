@@ -1,0 +1,38 @@
+class com/google/common/reflect/Parameter
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAnnotatedType
+ ()Ljava/lang/reflect/AnnotatedType;
+ ()Ljava/lang/reflect/AnnotatedType;
+getAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)T0A;
+getAnnotations
+ ()[Ljava/lang/annotation/Annotation;
+ ()[Ljava/lang/annotation/Annotation;
+getAnnotationsByType
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)[TA;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)[TA;
+getDeclaredAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)T0A;
+getDeclaredAnnotations
+ ()[Ljava/lang/annotation/Annotation;
+ ()[Ljava/lang/annotation/Annotation;
+getDeclaredAnnotationsByType
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)[TA;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)[TA;
+getDeclaringInvokable
+ ()Lcom/google/common/reflect/Invokable<**>;
+ ()Lcom/google/common/reflect/Invokable<**>;
+getType
+ ()Lcom/google/common/reflect/TypeToken<*>;
+ ()Lcom/google/common/reflect/TypeToken<*>;
+isAnnotationPresent
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

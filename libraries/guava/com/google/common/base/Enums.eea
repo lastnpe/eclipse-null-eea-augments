@@ -1,0 +1,11 @@
+class com/google/common/base/Enums
+
+getField
+ (Ljava/lang/Enum<*>;)Ljava/lang/reflect/Field;
+ (Ljava/lang/Enum<*>;)Ljava/lang/reflect/Field;
+getIfPresent
+ <T:Ljava/lang/Enum<TT;>;>(Ljava/lang/Class<TT;>;Ljava/lang/String;)Lcom/google/common/base/Optional<TT;>;
+ <T:Ljava/lang/Enum<TT;>;>(Ljava/lang/Class<TT;>;Ljava/lang/String;)Lcom/google/common/base/Optional<TT;>;
+stringConverter
+ <T:Ljava/lang/Enum<TT;>;>(Ljava/lang/Class<TT;>;)Lcom/google/common/base/Converter<Ljava/lang/String;TT;>;
+ <T:Ljava/lang/Enum<TT;>;>(Ljava/lang/Class<TT;>;)Lcom/google/common/base/Converter<Ljava/lang/String;TT;>;

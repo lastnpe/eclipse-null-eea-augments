@@ -1,0 +1,14 @@
+class com/google/common/util/concurrent/ForwardingFuture$SimpleForwardingFuture
+ <V:Ljava/lang/Object;>
+ <V:Ljava/lang/Object;>
+
+super com/google/common/util/concurrent/ForwardingFuture
+ <TV;>
+ <TV;>
+
+<init>
+ (Ljava/util/concurrent/Future<TV;>;)V
+ (Ljava/util/concurrent/Future<TV;>;)V
+delegate
+ ()Ljava/util/concurrent/Future<TV;>;
+ ()Ljava/util/concurrent/Future<TV;>;

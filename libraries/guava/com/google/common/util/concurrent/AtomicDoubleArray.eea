@@ -1,0 +1,20 @@
+class com/google/common/util/concurrent/AtomicDoubleArray
+
+<init>
+ ([D)V
+ ([D)V
+accumulateAndGet
+ (IDLjava/util/function/DoubleBinaryOperator;)D
+ (IDLjava/util/function/DoubleBinaryOperator;)D
+getAndAccumulate
+ (IDLjava/util/function/DoubleBinaryOperator;)D
+ (IDLjava/util/function/DoubleBinaryOperator;)D
+getAndUpdate
+ (ILjava/util/function/DoubleUnaryOperator;)D
+ (ILjava/util/function/DoubleUnaryOperator;)D
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+updateAndGet
+ (ILjava/util/function/DoubleUnaryOperator;)D
+ (ILjava/util/function/DoubleUnaryOperator;)D

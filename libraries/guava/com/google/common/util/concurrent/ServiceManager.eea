@@ -1,0 +1,38 @@
+class com/google/common/util/concurrent/ServiceManager
+
+<init>
+ (Ljava/lang/Iterable<+Lcom/google/common/util/concurrent/Service;>;)V
+ (Ljava/lang/Iterable<+Lcom/google/common/util/concurrent/Service;>;)V
+addListener
+ (Lcom/google/common/util/concurrent/ServiceManager$Listener;Ljava/util/concurrent/Executor;)V
+ (Lcom/google/common/util/concurrent/ServiceManager$Listener;Ljava/util/concurrent/Executor;)V
+awaitHealthy
+ (JLjava/util/concurrent/TimeUnit;)V
+ (JLjava/util/concurrent/TimeUnit;)V
+awaitHealthy
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V
+awaitStopped
+ (JLjava/util/concurrent/TimeUnit;)V
+ (JLjava/util/concurrent/TimeUnit;)V
+awaitStopped
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V
+servicesByState
+ ()Lcom/google/common/collect/ImmutableSetMultimap<Lcom/google/common/util/concurrent/Service$State;Lcom/google/common/util/concurrent/Service;>;
+ ()Lcom/google/common/collect/ImmutableSetMultimap<Lcom/google/common/util/concurrent/Service$State;Lcom/google/common/util/concurrent/Service;>;
+startAsync
+ ()Lcom/google/common/util/concurrent/ServiceManager;
+ ()Lcom/google/common/util/concurrent/ServiceManager;
+startupDurations
+ ()Lcom/google/common/collect/ImmutableMap<Lcom/google/common/util/concurrent/Service;Ljava/time/Duration;>;
+ ()Lcom/google/common/collect/ImmutableMap<Lcom/google/common/util/concurrent/Service;Ljava/time/Duration;>;
+startupTimes
+ ()Lcom/google/common/collect/ImmutableMap<Lcom/google/common/util/concurrent/Service;Ljava/lang/Long;>;
+ ()Lcom/google/common/collect/ImmutableMap<Lcom/google/common/util/concurrent/Service;Ljava/lang/Long;>;
+stopAsync
+ ()Lcom/google/common/util/concurrent/ServiceManager;
+ ()Lcom/google/common/util/concurrent/ServiceManager;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

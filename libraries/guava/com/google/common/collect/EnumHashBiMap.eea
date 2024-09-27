@@ -1,0 +1,24 @@
+class com/google/common/collect/EnumHashBiMap
+ <K:Ljava/lang/Enum<TK;>;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Enum<TK;>;V:Ljava/lang/Object;>
+
+super com/google/common/collect/AbstractBiMap
+ <TK;TV;>
+ <TK;TV;>
+
+create
+ <K:Ljava/lang/Enum<TK;>;V:Ljava/lang/Object;>(Ljava/lang/Class<TK;>;)Lcom/google/common/collect/EnumHashBiMap<TK;TV;>;
+ <K:Ljava/lang/Enum<TK;>;V:Ljava/lang/Object;>(Ljava/lang/Class<TK;>;)Lcom/google/common/collect/EnumHashBiMap<TK;TV;>;
+create
+ <K:Ljava/lang/Enum<TK;>;V:Ljava/lang/Object;>(Ljava/util/Map<TK;+TV;>;)Lcom/google/common/collect/EnumHashBiMap<TK;TV;>;
+ <K:Ljava/lang/Enum<TK;>;V:Ljava/lang/Object;>(Ljava/util/Map<TK;+TV;>;)Lcom/google/common/collect/EnumHashBiMap<TK;TV;>;
+
+forcePut
+ (TK;TV;)TV;
+ (TK;TV;)T0V; # @Inherited(com.google.common.collect.BiMap)
+keyType
+ ()Ljava/lang/Class<TK;>;
+ ()Ljava/lang/Class<TK;>;
+put
+ (TK;TV;)TV;
+ (TK;TV;)T0V; # @Inherited(com.google.common.collect.ForwardingMap)

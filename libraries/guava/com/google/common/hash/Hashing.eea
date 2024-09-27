@@ -1,0 +1,98 @@
+class com/google/common/hash/Hashing
+
+adler32
+ ()Lcom/google/common/hash/HashFunction;
+ ()Lcom/google/common/hash/HashFunction;
+combineOrdered
+ (Ljava/lang/Iterable<Lcom/google/common/hash/HashCode;>;)Lcom/google/common/hash/HashCode;
+ (Ljava/lang/Iterable<Lcom/google/common/hash/HashCode;>;)Lcom/google/common/hash/HashCode;
+combineUnordered
+ (Ljava/lang/Iterable<Lcom/google/common/hash/HashCode;>;)Lcom/google/common/hash/HashCode;
+ (Ljava/lang/Iterable<Lcom/google/common/hash/HashCode;>;)Lcom/google/common/hash/HashCode;
+concatenating
+ (Lcom/google/common/hash/HashFunction;Lcom/google/common/hash/HashFunction;[Lcom/google/common/hash/HashFunction;)Lcom/google/common/hash/HashFunction;
+ (Lcom/google/common/hash/HashFunction;Lcom/google/common/hash/HashFunction;[Lcom/google/common/hash/HashFunction;)Lcom/google/common/hash/HashFunction;
+concatenating
+ (Ljava/lang/Iterable<Lcom/google/common/hash/HashFunction;>;)Lcom/google/common/hash/HashFunction;
+ (Ljava/lang/Iterable<Lcom/google/common/hash/HashFunction;>;)Lcom/google/common/hash/HashFunction;
+consistentHash
+ (Lcom/google/common/hash/HashCode;I)I
+ (Lcom/google/common/hash/HashCode;I)I
+crc32
+ ()Lcom/google/common/hash/HashFunction;
+ ()Lcom/google/common/hash/HashFunction;
+crc32c
+ ()Lcom/google/common/hash/HashFunction;
+ ()Lcom/google/common/hash/HashFunction;
+farmHashFingerprint64
+ ()Lcom/google/common/hash/HashFunction;
+ ()Lcom/google/common/hash/HashFunction;
+fingerprint2011
+ ()Lcom/google/common/hash/HashFunction;
+ ()Lcom/google/common/hash/HashFunction;
+goodFastHash
+ (I)Lcom/google/common/hash/HashFunction;
+ (I)Lcom/google/common/hash/HashFunction;
+hmacMd5
+ (Ljava/security/Key;)Lcom/google/common/hash/HashFunction;
+ (Ljava/security/Key;)Lcom/google/common/hash/HashFunction;
+hmacMd5
+ ([B)Lcom/google/common/hash/HashFunction;
+ ([B)Lcom/google/common/hash/HashFunction;
+hmacSha1
+ (Ljava/security/Key;)Lcom/google/common/hash/HashFunction;
+ (Ljava/security/Key;)Lcom/google/common/hash/HashFunction;
+hmacSha1
+ ([B)Lcom/google/common/hash/HashFunction;
+ ([B)Lcom/google/common/hash/HashFunction;
+hmacSha256
+ (Ljava/security/Key;)Lcom/google/common/hash/HashFunction;
+ (Ljava/security/Key;)Lcom/google/common/hash/HashFunction;
+hmacSha256
+ ([B)Lcom/google/common/hash/HashFunction;
+ ([B)Lcom/google/common/hash/HashFunction;
+hmacSha512
+ (Ljava/security/Key;)Lcom/google/common/hash/HashFunction;
+ (Ljava/security/Key;)Lcom/google/common/hash/HashFunction;
+hmacSha512
+ ([B)Lcom/google/common/hash/HashFunction;
+ ([B)Lcom/google/common/hash/HashFunction;
+md5
+ ()Lcom/google/common/hash/HashFunction;
+ ()Lcom/google/common/hash/HashFunction;
+murmur3_128
+ ()Lcom/google/common/hash/HashFunction;
+ ()Lcom/google/common/hash/HashFunction;
+murmur3_128
+ (I)Lcom/google/common/hash/HashFunction;
+ (I)Lcom/google/common/hash/HashFunction;
+murmur3_32
+ ()Lcom/google/common/hash/HashFunction;
+ ()Lcom/google/common/hash/HashFunction;
+murmur3_32
+ (I)Lcom/google/common/hash/HashFunction;
+ (I)Lcom/google/common/hash/HashFunction;
+murmur3_32_fixed
+ ()Lcom/google/common/hash/HashFunction;
+ ()Lcom/google/common/hash/HashFunction;
+murmur3_32_fixed
+ (I)Lcom/google/common/hash/HashFunction;
+ (I)Lcom/google/common/hash/HashFunction;
+sha1
+ ()Lcom/google/common/hash/HashFunction;
+ ()Lcom/google/common/hash/HashFunction;
+sha256
+ ()Lcom/google/common/hash/HashFunction;
+ ()Lcom/google/common/hash/HashFunction;
+sha384
+ ()Lcom/google/common/hash/HashFunction;
+ ()Lcom/google/common/hash/HashFunction;
+sha512
+ ()Lcom/google/common/hash/HashFunction;
+ ()Lcom/google/common/hash/HashFunction;
+sipHash24
+ ()Lcom/google/common/hash/HashFunction;
+ ()Lcom/google/common/hash/HashFunction;
+sipHash24
+ (JJ)Lcom/google/common/hash/HashFunction;
+ (JJ)Lcom/google/common/hash/HashFunction;

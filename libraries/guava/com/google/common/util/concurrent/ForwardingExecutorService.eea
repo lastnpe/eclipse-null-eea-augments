@@ -1,0 +1,35 @@
+class com/google/common/util/concurrent/ForwardingExecutorService
+
+awaitTermination
+ (JLjava/util/concurrent/TimeUnit;)Z
+ (JLjava/util/concurrent/TimeUnit;)Z
+delegate
+ ()Ljava/util/concurrent/ExecutorService;
+ ()Ljava/util/concurrent/ExecutorService;
+execute
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+invokeAll
+ <T:Ljava/lang/Object;>(Ljava/util/Collection<+Ljava/util/concurrent/Callable<TT;>;>;)Ljava/util/List<Ljava/util/concurrent/Future<TT;>;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Collection<+Ljava/util/concurrent/Callable<TT;>;>;)Ljava/util/List<Ljava/util/concurrent/Future<TT;>;>;
+invokeAll
+ <T:Ljava/lang/Object;>(Ljava/util/Collection<+Ljava/util/concurrent/Callable<TT;>;>;JLjava/util/concurrent/TimeUnit;)Ljava/util/List<Ljava/util/concurrent/Future<TT;>;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Collection<+Ljava/util/concurrent/Callable<TT;>;>;JLjava/util/concurrent/TimeUnit;)Ljava/util/List<Ljava/util/concurrent/Future<TT;>;>;
+invokeAny
+ <T:Ljava/lang/Object;>(Ljava/util/Collection<+Ljava/util/concurrent/Callable<TT;>;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/Collection<+Ljava/util/concurrent/Callable<TT;>;>;)TT;
+invokeAny
+ <T:Ljava/lang/Object;>(Ljava/util/Collection<+Ljava/util/concurrent/Callable<TT;>;>;JLjava/util/concurrent/TimeUnit;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/Collection<+Ljava/util/concurrent/Callable<TT;>;>;JLjava/util/concurrent/TimeUnit;)TT;
+shutdownNow
+ ()Ljava/util/List<Ljava/lang/Runnable;>;
+ ()Ljava/util/List<Ljava/lang/Runnable;>;
+submit
+ (Ljava/lang/Runnable;)Ljava/util/concurrent/Future<*>;
+ (Ljava/lang/Runnable;)Ljava/util/concurrent/Future<*>;
+submit
+ <T:Ljava/lang/Object;>(Ljava/lang/Runnable;TT;)Ljava/util/concurrent/Future<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Runnable;TT;)Ljava/util/concurrent/Future<TT;>;
+submit
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)Ljava/util/concurrent/Future<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)Ljava/util/concurrent/Future<TT;>;

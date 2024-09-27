@@ -1,0 +1,17 @@
+class com/google/common/collect/Collections2
+
+filter
+ <E:Ljava/lang/Object;>(Ljava/util/Collection<TE;>;Lcom/google/common/base/Predicate<-TE;>;)Ljava/util/Collection<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Collection<TE;>;Lcom/google/common/base/Predicate<-TE;>;)Ljava/util/Collection<TE;>;
+orderedPermutations
+ <E::Ljava/lang/Comparable<-TE;>;>(Ljava/lang/Iterable<TE;>;)Ljava/util/Collection<Ljava/util/List<TE;>;>;
+ <E::Ljava/lang/Comparable<-TE;>;>(Ljava/lang/Iterable<TE;>;)Ljava/util/Collection<Ljava/util/List<TE;>;>;
+orderedPermutations
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<TE;>;Ljava/util/Comparator<-TE;>;)Ljava/util/Collection<Ljava/util/List<TE;>;>;
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<TE;>;Ljava/util/Comparator<-TE;>;)Ljava/util/Collection<Ljava/util/List<TE;>;>;
+permutations
+ <E:Ljava/lang/Object;>(Ljava/util/Collection<TE;>;)Ljava/util/Collection<Ljava/util/List<TE;>;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Collection<TE;>;)Ljava/util/Collection<Ljava/util/List<TE;>;>;
+transform
+ <F:Ljava/lang/Object;T:Ljava/lang/Object;>(Ljava/util/Collection<TF;>;Lcom/google/common/base/Function<-TF;TT;>;)Ljava/util/Collection<TT;>;
+ <F:Ljava/lang/Object;T:Ljava/lang/Object;>(Ljava/util/Collection<TF;>;Lcom/google/common/base/Function<-TF;TT;>;)Ljava/util/Collection<TT;>;

@@ -1,4 +1,80 @@
 class com/google/common/base/Preconditions
+
+checkArgument
+ (ZLjava/lang/Object;)V
+ (ZLjava/lang/Object;)V
+checkArgument
+ (ZLjava/lang/String;C)V
+ (ZLjava/lang/String;C)V
+checkArgument
+ (ZLjava/lang/String;CC)V
+ (ZLjava/lang/String;CC)V
+checkArgument
+ (ZLjava/lang/String;CI)V
+ (ZLjava/lang/String;CI)V
+checkArgument
+ (ZLjava/lang/String;CJ)V
+ (ZLjava/lang/String;CJ)V
+checkArgument
+ (ZLjava/lang/String;CLjava/lang/Object;)V
+ (ZLjava/lang/String;CLjava/lang/Object;)V
+checkArgument
+ (ZLjava/lang/String;I)V
+ (ZLjava/lang/String;I)V
+checkArgument
+ (ZLjava/lang/String;IC)V
+ (ZLjava/lang/String;IC)V
+checkArgument
+ (ZLjava/lang/String;II)V
+ (ZLjava/lang/String;II)V
+checkArgument
+ (ZLjava/lang/String;IJ)V
+ (ZLjava/lang/String;IJ)V
+checkArgument
+ (ZLjava/lang/String;ILjava/lang/Object;)V
+ (ZLjava/lang/String;ILjava/lang/Object;)V
+checkArgument
+ (ZLjava/lang/String;J)V
+ (ZLjava/lang/String;J)V
+checkArgument
+ (ZLjava/lang/String;JC)V
+ (ZLjava/lang/String;JC)V
+checkArgument
+ (ZLjava/lang/String;JI)V
+ (ZLjava/lang/String;JI)V
+checkArgument
+ (ZLjava/lang/String;JJ)V
+ (ZLjava/lang/String;JJ)V
+checkArgument
+ (ZLjava/lang/String;JLjava/lang/Object;)V
+ (ZLjava/lang/String;JLjava/lang/Object;)V
+checkArgument
+ (ZLjava/lang/String;Ljava/lang/Object;)V
+ (ZLjava/lang/String;Ljava/lang/Object;)V
+checkArgument
+ (ZLjava/lang/String;Ljava/lang/Object;C)V
+ (ZLjava/lang/String;Ljava/lang/Object;C)V
+checkArgument
+ (ZLjava/lang/String;Ljava/lang/Object;I)V
+ (ZLjava/lang/String;Ljava/lang/Object;I)V
+checkArgument
+ (ZLjava/lang/String;Ljava/lang/Object;J)V
+ (ZLjava/lang/String;Ljava/lang/Object;J)V
+checkArgument
+ (ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+checkArgument
+ (ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+ (ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+checkArgument
+ (ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+ (ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+checkArgument
+ (ZLjava/lang/String;[Ljava/lang/Object;)V
+ (ZLjava/lang/String;[Ljava/lang/Object;)V
+checkElementIndex
+ (IILjava/lang/String;)I
+ (IILjava/lang/String;)I
 checkNotNull
  <T:Ljava/lang/Object;>(TT;)TT;
  <T:Ljava/lang/Object;>(TT;)T1T;
@@ -6,5 +82,146 @@ checkNotNull
  <T:Ljava/lang/Object;>(TT;Ljava/lang/Object;)TT;
  <T:Ljava/lang/Object;>(TT;Ljava/lang/Object;)T1T;
 checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;C)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;C)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;CC)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;CC)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;CI)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;CI)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;CJ)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;CJ)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;CLjava/lang/Object;)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;CLjava/lang/Object;)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;I)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;I)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;IC)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;IC)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;II)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;II)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;IJ)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;IJ)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;ILjava/lang/Object;)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;ILjava/lang/Object;)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;J)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;J)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;JC)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;JC)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;JI)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;JI)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;JJ)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;JJ)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;JLjava/lang/Object;)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;JLjava/lang/Object;)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;Ljava/lang/Object;)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;Ljava/lang/Object;)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;Ljava/lang/Object;C)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;Ljava/lang/Object;C)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;Ljava/lang/Object;I)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;Ljava/lang/Object;I)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;Ljava/lang/Object;J)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;Ljava/lang/Object;J)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)TT;
+checkNotNull
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)TT;
+checkNotNull
  <T:Ljava/lang/Object;>(TT;Ljava/lang/String;[Ljava/lang/Object;)TT;
  <T:Ljava/lang/Object;>(TT;Ljava/lang/String;[Ljava/lang/Object;)T1T;
+checkPositionIndex
+ (IILjava/lang/String;)I
+ (IILjava/lang/String;)I
+checkState
+ (ZLjava/lang/Object;)V
+ (ZLjava/lang/Object;)V
+checkState
+ (ZLjava/lang/String;C)V
+ (ZLjava/lang/String;C)V
+checkState
+ (ZLjava/lang/String;CC)V
+ (ZLjava/lang/String;CC)V
+checkState
+ (ZLjava/lang/String;CI)V
+ (ZLjava/lang/String;CI)V
+checkState
+ (ZLjava/lang/String;CJ)V
+ (ZLjava/lang/String;CJ)V
+checkState
+ (ZLjava/lang/String;CLjava/lang/Object;)V
+ (ZLjava/lang/String;CLjava/lang/Object;)V
+checkState
+ (ZLjava/lang/String;I)V
+ (ZLjava/lang/String;I)V
+checkState
+ (ZLjava/lang/String;IC)V
+ (ZLjava/lang/String;IC)V
+checkState
+ (ZLjava/lang/String;II)V
+ (ZLjava/lang/String;II)V
+checkState
+ (ZLjava/lang/String;IJ)V
+ (ZLjava/lang/String;IJ)V
+checkState
+ (ZLjava/lang/String;ILjava/lang/Object;)V
+ (ZLjava/lang/String;ILjava/lang/Object;)V
+checkState
+ (ZLjava/lang/String;J)V
+ (ZLjava/lang/String;J)V
+checkState
+ (ZLjava/lang/String;JC)V
+ (ZLjava/lang/String;JC)V
+checkState
+ (ZLjava/lang/String;JI)V
+ (ZLjava/lang/String;JI)V
+checkState
+ (ZLjava/lang/String;JJ)V
+ (ZLjava/lang/String;JJ)V
+checkState
+ (ZLjava/lang/String;JLjava/lang/Object;)V
+ (ZLjava/lang/String;JLjava/lang/Object;)V
+checkState
+ (ZLjava/lang/String;Ljava/lang/Object;)V
+ (ZLjava/lang/String;Ljava/lang/Object;)V
+checkState
+ (ZLjava/lang/String;Ljava/lang/Object;C)V
+ (ZLjava/lang/String;Ljava/lang/Object;C)V
+checkState
+ (ZLjava/lang/String;Ljava/lang/Object;I)V
+ (ZLjava/lang/String;Ljava/lang/Object;I)V
+checkState
+ (ZLjava/lang/String;Ljava/lang/Object;J)V
+ (ZLjava/lang/String;Ljava/lang/Object;J)V
+checkState
+ (ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+checkState
+ (ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+ (ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+checkState
+ (ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+ (ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+checkState
+ (ZLjava/lang/String;[Ljava/lang/Object;)V
+ (ZLjava/lang/String;[Ljava/lang/Object;)V

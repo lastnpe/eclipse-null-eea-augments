@@ -1,0 +1,25 @@
+class com/google/common/collect/ImmutableTable$Builder
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <R:Ljava/lang/Object;C:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+build
+ ()Lcom/google/common/collect/ImmutableTable<TR;TC;TV;>;
+ ()L1com/google/common/collect/ImmutableTable<TR;TC;TV;>;
+buildOrThrow
+ ()Lcom/google/common/collect/ImmutableTable<TR;TC;TV;>;
+ ()Lcom/google/common/collect/ImmutableTable<TR;TC;TV;>;
+orderColumnsBy
+ (Ljava/util/Comparator<-TC;>;)Lcom/google/common/collect/ImmutableTable$Builder<TR;TC;TV;>;
+ (Ljava/util/Comparator<-TC;>;)L1com/google/common/collect/ImmutableTable$Builder<TR;TC;TV;>;
+orderRowsBy
+ (Ljava/util/Comparator<-TR;>;)Lcom/google/common/collect/ImmutableTable$Builder<TR;TC;TV;>;
+ (Ljava/util/Comparator<-TR;>;)L1com/google/common/collect/ImmutableTable$Builder<TR;TC;TV;>;
+put
+ (Lcom/google/common/collect/Table$Cell<+TR;+TC;+TV;>;)Lcom/google/common/collect/ImmutableTable$Builder<TR;TC;TV;>;
+ (Lcom/google/common/collect/Table$Cell<+TR;+TC;+TV;>;)L1com/google/common/collect/ImmutableTable$Builder<TR;TC;TV;>;
+put
+ (TR;TC;TV;)Lcom/google/common/collect/ImmutableTable$Builder<TR;TC;TV;>;
+ (TR;TC;TV;)L1com/google/common/collect/ImmutableTable$Builder<TR;TC;TV;>;
+putAll
+ (Lcom/google/common/collect/Table<+TR;+TC;+TV;>;)Lcom/google/common/collect/ImmutableTable$Builder<TR;TC;TV;>;
+ (Lcom/google/common/collect/Table<+TR;+TC;+TV;>;)L1com/google/common/collect/ImmutableTable$Builder<TR;TC;TV;>;

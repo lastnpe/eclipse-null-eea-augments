@@ -1,0 +1,45 @@
+class com/google/common/collect/LinkedListMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/collect/AbstractMultimap
+ <TK;TV;>
+ <TK;TV;>
+super com/google/common/collect/ListMultimap
+ <TK;TV;>
+ <TK;TV;>
+
+create
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>()Lcom/google/common/collect/LinkedListMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>()Lcom/google/common/collect/LinkedListMultimap<TK;TV;>;
+create
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(I)Lcom/google/common/collect/LinkedListMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(I)Lcom/google/common/collect/LinkedListMultimap<TK;TV;>;
+create
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<+TK;+TV;>;)Lcom/google/common/collect/LinkedListMultimap<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lcom/google/common/collect/Multimap<+TK;+TV;>;)Lcom/google/common/collect/LinkedListMultimap<TK;TV;>;
+
+containsKey
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+containsValue
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+entries
+ ()Ljava/util/List<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()Ljava/util/List<Ljava/util/Map$Entry<TK;TV;>;>;
+get
+ (TK;)Ljava/util/List<TV;>;
+ (TK;)Ljava/util/List<TV;>;
+put
+ (TK;TV;)Z
+ (TK;TV;)Z
+removeAll
+ (Ljava/lang/Object;)Ljava/util/List<TV;>;
+ (Ljava/lang/Object;)Ljava/util/List<TV;>;
+replaceValues
+ (TK;Ljava/lang/Iterable<+TV;>;)Ljava/util/List<TV;>;
+ (TK;Ljava/lang/Iterable<+TV;>;)Ljava/util/List<TV;>;
+values
+ ()Ljava/util/List<TV;>;
+ ()Ljava/util/List<TV;>;

@@ -1,0 +1,35 @@
+class com/google/common/util/concurrent/AbstractFuture
+ <V:Ljava/lang/Object;>
+ <V:Ljava/lang/Object;>
+
+super com/google/common/util/concurrent/ListenableFuture
+ <TV;>
+ <TV;>
+
+addListener
+ (Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+ (Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+get
+ ()TV;
+ ()T1V;
+get
+ (JLjava/util/concurrent/TimeUnit;)TV;
+ (JLjava/util/concurrent/TimeUnit;)T1V;
+pendingToString
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+set
+ (TV;)Z
+ (TV;)Z
+setException
+ (Ljava/lang/Throwable;)Z
+ (Ljava/lang/Throwable;)Z
+setFuture
+ (Lcom/google/common/util/concurrent/ListenableFuture<+TV;>;)Z
+ (Lcom/google/common/util/concurrent/ListenableFuture<+TV;>;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+tryInternalFastPathGetFailure
+ ()Ljava/lang/Throwable;
+ ()L0java/lang/Throwable;

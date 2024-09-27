@@ -1,0 +1,96 @@
+class com/google/common/collect/Range
+ <C::Ljava/lang/Comparable;>
+ <C::Ljava/lang/Comparable;>
+
+super com/google/common/base/Predicate
+ <TC;>
+ <TC;>
+
+all
+ <C::Ljava/lang/Comparable<*>;>()Lcom/google/common/collect/Range<TC;>;
+ <C::Ljava/lang/Comparable<*>;>()Lcom/google/common/collect/Range<TC;>;
+atLeast
+ <C::Ljava/lang/Comparable<*>;>(TC;)Lcom/google/common/collect/Range<TC;>;
+ <C::Ljava/lang/Comparable<*>;>(TC;)Lcom/google/common/collect/Range<TC;>;
+atMost
+ <C::Ljava/lang/Comparable<*>;>(TC;)Lcom/google/common/collect/Range<TC;>;
+ <C::Ljava/lang/Comparable<*>;>(TC;)Lcom/google/common/collect/Range<TC;>;
+closed
+ <C::Ljava/lang/Comparable<*>;>(TC;TC;)Lcom/google/common/collect/Range<TC;>;
+ <C::Ljava/lang/Comparable<*>;>(TC;TC;)Lcom/google/common/collect/Range<TC;>;
+closedOpen
+ <C::Ljava/lang/Comparable<*>;>(TC;TC;)Lcom/google/common/collect/Range<TC;>;
+ <C::Ljava/lang/Comparable<*>;>(TC;TC;)Lcom/google/common/collect/Range<TC;>;
+downTo
+ <C::Ljava/lang/Comparable<*>;>(TC;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/Range<TC;>;
+ <C::Ljava/lang/Comparable<*>;>(TC;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/Range<TC;>;
+encloseAll
+ <C::Ljava/lang/Comparable<*>;>(Ljava/lang/Iterable<TC;>;)Lcom/google/common/collect/Range<TC;>;
+ <C::Ljava/lang/Comparable<*>;>(Ljava/lang/Iterable<TC;>;)Lcom/google/common/collect/Range<TC;>;
+greaterThan
+ <C::Ljava/lang/Comparable<*>;>(TC;)Lcom/google/common/collect/Range<TC;>;
+ <C::Ljava/lang/Comparable<*>;>(TC;)Lcom/google/common/collect/Range<TC;>;
+lessThan
+ <C::Ljava/lang/Comparable<*>;>(TC;)Lcom/google/common/collect/Range<TC;>;
+ <C::Ljava/lang/Comparable<*>;>(TC;)Lcom/google/common/collect/Range<TC;>;
+open
+ <C::Ljava/lang/Comparable<*>;>(TC;TC;)Lcom/google/common/collect/Range<TC;>;
+ <C::Ljava/lang/Comparable<*>;>(TC;TC;)Lcom/google/common/collect/Range<TC;>;
+openClosed
+ <C::Ljava/lang/Comparable<*>;>(TC;TC;)Lcom/google/common/collect/Range<TC;>;
+ <C::Ljava/lang/Comparable<*>;>(TC;TC;)Lcom/google/common/collect/Range<TC;>;
+range
+ <C::Ljava/lang/Comparable<*>;>(TC;Lcom/google/common/collect/BoundType;TC;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/Range<TC;>;
+ <C::Ljava/lang/Comparable<*>;>(TC;Lcom/google/common/collect/BoundType;TC;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/Range<TC;>;
+singleton
+ <C::Ljava/lang/Comparable<*>;>(TC;)Lcom/google/common/collect/Range<TC;>;
+ <C::Ljava/lang/Comparable<*>;>(TC;)Lcom/google/common/collect/Range<TC;>;
+upTo
+ <C::Ljava/lang/Comparable<*>;>(TC;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/Range<TC;>;
+ <C::Ljava/lang/Comparable<*>;>(TC;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/Range<TC;>;
+
+apply
+ (TC;)Z
+ (TC;)Z
+canonical
+ (Lcom/google/common/collect/DiscreteDomain<TC;>;)Lcom/google/common/collect/Range<TC;>;
+ (Lcom/google/common/collect/DiscreteDomain<TC;>;)Lcom/google/common/collect/Range<TC;>;
+contains
+ (TC;)Z
+ (TC;)Z
+containsAll
+ (Ljava/lang/Iterable<+TC;>;)Z
+ (Ljava/lang/Iterable<+TC;>;)Z
+encloses
+ (Lcom/google/common/collect/Range<TC;>;)Z
+ (Lcom/google/common/collect/Range<TC;>;)Z
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+gap
+ (Lcom/google/common/collect/Range<TC;>;)Lcom/google/common/collect/Range<TC;>;
+ (Lcom/google/common/collect/Range<TC;>;)Lcom/google/common/collect/Range<TC;>;
+intersection
+ (Lcom/google/common/collect/Range<TC;>;)Lcom/google/common/collect/Range<TC;>;
+ (Lcom/google/common/collect/Range<TC;>;)Lcom/google/common/collect/Range<TC;>;
+isConnected
+ (Lcom/google/common/collect/Range<TC;>;)Z
+ (Lcom/google/common/collect/Range<TC;>;)Z
+lowerBoundType
+ ()Lcom/google/common/collect/BoundType;
+ ()Lcom/google/common/collect/BoundType;
+lowerEndpoint
+ ()TC;
+ ()TC;
+span
+ (Lcom/google/common/collect/Range<TC;>;)Lcom/google/common/collect/Range<TC;>;
+ (Lcom/google/common/collect/Range<TC;>;)Lcom/google/common/collect/Range<TC;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+upperBoundType
+ ()Lcom/google/common/collect/BoundType;
+ ()Lcom/google/common/collect/BoundType;
+upperEndpoint
+ ()TC;
+ ()TC;

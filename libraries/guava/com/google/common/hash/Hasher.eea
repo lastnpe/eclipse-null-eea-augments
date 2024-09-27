@@ -1,0 +1,47 @@
+class com/google/common/hash/Hasher
+
+hash
+ ()Lcom/google/common/hash/HashCode;
+ ()Lcom/google/common/hash/HashCode;
+putBoolean
+ (Z)Lcom/google/common/hash/Hasher;
+ (Z)Lcom/google/common/hash/Hasher;
+putByte
+ (B)Lcom/google/common/hash/Hasher;
+ (B)Lcom/google/common/hash/Hasher;
+putBytes
+ (Ljava/nio/ByteBuffer;)Lcom/google/common/hash/Hasher;
+ (Ljava/nio/ByteBuffer;)Lcom/google/common/hash/Hasher;
+putBytes
+ ([B)Lcom/google/common/hash/Hasher;
+ ([B)Lcom/google/common/hash/Hasher;
+putBytes
+ ([BII)Lcom/google/common/hash/Hasher;
+ ([BII)Lcom/google/common/hash/Hasher;
+putChar
+ (C)Lcom/google/common/hash/Hasher;
+ (C)Lcom/google/common/hash/Hasher;
+putDouble
+ (D)Lcom/google/common/hash/Hasher;
+ (D)Lcom/google/common/hash/Hasher;
+putFloat
+ (F)Lcom/google/common/hash/Hasher;
+ (F)Lcom/google/common/hash/Hasher;
+putInt
+ (I)Lcom/google/common/hash/Hasher;
+ (I)Lcom/google/common/hash/Hasher;
+putLong
+ (J)Lcom/google/common/hash/Hasher;
+ (J)Lcom/google/common/hash/Hasher;
+putObject
+ <T:Ljava/lang/Object;>(TT;Lcom/google/common/hash/Funnel<-TT;>;)Lcom/google/common/hash/Hasher;
+ <T:Ljava/lang/Object;>(TT;Lcom/google/common/hash/Funnel<-TT;>;)Lcom/google/common/hash/Hasher;
+putShort
+ (S)Lcom/google/common/hash/Hasher;
+ (S)Lcom/google/common/hash/Hasher;
+putString
+ (Ljava/lang/CharSequence;Ljava/nio/charset/Charset;)Lcom/google/common/hash/Hasher;
+ (Ljava/lang/CharSequence;Ljava/nio/charset/Charset;)Lcom/google/common/hash/Hasher;
+putUnencodedChars
+ (Ljava/lang/CharSequence;)Lcom/google/common/hash/Hasher;
+ (Ljava/lang/CharSequence;)Lcom/google/common/hash/Hasher;

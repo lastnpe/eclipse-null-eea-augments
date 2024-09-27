@@ -1,4 +1,8 @@
 class com/google/common/util/concurrent/Futures
+
+addCallback
+ <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ListenableFuture<TV;>;Lcom/google/common/util/concurrent/FutureCallback<-TV;>;Ljava/util/concurrent/Executor;)V
+ <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ListenableFuture<TV;>;Lcom/google/common/util/concurrent/FutureCallback<-TV;>;Ljava/util/concurrent/Executor;)V
 allAsList
  <V:Ljava/lang/Object;>(Ljava/lang/Iterable<+Lcom/google/common/util/concurrent/ListenableFuture<+TV;>;>;)Lcom/google/common/util/concurrent/ListenableFuture<Ljava/util/List<TV;>;>;
  <V:Ljava/lang/Object;>(L1java/lang/Iterable<+Lcom/google/common/util/concurrent/ListenableFuture<+T1V;>;>;)L1com/google/common/util/concurrent/ListenableFuture<L1java/util/List<TV;>;>;
@@ -17,6 +21,9 @@ getChecked
 getChecked
  <V:Ljava/lang/Object;X:Ljava/lang/Exception;>(Ljava/util/concurrent/Future<TV;>;Ljava/lang/Class<TX;>;JLjava/util/concurrent/TimeUnit;)TV;^TX;
  <V:Ljava/lang/Object;X:Ljava/lang/Exception;>(Ljava/util/concurrent/Future<TV;>;Ljava/lang/Class<TX;>;JLjava/util/concurrent/TimeUnit;)T1V;^TX;
+getChecked
+ <V:Ljava/lang/Object;X:Ljava/lang/Exception;>(Ljava/util/concurrent/Future<TV;>;Ljava/lang/Class<TX;>;Ljava/time/Duration;)TV;^TX;
+ <V:Ljava/lang/Object;X:Ljava/lang/Exception;>(Ljava/util/concurrent/Future<TV;>;Ljava/lang/Class<TX;>;Ljava/time/Duration;)T1V;^TX;
 getDone
  <V:Ljava/lang/Object;>(Ljava/util/concurrent/Future<TV;>;)TV;
  <V:Ljava/lang/Object;>(Ljava/util/concurrent/Future<TV;>;)T1V;
@@ -32,6 +39,9 @@ immediateFailedFuture
 immediateFuture
  <V:Ljava/lang/Object;>(TV;)Lcom/google/common/util/concurrent/ListenableFuture<TV;>;
  <V:Ljava/lang/Object;>(TV;)L1com/google/common/util/concurrent/ListenableFuture<TV;>;
+immediateVoidFuture
+ ()Lcom/google/common/util/concurrent/ListenableFuture<Ljava/lang/Void;>;
+ ()Lcom/google/common/util/concurrent/ListenableFuture<Ljava/lang/Void;>;
 inCompletionOrder
  <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+Lcom/google/common/util/concurrent/ListenableFuture<+TT;>;>;)Lcom/google/common/collect/ImmutableList<Lcom/google/common/util/concurrent/ListenableFuture<TT;>;>;
  <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+Lcom/google/common/util/concurrent/ListenableFuture<+TT;>;>;)L1com/google/common/collect/ImmutableList<Lcom/google/common/util/concurrent/ListenableFuture<TT;>;>;
@@ -44,6 +54,15 @@ nonCancellationPropagating
 scheduleAsync
  <O:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/AsyncCallable<TO;>;JLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/ScheduledExecutorService;)Lcom/google/common/util/concurrent/ListenableFuture<TO;>;
  <O:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/AsyncCallable<TO;>;JLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/ScheduledExecutorService;)L1com/google/common/util/concurrent/ListenableFuture<TO;>;
+scheduleAsync
+ <O:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/AsyncCallable<TO;>;Ljava/time/Duration;Ljava/util/concurrent/ScheduledExecutorService;)Lcom/google/common/util/concurrent/ListenableFuture<TO;>;
+ <O:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/AsyncCallable<TO;>;Ljava/time/Duration;Ljava/util/concurrent/ScheduledExecutorService;)Lcom/google/common/util/concurrent/ListenableFuture<TO;>;
+submit
+ (Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture<Ljava/lang/Void;>;
+ (Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture<Ljava/lang/Void;>;
+submit
+ <O:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TO;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture<TO;>;
+ <O:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TO;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture<TO;>;
 submitAsync
  <O:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/AsyncCallable<TO;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture<TO;>;
  <O:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/AsyncCallable<TO;>;Ljava/util/concurrent/Executor;)L1com/google/common/util/concurrent/ListenableFuture<TO;>;
@@ -74,3 +93,6 @@ whenAllSucceed
 withTimeout
  <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ListenableFuture<TV;>;JLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/ScheduledExecutorService;)Lcom/google/common/util/concurrent/ListenableFuture<TV;>;
  <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ListenableFuture<TV;>;JLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/ScheduledExecutorService;)L1com/google/common/util/concurrent/ListenableFuture<TV;>;
+withTimeout
+ <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ListenableFuture<TV;>;Ljava/time/Duration;Ljava/util/concurrent/ScheduledExecutorService;)Lcom/google/common/util/concurrent/ListenableFuture<TV;>;
+ <V:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/ListenableFuture<TV;>;Ljava/time/Duration;Ljava/util/concurrent/ScheduledExecutorService;)Lcom/google/common/util/concurrent/ListenableFuture<TV;>;

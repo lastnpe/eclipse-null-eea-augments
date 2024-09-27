@@ -1,0 +1,29 @@
+class com/google/common/collect/ForwardingMapEntry
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super java/util/Map$Entry
+ <TK;TV;>
+ <TK;TV;>
+
+delegate
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()Ljava/util/Map$Entry<TK;TV;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getKey
+ ()TK;
+ ()T1K;
+getValue
+ ()TV;
+ ()T1V;
+setValue
+ (TV;)TV;
+ (TV;)T1V;
+standardEquals
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+standardToString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

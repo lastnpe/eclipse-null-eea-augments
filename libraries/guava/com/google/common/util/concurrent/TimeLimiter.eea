@@ -1,0 +1,32 @@
+class com/google/common/util/concurrent/TimeLimiter
+
+callUninterruptiblyWithTimeout
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;JLjava/util/concurrent/TimeUnit;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;JLjava/util/concurrent/TimeUnit;)T1T;
+callUninterruptiblyWithTimeout
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;Ljava/time/Duration;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;Ljava/time/Duration;)T1T;
+callWithTimeout
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;JLjava/util/concurrent/TimeUnit;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;JLjava/util/concurrent/TimeUnit;)T1T;
+callWithTimeout
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;Ljava/time/Duration;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;Ljava/time/Duration;)T1T;
+newProxy
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/Class<TT;>;JLjava/util/concurrent/TimeUnit;)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/Class<TT;>;JLjava/util/concurrent/TimeUnit;)TT;
+newProxy
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/Class<TT;>;Ljava/time/Duration;)TT;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/Class<TT;>;Ljava/time/Duration;)TT;
+runUninterruptiblyWithTimeout
+ (Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)V
+ (Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)V
+runUninterruptiblyWithTimeout
+ (Ljava/lang/Runnable;Ljava/time/Duration;)V
+ (Ljava/lang/Runnable;Ljava/time/Duration;)V
+runWithTimeout
+ (Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)V
+ (Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)V
+runWithTimeout
+ (Ljava/lang/Runnable;Ljava/time/Duration;)V
+ (Ljava/lang/Runnable;Ljava/time/Duration;)V
