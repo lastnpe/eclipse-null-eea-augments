@@ -86,11 +86,11 @@
                   <executable>java</executable>
                   <arguments>
                     <argument>-Deea-generator.action=${eea-generator.action}</argument>
-                    <!--adding ${project.basedir}/../eea-java-17 to input dirs ensures that EEAs from JDK classes
+                    <!--adding ${project.basedir}/../java-17 to input dirs ensures that EEAs from JDK classes
                     get propagated to EEA files in other modules, which is necessary because of
                     https://github.com/eclipse-jdt/eclipse.jdt.core/issues/2512 -->
                     <argument>
-                      -Deea-generator.input.dirs=${project.basedir},${project.basedir}/../eea-java-17</argument>
+                      -Deea-generator.input.dirs=${project.basedir},${project.basedir}/../java-17</argument>
                     <!--instructs the generator to perform in-place update of EEA files: -->
                     <argument>-Deea-generator.output.dir=${project.basedir}</argument>
                     <argument>-classpath</argument>
