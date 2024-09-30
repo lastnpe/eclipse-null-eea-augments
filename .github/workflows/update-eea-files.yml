@@ -33,6 +33,7 @@ jobs:
   build:
   ###########################################################
     runs-on: ubuntu-latest
+    if: ${{ github.event_name != 'schedule' || github.repository == 'lastnpe/eclipse-null-eea-augments' }}
 
     steps:
     - name: "Show: GitHub context"
