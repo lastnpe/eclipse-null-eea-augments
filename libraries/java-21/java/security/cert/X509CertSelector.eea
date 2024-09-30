@@ -1,0 +1,146 @@
+class java/security/cert/X509CertSelector
+
+addPathToName
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+addPathToName
+ (I[B)V
+ (I[B)V
+addSubjectAlternativeName
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+addSubjectAlternativeName
+ (I[B)V
+ (I[B)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+getAuthorityKeyIdentifier
+ ()[B
+ ()[B
+getCertificate
+ ()Ljava/security/cert/X509Certificate;
+ ()Ljava/security/cert/X509Certificate;
+getCertificateValid
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+getExtendedKeyUsage
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getIssuer
+ ()Ljavax/security/auth/x500/X500Principal;
+ ()Ljavax/security/auth/x500/X500Principal;
+getIssuerAsBytes
+ ()[B
+ ()[B
+getIssuerAsString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getKeyUsage
+ ()[Z
+ ()[Z
+getNameConstraints
+ ()[B
+ ()[B
+getPathToNames
+ ()Ljava/util/Collection<Ljava/util/List<*>;>;
+ ()Ljava/util/Collection<Ljava/util/List<*>;>;
+getPolicy
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getPrivateKeyValid
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+getSerialNumber
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;
+getSubject
+ ()Ljavax/security/auth/x500/X500Principal;
+ ()Ljavax/security/auth/x500/X500Principal;
+getSubjectAlternativeNames
+ ()Ljava/util/Collection<Ljava/util/List<*>;>;
+ ()Ljava/util/Collection<Ljava/util/List<*>;>;
+getSubjectAsBytes
+ ()[B
+ ()[B
+getSubjectAsString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSubjectKeyIdentifier
+ ()[B
+ ()[B
+getSubjectPublicKey
+ ()Ljava/security/PublicKey;
+ ()Ljava/security/PublicKey;
+getSubjectPublicKeyAlgID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+match
+ (Ljava/security/cert/Certificate;)Z
+ (Ljava/security/cert/Certificate;)Z
+setAuthorityKeyIdentifier
+ ([B)V
+ ([B)V
+setCertificate
+ (Ljava/security/cert/X509Certificate;)V
+ (Ljava/security/cert/X509Certificate;)V
+setCertificateValid
+ (Ljava/util/Date;)V
+ (Ljava/util/Date;)V
+setExtendedKeyUsage
+ (Ljava/util/Set<Ljava/lang/String;>;)V
+ (Ljava/util/Set<Ljava/lang/String;>;)V
+setIssuer
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setIssuer
+ (Ljavax/security/auth/x500/X500Principal;)V
+ (Ljavax/security/auth/x500/X500Principal;)V
+setIssuer
+ ([B)V
+ ([B)V
+setKeyUsage
+ ([Z)V
+ ([Z)V
+setNameConstraints
+ ([B)V
+ ([B)V
+setPathToNames
+ (Ljava/util/Collection<Ljava/util/List<*>;>;)V
+ (Ljava/util/Collection<Ljava/util/List<*>;>;)V
+setPolicy
+ (Ljava/util/Set<Ljava/lang/String;>;)V
+ (Ljava/util/Set<Ljava/lang/String;>;)V
+setPrivateKeyValid
+ (Ljava/util/Date;)V
+ (Ljava/util/Date;)V
+setSerialNumber
+ (Ljava/math/BigInteger;)V
+ (Ljava/math/BigInteger;)V
+setSubject
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSubject
+ (Ljavax/security/auth/x500/X500Principal;)V
+ (Ljavax/security/auth/x500/X500Principal;)V
+setSubject
+ ([B)V
+ ([B)V
+setSubjectAlternativeNames
+ (Ljava/util/Collection<Ljava/util/List<*>;>;)V
+ (Ljava/util/Collection<Ljava/util/List<*>;>;)V
+setSubjectKeyIdentifier
+ ([B)V
+ ([B)V
+setSubjectPublicKey
+ (Ljava/security/PublicKey;)V
+ (Ljava/security/PublicKey;)V
+setSubjectPublicKey
+ ([B)V
+ ([B)V
+setSubjectPublicKeyAlgID
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

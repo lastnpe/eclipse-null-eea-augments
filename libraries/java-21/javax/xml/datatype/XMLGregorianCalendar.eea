@@ -1,0 +1,53 @@
+class javax/xml/datatype/XMLGregorianCalendar
+
+add
+ (Ljavax/xml/datatype/Duration;)V
+ (Ljavax/xml/datatype/Duration;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+compare
+ (Ljavax/xml/datatype/XMLGregorianCalendar;)I
+ (L1javax/xml/datatype/XMLGregorianCalendar;)I
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getEon
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;
+getEonAndYear
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;
+getFractionalSecond
+ ()Ljava/math/BigDecimal;
+ ()Ljava/math/BigDecimal;
+getTimeZone
+ (I)Ljava/util/TimeZone;
+ (I)Ljava/util/TimeZone;
+getXMLSchemaType
+ ()Ljavax/xml/namespace/QName;
+ ()Ljavax/xml/namespace/QName;
+normalize
+ ()Ljavax/xml/datatype/XMLGregorianCalendar;
+ ()Ljavax/xml/datatype/XMLGregorianCalendar;
+setFractionalSecond
+ (Ljava/math/BigDecimal;)V
+ (Ljava/math/BigDecimal;)V
+setTime
+ (IIILjava/math/BigDecimal;)V
+ (IIILjava/math/BigDecimal;)V
+setYear
+ (Ljava/math/BigInteger;)V
+ (Ljava/math/BigInteger;)V
+toGregorianCalendar
+ ()Ljava/util/GregorianCalendar;
+ ()Ljava/util/GregorianCalendar;
+toGregorianCalendar
+ (Ljava/util/TimeZone;Ljava/util/Locale;Ljavax/xml/datatype/XMLGregorianCalendar;)Ljava/util/GregorianCalendar;
+ (Ljava/util/TimeZone;Ljava/util/Locale;Ljavax/xml/datatype/XMLGregorianCalendar;)Ljava/util/GregorianCalendar;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+toXMLFormat
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

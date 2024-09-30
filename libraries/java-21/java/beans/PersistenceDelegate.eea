@@ -1,0 +1,14 @@
+class java/beans/PersistenceDelegate
+
+initialize
+ (Ljava/lang/Class<*>;Ljava/lang/Object;Ljava/lang/Object;Ljava/beans/Encoder;)V
+ (Ljava/lang/Class<*>;Ljava/lang/Object;Ljava/lang/Object;Ljava/beans/Encoder;)V
+instantiate
+ (Ljava/lang/Object;Ljava/beans/Encoder;)Ljava/beans/Expression;
+ (Ljava/lang/Object;Ljava/beans/Encoder;)Ljava/beans/Expression;
+mutatesTo
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+writeObject
+ (Ljava/lang/Object;Ljava/beans/Encoder;)V
+ (Ljava/lang/Object;Ljava/beans/Encoder;)V

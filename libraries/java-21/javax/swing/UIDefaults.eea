@@ -1,0 +1,111 @@
+class javax/swing/UIDefaults
+
+super java/util/Hashtable
+ <Ljava/lang/Object;Ljava/lang/Object;>
+ <Ljava/lang/Object;Ljava/lang/Object;>
+
+<init>
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+addPropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V
+addResourceBundle
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+firePropertyChange
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+get
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+get
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljava/lang/Object;
+getBoolean
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+getBoolean
+ (Ljava/lang/Object;Ljava/util/Locale;)Z
+ (Ljava/lang/Object;Ljava/util/Locale;)Z
+getBorder
+ (Ljava/lang/Object;)Ljavax/swing/border/Border;
+ (Ljava/lang/Object;)Ljavax/swing/border/Border;
+getBorder
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljavax/swing/border/Border;
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljavax/swing/border/Border;
+getColor
+ (Ljava/lang/Object;)Ljava/awt/Color;
+ (Ljava/lang/Object;)Ljava/awt/Color;
+getColor
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljava/awt/Color;
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljava/awt/Color;
+getDefaultLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+getDimension
+ (Ljava/lang/Object;)Ljava/awt/Dimension;
+ (Ljava/lang/Object;)Ljava/awt/Dimension;
+getDimension
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljava/awt/Dimension;
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljava/awt/Dimension;
+getFont
+ (Ljava/lang/Object;)Ljava/awt/Font;
+ (Ljava/lang/Object;)Ljava/awt/Font;
+getFont
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljava/awt/Font;
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljava/awt/Font;
+getIcon
+ (Ljava/lang/Object;)Ljavax/swing/Icon;
+ (Ljava/lang/Object;)Ljavax/swing/Icon;
+getIcon
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljavax/swing/Icon;
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljavax/swing/Icon;
+getInsets
+ (Ljava/lang/Object;)Ljava/awt/Insets;
+ (Ljava/lang/Object;)Ljava/awt/Insets;
+getInsets
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljava/awt/Insets;
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljava/awt/Insets;
+getInt
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+getInt
+ (Ljava/lang/Object;Ljava/util/Locale;)I
+ (Ljava/lang/Object;Ljava/util/Locale;)I
+getPropertyChangeListeners
+ ()[Ljava/beans/PropertyChangeListener;
+ ()[Ljava/beans/PropertyChangeListener;
+getString
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+getString
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/lang/Object;Ljava/util/Locale;)Ljava/lang/String;
+getUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+getUIClass
+ (Ljava/lang/String;)Ljava/lang/Class<+Ljavax/swing/plaf/ComponentUI;>;
+ (Ljava/lang/String;)Ljava/lang/Class<+Ljavax/swing/plaf/ComponentUI;>;
+getUIClass
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/Class<+Ljavax/swing/plaf/ComponentUI;>;
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/Class<+Ljavax/swing/plaf/ComponentUI;>;
+getUIError
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+put
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+putDefaults
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+removePropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V
+removeResourceBundle
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setDefaultLocale
+ (Ljava/util/Locale;)V
+ (Ljava/util/Locale;)V

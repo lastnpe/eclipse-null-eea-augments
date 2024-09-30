@@ -1,0 +1,23 @@
+class java/time/chrono/Era
+
+adjustInto
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal; # @Inherited(java.time.temporal.TemporalAdjuster)
+get
+ (Ljava/time/temporal/TemporalField;)I
+ (L1java/time/temporal/TemporalField;)I # @Inherited(java.time.temporal.TemporalAccessor)
+getDisplayName
+ (Ljava/time/format/TextStyle;Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/time/format/TextStyle;Ljava/util/Locale;)Ljava/lang/String;
+getLong
+ (Ljava/time/temporal/TemporalField;)J
+ (L1java/time/temporal/TemporalField;)J # @Inherited(java.time.temporal.TemporalAccessor)
+isSupported
+ (Ljava/time/temporal/TemporalField;)Z
+ (L1java/time/temporal/TemporalField;)Z # @Inherited(java.time.temporal.TemporalAccessor)
+query
+ <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+ <R:Ljava/lang/Object;>(L1java/time/temporal/TemporalQuery<TR;>;)T0R; # @Inherited(java.time.temporal.TemporalAccessor)
+range
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange; # @Inherited(java.time.temporal.TemporalAccessor)

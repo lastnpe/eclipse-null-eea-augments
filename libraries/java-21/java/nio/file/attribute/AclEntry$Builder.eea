@@ -1,0 +1,23 @@
+class java/nio/file/attribute/AclEntry$Builder
+
+build
+ ()Ljava/nio/file/attribute/AclEntry;
+ ()L1java/nio/file/attribute/AclEntry;
+setFlags
+ (Ljava/util/Set<Ljava/nio/file/attribute/AclEntryFlag;>;)Ljava/nio/file/attribute/AclEntry$Builder;
+ (Ljava/util/Set<Ljava/nio/file/attribute/AclEntryFlag;>;)L1java/nio/file/attribute/AclEntry$Builder;
+setFlags
+ ([Ljava/nio/file/attribute/AclEntryFlag;)Ljava/nio/file/attribute/AclEntry$Builder;
+ ([Ljava/nio/file/attribute/AclEntryFlag;)L1java/nio/file/attribute/AclEntry$Builder;
+setPermissions
+ (Ljava/util/Set<Ljava/nio/file/attribute/AclEntryPermission;>;)Ljava/nio/file/attribute/AclEntry$Builder;
+ (Ljava/util/Set<Ljava/nio/file/attribute/AclEntryPermission;>;)L1java/nio/file/attribute/AclEntry$Builder;
+setPermissions
+ ([Ljava/nio/file/attribute/AclEntryPermission;)Ljava/nio/file/attribute/AclEntry$Builder;
+ ([Ljava/nio/file/attribute/AclEntryPermission;)L1java/nio/file/attribute/AclEntry$Builder;
+setPrincipal
+ (Ljava/nio/file/attribute/UserPrincipal;)Ljava/nio/file/attribute/AclEntry$Builder;
+ (Ljava/nio/file/attribute/UserPrincipal;)L1java/nio/file/attribute/AclEntry$Builder;
+setType
+ (Ljava/nio/file/attribute/AclEntryType;)Ljava/nio/file/attribute/AclEntry$Builder;
+ (Ljava/nio/file/attribute/AclEntryType;)L1java/nio/file/attribute/AclEntry$Builder;

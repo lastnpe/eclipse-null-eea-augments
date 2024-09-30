@@ -1,0 +1,32 @@
+class javax/management/openmbean/CompositeDataSupport
+
+<init>
+ (Ljavax/management/openmbean/CompositeType;Ljava/util/Map<Ljava/lang/String;*>;)V
+ (Ljavax/management/openmbean/CompositeType;Ljava/util/Map<Ljava/lang/String;*>;)V
+<init>
+ (Ljavax/management/openmbean/CompositeType;[Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljavax/management/openmbean/CompositeType;[Ljava/lang/String;[Ljava/lang/Object;)V
+containsKey
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+containsValue
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getAll
+ ([Ljava/lang/String;)[Ljava/lang/Object;
+ ([Ljava/lang/String;)[Ljava/lang/Object;
+getCompositeType
+ ()Ljavax/management/openmbean/CompositeType;
+ ()Ljavax/management/openmbean/CompositeType;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+values
+ ()Ljava/util/Collection<*>;
+ ()Ljava/util/Collection<*>;

@@ -1,0 +1,74 @@
+class javax/sql/rowset/CachedRowSet
+
+acceptChanges
+ (Ljava/sql/Connection;)V
+ (Ljava/sql/Connection;)V
+columnUpdated
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+createCopy
+ ()Ljavax/sql/rowset/CachedRowSet;
+ ()Ljavax/sql/rowset/CachedRowSet;
+createCopyNoConstraints
+ ()Ljavax/sql/rowset/CachedRowSet;
+ ()Ljavax/sql/rowset/CachedRowSet;
+createCopySchema
+ ()Ljavax/sql/rowset/CachedRowSet;
+ ()Ljavax/sql/rowset/CachedRowSet;
+createShared
+ ()Ljavax/sql/RowSet;
+ ()Ljavax/sql/RowSet;
+execute
+ (Ljava/sql/Connection;)V
+ (Ljava/sql/Connection;)V
+getKeyColumns
+ ()[I
+ ()[I
+getOriginal
+ ()Ljava/sql/ResultSet;
+ ()Ljava/sql/ResultSet;
+getOriginalRow
+ ()Ljava/sql/ResultSet;
+ ()Ljava/sql/ResultSet;
+getRowSetWarnings
+ ()Ljavax/sql/rowset/RowSetWarning;
+ ()Ljavax/sql/rowset/RowSetWarning;
+getSyncProvider
+ ()Ljavax/sql/rowset/spi/SyncProvider;
+ ()Ljavax/sql/rowset/spi/SyncProvider;
+getTableName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+populate
+ (Ljava/sql/ResultSet;)V
+ (Ljava/sql/ResultSet;)V
+populate
+ (Ljava/sql/ResultSet;I)V
+ (Ljava/sql/ResultSet;I)V
+rollback
+ (Ljava/sql/Savepoint;)V
+ (Ljava/sql/Savepoint;)V
+rowSetPopulated
+ (Ljavax/sql/RowSetEvent;I)V
+ (Ljavax/sql/RowSetEvent;I)V
+setKeyColumns
+ ([I)V
+ ([I)V
+setMetaData
+ (Ljavax/sql/RowSetMetaData;)V
+ (Ljavax/sql/RowSetMetaData;)V
+setSyncProvider
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setTableName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toCollection
+ ()Ljava/util/Collection<*>;
+ ()Ljava/util/Collection<*>;
+toCollection
+ (I)Ljava/util/Collection<*>;
+ (I)Ljava/util/Collection<*>;
+toCollection
+ (Ljava/lang/String;)Ljava/util/Collection<*>;
+ (Ljava/lang/String;)Ljava/util/Collection<*>;

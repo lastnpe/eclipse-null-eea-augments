@@ -1,0 +1,47 @@
+class javax/sound/midi/Sequencer
+
+addControllerEventListener
+ (Ljavax/sound/midi/ControllerEventListener;[I)[I
+ (Ljavax/sound/midi/ControllerEventListener;[I)[I
+addMetaEventListener
+ (Ljavax/sound/midi/MetaEventListener;)Z
+ (Ljavax/sound/midi/MetaEventListener;)Z
+getMasterSyncMode
+ ()Ljavax/sound/midi/Sequencer$SyncMode;
+ ()Ljavax/sound/midi/Sequencer$SyncMode;
+getMasterSyncModes
+ ()[Ljavax/sound/midi/Sequencer$SyncMode;
+ ()[Ljavax/sound/midi/Sequencer$SyncMode;
+getSequence
+ ()Ljavax/sound/midi/Sequence;
+ ()Ljavax/sound/midi/Sequence;
+getSlaveSyncMode
+ ()Ljavax/sound/midi/Sequencer$SyncMode;
+ ()Ljavax/sound/midi/Sequencer$SyncMode;
+getSlaveSyncModes
+ ()[Ljavax/sound/midi/Sequencer$SyncMode;
+ ()[Ljavax/sound/midi/Sequencer$SyncMode;
+recordDisable
+ (Ljavax/sound/midi/Track;)V
+ (Ljavax/sound/midi/Track;)V
+recordEnable
+ (Ljavax/sound/midi/Track;I)V
+ (Ljavax/sound/midi/Track;I)V
+removeControllerEventListener
+ (Ljavax/sound/midi/ControllerEventListener;[I)[I
+ (Ljavax/sound/midi/ControllerEventListener;[I)[I
+removeMetaEventListener
+ (Ljavax/sound/midi/MetaEventListener;)V
+ (L1javax/sound/midi/MetaEventListener;)V
+setMasterSyncMode
+ (Ljavax/sound/midi/Sequencer$SyncMode;)V
+ (Ljavax/sound/midi/Sequencer$SyncMode;)V
+setSequence
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+setSequence
+ (Ljavax/sound/midi/Sequence;)V
+ (Ljavax/sound/midi/Sequence;)V
+setSlaveSyncMode
+ (Ljavax/sound/midi/Sequencer$SyncMode;)V
+ (Ljavax/sound/midi/Sequencer$SyncMode;)V

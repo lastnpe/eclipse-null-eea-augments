@@ -1,0 +1,41 @@
+class java/awt/geom/Arc2D
+
+contains
+ (Ljava/awt/geom/Rectangle2D;)Z
+ (Ljava/awt/geom/Rectangle2D;)Z
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getBounds2D
+ ()Ljava/awt/geom/Rectangle2D;
+ ()Ljava/awt/geom/Rectangle2D;
+getEndPoint
+ ()Ljava/awt/geom/Point2D;
+ ()Ljava/awt/geom/Point2D;
+getPathIterator
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/geom/PathIterator;
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/geom/PathIterator;
+getStartPoint
+ ()Ljava/awt/geom/Point2D;
+ ()Ljava/awt/geom/Point2D;
+makeBounds
+ (DDDD)Ljava/awt/geom/Rectangle2D;
+ (DDDD)Ljava/awt/geom/Rectangle2D;
+setAngleStart
+ (Ljava/awt/geom/Point2D;)V
+ (Ljava/awt/geom/Point2D;)V
+setAngles
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)V
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)V
+setArc
+ (Ljava/awt/geom/Arc2D;)V
+ (Ljava/awt/geom/Arc2D;)V
+setArc
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Dimension2D;DDI)V
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Dimension2D;DDI)V
+setArc
+ (Ljava/awt/geom/Rectangle2D;DDI)V
+ (Ljava/awt/geom/Rectangle2D;DDI)V
+setArcByTangent
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;D)V
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;D)V

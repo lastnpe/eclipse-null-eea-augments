@@ -1,0 +1,41 @@
+class javax/management/openmbean/OpenMBeanParameterInfoSupport
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljavax/management/openmbean/OpenType<*>;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljavax/management/openmbean/OpenType<*>;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljavax/management/openmbean/OpenType<*>;Ljavax/management/Descriptor;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljavax/management/openmbean/OpenType<*>;Ljavax/management/Descriptor;)V
+<init>
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/String;Ljavax/management/openmbean/OpenType<TT;>;TT;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/String;Ljavax/management/openmbean/OpenType<TT;>;TT;)V
+<init>
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/String;Ljavax/management/openmbean/OpenType<TT;>;TT;Ljava/lang/Comparable<TT;>;Ljava/lang/Comparable<TT;>;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/String;Ljavax/management/openmbean/OpenType<TT;>;TT;Ljava/lang/Comparable<TT;>;Ljava/lang/Comparable<TT;>;)V
+<init>
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/String;Ljavax/management/openmbean/OpenType<TT;>;TT;[TT;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/String;Ljavax/management/openmbean/OpenType<TT;>;TT;[TT;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(javax.management.MBeanParameterInfo)
+getDefaultValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getLegalValues
+ ()Ljava/util/Set<*>;
+ ()Ljava/util/Set<*>;
+getMaxValue
+ ()Ljava/lang/Comparable<*>;
+ ()Ljava/lang/Comparable<*>;
+getMinValue
+ ()Ljava/lang/Comparable<*>;
+ ()Ljava/lang/Comparable<*>;
+getOpenType
+ ()Ljavax/management/openmbean/OpenType<*>;
+ ()Ljavax/management/openmbean/OpenType<*>;
+isValue
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.management.MBeanParameterInfo)

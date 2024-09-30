@@ -1,0 +1,118 @@
+class java/time/YearMonth
+
+super java/lang/Comparable
+ <Ljava/time/YearMonth;>
+ <Ljava/time/YearMonth;>
+
+from
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/YearMonth;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/YearMonth;
+now
+ ()Ljava/time/YearMonth;
+ ()Ljava/time/YearMonth;
+now
+ (Ljava/time/Clock;)Ljava/time/YearMonth;
+ (Ljava/time/Clock;)Ljava/time/YearMonth;
+now
+ (Ljava/time/ZoneId;)Ljava/time/YearMonth;
+ (Ljava/time/ZoneId;)Ljava/time/YearMonth;
+of
+ (II)Ljava/time/YearMonth;
+ (II)Ljava/time/YearMonth;
+of
+ (ILjava/time/Month;)Ljava/time/YearMonth;
+ (ILjava/time/Month;)Ljava/time/YearMonth;
+parse
+ (Ljava/lang/CharSequence;)Ljava/time/YearMonth;
+ (Ljava/lang/CharSequence;)Ljava/time/YearMonth;
+parse
+ (Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)Ljava/time/YearMonth;
+ (Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)Ljava/time/YearMonth;
+
+adjustInto
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal; # @Inherited(java.time.temporal.TemporalAdjuster)
+atDay
+ (I)Ljava/time/LocalDate;
+ (I)Ljava/time/LocalDate;
+atEndOfMonth
+ ()Ljava/time/LocalDate;
+ ()Ljava/time/LocalDate;
+compareTo
+ (Ljava/time/YearMonth;)I
+ (L1java/time/YearMonth;)I
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+format
+ (Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;
+ (Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;
+get
+ (Ljava/time/temporal/TemporalField;)I
+ (L1java/time/temporal/TemporalField;)I # @Inherited(java.time.temporal.TemporalAccessor)
+getLong
+ (Ljava/time/temporal/TemporalField;)J
+ (L1java/time/temporal/TemporalField;)J # @Inherited(java.time.temporal.TemporalAccessor)
+getMonth
+ ()Ljava/time/Month;
+ ()Ljava/time/Month;
+isAfter
+ (Ljava/time/YearMonth;)Z
+ (Ljava/time/YearMonth;)Z
+isBefore
+ (Ljava/time/YearMonth;)Z
+ (Ljava/time/YearMonth;)Z
+isSupported
+ (Ljava/time/temporal/TemporalField;)Z
+ (L1java/time/temporal/TemporalField;)Z # @Inherited(java.time.temporal.TemporalAccessor)
+isSupported
+ (Ljava/time/temporal/TemporalUnit;)Z
+ (L1java/time/temporal/TemporalUnit;)Z # @Inherited(java.time.temporal.Temporal)
+minus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/YearMonth;
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/YearMonth;
+minus
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/YearMonth;
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/YearMonth;
+minusMonths
+ (J)Ljava/time/YearMonth;
+ (J)Ljava/time/YearMonth;
+minusYears
+ (J)Ljava/time/YearMonth;
+ (J)Ljava/time/YearMonth;
+plus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/YearMonth;
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/YearMonth;
+plus
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/YearMonth;
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/YearMonth;
+plusMonths
+ (J)Ljava/time/YearMonth;
+ (J)Ljava/time/YearMonth;
+plusYears
+ (J)Ljava/time/YearMonth;
+ (J)Ljava/time/YearMonth;
+query
+ <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+ <R:Ljava/lang/Object;>(L1java/time/temporal/TemporalQuery<TR;>;)T0R; # @Inherited(java.time.temporal.TemporalAccessor)
+range
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange; # @Inherited(java.time.temporal.TemporalAccessor)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+until
+ (Ljava/time/temporal/Temporal;Ljava/time/temporal/TemporalUnit;)J
+ (L1java/time/temporal/Temporal;L1java/time/temporal/TemporalUnit;)J # @Inherited(java.time.temporal.Temporal)
+with
+ (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/YearMonth;
+ (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/YearMonth;
+with
+ (Ljava/time/temporal/TemporalField;J)Ljava/time/YearMonth;
+ (Ljava/time/temporal/TemporalField;J)Ljava/time/YearMonth;
+withMonth
+ (I)Ljava/time/YearMonth;
+ (I)Ljava/time/YearMonth;
+withYear
+ (I)Ljava/time/YearMonth;
+ (I)Ljava/time/YearMonth;

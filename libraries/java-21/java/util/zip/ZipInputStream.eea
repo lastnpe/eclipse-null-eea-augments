@@ -1,0 +1,29 @@
+class java/util/zip/ZipInputStream
+
+<init>
+ (Ljava/io/InputStream;)V
+ (L1java/io/InputStream;)V
+<init>
+ (Ljava/io/InputStream;Ljava/nio/charset/Charset;)V
+ (L1java/io/InputStream;L1java/nio/charset/Charset;)V
+createZipEntry
+ (Ljava/lang/String;)Ljava/util/zip/ZipEntry;
+ (L1java/lang/String;)L1java/util/zip/ZipEntry;
+getNextEntry
+ ()Ljava/util/zip/ZipEntry;
+ ()L0java/util/zip/ZipEntry;
+read
+ ([BII)I
+ ([1BII)I # @Inherited(java.util.zip.InflaterInputStream)
+readAllBytes
+ ()[B
+ ()[1B # @Inherited(java.io.InputStream)
+readNBytes
+ (I)[B
+ (I)[1B # @Inherited(java.io.InputStream)
+readNBytes
+ ([BII)I
+ ([1BII)I # @Inherited(java.io.InputStream)
+transferTo
+ (Ljava/io/OutputStream;)J
+ (L1java/io/OutputStream;)J # @Inherited(java.io.InputStream)

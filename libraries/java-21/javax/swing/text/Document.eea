@@ -1,0 +1,54 @@
+class javax/swing/text/Document
+
+StreamDescriptionProperty
+ Ljava/lang/String;
+ L1java/lang/String;
+TitleProperty
+ Ljava/lang/String;
+ L1java/lang/String;
+
+addDocumentListener
+ (Ljavax/swing/event/DocumentListener;)V
+ (L1javax/swing/event/DocumentListener;)V
+addUndoableEditListener
+ (Ljavax/swing/event/UndoableEditListener;)V
+ (L1javax/swing/event/UndoableEditListener;)V
+createPosition
+ (I)Ljavax/swing/text/Position;
+ (I)Ljavax/swing/text/Position;
+getDefaultRootElement
+ ()Ljavax/swing/text/Element;
+ ()Ljavax/swing/text/Element;
+getEndPosition
+ ()Ljavax/swing/text/Position;
+ ()Ljavax/swing/text/Position;
+getProperty
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+getRootElements
+ ()[Ljavax/swing/text/Element;
+ ()[Ljavax/swing/text/Element;
+getStartPosition
+ ()Ljavax/swing/text/Position;
+ ()Ljavax/swing/text/Position;
+getText
+ (II)Ljava/lang/String;
+ (II)Ljava/lang/String;
+getText
+ (IILjavax/swing/text/Segment;)V
+ (IILjavax/swing/text/Segment;)V
+insertString
+ (ILjava/lang/String;Ljavax/swing/text/AttributeSet;)V
+ (ILjava/lang/String;Ljavax/swing/text/AttributeSet;)V
+putProperty
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+removeDocumentListener
+ (Ljavax/swing/event/DocumentListener;)V
+ (L1javax/swing/event/DocumentListener;)V
+removeUndoableEditListener
+ (Ljavax/swing/event/UndoableEditListener;)V
+ (L1javax/swing/event/UndoableEditListener;)V
+render
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V

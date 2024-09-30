@@ -1,0 +1,17 @@
+class java/security/MessageDigestSpi
+
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+engineDigest
+ ()[B
+ ()[B
+engineDigest
+ ([BII)I
+ ([BII)I
+engineUpdate
+ (Ljava/nio/ByteBuffer;)V
+ (Ljava/nio/ByteBuffer;)V
+engineUpdate
+ ([BII)V
+ ([BII)V

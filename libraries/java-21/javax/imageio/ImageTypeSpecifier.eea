@@ -1,0 +1,55 @@
+class javax/imageio/ImageTypeSpecifier
+
+createBanded
+ (Ljava/awt/color/ColorSpace;[I[IIZZ)Ljavax/imageio/ImageTypeSpecifier;
+ (Ljava/awt/color/ColorSpace;[I[IIZZ)Ljavax/imageio/ImageTypeSpecifier;
+createFromBufferedImageType
+ (I)Ljavax/imageio/ImageTypeSpecifier;
+ (I)Ljavax/imageio/ImageTypeSpecifier;
+createFromRenderedImage
+ (Ljava/awt/image/RenderedImage;)Ljavax/imageio/ImageTypeSpecifier;
+ (Ljava/awt/image/RenderedImage;)Ljavax/imageio/ImageTypeSpecifier;
+createGrayscale
+ (IIZ)Ljavax/imageio/ImageTypeSpecifier;
+ (IIZ)Ljavax/imageio/ImageTypeSpecifier;
+createGrayscale
+ (IIZZ)Ljavax/imageio/ImageTypeSpecifier;
+ (IIZZ)Ljavax/imageio/ImageTypeSpecifier;
+createIndexed
+ ([B[B[B[BII)Ljavax/imageio/ImageTypeSpecifier;
+ ([B[B[B[BII)Ljavax/imageio/ImageTypeSpecifier;
+createInterleaved
+ (Ljava/awt/color/ColorSpace;[IIZZ)Ljavax/imageio/ImageTypeSpecifier;
+ (Ljava/awt/color/ColorSpace;[IIZZ)Ljavax/imageio/ImageTypeSpecifier;
+createPacked
+ (Ljava/awt/color/ColorSpace;IIIIIZ)Ljavax/imageio/ImageTypeSpecifier;
+ (Ljava/awt/color/ColorSpace;IIIIIZ)Ljavax/imageio/ImageTypeSpecifier;
+
+colorModel
+ Ljava/awt/image/ColorModel;
+ Ljava/awt/image/ColorModel;
+sampleModel
+ Ljava/awt/image/SampleModel;
+ Ljava/awt/image/SampleModel;
+
+<init>
+ (Ljava/awt/image/ColorModel;Ljava/awt/image/SampleModel;)V
+ (Ljava/awt/image/ColorModel;Ljava/awt/image/SampleModel;)V
+<init>
+ (Ljava/awt/image/RenderedImage;)V
+ (Ljava/awt/image/RenderedImage;)V
+createBufferedImage
+ (II)Ljava/awt/image/BufferedImage;
+ (II)Ljava/awt/image/BufferedImage;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getColorModel
+ ()Ljava/awt/image/ColorModel;
+ ()Ljava/awt/image/ColorModel;
+getSampleModel
+ ()Ljava/awt/image/SampleModel;
+ ()Ljava/awt/image/SampleModel;
+getSampleModel
+ (II)Ljava/awt/image/SampleModel;
+ (II)Ljava/awt/image/SampleModel;

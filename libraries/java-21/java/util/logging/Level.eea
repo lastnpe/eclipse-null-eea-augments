@@ -1,0 +1,55 @@
+class java/util/logging/Level
+
+ALL
+ Ljava/util/logging/Level;
+ L1java/util/logging/Level;
+CONFIG
+ Ljava/util/logging/Level;
+ L1java/util/logging/Level;
+FINE
+ Ljava/util/logging/Level;
+ L1java/util/logging/Level;
+FINER
+ Ljava/util/logging/Level;
+ L1java/util/logging/Level;
+FINEST
+ Ljava/util/logging/Level;
+ L1java/util/logging/Level;
+INFO
+ Ljava/util/logging/Level;
+ L1java/util/logging/Level;
+OFF
+ Ljava/util/logging/Level;
+ L1java/util/logging/Level;
+SEVERE
+ Ljava/util/logging/Level;
+ L1java/util/logging/Level;
+WARNING
+ Ljava/util/logging/Level;
+ L1java/util/logging/Level;
+
+parse
+ (Ljava/lang/String;)Ljava/util/logging/Level;
+ (L1java/lang/String;)L1java/util/logging/Level;
+
+<init>
+ (Ljava/lang/String;I)V
+ (L1java/lang/String;I)V
+<init>
+ (Ljava/lang/String;ILjava/lang/String;)V
+ (L1java/lang/String;IL0java/lang/String;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getLocalizedName
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getName
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getResourceBundleName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

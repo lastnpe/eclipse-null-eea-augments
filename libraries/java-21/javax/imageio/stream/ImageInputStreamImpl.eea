@@ -1,0 +1,51 @@
+class javax/imageio/stream/ImageInputStreamImpl
+
+byteOrder
+ Ljava/nio/ByteOrder;
+ Ljava/nio/ByteOrder;
+
+getByteOrder
+ ()Ljava/nio/ByteOrder;
+ ()Ljava/nio/ByteOrder;
+read
+ ([B)I
+ ([B)I
+read
+ ([BII)I
+ ([BII)I
+readBytes
+ (Ljavax/imageio/stream/IIOByteBuffer;I)V
+ (Ljavax/imageio/stream/IIOByteBuffer;I)V
+readFully
+ ([B)V
+ ([1B)V # @Inherited(javax.imageio.stream.ImageInputStream)
+readFully
+ ([BII)V
+ ([1BII)V # @Inherited(javax.imageio.stream.ImageInputStream)
+readFully
+ ([CII)V
+ ([CII)V
+readFully
+ ([DII)V
+ ([DII)V
+readFully
+ ([FII)V
+ ([FII)V
+readFully
+ ([III)V
+ ([III)V
+readFully
+ ([JII)V
+ ([JII)V
+readFully
+ ([SII)V
+ ([SII)V
+readLine
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.imageio.stream.ImageInputStream)
+readUTF
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.imageio.stream.ImageInputStream)
+setByteOrder
+ (Ljava/nio/ByteOrder;)V
+ (Ljava/nio/ByteOrder;)V

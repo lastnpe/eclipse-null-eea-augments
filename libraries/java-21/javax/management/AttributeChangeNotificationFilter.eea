@@ -1,0 +1,14 @@
+class javax/management/AttributeChangeNotificationFilter
+
+disableAttribute
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+enableAttribute
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getEnabledAttributes
+ ()Ljava/util/Vector<Ljava/lang/String;>;
+ ()Ljava/util/Vector<Ljava/lang/String;>;
+isNotificationEnabled
+ (Ljavax/management/Notification;)Z
+ (Ljavax/management/Notification;)Z

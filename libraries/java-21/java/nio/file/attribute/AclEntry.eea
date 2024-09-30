@@ -1,0 +1,27 @@
+class java/nio/file/attribute/AclEntry
+
+newBuilder
+ ()Ljava/nio/file/attribute/AclEntry$Builder;
+ ()Ljava/nio/file/attribute/AclEntry$Builder;
+newBuilder
+ (Ljava/nio/file/attribute/AclEntry;)Ljava/nio/file/attribute/AclEntry$Builder;
+ (Ljava/nio/file/attribute/AclEntry;)Ljava/nio/file/attribute/AclEntry$Builder;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+flags
+ ()Ljava/util/Set<Ljava/nio/file/attribute/AclEntryFlag;>;
+ ()Ljava/util/Set<Ljava/nio/file/attribute/AclEntryFlag;>;
+permissions
+ ()Ljava/util/Set<Ljava/nio/file/attribute/AclEntryPermission;>;
+ ()Ljava/util/Set<Ljava/nio/file/attribute/AclEntryPermission;>;
+principal
+ ()Ljava/nio/file/attribute/UserPrincipal;
+ ()Ljava/nio/file/attribute/UserPrincipal;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+type
+ ()Ljava/nio/file/attribute/AclEntryType;
+ ()Ljava/nio/file/attribute/AclEntryType;

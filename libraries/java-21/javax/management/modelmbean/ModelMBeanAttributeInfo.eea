@@ -1,0 +1,29 @@
+class javax/management/modelmbean/ModelMBeanAttributeInfo
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZ)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZ)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZLjavax/management/Descriptor;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZLjavax/management/Descriptor;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;Ljavax/management/Descriptor;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;Ljavax/management/Descriptor;)V
+<init>
+ (Ljavax/management/modelmbean/ModelMBeanAttributeInfo;)V
+ (Ljavax/management/modelmbean/ModelMBeanAttributeInfo;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(javax.management.MBeanAttributeInfo)
+getDescriptor
+ ()Ljavax/management/Descriptor;
+ ()Ljavax/management/Descriptor;
+setDescriptor
+ (Ljavax/management/Descriptor;)V
+ (Ljavax/management/Descriptor;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.management.MBeanAttributeInfo)

@@ -1,0 +1,51 @@
+class javax/xml/transform/stream/StreamSource
+
+FEATURE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+<init>
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+<init>
+ (Ljava/io/InputStream;Ljava/lang/String;)V
+ (Ljava/io/InputStream;Ljava/lang/String;)V
+<init>
+ (Ljava/io/Reader;)V
+ (Ljava/io/Reader;)V
+<init>
+ (Ljava/io/Reader;Ljava/lang/String;)V
+ (Ljava/io/Reader;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getPublicId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getReader
+ ()Ljava/io/Reader;
+ ()Ljava/io/Reader;
+getSystemId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setInputStream
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+setPublicId
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setReader
+ (Ljava/io/Reader;)V
+ (Ljava/io/Reader;)V
+setSystemId
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+setSystemId
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

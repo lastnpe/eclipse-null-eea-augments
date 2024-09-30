@@ -1,0 +1,62 @@
+class javax/swing/text/BoxView
+
+<init>
+ (Ljavax/swing/text/Element;I)V
+ (Ljavax/swing/text/Element;I)V
+baselineLayout
+ (II[I[I)V
+ (II[I[I)V
+baselineRequirements
+ (ILjavax/swing/SizeRequirements;)Ljavax/swing/SizeRequirements;
+ (ILjavax/swing/SizeRequirements;)Ljavax/swing/SizeRequirements;
+calculateMajorAxisRequirements
+ (ILjavax/swing/SizeRequirements;)Ljavax/swing/SizeRequirements;
+ (ILjavax/swing/SizeRequirements;)Ljavax/swing/SizeRequirements;
+calculateMinorAxisRequirements
+ (ILjavax/swing/SizeRequirements;)Ljavax/swing/SizeRequirements;
+ (ILjavax/swing/SizeRequirements;)Ljavax/swing/SizeRequirements;
+childAllocation
+ (ILjava/awt/Rectangle;)V
+ (ILjava/awt/Rectangle;)V
+flipEastAndWestAtEnds
+ (ILjavax/swing/text/Position$Bias;)Z
+ (ILjavax/swing/text/Position$Bias;)Z
+forwardUpdate
+ (Ljavax/swing/event/DocumentEvent$ElementChange;Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent$ElementChange;Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+getChildAllocation
+ (ILjava/awt/Shape;)Ljava/awt/Shape;
+ (ILjava/awt/Shape;)Ljava/awt/Shape;
+getViewAtPoint
+ (IILjava/awt/Rectangle;)Ljavax/swing/text/View;
+ (IILjava/awt/Rectangle;)Ljavax/swing/text/View;
+isAfter
+ (IILjava/awt/Rectangle;)Z
+ (IILjava/awt/Rectangle;)Z
+isBefore
+ (IILjava/awt/Rectangle;)Z
+ (IILjava/awt/Rectangle;)Z
+layoutMajorAxis
+ (II[I[I)V
+ (II[I[I)V
+layoutMinorAxis
+ (II[I[I)V
+ (II[I[I)V
+modelToView
+ (ILjava/awt/Shape;Ljavax/swing/text/Position$Bias;)Ljava/awt/Shape;
+ (ILjava/awt/Shape;Ljavax/swing/text/Position$Bias;)Ljava/awt/Shape;
+paint
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V
+paintChild
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;I)V
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;I)V
+preferenceChanged
+ (Ljavax/swing/text/View;ZZ)V
+ (Ljavax/swing/text/View;ZZ)V
+replace
+ (II[Ljavax/swing/text/View;)V
+ (II[Ljavax/swing/text/View;)V
+viewToModel
+ (FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I
+ (FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I

@@ -1,0 +1,43 @@
+class java/util/Date
+
+super java/lang/Comparable
+ <Ljava/util/Date;>
+ <Ljava/util/Date;>
+
+from
+ (Ljava/time/Instant;)Ljava/util/Date;
+ (L1java/time/Instant;)L1java/util/Date;
+parse
+ (Ljava/lang/String;)J
+ (Ljava/lang/String;)J
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+after
+ (Ljava/util/Date;)Z
+ (L1java/util/Date;)Z
+before
+ (Ljava/util/Date;)Z
+ (L1java/util/Date;)Z
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+compareTo
+ (Ljava/util/Date;)I
+ (L1java/util/Date;)I
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+toGMTString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+toInstant
+ ()Ljava/time/Instant;
+ ()L1java/time/Instant;
+toLocaleString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

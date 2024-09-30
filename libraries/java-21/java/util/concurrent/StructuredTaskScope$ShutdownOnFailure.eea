@@ -1,0 +1,24 @@
+class java/util/concurrent/StructuredTaskScope$ShutdownOnFailure
+
+super java/util/concurrent/StructuredTaskScope
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+<init>
+ (Ljava/lang/String;Ljava/util/concurrent/ThreadFactory;)V
+ (Ljava/lang/String;Ljava/util/concurrent/ThreadFactory;)V
+exception
+ ()Ljava/util/Optional<Ljava/lang/Throwable;>;
+ ()Ljava/util/Optional<Ljava/lang/Throwable;>;
+handleComplete
+ (Ljava/util/concurrent/StructuredTaskScope$Subtask<*>;)V
+ (Ljava/util/concurrent/StructuredTaskScope$Subtask<*>;)V
+join
+ ()Ljava/util/concurrent/StructuredTaskScope$ShutdownOnFailure;
+ ()Ljava/util/concurrent/StructuredTaskScope$ShutdownOnFailure;
+joinUntil
+ (Ljava/time/Instant;)Ljava/util/concurrent/StructuredTaskScope$ShutdownOnFailure;
+ (Ljava/time/Instant;)Ljava/util/concurrent/StructuredTaskScope$ShutdownOnFailure;
+throwIfFailed
+ <X:Ljava/lang/Throwable;>(Ljava/util/function/Function<Ljava/lang/Throwable;+TX;>;)V^TX;
+ <X:Ljava/lang/Throwable;>(Ljava/util/function/Function<Ljava/lang/Throwable;+TX;>;)V^TX;

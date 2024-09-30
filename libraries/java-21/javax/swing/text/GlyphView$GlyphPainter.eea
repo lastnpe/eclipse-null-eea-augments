@@ -1,0 +1,32 @@
+class javax/swing/text/GlyphView$GlyphPainter
+
+getAscent
+ (Ljavax/swing/text/GlyphView;)F
+ (Ljavax/swing/text/GlyphView;)F
+getBoundedPosition
+ (Ljavax/swing/text/GlyphView;IFF)I
+ (Ljavax/swing/text/GlyphView;IFF)I
+getDescent
+ (Ljavax/swing/text/GlyphView;)F
+ (Ljavax/swing/text/GlyphView;)F
+getHeight
+ (Ljavax/swing/text/GlyphView;)F
+ (Ljavax/swing/text/GlyphView;)F
+getNextVisualPositionFrom
+ (Ljavax/swing/text/GlyphView;ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;I[Ljavax/swing/text/Position$Bias;)I
+ (Ljavax/swing/text/GlyphView;ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;I[Ljavax/swing/text/Position$Bias;)I
+getPainter
+ (Ljavax/swing/text/GlyphView;II)Ljavax/swing/text/GlyphView$GlyphPainter;
+ (Ljavax/swing/text/GlyphView;II)Ljavax/swing/text/GlyphView$GlyphPainter;
+getSpan
+ (Ljavax/swing/text/GlyphView;IILjavax/swing/text/TabExpander;F)F
+ (Ljavax/swing/text/GlyphView;IILjavax/swing/text/TabExpander;F)F
+modelToView
+ (Ljavax/swing/text/GlyphView;ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;)Ljava/awt/Shape;
+ (Ljavax/swing/text/GlyphView;ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;)Ljava/awt/Shape;
+paint
+ (Ljavax/swing/text/GlyphView;Ljava/awt/Graphics;Ljava/awt/Shape;II)V
+ (Ljavax/swing/text/GlyphView;Ljava/awt/Graphics;Ljava/awt/Shape;II)V
+viewToModel
+ (Ljavax/swing/text/GlyphView;FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I
+ (Ljavax/swing/text/GlyphView;FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I

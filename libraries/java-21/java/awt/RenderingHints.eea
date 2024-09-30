@@ -1,0 +1,193 @@
+class java/awt/RenderingHints
+
+super java/util/Map
+ <Ljava/lang/Object;Ljava/lang/Object;>
+ <Ljava/lang/Object;Ljava/lang/Object;>
+
+KEY_ALPHA_INTERPOLATION
+ Ljava/awt/RenderingHints$Key;
+ L1java/awt/RenderingHints$Key;
+KEY_ANTIALIASING
+ Ljava/awt/RenderingHints$Key;
+ L1java/awt/RenderingHints$Key;
+KEY_COLOR_RENDERING
+ Ljava/awt/RenderingHints$Key;
+ L1java/awt/RenderingHints$Key;
+KEY_DITHERING
+ Ljava/awt/RenderingHints$Key;
+ L1java/awt/RenderingHints$Key;
+KEY_FRACTIONALMETRICS
+ Ljava/awt/RenderingHints$Key;
+ L1java/awt/RenderingHints$Key;
+KEY_INTERPOLATION
+ Ljava/awt/RenderingHints$Key;
+ L1java/awt/RenderingHints$Key;
+KEY_RENDERING
+ Ljava/awt/RenderingHints$Key;
+ L1java/awt/RenderingHints$Key;
+KEY_RESOLUTION_VARIANT
+ Ljava/awt/RenderingHints$Key;
+ L1java/awt/RenderingHints$Key;
+KEY_STROKE_CONTROL
+ Ljava/awt/RenderingHints$Key;
+ L1java/awt/RenderingHints$Key;
+KEY_TEXT_ANTIALIASING
+ Ljava/awt/RenderingHints$Key;
+ L1java/awt/RenderingHints$Key;
+KEY_TEXT_LCD_CONTRAST
+ Ljava/awt/RenderingHints$Key;
+ L1java/awt/RenderingHints$Key;
+VALUE_ALPHA_INTERPOLATION_DEFAULT
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_ALPHA_INTERPOLATION_QUALITY
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_ALPHA_INTERPOLATION_SPEED
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_ANTIALIAS_DEFAULT
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_ANTIALIAS_OFF
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_ANTIALIAS_ON
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_COLOR_RENDER_DEFAULT
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_COLOR_RENDER_QUALITY
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_COLOR_RENDER_SPEED
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_DITHER_DEFAULT
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_DITHER_DISABLE
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_DITHER_ENABLE
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_FRACTIONALMETRICS_DEFAULT
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_FRACTIONALMETRICS_OFF
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_FRACTIONALMETRICS_ON
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_INTERPOLATION_BICUBIC
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_INTERPOLATION_BILINEAR
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_INTERPOLATION_NEAREST_NEIGHBOR
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_RENDER_DEFAULT
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_RENDER_QUALITY
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_RENDER_SPEED
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_RESOLUTION_VARIANT_BASE
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_RESOLUTION_VARIANT_DEFAULT
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_RESOLUTION_VARIANT_DPI_FIT
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_RESOLUTION_VARIANT_SIZE_FIT
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_STROKE_DEFAULT
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_STROKE_NORMALIZE
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_STROKE_PURE
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_TEXT_ANTIALIAS_DEFAULT
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_TEXT_ANTIALIAS_GASP
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_TEXT_ANTIALIAS_LCD_HBGR
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_TEXT_ANTIALIAS_LCD_HRGB
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_TEXT_ANTIALIAS_LCD_VBGR
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_TEXT_ANTIALIAS_LCD_VRGB
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_TEXT_ANTIALIAS_OFF
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_TEXT_ANTIALIAS_ON
+ Ljava/lang/Object;
+ L1java/lang/Object;
+
+<init>
+ (Ljava/awt/RenderingHints$Key;Ljava/lang/Object;)V
+ (Ljava/awt/RenderingHints$Key;Ljava/lang/Object;)V
+<init>
+ (Ljava/util/Map<Ljava/awt/RenderingHints$Key;*>;)V
+ (Ljava/util/Map<Ljava/awt/RenderingHints$Key;*>;)V
+add
+ (Ljava/awt/RenderingHints;)V
+ (Ljava/awt/RenderingHints;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+containsKey
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.Map)
+containsValue
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.Map)
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<Ljava/lang/Object;Ljava/lang/Object;>;>;
+ ()Ljava/util/Set<Ljava/util/Map$Entry<Ljava/lang/Object;Ljava/lang/Object;>;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+keySet
+ ()Ljava/util/Set<Ljava/lang/Object;>;
+ ()Ljava/util/Set<Ljava/lang/Object;>;
+put
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+putAll
+ (Ljava/util/Map<**>;)V
+ (Ljava/util/Map<**>;)V
+remove
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+values
+ ()Ljava/util/Collection<Ljava/lang/Object;>;
+ ()Ljava/util/Collection<Ljava/lang/Object;>;

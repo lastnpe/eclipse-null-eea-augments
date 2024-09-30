@@ -1,0 +1,20 @@
+class javax/management/AttributeValueExp
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+apply
+ (Ljavax/management/ObjectName;)Ljavax/management/ValueExp;
+ (Ljavax/management/ObjectName;)Ljavax/management/ValueExp;
+getAttribute
+ (Ljavax/management/ObjectName;)Ljava/lang/Object;
+ (Ljavax/management/ObjectName;)Ljava/lang/Object;
+getAttributeName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setMBeanServer
+ (Ljavax/management/MBeanServer;)V
+ (Ljavax/management/MBeanServer;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

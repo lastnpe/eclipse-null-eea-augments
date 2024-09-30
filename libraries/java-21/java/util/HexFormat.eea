@@ -1,0 +1,93 @@
+class java/util/HexFormat
+
+fromHexDigits
+ (Ljava/lang/CharSequence;)I
+ (Ljava/lang/CharSequence;)I
+fromHexDigits
+ (Ljava/lang/CharSequence;II)I
+ (Ljava/lang/CharSequence;II)I
+fromHexDigitsToLong
+ (Ljava/lang/CharSequence;)J
+ (Ljava/lang/CharSequence;)J
+fromHexDigitsToLong
+ (Ljava/lang/CharSequence;II)J
+ (Ljava/lang/CharSequence;II)J
+of
+ ()Ljava/util/HexFormat;
+ ()Ljava/util/HexFormat;
+ofDelimiter
+ (Ljava/lang/String;)Ljava/util/HexFormat;
+ (Ljava/lang/String;)Ljava/util/HexFormat;
+
+delimiter
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+formatHex
+ ([B)Ljava/lang/String;
+ ([B)Ljava/lang/String;
+formatHex
+ ([BII)Ljava/lang/String;
+ ([BII)Ljava/lang/String;
+formatHex
+ <A::Ljava/lang/Appendable;>(TA;[B)TA;
+ <A::Ljava/lang/Appendable;>(TA;[B)TA;
+formatHex
+ <A::Ljava/lang/Appendable;>(TA;[BII)TA;
+ <A::Ljava/lang/Appendable;>(TA;[BII)TA;
+parseHex
+ (Ljava/lang/CharSequence;)[B
+ (Ljava/lang/CharSequence;)[B
+parseHex
+ (Ljava/lang/CharSequence;II)[B
+ (Ljava/lang/CharSequence;II)[B
+parseHex
+ ([CII)[B
+ ([CII)[B
+prefix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+suffix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+toHexDigits
+ (B)Ljava/lang/String;
+ (B)Ljava/lang/String;
+toHexDigits
+ (C)Ljava/lang/String;
+ (C)Ljava/lang/String;
+toHexDigits
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+toHexDigits
+ (J)Ljava/lang/String;
+ (J)Ljava/lang/String;
+toHexDigits
+ (JI)Ljava/lang/String;
+ (JI)Ljava/lang/String;
+toHexDigits
+ (S)Ljava/lang/String;
+ (S)Ljava/lang/String;
+toHexDigits
+ <A::Ljava/lang/Appendable;>(TA;B)TA;
+ <A::Ljava/lang/Appendable;>(TA;B)TA;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+withDelimiter
+ (Ljava/lang/String;)Ljava/util/HexFormat;
+ (Ljava/lang/String;)Ljava/util/HexFormat;
+withLowerCase
+ ()Ljava/util/HexFormat;
+ ()Ljava/util/HexFormat;
+withPrefix
+ (Ljava/lang/String;)Ljava/util/HexFormat;
+ (Ljava/lang/String;)Ljava/util/HexFormat;
+withSuffix
+ (Ljava/lang/String;)Ljava/util/HexFormat;
+ (Ljava/lang/String;)Ljava/util/HexFormat;
+withUpperCase
+ ()Ljava/util/HexFormat;
+ ()Ljava/util/HexFormat;

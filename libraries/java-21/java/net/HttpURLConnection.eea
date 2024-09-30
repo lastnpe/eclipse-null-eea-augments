@@ -1,0 +1,39 @@
+class java/net/HttpURLConnection
+
+method
+ Ljava/lang/String;
+ Ljava/lang/String;
+responseMessage
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+<init>
+ (Ljava/net/URL;)V
+ (Ljava/net/URL;)V
+getErrorStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getHeaderField
+ (I)Ljava/lang/String;
+ (I)L0java/lang/String; # @Inherited(java.net.URLConnection)
+getHeaderFieldDate
+ (Ljava/lang/String;J)J
+ (Ljava/lang/String;J)J
+getHeaderFieldKey
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getPermission
+ ()Ljava/security/Permission;
+ ()L1java/security/Permission; # @Inherited(java.net.URLConnection)
+getRequestMethod
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getResponseMessage
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setAuthenticator
+ (Ljava/net/Authenticator;)V
+ (Ljava/net/Authenticator;)V
+setRequestMethod
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

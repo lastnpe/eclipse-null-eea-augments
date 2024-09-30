@@ -1,0 +1,26 @@
+class javax/xml/xpath/XPathExpression
+
+evaluate
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+evaluate
+ (Ljava/lang/Object;Ljavax/xml/namespace/QName;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljavax/xml/namespace/QName;)Ljava/lang/Object;
+evaluate
+ (Lorg/xml/sax/InputSource;)Ljava/lang/String;
+ (Lorg/xml/sax/InputSource;)Ljava/lang/String;
+evaluate
+ (Lorg/xml/sax/InputSource;Ljavax/xml/namespace/QName;)Ljava/lang/Object;
+ (Lorg/xml/sax/InputSource;Ljavax/xml/namespace/QName;)Ljava/lang/Object;
+evaluateExpression
+ (Ljava/lang/Object;)Ljavax/xml/xpath/XPathEvaluationResult<*>;
+ (Ljava/lang/Object;)Ljavax/xml/xpath/XPathEvaluationResult<*>;
+evaluateExpression
+ (Lorg/xml/sax/InputSource;)Ljavax/xml/xpath/XPathEvaluationResult<*>;
+ (Lorg/xml/sax/InputSource;)Ljavax/xml/xpath/XPathEvaluationResult<*>;
+evaluateExpression
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;)TT;
+evaluateExpression
+ <T:Ljava/lang/Object;>(Lorg/xml/sax/InputSource;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lorg/xml/sax/InputSource;Ljava/lang/Class<TT;>;)TT;

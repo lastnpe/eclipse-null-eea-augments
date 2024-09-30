@@ -1,0 +1,51 @@
+class java/net/NetworkInterface
+
+getByIndex
+ (I)Ljava/net/NetworkInterface;
+ (I)Ljava/net/NetworkInterface;
+getByInetAddress
+ (Ljava/net/InetAddress;)Ljava/net/NetworkInterface;
+ (Ljava/net/InetAddress;)Ljava/net/NetworkInterface;
+getByName
+ (Ljava/lang/String;)Ljava/net/NetworkInterface;
+ (Ljava/lang/String;)Ljava/net/NetworkInterface;
+getNetworkInterfaces
+ ()Ljava/util/Enumeration<Ljava/net/NetworkInterface;>;
+ ()Ljava/util/Enumeration<Ljava/net/NetworkInterface;>;
+networkInterfaces
+ ()Ljava/util/stream/Stream<Ljava/net/NetworkInterface;>;
+ ()Ljava/util/stream/Stream<Ljava/net/NetworkInterface;>;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getDisplayName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getHardwareAddress
+ ()[B
+ ()[B
+getInetAddresses
+ ()Ljava/util/Enumeration<Ljava/net/InetAddress;>;
+ ()Ljava/util/Enumeration<Ljava/net/InetAddress;>;
+getInterfaceAddresses
+ ()Ljava/util/List<Ljava/net/InterfaceAddress;>;
+ ()Ljava/util/List<Ljava/net/InterfaceAddress;>;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getParent
+ ()Ljava/net/NetworkInterface;
+ ()Ljava/net/NetworkInterface;
+getSubInterfaces
+ ()Ljava/util/Enumeration<Ljava/net/NetworkInterface;>;
+ ()Ljava/util/Enumeration<Ljava/net/NetworkInterface;>;
+inetAddresses
+ ()Ljava/util/stream/Stream<Ljava/net/InetAddress;>;
+ ()Ljava/util/stream/Stream<Ljava/net/InetAddress;>;
+subInterfaces
+ ()Ljava/util/stream/Stream<Ljava/net/NetworkInterface;>;
+ ()Ljava/util/stream/Stream<Ljava/net/NetworkInterface;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

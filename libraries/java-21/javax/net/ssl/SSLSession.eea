@@ -1,0 +1,44 @@
+class javax/net/ssl/SSLSession
+
+getCipherSuite
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getId
+ ()[B
+ ()[B
+getLocalCertificates
+ ()[Ljava/security/cert/Certificate;
+ ()[Ljava/security/cert/Certificate;
+getLocalPrincipal
+ ()Ljava/security/Principal;
+ ()Ljava/security/Principal;
+getPeerCertificateChain
+ ()[Ljavax/security/cert/X509Certificate;
+ ()[Ljavax/security/cert/X509Certificate;
+getPeerCertificates
+ ()[Ljava/security/cert/Certificate;
+ ()[Ljava/security/cert/Certificate;
+getPeerHost
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPeerPrincipal
+ ()Ljava/security/Principal;
+ ()Ljava/security/Principal;
+getProtocol
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSessionContext
+ ()Ljavax/net/ssl/SSLSessionContext;
+ ()Ljavax/net/ssl/SSLSessionContext;
+getValue
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getValueNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+putValue
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+removeValue
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

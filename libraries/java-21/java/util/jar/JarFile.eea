@@ -1,0 +1,55 @@
+class java/util/jar/JarFile
+
+MANIFEST_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+baseVersion
+ ()Ljava/lang/Runtime$Version;
+ ()L1java/lang/Runtime$Version;
+runtimeVersion
+ ()Ljava/lang/Runtime$Version;
+ ()L1java/lang/Runtime$Version;
+
+<init>
+ (Ljava/io/File;)V
+ (L1java/io/File;)V
+<init>
+ (Ljava/io/File;Z)V
+ (L1java/io/File;Z)V
+<init>
+ (Ljava/io/File;ZI)V
+ (L1java/io/File;ZI)V
+<init>
+ (Ljava/io/File;ZILjava/lang/Runtime$Version;)V
+ (L1java/io/File;ZIL1java/lang/Runtime$Version;)V
+<init>
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V
+<init>
+ (Ljava/lang/String;Z)V
+ (L1java/lang/String;Z)V
+entries
+ ()Ljava/util/Enumeration<Ljava/util/jar/JarEntry;>;
+ ()L1java/util/Enumeration<L1java/util/jar/JarEntry;>;
+getEntry
+ (Ljava/lang/String;)Ljava/util/zip/ZipEntry;
+ (L1java/lang/String;)L0java/util/zip/ZipEntry; # @Inherited(java.util.zip.ZipFile)
+getInputStream
+ (Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;
+ (L1java/util/zip/ZipEntry;)L1java/io/InputStream; # @Inherited(java.util.zip.ZipFile)
+getJarEntry
+ (Ljava/lang/String;)Ljava/util/jar/JarEntry;
+ (L1java/lang/String;)L0java/util/jar/JarEntry;
+getManifest
+ ()Ljava/util/jar/Manifest;
+ ()L0java/util/jar/Manifest;
+getVersion
+ ()Ljava/lang/Runtime$Version;
+ ()L1java/lang/Runtime$Version;
+stream
+ ()Ljava/util/stream/Stream<Ljava/util/jar/JarEntry;>;
+ ()L1java/util/stream/Stream<L1java/util/jar/JarEntry;>;
+versionedStream
+ ()Ljava/util/stream/Stream<Ljava/util/jar/JarEntry;>;
+ ()L1java/util/stream/Stream<L1java/util/jar/JarEntry;>;

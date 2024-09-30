@@ -1,0 +1,14 @@
+class java/awt/dnd/DropTargetAdapter
+
+dragEnter
+ (Ljava/awt/dnd/DropTargetDragEvent;)V
+ (L1java/awt/dnd/DropTargetDragEvent;)V # @Inherited(java.awt.dnd.DropTargetListener)
+dragExit
+ (Ljava/awt/dnd/DropTargetEvent;)V
+ (L1java/awt/dnd/DropTargetEvent;)V # @Inherited(java.awt.dnd.DropTargetListener)
+dragOver
+ (Ljava/awt/dnd/DropTargetDragEvent;)V
+ (L1java/awt/dnd/DropTargetDragEvent;)V # @Inherited(java.awt.dnd.DropTargetListener)
+dropActionChanged
+ (Ljava/awt/dnd/DropTargetDragEvent;)V
+ (L1java/awt/dnd/DropTargetDragEvent;)V # @Inherited(java.awt.dnd.DropTargetListener)

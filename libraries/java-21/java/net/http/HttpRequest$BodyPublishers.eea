@@ -1,0 +1,35 @@
+class java/net/http/HttpRequest$BodyPublishers
+
+concat
+ ([Ljava/net/http/HttpRequest$BodyPublisher;)Ljava/net/http/HttpRequest$BodyPublisher;
+ ([Ljava/net/http/HttpRequest$BodyPublisher;)Ljava/net/http/HttpRequest$BodyPublisher;
+fromPublisher
+ (Ljava/util/concurrent/Flow$Publisher<+Ljava/nio/ByteBuffer;>;)Ljava/net/http/HttpRequest$BodyPublisher;
+ (L1java/util/concurrent/Flow$Publisher<+Ljava/nio/ByteBuffer;>;)L1java/net/http/HttpRequest$BodyPublisher;
+fromPublisher
+ (Ljava/util/concurrent/Flow$Publisher<+Ljava/nio/ByteBuffer;>;J)Ljava/net/http/HttpRequest$BodyPublisher;
+ (L1java/util/concurrent/Flow$Publisher<+Ljava/nio/ByteBuffer;>;J)L1java/net/http/HttpRequest$BodyPublisher;
+noBody
+ ()Ljava/net/http/HttpRequest$BodyPublisher;
+ ()L1java/net/http/HttpRequest$BodyPublisher;
+ofByteArray
+ ([B)Ljava/net/http/HttpRequest$BodyPublisher;
+ ([1B)L1java/net/http/HttpRequest$BodyPublisher;
+ofByteArray
+ ([BII)Ljava/net/http/HttpRequest$BodyPublisher;
+ ([1BII)L1java/net/http/HttpRequest$BodyPublisher;
+ofByteArrays
+ (Ljava/lang/Iterable<[B>;)Ljava/net/http/HttpRequest$BodyPublisher;
+ (L1java/lang/Iterable<[B>;)L1java/net/http/HttpRequest$BodyPublisher;
+ofFile
+ (Ljava/nio/file/Path;)Ljava/net/http/HttpRequest$BodyPublisher;
+ (L1java/nio/file/Path;)L1java/net/http/HttpRequest$BodyPublisher;
+ofInputStream
+ (Ljava/util/function/Supplier<+Ljava/io/InputStream;>;)Ljava/net/http/HttpRequest$BodyPublisher;
+ (L1java/util/function/Supplier<+Ljava/io/InputStream;>;)L1java/net/http/HttpRequest$BodyPublisher;
+ofString
+ (Ljava/lang/String;)Ljava/net/http/HttpRequest$BodyPublisher;
+ (L1java/lang/String;)L1java/net/http/HttpRequest$BodyPublisher;
+ofString
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/net/http/HttpRequest$BodyPublisher;
+ (L1java/lang/String;Ljava/nio/charset/Charset;)L1java/net/http/HttpRequest$BodyPublisher;

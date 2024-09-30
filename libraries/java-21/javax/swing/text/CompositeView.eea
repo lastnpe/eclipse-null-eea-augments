@@ -1,0 +1,65 @@
+class javax/swing/text/CompositeView
+
+<init>
+ (Ljavax/swing/text/Element;)V
+ (Ljavax/swing/text/Element;)V
+childAllocation
+ (ILjava/awt/Rectangle;)V
+ (ILjava/awt/Rectangle;)V
+flipEastAndWestAtEnds
+ (ILjavax/swing/text/Position$Bias;)Z
+ (ILjavax/swing/text/Position$Bias;)Z
+getChildAllocation
+ (ILjava/awt/Shape;)Ljava/awt/Shape;
+ (ILjava/awt/Shape;)Ljava/awt/Shape;
+getInsideAllocation
+ (Ljava/awt/Shape;)Ljava/awt/Rectangle;
+ (Ljava/awt/Shape;)Ljava/awt/Rectangle;
+getNextEastWestVisualPositionFrom
+ (ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;I[Ljavax/swing/text/Position$Bias;)I
+ (ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;I[Ljavax/swing/text/Position$Bias;)I
+getNextNorthSouthVisualPositionFrom
+ (ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;I[Ljavax/swing/text/Position$Bias;)I
+ (ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;I[Ljavax/swing/text/Position$Bias;)I
+getNextVisualPositionFrom
+ (ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;I[Ljavax/swing/text/Position$Bias;)I
+ (ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;I[Ljavax/swing/text/Position$Bias;)I
+getView
+ (I)Ljavax/swing/text/View;
+ (I)Ljavax/swing/text/View;
+getViewAtPoint
+ (IILjava/awt/Rectangle;)Ljavax/swing/text/View;
+ (IILjava/awt/Rectangle;)Ljavax/swing/text/View;
+getViewAtPosition
+ (ILjava/awt/Rectangle;)Ljavax/swing/text/View;
+ (ILjava/awt/Rectangle;)Ljavax/swing/text/View;
+getViewIndex
+ (ILjavax/swing/text/Position$Bias;)I
+ (ILjavax/swing/text/Position$Bias;)I
+isAfter
+ (IILjava/awt/Rectangle;)Z
+ (IILjava/awt/Rectangle;)Z
+isBefore
+ (IILjava/awt/Rectangle;)Z
+ (IILjava/awt/Rectangle;)Z
+loadChildren
+ (Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/text/ViewFactory;)V
+modelToView
+ (ILjava/awt/Shape;Ljavax/swing/text/Position$Bias;)Ljava/awt/Shape;
+ (ILjava/awt/Shape;Ljavax/swing/text/Position$Bias;)Ljava/awt/Shape;
+modelToView
+ (ILjavax/swing/text/Position$Bias;ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;)Ljava/awt/Shape;
+ (ILjavax/swing/text/Position$Bias;ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;)Ljava/awt/Shape;
+replace
+ (II[Ljavax/swing/text/View;)V
+ (II[Ljavax/swing/text/View;)V
+setParagraphInsets
+ (Ljavax/swing/text/AttributeSet;)V
+ (Ljavax/swing/text/AttributeSet;)V
+setParent
+ (Ljavax/swing/text/View;)V
+ (Ljavax/swing/text/View;)V
+viewToModel
+ (FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I
+ (FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I

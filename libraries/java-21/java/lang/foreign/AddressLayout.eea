@@ -1,0 +1,23 @@
+class java/lang/foreign/AddressLayout
+
+targetLayout
+ ()Ljava/util/Optional<Ljava/lang/foreign/MemoryLayout;>;
+ ()Ljava/util/Optional<Ljava/lang/foreign/MemoryLayout;>;
+withByteAlignment
+ (J)Ljava/lang/foreign/AddressLayout;
+ (J)Ljava/lang/foreign/AddressLayout;
+withName
+ (Ljava/lang/String;)Ljava/lang/foreign/AddressLayout;
+ (Ljava/lang/String;)Ljava/lang/foreign/AddressLayout;
+withOrder
+ (Ljava/nio/ByteOrder;)Ljava/lang/foreign/AddressLayout;
+ (Ljava/nio/ByteOrder;)Ljava/lang/foreign/AddressLayout;
+withTargetLayout
+ (Ljava/lang/foreign/MemoryLayout;)Ljava/lang/foreign/AddressLayout;
+ (Ljava/lang/foreign/MemoryLayout;)Ljava/lang/foreign/AddressLayout;
+withoutName
+ ()Ljava/lang/foreign/AddressLayout;
+ ()Ljava/lang/foreign/AddressLayout;
+withoutTargetLayout
+ ()Ljava/lang/foreign/AddressLayout;
+ ()Ljava/lang/foreign/AddressLayout;

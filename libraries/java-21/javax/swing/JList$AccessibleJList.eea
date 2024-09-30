@@ -1,0 +1,38 @@
+class javax/swing/JList$AccessibleJList
+
+<init>
+ (Ljavax/swing/JList;)V
+ (Ljavax/swing/JList;)V
+contentsChanged
+ (Ljavax/swing/event/ListDataEvent;)V
+ (L1javax/swing/event/ListDataEvent;)V # @Inherited(javax.swing.event.ListDataListener)
+getAccessibleAt
+ (Ljava/awt/Point;)Ljavax/accessibility/Accessible;
+ (Ljava/awt/Point;)Ljavax/accessibility/Accessible;
+getAccessibleChild
+ (I)Ljavax/accessibility/Accessible;
+ (I)Ljavax/accessibility/Accessible;
+getAccessibleRole
+ ()Ljavax/accessibility/AccessibleRole;
+ ()Ljavax/accessibility/AccessibleRole;
+getAccessibleSelection
+ ()Ljavax/accessibility/AccessibleSelection;
+ ()Ljavax/accessibility/AccessibleSelection;
+getAccessibleSelection
+ (I)Ljavax/accessibility/Accessible;
+ (I)Ljavax/accessibility/Accessible;
+getAccessibleStateSet
+ ()Ljavax/accessibility/AccessibleStateSet;
+ ()Ljavax/accessibility/AccessibleStateSet;
+intervalAdded
+ (Ljavax/swing/event/ListDataEvent;)V
+ (L1javax/swing/event/ListDataEvent;)V # @Inherited(javax.swing.event.ListDataListener)
+intervalRemoved
+ (Ljavax/swing/event/ListDataEvent;)V
+ (L1javax/swing/event/ListDataEvent;)V # @Inherited(javax.swing.event.ListDataListener)
+propertyChange
+ (Ljava/beans/PropertyChangeEvent;)V
+ (L1java/beans/PropertyChangeEvent;)V # @Inherited(java.beans.PropertyChangeListener)
+valueChanged
+ (Ljavax/swing/event/ListSelectionEvent;)V
+ (L1javax/swing/event/ListSelectionEvent;)V # @Inherited(javax.swing.event.ListSelectionListener)

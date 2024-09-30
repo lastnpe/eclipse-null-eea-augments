@@ -1,0 +1,81 @@
+class javax/swing/text/StyleContext$NamedStyle
+
+changeEvent
+ Ljavax/swing/event/ChangeEvent;
+ Ljavax/swing/event/ChangeEvent;
+listenerList
+ Ljavax/swing/event/EventListenerList;
+ Ljavax/swing/event/EventListenerList;
+
+<init>
+ (Ljavax/swing/text/StyleContext;)V
+ (Ljavax/swing/text/StyleContext;)V
+<init>
+ (Ljavax/swing/text/StyleContext;Ljava/lang/String;Ljavax/swing/text/Style;)V
+ (Ljavax/swing/text/StyleContext;Ljava/lang/String;Ljavax/swing/text/Style;)V
+<init>
+ (Ljavax/swing/text/StyleContext;Ljavax/swing/text/Style;)V
+ (Ljavax/swing/text/StyleContext;Ljavax/swing/text/Style;)V
+addAttribute
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+addAttributes
+ (Ljavax/swing/text/AttributeSet;)V
+ (Ljavax/swing/text/AttributeSet;)V
+addChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V # @Inherited(javax.swing.text.Style)
+containsAttribute
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+containsAttributes
+ (Ljavax/swing/text/AttributeSet;)Z
+ (Ljavax/swing/text/AttributeSet;)Z
+copyAttributes
+ ()Ljavax/swing/text/AttributeSet;
+ ()Ljavax/swing/text/AttributeSet;
+getAttribute
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+getAttributeNames
+ ()Ljava/util/Enumeration<*>;
+ ()Ljava/util/Enumeration<*>;
+getChangeListeners
+ ()[Ljavax/swing/event/ChangeListener;
+ ()[Ljavax/swing/event/ChangeListener;
+getListeners
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getResolveParent
+ ()Ljavax/swing/text/AttributeSet;
+ ()Ljavax/swing/text/AttributeSet;
+isDefined
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+isEqual
+ (Ljavax/swing/text/AttributeSet;)Z
+ (Ljavax/swing/text/AttributeSet;)Z
+removeAttribute
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+removeAttributes
+ (Ljava/util/Enumeration<*>;)V
+ (Ljava/util/Enumeration<*>;)V
+removeAttributes
+ (Ljavax/swing/text/AttributeSet;)V
+ (Ljavax/swing/text/AttributeSet;)V
+removeChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V # @Inherited(javax.swing.text.Style)
+setName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setResolveParent
+ (Ljavax/swing/text/AttributeSet;)V
+ (Ljavax/swing/text/AttributeSet;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

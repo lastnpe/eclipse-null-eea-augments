@@ -1,0 +1,32 @@
+class javax/swing/plaf/TreeUI
+
+cancelEditing
+ (Ljavax/swing/JTree;)V
+ (Ljavax/swing/JTree;)V
+getClosestPathForLocation
+ (Ljavax/swing/JTree;II)Ljavax/swing/tree/TreePath;
+ (Ljavax/swing/JTree;II)Ljavax/swing/tree/TreePath;
+getEditingPath
+ (Ljavax/swing/JTree;)Ljavax/swing/tree/TreePath;
+ (Ljavax/swing/JTree;)Ljavax/swing/tree/TreePath;
+getPathBounds
+ (Ljavax/swing/JTree;Ljavax/swing/tree/TreePath;)Ljava/awt/Rectangle;
+ (Ljavax/swing/JTree;Ljavax/swing/tree/TreePath;)Ljava/awt/Rectangle;
+getPathForRow
+ (Ljavax/swing/JTree;I)Ljavax/swing/tree/TreePath;
+ (Ljavax/swing/JTree;I)Ljavax/swing/tree/TreePath;
+getRowCount
+ (Ljavax/swing/JTree;)I
+ (Ljavax/swing/JTree;)I
+getRowForPath
+ (Ljavax/swing/JTree;Ljavax/swing/tree/TreePath;)I
+ (Ljavax/swing/JTree;Ljavax/swing/tree/TreePath;)I
+isEditing
+ (Ljavax/swing/JTree;)Z
+ (Ljavax/swing/JTree;)Z
+startEditingAtPath
+ (Ljavax/swing/JTree;Ljavax/swing/tree/TreePath;)V
+ (Ljavax/swing/JTree;Ljavax/swing/tree/TreePath;)V
+stopEditing
+ (Ljavax/swing/JTree;)Z
+ (Ljavax/swing/JTree;)Z

@@ -1,0 +1,15 @@
+class javax/swing/text/LayoutQueue
+
+getDefaultQueue
+ ()Ljavax/swing/text/LayoutQueue;
+ ()Ljavax/swing/text/LayoutQueue;
+setDefaultQueue
+ (Ljavax/swing/text/LayoutQueue;)V
+ (Ljavax/swing/text/LayoutQueue;)V
+
+addTask
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+waitForWork
+ ()Ljava/lang/Runnable;
+ ()Ljava/lang/Runnable;

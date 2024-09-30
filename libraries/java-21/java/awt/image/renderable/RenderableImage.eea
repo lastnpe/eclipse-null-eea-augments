@@ -1,0 +1,24 @@
+class java/awt/image/renderable/RenderableImage
+
+HINTS_OBSERVED
+ Ljava/lang/String;
+ L1java/lang/String;
+
+createDefaultRendering
+ ()Ljava/awt/image/RenderedImage;
+ ()Ljava/awt/image/RenderedImage;
+createRendering
+ (Ljava/awt/image/renderable/RenderContext;)Ljava/awt/image/RenderedImage;
+ (Ljava/awt/image/renderable/RenderContext;)Ljava/awt/image/RenderedImage;
+createScaledRendering
+ (IILjava/awt/RenderingHints;)Ljava/awt/image/RenderedImage;
+ (IILjava/awt/RenderingHints;)Ljava/awt/image/RenderedImage;
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getPropertyNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getSources
+ ()Ljava/util/Vector<Ljava/awt/image/renderable/RenderableImage;>;
+ ()Ljava/util/Vector<Ljava/awt/image/renderable/RenderableImage;>;

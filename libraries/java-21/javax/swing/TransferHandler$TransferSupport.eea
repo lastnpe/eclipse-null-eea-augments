@@ -1,0 +1,20 @@
+class javax/swing/TransferHandler$TransferSupport
+
+<init>
+ (Ljava/awt/Component;Ljava/awt/datatransfer/Transferable;)V
+ (Ljava/awt/Component;Ljava/awt/datatransfer/Transferable;)V
+getComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getDataFlavors
+ ()[Ljava/awt/datatransfer/DataFlavor;
+ ()[Ljava/awt/datatransfer/DataFlavor;
+getDropLocation
+ ()Ljavax/swing/TransferHandler$DropLocation;
+ ()Ljavax/swing/TransferHandler$DropLocation;
+getTransferable
+ ()Ljava/awt/datatransfer/Transferable;
+ ()Ljava/awt/datatransfer/Transferable;
+isDataFlavorSupported
+ (Ljava/awt/datatransfer/DataFlavor;)Z
+ (Ljava/awt/datatransfer/DataFlavor;)Z

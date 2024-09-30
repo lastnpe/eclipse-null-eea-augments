@@ -1,0 +1,9 @@
+class javax/xml/crypto/KeySelector
+
+singletonKeySelector
+ (Ljava/security/Key;)Ljavax/xml/crypto/KeySelector;
+ (Ljava/security/Key;)Ljavax/xml/crypto/KeySelector;
+
+select
+ (Ljavax/xml/crypto/dsig/keyinfo/KeyInfo;Ljavax/xml/crypto/KeySelector$Purpose;Ljavax/xml/crypto/AlgorithmMethod;Ljavax/xml/crypto/XMLCryptoContext;)Ljavax/xml/crypto/KeySelectorResult;
+ (Ljavax/xml/crypto/dsig/keyinfo/KeyInfo;Ljavax/xml/crypto/KeySelector$Purpose;Ljavax/xml/crypto/AlgorithmMethod;Ljavax/xml/crypto/XMLCryptoContext;)Ljavax/xml/crypto/KeySelectorResult;

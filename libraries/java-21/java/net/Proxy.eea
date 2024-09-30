@@ -1,0 +1,21 @@
+class java/net/Proxy
+
+NO_PROXY
+ Ljava/net/Proxy;
+ L1java/net/Proxy;
+
+<init>
+ (Ljava/net/Proxy$Type;Ljava/net/SocketAddress;)V
+ (L1java/net/Proxy$Type;Ljava/net/SocketAddress;)V
+address
+ ()Ljava/net/SocketAddress;
+ ()L0java/net/SocketAddress;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+type
+ ()Ljava/net/Proxy$Type;
+ ()L1java/net/Proxy$Type;

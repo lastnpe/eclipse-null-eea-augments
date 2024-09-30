@@ -1,0 +1,101 @@
+class java/security/Provider
+
+<init>
+ (Ljava/lang/String;DLjava/lang/String;)V
+ (Ljava/lang/String;DLjava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+compute
+ (Ljava/lang/Object;Ljava/util/function/BiFunction<-Ljava/lang/Object;-Ljava/lang/Object;+Ljava/lang/Object;>;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/util/function/BiFunction<-Ljava/lang/Object;-Ljava/lang/Object;+Ljava/lang/Object;>;)Ljava/lang/Object;
+computeIfAbsent
+ (Ljava/lang/Object;Ljava/util/function/Function<-Ljava/lang/Object;+Ljava/lang/Object;>;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/util/function/Function<-Ljava/lang/Object;+Ljava/lang/Object;>;)Ljava/lang/Object;
+computeIfPresent
+ (Ljava/lang/Object;Ljava/util/function/BiFunction<-Ljava/lang/Object;-Ljava/lang/Object;+Ljava/lang/Object;>;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/util/function/BiFunction<-Ljava/lang/Object;-Ljava/lang/Object;+Ljava/lang/Object;>;)Ljava/lang/Object;
+configure
+ (Ljava/lang/String;)Ljava/security/Provider;
+ (Ljava/lang/String;)Ljava/security/Provider;
+elements
+ ()Ljava/util/Enumeration<Ljava/lang/Object;>;
+ ()L1java/util/Enumeration<L1java/lang/Object;>; # @Inherited(java.util.Properties)
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<Ljava/lang/Object;Ljava/lang/Object;>;>;
+ ()L1java/util/Set<L1java/util/Map$Entry<L1java/lang/Object;L1java/lang/Object;>;>; # @Inherited(java.util.Properties)
+forEach
+ (Ljava/util/function/BiConsumer<-Ljava/lang/Object;-Ljava/lang/Object;>;)V
+ (L1java/util/function/BiConsumer<-1Ljava/lang/Object;-1Ljava/lang/Object;>;)V # @Inherited(java.util.Properties)
+get
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (L1java/lang/Object;)L0java/lang/Object; # @Inherited(java.util.Properties)
+getInfo
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getOrDefault
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+ (L1java/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; # @Inherited(java.util.Properties)
+getProperty
+ (Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;)L0java/lang/String; # @Inherited(java.util.Properties)
+getService
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/Provider$Service;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/Provider$Service;
+getServices
+ ()Ljava/util/Set<Ljava/security/Provider$Service;>;
+ ()Ljava/util/Set<Ljava/security/Provider$Service;>;
+getVersionStr
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+keySet
+ ()Ljava/util/Set<Ljava/lang/Object;>;
+ ()L1java/util/Set<L1java/lang/Object;>; # @Inherited(java.util.Properties)
+keys
+ ()Ljava/util/Enumeration<Ljava/lang/Object;>;
+ ()L1java/util/Enumeration<L1java/lang/Object;>; # @Inherited(java.util.Properties)
+load
+ (Ljava/io/InputStream;)V
+ (L1java/io/InputStream;)V # @Inherited(java.util.Properties)
+merge
+ (Ljava/lang/Object;Ljava/lang/Object;Ljava/util/function/BiFunction<-Ljava/lang/Object;-Ljava/lang/Object;+Ljava/lang/Object;>;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/Object;Ljava/util/function/BiFunction<-Ljava/lang/Object;-Ljava/lang/Object;+Ljava/lang/Object;>;)Ljava/lang/Object;
+put
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+ (L1java/lang/Object;L1java/lang/Object;)L0java/lang/Object; # @Inherited(java.util.Properties)
+putAll
+ (Ljava/util/Map<**>;)V
+ (L1java/util/Map<*1*1>;)V # @Inherited(java.util.Properties)
+putIfAbsent
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+ (L1java/lang/Object;L1java/lang/Object;)L0java/lang/Object; # @Inherited(java.util.Properties)
+putService
+ (Ljava/security/Provider$Service;)V
+ (Ljava/security/Provider$Service;)V
+remove
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (L1java/lang/Object;)L0java/lang/Object; # @Inherited(java.util.Properties)
+remove
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+ (L1java/lang/Object;L1java/lang/Object;)Z # @Inherited(java.util.Properties)
+removeService
+ (Ljava/security/Provider$Service;)V
+ (Ljava/security/Provider$Service;)V
+replace
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+ (L1java/lang/Object;L1java/lang/Object;)L0java/lang/Object; # @Inherited(java.util.Properties)
+replace
+ (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Z
+ (L1java/lang/Object;L1java/lang/Object;L1java/lang/Object;)Z # @Inherited(java.util.Properties)
+replaceAll
+ (Ljava/util/function/BiFunction<-Ljava/lang/Object;-Ljava/lang/Object;+Ljava/lang/Object;>;)V
+ (Ljava/util/function/BiFunction<-Ljava/lang/Object;-Ljava/lang/Object;+Ljava/lang/Object;>;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.util.Properties)
+values
+ ()Ljava/util/Collection<Ljava/lang/Object;>;
+ ()L1java/util/Collection<L1java/lang/Object;>; # @Inherited(java.util.Properties)

@@ -1,0 +1,32 @@
+class javax/tools/ForwardingFileObject
+ <F::Ljavax/tools/FileObject;>
+ <F::Ljavax/tools/FileObject;>
+
+fileObject
+ TF;
+ TF;
+
+<init>
+ (TF;)V
+ (TF;)V
+getCharContent
+ (Z)Ljava/lang/CharSequence;
+ (Z)Ljava/lang/CharSequence;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+openInputStream
+ ()Ljava/io/InputStream;
+ ()L1java/io/InputStream; # @Inherited(javax.tools.FileObject)
+openOutputStream
+ ()Ljava/io/OutputStream;
+ ()L1java/io/OutputStream; # @Inherited(javax.tools.FileObject)
+openReader
+ (Z)Ljava/io/Reader;
+ (Z)Ljava/io/Reader;
+openWriter
+ ()Ljava/io/Writer;
+ ()L1java/io/Writer; # @Inherited(javax.tools.FileObject)
+toUri
+ ()Ljava/net/URI;
+ ()L1java/net/URI; # @Inherited(javax.tools.FileObject)

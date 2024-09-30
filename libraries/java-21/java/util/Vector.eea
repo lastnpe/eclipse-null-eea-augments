@@ -1,0 +1,135 @@
+class java/util/Vector
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/util/AbstractList
+ <TE;>
+ <TE;>
+super java/util/List
+ <TE;>
+ <TE;>
+
+elementData
+ [Ljava/lang/Object;
+ [Ljava/lang/Object;
+
+<init>
+ (Ljava/util/Collection<+TE;>;)V
+ (Ljava/util/Collection<+TE;>;)V
+add
+ (ITE;)V
+ (ITE;)V
+add
+ (TE;)Z
+ (TE;)Z
+addAll
+ (ILjava/util/Collection<+TE;>;)Z
+ (IL1java/util/Collection<+TE;>;)Z # @Inherited(java.util.AbstractList)
+addAll
+ (Ljava/util/Collection<+TE;>;)Z
+ (L1java/util/Collection<+TE;>;)Z # @Inherited(java.util.AbstractCollection)
+addElement
+ (TE;)V
+ (TE;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+contains
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.List)
+containsAll
+ (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.AbstractCollection)
+copyInto
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+elementAt
+ (I)TE;
+ (I)TE;
+elements
+ ()Ljava/util/Enumeration<TE;>;
+ ()Ljava/util/Enumeration<TE;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.AbstractList)
+firstElement
+ ()TE;
+ ()TE;
+forEach
+ (Ljava/util/function/Consumer<-TE;>;)V
+ (Ljava/util/function/Consumer<-TE;>;)V
+get
+ (I)TE;
+ (I)T1E;
+indexOf
+ (Ljava/lang/Object;)I
+ (L0java/lang/Object;)I # @Inherited(java.util.AbstractList)
+indexOf
+ (Ljava/lang/Object;I)I
+ (Ljava/lang/Object;I)I
+insertElementAt
+ (TE;I)V
+ (TE;I)V
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.AbstractList)
+lastElement
+ ()TE;
+ ()TE;
+lastIndexOf
+ (Ljava/lang/Object;)I
+ (L0java/lang/Object;)I # @Inherited(java.util.AbstractList)
+lastIndexOf
+ (Ljava/lang/Object;I)I
+ (Ljava/lang/Object;I)I
+listIterator
+ ()Ljava/util/ListIterator<TE;>;
+ ()L1java/util/ListIterator<TE;>; # @Inherited(java.util.AbstractList)
+listIterator
+ (I)Ljava/util/ListIterator<TE;>;
+ (I)L1java/util/ListIterator<TE;>; # @Inherited(java.util.AbstractList)
+remove
+ (I)TE;
+ (I)TE;
+remove
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+removeAll
+ (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.AbstractCollection)
+removeElement
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+removeIf
+ (Ljava/util/function/Predicate<-TE;>;)Z
+ (L1java/util/function/Predicate<-TE;>;)Z # @Inherited(java.util.Collection)
+replaceAll
+ (Ljava/util/function/UnaryOperator<TE;>;)V
+ (L1java/util/function/UnaryOperator<TE;>;)V # @Inherited(java.util.List)
+retainAll
+ (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.AbstractCollection)
+set
+ (ITE;)TE;
+ (ITE;)TE;
+setElementAt
+ (TE;I)V
+ (TE;I)V
+sort
+ (Ljava/util/Comparator<-TE;>;)V
+ (L1java/util/Comparator<-TE;>;)V # @Inherited(java.util.List)
+spliterator
+ ()Ljava/util/Spliterator<TE;>;
+ ()L1java/util/Spliterator<TE;>; # @Inherited(java.util.List)
+subList
+ (II)Ljava/util/List<TE;>;
+ (II)L1java/util/List<TE;>; # @Inherited(java.util.AbstractList)
+toArray
+ ()[Ljava/lang/Object;
+ ()[1Ljava/lang/Object; # @Inherited(java.util.AbstractCollection)
+toArray
+ <T:Ljava/lang/Object;>([TT;)[TT;
+ <T:Ljava/lang/Object;>([1TT;)[1TT; # @Inherited(java.util.AbstractCollection)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.util.AbstractCollection)

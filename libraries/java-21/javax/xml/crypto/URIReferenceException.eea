@@ -1,0 +1,26 @@
+class javax/xml/crypto/URIReferenceException
+
+<init>
+ (Ljava/lang/String;)V
+ (L0java/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+ (L0java/lang/String;L0java/lang/Throwable;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Throwable;Ljavax/xml/crypto/URIReference;)V
+ (Ljava/lang/String;Ljava/lang/Throwable;Ljavax/xml/crypto/URIReference;)V
+<init>
+ (Ljava/lang/Throwable;)V
+ (L0java/lang/Throwable;)V
+getCause
+ ()Ljava/lang/Throwable;
+ ()L0java/lang/Throwable; # @Inherited(java.lang.Throwable)
+getURIReference
+ ()Ljavax/xml/crypto/URIReference;
+ ()Ljavax/xml/crypto/URIReference;
+printStackTrace
+ (Ljava/io/PrintStream;)V
+ (L1java/io/PrintStream;)V # @Inherited(java.lang.Throwable)
+printStackTrace
+ (Ljava/io/PrintWriter;)V
+ (L1java/io/PrintWriter;)V # @Inherited(java.lang.Throwable)

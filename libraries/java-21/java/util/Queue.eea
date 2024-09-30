@@ -1,0 +1,26 @@
+class java/util/Queue
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/util/Collection
+ <TE;>
+ <TE;>
+
+add
+ (TE;)Z
+ (T1E;)Z
+element
+ ()TE;
+ ()T1E;
+offer
+ (TE;)Z
+ (T1E;)Z
+peek
+ ()TE;
+ ()T0E;
+poll
+ ()TE;
+ ()T0E;
+remove
+ ()TE;
+ ()T1E;

@@ -1,0 +1,18 @@
+class java/io/PipedInputStream
+
+buffer
+ [B
+ [1B
+
+<init>
+ (Ljava/io/PipedOutputStream;)V
+ (L1java/io/PipedOutputStream;)V
+<init>
+ (Ljava/io/PipedOutputStream;I)V
+ (L1java/io/PipedOutputStream;I)V
+connect
+ (Ljava/io/PipedOutputStream;)V
+ (L1java/io/PipedOutputStream;)V
+read
+ ([BII)I
+ ([1BII)I # @Inherited(java.io.InputStream)

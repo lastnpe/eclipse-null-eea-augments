@@ -1,0 +1,93 @@
+class javax/xml/crypto/dsig/XMLSignatureFactory
+
+getInstance
+ ()Ljavax/xml/crypto/dsig/XMLSignatureFactory;
+ ()Ljavax/xml/crypto/dsig/XMLSignatureFactory;
+getInstance
+ (Ljava/lang/String;)Ljavax/xml/crypto/dsig/XMLSignatureFactory;
+ (Ljava/lang/String;)Ljavax/xml/crypto/dsig/XMLSignatureFactory;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/crypto/dsig/XMLSignatureFactory;
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/crypto/dsig/XMLSignatureFactory;
+getInstance
+ (Ljava/lang/String;Ljava/security/Provider;)Ljavax/xml/crypto/dsig/XMLSignatureFactory;
+ (Ljava/lang/String;Ljava/security/Provider;)Ljavax/xml/crypto/dsig/XMLSignatureFactory;
+
+getKeyInfoFactory
+ ()Ljavax/xml/crypto/dsig/keyinfo/KeyInfoFactory;
+ ()Ljavax/xml/crypto/dsig/keyinfo/KeyInfoFactory;
+getMechanismType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getProvider
+ ()Ljava/security/Provider;
+ ()Ljava/security/Provider;
+getURIDereferencer
+ ()Ljavax/xml/crypto/URIDereferencer;
+ ()Ljavax/xml/crypto/URIDereferencer;
+isFeatureSupported
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+newCanonicalizationMethod
+ (Ljava/lang/String;Ljavax/xml/crypto/XMLStructure;)Ljavax/xml/crypto/dsig/CanonicalizationMethod;
+ (Ljava/lang/String;Ljavax/xml/crypto/XMLStructure;)Ljavax/xml/crypto/dsig/CanonicalizationMethod;
+newCanonicalizationMethod
+ (Ljava/lang/String;Ljavax/xml/crypto/dsig/spec/C14NMethodParameterSpec;)Ljavax/xml/crypto/dsig/CanonicalizationMethod;
+ (Ljava/lang/String;Ljavax/xml/crypto/dsig/spec/C14NMethodParameterSpec;)Ljavax/xml/crypto/dsig/CanonicalizationMethod;
+newDigestMethod
+ (Ljava/lang/String;Ljavax/xml/crypto/dsig/spec/DigestMethodParameterSpec;)Ljavax/xml/crypto/dsig/DigestMethod;
+ (Ljava/lang/String;Ljavax/xml/crypto/dsig/spec/DigestMethodParameterSpec;)Ljavax/xml/crypto/dsig/DigestMethod;
+newManifest
+ (Ljava/util/List<+Ljavax/xml/crypto/dsig/Reference;>;)Ljavax/xml/crypto/dsig/Manifest;
+ (Ljava/util/List<+Ljavax/xml/crypto/dsig/Reference;>;)Ljavax/xml/crypto/dsig/Manifest;
+newManifest
+ (Ljava/util/List<+Ljavax/xml/crypto/dsig/Reference;>;Ljava/lang/String;)Ljavax/xml/crypto/dsig/Manifest;
+ (Ljava/util/List<+Ljavax/xml/crypto/dsig/Reference;>;Ljava/lang/String;)Ljavax/xml/crypto/dsig/Manifest;
+newReference
+ (Ljava/lang/String;Ljavax/xml/crypto/dsig/DigestMethod;)Ljavax/xml/crypto/dsig/Reference;
+ (Ljava/lang/String;Ljavax/xml/crypto/dsig/DigestMethod;)Ljavax/xml/crypto/dsig/Reference;
+newReference
+ (Ljava/lang/String;Ljavax/xml/crypto/dsig/DigestMethod;Ljava/util/List<+Ljavax/xml/crypto/dsig/Transform;>;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/crypto/dsig/Reference;
+ (Ljava/lang/String;Ljavax/xml/crypto/dsig/DigestMethod;Ljava/util/List<+Ljavax/xml/crypto/dsig/Transform;>;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/crypto/dsig/Reference;
+newReference
+ (Ljava/lang/String;Ljavax/xml/crypto/dsig/DigestMethod;Ljava/util/List<+Ljavax/xml/crypto/dsig/Transform;>;Ljava/lang/String;Ljava/lang/String;[B)Ljavax/xml/crypto/dsig/Reference;
+ (Ljava/lang/String;Ljavax/xml/crypto/dsig/DigestMethod;Ljava/util/List<+Ljavax/xml/crypto/dsig/Transform;>;Ljava/lang/String;Ljava/lang/String;[B)Ljavax/xml/crypto/dsig/Reference;
+newReference
+ (Ljava/lang/String;Ljavax/xml/crypto/dsig/DigestMethod;Ljava/util/List<+Ljavax/xml/crypto/dsig/Transform;>;Ljavax/xml/crypto/Data;Ljava/util/List<+Ljavax/xml/crypto/dsig/Transform;>;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/crypto/dsig/Reference;
+ (Ljava/lang/String;Ljavax/xml/crypto/dsig/DigestMethod;Ljava/util/List<+Ljavax/xml/crypto/dsig/Transform;>;Ljavax/xml/crypto/Data;Ljava/util/List<+Ljavax/xml/crypto/dsig/Transform;>;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/crypto/dsig/Reference;
+newSignatureMethod
+ (Ljava/lang/String;Ljavax/xml/crypto/dsig/spec/SignatureMethodParameterSpec;)Ljavax/xml/crypto/dsig/SignatureMethod;
+ (Ljava/lang/String;Ljavax/xml/crypto/dsig/spec/SignatureMethodParameterSpec;)Ljavax/xml/crypto/dsig/SignatureMethod;
+newSignatureProperties
+ (Ljava/util/List<+Ljavax/xml/crypto/dsig/SignatureProperty;>;Ljava/lang/String;)Ljavax/xml/crypto/dsig/SignatureProperties;
+ (Ljava/util/List<+Ljavax/xml/crypto/dsig/SignatureProperty;>;Ljava/lang/String;)Ljavax/xml/crypto/dsig/SignatureProperties;
+newSignatureProperty
+ (Ljava/util/List<+Ljavax/xml/crypto/XMLStructure;>;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/crypto/dsig/SignatureProperty;
+ (Ljava/util/List<+Ljavax/xml/crypto/XMLStructure;>;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/crypto/dsig/SignatureProperty;
+newSignedInfo
+ (Ljavax/xml/crypto/dsig/CanonicalizationMethod;Ljavax/xml/crypto/dsig/SignatureMethod;Ljava/util/List<+Ljavax/xml/crypto/dsig/Reference;>;)Ljavax/xml/crypto/dsig/SignedInfo;
+ (Ljavax/xml/crypto/dsig/CanonicalizationMethod;Ljavax/xml/crypto/dsig/SignatureMethod;Ljava/util/List<+Ljavax/xml/crypto/dsig/Reference;>;)Ljavax/xml/crypto/dsig/SignedInfo;
+newSignedInfo
+ (Ljavax/xml/crypto/dsig/CanonicalizationMethod;Ljavax/xml/crypto/dsig/SignatureMethod;Ljava/util/List<+Ljavax/xml/crypto/dsig/Reference;>;Ljava/lang/String;)Ljavax/xml/crypto/dsig/SignedInfo;
+ (Ljavax/xml/crypto/dsig/CanonicalizationMethod;Ljavax/xml/crypto/dsig/SignatureMethod;Ljava/util/List<+Ljavax/xml/crypto/dsig/Reference;>;Ljava/lang/String;)Ljavax/xml/crypto/dsig/SignedInfo;
+newTransform
+ (Ljava/lang/String;Ljavax/xml/crypto/XMLStructure;)Ljavax/xml/crypto/dsig/Transform;
+ (Ljava/lang/String;Ljavax/xml/crypto/XMLStructure;)Ljavax/xml/crypto/dsig/Transform;
+newTransform
+ (Ljava/lang/String;Ljavax/xml/crypto/dsig/spec/TransformParameterSpec;)Ljavax/xml/crypto/dsig/Transform;
+ (Ljava/lang/String;Ljavax/xml/crypto/dsig/spec/TransformParameterSpec;)Ljavax/xml/crypto/dsig/Transform;
+newXMLObject
+ (Ljava/util/List<+Ljavax/xml/crypto/XMLStructure;>;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/crypto/dsig/XMLObject;
+ (Ljava/util/List<+Ljavax/xml/crypto/XMLStructure;>;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/crypto/dsig/XMLObject;
+newXMLSignature
+ (Ljavax/xml/crypto/dsig/SignedInfo;Ljavax/xml/crypto/dsig/keyinfo/KeyInfo;)Ljavax/xml/crypto/dsig/XMLSignature;
+ (Ljavax/xml/crypto/dsig/SignedInfo;Ljavax/xml/crypto/dsig/keyinfo/KeyInfo;)Ljavax/xml/crypto/dsig/XMLSignature;
+newXMLSignature
+ (Ljavax/xml/crypto/dsig/SignedInfo;Ljavax/xml/crypto/dsig/keyinfo/KeyInfo;Ljava/util/List<+Ljavax/xml/crypto/dsig/XMLObject;>;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/crypto/dsig/XMLSignature;
+ (Ljavax/xml/crypto/dsig/SignedInfo;Ljavax/xml/crypto/dsig/keyinfo/KeyInfo;Ljava/util/List<+Ljavax/xml/crypto/dsig/XMLObject;>;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/crypto/dsig/XMLSignature;
+unmarshalXMLSignature
+ (Ljavax/xml/crypto/XMLStructure;)Ljavax/xml/crypto/dsig/XMLSignature;
+ (Ljavax/xml/crypto/XMLStructure;)Ljavax/xml/crypto/dsig/XMLSignature;
+unmarshalXMLSignature
+ (Ljavax/xml/crypto/dsig/XMLValidateContext;)Ljavax/xml/crypto/dsig/XMLSignature;
+ (Ljavax/xml/crypto/dsig/XMLValidateContext;)Ljavax/xml/crypto/dsig/XMLSignature;

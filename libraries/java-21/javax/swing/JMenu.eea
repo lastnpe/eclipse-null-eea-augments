@@ -1,0 +1,111 @@
+class javax/swing/JMenu
+
+popupListener
+ Ljavax/swing/JMenu$WinListener;
+ Ljavax/swing/JMenu$WinListener;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+<init>
+ (Ljavax/swing/Action;)V
+ (Ljavax/swing/Action;)V
+add
+ (Ljava/awt/Component;)Ljava/awt/Component;
+ (Ljava/awt/Component;)Ljava/awt/Component;
+add
+ (Ljava/awt/Component;I)Ljava/awt/Component;
+ (Ljava/awt/Component;I)Ljava/awt/Component;
+add
+ (Ljava/lang/String;)Ljavax/swing/JMenuItem;
+ (Ljava/lang/String;)Ljavax/swing/JMenuItem;
+add
+ (Ljavax/swing/Action;)Ljavax/swing/JMenuItem;
+ (Ljavax/swing/Action;)Ljavax/swing/JMenuItem;
+add
+ (Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;
+ (Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;
+addMenuListener
+ (Ljavax/swing/event/MenuListener;)V
+ (L1javax/swing/event/MenuListener;)V
+applyComponentOrientation
+ (Ljava/awt/ComponentOrientation;)V
+ (Ljava/awt/ComponentOrientation;)V
+createActionChangeListener
+ (Ljavax/swing/JMenuItem;)Ljava/beans/PropertyChangeListener;
+ (Ljavax/swing/JMenuItem;)Ljava/beans/PropertyChangeListener;
+createActionComponent
+ (Ljavax/swing/Action;)Ljavax/swing/JMenuItem;
+ (Ljavax/swing/Action;)Ljavax/swing/JMenuItem;
+createWinListener
+ (Ljavax/swing/JPopupMenu;)Ljavax/swing/JMenu$WinListener;
+ (Ljavax/swing/JPopupMenu;)Ljavax/swing/JMenu$WinListener;
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getItem
+ (I)Ljavax/swing/JMenuItem;
+ (I)Ljavax/swing/JMenuItem;
+getMenuComponent
+ (I)Ljava/awt/Component;
+ (I)Ljava/awt/Component;
+getMenuComponents
+ ()[Ljava/awt/Component;
+ ()[Ljava/awt/Component;
+getMenuListeners
+ ()[Ljavax/swing/event/MenuListener;
+ ()[Ljavax/swing/event/MenuListener;
+getPopupMenu
+ ()Ljavax/swing/JPopupMenu;
+ ()Ljavax/swing/JPopupMenu;
+getPopupMenuOrigin
+ ()Ljava/awt/Point;
+ ()Ljava/awt/Point;
+getSubElements
+ ()[Ljavax/swing/MenuElement;
+ ()[Ljavax/swing/MenuElement;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+insert
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+insert
+ (Ljavax/swing/Action;I)Ljavax/swing/JMenuItem;
+ (Ljavax/swing/Action;I)Ljavax/swing/JMenuItem;
+insert
+ (Ljavax/swing/JMenuItem;I)Ljavax/swing/JMenuItem;
+ (Ljavax/swing/JMenuItem;I)Ljavax/swing/JMenuItem;
+isMenuComponent
+ (Ljava/awt/Component;)Z
+ (Ljava/awt/Component;)Z
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+processKeyEvent
+ (Ljava/awt/event/KeyEvent;)V
+ (Ljava/awt/event/KeyEvent;)V
+remove
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+remove
+ (Ljavax/swing/JMenuItem;)V
+ (Ljavax/swing/JMenuItem;)V
+removeMenuListener
+ (Ljavax/swing/event/MenuListener;)V
+ (L1javax/swing/event/MenuListener;)V
+setAccelerator
+ (Ljavax/swing/KeyStroke;)V
+ (Ljavax/swing/KeyStroke;)V
+setComponentOrientation
+ (Ljava/awt/ComponentOrientation;)V
+ (Ljava/awt/ComponentOrientation;)V
+setModel
+ (Ljavax/swing/ButtonModel;)V
+ (Ljavax/swing/ButtonModel;)V

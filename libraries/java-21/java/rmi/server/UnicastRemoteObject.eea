@@ -1,0 +1,27 @@
+class java/rmi/server/UnicastRemoteObject
+
+exportObject
+ (Ljava/rmi/Remote;)Ljava/rmi/server/RemoteStub;
+ (Ljava/rmi/Remote;)Ljava/rmi/server/RemoteStub;
+exportObject
+ (Ljava/rmi/Remote;I)Ljava/rmi/Remote;
+ (Ljava/rmi/Remote;I)Ljava/rmi/Remote;
+exportObject
+ (Ljava/rmi/Remote;ILjava/io/ObjectInputFilter;)Ljava/rmi/Remote;
+ (Ljava/rmi/Remote;ILjava/io/ObjectInputFilter;)Ljava/rmi/Remote;
+exportObject
+ (Ljava/rmi/Remote;ILjava/rmi/server/RMIClientSocketFactory;Ljava/rmi/server/RMIServerSocketFactory;)Ljava/rmi/Remote;
+ (Ljava/rmi/Remote;ILjava/rmi/server/RMIClientSocketFactory;Ljava/rmi/server/RMIServerSocketFactory;)Ljava/rmi/Remote;
+exportObject
+ (Ljava/rmi/Remote;ILjava/rmi/server/RMIClientSocketFactory;Ljava/rmi/server/RMIServerSocketFactory;Ljava/io/ObjectInputFilter;)Ljava/rmi/Remote;
+ (Ljava/rmi/Remote;ILjava/rmi/server/RMIClientSocketFactory;Ljava/rmi/server/RMIServerSocketFactory;Ljava/io/ObjectInputFilter;)Ljava/rmi/Remote;
+unexportObject
+ (Ljava/rmi/Remote;Z)Z
+ (Ljava/rmi/Remote;Z)Z
+
+<init>
+ (ILjava/rmi/server/RMIClientSocketFactory;Ljava/rmi/server/RMIServerSocketFactory;)V
+ (ILjava/rmi/server/RMIClientSocketFactory;Ljava/rmi/server/RMIServerSocketFactory;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)

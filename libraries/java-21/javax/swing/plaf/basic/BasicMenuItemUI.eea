@@ -1,0 +1,109 @@
+class javax/swing/plaf/basic/BasicMenuItemUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+acceleratorDelimiter
+ Ljava/lang/String;
+ Ljava/lang/String;
+acceleratorFont
+ Ljava/awt/Font;
+ Ljava/awt/Font;
+acceleratorForeground
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+acceleratorSelectionForeground
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+arrowIcon
+ Ljavax/swing/Icon;
+ Ljavax/swing/Icon;
+checkIcon
+ Ljavax/swing/Icon;
+ Ljavax/swing/Icon;
+disabledForeground
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+menuDragMouseListener
+ Ljavax/swing/event/MenuDragMouseListener;
+ Ljavax/swing/event/MenuDragMouseListener;
+menuItem
+ Ljavax/swing/JMenuItem;
+ Ljavax/swing/JMenuItem;
+menuKeyListener
+ Ljavax/swing/event/MenuKeyListener;
+ Ljavax/swing/event/MenuKeyListener;
+mouseInputListener
+ Ljavax/swing/event/MouseInputListener;
+ Ljavax/swing/event/MouseInputListener;
+propertyChangeListener
+ Ljava/beans/PropertyChangeListener;
+ Ljava/beans/PropertyChangeListener;
+selectionBackground
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+selectionForeground
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+
+createMenuDragMouseListener
+ (Ljavax/swing/JComponent;)Ljavax/swing/event/MenuDragMouseListener;
+ (Ljavax/swing/JComponent;)Ljavax/swing/event/MenuDragMouseListener;
+createMenuKeyListener
+ (Ljavax/swing/JComponent;)Ljavax/swing/event/MenuKeyListener;
+ (Ljavax/swing/JComponent;)Ljavax/swing/event/MenuKeyListener;
+createMouseInputListener
+ (Ljavax/swing/JComponent;)Ljavax/swing/event/MouseInputListener;
+ (Ljavax/swing/JComponent;)Ljavax/swing/event/MouseInputListener;
+createPropertyChangeListener
+ (Ljavax/swing/JComponent;)Ljava/beans/PropertyChangeListener;
+ (Ljavax/swing/JComponent;)Ljava/beans/PropertyChangeListener;
+doClick
+ (Ljavax/swing/MenuSelectionManager;)V
+ (Ljavax/swing/MenuSelectionManager;)V
+getMaximumSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getMinimumSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getPath
+ ()[Ljavax/swing/MenuElement;
+ ()[Ljavax/swing/MenuElement;
+getPreferredMenuItemSize
+ (Ljavax/swing/JComponent;Ljavax/swing/Icon;Ljavax/swing/Icon;I)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;Ljavax/swing/Icon;Ljavax/swing/Icon;I)Ljava/awt/Dimension;
+getPreferredSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getPropertyPrefix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+installComponents
+ (Ljavax/swing/JMenuItem;)V
+ (Ljavax/swing/JMenuItem;)V
+installUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+paint
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+paintBackground
+ (Ljava/awt/Graphics;Ljavax/swing/JMenuItem;Ljava/awt/Color;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JMenuItem;Ljava/awt/Color;)V
+paintMenuItem
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;Ljavax/swing/Icon;Ljavax/swing/Icon;Ljava/awt/Color;Ljava/awt/Color;I)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;Ljavax/swing/Icon;Ljavax/swing/Icon;Ljava/awt/Color;Ljava/awt/Color;I)V
+paintText
+ (Ljava/awt/Graphics;Ljavax/swing/JMenuItem;Ljava/awt/Rectangle;Ljava/lang/String;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JMenuItem;Ljava/awt/Rectangle;Ljava/lang/String;)V
+uninstallComponents
+ (Ljavax/swing/JMenuItem;)V
+ (Ljavax/swing/JMenuItem;)V
+uninstallUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+update
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V

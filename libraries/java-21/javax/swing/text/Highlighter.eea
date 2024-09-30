@@ -1,0 +1,23 @@
+class javax/swing/text/Highlighter
+
+addHighlight
+ (IILjavax/swing/text/Highlighter$HighlightPainter;)Ljava/lang/Object;
+ (IILjavax/swing/text/Highlighter$HighlightPainter;)Ljava/lang/Object;
+changeHighlight
+ (Ljava/lang/Object;II)V
+ (Ljava/lang/Object;II)V
+deinstall
+ (Ljavax/swing/text/JTextComponent;)V
+ (Ljavax/swing/text/JTextComponent;)V
+getHighlights
+ ()[Ljavax/swing/text/Highlighter$Highlight;
+ ()[Ljavax/swing/text/Highlighter$Highlight;
+install
+ (Ljavax/swing/text/JTextComponent;)V
+ (Ljavax/swing/text/JTextComponent;)V
+paint
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+removeHighlight
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

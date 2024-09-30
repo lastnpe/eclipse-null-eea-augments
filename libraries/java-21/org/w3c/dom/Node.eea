@@ -1,0 +1,101 @@
+class org/w3c/dom/Node
+
+appendChild
+ (Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+ (L1org/w3c/dom/Node;)L1org/w3c/dom/Node;
+cloneNode
+ (Z)Lorg/w3c/dom/Node;
+ (Z)L1org/w3c/dom/Node;
+compareDocumentPosition
+ (Lorg/w3c/dom/Node;)S
+ (Lorg/w3c/dom/Node;)S
+getAttributes
+ ()Lorg/w3c/dom/NamedNodeMap;
+ ()Lorg/w3c/dom/NamedNodeMap;
+getBaseURI
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getChildNodes
+ ()Lorg/w3c/dom/NodeList;
+ ()L1org/w3c/dom/NodeList;
+getFeature
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/lang/String;)L0java/lang/Object;
+getFirstChild
+ ()Lorg/w3c/dom/Node;
+ ()L0org/w3c/dom/Node;
+getLastChild
+ ()Lorg/w3c/dom/Node;
+ ()L0org/w3c/dom/Node;
+getLocalName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getNamespaceURI
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getNextSibling
+ ()Lorg/w3c/dom/Node;
+ ()L0org/w3c/dom/Node;
+getNodeName
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getNodeValue
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getOwnerDocument
+ ()Lorg/w3c/dom/Document;
+ ()L0org/w3c/dom/Document;
+getParentNode
+ ()Lorg/w3c/dom/Node;
+ ()L0org/w3c/dom/Node;
+getPrefix
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getPreviousSibling
+ ()Lorg/w3c/dom/Node;
+ ()L0org/w3c/dom/Node;
+getTextContent
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getUserData
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+insertBefore
+ (Lorg/w3c/dom/Node;Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+ (L1org/w3c/dom/Node;L0org/w3c/dom/Node;)L1org/w3c/dom/Node;
+isDefaultNamespace
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isEqualNode
+ (Lorg/w3c/dom/Node;)Z
+ (Lorg/w3c/dom/Node;)Z
+isSameNode
+ (Lorg/w3c/dom/Node;)Z
+ (Lorg/w3c/dom/Node;)Z
+isSupported
+ (Ljava/lang/String;Ljava/lang/String;)Z
+ (Ljava/lang/String;Ljava/lang/String;)Z
+lookupNamespaceURI
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+lookupPrefix
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+removeChild
+ (Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+ (L1org/w3c/dom/Node;)L1org/w3c/dom/Node;
+replaceChild
+ (Lorg/w3c/dom/Node;Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node;
+ (L1org/w3c/dom/Node;L1org/w3c/dom/Node;)L1org/w3c/dom/Node;
+setNodeValue
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPrefix
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setTextContent
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setUserData
+ (Ljava/lang/String;Ljava/lang/Object;Lorg/w3c/dom/UserDataHandler;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/lang/Object;Lorg/w3c/dom/UserDataHandler;)Ljava/lang/Object;

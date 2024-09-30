@@ -1,0 +1,23 @@
+class javax/management/MBeanAttributeInfo
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZ)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZ)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZLjavax/management/Descriptor;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZLjavax/management/Descriptor;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(javax.management.MBeanFeatureInfo)
+getType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

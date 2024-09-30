@@ -1,0 +1,44 @@
+class javax/swing/DefaultComboBoxModel
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super javax/swing/AbstractListModel
+ <TE;>
+ <TE;>
+super javax/swing/MutableComboBoxModel
+ <TE;>
+ <TE;>
+
+<init>
+ (Ljava/util/Vector<TE;>;)V
+ (Ljava/util/Vector<TE;>;)V
+<init>
+ ([TE;)V
+ ([TE;)V
+addAll
+ (ILjava/util/Collection<+TE;>;)V
+ (ILjava/util/Collection<+TE;>;)V
+addAll
+ (Ljava/util/Collection<+TE;>;)V
+ (Ljava/util/Collection<+TE;>;)V
+addElement
+ (TE;)V
+ (TE;)V
+getElementAt
+ (I)TE;
+ (I)T0E; # @Inherited(javax.swing.ListModel)
+getIndexOf
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+getSelectedItem
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+insertElementAt
+ (TE;I)V
+ (T0E;I)V
+removeElement
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setSelectedItem
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

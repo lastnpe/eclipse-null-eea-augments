@@ -1,0 +1,105 @@
+class java/util/prefs/Preferences
+
+importPreferences
+ (Ljava/io/InputStream;)V
+ (L1java/io/InputStream;)V
+systemNodeForPackage
+ (Ljava/lang/Class<*>;)Ljava/util/prefs/Preferences;
+ (L1java/lang/Class<*>;)L1java/util/prefs/Preferences;
+systemRoot
+ ()Ljava/util/prefs/Preferences;
+ ()L1java/util/prefs/Preferences;
+userNodeForPackage
+ (Ljava/lang/Class<*>;)Ljava/util/prefs/Preferences;
+ (L1java/lang/Class<*>;)L1java/util/prefs/Preferences;
+userRoot
+ ()Ljava/util/prefs/Preferences;
+ ()L1java/util/prefs/Preferences;
+
+absolutePath
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+addNodeChangeListener
+ (Ljava/util/prefs/NodeChangeListener;)V
+ (L1java/util/prefs/NodeChangeListener;)V
+addPreferenceChangeListener
+ (Ljava/util/prefs/PreferenceChangeListener;)V
+ (L1java/util/prefs/PreferenceChangeListener;)V
+childrenNames
+ ()[Ljava/lang/String;
+ ()[1L1java/lang/String;
+exportNode
+ (Ljava/io/OutputStream;)V
+ (L1java/io/OutputStream;)V
+exportSubtree
+ (Ljava/io/OutputStream;)V
+ (L1java/io/OutputStream;)V
+get
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;Ljava/lang/String;)Ljava/lang/String;
+getBoolean
+ (Ljava/lang/String;Z)Z
+ (L1java/lang/String;Z)Z
+getByteArray
+ (Ljava/lang/String;[B)[B
+ (L1java/lang/String;[B)[B
+getDouble
+ (Ljava/lang/String;D)D
+ (L1java/lang/String;D)D
+getFloat
+ (Ljava/lang/String;F)F
+ (L1java/lang/String;F)F
+getInt
+ (Ljava/lang/String;I)I
+ (L1java/lang/String;I)I
+getLong
+ (Ljava/lang/String;J)J
+ (L1java/lang/String;J)J
+keys
+ ()[Ljava/lang/String;
+ ()[1L1java/lang/String;
+name
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+node
+ (Ljava/lang/String;)Ljava/util/prefs/Preferences;
+ (L1java/lang/String;)L1java/util/prefs/Preferences;
+nodeExists
+ (Ljava/lang/String;)Z
+ (L1java/lang/String;)Z
+parent
+ ()Ljava/util/prefs/Preferences;
+ ()Ljava/util/prefs/Preferences;
+put
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (L1java/lang/String;Ljava/lang/String;)V
+putBoolean
+ (Ljava/lang/String;Z)V
+ (L1java/lang/String;Z)V
+putByteArray
+ (Ljava/lang/String;[B)V
+ (L1java/lang/String;[B)V
+putDouble
+ (Ljava/lang/String;D)V
+ (L1java/lang/String;D)V
+putFloat
+ (Ljava/lang/String;F)V
+ (L1java/lang/String;F)V
+putInt
+ (Ljava/lang/String;I)V
+ (L1java/lang/String;I)V
+putLong
+ (Ljava/lang/String;J)V
+ (L1java/lang/String;J)V
+remove
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V
+removeNodeChangeListener
+ (Ljava/util/prefs/NodeChangeListener;)V
+ (L1java/util/prefs/NodeChangeListener;)V
+removePreferenceChangeListener
+ (Ljava/util/prefs/PreferenceChangeListener;)V
+ (L1java/util/prefs/PreferenceChangeListener;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

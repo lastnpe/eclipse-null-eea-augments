@@ -1,0 +1,33 @@
+class java/security/KeyFactory
+
+getInstance
+ (Ljava/lang/String;)Ljava/security/KeyFactory;
+ (L1java/lang/String;)L1java/security/KeyFactory;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/KeyFactory;
+ (L1java/lang/String;L1java/lang/String;)L1java/security/KeyFactory;
+getInstance
+ (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/KeyFactory;
+ (L1java/lang/String;L1java/security/Provider;)L1java/security/KeyFactory;
+
+<init>
+ (Ljava/security/KeyFactorySpi;Ljava/security/Provider;Ljava/lang/String;)V
+ (L1java/security/KeyFactorySpi;L1java/security/Provider;L1java/lang/String;)V
+generatePrivate
+ (Ljava/security/spec/KeySpec;)Ljava/security/PrivateKey;
+ (L1java/security/spec/KeySpec;)L1java/security/PrivateKey;
+generatePublic
+ (Ljava/security/spec/KeySpec;)Ljava/security/PublicKey;
+ (L1java/security/spec/KeySpec;)L1java/security/PublicKey;
+getAlgorithm
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getKeySpec
+ <T::Ljava/security/spec/KeySpec;>(Ljava/security/Key;Ljava/lang/Class<TT;>;)TT;
+ <T::Ljava/security/spec/KeySpec;>(L1java/security/Key;L1java/lang/Class<TT;>;)T1T;
+getProvider
+ ()Ljava/security/Provider;
+ ()L1java/security/Provider;
+translateKey
+ (Ljava/security/Key;)Ljava/security/Key;
+ (L1java/security/Key;)L1java/security/Key;

@@ -1,0 +1,81 @@
+class javax/swing/text/DefaultStyledDocument
+
+buffer
+ Ljavax/swing/text/DefaultStyledDocument$ElementBuffer;
+ Ljavax/swing/text/DefaultStyledDocument$ElementBuffer;
+
+<init>
+ (Ljavax/swing/text/AbstractDocument$Content;Ljavax/swing/text/StyleContext;)V
+ (Ljavax/swing/text/AbstractDocument$Content;Ljavax/swing/text/StyleContext;)V
+<init>
+ (Ljavax/swing/text/StyleContext;)V
+ (Ljavax/swing/text/StyleContext;)V
+addDocumentListener
+ (Ljavax/swing/event/DocumentListener;)V
+ (L1javax/swing/event/DocumentListener;)V # @Inherited(javax.swing.text.AbstractDocument)
+addStyle
+ (Ljava/lang/String;Ljavax/swing/text/Style;)Ljavax/swing/text/Style;
+ (Ljava/lang/String;Ljavax/swing/text/Style;)Ljavax/swing/text/Style;
+create
+ ([Ljavax/swing/text/DefaultStyledDocument$ElementSpec;)V
+ ([Ljavax/swing/text/DefaultStyledDocument$ElementSpec;)V
+createDefaultRoot
+ ()Ljavax/swing/text/AbstractDocument$AbstractElement;
+ ()Ljavax/swing/text/AbstractDocument$AbstractElement;
+getBackground
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Color;
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Color;
+getCharacterElement
+ (I)Ljavax/swing/text/Element;
+ (I)Ljavax/swing/text/Element;
+getDefaultRootElement
+ ()Ljavax/swing/text/Element;
+ ()Ljavax/swing/text/Element;
+getFont
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Font;
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Font;
+getForeground
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Color;
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Color;
+getLogicalStyle
+ (I)Ljavax/swing/text/Style;
+ (I)Ljavax/swing/text/Style;
+getParagraphElement
+ (I)Ljavax/swing/text/Element;
+ (I)Ljavax/swing/text/Element;
+getStyle
+ (Ljava/lang/String;)Ljavax/swing/text/Style;
+ (Ljava/lang/String;)Ljavax/swing/text/Style;
+getStyleNames
+ ()Ljava/util/Enumeration<*>;
+ ()Ljava/util/Enumeration<*>;
+insert
+ (I[Ljavax/swing/text/DefaultStyledDocument$ElementSpec;)V
+ (I[Ljavax/swing/text/DefaultStyledDocument$ElementSpec;)V
+insertUpdate
+ (Ljavax/swing/text/AbstractDocument$DefaultDocumentEvent;Ljavax/swing/text/AttributeSet;)V
+ (Ljavax/swing/text/AbstractDocument$DefaultDocumentEvent;Ljavax/swing/text/AttributeSet;)V
+removeDocumentListener
+ (Ljavax/swing/event/DocumentListener;)V
+ (L1javax/swing/event/DocumentListener;)V # @Inherited(javax.swing.text.AbstractDocument)
+removeElement
+ (Ljavax/swing/text/Element;)V
+ (Ljavax/swing/text/Element;)V
+removeStyle
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+removeUpdate
+ (Ljavax/swing/text/AbstractDocument$DefaultDocumentEvent;)V
+ (Ljavax/swing/text/AbstractDocument$DefaultDocumentEvent;)V
+setCharacterAttributes
+ (IILjavax/swing/text/AttributeSet;Z)V
+ (IILjavax/swing/text/AttributeSet;Z)V
+setLogicalStyle
+ (ILjavax/swing/text/Style;)V
+ (ILjavax/swing/text/Style;)V
+setParagraphAttributes
+ (IILjavax/swing/text/AttributeSet;Z)V
+ (IILjavax/swing/text/AttributeSet;Z)V
+styleChanged
+ (Ljavax/swing/text/Style;)V
+ (Ljavax/swing/text/Style;)V

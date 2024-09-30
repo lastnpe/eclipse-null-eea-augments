@@ -1,0 +1,20 @@
+class java/util/concurrent/atomic/AtomicLongArray
+
+<init>
+ ([J)V
+ ([J)V
+accumulateAndGet
+ (IJLjava/util/function/LongBinaryOperator;)J
+ (IJLjava/util/function/LongBinaryOperator;)J
+getAndAccumulate
+ (IJLjava/util/function/LongBinaryOperator;)J
+ (IJLjava/util/function/LongBinaryOperator;)J
+getAndUpdate
+ (ILjava/util/function/LongUnaryOperator;)J
+ (ILjava/util/function/LongUnaryOperator;)J
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+updateAndGet
+ (ILjava/util/function/LongUnaryOperator;)J
+ (ILjava/util/function/LongUnaryOperator;)J

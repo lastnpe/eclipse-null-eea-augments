@@ -1,0 +1,32 @@
+class java/awt/GraphicsDevice
+
+getBestConfiguration
+ (Ljava/awt/GraphicsConfigTemplate;)Ljava/awt/GraphicsConfiguration;
+ (Ljava/awt/GraphicsConfigTemplate;)Ljava/awt/GraphicsConfiguration;
+getConfigurations
+ ()[Ljava/awt/GraphicsConfiguration;
+ ()[Ljava/awt/GraphicsConfiguration;
+getDefaultConfiguration
+ ()Ljava/awt/GraphicsConfiguration;
+ ()L1java/awt/GraphicsConfiguration;
+getDisplayMode
+ ()Ljava/awt/DisplayMode;
+ ()Ljava/awt/DisplayMode;
+getDisplayModes
+ ()[Ljava/awt/DisplayMode;
+ ()[Ljava/awt/DisplayMode;
+getFullScreenWindow
+ ()Ljava/awt/Window;
+ ()Ljava/awt/Window;
+getIDstring
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+isWindowTranslucencySupported
+ (Ljava/awt/GraphicsDevice$WindowTranslucency;)Z
+ (Ljava/awt/GraphicsDevice$WindowTranslucency;)Z
+setDisplayMode
+ (Ljava/awt/DisplayMode;)V
+ (Ljava/awt/DisplayMode;)V
+setFullScreenWindow
+ (Ljava/awt/Window;)V
+ (Ljava/awt/Window;)V

@@ -1,0 +1,51 @@
+class java/util/BitSet
+
+valueOf
+ (Ljava/nio/ByteBuffer;)Ljava/util/BitSet;
+ (L1java/nio/ByteBuffer;)L1java/util/BitSet;
+valueOf
+ (Ljava/nio/LongBuffer;)Ljava/util/BitSet;
+ (L1java/nio/LongBuffer;)L1java/util/BitSet;
+valueOf
+ ([B)Ljava/util/BitSet;
+ ([1B)L1java/util/BitSet;
+valueOf
+ ([J)Ljava/util/BitSet;
+ ([1J)L1java/util/BitSet;
+
+and
+ (Ljava/util/BitSet;)V
+ (L1java/util/BitSet;)V
+andNot
+ (Ljava/util/BitSet;)V
+ (L1java/util/BitSet;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (II)Ljava/util/BitSet;
+ (II)L1java/util/BitSet;
+intersects
+ (Ljava/util/BitSet;)Z
+ (L1java/util/BitSet;)Z
+or
+ (Ljava/util/BitSet;)V
+ (L1java/util/BitSet;)V
+stream
+ ()Ljava/util/stream/IntStream;
+ ()L1java/util/stream/IntStream;
+toByteArray
+ ()[B
+ ()[1B
+toLongArray
+ ()[J
+ ()[1J
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+xor
+ (Ljava/util/BitSet;)V
+ (L1java/util/BitSet;)V

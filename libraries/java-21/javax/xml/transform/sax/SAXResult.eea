@@ -1,0 +1,27 @@
+class javax/xml/transform/sax/SAXResult
+
+FEATURE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Lorg/xml/sax/ContentHandler;)V
+ (Lorg/xml/sax/ContentHandler;)V
+getHandler
+ ()Lorg/xml/sax/ContentHandler;
+ ()Lorg/xml/sax/ContentHandler;
+getLexicalHandler
+ ()Lorg/xml/sax/ext/LexicalHandler;
+ ()Lorg/xml/sax/ext/LexicalHandler;
+getSystemId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setHandler
+ (Lorg/xml/sax/ContentHandler;)V
+ (Lorg/xml/sax/ContentHandler;)V
+setLexicalHandler
+ (Lorg/xml/sax/ext/LexicalHandler;)V
+ (Lorg/xml/sax/ext/LexicalHandler;)V
+setSystemId
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

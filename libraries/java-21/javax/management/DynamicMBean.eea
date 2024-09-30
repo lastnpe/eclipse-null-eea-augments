@@ -1,0 +1,20 @@
+class javax/management/DynamicMBean
+
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getAttributes
+ ([Ljava/lang/String;)Ljavax/management/AttributeList;
+ ([Ljava/lang/String;)Ljavax/management/AttributeList;
+getMBeanInfo
+ ()Ljavax/management/MBeanInfo;
+ ()Ljavax/management/MBeanInfo;
+invoke
+ (Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;
+setAttribute
+ (Ljavax/management/Attribute;)V
+ (Ljavax/management/Attribute;)V
+setAttributes
+ (Ljavax/management/AttributeList;)Ljavax/management/AttributeList;
+ (Ljavax/management/AttributeList;)Ljavax/management/AttributeList;

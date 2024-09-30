@@ -1,0 +1,25 @@
+class java/util/concurrent/TimeUnit
+
+super java/lang/Enum
+ <Ljava/util/concurrent/TimeUnit;>
+ <Ljava/util/concurrent/TimeUnit;>
+
+of
+ (Ljava/time/temporal/ChronoUnit;)Ljava/util/concurrent/TimeUnit;
+ (Ljava/time/temporal/ChronoUnit;)Ljava/util/concurrent/TimeUnit;
+
+convert
+ (JLjava/util/concurrent/TimeUnit;)J
+ (JLjava/util/concurrent/TimeUnit;)J
+convert
+ (Ljava/time/Duration;)J
+ (Ljava/time/Duration;)J
+timedJoin
+ (Ljava/lang/Thread;J)V
+ (Ljava/lang/Thread;J)V
+timedWait
+ (Ljava/lang/Object;J)V
+ (Ljava/lang/Object;J)V
+toChronoUnit
+ ()Ljava/time/temporal/ChronoUnit;
+ ()Ljava/time/temporal/ChronoUnit;

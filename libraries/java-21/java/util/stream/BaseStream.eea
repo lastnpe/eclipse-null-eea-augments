@@ -1,0 +1,22 @@
+class java/util/stream/BaseStream
+ <T:Ljava/lang/Object;S::Ljava/util/stream/BaseStream<TT;TS;>;>
+ <T:Ljava/lang/Object;S::Ljava/util/stream/BaseStream<TT;TS;>;>
+
+iterator
+ ()Ljava/util/Iterator<TT;>;
+ ()L1java/util/Iterator<TT;>;
+onClose
+ (Ljava/lang/Runnable;)TS;
+ (L1java/lang/Runnable;)T1S;
+parallel
+ ()TS;
+ ()T1S;
+sequential
+ ()TS;
+ ()T1S;
+spliterator
+ ()Ljava/util/Spliterator<TT;>;
+ ()L1java/util/Spliterator<TT;>;
+unordered
+ ()TS;
+ ()T1S;

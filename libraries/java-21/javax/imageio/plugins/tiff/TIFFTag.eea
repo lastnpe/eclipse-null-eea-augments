@@ -1,0 +1,30 @@
+class javax/imageio/plugins/tiff/TIFFTag
+
+UNKNOWN_TAG_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljava/lang/String;II)V
+ (Ljava/lang/String;II)V
+<init>
+ (Ljava/lang/String;III)V
+ (Ljava/lang/String;III)V
+<init>
+ (Ljava/lang/String;ILjavax/imageio/plugins/tiff/TIFFTagSet;)V
+ (Ljava/lang/String;ILjavax/imageio/plugins/tiff/TIFFTagSet;)V
+addValueName
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getNamedValues
+ ()[I
+ ()[I
+getTagSet
+ ()Ljavax/imageio/plugins/tiff/TIFFTagSet;
+ ()Ljavax/imageio/plugins/tiff/TIFFTagSet;
+getValueName
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;

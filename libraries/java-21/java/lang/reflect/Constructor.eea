@@ -1,0 +1,52 @@
+class java/lang/reflect/Constructor
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAnnotatedReceiverType
+ ()Ljava/lang/reflect/AnnotatedType;
+ ()L0java/lang/reflect/AnnotatedType; # @Inherited(java.lang.reflect.Executable)
+getAnnotatedReturnType
+ ()Ljava/lang/reflect/AnnotatedType;
+ ()L1java/lang/reflect/AnnotatedType; # @Inherited(java.lang.reflect.Executable)
+getAnnotation
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)T0T; # @Inherited(java.lang.reflect.Executable)
+getDeclaredAnnotations
+ ()[Ljava/lang/annotation/Annotation;
+ ()[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.Executable)
+getDeclaringClass
+ ()Ljava/lang/Class<TT;>;
+ ()L1java/lang/Class<TT;>;
+getExceptionTypes
+ ()[Ljava/lang/Class<*>;
+ ()[1L1java/lang/Class<*>; # @Inherited(java.lang.reflect.Executable)
+getGenericExceptionTypes
+ ()[Ljava/lang/reflect/Type;
+ ()[1L1java/lang/reflect/Type; # @Inherited(java.lang.reflect.Executable)
+getGenericParameterTypes
+ ()[Ljava/lang/reflect/Type;
+ ()[1L1java/lang/reflect/Type; # @Inherited(java.lang.reflect.Executable)
+getName
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.reflect.Executable)
+getParameterAnnotations
+ ()[[Ljava/lang/annotation/Annotation;
+ ()[1[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.Executable)
+getParameterTypes
+ ()[Ljava/lang/Class<*>;
+ ()[1L1java/lang/Class<*>; # @Inherited(java.lang.reflect.Executable)
+getTypeParameters
+ ()[Ljava/lang/reflect/TypeVariable<Ljava/lang/reflect/Constructor<TT;>;>;
+ ()[Ljava/lang/reflect/TypeVariable<Ljava/lang/reflect/Constructor<TT;>;>;
+newInstance
+ ([Ljava/lang/Object;)TT;
+ ([Ljava/lang/Object;)T1T;
+toGenericString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.reflect.Executable)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

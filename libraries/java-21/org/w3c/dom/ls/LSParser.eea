@@ -1,0 +1,20 @@
+class org/w3c/dom/ls/LSParser
+
+getDomConfig
+ ()Lorg/w3c/dom/DOMConfiguration;
+ ()Lorg/w3c/dom/DOMConfiguration;
+getFilter
+ ()Lorg/w3c/dom/ls/LSParserFilter;
+ ()Lorg/w3c/dom/ls/LSParserFilter;
+parse
+ (Lorg/w3c/dom/ls/LSInput;)Lorg/w3c/dom/Document;
+ (Lorg/w3c/dom/ls/LSInput;)Lorg/w3c/dom/Document;
+parseURI
+ (Ljava/lang/String;)Lorg/w3c/dom/Document;
+ (Ljava/lang/String;)Lorg/w3c/dom/Document;
+parseWithContext
+ (Lorg/w3c/dom/ls/LSInput;Lorg/w3c/dom/Node;S)Lorg/w3c/dom/Node;
+ (Lorg/w3c/dom/ls/LSInput;Lorg/w3c/dom/Node;S)Lorg/w3c/dom/Node;
+setFilter
+ (Lorg/w3c/dom/ls/LSParserFilter;)V
+ (Lorg/w3c/dom/ls/LSParserFilter;)V

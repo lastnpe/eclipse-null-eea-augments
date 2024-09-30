@@ -1,0 +1,26 @@
+class java/security/cert/CertificateFactorySpi
+
+engineGenerateCRL
+ (Ljava/io/InputStream;)Ljava/security/cert/CRL;
+ (Ljava/io/InputStream;)Ljava/security/cert/CRL;
+engineGenerateCRLs
+ (Ljava/io/InputStream;)Ljava/util/Collection<+Ljava/security/cert/CRL;>;
+ (Ljava/io/InputStream;)Ljava/util/Collection<+Ljava/security/cert/CRL;>;
+engineGenerateCertPath
+ (Ljava/io/InputStream;)Ljava/security/cert/CertPath;
+ (Ljava/io/InputStream;)Ljava/security/cert/CertPath;
+engineGenerateCertPath
+ (Ljava/io/InputStream;Ljava/lang/String;)Ljava/security/cert/CertPath;
+ (Ljava/io/InputStream;Ljava/lang/String;)Ljava/security/cert/CertPath;
+engineGenerateCertPath
+ (Ljava/util/List<+Ljava/security/cert/Certificate;>;)Ljava/security/cert/CertPath;
+ (Ljava/util/List<+Ljava/security/cert/Certificate;>;)Ljava/security/cert/CertPath;
+engineGenerateCertificate
+ (Ljava/io/InputStream;)Ljava/security/cert/Certificate;
+ (Ljava/io/InputStream;)Ljava/security/cert/Certificate;
+engineGenerateCertificates
+ (Ljava/io/InputStream;)Ljava/util/Collection<+Ljava/security/cert/Certificate;>;
+ (Ljava/io/InputStream;)Ljava/util/Collection<+Ljava/security/cert/Certificate;>;
+engineGetCertPathEncodings
+ ()Ljava/util/Iterator<Ljava/lang/String;>;
+ ()Ljava/util/Iterator<Ljava/lang/String;>;

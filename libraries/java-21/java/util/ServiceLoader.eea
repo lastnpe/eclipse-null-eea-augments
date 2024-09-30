@@ -1,0 +1,33 @@
+class java/util/ServiceLoader
+ <S:Ljava/lang/Object;>
+ <S:Ljava/lang/Object;>
+
+super java/lang/Iterable
+ <TS;>
+ <TS;>
+
+load
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<TS;>;)Ljava/util/ServiceLoader<TS;>;
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<TS;>;)Ljava/util/ServiceLoader<TS;>;
+load
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<TS;>;Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader<TS;>;
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<TS;>;Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader<TS;>;
+load
+ <S:Ljava/lang/Object;>(Ljava/lang/ModuleLayer;Ljava/lang/Class<TS;>;)Ljava/util/ServiceLoader<TS;>;
+ <S:Ljava/lang/Object;>(Ljava/lang/ModuleLayer;Ljava/lang/Class<TS;>;)Ljava/util/ServiceLoader<TS;>;
+loadInstalled
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<TS;>;)Ljava/util/ServiceLoader<TS;>;
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<TS;>;)Ljava/util/ServiceLoader<TS;>;
+
+findFirst
+ ()Ljava/util/Optional<TS;>;
+ ()Ljava/util/Optional<TS;>;
+iterator
+ ()Ljava/util/Iterator<TS;>;
+ ()Ljava/util/Iterator<TS;>;
+stream
+ ()Ljava/util/stream/Stream<Ljava/util/ServiceLoader$Provider<TS;>;>;
+ ()Ljava/util/stream/Stream<Ljava/util/ServiceLoader$Provider<TS;>;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

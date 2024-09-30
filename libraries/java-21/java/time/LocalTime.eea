@@ -1,0 +1,164 @@
+class java/time/LocalTime
+
+super java/lang/Comparable
+ <Ljava/time/LocalTime;>
+ <Ljava/time/LocalTime;>
+
+MAX
+ Ljava/time/LocalTime;
+ L1java/time/LocalTime;
+MIDNIGHT
+ Ljava/time/LocalTime;
+ L1java/time/LocalTime;
+MIN
+ Ljava/time/LocalTime;
+ L1java/time/LocalTime;
+NOON
+ Ljava/time/LocalTime;
+ L1java/time/LocalTime;
+
+from
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/LocalTime;
+ (L1java/time/temporal/TemporalAccessor;)L1java/time/LocalTime;
+now
+ ()Ljava/time/LocalTime;
+ ()L1java/time/LocalTime;
+now
+ (Ljava/time/Clock;)Ljava/time/LocalTime;
+ (L1java/time/Clock;)L1java/time/LocalTime;
+now
+ (Ljava/time/ZoneId;)Ljava/time/LocalTime;
+ (L1java/time/ZoneId;)L1java/time/LocalTime;
+of
+ (II)Ljava/time/LocalTime;
+ (II)L1java/time/LocalTime;
+of
+ (III)Ljava/time/LocalTime;
+ (III)L1java/time/LocalTime;
+of
+ (IIII)Ljava/time/LocalTime;
+ (IIII)L1java/time/LocalTime;
+ofInstant
+ (Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/LocalTime;
+ (Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/LocalTime;
+ofNanoOfDay
+ (J)Ljava/time/LocalTime;
+ (J)L1java/time/LocalTime;
+ofSecondOfDay
+ (J)Ljava/time/LocalTime;
+ (J)L1java/time/LocalTime;
+parse
+ (Ljava/lang/CharSequence;)Ljava/time/LocalTime;
+ (L1java/lang/CharSequence;)L1java/time/LocalTime;
+parse
+ (Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)Ljava/time/LocalTime;
+ (L1java/lang/CharSequence;L1java/time/format/DateTimeFormatter;)L1java/time/LocalTime;
+
+adjustInto
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal; # @Inherited(java.time.temporal.TemporalAdjuster)
+atDate
+ (Ljava/time/LocalDate;)Ljava/time/LocalDateTime;
+ (L1java/time/LocalDate;)L1java/time/LocalDateTime;
+atOffset
+ (Ljava/time/ZoneOffset;)Ljava/time/OffsetTime;
+ (L1java/time/ZoneOffset;)L1java/time/OffsetTime;
+compareTo
+ (Ljava/time/LocalTime;)I
+ (L1java/time/LocalTime;)I
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+format
+ (Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;
+ (L1java/time/format/DateTimeFormatter;)L1java/lang/String;
+get
+ (Ljava/time/temporal/TemporalField;)I
+ (L1java/time/temporal/TemporalField;)I # @Inherited(java.time.temporal.TemporalAccessor)
+getLong
+ (Ljava/time/temporal/TemporalField;)J
+ (L1java/time/temporal/TemporalField;)J # @Inherited(java.time.temporal.TemporalAccessor)
+isAfter
+ (Ljava/time/LocalTime;)Z
+ (L1java/time/LocalTime;)Z
+isBefore
+ (Ljava/time/LocalTime;)Z
+ (L1java/time/LocalTime;)Z
+isSupported
+ (Ljava/time/temporal/TemporalField;)Z
+ (L1java/time/temporal/TemporalField;)Z # @Inherited(java.time.temporal.TemporalAccessor)
+isSupported
+ (Ljava/time/temporal/TemporalUnit;)Z
+ (L1java/time/temporal/TemporalUnit;)Z # @Inherited(java.time.temporal.Temporal)
+minus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/LocalTime;
+ (JL1java/time/temporal/TemporalUnit;)L1java/time/LocalTime;
+minus
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/LocalTime;
+ (L1java/time/temporal/TemporalAmount;)L1java/time/LocalTime;
+minusHours
+ (J)Ljava/time/LocalTime;
+ (J)L1java/time/LocalTime;
+minusMinutes
+ (J)Ljava/time/LocalTime;
+ (J)L1java/time/LocalTime;
+minusNanos
+ (J)Ljava/time/LocalTime;
+ (J)L1java/time/LocalTime;
+minusSeconds
+ (J)Ljava/time/LocalTime;
+ (J)L1java/time/LocalTime;
+plus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/LocalTime;
+ (JL1java/time/temporal/TemporalUnit;)L1java/time/LocalTime;
+plus
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/LocalTime;
+ (L1java/time/temporal/TemporalAmount;)L1java/time/LocalTime;
+plusHours
+ (J)Ljava/time/LocalTime;
+ (J)L1java/time/LocalTime;
+plusMinutes
+ (J)Ljava/time/LocalTime;
+ (J)L1java/time/LocalTime;
+plusNanos
+ (J)Ljava/time/LocalTime;
+ (J)L1java/time/LocalTime;
+plusSeconds
+ (J)Ljava/time/LocalTime;
+ (J)L1java/time/LocalTime;
+query
+ <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+ <R:Ljava/lang/Object;>(L1java/time/temporal/TemporalQuery<TR;>;)TR; # @Overrides(java.time.temporal.TemporalAccessor)
+range
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange; # @Inherited(java.time.temporal.TemporalAccessor)
+toEpochSecond
+ (Ljava/time/LocalDate;Ljava/time/ZoneOffset;)J
+ (Ljava/time/LocalDate;Ljava/time/ZoneOffset;)J
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+truncatedTo
+ (Ljava/time/temporal/TemporalUnit;)Ljava/time/LocalTime;
+ (L1java/time/temporal/TemporalUnit;)L1java/time/LocalTime;
+until
+ (Ljava/time/temporal/Temporal;Ljava/time/temporal/TemporalUnit;)J
+ (L1java/time/temporal/Temporal;L1java/time/temporal/TemporalUnit;)J # @Inherited(java.time.temporal.Temporal)
+with
+ (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/LocalTime;
+ (L1java/time/temporal/TemporalAdjuster;)L1java/time/LocalTime;
+with
+ (Ljava/time/temporal/TemporalField;J)Ljava/time/LocalTime;
+ (L1java/time/temporal/TemporalField;J)L1java/time/LocalTime;
+withHour
+ (I)Ljava/time/LocalTime;
+ (I)L1java/time/LocalTime;
+withMinute
+ (I)Ljava/time/LocalTime;
+ (I)L1java/time/LocalTime;
+withNano
+ (I)Ljava/time/LocalTime;
+ (I)L1java/time/LocalTime;
+withSecond
+ (I)Ljava/time/LocalTime;
+ (I)L1java/time/LocalTime;

@@ -1,0 +1,14 @@
+class java/net/http/WebSocket$Builder
+
+buildAsync
+ (Ljava/net/URI;Ljava/net/http/WebSocket$Listener;)Ljava/util/concurrent/CompletableFuture<Ljava/net/http/WebSocket;>;
+ (Ljava/net/URI;Ljava/net/http/WebSocket$Listener;)Ljava/util/concurrent/CompletableFuture<Ljava/net/http/WebSocket;>;
+connectTimeout
+ (Ljava/time/Duration;)Ljava/net/http/WebSocket$Builder;
+ (Ljava/time/Duration;)L1java/net/http/WebSocket$Builder;
+header
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/net/http/WebSocket$Builder;
+ (Ljava/lang/String;Ljava/lang/String;)L1java/net/http/WebSocket$Builder;
+subprotocols
+ (Ljava/lang/String;[Ljava/lang/String;)Ljava/net/http/WebSocket$Builder;
+ (Ljava/lang/String;[Ljava/lang/String;)L1java/net/http/WebSocket$Builder;

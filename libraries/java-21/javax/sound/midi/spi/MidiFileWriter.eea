@@ -1,0 +1,17 @@
+class javax/sound/midi/spi/MidiFileWriter
+
+getMidiFileTypes
+ ()[I
+ ()[I
+getMidiFileTypes
+ (Ljavax/sound/midi/Sequence;)[I
+ (Ljavax/sound/midi/Sequence;)[I
+isFileTypeSupported
+ (ILjavax/sound/midi/Sequence;)Z
+ (ILjavax/sound/midi/Sequence;)Z
+write
+ (Ljavax/sound/midi/Sequence;ILjava/io/File;)I
+ (Ljavax/sound/midi/Sequence;ILjava/io/File;)I
+write
+ (Ljavax/sound/midi/Sequence;ILjava/io/OutputStream;)I
+ (Ljavax/sound/midi/Sequence;ILjava/io/OutputStream;)I

@@ -1,0 +1,74 @@
+class javax/swing/JSpinner$AccessibleJSpinner
+
+<init>
+ (Ljavax/swing/JSpinner;)V
+ (Ljavax/swing/JSpinner;)V
+getAccessibleAction
+ ()Ljavax/accessibility/AccessibleAction;
+ ()Ljavax/accessibility/AccessibleAction;
+getAccessibleActionDescription
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getAccessibleChild
+ (I)Ljavax/accessibility/Accessible;
+ (I)Ljavax/accessibility/Accessible;
+getAccessibleRole
+ ()Ljavax/accessibility/AccessibleRole;
+ ()Ljavax/accessibility/AccessibleRole;
+getAccessibleText
+ ()Ljavax/accessibility/AccessibleText;
+ ()Ljavax/accessibility/AccessibleText;
+getAccessibleValue
+ ()Ljavax/accessibility/AccessibleValue;
+ ()Ljavax/accessibility/AccessibleValue;
+getAfterIndex
+ (II)Ljava/lang/String;
+ (II)Ljava/lang/String;
+getAtIndex
+ (II)Ljava/lang/String;
+ (II)Ljava/lang/String;
+getBeforeIndex
+ (II)Ljava/lang/String;
+ (II)Ljava/lang/String;
+getCharacterAttribute
+ (I)Ljavax/swing/text/AttributeSet;
+ (I)Ljavax/swing/text/AttributeSet;
+getCharacterBounds
+ (I)Ljava/awt/Rectangle;
+ (I)Ljava/awt/Rectangle;
+getCurrentAccessibleValue
+ ()Ljava/lang/Number;
+ ()Ljava/lang/Number;
+getIndexAtPoint
+ (Ljava/awt/Point;)I
+ (Ljava/awt/Point;)I
+getMaximumAccessibleValue
+ ()Ljava/lang/Number;
+ ()Ljava/lang/Number;
+getMinimumAccessibleValue
+ ()Ljava/lang/Number;
+ ()Ljava/lang/Number;
+getSelectedText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTextRange
+ (II)Ljava/lang/String;
+ (II)Ljava/lang/String;
+insertTextAtIndex
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+replaceText
+ (IILjava/lang/String;)V
+ (IILjava/lang/String;)V
+setAttributes
+ (IILjavax/swing/text/AttributeSet;)V
+ (IILjavax/swing/text/AttributeSet;)V
+setCurrentAccessibleValue
+ (Ljava/lang/Number;)Z
+ (Ljava/lang/Number;)Z
+setTextContents
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+stateChanged
+ (Ljavax/swing/event/ChangeEvent;)V
+ (L1javax/swing/event/ChangeEvent;)V # @Inherited(javax.swing.event.ChangeListener)

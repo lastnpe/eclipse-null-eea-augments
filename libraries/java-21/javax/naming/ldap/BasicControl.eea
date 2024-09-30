@@ -1,0 +1,21 @@
+class javax/naming/ldap/BasicControl
+
+id
+ Ljava/lang/String;
+ Ljava/lang/String;
+value
+ [B
+ [B
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Z[B)V
+ (Ljava/lang/String;Z[B)V
+getEncodedValue
+ ()[B
+ ()[B
+getID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

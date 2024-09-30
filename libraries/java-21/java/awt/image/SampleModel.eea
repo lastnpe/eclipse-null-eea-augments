@@ -1,0 +1,98 @@
+class java/awt/image/SampleModel
+
+createCompatibleSampleModel
+ (II)Ljava/awt/image/SampleModel;
+ (II)Ljava/awt/image/SampleModel;
+createDataBuffer
+ ()Ljava/awt/image/DataBuffer;
+ ()Ljava/awt/image/DataBuffer;
+createSubsetSampleModel
+ ([I)Ljava/awt/image/SampleModel;
+ ([I)Ljava/awt/image/SampleModel;
+getDataElements
+ (IIIILjava/lang/Object;Ljava/awt/image/DataBuffer;)Ljava/lang/Object;
+ (IIIILjava/lang/Object;Ljava/awt/image/DataBuffer;)Ljava/lang/Object;
+getDataElements
+ (IILjava/lang/Object;Ljava/awt/image/DataBuffer;)Ljava/lang/Object;
+ (IILjava/lang/Object;Ljava/awt/image/DataBuffer;)Ljava/lang/Object;
+getPixel
+ (II[DLjava/awt/image/DataBuffer;)[D
+ (II[DLjava/awt/image/DataBuffer;)[D
+getPixel
+ (II[FLjava/awt/image/DataBuffer;)[F
+ (II[FLjava/awt/image/DataBuffer;)[F
+getPixel
+ (II[ILjava/awt/image/DataBuffer;)[I
+ (II[ILjava/awt/image/DataBuffer;)[I
+getPixels
+ (IIII[DLjava/awt/image/DataBuffer;)[D
+ (IIII[DLjava/awt/image/DataBuffer;)[D
+getPixels
+ (IIII[FLjava/awt/image/DataBuffer;)[F
+ (IIII[FLjava/awt/image/DataBuffer;)[F
+getPixels
+ (IIII[ILjava/awt/image/DataBuffer;)[I
+ (IIII[ILjava/awt/image/DataBuffer;)[I
+getSample
+ (IIILjava/awt/image/DataBuffer;)I
+ (IIILjava/awt/image/DataBuffer;)I
+getSampleDouble
+ (IIILjava/awt/image/DataBuffer;)D
+ (IIILjava/awt/image/DataBuffer;)D
+getSampleFloat
+ (IIILjava/awt/image/DataBuffer;)F
+ (IIILjava/awt/image/DataBuffer;)F
+getSampleSize
+ ()[I
+ ()[I
+getSamples
+ (IIIII[DLjava/awt/image/DataBuffer;)[D
+ (IIIII[DLjava/awt/image/DataBuffer;)[D
+getSamples
+ (IIIII[FLjava/awt/image/DataBuffer;)[F
+ (IIIII[FLjava/awt/image/DataBuffer;)[F
+getSamples
+ (IIIII[ILjava/awt/image/DataBuffer;)[I
+ (IIIII[ILjava/awt/image/DataBuffer;)[I
+setDataElements
+ (IIIILjava/lang/Object;Ljava/awt/image/DataBuffer;)V
+ (IIIILjava/lang/Object;Ljava/awt/image/DataBuffer;)V
+setDataElements
+ (IILjava/lang/Object;Ljava/awt/image/DataBuffer;)V
+ (IILjava/lang/Object;Ljava/awt/image/DataBuffer;)V
+setPixel
+ (II[DLjava/awt/image/DataBuffer;)V
+ (II[DLjava/awt/image/DataBuffer;)V
+setPixel
+ (II[FLjava/awt/image/DataBuffer;)V
+ (II[FLjava/awt/image/DataBuffer;)V
+setPixel
+ (II[ILjava/awt/image/DataBuffer;)V
+ (II[ILjava/awt/image/DataBuffer;)V
+setPixels
+ (IIII[DLjava/awt/image/DataBuffer;)V
+ (IIII[DLjava/awt/image/DataBuffer;)V
+setPixels
+ (IIII[FLjava/awt/image/DataBuffer;)V
+ (IIII[FLjava/awt/image/DataBuffer;)V
+setPixels
+ (IIII[ILjava/awt/image/DataBuffer;)V
+ (IIII[ILjava/awt/image/DataBuffer;)V
+setSample
+ (IIIDLjava/awt/image/DataBuffer;)V
+ (IIIDLjava/awt/image/DataBuffer;)V
+setSample
+ (IIIFLjava/awt/image/DataBuffer;)V
+ (IIIFLjava/awt/image/DataBuffer;)V
+setSample
+ (IIIILjava/awt/image/DataBuffer;)V
+ (IIIILjava/awt/image/DataBuffer;)V
+setSamples
+ (IIIII[DLjava/awt/image/DataBuffer;)V
+ (IIIII[DLjava/awt/image/DataBuffer;)V
+setSamples
+ (IIIII[FLjava/awt/image/DataBuffer;)V
+ (IIIII[FLjava/awt/image/DataBuffer;)V
+setSamples
+ (IIIII[ILjava/awt/image/DataBuffer;)V
+ (IIIII[ILjava/awt/image/DataBuffer;)V

@@ -1,0 +1,60 @@
+class java/security/SecureRandom
+
+getInstance
+ (Ljava/lang/String;)Ljava/security/SecureRandom;
+ (L1java/lang/String;)L1java/security/SecureRandom;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/SecureRandom;
+ (L1java/lang/String;L1java/lang/String;)L1java/security/SecureRandom;
+getInstance
+ (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/SecureRandom;
+ (L1java/lang/String;L1java/security/Provider;)L1java/security/SecureRandom;
+getInstance
+ (Ljava/lang/String;Ljava/security/SecureRandomParameters;)Ljava/security/SecureRandom;
+ (L1java/lang/String;L1java/security/SecureRandomParameters;)L1java/security/SecureRandom;
+getInstance
+ (Ljava/lang/String;Ljava/security/SecureRandomParameters;Ljava/lang/String;)Ljava/security/SecureRandom;
+ (L1java/lang/String;L1java/security/SecureRandomParameters;L1java/lang/String;)L1java/security/SecureRandom;
+getInstance
+ (Ljava/lang/String;Ljava/security/SecureRandomParameters;Ljava/security/Provider;)Ljava/security/SecureRandom;
+ (L1java/lang/String;L1java/security/SecureRandomParameters;L1java/security/Provider;)L1java/security/SecureRandom;
+getInstanceStrong
+ ()Ljava/security/SecureRandom;
+ ()L1java/security/SecureRandom;
+getSeed
+ (I)[B
+ (I)[1B
+
+<init>
+ (Ljava/security/SecureRandomSpi;Ljava/security/Provider;)V
+ (L1java/security/SecureRandomSpi;L1java/security/Provider;)V
+<init>
+ ([B)V
+ ([1B)V
+generateSeed
+ (I)[B
+ (I)[1B
+getAlgorithm
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getParameters
+ ()Ljava/security/SecureRandomParameters;
+ ()L0java/security/SecureRandomParameters;
+getProvider
+ ()Ljava/security/Provider;
+ ()L1java/security/Provider;
+nextBytes
+ ([B)V
+ ([1B)V # @Inherited(java.util.Random)
+nextBytes
+ ([BLjava/security/SecureRandomParameters;)V
+ ([1BL1java/security/SecureRandomParameters;)V
+reseed
+ (Ljava/security/SecureRandomParameters;)V
+ (L1java/security/SecureRandomParameters;)V
+setSeed
+ ([B)V
+ ([1B)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

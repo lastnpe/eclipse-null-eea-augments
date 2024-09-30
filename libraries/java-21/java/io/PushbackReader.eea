@@ -1,0 +1,17 @@
+class java/io/PushbackReader
+
+<init>
+ (Ljava/io/Reader;)V
+ (L1java/io/Reader;)V
+<init>
+ (Ljava/io/Reader;I)V
+ (L1java/io/Reader;I)V
+read
+ ([CII)I
+ ([1CII)I # @Inherited(java.io.FilterReader)
+unread
+ ([C)V
+ ([1C)V
+unread
+ ([CII)V
+ ([1CII)V

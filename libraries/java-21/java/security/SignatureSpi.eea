@@ -1,0 +1,48 @@
+class java/security/SignatureSpi
+
+appRandom
+ Ljava/security/SecureRandom;
+ Ljava/security/SecureRandom;
+
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+engineGetParameter
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+engineGetParameters
+ ()Ljava/security/AlgorithmParameters;
+ ()Ljava/security/AlgorithmParameters;
+engineInitSign
+ (Ljava/security/PrivateKey;)V
+ (Ljava/security/PrivateKey;)V
+engineInitSign
+ (Ljava/security/PrivateKey;Ljava/security/SecureRandom;)V
+ (Ljava/security/PrivateKey;Ljava/security/SecureRandom;)V
+engineInitVerify
+ (Ljava/security/PublicKey;)V
+ (Ljava/security/PublicKey;)V
+engineSetParameter
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+engineSetParameter
+ (Ljava/security/spec/AlgorithmParameterSpec;)V
+ (Ljava/security/spec/AlgorithmParameterSpec;)V
+engineSign
+ ()[B
+ ()[B
+engineSign
+ ([BII)I
+ ([BII)I
+engineUpdate
+ (Ljava/nio/ByteBuffer;)V
+ (Ljava/nio/ByteBuffer;)V
+engineUpdate
+ ([BII)V
+ ([BII)V
+engineVerify
+ ([B)Z
+ ([B)Z
+engineVerify
+ ([BII)Z
+ ([BII)Z

@@ -1,0 +1,21 @@
+class javax/crypto/spec/OAEPParameterSpec
+
+DEFAULT
+ Ljavax/crypto/spec/OAEPParameterSpec;
+ L1javax/crypto/spec/OAEPParameterSpec;
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/security/spec/AlgorithmParameterSpec;Ljavax/crypto/spec/PSource;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/security/spec/AlgorithmParameterSpec;Ljavax/crypto/spec/PSource;)V
+getDigestAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMGFAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMGFParameters
+ ()Ljava/security/spec/AlgorithmParameterSpec;
+ ()Ljava/security/spec/AlgorithmParameterSpec;
+getPSource
+ ()Ljavax/crypto/spec/PSource;
+ ()Ljavax/crypto/spec/PSource;

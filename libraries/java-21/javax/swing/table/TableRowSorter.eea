@@ -1,0 +1,23 @@
+class javax/swing/table/TableRowSorter
+ <M::Ljavax/swing/table/TableModel;>
+ <M::Ljavax/swing/table/TableModel;>
+
+super javax/swing/DefaultRowSorter
+ <TM;Ljava/lang/Integer;>
+ <TM;Ljava/lang/Integer;>
+
+<init>
+ (TM;)V
+ (TM;)V
+getComparator
+ (I)Ljava/util/Comparator<*>;
+ (I)Ljava/util/Comparator<*>;
+getStringConverter
+ ()Ljavax/swing/table/TableStringConverter;
+ ()Ljavax/swing/table/TableStringConverter;
+setModel
+ (TM;)V
+ (TM;)V
+setStringConverter
+ (Ljavax/swing/table/TableStringConverter;)V
+ (Ljavax/swing/table/TableStringConverter;)V

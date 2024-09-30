@@ -1,0 +1,29 @@
+class java/lang/ScopedValue
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+callWhere
+ <T:Ljava/lang/Object;R:Ljava/lang/Object;>(Ljava/lang/ScopedValue<TT;>;TT;Ljava/util/concurrent/Callable<+TR;>;)TR;
+ <T:Ljava/lang/Object;R:Ljava/lang/Object;>(Ljava/lang/ScopedValue<TT;>;TT;Ljava/util/concurrent/Callable<+TR;>;)TR;
+getWhere
+ <T:Ljava/lang/Object;R:Ljava/lang/Object;>(Ljava/lang/ScopedValue<TT;>;TT;Ljava/util/function/Supplier<+TR;>;)TR;
+ <T:Ljava/lang/Object;R:Ljava/lang/Object;>(Ljava/lang/ScopedValue<TT;>;TT;Ljava/util/function/Supplier<+TR;>;)TR;
+newInstance
+ <T:Ljava/lang/Object;>()Ljava/lang/ScopedValue<TT;>;
+ <T:Ljava/lang/Object;>()Ljava/lang/ScopedValue<TT;>;
+runWhere
+ <T:Ljava/lang/Object;>(Ljava/lang/ScopedValue<TT;>;TT;Ljava/lang/Runnable;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/ScopedValue<TT;>;TT;Ljava/lang/Runnable;)V
+where
+ <T:Ljava/lang/Object;>(Ljava/lang/ScopedValue<TT;>;TT;)Ljava/lang/ScopedValue$Carrier;
+ <T:Ljava/lang/Object;>(Ljava/lang/ScopedValue<TT;>;TT;)Ljava/lang/ScopedValue$Carrier;
+
+get
+ ()TT;
+ ()TT;
+orElse
+ (TT;)TT;
+ (TT;)TT;
+orElseThrow
+ <X:Ljava/lang/Throwable;>(Ljava/util/function/Supplier<+TX;>;)TT;^TX;
+ <X:Ljava/lang/Throwable;>(Ljava/util/function/Supplier<+TX;>;)TT;^TX;

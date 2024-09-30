@@ -1,0 +1,101 @@
+class java/util/concurrent/ConcurrentSkipListSet
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/util/AbstractSet
+ <TE;>
+ <TE;>
+super java/util/NavigableSet
+ <TE;>
+ <TE;>
+
+<init>
+ (Ljava/util/Collection<+TE;>;)V
+ (Ljava/util/Collection<+TE;>;)V
+<init>
+ (Ljava/util/Comparator<-TE;>;)V
+ (Ljava/util/Comparator<-TE;>;)V
+<init>
+ (Ljava/util/SortedSet<TE;>;)V
+ (Ljava/util/SortedSet<TE;>;)V
+add
+ (TE;)Z
+ (TE;)Z
+addFirst
+ (TE;)V
+ (TE;)V
+addLast
+ (TE;)V
+ (TE;)V
+ceiling
+ (TE;)TE;
+ (TE;)T0E; # @Inherited(java.util.NavigableSet)
+clone
+ ()Ljava/util/concurrent/ConcurrentSkipListSet<TE;>;
+ ()Ljava/util/concurrent/ConcurrentSkipListSet<TE;>;
+comparator
+ ()Ljava/util/Comparator<-TE;>;
+ ()L0java/util/Comparator<-TE;>; # @Inherited(java.util.SortedSet)
+contains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+descendingIterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.NavigableSet)
+descendingSet
+ ()Ljava/util/NavigableSet<TE;>;
+ ()L1java/util/NavigableSet<TE;>; # @Inherited(java.util.NavigableSet)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.AbstractSet)
+first
+ ()TE;
+ ()TE;
+floor
+ (TE;)TE;
+ (TE;)T0E; # @Inherited(java.util.NavigableSet)
+headSet
+ (TE;)Ljava/util/NavigableSet<TE;>;
+ (TE;)Ljava/util/NavigableSet<TE;>;
+headSet
+ (TE;Z)Ljava/util/NavigableSet<TE;>;
+ (TE;Z)L1java/util/NavigableSet<TE;>; # @Inherited(java.util.NavigableSet)
+higher
+ (TE;)TE;
+ (TE;)T0E; # @Inherited(java.util.NavigableSet)
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.AbstractCollection)
+last
+ ()TE;
+ ()TE;
+lower
+ (TE;)TE;
+ (TE;)T0E; # @Inherited(java.util.NavigableSet)
+pollFirst
+ ()TE;
+ ()TE;
+pollLast
+ ()TE;
+ ()TE;
+remove
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+removeAll
+ (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.AbstractSet)
+spliterator
+ ()Ljava/util/Spliterator<TE;>;
+ ()L1java/util/Spliterator<TE;>; # @Inherited(java.util.SortedSet)
+subSet
+ (TE;TE;)Ljava/util/NavigableSet<TE;>;
+ (TE;TE;)Ljava/util/NavigableSet<TE;>;
+subSet
+ (TE;ZTE;Z)Ljava/util/NavigableSet<TE;>;
+ (TE;ZTE;Z)L1java/util/NavigableSet<TE;>; # @Inherited(java.util.NavigableSet)
+tailSet
+ (TE;)Ljava/util/NavigableSet<TE;>;
+ (TE;)Ljava/util/NavigableSet<TE;>;
+tailSet
+ (TE;Z)Ljava/util/NavigableSet<TE;>;
+ (TE;Z)L1java/util/NavigableSet<TE;>; # @Inherited(java.util.NavigableSet)

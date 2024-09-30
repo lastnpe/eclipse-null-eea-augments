@@ -1,0 +1,48 @@
+class java/net/DatagramSocketImpl
+
+fd
+ Ljava/io/FileDescriptor;
+ Ljava/io/FileDescriptor;
+
+bind
+ (ILjava/net/InetAddress;)V
+ (ILjava/net/InetAddress;)V
+connect
+ (Ljava/net/InetAddress;I)V
+ (Ljava/net/InetAddress;I)V
+getFileDescriptor
+ ()Ljava/io/FileDescriptor;
+ ()Ljava/io/FileDescriptor;
+getOption
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;)TT;
+join
+ (Ljava/net/InetAddress;)V
+ (Ljava/net/InetAddress;)V
+joinGroup
+ (Ljava/net/SocketAddress;Ljava/net/NetworkInterface;)V
+ (Ljava/net/SocketAddress;Ljava/net/NetworkInterface;)V
+leave
+ (Ljava/net/InetAddress;)V
+ (Ljava/net/InetAddress;)V
+leaveGroup
+ (Ljava/net/SocketAddress;Ljava/net/NetworkInterface;)V
+ (Ljava/net/SocketAddress;Ljava/net/NetworkInterface;)V
+peek
+ (Ljava/net/InetAddress;)I
+ (Ljava/net/InetAddress;)I
+peekData
+ (Ljava/net/DatagramPacket;)I
+ (Ljava/net/DatagramPacket;)I
+receive
+ (Ljava/net/DatagramPacket;)V
+ (Ljava/net/DatagramPacket;)V
+send
+ (Ljava/net/DatagramPacket;)V
+ (Ljava/net/DatagramPacket;)V
+setOption
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)V
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)V
+supportedOptions
+ ()Ljava/util/Set<Ljava/net/SocketOption<*>;>;
+ ()Ljava/util/Set<Ljava/net/SocketOption<*>;>;

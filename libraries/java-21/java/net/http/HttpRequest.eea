@@ -1,0 +1,33 @@
+class java/net/http/HttpRequest
+
+newBuilder
+ ()Ljava/net/http/HttpRequest$Builder;
+ ()Ljava/net/http/HttpRequest$Builder;
+newBuilder
+ (Ljava/net/URI;)Ljava/net/http/HttpRequest$Builder;
+ (Ljava/net/URI;)Ljava/net/http/HttpRequest$Builder;
+newBuilder
+ (Ljava/net/http/HttpRequest;Ljava/util/function/BiPredicate<Ljava/lang/String;Ljava/lang/String;>;)Ljava/net/http/HttpRequest$Builder;
+ (Ljava/net/http/HttpRequest;Ljava/util/function/BiPredicate<Ljava/lang/String;Ljava/lang/String;>;)Ljava/net/http/HttpRequest$Builder;
+
+bodyPublisher
+ ()Ljava/util/Optional<Ljava/net/http/HttpRequest$BodyPublisher;>;
+ ()Ljava/util/Optional<Ljava/net/http/HttpRequest$BodyPublisher;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+headers
+ ()Ljava/net/http/HttpHeaders;
+ ()Ljava/net/http/HttpHeaders;
+method
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+timeout
+ ()Ljava/util/Optional<Ljava/time/Duration;>;
+ ()Ljava/util/Optional<Ljava/time/Duration;>;
+uri
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+version
+ ()Ljava/util/Optional<Ljava/net/http/HttpClient$Version;>;
+ ()Ljava/util/Optional<Ljava/net/http/HttpClient$Version;>;

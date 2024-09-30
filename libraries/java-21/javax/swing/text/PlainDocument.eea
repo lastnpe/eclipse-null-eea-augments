@@ -1,0 +1,30 @@
+class javax/swing/text/PlainDocument
+
+lineLimitAttribute
+ Ljava/lang/String;
+ L1java/lang/String;
+tabSizeAttribute
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljavax/swing/text/AbstractDocument$Content;)V
+ (Ljavax/swing/text/AbstractDocument$Content;)V
+createDefaultRoot
+ ()Ljavax/swing/text/AbstractDocument$AbstractElement;
+ ()Ljavax/swing/text/AbstractDocument$AbstractElement;
+getDefaultRootElement
+ ()Ljavax/swing/text/Element;
+ ()Ljavax/swing/text/Element;
+getParagraphElement
+ (I)Ljavax/swing/text/Element;
+ (I)Ljavax/swing/text/Element;
+insertString
+ (ILjava/lang/String;Ljavax/swing/text/AttributeSet;)V
+ (ILjava/lang/String;Ljavax/swing/text/AttributeSet;)V
+insertUpdate
+ (Ljavax/swing/text/AbstractDocument$DefaultDocumentEvent;Ljavax/swing/text/AttributeSet;)V
+ (Ljavax/swing/text/AbstractDocument$DefaultDocumentEvent;Ljavax/swing/text/AttributeSet;)V
+removeUpdate
+ (Ljavax/swing/text/AbstractDocument$DefaultDocumentEvent;)V
+ (Ljavax/swing/text/AbstractDocument$DefaultDocumentEvent;)V

@@ -1,0 +1,17 @@
+class java/io/ObjectInputFilter$Config
+
+createFilter
+ (Ljava/lang/String;)Ljava/io/ObjectInputFilter;
+ (L1java/lang/String;)L1java/io/ObjectInputFilter;
+getSerialFilter
+ ()Ljava/io/ObjectInputFilter;
+ ()L0java/io/ObjectInputFilter;
+getSerialFilterFactory
+ ()Ljava/util/function/BinaryOperator<Ljava/io/ObjectInputFilter;>;
+ ()Ljava/util/function/BinaryOperator<Ljava/io/ObjectInputFilter;>;
+setSerialFilter
+ (Ljava/io/ObjectInputFilter;)V
+ (L1java/io/ObjectInputFilter;)V
+setSerialFilterFactory
+ (Ljava/util/function/BinaryOperator<Ljava/io/ObjectInputFilter;>;)V
+ (Ljava/util/function/BinaryOperator<Ljava/io/ObjectInputFilter;>;)V

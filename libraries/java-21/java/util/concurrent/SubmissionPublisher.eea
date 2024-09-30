@@ -1,0 +1,44 @@
+class java/util/concurrent/SubmissionPublisher
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super java/util/concurrent/Flow$Publisher
+ <TT;>
+ <TT;>
+
+<init>
+ (Ljava/util/concurrent/Executor;I)V
+ (Ljava/util/concurrent/Executor;I)V
+<init>
+ (Ljava/util/concurrent/Executor;ILjava/util/function/BiConsumer<-Ljava/util/concurrent/Flow$Subscriber<-TT;>;-Ljava/lang/Throwable;>;)V
+ (Ljava/util/concurrent/Executor;ILjava/util/function/BiConsumer<-Ljava/util/concurrent/Flow$Subscriber<-TT;>;-Ljava/lang/Throwable;>;)V
+closeExceptionally
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+consume
+ (Ljava/util/function/Consumer<-TT;>;)Ljava/util/concurrent/CompletableFuture<Ljava/lang/Void;>;
+ (Ljava/util/function/Consumer<-TT;>;)Ljava/util/concurrent/CompletableFuture<Ljava/lang/Void;>;
+getClosedException
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
+getExecutor
+ ()Ljava/util/concurrent/Executor;
+ ()Ljava/util/concurrent/Executor;
+getSubscribers
+ ()Ljava/util/List<Ljava/util/concurrent/Flow$Subscriber<-TT;>;>;
+ ()Ljava/util/List<Ljava/util/concurrent/Flow$Subscriber<-TT;>;>;
+isSubscribed
+ (Ljava/util/concurrent/Flow$Subscriber<-TT;>;)Z
+ (Ljava/util/concurrent/Flow$Subscriber<-TT;>;)Z
+offer
+ (TT;JLjava/util/concurrent/TimeUnit;Ljava/util/function/BiPredicate<Ljava/util/concurrent/Flow$Subscriber<-TT;>;-TT;>;)I
+ (TT;JLjava/util/concurrent/TimeUnit;Ljava/util/function/BiPredicate<Ljava/util/concurrent/Flow$Subscriber<-TT;>;-TT;>;)I
+offer
+ (TT;Ljava/util/function/BiPredicate<Ljava/util/concurrent/Flow$Subscriber<-TT;>;-TT;>;)I
+ (TT;Ljava/util/function/BiPredicate<Ljava/util/concurrent/Flow$Subscriber<-TT;>;-TT;>;)I
+submit
+ (TT;)I
+ (TT;)I
+subscribe
+ (Ljava/util/concurrent/Flow$Subscriber<-TT;>;)V
+ (L1java/util/concurrent/Flow$Subscriber<-TT;>;)V # @Inherited(java.util.concurrent.Flow$Publisher)

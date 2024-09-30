@@ -1,0 +1,32 @@
+class java/sql/Clob
+
+getAsciiStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getCharacterStream
+ ()Ljava/io/Reader;
+ ()Ljava/io/Reader;
+getCharacterStream
+ (JJ)Ljava/io/Reader;
+ (JJ)Ljava/io/Reader;
+getSubString
+ (JI)Ljava/lang/String;
+ (JI)Ljava/lang/String;
+position
+ (Ljava/lang/String;J)J
+ (Ljava/lang/String;J)J
+position
+ (Ljava/sql/Clob;J)J
+ (Ljava/sql/Clob;J)J
+setAsciiStream
+ (J)Ljava/io/OutputStream;
+ (J)Ljava/io/OutputStream;
+setCharacterStream
+ (J)Ljava/io/Writer;
+ (J)Ljava/io/Writer;
+setString
+ (JLjava/lang/String;)I
+ (JLjava/lang/String;)I
+setString
+ (JLjava/lang/String;II)I
+ (JLjava/lang/String;II)I

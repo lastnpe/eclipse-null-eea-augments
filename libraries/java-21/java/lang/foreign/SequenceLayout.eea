@@ -1,0 +1,23 @@
+class java/lang/foreign/SequenceLayout
+
+elementLayout
+ ()Ljava/lang/foreign/MemoryLayout;
+ ()Ljava/lang/foreign/MemoryLayout;
+flatten
+ ()Ljava/lang/foreign/SequenceLayout;
+ ()Ljava/lang/foreign/SequenceLayout;
+reshape
+ ([J)Ljava/lang/foreign/SequenceLayout;
+ ([J)Ljava/lang/foreign/SequenceLayout;
+withByteAlignment
+ (J)Ljava/lang/foreign/SequenceLayout;
+ (J)Ljava/lang/foreign/SequenceLayout;
+withElementCount
+ (J)Ljava/lang/foreign/SequenceLayout;
+ (J)Ljava/lang/foreign/SequenceLayout;
+withName
+ (Ljava/lang/String;)Ljava/lang/foreign/SequenceLayout;
+ (Ljava/lang/String;)Ljava/lang/foreign/SequenceLayout;
+withoutName
+ ()Ljava/lang/foreign/MemoryLayout;
+ ()Ljava/lang/foreign/MemoryLayout;

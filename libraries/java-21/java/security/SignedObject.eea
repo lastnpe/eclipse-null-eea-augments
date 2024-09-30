@@ -1,0 +1,17 @@
+class java/security/SignedObject
+
+<init>
+ (Ljava/io/Serializable;Ljava/security/PrivateKey;Ljava/security/Signature;)V
+ (Ljava/io/Serializable;Ljava/security/PrivateKey;Ljava/security/Signature;)V
+getAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getObject
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getSignature
+ ()[B
+ ()[B
+verify
+ (Ljava/security/PublicKey;Ljava/security/Signature;)Z
+ (Ljava/security/PublicKey;Ljava/security/Signature;)Z

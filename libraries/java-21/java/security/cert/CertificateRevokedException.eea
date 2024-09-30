@@ -1,0 +1,23 @@
+class java/security/cert/CertificateRevokedException
+
+<init>
+ (Ljava/util/Date;Ljava/security/cert/CRLReason;Ljavax/security/auth/x500/X500Principal;Ljava/util/Map<Ljava/lang/String;Ljava/security/cert/Extension;>;)V
+ (Ljava/util/Date;Ljava/security/cert/CRLReason;Ljavax/security/auth/x500/X500Principal;Ljava/util/Map<Ljava/lang/String;Ljava/security/cert/Extension;>;)V
+getAuthorityName
+ ()Ljavax/security/auth/x500/X500Principal;
+ ()Ljavax/security/auth/x500/X500Principal;
+getExtensions
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/security/cert/Extension;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/security/cert/Extension;>;
+getInvalidityDate
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+getMessage
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(java.lang.Throwable)
+getRevocationDate
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+getRevocationReason
+ ()Ljava/security/cert/CRLReason;
+ ()Ljava/security/cert/CRLReason;

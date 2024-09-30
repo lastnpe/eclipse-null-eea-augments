@@ -1,0 +1,61 @@
+class javax/swing/plaf/metal/MetalTabbedPaneUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+selectColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+selectHighlight
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+tabAreaBackground
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+
+createLayoutManager
+ ()Ljava/awt/LayoutManager;
+ ()Ljava/awt/LayoutManager;
+getColorForGap
+ (III)Ljava/awt/Color;
+ (III)Ljava/awt/Color;
+paint
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+paintBottomTabBorder
+ (ILjava/awt/Graphics;IIIIIIZ)V
+ (ILjava/awt/Graphics;IIIIIIZ)V
+paintContentBorderBottomEdge
+ (Ljava/awt/Graphics;IIIIII)V
+ (Ljava/awt/Graphics;IIIIII)V
+paintContentBorderLeftEdge
+ (Ljava/awt/Graphics;IIIIII)V
+ (Ljava/awt/Graphics;IIIIII)V
+paintContentBorderRightEdge
+ (Ljava/awt/Graphics;IIIIII)V
+ (Ljava/awt/Graphics;IIIIII)V
+paintContentBorderTopEdge
+ (Ljava/awt/Graphics;IIIIII)V
+ (Ljava/awt/Graphics;IIIIII)V
+paintFocusIndicator
+ (Ljava/awt/Graphics;I[Ljava/awt/Rectangle;ILjava/awt/Rectangle;Ljava/awt/Rectangle;Z)V
+ (Ljava/awt/Graphics;I[Ljava/awt/Rectangle;ILjava/awt/Rectangle;Ljava/awt/Rectangle;Z)V
+paintLeftTabBorder
+ (ILjava/awt/Graphics;IIIIIIZ)V
+ (ILjava/awt/Graphics;IIIIIIZ)V
+paintRightTabBorder
+ (ILjava/awt/Graphics;IIIIIIZ)V
+ (ILjava/awt/Graphics;IIIIIIZ)V
+paintTabBackground
+ (Ljava/awt/Graphics;IIIIIIZ)V
+ (Ljava/awt/Graphics;IIIIIIZ)V
+paintTabBorder
+ (Ljava/awt/Graphics;IIIIIIZ)V
+ (Ljava/awt/Graphics;IIIIIIZ)V
+paintTopTabBorder
+ (ILjava/awt/Graphics;IIIIIIZ)V
+ (ILjava/awt/Graphics;IIIIIIZ)V
+update
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V

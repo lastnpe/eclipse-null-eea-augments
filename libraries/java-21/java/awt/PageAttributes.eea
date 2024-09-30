@@ -1,0 +1,56 @@
+class java/awt/PageAttributes
+
+<init>
+ (Ljava/awt/PageAttributes$ColorType;Ljava/awt/PageAttributes$MediaType;Ljava/awt/PageAttributes$OrientationRequestedType;Ljava/awt/PageAttributes$OriginType;Ljava/awt/PageAttributes$PrintQualityType;[I)V
+ (Ljava/awt/PageAttributes$ColorType;Ljava/awt/PageAttributes$MediaType;Ljava/awt/PageAttributes$OrientationRequestedType;Ljava/awt/PageAttributes$OriginType;Ljava/awt/PageAttributes$PrintQualityType;[I)V
+<init>
+ (Ljava/awt/PageAttributes;)V
+ (Ljava/awt/PageAttributes;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getColor
+ ()Ljava/awt/PageAttributes$ColorType;
+ ()Ljava/awt/PageAttributes$ColorType;
+getMedia
+ ()Ljava/awt/PageAttributes$MediaType;
+ ()Ljava/awt/PageAttributes$MediaType;
+getOrientationRequested
+ ()Ljava/awt/PageAttributes$OrientationRequestedType;
+ ()Ljava/awt/PageAttributes$OrientationRequestedType;
+getOrigin
+ ()Ljava/awt/PageAttributes$OriginType;
+ ()Ljava/awt/PageAttributes$OriginType;
+getPrintQuality
+ ()Ljava/awt/PageAttributes$PrintQualityType;
+ ()Ljava/awt/PageAttributes$PrintQualityType;
+getPrinterResolution
+ ()[I
+ ()[I
+set
+ (Ljava/awt/PageAttributes;)V
+ (Ljava/awt/PageAttributes;)V
+setColor
+ (Ljava/awt/PageAttributes$ColorType;)V
+ (Ljava/awt/PageAttributes$ColorType;)V
+setMedia
+ (Ljava/awt/PageAttributes$MediaType;)V
+ (Ljava/awt/PageAttributes$MediaType;)V
+setOrientationRequested
+ (Ljava/awt/PageAttributes$OrientationRequestedType;)V
+ (Ljava/awt/PageAttributes$OrientationRequestedType;)V
+setOrigin
+ (Ljava/awt/PageAttributes$OriginType;)V
+ (Ljava/awt/PageAttributes$OriginType;)V
+setPrintQuality
+ (Ljava/awt/PageAttributes$PrintQualityType;)V
+ (Ljava/awt/PageAttributes$PrintQualityType;)V
+setPrinterResolution
+ ([I)V
+ ([I)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

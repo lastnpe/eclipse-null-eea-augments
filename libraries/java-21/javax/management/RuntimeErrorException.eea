@@ -1,0 +1,14 @@
+class javax/management/RuntimeErrorException
+
+<init>
+ (Ljava/lang/Error;)V
+ (Ljava/lang/Error;)V
+<init>
+ (Ljava/lang/Error;Ljava/lang/String;)V
+ (Ljava/lang/Error;Ljava/lang/String;)V
+getCause
+ ()Ljava/lang/Throwable;
+ ()L0java/lang/Throwable; # @Inherited(java.lang.Throwable)
+getTargetError
+ ()Ljava/lang/Error;
+ ()Ljava/lang/Error;

@@ -1,0 +1,26 @@
+class javax/swing/text/html/parser/DocumentParser
+
+<init>
+ (Ljavax/swing/text/html/parser/DTD;)V
+ (Ljavax/swing/text/html/parser/DTD;)V
+handleComment
+ ([C)V
+ ([C)V
+handleEmptyTag
+ (Ljavax/swing/text/html/parser/TagElement;)V
+ (Ljavax/swing/text/html/parser/TagElement;)V
+handleEndTag
+ (Ljavax/swing/text/html/parser/TagElement;)V
+ (Ljavax/swing/text/html/parser/TagElement;)V
+handleError
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+handleStartTag
+ (Ljavax/swing/text/html/parser/TagElement;)V
+ (Ljavax/swing/text/html/parser/TagElement;)V
+handleText
+ ([C)V
+ ([C)V
+parse
+ (Ljava/io/Reader;Ljavax/swing/text/html/HTMLEditorKit$ParserCallback;Z)V
+ (Ljava/io/Reader;Ljavax/swing/text/html/HTMLEditorKit$ParserCallback;Z)V

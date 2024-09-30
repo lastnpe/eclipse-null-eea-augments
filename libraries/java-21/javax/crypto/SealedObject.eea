@@ -1,0 +1,24 @@
+class javax/crypto/SealedObject
+
+encodedParams
+ [B
+ [B
+
+<init>
+ (Ljava/io/Serializable;Ljavax/crypto/Cipher;)V
+ (Ljava/io/Serializable;Ljavax/crypto/Cipher;)V
+<init>
+ (Ljavax/crypto/SealedObject;)V
+ (Ljavax/crypto/SealedObject;)V
+getAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getObject
+ (Ljava/security/Key;)Ljava/lang/Object;
+ (Ljava/security/Key;)Ljava/lang/Object;
+getObject
+ (Ljava/security/Key;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/security/Key;Ljava/lang/String;)Ljava/lang/Object;
+getObject
+ (Ljavax/crypto/Cipher;)Ljava/lang/Object;
+ (Ljavax/crypto/Cipher;)Ljava/lang/Object;

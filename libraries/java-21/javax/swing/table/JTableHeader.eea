@@ -1,0 +1,96 @@
+class javax/swing/table/JTableHeader
+
+columnModel
+ Ljavax/swing/table/TableColumnModel;
+ Ljavax/swing/table/TableColumnModel;
+draggedColumn
+ Ljavax/swing/table/TableColumn;
+ Ljavax/swing/table/TableColumn;
+resizingColumn
+ Ljavax/swing/table/TableColumn;
+ Ljavax/swing/table/TableColumn;
+table
+ Ljavax/swing/JTable;
+ Ljavax/swing/JTable;
+
+<init>
+ (Ljavax/swing/table/TableColumnModel;)V
+ (Ljavax/swing/table/TableColumnModel;)V
+columnAdded
+ (Ljavax/swing/event/TableColumnModelEvent;)V
+ (L1javax/swing/event/TableColumnModelEvent;)V # @Inherited(javax.swing.event.TableColumnModelListener)
+columnAtPoint
+ (Ljava/awt/Point;)I
+ (Ljava/awt/Point;)I
+columnMarginChanged
+ (Ljavax/swing/event/ChangeEvent;)V
+ (L1javax/swing/event/ChangeEvent;)V # @Inherited(javax.swing.event.TableColumnModelListener)
+columnMoved
+ (Ljavax/swing/event/TableColumnModelEvent;)V
+ (L1javax/swing/event/TableColumnModelEvent;)V # @Inherited(javax.swing.event.TableColumnModelListener)
+columnRemoved
+ (Ljavax/swing/event/TableColumnModelEvent;)V
+ (L1javax/swing/event/TableColumnModelEvent;)V # @Inherited(javax.swing.event.TableColumnModelListener)
+columnSelectionChanged
+ (Ljavax/swing/event/ListSelectionEvent;)V
+ (L1javax/swing/event/ListSelectionEvent;)V # @Inherited(javax.swing.event.TableColumnModelListener)
+createDefaultColumnModel
+ ()Ljavax/swing/table/TableColumnModel;
+ ()Ljavax/swing/table/TableColumnModel;
+createDefaultRenderer
+ ()Ljavax/swing/table/TableCellRenderer;
+ ()Ljavax/swing/table/TableCellRenderer;
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getColumnModel
+ ()Ljavax/swing/table/TableColumnModel;
+ ()Ljavax/swing/table/TableColumnModel;
+getDefaultRenderer
+ ()Ljavax/swing/table/TableCellRenderer;
+ ()Ljavax/swing/table/TableCellRenderer;
+getDraggedColumn
+ ()Ljavax/swing/table/TableColumn;
+ ()Ljavax/swing/table/TableColumn;
+getHeaderRect
+ (I)Ljava/awt/Rectangle;
+ (I)Ljava/awt/Rectangle;
+getPreferredSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getResizingColumn
+ ()Ljavax/swing/table/TableColumn;
+ ()Ljavax/swing/table/TableColumn;
+getTable
+ ()Ljavax/swing/JTable;
+ ()Ljavax/swing/JTable;
+getToolTipText
+ (Ljava/awt/event/MouseEvent;)Ljava/lang/String;
+ (L1java/awt/event/MouseEvent;)Ljava/lang/String; # @Inherited(javax.swing.JComponent)
+getUI
+ ()Ljavax/swing/plaf/TableHeaderUI;
+ ()Ljavax/swing/plaf/TableHeaderUI;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setColumnModel
+ (Ljavax/swing/table/TableColumnModel;)V
+ (Ljavax/swing/table/TableColumnModel;)V
+setDefaultRenderer
+ (Ljavax/swing/table/TableCellRenderer;)V
+ (Ljavax/swing/table/TableCellRenderer;)V
+setDraggedColumn
+ (Ljavax/swing/table/TableColumn;)V
+ (Ljavax/swing/table/TableColumn;)V
+setResizingColumn
+ (Ljavax/swing/table/TableColumn;)V
+ (Ljavax/swing/table/TableColumn;)V
+setTable
+ (Ljavax/swing/JTable;)V
+ (Ljavax/swing/JTable;)V
+setUI
+ (Ljavax/swing/plaf/TableHeaderUI;)V
+ (Ljavax/swing/plaf/TableHeaderUI;)V

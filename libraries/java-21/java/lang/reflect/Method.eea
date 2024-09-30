@@ -1,0 +1,56 @@
+class java/lang/reflect/Method
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAnnotatedReturnType
+ ()Ljava/lang/reflect/AnnotatedType;
+ ()L1java/lang/reflect/AnnotatedType; # @Inherited(java.lang.reflect.Executable)
+getAnnotation
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)T0T; # @Inherited(java.lang.reflect.Executable)
+getDeclaredAnnotations
+ ()[Ljava/lang/annotation/Annotation;
+ ()[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.Executable)
+getDeclaringClass
+ ()Ljava/lang/Class<*>;
+ ()L1java/lang/Class<*>; # @Inherited(java.lang.reflect.Executable)
+getDefaultValue
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getExceptionTypes
+ ()[Ljava/lang/Class<*>;
+ ()[1L1java/lang/Class<*>; # @Inherited(java.lang.reflect.Executable)
+getGenericExceptionTypes
+ ()[Ljava/lang/reflect/Type;
+ ()[1L1java/lang/reflect/Type; # @Inherited(java.lang.reflect.Executable)
+getGenericParameterTypes
+ ()[Ljava/lang/reflect/Type;
+ ()[1L1java/lang/reflect/Type; # @Inherited(java.lang.reflect.Executable)
+getGenericReturnType
+ ()Ljava/lang/reflect/Type;
+ ()L1java/lang/reflect/Type;
+getName
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.reflect.Executable)
+getParameterAnnotations
+ ()[[Ljava/lang/annotation/Annotation;
+ ()[1[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.Executable)
+getParameterTypes
+ ()[Ljava/lang/Class<*>;
+ ()[1L1java/lang/Class<*>; # @Inherited(java.lang.reflect.Executable)
+getReturnType
+ ()Ljava/lang/Class<*>;
+ ()L1java/lang/Class<*>;
+getTypeParameters
+ ()[Ljava/lang/reflect/TypeVariable<Ljava/lang/reflect/Method;>;
+ ()[1L1java/lang/reflect/TypeVariable<Ljava/lang/reflect/Method;>;
+invoke
+ (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+ (L0java/lang/Object;[0Ljava/lang/Object;)L0java/lang/Object;
+toGenericString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.reflect.Executable)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

@@ -1,0 +1,30 @@
+class java/io/ByteArrayOutputStream
+
+buf
+ [B
+ [1B
+
+toByteArray
+ ()[B
+ ()[1B
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+toString
+ (I)Ljava/lang/String;
+ (I)L1java/lang/String;
+toString
+ (Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;)L1java/lang/String;
+toString
+ (Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (L1java/nio/charset/Charset;)Ljava/lang/String;
+write
+ ([BII)V
+ ([1BII)V # @Inherited(java.io.OutputStream)
+writeBytes
+ ([B)V
+ ([1B)V
+writeTo
+ (Ljava/io/OutputStream;)V
+ (L1java/io/OutputStream;)V

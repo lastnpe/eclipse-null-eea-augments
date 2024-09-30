@@ -1,0 +1,30 @@
+class java/math/MathContext
+
+DECIMAL128
+ Ljava/math/MathContext;
+ L1java/math/MathContext;
+DECIMAL32
+ Ljava/math/MathContext;
+ L1java/math/MathContext;
+DECIMAL64
+ Ljava/math/MathContext;
+ L1java/math/MathContext;
+UNLIMITED
+ Ljava/math/MathContext;
+ L1java/math/MathContext;
+
+<init>
+ (ILjava/math/RoundingMode;)V
+ (IL1java/math/RoundingMode;)V
+<init>
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getRoundingMode
+ ()Ljava/math/RoundingMode;
+ ()L1java/math/RoundingMode;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

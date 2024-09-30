@@ -1,0 +1,68 @@
+class java/awt/Rectangle
+
+<init>
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V
+<init>
+ (Ljava/awt/Point;)V
+ (Ljava/awt/Point;)V
+<init>
+ (Ljava/awt/Point;Ljava/awt/Dimension;)V
+ (Ljava/awt/Point;Ljava/awt/Dimension;)V
+<init>
+ (Ljava/awt/Rectangle;)V
+ (Ljava/awt/Rectangle;)V
+add
+ (Ljava/awt/Point;)V
+ (Ljava/awt/Point;)V
+add
+ (Ljava/awt/Rectangle;)V
+ (Ljava/awt/Rectangle;)V
+contains
+ (Ljava/awt/Point;)Z
+ (Ljava/awt/Point;)Z
+contains
+ (Ljava/awt/Rectangle;)Z
+ (Ljava/awt/Rectangle;)Z
+createIntersection
+ (Ljava/awt/geom/Rectangle2D;)Ljava/awt/geom/Rectangle2D;
+ (Ljava/awt/geom/Rectangle2D;)Ljava/awt/geom/Rectangle2D;
+createUnion
+ (Ljava/awt/geom/Rectangle2D;)Ljava/awt/geom/Rectangle2D;
+ (Ljava/awt/geom/Rectangle2D;)Ljava/awt/geom/Rectangle2D;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.awt.geom.Rectangle2D)
+getBounds
+ ()Ljava/awt/Rectangle;
+ ()Ljava/awt/Rectangle;
+getBounds2D
+ ()Ljava/awt/geom/Rectangle2D;
+ ()Ljava/awt/geom/Rectangle2D;
+getLocation
+ ()Ljava/awt/Point;
+ ()Ljava/awt/Point;
+getSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+intersection
+ (Ljava/awt/Rectangle;)Ljava/awt/Rectangle;
+ (Ljava/awt/Rectangle;)Ljava/awt/Rectangle;
+intersects
+ (Ljava/awt/Rectangle;)Z
+ (Ljava/awt/Rectangle;)Z
+setBounds
+ (Ljava/awt/Rectangle;)V
+ (Ljava/awt/Rectangle;)V
+setLocation
+ (Ljava/awt/Point;)V
+ (Ljava/awt/Point;)V
+setSize
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+union
+ (Ljava/awt/Rectangle;)Ljava/awt/Rectangle;
+ (Ljava/awt/Rectangle;)Ljava/awt/Rectangle;

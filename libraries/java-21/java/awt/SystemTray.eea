@@ -1,0 +1,27 @@
+class java/awt/SystemTray
+
+getSystemTray
+ ()Ljava/awt/SystemTray;
+ ()Ljava/awt/SystemTray;
+
+add
+ (Ljava/awt/TrayIcon;)V
+ (Ljava/awt/TrayIcon;)V
+addPropertyChangeListener
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+getPropertyChangeListeners
+ (Ljava/lang/String;)[Ljava/beans/PropertyChangeListener;
+ (Ljava/lang/String;)[Ljava/beans/PropertyChangeListener;
+getTrayIconSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getTrayIcons
+ ()[Ljava/awt/TrayIcon;
+ ()[Ljava/awt/TrayIcon;
+remove
+ (Ljava/awt/TrayIcon;)V
+ (Ljava/awt/TrayIcon;)V
+removePropertyChangeListener
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V

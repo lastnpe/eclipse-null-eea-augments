@@ -1,0 +1,84 @@
+class java/text/NumberFormat
+
+getAvailableLocales
+ ()[Ljava/util/Locale;
+ ()[L1java/util/Locale;
+getCompactNumberInstance
+ ()Ljava/text/NumberFormat;
+ ()Ljava/text/NumberFormat;
+getCompactNumberInstance
+ (Ljava/util/Locale;Ljava/text/NumberFormat$Style;)Ljava/text/NumberFormat;
+ (Ljava/util/Locale;Ljava/text/NumberFormat$Style;)Ljava/text/NumberFormat;
+getCurrencyInstance
+ ()Ljava/text/NumberFormat;
+ ()L1java/text/NumberFormat;
+getCurrencyInstance
+ (Ljava/util/Locale;)Ljava/text/NumberFormat;
+ (L1java/util/Locale;)L1java/text/NumberFormat;
+getInstance
+ ()Ljava/text/NumberFormat;
+ ()L1java/text/NumberFormat;
+getInstance
+ (Ljava/util/Locale;)Ljava/text/NumberFormat;
+ (L1java/util/Locale;)L1java/text/NumberFormat;
+getIntegerInstance
+ ()Ljava/text/NumberFormat;
+ ()L1java/text/NumberFormat;
+getIntegerInstance
+ (Ljava/util/Locale;)Ljava/text/NumberFormat;
+ (L1java/util/Locale;)L1java/text/NumberFormat;
+getNumberInstance
+ ()Ljava/text/NumberFormat;
+ ()L1java/text/NumberFormat;
+getNumberInstance
+ (Ljava/util/Locale;)Ljava/text/NumberFormat;
+ (L1java/util/Locale;)L1java/text/NumberFormat;
+getPercentInstance
+ ()Ljava/text/NumberFormat;
+ ()L1java/text/NumberFormat;
+getPercentInstance
+ (Ljava/util/Locale;)Ljava/text/NumberFormat;
+ (L1java/util/Locale;)L1java/text/NumberFormat;
+
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.text.Format)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+format
+ (D)Ljava/lang/String;
+ (D)Ljava/lang/String;
+format
+ (DLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
+ (DLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
+format
+ (J)Ljava/lang/String;
+ (J)L1java/lang/String;
+format
+ (JLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
+ (JLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
+format
+ (Ljava/lang/Object;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
+ (L0java/lang/Object;L1java/lang/StringBuffer;L1java/text/FieldPosition;)L1java/lang/StringBuffer; # @Inherited(java.text.Format)
+getCurrency
+ ()Ljava/util/Currency;
+ ()L0java/util/Currency;
+getRoundingMode
+ ()Ljava/math/RoundingMode;
+ ()L1java/math/RoundingMode;
+parse
+ (Ljava/lang/String;)Ljava/lang/Number;
+ (L0java/lang/String;)L1java/lang/Number;
+parse
+ (Ljava/lang/String;Ljava/text/ParsePosition;)Ljava/lang/Number;
+ (L1java/lang/String;L1java/text/ParsePosition;)L1java/lang/Number;
+parseObject
+ (Ljava/lang/String;Ljava/text/ParsePosition;)Ljava/lang/Object;
+ (L1java/lang/String;L1java/text/ParsePosition;)L0java/lang/Object; # @Inherited(java.text.Format)
+setCurrency
+ (Ljava/util/Currency;)V
+ (Ljava/util/Currency;)V
+setRoundingMode
+ (Ljava/math/RoundingMode;)V
+ (Ljava/math/RoundingMode;)V

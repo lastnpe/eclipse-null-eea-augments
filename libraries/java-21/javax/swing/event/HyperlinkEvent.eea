@@ -1,0 +1,29 @@
+class javax/swing/event/HyperlinkEvent
+
+<init>
+ (Ljava/lang/Object;Ljavax/swing/event/HyperlinkEvent$EventType;Ljava/net/URL;)V
+ (Ljava/lang/Object;Ljavax/swing/event/HyperlinkEvent$EventType;Ljava/net/URL;)V
+<init>
+ (Ljava/lang/Object;Ljavax/swing/event/HyperlinkEvent$EventType;Ljava/net/URL;Ljava/lang/String;)V
+ (Ljava/lang/Object;Ljavax/swing/event/HyperlinkEvent$EventType;Ljava/net/URL;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/Object;Ljavax/swing/event/HyperlinkEvent$EventType;Ljava/net/URL;Ljava/lang/String;Ljavax/swing/text/Element;)V
+ (Ljava/lang/Object;Ljavax/swing/event/HyperlinkEvent$EventType;Ljava/net/URL;Ljava/lang/String;Ljavax/swing/text/Element;)V
+<init>
+ (Ljava/lang/Object;Ljavax/swing/event/HyperlinkEvent$EventType;Ljava/net/URL;Ljava/lang/String;Ljavax/swing/text/Element;Ljava/awt/event/InputEvent;)V
+ (Ljava/lang/Object;Ljavax/swing/event/HyperlinkEvent$EventType;Ljava/net/URL;Ljava/lang/String;Ljavax/swing/text/Element;Ljava/awt/event/InputEvent;)V
+getDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getEventType
+ ()Ljavax/swing/event/HyperlinkEvent$EventType;
+ ()Ljavax/swing/event/HyperlinkEvent$EventType;
+getInputEvent
+ ()Ljava/awt/event/InputEvent;
+ ()Ljava/awt/event/InputEvent;
+getSourceElement
+ ()Ljavax/swing/text/Element;
+ ()Ljavax/swing/text/Element;
+getURL
+ ()Ljava/net/URL;
+ ()Ljava/net/URL;

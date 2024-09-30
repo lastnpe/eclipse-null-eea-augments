@@ -1,0 +1,68 @@
+class javax/swing/JMenuBar
+
+add
+ (Ljavax/swing/JMenu;)Ljavax/swing/JMenu;
+ (Ljavax/swing/JMenu;)Ljavax/swing/JMenu;
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getComponentAtIndex
+ (I)Ljava/awt/Component;
+ (I)Ljava/awt/Component;
+getComponentIndex
+ (Ljava/awt/Component;)I
+ (Ljava/awt/Component;)I
+getHelpMenu
+ ()Ljavax/swing/JMenu;
+ ()Ljavax/swing/JMenu;
+getMargin
+ ()Ljava/awt/Insets;
+ ()Ljava/awt/Insets;
+getMenu
+ (I)Ljavax/swing/JMenu;
+ (I)Ljavax/swing/JMenu;
+getSelectionModel
+ ()Ljavax/swing/SingleSelectionModel;
+ ()Ljavax/swing/SingleSelectionModel;
+getSubElements
+ ()[Ljavax/swing/MenuElement;
+ ()[Ljavax/swing/MenuElement;
+getUI
+ ()Ljavax/swing/plaf/MenuBarUI;
+ ()Ljavax/swing/plaf/MenuBarUI;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+paintBorder
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+processKeyBinding
+ (Ljavax/swing/KeyStroke;Ljava/awt/event/KeyEvent;IZ)Z
+ (Ljavax/swing/KeyStroke;Ljava/awt/event/KeyEvent;IZ)Z
+processKeyEvent
+ (Ljava/awt/event/KeyEvent;[Ljavax/swing/MenuElement;Ljavax/swing/MenuSelectionManager;)V
+ (Ljava/awt/event/KeyEvent;[Ljavax/swing/MenuElement;Ljavax/swing/MenuSelectionManager;)V
+processMouseEvent
+ (Ljava/awt/event/MouseEvent;[Ljavax/swing/MenuElement;Ljavax/swing/MenuSelectionManager;)V
+ (Ljava/awt/event/MouseEvent;[Ljavax/swing/MenuElement;Ljavax/swing/MenuSelectionManager;)V
+setHelpMenu
+ (Ljavax/swing/JMenu;)V
+ (Ljavax/swing/JMenu;)V
+setMargin
+ (Ljava/awt/Insets;)V
+ (Ljava/awt/Insets;)V
+setSelected
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+setSelectionModel
+ (Ljavax/swing/SingleSelectionModel;)V
+ (Ljavax/swing/SingleSelectionModel;)V
+setUI
+ (Ljavax/swing/plaf/MenuBarUI;)V
+ (Ljavax/swing/plaf/MenuBarUI;)V

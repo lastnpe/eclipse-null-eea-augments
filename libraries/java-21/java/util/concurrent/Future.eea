@@ -1,0 +1,19 @@
+class java/util/concurrent/Future
+ <V:Ljava/lang/Object;>
+ <V:Ljava/lang/Object;>
+
+exceptionNow
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
+get
+ ()TV;
+ ()TV;
+get
+ (JLjava/util/concurrent/TimeUnit;)TV;
+ (JL1java/util/concurrent/TimeUnit;)TV;
+resultNow
+ ()TV;
+ ()TV;
+state
+ ()Ljava/util/concurrent/Future$State;
+ ()Ljava/util/concurrent/Future$State;

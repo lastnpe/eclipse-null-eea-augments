@@ -1,0 +1,36 @@
+class java/time/zone/ZoneOffsetTransitionRule
+
+of
+ (Ljava/time/Month;ILjava/time/DayOfWeek;Ljava/time/LocalTime;ZLjava/time/zone/ZoneOffsetTransitionRule$TimeDefinition;Ljava/time/ZoneOffset;Ljava/time/ZoneOffset;Ljava/time/ZoneOffset;)Ljava/time/zone/ZoneOffsetTransitionRule;
+ (Ljava/time/Month;ILjava/time/DayOfWeek;Ljava/time/LocalTime;ZLjava/time/zone/ZoneOffsetTransitionRule$TimeDefinition;Ljava/time/ZoneOffset;Ljava/time/ZoneOffset;Ljava/time/ZoneOffset;)Ljava/time/zone/ZoneOffsetTransitionRule;
+
+createTransition
+ (I)Ljava/time/zone/ZoneOffsetTransition;
+ (I)Ljava/time/zone/ZoneOffsetTransition;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getDayOfWeek
+ ()Ljava/time/DayOfWeek;
+ ()Ljava/time/DayOfWeek;
+getLocalTime
+ ()Ljava/time/LocalTime;
+ ()Ljava/time/LocalTime;
+getMonth
+ ()Ljava/time/Month;
+ ()Ljava/time/Month;
+getOffsetAfter
+ ()Ljava/time/ZoneOffset;
+ ()Ljava/time/ZoneOffset;
+getOffsetBefore
+ ()Ljava/time/ZoneOffset;
+ ()Ljava/time/ZoneOffset;
+getStandardOffset
+ ()Ljava/time/ZoneOffset;
+ ()Ljava/time/ZoneOffset;
+getTimeDefinition
+ ()Ljava/time/zone/ZoneOffsetTransitionRule$TimeDefinition;
+ ()Ljava/time/zone/ZoneOffsetTransitionRule$TimeDefinition;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

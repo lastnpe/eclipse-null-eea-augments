@@ -1,0 +1,23 @@
+class java/beans/PropertyChangeEvent
+
+<init>
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+getNewValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getOldValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getPropagationId
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getPropertyName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setPropagationId
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.util.EventObject)

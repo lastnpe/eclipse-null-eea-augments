@@ -1,0 +1,132 @@
+class javax/naming/Context
+
+APPLET
+ Ljava/lang/String;
+ L1java/lang/String;
+AUTHORITATIVE
+ Ljava/lang/String;
+ L1java/lang/String;
+BATCHSIZE
+ Ljava/lang/String;
+ L1java/lang/String;
+DNS_URL
+ Ljava/lang/String;
+ L1java/lang/String;
+INITIAL_CONTEXT_FACTORY
+ Ljava/lang/String;
+ L1java/lang/String;
+LANGUAGE
+ Ljava/lang/String;
+ L1java/lang/String;
+OBJECT_FACTORIES
+ Ljava/lang/String;
+ L1java/lang/String;
+PROVIDER_URL
+ Ljava/lang/String;
+ L1java/lang/String;
+REFERRAL
+ Ljava/lang/String;
+ L1java/lang/String;
+SECURITY_AUTHENTICATION
+ Ljava/lang/String;
+ L1java/lang/String;
+SECURITY_CREDENTIALS
+ Ljava/lang/String;
+ L1java/lang/String;
+SECURITY_PRINCIPAL
+ Ljava/lang/String;
+ L1java/lang/String;
+SECURITY_PROTOCOL
+ Ljava/lang/String;
+ L1java/lang/String;
+STATE_FACTORIES
+ Ljava/lang/String;
+ L1java/lang/String;
+URL_PKG_PREFIXES
+ Ljava/lang/String;
+ L1java/lang/String;
+
+addToEnvironment
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+bind
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+bind
+ (Ljavax/naming/Name;Ljava/lang/Object;)V
+ (Ljavax/naming/Name;Ljava/lang/Object;)V
+composeName
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+composeName
+ (Ljavax/naming/Name;Ljavax/naming/Name;)Ljavax/naming/Name;
+ (Ljavax/naming/Name;Ljavax/naming/Name;)Ljavax/naming/Name;
+createSubcontext
+ (Ljava/lang/String;)Ljavax/naming/Context;
+ (Ljava/lang/String;)Ljavax/naming/Context;
+createSubcontext
+ (Ljavax/naming/Name;)Ljavax/naming/Context;
+ (Ljavax/naming/Name;)Ljavax/naming/Context;
+destroySubcontext
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+destroySubcontext
+ (Ljavax/naming/Name;)V
+ (Ljavax/naming/Name;)V
+getEnvironment
+ ()Ljava/util/Hashtable<**>;
+ ()Ljava/util/Hashtable<**>;
+getNameInNamespace
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getNameParser
+ (Ljava/lang/String;)Ljavax/naming/NameParser;
+ (Ljava/lang/String;)Ljavax/naming/NameParser;
+getNameParser
+ (Ljavax/naming/Name;)Ljavax/naming/NameParser;
+ (Ljavax/naming/Name;)Ljavax/naming/NameParser;
+list
+ (Ljava/lang/String;)Ljavax/naming/NamingEnumeration<Ljavax/naming/NameClassPair;>;
+ (Ljava/lang/String;)Ljavax/naming/NamingEnumeration<Ljavax/naming/NameClassPair;>;
+list
+ (Ljavax/naming/Name;)Ljavax/naming/NamingEnumeration<Ljavax/naming/NameClassPair;>;
+ (Ljavax/naming/Name;)Ljavax/naming/NamingEnumeration<Ljavax/naming/NameClassPair;>;
+listBindings
+ (Ljava/lang/String;)Ljavax/naming/NamingEnumeration<Ljavax/naming/Binding;>;
+ (Ljava/lang/String;)Ljavax/naming/NamingEnumeration<Ljavax/naming/Binding;>;
+listBindings
+ (Ljavax/naming/Name;)Ljavax/naming/NamingEnumeration<Ljavax/naming/Binding;>;
+ (Ljavax/naming/Name;)Ljavax/naming/NamingEnumeration<Ljavax/naming/Binding;>;
+lookup
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+lookup
+ (Ljavax/naming/Name;)Ljava/lang/Object;
+ (Ljavax/naming/Name;)Ljava/lang/Object;
+lookupLink
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+lookupLink
+ (Ljavax/naming/Name;)Ljava/lang/Object;
+ (Ljavax/naming/Name;)Ljava/lang/Object;
+rebind
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+rebind
+ (Ljavax/naming/Name;Ljava/lang/Object;)V
+ (Ljavax/naming/Name;Ljava/lang/Object;)V
+removeFromEnvironment
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+rename
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+rename
+ (Ljavax/naming/Name;Ljavax/naming/Name;)V
+ (Ljavax/naming/Name;Ljavax/naming/Name;)V
+unbind
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+unbind
+ (Ljavax/naming/Name;)V
+ (Ljavax/naming/Name;)V

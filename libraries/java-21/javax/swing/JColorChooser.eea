@@ -1,0 +1,77 @@
+class javax/swing/JColorChooser
+
+CHOOSER_PANELS_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+PREVIEW_PANEL_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+SELECTION_MODEL_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+
+createDialog
+ (Ljava/awt/Component;Ljava/lang/String;ZLjavax/swing/JColorChooser;Ljava/awt/event/ActionListener;Ljava/awt/event/ActionListener;)Ljavax/swing/JDialog;
+ (Ljava/awt/Component;Ljava/lang/String;ZLjavax/swing/JColorChooser;Ljava/awt/event/ActionListener;Ljava/awt/event/ActionListener;)Ljavax/swing/JDialog;
+showDialog
+ (Ljava/awt/Component;Ljava/lang/String;Ljava/awt/Color;)Ljava/awt/Color;
+ (Ljava/awt/Component;Ljava/lang/String;Ljava/awt/Color;)Ljava/awt/Color;
+showDialog
+ (Ljava/awt/Component;Ljava/lang/String;Ljava/awt/Color;Z)Ljava/awt/Color;
+ (Ljava/awt/Component;Ljava/lang/String;Ljava/awt/Color;Z)Ljava/awt/Color;
+
+accessibleContext
+ Ljavax/accessibility/AccessibleContext;
+ Ljavax/accessibility/AccessibleContext;
+
+<init>
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+<init>
+ (Ljavax/swing/colorchooser/ColorSelectionModel;)V
+ (Ljavax/swing/colorchooser/ColorSelectionModel;)V
+addChooserPanel
+ (Ljavax/swing/colorchooser/AbstractColorChooserPanel;)V
+ (Ljavax/swing/colorchooser/AbstractColorChooserPanel;)V
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getChooserPanels
+ ()[Ljavax/swing/colorchooser/AbstractColorChooserPanel;
+ ()[Ljavax/swing/colorchooser/AbstractColorChooserPanel;
+getColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getPreviewPanel
+ ()Ljavax/swing/JComponent;
+ ()Ljavax/swing/JComponent;
+getSelectionModel
+ ()Ljavax/swing/colorchooser/ColorSelectionModel;
+ ()Ljavax/swing/colorchooser/ColorSelectionModel;
+getUI
+ ()Ljavax/swing/plaf/ColorChooserUI;
+ ()Ljavax/swing/plaf/ColorChooserUI;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+removeChooserPanel
+ (Ljavax/swing/colorchooser/AbstractColorChooserPanel;)Ljavax/swing/colorchooser/AbstractColorChooserPanel;
+ (Ljavax/swing/colorchooser/AbstractColorChooserPanel;)Ljavax/swing/colorchooser/AbstractColorChooserPanel;
+setChooserPanels
+ ([Ljavax/swing/colorchooser/AbstractColorChooserPanel;)V
+ ([Ljavax/swing/colorchooser/AbstractColorChooserPanel;)V
+setColor
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setPreviewPanel
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+setSelectionModel
+ (Ljavax/swing/colorchooser/ColorSelectionModel;)V
+ (Ljavax/swing/colorchooser/ColorSelectionModel;)V
+setUI
+ (Ljavax/swing/plaf/ColorChooserUI;)V
+ (Ljavax/swing/plaf/ColorChooserUI;)V

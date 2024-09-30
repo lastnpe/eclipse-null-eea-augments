@@ -1,0 +1,24 @@
+class java/rmi/server/RMISocketFactory
+
+getDefaultSocketFactory
+ ()Ljava/rmi/server/RMISocketFactory;
+ ()Ljava/rmi/server/RMISocketFactory;
+getFailureHandler
+ ()Ljava/rmi/server/RMIFailureHandler;
+ ()Ljava/rmi/server/RMIFailureHandler;
+getSocketFactory
+ ()Ljava/rmi/server/RMISocketFactory;
+ ()Ljava/rmi/server/RMISocketFactory;
+setFailureHandler
+ (Ljava/rmi/server/RMIFailureHandler;)V
+ (Ljava/rmi/server/RMIFailureHandler;)V
+setSocketFactory
+ (Ljava/rmi/server/RMISocketFactory;)V
+ (Ljava/rmi/server/RMISocketFactory;)V
+
+createServerSocket
+ (I)Ljava/net/ServerSocket;
+ (I)Ljava/net/ServerSocket;
+createSocket
+ (Ljava/lang/String;I)Ljava/net/Socket;
+ (Ljava/lang/String;I)Ljava/net/Socket;
