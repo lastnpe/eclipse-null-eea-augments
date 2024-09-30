@@ -7,19 +7,19 @@ absent
  <T:Ljava/lang/Object;>()L1com/google/common/base/Optional<TT;>;
 fromJavaUtil
  <T:Ljava/lang/Object;>(Ljava/util/Optional<TT;>;)Lcom/google/common/base/Optional<TT;>;
- <T:Ljava/lang/Object;>(Ljava/util/Optional<TT;>;)L0com/google/common/base/Optional<TT;>;
+ <T:Ljava/lang/Object;>(L0java/util/Optional<TT;>;)L0com/google/common/base/Optional<TT;>;
 fromNullable
  <T:Ljava/lang/Object;>(TT;)Lcom/google/common/base/Optional<TT;>;
- <T:Ljava/lang/Object;>(TT;)L1com/google/common/base/Optional<TT;>;
+ <T:Ljava/lang/Object;>(T0T;)L1com/google/common/base/Optional<TT;>;
 of
  <T:Ljava/lang/Object;>(TT;)Lcom/google/common/base/Optional<TT;>;
  <T:Ljava/lang/Object;>(T1T;)L1com/google/common/base/Optional<TT;>;
 presentInstances
  <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+Lcom/google/common/base/Optional<+TT;>;>;)Ljava/lang/Iterable<TT;>;
- <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+Lcom/google/common/base/Optional<+TT;>;>;)Ljava/lang/Iterable<TT;>;
+ <T:Ljava/lang/Object;>(L1java/lang/Iterable<+Lcom/google/common/base/Optional<+TT;>;>;)L1java/lang/Iterable<TT;>;
 toJavaUtil
  <T:Ljava/lang/Object;>(Lcom/google/common/base/Optional<TT;>;)Ljava/util/Optional<TT;>;
- <T:Ljava/lang/Object;>(Lcom/google/common/base/Optional<TT;>;)L0java/util/Optional<TT;>;
+ <T:Ljava/lang/Object;>(L0com/google/common/base/Optional<TT;>;)L0java/util/Optional<TT;>;
 
 asSet
  ()Ljava/util/Set<TT;>;
@@ -44,7 +44,7 @@ orNull
  ()T0T;
 toJavaUtil
  ()Ljava/util/Optional<TT;>;
- ()Ljava/util/Optional<TT;>;
+ ()L1java/util/Optional<TT;>;
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)

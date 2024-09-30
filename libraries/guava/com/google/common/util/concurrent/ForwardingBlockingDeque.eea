@@ -29,13 +29,13 @@ offerLast
  (T1E;JLjava/util/concurrent/TimeUnit;)Z # @Inherited(java.util.concurrent.BlockingDeque)
 poll
  (JLjava/util/concurrent/TimeUnit;)TE;
- (JLjava/util/concurrent/TimeUnit;)T0E; # @Overrides(java.util.concurrent.BlockingDeque)
+ (JL1java/util/concurrent/TimeUnit;)T0E; # @Inherited(java.util.concurrent.BlockingDeque)
 pollFirst
  (JLjava/util/concurrent/TimeUnit;)TE;
- (JLjava/util/concurrent/TimeUnit;)T0E; # @Overrides(java.util.concurrent.BlockingDeque)
+ (JL1java/util/concurrent/TimeUnit;)T0E; # @Overrides(java.util.concurrent.BlockingDeque)
 pollLast
  (JLjava/util/concurrent/TimeUnit;)TE;
- (JLjava/util/concurrent/TimeUnit;)T0E; # @Overrides(java.util.concurrent.BlockingDeque)
+ (JL1java/util/concurrent/TimeUnit;)T0E; # @Overrides(java.util.concurrent.BlockingDeque)
 put
  (TE;)V
  (T1E;)V # @Inherited(java.util.concurrent.BlockingDeque)

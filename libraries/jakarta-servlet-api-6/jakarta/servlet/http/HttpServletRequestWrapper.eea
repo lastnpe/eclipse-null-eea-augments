@@ -14,7 +14,7 @@ getAuthType
  ()L0java/lang/String; # @Inherited(jakarta.servlet.http.HttpServletRequest)
 getContextPath
  ()Ljava/lang/String;
- ()L0java/lang/String; # @Inherited(jakarta.servlet.http.HttpServletRequest)
+ ()L1java/lang/String; # @Inherited(jakarta.servlet.http.HttpServletRequest)
 getCookies
  ()[Ljakarta/servlet/http/Cookie;
  ()[0L1jakarta/servlet/http/Cookie; # @Inherited(jakarta.servlet.http.HttpServletRequest)
@@ -59,10 +59,10 @@ getRemoteUser
  ()L0java/lang/String; # @Inherited(jakarta.servlet.http.HttpServletRequest)
 getRequestURI
  ()Ljava/lang/String;
- ()L0java/lang/String; # @Inherited(jakarta.servlet.http.HttpServletRequest)
+ ()L1java/lang/String; # @Inherited(jakarta.servlet.http.HttpServletRequest)
 getRequestURL
  ()Ljava/lang/StringBuffer;
- ()L0java/lang/StringBuffer; # @Inherited(jakarta.servlet.http.HttpServletRequest)
+ ()L1java/lang/StringBuffer; # @Inherited(jakarta.servlet.http.HttpServletRequest)
 getRequestedSessionId
  ()Ljava/lang/String;
  ()L0java/lang/String; # @Inherited(jakarta.servlet.http.HttpServletRequest)
