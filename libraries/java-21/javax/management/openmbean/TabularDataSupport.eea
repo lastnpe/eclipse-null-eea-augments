@@ -1,0 +1,72 @@
+class javax/management/openmbean/TabularDataSupport
+
+super java/util/Map
+ <Ljava/lang/Object;Ljava/lang/Object;>
+ <Ljava/lang/Object;Ljava/lang/Object;>
+
+<init>
+ (Ljavax/management/openmbean/TabularType;)V
+ (Ljavax/management/openmbean/TabularType;)V
+<init>
+ (Ljavax/management/openmbean/TabularType;IF)V
+ (Ljavax/management/openmbean/TabularType;IF)V
+calculateIndex
+ (Ljavax/management/openmbean/CompositeData;)[Ljava/lang/Object;
+ (Ljavax/management/openmbean/CompositeData;)[Ljava/lang/Object;
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+containsKey
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.Map)
+containsKey
+ ([Ljava/lang/Object;)Z
+ ([Ljava/lang/Object;)Z
+containsValue
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.Map)
+containsValue
+ (Ljavax/management/openmbean/CompositeData;)Z
+ (Ljavax/management/openmbean/CompositeData;)Z
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<Ljava/lang/Object;Ljava/lang/Object;>;>;
+ ()Ljava/util/Set<Ljava/util/Map$Entry<Ljava/lang/Object;Ljava/lang/Object;>;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+get
+ ([Ljava/lang/Object;)Ljavax/management/openmbean/CompositeData;
+ ([Ljava/lang/Object;)Ljavax/management/openmbean/CompositeData;
+getTabularType
+ ()Ljavax/management/openmbean/TabularType;
+ ()Ljavax/management/openmbean/TabularType;
+keySet
+ ()Ljava/util/Set<Ljava/lang/Object;>;
+ ()Ljava/util/Set<Ljava/lang/Object;>;
+put
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+put
+ (Ljavax/management/openmbean/CompositeData;)V
+ (Ljavax/management/openmbean/CompositeData;)V
+putAll
+ (Ljava/util/Map<**>;)V
+ (Ljava/util/Map<**>;)V
+putAll
+ ([Ljavax/management/openmbean/CompositeData;)V
+ ([Ljavax/management/openmbean/CompositeData;)V
+remove
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+remove
+ ([Ljava/lang/Object;)Ljavax/management/openmbean/CompositeData;
+ ([Ljava/lang/Object;)Ljavax/management/openmbean/CompositeData;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+values
+ ()Ljava/util/Collection<Ljava/lang/Object;>;
+ ()Ljava/util/Collection<Ljava/lang/Object;>;

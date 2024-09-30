@@ -1,0 +1,21 @@
+class java/util/Spliterator$OfInt
+
+super java/util/Spliterator$OfPrimitive
+ <Ljava/lang/Integer;Ljava/util/function/IntConsumer;Ljava/util/Spliterator$OfInt;>
+ <Ljava/lang/Integer;Ljava/util/function/IntConsumer;Ljava/util/Spliterator$OfInt;>
+
+forEachRemaining
+ (Ljava/util/function/Consumer<-Ljava/lang/Integer;>;)V
+ (Ljava/util/function/Consumer<-Ljava/lang/Integer;>;)V
+forEachRemaining
+ (Ljava/util/function/IntConsumer;)V
+ (Ljava/util/function/IntConsumer;)V
+tryAdvance
+ (Ljava/util/function/Consumer<-Ljava/lang/Integer;>;)Z
+ (Ljava/util/function/Consumer<-Ljava/lang/Integer;>;)Z
+tryAdvance
+ (Ljava/util/function/IntConsumer;)Z
+ (Ljava/util/function/IntConsumer;)Z
+trySplit
+ ()Ljava/util/Spliterator$OfInt;
+ ()Ljava/util/Spliterator$OfInt;

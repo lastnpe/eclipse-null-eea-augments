@@ -1,0 +1,38 @@
+class javax/management/relation/Relation
+
+getAllRoles
+ ()Ljavax/management/relation/RoleResult;
+ ()Ljavax/management/relation/RoleResult;
+getReferencedMBeans
+ ()Ljava/util/Map<Ljavax/management/ObjectName;Ljava/util/List<Ljava/lang/String;>;>;
+ ()Ljava/util/Map<Ljavax/management/ObjectName;Ljava/util/List<Ljava/lang/String;>;>;
+getRelationId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRelationServiceName
+ ()Ljavax/management/ObjectName;
+ ()Ljavax/management/ObjectName;
+getRelationTypeName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRole
+ (Ljava/lang/String;)Ljava/util/List<Ljavax/management/ObjectName;>;
+ (Ljava/lang/String;)Ljava/util/List<Ljavax/management/ObjectName;>;
+getRoleCardinality
+ (Ljava/lang/String;)Ljava/lang/Integer;
+ (Ljava/lang/String;)Ljava/lang/Integer;
+getRoles
+ ([Ljava/lang/String;)Ljavax/management/relation/RoleResult;
+ ([Ljava/lang/String;)Ljavax/management/relation/RoleResult;
+handleMBeanUnregistration
+ (Ljavax/management/ObjectName;Ljava/lang/String;)V
+ (Ljavax/management/ObjectName;Ljava/lang/String;)V
+retrieveAllRoles
+ ()Ljavax/management/relation/RoleList;
+ ()Ljavax/management/relation/RoleList;
+setRole
+ (Ljavax/management/relation/Role;)V
+ (Ljavax/management/relation/Role;)V
+setRoles
+ (Ljavax/management/relation/RoleList;)Ljavax/management/relation/RoleResult;
+ (Ljavax/management/relation/RoleList;)Ljavax/management/relation/RoleResult;

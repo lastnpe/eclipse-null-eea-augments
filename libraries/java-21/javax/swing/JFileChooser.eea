@@ -1,0 +1,214 @@
+class javax/swing/JFileChooser
+
+ACCEPT_ALL_FILE_FILTER_USED_CHANGED_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+ACCESSORY_CHANGED_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+APPROVE_BUTTON_MNEMONIC_CHANGED_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+APPROVE_BUTTON_TEXT_CHANGED_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+APPROVE_BUTTON_TOOL_TIP_TEXT_CHANGED_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+APPROVE_SELECTION
+ Ljava/lang/String;
+ L1java/lang/String;
+CANCEL_SELECTION
+ Ljava/lang/String;
+ L1java/lang/String;
+CHOOSABLE_FILE_FILTER_CHANGED_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+CONTROL_BUTTONS_ARE_SHOWN_CHANGED_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+DIALOG_TITLE_CHANGED_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+DIALOG_TYPE_CHANGED_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+DIRECTORY_CHANGED_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+FILE_FILTER_CHANGED_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+FILE_HIDING_CHANGED_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+FILE_SELECTION_MODE_CHANGED_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+FILE_SYSTEM_VIEW_CHANGED_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+FILE_VIEW_CHANGED_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+MULTI_SELECTION_ENABLED_CHANGED_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+SELECTED_FILES_CHANGED_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+SELECTED_FILE_CHANGED_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+
+accessibleContext
+ Ljavax/accessibility/AccessibleContext;
+ Ljavax/accessibility/AccessibleContext;
+
+<init>
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+<init>
+ (Ljava/io/File;Ljavax/swing/filechooser/FileSystemView;)V
+ (Ljava/io/File;Ljavax/swing/filechooser/FileSystemView;)V
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljavax/swing/filechooser/FileSystemView;)V
+ (Ljava/lang/String;Ljavax/swing/filechooser/FileSystemView;)V
+<init>
+ (Ljavax/swing/filechooser/FileSystemView;)V
+ (Ljavax/swing/filechooser/FileSystemView;)V
+accept
+ (Ljava/io/File;)Z
+ (Ljava/io/File;)Z
+addActionListener
+ (Ljava/awt/event/ActionListener;)V
+ (L1java/awt/event/ActionListener;)V
+addChoosableFileFilter
+ (Ljavax/swing/filechooser/FileFilter;)V
+ (Ljavax/swing/filechooser/FileFilter;)V
+createDialog
+ (Ljava/awt/Component;)Ljavax/swing/JDialog;
+ (Ljava/awt/Component;)Ljavax/swing/JDialog;
+ensureFileIsVisible
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+fireActionPerformed
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getAcceptAllFileFilter
+ ()Ljavax/swing/filechooser/FileFilter;
+ ()Ljavax/swing/filechooser/FileFilter;
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getAccessory
+ ()Ljavax/swing/JComponent;
+ ()Ljavax/swing/JComponent;
+getActionListeners
+ ()[Ljava/awt/event/ActionListener;
+ ()[Ljava/awt/event/ActionListener;
+getApproveButtonText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getApproveButtonToolTipText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getChoosableFileFilters
+ ()[Ljavax/swing/filechooser/FileFilter;
+ ()[Ljavax/swing/filechooser/FileFilter;
+getCurrentDirectory
+ ()Ljava/io/File;
+ ()Ljava/io/File;
+getDescription
+ (Ljava/io/File;)Ljava/lang/String;
+ (Ljava/io/File;)Ljava/lang/String;
+getDialogTitle
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFileFilter
+ ()Ljavax/swing/filechooser/FileFilter;
+ ()Ljavax/swing/filechooser/FileFilter;
+getFileSystemView
+ ()Ljavax/swing/filechooser/FileSystemView;
+ ()Ljavax/swing/filechooser/FileSystemView;
+getFileView
+ ()Ljavax/swing/filechooser/FileView;
+ ()Ljavax/swing/filechooser/FileView;
+getIcon
+ (Ljava/io/File;)Ljavax/swing/Icon;
+ (Ljava/io/File;)Ljavax/swing/Icon;
+getName
+ (Ljava/io/File;)Ljava/lang/String;
+ (Ljava/io/File;)Ljava/lang/String;
+getSelectedFile
+ ()Ljava/io/File;
+ ()Ljava/io/File;
+getSelectedFiles
+ ()[Ljava/io/File;
+ ()[Ljava/io/File;
+getTypeDescription
+ (Ljava/io/File;)Ljava/lang/String;
+ (Ljava/io/File;)Ljava/lang/String;
+getUI
+ ()Ljavax/swing/plaf/FileChooserUI;
+ ()Ljavax/swing/plaf/FileChooserUI;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+isTraversable
+ (Ljava/io/File;)Z
+ (Ljava/io/File;)Z
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+removeActionListener
+ (Ljava/awt/event/ActionListener;)V
+ (L1java/awt/event/ActionListener;)V
+removeChoosableFileFilter
+ (Ljavax/swing/filechooser/FileFilter;)Z
+ (Ljavax/swing/filechooser/FileFilter;)Z
+setAccessory
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+setApproveButtonText
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setApproveButtonToolTipText
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setCurrentDirectory
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+setDialogTitle
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setFileFilter
+ (Ljavax/swing/filechooser/FileFilter;)V
+ (Ljavax/swing/filechooser/FileFilter;)V
+setFileSystemView
+ (Ljavax/swing/filechooser/FileSystemView;)V
+ (Ljavax/swing/filechooser/FileSystemView;)V
+setFileView
+ (Ljavax/swing/filechooser/FileView;)V
+ (Ljavax/swing/filechooser/FileView;)V
+setSelectedFile
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+setSelectedFiles
+ ([Ljava/io/File;)V
+ ([Ljava/io/File;)V
+setup
+ (Ljavax/swing/filechooser/FileSystemView;)V
+ (Ljavax/swing/filechooser/FileSystemView;)V
+showDialog
+ (Ljava/awt/Component;Ljava/lang/String;)I
+ (Ljava/awt/Component;Ljava/lang/String;)I
+showOpenDialog
+ (Ljava/awt/Component;)I
+ (Ljava/awt/Component;)I
+showSaveDialog
+ (Ljava/awt/Component;)I
+ (Ljava/awt/Component;)I

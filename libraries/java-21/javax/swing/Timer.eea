@@ -1,0 +1,30 @@
+class javax/swing/Timer
+
+listenerList
+ Ljavax/swing/event/EventListenerList;
+ Ljavax/swing/event/EventListenerList;
+
+<init>
+ (ILjava/awt/event/ActionListener;)V
+ (ILjava/awt/event/ActionListener;)V
+addActionListener
+ (Ljava/awt/event/ActionListener;)V
+ (L1java/awt/event/ActionListener;)V
+fireActionPerformed
+ (Ljava/awt/event/ActionEvent;)V
+ (Ljava/awt/event/ActionEvent;)V
+getActionCommand
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getActionListeners
+ ()[Ljava/awt/event/ActionListener;
+ ()[Ljava/awt/event/ActionListener;
+getListeners
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+removeActionListener
+ (Ljava/awt/event/ActionListener;)V
+ (L1java/awt/event/ActionListener;)V
+setActionCommand
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

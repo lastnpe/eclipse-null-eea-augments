@@ -1,0 +1,45 @@
+class javax/swing/plaf/synth/SynthTabbedPaneUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+calculateTabWidth
+ (IILjava/awt/FontMetrics;)I
+ (IILjava/awt/FontMetrics;)I
+createLayoutManager
+ ()Ljava/awt/LayoutManager;
+ ()Ljava/awt/LayoutManager;
+createMouseListener
+ ()Ljava/awt/event/MouseListener;
+ ()Ljava/awt/event/MouseListener;
+createScrollButton
+ (I)Ljavax/swing/JButton;
+ (I)Ljavax/swing/JButton;
+getContext
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/synth/SynthContext;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/synth/SynthContext;
+getFontMetrics
+ ()Ljava/awt/FontMetrics;
+ ()Ljava/awt/FontMetrics;
+getTabInsets
+ (II)Ljava/awt/Insets;
+ (II)Ljava/awt/Insets;
+paint
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+paint
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;)V
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;)V
+paintBorder
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;IIII)V
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;IIII)V
+paintTabArea
+ (Ljava/awt/Graphics;II)V
+ (Ljava/awt/Graphics;II)V
+propertyChange
+ (Ljava/beans/PropertyChangeEvent;)V
+ (L1java/beans/PropertyChangeEvent;)V # @Inherited(java.beans.PropertyChangeListener)
+update
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V

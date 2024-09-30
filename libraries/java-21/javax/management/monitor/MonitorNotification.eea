@@ -1,0 +1,45 @@
+class javax/management/monitor/MonitorNotification
+
+OBSERVED_ATTRIBUTE_ERROR
+ Ljava/lang/String;
+ L1java/lang/String;
+OBSERVED_ATTRIBUTE_TYPE_ERROR
+ Ljava/lang/String;
+ L1java/lang/String;
+OBSERVED_OBJECT_ERROR
+ Ljava/lang/String;
+ L1java/lang/String;
+RUNTIME_ERROR
+ Ljava/lang/String;
+ L1java/lang/String;
+STRING_TO_COMPARE_VALUE_DIFFERED
+ Ljava/lang/String;
+ L1java/lang/String;
+STRING_TO_COMPARE_VALUE_MATCHED
+ Ljava/lang/String;
+ L1java/lang/String;
+THRESHOLD_ERROR
+ Ljava/lang/String;
+ L1java/lang/String;
+THRESHOLD_HIGH_VALUE_EXCEEDED
+ Ljava/lang/String;
+ L1java/lang/String;
+THRESHOLD_LOW_VALUE_EXCEEDED
+ Ljava/lang/String;
+ L1java/lang/String;
+THRESHOLD_VALUE_EXCEEDED
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getDerivedGauge
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getObservedAttribute
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getObservedObject
+ ()Ljavax/management/ObjectName;
+ ()Ljavax/management/ObjectName;
+getTrigger
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;

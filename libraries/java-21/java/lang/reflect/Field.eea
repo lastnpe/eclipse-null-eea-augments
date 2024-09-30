@@ -1,0 +1,92 @@
+class java/lang/reflect/Field
+
+accessFlags
+ ()Ljava/util/Set<Ljava/lang/reflect/AccessFlag;>;
+ ()Ljava/util/Set<Ljava/lang/reflect/AccessFlag;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (L0java/lang/Object;)L0java/lang/Object;
+getAnnotatedType
+ ()Ljava/lang/reflect/AnnotatedType;
+ ()L1java/lang/reflect/AnnotatedType;
+getAnnotation
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)T0T; # @Inherited(java.lang.reflect.AccessibleObject)
+getAnnotationsByType
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)[1T1T; # @Inherited(java.lang.reflect.AccessibleObject)
+getBoolean
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+getByte
+ (Ljava/lang/Object;)B
+ (L0java/lang/Object;)B
+getChar
+ (Ljava/lang/Object;)C
+ (L0java/lang/Object;)C
+getDeclaredAnnotations
+ ()[Ljava/lang/annotation/Annotation;
+ ()[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.AccessibleObject)
+getDeclaringClass
+ ()Ljava/lang/Class<*>;
+ ()L1java/lang/Class<*>; # @Inherited(java.lang.reflect.Member)
+getDouble
+ (Ljava/lang/Object;)D
+ (L0java/lang/Object;)D
+getFloat
+ (Ljava/lang/Object;)F
+ (L0java/lang/Object;)F
+getGenericType
+ ()Ljava/lang/reflect/Type;
+ ()L1java/lang/reflect/Type;
+getInt
+ (Ljava/lang/Object;)I
+ (L0java/lang/Object;)I
+getLong
+ (Ljava/lang/Object;)J
+ (L0java/lang/Object;)J
+getName
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.reflect.Member)
+getShort
+ (Ljava/lang/Object;)S
+ (L0java/lang/Object;)S
+getType
+ ()Ljava/lang/Class<*>;
+ ()L1java/lang/Class<*>;
+set
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+ (L0java/lang/Object;L0java/lang/Object;)V
+setBoolean
+ (Ljava/lang/Object;Z)V
+ (L0java/lang/Object;Z)V
+setByte
+ (Ljava/lang/Object;B)V
+ (L0java/lang/Object;B)V
+setChar
+ (Ljava/lang/Object;C)V
+ (L0java/lang/Object;C)V
+setDouble
+ (Ljava/lang/Object;D)V
+ (L0java/lang/Object;D)V
+setFloat
+ (Ljava/lang/Object;F)V
+ (L0java/lang/Object;F)V
+setInt
+ (Ljava/lang/Object;I)V
+ (L0java/lang/Object;I)V
+setLong
+ (Ljava/lang/Object;J)V
+ (L0java/lang/Object;J)V
+setShort
+ (Ljava/lang/Object;S)V
+ (L0java/lang/Object;S)V
+toGenericString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

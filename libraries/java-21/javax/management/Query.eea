@@ -1,0 +1,89 @@
+class javax/management/Query
+
+and
+ (Ljavax/management/QueryExp;Ljavax/management/QueryExp;)Ljavax/management/QueryExp;
+ (Ljavax/management/QueryExp;Ljavax/management/QueryExp;)Ljavax/management/QueryExp;
+anySubString
+ (Ljavax/management/AttributeValueExp;Ljavax/management/StringValueExp;)Ljavax/management/QueryExp;
+ (Ljavax/management/AttributeValueExp;Ljavax/management/StringValueExp;)Ljavax/management/QueryExp;
+attr
+ (Ljava/lang/String;)Ljavax/management/AttributeValueExp;
+ (Ljava/lang/String;)Ljavax/management/AttributeValueExp;
+attr
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/management/AttributeValueExp;
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/management/AttributeValueExp;
+between
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/QueryExp;
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/QueryExp;
+classattr
+ ()Ljavax/management/AttributeValueExp;
+ ()Ljavax/management/AttributeValueExp;
+div
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/ValueExp;
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/ValueExp;
+eq
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/QueryExp;
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/QueryExp;
+finalSubString
+ (Ljavax/management/AttributeValueExp;Ljavax/management/StringValueExp;)Ljavax/management/QueryExp;
+ (Ljavax/management/AttributeValueExp;Ljavax/management/StringValueExp;)Ljavax/management/QueryExp;
+geq
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/QueryExp;
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/QueryExp;
+gt
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/QueryExp;
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/QueryExp;
+in
+ (Ljavax/management/ValueExp;[Ljavax/management/ValueExp;)Ljavax/management/QueryExp;
+ (Ljavax/management/ValueExp;[Ljavax/management/ValueExp;)Ljavax/management/QueryExp;
+initialSubString
+ (Ljavax/management/AttributeValueExp;Ljavax/management/StringValueExp;)Ljavax/management/QueryExp;
+ (Ljavax/management/AttributeValueExp;Ljavax/management/StringValueExp;)Ljavax/management/QueryExp;
+isInstanceOf
+ (Ljavax/management/StringValueExp;)Ljavax/management/QueryExp;
+ (Ljavax/management/StringValueExp;)Ljavax/management/QueryExp;
+leq
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/QueryExp;
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/QueryExp;
+lt
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/QueryExp;
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/QueryExp;
+match
+ (Ljavax/management/AttributeValueExp;Ljavax/management/StringValueExp;)Ljavax/management/QueryExp;
+ (Ljavax/management/AttributeValueExp;Ljavax/management/StringValueExp;)Ljavax/management/QueryExp;
+minus
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/ValueExp;
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/ValueExp;
+not
+ (Ljavax/management/QueryExp;)Ljavax/management/QueryExp;
+ (Ljavax/management/QueryExp;)Ljavax/management/QueryExp;
+or
+ (Ljavax/management/QueryExp;Ljavax/management/QueryExp;)Ljavax/management/QueryExp;
+ (Ljavax/management/QueryExp;Ljavax/management/QueryExp;)Ljavax/management/QueryExp;
+plus
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/ValueExp;
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/ValueExp;
+times
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/ValueExp;
+ (Ljavax/management/ValueExp;Ljavax/management/ValueExp;)Ljavax/management/ValueExp;
+value
+ (D)Ljavax/management/ValueExp;
+ (D)Ljavax/management/ValueExp;
+value
+ (F)Ljavax/management/ValueExp;
+ (F)Ljavax/management/ValueExp;
+value
+ (I)Ljavax/management/ValueExp;
+ (I)Ljavax/management/ValueExp;
+value
+ (J)Ljavax/management/ValueExp;
+ (J)Ljavax/management/ValueExp;
+value
+ (Ljava/lang/Number;)Ljavax/management/ValueExp;
+ (Ljava/lang/Number;)Ljavax/management/ValueExp;
+value
+ (Ljava/lang/String;)Ljavax/management/StringValueExp;
+ (Ljava/lang/String;)Ljavax/management/StringValueExp;
+value
+ (Z)Ljavax/management/ValueExp;
+ (Z)Ljavax/management/ValueExp;

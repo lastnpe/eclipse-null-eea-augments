@@ -1,0 +1,33 @@
+class java/nio/channels/AsynchronousServerSocketChannel
+
+open
+ ()Ljava/nio/channels/AsynchronousServerSocketChannel;
+ ()Ljava/nio/channels/AsynchronousServerSocketChannel;
+open
+ (Ljava/nio/channels/AsynchronousChannelGroup;)Ljava/nio/channels/AsynchronousServerSocketChannel;
+ (Ljava/nio/channels/AsynchronousChannelGroup;)Ljava/nio/channels/AsynchronousServerSocketChannel;
+
+<init>
+ (Ljava/nio/channels/spi/AsynchronousChannelProvider;)V
+ (Ljava/nio/channels/spi/AsynchronousChannelProvider;)V
+accept
+ ()Ljava/util/concurrent/Future<Ljava/nio/channels/AsynchronousSocketChannel;>;
+ ()Ljava/util/concurrent/Future<Ljava/nio/channels/AsynchronousSocketChannel;>;
+accept
+ <A:Ljava/lang/Object;>(TA;Ljava/nio/channels/CompletionHandler<Ljava/nio/channels/AsynchronousSocketChannel;-TA;>;)V
+ <A:Ljava/lang/Object;>(TA;Ljava/nio/channels/CompletionHandler<Ljava/nio/channels/AsynchronousSocketChannel;-TA;>;)V
+bind
+ (Ljava/net/SocketAddress;)Ljava/nio/channels/AsynchronousServerSocketChannel;
+ (Ljava/net/SocketAddress;)Ljava/nio/channels/AsynchronousServerSocketChannel;
+bind
+ (Ljava/net/SocketAddress;I)Ljava/nio/channels/AsynchronousServerSocketChannel;
+ (Ljava/net/SocketAddress;I)Ljava/nio/channels/AsynchronousServerSocketChannel;
+getLocalAddress
+ ()Ljava/net/SocketAddress;
+ ()Ljava/net/SocketAddress;
+provider
+ ()Ljava/nio/channels/spi/AsynchronousChannelProvider;
+ ()Ljava/nio/channels/spi/AsynchronousChannelProvider;
+setOption
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/nio/channels/AsynchronousServerSocketChannel;
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/nio/channels/AsynchronousServerSocketChannel;

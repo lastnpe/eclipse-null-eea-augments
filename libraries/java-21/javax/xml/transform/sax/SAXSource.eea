@@ -1,0 +1,34 @@
+class javax/xml/transform/sax/SAXSource
+
+FEATURE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+sourceToInputSource
+ (Ljavax/xml/transform/Source;)Lorg/xml/sax/InputSource;
+ (Ljavax/xml/transform/Source;)Lorg/xml/sax/InputSource;
+
+<init>
+ (Lorg/xml/sax/InputSource;)V
+ (Lorg/xml/sax/InputSource;)V
+<init>
+ (Lorg/xml/sax/XMLReader;Lorg/xml/sax/InputSource;)V
+ (Lorg/xml/sax/XMLReader;Lorg/xml/sax/InputSource;)V
+getInputSource
+ ()Lorg/xml/sax/InputSource;
+ ()Lorg/xml/sax/InputSource;
+getSystemId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getXMLReader
+ ()Lorg/xml/sax/XMLReader;
+ ()Lorg/xml/sax/XMLReader;
+setInputSource
+ (Lorg/xml/sax/InputSource;)V
+ (Lorg/xml/sax/InputSource;)V
+setSystemId
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setXMLReader
+ (Lorg/xml/sax/XMLReader;)V
+ (Lorg/xml/sax/XMLReader;)V

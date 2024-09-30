@@ -1,0 +1,18 @@
+class javax/management/MBeanServerNotification
+
+REGISTRATION_NOTIFICATION
+ Ljava/lang/String;
+ L1java/lang/String;
+UNREGISTRATION_NOTIFICATION
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljava/lang/String;Ljava/lang/Object;JLjavax/management/ObjectName;)V
+ (Ljava/lang/String;Ljava/lang/Object;JLjavax/management/ObjectName;)V
+getMBeanName
+ ()Ljavax/management/ObjectName;
+ ()Ljavax/management/ObjectName;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.management.Notification)

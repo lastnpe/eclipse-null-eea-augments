@@ -1,0 +1,74 @@
+class java/awt/peer/ComponentPeer
+
+applyShape
+ (Lsun/java2d/pipe/Region;)V
+ (Lsun/java2d/pipe/Region;)V
+coalescePaintEvent
+ (Ljava/awt/event/PaintEvent;)V
+ (Ljava/awt/event/PaintEvent;)V
+createBuffers
+ (ILjava/awt/BufferCapabilities;)V
+ (ILjava/awt/BufferCapabilities;)V
+createImage
+ (II)Ljava/awt/Image;
+ (II)Ljava/awt/Image;
+createVolatileImage
+ (II)Ljava/awt/image/VolatileImage;
+ (II)Ljava/awt/image/VolatileImage;
+flip
+ (IIIILjava/awt/BufferCapabilities$FlipContents;)V
+ (IIIILjava/awt/BufferCapabilities$FlipContents;)V
+getBackBuffer
+ ()Ljava/awt/Image;
+ ()Ljava/awt/Image;
+getColorModel
+ ()Ljava/awt/image/ColorModel;
+ ()Ljava/awt/image/ColorModel;
+getFontMetrics
+ (Ljava/awt/Font;)Ljava/awt/FontMetrics;
+ (Ljava/awt/Font;)Ljava/awt/FontMetrics;
+getGraphics
+ ()Ljava/awt/Graphics;
+ ()Ljava/awt/Graphics;
+getGraphicsConfiguration
+ ()Ljava/awt/GraphicsConfiguration;
+ ()Ljava/awt/GraphicsConfiguration;
+getLocationOnScreen
+ ()Ljava/awt/Point;
+ ()Ljava/awt/Point;
+getMinimumSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getPreferredSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+handleEvent
+ (Ljava/awt/AWTEvent;)V
+ (Ljava/awt/AWTEvent;)V
+paint
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+print
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+reparent
+ (Ljava/awt/peer/ContainerPeer;)V
+ (Ljava/awt/peer/ContainerPeer;)V
+requestFocus
+ (Ljava/awt/Component;ZZJLjava/awt/event/FocusEvent$Cause;)Z
+ (Ljava/awt/Component;ZZJLjava/awt/event/FocusEvent$Cause;)Z
+setBackground
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setFont
+ (Ljava/awt/Font;)V
+ (Ljava/awt/Font;)V
+setForeground
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setZOrder
+ (Ljava/awt/peer/ComponentPeer;)V
+ (Ljava/awt/peer/ComponentPeer;)V
+updateGraphicsData
+ (Ljava/awt/GraphicsConfiguration;)Z
+ (Ljava/awt/GraphicsConfiguration;)Z

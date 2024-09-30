@@ -1,0 +1,48 @@
+class javax/imageio/IIOImage
+
+image
+ Ljava/awt/image/RenderedImage;
+ Ljava/awt/image/RenderedImage;
+metadata
+ Ljavax/imageio/metadata/IIOMetadata;
+ Ljavax/imageio/metadata/IIOMetadata;
+raster
+ Ljava/awt/image/Raster;
+ Ljava/awt/image/Raster;
+thumbnails
+ Ljava/util/List<+Ljava/awt/image/BufferedImage;>;
+ Ljava/util/List<+Ljava/awt/image/BufferedImage;>;
+
+<init>
+ (Ljava/awt/image/Raster;Ljava/util/List<+Ljava/awt/image/BufferedImage;>;Ljavax/imageio/metadata/IIOMetadata;)V
+ (Ljava/awt/image/Raster;Ljava/util/List<+Ljava/awt/image/BufferedImage;>;Ljavax/imageio/metadata/IIOMetadata;)V
+<init>
+ (Ljava/awt/image/RenderedImage;Ljava/util/List<+Ljava/awt/image/BufferedImage;>;Ljavax/imageio/metadata/IIOMetadata;)V
+ (Ljava/awt/image/RenderedImage;Ljava/util/List<+Ljava/awt/image/BufferedImage;>;Ljavax/imageio/metadata/IIOMetadata;)V
+getMetadata
+ ()Ljavax/imageio/metadata/IIOMetadata;
+ ()Ljavax/imageio/metadata/IIOMetadata;
+getRaster
+ ()Ljava/awt/image/Raster;
+ ()Ljava/awt/image/Raster;
+getRenderedImage
+ ()Ljava/awt/image/RenderedImage;
+ ()Ljava/awt/image/RenderedImage;
+getThumbnail
+ (I)Ljava/awt/image/BufferedImage;
+ (I)Ljava/awt/image/BufferedImage;
+getThumbnails
+ ()Ljava/util/List<+Ljava/awt/image/BufferedImage;>;
+ ()Ljava/util/List<+Ljava/awt/image/BufferedImage;>;
+setMetadata
+ (Ljavax/imageio/metadata/IIOMetadata;)V
+ (Ljavax/imageio/metadata/IIOMetadata;)V
+setRaster
+ (Ljava/awt/image/Raster;)V
+ (Ljava/awt/image/Raster;)V
+setRenderedImage
+ (Ljava/awt/image/RenderedImage;)V
+ (Ljava/awt/image/RenderedImage;)V
+setThumbnails
+ (Ljava/util/List<+Ljava/awt/image/BufferedImage;>;)V
+ (Ljava/util/List<+Ljava/awt/image/BufferedImage;>;)V

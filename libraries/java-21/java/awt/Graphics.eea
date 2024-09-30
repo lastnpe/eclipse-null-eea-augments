@@ -1,0 +1,92 @@
+class java/awt/Graphics
+
+create
+ ()Ljava/awt/Graphics;
+ ()Ljava/awt/Graphics;
+create
+ (IIII)Ljava/awt/Graphics;
+ (IIII)Ljava/awt/Graphics;
+drawBytes
+ ([BIIII)V
+ ([BIIII)V
+drawChars
+ ([CIIII)V
+ ([CIIII)V
+drawImage
+ (Ljava/awt/Image;IIIIIIIILjava/awt/Color;Ljava/awt/image/ImageObserver;)Z
+ (Ljava/awt/Image;IIIIIIIILjava/awt/Color;Ljava/awt/image/ImageObserver;)Z
+drawImage
+ (Ljava/awt/Image;IIIIIIIILjava/awt/image/ImageObserver;)Z
+ (Ljava/awt/Image;IIIIIIIILjava/awt/image/ImageObserver;)Z
+drawImage
+ (Ljava/awt/Image;IIIILjava/awt/Color;Ljava/awt/image/ImageObserver;)Z
+ (Ljava/awt/Image;IIIILjava/awt/Color;Ljava/awt/image/ImageObserver;)Z
+drawImage
+ (Ljava/awt/Image;IIIILjava/awt/image/ImageObserver;)Z
+ (Ljava/awt/Image;IIIILjava/awt/image/ImageObserver;)Z
+drawImage
+ (Ljava/awt/Image;IILjava/awt/Color;Ljava/awt/image/ImageObserver;)Z
+ (Ljava/awt/Image;IILjava/awt/Color;Ljava/awt/image/ImageObserver;)Z
+drawImage
+ (Ljava/awt/Image;IILjava/awt/image/ImageObserver;)Z
+ (Ljava/awt/Image;IILjava/awt/image/ImageObserver;)Z
+drawPolygon
+ (Ljava/awt/Polygon;)V
+ (Ljava/awt/Polygon;)V
+drawPolygon
+ ([I[II)V
+ ([I[II)V
+drawPolyline
+ ([I[II)V
+ ([I[II)V
+drawString
+ (Ljava/lang/String;II)V
+ (Ljava/lang/String;II)V
+drawString
+ (Ljava/text/AttributedCharacterIterator;II)V
+ (Ljava/text/AttributedCharacterIterator;II)V
+fillPolygon
+ (Ljava/awt/Polygon;)V
+ (Ljava/awt/Polygon;)V
+fillPolygon
+ ([I[II)V
+ ([I[II)V
+getClip
+ ()Ljava/awt/Shape;
+ ()Ljava/awt/Shape;
+getClipBounds
+ ()Ljava/awt/Rectangle;
+ ()Ljava/awt/Rectangle;
+getClipBounds
+ (Ljava/awt/Rectangle;)Ljava/awt/Rectangle;
+ (Ljava/awt/Rectangle;)Ljava/awt/Rectangle;
+getClipRect
+ ()Ljava/awt/Rectangle;
+ ()Ljava/awt/Rectangle;
+getColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getFont
+ ()Ljava/awt/Font;
+ ()Ljava/awt/Font;
+getFontMetrics
+ ()Ljava/awt/FontMetrics;
+ ()Ljava/awt/FontMetrics;
+getFontMetrics
+ (Ljava/awt/Font;)Ljava/awt/FontMetrics;
+ (Ljava/awt/Font;)Ljava/awt/FontMetrics;
+setClip
+ (Ljava/awt/Shape;)V
+ (Ljava/awt/Shape;)V
+setColor
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setFont
+ (Ljava/awt/Font;)V
+ (Ljava/awt/Font;)V
+setXORMode
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

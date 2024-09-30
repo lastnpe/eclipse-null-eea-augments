@@ -1,0 +1,29 @@
+class java/util/concurrent/ExecutorCompletionService
+ <V:Ljava/lang/Object;>
+ <V:Ljava/lang/Object;>
+
+super java/util/concurrent/CompletionService
+ <TV;>
+ <TV;>
+
+<init>
+ (Ljava/util/concurrent/Executor;)V
+ (Ljava/util/concurrent/Executor;)V
+<init>
+ (Ljava/util/concurrent/Executor;Ljava/util/concurrent/BlockingQueue<Ljava/util/concurrent/Future<TV;>;>;)V
+ (Ljava/util/concurrent/Executor;Ljava/util/concurrent/BlockingQueue<Ljava/util/concurrent/Future<TV;>;>;)V
+poll
+ ()Ljava/util/concurrent/Future<TV;>;
+ ()L0java/util/concurrent/Future<TV;>; # @Inherited(java.util.concurrent.CompletionService)
+poll
+ (JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/Future<TV;>;
+ (JL1java/util/concurrent/TimeUnit;)L0java/util/concurrent/Future<TV;>; # @Inherited(java.util.concurrent.CompletionService)
+submit
+ (Ljava/lang/Runnable;TV;)Ljava/util/concurrent/Future<TV;>;
+ (L1java/lang/Runnable;TV;)L1java/util/concurrent/Future<TV;>; # @Inherited(java.util.concurrent.CompletionService)
+submit
+ (Ljava/util/concurrent/Callable<TV;>;)Ljava/util/concurrent/Future<TV;>;
+ (L1java/util/concurrent/Callable<TV;>;)L1java/util/concurrent/Future<TV;>; # @Inherited(java.util.concurrent.CompletionService)
+take
+ ()Ljava/util/concurrent/Future<TV;>;
+ ()L1java/util/concurrent/Future<TV;>; # @Inherited(java.util.concurrent.CompletionService)

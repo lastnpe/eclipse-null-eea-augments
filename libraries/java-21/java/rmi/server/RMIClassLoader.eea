@@ -1,0 +1,29 @@
+class java/rmi/server/RMIClassLoader
+
+getClassAnnotation
+ (Ljava/lang/Class<*>;)Ljava/lang/String;
+ (Ljava/lang/Class<*>;)Ljava/lang/String;
+getClassLoader
+ (Ljava/lang/String;)Ljava/lang/ClassLoader;
+ (Ljava/lang/String;)Ljava/lang/ClassLoader;
+getDefaultProviderInstance
+ ()Ljava/rmi/server/RMIClassLoaderSpi;
+ ()Ljava/rmi/server/RMIClassLoaderSpi;
+getSecurityContext
+ (Ljava/lang/ClassLoader;)Ljava/lang/Object;
+ (Ljava/lang/ClassLoader;)Ljava/lang/Object;
+loadClass
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+loadClass
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Class<*>;
+loadClass
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/Class<*>;
+loadClass
+ (Ljava/net/URL;Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/net/URL;Ljava/lang/String;)Ljava/lang/Class<*>;
+loadProxyClass
+ (Ljava/lang/String;[Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;[Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/Class<*>;

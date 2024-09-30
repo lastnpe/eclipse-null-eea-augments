@@ -1,0 +1,62 @@
+class java/awt/dnd/DropTarget
+
+<init>
+ (Ljava/awt/Component;ILjava/awt/dnd/DropTargetListener;)V
+ (Ljava/awt/Component;ILjava/awt/dnd/DropTargetListener;)V
+<init>
+ (Ljava/awt/Component;ILjava/awt/dnd/DropTargetListener;Z)V
+ (Ljava/awt/Component;ILjava/awt/dnd/DropTargetListener;Z)V
+<init>
+ (Ljava/awt/Component;ILjava/awt/dnd/DropTargetListener;ZLjava/awt/datatransfer/FlavorMap;)V
+ (Ljava/awt/Component;ILjava/awt/dnd/DropTargetListener;ZLjava/awt/datatransfer/FlavorMap;)V
+<init>
+ (Ljava/awt/Component;Ljava/awt/dnd/DropTargetListener;)V
+ (Ljava/awt/Component;Ljava/awt/dnd/DropTargetListener;)V
+addDropTargetListener
+ (Ljava/awt/dnd/DropTargetListener;)V
+ (L1java/awt/dnd/DropTargetListener;)V
+createDropTargetAutoScroller
+ (Ljava/awt/Component;Ljava/awt/Point;)Ljava/awt/dnd/DropTarget$DropTargetAutoScroller;
+ (Ljava/awt/Component;Ljava/awt/Point;)Ljava/awt/dnd/DropTarget$DropTargetAutoScroller;
+createDropTargetContext
+ ()Ljava/awt/dnd/DropTargetContext;
+ ()Ljava/awt/dnd/DropTargetContext;
+dragEnter
+ (Ljava/awt/dnd/DropTargetDragEvent;)V
+ (L1java/awt/dnd/DropTargetDragEvent;)V # @Inherited(java.awt.dnd.DropTargetListener)
+dragExit
+ (Ljava/awt/dnd/DropTargetEvent;)V
+ (L1java/awt/dnd/DropTargetEvent;)V # @Inherited(java.awt.dnd.DropTargetListener)
+dragOver
+ (Ljava/awt/dnd/DropTargetDragEvent;)V
+ (L1java/awt/dnd/DropTargetDragEvent;)V # @Inherited(java.awt.dnd.DropTargetListener)
+drop
+ (Ljava/awt/dnd/DropTargetDropEvent;)V
+ (L1java/awt/dnd/DropTargetDropEvent;)V # @Inherited(java.awt.dnd.DropTargetListener)
+dropActionChanged
+ (Ljava/awt/dnd/DropTargetDragEvent;)V
+ (L1java/awt/dnd/DropTargetDragEvent;)V # @Inherited(java.awt.dnd.DropTargetListener)
+getComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getDropTargetContext
+ ()Ljava/awt/dnd/DropTargetContext;
+ ()Ljava/awt/dnd/DropTargetContext;
+getFlavorMap
+ ()Ljava/awt/datatransfer/FlavorMap;
+ ()Ljava/awt/datatransfer/FlavorMap;
+initializeAutoscrolling
+ (Ljava/awt/Point;)V
+ (Ljava/awt/Point;)V
+removeDropTargetListener
+ (Ljava/awt/dnd/DropTargetListener;)V
+ (L1java/awt/dnd/DropTargetListener;)V
+setComponent
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+setFlavorMap
+ (Ljava/awt/datatransfer/FlavorMap;)V
+ (Ljava/awt/datatransfer/FlavorMap;)V
+updateAutoscroll
+ (Ljava/awt/Point;)V
+ (Ljava/awt/Point;)V

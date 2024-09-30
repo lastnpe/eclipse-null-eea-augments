@@ -1,0 +1,39 @@
+class java/sql/SQLException
+
+super java/lang/Iterable
+ <Ljava/lang/Throwable;>
+ <Ljava/lang/Throwable;>
+
+<init>
+ (Ljava/lang/String;)V
+ (L0java/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;I)V
+ (Ljava/lang/String;Ljava/lang/String;I)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;ILjava/lang/Throwable;)V
+ (Ljava/lang/String;Ljava/lang/String;ILjava/lang/Throwable;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+ (L0java/lang/String;L0java/lang/Throwable;)V
+<init>
+ (Ljava/lang/Throwable;)V
+ (L0java/lang/Throwable;)V
+getNextException
+ ()Ljava/sql/SQLException;
+ ()Ljava/sql/SQLException;
+getSQLState
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+iterator
+ ()Ljava/util/Iterator<Ljava/lang/Throwable;>;
+ ()Ljava/util/Iterator<Ljava/lang/Throwable;>;
+setNextException
+ (Ljava/sql/SQLException;)V
+ (Ljava/sql/SQLException;)V

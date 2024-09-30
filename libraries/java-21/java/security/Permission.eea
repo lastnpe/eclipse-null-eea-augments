@@ -1,0 +1,26 @@
+class java/security/Permission
+
+<init>
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V
+checkGuard
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getActions
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getName
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+implies
+ (Ljava/security/Permission;)Z
+ (Ljava/security/Permission;)Z
+newPermissionCollection
+ ()Ljava/security/PermissionCollection;
+ ()L1java/security/PermissionCollection;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

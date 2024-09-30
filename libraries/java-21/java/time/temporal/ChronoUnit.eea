@@ -1,0 +1,21 @@
+class java/time/temporal/ChronoUnit
+
+super java/lang/Enum
+ <Ljava/time/temporal/ChronoUnit;>
+ <Ljava/time/temporal/ChronoUnit;>
+
+addTo
+ <R::Ljava/time/temporal/Temporal;>(TR;J)TR;
+ <1R::Ljava/time/temporal/Temporal;>(TR;J)TR; # @Inherited(java.time.temporal.TemporalUnit)
+between
+ (Ljava/time/temporal/Temporal;Ljava/time/temporal/Temporal;)J
+ (L1java/time/temporal/Temporal;L1java/time/temporal/Temporal;)J # @Inherited(java.time.temporal.TemporalUnit)
+getDuration
+ ()Ljava/time/Duration;
+ ()L1java/time/Duration; # @Inherited(java.time.temporal.TemporalUnit)
+isSupportedBy
+ (Ljava/time/temporal/Temporal;)Z
+ (L1java/time/temporal/Temporal;)Z # @Inherited(java.time.temporal.TemporalUnit)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Enum)

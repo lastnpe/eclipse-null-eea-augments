@@ -1,0 +1,155 @@
+class java/util/TreeMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super java/util/AbstractMap
+ <TK;TV;>
+ <TK;TV;>
+super java/util/NavigableMap
+ <TK;TV;>
+ <TK;TV;>
+
+<init>
+ (Ljava/util/Comparator<-TK;>;)V
+ (L0java/util/Comparator<-TK;>;)V
+<init>
+ (Ljava/util/Map<+TK;+TV;>;)V
+ (L1java/util/Map<+TK;+TV;>;)V
+<init>
+ (Ljava/util/SortedMap<TK;+TV;>;)V
+ (L1java/util/SortedMap<TK;+TV;>;)V
+ceilingEntry
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+ceilingKey
+ (TK;)TK;
+ (TK;)TK;
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.util.AbstractMap)
+comparator
+ ()Ljava/util/Comparator<-TK;>;
+ ()L0java/util/Comparator<-TK;>;
+compute
+ (TK;Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)TV;
+ (TK;L1java/util/function/BiFunction<-TK;-T0V;+T0V;>;)T0V; # @Inherited(java.util.Map)
+computeIfAbsent
+ (TK;Ljava/util/function/Function<-TK;+TV;>;)TV;
+ (TK;L1java/util/function/Function<-TK;+T0V;>;)TV; # @Inherited(java.util.Map)
+computeIfPresent
+ (TK;Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)TV;
+ (TK;L1java/util/function/BiFunction<-TK;-TV;+T0V;>;)T0V; # @Inherited(java.util.Map)
+containsKey
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.AbstractMap)
+containsValue
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.AbstractMap)
+descendingKeySet
+ ()Ljava/util/NavigableSet<TK;>;
+ ()Ljava/util/NavigableSet<TK;>;
+descendingMap
+ ()Ljava/util/NavigableMap<TK;TV;>;
+ ()Ljava/util/NavigableMap<TK;TV;>;
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()L1java/util/Set<L1java/util/Map$Entry<TK;TV;>;>; # @Inherited(java.util.AbstractMap)
+firstEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()Ljava/util/Map$Entry<TK;TV;>;
+firstKey
+ ()TK;
+ ()TK;
+floorEntry
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+floorKey
+ (TK;)TK;
+ (TK;)TK;
+forEach
+ (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
+ (L1java/util/function/BiConsumer<-TK;-TV;>;)V # @Inherited(java.util.Map)
+get
+ (Ljava/lang/Object;)TV;
+ (Ljava/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
+headMap
+ (TK;)Ljava/util/SortedMap<TK;TV;>;
+ (TK;)Ljava/util/SortedMap<TK;TV;>;
+headMap
+ (TK;Z)Ljava/util/NavigableMap<TK;TV;>;
+ (TK;Z)Ljava/util/NavigableMap<TK;TV;>;
+higherEntry
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+higherKey
+ (TK;)TK;
+ (TK;)TK;
+keySet
+ ()Ljava/util/Set<TK;>;
+ ()L1java/util/Set<TK;>; # @Inherited(java.util.AbstractMap)
+lastEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()Ljava/util/Map$Entry<TK;TV;>;
+lastKey
+ ()TK;
+ ()TK;
+lowerEntry
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+ (TK;)Ljava/util/Map$Entry<TK;TV;>;
+lowerKey
+ (TK;)TK;
+ (TK;)TK;
+merge
+ (TK;TV;Ljava/util/function/BiFunction<-TV;-TV;+TV;>;)TV;
+ (TK;T1V;L1java/util/function/BiFunction<-TV;-TV;+TV;>;)T0V; # @Inherited(java.util.Map)
+navigableKeySet
+ ()Ljava/util/NavigableSet<TK;>;
+ ()Ljava/util/NavigableSet<TK;>;
+pollFirstEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()Ljava/util/Map$Entry<TK;TV;>;
+pollLastEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()Ljava/util/Map$Entry<TK;TV;>;
+put
+ (TK;TV;)TV;
+ (TK;TV;)T0V; # @Inherited(java.util.AbstractMap)
+putAll
+ (Ljava/util/Map<+TK;+TV;>;)V
+ (L1java/util/Map<+TK;+TV;>;)V # @Inherited(java.util.AbstractMap)
+putFirst
+ (TK;TV;)TV;
+ (TK;TV;)TV;
+putIfAbsent
+ (TK;TV;)TV;
+ (TK;TV;)T0V; # @Inherited(java.util.Map)
+putLast
+ (TK;TV;)TV;
+ (TK;TV;)TV;
+remove
+ (Ljava/lang/Object;)TV;
+ (L0java/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
+replace
+ (TK;TV;)TV;
+ (TK;TV;)T0V; # @Inherited(java.util.Map)
+replace
+ (TK;TV;TV;)Z
+ (TK;TV;TV;)Z
+replaceAll
+ (Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)V
+ (L1java/util/function/BiFunction<-TK;-TV;+TV;>;)V # @Inherited(java.util.Map)
+subMap
+ (TK;TK;)Ljava/util/SortedMap<TK;TV;>;
+ (TK;TK;)Ljava/util/SortedMap<TK;TV;>;
+subMap
+ (TK;ZTK;Z)Ljava/util/NavigableMap<TK;TV;>;
+ (TK;ZTK;Z)Ljava/util/NavigableMap<TK;TV;>;
+tailMap
+ (TK;)Ljava/util/SortedMap<TK;TV;>;
+ (TK;)Ljava/util/SortedMap<TK;TV;>;
+tailMap
+ (TK;Z)Ljava/util/NavigableMap<TK;TV;>;
+ (TK;Z)Ljava/util/NavigableMap<TK;TV;>;
+values
+ ()Ljava/util/Collection<TV;>;
+ ()L1java/util/Collection<TV;>; # @Inherited(java.util.AbstractMap)

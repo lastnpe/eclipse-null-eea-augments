@@ -1,0 +1,103 @@
+class javax/swing/JEditorPane
+
+HONOR_DISPLAY_PROPERTIES
+ Ljava/lang/String;
+ L1java/lang/String;
+W3C_LENGTH_UNITS
+ Ljava/lang/String;
+ L1java/lang/String;
+
+createEditorKitForContentType
+ (Ljava/lang/String;)Ljavax/swing/text/EditorKit;
+ (Ljava/lang/String;)Ljavax/swing/text/EditorKit;
+getEditorKitClassNameForContentType
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+registerEditorKitForContentType
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+registerEditorKitForContentType
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/net/URL;)V
+ (Ljava/net/URL;)V
+addHyperlinkListener
+ (Ljavax/swing/event/HyperlinkListener;)V
+ (L1javax/swing/event/HyperlinkListener;)V
+createDefaultEditorKit
+ ()Ljavax/swing/text/EditorKit;
+ ()Ljavax/swing/text/EditorKit;
+fireHyperlinkUpdate
+ (Ljavax/swing/event/HyperlinkEvent;)V
+ (Ljavax/swing/event/HyperlinkEvent;)V
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getContentType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getEditorKit
+ ()Ljavax/swing/text/EditorKit;
+ ()Ljavax/swing/text/EditorKit;
+getEditorKitForContentType
+ (Ljava/lang/String;)Ljavax/swing/text/EditorKit;
+ (Ljava/lang/String;)Ljavax/swing/text/EditorKit;
+getHyperlinkListeners
+ ()[Ljavax/swing/event/HyperlinkListener;
+ ()[Ljavax/swing/event/HyperlinkListener;
+getPage
+ ()Ljava/net/URL;
+ ()Ljava/net/URL;
+getPreferredSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getStream
+ (Ljava/net/URL;)Ljava/io/InputStream;
+ (Ljava/net/URL;)Ljava/io/InputStream;
+getText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+read
+ (Ljava/io/InputStream;Ljava/lang/Object;)V
+ (Ljava/io/InputStream;Ljava/lang/Object;)V
+removeHyperlinkListener
+ (Ljavax/swing/event/HyperlinkListener;)V
+ (L1javax/swing/event/HyperlinkListener;)V
+replaceSelection
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+scrollToReference
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setContentType
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setEditorKit
+ (Ljavax/swing/text/EditorKit;)V
+ (Ljavax/swing/text/EditorKit;)V
+setEditorKitForContentType
+ (Ljava/lang/String;Ljavax/swing/text/EditorKit;)V
+ (Ljava/lang/String;Ljavax/swing/text/EditorKit;)V
+setPage
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPage
+ (Ljava/net/URL;)V
+ (Ljava/net/URL;)V
+setText
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

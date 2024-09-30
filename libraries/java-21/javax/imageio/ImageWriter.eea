@@ -1,0 +1,123 @@
+class javax/imageio/ImageWriter
+
+availableLocales
+ [Ljava/util/Locale;
+ [Ljava/util/Locale;
+locale
+ Ljava/util/Locale;
+ Ljava/util/Locale;
+originatingProvider
+ Ljavax/imageio/spi/ImageWriterSpi;
+ Ljavax/imageio/spi/ImageWriterSpi;
+output
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+progressListeners
+ Ljava/util/List<Ljavax/imageio/event/IIOWriteProgressListener;>;
+ Ljava/util/List<Ljavax/imageio/event/IIOWriteProgressListener;>;
+warningListeners
+ Ljava/util/List<Ljavax/imageio/event/IIOWriteWarningListener;>;
+ Ljava/util/List<Ljavax/imageio/event/IIOWriteWarningListener;>;
+warningLocales
+ Ljava/util/List<Ljava/util/Locale;>;
+ Ljava/util/List<Ljava/util/Locale;>;
+
+<init>
+ (Ljavax/imageio/spi/ImageWriterSpi;)V
+ (Ljavax/imageio/spi/ImageWriterSpi;)V
+addIIOWriteProgressListener
+ (Ljavax/imageio/event/IIOWriteProgressListener;)V
+ (L1javax/imageio/event/IIOWriteProgressListener;)V
+addIIOWriteWarningListener
+ (Ljavax/imageio/event/IIOWriteWarningListener;)V
+ (L1javax/imageio/event/IIOWriteWarningListener;)V
+convertImageMetadata
+ (Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/ImageTypeSpecifier;Ljavax/imageio/ImageWriteParam;)Ljavax/imageio/metadata/IIOMetadata;
+ (Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/ImageTypeSpecifier;Ljavax/imageio/ImageWriteParam;)Ljavax/imageio/metadata/IIOMetadata;
+convertStreamMetadata
+ (Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/ImageWriteParam;)Ljavax/imageio/metadata/IIOMetadata;
+ (Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/ImageWriteParam;)Ljavax/imageio/metadata/IIOMetadata;
+getAvailableLocales
+ ()[Ljava/util/Locale;
+ ()[Ljava/util/Locale;
+getDefaultImageMetadata
+ (Ljavax/imageio/ImageTypeSpecifier;Ljavax/imageio/ImageWriteParam;)Ljavax/imageio/metadata/IIOMetadata;
+ (Ljavax/imageio/ImageTypeSpecifier;Ljavax/imageio/ImageWriteParam;)Ljavax/imageio/metadata/IIOMetadata;
+getDefaultStreamMetadata
+ (Ljavax/imageio/ImageWriteParam;)Ljavax/imageio/metadata/IIOMetadata;
+ (Ljavax/imageio/ImageWriteParam;)Ljavax/imageio/metadata/IIOMetadata;
+getDefaultWriteParam
+ ()Ljavax/imageio/ImageWriteParam;
+ ()Ljavax/imageio/ImageWriteParam;
+getLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+getNumThumbnailsSupported
+ (Ljavax/imageio/ImageTypeSpecifier;Ljavax/imageio/ImageWriteParam;Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/metadata/IIOMetadata;)I
+ (Ljavax/imageio/ImageTypeSpecifier;Ljavax/imageio/ImageWriteParam;Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/metadata/IIOMetadata;)I
+getOriginatingProvider
+ ()Ljavax/imageio/spi/ImageWriterSpi;
+ ()Ljavax/imageio/spi/ImageWriterSpi;
+getOutput
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getPreferredThumbnailSizes
+ (Ljavax/imageio/ImageTypeSpecifier;Ljavax/imageio/ImageWriteParam;Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/metadata/IIOMetadata;)[Ljava/awt/Dimension;
+ (Ljavax/imageio/ImageTypeSpecifier;Ljavax/imageio/ImageWriteParam;Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/metadata/IIOMetadata;)[Ljava/awt/Dimension;
+prepareInsertEmpty
+ (ILjavax/imageio/ImageTypeSpecifier;IILjavax/imageio/metadata/IIOMetadata;Ljava/util/List<+Ljava/awt/image/BufferedImage;>;Ljavax/imageio/ImageWriteParam;)V
+ (ILjavax/imageio/ImageTypeSpecifier;IILjavax/imageio/metadata/IIOMetadata;Ljava/util/List<+Ljava/awt/image/BufferedImage;>;Ljavax/imageio/ImageWriteParam;)V
+prepareReplacePixels
+ (ILjava/awt/Rectangle;)V
+ (ILjava/awt/Rectangle;)V
+prepareWriteEmpty
+ (Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/ImageTypeSpecifier;IILjavax/imageio/metadata/IIOMetadata;Ljava/util/List<+Ljava/awt/image/BufferedImage;>;Ljavax/imageio/ImageWriteParam;)V
+ (Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/ImageTypeSpecifier;IILjavax/imageio/metadata/IIOMetadata;Ljava/util/List<+Ljava/awt/image/BufferedImage;>;Ljavax/imageio/ImageWriteParam;)V
+prepareWriteSequence
+ (Ljavax/imageio/metadata/IIOMetadata;)V
+ (Ljavax/imageio/metadata/IIOMetadata;)V
+processWarningOccurred
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+processWarningOccurred
+ (ILjava/lang/String;Ljava/lang/String;)V
+ (ILjava/lang/String;Ljava/lang/String;)V
+removeIIOWriteProgressListener
+ (Ljavax/imageio/event/IIOWriteProgressListener;)V
+ (L1javax/imageio/event/IIOWriteProgressListener;)V
+removeIIOWriteWarningListener
+ (Ljavax/imageio/event/IIOWriteWarningListener;)V
+ (L1javax/imageio/event/IIOWriteWarningListener;)V
+replaceImageMetadata
+ (ILjavax/imageio/metadata/IIOMetadata;)V
+ (ILjavax/imageio/metadata/IIOMetadata;)V
+replacePixels
+ (Ljava/awt/image/Raster;Ljavax/imageio/ImageWriteParam;)V
+ (Ljava/awt/image/Raster;Ljavax/imageio/ImageWriteParam;)V
+replacePixels
+ (Ljava/awt/image/RenderedImage;Ljavax/imageio/ImageWriteParam;)V
+ (Ljava/awt/image/RenderedImage;Ljavax/imageio/ImageWriteParam;)V
+replaceStreamMetadata
+ (Ljavax/imageio/metadata/IIOMetadata;)V
+ (Ljavax/imageio/metadata/IIOMetadata;)V
+setLocale
+ (Ljava/util/Locale;)V
+ (Ljava/util/Locale;)V
+setOutput
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+write
+ (Ljava/awt/image/RenderedImage;)V
+ (Ljava/awt/image/RenderedImage;)V
+write
+ (Ljavax/imageio/IIOImage;)V
+ (Ljavax/imageio/IIOImage;)V
+write
+ (Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/IIOImage;Ljavax/imageio/ImageWriteParam;)V
+ (Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/IIOImage;Ljavax/imageio/ImageWriteParam;)V
+writeInsert
+ (ILjavax/imageio/IIOImage;Ljavax/imageio/ImageWriteParam;)V
+ (ILjavax/imageio/IIOImage;Ljavax/imageio/ImageWriteParam;)V
+writeToSequence
+ (Ljavax/imageio/IIOImage;Ljavax/imageio/ImageWriteParam;)V
+ (Ljavax/imageio/IIOImage;Ljavax/imageio/ImageWriteParam;)V

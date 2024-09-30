@@ -1,0 +1,17 @@
+class java/net/CookieManager
+
+<init>
+ (Ljava/net/CookieStore;Ljava/net/CookiePolicy;)V
+ (Ljava/net/CookieStore;Ljava/net/CookiePolicy;)V
+get
+ (Ljava/net/URI;Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;)Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;
+ (Ljava/net/URI;Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;)Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;
+getCookieStore
+ ()Ljava/net/CookieStore;
+ ()Ljava/net/CookieStore;
+put
+ (Ljava/net/URI;Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;)V
+ (Ljava/net/URI;Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;)V
+setCookiePolicy
+ (Ljava/net/CookiePolicy;)V
+ (Ljava/net/CookiePolicy;)V

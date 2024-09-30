@@ -1,0 +1,46 @@
+class javax/swing/plaf/basic/BasicSpinnerUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+spinner
+ Ljavax/swing/JSpinner;
+ Ljavax/swing/JSpinner;
+
+createEditor
+ ()Ljavax/swing/JComponent;
+ ()Ljavax/swing/JComponent;
+createLayout
+ ()Ljava/awt/LayoutManager;
+ ()Ljava/awt/LayoutManager;
+createNextButton
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+createPreviousButton
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+createPropertyChangeListener
+ ()Ljava/beans/PropertyChangeListener;
+ ()Ljava/beans/PropertyChangeListener;
+getBaseline
+ (Ljavax/swing/JComponent;II)I
+ (Ljavax/swing/JComponent;II)I
+getBaselineResizeBehavior
+ (Ljavax/swing/JComponent;)Ljava/awt/Component$BaselineResizeBehavior;
+ (Ljavax/swing/JComponent;)Ljava/awt/Component$BaselineResizeBehavior;
+installNextButtonListeners
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+installPreviousButtonListeners
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+installUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+replaceEditor
+ (Ljavax/swing/JComponent;Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;Ljavax/swing/JComponent;)V
+uninstallUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V

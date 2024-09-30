@@ -1,0 +1,17 @@
+class java/security/cert/PolicyNode
+
+getChildren
+ ()Ljava/util/Iterator<+Ljava/security/cert/PolicyNode;>;
+ ()Ljava/util/Iterator<+Ljava/security/cert/PolicyNode;>;
+getExpectedPolicies
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getParent
+ ()Ljava/security/cert/PolicyNode;
+ ()Ljava/security/cert/PolicyNode;
+getPolicyQualifiers
+ ()Ljava/util/Set<+Ljava/security/cert/PolicyQualifierInfo;>;
+ ()Ljava/util/Set<+Ljava/security/cert/PolicyQualifierInfo;>;
+getValidPolicy
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

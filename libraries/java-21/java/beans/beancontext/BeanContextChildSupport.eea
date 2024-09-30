@@ -1,0 +1,54 @@
+class java/beans/beancontext/BeanContextChildSupport
+
+beanContext
+ Ljava/beans/beancontext/BeanContext;
+ Ljava/beans/beancontext/BeanContext;
+beanContextChildPeer
+ Ljava/beans/beancontext/BeanContextChild;
+ Ljava/beans/beancontext/BeanContextChild;
+pcSupport
+ Ljava/beans/PropertyChangeSupport;
+ Ljava/beans/PropertyChangeSupport;
+vcSupport
+ Ljava/beans/VetoableChangeSupport;
+ Ljava/beans/VetoableChangeSupport;
+
+<init>
+ (Ljava/beans/beancontext/BeanContextChild;)V
+ (Ljava/beans/beancontext/BeanContextChild;)V
+addPropertyChangeListener
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+addVetoableChangeListener
+ (Ljava/lang/String;Ljava/beans/VetoableChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/VetoableChangeListener;)V
+firePropertyChange
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+fireVetoableChange
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+getBeanContext
+ ()Ljava/beans/beancontext/BeanContext;
+ ()Ljava/beans/beancontext/BeanContext;
+getBeanContextChildPeer
+ ()Ljava/beans/beancontext/BeanContextChild;
+ ()Ljava/beans/beancontext/BeanContextChild;
+removePropertyChangeListener
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+removeVetoableChangeListener
+ (Ljava/lang/String;Ljava/beans/VetoableChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/VetoableChangeListener;)V
+serviceAvailable
+ (Ljava/beans/beancontext/BeanContextServiceAvailableEvent;)V
+ (L1java/beans/beancontext/BeanContextServiceAvailableEvent;)V # @Inherited(java.beans.beancontext.BeanContextServicesListener)
+serviceRevoked
+ (Ljava/beans/beancontext/BeanContextServiceRevokedEvent;)V
+ (L1java/beans/beancontext/BeanContextServiceRevokedEvent;)V # @Inherited(java.beans.beancontext.BeanContextServiceRevokedListener)
+setBeanContext
+ (Ljava/beans/beancontext/BeanContext;)V
+ (Ljava/beans/beancontext/BeanContext;)V
+validatePendingSetBeanContext
+ (Ljava/beans/beancontext/BeanContext;)Z
+ (Ljava/beans/beancontext/BeanContext;)Z

@@ -1,0 +1,103 @@
+class javax/swing/text/html/parser/DTD
+
+getDTD
+ (Ljava/lang/String;)Ljavax/swing/text/html/parser/DTD;
+ (Ljava/lang/String;)Ljavax/swing/text/html/parser/DTD;
+putDTDHash
+ (Ljava/lang/String;Ljavax/swing/text/html/parser/DTD;)V
+ (Ljava/lang/String;Ljavax/swing/text/html/parser/DTD;)V
+
+applet
+ Ljavax/swing/text/html/parser/Element;
+ Ljavax/swing/text/html/parser/Element;
+base
+ Ljavax/swing/text/html/parser/Element;
+ Ljavax/swing/text/html/parser/Element;
+body
+ Ljavax/swing/text/html/parser/Element;
+ Ljavax/swing/text/html/parser/Element;
+elementHash
+ Ljava/util/Hashtable<Ljava/lang/String;Ljavax/swing/text/html/parser/Element;>;
+ Ljava/util/Hashtable<Ljava/lang/String;Ljavax/swing/text/html/parser/Element;>;
+elements
+ Ljava/util/Vector<Ljavax/swing/text/html/parser/Element;>;
+ Ljava/util/Vector<Ljavax/swing/text/html/parser/Element;>;
+entityHash
+ Ljava/util/Hashtable<Ljava/lang/Object;Ljavax/swing/text/html/parser/Entity;>;
+ Ljava/util/Hashtable<Ljava/lang/Object;Ljavax/swing/text/html/parser/Entity;>;
+head
+ Ljavax/swing/text/html/parser/Element;
+ Ljavax/swing/text/html/parser/Element;
+html
+ Ljavax/swing/text/html/parser/Element;
+ Ljavax/swing/text/html/parser/Element;
+isindex
+ Ljavax/swing/text/html/parser/Element;
+ Ljavax/swing/text/html/parser/Element;
+meta
+ Ljavax/swing/text/html/parser/Element;
+ Ljavax/swing/text/html/parser/Element;
+name
+ Ljava/lang/String;
+ Ljava/lang/String;
+p
+ Ljavax/swing/text/html/parser/Element;
+ Ljavax/swing/text/html/parser/Element;
+param
+ Ljavax/swing/text/html/parser/Element;
+ Ljavax/swing/text/html/parser/Element;
+pcdata
+ Ljavax/swing/text/html/parser/Element;
+ Ljavax/swing/text/html/parser/Element;
+title
+ Ljavax/swing/text/html/parser/Element;
+ Ljavax/swing/text/html/parser/Element;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+defAttributeList
+ (Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljavax/swing/text/html/parser/AttributeList;)Ljavax/swing/text/html/parser/AttributeList;
+ (Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljavax/swing/text/html/parser/AttributeList;)Ljavax/swing/text/html/parser/AttributeList;
+defContentModel
+ (ILjava/lang/Object;Ljavax/swing/text/html/parser/ContentModel;)Ljavax/swing/text/html/parser/ContentModel;
+ (ILjava/lang/Object;Ljavax/swing/text/html/parser/ContentModel;)Ljavax/swing/text/html/parser/ContentModel;
+defElement
+ (Ljava/lang/String;IZZLjavax/swing/text/html/parser/ContentModel;[Ljava/lang/String;[Ljava/lang/String;Ljavax/swing/text/html/parser/AttributeList;)Ljavax/swing/text/html/parser/Element;
+ (Ljava/lang/String;IZZLjavax/swing/text/html/parser/ContentModel;[Ljava/lang/String;[Ljava/lang/String;Ljavax/swing/text/html/parser/AttributeList;)Ljavax/swing/text/html/parser/Element;
+defEntity
+ (Ljava/lang/String;II)Ljavax/swing/text/html/parser/Entity;
+ (Ljava/lang/String;II)Ljavax/swing/text/html/parser/Entity;
+defEntity
+ (Ljava/lang/String;ILjava/lang/String;)Ljavax/swing/text/html/parser/Entity;
+ (Ljava/lang/String;ILjava/lang/String;)Ljavax/swing/text/html/parser/Entity;
+defineAttributes
+ (Ljava/lang/String;Ljavax/swing/text/html/parser/AttributeList;)V
+ (Ljava/lang/String;Ljavax/swing/text/html/parser/AttributeList;)V
+defineElement
+ (Ljava/lang/String;IZZLjavax/swing/text/html/parser/ContentModel;Ljava/util/BitSet;Ljava/util/BitSet;Ljavax/swing/text/html/parser/AttributeList;)Ljavax/swing/text/html/parser/Element;
+ (Ljava/lang/String;IZZLjavax/swing/text/html/parser/ContentModel;Ljava/util/BitSet;Ljava/util/BitSet;Ljavax/swing/text/html/parser/AttributeList;)Ljavax/swing/text/html/parser/Element;
+defineEntity
+ (Ljava/lang/String;I[C)Ljavax/swing/text/html/parser/Entity;
+ (Ljava/lang/String;I[C)Ljavax/swing/text/html/parser/Entity;
+getElement
+ (I)Ljavax/swing/text/html/parser/Element;
+ (I)Ljavax/swing/text/html/parser/Element;
+getElement
+ (Ljava/lang/String;)Ljavax/swing/text/html/parser/Element;
+ (Ljava/lang/String;)Ljavax/swing/text/html/parser/Element;
+getEntity
+ (I)Ljavax/swing/text/html/parser/Entity;
+ (I)Ljavax/swing/text/html/parser/Entity;
+getEntity
+ (Ljava/lang/String;)Ljavax/swing/text/html/parser/Entity;
+ (Ljava/lang/String;)Ljavax/swing/text/html/parser/Entity;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+read
+ (Ljava/io/DataInputStream;)V
+ (Ljava/io/DataInputStream;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

@@ -1,0 +1,51 @@
+class java/awt/dnd/DragGestureRecognizer
+
+component
+ Ljava/awt/Component;
+ Ljava/awt/Component;
+dragGestureListener
+ Ljava/awt/dnd/DragGestureListener;
+ Ljava/awt/dnd/DragGestureListener;
+dragSource
+ Ljava/awt/dnd/DragSource;
+ Ljava/awt/dnd/DragSource;
+events
+ Ljava/util/ArrayList<Ljava/awt/event/InputEvent;>;
+ Ljava/util/ArrayList<Ljava/awt/event/InputEvent;>;
+
+<init>
+ (Ljava/awt/dnd/DragSource;)V
+ (Ljava/awt/dnd/DragSource;)V
+<init>
+ (Ljava/awt/dnd/DragSource;Ljava/awt/Component;)V
+ (Ljava/awt/dnd/DragSource;Ljava/awt/Component;)V
+<init>
+ (Ljava/awt/dnd/DragSource;Ljava/awt/Component;I)V
+ (Ljava/awt/dnd/DragSource;Ljava/awt/Component;I)V
+<init>
+ (Ljava/awt/dnd/DragSource;Ljava/awt/Component;ILjava/awt/dnd/DragGestureListener;)V
+ (Ljava/awt/dnd/DragSource;Ljava/awt/Component;ILjava/awt/dnd/DragGestureListener;)V
+addDragGestureListener
+ (Ljava/awt/dnd/DragGestureListener;)V
+ (L1java/awt/dnd/DragGestureListener;)V
+appendEvent
+ (Ljava/awt/event/InputEvent;)V
+ (Ljava/awt/event/InputEvent;)V
+fireDragGestureRecognized
+ (ILjava/awt/Point;)V
+ (ILjava/awt/Point;)V
+getComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getDragSource
+ ()Ljava/awt/dnd/DragSource;
+ ()Ljava/awt/dnd/DragSource;
+getTriggerEvent
+ ()Ljava/awt/event/InputEvent;
+ ()Ljava/awt/event/InputEvent;
+removeDragGestureListener
+ (Ljava/awt/dnd/DragGestureListener;)V
+ (L1java/awt/dnd/DragGestureListener;)V
+setComponent
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V

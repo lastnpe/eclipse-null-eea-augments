@@ -1,0 +1,135 @@
+class java/time/format/DateTimeFormatterBuilder
+
+getLocalizedDateTimePattern
+ (Ljava/lang/String;Ljava/time/chrono/Chronology;Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/time/chrono/Chronology;Ljava/util/Locale;)Ljava/lang/String;
+getLocalizedDateTimePattern
+ (Ljava/time/format/FormatStyle;Ljava/time/format/FormatStyle;Ljava/time/chrono/Chronology;Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/time/format/FormatStyle;Ljava/time/format/FormatStyle;Ljava/time/chrono/Chronology;Ljava/util/Locale;)Ljava/lang/String;
+
+append
+ (Ljava/time/format/DateTimeFormatter;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/format/DateTimeFormatter;)L1java/time/format/DateTimeFormatterBuilder;
+appendChronologyId
+ ()Ljava/time/format/DateTimeFormatterBuilder;
+ ()L1java/time/format/DateTimeFormatterBuilder;
+appendChronologyText
+ (Ljava/time/format/TextStyle;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/format/TextStyle;)L1java/time/format/DateTimeFormatterBuilder;
+appendDayPeriodText
+ (Ljava/time/format/TextStyle;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/format/TextStyle;)L1java/time/format/DateTimeFormatterBuilder;
+appendFraction
+ (Ljava/time/temporal/TemporalField;IIZ)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/temporal/TemporalField;IIZ)L1java/time/format/DateTimeFormatterBuilder;
+appendGenericZoneText
+ (Ljava/time/format/TextStyle;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/format/TextStyle;)L1java/time/format/DateTimeFormatterBuilder;
+appendGenericZoneText
+ (Ljava/time/format/TextStyle;Ljava/util/Set<Ljava/time/ZoneId;>;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/format/TextStyle;Ljava/util/Set<Ljava/time/ZoneId;>;)L1java/time/format/DateTimeFormatterBuilder;
+appendInstant
+ ()Ljava/time/format/DateTimeFormatterBuilder;
+ ()L1java/time/format/DateTimeFormatterBuilder;
+appendInstant
+ (I)Ljava/time/format/DateTimeFormatterBuilder;
+ (I)L1java/time/format/DateTimeFormatterBuilder;
+appendLiteral
+ (C)Ljava/time/format/DateTimeFormatterBuilder;
+ (C)L1java/time/format/DateTimeFormatterBuilder;
+appendLiteral
+ (Ljava/lang/String;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/lang/String;)L1java/time/format/DateTimeFormatterBuilder;
+appendLocalized
+ (Ljava/lang/String;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/lang/String;)L1java/time/format/DateTimeFormatterBuilder;
+appendLocalized
+ (Ljava/time/format/FormatStyle;Ljava/time/format/FormatStyle;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/format/FormatStyle;Ljava/time/format/FormatStyle;)L1java/time/format/DateTimeFormatterBuilder;
+appendLocalizedOffset
+ (Ljava/time/format/TextStyle;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/format/TextStyle;)L1java/time/format/DateTimeFormatterBuilder;
+appendOffset
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/lang/String;Ljava/lang/String;)L1java/time/format/DateTimeFormatterBuilder;
+appendOffsetId
+ ()Ljava/time/format/DateTimeFormatterBuilder;
+ ()L1java/time/format/DateTimeFormatterBuilder;
+appendOptional
+ (Ljava/time/format/DateTimeFormatter;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/format/DateTimeFormatter;)L1java/time/format/DateTimeFormatterBuilder;
+appendPattern
+ (Ljava/lang/String;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/lang/String;)L1java/time/format/DateTimeFormatterBuilder;
+appendText
+ (Ljava/time/temporal/TemporalField;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/temporal/TemporalField;)L1java/time/format/DateTimeFormatterBuilder;
+appendText
+ (Ljava/time/temporal/TemporalField;Ljava/time/format/TextStyle;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/temporal/TemporalField;Ljava/time/format/TextStyle;)L1java/time/format/DateTimeFormatterBuilder;
+appendText
+ (Ljava/time/temporal/TemporalField;Ljava/util/Map<Ljava/lang/Long;Ljava/lang/String;>;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/temporal/TemporalField;Ljava/util/Map<Ljava/lang/Long;Ljava/lang/String;>;)L1java/time/format/DateTimeFormatterBuilder;
+appendValue
+ (Ljava/time/temporal/TemporalField;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/temporal/TemporalField;)L1java/time/format/DateTimeFormatterBuilder;
+appendValue
+ (Ljava/time/temporal/TemporalField;I)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/temporal/TemporalField;I)L1java/time/format/DateTimeFormatterBuilder;
+appendValue
+ (Ljava/time/temporal/TemporalField;IILjava/time/format/SignStyle;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/temporal/TemporalField;IILjava/time/format/SignStyle;)L1java/time/format/DateTimeFormatterBuilder;
+appendValueReduced
+ (Ljava/time/temporal/TemporalField;III)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/temporal/TemporalField;III)L1java/time/format/DateTimeFormatterBuilder;
+appendValueReduced
+ (Ljava/time/temporal/TemporalField;IILjava/time/chrono/ChronoLocalDate;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/temporal/TemporalField;IILjava/time/chrono/ChronoLocalDate;)L1java/time/format/DateTimeFormatterBuilder;
+appendZoneId
+ ()Ljava/time/format/DateTimeFormatterBuilder;
+ ()L1java/time/format/DateTimeFormatterBuilder;
+appendZoneOrOffsetId
+ ()Ljava/time/format/DateTimeFormatterBuilder;
+ ()L1java/time/format/DateTimeFormatterBuilder;
+appendZoneRegionId
+ ()Ljava/time/format/DateTimeFormatterBuilder;
+ ()L1java/time/format/DateTimeFormatterBuilder;
+appendZoneText
+ (Ljava/time/format/TextStyle;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/format/TextStyle;)L1java/time/format/DateTimeFormatterBuilder;
+appendZoneText
+ (Ljava/time/format/TextStyle;Ljava/util/Set<Ljava/time/ZoneId;>;)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/format/TextStyle;Ljava/util/Set<Ljava/time/ZoneId;>;)L1java/time/format/DateTimeFormatterBuilder;
+optionalEnd
+ ()Ljava/time/format/DateTimeFormatterBuilder;
+ ()L1java/time/format/DateTimeFormatterBuilder;
+optionalStart
+ ()Ljava/time/format/DateTimeFormatterBuilder;
+ ()L1java/time/format/DateTimeFormatterBuilder;
+padNext
+ (I)Ljava/time/format/DateTimeFormatterBuilder;
+ (I)L1java/time/format/DateTimeFormatterBuilder;
+padNext
+ (IC)Ljava/time/format/DateTimeFormatterBuilder;
+ (IC)L1java/time/format/DateTimeFormatterBuilder;
+parseCaseInsensitive
+ ()Ljava/time/format/DateTimeFormatterBuilder;
+ ()L1java/time/format/DateTimeFormatterBuilder;
+parseCaseSensitive
+ ()Ljava/time/format/DateTimeFormatterBuilder;
+ ()L1java/time/format/DateTimeFormatterBuilder;
+parseDefaulting
+ (Ljava/time/temporal/TemporalField;J)Ljava/time/format/DateTimeFormatterBuilder;
+ (Ljava/time/temporal/TemporalField;J)L1java/time/format/DateTimeFormatterBuilder;
+parseLenient
+ ()Ljava/time/format/DateTimeFormatterBuilder;
+ ()L1java/time/format/DateTimeFormatterBuilder;
+parseStrict
+ ()Ljava/time/format/DateTimeFormatterBuilder;
+ ()L1java/time/format/DateTimeFormatterBuilder;
+toFormatter
+ ()Ljava/time/format/DateTimeFormatter;
+ ()Ljava/time/format/DateTimeFormatter;
+toFormatter
+ (Ljava/util/Locale;)Ljava/time/format/DateTimeFormatter;
+ (Ljava/util/Locale;)Ljava/time/format/DateTimeFormatter;

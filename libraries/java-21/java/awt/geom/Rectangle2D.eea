@@ -1,0 +1,42 @@
+class java/awt/geom/Rectangle2D
+
+intersect
+ (Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;)V
+ (Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;)V
+union
+ (Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;)V
+ (Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;)V
+
+add
+ (Ljava/awt/geom/Point2D;)V
+ (Ljava/awt/geom/Point2D;)V
+add
+ (Ljava/awt/geom/Rectangle2D;)V
+ (Ljava/awt/geom/Rectangle2D;)V
+createIntersection
+ (Ljava/awt/geom/Rectangle2D;)Ljava/awt/geom/Rectangle2D;
+ (Ljava/awt/geom/Rectangle2D;)Ljava/awt/geom/Rectangle2D;
+createUnion
+ (Ljava/awt/geom/Rectangle2D;)Ljava/awt/geom/Rectangle2D;
+ (Ljava/awt/geom/Rectangle2D;)Ljava/awt/geom/Rectangle2D;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getBounds2D
+ ()Ljava/awt/geom/Rectangle2D;
+ ()Ljava/awt/geom/Rectangle2D;
+getPathIterator
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/geom/PathIterator;
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/geom/PathIterator;
+getPathIterator
+ (Ljava/awt/geom/AffineTransform;D)Ljava/awt/geom/PathIterator;
+ (Ljava/awt/geom/AffineTransform;D)Ljava/awt/geom/PathIterator;
+intersectsLine
+ (Ljava/awt/geom/Line2D;)Z
+ (Ljava/awt/geom/Line2D;)Z
+outcode
+ (Ljava/awt/geom/Point2D;)I
+ (Ljava/awt/geom/Point2D;)I
+setRect
+ (Ljava/awt/geom/Rectangle2D;)V
+ (Ljava/awt/geom/Rectangle2D;)V

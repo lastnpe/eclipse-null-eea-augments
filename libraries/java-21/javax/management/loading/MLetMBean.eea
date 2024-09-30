@@ -1,0 +1,32 @@
+class javax/management/loading/MLetMBean
+
+addURL
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+addURL
+ (Ljava/net/URL;)V
+ (Ljava/net/URL;)V
+getLibraryDirectory
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMBeansFromURL
+ (Ljava/lang/String;)Ljava/util/Set<Ljava/lang/Object;>;
+ (Ljava/lang/String;)Ljava/util/Set<Ljava/lang/Object;>;
+getMBeansFromURL
+ (Ljava/net/URL;)Ljava/util/Set<Ljava/lang/Object;>;
+ (Ljava/net/URL;)Ljava/util/Set<Ljava/lang/Object;>;
+getResource
+ (Ljava/lang/String;)Ljava/net/URL;
+ (Ljava/lang/String;)Ljava/net/URL;
+getResourceAsStream
+ (Ljava/lang/String;)Ljava/io/InputStream;
+ (Ljava/lang/String;)Ljava/io/InputStream;
+getResources
+ (Ljava/lang/String;)Ljava/util/Enumeration<Ljava/net/URL;>;
+ (Ljava/lang/String;)Ljava/util/Enumeration<Ljava/net/URL;>;
+getURLs
+ ()[Ljava/net/URL;
+ ()[Ljava/net/URL;
+setLibraryDirectory
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

@@ -1,0 +1,42 @@
+class javax/management/monitor/Monitor
+
+alreadyNotifieds
+ [I
+ [I
+dbgTag
+ Ljava/lang/String;
+ Ljava/lang/String;
+server
+ Ljavax/management/MBeanServer;
+ Ljavax/management/MBeanServer;
+
+addObservedObject
+ (Ljavax/management/ObjectName;)V
+ (Ljavax/management/ObjectName;)V
+containsObservedObject
+ (Ljavax/management/ObjectName;)Z
+ (Ljavax/management/ObjectName;)Z
+getObservedAttribute
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getObservedObject
+ ()Ljavax/management/ObjectName;
+ ()Ljavax/management/ObjectName;
+getObservedObjects
+ ()[Ljavax/management/ObjectName;
+ ()[Ljavax/management/ObjectName;
+postRegister
+ (Ljava/lang/Boolean;)V
+ (Ljava/lang/Boolean;)V
+preRegister
+ (Ljavax/management/MBeanServer;Ljavax/management/ObjectName;)Ljavax/management/ObjectName;
+ (Ljavax/management/MBeanServer;Ljavax/management/ObjectName;)Ljavax/management/ObjectName;
+removeObservedObject
+ (Ljavax/management/ObjectName;)V
+ (Ljavax/management/ObjectName;)V
+setObservedAttribute
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setObservedObject
+ (Ljavax/management/ObjectName;)V
+ (Ljavax/management/ObjectName;)V

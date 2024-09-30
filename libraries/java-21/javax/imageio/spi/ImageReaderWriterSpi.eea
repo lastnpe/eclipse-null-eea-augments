@@ -1,0 +1,72 @@
+class javax/imageio/spi/ImageReaderWriterSpi
+
+MIMETypes
+ [Ljava/lang/String;
+ [Ljava/lang/String;
+extraImageMetadataFormatClassNames
+ [Ljava/lang/String;
+ [Ljava/lang/String;
+extraImageMetadataFormatNames
+ [Ljava/lang/String;
+ [Ljava/lang/String;
+extraStreamMetadataFormatClassNames
+ [Ljava/lang/String;
+ [Ljava/lang/String;
+extraStreamMetadataFormatNames
+ [Ljava/lang/String;
+ [Ljava/lang/String;
+names
+ [Ljava/lang/String;
+ [Ljava/lang/String;
+nativeImageMetadataFormatClassName
+ Ljava/lang/String;
+ Ljava/lang/String;
+nativeImageMetadataFormatName
+ Ljava/lang/String;
+ Ljava/lang/String;
+nativeStreamMetadataFormatClassName
+ Ljava/lang/String;
+ Ljava/lang/String;
+nativeStreamMetadataFormatName
+ Ljava/lang/String;
+ Ljava/lang/String;
+pluginClassName
+ Ljava/lang/String;
+ Ljava/lang/String;
+suffixes
+ [Ljava/lang/String;
+ [Ljava/lang/String;
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+getExtraImageMetadataFormatNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getExtraStreamMetadataFormatNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getFileSuffixes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getFormatNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getImageMetadataFormat
+ (Ljava/lang/String;)Ljavax/imageio/metadata/IIOMetadataFormat;
+ (Ljava/lang/String;)Ljavax/imageio/metadata/IIOMetadataFormat;
+getMIMETypes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getNativeImageMetadataFormatName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getNativeStreamMetadataFormatName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPluginClassName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getStreamMetadataFormat
+ (Ljava/lang/String;)Ljavax/imageio/metadata/IIOMetadataFormat;
+ (Ljava/lang/String;)Ljavax/imageio/metadata/IIOMetadataFormat;

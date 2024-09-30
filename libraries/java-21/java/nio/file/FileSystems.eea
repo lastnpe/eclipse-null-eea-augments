@@ -1,0 +1,26 @@
+class java/nio/file/FileSystems
+
+getDefault
+ ()Ljava/nio/file/FileSystem;
+ ()L1java/nio/file/FileSystem;
+getFileSystem
+ (Ljava/net/URI;)Ljava/nio/file/FileSystem;
+ (L1java/net/URI;)L1java/nio/file/FileSystem;
+newFileSystem
+ (Ljava/net/URI;Ljava/util/Map<Ljava/lang/String;*>;)Ljava/nio/file/FileSystem;
+ (L1java/net/URI;L1java/util/Map<L1java/lang/String;*>;)L1java/nio/file/FileSystem;
+newFileSystem
+ (Ljava/net/URI;Ljava/util/Map<Ljava/lang/String;*>;Ljava/lang/ClassLoader;)Ljava/nio/file/FileSystem;
+ (L1java/net/URI;L1java/util/Map<L1java/lang/String;*>;L0java/lang/ClassLoader;)L1java/nio/file/FileSystem;
+newFileSystem
+ (Ljava/nio/file/Path;)Ljava/nio/file/FileSystem;
+ (Ljava/nio/file/Path;)Ljava/nio/file/FileSystem;
+newFileSystem
+ (Ljava/nio/file/Path;Ljava/lang/ClassLoader;)Ljava/nio/file/FileSystem;
+ (L1java/nio/file/Path;L0java/lang/ClassLoader;)L1java/nio/file/FileSystem;
+newFileSystem
+ (Ljava/nio/file/Path;Ljava/util/Map<Ljava/lang/String;*>;)Ljava/nio/file/FileSystem;
+ (Ljava/nio/file/Path;Ljava/util/Map<Ljava/lang/String;*>;)Ljava/nio/file/FileSystem;
+newFileSystem
+ (Ljava/nio/file/Path;Ljava/util/Map<Ljava/lang/String;*>;Ljava/lang/ClassLoader;)Ljava/nio/file/FileSystem;
+ (Ljava/nio/file/Path;Ljava/util/Map<Ljava/lang/String;*>;Ljava/lang/ClassLoader;)Ljava/nio/file/FileSystem;

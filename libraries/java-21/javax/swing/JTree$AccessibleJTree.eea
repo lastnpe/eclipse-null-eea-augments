@@ -1,0 +1,41 @@
+class javax/swing/JTree$AccessibleJTree
+
+<init>
+ (Ljavax/swing/JTree;)V
+ (Ljavax/swing/JTree;)V
+getAccessibleAt
+ (Ljava/awt/Point;)Ljavax/accessibility/Accessible;
+ (Ljava/awt/Point;)Ljavax/accessibility/Accessible;
+getAccessibleChild
+ (I)Ljavax/accessibility/Accessible;
+ (I)Ljavax/accessibility/Accessible;
+getAccessibleRole
+ ()Ljavax/accessibility/AccessibleRole;
+ ()Ljavax/accessibility/AccessibleRole;
+getAccessibleSelection
+ ()Ljavax/accessibility/AccessibleSelection;
+ ()Ljavax/accessibility/AccessibleSelection;
+getAccessibleSelection
+ (I)Ljavax/accessibility/Accessible;
+ (I)Ljavax/accessibility/Accessible;
+treeCollapsed
+ (Ljavax/swing/event/TreeExpansionEvent;)V
+ (L1javax/swing/event/TreeExpansionEvent;)V # @Inherited(javax.swing.event.TreeExpansionListener)
+treeExpanded
+ (Ljavax/swing/event/TreeExpansionEvent;)V
+ (L1javax/swing/event/TreeExpansionEvent;)V # @Inherited(javax.swing.event.TreeExpansionListener)
+treeNodesChanged
+ (Ljavax/swing/event/TreeModelEvent;)V
+ (L1javax/swing/event/TreeModelEvent;)V # @Inherited(javax.swing.event.TreeModelListener)
+treeNodesInserted
+ (Ljavax/swing/event/TreeModelEvent;)V
+ (L1javax/swing/event/TreeModelEvent;)V # @Inherited(javax.swing.event.TreeModelListener)
+treeNodesRemoved
+ (Ljavax/swing/event/TreeModelEvent;)V
+ (L1javax/swing/event/TreeModelEvent;)V # @Inherited(javax.swing.event.TreeModelListener)
+treeStructureChanged
+ (Ljavax/swing/event/TreeModelEvent;)V
+ (L1javax/swing/event/TreeModelEvent;)V # @Inherited(javax.swing.event.TreeModelListener)
+valueChanged
+ (Ljavax/swing/event/TreeSelectionEvent;)V
+ (L1javax/swing/event/TreeSelectionEvent;)V # @Inherited(javax.swing.event.TreeSelectionListener)

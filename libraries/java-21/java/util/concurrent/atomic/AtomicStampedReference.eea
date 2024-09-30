@@ -1,0 +1,25 @@
+class java/util/concurrent/atomic/AtomicStampedReference
+ <V:Ljava/lang/Object;>
+ <V:Ljava/lang/Object;>
+
+<init>
+ (TV;I)V
+ (TV;I)V
+attemptStamp
+ (TV;I)Z
+ (TV;I)Z
+compareAndSet
+ (TV;TV;II)Z
+ (TV;TV;II)Z
+get
+ ([I)TV;
+ ([I)TV;
+getReference
+ ()TV;
+ ()TV;
+set
+ (TV;I)V
+ (TV;I)V
+weakCompareAndSet
+ (TV;TV;II)Z
+ (TV;TV;II)Z

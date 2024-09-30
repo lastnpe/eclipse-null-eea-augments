@@ -1,0 +1,137 @@
+class javax/swing/SwingUtilities
+
+calculateInnerArea
+ (Ljavax/swing/JComponent;Ljava/awt/Rectangle;)Ljava/awt/Rectangle;
+ (Ljavax/swing/JComponent;Ljava/awt/Rectangle;)Ljava/awt/Rectangle;
+computeDifference
+ (Ljava/awt/Rectangle;Ljava/awt/Rectangle;)[Ljava/awt/Rectangle;
+ (Ljava/awt/Rectangle;Ljava/awt/Rectangle;)[Ljava/awt/Rectangle;
+computeIntersection
+ (IIIILjava/awt/Rectangle;)Ljava/awt/Rectangle;
+ (IIIILjava/awt/Rectangle;)Ljava/awt/Rectangle;
+computeStringWidth
+ (Ljava/awt/FontMetrics;Ljava/lang/String;)I
+ (Ljava/awt/FontMetrics;Ljava/lang/String;)I
+computeUnion
+ (IIIILjava/awt/Rectangle;)Ljava/awt/Rectangle;
+ (IIIILjava/awt/Rectangle;)Ljava/awt/Rectangle;
+convertMouseEvent
+ (Ljava/awt/Component;Ljava/awt/event/MouseEvent;Ljava/awt/Component;)Ljava/awt/event/MouseEvent;
+ (Ljava/awt/Component;Ljava/awt/event/MouseEvent;Ljava/awt/Component;)Ljava/awt/event/MouseEvent;
+convertPoint
+ (Ljava/awt/Component;IILjava/awt/Component;)Ljava/awt/Point;
+ (Ljava/awt/Component;IILjava/awt/Component;)Ljava/awt/Point;
+convertPoint
+ (Ljava/awt/Component;Ljava/awt/Point;Ljava/awt/Component;)Ljava/awt/Point;
+ (Ljava/awt/Component;Ljava/awt/Point;Ljava/awt/Component;)Ljava/awt/Point;
+convertPointFromScreen
+ (Ljava/awt/Point;Ljava/awt/Component;)V
+ (Ljava/awt/Point;Ljava/awt/Component;)V
+convertPointToScreen
+ (Ljava/awt/Point;Ljava/awt/Component;)V
+ (Ljava/awt/Point;Ljava/awt/Component;)V
+convertRectangle
+ (Ljava/awt/Component;Ljava/awt/Rectangle;Ljava/awt/Component;)Ljava/awt/Rectangle;
+ (Ljava/awt/Component;Ljava/awt/Rectangle;Ljava/awt/Component;)Ljava/awt/Rectangle;
+findFocusOwner
+ (Ljava/awt/Component;)Ljava/awt/Component;
+ (Ljava/awt/Component;)Ljava/awt/Component;
+getAccessibleAt
+ (Ljava/awt/Component;Ljava/awt/Point;)Ljavax/accessibility/Accessible;
+ (Ljava/awt/Component;Ljava/awt/Point;)Ljavax/accessibility/Accessible;
+getAccessibleChild
+ (Ljava/awt/Component;I)Ljavax/accessibility/Accessible;
+ (Ljava/awt/Component;I)Ljavax/accessibility/Accessible;
+getAccessibleChildrenCount
+ (Ljava/awt/Component;)I
+ (Ljava/awt/Component;)I
+getAccessibleIndexInParent
+ (Ljava/awt/Component;)I
+ (Ljava/awt/Component;)I
+getAccessibleStateSet
+ (Ljava/awt/Component;)Ljavax/accessibility/AccessibleStateSet;
+ (Ljava/awt/Component;)Ljavax/accessibility/AccessibleStateSet;
+getAncestorNamed
+ (Ljava/lang/String;Ljava/awt/Component;)Ljava/awt/Container;
+ (Ljava/lang/String;Ljava/awt/Component;)Ljava/awt/Container;
+getAncestorOfClass
+ (Ljava/lang/Class<*>;Ljava/awt/Component;)Ljava/awt/Container;
+ (Ljava/lang/Class<*>;Ljava/awt/Component;)Ljava/awt/Container;
+getDeepestComponentAt
+ (Ljava/awt/Component;II)Ljava/awt/Component;
+ (Ljava/awt/Component;II)Ljava/awt/Component;
+getLocalBounds
+ (Ljava/awt/Component;)Ljava/awt/Rectangle;
+ (Ljava/awt/Component;)Ljava/awt/Rectangle;
+getRoot
+ (Ljava/awt/Component;)Ljava/awt/Component;
+ (Ljava/awt/Component;)Ljava/awt/Component;
+getRootPane
+ (Ljava/awt/Component;)Ljavax/swing/JRootPane;
+ (Ljava/awt/Component;)Ljavax/swing/JRootPane;
+getUIActionMap
+ (Ljavax/swing/JComponent;)Ljavax/swing/ActionMap;
+ (Ljavax/swing/JComponent;)Ljavax/swing/ActionMap;
+getUIInputMap
+ (Ljavax/swing/JComponent;I)Ljavax/swing/InputMap;
+ (Ljavax/swing/JComponent;I)Ljavax/swing/InputMap;
+getUnwrappedParent
+ (Ljava/awt/Component;)Ljava/awt/Container;
+ (Ljava/awt/Component;)Ljava/awt/Container;
+getUnwrappedView
+ (Ljavax/swing/JViewport;)Ljava/awt/Component;
+ (Ljavax/swing/JViewport;)Ljava/awt/Component;
+getWindowAncestor
+ (Ljava/awt/Component;)Ljava/awt/Window;
+ (Ljava/awt/Component;)Ljava/awt/Window;
+invokeAndWait
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+invokeLater
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+isDescendingFrom
+ (Ljava/awt/Component;Ljava/awt/Component;)Z
+ (Ljava/awt/Component;Ljava/awt/Component;)Z
+isLeftMouseButton
+ (Ljava/awt/event/MouseEvent;)Z
+ (Ljava/awt/event/MouseEvent;)Z
+isMiddleMouseButton
+ (Ljava/awt/event/MouseEvent;)Z
+ (Ljava/awt/event/MouseEvent;)Z
+isRectangleContainingRectangle
+ (Ljava/awt/Rectangle;Ljava/awt/Rectangle;)Z
+ (Ljava/awt/Rectangle;Ljava/awt/Rectangle;)Z
+isRightMouseButton
+ (Ljava/awt/event/MouseEvent;)Z
+ (Ljava/awt/event/MouseEvent;)Z
+layoutCompoundLabel
+ (Ljava/awt/FontMetrics;Ljava/lang/String;Ljavax/swing/Icon;IIIILjava/awt/Rectangle;Ljava/awt/Rectangle;Ljava/awt/Rectangle;I)Ljava/lang/String;
+ (Ljava/awt/FontMetrics;Ljava/lang/String;Ljavax/swing/Icon;IIIILjava/awt/Rectangle;Ljava/awt/Rectangle;Ljava/awt/Rectangle;I)Ljava/lang/String;
+layoutCompoundLabel
+ (Ljavax/swing/JComponent;Ljava/awt/FontMetrics;Ljava/lang/String;Ljavax/swing/Icon;IIIILjava/awt/Rectangle;Ljava/awt/Rectangle;Ljava/awt/Rectangle;I)Ljava/lang/String;
+ (Ljavax/swing/JComponent;Ljava/awt/FontMetrics;Ljava/lang/String;Ljavax/swing/Icon;IIIILjava/awt/Rectangle;Ljava/awt/Rectangle;Ljava/awt/Rectangle;I)Ljava/lang/String;
+notifyAction
+ (Ljavax/swing/Action;Ljavax/swing/KeyStroke;Ljava/awt/event/KeyEvent;Ljava/lang/Object;I)Z
+ (Ljavax/swing/Action;Ljavax/swing/KeyStroke;Ljava/awt/event/KeyEvent;Ljava/lang/Object;I)Z
+paintComponent
+ (Ljava/awt/Graphics;Ljava/awt/Component;Ljava/awt/Container;IIII)V
+ (Ljava/awt/Graphics;Ljava/awt/Component;Ljava/awt/Container;IIII)V
+paintComponent
+ (Ljava/awt/Graphics;Ljava/awt/Component;Ljava/awt/Container;Ljava/awt/Rectangle;)V
+ (Ljava/awt/Graphics;Ljava/awt/Component;Ljava/awt/Container;Ljava/awt/Rectangle;)V
+processKeyBindings
+ (Ljava/awt/event/KeyEvent;)Z
+ (Ljava/awt/event/KeyEvent;)Z
+replaceUIActionMap
+ (Ljavax/swing/JComponent;Ljavax/swing/ActionMap;)V
+ (Ljavax/swing/JComponent;Ljavax/swing/ActionMap;)V
+replaceUIInputMap
+ (Ljavax/swing/JComponent;ILjavax/swing/InputMap;)V
+ (Ljavax/swing/JComponent;ILjavax/swing/InputMap;)V
+updateComponentTreeUI
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+windowForComponent
+ (Ljava/awt/Component;)Ljava/awt/Window;
+ (Ljava/awt/Component;)Ljava/awt/Window;

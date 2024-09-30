@@ -1,0 +1,43 @@
+class javax/swing/text/html/parser/AttributeList
+
+name2type
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+type2name
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+
+name
+ Ljava/lang/String;
+ Ljava/lang/String;
+next
+ Ljavax/swing/text/html/parser/AttributeList;
+ Ljavax/swing/text/html/parser/AttributeList;
+value
+ Ljava/lang/String;
+ Ljava/lang/String;
+values
+ Ljava/util/Vector<*>;
+ Ljava/util/Vector<*>;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;IILjava/lang/String;Ljava/util/Vector<*>;Ljavax/swing/text/html/parser/AttributeList;)V
+ (Ljava/lang/String;IILjava/lang/String;Ljava/util/Vector<*>;Ljavax/swing/text/html/parser/AttributeList;)V
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getNext
+ ()Ljavax/swing/text/html/parser/AttributeList;
+ ()Ljavax/swing/text/html/parser/AttributeList;
+getValue
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getValues
+ ()Ljava/util/Enumeration<*>;
+ ()Ljava/util/Enumeration<*>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

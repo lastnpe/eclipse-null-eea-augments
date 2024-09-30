@@ -1,0 +1,43 @@
+class java/time/temporal/WeekFields
+
+ISO
+ Ljava/time/temporal/WeekFields;
+ L1java/time/temporal/WeekFields;
+SUNDAY_START
+ Ljava/time/temporal/WeekFields;
+ L1java/time/temporal/WeekFields;
+WEEK_BASED_YEARS
+ Ljava/time/temporal/TemporalUnit;
+ L1java/time/temporal/TemporalUnit;
+
+of
+ (Ljava/time/DayOfWeek;I)Ljava/time/temporal/WeekFields;
+ (L1java/time/DayOfWeek;I)L1java/time/temporal/WeekFields;
+of
+ (Ljava/util/Locale;)Ljava/time/temporal/WeekFields;
+ (L1java/util/Locale;)L1java/time/temporal/WeekFields;
+
+dayOfWeek
+ ()Ljava/time/temporal/TemporalField;
+ ()L1java/time/temporal/TemporalField;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getFirstDayOfWeek
+ ()Ljava/time/DayOfWeek;
+ ()L1java/time/DayOfWeek;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+weekBasedYear
+ ()Ljava/time/temporal/TemporalField;
+ ()L1java/time/temporal/TemporalField;
+weekOfMonth
+ ()Ljava/time/temporal/TemporalField;
+ ()L1java/time/temporal/TemporalField;
+weekOfWeekBasedYear
+ ()Ljava/time/temporal/TemporalField;
+ ()L1java/time/temporal/TemporalField;
+weekOfYear
+ ()Ljava/time/temporal/TemporalField;
+ ()L1java/time/temporal/TemporalField;

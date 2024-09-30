@@ -1,0 +1,32 @@
+class javax/swing/table/TableColumnModel
+
+addColumn
+ (Ljavax/swing/table/TableColumn;)V
+ (Ljavax/swing/table/TableColumn;)V
+addColumnModelListener
+ (Ljavax/swing/event/TableColumnModelListener;)V
+ (L1javax/swing/event/TableColumnModelListener;)V
+getColumn
+ (I)Ljavax/swing/table/TableColumn;
+ (I)Ljavax/swing/table/TableColumn;
+getColumnIndex
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+getColumns
+ ()Ljava/util/Enumeration<Ljavax/swing/table/TableColumn;>;
+ ()Ljava/util/Enumeration<Ljavax/swing/table/TableColumn;>;
+getSelectedColumns
+ ()[I
+ ()[I
+getSelectionModel
+ ()Ljavax/swing/ListSelectionModel;
+ ()Ljavax/swing/ListSelectionModel;
+removeColumn
+ (Ljavax/swing/table/TableColumn;)V
+ (Ljavax/swing/table/TableColumn;)V
+removeColumnModelListener
+ (Ljavax/swing/event/TableColumnModelListener;)V
+ (L1javax/swing/event/TableColumnModelListener;)V
+setSelectionModel
+ (Ljavax/swing/ListSelectionModel;)V
+ (Ljavax/swing/ListSelectionModel;)V

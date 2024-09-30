@@ -1,0 +1,29 @@
+class java/security/cert/TrustAnchor
+
+<init>
+ (Ljava/lang/String;Ljava/security/PublicKey;[B)V
+ (Ljava/lang/String;Ljava/security/PublicKey;[B)V
+<init>
+ (Ljava/security/cert/X509Certificate;[B)V
+ (Ljava/security/cert/X509Certificate;[B)V
+<init>
+ (Ljavax/security/auth/x500/X500Principal;Ljava/security/PublicKey;[B)V
+ (Ljavax/security/auth/x500/X500Principal;Ljava/security/PublicKey;[B)V
+getCA
+ ()Ljavax/security/auth/x500/X500Principal;
+ ()Ljavax/security/auth/x500/X500Principal;
+getCAName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getCAPublicKey
+ ()Ljava/security/PublicKey;
+ ()Ljava/security/PublicKey;
+getNameConstraints
+ ()[B
+ ()[B
+getTrustedCert
+ ()Ljava/security/cert/X509Certificate;
+ ()Ljava/security/cert/X509Certificate;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

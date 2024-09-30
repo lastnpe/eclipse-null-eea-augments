@@ -1,0 +1,95 @@
+class java/util/Deque
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/util/Queue
+ <TE;>
+ <TE;>
+super java/util/SequencedCollection
+ <TE;>
+ <TE;>
+
+add
+ (TE;)Z
+ (T1E;)Z # @Inherited(java.util.Queue)
+addAll
+ (Ljava/util/Collection<+TE;>;)Z
+ (L1java/util/Collection<+TE;>;)Z # @Inherited(java.util.Collection)
+addFirst
+ (TE;)V
+ (TE;)V
+addLast
+ (TE;)V
+ (TE;)V
+contains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+descendingIterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>;
+element
+ ()TE;
+ ()T1E; # @Inherited(java.util.Queue)
+getFirst
+ ()TE;
+ ()T1E;
+getLast
+ ()TE;
+ ()T1E;
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.Collection)
+offer
+ (TE;)Z
+ (T1E;)Z # @Inherited(java.util.Queue)
+offerFirst
+ (TE;)Z
+ (TE;)Z
+offerLast
+ (TE;)Z
+ (TE;)Z
+peek
+ ()TE;
+ ()T0E; # @Inherited(java.util.Queue)
+peekFirst
+ ()TE;
+ ()T0E;
+peekLast
+ ()TE;
+ ()T0E;
+poll
+ ()TE;
+ ()T0E; # @Inherited(java.util.Queue)
+pollFirst
+ ()TE;
+ ()T0E;
+pollLast
+ ()TE;
+ ()T0E;
+pop
+ ()TE;
+ ()T1E;
+push
+ (TE;)V
+ (TE;)V
+remove
+ ()TE;
+ ()T1E; # @Inherited(java.util.Queue)
+remove
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+removeFirst
+ ()TE;
+ ()T1E;
+removeFirstOccurrence
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+removeLast
+ ()TE;
+ ()T1E;
+removeLastOccurrence
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+reversed
+ ()Ljava/util/Deque<TE;>;
+ ()Ljava/util/Deque<TE;>;

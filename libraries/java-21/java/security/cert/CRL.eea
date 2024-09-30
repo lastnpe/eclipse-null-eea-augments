@@ -1,0 +1,14 @@
+class java/security/cert/CRL
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+isRevoked
+ (Ljava/security/cert/Certificate;)Z
+ (Ljava/security/cert/Certificate;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

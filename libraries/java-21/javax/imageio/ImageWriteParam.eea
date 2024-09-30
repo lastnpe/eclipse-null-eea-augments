@@ -1,0 +1,42 @@
+class javax/imageio/ImageWriteParam
+
+compressionType
+ Ljava/lang/String;
+ Ljava/lang/String;
+compressionTypes
+ [Ljava/lang/String;
+ [Ljava/lang/String;
+locale
+ Ljava/util/Locale;
+ Ljava/util/Locale;
+preferredTileSizes
+ [Ljava/awt/Dimension;
+ [Ljava/awt/Dimension;
+
+<init>
+ (Ljava/util/Locale;)V
+ (Ljava/util/Locale;)V
+getCompressionQualityDescriptions
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getCompressionQualityValues
+ ()[F
+ ()[F
+getCompressionType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getCompressionTypes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+getLocalizedCompressionTypeName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPreferredTileSizes
+ ()[Ljava/awt/Dimension;
+ ()[Ljava/awt/Dimension;
+setCompressionType
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

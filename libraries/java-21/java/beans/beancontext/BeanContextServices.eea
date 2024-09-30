@@ -1,0 +1,29 @@
+class java/beans/beancontext/BeanContextServices
+
+addBeanContextServicesListener
+ (Ljava/beans/beancontext/BeanContextServicesListener;)V
+ (L1java/beans/beancontext/BeanContextServicesListener;)V
+addService
+ (Ljava/lang/Class<*>;Ljava/beans/beancontext/BeanContextServiceProvider;)Z
+ (Ljava/lang/Class<*>;Ljava/beans/beancontext/BeanContextServiceProvider;)Z
+getCurrentServiceClasses
+ ()Ljava/util/Iterator<*>;
+ ()Ljava/util/Iterator<*>;
+getCurrentServiceSelectors
+ (Ljava/lang/Class<*>;)Ljava/util/Iterator<*>;
+ (Ljava/lang/Class<*>;)Ljava/util/Iterator<*>;
+getService
+ (Ljava/beans/beancontext/BeanContextChild;Ljava/lang/Object;Ljava/lang/Class<*>;Ljava/lang/Object;Ljava/beans/beancontext/BeanContextServiceRevokedListener;)Ljava/lang/Object;
+ (Ljava/beans/beancontext/BeanContextChild;Ljava/lang/Object;Ljava/lang/Class<*>;Ljava/lang/Object;Ljava/beans/beancontext/BeanContextServiceRevokedListener;)Ljava/lang/Object;
+hasService
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+releaseService
+ (Ljava/beans/beancontext/BeanContextChild;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/beans/beancontext/BeanContextChild;Ljava/lang/Object;Ljava/lang/Object;)V
+removeBeanContextServicesListener
+ (Ljava/beans/beancontext/BeanContextServicesListener;)V
+ (L1java/beans/beancontext/BeanContextServicesListener;)V
+revokeService
+ (Ljava/lang/Class<*>;Ljava/beans/beancontext/BeanContextServiceProvider;Z)V
+ (Ljava/lang/Class<*>;Ljava/beans/beancontext/BeanContextServiceProvider;Z)V

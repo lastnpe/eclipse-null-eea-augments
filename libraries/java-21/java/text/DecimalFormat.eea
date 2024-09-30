@@ -1,0 +1,83 @@
+class java/text/DecimalFormat
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;)V
+ (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;)V
+applyLocalizedPattern
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+applyPattern
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.text.NumberFormat)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.text.NumberFormat)
+format
+ (DLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
+ (DLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
+format
+ (JLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
+ (JLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
+format
+ (Ljava/lang/Object;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
+ (L0java/lang/Object;L1java/lang/StringBuffer;L1java/text/FieldPosition;)L1java/lang/StringBuffer; # @Inherited(java.text.NumberFormat)
+formatToCharacterIterator
+ (Ljava/lang/Object;)Ljava/text/AttributedCharacterIterator;
+ (L1java/lang/Object;)L1java/text/AttributedCharacterIterator; # @Inherited(java.text.Format)
+getCurrency
+ ()Ljava/util/Currency;
+ ()L0java/util/Currency; # @Inherited(java.text.NumberFormat)
+getDecimalFormatSymbols
+ ()Ljava/text/DecimalFormatSymbols;
+ ()Ljava/text/DecimalFormatSymbols;
+getNegativePrefix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getNegativeSuffix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPositivePrefix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPositiveSuffix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRoundingMode
+ ()Ljava/math/RoundingMode;
+ ()L1java/math/RoundingMode; # @Inherited(java.text.NumberFormat)
+parse
+ (Ljava/lang/String;Ljava/text/ParsePosition;)Ljava/lang/Number;
+ (L1java/lang/String;L1java/text/ParsePosition;)L1java/lang/Number; # @Inherited(java.text.NumberFormat)
+setCurrency
+ (Ljava/util/Currency;)V
+ (Ljava/util/Currency;)V
+setDecimalFormatSymbols
+ (Ljava/text/DecimalFormatSymbols;)V
+ (Ljava/text/DecimalFormatSymbols;)V
+setNegativePrefix
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setNegativeSuffix
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPositivePrefix
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPositiveSuffix
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setRoundingMode
+ (Ljava/math/RoundingMode;)V
+ (Ljava/math/RoundingMode;)V
+toLocalizedPattern
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+toPattern
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

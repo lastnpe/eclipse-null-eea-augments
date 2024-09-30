@@ -1,0 +1,33 @@
+class javax/naming/spi/ResolveResult
+
+remainingName
+ Ljavax/naming/Name;
+ Ljavax/naming/Name;
+resolvedObj
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+
+<init>
+ (Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/Object;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/Object;Ljavax/naming/Name;)V
+ (Ljava/lang/Object;Ljavax/naming/Name;)V
+appendRemainingComponent
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+appendRemainingName
+ (Ljavax/naming/Name;)V
+ (Ljavax/naming/Name;)V
+getRemainingName
+ ()Ljavax/naming/Name;
+ ()Ljavax/naming/Name;
+getResolvedObj
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+setRemainingName
+ (Ljavax/naming/Name;)V
+ (Ljavax/naming/Name;)V
+setResolvedObj
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

@@ -1,0 +1,145 @@
+class javax/swing/plaf/basic/BasicScrollBarUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+buttonListener
+ Ljavax/swing/plaf/basic/BasicScrollBarUI$ArrowButtonListener;
+ Ljavax/swing/plaf/basic/BasicScrollBarUI$ArrowButtonListener;
+decrButton
+ Ljavax/swing/JButton;
+ Ljavax/swing/JButton;
+incrButton
+ Ljavax/swing/JButton;
+ Ljavax/swing/JButton;
+maximumThumbSize
+ Ljava/awt/Dimension;
+ Ljava/awt/Dimension;
+minimumThumbSize
+ Ljava/awt/Dimension;
+ Ljava/awt/Dimension;
+modelListener
+ Ljavax/swing/plaf/basic/BasicScrollBarUI$ModelListener;
+ Ljavax/swing/plaf/basic/BasicScrollBarUI$ModelListener;
+propertyChangeListener
+ Ljava/beans/PropertyChangeListener;
+ Ljava/beans/PropertyChangeListener;
+scrollListener
+ Ljavax/swing/plaf/basic/BasicScrollBarUI$ScrollListener;
+ Ljavax/swing/plaf/basic/BasicScrollBarUI$ScrollListener;
+scrollTimer
+ Ljavax/swing/Timer;
+ Ljavax/swing/Timer;
+scrollbar
+ Ljavax/swing/JScrollBar;
+ Ljavax/swing/JScrollBar;
+thumbColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+thumbDarkShadowColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+thumbHighlightColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+thumbLightShadowColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+thumbRect
+ Ljava/awt/Rectangle;
+ Ljava/awt/Rectangle;
+trackColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+trackHighlightColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+trackListener
+ Ljavax/swing/plaf/basic/BasicScrollBarUI$TrackListener;
+ Ljavax/swing/plaf/basic/BasicScrollBarUI$TrackListener;
+trackRect
+ Ljava/awt/Rectangle;
+ Ljava/awt/Rectangle;
+
+addLayoutComponent
+ (Ljava/lang/String;Ljava/awt/Component;)V
+ (Ljava/lang/String;Ljava/awt/Component;)V
+createArrowButtonListener
+ ()Ljavax/swing/plaf/basic/BasicScrollBarUI$ArrowButtonListener;
+ ()Ljavax/swing/plaf/basic/BasicScrollBarUI$ArrowButtonListener;
+createDecreaseButton
+ (I)Ljavax/swing/JButton;
+ (I)Ljavax/swing/JButton;
+createIncreaseButton
+ (I)Ljavax/swing/JButton;
+ (I)Ljavax/swing/JButton;
+createModelListener
+ ()Ljavax/swing/plaf/basic/BasicScrollBarUI$ModelListener;
+ ()Ljavax/swing/plaf/basic/BasicScrollBarUI$ModelListener;
+createPropertyChangeListener
+ ()Ljava/beans/PropertyChangeListener;
+ ()Ljava/beans/PropertyChangeListener;
+createScrollListener
+ ()Ljavax/swing/plaf/basic/BasicScrollBarUI$ScrollListener;
+ ()Ljavax/swing/plaf/basic/BasicScrollBarUI$ScrollListener;
+createTrackListener
+ ()Ljavax/swing/plaf/basic/BasicScrollBarUI$TrackListener;
+ ()Ljavax/swing/plaf/basic/BasicScrollBarUI$TrackListener;
+getMaximumSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getMaximumThumbSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getMinimumThumbSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getPreferredSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getThumbBounds
+ ()Ljava/awt/Rectangle;
+ ()Ljava/awt/Rectangle;
+getTrackBounds
+ ()Ljava/awt/Rectangle;
+ ()Ljava/awt/Rectangle;
+installUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+layoutContainer
+ (Ljava/awt/Container;)V
+ (Ljava/awt/Container;)V
+layoutHScrollbar
+ (Ljavax/swing/JScrollBar;)V
+ (Ljavax/swing/JScrollBar;)V
+layoutVScrollbar
+ (Ljavax/swing/JScrollBar;)V
+ (Ljavax/swing/JScrollBar;)V
+minimumLayoutSize
+ (Ljava/awt/Container;)Ljava/awt/Dimension;
+ (Ljava/awt/Container;)Ljava/awt/Dimension;
+paint
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+paintDecreaseHighlight
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paintIncreaseHighlight
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paintThumb
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;Ljava/awt/Rectangle;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;Ljava/awt/Rectangle;)V
+paintTrack
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;Ljava/awt/Rectangle;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;Ljava/awt/Rectangle;)V
+preferredLayoutSize
+ (Ljava/awt/Container;)Ljava/awt/Dimension;
+ (Ljava/awt/Container;)Ljava/awt/Dimension;
+removeLayoutComponent
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+uninstallUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V

@@ -1,0 +1,17 @@
+class java/util/concurrent/atomic/AtomicInteger
+
+accumulateAndGet
+ (ILjava/util/function/IntBinaryOperator;)I
+ (ILjava/util/function/IntBinaryOperator;)I
+getAndAccumulate
+ (ILjava/util/function/IntBinaryOperator;)I
+ (ILjava/util/function/IntBinaryOperator;)I
+getAndUpdate
+ (Ljava/util/function/IntUnaryOperator;)I
+ (Ljava/util/function/IntUnaryOperator;)I
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+updateAndGet
+ (Ljava/util/function/IntUnaryOperator;)I
+ (Ljava/util/function/IntUnaryOperator;)I

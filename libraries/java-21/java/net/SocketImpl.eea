@@ -1,0 +1,48 @@
+class java/net/SocketImpl
+
+address
+ Ljava/net/InetAddress;
+ Ljava/net/InetAddress;
+fd
+ Ljava/io/FileDescriptor;
+ Ljava/io/FileDescriptor;
+
+accept
+ (Ljava/net/SocketImpl;)V
+ (Ljava/net/SocketImpl;)V
+bind
+ (Ljava/net/InetAddress;I)V
+ (Ljava/net/InetAddress;I)V
+connect
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+connect
+ (Ljava/net/InetAddress;I)V
+ (Ljava/net/InetAddress;I)V
+connect
+ (Ljava/net/SocketAddress;I)V
+ (Ljava/net/SocketAddress;I)V
+getFileDescriptor
+ ()Ljava/io/FileDescriptor;
+ ()Ljava/io/FileDescriptor;
+getInetAddress
+ ()Ljava/net/InetAddress;
+ ()Ljava/net/InetAddress;
+getInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getOption
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;)TT;
+getOutputStream
+ ()Ljava/io/OutputStream;
+ ()Ljava/io/OutputStream;
+setOption
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)V
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)V
+supportedOptions
+ ()Ljava/util/Set<Ljava/net/SocketOption<*>;>;
+ ()Ljava/util/Set<Ljava/net/SocketOption<*>;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

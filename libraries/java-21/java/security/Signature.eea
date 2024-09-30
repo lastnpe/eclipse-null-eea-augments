@@ -1,0 +1,72 @@
+class java/security/Signature
+
+getInstance
+ (Ljava/lang/String;)Ljava/security/Signature;
+ (Ljava/lang/String;)Ljava/security/Signature;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/Signature;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/Signature;
+getInstance
+ (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/Signature;
+ (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/Signature;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.security.SignatureSpi)
+getAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getParameter
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getParameters
+ ()Ljava/security/AlgorithmParameters;
+ ()Ljava/security/AlgorithmParameters;
+getProvider
+ ()Ljava/security/Provider;
+ ()Ljava/security/Provider;
+initSign
+ (Ljava/security/PrivateKey;)V
+ (Ljava/security/PrivateKey;)V
+initSign
+ (Ljava/security/PrivateKey;Ljava/security/SecureRandom;)V
+ (Ljava/security/PrivateKey;Ljava/security/SecureRandom;)V
+initVerify
+ (Ljava/security/PublicKey;)V
+ (Ljava/security/PublicKey;)V
+initVerify
+ (Ljava/security/cert/Certificate;)V
+ (Ljava/security/cert/Certificate;)V
+setParameter
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+setParameter
+ (Ljava/security/spec/AlgorithmParameterSpec;)V
+ (Ljava/security/spec/AlgorithmParameterSpec;)V
+sign
+ ()[B
+ ()[B
+sign
+ ([BII)I
+ ([BII)I
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+update
+ (Ljava/nio/ByteBuffer;)V
+ (Ljava/nio/ByteBuffer;)V
+update
+ ([B)V
+ ([B)V
+update
+ ([BII)V
+ ([BII)V
+verify
+ ([B)Z
+ ([B)Z
+verify
+ ([BII)Z
+ ([BII)Z

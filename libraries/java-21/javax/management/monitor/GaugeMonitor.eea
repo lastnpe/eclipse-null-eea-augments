@@ -1,0 +1,23 @@
+class javax/management/monitor/GaugeMonitor
+
+getDerivedGauge
+ ()Ljava/lang/Number;
+ ()Ljava/lang/Number;
+getDerivedGauge
+ (Ljavax/management/ObjectName;)Ljava/lang/Number;
+ (Ljavax/management/ObjectName;)Ljava/lang/Number;
+getDerivedGaugeTimeStamp
+ (Ljavax/management/ObjectName;)J
+ (Ljavax/management/ObjectName;)J
+getHighThreshold
+ ()Ljava/lang/Number;
+ ()Ljava/lang/Number;
+getLowThreshold
+ ()Ljava/lang/Number;
+ ()Ljava/lang/Number;
+getNotificationInfo
+ ()[Ljavax/management/MBeanNotificationInfo;
+ ()[Ljavax/management/MBeanNotificationInfo;
+setThresholds
+ (Ljava/lang/Number;Ljava/lang/Number;)V
+ (Ljava/lang/Number;Ljava/lang/Number;)V

@@ -1,0 +1,41 @@
+class java/beans/PropertyEditorSupport
+
+<init>
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+addPropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V # @Inherited(java.beans.PropertyEditor)
+getAsText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getCustomEditor
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getJavaInitializationString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSource
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getTags
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+paintValue
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;)V
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;)V
+removePropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V # @Inherited(java.beans.PropertyEditor)
+setAsText
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSource
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setValue
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

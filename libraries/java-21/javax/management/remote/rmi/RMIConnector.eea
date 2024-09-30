@@ -1,0 +1,35 @@
+class javax/management/remote/rmi/RMIConnector
+
+<init>
+ (Ljavax/management/remote/JMXServiceURL;Ljava/util/Map<Ljava/lang/String;*>;)V
+ (Ljavax/management/remote/JMXServiceURL;Ljava/util/Map<Ljava/lang/String;*>;)V
+<init>
+ (Ljavax/management/remote/rmi/RMIServer;Ljava/util/Map<Ljava/lang/String;*>;)V
+ (Ljavax/management/remote/rmi/RMIServer;Ljava/util/Map<Ljava/lang/String;*>;)V
+addConnectionNotificationListener
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+connect
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+getAddress
+ ()Ljavax/management/remote/JMXServiceURL;
+ ()Ljavax/management/remote/JMXServiceURL;
+getConnectionId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMBeanServerConnection
+ ()Ljavax/management/MBeanServerConnection;
+ ()Ljavax/management/MBeanServerConnection;
+getMBeanServerConnection
+ (Ljavax/security/auth/Subject;)Ljavax/management/MBeanServerConnection;
+ (Ljavax/security/auth/Subject;)Ljavax/management/MBeanServerConnection;
+removeConnectionNotificationListener
+ (Ljavax/management/NotificationListener;)V
+ (L1javax/management/NotificationListener;)V # @Inherited(javax.management.remote.JMXConnector)
+removeConnectionNotificationListener
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

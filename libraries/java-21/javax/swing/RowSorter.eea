@@ -1,0 +1,22 @@
+class javax/swing/RowSorter
+ <M:Ljava/lang/Object;>
+ <M:Ljava/lang/Object;>
+
+addRowSorterListener
+ (Ljavax/swing/event/RowSorterListener;)V
+ (L1javax/swing/event/RowSorterListener;)V
+fireRowSorterChanged
+ ([I)V
+ ([I)V
+getModel
+ ()TM;
+ ()TM;
+getSortKeys
+ ()Ljava/util/List<+Ljavax/swing/RowSorter$SortKey;>;
+ ()Ljava/util/List<+Ljavax/swing/RowSorter$SortKey;>;
+removeRowSorterListener
+ (Ljavax/swing/event/RowSorterListener;)V
+ (L1javax/swing/event/RowSorterListener;)V
+setSortKeys
+ (Ljava/util/List<+Ljavax/swing/RowSorter$SortKey;>;)V
+ (Ljava/util/List<+Ljavax/swing/RowSorter$SortKey;>;)V

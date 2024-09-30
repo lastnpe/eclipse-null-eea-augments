@@ -1,0 +1,38 @@
+class org/xml/sax/HandlerBase
+
+characters
+ ([CII)V
+ ([1CII)V # @Inherited(org.xml.sax.DocumentHandler)
+endElement
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(org.xml.sax.DocumentHandler)
+error
+ (Lorg/xml/sax/SAXParseException;)V
+ (Lorg/xml/sax/SAXParseException;)V
+fatalError
+ (Lorg/xml/sax/SAXParseException;)V
+ (Lorg/xml/sax/SAXParseException;)V
+ignorableWhitespace
+ ([CII)V
+ ([1CII)V # @Inherited(org.xml.sax.DocumentHandler)
+notationDecl
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+processingInstruction
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (L1java/lang/String;L0java/lang/String;)V # @Inherited(org.xml.sax.DocumentHandler)
+resolveEntity
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/xml/sax/InputSource;
+ (L0java/lang/String;L0java/lang/String;)L0org/xml/sax/InputSource; # @Inherited(org.xml.sax.EntityResolver)
+setDocumentLocator
+ (Lorg/xml/sax/Locator;)V
+ (L1org/xml/sax/Locator;)V # @Inherited(org.xml.sax.DocumentHandler)
+startElement
+ (Ljava/lang/String;Lorg/xml/sax/AttributeList;)V
+ (L1java/lang/String;L0org/xml/sax/AttributeList;)V # @Inherited(org.xml.sax.DocumentHandler)
+unparsedEntityDecl
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+warning
+ (Lorg/xml/sax/SAXParseException;)V
+ (Lorg/xml/sax/SAXParseException;)V

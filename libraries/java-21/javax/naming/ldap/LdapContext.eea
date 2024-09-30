@@ -1,0 +1,27 @@
+class javax/naming/ldap/LdapContext
+
+CONTROL_FACTORIES
+ Ljava/lang/String;
+ L1java/lang/String;
+
+extendedOperation
+ (Ljavax/naming/ldap/ExtendedRequest;)Ljavax/naming/ldap/ExtendedResponse;
+ (Ljavax/naming/ldap/ExtendedRequest;)Ljavax/naming/ldap/ExtendedResponse;
+getConnectControls
+ ()[Ljavax/naming/ldap/Control;
+ ()[Ljavax/naming/ldap/Control;
+getRequestControls
+ ()[Ljavax/naming/ldap/Control;
+ ()[Ljavax/naming/ldap/Control;
+getResponseControls
+ ()[Ljavax/naming/ldap/Control;
+ ()[Ljavax/naming/ldap/Control;
+newInstance
+ ([Ljavax/naming/ldap/Control;)Ljavax/naming/ldap/LdapContext;
+ ([Ljavax/naming/ldap/Control;)Ljavax/naming/ldap/LdapContext;
+reconnect
+ ([Ljavax/naming/ldap/Control;)V
+ ([Ljavax/naming/ldap/Control;)V
+setRequestControls
+ ([Ljavax/naming/ldap/Control;)V
+ ([Ljavax/naming/ldap/Control;)V

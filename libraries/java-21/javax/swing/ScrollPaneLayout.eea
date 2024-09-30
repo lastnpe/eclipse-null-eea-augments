@@ -1,0 +1,72 @@
+class javax/swing/ScrollPaneLayout
+
+colHead
+ Ljavax/swing/JViewport;
+ Ljavax/swing/JViewport;
+hsb
+ Ljavax/swing/JScrollBar;
+ Ljavax/swing/JScrollBar;
+lowerLeft
+ Ljava/awt/Component;
+ Ljava/awt/Component;
+lowerRight
+ Ljava/awt/Component;
+ Ljava/awt/Component;
+rowHead
+ Ljavax/swing/JViewport;
+ Ljavax/swing/JViewport;
+upperLeft
+ Ljava/awt/Component;
+ Ljava/awt/Component;
+upperRight
+ Ljava/awt/Component;
+ Ljava/awt/Component;
+viewport
+ Ljavax/swing/JViewport;
+ Ljavax/swing/JViewport;
+vsb
+ Ljavax/swing/JScrollBar;
+ Ljavax/swing/JScrollBar;
+
+addLayoutComponent
+ (Ljava/lang/String;Ljava/awt/Component;)V
+ (Ljava/lang/String;Ljava/awt/Component;)V
+addSingletonComponent
+ (Ljava/awt/Component;Ljava/awt/Component;)Ljava/awt/Component;
+ (Ljava/awt/Component;Ljava/awt/Component;)Ljava/awt/Component;
+getColumnHeader
+ ()Ljavax/swing/JViewport;
+ ()Ljavax/swing/JViewport;
+getCorner
+ (Ljava/lang/String;)Ljava/awt/Component;
+ (Ljava/lang/String;)Ljava/awt/Component;
+getHorizontalScrollBar
+ ()Ljavax/swing/JScrollBar;
+ ()Ljavax/swing/JScrollBar;
+getRowHeader
+ ()Ljavax/swing/JViewport;
+ ()Ljavax/swing/JViewport;
+getVerticalScrollBar
+ ()Ljavax/swing/JScrollBar;
+ ()Ljavax/swing/JScrollBar;
+getViewport
+ ()Ljavax/swing/JViewport;
+ ()Ljavax/swing/JViewport;
+getViewportBorderBounds
+ (Ljavax/swing/JScrollPane;)Ljava/awt/Rectangle;
+ (Ljavax/swing/JScrollPane;)Ljava/awt/Rectangle;
+layoutContainer
+ (Ljava/awt/Container;)V
+ (Ljava/awt/Container;)V
+minimumLayoutSize
+ (Ljava/awt/Container;)Ljava/awt/Dimension;
+ (Ljava/awt/Container;)Ljava/awt/Dimension;
+preferredLayoutSize
+ (Ljava/awt/Container;)Ljava/awt/Dimension;
+ (Ljava/awt/Container;)Ljava/awt/Dimension;
+removeLayoutComponent
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+syncWithScrollPane
+ (Ljavax/swing/JScrollPane;)V
+ (Ljavax/swing/JScrollPane;)V

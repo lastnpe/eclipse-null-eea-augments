@@ -1,0 +1,26 @@
+class java/security/ProtectionDomain
+
+<init>
+ (Ljava/security/CodeSource;Ljava/security/PermissionCollection;)V
+ (Ljava/security/CodeSource;Ljava/security/PermissionCollection;)V
+<init>
+ (Ljava/security/CodeSource;Ljava/security/PermissionCollection;Ljava/lang/ClassLoader;[Ljava/security/Principal;)V
+ (Ljava/security/CodeSource;Ljava/security/PermissionCollection;Ljava/lang/ClassLoader;[Ljava/security/Principal;)V
+getClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()Ljava/lang/ClassLoader;
+getCodeSource
+ ()Ljava/security/CodeSource;
+ ()Ljava/security/CodeSource;
+getPermissions
+ ()Ljava/security/PermissionCollection;
+ ()Ljava/security/PermissionCollection;
+getPrincipals
+ ()[Ljava/security/Principal;
+ ()[Ljava/security/Principal;
+implies
+ (Ljava/security/Permission;)Z
+ (Ljava/security/Permission;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

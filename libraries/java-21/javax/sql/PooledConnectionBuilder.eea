@@ -1,0 +1,17 @@
+class javax/sql/PooledConnectionBuilder
+
+build
+ ()Ljavax/sql/PooledConnection;
+ ()L1javax/sql/PooledConnection;
+password
+ (Ljava/lang/String;)Ljavax/sql/PooledConnectionBuilder;
+ (Ljava/lang/String;)L1javax/sql/PooledConnectionBuilder;
+shardingKey
+ (Ljava/sql/ShardingKey;)Ljavax/sql/PooledConnectionBuilder;
+ (Ljava/sql/ShardingKey;)L1javax/sql/PooledConnectionBuilder;
+superShardingKey
+ (Ljava/sql/ShardingKey;)Ljavax/sql/PooledConnectionBuilder;
+ (Ljava/sql/ShardingKey;)L1javax/sql/PooledConnectionBuilder;
+user
+ (Ljava/lang/String;)Ljavax/sql/PooledConnectionBuilder;
+ (Ljava/lang/String;)L1javax/sql/PooledConnectionBuilder;

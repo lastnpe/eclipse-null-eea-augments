@@ -1,0 +1,70 @@
+class javax/swing/JLayer
+ <V:Ljava/awt/Component;>
+ <V:Ljava/awt/Component;>
+
+<init>
+ (TV;)V
+ (TV;)V
+<init>
+ (TV;Ljavax/swing/plaf/LayerUI<TV;>;)V
+ (TV;Ljavax/swing/plaf/LayerUI<TV;>;)V
+addImpl
+ (Ljava/awt/Component;Ljava/lang/Object;I)V
+ (Ljava/awt/Component;Ljava/lang/Object;I)V
+createGlassPane
+ ()Ljavax/swing/JPanel;
+ ()Ljavax/swing/JPanel;
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getBorder
+ ()Ljavax/swing/border/Border;
+ ()Ljavax/swing/border/Border;
+getGlassPane
+ ()Ljavax/swing/JPanel;
+ ()Ljavax/swing/JPanel;
+getPreferredScrollableViewportSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getScrollableBlockIncrement
+ (Ljava/awt/Rectangle;II)I
+ (Ljava/awt/Rectangle;II)I
+getScrollableUnitIncrement
+ (Ljava/awt/Rectangle;II)I
+ (Ljava/awt/Rectangle;II)I
+getUI
+ ()Ljavax/swing/plaf/LayerUI<-TV;>;
+ ()Ljavax/swing/plaf/LayerUI<-TV;>;
+getView
+ ()TV;
+ ()TV;
+imageUpdate
+ (Ljava/awt/Image;IIIII)Z
+ (Ljava/awt/Image;IIIII)Z
+paint
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paintComponent
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+propertyChange
+ (Ljava/beans/PropertyChangeEvent;)V
+ (L1java/beans/PropertyChangeEvent;)V # @Inherited(java.beans.PropertyChangeListener)
+remove
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+setBorder
+ (Ljavax/swing/border/Border;)V
+ (Ljavax/swing/border/Border;)V
+setGlassPane
+ (Ljavax/swing/JPanel;)V
+ (Ljavax/swing/JPanel;)V
+setLayout
+ (Ljava/awt/LayoutManager;)V
+ (Ljava/awt/LayoutManager;)V
+setUI
+ (Ljavax/swing/plaf/LayerUI<-TV;>;)V
+ (Ljavax/swing/plaf/LayerUI<-TV;>;)V
+setView
+ (TV;)V
+ (TV;)V

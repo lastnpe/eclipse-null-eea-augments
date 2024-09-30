@@ -1,0 +1,36 @@
+class java/awt/Taskbar
+
+getTaskbar
+ ()Ljava/awt/Taskbar;
+ ()Ljava/awt/Taskbar;
+
+getIconImage
+ ()Ljava/awt/Image;
+ ()Ljava/awt/Image;
+getMenu
+ ()Ljava/awt/PopupMenu;
+ ()Ljava/awt/PopupMenu;
+isSupported
+ (Ljava/awt/Taskbar$Feature;)Z
+ (Ljava/awt/Taskbar$Feature;)Z
+requestWindowUserAttention
+ (Ljava/awt/Window;)V
+ (Ljava/awt/Window;)V
+setIconBadge
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setIconImage
+ (Ljava/awt/Image;)V
+ (Ljava/awt/Image;)V
+setMenu
+ (Ljava/awt/PopupMenu;)V
+ (Ljava/awt/PopupMenu;)V
+setWindowIconBadge
+ (Ljava/awt/Window;Ljava/awt/Image;)V
+ (Ljava/awt/Window;Ljava/awt/Image;)V
+setWindowProgressState
+ (Ljava/awt/Window;Ljava/awt/Taskbar$State;)V
+ (Ljava/awt/Window;Ljava/awt/Taskbar$State;)V
+setWindowProgressValue
+ (Ljava/awt/Window;I)V
+ (Ljava/awt/Window;I)V

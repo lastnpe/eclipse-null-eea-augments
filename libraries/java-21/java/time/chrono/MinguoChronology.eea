@@ -1,0 +1,63 @@
+class java/time/chrono/MinguoChronology
+
+INSTANCE
+ Ljava/time/chrono/MinguoChronology;
+ L1java/time/chrono/MinguoChronology;
+
+date
+ (III)Ljava/time/chrono/MinguoDate;
+ (III)Ljava/time/chrono/MinguoDate;
+date
+ (Ljava/time/chrono/Era;III)Ljava/time/chrono/MinguoDate;
+ (Ljava/time/chrono/Era;III)Ljava/time/chrono/MinguoDate;
+date
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/MinguoDate;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/MinguoDate;
+dateEpochDay
+ (J)Ljava/time/chrono/MinguoDate;
+ (J)Ljava/time/chrono/MinguoDate;
+dateNow
+ ()Ljava/time/chrono/MinguoDate;
+ ()Ljava/time/chrono/MinguoDate;
+dateNow
+ (Ljava/time/Clock;)Ljava/time/chrono/MinguoDate;
+ (Ljava/time/Clock;)Ljava/time/chrono/MinguoDate;
+dateNow
+ (Ljava/time/ZoneId;)Ljava/time/chrono/MinguoDate;
+ (Ljava/time/ZoneId;)Ljava/time/chrono/MinguoDate;
+dateYearDay
+ (II)Ljava/time/chrono/MinguoDate;
+ (II)Ljava/time/chrono/MinguoDate;
+dateYearDay
+ (Ljava/time/chrono/Era;II)Ljava/time/chrono/MinguoDate;
+ (Ljava/time/chrono/Era;II)Ljava/time/chrono/MinguoDate;
+eraOf
+ (I)Ljava/time/chrono/MinguoEra;
+ (I)Ljava/time/chrono/MinguoEra;
+eras
+ ()Ljava/util/List<Ljava/time/chrono/Era;>;
+ ()Ljava/util/List<Ljava/time/chrono/Era;>;
+getCalendarType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+localDateTime
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/ChronoLocalDateTime<Ljava/time/chrono/MinguoDate;>;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/ChronoLocalDateTime<Ljava/time/chrono/MinguoDate;>;
+prolepticYear
+ (Ljava/time/chrono/Era;I)I
+ (Ljava/time/chrono/Era;I)I
+range
+ (Ljava/time/temporal/ChronoField;)Ljava/time/temporal/ValueRange;
+ (Ljava/time/temporal/ChronoField;)Ljava/time/temporal/ValueRange;
+resolveDate
+ (Ljava/util/Map<Ljava/time/temporal/TemporalField;Ljava/lang/Long;>;Ljava/time/format/ResolverStyle;)Ljava/time/chrono/MinguoDate;
+ (Ljava/util/Map<Ljava/time/temporal/TemporalField;Ljava/lang/Long;>;Ljava/time/format/ResolverStyle;)Ljava/time/chrono/MinguoDate;
+zonedDateTime
+ (Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/chrono/ChronoZonedDateTime<Ljava/time/chrono/MinguoDate;>;
+ (Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/chrono/ChronoZonedDateTime<Ljava/time/chrono/MinguoDate;>;
+zonedDateTime
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/ChronoZonedDateTime<Ljava/time/chrono/MinguoDate;>;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/ChronoZonedDateTime<Ljava/time/chrono/MinguoDate;>;

@@ -1,0 +1,33 @@
+class java/security/AlgorithmParameterGenerator
+
+getInstance
+ (Ljava/lang/String;)Ljava/security/AlgorithmParameterGenerator;
+ (Ljava/lang/String;)Ljava/security/AlgorithmParameterGenerator;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/AlgorithmParameterGenerator;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/AlgorithmParameterGenerator;
+getInstance
+ (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/AlgorithmParameterGenerator;
+ (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/AlgorithmParameterGenerator;
+
+<init>
+ (Ljava/security/AlgorithmParameterGeneratorSpi;Ljava/security/Provider;Ljava/lang/String;)V
+ (Ljava/security/AlgorithmParameterGeneratorSpi;Ljava/security/Provider;Ljava/lang/String;)V
+generateParameters
+ ()Ljava/security/AlgorithmParameters;
+ ()Ljava/security/AlgorithmParameters;
+getAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getProvider
+ ()Ljava/security/Provider;
+ ()Ljava/security/Provider;
+init
+ (ILjava/security/SecureRandom;)V
+ (ILjava/security/SecureRandom;)V
+init
+ (Ljava/security/spec/AlgorithmParameterSpec;)V
+ (Ljava/security/spec/AlgorithmParameterSpec;)V
+init
+ (Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V
+ (Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V

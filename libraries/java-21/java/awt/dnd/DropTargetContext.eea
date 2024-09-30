@@ -1,0 +1,23 @@
+class java/awt/dnd/DropTargetContext
+
+createTransferableProxy
+ (Ljava/awt/datatransfer/Transferable;Z)Ljava/awt/datatransfer/Transferable;
+ (Ljava/awt/datatransfer/Transferable;Z)Ljava/awt/datatransfer/Transferable;
+getComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getCurrentDataFlavors
+ ()[Ljava/awt/datatransfer/DataFlavor;
+ ()[Ljava/awt/datatransfer/DataFlavor;
+getCurrentDataFlavorsAsList
+ ()Ljava/util/List<Ljava/awt/datatransfer/DataFlavor;>;
+ ()Ljava/util/List<Ljava/awt/datatransfer/DataFlavor;>;
+getDropTarget
+ ()Ljava/awt/dnd/DropTarget;
+ ()Ljava/awt/dnd/DropTarget;
+getTransferable
+ ()Ljava/awt/datatransfer/Transferable;
+ ()Ljava/awt/datatransfer/Transferable;
+isDataFlavorSupported
+ (Ljava/awt/datatransfer/DataFlavor;)Z
+ (Ljava/awt/datatransfer/DataFlavor;)Z

@@ -1,0 +1,18 @@
+class java/lang/module/ModuleFinder
+
+compose
+ ([Ljava/lang/module/ModuleFinder;)Ljava/lang/module/ModuleFinder;
+ ([Ljava/lang/module/ModuleFinder;)Ljava/lang/module/ModuleFinder;
+of
+ ([Ljava/nio/file/Path;)Ljava/lang/module/ModuleFinder;
+ ([Ljava/nio/file/Path;)Ljava/lang/module/ModuleFinder;
+ofSystem
+ ()Ljava/lang/module/ModuleFinder;
+ ()Ljava/lang/module/ModuleFinder;
+
+find
+ (Ljava/lang/String;)Ljava/util/Optional<Ljava/lang/module/ModuleReference;>;
+ (Ljava/lang/String;)Ljava/util/Optional<Ljava/lang/module/ModuleReference;>;
+findAll
+ ()Ljava/util/Set<Ljava/lang/module/ModuleReference;>;
+ ()Ljava/util/Set<Ljava/lang/module/ModuleReference;>;

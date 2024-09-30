@@ -1,0 +1,35 @@
+class javax/imageio/stream/ImageOutputStreamImpl
+
+write
+ ([B)V
+ ([1B)V # @Inherited(javax.imageio.stream.ImageOutputStream)
+write
+ ([BII)V
+ ([1BII)V # @Inherited(javax.imageio.stream.ImageOutputStream)
+writeBytes
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(javax.imageio.stream.ImageOutputStream)
+writeChars
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(javax.imageio.stream.ImageOutputStream)
+writeChars
+ ([CII)V
+ ([CII)V
+writeDoubles
+ ([DII)V
+ ([DII)V
+writeFloats
+ ([FII)V
+ ([FII)V
+writeInts
+ ([III)V
+ ([III)V
+writeLongs
+ ([JII)V
+ ([JII)V
+writeShorts
+ ([SII)V
+ ([SII)V
+writeUTF
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(javax.imageio.stream.ImageOutputStream)

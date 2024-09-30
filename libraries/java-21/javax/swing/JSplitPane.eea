@@ -1,0 +1,100 @@
+class javax/swing/JSplitPane
+
+BOTTOM
+ Ljava/lang/String;
+ L1java/lang/String;
+CONTINUOUS_LAYOUT_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+DIVIDER
+ Ljava/lang/String;
+ L1java/lang/String;
+DIVIDER_LOCATION_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+DIVIDER_SIZE_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+LAST_DIVIDER_LOCATION_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+LEFT
+ Ljava/lang/String;
+ L1java/lang/String;
+ONE_TOUCH_EXPANDABLE_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+ORIENTATION_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+RESIZE_WEIGHT_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+RIGHT
+ Ljava/lang/String;
+ L1java/lang/String;
+TOP
+ Ljava/lang/String;
+ L1java/lang/String;
+
+leftComponent
+ Ljava/awt/Component;
+ Ljava/awt/Component;
+rightComponent
+ Ljava/awt/Component;
+ Ljava/awt/Component;
+
+<init>
+ (ILjava/awt/Component;Ljava/awt/Component;)V
+ (ILjava/awt/Component;Ljava/awt/Component;)V
+<init>
+ (IZLjava/awt/Component;Ljava/awt/Component;)V
+ (IZLjava/awt/Component;Ljava/awt/Component;)V
+addImpl
+ (Ljava/awt/Component;Ljava/lang/Object;I)V
+ (Ljava/awt/Component;Ljava/lang/Object;I)V
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getBottomComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getLeftComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getRightComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getTopComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getUI
+ ()Ljavax/swing/plaf/SplitPaneUI;
+ ()Ljavax/swing/plaf/SplitPaneUI;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+paintChildren
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+remove
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+setBottomComponent
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+setLeftComponent
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+setRightComponent
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+setTopComponent
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+setUI
+ (Ljavax/swing/plaf/SplitPaneUI;)V
+ (Ljavax/swing/plaf/SplitPaneUI;)V

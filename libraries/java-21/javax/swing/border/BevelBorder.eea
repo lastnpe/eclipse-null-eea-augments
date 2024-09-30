@@ -1,0 +1,57 @@
+class javax/swing/border/BevelBorder
+
+highlightInner
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+highlightOuter
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+shadowInner
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+shadowOuter
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+
+<init>
+ (ILjava/awt/Color;Ljava/awt/Color;)V
+ (ILjava/awt/Color;Ljava/awt/Color;)V
+<init>
+ (ILjava/awt/Color;Ljava/awt/Color;Ljava/awt/Color;Ljava/awt/Color;)V
+ (ILjava/awt/Color;Ljava/awt/Color;Ljava/awt/Color;Ljava/awt/Color;)V
+getBorderInsets
+ (Ljava/awt/Component;Ljava/awt/Insets;)Ljava/awt/Insets;
+ (Ljava/awt/Component;Ljava/awt/Insets;)Ljava/awt/Insets;
+getHighlightInnerColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getHighlightInnerColor
+ (Ljava/awt/Component;)Ljava/awt/Color;
+ (Ljava/awt/Component;)Ljava/awt/Color;
+getHighlightOuterColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getHighlightOuterColor
+ (Ljava/awt/Component;)Ljava/awt/Color;
+ (Ljava/awt/Component;)Ljava/awt/Color;
+getShadowInnerColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getShadowInnerColor
+ (Ljava/awt/Component;)Ljava/awt/Color;
+ (Ljava/awt/Component;)Ljava/awt/Color;
+getShadowOuterColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getShadowOuterColor
+ (Ljava/awt/Component;)Ljava/awt/Color;
+ (Ljava/awt/Component;)Ljava/awt/Color;
+paintBorder
+ (Ljava/awt/Component;Ljava/awt/Graphics;IIII)V
+ (Ljava/awt/Component;Ljava/awt/Graphics;IIII)V
+paintLoweredBevel
+ (Ljava/awt/Component;Ljava/awt/Graphics;IIII)V
+ (Ljava/awt/Component;Ljava/awt/Graphics;IIII)V
+paintRaisedBevel
+ (Ljava/awt/Component;Ljava/awt/Graphics;IIII)V
+ (Ljava/awt/Component;Ljava/awt/Graphics;IIII)V

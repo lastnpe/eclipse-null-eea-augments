@@ -1,0 +1,21 @@
+class javax/sound/sampled/AudioInputStream
+
+format
+ Ljavax/sound/sampled/AudioFormat;
+ Ljavax/sound/sampled/AudioFormat;
+
+<init>
+ (Ljava/io/InputStream;Ljavax/sound/sampled/AudioFormat;J)V
+ (Ljava/io/InputStream;Ljavax/sound/sampled/AudioFormat;J)V
+<init>
+ (Ljavax/sound/sampled/TargetDataLine;)V
+ (Ljavax/sound/sampled/TargetDataLine;)V
+getFormat
+ ()Ljavax/sound/sampled/AudioFormat;
+ ()Ljavax/sound/sampled/AudioFormat;
+read
+ ([B)I
+ ([1B)I # @Inherited(java.io.InputStream)
+read
+ ([BII)I
+ ([1BII)I # @Inherited(java.io.InputStream)

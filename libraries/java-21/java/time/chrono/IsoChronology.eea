@@ -1,0 +1,69 @@
+class java/time/chrono/IsoChronology
+
+INSTANCE
+ Ljava/time/chrono/IsoChronology;
+ L1java/time/chrono/IsoChronology;
+
+date
+ (III)Ljava/time/LocalDate;
+ (III)Ljava/time/LocalDate;
+date
+ (Ljava/time/chrono/Era;III)Ljava/time/LocalDate;
+ (Ljava/time/chrono/Era;III)Ljava/time/LocalDate;
+date
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/LocalDate;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/LocalDate;
+dateEpochDay
+ (J)Ljava/time/LocalDate;
+ (J)Ljava/time/LocalDate;
+dateNow
+ ()Ljava/time/LocalDate;
+ ()Ljava/time/LocalDate;
+dateNow
+ (Ljava/time/Clock;)Ljava/time/LocalDate;
+ (Ljava/time/Clock;)Ljava/time/LocalDate;
+dateNow
+ (Ljava/time/ZoneId;)Ljava/time/LocalDate;
+ (Ljava/time/ZoneId;)Ljava/time/LocalDate;
+dateYearDay
+ (II)Ljava/time/LocalDate;
+ (II)Ljava/time/LocalDate;
+dateYearDay
+ (Ljava/time/chrono/Era;II)Ljava/time/LocalDate;
+ (Ljava/time/chrono/Era;II)Ljava/time/LocalDate;
+epochSecond
+ (IIIIIILjava/time/ZoneOffset;)J
+ (IIIIIILjava/time/ZoneOffset;)J
+eraOf
+ (I)Ljava/time/chrono/IsoEra;
+ (I)Ljava/time/chrono/IsoEra;
+eras
+ ()Ljava/util/List<Ljava/time/chrono/Era;>;
+ ()Ljava/util/List<Ljava/time/chrono/Era;>;
+getCalendarType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+localDateTime
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/LocalDateTime;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/LocalDateTime;
+period
+ (III)Ljava/time/Period;
+ (III)Ljava/time/Period;
+prolepticYear
+ (Ljava/time/chrono/Era;I)I
+ (Ljava/time/chrono/Era;I)I
+range
+ (Ljava/time/temporal/ChronoField;)Ljava/time/temporal/ValueRange;
+ (Ljava/time/temporal/ChronoField;)Ljava/time/temporal/ValueRange;
+resolveDate
+ (Ljava/util/Map<Ljava/time/temporal/TemporalField;Ljava/lang/Long;>;Ljava/time/format/ResolverStyle;)Ljava/time/LocalDate;
+ (Ljava/util/Map<Ljava/time/temporal/TemporalField;Ljava/lang/Long;>;Ljava/time/format/ResolverStyle;)Ljava/time/LocalDate;
+zonedDateTime
+ (Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
+ (Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
+zonedDateTime
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/ZonedDateTime;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/ZonedDateTime;

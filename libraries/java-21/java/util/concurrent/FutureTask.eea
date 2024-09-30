@@ -1,0 +1,38 @@
+class java/util/concurrent/FutureTask
+ <V:Ljava/lang/Object;>
+ <V:Ljava/lang/Object;>
+
+super java/util/concurrent/RunnableFuture
+ <TV;>
+ <TV;>
+
+<init>
+ (Ljava/lang/Runnable;TV;)V
+ (L1java/lang/Runnable;TV;)V
+<init>
+ (Ljava/util/concurrent/Callable<TV;>;)V
+ (L1java/util/concurrent/Callable<TV;>;)V
+exceptionNow
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
+get
+ ()TV;
+ ()TV;
+get
+ (JLjava/util/concurrent/TimeUnit;)TV;
+ (JL1java/util/concurrent/TimeUnit;)TV; # @Inherited(java.util.concurrent.Future)
+resultNow
+ ()TV;
+ ()TV;
+set
+ (TV;)V
+ (TV;)V
+setException
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+state
+ ()Ljava/util/concurrent/Future$State;
+ ()Ljava/util/concurrent/Future$State;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

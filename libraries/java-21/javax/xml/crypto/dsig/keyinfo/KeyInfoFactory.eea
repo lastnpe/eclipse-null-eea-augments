@@ -1,0 +1,63 @@
+class javax/xml/crypto/dsig/keyinfo/KeyInfoFactory
+
+getInstance
+ ()Ljavax/xml/crypto/dsig/keyinfo/KeyInfoFactory;
+ ()Ljavax/xml/crypto/dsig/keyinfo/KeyInfoFactory;
+getInstance
+ (Ljava/lang/String;)Ljavax/xml/crypto/dsig/keyinfo/KeyInfoFactory;
+ (Ljava/lang/String;)Ljavax/xml/crypto/dsig/keyinfo/KeyInfoFactory;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/crypto/dsig/keyinfo/KeyInfoFactory;
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/crypto/dsig/keyinfo/KeyInfoFactory;
+getInstance
+ (Ljava/lang/String;Ljava/security/Provider;)Ljavax/xml/crypto/dsig/keyinfo/KeyInfoFactory;
+ (Ljava/lang/String;Ljava/security/Provider;)Ljavax/xml/crypto/dsig/keyinfo/KeyInfoFactory;
+
+getMechanismType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getProvider
+ ()Ljava/security/Provider;
+ ()Ljava/security/Provider;
+getURIDereferencer
+ ()Ljavax/xml/crypto/URIDereferencer;
+ ()Ljavax/xml/crypto/URIDereferencer;
+isFeatureSupported
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+newKeyInfo
+ (Ljava/util/List<+Ljavax/xml/crypto/XMLStructure;>;)Ljavax/xml/crypto/dsig/keyinfo/KeyInfo;
+ (Ljava/util/List<+Ljavax/xml/crypto/XMLStructure;>;)Ljavax/xml/crypto/dsig/keyinfo/KeyInfo;
+newKeyInfo
+ (Ljava/util/List<+Ljavax/xml/crypto/XMLStructure;>;Ljava/lang/String;)Ljavax/xml/crypto/dsig/keyinfo/KeyInfo;
+ (Ljava/util/List<+Ljavax/xml/crypto/XMLStructure;>;Ljava/lang/String;)Ljavax/xml/crypto/dsig/keyinfo/KeyInfo;
+newKeyName
+ (Ljava/lang/String;)Ljavax/xml/crypto/dsig/keyinfo/KeyName;
+ (Ljava/lang/String;)Ljavax/xml/crypto/dsig/keyinfo/KeyName;
+newKeyValue
+ (Ljava/security/PublicKey;)Ljavax/xml/crypto/dsig/keyinfo/KeyValue;
+ (Ljava/security/PublicKey;)Ljavax/xml/crypto/dsig/keyinfo/KeyValue;
+newPGPData
+ ([B)Ljavax/xml/crypto/dsig/keyinfo/PGPData;
+ ([B)Ljavax/xml/crypto/dsig/keyinfo/PGPData;
+newPGPData
+ ([BLjava/util/List<+Ljavax/xml/crypto/XMLStructure;>;)Ljavax/xml/crypto/dsig/keyinfo/PGPData;
+ ([BLjava/util/List<+Ljavax/xml/crypto/XMLStructure;>;)Ljavax/xml/crypto/dsig/keyinfo/PGPData;
+newPGPData
+ ([B[BLjava/util/List<+Ljavax/xml/crypto/XMLStructure;>;)Ljavax/xml/crypto/dsig/keyinfo/PGPData;
+ ([B[BLjava/util/List<+Ljavax/xml/crypto/XMLStructure;>;)Ljavax/xml/crypto/dsig/keyinfo/PGPData;
+newRetrievalMethod
+ (Ljava/lang/String;)Ljavax/xml/crypto/dsig/keyinfo/RetrievalMethod;
+ (Ljava/lang/String;)Ljavax/xml/crypto/dsig/keyinfo/RetrievalMethod;
+newRetrievalMethod
+ (Ljava/lang/String;Ljava/lang/String;Ljava/util/List<+Ljavax/xml/crypto/dsig/Transform;>;)Ljavax/xml/crypto/dsig/keyinfo/RetrievalMethod;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/util/List<+Ljavax/xml/crypto/dsig/Transform;>;)Ljavax/xml/crypto/dsig/keyinfo/RetrievalMethod;
+newX509Data
+ (Ljava/util/List<*>;)Ljavax/xml/crypto/dsig/keyinfo/X509Data;
+ (Ljava/util/List<*>;)Ljavax/xml/crypto/dsig/keyinfo/X509Data;
+newX509IssuerSerial
+ (Ljava/lang/String;Ljava/math/BigInteger;)Ljavax/xml/crypto/dsig/keyinfo/X509IssuerSerial;
+ (Ljava/lang/String;Ljava/math/BigInteger;)Ljavax/xml/crypto/dsig/keyinfo/X509IssuerSerial;
+unmarshalKeyInfo
+ (Ljavax/xml/crypto/XMLStructure;)Ljavax/xml/crypto/dsig/keyinfo/KeyInfo;
+ (Ljavax/xml/crypto/XMLStructure;)Ljavax/xml/crypto/dsig/keyinfo/KeyInfo;

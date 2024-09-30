@@ -1,0 +1,29 @@
+class java/beans/Encoder
+
+get
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+getExceptionListener
+ ()Ljava/beans/ExceptionListener;
+ ()Ljava/beans/ExceptionListener;
+getPersistenceDelegate
+ (Ljava/lang/Class<*>;)Ljava/beans/PersistenceDelegate;
+ (Ljava/lang/Class<*>;)Ljava/beans/PersistenceDelegate;
+remove
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+setExceptionListener
+ (Ljava/beans/ExceptionListener;)V
+ (Ljava/beans/ExceptionListener;)V
+setPersistenceDelegate
+ (Ljava/lang/Class<*>;Ljava/beans/PersistenceDelegate;)V
+ (Ljava/lang/Class<*>;Ljava/beans/PersistenceDelegate;)V
+writeExpression
+ (Ljava/beans/Expression;)V
+ (Ljava/beans/Expression;)V
+writeObject
+ (Ljava/lang/Object;)V
+ (L1java/lang/Object;)V
+writeStatement
+ (Ljava/beans/Statement;)V
+ (Ljava/beans/Statement;)V

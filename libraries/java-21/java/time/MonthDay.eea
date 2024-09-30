@@ -1,0 +1,82 @@
+class java/time/MonthDay
+
+super java/lang/Comparable
+ <Ljava/time/MonthDay;>
+ <Ljava/time/MonthDay;>
+
+from
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/MonthDay;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/MonthDay;
+now
+ ()Ljava/time/MonthDay;
+ ()Ljava/time/MonthDay;
+now
+ (Ljava/time/Clock;)Ljava/time/MonthDay;
+ (Ljava/time/Clock;)Ljava/time/MonthDay;
+now
+ (Ljava/time/ZoneId;)Ljava/time/MonthDay;
+ (Ljava/time/ZoneId;)Ljava/time/MonthDay;
+of
+ (II)Ljava/time/MonthDay;
+ (II)Ljava/time/MonthDay;
+of
+ (Ljava/time/Month;I)Ljava/time/MonthDay;
+ (Ljava/time/Month;I)Ljava/time/MonthDay;
+parse
+ (Ljava/lang/CharSequence;)Ljava/time/MonthDay;
+ (Ljava/lang/CharSequence;)Ljava/time/MonthDay;
+parse
+ (Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)Ljava/time/MonthDay;
+ (Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)Ljava/time/MonthDay;
+
+adjustInto
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal; # @Inherited(java.time.temporal.TemporalAdjuster)
+atYear
+ (I)Ljava/time/LocalDate;
+ (I)Ljava/time/LocalDate;
+compareTo
+ (Ljava/time/MonthDay;)I
+ (L1java/time/MonthDay;)I
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+format
+ (Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;
+ (Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;
+get
+ (Ljava/time/temporal/TemporalField;)I
+ (L1java/time/temporal/TemporalField;)I # @Inherited(java.time.temporal.TemporalAccessor)
+getLong
+ (Ljava/time/temporal/TemporalField;)J
+ (L1java/time/temporal/TemporalField;)J # @Inherited(java.time.temporal.TemporalAccessor)
+getMonth
+ ()Ljava/time/Month;
+ ()Ljava/time/Month;
+isAfter
+ (Ljava/time/MonthDay;)Z
+ (Ljava/time/MonthDay;)Z
+isBefore
+ (Ljava/time/MonthDay;)Z
+ (Ljava/time/MonthDay;)Z
+isSupported
+ (Ljava/time/temporal/TemporalField;)Z
+ (L1java/time/temporal/TemporalField;)Z # @Inherited(java.time.temporal.TemporalAccessor)
+query
+ <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+ <R:Ljava/lang/Object;>(L1java/time/temporal/TemporalQuery<TR;>;)T0R; # @Inherited(java.time.temporal.TemporalAccessor)
+range
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange; # @Inherited(java.time.temporal.TemporalAccessor)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+with
+ (Ljava/time/Month;)Ljava/time/MonthDay;
+ (Ljava/time/Month;)Ljava/time/MonthDay;
+withDayOfMonth
+ (I)Ljava/time/MonthDay;
+ (I)Ljava/time/MonthDay;
+withMonth
+ (I)Ljava/time/MonthDay;
+ (I)Ljava/time/MonthDay;

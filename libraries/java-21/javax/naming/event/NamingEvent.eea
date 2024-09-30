@@ -1,0 +1,30 @@
+class javax/naming/event/NamingEvent
+
+changeInfo
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+newBinding
+ Ljavax/naming/Binding;
+ Ljavax/naming/Binding;
+oldBinding
+ Ljavax/naming/Binding;
+ Ljavax/naming/Binding;
+
+<init>
+ (Ljavax/naming/event/EventContext;ILjavax/naming/Binding;Ljavax/naming/Binding;Ljava/lang/Object;)V
+ (Ljavax/naming/event/EventContext;ILjavax/naming/Binding;Ljavax/naming/Binding;Ljava/lang/Object;)V
+dispatch
+ (Ljavax/naming/event/NamingListener;)V
+ (Ljavax/naming/event/NamingListener;)V
+getChangeInfo
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getEventContext
+ ()Ljavax/naming/event/EventContext;
+ ()Ljavax/naming/event/EventContext;
+getNewBinding
+ ()Ljavax/naming/Binding;
+ ()Ljavax/naming/Binding;
+getOldBinding
+ ()Ljavax/naming/Binding;
+ ()Ljavax/naming/Binding;

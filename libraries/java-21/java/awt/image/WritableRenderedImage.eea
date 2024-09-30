@@ -1,0 +1,17 @@
+class java/awt/image/WritableRenderedImage
+
+addTileObserver
+ (Ljava/awt/image/TileObserver;)V
+ (Ljava/awt/image/TileObserver;)V
+getWritableTile
+ (II)Ljava/awt/image/WritableRaster;
+ (II)Ljava/awt/image/WritableRaster;
+getWritableTileIndices
+ ()[Ljava/awt/Point;
+ ()[Ljava/awt/Point;
+removeTileObserver
+ (Ljava/awt/image/TileObserver;)V
+ (Ljava/awt/image/TileObserver;)V
+setData
+ (Ljava/awt/image/Raster;)V
+ (Ljava/awt/image/Raster;)V

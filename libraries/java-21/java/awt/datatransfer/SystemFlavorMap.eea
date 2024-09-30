@@ -1,0 +1,45 @@
+class java/awt/datatransfer/SystemFlavorMap
+
+decodeDataFlavor
+ (Ljava/lang/String;)Ljava/awt/datatransfer/DataFlavor;
+ (Ljava/lang/String;)Ljava/awt/datatransfer/DataFlavor;
+decodeJavaMIMEType
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+encodeDataFlavor
+ (Ljava/awt/datatransfer/DataFlavor;)Ljava/lang/String;
+ (Ljava/awt/datatransfer/DataFlavor;)Ljava/lang/String;
+encodeJavaMIMEType
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getDefaultFlavorMap
+ ()Ljava/awt/datatransfer/FlavorMap;
+ ()Ljava/awt/datatransfer/FlavorMap;
+isJavaMIMEType
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+
+addFlavorForUnencodedNative
+ (Ljava/lang/String;Ljava/awt/datatransfer/DataFlavor;)V
+ (Ljava/lang/String;Ljava/awt/datatransfer/DataFlavor;)V
+addUnencodedNativeForFlavor
+ (Ljava/awt/datatransfer/DataFlavor;Ljava/lang/String;)V
+ (Ljava/awt/datatransfer/DataFlavor;Ljava/lang/String;)V
+getFlavorsForNative
+ (Ljava/lang/String;)Ljava/util/List<Ljava/awt/datatransfer/DataFlavor;>;
+ (Ljava/lang/String;)Ljava/util/List<Ljava/awt/datatransfer/DataFlavor;>;
+getFlavorsForNatives
+ ([Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;Ljava/awt/datatransfer/DataFlavor;>;
+ ([Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;Ljava/awt/datatransfer/DataFlavor;>;
+getNativesForFlavor
+ (Ljava/awt/datatransfer/DataFlavor;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/awt/datatransfer/DataFlavor;)Ljava/util/List<Ljava/lang/String;>;
+getNativesForFlavors
+ ([Ljava/awt/datatransfer/DataFlavor;)Ljava/util/Map<Ljava/awt/datatransfer/DataFlavor;Ljava/lang/String;>;
+ ([Ljava/awt/datatransfer/DataFlavor;)Ljava/util/Map<Ljava/awt/datatransfer/DataFlavor;Ljava/lang/String;>;
+setFlavorsForNative
+ (Ljava/lang/String;[Ljava/awt/datatransfer/DataFlavor;)V
+ (Ljava/lang/String;[Ljava/awt/datatransfer/DataFlavor;)V
+setNativesForFlavor
+ (Ljava/awt/datatransfer/DataFlavor;[Ljava/lang/String;)V
+ (Ljava/awt/datatransfer/DataFlavor;[Ljava/lang/String;)V

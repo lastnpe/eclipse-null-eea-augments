@@ -1,0 +1,45 @@
+class javax/crypto/KeyAgreement
+
+getInstance
+ (Ljava/lang/String;)Ljavax/crypto/KeyAgreement;
+ (Ljava/lang/String;)Ljavax/crypto/KeyAgreement;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/KeyAgreement;
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/KeyAgreement;
+getInstance
+ (Ljava/lang/String;Ljava/security/Provider;)Ljavax/crypto/KeyAgreement;
+ (Ljava/lang/String;Ljava/security/Provider;)Ljavax/crypto/KeyAgreement;
+
+<init>
+ (Ljavax/crypto/KeyAgreementSpi;Ljava/security/Provider;Ljava/lang/String;)V
+ (Ljavax/crypto/KeyAgreementSpi;Ljava/security/Provider;Ljava/lang/String;)V
+doPhase
+ (Ljava/security/Key;Z)Ljava/security/Key;
+ (Ljava/security/Key;Z)Ljava/security/Key;
+generateSecret
+ ()[B
+ ()[B
+generateSecret
+ (Ljava/lang/String;)Ljavax/crypto/SecretKey;
+ (Ljava/lang/String;)Ljavax/crypto/SecretKey;
+generateSecret
+ ([BI)I
+ ([BI)I
+getAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getProvider
+ ()Ljava/security/Provider;
+ ()Ljava/security/Provider;
+init
+ (Ljava/security/Key;)V
+ (Ljava/security/Key;)V
+init
+ (Ljava/security/Key;Ljava/security/SecureRandom;)V
+ (Ljava/security/Key;Ljava/security/SecureRandom;)V
+init
+ (Ljava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+ (Ljava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+init
+ (Ljava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V
+ (Ljava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V

@@ -1,0 +1,11 @@
+class java/util/zip/CheckedOutputStream
+
+<init>
+ (Ljava/io/OutputStream;Ljava/util/zip/Checksum;)V
+ (Ljava/io/OutputStream;L1java/util/zip/Checksum;)V
+getChecksum
+ ()Ljava/util/zip/Checksum;
+ ()L1java/util/zip/Checksum;
+write
+ ([BII)V
+ ([1BII)V # @Inherited(java.io.FilterOutputStream)

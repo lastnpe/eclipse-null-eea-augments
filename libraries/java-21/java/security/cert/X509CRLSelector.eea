@@ -1,0 +1,56 @@
+class java/security/cert/X509CRLSelector
+
+addIssuer
+ (Ljavax/security/auth/x500/X500Principal;)V
+ (Ljavax/security/auth/x500/X500Principal;)V
+addIssuerName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+addIssuerName
+ ([B)V
+ ([B)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+getCertificateChecking
+ ()Ljava/security/cert/X509Certificate;
+ ()Ljava/security/cert/X509Certificate;
+getDateAndTime
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+getIssuerNames
+ ()Ljava/util/Collection<Ljava/lang/Object;>;
+ ()Ljava/util/Collection<Ljava/lang/Object;>;
+getIssuers
+ ()Ljava/util/Collection<Ljavax/security/auth/x500/X500Principal;>;
+ ()Ljava/util/Collection<Ljavax/security/auth/x500/X500Principal;>;
+getMaxCRL
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;
+getMinCRL
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;
+match
+ (Ljava/security/cert/CRL;)Z
+ (Ljava/security/cert/CRL;)Z
+setCertificateChecking
+ (Ljava/security/cert/X509Certificate;)V
+ (Ljava/security/cert/X509Certificate;)V
+setDateAndTime
+ (Ljava/util/Date;)V
+ (Ljava/util/Date;)V
+setIssuerNames
+ (Ljava/util/Collection<*>;)V
+ (Ljava/util/Collection<*>;)V
+setIssuers
+ (Ljava/util/Collection<Ljavax/security/auth/x500/X500Principal;>;)V
+ (Ljava/util/Collection<Ljavax/security/auth/x500/X500Principal;>;)V
+setMaxCRLNumber
+ (Ljava/math/BigInteger;)V
+ (Ljava/math/BigInteger;)V
+setMinCRLNumber
+ (Ljava/math/BigInteger;)V
+ (Ljava/math/BigInteger;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

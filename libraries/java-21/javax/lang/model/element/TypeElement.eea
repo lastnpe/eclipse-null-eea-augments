@@ -1,0 +1,35 @@
+class javax/lang/model/element/TypeElement
+
+asType
+ ()Ljavax/lang/model/type/TypeMirror;
+ ()L1javax/lang/model/type/TypeMirror; # @Inherited(javax.lang.model.element.Element)
+getEnclosedElements
+ ()Ljava/util/List<+Ljavax/lang/model/element/Element;>;
+ ()L1java/util/List<+L1javax/lang/model/element/Element;>; # @Inherited(javax.lang.model.element.Element)
+getEnclosingElement
+ ()Ljavax/lang/model/element/Element;
+ ()L0javax/lang/model/element/Element; # @Inherited(javax.lang.model.element.Element)
+getInterfaces
+ ()Ljava/util/List<+Ljavax/lang/model/type/TypeMirror;>;
+ ()Ljava/util/List<+Ljavax/lang/model/type/TypeMirror;>;
+getNestingKind
+ ()Ljavax/lang/model/element/NestingKind;
+ ()Ljavax/lang/model/element/NestingKind;
+getPermittedSubclasses
+ ()Ljava/util/List<+Ljavax/lang/model/type/TypeMirror;>;
+ ()Ljava/util/List<+Ljavax/lang/model/type/TypeMirror;>;
+getQualifiedName
+ ()Ljavax/lang/model/element/Name;
+ ()L1javax/lang/model/element/Name;
+getRecordComponents
+ ()Ljava/util/List<+Ljavax/lang/model/element/RecordComponentElement;>;
+ ()Ljava/util/List<+Ljavax/lang/model/element/RecordComponentElement;>;
+getSimpleName
+ ()Ljavax/lang/model/element/Name;
+ ()L1javax/lang/model/element/Name; # @Inherited(javax.lang.model.element.Element)
+getSuperclass
+ ()Ljavax/lang/model/type/TypeMirror;
+ ()Ljavax/lang/model/type/TypeMirror;
+getTypeParameters
+ ()Ljava/util/List<+Ljavax/lang/model/element/TypeParameterElement;>;
+ ()L1java/util/List<+L1javax/lang/model/element/TypeParameterElement;>;

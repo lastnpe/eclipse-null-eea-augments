@@ -1,0 +1,43 @@
+class javax/swing/plaf/metal/MetalToolBarUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+contListener
+ Ljava/awt/event/ContainerListener;
+ Ljava/awt/event/ContainerListener;
+rolloverListener
+ Ljava/beans/PropertyChangeListener;
+ Ljava/beans/PropertyChangeListener;
+
+createContainerListener
+ ()Ljava/awt/event/ContainerListener;
+ ()Ljava/awt/event/ContainerListener;
+createDockingListener
+ ()Ljavax/swing/event/MouseInputListener;
+ ()Ljavax/swing/event/MouseInputListener;
+createNonRolloverBorder
+ ()Ljavax/swing/border/Border;
+ ()Ljavax/swing/border/Border;
+createRolloverBorder
+ ()Ljavax/swing/border/Border;
+ ()Ljavax/swing/border/Border;
+createRolloverListener
+ ()Ljava/beans/PropertyChangeListener;
+ ()Ljava/beans/PropertyChangeListener;
+installUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+setBorderToNonRollover
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+setDragOffset
+ (Ljava/awt/Point;)V
+ (Ljava/awt/Point;)V
+uninstallUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+update
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V

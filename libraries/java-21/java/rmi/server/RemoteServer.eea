@@ -1,0 +1,15 @@
+class java/rmi/server/RemoteServer
+
+getClientHost
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getLog
+ ()Ljava/io/PrintStream;
+ ()Ljava/io/PrintStream;
+setLog
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V
+
+<init>
+ (Ljava/rmi/server/RemoteRef;)V
+ (Ljava/rmi/server/RemoteRef;)V

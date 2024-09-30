@@ -1,0 +1,36 @@
+class javax/management/Notification
+
+source
+ Ljava/lang/Object;
+ L1java/lang/Object; # @Inherited(java.util.EventObject)
+
+<init>
+ (Ljava/lang/String;Ljava/lang/Object;J)V
+ (Ljava/lang/String;L1java/lang/Object;J)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Object;JJ)V
+ (Ljava/lang/String;L1java/lang/Object;JJ)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Object;JJLjava/lang/String;)V
+ (Ljava/lang/String;L1java/lang/Object;JJLjava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Object;JLjava/lang/String;)V
+ (Ljava/lang/String;L1java/lang/Object;JLjava/lang/String;)V
+getMessage
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getUserData
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+setSource
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setUserData
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.util.EventObject)

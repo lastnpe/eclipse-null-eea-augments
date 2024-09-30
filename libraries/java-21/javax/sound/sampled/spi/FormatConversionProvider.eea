@@ -1,0 +1,32 @@
+class javax/sound/sampled/spi/FormatConversionProvider
+
+getAudioInputStream
+ (Ljavax/sound/sampled/AudioFormat$Encoding;Ljavax/sound/sampled/AudioInputStream;)Ljavax/sound/sampled/AudioInputStream;
+ (Ljavax/sound/sampled/AudioFormat$Encoding;Ljavax/sound/sampled/AudioInputStream;)Ljavax/sound/sampled/AudioInputStream;
+getAudioInputStream
+ (Ljavax/sound/sampled/AudioFormat;Ljavax/sound/sampled/AudioInputStream;)Ljavax/sound/sampled/AudioInputStream;
+ (Ljavax/sound/sampled/AudioFormat;Ljavax/sound/sampled/AudioInputStream;)Ljavax/sound/sampled/AudioInputStream;
+getSourceEncodings
+ ()[Ljavax/sound/sampled/AudioFormat$Encoding;
+ ()[Ljavax/sound/sampled/AudioFormat$Encoding;
+getTargetEncodings
+ ()[Ljavax/sound/sampled/AudioFormat$Encoding;
+ ()[Ljavax/sound/sampled/AudioFormat$Encoding;
+getTargetEncodings
+ (Ljavax/sound/sampled/AudioFormat;)[Ljavax/sound/sampled/AudioFormat$Encoding;
+ (Ljavax/sound/sampled/AudioFormat;)[Ljavax/sound/sampled/AudioFormat$Encoding;
+getTargetFormats
+ (Ljavax/sound/sampled/AudioFormat$Encoding;Ljavax/sound/sampled/AudioFormat;)[Ljavax/sound/sampled/AudioFormat;
+ (Ljavax/sound/sampled/AudioFormat$Encoding;Ljavax/sound/sampled/AudioFormat;)[Ljavax/sound/sampled/AudioFormat;
+isConversionSupported
+ (Ljavax/sound/sampled/AudioFormat$Encoding;Ljavax/sound/sampled/AudioFormat;)Z
+ (Ljavax/sound/sampled/AudioFormat$Encoding;Ljavax/sound/sampled/AudioFormat;)Z
+isConversionSupported
+ (Ljavax/sound/sampled/AudioFormat;Ljavax/sound/sampled/AudioFormat;)Z
+ (Ljavax/sound/sampled/AudioFormat;Ljavax/sound/sampled/AudioFormat;)Z
+isSourceEncodingSupported
+ (Ljavax/sound/sampled/AudioFormat$Encoding;)Z
+ (Ljavax/sound/sampled/AudioFormat$Encoding;)Z
+isTargetEncodingSupported
+ (Ljavax/sound/sampled/AudioFormat$Encoding;)Z
+ (Ljavax/sound/sampled/AudioFormat$Encoding;)Z

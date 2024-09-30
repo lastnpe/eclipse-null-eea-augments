@@ -1,0 +1,27 @@
+class java/awt/image/ImageFilter
+
+consumer
+ Ljava/awt/image/ImageConsumer;
+ Ljava/awt/image/ImageConsumer;
+
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+getFilterInstance
+ (Ljava/awt/image/ImageConsumer;)Ljava/awt/image/ImageFilter;
+ (Ljava/awt/image/ImageConsumer;)Ljava/awt/image/ImageFilter;
+resendTopDownLeftRight
+ (Ljava/awt/image/ImageProducer;)V
+ (Ljava/awt/image/ImageProducer;)V
+setColorModel
+ (Ljava/awt/image/ColorModel;)V
+ (Ljava/awt/image/ColorModel;)V
+setPixels
+ (IIIILjava/awt/image/ColorModel;[BII)V
+ (IIIILjava/awt/image/ColorModel;[BII)V
+setPixels
+ (IIIILjava/awt/image/ColorModel;[III)V
+ (IIIILjava/awt/image/ColorModel;[III)V
+setProperties
+ (Ljava/util/Hashtable<**>;)V
+ (Ljava/util/Hashtable<**>;)V

@@ -1,0 +1,54 @@
+class javax/net/ssl/SSLContext
+
+getDefault
+ ()Ljavax/net/ssl/SSLContext;
+ ()Ljavax/net/ssl/SSLContext;
+getInstance
+ (Ljava/lang/String;)Ljavax/net/ssl/SSLContext;
+ (Ljava/lang/String;)Ljavax/net/ssl/SSLContext;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/net/ssl/SSLContext;
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/net/ssl/SSLContext;
+getInstance
+ (Ljava/lang/String;Ljava/security/Provider;)Ljavax/net/ssl/SSLContext;
+ (Ljava/lang/String;Ljava/security/Provider;)Ljavax/net/ssl/SSLContext;
+setDefault
+ (Ljavax/net/ssl/SSLContext;)V
+ (Ljavax/net/ssl/SSLContext;)V
+
+<init>
+ (Ljavax/net/ssl/SSLContextSpi;Ljava/security/Provider;Ljava/lang/String;)V
+ (Ljavax/net/ssl/SSLContextSpi;Ljava/security/Provider;Ljava/lang/String;)V
+createSSLEngine
+ ()Ljavax/net/ssl/SSLEngine;
+ ()Ljavax/net/ssl/SSLEngine;
+createSSLEngine
+ (Ljava/lang/String;I)Ljavax/net/ssl/SSLEngine;
+ (Ljava/lang/String;I)Ljavax/net/ssl/SSLEngine;
+getClientSessionContext
+ ()Ljavax/net/ssl/SSLSessionContext;
+ ()Ljavax/net/ssl/SSLSessionContext;
+getDefaultSSLParameters
+ ()Ljavax/net/ssl/SSLParameters;
+ ()Ljavax/net/ssl/SSLParameters;
+getProtocol
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getProvider
+ ()Ljava/security/Provider;
+ ()Ljava/security/Provider;
+getServerSessionContext
+ ()Ljavax/net/ssl/SSLSessionContext;
+ ()Ljavax/net/ssl/SSLSessionContext;
+getServerSocketFactory
+ ()Ljavax/net/ssl/SSLServerSocketFactory;
+ ()Ljavax/net/ssl/SSLServerSocketFactory;
+getSocketFactory
+ ()Ljavax/net/ssl/SSLSocketFactory;
+ ()Ljavax/net/ssl/SSLSocketFactory;
+getSupportedSSLParameters
+ ()Ljavax/net/ssl/SSLParameters;
+ ()Ljavax/net/ssl/SSLParameters;
+init
+ ([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+ ([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
