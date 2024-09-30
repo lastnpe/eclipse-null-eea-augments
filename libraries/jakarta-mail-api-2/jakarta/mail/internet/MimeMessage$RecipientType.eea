@@ -1,0 +1,12 @@
+class jakarta/mail/internet/MimeMessage$RecipientType
+
+NEWSGROUPS
+ Ljakarta/mail/internet/MimeMessage$RecipientType;
+ L1jakarta/mail/internet/MimeMessage$RecipientType;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+readResolve
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(jakarta.mail.Message$RecipientType)

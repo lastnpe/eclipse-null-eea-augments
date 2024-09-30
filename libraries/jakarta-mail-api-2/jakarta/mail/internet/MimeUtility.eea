@@ -1,0 +1,59 @@
+class jakarta/mail/internet/MimeUtility
+
+decode
+ (Ljava/io/InputStream;Ljava/lang/String;)Ljava/io/InputStream;
+ (Ljava/io/InputStream;Ljava/lang/String;)Ljava/io/InputStream;
+decodeText
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+decodeWord
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+encode
+ (Ljava/io/OutputStream;Ljava/lang/String;)Ljava/io/OutputStream;
+ (Ljava/io/OutputStream;Ljava/lang/String;)Ljava/io/OutputStream;
+encode
+ (Ljava/io/OutputStream;Ljava/lang/String;Ljava/lang/String;)Ljava/io/OutputStream;
+ (Ljava/io/OutputStream;Ljava/lang/String;Ljava/lang/String;)Ljava/io/OutputStream;
+encodeText
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+encodeText
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+encodeWord
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+encodeWord
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+fold
+ (ILjava/lang/String;)Ljava/lang/String;
+ (ILjava/lang/String;)Ljava/lang/String;
+getBytes
+ (Ljava/io/InputStream;)[B
+ (Ljava/io/InputStream;)[B
+getBytes
+ (Ljava/lang/String;)[B
+ (Ljava/lang/String;)[B
+getDefaultJavaCharset
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getEncoding
+ (Ljakarta/activation/DataHandler;)Ljava/lang/String;
+ (Ljakarta/activation/DataHandler;)Ljava/lang/String;
+getEncoding
+ (Ljakarta/activation/DataSource;)Ljava/lang/String;
+ (Ljakarta/activation/DataSource;)Ljava/lang/String;
+javaCharset
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+mimeCharset
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+quote
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+unfold
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;

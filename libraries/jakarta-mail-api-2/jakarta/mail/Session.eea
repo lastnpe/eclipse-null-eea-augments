@@ -1,0 +1,84 @@
+class jakarta/mail/Session
+
+getDefaultInstance
+ (Ljava/util/Properties;)Ljakarta/mail/Session;
+ (Ljava/util/Properties;)Ljakarta/mail/Session;
+getDefaultInstance
+ (Ljava/util/Properties;Ljakarta/mail/Authenticator;)Ljakarta/mail/Session;
+ (Ljava/util/Properties;Ljakarta/mail/Authenticator;)Ljakarta/mail/Session;
+getInstance
+ (Ljava/util/Properties;)Ljakarta/mail/Session;
+ (Ljava/util/Properties;)Ljakarta/mail/Session;
+getInstance
+ (Ljava/util/Properties;Ljakarta/mail/Authenticator;)Ljakarta/mail/Session;
+ (Ljava/util/Properties;Ljakarta/mail/Authenticator;)Ljakarta/mail/Session;
+
+addProvider
+ (Ljakarta/mail/Provider;)V
+ (Ljakarta/mail/Provider;)V
+getDebugOut
+ ()Ljava/io/PrintStream;
+ ()Ljava/io/PrintStream;
+getFolder
+ (Ljakarta/mail/URLName;)Ljakarta/mail/Folder;
+ (Ljakarta/mail/URLName;)Ljakarta/mail/Folder;
+getPasswordAuthentication
+ (Ljakarta/mail/URLName;)Ljakarta/mail/PasswordAuthentication;
+ (Ljakarta/mail/URLName;)Ljakarta/mail/PasswordAuthentication;
+getProperties
+ ()Ljava/util/Properties;
+ ()Ljava/util/Properties;
+getProperty
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getProvider
+ (Ljava/lang/String;)Ljakarta/mail/Provider;
+ (Ljava/lang/String;)Ljakarta/mail/Provider;
+getProviders
+ ()[Ljakarta/mail/Provider;
+ ()[Ljakarta/mail/Provider;
+getStore
+ ()Ljakarta/mail/Store;
+ ()Ljakarta/mail/Store;
+getStore
+ (Ljakarta/mail/Provider;)Ljakarta/mail/Store;
+ (Ljakarta/mail/Provider;)Ljakarta/mail/Store;
+getStore
+ (Ljakarta/mail/URLName;)Ljakarta/mail/Store;
+ (Ljakarta/mail/URLName;)Ljakarta/mail/Store;
+getStore
+ (Ljava/lang/String;)Ljakarta/mail/Store;
+ (Ljava/lang/String;)Ljakarta/mail/Store;
+getStreamProvider
+ ()Ljakarta/mail/util/StreamProvider;
+ ()Ljakarta/mail/util/StreamProvider;
+getTransport
+ ()Ljakarta/mail/Transport;
+ ()Ljakarta/mail/Transport;
+getTransport
+ (Ljakarta/mail/Address;)Ljakarta/mail/Transport;
+ (Ljakarta/mail/Address;)Ljakarta/mail/Transport;
+getTransport
+ (Ljakarta/mail/Provider;)Ljakarta/mail/Transport;
+ (Ljakarta/mail/Provider;)Ljakarta/mail/Transport;
+getTransport
+ (Ljakarta/mail/URLName;)Ljakarta/mail/Transport;
+ (Ljakarta/mail/URLName;)Ljakarta/mail/Transport;
+getTransport
+ (Ljava/lang/String;)Ljakarta/mail/Transport;
+ (Ljava/lang/String;)Ljakarta/mail/Transport;
+requestPasswordAuthentication
+ (Ljava/net/InetAddress;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljakarta/mail/PasswordAuthentication;
+ (Ljava/net/InetAddress;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljakarta/mail/PasswordAuthentication;
+setDebugOut
+ (Ljava/io/PrintStream;)V
+ (Ljava/io/PrintStream;)V
+setPasswordAuthentication
+ (Ljakarta/mail/URLName;Ljakarta/mail/PasswordAuthentication;)V
+ (Ljakarta/mail/URLName;Ljakarta/mail/PasswordAuthentication;)V
+setProtocolForAddress
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setProvider
+ (Ljakarta/mail/Provider;)V
+ (Ljakarta/mail/Provider;)V

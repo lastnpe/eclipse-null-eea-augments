@@ -1,0 +1,30 @@
+class jakarta/mail/Transport
+
+send
+ (Ljakarta/mail/Message;)V
+ (Ljakarta/mail/Message;)V
+send
+ (Ljakarta/mail/Message;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljakarta/mail/Message;Ljava/lang/String;Ljava/lang/String;)V
+send
+ (Ljakarta/mail/Message;[Ljakarta/mail/Address;)V
+ (Ljakarta/mail/Message;[Ljakarta/mail/Address;)V
+send
+ (Ljakarta/mail/Message;[Ljakarta/mail/Address;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljakarta/mail/Message;[Ljakarta/mail/Address;Ljava/lang/String;Ljava/lang/String;)V
+
+<init>
+ (Ljakarta/mail/Session;Ljakarta/mail/URLName;)V
+ (Ljakarta/mail/Session;Ljakarta/mail/URLName;)V
+addTransportListener
+ (Ljakarta/mail/event/TransportListener;)V
+ (L1jakarta/mail/event/TransportListener;)V
+notifyTransportListeners
+ (I[Ljakarta/mail/Address;[Ljakarta/mail/Address;[Ljakarta/mail/Address;Ljakarta/mail/Message;)V
+ (I[Ljakarta/mail/Address;[Ljakarta/mail/Address;[Ljakarta/mail/Address;Ljakarta/mail/Message;)V
+removeTransportListener
+ (Ljakarta/mail/event/TransportListener;)V
+ (L1jakarta/mail/event/TransportListener;)V
+sendMessage
+ (Ljakarta/mail/Message;[Ljakarta/mail/Address;)V
+ (Ljakarta/mail/Message;[Ljakarta/mail/Address;)V

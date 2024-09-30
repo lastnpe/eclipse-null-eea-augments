@@ -1,0 +1,14 @@
+class jakarta/mail/search/HeaderTerm
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(jakarta.mail.search.StringTerm)
+getHeaderName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+match
+ (Ljakarta/mail/Message;)Z
+ (Ljakarta/mail/Message;)Z

@@ -1,0 +1,42 @@
+class jakarta/mail/Service
+
+session
+ Ljakarta/mail/Session;
+ Ljakarta/mail/Session;
+url
+ Ljakarta/mail/URLName;
+ Ljakarta/mail/URLName;
+
+<init>
+ (Ljakarta/mail/Session;Ljakarta/mail/URLName;)V
+ (Ljakarta/mail/Session;Ljakarta/mail/URLName;)V
+addConnectionListener
+ (Ljakarta/mail/event/ConnectionListener;)V
+ (L1jakarta/mail/event/ConnectionListener;)V
+connect
+ (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
+connect
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+connect
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+getURLName
+ ()Ljakarta/mail/URLName;
+ ()Ljakarta/mail/URLName;
+protocolConnect
+ (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)Z
+ (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)Z
+queueEvent
+ (Ljakarta/mail/event/MailEvent;Ljava/util/Vector<+Ljava/util/EventListener;>;)V
+ (Ljakarta/mail/event/MailEvent;Ljava/util/Vector<+Ljava/util/EventListener;>;)V
+removeConnectionListener
+ (Ljakarta/mail/event/ConnectionListener;)V
+ (L1jakarta/mail/event/ConnectionListener;)V
+setURLName
+ (Ljakarta/mail/URLName;)V
+ (Ljakarta/mail/URLName;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

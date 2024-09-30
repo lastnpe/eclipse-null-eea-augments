@@ -1,0 +1,11 @@
+class jakarta/mail/event/TransportAdapter
+
+messageDelivered
+ (Ljakarta/mail/event/TransportEvent;)V
+ (L1jakarta/mail/event/TransportEvent;)V # @Inherited(jakarta.mail.event.TransportListener)
+messageNotDelivered
+ (Ljakarta/mail/event/TransportEvent;)V
+ (L1jakarta/mail/event/TransportEvent;)V # @Inherited(jakarta.mail.event.TransportListener)
+messagePartiallyDelivered
+ (Ljakarta/mail/event/TransportEvent;)V
+ (L1jakarta/mail/event/TransportEvent;)V # @Inherited(jakarta.mail.event.TransportListener)
