@@ -5,7 +5,7 @@ addMarker
  (Lorg/slf4j/Marker;)V
 getArgumentArray
  ()[Ljava/lang/Object;
- ()[Ljava/lang/Object;
+ ()[0Ljava/lang/Object; # @Inherited(org.slf4j.event.LoggingEvent)
 getArguments
  ()Ljava/util/List<Ljava/lang/Object;>;
  ()Ljava/util/List<Ljava/lang/Object;>;
@@ -20,7 +20,7 @@ getLogger
  ()Lorg/slf4j/helpers/SubstituteLogger;
 getLoggerName
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.slf4j.event.LoggingEvent)
 getMarkers
  ()Ljava/util/List<Lorg/slf4j/Marker;>;
  ()Ljava/util/List<Lorg/slf4j/Marker;>;

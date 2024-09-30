@@ -5,22 +5,22 @@ class org/slf4j/helpers/SubstituteLogger
  (Ljava/lang/String;Ljava/util/Queue<Lorg/slf4j/event/SubstituteLoggingEvent;>;Z)V
 atDebug
  ()Lorg/slf4j/spi/LoggingEventBuilder;
- ()Lorg/slf4j/spi/LoggingEventBuilder;
+ ()L1org/slf4j/spi/LoggingEventBuilder; # @Inherited(org.slf4j.Logger)
 atError
  ()Lorg/slf4j/spi/LoggingEventBuilder;
- ()Lorg/slf4j/spi/LoggingEventBuilder;
+ ()L1org/slf4j/spi/LoggingEventBuilder; # @Inherited(org.slf4j.Logger)
 atInfo
  ()Lorg/slf4j/spi/LoggingEventBuilder;
- ()Lorg/slf4j/spi/LoggingEventBuilder;
+ ()L1org/slf4j/spi/LoggingEventBuilder; # @Inherited(org.slf4j.Logger)
 atLevel
  (Lorg/slf4j/event/Level;)Lorg/slf4j/spi/LoggingEventBuilder;
- (Lorg/slf4j/event/Level;)Lorg/slf4j/spi/LoggingEventBuilder;
+ (L1org/slf4j/event/Level;)L1org/slf4j/spi/LoggingEventBuilder; # @Inherited(org.slf4j.Logger)
 atTrace
  ()Lorg/slf4j/spi/LoggingEventBuilder;
- ()Lorg/slf4j/spi/LoggingEventBuilder;
+ ()L1org/slf4j/spi/LoggingEventBuilder; # @Inherited(org.slf4j.Logger)
 atWarn
  ()Lorg/slf4j/spi/LoggingEventBuilder;
- ()Lorg/slf4j/spi/LoggingEventBuilder;
+ ()L1org/slf4j/spi/LoggingEventBuilder; # @Inherited(org.slf4j.Logger)
 debug
  (Ljava/lang/String;)V
  (Ljava/lang/String;)V
@@ -143,7 +143,7 @@ log
  (Lorg/slf4j/event/LoggingEvent;)V
 makeLoggingEventBuilder
  (Lorg/slf4j/event/Level;)Lorg/slf4j/spi/LoggingEventBuilder;
- (Lorg/slf4j/event/Level;)Lorg/slf4j/spi/LoggingEventBuilder;
+ (L1org/slf4j/event/Level;)L1org/slf4j/spi/LoggingEventBuilder; # @Inherited(org.slf4j.Logger)
 setDelegate
  (Lorg/slf4j/Logger;)V
  (Lorg/slf4j/Logger;)V

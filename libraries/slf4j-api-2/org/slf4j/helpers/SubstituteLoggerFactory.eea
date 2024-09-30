@@ -5,7 +5,7 @@ getEventQueue
  ()Ljava/util/concurrent/LinkedBlockingQueue<Lorg/slf4j/event/SubstituteLoggingEvent;>;
 getLogger
  (Ljava/lang/String;)Lorg/slf4j/Logger;
- (Ljava/lang/String;)Lorg/slf4j/Logger;
+ (L0java/lang/String;)L1org/slf4j/Logger; # @Inherited(org.slf4j.ILoggerFactory)
 getLoggerNames
  ()Ljava/util/List<Ljava/lang/String;>;
  ()Ljava/util/List<Ljava/lang/String;>;
