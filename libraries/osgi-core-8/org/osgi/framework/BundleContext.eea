@@ -20,7 +20,7 @@ getAllServiceReferences
  (Ljava/lang/String;Ljava/lang/String;)[Lorg/osgi/framework/ServiceReference<*>;
 getBundle
  ()Lorg/osgi/framework/Bundle;
- ()Lorg/osgi/framework/Bundle;
+ ()L1org/osgi/framework/Bundle; # @Inherited(org.osgi.framework.BundleReference)
 getBundle
  (J)Lorg/osgi/framework/Bundle;
  (J)Lorg/osgi/framework/Bundle;
@@ -83,4 +83,4 @@ removeServiceListener
  (L1org/osgi/framework/ServiceListener;)V
 ungetService
  (Lorg/osgi/framework/ServiceReference<*>;)Z
- (Lorg/osgi/framework/ServiceReference<*>;)Z
+ (L1org/osgi/framework/ServiceReference<*>;)Z

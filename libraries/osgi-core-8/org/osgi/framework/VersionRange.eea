@@ -2,32 +2,32 @@ class org/osgi/framework/VersionRange
 
 valueOf
  (Ljava/lang/String;)Lorg/osgi/framework/VersionRange;
- (Ljava/lang/String;)Lorg/osgi/framework/VersionRange;
+ (L1java/lang/String;)L1org/osgi/framework/VersionRange;
 
 <init>
  (CLorg/osgi/framework/Version;Lorg/osgi/framework/Version;C)V
- (CLorg/osgi/framework/Version;Lorg/osgi/framework/Version;C)V
+ (CL1org/osgi/framework/Version;L0org/osgi/framework/Version;C)V
 <init>
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V
 equals
  (Ljava/lang/Object;)Z
  (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
 getLeft
  ()Lorg/osgi/framework/Version;
- ()Lorg/osgi/framework/Version;
+ ()L1org/osgi/framework/Version;
 getRight
  ()Lorg/osgi/framework/Version;
- ()Lorg/osgi/framework/Version;
+ ()L0org/osgi/framework/Version;
 includes
  (Lorg/osgi/framework/Version;)Z
- (Lorg/osgi/framework/Version;)Z
+ (L1org/osgi/framework/Version;)Z
 intersection
  ([Lorg/osgi/framework/VersionRange;)Lorg/osgi/framework/VersionRange;
- ([Lorg/osgi/framework/VersionRange;)Lorg/osgi/framework/VersionRange;
+ ([Lorg/osgi/framework/VersionRange;)L1org/osgi/framework/VersionRange;
 toFilterString
  (Ljava/lang/String;)Ljava/lang/String;
- (Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;)L1java/lang/String;
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)

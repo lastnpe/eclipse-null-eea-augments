@@ -9,136 +9,136 @@ TEMPDIR
 
 addFilter
  (Ljava/lang/String;Ljava/lang/Class<+Ljavax/servlet/Filter;>;)Ljavax/servlet/FilterRegistration$Dynamic;
- (Ljava/lang/String;Ljava/lang/Class<+Ljavax/servlet/Filter;>;)Ljavax/servlet/FilterRegistration$Dynamic;
+ (L1java/lang/String;L1java/lang/Class<+L1javax/servlet/Filter;>;)L1javax/servlet/FilterRegistration$Dynamic;
 addFilter
  (Ljava/lang/String;Ljava/lang/String;)Ljavax/servlet/FilterRegistration$Dynamic;
- (Ljava/lang/String;Ljava/lang/String;)Ljavax/servlet/FilterRegistration$Dynamic;
+ (L1java/lang/String;L1java/lang/String;)L1javax/servlet/FilterRegistration$Dynamic;
 addFilter
  (Ljava/lang/String;Ljavax/servlet/Filter;)Ljavax/servlet/FilterRegistration$Dynamic;
- (Ljava/lang/String;Ljavax/servlet/Filter;)Ljavax/servlet/FilterRegistration$Dynamic;
+ (L1java/lang/String;L1javax/servlet/Filter;)L1javax/servlet/FilterRegistration$Dynamic;
 addJspFile
  (Ljava/lang/String;Ljava/lang/String;)Ljavax/servlet/ServletRegistration$Dynamic;
- (Ljava/lang/String;Ljava/lang/String;)Ljavax/servlet/ServletRegistration$Dynamic;
+ (L1java/lang/String;L1java/lang/String;)L1javax/servlet/ServletRegistration$Dynamic;
 addListener
  (Ljava/lang/Class<+Ljava/util/EventListener;>;)V
- (Ljava/lang/Class<+Ljava/util/EventListener;>;)V
+ (L1java/lang/Class<+Ljava/util/EventListener;>;)V
 addListener
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V
 addListener
  <T::Ljava/util/EventListener;>(TT;)V
- <1T::Ljava/util/EventListener;>(TT;)V
+ <T::L1java/util/EventListener;>(TT;)V
 addServlet
  (Ljava/lang/String;Ljava/lang/Class<+Ljavax/servlet/Servlet;>;)Ljavax/servlet/ServletRegistration$Dynamic;
- (Ljava/lang/String;Ljava/lang/Class<+Ljavax/servlet/Servlet;>;)Ljavax/servlet/ServletRegistration$Dynamic;
+ (L1java/lang/String;L1java/lang/Class<+L1javax/servlet/Servlet;>;)L1javax/servlet/ServletRegistration$Dynamic;
 addServlet
  (Ljava/lang/String;Ljava/lang/String;)Ljavax/servlet/ServletRegistration$Dynamic;
- (Ljava/lang/String;Ljava/lang/String;)Ljavax/servlet/ServletRegistration$Dynamic;
+ (L1java/lang/String;L1java/lang/String;)L1javax/servlet/ServletRegistration$Dynamic;
 addServlet
  (Ljava/lang/String;Ljavax/servlet/Servlet;)Ljavax/servlet/ServletRegistration$Dynamic;
- (Ljava/lang/String;Ljavax/servlet/Servlet;)Ljavax/servlet/ServletRegistration$Dynamic;
+ (L1java/lang/String;L1javax/servlet/Servlet;)L1javax/servlet/ServletRegistration$Dynamic;
 createFilter
  <T::Ljavax/servlet/Filter;>(Ljava/lang/Class<TT;>;)TT;
- <T::Ljavax/servlet/Filter;>(Ljava/lang/Class<TT;>;)TT;
+ <T::L1javax/servlet/Filter;>(L1java/lang/Class<TT;>;)TT;
 createListener
  <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)TT;
- <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)TT;
+ <T::L1java/util/EventListener;>(L1java/lang/Class<TT;>;)TT;
 createServlet
  <T::Ljavax/servlet/Servlet;>(Ljava/lang/Class<TT;>;)TT;
- <T::Ljavax/servlet/Servlet;>(Ljava/lang/Class<TT;>;)TT;
+ <T::L1javax/servlet/Servlet;>(L1java/lang/Class<TT;>;)TT;
 declareRoles
  ([Ljava/lang/String;)V
- ([Ljava/lang/String;)V
+ ([1L1java/lang/String;)V
 getAttribute
  (Ljava/lang/String;)Ljava/lang/Object;
- (Ljava/lang/String;)Ljava/lang/Object;
+ (L1java/lang/String;)L0java/lang/Object;
 getAttributeNames
  ()Ljava/util/Enumeration<Ljava/lang/String;>;
- ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()L1java/util/Enumeration<L1java/lang/String;>;
 getClassLoader
  ()Ljava/lang/ClassLoader;
- ()Ljava/lang/ClassLoader;
+ ()L1java/lang/ClassLoader;
 getContext
  (Ljava/lang/String;)Ljavax/servlet/ServletContext;
- (Ljava/lang/String;)Ljavax/servlet/ServletContext;
+ (L1java/lang/String;)L0javax/servlet/ServletContext;
 getContextPath
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String;
 getDefaultSessionTrackingModes
  ()Ljava/util/Set<Ljavax/servlet/SessionTrackingMode;>;
- ()Ljava/util/Set<Ljavax/servlet/SessionTrackingMode;>;
+ ()L1java/util/Set<L1javax/servlet/SessionTrackingMode;>;
 getEffectiveSessionTrackingModes
  ()Ljava/util/Set<Ljavax/servlet/SessionTrackingMode;>;
- ()Ljava/util/Set<Ljavax/servlet/SessionTrackingMode;>;
+ ()L1java/util/Set<L1javax/servlet/SessionTrackingMode;>;
 getFilterRegistration
  (Ljava/lang/String;)Ljavax/servlet/FilterRegistration;
- (Ljava/lang/String;)Ljavax/servlet/FilterRegistration;
+ (L1java/lang/String;)L0javax/servlet/FilterRegistration;
 getFilterRegistrations
  ()Ljava/util/Map<Ljava/lang/String;+Ljavax/servlet/FilterRegistration;>;
- ()Ljava/util/Map<Ljava/lang/String;+Ljavax/servlet/FilterRegistration;>;
+ ()L1java/util/Map<L1java/lang/String;+L1javax/servlet/FilterRegistration;>;
 getInitParameter
  (Ljava/lang/String;)Ljava/lang/String;
- (Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;)L0java/lang/String;
 getInitParameterNames
  ()Ljava/util/Enumeration<Ljava/lang/String;>;
- ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()L1java/util/Enumeration<L1java/lang/String;>;
 getJspConfigDescriptor
  ()Ljavax/servlet/descriptor/JspConfigDescriptor;
- ()Ljavax/servlet/descriptor/JspConfigDescriptor;
+ ()L1javax/servlet/descriptor/JspConfigDescriptor;
 getMimeType
  (Ljava/lang/String;)Ljava/lang/String;
- (Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;)L0java/lang/String;
 getNamedDispatcher
  (Ljava/lang/String;)Ljavax/servlet/RequestDispatcher;
- (Ljava/lang/String;)Ljavax/servlet/RequestDispatcher;
+ (L1java/lang/String;)L0javax/servlet/RequestDispatcher;
 getRealPath
  (Ljava/lang/String;)Ljava/lang/String;
- (Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;)Ljava/lang/String;
 getRequestCharacterEncoding
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String;
 getRequestDispatcher
  (Ljava/lang/String;)Ljavax/servlet/RequestDispatcher;
- (Ljava/lang/String;)Ljavax/servlet/RequestDispatcher;
+ (L1java/lang/String;)L0javax/servlet/RequestDispatcher;
 getResource
  (Ljava/lang/String;)Ljava/net/URL;
- (Ljava/lang/String;)Ljava/net/URL;
+ (L1java/lang/String;)L0java/net/URL;
 getResourceAsStream
  (Ljava/lang/String;)Ljava/io/InputStream;
- (Ljava/lang/String;)Ljava/io/InputStream;
+ (L1java/lang/String;)L0java/io/InputStream;
 getResourcePaths
  (Ljava/lang/String;)Ljava/util/Set<Ljava/lang/String;>;
- (Ljava/lang/String;)Ljava/util/Set<Ljava/lang/String;>;
+ (L1java/lang/String;)Ljava/util/Set<L1java/lang/String;>;
 getResponseCharacterEncoding
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String;
 getServerInfo
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String;
 getServlet
  (Ljava/lang/String;)Ljavax/servlet/Servlet;
- (Ljava/lang/String;)Ljavax/servlet/Servlet;
+ (L1java/lang/String;)L0javax/servlet/Servlet;
 getServletContextName
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String;
 getServletNames
  ()Ljava/util/Enumeration<Ljava/lang/String;>;
- ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()L1java/util/Enumeration<L1java/lang/String;>;
 getServletRegistration
  (Ljava/lang/String;)Ljavax/servlet/ServletRegistration;
- (Ljava/lang/String;)Ljavax/servlet/ServletRegistration;
+ (L1java/lang/String;)Ljavax/servlet/ServletRegistration;
 getServletRegistrations
  ()Ljava/util/Map<Ljava/lang/String;+Ljavax/servlet/ServletRegistration;>;
- ()Ljava/util/Map<Ljava/lang/String;+Ljavax/servlet/ServletRegistration;>;
+ ()L1java/util/Map<L1java/lang/String;+L1javax/servlet/ServletRegistration;>;
 getServlets
  ()Ljava/util/Enumeration<Ljavax/servlet/Servlet;>;
- ()Ljava/util/Enumeration<Ljavax/servlet/Servlet;>;
+ ()L1java/util/Enumeration<L1javax/servlet/Servlet;>;
 getSessionCookieConfig
  ()Ljavax/servlet/SessionCookieConfig;
- ()Ljavax/servlet/SessionCookieConfig;
+ ()L1javax/servlet/SessionCookieConfig;
 getVirtualServerName
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String;
 log
  (Ljava/lang/Exception;Ljava/lang/String;)V
  (Ljava/lang/Exception;Ljava/lang/String;)V
@@ -150,13 +150,13 @@ log
  (Ljava/lang/String;Ljava/lang/Throwable;)V
 removeAttribute
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V
 setAttribute
  (Ljava/lang/String;Ljava/lang/Object;)V
- (Ljava/lang/String;Ljava/lang/Object;)V
+ (L1java/lang/String;L1java/lang/Object;)V
 setInitParameter
  (Ljava/lang/String;Ljava/lang/String;)Z
- (Ljava/lang/String;Ljava/lang/String;)Z
+ (L1java/lang/String;L1java/lang/String;)Z
 setRequestCharacterEncoding
  (Ljava/lang/String;)V
  (Ljava/lang/String;)V
@@ -165,4 +165,4 @@ setResponseCharacterEncoding
  (Ljava/lang/String;)V
 setSessionTrackingModes
  (Ljava/util/Set<Ljavax/servlet/SessionTrackingMode;>;)V
- (Ljava/util/Set<Ljavax/servlet/SessionTrackingMode;>;)V
+ (L1java/util/Set<L1javax/servlet/SessionTrackingMode;>;)V
