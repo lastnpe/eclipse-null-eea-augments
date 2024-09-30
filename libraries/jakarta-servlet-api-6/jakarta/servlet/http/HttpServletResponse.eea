@@ -1,4 +1,5 @@
 class jakarta/servlet/http/HttpServletResponse
+
 addCookie
  (Ljakarta/servlet/http/Cookie;)V
  (L1jakarta/servlet/http/Cookie;)V
@@ -26,12 +27,27 @@ getHeader
 getHeaderNames
  ()Ljava/util/Collection<Ljava/lang/String;>;
  ()L1java/util/Collection<Ljava/lang/String;>;
+getHeaders
+ (Ljava/lang/String;)Ljava/util/Collection<Ljava/lang/String;>;
+ (Ljava/lang/String;)Ljava/util/Collection<Ljava/lang/String;>;
+getTrailerFields
+ ()Ljava/util/function/Supplier<Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;>;
+ ()Ljava/util/function/Supplier<Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;>;
 sendError
  (ILjava/lang/String;)V
  (IL0java/lang/String;)V
 sendRedirect
  (Ljava/lang/String;)V
  (L1java/lang/String;)V
+sendRedirect
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+sendRedirect
+ (Ljava/lang/String;IZ)V
+ (Ljava/lang/String;IZ)V
+sendRedirect
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
 setDateHeader
  (Ljava/lang/String;J)V
  (L1java/lang/String;J)V
@@ -41,3 +57,6 @@ setHeader
 setIntHeader
  (Ljava/lang/String;I)V
  (L1java/lang/String;I)V
+setTrailerFields
+ (Ljava/util/function/Supplier<Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;>;)V
+ (Ljava/util/function/Supplier<Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;>;)V

@@ -1,4 +1,5 @@
 class jakarta/servlet/http/HttpServletRequest
+
 BASIC_AUTH
  Ljava/lang/String;
  L1java/lang/String;
@@ -11,6 +12,7 @@ DIGEST_AUTH
 FORM_AUTH
  Ljava/lang/String;
  L1java/lang/String;
+
 authenticate
  (Ljakarta/servlet/http/HttpServletResponse;)Z
  (L1jakarta/servlet/http/HttpServletResponse;)Z
@@ -38,6 +40,9 @@ getHeaderNames
 getHeaders
  (Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
  (L1java/lang/String;)L0java/util/Enumeration<Ljava/lang/String;>;
+getHttpServletMapping
+ ()Ljakarta/servlet/http/HttpServletMapping;
+ ()Ljakarta/servlet/http/HttpServletMapping;
 getIntHeader
  (Ljava/lang/String;)I
  (L1java/lang/String;)I
@@ -80,6 +85,9 @@ getSession
 getSession
  (Z)Ljakarta/servlet/http/HttpSession;
  (Z)L0jakarta/servlet/http/HttpSession;
+getTrailerFields
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
 getUserPrincipal
  ()Ljava/security/Principal;
  ()L0java/security/Principal;
@@ -89,6 +97,9 @@ isUserInRole
 login
  (Ljava/lang/String;Ljava/lang/String;)V
  (L1java/lang/String;L1java/lang/String;)V
+newPushBuilder
+ ()Ljakarta/servlet/http/PushBuilder;
+ ()Ljakarta/servlet/http/PushBuilder;
 upgrade
  <T::Ljakarta/servlet/http/HttpUpgradeHandler;>(Ljava/lang/Class<TT;>;)TT;
  <T::Ljakarta/servlet/http/HttpUpgradeHandler;>(L1java/lang/Class<TT;>;)T1T;

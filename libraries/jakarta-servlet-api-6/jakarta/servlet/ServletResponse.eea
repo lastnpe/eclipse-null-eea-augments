@@ -1,4 +1,5 @@
 class jakarta/servlet/ServletResponse
+
 getCharacterEncoding
  ()Ljava/lang/String;
  ()L0java/lang/String;
@@ -17,6 +18,9 @@ getWriter
 setCharacterEncoding
  (Ljava/lang/String;)V
  (L0java/lang/String;)V
+setCharacterEncoding
+ (Ljava/nio/charset/Charset;)V
+ (Ljava/nio/charset/Charset;)V
 setContentType
  (Ljava/lang/String;)V
  (L0java/lang/String;)V

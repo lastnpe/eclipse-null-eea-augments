@@ -1,0 +1,50 @@
+class jakarta/servlet/http/Cookie
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getAttributes
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+getComment
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDomain
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPath
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getValue
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setAttribute
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setComment
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setDomain
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPath
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setValue
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

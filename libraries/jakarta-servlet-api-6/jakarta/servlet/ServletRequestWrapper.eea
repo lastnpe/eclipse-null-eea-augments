@@ -1,5 +1,8 @@
-class jakarta/servlet/ServletRequest
+class jakarta/servlet/ServletRequestWrapper
 
+<init>
+ (Ljakarta/servlet/ServletRequest;)V
+ (Ljakarta/servlet/ServletRequest;)V
 getAsyncContext
  ()Ljakarta/servlet/AsyncContext;
  ()Ljakarta/servlet/AsyncContext;
@@ -11,16 +14,16 @@ getAttributeNames
  ()Ljava/util/Enumeration<Ljava/lang/String;>;
 getCharacterEncoding
  ()Ljava/lang/String;
- ()L0java/lang/String;
+ ()L0java/lang/String; # @Inherited(jakarta.servlet.ServletRequest)
 getContentType
  ()Ljava/lang/String;
- ()L0java/lang/String;
+ ()L0java/lang/String; # @Inherited(jakarta.servlet.ServletRequest)
 getDispatcherType
  ()Ljakarta/servlet/DispatcherType;
  ()Ljakarta/servlet/DispatcherType;
 getInputStream
  ()Ljakarta/servlet/ServletInputStream;
- ()L1jakarta/servlet/ServletInputStream;
+ ()L1jakarta/servlet/ServletInputStream; # @Inherited(jakarta.servlet.ServletRequest)
 getLocalAddr
  ()Ljava/lang/String;
  ()Ljava/lang/String;
@@ -35,16 +38,16 @@ getLocales
  ()Ljava/util/Enumeration<Ljava/util/Locale;>;
 getParameter
  (Ljava/lang/String;)Ljava/lang/String;
- (L1java/lang/String;)L0java/lang/String;
+ (L1java/lang/String;)L0java/lang/String; # @Inherited(jakarta.servlet.ServletRequest)
 getParameterMap
  ()Ljava/util/Map<Ljava/lang/String;[Ljava/lang/String;>;
- ()L1java/util/Map<Ljava/lang/String;[Ljava/lang/String;>;
+ ()L1java/util/Map<Ljava/lang/String;[Ljava/lang/String;>; # @Inherited(jakarta.servlet.ServletRequest)
 getParameterNames
  ()Ljava/util/Enumeration<Ljava/lang/String;>;
- ()L1java/util/Enumeration<Ljava/lang/String;>;
+ ()L1java/util/Enumeration<Ljava/lang/String;>; # @Inherited(jakarta.servlet.ServletRequest)
 getParameterValues
  (Ljava/lang/String;)[Ljava/lang/String;
- (L1java/lang/String;)[0L1java/lang/String;
+ (L1java/lang/String;)[0L1java/lang/String; # @Inherited(jakarta.servlet.ServletRequest)
 getProtocol
  ()Ljava/lang/String;
  ()Ljava/lang/String;
@@ -60,6 +63,9 @@ getRemoteAddr
 getRemoteHost
  ()Ljava/lang/String;
  ()Ljava/lang/String;
+getRequest
+ ()Ljakarta/servlet/ServletRequest;
+ ()Ljakarta/servlet/ServletRequest;
 getRequestDispatcher
  (Ljava/lang/String;)Ljakarta/servlet/RequestDispatcher;
  (Ljava/lang/String;)Ljakarta/servlet/RequestDispatcher;
@@ -78,6 +84,12 @@ getServletConnection
 getServletContext
  ()Ljakarta/servlet/ServletContext;
  ()Ljakarta/servlet/ServletContext;
+isWrapperFor
+ (Ljakarta/servlet/ServletRequest;)Z
+ (Ljakarta/servlet/ServletRequest;)Z
+isWrapperFor
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
 removeAttribute
  (Ljava/lang/String;)V
  (Ljava/lang/String;)V
@@ -86,10 +98,13 @@ setAttribute
  (Ljava/lang/String;Ljava/lang/Object;)V
 setCharacterEncoding
  (Ljava/lang/String;)V
- (L0java/lang/String;)V
+ (L0java/lang/String;)V # @Inherited(jakarta.servlet.ServletRequest)
 setCharacterEncoding
  (Ljava/nio/charset/Charset;)V
  (Ljava/nio/charset/Charset;)V
+setRequest
+ (Ljakarta/servlet/ServletRequest;)V
+ (Ljakarta/servlet/ServletRequest;)V
 startAsync
  ()Ljakarta/servlet/AsyncContext;
  ()Ljakarta/servlet/AsyncContext;

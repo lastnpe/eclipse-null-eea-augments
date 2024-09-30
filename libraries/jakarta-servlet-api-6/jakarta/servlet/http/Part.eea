@@ -1,0 +1,26 @@
+class jakarta/servlet/http/Part
+
+getContentType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getHeader
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getHeaderNames
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+getHeaders
+ (Ljava/lang/String;)Ljava/util/Collection<Ljava/lang/String;>;
+ (Ljava/lang/String;)Ljava/util/Collection<Ljava/lang/String;>;
+getInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSubmittedFileName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+write
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

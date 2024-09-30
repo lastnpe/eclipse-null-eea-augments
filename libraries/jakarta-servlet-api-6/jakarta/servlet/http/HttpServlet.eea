@@ -1,4 +1,9 @@
 class jakarta/servlet/http/HttpServlet
+
+LEGACY_DO_HEAD
+ Ljava/lang/String;
+ L1java/lang/String;
+
 doDelete
  (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;)V
  (L1jakarta/servlet/http/HttpServletRequest;L1jakarta/servlet/http/HttpServletResponse;)V
@@ -11,6 +16,9 @@ doHead
 doOptions
  (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;)V
  (L1jakarta/servlet/http/HttpServletRequest;L1jakarta/servlet/http/HttpServletResponse;)V
+doPatch
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;)V
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;)V
 doPost
  (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;)V
  (L1jakarta/servlet/http/HttpServletRequest;L1jakarta/servlet/http/HttpServletResponse;)V
@@ -25,10 +33,13 @@ getLastModified
  (L1jakarta/servlet/http/HttpServletRequest;)J
 init
  (Ljakarta/servlet/ServletConfig;)V
- (L0jakarta/servlet/ServletConfig;)V
+ (L0jakarta/servlet/ServletConfig;)V # @Inherited(jakarta.servlet.GenericServlet)
+isSensitiveHeader
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
 service
  (Ljakarta/servlet/ServletRequest;Ljakarta/servlet/ServletResponse;)V
- (L1jakarta/servlet/ServletRequest;L1jakarta/servlet/ServletResponse;)V
+ (L1jakarta/servlet/ServletRequest;L1jakarta/servlet/ServletResponse;)V # @Inherited(jakarta.servlet.GenericServlet)
 service
  (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;)V
  (L1jakarta/servlet/http/HttpServletRequest;L1jakarta/servlet/http/HttpServletResponse;)V
