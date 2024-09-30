@@ -15,7 +15,7 @@ XSD_SUFFIX
  (Lorg/xml/sax/EntityResolver;Lorg/xml/sax/EntityResolver;)V
 resolveEntity
  (Ljava/lang/String;Ljava/lang/String;)Lorg/xml/sax/InputSource;
- (Ljava/lang/String;Ljava/lang/String;)L0org/xml/sax/InputSource;
+ (Ljava/lang/String;Ljava/lang/String;)L0org/xml/sax/InputSource; # @Overrides(org.xml.sax.EntityResolver)
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)

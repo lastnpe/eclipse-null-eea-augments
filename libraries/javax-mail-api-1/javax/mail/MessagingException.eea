@@ -8,7 +8,7 @@ class javax/mail/MessagingException
  (Ljava/lang/String;Ljava/lang/Exception;)V
 getCause
  ()Ljava/lang/Throwable;
- ()Ljava/lang/Throwable;
+ ()L0java/lang/Throwable; # @Inherited(java.lang.Throwable)
 getNextException
  ()Ljava/lang/Exception;
  ()Ljava/lang/Exception;
@@ -17,4 +17,4 @@ setNextException
  (Ljava/lang/Exception;)Z
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String; # @Inherited(java.lang.Object)
+ ()L1java/lang/String; # @Inherited(java.lang.Throwable)

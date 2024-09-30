@@ -18,10 +18,10 @@ loadBytesForClass
  (Ljava/lang/String;)[0B
 loadClass
  (Ljava/lang/String;)Ljava/lang/Class<*>;
- (Ljava/lang/String;)Ljava/lang/Class<*>;
+ (L1java/lang/String;)L1java/lang/Class<*>; # @Inherited(java.lang.ClassLoader)
 loadClass
  (Ljava/lang/String;Z)Ljava/lang/Class<*>;
- (Ljava/lang/String;Z)Ljava/lang/Class<*>;
+ (L1java/lang/String;Z)L1java/lang/Class<*>; # @Inherited(java.lang.ClassLoader)
 loadClassForOverriding
  (Ljava/lang/String;)Ljava/lang/Class<*>;
  (Ljava/lang/String;)L0java/lang/Class<*>;

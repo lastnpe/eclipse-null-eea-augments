@@ -21,22 +21,22 @@ putFields
  ()Ljava/io/ObjectOutputStream$PutField;
 write
  ([B)V
- ([B)V
+ ([1B)V # @Inherited(java.io.ObjectOutputStream)
 write
  ([BII)V
- ([BII)V
+ ([1BII)V # @Inherited(java.io.ObjectOutputStream)
 writeBytes
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(java.io.ObjectOutputStream)
 writeChars
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(java.io.ObjectOutputStream)
 writeObjectOverride
  (Ljava/lang/Object;)V
  (Ljava/lang/Object;)V
 writeUTF
  (Ljava/lang/String;)V
- (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(java.io.ObjectOutputStream)
 writeUnshared
  (Ljava/lang/Object;)V
  (Ljava/lang/Object;)V

@@ -25,7 +25,7 @@ contains
  (Ljava/lang/Object;)Z
 containsAll
  (Ljava/util/Collection<*>;)Z
- (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.Set)
 equals
  (Ljava/lang/Object;)Z
  (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
@@ -37,16 +37,16 @@ remove
  (Ljava/lang/Object;)Z
 removeAll
  (Ljava/util/Collection<*>;)Z
- (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.Set)
 retainAll
  (Ljava/util/Collection<*>;)Z
- (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.Set)
 toArray
  ()[Ljava/lang/Object;
- ()[Ljava/lang/Object;
+ ()[1Ljava/lang/Object; # @Inherited(java.util.Set)
 toArray
  <T:Ljava/lang/Object;>([TT;)[TT;
- <T:Ljava/lang/Object;>([TT;)[TT;
+ <T:Ljava/lang/Object;>([1TT;)[1TT; # @Inherited(java.util.Set)
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)

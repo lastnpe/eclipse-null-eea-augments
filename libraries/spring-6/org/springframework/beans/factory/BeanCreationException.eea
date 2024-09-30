@@ -35,10 +35,10 @@ getResourceDescription
  ()L0java/lang/String;
 printStackTrace
  (Ljava/io/PrintStream;)V
- (Ljava/io/PrintStream;)V
+ (L1java/io/PrintStream;)V # @Inherited(java.lang.Throwable)
 printStackTrace
  (Ljava/io/PrintWriter;)V
- (Ljava/io/PrintWriter;)V
+ (L1java/io/PrintWriter;)V # @Inherited(java.lang.Throwable)
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String; # @Inherited(java.lang.Object)
+ ()L1java/lang/String; # @Inherited(java.lang.Throwable)

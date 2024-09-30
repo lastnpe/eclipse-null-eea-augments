@@ -5,10 +5,10 @@ awaitTermination
  (Ljava/time/Duration;)Z
 invokeAll
  <T:Ljava/lang/Object;>(Ljava/util/Collection<+Ljava/util/concurrent/Callable<TT;>;>;)Ljava/util/List<Ljava/util/concurrent/Future<TT;>;>;
- <T:Ljava/lang/Object;>(Ljava/util/Collection<+Ljava/util/concurrent/Callable<TT;>;>;)Ljava/util/List<Ljava/util/concurrent/Future<TT;>;>;
+ <T:Ljava/lang/Object;>(L1java/util/Collection<+Ljava/util/concurrent/Callable<TT;>;>;)L1java/util/List<L1java/util/concurrent/Future<TT;>;>; # @Inherited(java.util.concurrent.ExecutorService)
 invokeAll
  <T:Ljava/lang/Object;>(Ljava/util/Collection<+Ljava/util/concurrent/Callable<TT;>;>;JLjava/util/concurrent/TimeUnit;)Ljava/util/List<Ljava/util/concurrent/Future<TT;>;>;
- <T:Ljava/lang/Object;>(Ljava/util/Collection<+Ljava/util/concurrent/Callable<TT;>;>;JLjava/util/concurrent/TimeUnit;)Ljava/util/List<Ljava/util/concurrent/Future<TT;>;>;
+ <T:Ljava/lang/Object;>(L1java/util/Collection<+Ljava/util/concurrent/Callable<TT;>;>;JL1java/util/concurrent/TimeUnit;)L1java/util/List<L1java/util/concurrent/Future<TT;>;>; # @Inherited(java.util.concurrent.ExecutorService)
 invokeAll
  <T:Ljava/lang/Object;>(Ljava/util/Collection<+Ljava/util/concurrent/Callable<TT;>;>;Ljava/time/Duration;)Ljava/util/List<Ljava/util/concurrent/Future<TT;>;>;
  <T:Ljava/lang/Object;>(Ljava/util/Collection<+Ljava/util/concurrent/Callable<TT;>;>;Ljava/time/Duration;)Ljava/util/List<Ljava/util/concurrent/Future<TT;>;>;

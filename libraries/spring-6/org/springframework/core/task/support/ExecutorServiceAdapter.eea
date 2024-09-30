@@ -5,10 +5,10 @@ class org/springframework/core/task/support/ExecutorServiceAdapter
  (Lorg/springframework/core/task/TaskExecutor;)V
 awaitTermination
  (JLjava/util/concurrent/TimeUnit;)Z
- (JLjava/util/concurrent/TimeUnit;)Z
+ (JL1java/util/concurrent/TimeUnit;)Z # @Inherited(java.util.concurrent.ExecutorService)
 execute
  (Ljava/lang/Runnable;)V
- (Ljava/lang/Runnable;)V
+ (L1java/lang/Runnable;)V # @Inherited(java.util.concurrent.Executor)
 shutdownNow
  ()Ljava/util/List<Ljava/lang/Runnable;>;
- ()Ljava/util/List<Ljava/lang/Runnable;>;
+ ()L1java/util/List<L1java/lang/Runnable;>; # @Inherited(java.util.concurrent.ExecutorService)

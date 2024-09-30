@@ -11,7 +11,7 @@ getAnnotation
  <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)T0A;
 getAnnotations
  ()[Ljava/lang/annotation/Annotation;
- ()[Ljava/lang/annotation/Annotation;
+ ()[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.AnnotatedElement)
 getAnnotationsByType
  <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)[TA;
  <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)[TA;
@@ -20,7 +20,7 @@ getDeclaredAnnotation
  <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)T0A;
 getDeclaredAnnotations
  ()[Ljava/lang/annotation/Annotation;
- ()[Ljava/lang/annotation/Annotation;
+ ()[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.AnnotatedElement)
 getDeclaredAnnotationsByType
  <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)[TA;
  <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)[TA;
@@ -32,7 +32,7 @@ getType
  ()Lcom/google/common/reflect/TypeToken<*>;
 isAnnotationPresent
  (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
- (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+ (L1java/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z # @Inherited(java.lang.reflect.AnnotatedElement)
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)

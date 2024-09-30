@@ -8,34 +8,34 @@ super java/util/Map
 
 containsKey
  (Ljava/lang/Object;)Z
- (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.Map)
 containsValue
  (Ljava/lang/Object;)Z
- (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.Map)
 delegate
  ()Ljava/util/Map<TK;TV;>;
  ()Ljava/util/Map<TK;TV;>;
 entrySet
  ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
- ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()L1java/util/Set<L1java/util/Map$Entry<TK;TV;>;>; # @Inherited(java.util.Map)
 equals
  (Ljava/lang/Object;)Z
  (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
 get
  (Ljava/lang/Object;)TV;
- (Ljava/lang/Object;)T0V;
+ (Ljava/lang/Object;)T0V; # @Inherited(java.util.Map)
 keySet
  ()Ljava/util/Set<TK;>;
- ()Ljava/util/Set<TK;>;
+ ()L1java/util/Set<TK;>; # @Inherited(java.util.Map)
 put
  (TK;TV;)TV;
- (TK;TV;)T0V;
+ (TK;TV;)T0V; # @Inherited(java.util.Map)
 putAll
  (Ljava/util/Map<+TK;+TV;>;)V
- (Ljava/util/Map<+TK;+TV;>;)V
+ (L1java/util/Map<+TK;+TV;>;)V # @Inherited(java.util.Map)
 remove
  (Ljava/lang/Object;)TV;
- (Ljava/lang/Object;)T0V;
+ (Ljava/lang/Object;)T0V; # @Overrides(java.util.Map)
 standardContainsKey
  (Ljava/lang/Object;)Z
  (Ljava/lang/Object;)Z
@@ -56,4 +56,4 @@ standardToString
  ()Ljava/lang/String;
 values
  ()Ljava/util/Collection<TV;>;
- ()Ljava/util/Collection<TV;>;
+ ()L1java/util/Collection<TV;>; # @Inherited(java.util.Map)

@@ -20,10 +20,10 @@ computeIfAbsent
  (Ljava/lang/String;Ljava/util/function/Function<-Ljava/lang/String;+TV;>;)T0V;
 containsKey
  (Ljava/lang/Object;)Z
- (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.Map)
 containsValue
  (Ljava/lang/Object;)Z
- (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.Map)
 convertKey
  (Ljava/lang/String;)Ljava/lang/String;
  (Ljava/lang/String;)Ljava/lang/String;
@@ -38,7 +38,7 @@ forEach
  (Ljava/util/function/BiConsumer<-Ljava/lang/String;-TV;>;)V
 get
  (Ljava/lang/Object;)TV;
- (Ljava/lang/Object;)T0V;
+ (Ljava/lang/Object;)T0V; # @Inherited(java.util.Map)
 getLocale
  ()Ljava/util/Locale;
  ()Ljava/util/Locale;
@@ -59,7 +59,7 @@ putIfAbsent
  (Ljava/lang/String;TV;)T0V;
 remove
  (Ljava/lang/Object;)TV;
- (Ljava/lang/Object;)T0V;
+ (Ljava/lang/Object;)T0V; # @Overrides(java.util.Map)
 removeEldestEntry
  (Ljava/util/Map$Entry<Ljava/lang/String;TV;>;)Z
  (Ljava/util/Map$Entry<Ljava/lang/String;TV;>;)Z
@@ -68,4 +68,4 @@ toString
  ()L1java/lang/String; # @Inherited(java.lang.Object)
 values
  ()Ljava/util/Collection<TV;>;
- ()Ljava/util/Collection<TV;>;
+ ()L1java/util/Collection<TV;>; # @Inherited(java.util.Map)

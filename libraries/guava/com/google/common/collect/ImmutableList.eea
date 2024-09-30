@@ -81,13 +81,13 @@ add
  (ITE;)V
 addAll
  (ILjava/util/Collection<+TE;>;)Z
- (ILjava/util/Collection<+TE;>;)Z
+ (IL1java/util/Collection<+TE;>;)Z # @Inherited(java.util.List)
 asList
  ()Lcom/google/common/collect/ImmutableList<TE;>;
  ()L1com/google/common/collect/ImmutableList<TE;>; # @Inherited(com.google.common.collect.ImmutableCollection)
 contains
  (Ljava/lang/Object;)Z
- (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.List)
 equals
  (Ljava/lang/Object;)Z
  (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
@@ -96,13 +96,13 @@ forEach
  (Ljava/util/function/Consumer<-TE;>;)V
 indexOf
  (Ljava/lang/Object;)I
- (Ljava/lang/Object;)I
+ (L0java/lang/Object;)I # @Inherited(java.util.List)
 iterator
  ()Lcom/google/common/collect/UnmodifiableIterator<TE;>;
  ()Lcom/google/common/collect/UnmodifiableIterator<TE;>;
 lastIndexOf
  (Ljava/lang/Object;)I
- (Ljava/lang/Object;)I
+ (L0java/lang/Object;)I # @Inherited(java.util.List)
 listIterator
  ()Lcom/google/common/collect/UnmodifiableListIterator<TE;>;
  ()Lcom/google/common/collect/UnmodifiableListIterator<TE;>;
@@ -114,7 +114,7 @@ remove
  (I)TE;
 replaceAll
  (Ljava/util/function/UnaryOperator<TE;>;)V
- (Ljava/util/function/UnaryOperator<TE;>;)V
+ (L1java/util/function/UnaryOperator<TE;>;)V # @Inherited(java.util.List)
 reverse
  ()Lcom/google/common/collect/ImmutableList<TE;>;
  ()Lcom/google/common/collect/ImmutableList<TE;>;
@@ -123,10 +123,10 @@ set
  (ITE;)TE;
 sort
  (Ljava/util/Comparator<-TE;>;)V
- (Ljava/util/Comparator<-TE;>;)V
+ (L1java/util/Comparator<-TE;>;)V # @Inherited(java.util.List)
 spliterator
  ()Ljava/util/Spliterator<TE;>;
- ()Ljava/util/Spliterator<TE;>;
+ ()L1java/util/Spliterator<TE;>; # @Inherited(com.google.common.collect.ImmutableCollection)
 subList
  (II)Lcom/google/common/collect/ImmutableList<TE;>;
  (II)Lcom/google/common/collect/ImmutableList<TE;>;

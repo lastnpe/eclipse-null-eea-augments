@@ -11,7 +11,7 @@ super java/util/SortedSet
 
 comparator
  ()Ljava/util/Comparator<-TE;>;
- ()L0java/util/Comparator<-TE;>;
+ ()L0java/util/Comparator<-TE;>; # @Inherited(java.util.SortedSet)
 delegate
  ()Ljava/util/SortedSet<TE;>;
  ()Ljava/util/SortedSet<TE;>;
@@ -20,7 +20,7 @@ first
  ()T1E;
 headSet
  (TE;)Ljava/util/SortedSet<TE;>;
- (TE;)Ljava/util/SortedSet<TE;>;
+ (TE;)L1java/util/SortedSet<TE;>; # @Inherited(java.util.SortedSet)
 last
  ()TE;
  ()T1E;
@@ -35,7 +35,7 @@ standardSubSet
  (TE;TE;)Ljava/util/SortedSet<TE;>;
 subSet
  (TE;TE;)Ljava/util/SortedSet<TE;>;
- (TE;TE;)Ljava/util/SortedSet<TE;>;
+ (TE;TE;)L1java/util/SortedSet<TE;>; # @Inherited(java.util.SortedSet)
 tailSet
  (TE;)Ljava/util/SortedSet<TE;>;
- (TE;)Ljava/util/SortedSet<TE;>;
+ (TE;)L1java/util/SortedSet<TE;>; # @Inherited(java.util.SortedSet)

@@ -27,7 +27,7 @@ createEntrySet
  ()Ljava/util/Set<Lcom/google/common/collect/Multiset$Entry<TE;>;>;
 iterator
  ()Ljava/util/Iterator<TE;>;
- ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.AbstractCollection)
 remove
  (Ljava/lang/Object;I)I
  (Ljava/lang/Object;I)I
@@ -42,7 +42,7 @@ setCount
  (TE;II)Z
 toArray
  ()[Ljava/lang/Object;
- ()[Ljava/lang/Object;
+ ()[1Ljava/lang/Object; # @Inherited(java.util.AbstractCollection)
 toArray
  <T:Ljava/lang/Object;>([TT;)[TT;
- <T:Ljava/lang/Object;>([TT;)[TT;
+ <T:Ljava/lang/Object;>([1TT;)[1TT; # @Inherited(java.util.AbstractCollection)

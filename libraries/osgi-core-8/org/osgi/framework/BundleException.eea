@@ -14,10 +14,10 @@ class org/osgi/framework/BundleException
  (L0java/lang/String;L0java/lang/Throwable;)V
 getCause
  ()Ljava/lang/Throwable;
- ()Ljava/lang/Throwable;
+ ()L0java/lang/Throwable; # @Inherited(java.lang.Throwable)
 getNestedException
  ()Ljava/lang/Throwable;
  ()Ljava/lang/Throwable;
 initCause
  (Ljava/lang/Throwable;)Ljava/lang/Throwable;
- (Ljava/lang/Throwable;)Ljava/lang/Throwable;
+ (L0java/lang/Throwable;)Ljava/lang/Throwable; # @Inherited(java.lang.Throwable)

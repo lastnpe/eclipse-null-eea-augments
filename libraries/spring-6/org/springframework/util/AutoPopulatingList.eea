@@ -26,16 +26,16 @@ add
  (TE;)Z
 addAll
  (ILjava/util/Collection<+TE;>;)Z
- (ILjava/util/Collection<+TE;>;)Z
+ (IL1java/util/Collection<+TE;>;)Z # @Inherited(java.util.List)
 addAll
  (Ljava/util/Collection<+TE;>;)Z
- (Ljava/util/Collection<+TE;>;)Z
+ (L1java/util/Collection<+TE;>;)Z # @Inherited(java.util.List)
 contains
  (Ljava/lang/Object;)Z
- (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.List)
 containsAll
  (Ljava/util/Collection<*>;)Z
- (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.List)
 equals
  (Ljava/lang/Object;)Z
  (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
@@ -44,19 +44,19 @@ get
  (I)TE;
 indexOf
  (Ljava/lang/Object;)I
- (Ljava/lang/Object;)I
+ (L0java/lang/Object;)I # @Inherited(java.util.List)
 iterator
  ()Ljava/util/Iterator<TE;>;
- ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.List)
 lastIndexOf
  (Ljava/lang/Object;)I
- (Ljava/lang/Object;)I
+ (L0java/lang/Object;)I # @Inherited(java.util.List)
 listIterator
  ()Ljava/util/ListIterator<TE;>;
- ()Ljava/util/ListIterator<TE;>;
+ ()L1java/util/ListIterator<TE;>; # @Inherited(java.util.List)
 listIterator
  (I)Ljava/util/ListIterator<TE;>;
- (I)Ljava/util/ListIterator<TE;>;
+ (I)L1java/util/ListIterator<TE;>; # @Inherited(java.util.List)
 remove
  (I)TE;
  (I)TE;
@@ -65,19 +65,19 @@ remove
  (Ljava/lang/Object;)Z
 removeAll
  (Ljava/util/Collection<*>;)Z
- (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.List)
 retainAll
  (Ljava/util/Collection<*>;)Z
- (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.List)
 set
  (ITE;)TE;
  (ITE;)TE;
 subList
  (II)Ljava/util/List<TE;>;
- (II)Ljava/util/List<TE;>;
+ (II)L1java/util/List<TE;>; # @Inherited(java.util.List)
 toArray
  ()[Ljava/lang/Object;
- ()[Ljava/lang/Object;
+ ()[1Ljava/lang/Object; # @Inherited(java.util.List)
 toArray
  <T:Ljava/lang/Object;>([TT;)[TT;
- <T:Ljava/lang/Object;>([TT;)[TT;
+ <T:Ljava/lang/Object;>([1TT;)[1TT; # @Inherited(java.util.List)

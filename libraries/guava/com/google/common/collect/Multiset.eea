@@ -17,7 +17,7 @@ contains
  (Ljava/lang/Object;)Z
 containsAll
  (Ljava/util/Collection<*>;)Z
- (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.Collection)
 count
  (Ljava/lang/Object;)I
  (Ljava/lang/Object;)I
@@ -38,7 +38,7 @@ forEachEntry
  (Ljava/util/function/ObjIntConsumer<-TE;>;)V
 iterator
  ()Ljava/util/Iterator<TE;>;
- ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.Collection)
 remove
  (Ljava/lang/Object;)Z
  (Ljava/lang/Object;)Z
@@ -47,10 +47,10 @@ remove
  (Ljava/lang/Object;I)I
 removeAll
  (Ljava/util/Collection<*>;)Z
- (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.Collection)
 retainAll
  (Ljava/util/Collection<*>;)Z
- (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.Collection)
 setCount
  (TE;I)I
  (TE;I)I
@@ -59,7 +59,7 @@ setCount
  (TE;II)Z
 spliterator
  ()Ljava/util/Spliterator<TE;>;
- ()Ljava/util/Spliterator<TE;>;
+ ()L1java/util/Spliterator<TE;>; # @Inherited(java.util.Collection)
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)

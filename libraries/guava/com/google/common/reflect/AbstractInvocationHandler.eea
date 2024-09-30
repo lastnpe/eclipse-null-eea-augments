@@ -8,7 +8,7 @@ handleInvocation
  (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)L0java/lang/Object;
 invoke
  (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
- (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)L0java/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)L0java/lang/Object; # @Overrides(java.lang.reflect.InvocationHandler)
 toString
  ()Ljava/lang/String;
  ()L1java/lang/String; # @Inherited(java.lang.Object)

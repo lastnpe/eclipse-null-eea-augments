@@ -11,7 +11,7 @@ add
  (TE;)Z
 addAll
  (Ljava/util/Collection<+TE;>;)Z
- (Ljava/util/Collection<+TE;>;)Z
+ (L1java/util/Collection<+TE;>;)Z # @Inherited(java.util.AbstractCollection)
 asList
  ()Lcom/google/common/collect/ImmutableList<TE;>;
  ()L1com/google/common/collect/ImmutableList<TE;>;
@@ -26,19 +26,19 @@ remove
  (Ljava/lang/Object;)Z
 removeAll
  (Ljava/util/Collection<*>;)Z
- (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.AbstractCollection)
 removeIf
  (Ljava/util/function/Predicate<-TE;>;)Z
- (Ljava/util/function/Predicate<-TE;>;)Z
+ (L1java/util/function/Predicate<-TE;>;)Z # @Inherited(java.util.Collection)
 retainAll
  (Ljava/util/Collection<*>;)Z
- (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.AbstractCollection)
 spliterator
  ()Ljava/util/Spliterator<TE;>;
- ()Ljava/util/Spliterator<TE;>;
+ ()L1java/util/Spliterator<TE;>; # @Inherited(java.util.Collection)
 toArray
  ()[Ljava/lang/Object;
- ()[Ljava/lang/Object;
+ ()[1Ljava/lang/Object; # @Inherited(java.util.AbstractCollection)
 toArray
  <T:Ljava/lang/Object;>([TT;)[TT;
- <T:Ljava/lang/Object;>([TT;)[TT;
+ <T:Ljava/lang/Object;>([1TT;)[1TT; # @Inherited(java.util.AbstractCollection)
