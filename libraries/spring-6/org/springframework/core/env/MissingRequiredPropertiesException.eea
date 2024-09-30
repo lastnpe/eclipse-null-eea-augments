@@ -2,7 +2,7 @@ class org/springframework/core/env/MissingRequiredPropertiesException
 
 getMessage
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(java.lang.Throwable)
 getMissingRequiredProperties
  ()Ljava/util/Set<Ljava/lang/String;>;
  ()Ljava/util/Set<Ljava/lang/String;>;

@@ -12,16 +12,16 @@ create
 
 add
  (TE;)Z
- (TE;)Z
+ (T1E;)Z # @Inherited(java.util.Queue)
 addAll
  (Ljava/util/Collection<+TE;>;)Z
- (Ljava/util/Collection<+TE;>;)Z
+ (L1java/util/Collection<+TE;>;)Z # @Inherited(com.google.common.collect.ForwardingCollection)
 delegate
  ()Ljava/util/Queue<TE;>;
  ()Ljava/util/Queue<TE;>;
 offer
  (TE;)Z
- (TE;)Z
+ (T1E;)Z # @Inherited(com.google.common.collect.ForwardingQueue)
 toArray
  ()[Ljava/lang/Object;
- ()[Ljava/lang/Object;
+ ()[1Ljava/lang/Object; # @Inherited(com.google.common.collect.ForwardingCollection)

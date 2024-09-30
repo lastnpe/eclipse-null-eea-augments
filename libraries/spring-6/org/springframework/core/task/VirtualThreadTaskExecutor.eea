@@ -5,7 +5,7 @@ class org/springframework/core/task/VirtualThreadTaskExecutor
  (Ljava/lang/String;)V
 execute
  (Ljava/lang/Runnable;)V
- (Ljava/lang/Runnable;)V
+ (L1java/lang/Runnable;)V # @Inherited(org.springframework.core.task.TaskExecutor)
 getVirtualThreadFactory
  ()Ljava/util/concurrent/ThreadFactory;
  ()Ljava/util/concurrent/ThreadFactory;

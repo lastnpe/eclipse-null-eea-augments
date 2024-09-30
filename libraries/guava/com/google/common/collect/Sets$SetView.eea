@@ -11,7 +11,7 @@ add
  (TE;)Z
 addAll
  (Ljava/util/Collection<+TE;>;)Z
- (Ljava/util/Collection<+TE;>;)Z
+ (L1java/util/Collection<+TE;>;)Z # @Inherited(java.util.AbstractCollection)
 copyInto
  <S::Ljava/util/Set<TE;>;>(TS;)TS;
  <S::Ljava/util/Set<TE;>;>(TS;)TS;
@@ -26,10 +26,10 @@ remove
  (Ljava/lang/Object;)Z
 removeAll
  (Ljava/util/Collection<*>;)Z
- (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.AbstractSet)
 removeIf
  (Ljava/util/function/Predicate<-TE;>;)Z
- (Ljava/util/function/Predicate<-TE;>;)Z
+ (L1java/util/function/Predicate<-TE;>;)Z # @Inherited(java.util.Collection)
 retainAll
  (Ljava/util/Collection<*>;)Z
- (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.AbstractCollection)

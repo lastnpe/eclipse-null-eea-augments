@@ -17,16 +17,16 @@ super java/util/concurrent/ConcurrentMap
  (ILorg/springframework/util/ConcurrentReferenceHashMap$ReferenceType;)V
 containsKey
  (Ljava/lang/Object;)Z
- (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.AbstractMap)
 createReferenceManager
  ()Lorg/springframework/util/ConcurrentReferenceHashMap<TK;TV;>.ReferenceManager;
  ()Lorg/springframework/util/ConcurrentReferenceHashMap<TK;TV;>.ReferenceManager;
 entrySet
  ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
- ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()L1java/util/Set<L1java/util/Map$Entry<TK;TV;>;>; # @Inherited(java.util.AbstractMap)
 get
  (Ljava/lang/Object;)TV;
- (Ljava/lang/Object;)T0V;
+ (Ljava/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
 getHash
  (Ljava/lang/Object;)I
  (Ljava/lang/Object;)I
@@ -41,19 +41,19 @@ getSegment
  (I)Lorg/springframework/util/ConcurrentReferenceHashMap<TK;TV;>.Segment;
 put
  (TK;TV;)TV;
- (TK;TV;)T0V;
+ (TK;TV;)T0V; # @Inherited(java.util.AbstractMap)
 putIfAbsent
  (TK;TV;)TV;
- (TK;TV;)T0V;
+ (TK;TV;)T0V; # @Inherited(java.util.concurrent.ConcurrentMap)
 remove
  (Ljava/lang/Object;)TV;
- (Ljava/lang/Object;)T0V;
+ (Ljava/lang/Object;)T0V; # @Overrides(java.util.AbstractMap)
 remove
  (Ljava/lang/Object;Ljava/lang/Object;)Z
- (Ljava/lang/Object;Ljava/lang/Object;)Z
+ (L0java/lang/Object;L0java/lang/Object;)Z # @Inherited(java.util.concurrent.ConcurrentMap)
 replace
  (TK;TV;)TV;
- (TK;TV;)T0V;
+ (TK;TV;)T0V; # @Inherited(java.util.concurrent.ConcurrentMap)
 replace
  (TK;TV;TV;)Z
  (TK;TV;TV;)Z

@@ -2,13 +2,13 @@ class com/google/common/io/ByteArrayDataInput
 
 readFully
  ([B)V
- ([B)V
+ ([1B)V # @Inherited(java.io.DataInput)
 readFully
  ([BII)V
- ([BII)V
+ ([1BII)V # @Inherited(java.io.DataInput)
 readLine
  ()Ljava/lang/String;
- ()L0java/lang/String;
+ ()L0java/lang/String; # @Overrides(java.io.DataInput)
 readUTF
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.io.DataInput)

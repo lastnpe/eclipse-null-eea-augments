@@ -14,7 +14,7 @@ add
  (ITE;)V
 addAll
  (ILjava/util/Collection<+TE;>;)Z
- (ILjava/util/Collection<+TE;>;)Z
+ (IL1java/util/Collection<+TE;>;)Z # @Inherited(java.util.List)
 delegate
  ()Ljava/util/List<TE;>;
  ()Ljava/util/List<TE;>;
@@ -26,16 +26,16 @@ get
  (I)T1E;
 indexOf
  (Ljava/lang/Object;)I
- (Ljava/lang/Object;)I
+ (L0java/lang/Object;)I # @Inherited(java.util.List)
 lastIndexOf
  (Ljava/lang/Object;)I
- (Ljava/lang/Object;)I
+ (L0java/lang/Object;)I # @Inherited(java.util.List)
 listIterator
  ()Ljava/util/ListIterator<TE;>;
- ()Ljava/util/ListIterator<TE;>;
+ ()L1java/util/ListIterator<TE;>; # @Inherited(java.util.List)
 listIterator
  (I)Ljava/util/ListIterator<TE;>;
- (I)Ljava/util/ListIterator<TE;>;
+ (I)L1java/util/ListIterator<TE;>; # @Inherited(java.util.List)
 remove
  (I)TE;
  (I)T1E;
@@ -71,4 +71,4 @@ standardSubList
  (II)Ljava/util/List<TE;>;
 subList
  (II)Ljava/util/List<TE;>;
- (II)Ljava/util/List<TE;>;
+ (II)L1java/util/List<TE;>; # @Inherited(java.util.List)

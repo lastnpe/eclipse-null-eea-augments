@@ -8,10 +8,10 @@ class org/osgi/framework/InvalidSyntaxException
  (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 getCause
  ()Ljava/lang/Throwable;
- ()Ljava/lang/Throwable;
+ ()L0java/lang/Throwable; # @Inherited(java.lang.Throwable)
 getFilter
  ()Ljava/lang/String;
  ()Ljava/lang/String;
 initCause
  (Ljava/lang/Throwable;)Ljava/lang/Throwable;
- (Ljava/lang/Throwable;)Ljava/lang/Throwable;
+ (L0java/lang/Throwable;)Ljava/lang/Throwable; # @Inherited(java.lang.Throwable)

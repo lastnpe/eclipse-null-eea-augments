@@ -21,34 +21,34 @@ create
 
 containsKey
  (Ljava/lang/Object;)Z
- (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.AbstractMap)
 containsValue
  (Ljava/lang/Object;)Z
- (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.AbstractMap)
 forEach
  (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
- (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
+ (L1java/util/function/BiConsumer<-TK;-TV;>;)V # @Inherited(java.util.Map)
 forcePut
  (TK;TV;)TV;
  (TK;TV;)T0V; # @Inherited(com.google.common.collect.BiMap)
 get
  (Ljava/lang/Object;)TV;
- (Ljava/lang/Object;)T0V;
+ (Ljava/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
 inverse
  ()Lcom/google/common/collect/BiMap<TV;TK;>;
  ()Lcom/google/common/collect/BiMap<TV;TK;>;
 keySet
  ()Ljava/util/Set<TK;>;
- ()Ljava/util/Set<TK;>;
+ ()L1java/util/Set<TK;>; # @Inherited(java.util.AbstractMap)
 put
  (TK;TV;)TV;
- (TK;TV;)T0V; # @Inherited(com.google.common.collect.BiMap)
+ (TK;TV;)T0V; # @Inherited(java.util.AbstractMap)
 remove
  (Ljava/lang/Object;)TV;
- (Ljava/lang/Object;)T0V;
+ (Ljava/lang/Object;)T0V; # @Overrides(java.util.AbstractMap)
 replaceAll
  (Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)V
- (Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)V
+ (L1java/util/function/BiFunction<-TK;-TV;+TV;>;)V # @Inherited(java.util.Map)
 values
  ()Ljava/util/Set<TV;>;
  ()Ljava/util/Set<TV;>;

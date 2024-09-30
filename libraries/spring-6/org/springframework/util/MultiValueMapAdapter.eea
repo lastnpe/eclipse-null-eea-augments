@@ -20,10 +20,10 @@ addAll
  (TK;Ljava/util/List<+TV;>;)V
 containsKey
  (Ljava/lang/Object;)Z
- (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.Map)
 containsValue
  (Ljava/lang/Object;)Z
- (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.Map)
 entrySet
  ()Ljava/util/Set<Ljava/util/Map$Entry<TK;Ljava/util/List<TV;>;>;>;
  ()Ljava/util/Set<Ljava/util/Map$Entry<TK;Ljava/util/List<TV;>;>;>;
@@ -41,7 +41,7 @@ getFirst
  (TK;)T0V; # @Inherited(org.springframework.util.MultiValueMap)
 keySet
  ()Ljava/util/Set<TK;>;
- ()Ljava/util/Set<TK;>;
+ ()L1java/util/Set<TK;>; # @Inherited(java.util.Map)
 put
  (TK;Ljava/util/List<TV;>;)Ljava/util/List<TV;>;
  (TK;Ljava/util/List<TV;>;)L0java/util/List<TV;>;

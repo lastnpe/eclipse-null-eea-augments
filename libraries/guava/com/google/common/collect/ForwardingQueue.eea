@@ -14,19 +14,19 @@ delegate
  ()Ljava/util/Queue<TE;>;
 element
  ()TE;
- ()T1E;
+ ()T1E; # @Inherited(java.util.Queue)
 offer
  (TE;)Z
- (TE;)Z
+ (T1E;)Z # @Inherited(java.util.Queue)
 peek
  ()TE;
- ()T0E;
+ ()T0E; # @Inherited(java.util.Queue)
 poll
  ()TE;
- ()T0E;
+ ()T0E; # @Inherited(java.util.Queue)
 remove
  ()TE;
- ()T1E;
+ ()T1E; # @Inherited(java.util.Queue)
 standardOffer
  (TE;)Z
  (TE;)Z

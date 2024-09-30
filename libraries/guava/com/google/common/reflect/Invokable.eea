@@ -20,10 +20,10 @@ getAnnotation
  <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)T0A;
 getAnnotations
  ()[Ljava/lang/annotation/Annotation;
- ()[Ljava/lang/annotation/Annotation;
+ ()[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.AnnotatedElement)
 getDeclaredAnnotations
  ()[Ljava/lang/annotation/Annotation;
- ()[Ljava/lang/annotation/Annotation;
+ ()[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.AnnotatedElement)
 getDeclaringClass
  ()Ljava/lang/Class<-TT;>;
  ()Ljava/lang/Class<-TT;>;
@@ -32,7 +32,7 @@ getExceptionTypes
  ()Lcom/google/common/collect/ImmutableList<Lcom/google/common/reflect/TypeToken<+Ljava/lang/Throwable;>;>;
 getName
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.reflect.Member)
 getOwnerType
  ()Lcom/google/common/reflect/TypeToken<TT;>;
  ()Lcom/google/common/reflect/TypeToken<TT;>;
@@ -50,7 +50,7 @@ invoke
  (TT;[Ljava/lang/Object;)T0R;
 isAnnotationPresent
  (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
- (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+ (L1java/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z # @Inherited(java.lang.reflect.AnnotatedElement)
 returning
  <R1:TR;>(Lcom/google/common/reflect/TypeToken<TR1;>;)Lcom/google/common/reflect/Invokable<TT;TR1;>;
  <R1:TR;>(Lcom/google/common/reflect/TypeToken<TR1;>;)Lcom/google/common/reflect/Invokable<TT;TR1;>;

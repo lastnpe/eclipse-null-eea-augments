@@ -20,13 +20,13 @@ delegate
  ()Ljava/util/Deque<TE;>;
 descendingIterator
  ()Ljava/util/Iterator<TE;>;
- ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.Deque)
 getFirst
  ()TE;
- ()T1E;
+ ()T1E; # @Inherited(java.util.Deque)
 getLast
  ()TE;
- ()T1E;
+ ()T1E; # @Inherited(java.util.Deque)
 offerFirst
  (TE;)Z
  (TE;)Z
@@ -35,31 +35,31 @@ offerLast
  (TE;)Z
 peekFirst
  ()TE;
- ()T0E;
+ ()T0E; # @Inherited(java.util.Deque)
 peekLast
  ()TE;
- ()T0E;
+ ()T0E; # @Inherited(java.util.Deque)
 pollFirst
  ()TE;
- ()T0E;
+ ()T0E; # @Inherited(java.util.Deque)
 pollLast
  ()TE;
- ()T0E;
+ ()T0E; # @Inherited(java.util.Deque)
 pop
  ()TE;
- ()T1E;
+ ()T1E; # @Inherited(java.util.Deque)
 push
  (TE;)V
  (TE;)V
 removeFirst
  ()TE;
- ()T1E;
+ ()T1E; # @Inherited(java.util.Deque)
 removeFirstOccurrence
  (Ljava/lang/Object;)Z
  (Ljava/lang/Object;)Z
 removeLast
  ()TE;
- ()T1E;
+ ()T1E; # @Inherited(java.util.Deque)
 removeLastOccurrence
  (Ljava/lang/Object;)Z
  (Ljava/lang/Object;)Z

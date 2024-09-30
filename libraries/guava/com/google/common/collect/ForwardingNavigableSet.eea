@@ -11,28 +11,28 @@ super java/util/NavigableSet
 
 ceiling
  (TE;)TE;
- (TE;)T0E;
+ (TE;)T0E; # @Inherited(java.util.NavigableSet)
 delegate
  ()Ljava/util/NavigableSet<TE;>;
  ()Ljava/util/NavigableSet<TE;>;
 descendingIterator
  ()Ljava/util/Iterator<TE;>;
- ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.NavigableSet)
 descendingSet
  ()Ljava/util/NavigableSet<TE;>;
- ()Ljava/util/NavigableSet<TE;>;
+ ()L1java/util/NavigableSet<TE;>; # @Inherited(java.util.NavigableSet)
 floor
  (TE;)TE;
- (TE;)T0E;
+ (TE;)T0E; # @Inherited(java.util.NavigableSet)
 headSet
  (TE;Z)Ljava/util/NavigableSet<TE;>;
- (TE;Z)Ljava/util/NavigableSet<TE;>;
+ (TE;Z)L1java/util/NavigableSet<TE;>; # @Inherited(java.util.NavigableSet)
 higher
  (TE;)TE;
- (TE;)T0E;
+ (TE;)T0E; # @Inherited(java.util.NavigableSet)
 lower
  (TE;)TE;
- (TE;)T0E;
+ (TE;)T0E; # @Inherited(java.util.NavigableSet)
 pollFirst
  ()TE;
  ()T0E;
@@ -77,7 +77,7 @@ standardTailSet
  (TE;)Ljava/util/SortedSet<TE;>;
 subSet
  (TE;ZTE;Z)Ljava/util/NavigableSet<TE;>;
- (TE;ZTE;Z)Ljava/util/NavigableSet<TE;>;
+ (TE;ZTE;Z)L1java/util/NavigableSet<TE;>; # @Inherited(java.util.NavigableSet)
 tailSet
  (TE;Z)Ljava/util/NavigableSet<TE;>;
- (TE;Z)Ljava/util/NavigableSet<TE;>;
+ (TE;Z)L1java/util/NavigableSet<TE;>; # @Inherited(java.util.NavigableSet)

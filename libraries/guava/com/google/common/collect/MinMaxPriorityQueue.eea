@@ -24,22 +24,22 @@ orderedBy
 
 add
  (TE;)Z
- (TE;)Z
+ (T1E;)Z # @Inherited(java.util.AbstractQueue)
 addAll
  (Ljava/util/Collection<+TE;>;)Z
- (Ljava/util/Collection<+TE;>;)Z
+ (L1java/util/Collection<+TE;>;)Z # @Inherited(java.util.AbstractQueue)
 comparator
  ()Ljava/util/Comparator<-TE;>;
  ()Ljava/util/Comparator<-TE;>;
 iterator
  ()Ljava/util/Iterator<TE;>;
- ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.AbstractCollection)
 offer
  (TE;)Z
- (TE;)Z
+ (T1E;)Z # @Inherited(java.util.Queue)
 peek
  ()TE;
- ()T0E;
+ ()T0E; # @Inherited(java.util.Queue)
 peekFirst
  ()TE;
  ()T0E;
@@ -48,7 +48,7 @@ peekLast
  ()T0E;
 poll
  ()TE;
- ()T0E;
+ ()T0E; # @Inherited(java.util.Queue)
 pollFirst
  ()TE;
  ()T0E;
@@ -63,4 +63,4 @@ removeLast
  ()TE;
 toArray
  ()[Ljava/lang/Object;
- ()[Ljava/lang/Object;
+ ()[1Ljava/lang/Object; # @Inherited(java.util.AbstractCollection)

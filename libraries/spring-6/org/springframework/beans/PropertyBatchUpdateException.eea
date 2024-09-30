@@ -8,7 +8,7 @@ contains
  (Ljava/lang/Class<*>;)Z
 getMessage
  ()Ljava/lang/String;
- ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(java.lang.Throwable)
 getPropertyAccessException
  (Ljava/lang/String;)Lorg/springframework/beans/PropertyAccessException;
  (Ljava/lang/String;)L0org/springframework/beans/PropertyAccessException;
@@ -17,10 +17,10 @@ getPropertyAccessExceptions
  ()[Lorg/springframework/beans/PropertyAccessException;
 printStackTrace
  (Ljava/io/PrintStream;)V
- (Ljava/io/PrintStream;)V
+ (L1java/io/PrintStream;)V # @Inherited(java.lang.Throwable)
 printStackTrace
  (Ljava/io/PrintWriter;)V
- (Ljava/io/PrintWriter;)V
+ (L1java/io/PrintWriter;)V # @Inherited(java.lang.Throwable)
 toString
  ()Ljava/lang/String;
- ()L1java/lang/String; # @Inherited(java.lang.Object)
+ ()L1java/lang/String; # @Inherited(java.lang.Throwable)

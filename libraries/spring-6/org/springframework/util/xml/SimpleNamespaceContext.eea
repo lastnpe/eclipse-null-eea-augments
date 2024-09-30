@@ -11,13 +11,13 @@ getBoundPrefixes
  ()Ljava/util/Iterator<Ljava/lang/String;>;
 getNamespaceURI
  (Ljava/lang/String;)Ljava/lang/String;
- (Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;)L1java/lang/String; # @Inherited(javax.xml.namespace.NamespaceContext)
 getPrefix
  (Ljava/lang/String;)Ljava/lang/String;
- (Ljava/lang/String;)L0java/lang/String;
+ (Ljava/lang/String;)L0java/lang/String; # @Overrides(javax.xml.namespace.NamespaceContext)
 getPrefixes
  (Ljava/lang/String;)Ljava/util/Iterator<Ljava/lang/String;>;
- (Ljava/lang/String;)Ljava/util/Iterator<Ljava/lang/String;>;
+ (L1java/lang/String;)L1java/util/Iterator<L1java/lang/String;>; # @Inherited(javax.xml.namespace.NamespaceContext)
 removeBinding
  (Ljava/lang/String;)V
  (Ljava/lang/String;)V
