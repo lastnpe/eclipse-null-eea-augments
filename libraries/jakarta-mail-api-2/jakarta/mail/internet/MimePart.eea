@@ -1,0 +1,44 @@
+class jakarta/mail/internet/MimePart
+
+addHeaderLine
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getAllHeaderLines
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+getContentID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getContentLanguage
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getContentMD5
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getEncoding
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getHeader
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+getMatchingHeaderLines
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+getNonMatchingHeaderLines
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+setContentLanguage
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setContentMD5
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setText
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setText
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setText
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V

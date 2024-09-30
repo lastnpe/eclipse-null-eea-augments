@@ -1,0 +1,33 @@
+class jakarta/mail/event/TransportEvent
+
+invalid
+ [Ljakarta/mail/Address;
+ [Ljakarta/mail/Address;
+msg
+ Ljakarta/mail/Message;
+ Ljakarta/mail/Message;
+validSent
+ [Ljakarta/mail/Address;
+ [Ljakarta/mail/Address;
+validUnsent
+ [Ljakarta/mail/Address;
+ [Ljakarta/mail/Address;
+
+<init>
+ (Ljakarta/mail/Transport;I[Ljakarta/mail/Address;[Ljakarta/mail/Address;[Ljakarta/mail/Address;Ljakarta/mail/Message;)V
+ (Ljakarta/mail/Transport;I[Ljakarta/mail/Address;[Ljakarta/mail/Address;[Ljakarta/mail/Address;Ljakarta/mail/Message;)V
+dispatch
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+getInvalidAddresses
+ ()[Ljakarta/mail/Address;
+ ()[Ljakarta/mail/Address;
+getMessage
+ ()Ljakarta/mail/Message;
+ ()Ljakarta/mail/Message;
+getValidSentAddresses
+ ()[Ljakarta/mail/Address;
+ ()[Ljakarta/mail/Address;
+getValidUnsentAddresses
+ ()[Ljakarta/mail/Address;
+ ()[Ljakarta/mail/Address;

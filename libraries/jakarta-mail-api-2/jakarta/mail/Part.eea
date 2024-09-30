@@ -1,0 +1,78 @@
+class jakarta/mail/Part
+
+ATTACHMENT
+ Ljava/lang/String;
+ L1java/lang/String;
+INLINE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+addHeader
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+getAllHeaders
+ ()Ljava/util/Enumeration<Ljakarta/mail/Header;>;
+ ()Ljava/util/Enumeration<Ljakarta/mail/Header;>;
+getContent
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getContentType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDataHandler
+ ()Ljakarta/activation/DataHandler;
+ ()Ljakarta/activation/DataHandler;
+getDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDisposition
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFileName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getHeader
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[Ljava/lang/String;
+getInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getMatchingHeaders
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljakarta/mail/Header;>;
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljakarta/mail/Header;>;
+getNonMatchingHeaders
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljakarta/mail/Header;>;
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljakarta/mail/Header;>;
+isMimeType
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+removeHeader
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setContent
+ (Ljakarta/mail/Multipart;)V
+ (Ljakarta/mail/Multipart;)V
+setContent
+ (Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/Object;Ljava/lang/String;)V
+setDataHandler
+ (Ljakarta/activation/DataHandler;)V
+ (Ljakarta/activation/DataHandler;)V
+setDescription
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setDisposition
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setFileName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setHeader
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setText
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeTo
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V

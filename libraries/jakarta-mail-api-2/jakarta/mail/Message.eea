@@ -1,0 +1,87 @@
+class jakarta/mail/Message
+
+folder
+ Ljakarta/mail/Folder;
+ Ljakarta/mail/Folder;
+session
+ Ljakarta/mail/Session;
+ Ljakarta/mail/Session;
+
+<init>
+ (Ljakarta/mail/Folder;I)V
+ (Ljakarta/mail/Folder;I)V
+<init>
+ (Ljakarta/mail/Session;)V
+ (Ljakarta/mail/Session;)V
+addFrom
+ ([Ljakarta/mail/Address;)V
+ ([Ljakarta/mail/Address;)V
+addRecipient
+ (Ljakarta/mail/Message$RecipientType;Ljakarta/mail/Address;)V
+ (Ljakarta/mail/Message$RecipientType;Ljakarta/mail/Address;)V
+addRecipients
+ (Ljakarta/mail/Message$RecipientType;[Ljakarta/mail/Address;)V
+ (Ljakarta/mail/Message$RecipientType;[Ljakarta/mail/Address;)V
+getAllRecipients
+ ()[Ljakarta/mail/Address;
+ ()[Ljakarta/mail/Address;
+getFlags
+ ()Ljakarta/mail/Flags;
+ ()Ljakarta/mail/Flags;
+getFolder
+ ()Ljakarta/mail/Folder;
+ ()Ljakarta/mail/Folder;
+getFrom
+ ()[Ljakarta/mail/Address;
+ ()[Ljakarta/mail/Address;
+getReceivedDate
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+getRecipients
+ (Ljakarta/mail/Message$RecipientType;)[Ljakarta/mail/Address;
+ (Ljakarta/mail/Message$RecipientType;)[Ljakarta/mail/Address;
+getReplyTo
+ ()[Ljakarta/mail/Address;
+ ()[Ljakarta/mail/Address;
+getSentDate
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+getSession
+ ()Ljakarta/mail/Session;
+ ()Ljakarta/mail/Session;
+getSubject
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+isSet
+ (Ljakarta/mail/Flags$Flag;)Z
+ (Ljakarta/mail/Flags$Flag;)Z
+match
+ (Ljakarta/mail/search/SearchTerm;)Z
+ (Ljakarta/mail/search/SearchTerm;)Z
+reply
+ (Z)Ljakarta/mail/Message;
+ (Z)Ljakarta/mail/Message;
+setFlag
+ (Ljakarta/mail/Flags$Flag;Z)V
+ (Ljakarta/mail/Flags$Flag;Z)V
+setFlags
+ (Ljakarta/mail/Flags;Z)V
+ (Ljakarta/mail/Flags;Z)V
+setFrom
+ (Ljakarta/mail/Address;)V
+ (Ljakarta/mail/Address;)V
+setRecipient
+ (Ljakarta/mail/Message$RecipientType;Ljakarta/mail/Address;)V
+ (Ljakarta/mail/Message$RecipientType;Ljakarta/mail/Address;)V
+setRecipients
+ (Ljakarta/mail/Message$RecipientType;[Ljakarta/mail/Address;)V
+ (Ljakarta/mail/Message$RecipientType;[Ljakarta/mail/Address;)V
+setReplyTo
+ ([Ljakarta/mail/Address;)V
+ ([Ljakarta/mail/Address;)V
+setSentDate
+ (Ljava/util/Date;)V
+ (Ljava/util/Date;)V
+setSubject
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

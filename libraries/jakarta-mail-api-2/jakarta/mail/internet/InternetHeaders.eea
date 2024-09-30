@@ -1,0 +1,54 @@
+class jakarta/mail/internet/InternetHeaders
+
+headers
+ Ljava/util/List<Ljakarta/mail/internet/InternetHeaders$InternetHeader;>;
+ Ljava/util/List<Ljakarta/mail/internet/InternetHeaders$InternetHeader;>;
+
+<init>
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+<init>
+ (Ljava/io/InputStream;Z)V
+ (Ljava/io/InputStream;Z)V
+addHeader
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+addHeaderLine
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getAllHeaderLines
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+getAllHeaders
+ ()Ljava/util/Enumeration<Ljakarta/mail/Header;>;
+ ()Ljava/util/Enumeration<Ljakarta/mail/Header;>;
+getHeader
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[Ljava/lang/String;
+getHeader
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+getMatchingHeaderLines
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+getMatchingHeaders
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljakarta/mail/Header;>;
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljakarta/mail/Header;>;
+getNonMatchingHeaderLines
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+getNonMatchingHeaders
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljakarta/mail/Header;>;
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljakarta/mail/Header;>;
+load
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+load
+ (Ljava/io/InputStream;Z)V
+ (Ljava/io/InputStream;Z)V
+removeHeader
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setHeader
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
