@@ -1,0 +1,26 @@
+class jakarta/servlet/AsyncEvent
+
+<init>
+ (Ljakarta/servlet/AsyncContext;)V
+ (Ljakarta/servlet/AsyncContext;)V
+<init>
+ (Ljakarta/servlet/AsyncContext;Ljakarta/servlet/ServletRequest;Ljakarta/servlet/ServletResponse;)V
+ (Ljakarta/servlet/AsyncContext;Ljakarta/servlet/ServletRequest;Ljakarta/servlet/ServletResponse;)V
+<init>
+ (Ljakarta/servlet/AsyncContext;Ljakarta/servlet/ServletRequest;Ljakarta/servlet/ServletResponse;Ljava/lang/Throwable;)V
+ (Ljakarta/servlet/AsyncContext;Ljakarta/servlet/ServletRequest;Ljakarta/servlet/ServletResponse;Ljava/lang/Throwable;)V
+<init>
+ (Ljakarta/servlet/AsyncContext;Ljava/lang/Throwable;)V
+ (Ljakarta/servlet/AsyncContext;Ljava/lang/Throwable;)V
+getAsyncContext
+ ()Ljakarta/servlet/AsyncContext;
+ ()Ljakarta/servlet/AsyncContext;
+getSuppliedRequest
+ ()Ljakarta/servlet/ServletRequest;
+ ()Ljakarta/servlet/ServletRequest;
+getSuppliedResponse
+ ()Ljakarta/servlet/ServletResponse;
+ ()Ljakarta/servlet/ServletResponse;
+getThrowable
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;

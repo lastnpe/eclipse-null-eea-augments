@@ -1,0 +1,20 @@
+class jakarta/servlet/ServletInputStream
+
+read
+ (Ljava/nio/ByteBuffer;)I
+ (Ljava/nio/ByteBuffer;)I
+readAllBytes
+ ()[B
+ ()[1B # @Inherited(java.io.InputStream)
+readLine
+ ([BII)I
+ ([BII)I
+readNBytes
+ (I)[B
+ (I)[1B # @Inherited(java.io.InputStream)
+readNBytes
+ ([BII)I
+ ([1BII)I # @Inherited(java.io.InputStream)
+setReadListener
+ (Ljakarta/servlet/ReadListener;)V
+ (Ljakarta/servlet/ReadListener;)V
