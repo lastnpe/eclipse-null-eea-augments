@@ -1,0 +1,24 @@
+class com/fasterxml/jackson/databind/deser/SettableAnyProperty$JsonNodeFieldAnyProperty
+
+_nodeFactory
+ Lcom/fasterxml/jackson/databind/node/JsonNodeFactory;
+ Lcom/fasterxml/jackson/databind/node/JsonNodeFactory;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/BeanProperty;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JsonDeserializer<Ljava/lang/Object;>;Lcom/fasterxml/jackson/databind/node/JsonNodeFactory;)V
+ (Lcom/fasterxml/jackson/databind/BeanProperty;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JsonDeserializer<Ljava/lang/Object;>;Lcom/fasterxml/jackson/databind/node/JsonNodeFactory;)V
+_set
+ (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+deserialize
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object;
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object;
+deserializeAndSet
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Object;Ljava/lang/String;)V
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Object;Ljava/lang/String;)V
+setProperty
+ (Ljava/lang/Object;Ljava/lang/String;Lcom/fasterxml/jackson/databind/JsonNode;)V
+ (Ljava/lang/Object;Ljava/lang/String;Lcom/fasterxml/jackson/databind/JsonNode;)V
+withValueDeserializer
+ (Lcom/fasterxml/jackson/databind/JsonDeserializer<Ljava/lang/Object;>;)Lcom/fasterxml/jackson/databind/deser/SettableAnyProperty;
+ (Lcom/fasterxml/jackson/databind/JsonDeserializer<Ljava/lang/Object;>;)Lcom/fasterxml/jackson/databind/deser/SettableAnyProperty;

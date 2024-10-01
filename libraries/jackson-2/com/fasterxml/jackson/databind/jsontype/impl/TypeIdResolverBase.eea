@@ -1,0 +1,24 @@
+class com/fasterxml/jackson/databind/jsontype/impl/TypeIdResolverBase
+
+_baseType
+ Lcom/fasterxml/jackson/databind/JavaType;
+ Lcom/fasterxml/jackson/databind/JavaType;
+_typeFactory
+ Lcom/fasterxml/jackson/databind/type/TypeFactory;
+ Lcom/fasterxml/jackson/databind/type/TypeFactory;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/type/TypeFactory;)V
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/type/TypeFactory;)V
+getDescForKnownTypeIds
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+idFromBaseType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+init
+ (Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/JavaType;)V
+typeFromId
+ (Lcom/fasterxml/jackson/databind/DatabindContext;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/DatabindContext;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JavaType;

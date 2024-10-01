@@ -1,0 +1,46 @@
+class com/fasterxml/jackson/databind/introspect/ObjectIdInfo
+
+empty
+ ()Lcom/fasterxml/jackson/databind/introspect/ObjectIdInfo;
+ ()Lcom/fasterxml/jackson/databind/introspect/ObjectIdInfo;
+
+_generator
+ Ljava/lang/Class<+Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;>;
+ Ljava/lang/Class<+Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;>;
+_propertyName
+ Lcom/fasterxml/jackson/databind/PropertyName;
+ Lcom/fasterxml/jackson/databind/PropertyName;
+_resolver
+ Ljava/lang/Class<+Lcom/fasterxml/jackson/annotation/ObjectIdResolver;>;
+ Ljava/lang/Class<+Lcom/fasterxml/jackson/annotation/ObjectIdResolver;>;
+_scope
+ Ljava/lang/Class<*>;
+ Ljava/lang/Class<*>;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/PropertyName;Ljava/lang/Class<*>;Ljava/lang/Class<+Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;>;Ljava/lang/Class<+Lcom/fasterxml/jackson/annotation/ObjectIdResolver;>;)V
+ (Lcom/fasterxml/jackson/databind/PropertyName;Ljava/lang/Class<*>;Ljava/lang/Class<+Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;>;Ljava/lang/Class<+Lcom/fasterxml/jackson/annotation/ObjectIdResolver;>;)V
+<init>
+ (Lcom/fasterxml/jackson/databind/PropertyName;Ljava/lang/Class<*>;Ljava/lang/Class<+Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;>;Z)V
+ (Lcom/fasterxml/jackson/databind/PropertyName;Ljava/lang/Class<*>;Ljava/lang/Class<+Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;>;Z)V
+<init>
+ (Lcom/fasterxml/jackson/databind/PropertyName;Ljava/lang/Class<*>;Ljava/lang/Class<+Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;>;ZLjava/lang/Class<+Lcom/fasterxml/jackson/annotation/ObjectIdResolver;>;)V
+ (Lcom/fasterxml/jackson/databind/PropertyName;Ljava/lang/Class<*>;Ljava/lang/Class<+Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;>;ZLjava/lang/Class<+Lcom/fasterxml/jackson/annotation/ObjectIdResolver;>;)V
+getGeneratorType
+ ()Ljava/lang/Class<+Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;>;
+ ()Ljava/lang/Class<+Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;>;
+getPropertyName
+ ()Lcom/fasterxml/jackson/databind/PropertyName;
+ ()Lcom/fasterxml/jackson/databind/PropertyName;
+getResolverType
+ ()Ljava/lang/Class<+Lcom/fasterxml/jackson/annotation/ObjectIdResolver;>;
+ ()Ljava/lang/Class<+Lcom/fasterxml/jackson/annotation/ObjectIdResolver;>;
+getScope
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+withAlwaysAsId
+ (Z)Lcom/fasterxml/jackson/databind/introspect/ObjectIdInfo;
+ (Z)Lcom/fasterxml/jackson/databind/introspect/ObjectIdInfo;

@@ -1,0 +1,72 @@
+class com/fasterxml/jackson/databind/jsontype/impl/TypeDeserializerBase
+
+_baseType
+ Lcom/fasterxml/jackson/databind/JavaType;
+ Lcom/fasterxml/jackson/databind/JavaType;
+_defaultImpl
+ Lcom/fasterxml/jackson/databind/JavaType;
+ Lcom/fasterxml/jackson/databind/JavaType;
+_defaultImplDeserializer
+ Lcom/fasterxml/jackson/databind/JsonDeserializer<Ljava/lang/Object;>;
+ Lcom/fasterxml/jackson/databind/JsonDeserializer<Ljava/lang/Object;>;
+_deserializers
+ Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/JsonDeserializer<Ljava/lang/Object;>;>;
+ Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/JsonDeserializer<Ljava/lang/Object;>;>;
+_idResolver
+ Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;
+ Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;
+_property
+ Lcom/fasterxml/jackson/databind/BeanProperty;
+ Lcom/fasterxml/jackson/databind/BeanProperty;
+_typePropertyName
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;Ljava/lang/String;ZLcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;Ljava/lang/String;ZLcom/fasterxml/jackson/databind/JavaType;)V
+<init>
+ (Lcom/fasterxml/jackson/databind/jsontype/impl/TypeDeserializerBase;Lcom/fasterxml/jackson/databind/BeanProperty;)V
+ (Lcom/fasterxml/jackson/databind/jsontype/impl/TypeDeserializerBase;Lcom/fasterxml/jackson/databind/BeanProperty;)V
+_deserializeWithNativeTypeId
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object;
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object;
+_deserializeWithNativeTypeId
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Object;)Ljava/lang/Object;
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Object;)Ljava/lang/Object;
+_findDefaultImplDeserializer
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;)Lcom/fasterxml/jackson/databind/JsonDeserializer<Ljava/lang/Object;>;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;)Lcom/fasterxml/jackson/databind/JsonDeserializer<Ljava/lang/Object;>;
+_findDeserializer
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonDeserializer<Ljava/lang/Object;>;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonDeserializer<Ljava/lang/Object;>;
+_handleMissingTypeId
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JavaType;
+_handleUnknownTypeId
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JavaType;
+baseType
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+baseTypeName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+forProperty
+ (Lcom/fasterxml/jackson/databind/BeanProperty;)Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;
+ (Lcom/fasterxml/jackson/databind/BeanProperty;)Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;
+getDefaultImpl
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getPropertyName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTypeIdResolver
+ ()Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;
+ ()Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;
+getTypeInclusion
+ ()Lcom/fasterxml/jackson/annotation/JsonTypeInfo$As;
+ ()Lcom/fasterxml/jackson/annotation/JsonTypeInfo$As;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

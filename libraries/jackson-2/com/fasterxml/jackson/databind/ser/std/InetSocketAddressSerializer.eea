@@ -1,0 +1,12 @@
+class com/fasterxml/jackson/databind/ser/std/InetSocketAddressSerializer
+
+super com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+ <Ljava/net/InetSocketAddress;>
+ <Ljava/net/InetSocketAddress;>
+
+serialize
+ (Ljava/net/InetSocketAddress;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljava/net/InetSocketAddress;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+serializeWithType
+ (Ljava/net/InetSocketAddress;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;)V
+ (Ljava/net/InetSocketAddress;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;)V

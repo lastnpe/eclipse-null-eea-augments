@@ -1,0 +1,27 @@
+class com/fasterxml/jackson/databind/ser/impl/PropertyBasedObjectIdGenerator
+
+_property
+ Lcom/fasterxml/jackson/databind/ser/BeanPropertyWriter;
+ Lcom/fasterxml/jackson/databind/ser/BeanPropertyWriter;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/introspect/ObjectIdInfo;Lcom/fasterxml/jackson/databind/ser/BeanPropertyWriter;)V
+ (Lcom/fasterxml/jackson/databind/introspect/ObjectIdInfo;Lcom/fasterxml/jackson/databind/ser/BeanPropertyWriter;)V
+<init>
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/ser/BeanPropertyWriter;)V
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/ser/BeanPropertyWriter;)V
+canUseFor
+ (Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;)Z
+ (Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;)Z
+forScope
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<Ljava/lang/Object;>;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<Ljava/lang/Object;>;
+generateId
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+key
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator$IdKey;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator$IdKey;
+newForSerialization
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<Ljava/lang/Object;>;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<Ljava/lang/Object;>;

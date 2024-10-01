@@ -1,0 +1,120 @@
+class com/fasterxml/jackson/core/filter/FilteringParserDelegate
+
+_currToken
+ Lcom/fasterxml/jackson/core/JsonToken;
+ Lcom/fasterxml/jackson/core/JsonToken;
+_exposedContext
+ Lcom/fasterxml/jackson/core/filter/TokenFilterContext;
+ Lcom/fasterxml/jackson/core/filter/TokenFilterContext;
+_headContext
+ Lcom/fasterxml/jackson/core/filter/TokenFilterContext;
+ Lcom/fasterxml/jackson/core/filter/TokenFilterContext;
+_inclusion
+ Lcom/fasterxml/jackson/core/filter/TokenFilter$Inclusion;
+ Lcom/fasterxml/jackson/core/filter/TokenFilter$Inclusion;
+_itemFilter
+ Lcom/fasterxml/jackson/core/filter/TokenFilter;
+ Lcom/fasterxml/jackson/core/filter/TokenFilter;
+_lastClearedToken
+ Lcom/fasterxml/jackson/core/JsonToken;
+ Lcom/fasterxml/jackson/core/JsonToken;
+rootFilter
+ Lcom/fasterxml/jackson/core/filter/TokenFilter;
+ Lcom/fasterxml/jackson/core/filter/TokenFilter;
+
+<init>
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/core/filter/TokenFilter;Lcom/fasterxml/jackson/core/filter/TokenFilter$Inclusion;Z)V
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/core/filter/TokenFilter;Lcom/fasterxml/jackson/core/filter/TokenFilter$Inclusion;Z)V
+<init>
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/core/filter/TokenFilter;ZZ)V
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/core/filter/TokenFilter;ZZ)V
+_filterContext
+ ()Lcom/fasterxml/jackson/core/JsonStreamContext;
+ ()Lcom/fasterxml/jackson/core/JsonStreamContext;
+_nextToken2
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+_nextTokenWithBuffering
+ (Lcom/fasterxml/jackson/core/filter/TokenFilterContext;)Lcom/fasterxml/jackson/core/JsonToken;
+ (Lcom/fasterxml/jackson/core/filter/TokenFilterContext;)Lcom/fasterxml/jackson/core/JsonToken;
+currentLocation
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+currentName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+currentToken
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+currentTokenLocation
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+getBigIntegerValue
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;
+getBinaryValue
+ (Lcom/fasterxml/jackson/core/Base64Variant;)[B
+ (Lcom/fasterxml/jackson/core/Base64Variant;)[B
+getCurrentLocation
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+getCurrentName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getCurrentToken
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+getDecimalValue
+ ()Ljava/math/BigDecimal;
+ ()Ljava/math/BigDecimal;
+getEmbeddedObject
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getFilter
+ ()Lcom/fasterxml/jackson/core/filter/TokenFilter;
+ ()Lcom/fasterxml/jackson/core/filter/TokenFilter;
+getLastClearedToken
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+getNumberType
+ ()Lcom/fasterxml/jackson/core/JsonParser$NumberType;
+ ()Lcom/fasterxml/jackson/core/JsonParser$NumberType;
+getNumberValue
+ ()Ljava/lang/Number;
+ ()Ljava/lang/Number;
+getParsingContext
+ ()Lcom/fasterxml/jackson/core/JsonStreamContext;
+ ()Lcom/fasterxml/jackson/core/JsonStreamContext;
+getText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTextCharacters
+ ()[C
+ ()[C
+getTokenLocation
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+getValueAsString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getValueAsString
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+hasToken
+ (Lcom/fasterxml/jackson/core/JsonToken;)Z
+ (Lcom/fasterxml/jackson/core/JsonToken;)Z
+nextToken
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+nextValue
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+overrideCurrentName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+readBinaryValue
+ (Lcom/fasterxml/jackson/core/Base64Variant;Ljava/io/OutputStream;)I
+ (Lcom/fasterxml/jackson/core/Base64Variant;Ljava/io/OutputStream;)I
+skipChildren
+ ()Lcom/fasterxml/jackson/core/JsonParser;
+ ()Lcom/fasterxml/jackson/core/JsonParser;

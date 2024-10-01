@@ -1,0 +1,33 @@
+class com/fasterxml/jackson/databind/cfg/DatatypeFeatures
+
+defaultFeatures
+ ()Lcom/fasterxml/jackson/databind/cfg/DatatypeFeatures;
+ ()Lcom/fasterxml/jackson/databind/cfg/DatatypeFeatures;
+
+getExplicitState
+ (Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Ljava/lang/Boolean;
+ (Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Ljava/lang/Boolean;
+isEnabled
+ (Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Z
+ (Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Z
+isExplicitlyDisabled
+ (Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Z
+ (Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Z
+isExplicitlyEnabled
+ (Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Z
+ (Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Z
+isExplicitlySet
+ (Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Z
+ (Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Z
+with
+ (Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Lcom/fasterxml/jackson/databind/cfg/DatatypeFeatures;
+ (Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Lcom/fasterxml/jackson/databind/cfg/DatatypeFeatures;
+withFeatures
+ ([Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Lcom/fasterxml/jackson/databind/cfg/DatatypeFeatures;
+ ([Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Lcom/fasterxml/jackson/databind/cfg/DatatypeFeatures;
+without
+ (Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Lcom/fasterxml/jackson/databind/cfg/DatatypeFeatures;
+ (Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Lcom/fasterxml/jackson/databind/cfg/DatatypeFeatures;
+withoutFeatures
+ ([Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Lcom/fasterxml/jackson/databind/cfg/DatatypeFeatures;
+ ([Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Lcom/fasterxml/jackson/databind/cfg/DatatypeFeatures;

@@ -1,0 +1,35 @@
+class com/fasterxml/jackson/databind/ser/SerializerCache
+
+<init>
+ (Lcom/fasterxml/jackson/databind/util/LookupCache<Lcom/fasterxml/jackson/databind/util/TypeKey;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;>;)V
+ (Lcom/fasterxml/jackson/databind/util/LookupCache<Lcom/fasterxml/jackson/databind/util/TypeKey;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;>;)V
+addAndResolveNonTypedSerializer
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+addAndResolveNonTypedSerializer
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+addAndResolveNonTypedSerializer
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+addTypedSerializer
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;)V
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;)V
+addTypedSerializer
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;)V
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;)V
+getReadOnlyLookupMap
+ ()Lcom/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap;
+ ()Lcom/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap;
+typedValueSerializer
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;
+typedValueSerializer
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;
+untypedValueSerializer
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;
+untypedValueSerializer
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;

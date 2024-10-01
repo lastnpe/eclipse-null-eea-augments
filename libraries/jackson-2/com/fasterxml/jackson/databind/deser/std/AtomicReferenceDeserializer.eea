@@ -1,0 +1,33 @@
+class com/fasterxml/jackson/databind/deser/std/AtomicReferenceDeserializer
+
+super com/fasterxml/jackson/databind/deser/std/ReferenceTypeDeserializer
+ <Ljava/util/concurrent/atomic/AtomicReference<Ljava/lang/Object;>;>
+ <Ljava/util/concurrent/atomic/AtomicReference<Ljava/lang/Object;>;>
+
+<init>
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/deser/ValueInstantiator;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;)V
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/deser/ValueInstantiator;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;)V
+getAbsentValue
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object;
+ (L1com/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object; # @Inherited(com.fasterxml.jackson.databind.JsonDeserializer)
+getEmptyValue
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object;
+ (L1com/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object; # @Inherited(com.fasterxml.jackson.databind.deser.std.ReferenceTypeDeserializer)
+getNullValue
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/util/concurrent/atomic/AtomicReference<Ljava/lang/Object;>;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/util/concurrent/atomic/AtomicReference<Ljava/lang/Object;>;
+getReferenced
+ (Ljava/util/concurrent/atomic/AtomicReference<Ljava/lang/Object;>;)Ljava/lang/Object;
+ (Ljava/util/concurrent/atomic/AtomicReference<Ljava/lang/Object;>;)Ljava/lang/Object;
+referenceValue
+ (Ljava/lang/Object;)Ljava/util/concurrent/atomic/AtomicReference<Ljava/lang/Object;>;
+ (Ljava/lang/Object;)Ljava/util/concurrent/atomic/AtomicReference<Ljava/lang/Object;>;
+supportsUpdate
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;)Ljava/lang/Boolean;
+ (L1com/fasterxml/jackson/databind/DeserializationConfig;)L0java/lang/Boolean; # @Inherited(com.fasterxml.jackson.databind.deser.std.ReferenceTypeDeserializer)
+updateReference
+ (Ljava/util/concurrent/atomic/AtomicReference<Ljava/lang/Object;>;Ljava/lang/Object;)Ljava/util/concurrent/atomic/AtomicReference<Ljava/lang/Object;>;
+ (Ljava/util/concurrent/atomic/AtomicReference<Ljava/lang/Object;>;Ljava/lang/Object;)Ljava/util/concurrent/atomic/AtomicReference<Ljava/lang/Object;>;
+withResolved
+ (Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;)Lcom/fasterxml/jackson/databind/deser/std/AtomicReferenceDeserializer;
+ (Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;)Lcom/fasterxml/jackson/databind/deser/std/AtomicReferenceDeserializer;

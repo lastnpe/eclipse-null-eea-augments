@@ -1,0 +1,227 @@
+class com/fasterxml/jackson/databind/util/ClassUtil
+
+apostrophed
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+backticked
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+canBeABeanType
+ (Ljava/lang/Class<*>;)Ljava/lang/String;
+ (Ljava/lang/Class<*>;)Ljava/lang/String;
+checkAndFixAccess
+ (Ljava/lang/reflect/Member;)V
+ (Ljava/lang/reflect/Member;)V
+checkAndFixAccess
+ (Ljava/lang/reflect/Member;Z)V
+ (Ljava/lang/reflect/Member;Z)V
+classNameOf
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+classOf
+ (Ljava/lang/Object;)Ljava/lang/Class<*>;
+ (Ljava/lang/Object;)Ljava/lang/Class<*>;
+closeOnFailAndThrowAsIOE
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/io/Closeable;Ljava/lang/Exception;)V
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/io/Closeable;Ljava/lang/Exception;)V
+closeOnFailAndThrowAsIOE
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/Exception;)V
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/Exception;)V
+createInstance
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Z)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Z)TT;
+defaultValue
+ (Ljava/lang/Class<*>;)Ljava/lang/Object;
+ (Ljava/lang/Class<*>;)Ljava/lang/Object;
+emptyIterator
+ <T:Ljava/lang/Object;>()Ljava/util/Iterator<TT;>;
+ <T:Ljava/lang/Object;>()Ljava/util/Iterator<TT;>;
+exceptionMessage
+ (Ljava/lang/Throwable;)Ljava/lang/String;
+ (Ljava/lang/Throwable;)Ljava/lang/String;
+findClassAnnotations
+ (Ljava/lang/Class<*>;)[Ljava/lang/annotation/Annotation;
+ (Ljava/lang/Class<*>;)[Ljava/lang/annotation/Annotation;
+findConstructor
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Z)Ljava/lang/reflect/Constructor<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Z)Ljava/lang/reflect/Constructor<TT;>;
+findEnumType
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<+Ljava/lang/Enum<*>;>;
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<+Ljava/lang/Enum<*>;>;
+findEnumType
+ (Ljava/lang/Enum<*>;)Ljava/lang/Class<+Ljava/lang/Enum<*>;>;
+ (Ljava/lang/Enum<*>;)Ljava/lang/Class<+Ljava/lang/Enum<*>;>;
+findEnumType
+ (Ljava/util/EnumMap<**>;)Ljava/lang/Class<+Ljava/lang/Enum<*>;>;
+ (Ljava/util/EnumMap<**>;)Ljava/lang/Class<+Ljava/lang/Enum<*>;>;
+findEnumType
+ (Ljava/util/EnumSet<*>;)Ljava/lang/Class<+Ljava/lang/Enum<*>;>;
+ (Ljava/util/EnumSet<*>;)Ljava/lang/Class<+Ljava/lang/Enum<*>;>;
+findFirstAnnotatedEnumValue
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<Ljava/lang/Enum<*>;>;Ljava/lang/Class<TT;>;)Ljava/lang/Enum<*>;
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<Ljava/lang/Enum<*>;>;Ljava/lang/Class<TT;>;)Ljava/lang/Enum<*>;
+findRawSuperTypes
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;Z)Ljava/util/List<Ljava/lang/Class<*>;>;
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;Z)Ljava/util/List<Ljava/lang/Class<*>;>;
+findSuperClasses
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;Z)Ljava/util/List<Ljava/lang/Class<*>;>;
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;Z)Ljava/util/List<Ljava/lang/Class<*>;>;
+findSuperTypes
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class<*>;Z)Ljava/util/List<Lcom/fasterxml/jackson/databind/JavaType;>;
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class<*>;Z)Ljava/util/List<Lcom/fasterxml/jackson/databind/JavaType;>;
+findSuperTypes
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Ljava/util/List<Ljava/lang/Class<*>;>;
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Ljava/util/List<Ljava/lang/Class<*>;>;
+findSuperTypes
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;Ljava/util/List<Ljava/lang/Class<*>;>;)Ljava/util/List<Ljava/lang/Class<*>;>;
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;Ljava/util/List<Ljava/lang/Class<*>;>;)Ljava/util/List<Ljava/lang/Class<*>;>;
+getClassDescription
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+getClassMethods
+ (Ljava/lang/Class<*>;)[Ljava/lang/reflect/Method;
+ (Ljava/lang/Class<*>;)[Ljava/lang/reflect/Method;
+getConstructors
+ (Ljava/lang/Class<*>;)[Lcom/fasterxml/jackson/databind/util/ClassUtil$Ctor;
+ (Ljava/lang/Class<*>;)[Lcom/fasterxml/jackson/databind/util/ClassUtil$Ctor;
+getDeclaredFields
+ (Ljava/lang/Class<*>;)[Ljava/lang/reflect/Field;
+ (Ljava/lang/Class<*>;)[Ljava/lang/reflect/Field;
+getDeclaredMethods
+ (Ljava/lang/Class<*>;)[Ljava/lang/reflect/Method;
+ (Ljava/lang/Class<*>;)[Ljava/lang/reflect/Method;
+getDeclaringClass
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+getEnclosingClass
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+getGenericInterfaces
+ (Ljava/lang/Class<*>;)[Ljava/lang/reflect/Type;
+ (Ljava/lang/Class<*>;)[Ljava/lang/reflect/Type;
+getGenericSuperclass
+ (Ljava/lang/Class<*>;)Ljava/lang/reflect/Type;
+ (Ljava/lang/Class<*>;)Ljava/lang/reflect/Type;
+getOuterClass
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+getPackageName
+ (Ljava/lang/Class<*>;)Ljava/lang/String;
+ (Ljava/lang/Class<*>;)Ljava/lang/String;
+getRootCause
+ (Ljava/lang/Throwable;)Ljava/lang/Throwable;
+ (Ljava/lang/Throwable;)Ljava/lang/Throwable;
+getTypeDescription
+ (Lcom/fasterxml/jackson/databind/JavaType;)Ljava/lang/String;
+ (Lcom/fasterxml/jackson/databind/JavaType;)Ljava/lang/String;
+hasClass
+ (Ljava/lang/Object;Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Object;Ljava/lang/Class<*>;)Z
+hasEnclosingMethod
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+hasGetterSignature
+ (Ljava/lang/reflect/Method;)Z
+ (Ljava/lang/reflect/Method;)Z
+isBogusClass
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isCollectionMapOrArray
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isConcrete
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isConcrete
+ (Ljava/lang/reflect/Member;)Z
+ (Ljava/lang/reflect/Member;)Z
+isEnumType
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isJDKClass
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isJacksonStdImpl
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isJacksonStdImpl
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+isLocalType
+ (Ljava/lang/Class<*>;Z)Ljava/lang/String;
+ (Ljava/lang/Class<*>;Z)Ljava/lang/String;
+isNonStaticInnerClass
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isObjectOrPrimitive
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isProxyType
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isRecordType
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+name
+ (Lcom/fasterxml/jackson/databind/PropertyName;)Ljava/lang/String;
+ (Lcom/fasterxml/jackson/databind/PropertyName;)Ljava/lang/String;
+name
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+nameOf
+ (Lcom/fasterxml/jackson/databind/util/Named;)Ljava/lang/String;
+ (Lcom/fasterxml/jackson/databind/util/Named;)Ljava/lang/String;
+nameOf
+ (Ljava/lang/Class<*>;)Ljava/lang/String;
+ (Ljava/lang/Class<*>;)Ljava/lang/String;
+nonNull
+ <T:Ljava/lang/Object;>(TT;TT;)TT;
+ <T:Ljava/lang/Object;>(TT;TT;)TT;
+nonNullString
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+nullOrToString
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+primitiveType
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+quotedOr
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+rawClass
+ (Lcom/fasterxml/jackson/databind/JavaType;)Ljava/lang/Class<*>;
+ (Lcom/fasterxml/jackson/databind/JavaType;)Ljava/lang/Class<*>;
+throwAsIAE
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+throwAsIAE
+ (Ljava/lang/Throwable;Ljava/lang/String;)V
+ (Ljava/lang/Throwable;Ljava/lang/String;)V
+throwAsMappingException
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/io/IOException;)TT;
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/io/IOException;)TT;
+throwIfError
+ (Ljava/lang/Throwable;)Ljava/lang/Throwable;
+ (Ljava/lang/Throwable;)Ljava/lang/Throwable;
+throwIfIOE
+ (Ljava/lang/Throwable;)Ljava/lang/Throwable;
+ (Ljava/lang/Throwable;)Ljava/lang/Throwable;
+throwIfRTE
+ (Ljava/lang/Throwable;)Ljava/lang/Throwable;
+ (Ljava/lang/Throwable;)Ljava/lang/Throwable;
+throwRootCauseIfIOE
+ (Ljava/lang/Throwable;)Ljava/lang/Throwable;
+ (Ljava/lang/Throwable;)Ljava/lang/Throwable;
+unwrapAndThrowAsIAE
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+unwrapAndThrowAsIAE
+ (Ljava/lang/Throwable;Ljava/lang/String;)V
+ (Ljava/lang/Throwable;Ljava/lang/String;)V
+verifyMustOverride
+ (Ljava/lang/Class<*>;Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/Class<*>;Ljava/lang/Object;Ljava/lang/String;)V
+wrapperType
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<*>;

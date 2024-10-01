@@ -1,0 +1,170 @@
+class com/fasterxml/jackson/core/base/ParserBase
+
+JSON_READ_CAPABILITIES
+ Lcom/fasterxml/jackson/core/util/JacksonFeatureSet<Lcom/fasterxml/jackson/core/StreamReadCapability;>;
+ L1com/fasterxml/jackson/core/util/JacksonFeatureSet<Lcom/fasterxml/jackson/core/StreamReadCapability;>;
+
+growArrayBy
+ ([II)[I
+ ([II)[I
+
+_binaryValue
+ [B
+ [B
+_byteArrayBuilder
+ Lcom/fasterxml/jackson/core/util/ByteArrayBuilder;
+ Lcom/fasterxml/jackson/core/util/ByteArrayBuilder;
+_ioContext
+ Lcom/fasterxml/jackson/core/io/IOContext;
+ Lcom/fasterxml/jackson/core/io/IOContext;
+_nameCopyBuffer
+ [C
+ [C
+_nextToken
+ Lcom/fasterxml/jackson/core/JsonToken;
+ Lcom/fasterxml/jackson/core/JsonToken;
+_numberBigDecimal
+ Ljava/math/BigDecimal;
+ Ljava/math/BigDecimal;
+_numberBigInt
+ Ljava/math/BigInteger;
+ Ljava/math/BigInteger;
+_numberString
+ Ljava/lang/String;
+ Ljava/lang/String;
+_parsingContext
+ Lcom/fasterxml/jackson/core/json/JsonReadContext;
+ Lcom/fasterxml/jackson/core/json/JsonReadContext;
+_streamReadConstraints
+ Lcom/fasterxml/jackson/core/StreamReadConstraints;
+ Lcom/fasterxml/jackson/core/StreamReadConstraints;
+_textBuffer
+ Lcom/fasterxml/jackson/core/util/TextBuffer;
+ Lcom/fasterxml/jackson/core/util/TextBuffer;
+
+<init>
+ (Lcom/fasterxml/jackson/core/io/IOContext;I)V
+ (Lcom/fasterxml/jackson/core/io/IOContext;I)V
+_contentReference
+ ()Lcom/fasterxml/jackson/core/io/ContentReference;
+ ()Lcom/fasterxml/jackson/core/io/ContentReference;
+_contentReferenceRedacted
+ ()Lcom/fasterxml/jackson/core/io/ContentReference;
+ ()Lcom/fasterxml/jackson/core/io/ContentReference;
+_convertBigDecimalToBigInteger
+ (Ljava/math/BigDecimal;)Ljava/math/BigInteger;
+ (Ljava/math/BigDecimal;)Ljava/math/BigInteger;
+_decodeBase64Escape
+ (Lcom/fasterxml/jackson/core/Base64Variant;CI)I
+ (Lcom/fasterxml/jackson/core/Base64Variant;CI)I
+_decodeBase64Escape
+ (Lcom/fasterxml/jackson/core/Base64Variant;II)I
+ (Lcom/fasterxml/jackson/core/Base64Variant;II)I
+_getBigDecimal
+ ()Ljava/math/BigDecimal;
+ ()Ljava/math/BigDecimal;
+_getBigInteger
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;
+_getByteArrayBuilder
+ ()Lcom/fasterxml/jackson/core/util/ByteArrayBuilder;
+ ()Lcom/fasterxml/jackson/core/util/ByteArrayBuilder;
+_getSourceReference
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+_growNameDecodeBuffer
+ ([II)[I
+ ([II)[I
+_handleBase64MissingPadding
+ (Lcom/fasterxml/jackson/core/Base64Variant;)V
+ (Lcom/fasterxml/jackson/core/Base64Variant;)V
+_reportTooLongIntegral
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+_throwUnquotedSpace
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+_validJsonTokenList
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+_validJsonValueList
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+assignCurrentValue
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+currentValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+disable
+ (Lcom/fasterxml/jackson/core/JsonParser$Feature;)Lcom/fasterxml/jackson/core/JsonParser;
+ (Lcom/fasterxml/jackson/core/JsonParser$Feature;)Lcom/fasterxml/jackson/core/JsonParser;
+enable
+ (Lcom/fasterxml/jackson/core/JsonParser$Feature;)Lcom/fasterxml/jackson/core/JsonParser;
+ (Lcom/fasterxml/jackson/core/JsonParser$Feature;)Lcom/fasterxml/jackson/core/JsonParser;
+getBigIntegerValue
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;
+getBinaryValue
+ (Lcom/fasterxml/jackson/core/Base64Variant;)[B
+ (Lcom/fasterxml/jackson/core/Base64Variant;)[B
+getCurrentLocation
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+getCurrentName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDecimalValue
+ ()Ljava/math/BigDecimal;
+ ()Ljava/math/BigDecimal;
+getNumberType
+ ()Lcom/fasterxml/jackson/core/JsonParser$NumberType;
+ ()Lcom/fasterxml/jackson/core/JsonParser$NumberType;
+getNumberValue
+ ()Ljava/lang/Number;
+ ()Ljava/lang/Number;
+getNumberValueDeferred
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getNumberValueExact
+ ()Ljava/lang/Number;
+ ()Ljava/lang/Number;
+getParsingContext
+ ()Lcom/fasterxml/jackson/core/json/JsonReadContext;
+ ()Lcom/fasterxml/jackson/core/json/JsonReadContext;
+getTokenLocation
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+overrideCurrentName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+overrideStdFeatures
+ (II)Lcom/fasterxml/jackson/core/JsonParser;
+ (II)Lcom/fasterxml/jackson/core/JsonParser;
+reportInvalidBase64Char
+ (Lcom/fasterxml/jackson/core/Base64Variant;II)Ljava/lang/IllegalArgumentException;
+ (Lcom/fasterxml/jackson/core/Base64Variant;II)Ljava/lang/IllegalArgumentException;
+reportInvalidBase64Char
+ (Lcom/fasterxml/jackson/core/Base64Variant;IILjava/lang/String;)Ljava/lang/IllegalArgumentException;
+ (Lcom/fasterxml/jackson/core/Base64Variant;IILjava/lang/String;)Ljava/lang/IllegalArgumentException;
+reset
+ (ZIII)Lcom/fasterxml/jackson/core/JsonToken;
+ (ZIII)Lcom/fasterxml/jackson/core/JsonToken;
+resetAsNaN
+ (Ljava/lang/String;D)Lcom/fasterxml/jackson/core/JsonToken;
+ (Ljava/lang/String;D)Lcom/fasterxml/jackson/core/JsonToken;
+resetFloat
+ (ZIII)Lcom/fasterxml/jackson/core/JsonToken;
+ (ZIII)Lcom/fasterxml/jackson/core/JsonToken;
+resetInt
+ (ZI)Lcom/fasterxml/jackson/core/JsonToken;
+ (ZI)Lcom/fasterxml/jackson/core/JsonToken;
+setFeatureMask
+ (I)Lcom/fasterxml/jackson/core/JsonParser;
+ (I)Lcom/fasterxml/jackson/core/JsonParser;
+streamReadConstraints
+ ()Lcom/fasterxml/jackson/core/StreamReadConstraints;
+ ()Lcom/fasterxml/jackson/core/StreamReadConstraints;
+version
+ ()Lcom/fasterxml/jackson/core/Version;
+ ()Lcom/fasterxml/jackson/core/Version;

@@ -1,0 +1,83 @@
+class com/fasterxml/jackson/core/Base64Variant
+
+<init>
+ (Lcom/fasterxml/jackson/core/Base64Variant;Ljava/lang/String;I)V
+ (Lcom/fasterxml/jackson/core/Base64Variant;Ljava/lang/String;I)V
+<init>
+ (Lcom/fasterxml/jackson/core/Base64Variant;Ljava/lang/String;ZCI)V
+ (Lcom/fasterxml/jackson/core/Base64Variant;Ljava/lang/String;ZCI)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;ZCI)V
+ (Ljava/lang/String;Ljava/lang/String;ZCI)V
+_reportInvalidBase64
+ (CILjava/lang/String;)V
+ (CILjava/lang/String;)V
+decode
+ (Ljava/lang/String;)[B
+ (Ljava/lang/String;)[B
+decode
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/util/ByteArrayBuilder;)V
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/util/ByteArrayBuilder;)V
+encode
+ ([B)Ljava/lang/String;
+ ([B)Ljava/lang/String;
+encode
+ ([BZ)Ljava/lang/String;
+ ([BZ)Ljava/lang/String;
+encode
+ ([BZLjava/lang/String;)Ljava/lang/String;
+ ([BZLjava/lang/String;)Ljava/lang/String;
+encodeBase64Chunk
+ (I[BI)I
+ (I[BI)I
+encodeBase64Chunk
+ (I[CI)I
+ (I[CI)I
+encodeBase64Chunk
+ (Ljava/lang/StringBuilder;I)V
+ (Ljava/lang/StringBuilder;I)V
+encodeBase64Partial
+ (II[BI)I
+ (II[BI)I
+encodeBase64Partial
+ (II[CI)I
+ (II[CI)I
+encodeBase64Partial
+ (Ljava/lang/StringBuilder;II)V
+ (Ljava/lang/StringBuilder;II)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+missingPaddingMessage
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+paddingReadBehaviour
+ ()Lcom/fasterxml/jackson/core/Base64Variant$PaddingReadBehaviour;
+ ()Lcom/fasterxml/jackson/core/Base64Variant$PaddingReadBehaviour;
+readResolve
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+unexpectedPaddingMessage
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+withPaddingAllowed
+ ()Lcom/fasterxml/jackson/core/Base64Variant;
+ ()Lcom/fasterxml/jackson/core/Base64Variant;
+withPaddingForbidden
+ ()Lcom/fasterxml/jackson/core/Base64Variant;
+ ()Lcom/fasterxml/jackson/core/Base64Variant;
+withPaddingRequired
+ ()Lcom/fasterxml/jackson/core/Base64Variant;
+ ()Lcom/fasterxml/jackson/core/Base64Variant;
+withReadPadding
+ (Lcom/fasterxml/jackson/core/Base64Variant$PaddingReadBehaviour;)Lcom/fasterxml/jackson/core/Base64Variant;
+ (Lcom/fasterxml/jackson/core/Base64Variant$PaddingReadBehaviour;)Lcom/fasterxml/jackson/core/Base64Variant;
+withWritePadding
+ (Z)Lcom/fasterxml/jackson/core/Base64Variant;
+ (Z)Lcom/fasterxml/jackson/core/Base64Variant;

@@ -1,0 +1,15 @@
+class com/fasterxml/jackson/databind/ser/std/SqlTimeSerializer
+
+super com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+ <Ljava/sql/Time;>
+ <Ljava/sql/Time;>
+
+acceptJsonFormatVisitor
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+getSchema
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JsonNode;
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JsonNode;
+serialize
+ (Ljava/sql/Time;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljava/sql/Time;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V

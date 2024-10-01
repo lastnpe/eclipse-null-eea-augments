@@ -1,0 +1,24 @@
+class com/fasterxml/jackson/core/io/UTF8Writer
+
+illegalSurrogateDesc
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+
+<init>
+ (Lcom/fasterxml/jackson/core/io/IOContext;Ljava/io/OutputStream;)V
+ (Lcom/fasterxml/jackson/core/io/IOContext;Ljava/io/OutputStream;)V
+append
+ (C)Ljava/io/Writer;
+ (C)L1java/io/Writer; # @Inherited(java.io.Writer)
+write
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(java.io.Writer)
+write
+ (Ljava/lang/String;II)V
+ (L1java/lang/String;II)V # @Inherited(java.io.Writer)
+write
+ ([C)V
+ ([1C)V # @Inherited(java.io.Writer)
+write
+ ([CII)V
+ ([1CII)V # @Inherited(java.io.Writer)

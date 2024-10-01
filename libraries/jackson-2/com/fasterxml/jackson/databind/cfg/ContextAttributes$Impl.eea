@@ -1,0 +1,44 @@
+class com/fasterxml/jackson/databind/cfg/ContextAttributes$Impl
+
+EMPTY
+ Lcom/fasterxml/jackson/databind/cfg/ContextAttributes$Impl;
+ L1com/fasterxml/jackson/databind/cfg/ContextAttributes$Impl;
+NULL_SURROGATE
+ Ljava/lang/Object;
+ L1java/lang/Object;
+
+getEmpty
+ ()Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+ ()Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+
+_nonShared
+ Ljava/util/Map<Ljava/lang/Object;Ljava/lang/Object;>;
+ Ljava/util/Map<Ljava/lang/Object;Ljava/lang/Object;>;
+_shared
+ Ljava/util/Map<**>;
+ Ljava/util/Map<**>;
+
+<init>
+ (Ljava/util/Map<**>;)V
+ (Ljava/util/Map<**>;)V
+<init>
+ (Ljava/util/Map<**>;Ljava/util/Map<Ljava/lang/Object;Ljava/lang/Object;>;)V
+ (Ljava/util/Map<**>;Ljava/util/Map<Ljava/lang/Object;Ljava/lang/Object;>;)V
+getAttribute
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+nonSharedInstance
+ (Ljava/lang/Object;Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+ (Ljava/lang/Object;Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+withPerCallAttribute
+ (Ljava/lang/Object;Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+ (Ljava/lang/Object;Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+withSharedAttribute
+ (Ljava/lang/Object;Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+ (Ljava/lang/Object;Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+withSharedAttributes
+ (Ljava/util/Map<**>;)Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+ (Ljava/util/Map<**>;)Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+withoutSharedAttribute
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;

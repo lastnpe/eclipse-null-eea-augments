@@ -1,0 +1,39 @@
+class com/fasterxml/jackson/databind/ser/std/StdArraySerializers$BooleanArraySerializer
+
+super com/fasterxml/jackson/databind/ser/std/ArraySerializerBase
+ <[Z>
+ <[Z>
+
+<init>
+ (Lcom/fasterxml/jackson/databind/ser/std/StdArraySerializers$BooleanArraySerializer;Lcom/fasterxml/jackson/databind/BeanProperty;Ljava/lang/Boolean;)V
+ (Lcom/fasterxml/jackson/databind/ser/std/StdArraySerializers$BooleanArraySerializer;Lcom/fasterxml/jackson/databind/BeanProperty;Ljava/lang/Boolean;)V
+_withResolved
+ (Lcom/fasterxml/jackson/databind/BeanProperty;Ljava/lang/Boolean;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+ (Lcom/fasterxml/jackson/databind/BeanProperty;Ljava/lang/Boolean;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+_withValueTypeSerializer
+ (Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;)Lcom/fasterxml/jackson/databind/ser/ContainerSerializer<*>;
+ (Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;)Lcom/fasterxml/jackson/databind/ser/ContainerSerializer<*>;
+acceptJsonFormatVisitor
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+getContentSerializer
+ ()Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+ ()Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+getContentType
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+getSchema
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JsonNode;
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JsonNode;
+hasSingleElement
+ ([Z)Z
+ ([Z)Z
+isEmpty
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;[Z)Z
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;[Z)Z
+serialize
+ ([ZLcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ ([ZLcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+serializeContents
+ ([ZLcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ ([ZLcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V

@@ -1,0 +1,244 @@
+class com/fasterxml/jackson/core/JsonParser
+
+DEFAULT_READ_CAPABILITIES
+ Lcom/fasterxml/jackson/core/util/JacksonFeatureSet<Lcom/fasterxml/jackson/core/StreamReadCapability;>;
+ L1com/fasterxml/jackson/core/util/JacksonFeatureSet<Lcom/fasterxml/jackson/core/StreamReadCapability;>;
+
+_requestPayload
+ Lcom/fasterxml/jackson/core/util/RequestPayload;
+ Lcom/fasterxml/jackson/core/util/RequestPayload;
+
+_codec
+ ()Lcom/fasterxml/jackson/core/ObjectCodec;
+ ()Lcom/fasterxml/jackson/core/ObjectCodec;
+_constructError
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/JsonParseException;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/JsonParseException;
+_constructReadException
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/JsonParseException;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/JsonParseException;
+_constructReadException
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonLocation;)Lcom/fasterxml/jackson/core/JsonParseException;
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonLocation;)Lcom/fasterxml/jackson/core/JsonParseException;
+_constructReadException
+ (Ljava/lang/String;Ljava/lang/Object;)Lcom/fasterxml/jackson/core/JsonParseException;
+ (Ljava/lang/String;Ljava/lang/Object;)Lcom/fasterxml/jackson/core/JsonParseException;
+_constructReadException
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)Lcom/fasterxml/jackson/core/JsonParseException;
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)Lcom/fasterxml/jackson/core/JsonParseException;
+_constructReadException
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/fasterxml/jackson/core/JsonParseException;
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/fasterxml/jackson/core/JsonParseException;
+_constructReadException
+ (Ljava/lang/String;Ljava/lang/Throwable;)Lcom/fasterxml/jackson/core/JsonParseException;
+ (Ljava/lang/String;Ljava/lang/Throwable;)Lcom/fasterxml/jackson/core/JsonParseException;
+assignCurrentValue
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+canUseSchema
+ (Lcom/fasterxml/jackson/core/FormatSchema;)Z
+ (Lcom/fasterxml/jackson/core/FormatSchema;)Z
+configure
+ (Lcom/fasterxml/jackson/core/JsonParser$Feature;Z)Lcom/fasterxml/jackson/core/JsonParser;
+ (Lcom/fasterxml/jackson/core/JsonParser$Feature;Z)Lcom/fasterxml/jackson/core/JsonParser;
+currentLocation
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+currentName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+currentToken
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+currentTokenLocation
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+currentValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+disable
+ (Lcom/fasterxml/jackson/core/JsonParser$Feature;)Lcom/fasterxml/jackson/core/JsonParser;
+ (Lcom/fasterxml/jackson/core/JsonParser$Feature;)Lcom/fasterxml/jackson/core/JsonParser;
+enable
+ (Lcom/fasterxml/jackson/core/JsonParser$Feature;)Lcom/fasterxml/jackson/core/JsonParser;
+ (Lcom/fasterxml/jackson/core/JsonParser$Feature;)Lcom/fasterxml/jackson/core/JsonParser;
+getBigIntegerValue
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;
+getBinaryValue
+ ()[B
+ ()[B
+getBinaryValue
+ (Lcom/fasterxml/jackson/core/Base64Variant;)[B
+ (Lcom/fasterxml/jackson/core/Base64Variant;)[B
+getCodec
+ ()Lcom/fasterxml/jackson/core/ObjectCodec;
+ ()Lcom/fasterxml/jackson/core/ObjectCodec;
+getCurrentLocation
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+getCurrentName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getCurrentToken
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+getCurrentValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getDecimalValue
+ ()Ljava/math/BigDecimal;
+ ()Ljava/math/BigDecimal;
+getEmbeddedObject
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getInputSource
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getLastClearedToken
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+getNonBlockingInputFeeder
+ ()Lcom/fasterxml/jackson/core/async/NonBlockingInputFeeder;
+ ()Lcom/fasterxml/jackson/core/async/NonBlockingInputFeeder;
+getNumberType
+ ()Lcom/fasterxml/jackson/core/JsonParser$NumberType;
+ ()Lcom/fasterxml/jackson/core/JsonParser$NumberType;
+getNumberTypeFP
+ ()Lcom/fasterxml/jackson/core/JsonParser$NumberTypeFP;
+ ()Lcom/fasterxml/jackson/core/JsonParser$NumberTypeFP;
+getNumberValue
+ ()Ljava/lang/Number;
+ ()Ljava/lang/Number;
+getNumberValueDeferred
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getNumberValueExact
+ ()Ljava/lang/Number;
+ ()Ljava/lang/Number;
+getObjectId
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getParsingContext
+ ()Lcom/fasterxml/jackson/core/JsonStreamContext;
+ ()Lcom/fasterxml/jackson/core/JsonStreamContext;
+getReadCapabilities
+ ()Lcom/fasterxml/jackson/core/util/JacksonFeatureSet<Lcom/fasterxml/jackson/core/StreamReadCapability;>;
+ ()Lcom/fasterxml/jackson/core/util/JacksonFeatureSet<Lcom/fasterxml/jackson/core/StreamReadCapability;>;
+getSchema
+ ()Lcom/fasterxml/jackson/core/FormatSchema;
+ ()Lcom/fasterxml/jackson/core/FormatSchema;
+getText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getText
+ (Ljava/io/Writer;)I
+ (Ljava/io/Writer;)I
+getTextCharacters
+ ()[C
+ ()[C
+getTokenLocation
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+getTypeId
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getValueAsString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getValueAsString
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+hasToken
+ (Lcom/fasterxml/jackson/core/JsonToken;)Z
+ (Lcom/fasterxml/jackson/core/JsonToken;)Z
+isEnabled
+ (Lcom/fasterxml/jackson/core/JsonParser$Feature;)Z
+ (Lcom/fasterxml/jackson/core/JsonParser$Feature;)Z
+isEnabled
+ (Lcom/fasterxml/jackson/core/StreamReadFeature;)Z
+ (Lcom/fasterxml/jackson/core/StreamReadFeature;)Z
+nextBooleanValue
+ ()Ljava/lang/Boolean;
+ ()Ljava/lang/Boolean;
+nextFieldName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+nextFieldName
+ (Lcom/fasterxml/jackson/core/SerializableString;)Z
+ (Lcom/fasterxml/jackson/core/SerializableString;)Z
+nextTextValue
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+nextToken
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+nextValue
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+overrideCurrentName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+overrideFormatFeatures
+ (II)Lcom/fasterxml/jackson/core/JsonParser;
+ (II)Lcom/fasterxml/jackson/core/JsonParser;
+overrideStdFeatures
+ (II)Lcom/fasterxml/jackson/core/JsonParser;
+ (II)Lcom/fasterxml/jackson/core/JsonParser;
+readBinaryValue
+ (Lcom/fasterxml/jackson/core/Base64Variant;Ljava/io/OutputStream;)I
+ (Lcom/fasterxml/jackson/core/Base64Variant;Ljava/io/OutputStream;)I
+readBinaryValue
+ (Ljava/io/OutputStream;)I
+ (Ljava/io/OutputStream;)I
+readValueAs
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/core/type/TypeReference<*>;)TT;
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/core/type/TypeReference<*>;)TT;
+readValueAs
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+readValueAsTree
+ <T::Lcom/fasterxml/jackson/core/TreeNode;>()TT;
+ <T::Lcom/fasterxml/jackson/core/TreeNode;>()TT;
+readValuesAs
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/core/type/TypeReference<TT;>;)Ljava/util/Iterator<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/core/type/TypeReference<TT;>;)Ljava/util/Iterator<TT;>;
+readValuesAs
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/util/Iterator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/util/Iterator<TT;>;
+releaseBuffered
+ (Ljava/io/OutputStream;)I
+ (Ljava/io/OutputStream;)I
+releaseBuffered
+ (Ljava/io/Writer;)I
+ (Ljava/io/Writer;)I
+setCodec
+ (Lcom/fasterxml/jackson/core/ObjectCodec;)V
+ (Lcom/fasterxml/jackson/core/ObjectCodec;)V
+setCurrentValue
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setFeatureMask
+ (I)Lcom/fasterxml/jackson/core/JsonParser;
+ (I)Lcom/fasterxml/jackson/core/JsonParser;
+setRequestPayloadOnError
+ (Lcom/fasterxml/jackson/core/util/RequestPayload;)V
+ (Lcom/fasterxml/jackson/core/util/RequestPayload;)V
+setRequestPayloadOnError
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setRequestPayloadOnError
+ ([BLjava/lang/String;)V
+ ([BLjava/lang/String;)V
+setSchema
+ (Lcom/fasterxml/jackson/core/FormatSchema;)V
+ (Lcom/fasterxml/jackson/core/FormatSchema;)V
+skipChildren
+ ()Lcom/fasterxml/jackson/core/JsonParser;
+ ()Lcom/fasterxml/jackson/core/JsonParser;
+streamReadConstraints
+ ()Lcom/fasterxml/jackson/core/StreamReadConstraints;
+ ()Lcom/fasterxml/jackson/core/StreamReadConstraints;
+version
+ ()Lcom/fasterxml/jackson/core/Version;
+ ()Lcom/fasterxml/jackson/core/Version;

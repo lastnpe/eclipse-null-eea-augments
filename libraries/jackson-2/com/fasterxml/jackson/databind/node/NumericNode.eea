@@ -1,0 +1,20 @@
+class com/fasterxml/jackson/databind/node/NumericNode
+
+asText
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Overrides(com.fasterxml.jackson.databind.JsonNode)
+bigIntegerValue
+ ()Ljava/math/BigInteger;
+ ()L1java/math/BigInteger; # @Inherited(com.fasterxml.jackson.databind.JsonNode)
+decimalValue
+ ()Ljava/math/BigDecimal;
+ ()L1java/math/BigDecimal; # @Inherited(com.fasterxml.jackson.databind.JsonNode)
+getNodeType
+ ()Lcom/fasterxml/jackson/databind/node/JsonNodeType;
+ ()L1com/fasterxml/jackson/databind/node/JsonNodeType; # @Inherited(com.fasterxml.jackson.databind.JsonNode)
+numberType
+ ()Lcom/fasterxml/jackson/core/JsonParser$NumberType;
+ ()L1com/fasterxml/jackson/core/JsonParser$NumberType; # @Overrides(com.fasterxml.jackson.databind.node.BaseJsonNode)
+numberValue
+ ()Ljava/lang/Number;
+ ()L1java/lang/Number; # @Inherited(com.fasterxml.jackson.databind.JsonNode)

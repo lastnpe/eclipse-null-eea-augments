@@ -1,0 +1,45 @@
+class com/fasterxml/jackson/databind/deser/impl/ReadableObjectId
+
+_item
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+_key
+ Lcom/fasterxml/jackson/annotation/ObjectIdGenerator$IdKey;
+ Lcom/fasterxml/jackson/annotation/ObjectIdGenerator$IdKey;
+_referringProperties
+ Ljava/util/LinkedList<Lcom/fasterxml/jackson/databind/deser/impl/ReadableObjectId$Referring;>;
+ Ljava/util/LinkedList<Lcom/fasterxml/jackson/databind/deser/impl/ReadableObjectId$Referring;>;
+_resolver
+ Lcom/fasterxml/jackson/annotation/ObjectIdResolver;
+ Lcom/fasterxml/jackson/annotation/ObjectIdResolver;
+
+<init>
+ (Lcom/fasterxml/jackson/annotation/ObjectIdGenerator$IdKey;)V
+ (Lcom/fasterxml/jackson/annotation/ObjectIdGenerator$IdKey;)V
+appendReferring
+ (Lcom/fasterxml/jackson/databind/deser/impl/ReadableObjectId$Referring;)V
+ (Lcom/fasterxml/jackson/databind/deser/impl/ReadableObjectId$Referring;)V
+bindItem
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+getKey
+ ()Lcom/fasterxml/jackson/annotation/ObjectIdGenerator$IdKey;
+ ()Lcom/fasterxml/jackson/annotation/ObjectIdGenerator$IdKey;
+getResolver
+ ()Lcom/fasterxml/jackson/annotation/ObjectIdResolver;
+ ()Lcom/fasterxml/jackson/annotation/ObjectIdResolver;
+referringProperties
+ ()Ljava/util/Iterator<Lcom/fasterxml/jackson/databind/deser/impl/ReadableObjectId$Referring;>;
+ ()Ljava/util/Iterator<Lcom/fasterxml/jackson/databind/deser/impl/ReadableObjectId$Referring;>;
+resolve
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+setResolver
+ (Lcom/fasterxml/jackson/annotation/ObjectIdResolver;)V
+ (Lcom/fasterxml/jackson/annotation/ObjectIdResolver;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+tryToResolveUnresolved
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;)Z
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;)Z

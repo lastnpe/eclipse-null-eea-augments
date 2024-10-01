@@ -1,0 +1,55 @@
+class com/fasterxml/jackson/databind/util/TypeKey
+
+typedHash
+ (Lcom/fasterxml/jackson/databind/JavaType;)I
+ (Lcom/fasterxml/jackson/databind/JavaType;)I
+typedHash
+ (Ljava/lang/Class<*>;)I
+ (Ljava/lang/Class<*>;)I
+untypedHash
+ (Lcom/fasterxml/jackson/databind/JavaType;)I
+ (Lcom/fasterxml/jackson/databind/JavaType;)I
+untypedHash
+ (Ljava/lang/Class<*>;)I
+ (Ljava/lang/Class<*>;)I
+
+_class
+ Ljava/lang/Class<*>;
+ Ljava/lang/Class<*>;
+_type
+ Lcom/fasterxml/jackson/databind/JavaType;
+ Lcom/fasterxml/jackson/databind/JavaType;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/JavaType;Z)V
+ (Lcom/fasterxml/jackson/databind/JavaType;Z)V
+<init>
+ (Lcom/fasterxml/jackson/databind/util/TypeKey;)V
+ (Lcom/fasterxml/jackson/databind/util/TypeKey;)V
+<init>
+ (Ljava/lang/Class<*>;Z)V
+ (Ljava/lang/Class<*>;Z)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getRawType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getType
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+resetTyped
+ (Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/JavaType;)V
+resetTyped
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+resetUntyped
+ (Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/JavaType;)V
+resetUntyped
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

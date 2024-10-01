@@ -1,0 +1,30 @@
+class com/fasterxml/jackson/databind/deser/impl/ManagedReferenceProperty
+
+_backProperty
+ Lcom/fasterxml/jackson/databind/deser/SettableBeanProperty;
+ Lcom/fasterxml/jackson/databind/deser/SettableBeanProperty;
+_referenceName
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/deser/SettableBeanProperty;Ljava/lang/String;Lcom/fasterxml/jackson/databind/deser/SettableBeanProperty;Z)V
+ (Lcom/fasterxml/jackson/databind/deser/SettableBeanProperty;Ljava/lang/String;Lcom/fasterxml/jackson/databind/deser/SettableBeanProperty;Z)V
+deserializeAndSet
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Object;)V
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Object;)V
+deserializeSetAndReturn
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Object;)Ljava/lang/Object;
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Object;)Ljava/lang/Object;
+fixAccess
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;)V
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;)V
+set
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+setAndReturn
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+withDelegate
+ (Lcom/fasterxml/jackson/databind/deser/SettableBeanProperty;)Lcom/fasterxml/jackson/databind/deser/SettableBeanProperty;
+ (Lcom/fasterxml/jackson/databind/deser/SettableBeanProperty;)Lcom/fasterxml/jackson/databind/deser/SettableBeanProperty;

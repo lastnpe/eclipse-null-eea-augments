@@ -1,0 +1,75 @@
+class com/fasterxml/jackson/core/util/TextBuffer
+
+fromInitial
+ ([C)Lcom/fasterxml/jackson/core/util/TextBuffer;
+ ([C)Lcom/fasterxml/jackson/core/util/TextBuffer;
+
+<init>
+ (Lcom/fasterxml/jackson/core/util/BufferRecycler;)V
+ (Lcom/fasterxml/jackson/core/util/BufferRecycler;)V
+<init>
+ (Lcom/fasterxml/jackson/core/util/BufferRecycler;[C)V
+ (Lcom/fasterxml/jackson/core/util/BufferRecycler;[C)V
+append
+ (Ljava/lang/String;II)V
+ (Ljava/lang/String;II)V
+append
+ ([CII)V
+ ([CII)V
+bufferRecycler
+ ()Lcom/fasterxml/jackson/core/util/BufferRecycler;
+ ()Lcom/fasterxml/jackson/core/util/BufferRecycler;
+contentsAsArray
+ ()[C
+ ()[C
+contentsAsDecimal
+ ()Ljava/math/BigDecimal;
+ ()Ljava/math/BigDecimal;
+contentsAsString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+contentsToWriter
+ (Ljava/io/Writer;)I
+ (Ljava/io/Writer;)I
+emptyAndGetCurrentSegment
+ ()[C
+ ()[C
+expandCurrentSegment
+ ()[C
+ ()[C
+expandCurrentSegment
+ (I)[C
+ (I)[C
+finishAndReturn
+ (IZ)Ljava/lang/String;
+ (IZ)Ljava/lang/String;
+finishCurrentSegment
+ ()[C
+ ()[C
+getBufferWithoutReset
+ ()[C
+ ()[C
+getCurrentSegment
+ ()[C
+ ()[C
+getTextBuffer
+ ()[C
+ ()[C
+resetWithCopy
+ (Ljava/lang/String;II)V
+ (Ljava/lang/String;II)V
+resetWithCopy
+ ([CII)V
+ ([CII)V
+resetWithShared
+ ([CII)V
+ ([CII)V
+resetWithString
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setCurrentAndReturn
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

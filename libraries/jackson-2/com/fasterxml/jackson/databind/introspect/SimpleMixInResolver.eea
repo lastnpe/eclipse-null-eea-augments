@@ -1,0 +1,33 @@
+class com/fasterxml/jackson/databind/introspect/SimpleMixInResolver
+
+_localMixIns
+ Ljava/util/Map<Lcom/fasterxml/jackson/databind/type/ClassKey;Ljava/lang/Class<*>;>;
+ Ljava/util/Map<Lcom/fasterxml/jackson/databind/type/ClassKey;Ljava/lang/Class<*>;>;
+_overrides
+ Lcom/fasterxml/jackson/databind/introspect/ClassIntrospector$MixInResolver;
+ Lcom/fasterxml/jackson/databind/introspect/ClassIntrospector$MixInResolver;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/introspect/ClassIntrospector$MixInResolver;)V
+ (Lcom/fasterxml/jackson/databind/introspect/ClassIntrospector$MixInResolver;)V
+<init>
+ (Lcom/fasterxml/jackson/databind/introspect/ClassIntrospector$MixInResolver;Ljava/util/Map<Lcom/fasterxml/jackson/databind/type/ClassKey;Ljava/lang/Class<*>;>;)V
+ (Lcom/fasterxml/jackson/databind/introspect/ClassIntrospector$MixInResolver;Ljava/util/Map<Lcom/fasterxml/jackson/databind/type/ClassKey;Ljava/lang/Class<*>;>;)V
+addLocalDefinition
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)V
+copy
+ ()Lcom/fasterxml/jackson/databind/introspect/SimpleMixInResolver;
+ ()Lcom/fasterxml/jackson/databind/introspect/SimpleMixInResolver;
+findMixInClassFor
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+setLocalDefinitions
+ (Ljava/util/Map<Ljava/lang/Class<*>;Ljava/lang/Class<*>;>;)V
+ (Ljava/util/Map<Ljava/lang/Class<*>;Ljava/lang/Class<*>;>;)V
+withOverrides
+ (Lcom/fasterxml/jackson/databind/introspect/ClassIntrospector$MixInResolver;)Lcom/fasterxml/jackson/databind/introspect/SimpleMixInResolver;
+ (Lcom/fasterxml/jackson/databind/introspect/ClassIntrospector$MixInResolver;)Lcom/fasterxml/jackson/databind/introspect/SimpleMixInResolver;
+withoutLocalDefinitions
+ ()Lcom/fasterxml/jackson/databind/introspect/SimpleMixInResolver;
+ ()Lcom/fasterxml/jackson/databind/introspect/SimpleMixInResolver;

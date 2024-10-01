@@ -1,0 +1,36 @@
+class com/fasterxml/jackson/databind/deser/BasicDeserializerFactory$CreatorCollectionState
+
+beanDesc
+ Lcom/fasterxml/jackson/databind/BeanDescription;
+ Lcom/fasterxml/jackson/databind/BeanDescription;
+context
+ Lcom/fasterxml/jackson/databind/DeserializationContext;
+ Lcom/fasterxml/jackson/databind/DeserializationContext;
+creatorParams
+ Ljava/util/Map<Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;[Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;>;
+ Ljava/util/Map<Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;[Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;>;
+creators
+ Lcom/fasterxml/jackson/databind/deser/impl/CreatorCollector;
+ Lcom/fasterxml/jackson/databind/deser/impl/CreatorCollector;
+vchecker
+ Lcom/fasterxml/jackson/databind/introspect/VisibilityChecker<*>;
+ Lcom/fasterxml/jackson/databind/introspect/VisibilityChecker<*>;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/BeanDescription;Lcom/fasterxml/jackson/databind/introspect/VisibilityChecker<*>;Lcom/fasterxml/jackson/databind/deser/impl/CreatorCollector;Ljava/util/Map<Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;[Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;>;)V
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/BeanDescription;Lcom/fasterxml/jackson/databind/introspect/VisibilityChecker<*>;Lcom/fasterxml/jackson/databind/deser/impl/CreatorCollector;Ljava/util/Map<Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;[Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;>;)V
+addImplicitConstructorCandidate
+ (Lcom/fasterxml/jackson/databind/deser/impl/CreatorCandidate;)V
+ (Lcom/fasterxml/jackson/databind/deser/impl/CreatorCandidate;)V
+addImplicitFactoryCandidate
+ (Lcom/fasterxml/jackson/databind/deser/impl/CreatorCandidate;)V
+ (Lcom/fasterxml/jackson/databind/deser/impl/CreatorCandidate;)V
+annotationIntrospector
+ ()Lcom/fasterxml/jackson/databind/AnnotationIntrospector;
+ ()Lcom/fasterxml/jackson/databind/AnnotationIntrospector;
+implicitConstructorCandidates
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/deser/impl/CreatorCandidate;>;
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/deser/impl/CreatorCandidate;>;
+implicitFactoryCandidates
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/deser/impl/CreatorCandidate;>;
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/deser/impl/CreatorCandidate;>;

@@ -1,0 +1,30 @@
+class com/fasterxml/jackson/databind/ser/std/EnumSetSerializer
+
+super com/fasterxml/jackson/databind/ser/std/AsArraySerializerBase
+ <Ljava/util/EnumSet<+Ljava/lang/Enum<*>;>;>
+ <Ljava/util/EnumSet<+Ljava/lang/Enum<*>;>;>
+
+<init>
+ (Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/JavaType;)V
+<init>
+ (Lcom/fasterxml/jackson/databind/ser/std/EnumSetSerializer;Lcom/fasterxml/jackson/databind/BeanProperty;Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;Lcom/fasterxml/jackson/databind/JsonSerializer<*>;Ljava/lang/Boolean;)V
+ (Lcom/fasterxml/jackson/databind/ser/std/EnumSetSerializer;Lcom/fasterxml/jackson/databind/BeanProperty;Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;Lcom/fasterxml/jackson/databind/JsonSerializer<*>;Ljava/lang/Boolean;)V
+_withValueTypeSerializer
+ (Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;)Lcom/fasterxml/jackson/databind/ser/std/EnumSetSerializer;
+ (Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;)Lcom/fasterxml/jackson/databind/ser/std/EnumSetSerializer;
+hasSingleElement
+ (Ljava/util/EnumSet<+Ljava/lang/Enum<*>;>;)Z
+ (Ljava/util/EnumSet<+Ljava/lang/Enum<*>;>;)Z
+isEmpty
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/util/EnumSet<+Ljava/lang/Enum<*>;>;)Z
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/util/EnumSet<+Ljava/lang/Enum<*>;>;)Z
+serialize
+ (Ljava/util/EnumSet<+Ljava/lang/Enum<*>;>;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljava/util/EnumSet<+Ljava/lang/Enum<*>;>;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+serializeContents
+ (Ljava/util/EnumSet<+Ljava/lang/Enum<*>;>;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljava/util/EnumSet<+Ljava/lang/Enum<*>;>;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+withResolved
+ (Lcom/fasterxml/jackson/databind/BeanProperty;Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;Lcom/fasterxml/jackson/databind/JsonSerializer<*>;Ljava/lang/Boolean;)Lcom/fasterxml/jackson/databind/ser/std/EnumSetSerializer;
+ (Lcom/fasterxml/jackson/databind/BeanProperty;Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;Lcom/fasterxml/jackson/databind/JsonSerializer<*>;Ljava/lang/Boolean;)Lcom/fasterxml/jackson/databind/ser/std/EnumSetSerializer;

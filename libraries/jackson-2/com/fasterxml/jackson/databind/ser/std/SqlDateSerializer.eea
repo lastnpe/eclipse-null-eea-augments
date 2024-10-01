@@ -1,0 +1,18 @@
+class com/fasterxml/jackson/databind/ser/std/SqlDateSerializer
+
+super com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase
+ <Ljava/sql/Date;>
+ <Ljava/sql/Date;>
+
+<init>
+ (Ljava/lang/Boolean;Ljava/text/DateFormat;)V
+ (Ljava/lang/Boolean;Ljava/text/DateFormat;)V
+_timestamp
+ (Ljava/sql/Date;)J
+ (Ljava/sql/Date;)J
+serialize
+ (Ljava/sql/Date;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljava/sql/Date;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+withFormat
+ (Ljava/lang/Boolean;Ljava/text/DateFormat;)Lcom/fasterxml/jackson/databind/ser/std/SqlDateSerializer;
+ (Ljava/lang/Boolean;Ljava/text/DateFormat;)Lcom/fasterxml/jackson/databind/ser/std/SqlDateSerializer;

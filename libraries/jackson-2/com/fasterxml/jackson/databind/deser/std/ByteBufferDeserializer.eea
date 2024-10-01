@@ -1,0 +1,15 @@
+class com/fasterxml/jackson/databind/deser/std/ByteBufferDeserializer
+
+super com/fasterxml/jackson/databind/deser/std/StdScalarDeserializer
+ <Ljava/nio/ByteBuffer;>
+ <Ljava/nio/ByteBuffer;>
+
+deserialize
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/nio/ByteBuffer;
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/nio/ByteBuffer;
+deserialize
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
+logicalType
+ ()Lcom/fasterxml/jackson/databind/type/LogicalType;
+ ()L0com/fasterxml/jackson/databind/type/LogicalType; # @Inherited(com.fasterxml.jackson.databind.deser.std.StdScalarDeserializer)

@@ -1,0 +1,99 @@
+class com/fasterxml/jackson/annotation/JsonIgnoreProperties$Value
+
+super com/fasterxml/jackson/annotation/JacksonAnnotationValue
+ <Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties;>
+ <Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties;>
+
+EMPTY
+ Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ L1com/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+
+construct
+ (Ljava/util/Set<Ljava/lang/String;>;ZZZZ)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ (Ljava/util/Set<Ljava/lang/String;>;ZZZZ)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+empty
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+forIgnoreUnknown
+ (Z)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ (Z)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+forIgnoredProperties
+ (Ljava/util/Set<Ljava/lang/String;>;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ (Ljava/util/Set<Ljava/lang/String;>;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+forIgnoredProperties
+ ([Ljava/lang/String;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ ([Ljava/lang/String;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+from
+ (Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+merge
+ (Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+mergeAll
+ ([Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ ([Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+
+_ignored
+ Ljava/util/Set<Ljava/lang/String;>;
+ Ljava/util/Set<Ljava/lang/String;>;
+
+<init>
+ (Ljava/util/Set<Ljava/lang/String;>;ZZZZ)V
+ (Ljava/util/Set<Ljava/lang/String;>;ZZZZ)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+findIgnoredForDeserialization
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+findIgnoredForSerialization
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getIgnored
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+readResolve
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+valueFor
+ ()Ljava/lang/Class<Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties;>;
+ ()Ljava/lang/Class<Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties;>;
+withAllowGetters
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+withAllowSetters
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+withIgnoreUnknown
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+withIgnored
+ (Ljava/util/Set<Ljava/lang/String;>;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ (Ljava/util/Set<Ljava/lang/String;>;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+withIgnored
+ ([Ljava/lang/String;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ ([Ljava/lang/String;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+withMerge
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+withOverrides
+ (Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+withoutAllowGetters
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+withoutAllowSetters
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+withoutIgnoreUnknown
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+withoutIgnored
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+withoutMerge
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ ()Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;

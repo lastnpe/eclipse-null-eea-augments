@@ -1,0 +1,19 @@
+class com/fasterxml/jackson/databind/deser/std/NumberDeserializers$BigIntegerDeserializer
+
+super com/fasterxml/jackson/databind/deser/std/StdScalarDeserializer
+ <Ljava/math/BigInteger;>
+ <Ljava/math/BigInteger;>
+
+instance
+ Lcom/fasterxml/jackson/databind/deser/std/NumberDeserializers$BigIntegerDeserializer;
+ L1com/fasterxml/jackson/databind/deser/std/NumberDeserializers$BigIntegerDeserializer;
+
+deserialize
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/math/BigInteger;
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/math/BigInteger;
+getEmptyValue
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object;
+ (L1com/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object; # @Inherited(com.fasterxml.jackson.databind.JsonDeserializer)
+logicalType
+ ()Lcom/fasterxml/jackson/databind/type/LogicalType;
+ ()L0com/fasterxml/jackson/databind/type/LogicalType; # @Inherited(com.fasterxml.jackson.databind.deser.std.StdScalarDeserializer)

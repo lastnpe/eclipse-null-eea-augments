@@ -1,0 +1,33 @@
+class com/fasterxml/jackson/databind/util/ArrayBuilders
+
+arrayToSet
+ <T:Ljava/lang/Object;>([TT;)Ljava/util/HashSet<TT;>;
+ <T:Ljava/lang/Object;>([TT;)Ljava/util/HashSet<TT;>;
+getArrayComparator
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+insertInListNoDup
+ <T:Ljava/lang/Object;>([TT;TT;)[TT;
+ <T:Ljava/lang/Object;>([TT;TT;)[TT;
+
+getBooleanBuilder
+ ()Lcom/fasterxml/jackson/databind/util/ArrayBuilders$BooleanBuilder;
+ ()Lcom/fasterxml/jackson/databind/util/ArrayBuilders$BooleanBuilder;
+getByteBuilder
+ ()Lcom/fasterxml/jackson/databind/util/ArrayBuilders$ByteBuilder;
+ ()Lcom/fasterxml/jackson/databind/util/ArrayBuilders$ByteBuilder;
+getDoubleBuilder
+ ()Lcom/fasterxml/jackson/databind/util/ArrayBuilders$DoubleBuilder;
+ ()Lcom/fasterxml/jackson/databind/util/ArrayBuilders$DoubleBuilder;
+getFloatBuilder
+ ()Lcom/fasterxml/jackson/databind/util/ArrayBuilders$FloatBuilder;
+ ()Lcom/fasterxml/jackson/databind/util/ArrayBuilders$FloatBuilder;
+getIntBuilder
+ ()Lcom/fasterxml/jackson/databind/util/ArrayBuilders$IntBuilder;
+ ()Lcom/fasterxml/jackson/databind/util/ArrayBuilders$IntBuilder;
+getLongBuilder
+ ()Lcom/fasterxml/jackson/databind/util/ArrayBuilders$LongBuilder;
+ ()Lcom/fasterxml/jackson/databind/util/ArrayBuilders$LongBuilder;
+getShortBuilder
+ ()Lcom/fasterxml/jackson/databind/util/ArrayBuilders$ShortBuilder;
+ ()Lcom/fasterxml/jackson/databind/util/ArrayBuilders$ShortBuilder;

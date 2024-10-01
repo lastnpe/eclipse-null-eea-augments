@@ -1,0 +1,67 @@
+class com/fasterxml/jackson/core/util/Separators
+
+DEFAULT_ARRAY_EMPTY_SEPARATOR
+ Ljava/lang/String;
+ L1java/lang/String;
+DEFAULT_OBJECT_EMPTY_SEPARATOR
+ Ljava/lang/String;
+ L1java/lang/String;
+DEFAULT_ROOT_VALUE_SEPARATOR
+ Ljava/lang/String;
+ L1java/lang/String;
+
+createDefaultInstance
+ ()Lcom/fasterxml/jackson/core/util/Separators;
+ ()Lcom/fasterxml/jackson/core/util/Separators;
+
+<init>
+ (Ljava/lang/String;CLcom/fasterxml/jackson/core/util/Separators$Spacing;CLcom/fasterxml/jackson/core/util/Separators$Spacing;CLcom/fasterxml/jackson/core/util/Separators$Spacing;)V
+ (Ljava/lang/String;CLcom/fasterxml/jackson/core/util/Separators$Spacing;CLcom/fasterxml/jackson/core/util/Separators$Spacing;CLcom/fasterxml/jackson/core/util/Separators$Spacing;)V
+<init>
+ (Ljava/lang/String;CLcom/fasterxml/jackson/core/util/Separators$Spacing;CLcom/fasterxml/jackson/core/util/Separators$Spacing;Ljava/lang/String;CLcom/fasterxml/jackson/core/util/Separators$Spacing;Ljava/lang/String;)V
+ (Ljava/lang/String;CLcom/fasterxml/jackson/core/util/Separators$Spacing;CLcom/fasterxml/jackson/core/util/Separators$Spacing;Ljava/lang/String;CLcom/fasterxml/jackson/core/util/Separators$Spacing;Ljava/lang/String;)V
+getArrayEmptySeparator
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getArrayValueSpacing
+ ()Lcom/fasterxml/jackson/core/util/Separators$Spacing;
+ ()Lcom/fasterxml/jackson/core/util/Separators$Spacing;
+getObjectEmptySeparator
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getObjectEntrySpacing
+ ()Lcom/fasterxml/jackson/core/util/Separators$Spacing;
+ ()Lcom/fasterxml/jackson/core/util/Separators$Spacing;
+getObjectFieldValueSpacing
+ ()Lcom/fasterxml/jackson/core/util/Separators$Spacing;
+ ()Lcom/fasterxml/jackson/core/util/Separators$Spacing;
+getRootSeparator
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+withArrayEmptySeparator
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/util/Separators;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/util/Separators;
+withArrayValueSeparator
+ (C)Lcom/fasterxml/jackson/core/util/Separators;
+ (C)Lcom/fasterxml/jackson/core/util/Separators;
+withArrayValueSpacing
+ (Lcom/fasterxml/jackson/core/util/Separators$Spacing;)Lcom/fasterxml/jackson/core/util/Separators;
+ (Lcom/fasterxml/jackson/core/util/Separators$Spacing;)Lcom/fasterxml/jackson/core/util/Separators;
+withObjectEmptySeparator
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/util/Separators;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/util/Separators;
+withObjectEntrySeparator
+ (C)Lcom/fasterxml/jackson/core/util/Separators;
+ (C)Lcom/fasterxml/jackson/core/util/Separators;
+withObjectEntrySpacing
+ (Lcom/fasterxml/jackson/core/util/Separators$Spacing;)Lcom/fasterxml/jackson/core/util/Separators;
+ (Lcom/fasterxml/jackson/core/util/Separators$Spacing;)Lcom/fasterxml/jackson/core/util/Separators;
+withObjectFieldValueSeparator
+ (C)Lcom/fasterxml/jackson/core/util/Separators;
+ (C)Lcom/fasterxml/jackson/core/util/Separators;
+withObjectFieldValueSpacing
+ (Lcom/fasterxml/jackson/core/util/Separators$Spacing;)Lcom/fasterxml/jackson/core/util/Separators;
+ (Lcom/fasterxml/jackson/core/util/Separators$Spacing;)Lcom/fasterxml/jackson/core/util/Separators;
+withRootSeparator
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/util/Separators;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/util/Separators;

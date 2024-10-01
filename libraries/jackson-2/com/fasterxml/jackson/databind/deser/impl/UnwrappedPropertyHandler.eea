@@ -1,0 +1,18 @@
+class com/fasterxml/jackson/databind/deser/impl/UnwrappedPropertyHandler
+
+_properties
+ Ljava/util/List<Lcom/fasterxml/jackson/databind/deser/SettableBeanProperty;>;
+ Ljava/util/List<Lcom/fasterxml/jackson/databind/deser/SettableBeanProperty;>;
+
+<init>
+ (Ljava/util/List<Lcom/fasterxml/jackson/databind/deser/SettableBeanProperty;>;)V
+ (Ljava/util/List<Lcom/fasterxml/jackson/databind/deser/SettableBeanProperty;>;)V
+addProperty
+ (Lcom/fasterxml/jackson/databind/deser/SettableBeanProperty;)V
+ (Lcom/fasterxml/jackson/databind/deser/SettableBeanProperty;)V
+processUnwrapped
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Object;Lcom/fasterxml/jackson/databind/util/TokenBuffer;)Ljava/lang/Object;
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Object;Lcom/fasterxml/jackson/databind/util/TokenBuffer;)Ljava/lang/Object;
+renameAll
+ (Lcom/fasterxml/jackson/databind/util/NameTransformer;)Lcom/fasterxml/jackson/databind/deser/impl/UnwrappedPropertyHandler;
+ (Lcom/fasterxml/jackson/databind/util/NameTransformer;)Lcom/fasterxml/jackson/databind/deser/impl/UnwrappedPropertyHandler;

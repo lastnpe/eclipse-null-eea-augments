@@ -1,0 +1,22 @@
+class com/fasterxml/jackson/databind/ser/std/DateSerializer
+
+super com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase
+ <Ljava/util/Date;>
+ <Ljava/util/Date;>
+
+instance
+ Lcom/fasterxml/jackson/databind/ser/std/DateSerializer;
+ L1com/fasterxml/jackson/databind/ser/std/DateSerializer;
+
+<init>
+ (Ljava/lang/Boolean;Ljava/text/DateFormat;)V
+ (Ljava/lang/Boolean;Ljava/text/DateFormat;)V
+_timestamp
+ (Ljava/util/Date;)J
+ (Ljava/util/Date;)J
+serialize
+ (Ljava/util/Date;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljava/util/Date;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+withFormat
+ (Ljava/lang/Boolean;Ljava/text/DateFormat;)Lcom/fasterxml/jackson/databind/ser/std/DateSerializer;
+ (Ljava/lang/Boolean;Ljava/text/DateFormat;)Lcom/fasterxml/jackson/databind/ser/std/DateSerializer;

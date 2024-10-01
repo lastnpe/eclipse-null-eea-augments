@@ -1,0 +1,61 @@
+class com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer
+
+createRoot
+ ()Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
+ ()Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
+createRoot
+ (I)Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
+ (I)Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
+
+_hashArea
+ [I
+ [I
+_interner
+ Lcom/fasterxml/jackson/core/util/InternCache;
+ Lcom/fasterxml/jackson/core/util/InternCache;
+_names
+ [Ljava/lang/String;
+ [Ljava/lang/String;
+_parent
+ Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
+ Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
+_tableInfo
+ Ljava/util/concurrent/atomic/AtomicReference<Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer$TableInfo;>;
+ Ljava/util/concurrent/atomic/AtomicReference<Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer$TableInfo;>;
+
+addName
+ (Ljava/lang/String;I)Ljava/lang/String;
+ (Ljava/lang/String;I)Ljava/lang/String;
+addName
+ (Ljava/lang/String;II)Ljava/lang/String;
+ (Ljava/lang/String;II)Ljava/lang/String;
+addName
+ (Ljava/lang/String;III)Ljava/lang/String;
+ (Ljava/lang/String;III)Ljava/lang/String;
+addName
+ (Ljava/lang/String;[II)Ljava/lang/String;
+ (Ljava/lang/String;[II)Ljava/lang/String;
+calcHash
+ ([II)I
+ ([II)I
+findName
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+findName
+ (II)Ljava/lang/String;
+ (II)Ljava/lang/String;
+findName
+ (III)Ljava/lang/String;
+ (III)Ljava/lang/String;
+findName
+ ([II)Ljava/lang/String;
+ ([II)Ljava/lang/String;
+makeChild
+ (I)Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
+ (I)Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
+makeChildOrPlaceholder
+ (I)Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
+ (I)Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

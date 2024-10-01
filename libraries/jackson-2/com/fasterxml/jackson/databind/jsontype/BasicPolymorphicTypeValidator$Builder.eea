@@ -1,0 +1,57 @@
+class com/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder
+
+_baseTypeMatchers
+ Ljava/util/List<Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$TypeMatcher;>;
+ Ljava/util/List<Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$TypeMatcher;>;
+_invalidBaseTypes
+ Ljava/util/Set<Ljava/lang/Class<*>;>;
+ Ljava/util/Set<Ljava/lang/Class<*>;>;
+_subTypeClassMatchers
+ Ljava/util/List<Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$TypeMatcher;>;
+ Ljava/util/List<Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$TypeMatcher;>;
+_subTypeNameMatchers
+ Ljava/util/List<Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$NameMatcher;>;
+ Ljava/util/List<Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$NameMatcher;>;
+
+_appendBaseMatcher
+ (Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$TypeMatcher;)Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+ (Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$TypeMatcher;)Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+_appendSubClassMatcher
+ (Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$TypeMatcher;)Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+ (Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$TypeMatcher;)Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+_appendSubNameMatcher
+ (Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$NameMatcher;)Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+ (Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$NameMatcher;)Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+allowIfBaseType
+ (Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$TypeMatcher;)Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+ (Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$TypeMatcher;)L1com/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+allowIfBaseType
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+ (Ljava/lang/Class<*>;)L1com/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+allowIfBaseType
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+ (Ljava/lang/String;)L1com/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+allowIfBaseType
+ (Ljava/util/regex/Pattern;)Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+ (Ljava/util/regex/Pattern;)L1com/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+allowIfSubType
+ (Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$TypeMatcher;)Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+ (Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$TypeMatcher;)L1com/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+allowIfSubType
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+ (Ljava/lang/Class<*>;)L1com/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+allowIfSubType
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+ (Ljava/lang/String;)L1com/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+allowIfSubType
+ (Ljava/util/regex/Pattern;)Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+ (Ljava/util/regex/Pattern;)L1com/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+allowIfSubTypeIsArray
+ ()Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+ ()L1com/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+build
+ ()Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator;
+ ()L1com/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator;
+denyForExactBaseType
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;
+ (Ljava/lang/Class<*>;)L1com/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$Builder;

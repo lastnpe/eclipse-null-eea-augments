@@ -1,0 +1,27 @@
+class com/fasterxml/jackson/databind/ser/std/AtomicReferenceSerializer
+
+super com/fasterxml/jackson/databind/ser/std/ReferenceTypeSerializer
+ <Ljava/util/concurrent/atomic/AtomicReference<*>;>
+ <Ljava/util/concurrent/atomic/AtomicReference<*>;>
+
+<init>
+ (Lcom/fasterxml/jackson/databind/ser/std/AtomicReferenceSerializer;Lcom/fasterxml/jackson/databind/BeanProperty;Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;Lcom/fasterxml/jackson/databind/JsonSerializer<*>;Lcom/fasterxml/jackson/databind/util/NameTransformer;Ljava/lang/Object;Z)V
+ (Lcom/fasterxml/jackson/databind/ser/std/AtomicReferenceSerializer;Lcom/fasterxml/jackson/databind/BeanProperty;Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;Lcom/fasterxml/jackson/databind/JsonSerializer<*>;Lcom/fasterxml/jackson/databind/util/NameTransformer;Ljava/lang/Object;Z)V
+<init>
+ (Lcom/fasterxml/jackson/databind/type/ReferenceType;ZLcom/fasterxml/jackson/databind/jsontype/TypeSerializer;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;)V
+ (Lcom/fasterxml/jackson/databind/type/ReferenceType;ZLcom/fasterxml/jackson/databind/jsontype/TypeSerializer;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;)V
+_getReferenced
+ (Ljava/util/concurrent/atomic/AtomicReference<*>;)Ljava/lang/Object;
+ (Ljava/util/concurrent/atomic/AtomicReference<*>;)Ljava/lang/Object;
+_getReferencedIfPresent
+ (Ljava/util/concurrent/atomic/AtomicReference<*>;)Ljava/lang/Object;
+ (Ljava/util/concurrent/atomic/AtomicReference<*>;)Ljava/lang/Object;
+_isValuePresent
+ (Ljava/util/concurrent/atomic/AtomicReference<*>;)Z
+ (Ljava/util/concurrent/atomic/AtomicReference<*>;)Z
+withContentInclusion
+ (Ljava/lang/Object;Z)Lcom/fasterxml/jackson/databind/ser/std/ReferenceTypeSerializer<Ljava/util/concurrent/atomic/AtomicReference<*>;>;
+ (Ljava/lang/Object;Z)Lcom/fasterxml/jackson/databind/ser/std/ReferenceTypeSerializer<Ljava/util/concurrent/atomic/AtomicReference<*>;>;
+withResolved
+ (Lcom/fasterxml/jackson/databind/BeanProperty;Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;Lcom/fasterxml/jackson/databind/JsonSerializer<*>;Lcom/fasterxml/jackson/databind/util/NameTransformer;)Lcom/fasterxml/jackson/databind/ser/std/ReferenceTypeSerializer<Ljava/util/concurrent/atomic/AtomicReference<*>;>;
+ (Lcom/fasterxml/jackson/databind/BeanProperty;Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;Lcom/fasterxml/jackson/databind/JsonSerializer<*>;Lcom/fasterxml/jackson/databind/util/NameTransformer;)Lcom/fasterxml/jackson/databind/ser/std/ReferenceTypeSerializer<Ljava/util/concurrent/atomic/AtomicReference<*>;>;

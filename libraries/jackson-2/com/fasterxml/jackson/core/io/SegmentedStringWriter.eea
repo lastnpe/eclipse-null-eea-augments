@@ -1,0 +1,32 @@
+class com/fasterxml/jackson/core/io/SegmentedStringWriter
+
+<init>
+ (Lcom/fasterxml/jackson/core/util/BufferRecycler;)V
+ (Lcom/fasterxml/jackson/core/util/BufferRecycler;)V
+append
+ (C)Ljava/io/Writer;
+ (C)L1java/io/Writer; # @Inherited(java.io.Writer)
+append
+ (Ljava/lang/CharSequence;)Ljava/io/Writer;
+ (L0java/lang/CharSequence;)L1java/io/Writer; # @Inherited(java.io.Writer)
+append
+ (Ljava/lang/CharSequence;II)Ljava/io/Writer;
+ (L0java/lang/CharSequence;II)L1java/io/Writer; # @Inherited(java.io.Writer)
+bufferRecycler
+ ()Lcom/fasterxml/jackson/core/util/BufferRecycler;
+ ()Lcom/fasterxml/jackson/core/util/BufferRecycler;
+getAndClear
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+write
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(java.io.Writer)
+write
+ (Ljava/lang/String;II)V
+ (L1java/lang/String;II)V # @Inherited(java.io.Writer)
+write
+ ([C)V
+ ([1C)V # @Inherited(java.io.Writer)
+write
+ ([CII)V
+ ([1CII)V # @Inherited(java.io.Writer)

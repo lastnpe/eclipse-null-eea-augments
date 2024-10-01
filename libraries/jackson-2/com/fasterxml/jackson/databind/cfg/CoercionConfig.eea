@@ -1,0 +1,18 @@
+class com/fasterxml/jackson/databind/cfg/CoercionConfig
+
+_acceptBlankAsEmpty
+ Ljava/lang/Boolean;
+ Ljava/lang/Boolean;
+_coercionsByShape
+ [Lcom/fasterxml/jackson/databind/cfg/CoercionAction;
+ [Lcom/fasterxml/jackson/databind/cfg/CoercionAction;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/cfg/CoercionConfig;)V
+ (Lcom/fasterxml/jackson/databind/cfg/CoercionConfig;)V
+findAction
+ (Lcom/fasterxml/jackson/databind/cfg/CoercionInputShape;)Lcom/fasterxml/jackson/databind/cfg/CoercionAction;
+ (Lcom/fasterxml/jackson/databind/cfg/CoercionInputShape;)Lcom/fasterxml/jackson/databind/cfg/CoercionAction;
+getAcceptBlankAsEmpty
+ ()Ljava/lang/Boolean;
+ ()Ljava/lang/Boolean;

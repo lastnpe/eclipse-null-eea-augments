@@ -1,0 +1,15 @@
+class com/fasterxml/jackson/databind/util/RootNameLookup
+
+_rootNames
+ Lcom/fasterxml/jackson/databind/util/LRUMap<Lcom/fasterxml/jackson/databind/type/ClassKey;Lcom/fasterxml/jackson/databind/PropertyName;>;
+ Lcom/fasterxml/jackson/databind/util/LRUMap<Lcom/fasterxml/jackson/databind/type/ClassKey;Lcom/fasterxml/jackson/databind/PropertyName;>;
+
+findRootName
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;)Lcom/fasterxml/jackson/databind/PropertyName;
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;)Lcom/fasterxml/jackson/databind/PropertyName;
+findRootName
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;)Lcom/fasterxml/jackson/databind/PropertyName;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;)Lcom/fasterxml/jackson/databind/PropertyName;
+readResolve
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;

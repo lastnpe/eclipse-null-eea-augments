@@ -1,0 +1,27 @@
+class com/fasterxml/jackson/databind/ser/std/NumberSerializers$Base
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+ <TT;>
+ <TT;>
+
+_numberType
+ Lcom/fasterxml/jackson/core/JsonParser$NumberType;
+ Lcom/fasterxml/jackson/core/JsonParser$NumberType;
+_schemaType
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+<init>
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/core/JsonParser$NumberType;Ljava/lang/String;)V
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/core/JsonParser$NumberType;Ljava/lang/String;)V
+acceptJsonFormatVisitor
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+createContextual
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/BeanProperty;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/BeanProperty;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+getSchema
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JsonNode;
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JsonNode;

@@ -1,0 +1,75 @@
+class com/fasterxml/jackson/databind/ser/std/MapProperty
+
+_key
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+_keySerializer
+ Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;
+ Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;
+_property
+ Lcom/fasterxml/jackson/databind/BeanProperty;
+ Lcom/fasterxml/jackson/databind/BeanProperty;
+_typeSerializer
+ Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;
+ Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;
+_value
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+_valueSerializer
+ Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;
+ Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;Lcom/fasterxml/jackson/databind/BeanProperty;)V
+ (Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;Lcom/fasterxml/jackson/databind/BeanProperty;)V
+depositSchemaProperty
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonObjectFormatVisitor;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonObjectFormatVisitor;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+depositSchemaProperty
+ (Lcom/fasterxml/jackson/databind/node/ObjectNode;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Lcom/fasterxml/jackson/databind/node/ObjectNode;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+getAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
+getContextAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
+getFullName
+ ()Lcom/fasterxml/jackson/databind/PropertyName;
+ ()Lcom/fasterxml/jackson/databind/PropertyName;
+getMember
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getType
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+getValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getWrapperName
+ ()Lcom/fasterxml/jackson/databind/PropertyName;
+ ()Lcom/fasterxml/jackson/databind/PropertyName;
+reset
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;)V
+reset
+ (Ljava/lang/Object;Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;)V
+ (Ljava/lang/Object;Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;)V
+serializeAsElement
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+serializeAsField
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+serializeAsOmittedField
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+serializeAsPlaceholder
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+setValue
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

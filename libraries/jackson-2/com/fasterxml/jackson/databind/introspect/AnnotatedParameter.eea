@@ -1,0 +1,51 @@
+class com/fasterxml/jackson/databind/introspect/AnnotatedParameter
+
+_owner
+ Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;
+ Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;
+_type
+ Lcom/fasterxml/jackson/databind/JavaType;
+ Lcom/fasterxml/jackson/databind/JavaType;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/introspect/TypeResolutionContext;Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;I)V
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/introspect/TypeResolutionContext;Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;I)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(com.fasterxml.jackson.databind.introspect.Annotated)
+getAnnotated
+ ()Ljava/lang/reflect/AnnotatedElement;
+ ()Ljava/lang/reflect/AnnotatedElement;
+getDeclaringClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getMember
+ ()Ljava/lang/reflect/Member;
+ ()Ljava/lang/reflect/Member;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getOwner
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;
+getParameterType
+ ()Ljava/lang/reflect/Type;
+ ()Ljava/lang/reflect/Type;
+getRawType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getType
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+getValue
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+setValue
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(com.fasterxml.jackson.databind.introspect.Annotated)
+withAnnotations
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedParameter;
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedParameter;

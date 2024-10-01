@@ -1,0 +1,52 @@
+class com/fasterxml/jackson/databind/type/IterationType
+
+construct
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/IterationType;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/IterationType;
+upgradeFrom
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/IterationType;
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/IterationType;
+
+_iteratedType
+ Lcom/fasterxml/jackson/databind/JavaType;
+ Lcom/fasterxml/jackson/databind/JavaType;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/type/TypeBase;Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/type/TypeBase;Lcom/fasterxml/jackson/databind/JavaType;)V
+<init>
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Object;Ljava/lang/Object;Z)V
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Object;Ljava/lang/Object;Z)V
+buildCanonicalName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getContentType
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+getErasedSignature
+ (Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+ (L1java/lang/StringBuilder;)L1java/lang/StringBuilder; # @Inherited(com.fasterxml.jackson.databind.type.SimpleType)
+getGenericSignature
+ (Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+ (L1java/lang/StringBuilder;)L1java/lang/StringBuilder; # @Inherited(com.fasterxml.jackson.databind.type.SimpleType)
+refine
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+withContentType
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/JavaType;)L1com/fasterxml/jackson/databind/JavaType; # @Inherited(com.fasterxml.jackson.databind.type.SimpleType)
+withContentTypeHandler
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/IterationType;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/IterationType;
+withContentValueHandler
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/IterationType;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/IterationType;
+withStaticTyping
+ ()Lcom/fasterxml/jackson/databind/type/IterationType;
+ ()Lcom/fasterxml/jackson/databind/type/IterationType;
+withTypeHandler
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/IterationType;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/IterationType;
+withValueHandler
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/IterationType;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/IterationType;

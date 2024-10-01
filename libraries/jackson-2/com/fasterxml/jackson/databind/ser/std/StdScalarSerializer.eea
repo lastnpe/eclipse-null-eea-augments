@@ -1,0 +1,26 @@
+class com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super com/fasterxml/jackson/databind/ser/std/StdSerializer
+ <TT;>
+ <TT;>
+
+<init>
+ (Lcom/fasterxml/jackson/databind/ser/std/StdScalarSerializer<*>;)V
+ (Lcom/fasterxml/jackson/databind/ser/std/StdScalarSerializer<*>;)V
+<init>
+ (Ljava/lang/Class<*>;Z)V
+ (Ljava/lang/Class<*>;Z)V
+<init>
+ (Ljava/lang/Class<TT;>;)V
+ (Ljava/lang/Class<TT;>;)V
+acceptJsonFormatVisitor
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+getSchema
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JsonNode;
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JsonNode;
+serializeWithType
+ (TT;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;)V
+ (TT;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;)V

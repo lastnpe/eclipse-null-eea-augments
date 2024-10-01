@@ -1,0 +1,36 @@
+class com/fasterxml/jackson/databind/jsontype/impl/AsExternalTypeSerializer
+
+_typePropertyName
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;Lcom/fasterxml/jackson/databind/BeanProperty;Ljava/lang/String;)V
+ (Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;Lcom/fasterxml/jackson/databind/BeanProperty;Ljava/lang/String;)V
+_writeArrayPrefix
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;)V
+_writeArraySuffix
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)V
+_writeObjectPrefix
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;)V
+_writeObjectSuffix
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)V
+_writeScalarPrefix
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;)V
+_writeScalarSuffix
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)V
+forProperty
+ (Lcom/fasterxml/jackson/databind/BeanProperty;)Lcom/fasterxml/jackson/databind/jsontype/impl/AsExternalTypeSerializer;
+ (Lcom/fasterxml/jackson/databind/BeanProperty;)Lcom/fasterxml/jackson/databind/jsontype/impl/AsExternalTypeSerializer;
+getPropertyName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTypeInclusion
+ ()Lcom/fasterxml/jackson/annotation/JsonTypeInfo$As;
+ ()Lcom/fasterxml/jackson/annotation/JsonTypeInfo$As;

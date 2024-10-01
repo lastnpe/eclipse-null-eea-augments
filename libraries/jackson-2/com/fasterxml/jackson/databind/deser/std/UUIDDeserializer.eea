@@ -1,0 +1,15 @@
+class com/fasterxml/jackson/databind/deser/std/UUIDDeserializer
+
+super com/fasterxml/jackson/databind/deser/std/FromStringDeserializer
+ <Ljava/util/UUID;>
+ <Ljava/util/UUID;>
+
+_deserialize
+ (Ljava/lang/String;Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/util/UUID;
+ (Ljava/lang/String;Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/util/UUID;
+_deserializeEmbedded
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/util/UUID;
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/util/UUID;
+getEmptyValue
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object;
+ (L1com/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object; # @Inherited(com.fasterxml.jackson.databind.JsonDeserializer)

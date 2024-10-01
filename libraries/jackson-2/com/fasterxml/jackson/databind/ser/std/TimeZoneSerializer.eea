@@ -1,0 +1,12 @@
+class com/fasterxml/jackson/databind/ser/std/TimeZoneSerializer
+
+super com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+ <Ljava/util/TimeZone;>
+ <Ljava/util/TimeZone;>
+
+serialize
+ (Ljava/util/TimeZone;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljava/util/TimeZone;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+serializeWithType
+ (Ljava/util/TimeZone;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;)V
+ (Ljava/util/TimeZone;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;)V

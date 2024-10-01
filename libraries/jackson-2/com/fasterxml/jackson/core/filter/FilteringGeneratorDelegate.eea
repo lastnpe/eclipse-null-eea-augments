@@ -1,0 +1,117 @@
+class com/fasterxml/jackson/core/filter/FilteringGeneratorDelegate
+
+_filterContext
+ Lcom/fasterxml/jackson/core/filter/TokenFilterContext;
+ Lcom/fasterxml/jackson/core/filter/TokenFilterContext;
+_inclusion
+ Lcom/fasterxml/jackson/core/filter/TokenFilter$Inclusion;
+ Lcom/fasterxml/jackson/core/filter/TokenFilter$Inclusion;
+_itemFilter
+ Lcom/fasterxml/jackson/core/filter/TokenFilter;
+ Lcom/fasterxml/jackson/core/filter/TokenFilter;
+rootFilter
+ Lcom/fasterxml/jackson/core/filter/TokenFilter;
+ Lcom/fasterxml/jackson/core/filter/TokenFilter;
+
+<init>
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/core/filter/TokenFilter;Lcom/fasterxml/jackson/core/filter/TokenFilter$Inclusion;Z)V
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/core/filter/TokenFilter;Lcom/fasterxml/jackson/core/filter/TokenFilter$Inclusion;Z)V
+<init>
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/core/filter/TokenFilter;ZZ)V
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/core/filter/TokenFilter;ZZ)V
+getFilter
+ ()Lcom/fasterxml/jackson/core/filter/TokenFilter;
+ ()Lcom/fasterxml/jackson/core/filter/TokenFilter;
+getFilterContext
+ ()Lcom/fasterxml/jackson/core/JsonStreamContext;
+ ()Lcom/fasterxml/jackson/core/JsonStreamContext;
+getOutputContext
+ ()Lcom/fasterxml/jackson/core/JsonStreamContext;
+ ()Lcom/fasterxml/jackson/core/JsonStreamContext;
+writeBinary
+ (Lcom/fasterxml/jackson/core/Base64Variant;Ljava/io/InputStream;I)I
+ (Lcom/fasterxml/jackson/core/Base64Variant;Ljava/io/InputStream;I)I
+writeBinary
+ (Lcom/fasterxml/jackson/core/Base64Variant;[BII)V
+ (Lcom/fasterxml/jackson/core/Base64Variant;[BII)V
+writeFieldName
+ (Lcom/fasterxml/jackson/core/SerializableString;)V
+ (Lcom/fasterxml/jackson/core/SerializableString;)V
+writeFieldName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeNumber
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeNumber
+ (Ljava/math/BigDecimal;)V
+ (Ljava/math/BigDecimal;)V
+writeNumber
+ (Ljava/math/BigInteger;)V
+ (Ljava/math/BigInteger;)V
+writeNumber
+ ([CII)V
+ ([CII)V
+writeObjectId
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+writeObjectRef
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+writeOmittedField
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeRaw
+ (Lcom/fasterxml/jackson/core/SerializableString;)V
+ (Lcom/fasterxml/jackson/core/SerializableString;)V
+writeRaw
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeRaw
+ (Ljava/lang/String;II)V
+ (Ljava/lang/String;II)V
+writeRaw
+ ([CII)V
+ ([CII)V
+writeRawUTF8String
+ ([BII)V
+ ([BII)V
+writeRawValue
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeRawValue
+ (Ljava/lang/String;II)V
+ (Ljava/lang/String;II)V
+writeRawValue
+ ([CII)V
+ ([CII)V
+writeStartArray
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+writeStartArray
+ (Ljava/lang/Object;I)V
+ (Ljava/lang/Object;I)V
+writeStartObject
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+writeStartObject
+ (Ljava/lang/Object;I)V
+ (Ljava/lang/Object;I)V
+writeString
+ (Lcom/fasterxml/jackson/core/SerializableString;)V
+ (Lcom/fasterxml/jackson/core/SerializableString;)V
+writeString
+ (Ljava/io/Reader;I)V
+ (Ljava/io/Reader;I)V
+writeString
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeString
+ ([CII)V
+ ([CII)V
+writeTypeId
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+writeUTF8String
+ ([BII)V
+ ([BII)V

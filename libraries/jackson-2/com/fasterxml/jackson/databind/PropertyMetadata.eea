@@ -1,0 +1,86 @@
+class com/fasterxml/jackson/databind/PropertyMetadata
+
+STD_OPTIONAL
+ Lcom/fasterxml/jackson/databind/PropertyMetadata;
+ L1com/fasterxml/jackson/databind/PropertyMetadata;
+STD_REQUIRED
+ Lcom/fasterxml/jackson/databind/PropertyMetadata;
+ L1com/fasterxml/jackson/databind/PropertyMetadata;
+STD_REQUIRED_OR_OPTIONAL
+ Lcom/fasterxml/jackson/databind/PropertyMetadata;
+ L1com/fasterxml/jackson/databind/PropertyMetadata;
+
+construct
+ (Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/PropertyMetadata;
+ (Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/PropertyMetadata;
+construct
+ (ZLjava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/PropertyMetadata;
+ (ZLjava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/PropertyMetadata;
+
+_contentNulls
+ Lcom/fasterxml/jackson/annotation/Nulls;
+ Lcom/fasterxml/jackson/annotation/Nulls;
+_defaultValue
+ Ljava/lang/String;
+ Ljava/lang/String;
+_description
+ Ljava/lang/String;
+ Ljava/lang/String;
+_index
+ Ljava/lang/Integer;
+ Ljava/lang/Integer;
+_mergeInfo
+ Lcom/fasterxml/jackson/databind/PropertyMetadata$MergeInfo;
+ Lcom/fasterxml/jackson/databind/PropertyMetadata$MergeInfo;
+_required
+ Ljava/lang/Boolean;
+ Ljava/lang/Boolean;
+_valueNulls
+ Lcom/fasterxml/jackson/annotation/Nulls;
+ Lcom/fasterxml/jackson/annotation/Nulls;
+
+<init>
+ (Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Lcom/fasterxml/jackson/databind/PropertyMetadata$MergeInfo;Lcom/fasterxml/jackson/annotation/Nulls;Lcom/fasterxml/jackson/annotation/Nulls;)V
+ (Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Lcom/fasterxml/jackson/databind/PropertyMetadata$MergeInfo;Lcom/fasterxml/jackson/annotation/Nulls;Lcom/fasterxml/jackson/annotation/Nulls;)V
+getContentNulls
+ ()Lcom/fasterxml/jackson/annotation/Nulls;
+ ()Lcom/fasterxml/jackson/annotation/Nulls;
+getDefaultValue
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getIndex
+ ()Ljava/lang/Integer;
+ ()Ljava/lang/Integer;
+getMergeInfo
+ ()Lcom/fasterxml/jackson/databind/PropertyMetadata$MergeInfo;
+ ()Lcom/fasterxml/jackson/databind/PropertyMetadata$MergeInfo;
+getRequired
+ ()Ljava/lang/Boolean;
+ ()Ljava/lang/Boolean;
+getValueNulls
+ ()Lcom/fasterxml/jackson/annotation/Nulls;
+ ()Lcom/fasterxml/jackson/annotation/Nulls;
+readResolve
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;
+withDefaultValue
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/PropertyMetadata;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/PropertyMetadata;
+withDescription
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/PropertyMetadata;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/PropertyMetadata;
+withIndex
+ (Ljava/lang/Integer;)Lcom/fasterxml/jackson/databind/PropertyMetadata;
+ (Ljava/lang/Integer;)Lcom/fasterxml/jackson/databind/PropertyMetadata;
+withMergeInfo
+ (Lcom/fasterxml/jackson/databind/PropertyMetadata$MergeInfo;)Lcom/fasterxml/jackson/databind/PropertyMetadata;
+ (Lcom/fasterxml/jackson/databind/PropertyMetadata$MergeInfo;)Lcom/fasterxml/jackson/databind/PropertyMetadata;
+withNulls
+ (Lcom/fasterxml/jackson/annotation/Nulls;Lcom/fasterxml/jackson/annotation/Nulls;)Lcom/fasterxml/jackson/databind/PropertyMetadata;
+ (Lcom/fasterxml/jackson/annotation/Nulls;Lcom/fasterxml/jackson/annotation/Nulls;)Lcom/fasterxml/jackson/databind/PropertyMetadata;
+withRequired
+ (Ljava/lang/Boolean;)Lcom/fasterxml/jackson/databind/PropertyMetadata;
+ (Ljava/lang/Boolean;)Lcom/fasterxml/jackson/databind/PropertyMetadata;

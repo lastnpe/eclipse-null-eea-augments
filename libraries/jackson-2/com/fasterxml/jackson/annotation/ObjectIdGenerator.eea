@@ -1,0 +1,25 @@
+class com/fasterxml/jackson/annotation/ObjectIdGenerator
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+canUseFor
+ (Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;)Z
+ (Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;)Z
+forScope
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<TT;>;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<TT;>;
+generateId
+ (Ljava/lang/Object;)TT;
+ (Ljava/lang/Object;)TT;
+getScope
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+isValidReferencePropertyName
+ (Ljava/lang/String;Ljava/lang/Object;)Z
+ (Ljava/lang/String;Ljava/lang/Object;)Z
+key
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator$IdKey;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator$IdKey;
+newForSerialization
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<TT;>;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<TT;>;

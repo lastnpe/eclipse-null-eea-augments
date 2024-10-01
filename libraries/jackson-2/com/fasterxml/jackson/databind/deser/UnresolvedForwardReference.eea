@@ -1,0 +1,29 @@
+class com/fasterxml/jackson/databind/deser/UnresolvedForwardReference
+
+<init>
+ (Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;)V
+ (Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;)V
+<init>
+ (Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonLocation;Lcom/fasterxml/jackson/databind/deser/impl/ReadableObjectId;)V
+ (Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonLocation;Lcom/fasterxml/jackson/databind/deser/impl/ReadableObjectId;)V
+addUnresolvedId
+ (Ljava/lang/Object;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/core/JsonLocation;)V
+ (Ljava/lang/Object;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/core/JsonLocation;)V
+fillInStackTrace
+ ()Lcom/fasterxml/jackson/databind/deser/UnresolvedForwardReference;
+ ()Lcom/fasterxml/jackson/databind/deser/UnresolvedForwardReference;
+getMessage
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(com.fasterxml.jackson.databind.JsonMappingException)
+getRoid
+ ()Lcom/fasterxml/jackson/databind/deser/impl/ReadableObjectId;
+ ()Lcom/fasterxml/jackson/databind/deser/impl/ReadableObjectId;
+getUnresolvedId
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getUnresolvedIds
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/deser/UnresolvedId;>;
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/deser/UnresolvedId;>;
+withStackTrace
+ ()Lcom/fasterxml/jackson/databind/deser/UnresolvedForwardReference;
+ ()Lcom/fasterxml/jackson/databind/deser/UnresolvedForwardReference;

@@ -1,0 +1,33 @@
+class com/fasterxml/jackson/databind/deser/DataFormatReaders$Match
+
+_bufferedData
+ [B
+ [B
+_match
+ Lcom/fasterxml/jackson/databind/ObjectReader;
+ Lcom/fasterxml/jackson/databind/ObjectReader;
+_matchStrength
+ Lcom/fasterxml/jackson/core/format/MatchStrength;
+ Lcom/fasterxml/jackson/core/format/MatchStrength;
+_originalStream
+ Ljava/io/InputStream;
+ Ljava/io/InputStream;
+
+<init>
+ (Ljava/io/InputStream;[BIILcom/fasterxml/jackson/databind/ObjectReader;Lcom/fasterxml/jackson/core/format/MatchStrength;)V
+ (Ljava/io/InputStream;[BIILcom/fasterxml/jackson/databind/ObjectReader;Lcom/fasterxml/jackson/core/format/MatchStrength;)V
+createParserWithMatch
+ ()Lcom/fasterxml/jackson/core/JsonParser;
+ ()Lcom/fasterxml/jackson/core/JsonParser;
+getDataStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getMatchStrength
+ ()Lcom/fasterxml/jackson/core/format/MatchStrength;
+ ()Lcom/fasterxml/jackson/core/format/MatchStrength;
+getMatchedFormatName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getReader
+ ()Lcom/fasterxml/jackson/databind/ObjectReader;
+ ()Lcom/fasterxml/jackson/databind/ObjectReader;

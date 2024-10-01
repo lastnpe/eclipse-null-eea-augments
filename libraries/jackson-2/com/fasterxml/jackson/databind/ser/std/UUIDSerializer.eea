@@ -1,0 +1,28 @@
+class com/fasterxml/jackson/databind/ser/std/UUIDSerializer
+
+super com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+ <Ljava/util/UUID;>
+ <Ljava/util/UUID;>
+
+_asBinary
+ Ljava/lang/Boolean;
+ Ljava/lang/Boolean;
+
+<init>
+ (Ljava/lang/Boolean;)V
+ (Ljava/lang/Boolean;)V
+_writeAsBinary
+ (Lcom/fasterxml/jackson/core/JsonGenerator;)Z
+ (Lcom/fasterxml/jackson/core/JsonGenerator;)Z
+acceptJsonFormatVisitor
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+createContextual
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/BeanProperty;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/BeanProperty;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+isEmpty
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/util/UUID;)Z
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/util/UUID;)Z
+serialize
+ (Ljava/util/UUID;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljava/util/UUID;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
