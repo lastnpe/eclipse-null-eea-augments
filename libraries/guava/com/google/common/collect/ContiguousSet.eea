@@ -1,0 +1,57 @@
+class com/google/common/collect/ContiguousSet
+ <C::Ljava/lang/Comparable;>
+ <C::Ljava/lang/Comparable;>
+
+super com/google/common/collect/ImmutableSortedSet
+ <TC;>
+ <TC;>
+
+builder
+ <E:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableSortedSet$Builder<TE;>;
+ <E:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableSortedSet$Builder<TE;>;
+closed
+ (II)Lcom/google/common/collect/ContiguousSet<Ljava/lang/Integer;>;
+ (II)Lcom/google/common/collect/ContiguousSet<Ljava/lang/Integer;>;
+closed
+ (JJ)Lcom/google/common/collect/ContiguousSet<Ljava/lang/Long;>;
+ (JJ)Lcom/google/common/collect/ContiguousSet<Ljava/lang/Long;>;
+closedOpen
+ (II)Lcom/google/common/collect/ContiguousSet<Ljava/lang/Integer;>;
+ (II)Lcom/google/common/collect/ContiguousSet<Ljava/lang/Integer;>;
+closedOpen
+ (JJ)Lcom/google/common/collect/ContiguousSet<Ljava/lang/Long;>;
+ (JJ)Lcom/google/common/collect/ContiguousSet<Ljava/lang/Long;>;
+create
+ <C::Ljava/lang/Comparable;>(Lcom/google/common/collect/Range<TC;>;Lcom/google/common/collect/DiscreteDomain<TC;>;)Lcom/google/common/collect/ContiguousSet<TC;>;
+ <C::Ljava/lang/Comparable;>(Lcom/google/common/collect/Range<TC;>;Lcom/google/common/collect/DiscreteDomain<TC;>;)Lcom/google/common/collect/ContiguousSet<TC;>;
+
+headSet
+ (TC;)Lcom/google/common/collect/ContiguousSet<TC;>;
+ (TC;)Lcom/google/common/collect/ContiguousSet<TC;>;
+headSet
+ (TC;Z)Lcom/google/common/collect/ContiguousSet<TC;>;
+ (TC;Z)Lcom/google/common/collect/ContiguousSet<TC;>;
+intersection
+ (Lcom/google/common/collect/ContiguousSet<TC;>;)Lcom/google/common/collect/ContiguousSet<TC;>;
+ (Lcom/google/common/collect/ContiguousSet<TC;>;)Lcom/google/common/collect/ContiguousSet<TC;>;
+range
+ ()Lcom/google/common/collect/Range<TC;>;
+ ()Lcom/google/common/collect/Range<TC;>;
+range
+ (Lcom/google/common/collect/BoundType;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/Range<TC;>;
+ (Lcom/google/common/collect/BoundType;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/Range<TC;>;
+subSet
+ (TC;TC;)Lcom/google/common/collect/ContiguousSet<TC;>;
+ (TC;TC;)Lcom/google/common/collect/ContiguousSet<TC;>;
+subSet
+ (TC;ZTC;Z)Lcom/google/common/collect/ContiguousSet<TC;>;
+ (TC;ZTC;Z)Lcom/google/common/collect/ContiguousSet<TC;>;
+tailSet
+ (TC;)Lcom/google/common/collect/ContiguousSet<TC;>;
+ (TC;)Lcom/google/common/collect/ContiguousSet<TC;>;
+tailSet
+ (TC;Z)Lcom/google/common/collect/ContiguousSet<TC;>;
+ (TC;Z)Lcom/google/common/collect/ContiguousSet<TC;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.util.AbstractCollection)

@@ -1,0 +1,181 @@
+class com/fasterxml/jackson/databind/cfg/MapperConfig
+ <T:Lcom/fasterxml/jackson/databind/cfg/MapperConfig<TT;>;>
+ <T:Lcom/fasterxml/jackson/databind/cfg/MapperConfig<TT;>;>
+
+EMPTY_FORMAT
+ Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ L1com/fasterxml/jackson/annotation/JsonFormat$Value;
+EMPTY_INCLUDE
+ Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ L1com/fasterxml/jackson/annotation/JsonInclude$Value;
+
+collectFeatureDefaults
+ <F:Ljava/lang/Enum<TF;>;:Lcom/fasterxml/jackson/databind/cfg/ConfigFeature;>(Ljava/lang/Class<TF;>;)I
+ <F:Ljava/lang/Enum<TF;>;:Lcom/fasterxml/jackson/databind/cfg/ConfigFeature;>(Ljava/lang/Class<TF;>;)I
+
+_base
+ Lcom/fasterxml/jackson/databind/cfg/BaseSettings;
+ Lcom/fasterxml/jackson/databind/cfg/BaseSettings;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/cfg/BaseSettings;J)V
+ (Lcom/fasterxml/jackson/databind/cfg/BaseSettings;J)V
+<init>
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<TT;>;)V
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<TT;>;)V
+<init>
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<TT;>;J)V
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<TT;>;J)V
+<init>
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<TT;>;Lcom/fasterxml/jackson/databind/cfg/BaseSettings;)V
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<TT;>;Lcom/fasterxml/jackson/databind/cfg/BaseSettings;)V
+compileString
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/SerializableString;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/SerializableString;
+constructSpecializedType
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+constructType
+ (Lcom/fasterxml/jackson/core/type/TypeReference<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/core/type/TypeReference<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+constructType
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+findConfigOverride
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/cfg/ConfigOverride;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/cfg/ConfigOverride;
+findRootName
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/PropertyName;
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/PropertyName;
+findRootName
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/PropertyName;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/PropertyName;
+getAccessorNaming
+ ()Lcom/fasterxml/jackson/databind/introspect/AccessorNamingStrategy$Provider;
+ ()Lcom/fasterxml/jackson/databind/introspect/AccessorNamingStrategy$Provider;
+getActiveView
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getAnnotationIntrospector
+ ()Lcom/fasterxml/jackson/databind/AnnotationIntrospector;
+ ()Lcom/fasterxml/jackson/databind/AnnotationIntrospector;
+getAttributes
+ ()Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+ ()Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+getBase64Variant
+ ()Lcom/fasterxml/jackson/core/Base64Variant;
+ ()Lcom/fasterxml/jackson/core/Base64Variant;
+getCacheProvider
+ ()Lcom/fasterxml/jackson/databind/cfg/CacheProvider;
+ ()Lcom/fasterxml/jackson/databind/cfg/CacheProvider;
+getClassIntrospector
+ ()Lcom/fasterxml/jackson/databind/introspect/ClassIntrospector;
+ ()Lcom/fasterxml/jackson/databind/introspect/ClassIntrospector;
+getConfigOverride
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/cfg/ConfigOverride;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/cfg/ConfigOverride;
+getDatatypeFeatures
+ ()Lcom/fasterxml/jackson/databind/cfg/DatatypeFeatures;
+ ()Lcom/fasterxml/jackson/databind/cfg/DatatypeFeatures;
+getDateFormat
+ ()Ljava/text/DateFormat;
+ ()Ljava/text/DateFormat;
+getDefaultInclusion
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+getDefaultInclusion
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+getDefaultMergeable
+ ()Ljava/lang/Boolean;
+ ()Ljava/lang/Boolean;
+getDefaultMergeable
+ (Ljava/lang/Class<*>;)Ljava/lang/Boolean;
+ (Ljava/lang/Class<*>;)Ljava/lang/Boolean;
+getDefaultPropertyFormat
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+getDefaultPropertyIgnorals
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+getDefaultPropertyIgnorals
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;)Lcom/fasterxml/jackson/annotation/JsonIgnoreProperties$Value;
+getDefaultPropertyInclusion
+ ()Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ ()Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+getDefaultPropertyInclusion
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+getDefaultPropertyInclusion
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+getDefaultPropertyInclusions
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;)Lcom/fasterxml/jackson/annotation/JsonIncludeProperties$Value;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;)Lcom/fasterxml/jackson/annotation/JsonIncludeProperties$Value;
+getDefaultSetterInfo
+ ()Lcom/fasterxml/jackson/annotation/JsonSetter$Value;
+ ()Lcom/fasterxml/jackson/annotation/JsonSetter$Value;
+getDefaultTyper
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/jsontype/TypeResolverBuilder<*>;
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/jsontype/TypeResolverBuilder<*>;
+getDefaultVisibilityChecker
+ ()Lcom/fasterxml/jackson/databind/introspect/VisibilityChecker<*>;
+ ()Lcom/fasterxml/jackson/databind/introspect/VisibilityChecker<*>;
+getDefaultVisibilityChecker
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;)Lcom/fasterxml/jackson/databind/introspect/VisibilityChecker<*>;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;)Lcom/fasterxml/jackson/databind/introspect/VisibilityChecker<*>;
+getHandlerInstantiator
+ ()Lcom/fasterxml/jackson/databind/cfg/HandlerInstantiator;
+ ()Lcom/fasterxml/jackson/databind/cfg/HandlerInstantiator;
+getLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+getPolymorphicTypeValidator
+ ()Lcom/fasterxml/jackson/databind/jsontype/PolymorphicTypeValidator;
+ ()Lcom/fasterxml/jackson/databind/jsontype/PolymorphicTypeValidator;
+getPropertyNamingStrategy
+ ()Lcom/fasterxml/jackson/databind/PropertyNamingStrategy;
+ ()Lcom/fasterxml/jackson/databind/PropertyNamingStrategy;
+getSubtypeResolver
+ ()Lcom/fasterxml/jackson/databind/jsontype/SubtypeResolver;
+ ()Lcom/fasterxml/jackson/databind/jsontype/SubtypeResolver;
+getTimeZone
+ ()Ljava/util/TimeZone;
+ ()Ljava/util/TimeZone;
+getTypeFactory
+ ()Lcom/fasterxml/jackson/databind/type/TypeFactory;
+ ()Lcom/fasterxml/jackson/databind/type/TypeFactory;
+introspectClassAnnotations
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/BeanDescription;
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/BeanDescription;
+introspectClassAnnotations
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/BeanDescription;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/BeanDescription;
+introspectDirectClassAnnotations
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/BeanDescription;
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/BeanDescription;
+introspectDirectClassAnnotations
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/BeanDescription;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/BeanDescription;
+isEnabled
+ (Lcom/fasterxml/jackson/databind/MapperFeature;)Z
+ (Lcom/fasterxml/jackson/databind/MapperFeature;)Z
+isEnabled
+ (Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Z
+ (Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Z
+typeIdResolverInstance
+ (Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<+Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;>;)Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;
+ (Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<+Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;>;)Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;
+typeResolverBuilderInstance
+ (Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<+Lcom/fasterxml/jackson/databind/jsontype/TypeResolverBuilder<*>;>;)Lcom/fasterxml/jackson/databind/jsontype/TypeResolverBuilder<*>;
+ (Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<+Lcom/fasterxml/jackson/databind/jsontype/TypeResolverBuilder<*>;>;)Lcom/fasterxml/jackson/databind/jsontype/TypeResolverBuilder<*>;
+with
+ (Lcom/fasterxml/jackson/databind/MapperFeature;Z)TT;
+ (Lcom/fasterxml/jackson/databind/MapperFeature;Z)TT;
+with
+ ([Lcom/fasterxml/jackson/databind/MapperFeature;)TT;
+ ([Lcom/fasterxml/jackson/databind/MapperFeature;)TT;
+without
+ ([Lcom/fasterxml/jackson/databind/MapperFeature;)TT;
+ ([Lcom/fasterxml/jackson/databind/MapperFeature;)TT;

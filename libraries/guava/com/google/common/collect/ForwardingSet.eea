@@ -1,0 +1,23 @@
+class com/google/common/collect/ForwardingSet
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super com/google/common/collect/ForwardingCollection
+ <TE;>
+ <TE;>
+super java/util/Set
+ <TE;>
+ <TE;>
+
+delegate
+ ()Ljava/util/Set<TE;>;
+ ()Ljava/util/Set<TE;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+standardEquals
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+standardRemoveAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z

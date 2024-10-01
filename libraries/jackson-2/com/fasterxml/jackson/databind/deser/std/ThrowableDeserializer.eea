@@ -1,0 +1,28 @@
+class com/fasterxml/jackson/databind/deser/std/ThrowableDeserializer
+
+PROP_NAME_LOCALIZED_MESSAGE
+ Ljava/lang/String;
+ L1java/lang/String;
+PROP_NAME_MESSAGE
+ Ljava/lang/String;
+ L1java/lang/String;
+PROP_NAME_SUPPRESSED
+ Ljava/lang/String;
+ L1java/lang/String;
+
+construct
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/deser/BeanDeserializer;)Lcom/fasterxml/jackson/databind/deser/std/ThrowableDeserializer;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/deser/BeanDeserializer;)Lcom/fasterxml/jackson/databind/deser/std/ThrowableDeserializer;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/deser/BeanDeserializer;)V
+ (Lcom/fasterxml/jackson/databind/deser/BeanDeserializer;)V
+<init>
+ (Lcom/fasterxml/jackson/databind/deser/BeanDeserializer;Lcom/fasterxml/jackson/databind/util/NameTransformer;)V
+ (Lcom/fasterxml/jackson/databind/deser/BeanDeserializer;Lcom/fasterxml/jackson/databind/util/NameTransformer;)V
+deserializeFromObject
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object;
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object;
+unwrappingDeserializer
+ (Lcom/fasterxml/jackson/databind/util/NameTransformer;)Lcom/fasterxml/jackson/databind/JsonDeserializer<Ljava/lang/Object;>;
+ (Lcom/fasterxml/jackson/databind/util/NameTransformer;)Lcom/fasterxml/jackson/databind/JsonDeserializer<Ljava/lang/Object;>;

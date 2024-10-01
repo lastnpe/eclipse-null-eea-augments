@@ -1,0 +1,14 @@
+class org/slf4j/helpers/BasicMarkerFactory
+
+detachMarker
+ (Ljava/lang/String;)Z
+ (L0java/lang/String;)Z # @Inherited(org.slf4j.IMarkerFactory)
+exists
+ (Ljava/lang/String;)Z
+ (L0java/lang/String;)Z # @Inherited(org.slf4j.IMarkerFactory)
+getDetachedMarker
+ (Ljava/lang/String;)Lorg/slf4j/Marker;
+ (L1java/lang/String;)Lorg/slf4j/Marker; # @Inherited(org.slf4j.IMarkerFactory)
+getMarker
+ (Ljava/lang/String;)Lorg/slf4j/Marker;
+ (L1java/lang/String;)L1org/slf4j/Marker; # @Inherited(org.slf4j.IMarkerFactory)

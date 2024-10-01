@@ -1,0 +1,42 @@
+class com/fasterxml/jackson/databind/deser/DeserializationProblemHandler
+
+NOT_HANDLED
+ Ljava/lang/Object;
+ L1java/lang/Object;
+
+handleInstantiationProblem
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Class<*>;Ljava/lang/Object;Ljava/lang/Throwable;)Ljava/lang/Object;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Class<*>;Ljava/lang/Object;Ljava/lang/Throwable;)Ljava/lang/Object;
+handleMissingInstantiator
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;)Ljava/lang/Object;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;)Ljava/lang/Object;
+handleMissingInstantiator
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/deser/ValueInstantiator;Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;)Ljava/lang/Object;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/deser/ValueInstantiator;Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;)Ljava/lang/Object;
+handleMissingTypeId
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JavaType;
+handleUnexpectedToken
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/core/JsonToken;Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;)Ljava/lang/Object;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/core/JsonToken;Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;)Ljava/lang/Object;
+handleUnexpectedToken
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/core/JsonToken;Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;)Ljava/lang/Object;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/core/JsonToken;Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;)Ljava/lang/Object;
+handleUnknownProperty
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;Ljava/lang/Object;Ljava/lang/String;)Z
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;Ljava/lang/Object;Ljava/lang/String;)Z
+handleUnknownTypeId
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JavaType;
+handleWeirdKey
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
+handleWeirdNativeValue
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonParser;)Ljava/lang/Object;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonParser;)Ljava/lang/Object;
+handleWeirdNumberValue
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Class<*>;Ljava/lang/Number;Ljava/lang/String;)Ljava/lang/Object;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Class<*>;Ljava/lang/Number;Ljava/lang/String;)Ljava/lang/Object;
+handleWeirdStringValue
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;

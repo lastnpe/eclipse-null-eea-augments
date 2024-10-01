@@ -1,0 +1,66 @@
+class javax/swing/text/html/parser/Parser
+
+dtd
+ Ljavax/swing/text/html/parser/DTD;
+ Ljavax/swing/text/html/parser/DTD;
+
+<init>
+ (Ljavax/swing/text/html/parser/DTD;)V
+ (Ljavax/swing/text/html/parser/DTD;)V
+error
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+error
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+error
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+error
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+getAttributes
+ ()Ljavax/swing/text/SimpleAttributeSet;
+ ()Ljavax/swing/text/SimpleAttributeSet;
+handleComment
+ ([C)V
+ ([C)V
+handleEmptyTag
+ (Ljavax/swing/text/html/parser/TagElement;)V
+ (Ljavax/swing/text/html/parser/TagElement;)V
+handleEndTag
+ (Ljavax/swing/text/html/parser/TagElement;)V
+ (Ljavax/swing/text/html/parser/TagElement;)V
+handleError
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+handleStartTag
+ (Ljavax/swing/text/html/parser/TagElement;)V
+ (Ljavax/swing/text/html/parser/TagElement;)V
+handleText
+ ([C)V
+ ([C)V
+handleTitle
+ ([C)V
+ ([C)V
+makeTag
+ (Ljavax/swing/text/html/parser/Element;)Ljavax/swing/text/html/parser/TagElement;
+ (Ljavax/swing/text/html/parser/Element;)Ljavax/swing/text/html/parser/TagElement;
+makeTag
+ (Ljavax/swing/text/html/parser/Element;Z)Ljavax/swing/text/html/parser/TagElement;
+ (Ljavax/swing/text/html/parser/Element;Z)Ljavax/swing/text/html/parser/TagElement;
+markFirstTime
+ (Ljavax/swing/text/html/parser/Element;)V
+ (Ljavax/swing/text/html/parser/Element;)V
+parse
+ (Ljava/io/Reader;)V
+ (Ljava/io/Reader;)V
+parseDTDMarkup
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+parseMarkupDeclarations
+ (Ljava/lang/StringBuffer;)Z
+ (Ljava/lang/StringBuffer;)Z
+startTag
+ (Ljavax/swing/text/html/parser/TagElement;)V
+ (Ljavax/swing/text/html/parser/TagElement;)V

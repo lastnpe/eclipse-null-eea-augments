@@ -1,0 +1,8 @@
+class java/net/spi/InetAddressResolver
+
+lookupByAddress
+ ([B)Ljava/lang/String;
+ ([B)Ljava/lang/String;
+lookupByName
+ (Ljava/lang/String;Ljava/net/spi/InetAddressResolver$LookupPolicy;)Ljava/util/stream/Stream<Ljava/net/InetAddress;>;
+ (Ljava/lang/String;Ljava/net/spi/InetAddressResolver$LookupPolicy;)Ljava/util/stream/Stream<Ljava/net/InetAddress;>;

@@ -1,0 +1,20 @@
+class java/util/Base64$Encoder
+
+encode
+ (Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
+ (L1java/nio/ByteBuffer;)L1java/nio/ByteBuffer;
+encode
+ ([B)[B
+ ([1B)[1B
+encode
+ ([B[B)I
+ ([1B[1B)I
+encodeToString
+ ([B)Ljava/lang/String;
+ ([1B)L1java/lang/String;
+withoutPadding
+ ()Ljava/util/Base64$Encoder;
+ ()L1java/util/Base64$Encoder;
+wrap
+ (Ljava/io/OutputStream;)Ljava/io/OutputStream;
+ (L1java/io/OutputStream;)L1java/io/OutputStream;

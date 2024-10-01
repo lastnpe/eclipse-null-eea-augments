@@ -1,0 +1,66 @@
+class com/fasterxml/jackson/databind/type/TypeBindings
+
+create
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/TypeBindings;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/TypeBindings;
+create
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/TypeBindings;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/TypeBindings;
+create
+ (Ljava/lang/Class<*>;Ljava/util/List<Lcom/fasterxml/jackson/databind/JavaType;>;)Lcom/fasterxml/jackson/databind/type/TypeBindings;
+ (Ljava/lang/Class<*>;Ljava/util/List<Lcom/fasterxml/jackson/databind/JavaType;>;)Lcom/fasterxml/jackson/databind/type/TypeBindings;
+create
+ (Ljava/lang/Class<*>;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/TypeBindings;
+ (Ljava/lang/Class<*>;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/TypeBindings;
+create
+ (Ljava/util/List<Ljava/lang/String;>;Ljava/util/List<Lcom/fasterxml/jackson/databind/JavaType;>;)Lcom/fasterxml/jackson/databind/type/TypeBindings;
+ (Ljava/util/List<Ljava/lang/String;>;Ljava/util/List<Lcom/fasterxml/jackson/databind/JavaType;>;)Lcom/fasterxml/jackson/databind/type/TypeBindings;
+createIfNeeded
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/TypeBindings;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/TypeBindings;
+createIfNeeded
+ (Ljava/lang/Class<*>;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/TypeBindings;
+ (Ljava/lang/Class<*>;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/TypeBindings;
+emptyBindings
+ ()Lcom/fasterxml/jackson/databind/type/TypeBindings;
+ ()Lcom/fasterxml/jackson/databind/type/TypeBindings;
+
+asKey
+ (Ljava/lang/Class<*>;)Ljava/lang/Object;
+ (Ljava/lang/Class<*>;)Ljava/lang/Object;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+findBoundType
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JavaType;
+getBoundName
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getBoundType
+ (I)Lcom/fasterxml/jackson/databind/JavaType;
+ (I)Lcom/fasterxml/jackson/databind/JavaType;
+getBoundTypeOrNull
+ (I)Lcom/fasterxml/jackson/databind/JavaType;
+ (I)Lcom/fasterxml/jackson/databind/JavaType;
+getTypeParameters
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/JavaType;>;
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/JavaType;>;
+hasUnbound
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+readResolve
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+typeParameterArray
+ ()[Lcom/fasterxml/jackson/databind/JavaType;
+ ()[Lcom/fasterxml/jackson/databind/JavaType;
+withUnboundVariable
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/type/TypeBindings;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/type/TypeBindings;
+withoutVariable
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/type/TypeBindings;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/type/TypeBindings;

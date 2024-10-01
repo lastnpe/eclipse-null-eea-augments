@@ -1,0 +1,25 @@
+class java/util/UUID
+
+super java/lang/Comparable
+ <Ljava/util/UUID;>
+ <Ljava/util/UUID;>
+
+fromString
+ (Ljava/lang/String;)Ljava/util/UUID;
+ (L1java/lang/String;)L1java/util/UUID;
+nameUUIDFromBytes
+ ([B)Ljava/util/UUID;
+ ([1B)L1java/util/UUID;
+randomUUID
+ ()Ljava/util/UUID;
+ ()L1java/util/UUID;
+
+compareTo
+ (Ljava/util/UUID;)I
+ (L1java/util/UUID;)I
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

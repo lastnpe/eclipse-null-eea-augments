@@ -1,0 +1,26 @@
+class org/eclipse/jetty/client/ContentSourceRequestContent
+
+<init>
+ (Lorg/eclipse/jetty/io/Content$Source;)V
+ (Lorg/eclipse/jetty/io/Content$Source;)V
+<init>
+ (Lorg/eclipse/jetty/io/Content$Source;Ljava/lang/String;)V
+ (Lorg/eclipse/jetty/io/Content$Source;Ljava/lang/String;)V
+demand
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+fail
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+fail
+ (Ljava/lang/Throwable;Z)V
+ (Ljava/lang/Throwable;Z)V
+getContentSource
+ ()Lorg/eclipse/jetty/io/Content$Source;
+ ()Lorg/eclipse/jetty/io/Content$Source;
+getContentType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+read
+ ()Lorg/eclipse/jetty/io/Content$Chunk;
+ ()Lorg/eclipse/jetty/io/Content$Chunk;

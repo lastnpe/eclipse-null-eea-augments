@@ -1,0 +1,46 @@
+class javax/swing/plaf/metal/MetalToggleButtonUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+disabledTextColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+focusColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+selectColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+
+getDisabledTextColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getFocusColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getSelectColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+installDefaults
+ (Ljavax/swing/AbstractButton;)V
+ (Ljavax/swing/AbstractButton;)V
+paintButtonPressed
+ (Ljava/awt/Graphics;Ljavax/swing/AbstractButton;)V
+ (Ljava/awt/Graphics;Ljavax/swing/AbstractButton;)V
+paintFocus
+ (Ljava/awt/Graphics;Ljavax/swing/AbstractButton;Ljava/awt/Rectangle;Ljava/awt/Rectangle;Ljava/awt/Rectangle;)V
+ (Ljava/awt/Graphics;Ljavax/swing/AbstractButton;Ljava/awt/Rectangle;Ljava/awt/Rectangle;Ljava/awt/Rectangle;)V
+paintIcon
+ (Ljava/awt/Graphics;Ljavax/swing/AbstractButton;Ljava/awt/Rectangle;)V
+ (Ljava/awt/Graphics;Ljavax/swing/AbstractButton;Ljava/awt/Rectangle;)V
+paintText
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;Ljava/awt/Rectangle;Ljava/lang/String;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;Ljava/awt/Rectangle;Ljava/lang/String;)V
+uninstallDefaults
+ (Ljavax/swing/AbstractButton;)V
+ (Ljavax/swing/AbstractButton;)V
+update
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V

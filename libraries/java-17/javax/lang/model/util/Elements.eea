@@ -1,0 +1,86 @@
+class javax/lang/model/util/Elements
+
+getAllAnnotationMirrors
+ (Ljavax/lang/model/element/Element;)Ljava/util/List<+Ljavax/lang/model/element/AnnotationMirror;>;
+ (L1javax/lang/model/element/Element;)L1java/util/List<+L1javax/lang/model/element/AnnotationMirror;>;
+getAllMembers
+ (Ljavax/lang/model/element/TypeElement;)Ljava/util/List<+Ljavax/lang/model/element/Element;>;
+ (Ljavax/lang/model/element/TypeElement;)Ljava/util/List<+Ljavax/lang/model/element/Element;>;
+getAllModuleElements
+ ()Ljava/util/Set<+Ljavax/lang/model/element/ModuleElement;>;
+ ()Ljava/util/Set<+Ljavax/lang/model/element/ModuleElement;>;
+getAllPackageElements
+ (Ljava/lang/CharSequence;)Ljava/util/Set<+Ljavax/lang/model/element/PackageElement;>;
+ (Ljava/lang/CharSequence;)Ljava/util/Set<+Ljavax/lang/model/element/PackageElement;>;
+getAllTypeElements
+ (Ljava/lang/CharSequence;)Ljava/util/Set<+Ljavax/lang/model/element/TypeElement;>;
+ (Ljava/lang/CharSequence;)Ljava/util/Set<+Ljavax/lang/model/element/TypeElement;>;
+getBinaryName
+ (Ljavax/lang/model/element/TypeElement;)Ljavax/lang/model/element/Name;
+ (Ljavax/lang/model/element/TypeElement;)Ljavax/lang/model/element/Name;
+getConstantExpression
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+getDocComment
+ (Ljavax/lang/model/element/Element;)Ljava/lang/String;
+ (Ljavax/lang/model/element/Element;)Ljava/lang/String;
+getElementValuesWithDefaults
+ (Ljavax/lang/model/element/AnnotationMirror;)Ljava/util/Map<+Ljavax/lang/model/element/ExecutableElement;+Ljavax/lang/model/element/AnnotationValue;>;
+ (Ljavax/lang/model/element/AnnotationMirror;)Ljava/util/Map<+Ljavax/lang/model/element/ExecutableElement;+Ljavax/lang/model/element/AnnotationValue;>;
+getModuleElement
+ (Ljava/lang/CharSequence;)Ljavax/lang/model/element/ModuleElement;
+ (Ljava/lang/CharSequence;)Ljavax/lang/model/element/ModuleElement;
+getModuleOf
+ (Ljavax/lang/model/element/Element;)Ljavax/lang/model/element/ModuleElement;
+ (Ljavax/lang/model/element/Element;)Ljavax/lang/model/element/ModuleElement;
+getName
+ (Ljava/lang/CharSequence;)Ljavax/lang/model/element/Name;
+ (Ljava/lang/CharSequence;)Ljavax/lang/model/element/Name;
+getOrigin
+ (Ljavax/lang/model/AnnotatedConstruct;Ljavax/lang/model/element/AnnotationMirror;)Ljavax/lang/model/util/Elements$Origin;
+ (Ljavax/lang/model/AnnotatedConstruct;Ljavax/lang/model/element/AnnotationMirror;)Ljavax/lang/model/util/Elements$Origin;
+getOrigin
+ (Ljavax/lang/model/element/Element;)Ljavax/lang/model/util/Elements$Origin;
+ (Ljavax/lang/model/element/Element;)Ljavax/lang/model/util/Elements$Origin;
+getOrigin
+ (Ljavax/lang/model/element/ModuleElement;Ljavax/lang/model/element/ModuleElement$Directive;)Ljavax/lang/model/util/Elements$Origin;
+ (Ljavax/lang/model/element/ModuleElement;Ljavax/lang/model/element/ModuleElement$Directive;)Ljavax/lang/model/util/Elements$Origin;
+getPackageElement
+ (Ljava/lang/CharSequence;)Ljavax/lang/model/element/PackageElement;
+ (Ljava/lang/CharSequence;)Ljavax/lang/model/element/PackageElement;
+getPackageElement
+ (Ljavax/lang/model/element/ModuleElement;Ljava/lang/CharSequence;)Ljavax/lang/model/element/PackageElement;
+ (Ljavax/lang/model/element/ModuleElement;Ljava/lang/CharSequence;)Ljavax/lang/model/element/PackageElement;
+getPackageOf
+ (Ljavax/lang/model/element/Element;)Ljavax/lang/model/element/PackageElement;
+ (L1javax/lang/model/element/Element;)L0javax/lang/model/element/PackageElement;
+getTypeElement
+ (Ljava/lang/CharSequence;)Ljavax/lang/model/element/TypeElement;
+ (Ljava/lang/CharSequence;)Ljavax/lang/model/element/TypeElement;
+getTypeElement
+ (Ljavax/lang/model/element/ModuleElement;Ljava/lang/CharSequence;)Ljavax/lang/model/element/TypeElement;
+ (Ljavax/lang/model/element/ModuleElement;Ljava/lang/CharSequence;)Ljavax/lang/model/element/TypeElement;
+hides
+ (Ljavax/lang/model/element/Element;Ljavax/lang/model/element/Element;)Z
+ (Ljavax/lang/model/element/Element;Ljavax/lang/model/element/Element;)Z
+isAutomaticModule
+ (Ljavax/lang/model/element/ModuleElement;)Z
+ (Ljavax/lang/model/element/ModuleElement;)Z
+isBridge
+ (Ljavax/lang/model/element/ExecutableElement;)Z
+ (Ljavax/lang/model/element/ExecutableElement;)Z
+isDeprecated
+ (Ljavax/lang/model/element/Element;)Z
+ (Ljavax/lang/model/element/Element;)Z
+isFunctionalInterface
+ (Ljavax/lang/model/element/TypeElement;)Z
+ (Ljavax/lang/model/element/TypeElement;)Z
+overrides
+ (Ljavax/lang/model/element/ExecutableElement;Ljavax/lang/model/element/ExecutableElement;Ljavax/lang/model/element/TypeElement;)Z
+ (Ljavax/lang/model/element/ExecutableElement;Ljavax/lang/model/element/ExecutableElement;Ljavax/lang/model/element/TypeElement;)Z
+printElements
+ (Ljava/io/Writer;[Ljavax/lang/model/element/Element;)V
+ (Ljava/io/Writer;[Ljavax/lang/model/element/Element;)V
+recordComponentFor
+ (Ljavax/lang/model/element/ExecutableElement;)Ljavax/lang/model/element/RecordComponentElement;
+ (Ljavax/lang/model/element/ExecutableElement;)Ljavax/lang/model/element/RecordComponentElement;

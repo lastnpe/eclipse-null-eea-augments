@@ -1,0 +1,162 @@
+class jakarta/servlet/ServletContext
+
+ORDERED_LIBS
+ Ljava/lang/String;
+ L1java/lang/String;
+TEMPDIR
+ Ljava/lang/String;
+ L1java/lang/String;
+
+addFilter
+ (Ljava/lang/String;Ljakarta/servlet/Filter;)Ljakarta/servlet/FilterRegistration$Dynamic;
+ (L1java/lang/String;L1jakarta/servlet/Filter;)L1jakarta/servlet/FilterRegistration$Dynamic;
+addFilter
+ (Ljava/lang/String;Ljava/lang/Class<+Ljakarta/servlet/Filter;>;)Ljakarta/servlet/FilterRegistration$Dynamic;
+ (L1java/lang/String;L1java/lang/Class<+L1jakarta/servlet/Filter;>;)L1jakarta/servlet/FilterRegistration$Dynamic;
+addFilter
+ (Ljava/lang/String;Ljava/lang/String;)Ljakarta/servlet/FilterRegistration$Dynamic;
+ (L1java/lang/String;L1java/lang/String;)L1jakarta/servlet/FilterRegistration$Dynamic;
+addJspFile
+ (Ljava/lang/String;Ljava/lang/String;)Ljakarta/servlet/ServletRegistration$Dynamic;
+ (L1java/lang/String;L1java/lang/String;)L1jakarta/servlet/ServletRegistration$Dynamic;
+addListener
+ (Ljava/lang/Class<+Ljava/util/EventListener;>;)V
+ (L1java/lang/Class<+Ljava/util/EventListener;>;)V
+addListener
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V
+addListener
+ <T::Ljava/util/EventListener;>(TT;)V
+ <T::L1java/util/EventListener;>(TT;)V
+addServlet
+ (Ljava/lang/String;Ljakarta/servlet/Servlet;)Ljakarta/servlet/ServletRegistration$Dynamic;
+ (L1java/lang/String;L1jakarta/servlet/Servlet;)L1jakarta/servlet/ServletRegistration$Dynamic;
+addServlet
+ (Ljava/lang/String;Ljava/lang/Class<+Ljakarta/servlet/Servlet;>;)Ljakarta/servlet/ServletRegistration$Dynamic;
+ (L1java/lang/String;L1java/lang/Class<+L1jakarta/servlet/Servlet;>;)L1jakarta/servlet/ServletRegistration$Dynamic;
+addServlet
+ (Ljava/lang/String;Ljava/lang/String;)Ljakarta/servlet/ServletRegistration$Dynamic;
+ (L1java/lang/String;L1java/lang/String;)L1jakarta/servlet/ServletRegistration$Dynamic;
+createFilter
+ <T::Ljakarta/servlet/Filter;>(Ljava/lang/Class<TT;>;)TT;
+ <T::L1jakarta/servlet/Filter;>(L1java/lang/Class<TT;>;)TT;
+createListener
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)TT;
+ <T::L1java/util/EventListener;>(L1java/lang/Class<TT;>;)TT;
+createServlet
+ <T::Ljakarta/servlet/Servlet;>(Ljava/lang/Class<TT;>;)TT;
+ <T::L1jakarta/servlet/Servlet;>(L1java/lang/Class<TT;>;)TT;
+declareRoles
+ ([Ljava/lang/String;)V
+ ([1L1java/lang/String;)V
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (L1java/lang/String;)L0java/lang/Object;
+getAttributeNames
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()L1java/util/Enumeration<L1java/lang/String;>;
+getClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()L1java/lang/ClassLoader;
+getContext
+ (Ljava/lang/String;)Ljakarta/servlet/ServletContext;
+ (L1java/lang/String;)L0jakarta/servlet/ServletContext;
+getContextPath
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getDefaultSessionTrackingModes
+ ()Ljava/util/Set<Ljakarta/servlet/SessionTrackingMode;>;
+ ()L1java/util/Set<L1jakarta/servlet/SessionTrackingMode;>;
+getEffectiveSessionTrackingModes
+ ()Ljava/util/Set<Ljakarta/servlet/SessionTrackingMode;>;
+ ()L1java/util/Set<L1jakarta/servlet/SessionTrackingMode;>;
+getFilterRegistration
+ (Ljava/lang/String;)Ljakarta/servlet/FilterRegistration;
+ (L1java/lang/String;)L0jakarta/servlet/FilterRegistration;
+getFilterRegistrations
+ ()Ljava/util/Map<Ljava/lang/String;+Ljakarta/servlet/FilterRegistration;>;
+ ()L1java/util/Map<L1java/lang/String;+L1jakarta/servlet/FilterRegistration;>;
+getInitParameter
+ (Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;)L0java/lang/String;
+getInitParameterNames
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()L1java/util/Enumeration<L1java/lang/String;>;
+getJspConfigDescriptor
+ ()Ljakarta/servlet/descriptor/JspConfigDescriptor;
+ ()L1jakarta/servlet/descriptor/JspConfigDescriptor;
+getMimeType
+ (Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;)L0java/lang/String;
+getNamedDispatcher
+ (Ljava/lang/String;)Ljakarta/servlet/RequestDispatcher;
+ (L1java/lang/String;)L0jakarta/servlet/RequestDispatcher;
+getRealPath
+ (Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;)Ljava/lang/String;
+getRequestCharacterEncoding
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getRequestDispatcher
+ (Ljava/lang/String;)Ljakarta/servlet/RequestDispatcher;
+ (L1java/lang/String;)L0jakarta/servlet/RequestDispatcher;
+getResource
+ (Ljava/lang/String;)Ljava/net/URL;
+ (L1java/lang/String;)L0java/net/URL;
+getResourceAsStream
+ (Ljava/lang/String;)Ljava/io/InputStream;
+ (L1java/lang/String;)L0java/io/InputStream;
+getResourcePaths
+ (Ljava/lang/String;)Ljava/util/Set<Ljava/lang/String;>;
+ (L1java/lang/String;)Ljava/util/Set<L1java/lang/String;>;
+getResponseCharacterEncoding
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getServerInfo
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getServletContextName
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getServletRegistration
+ (Ljava/lang/String;)Ljakarta/servlet/ServletRegistration;
+ (L1java/lang/String;)Ljakarta/servlet/ServletRegistration;
+getServletRegistrations
+ ()Ljava/util/Map<Ljava/lang/String;+Ljakarta/servlet/ServletRegistration;>;
+ ()L1java/util/Map<L1java/lang/String;+L1jakarta/servlet/ServletRegistration;>;
+getSessionCookieConfig
+ ()Ljakarta/servlet/SessionCookieConfig;
+ ()L1jakarta/servlet/SessionCookieConfig;
+getVirtualServerName
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+log
+ (Ljava/lang/String;)V
+ (L0java/lang/String;)V
+log
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+ (L0java/lang/String;L0java/lang/Throwable;)V
+removeAttribute
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V
+setAttribute
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (L1java/lang/String;L1java/lang/Object;)V
+setInitParameter
+ (Ljava/lang/String;Ljava/lang/String;)Z
+ (L1java/lang/String;L1java/lang/String;)Z
+setRequestCharacterEncoding
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V
+setRequestCharacterEncoding
+ (Ljava/nio/charset/Charset;)V
+ (L1java/nio/charset/Charset;)V
+setResponseCharacterEncoding
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V
+setResponseCharacterEncoding
+ (Ljava/nio/charset/Charset;)V
+ (L1java/nio/charset/Charset;)V
+setSessionTrackingModes
+ (Ljava/util/Set<Ljakarta/servlet/SessionTrackingMode;>;)V
+ (L1java/util/Set<L1jakarta/servlet/SessionTrackingMode;>;)V

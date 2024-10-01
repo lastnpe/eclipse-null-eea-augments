@@ -1,0 +1,11 @@
+class javax/servlet/http/HttpUtils
+
+getRequestURL
+ (Ljavax/servlet/http/HttpServletRequest;)Ljava/lang/StringBuffer;
+ (Ljavax/servlet/http/HttpServletRequest;)Ljava/lang/StringBuffer;
+parsePostData
+ (ILjavax/servlet/ServletInputStream;)Ljava/util/Hashtable<Ljava/lang/String;[Ljava/lang/String;>;
+ (ILjavax/servlet/ServletInputStream;)Ljava/util/Hashtable<Ljava/lang/String;[Ljava/lang/String;>;
+parseQueryString
+ (Ljava/lang/String;)Ljava/util/Hashtable<Ljava/lang/String;[Ljava/lang/String;>;
+ (Ljava/lang/String;)Ljava/util/Hashtable<Ljava/lang/String;[Ljava/lang/String;>;

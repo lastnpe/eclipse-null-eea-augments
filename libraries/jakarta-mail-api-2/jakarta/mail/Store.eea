@@ -1,0 +1,44 @@
+class jakarta/mail/Store
+
+<init>
+ (Ljakarta/mail/Session;Ljakarta/mail/URLName;)V
+ (Ljakarta/mail/Session;Ljakarta/mail/URLName;)V
+addFolderListener
+ (Ljakarta/mail/event/FolderListener;)V
+ (L1jakarta/mail/event/FolderListener;)V
+addStoreListener
+ (Ljakarta/mail/event/StoreListener;)V
+ (L1jakarta/mail/event/StoreListener;)V
+getDefaultFolder
+ ()Ljakarta/mail/Folder;
+ ()Ljakarta/mail/Folder;
+getFolder
+ (Ljakarta/mail/URLName;)Ljakarta/mail/Folder;
+ (Ljakarta/mail/URLName;)Ljakarta/mail/Folder;
+getFolder
+ (Ljava/lang/String;)Ljakarta/mail/Folder;
+ (Ljava/lang/String;)Ljakarta/mail/Folder;
+getPersonalNamespaces
+ ()[Ljakarta/mail/Folder;
+ ()[Ljakarta/mail/Folder;
+getSharedNamespaces
+ ()[Ljakarta/mail/Folder;
+ ()[Ljakarta/mail/Folder;
+getUserNamespaces
+ (Ljava/lang/String;)[Ljakarta/mail/Folder;
+ (Ljava/lang/String;)[Ljakarta/mail/Folder;
+notifyFolderListeners
+ (ILjakarta/mail/Folder;)V
+ (ILjakarta/mail/Folder;)V
+notifyFolderRenamedListeners
+ (Ljakarta/mail/Folder;Ljakarta/mail/Folder;)V
+ (Ljakarta/mail/Folder;Ljakarta/mail/Folder;)V
+notifyStoreListeners
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+removeFolderListener
+ (Ljakarta/mail/event/FolderListener;)V
+ (L1jakarta/mail/event/FolderListener;)V
+removeStoreListener
+ (Ljakarta/mail/event/StoreListener;)V
+ (L1jakarta/mail/event/StoreListener;)V

@@ -1,0 +1,17 @@
+class org/osgi/resource/Wiring
+
+getProvidedResourceWires
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Wire;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Wire;>;
+getRequiredResourceWires
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Wire;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Wire;>;
+getResource
+ ()Lorg/osgi/resource/Resource;
+ ()Lorg/osgi/resource/Resource;
+getResourceCapabilities
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Capability;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Capability;>;
+getResourceRequirements
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Requirement;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Requirement;>;

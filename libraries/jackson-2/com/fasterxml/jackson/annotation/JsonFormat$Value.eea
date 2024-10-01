@@ -1,0 +1,106 @@
+class com/fasterxml/jackson/annotation/JsonFormat$Value
+
+super com/fasterxml/jackson/annotation/JacksonAnnotationValue
+ <Lcom/fasterxml/jackson/annotation/JsonFormat;>
+ <Lcom/fasterxml/jackson/annotation/JsonFormat;>
+
+empty
+ ()Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ ()Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+forLeniency
+ (Z)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ (Z)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+forPattern
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+forShape
+ (Lcom/fasterxml/jackson/annotation/JsonFormat$Shape;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonFormat$Shape;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+from
+ (Lcom/fasterxml/jackson/annotation/JsonFormat;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonFormat;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+merge
+ (Lcom/fasterxml/jackson/annotation/JsonFormat$Value;Lcom/fasterxml/jackson/annotation/JsonFormat$Value;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonFormat$Value;Lcom/fasterxml/jackson/annotation/JsonFormat$Value;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+mergeAll
+ ([Lcom/fasterxml/jackson/annotation/JsonFormat$Value;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ ([Lcom/fasterxml/jackson/annotation/JsonFormat$Value;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+
+<init>
+ (Lcom/fasterxml/jackson/annotation/JsonFormat;)V
+ (Lcom/fasterxml/jackson/annotation/JsonFormat;)V
+<init>
+ (Ljava/lang/String;Lcom/fasterxml/jackson/annotation/JsonFormat$Shape;Ljava/lang/String;Ljava/lang/String;Lcom/fasterxml/jackson/annotation/JsonFormat$Features;)V
+ (Ljava/lang/String;Lcom/fasterxml/jackson/annotation/JsonFormat$Shape;Ljava/lang/String;Ljava/lang/String;Lcom/fasterxml/jackson/annotation/JsonFormat$Features;)V
+<init>
+ (Ljava/lang/String;Lcom/fasterxml/jackson/annotation/JsonFormat$Shape;Ljava/lang/String;Ljava/lang/String;Lcom/fasterxml/jackson/annotation/JsonFormat$Features;Ljava/lang/Boolean;)V
+ (Ljava/lang/String;Lcom/fasterxml/jackson/annotation/JsonFormat$Shape;Ljava/lang/String;Ljava/lang/String;Lcom/fasterxml/jackson/annotation/JsonFormat$Features;Ljava/lang/Boolean;)V
+<init>
+ (Ljava/lang/String;Lcom/fasterxml/jackson/annotation/JsonFormat$Shape;Ljava/util/Locale;Ljava/lang/String;Ljava/util/TimeZone;Lcom/fasterxml/jackson/annotation/JsonFormat$Features;)V
+ (Ljava/lang/String;Lcom/fasterxml/jackson/annotation/JsonFormat$Shape;Ljava/util/Locale;Ljava/lang/String;Ljava/util/TimeZone;Lcom/fasterxml/jackson/annotation/JsonFormat$Features;)V
+<init>
+ (Ljava/lang/String;Lcom/fasterxml/jackson/annotation/JsonFormat$Shape;Ljava/util/Locale;Ljava/lang/String;Ljava/util/TimeZone;Lcom/fasterxml/jackson/annotation/JsonFormat$Features;Ljava/lang/Boolean;)V
+ (Ljava/lang/String;Lcom/fasterxml/jackson/annotation/JsonFormat$Shape;Ljava/util/Locale;Ljava/lang/String;Ljava/util/TimeZone;Lcom/fasterxml/jackson/annotation/JsonFormat$Features;Ljava/lang/Boolean;)V
+<init>
+ (Ljava/lang/String;Lcom/fasterxml/jackson/annotation/JsonFormat$Shape;Ljava/util/Locale;Ljava/util/TimeZone;Lcom/fasterxml/jackson/annotation/JsonFormat$Features;)V
+ (Ljava/lang/String;Lcom/fasterxml/jackson/annotation/JsonFormat$Shape;Ljava/util/Locale;Ljava/util/TimeZone;Lcom/fasterxml/jackson/annotation/JsonFormat$Features;)V
+<init>
+ (Ljava/lang/String;Lcom/fasterxml/jackson/annotation/JsonFormat$Shape;Ljava/util/Locale;Ljava/util/TimeZone;Lcom/fasterxml/jackson/annotation/JsonFormat$Features;Ljava/lang/Boolean;)V
+ (Ljava/lang/String;Lcom/fasterxml/jackson/annotation/JsonFormat$Shape;Ljava/util/Locale;Ljava/util/TimeZone;Lcom/fasterxml/jackson/annotation/JsonFormat$Features;Ljava/lang/Boolean;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getFeature
+ (Lcom/fasterxml/jackson/annotation/JsonFormat$Feature;)Ljava/lang/Boolean;
+ (Lcom/fasterxml/jackson/annotation/JsonFormat$Feature;)Ljava/lang/Boolean;
+getFeatures
+ ()Lcom/fasterxml/jackson/annotation/JsonFormat$Features;
+ ()Lcom/fasterxml/jackson/annotation/JsonFormat$Features;
+getLenient
+ ()Ljava/lang/Boolean;
+ ()Ljava/lang/Boolean;
+getLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+getPattern
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getShape
+ ()Lcom/fasterxml/jackson/annotation/JsonFormat$Shape;
+ ()Lcom/fasterxml/jackson/annotation/JsonFormat$Shape;
+getTimeZone
+ ()Ljava/util/TimeZone;
+ ()Ljava/util/TimeZone;
+timeZoneAsString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+valueFor
+ ()Ljava/lang/Class<Lcom/fasterxml/jackson/annotation/JsonFormat;>;
+ ()Ljava/lang/Class<Lcom/fasterxml/jackson/annotation/JsonFormat;>;
+withFeature
+ (Lcom/fasterxml/jackson/annotation/JsonFormat$Feature;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonFormat$Feature;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+withLenient
+ (Ljava/lang/Boolean;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ (Ljava/lang/Boolean;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+withLocale
+ (Ljava/util/Locale;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ (Ljava/util/Locale;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+withOverrides
+ (Lcom/fasterxml/jackson/annotation/JsonFormat$Value;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonFormat$Value;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+withPattern
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+withShape
+ (Lcom/fasterxml/jackson/annotation/JsonFormat$Shape;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonFormat$Shape;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+withTimeZone
+ (Ljava/util/TimeZone;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ (Ljava/util/TimeZone;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+withoutFeature
+ (Lcom/fasterxml/jackson/annotation/JsonFormat$Feature;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonFormat$Feature;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;

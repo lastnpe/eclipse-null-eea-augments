@@ -1,0 +1,20 @@
+class java/awt/image/FilteredImageSource
+
+<init>
+ (Ljava/awt/image/ImageProducer;Ljava/awt/image/ImageFilter;)V
+ (Ljava/awt/image/ImageProducer;Ljava/awt/image/ImageFilter;)V
+addConsumer
+ (Ljava/awt/image/ImageConsumer;)V
+ (Ljava/awt/image/ImageConsumer;)V
+isConsumer
+ (Ljava/awt/image/ImageConsumer;)Z
+ (Ljava/awt/image/ImageConsumer;)Z
+removeConsumer
+ (Ljava/awt/image/ImageConsumer;)V
+ (Ljava/awt/image/ImageConsumer;)V
+requestTopDownLeftRightResend
+ (Ljava/awt/image/ImageConsumer;)V
+ (Ljava/awt/image/ImageConsumer;)V
+startProduction
+ (Ljava/awt/image/ImageConsumer;)V
+ (Ljava/awt/image/ImageConsumer;)V

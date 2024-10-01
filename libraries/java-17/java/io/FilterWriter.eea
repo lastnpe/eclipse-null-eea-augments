@@ -1,0 +1,15 @@
+class java/io/FilterWriter
+
+out
+ Ljava/io/Writer;
+ L1java/io/Writer;
+
+<init>
+ (Ljava/io/Writer;)V
+ (L1java/io/Writer;)V
+write
+ (Ljava/lang/String;II)V
+ (L1java/lang/String;II)V # @Inherited(java.io.Writer)
+write
+ ([CII)V
+ ([1CII)V # @Inherited(java.io.Writer)

@@ -1,0 +1,41 @@
+class javax/swing/text/InternationalFormatter
+
+<init>
+ (Ljava/text/Format;)V
+ (Ljava/text/Format;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(javax.swing.text.DefaultFormatter)
+getActions
+ ()[Ljavax/swing/Action;
+ ()[Ljavax/swing/Action;
+getFields
+ (I)[Ljava/text/Format$Field;
+ (I)[Ljava/text/Format$Field;
+getFormat
+ ()Ljava/text/Format;
+ ()Ljava/text/Format;
+getMaximum
+ ()Ljava/lang/Comparable<*>;
+ ()Ljava/lang/Comparable<*>;
+getMinimum
+ ()Ljava/lang/Comparable<*>;
+ ()Ljava/lang/Comparable<*>;
+install
+ (Ljavax/swing/JFormattedTextField;)V
+ (Ljavax/swing/JFormattedTextField;)V
+setFormat
+ (Ljava/text/Format;)V
+ (Ljava/text/Format;)V
+setMaximum
+ (Ljava/lang/Comparable<*>;)V
+ (Ljava/lang/Comparable<*>;)V
+setMinimum
+ (Ljava/lang/Comparable<*>;)V
+ (Ljava/lang/Comparable<*>;)V
+stringToValue
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+valueToString
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;

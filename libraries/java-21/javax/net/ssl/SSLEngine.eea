@@ -1,0 +1,74 @@
+class javax/net/ssl/SSLEngine
+
+<init>
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+getApplicationProtocol
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDelegatedTask
+ ()Ljava/lang/Runnable;
+ ()Ljava/lang/Runnable;
+getEnabledCipherSuites
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getEnabledProtocols
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getHandshakeApplicationProtocol
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getHandshakeApplicationProtocolSelector
+ ()Ljava/util/function/BiFunction<Ljavax/net/ssl/SSLEngine;Ljava/util/List<Ljava/lang/String;>;Ljava/lang/String;>;
+ ()Ljava/util/function/BiFunction<Ljavax/net/ssl/SSLEngine;Ljava/util/List<Ljava/lang/String;>;Ljava/lang/String;>;
+getHandshakeSession
+ ()Ljavax/net/ssl/SSLSession;
+ ()Ljavax/net/ssl/SSLSession;
+getHandshakeStatus
+ ()Ljavax/net/ssl/SSLEngineResult$HandshakeStatus;
+ ()Ljavax/net/ssl/SSLEngineResult$HandshakeStatus;
+getPeerHost
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSSLParameters
+ ()Ljavax/net/ssl/SSLParameters;
+ ()Ljavax/net/ssl/SSLParameters;
+getSession
+ ()Ljavax/net/ssl/SSLSession;
+ ()Ljavax/net/ssl/SSLSession;
+getSupportedCipherSuites
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getSupportedProtocols
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+setEnabledCipherSuites
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setEnabledProtocols
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setHandshakeApplicationProtocolSelector
+ (Ljava/util/function/BiFunction<Ljavax/net/ssl/SSLEngine;Ljava/util/List<Ljava/lang/String;>;Ljava/lang/String;>;)V
+ (Ljava/util/function/BiFunction<Ljavax/net/ssl/SSLEngine;Ljava/util/List<Ljava/lang/String;>;Ljava/lang/String;>;)V
+setSSLParameters
+ (Ljavax/net/ssl/SSLParameters;)V
+ (Ljavax/net/ssl/SSLParameters;)V
+unwrap
+ (Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)Ljavax/net/ssl/SSLEngineResult;
+ (Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)Ljavax/net/ssl/SSLEngineResult;
+unwrap
+ (Ljava/nio/ByteBuffer;[Ljava/nio/ByteBuffer;)Ljavax/net/ssl/SSLEngineResult;
+ (Ljava/nio/ByteBuffer;[Ljava/nio/ByteBuffer;)Ljavax/net/ssl/SSLEngineResult;
+unwrap
+ (Ljava/nio/ByteBuffer;[Ljava/nio/ByteBuffer;II)Ljavax/net/ssl/SSLEngineResult;
+ (Ljava/nio/ByteBuffer;[Ljava/nio/ByteBuffer;II)Ljavax/net/ssl/SSLEngineResult;
+wrap
+ (Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)Ljavax/net/ssl/SSLEngineResult;
+ (Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)Ljavax/net/ssl/SSLEngineResult;
+wrap
+ ([Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;)Ljavax/net/ssl/SSLEngineResult;
+ ([Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;)Ljavax/net/ssl/SSLEngineResult;
+wrap
+ ([Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)Ljavax/net/ssl/SSLEngineResult;
+ ([Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)Ljavax/net/ssl/SSLEngineResult;

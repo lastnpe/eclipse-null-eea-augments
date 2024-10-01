@@ -1,0 +1,65 @@
+class com/google/common/collect/ForwardingDeque
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super com/google/common/collect/ForwardingQueue
+ <TE;>
+ <TE;>
+super java/util/Deque
+ <TE;>
+ <TE;>
+
+addFirst
+ (TE;)V
+ (TE;)V
+addLast
+ (TE;)V
+ (TE;)V
+delegate
+ ()Ljava/util/Deque<TE;>;
+ ()Ljava/util/Deque<TE;>;
+descendingIterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.Deque)
+getFirst
+ ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
+getLast
+ ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
+offerFirst
+ (TE;)Z
+ (TE;)Z
+offerLast
+ (TE;)Z
+ (TE;)Z
+peekFirst
+ ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
+peekLast
+ ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
+pollFirst
+ ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
+pollLast
+ ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
+pop
+ ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
+push
+ (TE;)V
+ (TE;)V
+removeFirst
+ ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
+removeFirstOccurrence
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+removeLast
+ ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
+removeLastOccurrence
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z

@@ -1,0 +1,24 @@
+class javax/swing/DefaultBoundedRangeModel
+
+changeEvent
+ Ljavax/swing/event/ChangeEvent;
+ Ljavax/swing/event/ChangeEvent;
+listenerList
+ Ljavax/swing/event/EventListenerList;
+ Ljavax/swing/event/EventListenerList;
+
+addChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V # @Inherited(javax.swing.BoundedRangeModel)
+getChangeListeners
+ ()[Ljavax/swing/event/ChangeListener;
+ ()[Ljavax/swing/event/ChangeListener;
+getListeners
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+removeChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V # @Inherited(javax.swing.BoundedRangeModel)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

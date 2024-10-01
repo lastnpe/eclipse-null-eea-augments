@@ -1,0 +1,36 @@
+class javax/swing/plaf/nimbus/AbstractRegionPainter
+
+super javax/swing/Painter
+ <Ljavax/swing/JComponent;>
+ <Ljavax/swing/JComponent;>
+
+configureGraphics
+ (Ljava/awt/Graphics2D;)V
+ (Ljava/awt/Graphics2D;)V
+decodeColor
+ (Ljava/awt/Color;Ljava/awt/Color;F)Ljava/awt/Color;
+ (Ljava/awt/Color;Ljava/awt/Color;F)Ljava/awt/Color;
+decodeColor
+ (Ljava/lang/String;FFFI)Ljava/awt/Color;
+ (Ljava/lang/String;FFFI)Ljava/awt/Color;
+decodeGradient
+ (FFFF[F[Ljava/awt/Color;)Ljava/awt/LinearGradientPaint;
+ (FFFF[F[Ljava/awt/Color;)Ljava/awt/LinearGradientPaint;
+decodeRadialGradient
+ (FFF[F[Ljava/awt/Color;)Ljava/awt/RadialGradientPaint;
+ (FFF[F[Ljava/awt/Color;)Ljava/awt/RadialGradientPaint;
+doPaint
+ (Ljava/awt/Graphics2D;Ljavax/swing/JComponent;II[Ljava/lang/Object;)V
+ (Ljava/awt/Graphics2D;Ljavax/swing/JComponent;II[Ljava/lang/Object;)V
+getComponentColor
+ (Ljavax/swing/JComponent;Ljava/lang/String;Ljava/awt/Color;FFI)Ljava/awt/Color;
+ (Ljavax/swing/JComponent;Ljava/lang/String;Ljava/awt/Color;FFI)Ljava/awt/Color;
+getExtendedCacheKeys
+ (Ljavax/swing/JComponent;)[Ljava/lang/Object;
+ (Ljavax/swing/JComponent;)[Ljava/lang/Object;
+getPaintContext
+ ()Ljavax/swing/plaf/nimbus/AbstractRegionPainter$PaintContext;
+ ()Ljavax/swing/plaf/nimbus/AbstractRegionPainter$PaintContext;
+paint
+ (Ljava/awt/Graphics2D;Ljavax/swing/JComponent;II)V
+ (Ljava/awt/Graphics2D;Ljavax/swing/JComponent;II)V

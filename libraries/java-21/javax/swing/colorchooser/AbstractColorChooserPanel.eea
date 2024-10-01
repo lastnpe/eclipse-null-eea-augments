@@ -1,0 +1,30 @@
+class javax/swing/colorchooser/AbstractColorChooserPanel
+
+TRANSPARENCY_ENABLED_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getColorFromModel
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getColorSelectionModel
+ ()Ljavax/swing/colorchooser/ColorSelectionModel;
+ ()Ljavax/swing/colorchooser/ColorSelectionModel;
+getDisplayName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getLargeDisplayIcon
+ ()Ljavax/swing/Icon;
+ ()Ljavax/swing/Icon;
+getSmallDisplayIcon
+ ()Ljavax/swing/Icon;
+ ()Ljavax/swing/Icon;
+installChooserPanel
+ (Ljavax/swing/JColorChooser;)V
+ (Ljavax/swing/JColorChooser;)V
+paint
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+uninstallChooserPanel
+ (Ljavax/swing/JColorChooser;)V
+ (Ljavax/swing/JColorChooser;)V

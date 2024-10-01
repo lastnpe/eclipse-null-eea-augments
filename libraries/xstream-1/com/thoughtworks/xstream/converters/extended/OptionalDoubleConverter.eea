@@ -1,0 +1,17 @@
+class com/thoughtworks/xstream/converters/extended/OptionalDoubleConverter
+
+canConvert
+ (Ljava/lang/Class;)Z
+ (Ljava/lang/Class;)Z
+fromString
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+marshal
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Lcom/thoughtworks/xstream/converters/MarshallingContext;)V
+ (L0java/lang/Object;L1com/thoughtworks/xstream/io/HierarchicalStreamWriter;L1com/thoughtworks/xstream/converters/MarshallingContext;)V # @Inherited(com.thoughtworks.xstream.converters.Converter)
+toString
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+unmarshal
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Lcom/thoughtworks/xstream/converters/UnmarshallingContext;)Ljava/lang/Object;
+ (L1com/thoughtworks/xstream/io/HierarchicalStreamReader;L1com/thoughtworks/xstream/converters/UnmarshallingContext;)L0java/lang/Object; # @Inherited(com.thoughtworks.xstream.converters.Converter)

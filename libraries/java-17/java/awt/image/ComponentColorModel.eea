@@ -1,0 +1,74 @@
+class java/awt/image/ComponentColorModel
+
+<init>
+ (Ljava/awt/color/ColorSpace;ZZII)V
+ (Ljava/awt/color/ColorSpace;ZZII)V
+<init>
+ (Ljava/awt/color/ColorSpace;[IZZII)V
+ (Ljava/awt/color/ColorSpace;[IZZII)V
+coerceData
+ (Ljava/awt/image/WritableRaster;Z)Ljava/awt/image/ColorModel;
+ (Ljava/awt/image/WritableRaster;Z)Ljava/awt/image/ColorModel;
+createCompatibleSampleModel
+ (II)Ljava/awt/image/SampleModel;
+ (II)Ljava/awt/image/SampleModel;
+createCompatibleWritableRaster
+ (II)Ljava/awt/image/WritableRaster;
+ (II)Ljava/awt/image/WritableRaster;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.awt.image.ColorModel)
+getAlpha
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+getAlphaRaster
+ (Ljava/awt/image/WritableRaster;)Ljava/awt/image/WritableRaster;
+ (Ljava/awt/image/WritableRaster;)Ljava/awt/image/WritableRaster;
+getBlue
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+getComponents
+ (I[II)[I
+ (I[II)[I
+getComponents
+ (Ljava/lang/Object;[II)[I
+ (Ljava/lang/Object;[II)[I
+getDataElement
+ ([FI)I
+ ([FI)I
+getDataElement
+ ([II)I
+ ([II)I
+getDataElements
+ (ILjava/lang/Object;)Ljava/lang/Object;
+ (ILjava/lang/Object;)Ljava/lang/Object;
+getDataElements
+ ([FILjava/lang/Object;)Ljava/lang/Object;
+ ([FILjava/lang/Object;)Ljava/lang/Object;
+getDataElements
+ ([IILjava/lang/Object;)Ljava/lang/Object;
+ ([IILjava/lang/Object;)Ljava/lang/Object;
+getGreen
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+getNormalizedComponents
+ (Ljava/lang/Object;[FI)[F
+ (Ljava/lang/Object;[FI)[F
+getNormalizedComponents
+ ([II[FI)[F
+ ([II[FI)[F
+getRGB
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+getRed
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+getUnnormalizedComponents
+ ([FI[II)[I
+ ([FI[II)[I
+isCompatibleRaster
+ (Ljava/awt/image/Raster;)Z
+ (Ljava/awt/image/Raster;)Z
+isCompatibleSampleModel
+ (Ljava/awt/image/SampleModel;)Z
+ (Ljava/awt/image/SampleModel;)Z

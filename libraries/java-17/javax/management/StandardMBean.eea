@@ -1,0 +1,92 @@
+class javax/management/StandardMBean
+
+<init>
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+<init>
+ (Ljava/lang/Class<*>;Z)V
+ (Ljava/lang/Class<*>;Z)V
+<init>
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/Class<TT;>;)V
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/Class<TT;>;)V
+<init>
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/Class<TT;>;Z)V
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/Class<TT;>;Z)V
+cacheMBeanInfo
+ (Ljavax/management/MBeanInfo;)V
+ (Ljavax/management/MBeanInfo;)V
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getAttributes
+ ([Ljava/lang/String;)Ljavax/management/AttributeList;
+ ([Ljava/lang/String;)Ljavax/management/AttributeList;
+getCachedMBeanInfo
+ ()Ljavax/management/MBeanInfo;
+ ()Ljavax/management/MBeanInfo;
+getClassName
+ (Ljavax/management/MBeanInfo;)Ljava/lang/String;
+ (Ljavax/management/MBeanInfo;)Ljava/lang/String;
+getConstructors
+ ([Ljavax/management/MBeanConstructorInfo;Ljava/lang/Object;)[Ljavax/management/MBeanConstructorInfo;
+ ([Ljavax/management/MBeanConstructorInfo;Ljava/lang/Object;)[Ljavax/management/MBeanConstructorInfo;
+getDescription
+ (Ljavax/management/MBeanAttributeInfo;)Ljava/lang/String;
+ (Ljavax/management/MBeanAttributeInfo;)Ljava/lang/String;
+getDescription
+ (Ljavax/management/MBeanConstructorInfo;)Ljava/lang/String;
+ (Ljavax/management/MBeanConstructorInfo;)Ljava/lang/String;
+getDescription
+ (Ljavax/management/MBeanConstructorInfo;Ljavax/management/MBeanParameterInfo;I)Ljava/lang/String;
+ (Ljavax/management/MBeanConstructorInfo;Ljavax/management/MBeanParameterInfo;I)Ljava/lang/String;
+getDescription
+ (Ljavax/management/MBeanFeatureInfo;)Ljava/lang/String;
+ (Ljavax/management/MBeanFeatureInfo;)Ljava/lang/String;
+getDescription
+ (Ljavax/management/MBeanInfo;)Ljava/lang/String;
+ (Ljavax/management/MBeanInfo;)Ljava/lang/String;
+getDescription
+ (Ljavax/management/MBeanOperationInfo;)Ljava/lang/String;
+ (Ljavax/management/MBeanOperationInfo;)Ljava/lang/String;
+getDescription
+ (Ljavax/management/MBeanOperationInfo;Ljavax/management/MBeanParameterInfo;I)Ljava/lang/String;
+ (Ljavax/management/MBeanOperationInfo;Ljavax/management/MBeanParameterInfo;I)Ljava/lang/String;
+getImpact
+ (Ljavax/management/MBeanOperationInfo;)I
+ (Ljavax/management/MBeanOperationInfo;)I
+getImplementation
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getImplementationClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getMBeanInfo
+ ()Ljavax/management/MBeanInfo;
+ ()Ljavax/management/MBeanInfo;
+getMBeanInterface
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getParameterName
+ (Ljavax/management/MBeanConstructorInfo;Ljavax/management/MBeanParameterInfo;I)Ljava/lang/String;
+ (Ljavax/management/MBeanConstructorInfo;Ljavax/management/MBeanParameterInfo;I)Ljava/lang/String;
+getParameterName
+ (Ljavax/management/MBeanOperationInfo;Ljavax/management/MBeanParameterInfo;I)Ljava/lang/String;
+ (Ljavax/management/MBeanOperationInfo;Ljavax/management/MBeanParameterInfo;I)Ljava/lang/String;
+invoke
+ (Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;
+postRegister
+ (Ljava/lang/Boolean;)V
+ (Ljava/lang/Boolean;)V
+preRegister
+ (Ljavax/management/MBeanServer;Ljavax/management/ObjectName;)Ljavax/management/ObjectName;
+ (Ljavax/management/MBeanServer;Ljavax/management/ObjectName;)Ljavax/management/ObjectName;
+setAttribute
+ (Ljavax/management/Attribute;)V
+ (Ljavax/management/Attribute;)V
+setAttributes
+ (Ljavax/management/AttributeList;)Ljavax/management/AttributeList;
+ (Ljavax/management/AttributeList;)Ljavax/management/AttributeList;
+setImplementation
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

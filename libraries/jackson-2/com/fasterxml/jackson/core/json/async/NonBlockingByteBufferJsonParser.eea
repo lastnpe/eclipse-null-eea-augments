@@ -1,0 +1,14 @@
+class com/fasterxml/jackson/core/json/async/NonBlockingByteBufferJsonParser
+
+<init>
+ (Lcom/fasterxml/jackson/core/io/IOContext;ILcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;)V
+ (Lcom/fasterxml/jackson/core/io/IOContext;ILcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;)V
+feedInput
+ (Ljava/nio/ByteBuffer;)V
+ (Ljava/nio/ByteBuffer;)V
+getNonBlockingInputFeeder
+ ()Lcom/fasterxml/jackson/core/async/NonBlockingInputFeeder;
+ ()Lcom/fasterxml/jackson/core/async/NonBlockingInputFeeder;
+releaseBuffered
+ (Ljava/io/OutputStream;)I
+ (Ljava/io/OutputStream;)I

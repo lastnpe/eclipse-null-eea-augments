@@ -1,0 +1,45 @@
+class org/springframework/core/annotation/AnnotatedMethod
+
+findProvidedArgument
+ (Lorg/springframework/core/MethodParameter;[Ljava/lang/Object;)Ljava/lang/Object;
+ (Lorg/springframework/core/MethodParameter;[Ljava/lang/Object;)L0java/lang/Object;
+formatArgumentError
+ (Lorg/springframework/core/MethodParameter;Ljava/lang/String;)Ljava/lang/String;
+ (Lorg/springframework/core/MethodParameter;Ljava/lang/String;)Ljava/lang/String;
+
+<init>
+ (Ljava/lang/reflect/Method;)V
+ (Ljava/lang/reflect/Method;)V
+<init>
+ (Lorg/springframework/core/annotation/AnnotatedMethod;)V
+ (Lorg/springframework/core/annotation/AnnotatedMethod;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getBridgedMethod
+ ()Ljava/lang/reflect/Method;
+ ()Ljava/lang/reflect/Method;
+getContainingClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getMethod
+ ()Ljava/lang/reflect/Method;
+ ()Ljava/lang/reflect/Method;
+getMethodAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)T0A;
+getMethodParameters
+ ()[Lorg/springframework/core/MethodParameter;
+ ()[Lorg/springframework/core/MethodParameter;
+getReturnType
+ ()Lorg/springframework/core/MethodParameter;
+ ()Lorg/springframework/core/MethodParameter;
+getReturnValueType
+ (Ljava/lang/Object;)Lorg/springframework/core/MethodParameter;
+ (Ljava/lang/Object;)Lorg/springframework/core/MethodParameter;
+hasMethodAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Z
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

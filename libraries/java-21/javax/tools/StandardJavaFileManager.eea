@@ -1,0 +1,47 @@
+class javax/tools/StandardJavaFileManager
+
+asPath
+ (Ljavax/tools/FileObject;)Ljava/nio/file/Path;
+ (Ljavax/tools/FileObject;)Ljava/nio/file/Path;
+getJavaFileObjects
+ ([Ljava/io/File;)Ljava/lang/Iterable<+Ljavax/tools/JavaFileObject;>;
+ ([Ljava/io/File;)Ljava/lang/Iterable<+Ljavax/tools/JavaFileObject;>;
+getJavaFileObjects
+ ([Ljava/lang/String;)Ljava/lang/Iterable<+Ljavax/tools/JavaFileObject;>;
+ ([Ljava/lang/String;)Ljava/lang/Iterable<+Ljavax/tools/JavaFileObject;>;
+getJavaFileObjects
+ ([Ljava/nio/file/Path;)Ljava/lang/Iterable<+Ljavax/tools/JavaFileObject;>;
+ ([Ljava/nio/file/Path;)Ljava/lang/Iterable<+Ljavax/tools/JavaFileObject;>;
+getJavaFileObjectsFromFiles
+ (Ljava/lang/Iterable<+Ljava/io/File;>;)Ljava/lang/Iterable<+Ljavax/tools/JavaFileObject;>;
+ (Ljava/lang/Iterable<+Ljava/io/File;>;)Ljava/lang/Iterable<+Ljavax/tools/JavaFileObject;>;
+getJavaFileObjectsFromPaths
+ (Ljava/lang/Iterable<+Ljava/nio/file/Path;>;)Ljava/lang/Iterable<+Ljavax/tools/JavaFileObject;>;
+ (Ljava/lang/Iterable<+Ljava/nio/file/Path;>;)Ljava/lang/Iterable<+Ljavax/tools/JavaFileObject;>;
+getJavaFileObjectsFromPaths
+ (Ljava/util/Collection<+Ljava/nio/file/Path;>;)Ljava/lang/Iterable<+Ljavax/tools/JavaFileObject;>;
+ (Ljava/util/Collection<+Ljava/nio/file/Path;>;)Ljava/lang/Iterable<+Ljavax/tools/JavaFileObject;>;
+getJavaFileObjectsFromStrings
+ (Ljava/lang/Iterable<Ljava/lang/String;>;)Ljava/lang/Iterable<+Ljavax/tools/JavaFileObject;>;
+ (Ljava/lang/Iterable<Ljava/lang/String;>;)Ljava/lang/Iterable<+Ljavax/tools/JavaFileObject;>;
+getLocation
+ (Ljavax/tools/JavaFileManager$Location;)Ljava/lang/Iterable<+Ljava/io/File;>;
+ (Ljavax/tools/JavaFileManager$Location;)Ljava/lang/Iterable<+Ljava/io/File;>;
+getLocationAsPaths
+ (Ljavax/tools/JavaFileManager$Location;)Ljava/lang/Iterable<+Ljava/nio/file/Path;>;
+ (Ljavax/tools/JavaFileManager$Location;)Ljava/lang/Iterable<+Ljava/nio/file/Path;>;
+isSameFile
+ (Ljavax/tools/FileObject;Ljavax/tools/FileObject;)Z
+ (Ljavax/tools/FileObject;Ljavax/tools/FileObject;)Z
+setLocation
+ (Ljavax/tools/JavaFileManager$Location;Ljava/lang/Iterable<+Ljava/io/File;>;)V
+ (Ljavax/tools/JavaFileManager$Location;Ljava/lang/Iterable<+Ljava/io/File;>;)V
+setLocationForModule
+ (Ljavax/tools/JavaFileManager$Location;Ljava/lang/String;Ljava/util/Collection<+Ljava/nio/file/Path;>;)V
+ (Ljavax/tools/JavaFileManager$Location;Ljava/lang/String;Ljava/util/Collection<+Ljava/nio/file/Path;>;)V
+setLocationFromPaths
+ (Ljavax/tools/JavaFileManager$Location;Ljava/util/Collection<+Ljava/nio/file/Path;>;)V
+ (Ljavax/tools/JavaFileManager$Location;Ljava/util/Collection<+Ljava/nio/file/Path;>;)V
+setPathFactory
+ (Ljavax/tools/StandardJavaFileManager$PathFactory;)V
+ (Ljavax/tools/StandardJavaFileManager$PathFactory;)V

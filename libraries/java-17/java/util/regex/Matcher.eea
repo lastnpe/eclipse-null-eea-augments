@@ -1,0 +1,75 @@
+class java/util/regex/Matcher
+
+quoteReplacement
+ (Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;)L1java/lang/String;
+
+appendReplacement
+ (Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/util/regex/Matcher;
+ (L1java/lang/StringBuffer;L1java/lang/String;)L1java/util/regex/Matcher;
+appendReplacement
+ (Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/util/regex/Matcher;
+ (L1java/lang/StringBuilder;L1java/lang/String;)L1java/util/regex/Matcher;
+appendTail
+ (Ljava/lang/StringBuffer;)Ljava/lang/StringBuffer;
+ (L1java/lang/StringBuffer;)L1java/lang/StringBuffer;
+appendTail
+ (Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+ (L1java/lang/StringBuilder;)L1java/lang/StringBuilder;
+end
+ (Ljava/lang/String;)I
+ (L1java/lang/String;)I
+group
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.util.regex.MatchResult)
+group
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+group
+ (Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;)L0java/lang/String;
+pattern
+ ()Ljava/util/regex/Pattern;
+ ()L1java/util/regex/Pattern;
+region
+ (II)Ljava/util/regex/Matcher;
+ (II)L1java/util/regex/Matcher;
+replaceAll
+ (Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;)L1java/lang/String;
+replaceAll
+ (Ljava/util/function/Function<Ljava/util/regex/MatchResult;Ljava/lang/String;>;)Ljava/lang/String;
+ (L1java/util/function/Function<L1java/util/regex/MatchResult;L1java/lang/String;>;)L1java/lang/String;
+replaceFirst
+ (Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;)L1java/lang/String;
+replaceFirst
+ (Ljava/util/function/Function<Ljava/util/regex/MatchResult;Ljava/lang/String;>;)Ljava/lang/String;
+ (L1java/util/function/Function<L1java/util/regex/MatchResult;L1java/lang/String;>;)L1java/lang/String;
+reset
+ ()Ljava/util/regex/Matcher;
+ ()L1java/util/regex/Matcher;
+reset
+ (Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+ (L1java/lang/CharSequence;)L1java/util/regex/Matcher;
+results
+ ()Ljava/util/stream/Stream<Ljava/util/regex/MatchResult;>;
+ ()L1java/util/stream/Stream<L1java/util/regex/MatchResult;>;
+start
+ (Ljava/lang/String;)I
+ (L1java/lang/String;)I
+toMatchResult
+ ()Ljava/util/regex/MatchResult;
+ ()L1java/util/regex/MatchResult;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+useAnchoringBounds
+ (Z)Ljava/util/regex/Matcher;
+ (Z)L1java/util/regex/Matcher;
+usePattern
+ (Ljava/util/regex/Pattern;)Ljava/util/regex/Matcher;
+ (L1java/util/regex/Pattern;)L1java/util/regex/Matcher;
+useTransparentBounds
+ (Z)Ljava/util/regex/Matcher;
+ (Z)L1java/util/regex/Matcher;

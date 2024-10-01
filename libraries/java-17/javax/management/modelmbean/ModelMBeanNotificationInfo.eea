@@ -1,0 +1,23 @@
+class javax/management/modelmbean/ModelMBeanNotificationInfo
+
+<init>
+ (Ljavax/management/modelmbean/ModelMBeanNotificationInfo;)V
+ (Ljavax/management/modelmbean/ModelMBeanNotificationInfo;)V
+<init>
+ ([Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ ([Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ ([Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljavax/management/Descriptor;)V
+ ([Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljavax/management/Descriptor;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(javax.management.MBeanNotificationInfo)
+getDescriptor
+ ()Ljavax/management/Descriptor;
+ ()Ljavax/management/Descriptor;
+setDescriptor
+ (Ljavax/management/Descriptor;)V
+ (Ljavax/management/Descriptor;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.management.MBeanNotificationInfo)

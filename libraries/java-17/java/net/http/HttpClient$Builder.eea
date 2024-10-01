@@ -1,0 +1,39 @@
+class java/net/http/HttpClient$Builder
+
+NO_PROXY
+ Ljava/net/ProxySelector;
+ L1java/net/ProxySelector;
+
+authenticator
+ (Ljava/net/Authenticator;)Ljava/net/http/HttpClient$Builder;
+ (L0java/net/Authenticator;)L1java/net/http/HttpClient$Builder;
+build
+ ()Ljava/net/http/HttpClient;
+ ()L1java/net/http/HttpClient;
+connectTimeout
+ (Ljava/time/Duration;)Ljava/net/http/HttpClient$Builder;
+ (L1java/time/Duration;)L1java/net/http/HttpClient$Builder;
+cookieHandler
+ (Ljava/net/CookieHandler;)Ljava/net/http/HttpClient$Builder;
+ (L1java/net/CookieHandler;)L1java/net/http/HttpClient$Builder;
+executor
+ (Ljava/util/concurrent/Executor;)Ljava/net/http/HttpClient$Builder;
+ (L1java/util/concurrent/Executor;)L1java/net/http/HttpClient$Builder;
+followRedirects
+ (Ljava/net/http/HttpClient$Redirect;)Ljava/net/http/HttpClient$Builder;
+ (L1java/net/http/HttpClient$Redirect;)L1java/net/http/HttpClient$Builder;
+priority
+ (I)Ljava/net/http/HttpClient$Builder;
+ (I)L1java/net/http/HttpClient$Builder;
+proxy
+ (Ljava/net/ProxySelector;)Ljava/net/http/HttpClient$Builder;
+ (L1java/net/ProxySelector;)L1java/net/http/HttpClient$Builder;
+sslContext
+ (Ljavax/net/ssl/SSLContext;)Ljava/net/http/HttpClient$Builder;
+ (L1javax/net/ssl/SSLContext;)L1java/net/http/HttpClient$Builder;
+sslParameters
+ (Ljavax/net/ssl/SSLParameters;)Ljava/net/http/HttpClient$Builder;
+ (L1javax/net/ssl/SSLParameters;)L1java/net/http/HttpClient$Builder;
+version
+ (Ljava/net/http/HttpClient$Version;)Ljava/net/http/HttpClient$Builder;
+ (L1java/net/http/HttpClient$Version;)L1java/net/http/HttpClient$Builder;

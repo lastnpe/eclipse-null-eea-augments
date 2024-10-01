@@ -1,0 +1,26 @@
+class javax/management/modelmbean/ModelMBeanConstructorInfo
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;[Ljavax/management/MBeanParameterInfo;)V
+ (Ljava/lang/String;Ljava/lang/String;[Ljavax/management/MBeanParameterInfo;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;[Ljavax/management/MBeanParameterInfo;Ljavax/management/Descriptor;)V
+ (Ljava/lang/String;Ljava/lang/String;[Ljavax/management/MBeanParameterInfo;Ljavax/management/Descriptor;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/reflect/Constructor<*>;)V
+ (Ljava/lang/String;Ljava/lang/reflect/Constructor<*>;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/reflect/Constructor<*>;Ljavax/management/Descriptor;)V
+ (Ljava/lang/String;Ljava/lang/reflect/Constructor<*>;Ljavax/management/Descriptor;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(javax.management.MBeanConstructorInfo)
+getDescriptor
+ ()Ljavax/management/Descriptor;
+ ()Ljavax/management/Descriptor;
+setDescriptor
+ (Ljavax/management/Descriptor;)V
+ (Ljavax/management/Descriptor;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.management.MBeanConstructorInfo)

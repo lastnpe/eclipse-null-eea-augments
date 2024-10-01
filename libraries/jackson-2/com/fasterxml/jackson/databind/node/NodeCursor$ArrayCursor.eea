@@ -1,0 +1,24 @@
+class com/fasterxml/jackson/databind/node/NodeCursor$ArrayCursor
+
+_contents
+ Ljava/util/Iterator<Lcom/fasterxml/jackson/databind/JsonNode;>;
+ Ljava/util/Iterator<Lcom/fasterxml/jackson/databind/JsonNode;>;
+_currentElement
+ Lcom/fasterxml/jackson/databind/JsonNode;
+ Lcom/fasterxml/jackson/databind/JsonNode;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/JsonNode;Lcom/fasterxml/jackson/databind/node/NodeCursor;)V
+ (Lcom/fasterxml/jackson/databind/JsonNode;Lcom/fasterxml/jackson/databind/node/NodeCursor;)V
+currentNode
+ ()Lcom/fasterxml/jackson/databind/JsonNode;
+ ()Lcom/fasterxml/jackson/databind/JsonNode;
+nextToken
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+startArray
+ ()Lcom/fasterxml/jackson/databind/node/NodeCursor;
+ ()Lcom/fasterxml/jackson/databind/node/NodeCursor;
+startObject
+ ()Lcom/fasterxml/jackson/databind/node/NodeCursor;
+ ()Lcom/fasterxml/jackson/databind/node/NodeCursor;

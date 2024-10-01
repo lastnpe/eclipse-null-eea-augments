@@ -1,0 +1,55 @@
+class javax/xml/stream/XMLOutputFactory
+
+IS_REPAIRING_NAMESPACES
+ Ljava/lang/String;
+ L1java/lang/String;
+
+newDefaultFactory
+ ()Ljavax/xml/stream/XMLOutputFactory;
+ ()L1javax/xml/stream/XMLOutputFactory;
+newFactory
+ ()Ljavax/xml/stream/XMLOutputFactory;
+ ()L1javax/xml/stream/XMLOutputFactory;
+newFactory
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/stream/XMLOutputFactory;
+ (L1java/lang/String;L0java/lang/ClassLoader;)L1javax/xml/stream/XMLOutputFactory;
+newInstance
+ ()Ljavax/xml/stream/XMLOutputFactory;
+ ()L1javax/xml/stream/XMLOutputFactory;
+newInstance
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/stream/XMLInputFactory;
+ (L1java/lang/String;L0java/lang/ClassLoader;)L1javax/xml/stream/XMLInputFactory;
+
+createXMLEventWriter
+ (Ljava/io/OutputStream;)Ljavax/xml/stream/XMLEventWriter;
+ (L1java/io/OutputStream;)L1javax/xml/stream/XMLEventWriter;
+createXMLEventWriter
+ (Ljava/io/OutputStream;Ljava/lang/String;)Ljavax/xml/stream/XMLEventWriter;
+ (L1java/io/OutputStream;L0java/lang/String;)L1javax/xml/stream/XMLEventWriter;
+createXMLEventWriter
+ (Ljava/io/Writer;)Ljavax/xml/stream/XMLEventWriter;
+ (L1java/io/Writer;)L1javax/xml/stream/XMLEventWriter;
+createXMLEventWriter
+ (Ljavax/xml/transform/Result;)Ljavax/xml/stream/XMLEventWriter;
+ (L1javax/xml/transform/Result;)L1javax/xml/stream/XMLEventWriter;
+createXMLStreamWriter
+ (Ljava/io/OutputStream;)Ljavax/xml/stream/XMLStreamWriter;
+ (L1java/io/OutputStream;)L1javax/xml/stream/XMLStreamWriter;
+createXMLStreamWriter
+ (Ljava/io/OutputStream;Ljava/lang/String;)Ljavax/xml/stream/XMLStreamWriter;
+ (L1java/io/OutputStream;L0java/lang/String;)L1javax/xml/stream/XMLStreamWriter;
+createXMLStreamWriter
+ (Ljava/io/Writer;)Ljavax/xml/stream/XMLStreamWriter;
+ (L1java/io/Writer;)L1javax/xml/stream/XMLStreamWriter;
+createXMLStreamWriter
+ (Ljavax/xml/transform/Result;)Ljavax/xml/stream/XMLStreamWriter;
+ (L1javax/xml/transform/Result;)L1javax/xml/stream/XMLStreamWriter;
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (L1java/lang/String;)L1java/lang/Object;
+isPropertySupported
+ (Ljava/lang/String;)Z
+ (L1java/lang/String;)Z
+setProperty
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (L1java/lang/String;L1java/lang/Object;)V

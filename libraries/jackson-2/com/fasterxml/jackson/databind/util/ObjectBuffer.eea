@@ -1,0 +1,23 @@
+class com/fasterxml/jackson/databind/util/ObjectBuffer
+
+_copyTo
+ (Ljava/lang/Object;I[Ljava/lang/Object;I)V
+ (Ljava/lang/Object;I[Ljava/lang/Object;I)V
+appendCompletedChunk
+ ([Ljava/lang/Object;)[Ljava/lang/Object;
+ ([Ljava/lang/Object;)[Ljava/lang/Object;
+completeAndClearBuffer
+ ([Ljava/lang/Object;I)[Ljava/lang/Object;
+ ([Ljava/lang/Object;I)[Ljava/lang/Object;
+completeAndClearBuffer
+ ([Ljava/lang/Object;ILjava/util/List<Ljava/lang/Object;>;)V
+ ([Ljava/lang/Object;ILjava/util/List<Ljava/lang/Object;>;)V
+completeAndClearBuffer
+ <T:Ljava/lang/Object;>([Ljava/lang/Object;ILjava/lang/Class<TT;>;)[TT;
+ <T:Ljava/lang/Object;>([Ljava/lang/Object;ILjava/lang/Class<TT;>;)[TT;
+resetAndStart
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+resetAndStart
+ ([Ljava/lang/Object;I)[Ljava/lang/Object;
+ ([Ljava/lang/Object;I)[Ljava/lang/Object;

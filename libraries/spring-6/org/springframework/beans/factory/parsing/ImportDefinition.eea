@@ -1,0 +1,20 @@
+class org/springframework/beans/factory/parsing/ImportDefinition
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+<init>
+ (Ljava/lang/String;[Lorg/springframework/core/io/Resource;Ljava/lang/Object;)V
+ (Ljava/lang/String;[Lorg/springframework/core/io/Resource;Ljava/lang/Object;)V
+getActualResources
+ ()[Lorg/springframework/core/io/Resource;
+ ()[0Lorg/springframework/core/io/Resource;
+getImportedResource
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSource
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object; # @Inherited(org.springframework.beans.BeanMetadataElement)

@@ -1,0 +1,51 @@
+class com/fasterxml/jackson/databind/SequenceWriter
+
+_config
+ Lcom/fasterxml/jackson/databind/SerializationConfig;
+ Lcom/fasterxml/jackson/databind/SerializationConfig;
+_dynamicSerializers
+ Lcom/fasterxml/jackson/databind/ser/impl/PropertySerializerMap;
+ Lcom/fasterxml/jackson/databind/ser/impl/PropertySerializerMap;
+_generator
+ Lcom/fasterxml/jackson/core/JsonGenerator;
+ Lcom/fasterxml/jackson/core/JsonGenerator;
+_provider
+ Lcom/fasterxml/jackson/databind/ser/DefaultSerializerProvider;
+ Lcom/fasterxml/jackson/databind/ser/DefaultSerializerProvider;
+_rootSerializer
+ Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;
+ Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;
+_typeSerializer
+ Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;
+ Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/ser/DefaultSerializerProvider;Lcom/fasterxml/jackson/core/JsonGenerator;ZLcom/fasterxml/jackson/databind/ObjectWriter$Prefetch;)V
+ (Lcom/fasterxml/jackson/databind/ser/DefaultSerializerProvider;Lcom/fasterxml/jackson/core/JsonGenerator;ZLcom/fasterxml/jackson/databind/ObjectWriter$Prefetch;)V
+_writeCloseableValue
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/SequenceWriter;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/SequenceWriter;
+_writeCloseableValue
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/SequenceWriter;
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/SequenceWriter;
+init
+ (Z)Lcom/fasterxml/jackson/databind/SequenceWriter;
+ (Z)Lcom/fasterxml/jackson/databind/SequenceWriter;
+version
+ ()Lcom/fasterxml/jackson/core/Version;
+ ()Lcom/fasterxml/jackson/core/Version;
+write
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/SequenceWriter;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/SequenceWriter;
+write
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/SequenceWriter;
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/SequenceWriter;
+writeAll
+ (Ljava/lang/Iterable<*>;)Lcom/fasterxml/jackson/databind/SequenceWriter;
+ (Ljava/lang/Iterable<*>;)Lcom/fasterxml/jackson/databind/SequenceWriter;
+writeAll
+ ([Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/SequenceWriter;
+ ([Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/SequenceWriter;
+writeAll
+ <C::Ljava/util/Collection<*>;>(TC;)Lcom/fasterxml/jackson/databind/SequenceWriter;
+ <C::Ljava/util/Collection<*>;>(TC;)Lcom/fasterxml/jackson/databind/SequenceWriter;

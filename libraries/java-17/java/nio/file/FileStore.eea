@@ -1,0 +1,20 @@
+class java/nio/file/FileStore
+
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (L1java/lang/String;)L1java/lang/Object;
+getFileStoreAttributeView
+ <V::Ljava/nio/file/attribute/FileStoreAttributeView;>(Ljava/lang/Class<TV;>;)TV;
+ <1V::Ljava/nio/file/attribute/FileStoreAttributeView;>(L1java/lang/Class<TV;>;)TV;
+name
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+supportsFileAttributeView
+ (Ljava/lang/Class<+Ljava/nio/file/attribute/FileAttributeView;>;)Z
+ (L1java/lang/Class<+Ljava/nio/file/attribute/FileAttributeView;>;)Z
+supportsFileAttributeView
+ (Ljava/lang/String;)Z
+ (L1java/lang/String;)Z
+type
+ ()Ljava/lang/String;
+ ()L1java/lang/String;

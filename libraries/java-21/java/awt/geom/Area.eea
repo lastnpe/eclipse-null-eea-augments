@@ -1,0 +1,50 @@
+class java/awt/geom/Area
+
+<init>
+ (Ljava/awt/Shape;)V
+ (Ljava/awt/Shape;)V
+add
+ (Ljava/awt/geom/Area;)V
+ (Ljava/awt/geom/Area;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+contains
+ (Ljava/awt/geom/Point2D;)Z
+ (Ljava/awt/geom/Point2D;)Z
+contains
+ (Ljava/awt/geom/Rectangle2D;)Z
+ (Ljava/awt/geom/Rectangle2D;)Z
+createTransformedArea
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/geom/Area;
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/geom/Area;
+equals
+ (Ljava/awt/geom/Area;)Z
+ (Ljava/awt/geom/Area;)Z
+exclusiveOr
+ (Ljava/awt/geom/Area;)V
+ (Ljava/awt/geom/Area;)V
+getBounds
+ ()Ljava/awt/Rectangle;
+ ()Ljava/awt/Rectangle;
+getBounds2D
+ ()Ljava/awt/geom/Rectangle2D;
+ ()Ljava/awt/geom/Rectangle2D;
+getPathIterator
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/geom/PathIterator;
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/geom/PathIterator;
+getPathIterator
+ (Ljava/awt/geom/AffineTransform;D)Ljava/awt/geom/PathIterator;
+ (Ljava/awt/geom/AffineTransform;D)Ljava/awt/geom/PathIterator;
+intersect
+ (Ljava/awt/geom/Area;)V
+ (Ljava/awt/geom/Area;)V
+intersects
+ (Ljava/awt/geom/Rectangle2D;)Z
+ (Ljava/awt/geom/Rectangle2D;)Z
+subtract
+ (Ljava/awt/geom/Area;)V
+ (Ljava/awt/geom/Area;)V
+transform
+ (Ljava/awt/geom/AffineTransform;)V
+ (Ljava/awt/geom/AffineTransform;)V

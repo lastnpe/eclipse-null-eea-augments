@@ -1,0 +1,86 @@
+class javax/imageio/ImageIO
+
+createImageInputStream
+ (Ljava/lang/Object;)Ljavax/imageio/stream/ImageInputStream;
+ (Ljava/lang/Object;)Ljavax/imageio/stream/ImageInputStream;
+createImageOutputStream
+ (Ljava/lang/Object;)Ljavax/imageio/stream/ImageOutputStream;
+ (Ljava/lang/Object;)Ljavax/imageio/stream/ImageOutputStream;
+getCacheDirectory
+ ()Ljava/io/File;
+ ()Ljava/io/File;
+getImageReader
+ (Ljavax/imageio/ImageWriter;)Ljavax/imageio/ImageReader;
+ (Ljavax/imageio/ImageWriter;)Ljavax/imageio/ImageReader;
+getImageReaders
+ (Ljava/lang/Object;)Ljava/util/Iterator<Ljavax/imageio/ImageReader;>;
+ (Ljava/lang/Object;)Ljava/util/Iterator<Ljavax/imageio/ImageReader;>;
+getImageReadersByFormatName
+ (Ljava/lang/String;)Ljava/util/Iterator<Ljavax/imageio/ImageReader;>;
+ (Ljava/lang/String;)Ljava/util/Iterator<Ljavax/imageio/ImageReader;>;
+getImageReadersByMIMEType
+ (Ljava/lang/String;)Ljava/util/Iterator<Ljavax/imageio/ImageReader;>;
+ (Ljava/lang/String;)Ljava/util/Iterator<Ljavax/imageio/ImageReader;>;
+getImageReadersBySuffix
+ (Ljava/lang/String;)Ljava/util/Iterator<Ljavax/imageio/ImageReader;>;
+ (Ljava/lang/String;)Ljava/util/Iterator<Ljavax/imageio/ImageReader;>;
+getImageTranscoders
+ (Ljavax/imageio/ImageReader;Ljavax/imageio/ImageWriter;)Ljava/util/Iterator<Ljavax/imageio/ImageTranscoder;>;
+ (Ljavax/imageio/ImageReader;Ljavax/imageio/ImageWriter;)Ljava/util/Iterator<Ljavax/imageio/ImageTranscoder;>;
+getImageWriter
+ (Ljavax/imageio/ImageReader;)Ljavax/imageio/ImageWriter;
+ (Ljavax/imageio/ImageReader;)Ljavax/imageio/ImageWriter;
+getImageWriters
+ (Ljavax/imageio/ImageTypeSpecifier;Ljava/lang/String;)Ljava/util/Iterator<Ljavax/imageio/ImageWriter;>;
+ (Ljavax/imageio/ImageTypeSpecifier;Ljava/lang/String;)Ljava/util/Iterator<Ljavax/imageio/ImageWriter;>;
+getImageWritersByFormatName
+ (Ljava/lang/String;)Ljava/util/Iterator<Ljavax/imageio/ImageWriter;>;
+ (Ljava/lang/String;)Ljava/util/Iterator<Ljavax/imageio/ImageWriter;>;
+getImageWritersByMIMEType
+ (Ljava/lang/String;)Ljava/util/Iterator<Ljavax/imageio/ImageWriter;>;
+ (Ljava/lang/String;)Ljava/util/Iterator<Ljavax/imageio/ImageWriter;>;
+getImageWritersBySuffix
+ (Ljava/lang/String;)Ljava/util/Iterator<Ljavax/imageio/ImageWriter;>;
+ (Ljava/lang/String;)Ljava/util/Iterator<Ljavax/imageio/ImageWriter;>;
+getReaderFileSuffixes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getReaderFormatNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getReaderMIMETypes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getWriterFileSuffixes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getWriterFormatNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getWriterMIMETypes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+read
+ (Ljava/io/File;)Ljava/awt/image/BufferedImage;
+ (Ljava/io/File;)Ljava/awt/image/BufferedImage;
+read
+ (Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;
+ (Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;
+read
+ (Ljava/net/URL;)Ljava/awt/image/BufferedImage;
+ (Ljava/net/URL;)Ljava/awt/image/BufferedImage;
+read
+ (Ljavax/imageio/stream/ImageInputStream;)Ljava/awt/image/BufferedImage;
+ (Ljavax/imageio/stream/ImageInputStream;)Ljava/awt/image/BufferedImage;
+setCacheDirectory
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+write
+ (Ljava/awt/image/RenderedImage;Ljava/lang/String;Ljava/io/File;)Z
+ (Ljava/awt/image/RenderedImage;Ljava/lang/String;Ljava/io/File;)Z
+write
+ (Ljava/awt/image/RenderedImage;Ljava/lang/String;Ljava/io/OutputStream;)Z
+ (Ljava/awt/image/RenderedImage;Ljava/lang/String;Ljava/io/OutputStream;)Z
+write
+ (Ljava/awt/image/RenderedImage;Ljava/lang/String;Ljavax/imageio/stream/ImageOutputStream;)Z
+ (Ljava/awt/image/RenderedImage;Ljava/lang/String;Ljavax/imageio/stream/ImageOutputStream;)Z

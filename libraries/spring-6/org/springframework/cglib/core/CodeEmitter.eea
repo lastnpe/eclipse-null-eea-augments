@@ -1,0 +1,182 @@
+class org/springframework/cglib/core/CodeEmitter
+
+<init>
+ (Lorg/springframework/cglib/core/CodeEmitter;)V
+ (Lorg/springframework/cglib/core/CodeEmitter;)V
+array_load
+ (Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/asm/Type;)V
+array_store
+ (Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/asm/Type;)V
+begin_block
+ ()Lorg/springframework/cglib/core/Block;
+ ()Lorg/springframework/cglib/core/Block;
+box
+ (Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/asm/Type;)V
+cast_numeric
+ (Lorg/springframework/asm/Type;Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/asm/Type;Lorg/springframework/asm/Type;)V
+catch_exception
+ (Lorg/springframework/cglib/core/Block;Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/cglib/core/Block;Lorg/springframework/asm/Type;)V
+checkcast
+ (Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/asm/Type;)V
+getClassEmitter
+ ()Lorg/springframework/cglib/core/ClassEmitter;
+ ()Lorg/springframework/cglib/core/ClassEmitter;
+getMethodInfo
+ ()Lorg/springframework/cglib/core/MethodInfo;
+ ()Lorg/springframework/cglib/core/MethodInfo;
+getReturnType
+ ()Lorg/springframework/asm/Type;
+ ()Lorg/springframework/asm/Type;
+getSignature
+ ()Lorg/springframework/cglib/core/Signature;
+ ()Lorg/springframework/cglib/core/Signature;
+getfield
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getfield
+ (Lorg/springframework/asm/Type;Ljava/lang/String;Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/asm/Type;Ljava/lang/String;Lorg/springframework/asm/Type;)V
+getstatic
+ (Lorg/springframework/asm/Type;Ljava/lang/String;Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/asm/Type;Ljava/lang/String;Lorg/springframework/asm/Type;)V
+goTo
+ (Lorg/springframework/asm/Label;)V
+ (Lorg/springframework/asm/Label;)V
+if_cmp
+ (Lorg/springframework/asm/Type;ILorg/springframework/asm/Label;)V
+ (Lorg/springframework/asm/Type;ILorg/springframework/asm/Label;)V
+if_icmp
+ (ILorg/springframework/asm/Label;)V
+ (ILorg/springframework/asm/Label;)V
+if_jump
+ (ILorg/springframework/asm/Label;)V
+ (ILorg/springframework/asm/Label;)V
+ifnonnull
+ (Lorg/springframework/asm/Label;)V
+ (Lorg/springframework/asm/Label;)V
+ifnull
+ (Lorg/springframework/asm/Label;)V
+ (Lorg/springframework/asm/Label;)V
+iinc
+ (Lorg/springframework/cglib/core/Local;I)V
+ (Lorg/springframework/cglib/core/Local;I)V
+instance_of
+ (Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/asm/Type;)V
+invoke
+ (Lorg/springframework/cglib/core/MethodInfo;)V
+ (Lorg/springframework/cglib/core/MethodInfo;)V
+invoke
+ (Lorg/springframework/cglib/core/MethodInfo;Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/cglib/core/MethodInfo;Lorg/springframework/asm/Type;)V
+invoke_constructor
+ (Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/asm/Type;)V
+invoke_constructor
+ (Lorg/springframework/asm/Type;Lorg/springframework/cglib/core/Signature;)V
+ (Lorg/springframework/asm/Type;Lorg/springframework/cglib/core/Signature;)V
+invoke_constructor_this
+ (Lorg/springframework/cglib/core/Signature;)V
+ (Lorg/springframework/cglib/core/Signature;)V
+invoke_interface
+ (Lorg/springframework/asm/Type;Lorg/springframework/cglib/core/Signature;)V
+ (Lorg/springframework/asm/Type;Lorg/springframework/cglib/core/Signature;)V
+invoke_static
+ (Lorg/springframework/asm/Type;Lorg/springframework/cglib/core/Signature;)V
+ (Lorg/springframework/asm/Type;Lorg/springframework/cglib/core/Signature;)V
+invoke_static
+ (Lorg/springframework/asm/Type;Lorg/springframework/cglib/core/Signature;Z)V
+ (Lorg/springframework/asm/Type;Lorg/springframework/cglib/core/Signature;Z)V
+invoke_static_this
+ (Lorg/springframework/cglib/core/Signature;)V
+ (Lorg/springframework/cglib/core/Signature;)V
+invoke_virtual
+ (Lorg/springframework/asm/Type;Lorg/springframework/cglib/core/Signature;)V
+ (Lorg/springframework/asm/Type;Lorg/springframework/cglib/core/Signature;)V
+invoke_virtual_this
+ (Lorg/springframework/cglib/core/Signature;)V
+ (Lorg/springframework/cglib/core/Signature;)V
+load_local
+ (Lorg/springframework/cglib/core/Local;)V
+ (Lorg/springframework/cglib/core/Local;)V
+make_label
+ ()Lorg/springframework/asm/Label;
+ ()Lorg/springframework/asm/Label;
+make_local
+ ()Lorg/springframework/cglib/core/Local;
+ ()Lorg/springframework/cglib/core/Local;
+make_local
+ (Lorg/springframework/asm/Type;)Lorg/springframework/cglib/core/Local;
+ (Lorg/springframework/asm/Type;)Lorg/springframework/cglib/core/Local;
+mark
+ (Lorg/springframework/asm/Label;)V
+ (Lorg/springframework/asm/Label;)V
+math
+ (ILorg/springframework/asm/Type;)V
+ (ILorg/springframework/asm/Type;)V
+new_instance
+ (Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/asm/Type;)V
+newarray
+ (Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/asm/Type;)V
+process_switch
+ ([ILorg/springframework/cglib/core/ProcessSwitchCallback;)V
+ ([ILorg/springframework/cglib/core/ProcessSwitchCallback;)V
+process_switch
+ ([ILorg/springframework/cglib/core/ProcessSwitchCallback;Z)V
+ ([ILorg/springframework/cglib/core/ProcessSwitchCallback;Z)V
+push
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+putfield
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+putfield
+ (Lorg/springframework/asm/Type;Ljava/lang/String;Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/asm/Type;Ljava/lang/String;Lorg/springframework/asm/Type;)V
+putstatic
+ (Lorg/springframework/asm/Type;Ljava/lang/String;Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/asm/Type;Ljava/lang/String;Lorg/springframework/asm/Type;)V
+store_local
+ (Lorg/springframework/cglib/core/Local;)V
+ (Lorg/springframework/cglib/core/Local;)V
+super_getfield
+ (Ljava/lang/String;Lorg/springframework/asm/Type;)V
+ (Ljava/lang/String;Lorg/springframework/asm/Type;)V
+super_getstatic
+ (Ljava/lang/String;Lorg/springframework/asm/Type;)V
+ (Ljava/lang/String;Lorg/springframework/asm/Type;)V
+super_invoke
+ (Lorg/springframework/cglib/core/Signature;)V
+ (Lorg/springframework/cglib/core/Signature;)V
+super_invoke_constructor
+ (Lorg/springframework/cglib/core/Signature;)V
+ (Lorg/springframework/cglib/core/Signature;)V
+super_putfield
+ (Ljava/lang/String;Lorg/springframework/asm/Type;)V
+ (Ljava/lang/String;Lorg/springframework/asm/Type;)V
+super_putstatic
+ (Ljava/lang/String;Lorg/springframework/asm/Type;)V
+ (Ljava/lang/String;Lorg/springframework/asm/Type;)V
+swap
+ (Lorg/springframework/asm/Type;Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/asm/Type;Lorg/springframework/asm/Type;)V
+throw_exception
+ (Lorg/springframework/asm/Type;Ljava/lang/String;)V
+ (Lorg/springframework/asm/Type;Ljava/lang/String;)V
+unbox
+ (Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/asm/Type;)V
+unbox_or_zero
+ (Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/asm/Type;)V
+zero_or_null
+ (Lorg/springframework/asm/Type;)V
+ (Lorg/springframework/asm/Type;)V

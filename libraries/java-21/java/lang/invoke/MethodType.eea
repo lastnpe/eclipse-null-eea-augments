@@ -1,0 +1,97 @@
+class java/lang/invoke/MethodType
+
+super java/lang/invoke/TypeDescriptor$OfMethod
+ <Ljava/lang/Class<*>;Ljava/lang/invoke/MethodType;>
+ <Ljava/lang/Class<*>;Ljava/lang/invoke/MethodType;>
+
+fromMethodDescriptorString
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/invoke/MethodType;
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/invoke/MethodType;
+genericMethodType
+ (I)Ljava/lang/invoke/MethodType;
+ (I)Ljava/lang/invoke/MethodType;
+genericMethodType
+ (IZ)Ljava/lang/invoke/MethodType;
+ (IZ)Ljava/lang/invoke/MethodType;
+methodType
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodType;
+ (L1java/lang/Class<*>;)L1java/lang/invoke/MethodType;
+methodType
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodType;
+ (L1java/lang/Class<*>;L1java/lang/Class<*>;)L1java/lang/invoke/MethodType;
+methodType
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;[Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodType;
+ (L1java/lang/Class<*>;L1java/lang/Class<*>;[1L1java/lang/Class<*>;)L1java/lang/invoke/MethodType;
+methodType
+ (Ljava/lang/Class<*>;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodType;
+ (L1java/lang/Class<*>;L1java/lang/invoke/MethodType;)L1java/lang/invoke/MethodType;
+methodType
+ (Ljava/lang/Class<*>;Ljava/util/List<Ljava/lang/Class<*>;>;)Ljava/lang/invoke/MethodType;
+ (L1java/lang/Class<*>;L1java/util/List<L1java/lang/Class<*>;>;)L1java/lang/invoke/MethodType;
+methodType
+ (Ljava/lang/Class<*>;[Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodType;
+ (L1java/lang/Class<*>;[1L1java/lang/Class<*>;)L1java/lang/invoke/MethodType;
+
+appendParameterTypes
+ (Ljava/util/List<Ljava/lang/Class<*>;>;)Ljava/lang/invoke/MethodType;
+ (Ljava/util/List<Ljava/lang/Class<*>;>;)Ljava/lang/invoke/MethodType;
+appendParameterTypes
+ ([Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodType;
+ ([Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodType;
+changeParameterType
+ (ILjava/lang/Class<*>;)Ljava/lang/invoke/MethodType;
+ (ILjava/lang/Class<*>;)Ljava/lang/invoke/MethodType;
+changeReturnType
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodType;
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodType;
+describeConstable
+ ()Ljava/util/Optional<Ljava/lang/constant/MethodTypeDesc;>;
+ ()Ljava/util/Optional<Ljava/lang/constant/MethodTypeDesc;>;
+descriptorString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+dropParameterTypes
+ (II)Ljava/lang/invoke/MethodType;
+ (II)Ljava/lang/invoke/MethodType;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+erase
+ ()Ljava/lang/invoke/MethodType;
+ ()Ljava/lang/invoke/MethodType;
+generic
+ ()Ljava/lang/invoke/MethodType;
+ ()Ljava/lang/invoke/MethodType;
+insertParameterTypes
+ (ILjava/util/List<Ljava/lang/Class<*>;>;)Ljava/lang/invoke/MethodType;
+ (ILjava/util/List<Ljava/lang/Class<*>;>;)Ljava/lang/invoke/MethodType;
+insertParameterTypes
+ (I[Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodType;
+ (I[Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodType;
+lastParameterType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+parameterArray
+ ()[Ljava/lang/Class<*>;
+ ()[Ljava/lang/Class<*>;
+parameterList
+ ()Ljava/util/List<Ljava/lang/Class<*>;>;
+ ()Ljava/util/List<Ljava/lang/Class<*>;>;
+parameterType
+ (I)Ljava/lang/Class<*>;
+ (I)Ljava/lang/Class<*>;
+returnType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+toMethodDescriptorString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+unwrap
+ ()Ljava/lang/invoke/MethodType;
+ ()Ljava/lang/invoke/MethodType;
+wrap
+ ()Ljava/lang/invoke/MethodType;
+ ()Ljava/lang/invoke/MethodType;

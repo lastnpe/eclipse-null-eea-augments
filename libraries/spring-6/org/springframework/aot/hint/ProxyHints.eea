@@ -1,0 +1,14 @@
+class org/springframework/aot/hint/ProxyHints
+
+jdkProxyHints
+ ()Ljava/util/stream/Stream<Lorg/springframework/aot/hint/JdkProxyHint;>;
+ ()Ljava/util/stream/Stream<Lorg/springframework/aot/hint/JdkProxyHint;>;
+registerJdkProxy
+ (Ljava/util/function/Consumer<Lorg/springframework/aot/hint/JdkProxyHint$Builder;>;)Lorg/springframework/aot/hint/ProxyHints;
+ (Ljava/util/function/Consumer<Lorg/springframework/aot/hint/JdkProxyHint$Builder;>;)Lorg/springframework/aot/hint/ProxyHints;
+registerJdkProxy
+ ([Ljava/lang/Class<*>;)Lorg/springframework/aot/hint/ProxyHints;
+ ([Ljava/lang/Class<*>;)Lorg/springframework/aot/hint/ProxyHints;
+registerJdkProxy
+ ([Lorg/springframework/aot/hint/TypeReference;)Lorg/springframework/aot/hint/ProxyHints;
+ ([Lorg/springframework/aot/hint/TypeReference;)Lorg/springframework/aot/hint/ProxyHints;

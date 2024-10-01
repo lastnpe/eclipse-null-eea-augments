@@ -1,0 +1,18 @@
+class com/google/common/graph/ImmutableGraph
+ <N:Ljava/lang/Object;>
+ <N:Ljava/lang/Object;>
+
+super com/google/common/graph/ForwardingGraph
+ <TN;>
+ <TN;>
+
+copyOf
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/Graph<TN;>;)Lcom/google/common/graph/ImmutableGraph<TN;>;
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/Graph<TN;>;)Lcom/google/common/graph/ImmutableGraph<TN;>;
+copyOf
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/ImmutableGraph<TN;>;)Lcom/google/common/graph/ImmutableGraph<TN;>;
+ <N:Ljava/lang/Object;>(Lcom/google/common/graph/ImmutableGraph<TN;>;)Lcom/google/common/graph/ImmutableGraph<TN;>;
+
+incidentEdgeOrder
+ ()Lcom/google/common/graph/ElementOrder<TN;>;
+ ()Lcom/google/common/graph/ElementOrder<TN;>;

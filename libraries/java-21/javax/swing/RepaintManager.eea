@@ -1,0 +1,54 @@
+class javax/swing/RepaintManager
+
+currentManager
+ (Ljava/awt/Component;)Ljavax/swing/RepaintManager;
+ (Ljava/awt/Component;)Ljavax/swing/RepaintManager;
+currentManager
+ (Ljavax/swing/JComponent;)Ljavax/swing/RepaintManager;
+ (Ljavax/swing/JComponent;)Ljavax/swing/RepaintManager;
+setCurrentManager
+ (Ljavax/swing/RepaintManager;)V
+ (Ljavax/swing/RepaintManager;)V
+
+addDirtyRegion
+ (Ljava/applet/Applet;IIII)V
+ (Ljava/applet/Applet;IIII)V
+addDirtyRegion
+ (Ljava/awt/Window;IIII)V
+ (Ljava/awt/Window;IIII)V
+addDirtyRegion
+ (Ljavax/swing/JComponent;IIII)V
+ (Ljavax/swing/JComponent;IIII)V
+addInvalidComponent
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+getDirtyRegion
+ (Ljavax/swing/JComponent;)Ljava/awt/Rectangle;
+ (Ljavax/swing/JComponent;)Ljava/awt/Rectangle;
+getDoubleBufferMaximumSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getOffscreenBuffer
+ (Ljava/awt/Component;II)Ljava/awt/Image;
+ (Ljava/awt/Component;II)Ljava/awt/Image;
+getVolatileOffscreenBuffer
+ (Ljava/awt/Component;II)Ljava/awt/Image;
+ (Ljava/awt/Component;II)Ljava/awt/Image;
+isCompletelyDirty
+ (Ljavax/swing/JComponent;)Z
+ (Ljavax/swing/JComponent;)Z
+markCompletelyClean
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+markCompletelyDirty
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+removeInvalidComponent
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+setDoubleBufferMaximumSize
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

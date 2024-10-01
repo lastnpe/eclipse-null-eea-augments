@@ -1,0 +1,15 @@
+class org/springframework/beans/factory/config/ObjectFactoryCreatingFactoryBean
+
+super org/springframework/beans/factory/config/AbstractFactoryBean
+ <Lorg/springframework/beans/factory/ObjectFactory<Ljava/lang/Object;>;>
+ <Lorg/springframework/beans/factory/ObjectFactory<Ljava/lang/Object;>;>
+
+createInstance
+ ()Lorg/springframework/beans/factory/ObjectFactory<Ljava/lang/Object;>;
+ ()Lorg/springframework/beans/factory/ObjectFactory<Ljava/lang/Object;>;
+getObjectType
+ ()Ljava/lang/Class<*>;
+ ()L0java/lang/Class<*>; # @Inherited(org.springframework.beans.factory.config.AbstractFactoryBean)
+setTargetBeanName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

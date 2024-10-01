@@ -1,0 +1,18 @@
+class com/thoughtworks/xstream/converters/time/MinguoDateConverter
+
+super com/thoughtworks/xstream/converters/time/AbstractChronoLocalDateConverter
+ <Ljava/time/chrono/MinguoEra;>
+ <Ljava/time/chrono/MinguoEra;>
+
+canConvert
+ (Ljava/lang/Class;)Z
+ (Ljava/lang/Class;)Z
+chronoLocalDateOf
+ (Ljava/time/chrono/MinguoEra;III)Ljava/time/chrono/ChronoLocalDate;
+ (Ljava/time/chrono/MinguoEra;III)Ljava/time/chrono/ChronoLocalDate;
+eraOf
+ (Ljava/lang/String;)Ljava/time/chrono/MinguoEra;
+ (Ljava/lang/String;)Ljava/time/chrono/MinguoEra;
+fromString
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;

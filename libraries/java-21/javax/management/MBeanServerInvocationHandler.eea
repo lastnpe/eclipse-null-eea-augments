@@ -1,0 +1,21 @@
+class javax/management/MBeanServerInvocationHandler
+
+newProxyInstance
+ <T:Ljava/lang/Object;>(Ljavax/management/MBeanServerConnection;Ljavax/management/ObjectName;Ljava/lang/Class<TT;>;Z)TT;
+ <T:Ljava/lang/Object;>(Ljavax/management/MBeanServerConnection;Ljavax/management/ObjectName;Ljava/lang/Class<TT;>;Z)TT;
+
+<init>
+ (Ljavax/management/MBeanServerConnection;Ljavax/management/ObjectName;)V
+ (Ljavax/management/MBeanServerConnection;Ljavax/management/ObjectName;)V
+<init>
+ (Ljavax/management/MBeanServerConnection;Ljavax/management/ObjectName;Z)V
+ (Ljavax/management/MBeanServerConnection;Ljavax/management/ObjectName;Z)V
+getMBeanServerConnection
+ ()Ljavax/management/MBeanServerConnection;
+ ()Ljavax/management/MBeanServerConnection;
+getObjectName
+ ()Ljavax/management/ObjectName;
+ ()Ljavax/management/ObjectName;
+invoke
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
+ (L1java/lang/Object;L1java/lang/reflect/Method;[0L0java/lang/Object;)L0java/lang/Object; # @Inherited(java.lang.reflect.InvocationHandler)

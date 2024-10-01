@@ -1,0 +1,18 @@
+class java/sql/Time
+
+valueOf
+ (Ljava/lang/String;)Ljava/sql/Time;
+ (Ljava/lang/String;)Ljava/sql/Time;
+valueOf
+ (Ljava/time/LocalTime;)Ljava/sql/Time;
+ (Ljava/time/LocalTime;)Ljava/sql/Time;
+
+toInstant
+ ()Ljava/time/Instant;
+ ()L1java/time/Instant; # @Inherited(java.util.Date)
+toLocalTime
+ ()Ljava/time/LocalTime;
+ ()Ljava/time/LocalTime;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.util.Date)

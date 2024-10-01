@@ -1,0 +1,95 @@
+class com/fasterxml/jackson/core/JsonPointer
+
+EMPTY
+ Lcom/fasterxml/jackson/core/JsonPointer;
+ L1com/fasterxml/jackson/core/JsonPointer;
+ESC_SLASH
+ Ljava/lang/String;
+ L1java/lang/String;
+ESC_TILDE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+_extractEscapedSegment
+ (Ljava/lang/String;IILjava/lang/StringBuilder;)I
+ (Ljava/lang/String;IILjava/lang/StringBuilder;)I
+_parseTail
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/JsonPointer;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/JsonPointer;
+compile
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/JsonPointer;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/JsonPointer;
+empty
+ ()Lcom/fasterxml/jackson/core/JsonPointer;
+ ()Lcom/fasterxml/jackson/core/JsonPointer;
+forPath
+ (Lcom/fasterxml/jackson/core/JsonStreamContext;Z)Lcom/fasterxml/jackson/core/JsonPointer;
+ (Lcom/fasterxml/jackson/core/JsonStreamContext;Z)Lcom/fasterxml/jackson/core/JsonPointer;
+valueOf
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/JsonPointer;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/JsonPointer;
+
+_asString
+ Ljava/lang/String;
+ Ljava/lang/String;
+_head
+ Lcom/fasterxml/jackson/core/JsonPointer;
+ Lcom/fasterxml/jackson/core/JsonPointer;
+_matchingPropertyName
+ Ljava/lang/String;
+ Ljava/lang/String;
+_nextSegment
+ Lcom/fasterxml/jackson/core/JsonPointer;
+ Lcom/fasterxml/jackson/core/JsonPointer;
+
+<init>
+ (Ljava/lang/String;ILjava/lang/String;ILcom/fasterxml/jackson/core/JsonPointer;)V
+ (Ljava/lang/String;ILjava/lang/String;ILcom/fasterxml/jackson/core/JsonPointer;)V
+<init>
+ (Ljava/lang/String;ILjava/lang/String;Lcom/fasterxml/jackson/core/JsonPointer;)V
+ (Ljava/lang/String;ILjava/lang/String;Lcom/fasterxml/jackson/core/JsonPointer;)V
+_constructHead
+ ()Lcom/fasterxml/jackson/core/JsonPointer;
+ ()Lcom/fasterxml/jackson/core/JsonPointer;
+_constructHead
+ (ILcom/fasterxml/jackson/core/JsonPointer;)Lcom/fasterxml/jackson/core/JsonPointer;
+ (ILcom/fasterxml/jackson/core/JsonPointer;)Lcom/fasterxml/jackson/core/JsonPointer;
+append
+ (Lcom/fasterxml/jackson/core/JsonPointer;)Lcom/fasterxml/jackson/core/JsonPointer;
+ (Lcom/fasterxml/jackson/core/JsonPointer;)Lcom/fasterxml/jackson/core/JsonPointer;
+appendIndex
+ (I)Lcom/fasterxml/jackson/core/JsonPointer;
+ (I)Lcom/fasterxml/jackson/core/JsonPointer;
+appendProperty
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/JsonPointer;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/JsonPointer;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getMatchingProperty
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+head
+ ()Lcom/fasterxml/jackson/core/JsonPointer;
+ ()Lcom/fasterxml/jackson/core/JsonPointer;
+last
+ ()Lcom/fasterxml/jackson/core/JsonPointer;
+ ()Lcom/fasterxml/jackson/core/JsonPointer;
+matchElement
+ (I)Lcom/fasterxml/jackson/core/JsonPointer;
+ (I)Lcom/fasterxml/jackson/core/JsonPointer;
+matchProperty
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/JsonPointer;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/JsonPointer;
+matchesProperty
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+tail
+ ()Lcom/fasterxml/jackson/core/JsonPointer;
+ ()Lcom/fasterxml/jackson/core/JsonPointer;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+toStringBuilder
+ (I)Ljava/lang/StringBuilder;
+ (I)Ljava/lang/StringBuilder;

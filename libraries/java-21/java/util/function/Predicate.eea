@@ -1,0 +1,23 @@
+class java/util/function/Predicate
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+isEqual
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;)Ljava/util/function/Predicate<TT;>;
+ <T:Ljava/lang/Object;>(L0java/lang/Object;)L1java/util/function/Predicate<TT;>;
+not
+ <T:Ljava/lang/Object;>(Ljava/util/function/Predicate<-TT;>;)Ljava/util/function/Predicate<TT;>;
+ <T:Ljava/lang/Object;>(L1java/util/function/Predicate<-TT;>;)L1java/util/function/Predicate<TT;>;
+
+and
+ (Ljava/util/function/Predicate<-TT;>;)Ljava/util/function/Predicate<TT;>;
+ (L1java/util/function/Predicate<-TT;>;)L1java/util/function/Predicate<TT;>;
+negate
+ ()Ljava/util/function/Predicate<TT;>;
+ ()L1java/util/function/Predicate<TT;>;
+or
+ (Ljava/util/function/Predicate<-TT;>;)Ljava/util/function/Predicate<TT;>;
+ (L1java/util/function/Predicate<-TT;>;)L1java/util/function/Predicate<TT;>;
+test
+ (TT;)Z
+ (TT;)Z

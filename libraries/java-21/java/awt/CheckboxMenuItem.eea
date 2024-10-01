@@ -1,0 +1,35 @@
+class java/awt/CheckboxMenuItem
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+addItemListener
+ (Ljava/awt/event/ItemListener;)V
+ (L1java/awt/event/ItemListener;)V # @Inherited(java.awt.ItemSelectable)
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getItemListeners
+ ()[Ljava/awt/event/ItemListener;
+ ()[Ljava/awt/event/ItemListener;
+getListeners
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+getSelectedObjects
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+processEvent
+ (Ljava/awt/AWTEvent;)V
+ (Ljava/awt/AWTEvent;)V
+processItemEvent
+ (Ljava/awt/event/ItemEvent;)V
+ (Ljava/awt/event/ItemEvent;)V
+removeItemListener
+ (Ljava/awt/event/ItemListener;)V
+ (L1java/awt/event/ItemListener;)V # @Inherited(java.awt.ItemSelectable)

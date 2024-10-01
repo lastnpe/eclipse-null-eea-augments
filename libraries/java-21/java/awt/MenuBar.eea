@@ -1,0 +1,29 @@
+class java/awt/MenuBar
+
+add
+ (Ljava/awt/Menu;)Ljava/awt/Menu;
+ (Ljava/awt/Menu;)Ljava/awt/Menu;
+deleteShortcut
+ (Ljava/awt/MenuShortcut;)V
+ (Ljava/awt/MenuShortcut;)V
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getHelpMenu
+ ()Ljava/awt/Menu;
+ ()Ljava/awt/Menu;
+getMenu
+ (I)Ljava/awt/Menu;
+ (I)Ljava/awt/Menu;
+getShortcutMenuItem
+ (Ljava/awt/MenuShortcut;)Ljava/awt/MenuItem;
+ (Ljava/awt/MenuShortcut;)Ljava/awt/MenuItem;
+remove
+ (Ljava/awt/MenuComponent;)V
+ (Ljava/awt/MenuComponent;)V
+setHelpMenu
+ (Ljava/awt/Menu;)V
+ (Ljava/awt/Menu;)V
+shortcuts
+ ()Ljava/util/Enumeration<Ljava/awt/MenuShortcut;>;
+ ()Ljava/util/Enumeration<Ljava/awt/MenuShortcut;>;

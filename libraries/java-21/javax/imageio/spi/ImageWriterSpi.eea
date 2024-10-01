@@ -1,0 +1,37 @@
+class javax/imageio/spi/ImageWriterSpi
+
+STANDARD_OUTPUT_TYPE
+ [Ljava/lang/Class<*>;
+ [1Ljava/lang/Class<*>;
+
+outputTypes
+ [Ljava/lang/Class<*>;
+ [Ljava/lang/Class<*>;
+readerSpiNames
+ [Ljava/lang/String;
+ [Ljava/lang/String;
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class<*>;[Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class<*>;[Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+canEncodeImage
+ (Ljava/awt/image/RenderedImage;)Z
+ (Ljava/awt/image/RenderedImage;)Z
+canEncodeImage
+ (Ljavax/imageio/ImageTypeSpecifier;)Z
+ (Ljavax/imageio/ImageTypeSpecifier;)Z
+createWriterInstance
+ ()Ljavax/imageio/ImageWriter;
+ ()Ljavax/imageio/ImageWriter;
+createWriterInstance
+ (Ljava/lang/Object;)Ljavax/imageio/ImageWriter;
+ (Ljava/lang/Object;)Ljavax/imageio/ImageWriter;
+getImageReaderSpiNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getOutputTypes
+ ()[Ljava/lang/Class<*>;
+ ()[Ljava/lang/Class<*>;
+isOwnWriter
+ (Ljavax/imageio/ImageWriter;)Z
+ (Ljavax/imageio/ImageWriter;)Z

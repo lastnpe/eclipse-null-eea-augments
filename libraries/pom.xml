@@ -1,130 +1,214 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.lastnpe.eea</groupId>
+  <parent>
+    <groupId>org.lastnpe.eea</groupId>
+    <artifactId>eea-root</artifactId>
+    <version>3.0.0-SNAPSHOT</version>
+  </parent>
+
   <artifactId>eea-parent</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+
   <packaging>pom</packaging>
 
-  <name>Eclipse External null Annotations (EEA)</name>
-  <description>JARs of *.eea for the JDK and common Java libraries</description>
-  <url>https://lastnpe.org</url>
-  <inceptionYear>2016</inceptionYear>
-
-  <scm>
-    <connection>https://github.com/lastnpe/eclipse-null-eea-augments.git</connection>
-    <developerConnection>scm:git:git@github.com:lastnpe/eclipse-null-eea-augments.git</developerConnection>
-    <url>https://github.com/lastnpe/eclipse-null-eea-augments</url>
-    <tag>HEAD</tag>
-  </scm>
-
-  <licenses>
-    <license>
-      <name>Eclipse Public License v1.0</name>
-      <url>http://www.eclipse.org/legal/epl-v10.html</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
-
-  <organization>
-    <name>Michael Vorburger</name>
-    <url>http://www.vorburger.ch</url>
-  </organization>
-
-  <developers>
-    <developer>
-      <id>vorburger</id>
-      <name>Michael Vorburger</name>
-      <email>mike@vorburger.ch</email>
-      <url>http://www.vorburger.ch</url>
-    </developer>
-  </developers>
-  <contributors>
-    <contributor>
-      <name>Please see https://github.com/lastnpe/eclipse-null-eea-augments/graphs/contributors</name>
-    </contributor>
-  </contributors>
-
-  <distributionManagement>
-    <!-- http://central.sonatype.org/pages/apache-maven.html -->
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
-    <!-- <repository> isn't needed with nexus-staging-maven-plugin, it somehow
-         has this hard-coded or automatically find sit somehow, IFF <version> is non-SNAPSHOT -->
-  </distributionManagement>
+  <name>EEA :: Reactor</name>
+  <description>Parent for JARs of *.eea for the JDK and common Java libraries</description>
 
   <properties>
-    <java.version>1.8</java.version>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <!-- set default EEA generator action to "validate" -->
+    <eea-generator.action>validate</eea-generator.action>
   </properties>
 
-  <build>
-    <!-- NB: Similar configuration also in examples/maven/jdt-ecj-settings/pom.xml -->
-    <resources>
-      <resource>
-        <directory>${project.basedir}</directory>
-        <excludes>
-          <exclude>.*</exclude>
-          <exclude>pom.xml</exclude>
-          <exclude>target/</exclude>
-          <exclude>.settings/</exclude>
-        </excludes>
-        <includes>
-          <include>**/*</include>
-          <include>eea-*.*</include>
-        </includes>
-        <filtering>false</filtering>
-      </resource>
-    </resources>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-resources-plugin</artifactId>
-        <version>3.0.1</version>
-        <!-- Disable src/test/resources, not needed for creating EEA JARs -->
-        <executions>
-          <execution>
-            <id>default-testResources</id>
-            <phase>none</phase>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
-        <version>3.0.2</version>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>2.19.1</version>
-        <!-- Disable Surefire, not needed for creating EEA JARs -->
-        <executions>
-          <execution>
-            <id>default-test</id>
-            <phase>none</phase>
-          </execution>
-        </executions>
-      </plugin>
-      <!-- Intentionally no maven-source-plugin & maven-javadoc-plugin; as not needed for EEA here! -->
-      <plugin>
-        <groupId>org.sonatype.plugins</groupId>
-        <artifactId>nexus-staging-maven-plugin</artifactId>
-        <version>1.6.7</version>
-        <extensions>true</extensions>
-        <configuration>
-          <serverId>ossrh</serverId>
-          <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-          <autoReleaseAfterClose>true</autoReleaseAfterClose>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+  <modules>
+    <module>java-17</module>
+    <module>java-21</module>
+    <module>gson-2</module>
+    <module>guava</module>
+    <module>jackson-2</module>
+    <module>jakarta-mail-api-2</module>
+    <module>jakarta-servlet-api-6</module>
+    <module>javax-mail-api-1</module>
+    <module>javax-servlet-api-4</module>
+    <module>jetty-client-12</module>
+    <module>junit-5</module>
+    <module>mockito-5</module>
+    <module>osgi-core-8</module>
+    <module>slf4j-api-2</module>
+    <module>spring-6</module>
+    <module>xstream-1</module>
+  </modules>
 
   <profiles>
+    <profile>
+      <!--this profile is only activated for modules containing the file "eea-generator.properties" -->
+      <id>eea-library-module</id>
+      <activation>
+        <file>
+          <exists>${project.basedir}/eea-generator.properties</exists>
+        </file>
+      </activation>
+
+      <build>
+        <!--NB: Similar configuration also in examples/maven/jdt-ecj-settings/pom.xml-->
+        <resources>
+          <resource>
+            <filtering>false</filtering>
+            <directory>${project.basedir}</directory>
+            <includes>
+              <include>**/*</include>
+              <include>eea-*.*</include>
+            </includes>
+            <excludes>
+              <exclude>.*</exclude>
+              <exclude>pom.xml</exclude>
+              <exclude>target/</exclude>
+              <exclude>.settings/</exclude>
+            </excludes>
+          </resource>
+        </resources>
+
+        <plugins>
+
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>3.4.1</version>
+            <executions>
+              <execution>
+                <!-- validate or generate/update *.eea files -->
+                <id>${eea-generator.action}-eeas</id>
+                <phase>generate-resources</phase>
+                <goals>
+                  <goal>exec</goal>
+                </goals>
+                <configuration>
+                  <classpathScope>provided</classpathScope>
+                  <includePluginDependencies>true</includePluginDependencies>
+                  <executable>java</executable>
+                  <arguments>
+                    <argument>-Deea-generator.action=${eea-generator.action}</argument>
+                    <!--adding ${project.basedir}/../java-17 to input dirs ensures that EEAs from JDK classes
+                    get propagated to EEA files in other modules, which is necessary because of
+                    https://github.com/eclipse-jdt/eclipse.jdt.core/issues/2512 -->
+                    <argument>
+                      -Deea-generator.input.dirs=${project.basedir},${project.basedir}/../java-17</argument>
+                    <!--instructs the generator to perform in-place update of EEA files: -->
+                    <argument>-Deea-generator.output.dir=${project.basedir}</argument>
+                    <argument>-classpath</argument>
+                    <classpath />
+                    <argument>org.lastnpe.eea.generator.EEAGenerator</argument>
+                    <argument>${project.basedir}/eea-generator.properties</argument>
+                  </arguments>
+                </configuration>
+              </execution>
+              <execution>
+                <!-- copy minified versions of *.eea files to target/classes -->
+                <id>generate-minimized-eeas</id>
+                <phase>process-resources</phase>
+                <goals>
+                  <goal>exec</goal>
+                </goals>
+                <configuration>
+                  <classpathScope>provided</classpathScope>
+                  <includePluginDependencies>true</includePluginDependencies>
+                  <executable>java</executable>
+                  <arguments>
+                    <argument>-Deea-generator.action=minimize</argument>
+                    <argument>-Deea-generator.input.dirs=${project.basedir}</argument>
+                    <argument>
+                      -Deea-generator.output.dir.default=${project.build.outputDirectory}</argument>
+                    <argument>-classpath</argument>
+                    <classpath />
+                    <argument>org.lastnpe.eea.generator.EEAGenerator</argument>
+                    <argument>${project.basedir}/eea-generator.properties</argument>
+                  </arguments>
+                </configuration>
+              </execution>
+            </executions>
+            <dependencies>
+              <dependency>
+                <groupId>org.lastnpe.eea</groupId>
+                <artifactId>lastnpe-eea-generator</artifactId>
+                <version>${project.version}</version>
+              </dependency>
+            </dependencies>
+          </plugin>
+
+          <plugin>
+            <!--Add Eclipse-ExportExternalAnnotations: true to generated MANIFEST.MF,
+            which that this plugin exports its external annotations (.eea files) and
+            be considered by clients performing annotation based null analysis.
+            See https://bugs.eclipse.org/bugs/show_bug.cgi?id=526011 and
+            https://github.com/eclipse-pde/eclipse.pde/commit/3f9f33643122a8109460e88362593d67fde42ed5-->
+            <groupId>org.apache.felix</groupId>
+            <artifactId>maven-bundle-plugin</artifactId>
+            <version>5.1.9</version>
+            <executions>
+              <execution>
+                <id>manifest@process-classes</id>
+                <phase>process-classes</phase>
+                <goals>
+                  <goal>manifest</goal>
+                </goals>
+                <configuration>
+                  <!--https://bnd.bndtools.org/chapters/825-instructions-ref.html-->
+                  <instructions>
+                    <Eclipse-ExportExternalAnnotations>true</Eclipse-ExportExternalAnnotations>
+                  </instructions>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+
+          <!--====================================================================
+              disable some plugins/goals not required when building EEA jars
+              ====================================================================-->
+          <plugin>
+            <artifactId>maven-resources-plugin</artifactId>
+            <!--Disable copying of resources to /target, not needed for creating EEA JARs.
+                This is done by invoking the EEAGenerator via the exec-maven-plugin using the
+                "generate-minimized-eeas" execution. -->
+            <executions>
+              <execution>
+                <id>default-resources</id>
+                <phase>none</phase>
+              </execution>
+              <execution>
+                <id>default-testResources</id>
+                <phase>none</phase>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <!-- Disable Surefire, not needed for creating EEA JARs -->
+            <executions>
+              <execution>
+                <id>default-test</id>
+                <phase>none</phase>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <artifactId>maven-source-plugin</artifactId>
+            <executions>
+              <execution>
+                <!-- Don't attach source jar for EEA projects -->
+                <id>attach-sources</id>
+                <phase>none</phase>
+                <goals>
+                  <goal>jar</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+
     <profile>
       <id>not-m2e</id>
       <activation>
@@ -135,9 +219,7 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.5.1</version>
             <!-- Disable Java compilation, not needed for creating EEA JARs.
                  This mainly just leads to shorter mvn build logs.. ;-) and
                  may help a little bit in build perf. when there will be many.
@@ -160,57 +242,5 @@
         </plugins>
       </build>
     </profile>
-    <profile>
-      <id>gpg</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-gpg-plugin</artifactId>
-            <version>1.6</version>
-            <executions>
-              <execution>
-                <id>sign-artifacts</id>
-                <phase>verify</phase>
-                <goals>
-                  <goal>sign</goal>
-                </goals>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-    <profile>
-      <id>m2e</id>
-      <activation>
-        <property>
-          <name>m2e.version</name>
-        </property>
-      </activation>
-      <build>
-        <pluginManagement>
-          <plugins>
-            <plugin>
-              <groupId>org.apache.maven.plugins</groupId>
-              <artifactId>maven-compiler-plugin</artifactId>
-              <configuration>
-                <!-- specify a 1.8 java version to avoid eclipse warnings about missing 1.5 J2SE -->
-                <source>${java.version}</source>
-                <target>${java.version}</target>
-              </configuration>
-            </plugin>
-          </plugins>
-        </pluginManagement>
-      </build>
-    </profile>
   </profiles>
-
-  <modules>
-    <module>java</module>
-    <module>slf4j-api</module>
-    <module>mockito</module>
-    <module>guava</module>
-    <module>spring</module>
-  </modules>
 </project>

@@ -1,0 +1,50 @@
+class java/lang/invoke/MethodHandle
+
+asCollector
+ (ILjava/lang/Class<*>;I)Ljava/lang/invoke/MethodHandle;
+ (ILjava/lang/Class<*>;I)Ljava/lang/invoke/MethodHandle;
+asCollector
+ (Ljava/lang/Class<*>;I)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Class<*>;I)Ljava/lang/invoke/MethodHandle;
+asFixedArity
+ ()Ljava/lang/invoke/MethodHandle;
+ ()Ljava/lang/invoke/MethodHandle;
+asSpreader
+ (ILjava/lang/Class<*>;I)Ljava/lang/invoke/MethodHandle;
+ (ILjava/lang/Class<*>;I)Ljava/lang/invoke/MethodHandle;
+asSpreader
+ (Ljava/lang/Class<*>;I)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Class<*>;I)Ljava/lang/invoke/MethodHandle;
+asType
+ (Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+asVarargsCollector
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+bindTo
+ (Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;
+describeConstable
+ ()Ljava/util/Optional<Ljava/lang/constant/MethodHandleDesc;>;
+ ()Ljava/util/Optional<Ljava/lang/constant/MethodHandleDesc;>;
+invoke
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+invokeExact
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+invokeWithArguments
+ (Ljava/util/List<*>;)Ljava/lang/Object;
+ (Ljava/util/List<*>;)Ljava/lang/Object;
+invokeWithArguments
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+type
+ ()Ljava/lang/invoke/MethodType;
+ ()Ljava/lang/invoke/MethodType;
+withVarargs
+ (Z)Ljava/lang/invoke/MethodHandle;
+ (Z)Ljava/lang/invoke/MethodHandle;

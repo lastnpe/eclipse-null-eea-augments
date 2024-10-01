@@ -1,0 +1,43 @@
+class com/fasterxml/jackson/core/json/JsonParserBase
+
+INPUT_CODES_LATIN1
+ [I
+ [1I
+INPUT_CODES_UTF8
+ [I
+ [1I
+
+_objectCodec
+ Lcom/fasterxml/jackson/core/ObjectCodec;
+ Lcom/fasterxml/jackson/core/ObjectCodec;
+
+<init>
+ (Lcom/fasterxml/jackson/core/io/IOContext;ILcom/fasterxml/jackson/core/ObjectCodec;)V
+ (Lcom/fasterxml/jackson/core/io/IOContext;ILcom/fasterxml/jackson/core/ObjectCodec;)V
+_currentLocationMinusOne
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+currentLocation
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+currentTokenLocation
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+getCodec
+ ()Lcom/fasterxml/jackson/core/ObjectCodec;
+ ()Lcom/fasterxml/jackson/core/ObjectCodec;
+getCurrentLocation
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+getNumberTypeFP
+ ()Lcom/fasterxml/jackson/core/JsonParser$NumberTypeFP;
+ ()Lcom/fasterxml/jackson/core/JsonParser$NumberTypeFP;
+getReadCapabilities
+ ()Lcom/fasterxml/jackson/core/util/JacksonFeatureSet<Lcom/fasterxml/jackson/core/StreamReadCapability;>;
+ ()Lcom/fasterxml/jackson/core/util/JacksonFeatureSet<Lcom/fasterxml/jackson/core/StreamReadCapability;>;
+getTokenLocation
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+setCodec
+ (Lcom/fasterxml/jackson/core/ObjectCodec;)V
+ (Lcom/fasterxml/jackson/core/ObjectCodec;)V

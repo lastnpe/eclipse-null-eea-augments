@@ -1,0 +1,77 @@
+class javax/management/MBeanServerConnection
+
+addNotificationListener
+ (Ljavax/management/ObjectName;Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+ (Ljavax/management/ObjectName;Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+addNotificationListener
+ (Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+ (Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+createMBean
+ (Ljava/lang/String;Ljavax/management/ObjectName;)Ljavax/management/ObjectInstance;
+ (Ljava/lang/String;Ljavax/management/ObjectName;)Ljavax/management/ObjectInstance;
+createMBean
+ (Ljava/lang/String;Ljavax/management/ObjectName;Ljavax/management/ObjectName;)Ljavax/management/ObjectInstance;
+ (Ljava/lang/String;Ljavax/management/ObjectName;Ljavax/management/ObjectName;)Ljavax/management/ObjectInstance;
+createMBean
+ (Ljava/lang/String;Ljavax/management/ObjectName;Ljavax/management/ObjectName;[Ljava/lang/Object;[Ljava/lang/String;)Ljavax/management/ObjectInstance;
+ (Ljava/lang/String;Ljavax/management/ObjectName;Ljavax/management/ObjectName;[Ljava/lang/Object;[Ljava/lang/String;)Ljavax/management/ObjectInstance;
+createMBean
+ (Ljava/lang/String;Ljavax/management/ObjectName;[Ljava/lang/Object;[Ljava/lang/String;)Ljavax/management/ObjectInstance;
+ (Ljava/lang/String;Ljavax/management/ObjectName;[Ljava/lang/Object;[Ljava/lang/String;)Ljavax/management/ObjectInstance;
+getAttribute
+ (Ljavax/management/ObjectName;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljavax/management/ObjectName;Ljava/lang/String;)Ljava/lang/Object;
+getAttributes
+ (Ljavax/management/ObjectName;[Ljava/lang/String;)Ljavax/management/AttributeList;
+ (Ljavax/management/ObjectName;[Ljava/lang/String;)Ljavax/management/AttributeList;
+getDefaultDomain
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDomains
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getMBeanCount
+ ()Ljava/lang/Integer;
+ ()Ljava/lang/Integer;
+getMBeanInfo
+ (Ljavax/management/ObjectName;)Ljavax/management/MBeanInfo;
+ (Ljavax/management/ObjectName;)Ljavax/management/MBeanInfo;
+getObjectInstance
+ (Ljavax/management/ObjectName;)Ljavax/management/ObjectInstance;
+ (Ljavax/management/ObjectName;)Ljavax/management/ObjectInstance;
+invoke
+ (Ljavax/management/ObjectName;Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;
+ (Ljavax/management/ObjectName;Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;
+isInstanceOf
+ (Ljavax/management/ObjectName;Ljava/lang/String;)Z
+ (Ljavax/management/ObjectName;Ljava/lang/String;)Z
+isRegistered
+ (Ljavax/management/ObjectName;)Z
+ (Ljavax/management/ObjectName;)Z
+queryMBeans
+ (Ljavax/management/ObjectName;Ljavax/management/QueryExp;)Ljava/util/Set<Ljavax/management/ObjectInstance;>;
+ (Ljavax/management/ObjectName;Ljavax/management/QueryExp;)Ljava/util/Set<Ljavax/management/ObjectInstance;>;
+queryNames
+ (Ljavax/management/ObjectName;Ljavax/management/QueryExp;)Ljava/util/Set<Ljavax/management/ObjectName;>;
+ (Ljavax/management/ObjectName;Ljavax/management/QueryExp;)Ljava/util/Set<Ljavax/management/ObjectName;>;
+removeNotificationListener
+ (Ljavax/management/ObjectName;Ljavax/management/NotificationListener;)V
+ (Ljavax/management/ObjectName;Ljavax/management/NotificationListener;)V
+removeNotificationListener
+ (Ljavax/management/ObjectName;Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+ (Ljavax/management/ObjectName;Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+removeNotificationListener
+ (Ljavax/management/ObjectName;Ljavax/management/ObjectName;)V
+ (Ljavax/management/ObjectName;Ljavax/management/ObjectName;)V
+removeNotificationListener
+ (Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+ (Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+setAttribute
+ (Ljavax/management/ObjectName;Ljavax/management/Attribute;)V
+ (Ljavax/management/ObjectName;Ljavax/management/Attribute;)V
+setAttributes
+ (Ljavax/management/ObjectName;Ljavax/management/AttributeList;)Ljavax/management/AttributeList;
+ (Ljavax/management/ObjectName;Ljavax/management/AttributeList;)Ljavax/management/AttributeList;
+unregisterMBean
+ (Ljavax/management/ObjectName;)V
+ (Ljavax/management/ObjectName;)V

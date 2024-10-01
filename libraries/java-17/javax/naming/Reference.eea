@@ -1,0 +1,63 @@
+class javax/naming/Reference
+
+addrs
+ Ljava/util/Vector<Ljavax/naming/RefAddr;>;
+ Ljava/util/Vector<Ljavax/naming/RefAddr;>;
+classFactory
+ Ljava/lang/String;
+ Ljava/lang/String;
+classFactoryLocation
+ Ljava/lang/String;
+ Ljava/lang/String;
+className
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljavax/naming/RefAddr;)V
+ (Ljava/lang/String;Ljavax/naming/RefAddr;)V
+<init>
+ (Ljava/lang/String;Ljavax/naming/RefAddr;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljavax/naming/RefAddr;Ljava/lang/String;Ljava/lang/String;)V
+add
+ (ILjavax/naming/RefAddr;)V
+ (ILjavax/naming/RefAddr;)V
+add
+ (Ljavax/naming/RefAddr;)V
+ (Ljavax/naming/RefAddr;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (I)Ljavax/naming/RefAddr;
+ (I)Ljavax/naming/RefAddr;
+get
+ (Ljava/lang/String;)Ljavax/naming/RefAddr;
+ (Ljava/lang/String;)Ljavax/naming/RefAddr;
+getAll
+ ()Ljava/util/Enumeration<Ljavax/naming/RefAddr;>;
+ ()Ljava/util/Enumeration<Ljavax/naming/RefAddr;>;
+getClassName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFactoryClassLocation
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFactoryClassName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+remove
+ (I)Ljava/lang/Object;
+ (I)Ljava/lang/Object;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

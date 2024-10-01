@@ -1,0 +1,23 @@
+class org/springframework/util/PathMatcher
+
+combine
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+extractPathWithinPattern
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+extractUriTemplateVariables
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+getPatternComparator
+ (Ljava/lang/String;)Ljava/util/Comparator<Ljava/lang/String;>;
+ (Ljava/lang/String;)Ljava/util/Comparator<Ljava/lang/String;>;
+isPattern
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+match
+ (Ljava/lang/String;Ljava/lang/String;)Z
+ (Ljava/lang/String;Ljava/lang/String;)Z
+matchStart
+ (Ljava/lang/String;Ljava/lang/String;)Z
+ (Ljava/lang/String;Ljava/lang/String;)Z

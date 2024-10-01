@@ -1,0 +1,56 @@
+class javax/crypto/CipherSpi
+
+engineDoFinal
+ (Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)I
+ (Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)I
+engineDoFinal
+ ([BII)[B
+ ([BII)[B
+engineDoFinal
+ ([BII[BI)I
+ ([BII[BI)I
+engineGetIV
+ ()[B
+ ()[B
+engineGetKeySize
+ (Ljava/security/Key;)I
+ (Ljava/security/Key;)I
+engineGetParameters
+ ()Ljava/security/AlgorithmParameters;
+ ()Ljava/security/AlgorithmParameters;
+engineInit
+ (ILjava/security/Key;Ljava/security/AlgorithmParameters;Ljava/security/SecureRandom;)V
+ (ILjava/security/Key;Ljava/security/AlgorithmParameters;Ljava/security/SecureRandom;)V
+engineInit
+ (ILjava/security/Key;Ljava/security/SecureRandom;)V
+ (ILjava/security/Key;Ljava/security/SecureRandom;)V
+engineInit
+ (ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V
+ (ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V
+engineSetMode
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+engineSetPadding
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+engineUnwrap
+ ([BLjava/lang/String;I)Ljava/security/Key;
+ ([BLjava/lang/String;I)Ljava/security/Key;
+engineUpdate
+ (Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)I
+ (Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)I
+engineUpdate
+ ([BII)[B
+ ([BII)[B
+engineUpdate
+ ([BII[BI)I
+ ([BII[BI)I
+engineUpdateAAD
+ (Ljava/nio/ByteBuffer;)V
+ (Ljava/nio/ByteBuffer;)V
+engineUpdateAAD
+ ([BII)V
+ ([BII)V
+engineWrap
+ (Ljava/security/Key;)[B
+ (Ljava/security/Key;)[B

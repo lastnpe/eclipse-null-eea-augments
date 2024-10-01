@@ -1,0 +1,80 @@
+class org/springframework/beans/factory/support/DefaultSingletonBeanRegistry
+
+addSingleton
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+addSingletonFactory
+ (Ljava/lang/String;Lorg/springframework/beans/factory/ObjectFactory<*>;)V
+ (Ljava/lang/String;Lorg/springframework/beans/factory/ObjectFactory<*>;)V
+afterSingletonCreation
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+beforeSingletonCreation
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+containsSingleton
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+destroyBean
+ (Ljava/lang/String;Lorg/springframework/beans/factory/DisposableBean;)V
+ (Ljava/lang/String;Lorg/springframework/beans/factory/DisposableBean;)V
+destroySingleton
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getDependenciesForBean
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[Ljava/lang/String;
+getDependentBeans
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[Ljava/lang/String;
+getSingleton
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.beans.factory.config.SingletonBeanRegistry)
+getSingleton
+ (Ljava/lang/String;Lorg/springframework/beans/factory/ObjectFactory<*>;)Ljava/lang/Object;
+ (Ljava/lang/String;Lorg/springframework/beans/factory/ObjectFactory<*>;)Ljava/lang/Object;
+getSingleton
+ (Ljava/lang/String;Z)Ljava/lang/Object;
+ (Ljava/lang/String;Z)L0java/lang/Object;
+getSingletonMutex
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getSingletonNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+hasDependentBean
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isActuallyInCreation
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isCurrentlyInCreation
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isDependent
+ (Ljava/lang/String;Ljava/lang/String;)Z
+ (Ljava/lang/String;Ljava/lang/String;)Z
+isSingletonCurrentlyInCreation
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+onSuppressedException
+ (Ljava/lang/Exception;)V
+ (Ljava/lang/Exception;)V
+registerContainedBean
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+registerDependentBean
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+registerDisposableBean
+ (Ljava/lang/String;Lorg/springframework/beans/factory/DisposableBean;)V
+ (Ljava/lang/String;Lorg/springframework/beans/factory/DisposableBean;)V
+registerSingleton
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+removeSingleton
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setCurrentlyInCreation
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V

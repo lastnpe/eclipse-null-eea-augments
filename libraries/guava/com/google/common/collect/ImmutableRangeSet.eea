@@ -1,0 +1,84 @@
+class com/google/common/collect/ImmutableRangeSet
+ <C::Ljava/lang/Comparable;>
+ <C::Ljava/lang/Comparable;>
+
+super com/google/common/collect/AbstractRangeSet
+ <TC;>
+ <TC;>
+
+builder
+ <C::Ljava/lang/Comparable<*>;>()Lcom/google/common/collect/ImmutableRangeSet$Builder<TC;>;
+ <C::Ljava/lang/Comparable<*>;>()Lcom/google/common/collect/ImmutableRangeSet$Builder<TC;>;
+copyOf
+ <C::Ljava/lang/Comparable;>(Lcom/google/common/collect/RangeSet<TC;>;)Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+ <C::Ljava/lang/Comparable;>(Lcom/google/common/collect/RangeSet<TC;>;)Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+copyOf
+ <C::Ljava/lang/Comparable<*>;>(Ljava/lang/Iterable<Lcom/google/common/collect/Range<TC;>;>;)Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+ <C::Ljava/lang/Comparable<*>;>(Ljava/lang/Iterable<Lcom/google/common/collect/Range<TC;>;>;)Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+of
+ <C::Ljava/lang/Comparable;>()Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+ <C::Ljava/lang/Comparable;>()Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+of
+ <C::Ljava/lang/Comparable;>(Lcom/google/common/collect/Range<TC;>;)Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+ <C::Ljava/lang/Comparable;>(Lcom/google/common/collect/Range<TC;>;)Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+toImmutableRangeSet
+ <E::Ljava/lang/Comparable<-TE;>;>()Ljava/util/stream/Collector<Lcom/google/common/collect/Range<TE;>;*Lcom/google/common/collect/ImmutableRangeSet<TE;>;>;
+ <E::Ljava/lang/Comparable<-TE;>;>()Ljava/util/stream/Collector<Lcom/google/common/collect/Range<TE;>;*Lcom/google/common/collect/ImmutableRangeSet<TE;>;>;
+unionOf
+ <C::Ljava/lang/Comparable<*>;>(Ljava/lang/Iterable<Lcom/google/common/collect/Range<TC;>;>;)Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+ <C::Ljava/lang/Comparable<*>;>(Ljava/lang/Iterable<Lcom/google/common/collect/Range<TC;>;>;)Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+
+add
+ (Lcom/google/common/collect/Range<TC;>;)V
+ (Lcom/google/common/collect/Range<TC;>;)V
+addAll
+ (Lcom/google/common/collect/RangeSet<TC;>;)V
+ (Lcom/google/common/collect/RangeSet<TC;>;)V
+addAll
+ (Ljava/lang/Iterable<Lcom/google/common/collect/Range<TC;>;>;)V
+ (Ljava/lang/Iterable<Lcom/google/common/collect/Range<TC;>;>;)V
+asDescendingSetOfRanges
+ ()Lcom/google/common/collect/ImmutableSet<Lcom/google/common/collect/Range<TC;>;>;
+ ()Lcom/google/common/collect/ImmutableSet<Lcom/google/common/collect/Range<TC;>;>;
+asRanges
+ ()Lcom/google/common/collect/ImmutableSet<Lcom/google/common/collect/Range<TC;>;>;
+ ()Lcom/google/common/collect/ImmutableSet<Lcom/google/common/collect/Range<TC;>;>;
+asSet
+ (Lcom/google/common/collect/DiscreteDomain<TC;>;)Lcom/google/common/collect/ImmutableSortedSet<TC;>;
+ (Lcom/google/common/collect/DiscreteDomain<TC;>;)Lcom/google/common/collect/ImmutableSortedSet<TC;>;
+complement
+ ()Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+ ()Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+difference
+ (Lcom/google/common/collect/RangeSet<TC;>;)Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+ (Lcom/google/common/collect/RangeSet<TC;>;)Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+encloses
+ (Lcom/google/common/collect/Range<TC;>;)Z
+ (Lcom/google/common/collect/Range<TC;>;)Z
+intersection
+ (Lcom/google/common/collect/RangeSet<TC;>;)Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+ (Lcom/google/common/collect/RangeSet<TC;>;)Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+intersects
+ (Lcom/google/common/collect/Range<TC;>;)Z
+ (Lcom/google/common/collect/Range<TC;>;)Z
+rangeContaining
+ (TC;)Lcom/google/common/collect/Range<TC;>;
+ (TC;)L0com/google/common/collect/Range<TC;>; # @Inherited(com.google.common.collect.RangeSet)
+remove
+ (Lcom/google/common/collect/Range<TC;>;)V
+ (Lcom/google/common/collect/Range<TC;>;)V
+removeAll
+ (Lcom/google/common/collect/RangeSet<TC;>;)V
+ (Lcom/google/common/collect/RangeSet<TC;>;)V
+removeAll
+ (Ljava/lang/Iterable<Lcom/google/common/collect/Range<TC;>;>;)V
+ (Ljava/lang/Iterable<Lcom/google/common/collect/Range<TC;>;>;)V
+span
+ ()Lcom/google/common/collect/Range<TC;>;
+ ()Lcom/google/common/collect/Range<TC;>;
+subRangeSet
+ (Lcom/google/common/collect/Range<TC;>;)Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+ (Lcom/google/common/collect/Range<TC;>;)Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+union
+ (Lcom/google/common/collect/RangeSet<TC;>;)Lcom/google/common/collect/ImmutableRangeSet<TC;>;
+ (Lcom/google/common/collect/RangeSet<TC;>;)Lcom/google/common/collect/ImmutableRangeSet<TC;>;

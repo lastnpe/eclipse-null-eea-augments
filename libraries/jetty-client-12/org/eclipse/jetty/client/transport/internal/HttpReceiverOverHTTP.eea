@@ -1,0 +1,38 @@
+class org/eclipse/jetty/client/transport/internal/HttpReceiverOverHTTP
+
+<init>
+ (Lorg/eclipse/jetty/client/transport/internal/HttpChannelOverHTTP;)V
+ (Lorg/eclipse/jetty/client/transport/internal/HttpChannelOverHTTP;)V
+badMessage
+ (Lorg/eclipse/jetty/http/HttpException;)V
+ (Lorg/eclipse/jetty/http/HttpException;)V
+content
+ (Ljava/nio/ByteBuffer;)Z
+ (Ljava/nio/ByteBuffer;)Z
+failAndClose
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+getHttpChannel
+ ()Lorg/eclipse/jetty/client/transport/internal/HttpChannelOverHTTP;
+ ()Lorg/eclipse/jetty/client/transport/internal/HttpChannelOverHTTP;
+getResponseBuffer
+ ()Ljava/nio/ByteBuffer;
+ ()Ljava/nio/ByteBuffer;
+onUpgradeFrom
+ ()Ljava/nio/ByteBuffer;
+ ()Ljava/nio/ByteBuffer;
+parsedHeader
+ (Lorg/eclipse/jetty/http/HttpField;)V
+ (Lorg/eclipse/jetty/http/HttpField;)V
+parsedTrailer
+ (Lorg/eclipse/jetty/http/HttpField;)V
+ (Lorg/eclipse/jetty/http/HttpField;)V
+read
+ (Z)Lorg/eclipse/jetty/io/Content$Chunk;
+ (Z)Lorg/eclipse/jetty/io/Content$Chunk;
+startResponse
+ (Lorg/eclipse/jetty/http/HttpVersion;ILjava/lang/String;)V
+ (Lorg/eclipse/jetty/http/HttpVersion;ILjava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.eclipse.jetty.client.transport.HttpReceiver)

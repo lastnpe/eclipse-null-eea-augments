@@ -1,0 +1,33 @@
+class org/springframework/core/OverridingClassLoader
+
+DEFAULT_EXCLUDED_PACKAGES
+ [Ljava/lang/String;
+ [1Ljava/lang/String;
+
+<init>
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+<init>
+ (Ljava/lang/ClassLoader;Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;Ljava/lang/ClassLoader;)V
+isEligibleForOverriding
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+loadBytesForClass
+ (Ljava/lang/String;)[B
+ (Ljava/lang/String;)[0B
+loadClass
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+ (L1java/lang/String;)L1java/lang/Class<*>; # @Inherited(java.lang.ClassLoader)
+loadClass
+ (Ljava/lang/String;Z)Ljava/lang/Class<*>;
+ (L1java/lang/String;Z)L1java/lang/Class<*>; # @Inherited(java.lang.ClassLoader)
+loadClassForOverriding
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;)L0java/lang/Class<*>;
+openStreamForClass
+ (Ljava/lang/String;)Ljava/io/InputStream;
+ (Ljava/lang/String;)L0java/io/InputStream;
+transformIfNecessary
+ (Ljava/lang/String;[B)[B
+ (Ljava/lang/String;[B)[B

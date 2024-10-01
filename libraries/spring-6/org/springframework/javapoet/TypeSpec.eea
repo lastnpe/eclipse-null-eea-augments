@@ -1,0 +1,97 @@
+class org/springframework/javapoet/TypeSpec
+
+annotationBuilder
+ (Ljava/lang/String;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/String;)Lorg/springframework/javapoet/TypeSpec$Builder;
+annotationBuilder
+ (Lorg/springframework/javapoet/ClassName;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Lorg/springframework/javapoet/ClassName;)Lorg/springframework/javapoet/TypeSpec$Builder;
+anonymousClassBuilder
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/javapoet/TypeSpec$Builder;
+anonymousClassBuilder
+ (Lorg/springframework/javapoet/CodeBlock;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Lorg/springframework/javapoet/CodeBlock;)Lorg/springframework/javapoet/TypeSpec$Builder;
+classBuilder
+ (Ljava/lang/String;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/String;)Lorg/springframework/javapoet/TypeSpec$Builder;
+classBuilder
+ (Lorg/springframework/javapoet/ClassName;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Lorg/springframework/javapoet/ClassName;)Lorg/springframework/javapoet/TypeSpec$Builder;
+enumBuilder
+ (Ljava/lang/String;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/String;)Lorg/springframework/javapoet/TypeSpec$Builder;
+enumBuilder
+ (Lorg/springframework/javapoet/ClassName;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Lorg/springframework/javapoet/ClassName;)Lorg/springframework/javapoet/TypeSpec$Builder;
+interfaceBuilder
+ (Ljava/lang/String;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Ljava/lang/String;)Lorg/springframework/javapoet/TypeSpec$Builder;
+interfaceBuilder
+ (Lorg/springframework/javapoet/ClassName;)Lorg/springframework/javapoet/TypeSpec$Builder;
+ (Lorg/springframework/javapoet/ClassName;)Lorg/springframework/javapoet/TypeSpec$Builder;
+
+alwaysQualifiedNames
+ Ljava/util/Set<Ljava/lang/String;>;
+ Ljava/util/Set<Ljava/lang/String;>;
+annotations
+ Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;
+ Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;
+anonymousTypeArguments
+ Lorg/springframework/javapoet/CodeBlock;
+ Lorg/springframework/javapoet/CodeBlock;
+enumConstants
+ Ljava/util/Map<Ljava/lang/String;Lorg/springframework/javapoet/TypeSpec;>;
+ Ljava/util/Map<Ljava/lang/String;Lorg/springframework/javapoet/TypeSpec;>;
+fieldSpecs
+ Ljava/util/List<Lorg/springframework/javapoet/FieldSpec;>;
+ Ljava/util/List<Lorg/springframework/javapoet/FieldSpec;>;
+initializerBlock
+ Lorg/springframework/javapoet/CodeBlock;
+ Lorg/springframework/javapoet/CodeBlock;
+javadoc
+ Lorg/springframework/javapoet/CodeBlock;
+ Lorg/springframework/javapoet/CodeBlock;
+kind
+ Lorg/springframework/javapoet/TypeSpec$Kind;
+ Lorg/springframework/javapoet/TypeSpec$Kind;
+methodSpecs
+ Ljava/util/List<Lorg/springframework/javapoet/MethodSpec;>;
+ Ljava/util/List<Lorg/springframework/javapoet/MethodSpec;>;
+modifiers
+ Ljava/util/Set<Ljavax/lang/model/element/Modifier;>;
+ Ljava/util/Set<Ljavax/lang/model/element/Modifier;>;
+name
+ Ljava/lang/String;
+ Ljava/lang/String;
+originatingElements
+ Ljava/util/List<Ljavax/lang/model/element/Element;>;
+ Ljava/util/List<Ljavax/lang/model/element/Element;>;
+staticBlock
+ Lorg/springframework/javapoet/CodeBlock;
+ Lorg/springframework/javapoet/CodeBlock;
+superclass
+ Lorg/springframework/javapoet/TypeName;
+ Lorg/springframework/javapoet/TypeName;
+superinterfaces
+ Ljava/util/List<Lorg/springframework/javapoet/TypeName;>;
+ Ljava/util/List<Lorg/springframework/javapoet/TypeName;>;
+typeSpecs
+ Ljava/util/List<Lorg/springframework/javapoet/TypeSpec;>;
+ Ljava/util/List<Lorg/springframework/javapoet/TypeSpec;>;
+typeVariables
+ Ljava/util/List<Lorg/springframework/javapoet/TypeVariableName;>;
+ Ljava/util/List<Lorg/springframework/javapoet/TypeVariableName;>;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+hasModifier
+ (Ljavax/lang/model/element/Modifier;)Z
+ (Ljavax/lang/model/element/Modifier;)Z
+toBuilder
+ ()Lorg/springframework/javapoet/TypeSpec$Builder;
+ ()Lorg/springframework/javapoet/TypeSpec$Builder;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

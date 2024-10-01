@@ -1,0 +1,125 @@
+class java/lang/AbstractStringBuilder
+
+append
+ (C)Ljava/lang/AbstractStringBuilder;
+ (C)L1java/lang/AbstractStringBuilder;
+append
+ (D)Ljava/lang/AbstractStringBuilder;
+ (D)L1java/lang/AbstractStringBuilder;
+append
+ (F)Ljava/lang/AbstractStringBuilder;
+ (F)L1java/lang/AbstractStringBuilder;
+append
+ (I)Ljava/lang/AbstractStringBuilder;
+ (I)L1java/lang/AbstractStringBuilder;
+append
+ (J)Ljava/lang/AbstractStringBuilder;
+ (J)L1java/lang/AbstractStringBuilder;
+append
+ (Ljava/lang/CharSequence;)Ljava/lang/AbstractStringBuilder;
+ (L0java/lang/CharSequence;)L1java/lang/AbstractStringBuilder;
+append
+ (Ljava/lang/CharSequence;II)Ljava/lang/AbstractStringBuilder;
+ (L0java/lang/CharSequence;II)L1java/lang/AbstractStringBuilder;
+append
+ (Ljava/lang/Object;)Ljava/lang/AbstractStringBuilder;
+ (L0java/lang/Object;)L1java/lang/AbstractStringBuilder;
+append
+ (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+ (L0java/lang/String;)L1java/lang/AbstractStringBuilder;
+append
+ (Ljava/lang/StringBuffer;)Ljava/lang/AbstractStringBuilder;
+ (L0java/lang/StringBuffer;)L1java/lang/AbstractStringBuilder;
+append
+ (Z)Ljava/lang/AbstractStringBuilder;
+ (Z)L1java/lang/AbstractStringBuilder;
+append
+ ([C)Ljava/lang/AbstractStringBuilder;
+ ([C)L1java/lang/AbstractStringBuilder;
+append
+ ([CII)Ljava/lang/AbstractStringBuilder;
+ ([CII)L1java/lang/AbstractStringBuilder;
+appendCodePoint
+ (I)Ljava/lang/AbstractStringBuilder;
+ (I)L1java/lang/AbstractStringBuilder;
+chars
+ ()Ljava/util/stream/IntStream;
+ ()L1java/util/stream/IntStream; # @Inherited(java.lang.CharSequence)
+codePoints
+ ()Ljava/util/stream/IntStream;
+ ()L1java/util/stream/IntStream; # @Inherited(java.lang.CharSequence)
+delete
+ (II)Ljava/lang/AbstractStringBuilder;
+ (II)L1java/lang/AbstractStringBuilder;
+deleteCharAt
+ (I)Ljava/lang/AbstractStringBuilder;
+ (I)L1java/lang/AbstractStringBuilder;
+getChars
+ (II[CI)V
+ (II[1CI)V
+indexOf
+ (Ljava/lang/String;)I
+ (L1java/lang/String;)I
+indexOf
+ (Ljava/lang/String;I)I
+ (L1java/lang/String;I)I
+insert
+ (IC)Ljava/lang/AbstractStringBuilder;
+ (IC)L1java/lang/AbstractStringBuilder;
+insert
+ (ID)Ljava/lang/AbstractStringBuilder;
+ (ID)L1java/lang/AbstractStringBuilder;
+insert
+ (IF)Ljava/lang/AbstractStringBuilder;
+ (IF)L1java/lang/AbstractStringBuilder;
+insert
+ (II)Ljava/lang/AbstractStringBuilder;
+ (II)L1java/lang/AbstractStringBuilder;
+insert
+ (IJ)Ljava/lang/AbstractStringBuilder;
+ (IJ)L1java/lang/AbstractStringBuilder;
+insert
+ (ILjava/lang/CharSequence;)Ljava/lang/AbstractStringBuilder;
+ (IL0java/lang/CharSequence;)L1java/lang/AbstractStringBuilder;
+insert
+ (ILjava/lang/CharSequence;II)Ljava/lang/AbstractStringBuilder;
+ (IL0java/lang/CharSequence;II)L1java/lang/AbstractStringBuilder;
+insert
+ (ILjava/lang/Object;)Ljava/lang/AbstractStringBuilder;
+ (IL0java/lang/Object;)L1java/lang/AbstractStringBuilder;
+insert
+ (ILjava/lang/String;)Ljava/lang/AbstractStringBuilder;
+ (IL0java/lang/String;)L1java/lang/AbstractStringBuilder;
+insert
+ (IZ)Ljava/lang/AbstractStringBuilder;
+ (IZ)L1java/lang/AbstractStringBuilder;
+insert
+ (I[C)Ljava/lang/AbstractStringBuilder;
+ (I[C)L1java/lang/AbstractStringBuilder;
+insert
+ (I[CII)Ljava/lang/AbstractStringBuilder;
+ (I[CII)L1java/lang/AbstractStringBuilder;
+lastIndexOf
+ (Ljava/lang/String;)I
+ (L1java/lang/String;)I
+lastIndexOf
+ (Ljava/lang/String;I)I
+ (L1java/lang/String;I)I
+replace
+ (IILjava/lang/String;)Ljava/lang/AbstractStringBuilder;
+ (IIL1java/lang/String;)L1java/lang/AbstractStringBuilder;
+reverse
+ ()Ljava/lang/AbstractStringBuilder;
+ ()L1java/lang/AbstractStringBuilder;
+subSequence
+ (II)Ljava/lang/CharSequence;
+ (II)L1java/lang/CharSequence; # @Inherited(java.lang.CharSequence)
+substring
+ (I)Ljava/lang/String;
+ (I)L1java/lang/String;
+substring
+ (II)Ljava/lang/String;
+ (II)L1java/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

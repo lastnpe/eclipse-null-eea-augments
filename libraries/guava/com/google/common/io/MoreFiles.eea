@@ -1,0 +1,47 @@
+class com/google/common/io/MoreFiles
+
+asByteSink
+ (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Lcom/google/common/io/ByteSink;
+ (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Lcom/google/common/io/ByteSink;
+asByteSource
+ (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Lcom/google/common/io/ByteSource;
+ (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Lcom/google/common/io/ByteSource;
+asCharSink
+ (Ljava/nio/file/Path;Ljava/nio/charset/Charset;[Ljava/nio/file/OpenOption;)Lcom/google/common/io/CharSink;
+ (Ljava/nio/file/Path;Ljava/nio/charset/Charset;[Ljava/nio/file/OpenOption;)Lcom/google/common/io/CharSink;
+asCharSource
+ (Ljava/nio/file/Path;Ljava/nio/charset/Charset;[Ljava/nio/file/OpenOption;)Lcom/google/common/io/CharSource;
+ (Ljava/nio/file/Path;Ljava/nio/charset/Charset;[Ljava/nio/file/OpenOption;)Lcom/google/common/io/CharSource;
+createParentDirectories
+ (Ljava/nio/file/Path;[Ljava/nio/file/attribute/FileAttribute<*>;)V
+ (Ljava/nio/file/Path;[Ljava/nio/file/attribute/FileAttribute<*>;)V
+deleteDirectoryContents
+ (Ljava/nio/file/Path;[Lcom/google/common/io/RecursiveDeleteOption;)V
+ (Ljava/nio/file/Path;[Lcom/google/common/io/RecursiveDeleteOption;)V
+deleteRecursively
+ (Ljava/nio/file/Path;[Lcom/google/common/io/RecursiveDeleteOption;)V
+ (Ljava/nio/file/Path;[Lcom/google/common/io/RecursiveDeleteOption;)V
+equal
+ (Ljava/nio/file/Path;Ljava/nio/file/Path;)Z
+ (Ljava/nio/file/Path;Ljava/nio/file/Path;)Z
+fileTraverser
+ ()Lcom/google/common/graph/Traverser<Ljava/nio/file/Path;>;
+ ()Lcom/google/common/graph/Traverser<Ljava/nio/file/Path;>;
+getFileExtension
+ (Ljava/nio/file/Path;)Ljava/lang/String;
+ (Ljava/nio/file/Path;)Ljava/lang/String;
+getNameWithoutExtension
+ (Ljava/nio/file/Path;)Ljava/lang/String;
+ (Ljava/nio/file/Path;)Ljava/lang/String;
+isDirectory
+ ([Ljava/nio/file/LinkOption;)Lcom/google/common/base/Predicate<Ljava/nio/file/Path;>;
+ ([Ljava/nio/file/LinkOption;)Lcom/google/common/base/Predicate<Ljava/nio/file/Path;>;
+isRegularFile
+ ([Ljava/nio/file/LinkOption;)Lcom/google/common/base/Predicate<Ljava/nio/file/Path;>;
+ ([Ljava/nio/file/LinkOption;)Lcom/google/common/base/Predicate<Ljava/nio/file/Path;>;
+listFiles
+ (Ljava/nio/file/Path;)Lcom/google/common/collect/ImmutableList<Ljava/nio/file/Path;>;
+ (Ljava/nio/file/Path;)Lcom/google/common/collect/ImmutableList<Ljava/nio/file/Path;>;
+touch
+ (Ljava/nio/file/Path;)V
+ (Ljava/nio/file/Path;)V

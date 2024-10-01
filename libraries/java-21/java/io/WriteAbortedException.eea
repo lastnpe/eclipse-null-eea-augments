@@ -1,0 +1,15 @@
+class java/io/WriteAbortedException
+
+detail
+ Ljava/lang/Exception;
+ L0java/lang/Exception;
+
+<init>
+ (Ljava/lang/String;Ljava/lang/Exception;)V
+ (L0java/lang/String;L0java/lang/Exception;)V
+getCause
+ ()Ljava/lang/Throwable;
+ ()L0java/lang/Throwable; # @Inherited(java.lang.Throwable)
+getMessage
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(java.lang.Throwable)

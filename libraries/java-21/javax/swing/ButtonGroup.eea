@@ -1,0 +1,24 @@
+class javax/swing/ButtonGroup
+
+buttons
+ Ljava/util/Vector<Ljavax/swing/AbstractButton;>;
+ Ljava/util/Vector<Ljavax/swing/AbstractButton;>;
+
+add
+ (Ljavax/swing/AbstractButton;)V
+ (Ljavax/swing/AbstractButton;)V
+getElements
+ ()Ljava/util/Enumeration<Ljavax/swing/AbstractButton;>;
+ ()Ljava/util/Enumeration<Ljavax/swing/AbstractButton;>;
+getSelection
+ ()Ljavax/swing/ButtonModel;
+ ()Ljavax/swing/ButtonModel;
+isSelected
+ (Ljavax/swing/ButtonModel;)Z
+ (Ljavax/swing/ButtonModel;)Z
+remove
+ (Ljavax/swing/AbstractButton;)V
+ (Ljavax/swing/AbstractButton;)V
+setSelected
+ (Ljavax/swing/ButtonModel;Z)V
+ (Ljavax/swing/ButtonModel;Z)V

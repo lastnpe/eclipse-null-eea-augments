@@ -1,0 +1,17 @@
+class org/springframework/cglib/transform/AbstractClassLoader
+
+<init>
+ (Ljava/lang/ClassLoader;Ljava/lang/ClassLoader;Lorg/springframework/cglib/transform/ClassFilter;)V
+ (Ljava/lang/ClassLoader;Ljava/lang/ClassLoader;Lorg/springframework/cglib/transform/ClassFilter;)V
+attributes
+ ()[Lorg/springframework/asm/Attribute;
+ ()[Lorg/springframework/asm/Attribute;
+getGenerator
+ (Lorg/springframework/asm/ClassReader;)Lorg/springframework/cglib/core/ClassGenerator;
+ (Lorg/springframework/asm/ClassReader;)Lorg/springframework/cglib/core/ClassGenerator;
+loadClass
+ (Ljava/lang/String;)Ljava/lang/Class;
+ (Ljava/lang/String;)Ljava/lang/Class;
+postProcess
+ (Ljava/lang/Class;)V
+ (Ljava/lang/Class;)V

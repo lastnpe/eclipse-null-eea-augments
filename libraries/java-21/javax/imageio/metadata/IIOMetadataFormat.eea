@@ -1,0 +1,80 @@
+class javax/imageio/metadata/IIOMetadataFormat
+
+canNodeAppear
+ (Ljava/lang/String;Ljavax/imageio/ImageTypeSpecifier;)Z
+ (Ljava/lang/String;Ljavax/imageio/ImageTypeSpecifier;)Z
+getAttributeDataType
+ (Ljava/lang/String;Ljava/lang/String;)I
+ (Ljava/lang/String;Ljava/lang/String;)I
+getAttributeDefaultValue
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+getAttributeDescription
+ (Ljava/lang/String;Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;
+getAttributeEnumerations
+ (Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;
+getAttributeListMaxLength
+ (Ljava/lang/String;Ljava/lang/String;)I
+ (Ljava/lang/String;Ljava/lang/String;)I
+getAttributeListMinLength
+ (Ljava/lang/String;Ljava/lang/String;)I
+ (Ljava/lang/String;Ljava/lang/String;)I
+getAttributeMaxValue
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+getAttributeMinValue
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+getAttributeNames
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[Ljava/lang/String;
+getAttributeValueType
+ (Ljava/lang/String;Ljava/lang/String;)I
+ (Ljava/lang/String;Ljava/lang/String;)I
+getChildNames
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[Ljava/lang/String;
+getChildPolicy
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+getElementDescription
+ (Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/String;
+getElementMaxChildren
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+getElementMinChildren
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+getObjectArrayMaxLength
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+getObjectArrayMinLength
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+getObjectClass
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+getObjectDefaultValue
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getObjectEnumerations
+ (Ljava/lang/String;)[Ljava/lang/Object;
+ (Ljava/lang/String;)[Ljava/lang/Object;
+getObjectMaxValue
+ (Ljava/lang/String;)Ljava/lang/Comparable<*>;
+ (Ljava/lang/String;)Ljava/lang/Comparable<*>;
+getObjectMinValue
+ (Ljava/lang/String;)Ljava/lang/Comparable<*>;
+ (Ljava/lang/String;)Ljava/lang/Comparable<*>;
+getObjectValueType
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+getRootName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+isAttributeRequired
+ (Ljava/lang/String;Ljava/lang/String;)Z
+ (Ljava/lang/String;Ljava/lang/String;)Z

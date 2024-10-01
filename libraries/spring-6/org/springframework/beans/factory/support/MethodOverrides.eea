@@ -1,0 +1,20 @@
+class org/springframework/beans/factory/support/MethodOverrides
+
+<init>
+ (Lorg/springframework/beans/factory/support/MethodOverrides;)V
+ (Lorg/springframework/beans/factory/support/MethodOverrides;)V
+addOverride
+ (Lorg/springframework/beans/factory/support/MethodOverride;)V
+ (Lorg/springframework/beans/factory/support/MethodOverride;)V
+addOverrides
+ (Lorg/springframework/beans/factory/support/MethodOverrides;)V
+ (Lorg/springframework/beans/factory/support/MethodOverrides;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getOverride
+ (Ljava/lang/reflect/Method;)Lorg/springframework/beans/factory/support/MethodOverride;
+ (Ljava/lang/reflect/Method;)L0org/springframework/beans/factory/support/MethodOverride;
+getOverrides
+ ()Ljava/util/Set<Lorg/springframework/beans/factory/support/MethodOverride;>;
+ ()Ljava/util/Set<Lorg/springframework/beans/factory/support/MethodOverride;>;

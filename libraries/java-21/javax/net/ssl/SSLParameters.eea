@@ -1,0 +1,62 @@
+class javax/net/ssl/SSLParameters
+
+<init>
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+<init>
+ ([Ljava/lang/String;[Ljava/lang/String;)V
+ ([Ljava/lang/String;[Ljava/lang/String;)V
+getAlgorithmConstraints
+ ()Ljava/security/AlgorithmConstraints;
+ ()Ljava/security/AlgorithmConstraints;
+getApplicationProtocols
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getCipherSuites
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getEndpointIdentificationAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getNamedGroups
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getProtocols
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getSNIMatchers
+ ()Ljava/util/Collection<Ljavax/net/ssl/SNIMatcher;>;
+ ()Ljava/util/Collection<Ljavax/net/ssl/SNIMatcher;>;
+getServerNames
+ ()Ljava/util/List<Ljavax/net/ssl/SNIServerName;>;
+ ()Ljava/util/List<Ljavax/net/ssl/SNIServerName;>;
+getSignatureSchemes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+setAlgorithmConstraints
+ (Ljava/security/AlgorithmConstraints;)V
+ (Ljava/security/AlgorithmConstraints;)V
+setApplicationProtocols
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setCipherSuites
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setEndpointIdentificationAlgorithm
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setNamedGroups
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setProtocols
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setSNIMatchers
+ (Ljava/util/Collection<Ljavax/net/ssl/SNIMatcher;>;)V
+ (Ljava/util/Collection<Ljavax/net/ssl/SNIMatcher;>;)V
+setServerNames
+ (Ljava/util/List<Ljavax/net/ssl/SNIServerName;>;)V
+ (Ljava/util/List<Ljavax/net/ssl/SNIServerName;>;)V
+setSignatureSchemes
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V

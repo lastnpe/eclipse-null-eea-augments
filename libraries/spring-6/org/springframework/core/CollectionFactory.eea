@@ -1,0 +1,35 @@
+class org/springframework/core/CollectionFactory
+
+createApproximateCollection
+ <E:Ljava/lang/Object;>(Ljava/lang/Object;I)Ljava/util/Collection<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/lang/Object;I)Ljava/util/Collection<TE;>;
+createApproximateMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/lang/Object;I)Ljava/util/Map<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/lang/Object;I)Ljava/util/Map<TK;TV;>;
+createCollection
+ <E:Ljava/lang/Object;>(Ljava/lang/Class<*>;I)Ljava/util/Collection<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/lang/Class<*>;I)Ljava/util/Collection<TE;>;
+createCollection
+ <E:Ljava/lang/Object;>(Ljava/lang/Class<*>;Ljava/lang/Class<*>;I)Ljava/util/Collection<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/lang/Class<*>;Ljava/lang/Class<*>;I)Ljava/util/Collection<TE;>;
+createMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/lang/Class<*>;I)Ljava/util/Map<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/lang/Class<*>;I)Ljava/util/Map<TK;TV;>;
+createMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/lang/Class<*>;Ljava/lang/Class<*>;I)Ljava/util/Map<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/lang/Class<*>;Ljava/lang/Class<*>;I)Ljava/util/Map<TK;TV;>;
+createSortedProperties
+ (Ljava/util/Properties;Z)Ljava/util/Properties;
+ (Ljava/util/Properties;Z)Ljava/util/Properties;
+createSortedProperties
+ (Z)Ljava/util/Properties;
+ (Z)Ljava/util/Properties;
+createStringAdaptingProperties
+ ()Ljava/util/Properties;
+ ()Ljava/util/Properties;
+isApproximableCollectionType
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isApproximableMapType
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z

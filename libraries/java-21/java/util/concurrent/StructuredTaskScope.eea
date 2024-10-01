@@ -1,0 +1,22 @@
+class java/util/concurrent/StructuredTaskScope
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+<init>
+ (Ljava/lang/String;Ljava/util/concurrent/ThreadFactory;)V
+ (Ljava/lang/String;Ljava/util/concurrent/ThreadFactory;)V
+fork
+ <U:TT;>(Ljava/util/concurrent/Callable<+TU;>;)Ljava/util/concurrent/StructuredTaskScope$Subtask<TU;>;
+ <U:TT;>(Ljava/util/concurrent/Callable<+TU;>;)Ljava/util/concurrent/StructuredTaskScope$Subtask<TU;>;
+handleComplete
+ (Ljava/util/concurrent/StructuredTaskScope$Subtask<+TT;>;)V
+ (Ljava/util/concurrent/StructuredTaskScope$Subtask<+TT;>;)V
+join
+ ()Ljava/util/concurrent/StructuredTaskScope<TT;>;
+ ()Ljava/util/concurrent/StructuredTaskScope<TT;>;
+joinUntil
+ (Ljava/time/Instant;)Ljava/util/concurrent/StructuredTaskScope<TT;>;
+ (Ljava/time/Instant;)Ljava/util/concurrent/StructuredTaskScope<TT;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

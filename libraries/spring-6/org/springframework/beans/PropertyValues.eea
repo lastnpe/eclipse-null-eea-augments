@@ -1,0 +1,27 @@
+class org/springframework/beans/PropertyValues
+
+super java/lang/Iterable
+ <Lorg/springframework/beans/PropertyValue;>
+ <Lorg/springframework/beans/PropertyValue;>
+
+changesSince
+ (Lorg/springframework/beans/PropertyValues;)Lorg/springframework/beans/PropertyValues;
+ (Lorg/springframework/beans/PropertyValues;)Lorg/springframework/beans/PropertyValues;
+contains
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+getPropertyValue
+ (Ljava/lang/String;)Lorg/springframework/beans/PropertyValue;
+ (Ljava/lang/String;)L0org/springframework/beans/PropertyValue;
+getPropertyValues
+ ()[Lorg/springframework/beans/PropertyValue;
+ ()[Lorg/springframework/beans/PropertyValue;
+iterator
+ ()Ljava/util/Iterator<Lorg/springframework/beans/PropertyValue;>;
+ ()Ljava/util/Iterator<Lorg/springframework/beans/PropertyValue;>;
+spliterator
+ ()Ljava/util/Spliterator<Lorg/springframework/beans/PropertyValue;>;
+ ()Ljava/util/Spliterator<Lorg/springframework/beans/PropertyValue;>;
+stream
+ ()Ljava/util/stream/Stream<Lorg/springframework/beans/PropertyValue;>;
+ ()Ljava/util/stream/Stream<Lorg/springframework/beans/PropertyValue;>;

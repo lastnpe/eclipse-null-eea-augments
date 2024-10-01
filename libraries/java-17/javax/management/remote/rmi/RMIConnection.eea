@@ -1,0 +1,80 @@
+class javax/management/remote/rmi/RMIConnection
+
+addNotificationListener
+ (Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)V
+ (Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)V
+addNotificationListeners
+ ([Ljavax/management/ObjectName;[Ljava/rmi/MarshalledObject;[Ljavax/security/auth/Subject;)[Ljava/lang/Integer;
+ ([Ljavax/management/ObjectName;[Ljava/rmi/MarshalledObject;[Ljavax/security/auth/Subject;)[Ljava/lang/Integer;
+createMBean
+ (Ljava/lang/String;Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;[Ljava/lang/String;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;
+ (Ljava/lang/String;Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;[Ljava/lang/String;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;
+createMBean
+ (Ljava/lang/String;Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;[Ljava/lang/String;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;
+ (Ljava/lang/String;Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;[Ljava/lang/String;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;
+createMBean
+ (Ljava/lang/String;Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;
+ (Ljava/lang/String;Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;
+createMBean
+ (Ljava/lang/String;Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;
+ (Ljava/lang/String;Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;
+fetchNotifications
+ (JIJ)Ljavax/management/remote/NotificationResult;
+ (JIJ)Ljavax/management/remote/NotificationResult;
+getAttribute
+ (Ljavax/management/ObjectName;Ljava/lang/String;Ljavax/security/auth/Subject;)Ljava/lang/Object;
+ (Ljavax/management/ObjectName;Ljava/lang/String;Ljavax/security/auth/Subject;)Ljava/lang/Object;
+getAttributes
+ (Ljavax/management/ObjectName;[Ljava/lang/String;Ljavax/security/auth/Subject;)Ljavax/management/AttributeList;
+ (Ljavax/management/ObjectName;[Ljava/lang/String;Ljavax/security/auth/Subject;)Ljavax/management/AttributeList;
+getConnectionId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDefaultDomain
+ (Ljavax/security/auth/Subject;)Ljava/lang/String;
+ (Ljavax/security/auth/Subject;)Ljava/lang/String;
+getDomains
+ (Ljavax/security/auth/Subject;)[Ljava/lang/String;
+ (Ljavax/security/auth/Subject;)[Ljava/lang/String;
+getMBeanCount
+ (Ljavax/security/auth/Subject;)Ljava/lang/Integer;
+ (Ljavax/security/auth/Subject;)Ljava/lang/Integer;
+getMBeanInfo
+ (Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Ljavax/management/MBeanInfo;
+ (Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Ljavax/management/MBeanInfo;
+getObjectInstance
+ (Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;
+ (Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;
+invoke
+ (Ljavax/management/ObjectName;Ljava/lang/String;Ljava/rmi/MarshalledObject;[Ljava/lang/String;Ljavax/security/auth/Subject;)Ljava/lang/Object;
+ (Ljavax/management/ObjectName;Ljava/lang/String;Ljava/rmi/MarshalledObject;[Ljava/lang/String;Ljavax/security/auth/Subject;)Ljava/lang/Object;
+isInstanceOf
+ (Ljavax/management/ObjectName;Ljava/lang/String;Ljavax/security/auth/Subject;)Z
+ (Ljavax/management/ObjectName;Ljava/lang/String;Ljavax/security/auth/Subject;)Z
+isRegistered
+ (Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Z
+ (Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Z
+queryMBeans
+ (Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)Ljava/util/Set<Ljavax/management/ObjectInstance;>;
+ (Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)Ljava/util/Set<Ljavax/management/ObjectInstance;>;
+queryNames
+ (Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)Ljava/util/Set<Ljavax/management/ObjectName;>;
+ (Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)Ljava/util/Set<Ljavax/management/ObjectName;>;
+removeNotificationListener
+ (Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)V
+ (Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)V
+removeNotificationListener
+ (Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)V
+ (Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)V
+removeNotificationListeners
+ (Ljavax/management/ObjectName;[Ljava/lang/Integer;Ljavax/security/auth/Subject;)V
+ (Ljavax/management/ObjectName;[Ljava/lang/Integer;Ljavax/security/auth/Subject;)V
+setAttribute
+ (Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)V
+ (Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)V
+setAttributes
+ (Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)Ljavax/management/AttributeList;
+ (Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)Ljavax/management/AttributeList;
+unregisterMBean
+ (Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)V
+ (Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)V

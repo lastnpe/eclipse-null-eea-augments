@@ -1,0 +1,63 @@
+class java/time/chrono/JapaneseChronology
+
+INSTANCE
+ Ljava/time/chrono/JapaneseChronology;
+ L1java/time/chrono/JapaneseChronology;
+
+date
+ (III)Ljava/time/chrono/JapaneseDate;
+ (III)Ljava/time/chrono/JapaneseDate;
+date
+ (Ljava/time/chrono/Era;III)Ljava/time/chrono/JapaneseDate;
+ (Ljava/time/chrono/Era;III)Ljava/time/chrono/JapaneseDate;
+date
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/JapaneseDate;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/JapaneseDate;
+dateEpochDay
+ (J)Ljava/time/chrono/JapaneseDate;
+ (J)Ljava/time/chrono/JapaneseDate;
+dateNow
+ ()Ljava/time/chrono/JapaneseDate;
+ ()Ljava/time/chrono/JapaneseDate;
+dateNow
+ (Ljava/time/Clock;)Ljava/time/chrono/JapaneseDate;
+ (Ljava/time/Clock;)Ljava/time/chrono/JapaneseDate;
+dateNow
+ (Ljava/time/ZoneId;)Ljava/time/chrono/JapaneseDate;
+ (Ljava/time/ZoneId;)Ljava/time/chrono/JapaneseDate;
+dateYearDay
+ (II)Ljava/time/chrono/JapaneseDate;
+ (II)Ljava/time/chrono/JapaneseDate;
+dateYearDay
+ (Ljava/time/chrono/Era;II)Ljava/time/chrono/JapaneseDate;
+ (Ljava/time/chrono/Era;II)Ljava/time/chrono/JapaneseDate;
+eraOf
+ (I)Ljava/time/chrono/JapaneseEra;
+ (I)Ljava/time/chrono/JapaneseEra;
+eras
+ ()Ljava/util/List<Ljava/time/chrono/Era;>;
+ ()Ljava/util/List<Ljava/time/chrono/Era;>;
+getCalendarType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+localDateTime
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/ChronoLocalDateTime<Ljava/time/chrono/JapaneseDate;>;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/ChronoLocalDateTime<Ljava/time/chrono/JapaneseDate;>;
+prolepticYear
+ (Ljava/time/chrono/Era;I)I
+ (Ljava/time/chrono/Era;I)I
+range
+ (Ljava/time/temporal/ChronoField;)Ljava/time/temporal/ValueRange;
+ (Ljava/time/temporal/ChronoField;)Ljava/time/temporal/ValueRange;
+resolveDate
+ (Ljava/util/Map<Ljava/time/temporal/TemporalField;Ljava/lang/Long;>;Ljava/time/format/ResolverStyle;)Ljava/time/chrono/JapaneseDate;
+ (Ljava/util/Map<Ljava/time/temporal/TemporalField;Ljava/lang/Long;>;Ljava/time/format/ResolverStyle;)Ljava/time/chrono/JapaneseDate;
+zonedDateTime
+ (Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/chrono/ChronoZonedDateTime<Ljava/time/chrono/JapaneseDate;>;
+ (Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/chrono/ChronoZonedDateTime<Ljava/time/chrono/JapaneseDate;>;
+zonedDateTime
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/ChronoZonedDateTime<Ljava/time/chrono/JapaneseDate;>;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/ChronoZonedDateTime<Ljava/time/chrono/JapaneseDate;>;

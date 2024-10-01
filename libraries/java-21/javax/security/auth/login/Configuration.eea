@@ -1,0 +1,30 @@
+class javax/security/auth/login/Configuration
+
+getConfiguration
+ ()Ljavax/security/auth/login/Configuration;
+ ()Ljavax/security/auth/login/Configuration;
+getInstance
+ (Ljava/lang/String;Ljavax/security/auth/login/Configuration$Parameters;)Ljavax/security/auth/login/Configuration;
+ (Ljava/lang/String;Ljavax/security/auth/login/Configuration$Parameters;)Ljavax/security/auth/login/Configuration;
+getInstance
+ (Ljava/lang/String;Ljavax/security/auth/login/Configuration$Parameters;Ljava/lang/String;)Ljavax/security/auth/login/Configuration;
+ (Ljava/lang/String;Ljavax/security/auth/login/Configuration$Parameters;Ljava/lang/String;)Ljavax/security/auth/login/Configuration;
+getInstance
+ (Ljava/lang/String;Ljavax/security/auth/login/Configuration$Parameters;Ljava/security/Provider;)Ljavax/security/auth/login/Configuration;
+ (Ljava/lang/String;Ljavax/security/auth/login/Configuration$Parameters;Ljava/security/Provider;)Ljavax/security/auth/login/Configuration;
+setConfiguration
+ (Ljavax/security/auth/login/Configuration;)V
+ (Ljavax/security/auth/login/Configuration;)V
+
+getAppConfigurationEntry
+ (Ljava/lang/String;)[Ljavax/security/auth/login/AppConfigurationEntry;
+ (Ljava/lang/String;)[Ljavax/security/auth/login/AppConfigurationEntry;
+getParameters
+ ()Ljavax/security/auth/login/Configuration$Parameters;
+ ()Ljavax/security/auth/login/Configuration$Parameters;
+getProvider
+ ()Ljava/security/Provider;
+ ()Ljava/security/Provider;
+getType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

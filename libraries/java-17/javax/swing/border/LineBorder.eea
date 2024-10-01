@@ -1,0 +1,31 @@
+class javax/swing/border/LineBorder
+
+createBlackLineBorder
+ ()Ljavax/swing/border/Border;
+ ()Ljavax/swing/border/Border;
+createGrayLineBorder
+ ()Ljavax/swing/border/Border;
+ ()Ljavax/swing/border/Border;
+
+lineColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+
+<init>
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+<init>
+ (Ljava/awt/Color;I)V
+ (Ljava/awt/Color;I)V
+<init>
+ (Ljava/awt/Color;IZ)V
+ (Ljava/awt/Color;IZ)V
+getBorderInsets
+ (Ljava/awt/Component;Ljava/awt/Insets;)Ljava/awt/Insets;
+ (Ljava/awt/Component;Ljava/awt/Insets;)Ljava/awt/Insets;
+getLineColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+paintBorder
+ (Ljava/awt/Component;Ljava/awt/Graphics;IIII)V
+ (Ljava/awt/Component;Ljava/awt/Graphics;IIII)V

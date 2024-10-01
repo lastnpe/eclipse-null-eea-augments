@@ -1,0 +1,44 @@
+class java/lang/instrument/Instrumentation
+
+addTransformer
+ (Ljava/lang/instrument/ClassFileTransformer;)V
+ (Ljava/lang/instrument/ClassFileTransformer;)V
+addTransformer
+ (Ljava/lang/instrument/ClassFileTransformer;Z)V
+ (Ljava/lang/instrument/ClassFileTransformer;Z)V
+appendToBootstrapClassLoaderSearch
+ (Ljava/util/jar/JarFile;)V
+ (Ljava/util/jar/JarFile;)V
+appendToSystemClassLoaderSearch
+ (Ljava/util/jar/JarFile;)V
+ (Ljava/util/jar/JarFile;)V
+getAllLoadedClasses
+ ()[Ljava/lang/Class;
+ ()[Ljava/lang/Class;
+getInitiatedClasses
+ (Ljava/lang/ClassLoader;)[Ljava/lang/Class;
+ (Ljava/lang/ClassLoader;)[Ljava/lang/Class;
+getObjectSize
+ (Ljava/lang/Object;)J
+ (Ljava/lang/Object;)J
+isModifiableClass
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isModifiableModule
+ (Ljava/lang/Module;)Z
+ (Ljava/lang/Module;)Z
+redefineClasses
+ ([Ljava/lang/instrument/ClassDefinition;)V
+ ([Ljava/lang/instrument/ClassDefinition;)V
+redefineModule
+ (Ljava/lang/Module;Ljava/util/Set<Ljava/lang/Module;>;Ljava/util/Map<Ljava/lang/String;Ljava/util/Set<Ljava/lang/Module;>;>;Ljava/util/Map<Ljava/lang/String;Ljava/util/Set<Ljava/lang/Module;>;>;Ljava/util/Set<Ljava/lang/Class<*>;>;Ljava/util/Map<Ljava/lang/Class<*>;Ljava/util/List<Ljava/lang/Class<*>;>;>;)V
+ (Ljava/lang/Module;Ljava/util/Set<Ljava/lang/Module;>;Ljava/util/Map<Ljava/lang/String;Ljava/util/Set<Ljava/lang/Module;>;>;Ljava/util/Map<Ljava/lang/String;Ljava/util/Set<Ljava/lang/Module;>;>;Ljava/util/Set<Ljava/lang/Class<*>;>;Ljava/util/Map<Ljava/lang/Class<*>;Ljava/util/List<Ljava/lang/Class<*>;>;>;)V
+removeTransformer
+ (Ljava/lang/instrument/ClassFileTransformer;)Z
+ (Ljava/lang/instrument/ClassFileTransformer;)Z
+retransformClasses
+ ([Ljava/lang/Class<*>;)V
+ ([Ljava/lang/Class<*>;)V
+setNativeMethodPrefix
+ (Ljava/lang/instrument/ClassFileTransformer;Ljava/lang/String;)V
+ (Ljava/lang/instrument/ClassFileTransformer;Ljava/lang/String;)V

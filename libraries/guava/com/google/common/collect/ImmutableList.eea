@@ -1,10 +1,20 @@
 class com/google/common/collect/ImmutableList
-EMPTY
- Lcom/google/common/collect/ImmutableList<Ljava/lang/Object;>;
- L1com/google/common/collect/ImmutableList<Ljava/lang/Object;>;
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super com/google/common/collect/ImmutableCollection
+ <TE;>
+ <TE;>
+super java/util/List
+ <TE;>
+ <TE;>
+
 builder
  <E:Ljava/lang/Object;>()Lcom/google/common/collect/ImmutableList$Builder<TE;>;
  <E:Ljava/lang/Object;>()L1com/google/common/collect/ImmutableList$Builder<TE;>;
+builderWithExpectedSize
+ <E:Ljava/lang/Object;>(I)Lcom/google/common/collect/ImmutableList$Builder<TE;>;
+ <E:Ljava/lang/Object;>(I)Lcom/google/common/collect/ImmutableList$Builder<TE;>;
 copyOf
  <E:Ljava/lang/Object;>(Ljava/lang/Iterable<+TE;>;)Lcom/google/common/collect/ImmutableList<TE;>;
  <E:Ljava/lang/Object;>(L1java/lang/Iterable<+TE;>;)L1com/google/common/collect/ImmutableList<TE;>;
@@ -56,3 +66,67 @@ of
 of
  <E:Ljava/lang/Object;>(TE;TE;TE;TE;TE;TE;TE;TE;TE;TE;TE;TE;[TE;)Lcom/google/common/collect/ImmutableList<TE;>;
  <E:Ljava/lang/Object;>(T1E;T1E;T1E;T1E;T1E;T1E;T1E;T1E;T1E;T1E;T1E;T1E;[TE;)L1com/google/common/collect/ImmutableList<TE;>;
+sortedCopyOf
+ <E::Ljava/lang/Comparable<-TE;>;>(Ljava/lang/Iterable<+TE;>;)Lcom/google/common/collect/ImmutableList<TE;>;
+ <E::Ljava/lang/Comparable<-TE;>;>(Ljava/lang/Iterable<+TE;>;)Lcom/google/common/collect/ImmutableList<TE;>;
+sortedCopyOf
+ <E:Ljava/lang/Object;>(Ljava/util/Comparator<-TE;>;Ljava/lang/Iterable<+TE;>;)Lcom/google/common/collect/ImmutableList<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Comparator<-TE;>;Ljava/lang/Iterable<+TE;>;)Lcom/google/common/collect/ImmutableList<TE;>;
+toImmutableList
+ <E:Ljava/lang/Object;>()Ljava/util/stream/Collector<TE;*Lcom/google/common/collect/ImmutableList<TE;>;>;
+ <E:Ljava/lang/Object;>()Ljava/util/stream/Collector<TE;*Lcom/google/common/collect/ImmutableList<TE;>;>;
+
+add
+ (ITE;)V
+ (ITE;)V
+addAll
+ (ILjava/util/Collection<+TE;>;)Z
+ (IL1java/util/Collection<+TE;>;)Z # @Inherited(java.util.List)
+asList
+ ()Lcom/google/common/collect/ImmutableList<TE;>;
+ ()L1com/google/common/collect/ImmutableList<TE;>; # @Inherited(com.google.common.collect.ImmutableCollection)
+contains
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.List)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+forEach
+ (Ljava/util/function/Consumer<-TE;>;)V
+ (Ljava/util/function/Consumer<-TE;>;)V
+indexOf
+ (Ljava/lang/Object;)I
+ (L0java/lang/Object;)I # @Inherited(java.util.List)
+iterator
+ ()Lcom/google/common/collect/UnmodifiableIterator<TE;>;
+ ()Lcom/google/common/collect/UnmodifiableIterator<TE;>;
+lastIndexOf
+ (Ljava/lang/Object;)I
+ (L0java/lang/Object;)I # @Inherited(java.util.List)
+listIterator
+ ()Lcom/google/common/collect/UnmodifiableListIterator<TE;>;
+ ()Lcom/google/common/collect/UnmodifiableListIterator<TE;>;
+listIterator
+ (I)Lcom/google/common/collect/UnmodifiableListIterator<TE;>;
+ (I)Lcom/google/common/collect/UnmodifiableListIterator<TE;>;
+remove
+ (I)TE;
+ (I)TE;
+replaceAll
+ (Ljava/util/function/UnaryOperator<TE;>;)V
+ (L1java/util/function/UnaryOperator<TE;>;)V # @Inherited(java.util.List)
+reverse
+ ()Lcom/google/common/collect/ImmutableList<TE;>;
+ ()Lcom/google/common/collect/ImmutableList<TE;>;
+set
+ (ITE;)TE;
+ (ITE;)TE;
+sort
+ (Ljava/util/Comparator<-TE;>;)V
+ (L1java/util/Comparator<-TE;>;)V # @Inherited(java.util.List)
+spliterator
+ ()Ljava/util/Spliterator<TE;>;
+ ()L1java/util/Spliterator<TE;>; # @Inherited(com.google.common.collect.ImmutableCollection)
+subList
+ (II)Lcom/google/common/collect/ImmutableList<TE;>;
+ (II)Lcom/google/common/collect/ImmutableList<TE;>;

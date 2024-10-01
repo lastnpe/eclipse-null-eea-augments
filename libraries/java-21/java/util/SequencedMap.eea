@@ -1,0 +1,38 @@
+class java/util/SequencedMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super java/util/Map
+ <TK;TV;>
+ <TK;TV;>
+
+firstEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()Ljava/util/Map$Entry<TK;TV;>;
+lastEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()Ljava/util/Map$Entry<TK;TV;>;
+pollFirstEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()Ljava/util/Map$Entry<TK;TV;>;
+pollLastEntry
+ ()Ljava/util/Map$Entry<TK;TV;>;
+ ()Ljava/util/Map$Entry<TK;TV;>;
+putFirst
+ (TK;TV;)TV;
+ (TK;TV;)TV;
+putLast
+ (TK;TV;)TV;
+ (TK;TV;)TV;
+reversed
+ ()Ljava/util/SequencedMap<TK;TV;>;
+ ()Ljava/util/SequencedMap<TK;TV;>;
+sequencedEntrySet
+ ()Ljava/util/SequencedSet<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()Ljava/util/SequencedSet<Ljava/util/Map$Entry<TK;TV;>;>;
+sequencedKeySet
+ ()Ljava/util/SequencedSet<TK;>;
+ ()Ljava/util/SequencedSet<TK;>;
+sequencedValues
+ ()Ljava/util/SequencedCollection<TV;>;
+ ()Ljava/util/SequencedCollection<TV;>;

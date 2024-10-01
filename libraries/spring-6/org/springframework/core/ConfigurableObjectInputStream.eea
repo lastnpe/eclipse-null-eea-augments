@@ -1,0 +1,20 @@
+class org/springframework/core/ConfigurableObjectInputStream
+
+<init>
+ (Ljava/io/InputStream;Ljava/lang/ClassLoader;)V
+ (Ljava/io/InputStream;Ljava/lang/ClassLoader;)V
+<init>
+ (Ljava/io/InputStream;Ljava/lang/ClassLoader;Z)V
+ (Ljava/io/InputStream;Ljava/lang/ClassLoader;Z)V
+getFallbackClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()L0java/lang/ClassLoader;
+resolveClass
+ (Ljava/io/ObjectStreamClass;)Ljava/lang/Class<*>;
+ (Ljava/io/ObjectStreamClass;)Ljava/lang/Class<*>;
+resolveFallbackIfPossible
+ (Ljava/lang/String;Ljava/lang/ClassNotFoundException;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;Ljava/lang/ClassNotFoundException;)Ljava/lang/Class<*>;
+resolveProxyClass
+ ([Ljava/lang/String;)Ljava/lang/Class<*>;
+ ([Ljava/lang/String;)Ljava/lang/Class<*>;

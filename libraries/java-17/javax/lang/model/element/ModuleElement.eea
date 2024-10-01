@@ -1,0 +1,20 @@
+class javax/lang/model/element/ModuleElement
+
+asType
+ ()Ljavax/lang/model/type/TypeMirror;
+ ()L1javax/lang/model/type/TypeMirror; # @Inherited(javax.lang.model.element.Element)
+getDirectives
+ ()Ljava/util/List<+Ljavax/lang/model/element/ModuleElement$Directive;>;
+ ()Ljava/util/List<+Ljavax/lang/model/element/ModuleElement$Directive;>;
+getEnclosedElements
+ ()Ljava/util/List<+Ljavax/lang/model/element/Element;>;
+ ()L1java/util/List<+L1javax/lang/model/element/Element;>; # @Inherited(javax.lang.model.element.Element)
+getEnclosingElement
+ ()Ljavax/lang/model/element/Element;
+ ()L0javax/lang/model/element/Element; # @Inherited(javax.lang.model.element.Element)
+getQualifiedName
+ ()Ljavax/lang/model/element/Name;
+ ()Ljavax/lang/model/element/Name;
+getSimpleName
+ ()Ljavax/lang/model/element/Name;
+ ()L1javax/lang/model/element/Name; # @Inherited(javax.lang.model.element.Element)

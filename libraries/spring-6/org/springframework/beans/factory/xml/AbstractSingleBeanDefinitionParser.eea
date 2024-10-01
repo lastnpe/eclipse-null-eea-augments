@@ -1,0 +1,20 @@
+class org/springframework/beans/factory/xml/AbstractSingleBeanDefinitionParser
+
+doParse
+ (Lorg/w3c/dom/Element;Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;)V
+ (Lorg/w3c/dom/Element;Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;)V
+doParse
+ (Lorg/w3c/dom/Element;Lorg/springframework/beans/factory/xml/ParserContext;Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;)V
+ (Lorg/w3c/dom/Element;Lorg/springframework/beans/factory/xml/ParserContext;Lorg/springframework/beans/factory/support/BeanDefinitionBuilder;)V
+getBeanClass
+ (Lorg/w3c/dom/Element;)Ljava/lang/Class<*>;
+ (Lorg/w3c/dom/Element;)L0java/lang/Class<*>;
+getBeanClassName
+ (Lorg/w3c/dom/Element;)Ljava/lang/String;
+ (Lorg/w3c/dom/Element;)L0java/lang/String;
+getParentName
+ (Lorg/w3c/dom/Element;)Ljava/lang/String;
+ (Lorg/w3c/dom/Element;)L0java/lang/String;
+parseInternal
+ (Lorg/w3c/dom/Element;Lorg/springframework/beans/factory/xml/ParserContext;)Lorg/springframework/beans/factory/support/AbstractBeanDefinition;
+ (Lorg/w3c/dom/Element;Lorg/springframework/beans/factory/xml/ParserContext;)L0org/springframework/beans/factory/support/AbstractBeanDefinition; # @Inherited(org.springframework.beans.factory.xml.AbstractBeanDefinitionParser)

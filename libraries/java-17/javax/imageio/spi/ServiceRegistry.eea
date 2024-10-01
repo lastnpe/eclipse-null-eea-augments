@@ -1,0 +1,51 @@
+class javax/imageio/spi/ServiceRegistry
+
+lookupProviders
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/util/Iterator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/util/Iterator<TT;>;
+lookupProviders
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/ClassLoader;)Ljava/util/Iterator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/ClassLoader;)Ljava/util/Iterator<TT;>;
+
+<init>
+ (Ljava/util/Iterator<Ljava/lang/Class<*>;>;)V
+ (Ljava/util/Iterator<Ljava/lang/Class<*>;>;)V
+contains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+deregisterAll
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+deregisterServiceProvider
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+deregisterServiceProvider
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/Class<TT;>;)Z
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/Class<TT;>;)Z
+getCategories
+ ()Ljava/util/Iterator<Ljava/lang/Class<*>;>;
+ ()Ljava/util/Iterator<Ljava/lang/Class<*>;>;
+getServiceProviderByClass
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+getServiceProviders
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljavax/imageio/spi/ServiceRegistry$Filter;Z)Ljava/util/Iterator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljavax/imageio/spi/ServiceRegistry$Filter;Z)Ljava/util/Iterator<TT;>;
+getServiceProviders
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Z)Ljava/util/Iterator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Z)Ljava/util/Iterator<TT;>;
+registerServiceProvider
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+registerServiceProvider
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/Class<TT;>;)Z
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/Class<TT;>;)Z
+registerServiceProviders
+ (Ljava/util/Iterator<*>;)V
+ (Ljava/util/Iterator<*>;)V
+setOrdering
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;TT;TT;)Z
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;TT;TT;)Z
+unsetOrdering
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;TT;TT;)Z
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;TT;TT;)Z

@@ -1,0 +1,23 @@
+class org/springframework/core/io/AbstractFileResolvingResource
+
+customizeConnection
+ (Ljava/net/HttpURLConnection;)V
+ (Ljava/net/HttpURLConnection;)V
+customizeConnection
+ (Ljava/net/URLConnection;)V
+ (Ljava/net/URLConnection;)V
+getFile
+ ()Ljava/io/File;
+ ()Ljava/io/File;
+getFile
+ (Ljava/net/URI;)Ljava/io/File;
+ (Ljava/net/URI;)Ljava/io/File;
+getFileForLastModifiedCheck
+ ()Ljava/io/File;
+ ()Ljava/io/File;
+isFile
+ (Ljava/net/URI;)Z
+ (Ljava/net/URI;)Z
+readableChannel
+ ()Ljava/nio/channels/ReadableByteChannel;
+ ()Ljava/nio/channels/ReadableByteChannel;

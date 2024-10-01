@@ -1,0 +1,44 @@
+class jakarta/servlet/ServletResponseWrapper
+
+<init>
+ (Ljakarta/servlet/ServletResponse;)V
+ (Ljakarta/servlet/ServletResponse;)V
+getCharacterEncoding
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(jakarta.servlet.ServletResponse)
+getContentType
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(jakarta.servlet.ServletResponse)
+getLocale
+ ()Ljava/util/Locale;
+ ()L1java/util/Locale; # @Inherited(jakarta.servlet.ServletResponse)
+getOutputStream
+ ()Ljakarta/servlet/ServletOutputStream;
+ ()L1jakarta/servlet/ServletOutputStream; # @Inherited(jakarta.servlet.ServletResponse)
+getResponse
+ ()Ljakarta/servlet/ServletResponse;
+ ()Ljakarta/servlet/ServletResponse;
+getWriter
+ ()Ljava/io/PrintWriter;
+ ()L1java/io/PrintWriter; # @Inherited(jakarta.servlet.ServletResponse)
+isWrapperFor
+ (Ljakarta/servlet/ServletResponse;)Z
+ (Ljakarta/servlet/ServletResponse;)Z
+isWrapperFor
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+setCharacterEncoding
+ (Ljava/lang/String;)V
+ (L0java/lang/String;)V # @Inherited(jakarta.servlet.ServletResponse)
+setCharacterEncoding
+ (Ljava/nio/charset/Charset;)V
+ (Ljava/nio/charset/Charset;)V
+setContentType
+ (Ljava/lang/String;)V
+ (L0java/lang/String;)V # @Inherited(jakarta.servlet.ServletResponse)
+setLocale
+ (Ljava/util/Locale;)V
+ (L0java/util/Locale;)V # @Inherited(jakarta.servlet.ServletResponse)
+setResponse
+ (Ljakarta/servlet/ServletResponse;)V
+ (Ljakarta/servlet/ServletResponse;)V

@@ -1,0 +1,24 @@
+class javax/mail/event/FolderEvent
+
+folder
+ Ljavax/mail/Folder;
+ Ljavax/mail/Folder;
+newFolder
+ Ljavax/mail/Folder;
+ Ljavax/mail/Folder;
+
+<init>
+ (Ljava/lang/Object;Ljavax/mail/Folder;I)V
+ (Ljava/lang/Object;Ljavax/mail/Folder;I)V
+<init>
+ (Ljava/lang/Object;Ljavax/mail/Folder;Ljavax/mail/Folder;I)V
+ (Ljava/lang/Object;Ljavax/mail/Folder;Ljavax/mail/Folder;I)V
+dispatch
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+getFolder
+ ()Ljavax/mail/Folder;
+ ()Ljavax/mail/Folder;
+getNewFolder
+ ()Ljavax/mail/Folder;
+ ()Ljavax/mail/Folder;

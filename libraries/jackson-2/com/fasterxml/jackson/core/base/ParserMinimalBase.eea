@@ -1,0 +1,161 @@
+class com/fasterxml/jackson/core/base/ParserMinimalBase
+
+BD_MAX_INT
+ Ljava/math/BigDecimal;
+ L1java/math/BigDecimal;
+BD_MAX_LONG
+ Ljava/math/BigDecimal;
+ L1java/math/BigDecimal;
+BD_MIN_INT
+ Ljava/math/BigDecimal;
+ L1java/math/BigDecimal;
+BD_MIN_LONG
+ Ljava/math/BigDecimal;
+ L1java/math/BigDecimal;
+BI_MAX_INT
+ Ljava/math/BigInteger;
+ L1java/math/BigInteger;
+BI_MAX_LONG
+ Ljava/math/BigInteger;
+ L1java/math/BigInteger;
+BI_MIN_INT
+ Ljava/math/BigInteger;
+ L1java/math/BigInteger;
+BI_MIN_LONG
+ Ljava/math/BigInteger;
+ L1java/math/BigInteger;
+NO_BYTES
+ [B
+ [1B
+NO_INTS
+ [I
+ [1I
+
+_ascii
+ ([B)Ljava/lang/String;
+ ([B)Ljava/lang/String;
+_asciiBytes
+ (Ljava/lang/String;)[B
+ (Ljava/lang/String;)[B
+_getCharDesc
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+
+_currToken
+ Lcom/fasterxml/jackson/core/JsonToken;
+ Lcom/fasterxml/jackson/core/JsonToken;
+_lastClearedToken
+ Lcom/fasterxml/jackson/core/JsonToken;
+ Lcom/fasterxml/jackson/core/JsonToken;
+
+_constructError
+ (Ljava/lang/String;Ljava/lang/Throwable;)Lcom/fasterxml/jackson/core/JsonParseException;
+ (Ljava/lang/String;Ljava/lang/Throwable;)Lcom/fasterxml/jackson/core/JsonParseException;
+_currentLocationMinusOne
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+_decodeBase64
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/util/ByteArrayBuilder;Lcom/fasterxml/jackson/core/Base64Variant;)V
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/util/ByteArrayBuilder;Lcom/fasterxml/jackson/core/Base64Variant;)V
+_hasTextualNull
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+_longIntegerDesc
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+_longNumberDesc
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+_reportError
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+_reportError
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+_reportError
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+_reportInputCoercion
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonToken;Ljava/lang/Class<*>;)V
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonToken;Ljava/lang/Class<*>;)V
+_reportInvalidEOF
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonToken;)V
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonToken;)V
+_reportInvalidEOFInValue
+ (Lcom/fasterxml/jackson/core/JsonToken;)V
+ (Lcom/fasterxml/jackson/core/JsonToken;)V
+_reportUnexpectedChar
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+_reportUnexpectedNumberChar
+ <T:Ljava/lang/Object;>(ILjava/lang/String;)TT;
+ <T:Ljava/lang/Object;>(ILjava/lang/String;)TT;
+_throwInternalReturnAny
+ <T:Ljava/lang/Object;>()TT;
+ <T:Ljava/lang/Object;>()TT;
+_wrapError
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+currentToken
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+getBinaryValue
+ (Lcom/fasterxml/jackson/core/Base64Variant;)[B
+ (Lcom/fasterxml/jackson/core/Base64Variant;)[B
+getCurrentName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getCurrentToken
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+getLastClearedToken
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+getParsingContext
+ ()Lcom/fasterxml/jackson/core/JsonStreamContext;
+ ()Lcom/fasterxml/jackson/core/JsonStreamContext;
+getText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTextCharacters
+ ()[C
+ ()[C
+getValueAsString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getValueAsString
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+hasToken
+ (Lcom/fasterxml/jackson/core/JsonToken;)Z
+ (Lcom/fasterxml/jackson/core/JsonToken;)Z
+nextToken
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+nextValue
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+overrideCurrentName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+reportInvalidNumber
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+reportOverflowInt
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+reportOverflowInt
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonToken;)V
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonToken;)V
+reportOverflowLong
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+reportOverflowLong
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonToken;)V
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonToken;)V
+reportUnexpectedNumberChar
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+skipChildren
+ ()Lcom/fasterxml/jackson/core/JsonParser;
+ ()Lcom/fasterxml/jackson/core/JsonParser;

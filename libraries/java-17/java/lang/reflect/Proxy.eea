@@ -1,0 +1,22 @@
+class java/lang/reflect/Proxy
+
+getInvocationHandler
+ (Ljava/lang/Object;)Ljava/lang/reflect/InvocationHandler;
+ (L1java/lang/Object;)L1java/lang/reflect/InvocationHandler;
+getProxyClass
+ (Ljava/lang/ClassLoader;[Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+ (L0java/lang/ClassLoader;[1Ljava/lang/Class<*>;)L1java/lang/Class<*>;
+isProxyClass
+ (Ljava/lang/Class<*>;)Z
+ (L1java/lang/Class<*>;)Z
+newProxyInstance
+ (Ljava/lang/ClassLoader;[Ljava/lang/Class<*>;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
+ (L0java/lang/ClassLoader;[1Ljava/lang/Class<*>;L1java/lang/reflect/InvocationHandler;)L1java/lang/Object;
+
+h
+ Ljava/lang/reflect/InvocationHandler;
+ L1java/lang/reflect/InvocationHandler;
+
+<init>
+ (Ljava/lang/reflect/InvocationHandler;)V
+ (L1java/lang/reflect/InvocationHandler;)V

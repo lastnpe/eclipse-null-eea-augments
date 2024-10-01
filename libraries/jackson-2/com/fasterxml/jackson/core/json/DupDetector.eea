@@ -1,0 +1,34 @@
+class com/fasterxml/jackson/core/json/DupDetector
+
+rootDetector
+ (Lcom/fasterxml/jackson/core/JsonGenerator;)Lcom/fasterxml/jackson/core/json/DupDetector;
+ (Lcom/fasterxml/jackson/core/JsonGenerator;)Lcom/fasterxml/jackson/core/json/DupDetector;
+rootDetector
+ (Lcom/fasterxml/jackson/core/JsonParser;)Lcom/fasterxml/jackson/core/json/DupDetector;
+ (Lcom/fasterxml/jackson/core/JsonParser;)Lcom/fasterxml/jackson/core/json/DupDetector;
+
+_firstName
+ Ljava/lang/String;
+ Ljava/lang/String;
+_secondName
+ Ljava/lang/String;
+ Ljava/lang/String;
+_seen
+ Ljava/util/HashSet<Ljava/lang/String;>;
+ Ljava/util/HashSet<Ljava/lang/String;>;
+_source
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+
+child
+ ()Lcom/fasterxml/jackson/core/json/DupDetector;
+ ()Lcom/fasterxml/jackson/core/json/DupDetector;
+findLocation
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+getSource
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+isDup
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z

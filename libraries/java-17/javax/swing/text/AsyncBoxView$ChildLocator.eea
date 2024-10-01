@@ -1,0 +1,33 @@
+class javax/swing/text/AsyncBoxView$ChildLocator
+
+childAlloc
+ Ljava/awt/Rectangle;
+ Ljava/awt/Rectangle;
+lastAlloc
+ Ljava/awt/Rectangle;
+ Ljava/awt/Rectangle;
+lastValidOffset
+ Ljavax/swing/text/AsyncBoxView$ChildState;
+ Ljavax/swing/text/AsyncBoxView$ChildState;
+
+<init>
+ (Ljavax/swing/text/AsyncBoxView;)V
+ (Ljavax/swing/text/AsyncBoxView;)V
+childChanged
+ (Ljavax/swing/text/AsyncBoxView$ChildState;)V
+ (Ljavax/swing/text/AsyncBoxView$ChildState;)V
+getChildAllocation
+ (I)Ljava/awt/Shape;
+ (I)Ljava/awt/Shape;
+getChildAllocation
+ (ILjava/awt/Shape;)Ljava/awt/Shape;
+ (ILjava/awt/Shape;)Ljava/awt/Shape;
+getViewIndexAtPoint
+ (FFLjava/awt/Shape;)I
+ (FFLjava/awt/Shape;)I
+paintChildren
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+setAllocation
+ (Ljava/awt/Shape;)V
+ (Ljava/awt/Shape;)V

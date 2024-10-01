@@ -1,0 +1,17 @@
+class javax/sql/PooledConnection
+
+addConnectionEventListener
+ (Ljavax/sql/ConnectionEventListener;)V
+ (L1javax/sql/ConnectionEventListener;)V
+addStatementEventListener
+ (Ljavax/sql/StatementEventListener;)V
+ (L1javax/sql/StatementEventListener;)V
+getConnection
+ ()Ljava/sql/Connection;
+ ()Ljava/sql/Connection;
+removeConnectionEventListener
+ (Ljavax/sql/ConnectionEventListener;)V
+ (L1javax/sql/ConnectionEventListener;)V
+removeStatementEventListener
+ (Ljavax/sql/StatementEventListener;)V
+ (L1javax/sql/StatementEventListener;)V

@@ -1,0 +1,15 @@
+class javax/print/StreamPrintServiceFactory
+
+lookupStreamPrintServiceFactories
+ (Ljavax/print/DocFlavor;Ljava/lang/String;)[Ljavax/print/StreamPrintServiceFactory;
+ (Ljavax/print/DocFlavor;Ljava/lang/String;)[Ljavax/print/StreamPrintServiceFactory;
+
+getOutputFormat
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPrintService
+ (Ljava/io/OutputStream;)Ljavax/print/StreamPrintService;
+ (Ljava/io/OutputStream;)Ljavax/print/StreamPrintService;
+getSupportedDocFlavors
+ ()[Ljavax/print/DocFlavor;
+ ()[Ljavax/print/DocFlavor;

@@ -1,0 +1,242 @@
+class javax/swing/JOptionPane
+
+ICON_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+INITIAL_SELECTION_VALUE_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+INITIAL_VALUE_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+INPUT_VALUE_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+MESSAGE_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+MESSAGE_TYPE_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+OPTIONS_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+OPTION_TYPE_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+SELECTION_VALUES_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+UNINITIALIZED_VALUE
+ Ljava/lang/Object;
+ L1java/lang/Object;
+VALUE_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+WANTS_INPUT_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getDesktopPaneForComponent
+ (Ljava/awt/Component;)Ljavax/swing/JDesktopPane;
+ (Ljava/awt/Component;)Ljavax/swing/JDesktopPane;
+getFrameForComponent
+ (Ljava/awt/Component;)Ljava/awt/Frame;
+ (Ljava/awt/Component;)Ljava/awt/Frame;
+getRootFrame
+ ()Ljava/awt/Frame;
+ ()Ljava/awt/Frame;
+setRootFrame
+ (Ljava/awt/Frame;)V
+ (Ljava/awt/Frame;)V
+showConfirmDialog
+ (Ljava/awt/Component;Ljava/lang/Object;)I
+ (Ljava/awt/Component;Ljava/lang/Object;)I
+showConfirmDialog
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;I)I
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;I)I
+showConfirmDialog
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;II)I
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;II)I
+showConfirmDialog
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;IILjavax/swing/Icon;)I
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;IILjavax/swing/Icon;)I
+showInputDialog
+ (Ljava/awt/Component;Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/awt/Component;Ljava/lang/Object;)Ljava/lang/String;
+showInputDialog
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String;
+showInputDialog
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;I)Ljava/lang/String;
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;I)Ljava/lang/String;
+showInputDialog
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;ILjavax/swing/Icon;[Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;ILjavax/swing/Icon;[Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+showInputDialog
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+showInputDialog
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String;
+showInternalConfirmDialog
+ (Ljava/awt/Component;Ljava/lang/Object;)I
+ (Ljava/awt/Component;Ljava/lang/Object;)I
+showInternalConfirmDialog
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;I)I
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;I)I
+showInternalConfirmDialog
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;II)I
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;II)I
+showInternalConfirmDialog
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;IILjavax/swing/Icon;)I
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;IILjavax/swing/Icon;)I
+showInternalInputDialog
+ (Ljava/awt/Component;Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/awt/Component;Ljava/lang/Object;)Ljava/lang/String;
+showInternalInputDialog
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;I)Ljava/lang/String;
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;I)Ljava/lang/String;
+showInternalInputDialog
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;ILjavax/swing/Icon;[Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;ILjavax/swing/Icon;[Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+showInternalMessageDialog
+ (Ljava/awt/Component;Ljava/lang/Object;)V
+ (Ljava/awt/Component;Ljava/lang/Object;)V
+showInternalMessageDialog
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;I)V
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;I)V
+showInternalMessageDialog
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;ILjavax/swing/Icon;)V
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;ILjavax/swing/Icon;)V
+showInternalOptionDialog
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;IILjavax/swing/Icon;[Ljava/lang/Object;Ljava/lang/Object;)I
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;IILjavax/swing/Icon;[Ljava/lang/Object;Ljava/lang/Object;)I
+showMessageDialog
+ (Ljava/awt/Component;Ljava/lang/Object;)V
+ (Ljava/awt/Component;Ljava/lang/Object;)V
+showMessageDialog
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;I)V
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;I)V
+showMessageDialog
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;ILjavax/swing/Icon;)V
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;ILjavax/swing/Icon;)V
+showOptionDialog
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;IILjavax/swing/Icon;[Ljava/lang/Object;Ljava/lang/Object;)I
+ (Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;IILjavax/swing/Icon;[Ljava/lang/Object;Ljava/lang/Object;)I
+
+icon
+ Ljavax/swing/Icon;
+ Ljavax/swing/Icon;
+initialSelectionValue
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+initialValue
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+inputValue
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+message
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+options
+ [Ljava/lang/Object;
+ [Ljava/lang/Object;
+selectionValues
+ [Ljava/lang/Object;
+ [Ljava/lang/Object;
+value
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+
+<init>
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+<init>
+ (Ljava/lang/Object;I)V
+ (Ljava/lang/Object;I)V
+<init>
+ (Ljava/lang/Object;II)V
+ (Ljava/lang/Object;II)V
+<init>
+ (Ljava/lang/Object;IILjavax/swing/Icon;)V
+ (Ljava/lang/Object;IILjavax/swing/Icon;)V
+<init>
+ (Ljava/lang/Object;IILjavax/swing/Icon;[Ljava/lang/Object;)V
+ (Ljava/lang/Object;IILjavax/swing/Icon;[Ljava/lang/Object;)V
+<init>
+ (Ljava/lang/Object;IILjavax/swing/Icon;[Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;IILjavax/swing/Icon;[Ljava/lang/Object;Ljava/lang/Object;)V
+createDialog
+ (Ljava/awt/Component;Ljava/lang/String;)Ljavax/swing/JDialog;
+ (Ljava/awt/Component;Ljava/lang/String;)Ljavax/swing/JDialog;
+createDialog
+ (Ljava/lang/String;)Ljavax/swing/JDialog;
+ (Ljava/lang/String;)Ljavax/swing/JDialog;
+createInternalFrame
+ (Ljava/awt/Component;Ljava/lang/String;)Ljavax/swing/JInternalFrame;
+ (Ljava/awt/Component;Ljava/lang/String;)Ljavax/swing/JInternalFrame;
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getIcon
+ ()Ljavax/swing/Icon;
+ ()Ljavax/swing/Icon;
+getInitialSelectionValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getInitialValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getInputValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getMessage
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getOptions
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+getSelectionValues
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+getUI
+ ()Ljavax/swing/plaf/OptionPaneUI;
+ ()Ljavax/swing/plaf/OptionPaneUI;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setIcon
+ (Ljavax/swing/Icon;)V
+ (Ljavax/swing/Icon;)V
+setInitialSelectionValue
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setInitialValue
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setInputValue
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setMessage
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setOptions
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+setSelectionValues
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+setUI
+ (Ljavax/swing/plaf/OptionPaneUI;)V
+ (Ljavax/swing/plaf/OptionPaneUI;)V
+setValue
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

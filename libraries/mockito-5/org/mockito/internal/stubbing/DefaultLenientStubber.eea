@@ -1,0 +1,29 @@
+class org/mockito/internal/stubbing/DefaultLenientStubber
+
+doAnswer
+ (Lorg/mockito/stubbing/Answer;)Lorg/mockito/stubbing/Stubber;
+ (Lorg/mockito/stubbing/Answer;)Lorg/mockito/stubbing/Stubber;
+doCallRealMethod
+ ()Lorg/mockito/stubbing/Stubber;
+ ()Lorg/mockito/stubbing/Stubber;
+doNothing
+ ()Lorg/mockito/stubbing/Stubber;
+ ()Lorg/mockito/stubbing/Stubber;
+doReturn
+ (Ljava/lang/Object;)Lorg/mockito/stubbing/Stubber;
+ (Ljava/lang/Object;)Lorg/mockito/stubbing/Stubber;
+doReturn
+ (Ljava/lang/Object;[Ljava/lang/Object;)Lorg/mockito/stubbing/Stubber;
+ (Ljava/lang/Object;[Ljava/lang/Object;)Lorg/mockito/stubbing/Stubber;
+doThrow
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;)Lorg/mockito/stubbing/Stubber;
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;)Lorg/mockito/stubbing/Stubber;
+doThrow
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;[Ljava/lang/Class<+Ljava/lang/Throwable;>;)Lorg/mockito/stubbing/Stubber;
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;[Ljava/lang/Class<+Ljava/lang/Throwable;>;)Lorg/mockito/stubbing/Stubber;
+doThrow
+ ([Ljava/lang/Throwable;)Lorg/mockito/stubbing/Stubber;
+ ([Ljava/lang/Throwable;)Lorg/mockito/stubbing/Stubber;
+when
+ <T:Ljava/lang/Object;>(TT;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+ <T:Ljava/lang/Object;>(TT;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;

@@ -1,0 +1,74 @@
+class com/google/common/collect/ForwardingMultiset
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super com/google/common/collect/ForwardingCollection
+ <TE;>
+ <TE;>
+super com/google/common/collect/Multiset
+ <TE;>
+ <TE;>
+
+add
+ (TE;I)I
+ (TE;I)I
+count
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+delegate
+ ()Lcom/google/common/collect/Multiset<TE;>;
+ ()Lcom/google/common/collect/Multiset<TE;>;
+elementSet
+ ()Ljava/util/Set<TE;>;
+ ()Ljava/util/Set<TE;>;
+entrySet
+ ()Ljava/util/Set<Lcom/google/common/collect/Multiset$Entry<TE;>;>;
+ ()Ljava/util/Set<Lcom/google/common/collect/Multiset$Entry<TE;>;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+remove
+ (Ljava/lang/Object;I)I
+ (Ljava/lang/Object;I)I
+setCount
+ (TE;I)I
+ (TE;I)I
+setCount
+ (TE;II)Z
+ (TE;II)Z
+standardAdd
+ (TE;)Z
+ (TE;)Z
+standardAddAll
+ (Ljava/util/Collection<+TE;>;)Z
+ (Ljava/util/Collection<+TE;>;)Z
+standardContains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+standardCount
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+standardEquals
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+standardIterator
+ ()Ljava/util/Iterator<TE;>;
+ ()Ljava/util/Iterator<TE;>;
+standardRemove
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+standardRemoveAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+standardRetainAll
+ (Ljava/util/Collection<*>;)Z
+ (Ljava/util/Collection<*>;)Z
+standardSetCount
+ (TE;I)I
+ (TE;I)I
+standardSetCount
+ (TE;II)Z
+ (TE;II)Z
+standardToString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

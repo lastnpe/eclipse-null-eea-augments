@@ -1,0 +1,119 @@
+class javax/swing/JPopupMenu
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+add
+ (Ljava/lang/String;)Ljavax/swing/JMenuItem;
+ (Ljava/lang/String;)Ljavax/swing/JMenuItem;
+add
+ (Ljavax/swing/Action;)Ljavax/swing/JMenuItem;
+ (Ljavax/swing/Action;)Ljavax/swing/JMenuItem;
+add
+ (Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;
+ (Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;
+addMenuKeyListener
+ (Ljavax/swing/event/MenuKeyListener;)V
+ (L1javax/swing/event/MenuKeyListener;)V
+addPopupMenuListener
+ (Ljavax/swing/event/PopupMenuListener;)V
+ (L1javax/swing/event/PopupMenuListener;)V
+createActionChangeListener
+ (Ljavax/swing/JMenuItem;)Ljava/beans/PropertyChangeListener;
+ (Ljavax/swing/JMenuItem;)Ljava/beans/PropertyChangeListener;
+createActionComponent
+ (Ljavax/swing/Action;)Ljavax/swing/JMenuItem;
+ (Ljavax/swing/Action;)Ljavax/swing/JMenuItem;
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getComponentAtIndex
+ (I)Ljava/awt/Component;
+ (I)Ljava/awt/Component;
+getComponentIndex
+ (Ljava/awt/Component;)I
+ (Ljava/awt/Component;)I
+getInvoker
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getLabel
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMargin
+ ()Ljava/awt/Insets;
+ ()Ljava/awt/Insets;
+getMenuKeyListeners
+ ()[Ljavax/swing/event/MenuKeyListener;
+ ()[Ljavax/swing/event/MenuKeyListener;
+getPopupMenuListeners
+ ()[Ljavax/swing/event/PopupMenuListener;
+ ()[Ljavax/swing/event/PopupMenuListener;
+getSelectionModel
+ ()Ljavax/swing/SingleSelectionModel;
+ ()Ljavax/swing/SingleSelectionModel;
+getSubElements
+ ()[Ljavax/swing/MenuElement;
+ ()[Ljavax/swing/MenuElement;
+getUI
+ ()Ljavax/swing/plaf/PopupMenuUI;
+ ()Ljavax/swing/plaf/PopupMenuUI;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+insert
+ (Ljava/awt/Component;I)V
+ (Ljava/awt/Component;I)V
+insert
+ (Ljavax/swing/Action;I)V
+ (Ljavax/swing/Action;I)V
+isPopupTrigger
+ (Ljava/awt/event/MouseEvent;)Z
+ (Ljava/awt/event/MouseEvent;)Z
+paintBorder
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+processFocusEvent
+ (Ljava/awt/event/FocusEvent;)V
+ (Ljava/awt/event/FocusEvent;)V
+processKeyEvent
+ (Ljava/awt/event/KeyEvent;)V
+ (Ljava/awt/event/KeyEvent;)V
+processKeyEvent
+ (Ljava/awt/event/KeyEvent;[Ljavax/swing/MenuElement;Ljavax/swing/MenuSelectionManager;)V
+ (Ljava/awt/event/KeyEvent;[Ljavax/swing/MenuElement;Ljavax/swing/MenuSelectionManager;)V
+processMouseEvent
+ (Ljava/awt/event/MouseEvent;[Ljavax/swing/MenuElement;Ljavax/swing/MenuSelectionManager;)V
+ (Ljava/awt/event/MouseEvent;[Ljavax/swing/MenuElement;Ljavax/swing/MenuSelectionManager;)V
+removeMenuKeyListener
+ (Ljavax/swing/event/MenuKeyListener;)V
+ (L1javax/swing/event/MenuKeyListener;)V
+removePopupMenuListener
+ (Ljavax/swing/event/PopupMenuListener;)V
+ (L1javax/swing/event/PopupMenuListener;)V
+setInvoker
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+setLabel
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPopupSize
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V
+setSelected
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+setSelectionModel
+ (Ljavax/swing/SingleSelectionModel;)V
+ (Ljavax/swing/SingleSelectionModel;)V
+setUI
+ (Ljavax/swing/plaf/PopupMenuUI;)V
+ (Ljavax/swing/plaf/PopupMenuUI;)V
+show
+ (Ljava/awt/Component;II)V
+ (Ljava/awt/Component;II)V

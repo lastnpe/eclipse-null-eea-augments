@@ -1,0 +1,37 @@
+class com/fasterxml/jackson/databind/introspect/AnnotationMap
+
+merge
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;)Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;)Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;
+of
+ (Ljava/lang/Class<*>;Ljava/lang/annotation/Annotation;)Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;
+ (Ljava/lang/Class<*>;Ljava/lang/annotation/Annotation;)Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;
+
+_annotations
+ Ljava/util/HashMap<Ljava/lang/Class<*>;Ljava/lang/annotation/Annotation;>;
+ Ljava/util/HashMap<Ljava/lang/Class<*>;Ljava/lang/annotation/Annotation;>;
+
+_add
+ (Ljava/lang/annotation/Annotation;)Z
+ (Ljava/lang/annotation/Annotation;)Z
+add
+ (Ljava/lang/annotation/Annotation;)Z
+ (Ljava/lang/annotation/Annotation;)Z
+addIfNotPresent
+ (Ljava/lang/annotation/Annotation;)Z
+ (Ljava/lang/annotation/Annotation;)Z
+annotations
+ ()Ljava/lang/Iterable<Ljava/lang/annotation/Annotation;>;
+ ()Ljava/lang/Iterable<Ljava/lang/annotation/Annotation;>;
+get
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
+has
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+hasOneOf
+ ([Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+ ([Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

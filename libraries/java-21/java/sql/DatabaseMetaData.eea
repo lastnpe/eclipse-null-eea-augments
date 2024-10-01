@@ -1,0 +1,140 @@
+class java/sql/DatabaseMetaData
+
+getAttributes
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+getBestRowIdentifier
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZ)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZ)Ljava/sql/ResultSet;
+getCatalogSeparator
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getCatalogTerm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getCatalogs
+ ()Ljava/sql/ResultSet;
+ ()Ljava/sql/ResultSet;
+getClientInfoProperties
+ ()Ljava/sql/ResultSet;
+ ()Ljava/sql/ResultSet;
+getColumnPrivileges
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+getColumns
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+getConnection
+ ()Ljava/sql/Connection;
+ ()Ljava/sql/Connection;
+getCrossReference
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+getDatabaseProductName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDatabaseProductVersion
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDriverName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDriverVersion
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getExportedKeys
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+getExtraNameCharacters
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFunctionColumns
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+getFunctions
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+getIdentifierQuoteString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getImportedKeys
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+getIndexInfo
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)Ljava/sql/ResultSet;
+getNumericFunctions
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPrimaryKeys
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+getProcedureColumns
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+getProcedureTerm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getProcedures
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+getPseudoColumns
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+getRowIdLifetime
+ ()Ljava/sql/RowIdLifetime;
+ ()Ljava/sql/RowIdLifetime;
+getSQLKeywords
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSchemaTerm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSchemas
+ ()Ljava/sql/ResultSet;
+ ()Ljava/sql/ResultSet;
+getSchemas
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+getSearchStringEscape
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getStringFunctions
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSuperTables
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+getSuperTypes
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+getSystemFunctions
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTablePrivileges
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+getTableTypes
+ ()Ljava/sql/ResultSet;
+ ()Ljava/sql/ResultSet;
+getTables
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Ljava/sql/ResultSet;
+getTimeDateFunctions
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTypeInfo
+ ()Ljava/sql/ResultSet;
+ ()Ljava/sql/ResultSet;
+getUDTs
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[I)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[I)Ljava/sql/ResultSet;
+getURL
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getUserName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getVersionColumns
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;

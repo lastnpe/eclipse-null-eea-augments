@@ -1,0 +1,11 @@
+class java/net/http/HttpResponse$BodySubscriber
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super java/util/concurrent/Flow$Subscriber
+ <Ljava/util/List<Ljava/nio/ByteBuffer;>;>
+ <Ljava/util/List<Ljava/nio/ByteBuffer;>;>
+
+getBody
+ ()Ljava/util/concurrent/CompletionStage<TT;>;
+ ()Ljava/util/concurrent/CompletionStage<TT;>;

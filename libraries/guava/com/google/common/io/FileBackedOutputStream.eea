@@ -1,0 +1,11 @@
+class com/google/common/io/FileBackedOutputStream
+
+asByteSource
+ ()Lcom/google/common/io/ByteSource;
+ ()Lcom/google/common/io/ByteSource;
+write
+ ([B)V
+ ([1B)V # @Inherited(java.io.OutputStream)
+write
+ ([BII)V
+ ([1BII)V # @Inherited(java.io.OutputStream)

@@ -1,0 +1,41 @@
+class java/util/concurrent/CountedCompleter
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super java/util/concurrent/ForkJoinTask
+ <TT;>
+ <TT;>
+
+<init>
+ (Ljava/util/concurrent/CountedCompleter<*>;)V
+ (L0java/util/concurrent/CountedCompleter<*>;)V
+<init>
+ (Ljava/util/concurrent/CountedCompleter<*>;I)V
+ (L0java/util/concurrent/CountedCompleter<*>;I)V
+complete
+ (TT;)V
+ (TT;)V
+firstComplete
+ ()Ljava/util/concurrent/CountedCompleter<*>;
+ ()L0java/util/concurrent/CountedCompleter<*>;
+getCompleter
+ ()Ljava/util/concurrent/CountedCompleter<*>;
+ ()L1java/util/concurrent/CountedCompleter<*>;
+getRawResult
+ ()TT;
+ ()TT;
+getRoot
+ ()Ljava/util/concurrent/CountedCompleter<*>;
+ ()L1java/util/concurrent/CountedCompleter<*>;
+nextComplete
+ ()Ljava/util/concurrent/CountedCompleter<*>;
+ ()L0java/util/concurrent/CountedCompleter<*>;
+onCompletion
+ (Ljava/util/concurrent/CountedCompleter<*>;)V
+ (L1java/util/concurrent/CountedCompleter<*>;)V
+onExceptionalCompletion
+ (Ljava/lang/Throwable;Ljava/util/concurrent/CountedCompleter<*>;)Z
+ (L1java/lang/Throwable;L1java/util/concurrent/CountedCompleter<*>;)Z
+setRawResult
+ (TT;)V
+ (TT;)V

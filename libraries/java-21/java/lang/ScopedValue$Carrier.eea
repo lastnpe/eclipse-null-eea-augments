@@ -1,0 +1,17 @@
+class java/lang/ScopedValue$Carrier
+
+call
+ <R:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<+TR;>;)TR;
+ <R:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<+TR;>;)TR;
+get
+ <R:Ljava/lang/Object;>(Ljava/util/function/Supplier<+TR;>;)TR;
+ <R:Ljava/lang/Object;>(Ljava/util/function/Supplier<+TR;>;)TR;
+get
+ <T:Ljava/lang/Object;>(Ljava/lang/ScopedValue<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/ScopedValue<TT;>;)TT;
+run
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+where
+ <T:Ljava/lang/Object;>(Ljava/lang/ScopedValue<TT;>;TT;)Ljava/lang/ScopedValue$Carrier;
+ <T:Ljava/lang/Object;>(Ljava/lang/ScopedValue<TT;>;TT;)Ljava/lang/ScopedValue$Carrier;

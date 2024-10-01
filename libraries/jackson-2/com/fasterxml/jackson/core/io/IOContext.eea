@@ -1,0 +1,147 @@
+class com/fasterxml/jackson/core/io/IOContext
+
+_base64Buffer
+ [B
+ [B
+_bufferRecycler
+ Lcom/fasterxml/jackson/core/util/BufferRecycler;
+ Lcom/fasterxml/jackson/core/util/BufferRecycler;
+_concatCBuffer
+ [C
+ [C
+_contentReference
+ Lcom/fasterxml/jackson/core/io/ContentReference;
+ Lcom/fasterxml/jackson/core/io/ContentReference;
+_encoding
+ Lcom/fasterxml/jackson/core/JsonEncoding;
+ Lcom/fasterxml/jackson/core/JsonEncoding;
+_errorReportConfiguration
+ Lcom/fasterxml/jackson/core/ErrorReportConfiguration;
+ Lcom/fasterxml/jackson/core/ErrorReportConfiguration;
+_nameCopyBuffer
+ [C
+ [C
+_readIOBuffer
+ [B
+ [B
+_sourceRef
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+_streamReadConstraints
+ Lcom/fasterxml/jackson/core/StreamReadConstraints;
+ Lcom/fasterxml/jackson/core/StreamReadConstraints;
+_streamWriteConstraints
+ Lcom/fasterxml/jackson/core/StreamWriteConstraints;
+ Lcom/fasterxml/jackson/core/StreamWriteConstraints;
+_tokenCBuffer
+ [C
+ [C
+_writeEncodingBuffer
+ [B
+ [B
+
+<init>
+ (Lcom/fasterxml/jackson/core/StreamReadConstraints;Lcom/fasterxml/jackson/core/StreamWriteConstraints;Lcom/fasterxml/jackson/core/ErrorReportConfiguration;Lcom/fasterxml/jackson/core/util/BufferRecycler;Lcom/fasterxml/jackson/core/io/ContentReference;Z)V
+ (Lcom/fasterxml/jackson/core/StreamReadConstraints;Lcom/fasterxml/jackson/core/StreamWriteConstraints;Lcom/fasterxml/jackson/core/ErrorReportConfiguration;Lcom/fasterxml/jackson/core/util/BufferRecycler;Lcom/fasterxml/jackson/core/io/ContentReference;Z)V
+<init>
+ (Lcom/fasterxml/jackson/core/StreamReadConstraints;Lcom/fasterxml/jackson/core/util/BufferRecycler;Lcom/fasterxml/jackson/core/io/ContentReference;Z)V
+ (Lcom/fasterxml/jackson/core/StreamReadConstraints;Lcom/fasterxml/jackson/core/util/BufferRecycler;Lcom/fasterxml/jackson/core/io/ContentReference;Z)V
+<init>
+ (Lcom/fasterxml/jackson/core/util/BufferRecycler;Lcom/fasterxml/jackson/core/io/ContentReference;Z)V
+ (Lcom/fasterxml/jackson/core/util/BufferRecycler;Lcom/fasterxml/jackson/core/io/ContentReference;Z)V
+<init>
+ (Lcom/fasterxml/jackson/core/util/BufferRecycler;Ljava/lang/Object;Z)V
+ (Lcom/fasterxml/jackson/core/util/BufferRecycler;Ljava/lang/Object;Z)V
+_verifyAlloc
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+_verifyRelease
+ ([B[B)V
+ ([B[B)V
+_verifyRelease
+ ([C[C)V
+ ([C[C)V
+allocBase64Buffer
+ ()[B
+ ()[B
+allocBase64Buffer
+ (I)[B
+ (I)[B
+allocConcatBuffer
+ ()[C
+ ()[C
+allocNameCopyBuffer
+ (I)[C
+ (I)[C
+allocReadIOBuffer
+ ()[B
+ ()[B
+allocReadIOBuffer
+ (I)[B
+ (I)[B
+allocTokenBuffer
+ ()[C
+ ()[C
+allocTokenBuffer
+ (I)[C
+ (I)[C
+allocWriteEncodingBuffer
+ ()[B
+ ()[B
+allocWriteEncodingBuffer
+ (I)[B
+ (I)[B
+bufferRecycler
+ ()Lcom/fasterxml/jackson/core/util/BufferRecycler;
+ ()Lcom/fasterxml/jackson/core/util/BufferRecycler;
+constructReadConstrainedTextBuffer
+ ()Lcom/fasterxml/jackson/core/util/TextBuffer;
+ ()Lcom/fasterxml/jackson/core/util/TextBuffer;
+constructTextBuffer
+ ()Lcom/fasterxml/jackson/core/util/TextBuffer;
+ ()Lcom/fasterxml/jackson/core/util/TextBuffer;
+contentReference
+ ()Lcom/fasterxml/jackson/core/io/ContentReference;
+ ()Lcom/fasterxml/jackson/core/io/ContentReference;
+errorReportConfiguration
+ ()Lcom/fasterxml/jackson/core/ErrorReportConfiguration;
+ ()Lcom/fasterxml/jackson/core/ErrorReportConfiguration;
+getEncoding
+ ()Lcom/fasterxml/jackson/core/JsonEncoding;
+ ()Lcom/fasterxml/jackson/core/JsonEncoding;
+getSourceReference
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+markBufferRecyclerReleased
+ ()Lcom/fasterxml/jackson/core/io/IOContext;
+ ()Lcom/fasterxml/jackson/core/io/IOContext;
+releaseBase64Buffer
+ ([B)V
+ ([B)V
+releaseConcatBuffer
+ ([C)V
+ ([C)V
+releaseNameCopyBuffer
+ ([C)V
+ ([C)V
+releaseReadIOBuffer
+ ([B)V
+ ([B)V
+releaseTokenBuffer
+ ([C)V
+ ([C)V
+releaseWriteEncodingBuffer
+ ([B)V
+ ([B)V
+setEncoding
+ (Lcom/fasterxml/jackson/core/JsonEncoding;)V
+ (Lcom/fasterxml/jackson/core/JsonEncoding;)V
+streamReadConstraints
+ ()Lcom/fasterxml/jackson/core/StreamReadConstraints;
+ ()Lcom/fasterxml/jackson/core/StreamReadConstraints;
+streamWriteConstraints
+ ()Lcom/fasterxml/jackson/core/StreamWriteConstraints;
+ ()Lcom/fasterxml/jackson/core/StreamWriteConstraints;
+withEncoding
+ (Lcom/fasterxml/jackson/core/JsonEncoding;)Lcom/fasterxml/jackson/core/io/IOContext;
+ (Lcom/fasterxml/jackson/core/JsonEncoding;)Lcom/fasterxml/jackson/core/io/IOContext;

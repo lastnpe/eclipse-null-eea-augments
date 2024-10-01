@@ -1,0 +1,29 @@
+class java/io/Console
+
+charset
+ ()Ljava/nio/charset/Charset;
+ ()Ljava/nio/charset/Charset;
+format
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/Console;
+ (L1java/lang/String;[0Ljava/lang/Object;)L1java/io/Console;
+printf
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/Console;
+ (L1java/lang/String;[0Ljava/lang/Object;)L1java/io/Console;
+readLine
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+readLine
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+ (L1java/lang/String;[0Ljava/lang/Object;)L0java/lang/String;
+readPassword
+ ()[C
+ ()[C
+readPassword
+ (Ljava/lang/String;[Ljava/lang/Object;)[C
+ (L1java/lang/String;[0Ljava/lang/Object;)[0C
+reader
+ ()Ljava/io/Reader;
+ ()L1java/io/Reader;
+writer
+ ()Ljava/io/PrintWriter;
+ ()L1java/io/PrintWriter;

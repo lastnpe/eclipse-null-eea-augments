@@ -1,0 +1,17 @@
+class org/springframework/core/ReactiveAdapter
+
+<init>
+ (Lorg/springframework/core/ReactiveTypeDescriptor;Ljava/util/function/Function<Ljava/lang/Object;Lorg/reactivestreams/Publisher<*>;>;Ljava/util/function/Function<Lorg/reactivestreams/Publisher<*>;Ljava/lang/Object;>;)V
+ (Lorg/springframework/core/ReactiveTypeDescriptor;Ljava/util/function/Function<Ljava/lang/Object;Lorg/reactivestreams/Publisher<*>;>;Ljava/util/function/Function<Lorg/reactivestreams/Publisher<*>;Ljava/lang/Object;>;)V
+fromPublisher
+ (Lorg/reactivestreams/Publisher<*>;)Ljava/lang/Object;
+ (Lorg/reactivestreams/Publisher<*>;)Ljava/lang/Object;
+getDescriptor
+ ()Lorg/springframework/core/ReactiveTypeDescriptor;
+ ()Lorg/springframework/core/ReactiveTypeDescriptor;
+getReactiveType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+toPublisher
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;)Lorg/reactivestreams/Publisher<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;)Lorg/reactivestreams/Publisher<TT;>;

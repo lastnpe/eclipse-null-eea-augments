@@ -1,0 +1,78 @@
+class javax/mail/Part
+
+ATTACHMENT
+ Ljava/lang/String;
+ L1java/lang/String;
+INLINE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+addHeader
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+getAllHeaders
+ ()Ljava/util/Enumeration<Ljavax/mail/Header;>;
+ ()Ljava/util/Enumeration<Ljavax/mail/Header;>;
+getContent
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getContentType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDataHandler
+ ()Ljavax/activation/DataHandler;
+ ()Ljavax/activation/DataHandler;
+getDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDisposition
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFileName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getHeader
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[Ljava/lang/String;
+getInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getMatchingHeaders
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljavax/mail/Header;>;
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljavax/mail/Header;>;
+getNonMatchingHeaders
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljavax/mail/Header;>;
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljavax/mail/Header;>;
+isMimeType
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+removeHeader
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setContent
+ (Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/Object;Ljava/lang/String;)V
+setContent
+ (Ljavax/mail/Multipart;)V
+ (Ljavax/mail/Multipart;)V
+setDataHandler
+ (Ljavax/activation/DataHandler;)V
+ (Ljavax/activation/DataHandler;)V
+setDescription
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setDisposition
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setFileName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setHeader
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setText
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeTo
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V

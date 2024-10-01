@@ -1,0 +1,27 @@
+class org/springframework/util/function/ThrowingConsumer
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super java/util/function/Consumer
+ <TT;>
+ <TT;>
+
+of
+ <T:Ljava/lang/Object;>(Lorg/springframework/util/function/ThrowingConsumer<TT;>;)Lorg/springframework/util/function/ThrowingConsumer<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/util/function/ThrowingConsumer<TT;>;)Lorg/springframework/util/function/ThrowingConsumer<TT;>;
+of
+ <T:Ljava/lang/Object;>(Lorg/springframework/util/function/ThrowingConsumer<TT;>;Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Exception;Ljava/lang/RuntimeException;>;)Lorg/springframework/util/function/ThrowingConsumer<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/util/function/ThrowingConsumer<TT;>;Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Exception;Ljava/lang/RuntimeException;>;)Lorg/springframework/util/function/ThrowingConsumer<TT;>;
+
+accept
+ (TT;)V
+ (TT;)V
+accept
+ (TT;Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Exception;Ljava/lang/RuntimeException;>;)V
+ (TT;Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Exception;Ljava/lang/RuntimeException;>;)V
+acceptWithException
+ (TT;)V
+ (TT;)V
+throwing
+ (Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Exception;Ljava/lang/RuntimeException;>;)Lorg/springframework/util/function/ThrowingConsumer<TT;>;
+ (Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Exception;Ljava/lang/RuntimeException;>;)Lorg/springframework/util/function/ThrowingConsumer<TT;>;

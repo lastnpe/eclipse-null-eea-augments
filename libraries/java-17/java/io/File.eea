@@ -1,0 +1,95 @@
+class java/io/File
+
+super java/lang/Comparable
+ <Ljava/io/File;>
+ <Ljava/io/File;>
+
+pathSeparator
+ Ljava/lang/String;
+ L1java/lang/String;
+separator
+ Ljava/lang/String;
+ L1java/lang/String;
+
+createTempFile
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;
+ (L1java/lang/String;L0java/lang/String;)L1java/io/File;
+createTempFile
+ (Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
+ (L1java/lang/String;L0java/lang/String;L0java/io/File;)L1java/io/File;
+listRoots
+ ()[Ljava/io/File;
+ ()[0L1java/io/File;
+
+<init>
+ (Ljava/io/File;Ljava/lang/String;)V
+ (L0java/io/File;L1java/lang/String;)V
+<init>
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (L0java/lang/String;L1java/lang/String;)V
+<init>
+ (Ljava/net/URI;)V
+ (L1java/net/URI;)V
+compareTo
+ (Ljava/io/File;)I
+ (L1java/io/File;)I
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAbsoluteFile
+ ()Ljava/io/File;
+ ()L1java/io/File;
+getAbsolutePath
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getCanonicalFile
+ ()Ljava/io/File;
+ ()L1java/io/File;
+getCanonicalPath
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getName
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getParent
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getParentFile
+ ()Ljava/io/File;
+ ()L0java/io/File;
+getPath
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+list
+ ()[Ljava/lang/String;
+ ()[0L1java/lang/String;
+list
+ (Ljava/io/FilenameFilter;)[Ljava/lang/String;
+ (L0java/io/FilenameFilter;)[0L1java/lang/String;
+listFiles
+ ()[Ljava/io/File;
+ ()[0L1java/io/File;
+listFiles
+ (Ljava/io/FileFilter;)[Ljava/io/File;
+ (L0java/io/FileFilter;)[0L1java/io/File;
+listFiles
+ (Ljava/io/FilenameFilter;)[Ljava/io/File;
+ (L0java/io/FilenameFilter;)[0L1java/io/File;
+renameTo
+ (Ljava/io/File;)Z
+ (L1java/io/File;)Z
+toPath
+ ()Ljava/nio/file/Path;
+ ()L1java/nio/file/Path;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+toURI
+ ()Ljava/net/URI;
+ ()L1java/net/URI;
+toURL
+ ()Ljava/net/URL;
+ ()L1java/net/URL;

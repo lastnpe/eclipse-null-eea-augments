@@ -1,0 +1,14 @@
+class com/google/common/util/concurrent/ForwardingListeningExecutorService
+
+delegate
+ ()Lcom/google/common/util/concurrent/ListeningExecutorService;
+ ()Lcom/google/common/util/concurrent/ListeningExecutorService;
+submit
+ (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture<*>;
+ (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture<*>;
+submit
+ <T:Ljava/lang/Object;>(Ljava/lang/Runnable;TT;)Lcom/google/common/util/concurrent/ListenableFuture<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Runnable;TT;)Lcom/google/common/util/concurrent/ListenableFuture<TT;>;
+submit
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)Lcom/google/common/util/concurrent/ListenableFuture<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)Lcom/google/common/util/concurrent/ListenableFuture<TT;>;

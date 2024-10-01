@@ -1,0 +1,35 @@
+class java/text/AttributedString
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/util/Map<+Ljava/text/AttributedCharacterIterator$Attribute;*>;)V
+ (Ljava/lang/String;Ljava/util/Map<+Ljava/text/AttributedCharacterIterator$Attribute;*>;)V
+<init>
+ (Ljava/text/AttributedCharacterIterator;)V
+ (Ljava/text/AttributedCharacterIterator;)V
+<init>
+ (Ljava/text/AttributedCharacterIterator;II)V
+ (Ljava/text/AttributedCharacterIterator;II)V
+<init>
+ (Ljava/text/AttributedCharacterIterator;II[Ljava/text/AttributedCharacterIterator$Attribute;)V
+ (Ljava/text/AttributedCharacterIterator;II[Ljava/text/AttributedCharacterIterator$Attribute;)V
+addAttribute
+ (Ljava/text/AttributedCharacterIterator$Attribute;Ljava/lang/Object;)V
+ (Ljava/text/AttributedCharacterIterator$Attribute;Ljava/lang/Object;)V
+addAttribute
+ (Ljava/text/AttributedCharacterIterator$Attribute;Ljava/lang/Object;II)V
+ (Ljava/text/AttributedCharacterIterator$Attribute;Ljava/lang/Object;II)V
+addAttributes
+ (Ljava/util/Map<+Ljava/text/AttributedCharacterIterator$Attribute;*>;II)V
+ (Ljava/util/Map<+Ljava/text/AttributedCharacterIterator$Attribute;*>;II)V
+getIterator
+ ()Ljava/text/AttributedCharacterIterator;
+ ()Ljava/text/AttributedCharacterIterator;
+getIterator
+ ([Ljava/text/AttributedCharacterIterator$Attribute;)Ljava/text/AttributedCharacterIterator;
+ ([Ljava/text/AttributedCharacterIterator$Attribute;)Ljava/text/AttributedCharacterIterator;
+getIterator
+ ([Ljava/text/AttributedCharacterIterator$Attribute;II)Ljava/text/AttributedCharacterIterator;
+ ([Ljava/text/AttributedCharacterIterator$Attribute;II)Ljava/text/AttributedCharacterIterator;

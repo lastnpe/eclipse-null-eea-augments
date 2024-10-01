@@ -1,0 +1,81 @@
+class javax/mail/Session
+
+getDefaultInstance
+ (Ljava/util/Properties;)Ljavax/mail/Session;
+ (Ljava/util/Properties;)Ljavax/mail/Session;
+getDefaultInstance
+ (Ljava/util/Properties;Ljavax/mail/Authenticator;)Ljavax/mail/Session;
+ (Ljava/util/Properties;Ljavax/mail/Authenticator;)Ljavax/mail/Session;
+getInstance
+ (Ljava/util/Properties;)Ljavax/mail/Session;
+ (Ljava/util/Properties;)Ljavax/mail/Session;
+getInstance
+ (Ljava/util/Properties;Ljavax/mail/Authenticator;)Ljavax/mail/Session;
+ (Ljava/util/Properties;Ljavax/mail/Authenticator;)Ljavax/mail/Session;
+
+addProvider
+ (Ljavax/mail/Provider;)V
+ (Ljavax/mail/Provider;)V
+getDebugOut
+ ()Ljava/io/PrintStream;
+ ()Ljava/io/PrintStream;
+getFolder
+ (Ljavax/mail/URLName;)Ljavax/mail/Folder;
+ (Ljavax/mail/URLName;)Ljavax/mail/Folder;
+getPasswordAuthentication
+ (Ljavax/mail/URLName;)Ljavax/mail/PasswordAuthentication;
+ (Ljavax/mail/URLName;)Ljavax/mail/PasswordAuthentication;
+getProperties
+ ()Ljava/util/Properties;
+ ()Ljava/util/Properties;
+getProperty
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getProvider
+ (Ljava/lang/String;)Ljavax/mail/Provider;
+ (Ljava/lang/String;)Ljavax/mail/Provider;
+getProviders
+ ()[Ljavax/mail/Provider;
+ ()[Ljavax/mail/Provider;
+getStore
+ ()Ljavax/mail/Store;
+ ()Ljavax/mail/Store;
+getStore
+ (Ljava/lang/String;)Ljavax/mail/Store;
+ (Ljava/lang/String;)Ljavax/mail/Store;
+getStore
+ (Ljavax/mail/Provider;)Ljavax/mail/Store;
+ (Ljavax/mail/Provider;)Ljavax/mail/Store;
+getStore
+ (Ljavax/mail/URLName;)Ljavax/mail/Store;
+ (Ljavax/mail/URLName;)Ljavax/mail/Store;
+getTransport
+ ()Ljavax/mail/Transport;
+ ()Ljavax/mail/Transport;
+getTransport
+ (Ljava/lang/String;)Ljavax/mail/Transport;
+ (Ljava/lang/String;)Ljavax/mail/Transport;
+getTransport
+ (Ljavax/mail/Address;)Ljavax/mail/Transport;
+ (Ljavax/mail/Address;)Ljavax/mail/Transport;
+getTransport
+ (Ljavax/mail/Provider;)Ljavax/mail/Transport;
+ (Ljavax/mail/Provider;)Ljavax/mail/Transport;
+getTransport
+ (Ljavax/mail/URLName;)Ljavax/mail/Transport;
+ (Ljavax/mail/URLName;)Ljavax/mail/Transport;
+requestPasswordAuthentication
+ (Ljava/net/InetAddress;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavax/mail/PasswordAuthentication;
+ (Ljava/net/InetAddress;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavax/mail/PasswordAuthentication;
+setDebugOut
+ (Ljava/io/PrintStream;)V
+ (Ljava/io/PrintStream;)V
+setPasswordAuthentication
+ (Ljavax/mail/URLName;Ljavax/mail/PasswordAuthentication;)V
+ (Ljavax/mail/URLName;Ljavax/mail/PasswordAuthentication;)V
+setProtocolForAddress
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setProvider
+ (Ljavax/mail/Provider;)V
+ (Ljavax/mail/Provider;)V

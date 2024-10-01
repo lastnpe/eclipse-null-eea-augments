@@ -1,0 +1,83 @@
+class com/google/common/collect/ForwardingNavigableSet
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super com/google/common/collect/ForwardingSortedSet
+ <TE;>
+ <TE;>
+super java/util/NavigableSet
+ <TE;>
+ <TE;>
+
+ceiling
+ (TE;)TE;
+ (TE;)T0E; # @Inherited(java.util.NavigableSet)
+delegate
+ ()Ljava/util/NavigableSet<TE;>;
+ ()Ljava/util/NavigableSet<TE;>;
+descendingIterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.NavigableSet)
+descendingSet
+ ()Ljava/util/NavigableSet<TE;>;
+ ()L1java/util/NavigableSet<TE;>; # @Inherited(java.util.NavigableSet)
+floor
+ (TE;)TE;
+ (TE;)T0E; # @Inherited(java.util.NavigableSet)
+headSet
+ (TE;Z)Ljava/util/NavigableSet<TE;>;
+ (TE;Z)L1java/util/NavigableSet<TE;>; # @Inherited(java.util.NavigableSet)
+higher
+ (TE;)TE;
+ (TE;)T0E; # @Inherited(java.util.NavigableSet)
+lower
+ (TE;)TE;
+ (TE;)T0E; # @Inherited(java.util.NavigableSet)
+pollFirst
+ ()TE;
+ ()T0E;
+pollLast
+ ()TE;
+ ()T0E;
+standardCeiling
+ (TE;)TE;
+ (TE;)T0E;
+standardFirst
+ ()TE;
+ ()T1E;
+standardFloor
+ (TE;)TE;
+ (TE;)T0E;
+standardHeadSet
+ (TE;)Ljava/util/SortedSet<TE;>;
+ (TE;)Ljava/util/SortedSet<TE;>;
+standardHigher
+ (TE;)TE;
+ (TE;)T0E;
+standardLast
+ ()TE;
+ ()T1E;
+standardLower
+ (TE;)TE;
+ (TE;)T0E;
+standardPollFirst
+ ()TE;
+ ()T0E;
+standardPollLast
+ ()TE;
+ ()T0E;
+standardSubSet
+ (TE;TE;)Ljava/util/SortedSet<TE;>;
+ (TE;TE;)Ljava/util/SortedSet<TE;>;
+standardSubSet
+ (TE;ZTE;Z)Ljava/util/NavigableSet<TE;>;
+ (TE;ZTE;Z)Ljava/util/NavigableSet<TE;>;
+standardTailSet
+ (TE;)Ljava/util/SortedSet<TE;>;
+ (TE;)Ljava/util/SortedSet<TE;>;
+subSet
+ (TE;ZTE;Z)Ljava/util/NavigableSet<TE;>;
+ (TE;ZTE;Z)L1java/util/NavigableSet<TE;>; # @Inherited(java.util.NavigableSet)
+tailSet
+ (TE;Z)Ljava/util/NavigableSet<TE;>;
+ (TE;Z)L1java/util/NavigableSet<TE;>; # @Inherited(java.util.NavigableSet)

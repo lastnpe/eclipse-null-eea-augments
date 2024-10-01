@@ -1,0 +1,39 @@
+class javax/swing/event/TreeSelectionEvent
+
+areNew
+ [Z
+ [Z
+newLeadSelectionPath
+ Ljavax/swing/tree/TreePath;
+ Ljavax/swing/tree/TreePath;
+oldLeadSelectionPath
+ Ljavax/swing/tree/TreePath;
+ Ljavax/swing/tree/TreePath;
+paths
+ [Ljavax/swing/tree/TreePath;
+ [Ljavax/swing/tree/TreePath;
+
+<init>
+ (Ljava/lang/Object;Ljavax/swing/tree/TreePath;ZLjavax/swing/tree/TreePath;Ljavax/swing/tree/TreePath;)V
+ (Ljava/lang/Object;Ljavax/swing/tree/TreePath;ZLjavax/swing/tree/TreePath;Ljavax/swing/tree/TreePath;)V
+<init>
+ (Ljava/lang/Object;[Ljavax/swing/tree/TreePath;[ZLjavax/swing/tree/TreePath;Ljavax/swing/tree/TreePath;)V
+ (Ljava/lang/Object;[Ljavax/swing/tree/TreePath;[ZLjavax/swing/tree/TreePath;Ljavax/swing/tree/TreePath;)V
+cloneWithSource
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+getNewLeadSelectionPath
+ ()Ljavax/swing/tree/TreePath;
+ ()Ljavax/swing/tree/TreePath;
+getOldLeadSelectionPath
+ ()Ljavax/swing/tree/TreePath;
+ ()Ljavax/swing/tree/TreePath;
+getPath
+ ()Ljavax/swing/tree/TreePath;
+ ()Ljavax/swing/tree/TreePath;
+getPaths
+ ()[Ljavax/swing/tree/TreePath;
+ ()[Ljavax/swing/tree/TreePath;
+isAddedPath
+ (Ljavax/swing/tree/TreePath;)Z
+ (Ljavax/swing/tree/TreePath;)Z

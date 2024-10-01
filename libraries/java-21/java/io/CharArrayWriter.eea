@@ -1,0 +1,30 @@
+class java/io/CharArrayWriter
+
+buf
+ [C
+ [1C
+
+append
+ (C)Ljava/io/CharArrayWriter;
+ (C)L1java/io/CharArrayWriter;
+append
+ (Ljava/lang/CharSequence;)Ljava/io/CharArrayWriter;
+ (L0java/lang/CharSequence;)L1java/io/CharArrayWriter;
+append
+ (Ljava/lang/CharSequence;II)Ljava/io/CharArrayWriter;
+ (L0java/lang/CharSequence;II)L1java/io/CharArrayWriter;
+toCharArray
+ ()[C
+ ()[1C
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+write
+ (Ljava/lang/String;II)V
+ (L1java/lang/String;II)V # @Inherited(java.io.Writer)
+write
+ ([CII)V
+ ([1CII)V # @Inherited(java.io.Writer)
+writeTo
+ (Ljava/io/Writer;)V
+ (L1java/io/Writer;)V

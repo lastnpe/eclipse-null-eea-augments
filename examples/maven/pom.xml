@@ -1,16 +1,172 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
   <modelVersion>4.0.0</modelVersion>
 
+  <parent>
+    <groupId>org.lastnpe.eea</groupId>
+    <artifactId>eea-root</artifactId>
+    <version>3.0.0-SNAPSHOT</version>
+    <relativePath>../../pom.xml</relativePath>
+  </parent>
+
   <groupId>org.lastnpe.examples</groupId>
-  <artifactId>root</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <artifactId>examples-reactor</artifactId>
+
   <packaging>pom</packaging>
+  <name>Examples :: Reactor</name>
 
   <modules>
     <module>jdt-ecj-settings</module>
-    <module>parent</module>
     <module>lib</module>
     <module>hello</module>
   </modules>
+
+  <properties>
+    <eea.java.version>17</eea.java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <!-- The dual use of org.eclipse.jdt.annotation.Nullable as well as javax.annotation.Nullable from FindBugs
+         is to illustrate interop. You could, of course, choose only one of them for your project. -->
+    <dependency>
+      <groupId>org.eclipse.jdt</groupId>
+      <artifactId>org.eclipse.jdt.annotation</artifactId>
+      <version>2.3.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>annotations</artifactId>
+      <version>3.0.1</version>
+      <scope>provided</scope>
+      <exclusions>
+        <!-- Types from below are already in above.. -->
+        <exclusion>
+          <groupId>com.google.code.findbugs</groupId>
+          <artifactId>jsr305</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>net.jcip</groupId>
+          <artifactId>jcip-annotations</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.0.16</version>
+    </dependency>
+    <dependency>
+      <groupId>org.lastnpe.eea</groupId>
+      <artifactId>java-${eea.java.version}-eea</artifactId>
+      <version>${project.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.lastnpe.eea</groupId>
+      <artifactId>slf4j-api-2-eea</artifactId>
+      <version>${project.version}</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <!-- https://eclipse.dev/m2e/documentation/release-notes-17.html#new-syntax-for-specifying-lifecycle-mapping-metadata -->
+            <?m2e ignore?>
+            <id>unpack-jdt-ecj-settings</id>
+            <goals>
+              <goal>unpack</goal>
+            </goals>
+            <phase>initialize</phase>
+            <configuration>
+              <artifactItems>
+                <artifactItem>
+                  <!-- NB: This dependency is, intentionally, duplicated below
+                       (this one is for CLI mvn; the other one is for M2E IDE) -->
+                  <groupId>org.lastnpe.examples</groupId>
+                  <artifactId>jdt-ecj-settings</artifactId>
+                  <version>${project.version}</version>
+                  <overWrite>false</overWrite>
+                  <outputDirectory>${project.build.directory}</outputDirectory>
+                  <excludes>META-INF/**</excludes>
+                </artifactItem>
+              </artifactItems>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <!-- TODO disabling toolchains plugin that was enabled in parent pom.
+                  still seems not be compatible with maven-compiler-plugin + tycho-compiler-jdt -->
+        <artifactId>maven-toolchains-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>toolchain@validate</id>
+            <phase>none</phase>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <release>${eea.java.version}</release>
+          <showWarnings>true</showWarnings>
+          <failOnWarning>false</failOnWarning>
+          <compilerId>jdt</compilerId>
+          <compilerArgs>
+            <!-- The -annotationpath "CLASSPATH" here causes the JDT ECJ Batch Compiler to (quote)
+                 "When annotation based null analysis is enabled (...), lookup external annotations from the classpath and sourcepath."
+                 @see http://help.eclipse.org/oxygen/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Ftasks%2Ftask-using_batch_compiler.htm
+              -->
+            <arg>-annotationpath</arg>
+            <arg>CLASSPATH</arg>
+
+            <arg>-properties</arg>
+            <arg>${project.build.directory}/org.eclipse.jdt.core.prefs</arg>
+            <!-- NB: It's NOT possible to list *.prefs properties directly here; see https://issues.apache.org/jira/browse/MCOMPILER-123
+              <org.eclipse.jdt.core.compiler.annotation.nullanalysis>enabled</org.eclipse.jdt.core.compiler.annotation.nullanalysis>
+              <org.eclipse.jdt.core.compiler.annotation.inheritNullAnnotations>true</org.eclipse.jdt.core.compiler.annotation.inheritNullAnnotations>
+            -->
+
+            <!-- Following is an alternative, but it's less ideal, because you would have to manually
+               map and maintain the org.eclipse.jdt.core.prefs properties to options listed on
+               http://help.eclipse.org/neon/index.jsp?topic=/org.eclipse.jdt.doc.user/tasks/task-using_batch_compiler.htm
+              <arg>-err:nullAnnot,null,-missingNullDefault</arg>
+            -->
+          </compilerArgs>
+        </configuration>
+        <dependencies>
+          <dependency>
+            <groupId>org.eclipse.tycho</groupId>
+            <artifactId>tycho-compiler-jdt</artifactId>
+            <version>3.0.5</version>
+          </dependency>
+          <dependency>
+            <!-- NB: This dependency is, intentionally, duplicated above (other one is for CLI mvn; this one is
+                 read by eclipse-external-annotations-m2e-plugin in-IDE to configure the Project Properties via JDT) -->
+            <groupId>org.lastnpe.examples</groupId>
+            <artifactId>jdt-ecj-settings</artifactId>
+            <version>${project.version}</version>
+          </dependency>
+        </dependencies>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <configuration>
+          <skip>true</skip>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>

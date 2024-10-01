@@ -1,0 +1,36 @@
+class com/thoughtworks/xstream/core/JVM
+
+getBase64Codec
+ ()Lcom/thoughtworks/xstream/core/StringCodec;
+ ()Lcom/thoughtworks/xstream/core/StringCodec;
+getStaxInputFactory
+ ()Ljava/lang/Class;
+ ()Ljava/lang/Class;
+getStaxOutputFactory
+ ()Ljava/lang/Class;
+ ()Ljava/lang/Class;
+loadClassForName
+ (Ljava/lang/String;)Ljava/lang/Class;
+ (Ljava/lang/String;)Ljava/lang/Class;
+loadClassForName
+ (Ljava/lang/String;Z)Ljava/lang/Class;
+ (Ljava/lang/String;Z)Ljava/lang/Class;
+main
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+newReflectionProvider
+ ()Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;
+ ()Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;
+newReflectionProvider
+ (Lcom/thoughtworks/xstream/converters/reflection/FieldDictionary;)Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;
+ (Lcom/thoughtworks/xstream/converters/reflection/FieldDictionary;)Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;
+
+bestReflectionProvider
+ ()Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;
+ ()Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;
+loadClass
+ (Ljava/lang/String;)Ljava/lang/Class;
+ (Ljava/lang/String;)Ljava/lang/Class;
+loadClass
+ (Ljava/lang/String;Z)Ljava/lang/Class;
+ (Ljava/lang/String;Z)Ljava/lang/Class;

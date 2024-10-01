@@ -1,0 +1,20 @@
+class org/eclipse/jetty/client/Response
+
+abort
+ (Ljava/lang/Throwable;)Ljava/util/concurrent/CompletableFuture<Ljava/lang/Boolean;>;
+ (L1java/lang/Throwable;)L1java/util/concurrent/CompletableFuture<L1java/lang/Boolean;>;
+getHeaders
+ ()Lorg/eclipse/jetty/http/HttpFields;
+ ()L1org/eclipse/jetty/http/HttpFields;
+getReason
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getRequest
+ ()Lorg/eclipse/jetty/client/Request;
+ ()L1org/eclipse/jetty/client/Request;
+getTrailers
+ ()Lorg/eclipse/jetty/http/HttpFields;
+ ()Lorg/eclipse/jetty/http/HttpFields;
+getVersion
+ ()Lorg/eclipse/jetty/http/HttpVersion;
+ ()L1org/eclipse/jetty/http/HttpVersion;

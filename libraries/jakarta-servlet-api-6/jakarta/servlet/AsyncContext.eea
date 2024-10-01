@@ -1,0 +1,45 @@
+class jakarta/servlet/AsyncContext
+
+ASYNC_CONTEXT_PATH
+ Ljava/lang/String;
+ L1java/lang/String;
+ASYNC_MAPPING
+ Ljava/lang/String;
+ L1java/lang/String;
+ASYNC_PATH_INFO
+ Ljava/lang/String;
+ L1java/lang/String;
+ASYNC_QUERY_STRING
+ Ljava/lang/String;
+ L1java/lang/String;
+ASYNC_REQUEST_URI
+ Ljava/lang/String;
+ L1java/lang/String;
+ASYNC_SERVLET_PATH
+ Ljava/lang/String;
+ L1java/lang/String;
+
+addListener
+ (Ljakarta/servlet/AsyncListener;)V
+ (L1jakarta/servlet/AsyncListener;)V
+addListener
+ (Ljakarta/servlet/AsyncListener;Ljakarta/servlet/ServletRequest;Ljakarta/servlet/ServletResponse;)V
+ (L1jakarta/servlet/AsyncListener;L1jakarta/servlet/ServletRequest;L1jakarta/servlet/ServletResponse;)V
+createListener
+ <T::Ljakarta/servlet/AsyncListener;>(Ljava/lang/Class<TT;>;)TT;
+ <1T::Ljakarta/servlet/AsyncListener;>(Ljava/lang/Class<TT;>;)TT;
+dispatch
+ (Ljakarta/servlet/ServletContext;Ljava/lang/String;)V
+ (Ljakarta/servlet/ServletContext;Ljava/lang/String;)V
+dispatch
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getRequest
+ ()Ljakarta/servlet/ServletRequest;
+ ()Ljakarta/servlet/ServletRequest;
+getResponse
+ ()Ljakarta/servlet/ServletResponse;
+ ()Ljakarta/servlet/ServletResponse;
+start
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V

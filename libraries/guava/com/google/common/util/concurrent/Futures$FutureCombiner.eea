@@ -1,0 +1,13 @@
+class com/google/common/util/concurrent/Futures$FutureCombiner
+ <V:Ljava/lang/Object;>
+ <V:Ljava/lang/Object;>
+
+call
+ <C:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TC;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture<TC;>;
+ <C:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TC;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture<TC;>;
+callAsync
+ <C:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/AsyncCallable<TC;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture<TC;>;
+ <C:Ljava/lang/Object;>(Lcom/google/common/util/concurrent/AsyncCallable<TC;>;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture<TC;>;
+run
+ (Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture<*>;
+ (Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/ListenableFuture<*>;

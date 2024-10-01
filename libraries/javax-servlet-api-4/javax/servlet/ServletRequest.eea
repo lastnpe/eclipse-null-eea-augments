@@ -1,0 +1,89 @@
+class javax/servlet/ServletRequest
+
+getAsyncContext
+ ()Ljavax/servlet/AsyncContext;
+ ()Ljavax/servlet/AsyncContext;
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getAttributeNames
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+getCharacterEncoding
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getContentType
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getDispatcherType
+ ()Ljavax/servlet/DispatcherType;
+ ()Ljavax/servlet/DispatcherType;
+getInputStream
+ ()Ljavax/servlet/ServletInputStream;
+ ()L1javax/servlet/ServletInputStream;
+getLocalAddr
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getLocalName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+getLocales
+ ()Ljava/util/Enumeration<Ljava/util/Locale;>;
+ ()Ljava/util/Enumeration<Ljava/util/Locale;>;
+getParameter
+ (Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;)L0java/lang/String;
+getParameterMap
+ ()Ljava/util/Map<Ljava/lang/String;[Ljava/lang/String;>;
+ ()L1java/util/Map<Ljava/lang/String;[Ljava/lang/String;>;
+getParameterNames
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()L1java/util/Enumeration<Ljava/lang/String;>;
+getParameterValues
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (L1java/lang/String;)[0L1java/lang/String;
+getProtocol
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getReader
+ ()Ljava/io/BufferedReader;
+ ()Ljava/io/BufferedReader;
+getRealPath
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getRemoteAddr
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRemoteHost
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRequestDispatcher
+ (Ljava/lang/String;)Ljavax/servlet/RequestDispatcher;
+ (Ljava/lang/String;)Ljavax/servlet/RequestDispatcher;
+getScheme
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getServerName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getServletContext
+ ()Ljavax/servlet/ServletContext;
+ ()Ljavax/servlet/ServletContext;
+removeAttribute
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setAttribute
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+setCharacterEncoding
+ (Ljava/lang/String;)V
+ (L0java/lang/String;)V
+startAsync
+ ()Ljavax/servlet/AsyncContext;
+ ()Ljavax/servlet/AsyncContext;
+startAsync
+ (Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)Ljavax/servlet/AsyncContext;
+ (Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)Ljavax/servlet/AsyncContext;

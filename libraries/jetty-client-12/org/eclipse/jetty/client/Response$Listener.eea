@@ -1,0 +1,23 @@
+class org/eclipse/jetty/client/Response$Listener
+
+onBegin
+ (Lorg/eclipse/jetty/client/Response;)V
+ (L1org/eclipse/jetty/client/Response;)V # @Inherited(org.eclipse.jetty.client.Response$BeginListener)
+onComplete
+ (Lorg/eclipse/jetty/client/Result;)V
+ (L1org/eclipse/jetty/client/Result;)V # @Inherited(org.eclipse.jetty.client.Response$CompleteListener)
+onContent
+ (Lorg/eclipse/jetty/client/Response;Ljava/nio/ByteBuffer;)V
+ (L1org/eclipse/jetty/client/Response;L1java/nio/ByteBuffer;)V # @Inherited(org.eclipse.jetty.client.Response$ContentListener)
+onFailure
+ (Lorg/eclipse/jetty/client/Response;Ljava/lang/Throwable;)V
+ (L1org/eclipse/jetty/client/Response;L1java/lang/Throwable;)V # @Inherited(org.eclipse.jetty.client.Response$FailureListener)
+onHeader
+ (Lorg/eclipse/jetty/client/Response;Lorg/eclipse/jetty/http/HttpField;)Z
+ (L1org/eclipse/jetty/client/Response;L1org/eclipse/jetty/http/HttpField;)Z # @Inherited(org.eclipse.jetty.client.Response$HeaderListener)
+onHeaders
+ (Lorg/eclipse/jetty/client/Response;)V
+ (L1org/eclipse/jetty/client/Response;)V # @Inherited(org.eclipse.jetty.client.Response$HeadersListener)
+onSuccess
+ (Lorg/eclipse/jetty/client/Response;)V
+ (L1org/eclipse/jetty/client/Response;)V # @Inherited(org.eclipse.jetty.client.Response$SuccessListener)

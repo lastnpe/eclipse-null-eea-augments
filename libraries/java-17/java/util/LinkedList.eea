@@ -1,0 +1,131 @@
+class java/util/LinkedList
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/util/AbstractSequentialList
+ <TE;>
+ <TE;>
+super java/util/List
+ <TE;>
+ <TE;>
+super java/util/Deque
+ <TE;>
+ <TE;>
+
+<init>
+ (Ljava/util/Collection<+TE;>;)V
+ (L1java/util/Collection<+TE;>;)V
+add
+ (ITE;)V
+ (ITE;)V
+add
+ (TE;)Z
+ (T1E;)Z # @Inherited(java.util.Deque)
+addAll
+ (ILjava/util/Collection<+TE;>;)Z
+ (IL1java/util/Collection<+TE;>;)Z # @Inherited(java.util.AbstractSequentialList)
+addAll
+ (Ljava/util/Collection<+TE;>;)Z
+ (L1java/util/Collection<+TE;>;)Z # @Inherited(java.util.AbstractCollection)
+addFirst
+ (TE;)V
+ (TE;)V
+addLast
+ (TE;)V
+ (TE;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+contains
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.List)
+descendingIterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.Deque)
+element
+ ()TE;
+ ()T0E; # @Overrides(java.util.Deque)
+get
+ (I)TE;
+ (I)TE;
+getFirst
+ ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
+getLast
+ ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
+indexOf
+ (Ljava/lang/Object;)I
+ (L0java/lang/Object;)I # @Inherited(java.util.AbstractList)
+lastIndexOf
+ (Ljava/lang/Object;)I
+ (L0java/lang/Object;)I # @Inherited(java.util.AbstractList)
+listIterator
+ (I)Ljava/util/ListIterator<TE;>;
+ (I)L1java/util/ListIterator<TE;>; # @Inherited(java.util.AbstractSequentialList)
+offer
+ (TE;)Z
+ (T1E;)Z # @Inherited(java.util.Deque)
+offerFirst
+ (TE;)Z
+ (TE;)Z
+offerLast
+ (TE;)Z
+ (TE;)Z
+peek
+ ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
+peekFirst
+ ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
+peekLast
+ ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
+poll
+ ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
+pollFirst
+ ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
+pollLast
+ ()TE;
+ ()T0E; # @Inherited(java.util.Deque)
+pop
+ ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
+push
+ (TE;)V
+ (TE;)V
+remove
+ ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
+remove
+ (I)TE;
+ (I)TE;
+remove
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+removeFirst
+ ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
+removeFirstOccurrence
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+removeLast
+ ()TE;
+ ()T1E; # @Inherited(java.util.Deque)
+removeLastOccurrence
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z
+set
+ (ITE;)TE;
+ (ITE;)TE;
+spliterator
+ ()Ljava/util/Spliterator<TE;>;
+ ()L1java/util/Spliterator<TE;>; # @Inherited(java.util.List)
+toArray
+ ()[Ljava/lang/Object;
+ ()[1Ljava/lang/Object; # @Inherited(java.util.AbstractCollection)
+toArray
+ <T:Ljava/lang/Object;>([TT;)[TT;
+ <T:Ljava/lang/Object;>([1TT;)[1TT; # @Inherited(java.util.AbstractCollection)

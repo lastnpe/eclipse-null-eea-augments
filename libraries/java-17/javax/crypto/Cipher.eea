@@ -1,0 +1,114 @@
+class javax/crypto/Cipher
+
+getInstance
+ (Ljava/lang/String;)Ljavax/crypto/Cipher;
+ (L1java/lang/String;)L1javax/crypto/Cipher;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/Cipher;
+ (L1java/lang/String;L1java/lang/String;)L1javax/crypto/Cipher;
+getInstance
+ (Ljava/lang/String;Ljava/security/Provider;)Ljavax/crypto/Cipher;
+ (L1java/lang/String;Ljava/security/Provider;)L1javax/crypto/Cipher;
+getMaxAllowedKeyLength
+ (Ljava/lang/String;)I
+ (L1java/lang/String;)I
+getMaxAllowedParameterSpec
+ (Ljava/lang/String;)Ljava/security/spec/AlgorithmParameterSpec;
+ (L1java/lang/String;)L1java/security/spec/AlgorithmParameterSpec;
+
+<init>
+ (Ljavax/crypto/CipherSpi;Ljava/security/Provider;Ljava/lang/String;)V
+ (L1javax/crypto/CipherSpi;L1java/security/Provider;L1java/lang/String;)V
+doFinal
+ ()[B
+ ()[1B
+doFinal
+ (Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)I
+ (L1java/nio/ByteBuffer;L1java/nio/ByteBuffer;)I
+doFinal
+ ([B)[B
+ ([1B)[1B
+doFinal
+ ([BI)I
+ ([1BI)I
+doFinal
+ ([BII)[B
+ ([1BII)[1B
+doFinal
+ ([BII[B)I
+ ([1BII[1B)I
+doFinal
+ ([BII[BI)I
+ ([1BII[1BI)I
+getAlgorithm
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getExemptionMechanism
+ ()Ljavax/crypto/ExemptionMechanism;
+ ()L0javax/crypto/ExemptionMechanism;
+getIV
+ ()[B
+ ()[0B
+getParameters
+ ()Ljava/security/AlgorithmParameters;
+ ()L0java/security/AlgorithmParameters;
+getProvider
+ ()Ljava/security/Provider;
+ ()L1java/security/Provider;
+init
+ (ILjava/security/Key;)V
+ (ILjava/security/Key;)V
+init
+ (ILjava/security/Key;Ljava/security/AlgorithmParameters;)V
+ (ILjava/security/Key;Ljava/security/AlgorithmParameters;)V
+init
+ (ILjava/security/Key;Ljava/security/AlgorithmParameters;Ljava/security/SecureRandom;)V
+ (ILjava/security/Key;Ljava/security/AlgorithmParameters;Ljava/security/SecureRandom;)V
+init
+ (ILjava/security/Key;Ljava/security/SecureRandom;)V
+ (ILjava/security/Key;Ljava/security/SecureRandom;)V
+init
+ (ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+ (ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+init
+ (ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V
+ (ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V
+init
+ (ILjava/security/cert/Certificate;)V
+ (IL1java/security/cert/Certificate;)V
+init
+ (ILjava/security/cert/Certificate;Ljava/security/SecureRandom;)V
+ (IL1java/security/cert/Certificate;L1java/security/SecureRandom;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+unwrap
+ ([BLjava/lang/String;I)Ljava/security/Key;
+ ([BL1java/lang/String;I)L1java/security/Key;
+update
+ (Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)I
+ (L1java/nio/ByteBuffer;L1java/nio/ByteBuffer;)I
+update
+ ([B)[B
+ ([1B)[1B
+update
+ ([BII)[B
+ ([1BII)[1B
+update
+ ([BII[B)I
+ ([1BII[1B)I
+update
+ ([BII[BI)I
+ ([1BII[1BI)I
+updateAAD
+ (Ljava/nio/ByteBuffer;)V
+ (L1java/nio/ByteBuffer;)V
+updateAAD
+ ([B)V
+ ([1B)V
+updateAAD
+ ([BII)V
+ ([1BII)V
+wrap
+ (Ljava/security/Key;)[B
+ (L1java/security/Key;)[1B

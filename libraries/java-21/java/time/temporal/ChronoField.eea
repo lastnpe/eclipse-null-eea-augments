@@ -1,0 +1,33 @@
+class java/time/temporal/ChronoField
+
+super java/lang/Enum
+ <Ljava/time/temporal/ChronoField;>
+ <Ljava/time/temporal/ChronoField;>
+
+adjustInto
+ <R::Ljava/time/temporal/Temporal;>(TR;J)TR;
+ <1R::Ljava/time/temporal/Temporal;>(TR;J)TR; # @Inherited(java.time.temporal.TemporalField)
+getBaseUnit
+ ()Ljava/time/temporal/TemporalUnit;
+ ()L1java/time/temporal/TemporalUnit; # @Inherited(java.time.temporal.TemporalField)
+getDisplayName
+ (Ljava/util/Locale;)Ljava/lang/String;
+ (L1java/util/Locale;)L1java/lang/String; # @Inherited(java.time.temporal.TemporalField)
+getFrom
+ (Ljava/time/temporal/TemporalAccessor;)J
+ (L1java/time/temporal/TemporalAccessor;)J # @Inherited(java.time.temporal.TemporalField)
+getRangeUnit
+ ()Ljava/time/temporal/TemporalUnit;
+ ()L1java/time/temporal/TemporalUnit; # @Inherited(java.time.temporal.TemporalField)
+isSupportedBy
+ (Ljava/time/temporal/TemporalAccessor;)Z
+ (L1java/time/temporal/TemporalAccessor;)Z # @Inherited(java.time.temporal.TemporalField)
+range
+ ()Ljava/time/temporal/ValueRange;
+ ()L1java/time/temporal/ValueRange; # @Inherited(java.time.temporal.TemporalField)
+rangeRefinedBy
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/temporal/ValueRange;
+ (L1java/time/temporal/TemporalAccessor;)L1java/time/temporal/ValueRange; # @Inherited(java.time.temporal.TemporalField)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Enum)

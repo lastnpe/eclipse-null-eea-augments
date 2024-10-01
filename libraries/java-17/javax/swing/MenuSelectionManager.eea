@@ -1,0 +1,40 @@
+class javax/swing/MenuSelectionManager
+
+defaultManager
+ ()Ljavax/swing/MenuSelectionManager;
+ ()Ljavax/swing/MenuSelectionManager;
+
+changeEvent
+ Ljavax/swing/event/ChangeEvent;
+ Ljavax/swing/event/ChangeEvent;
+listenerList
+ Ljavax/swing/event/EventListenerList;
+ Ljavax/swing/event/EventListenerList;
+
+addChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V
+componentForPoint
+ (Ljava/awt/Component;Ljava/awt/Point;)Ljava/awt/Component;
+ (Ljava/awt/Component;Ljava/awt/Point;)Ljava/awt/Component;
+getChangeListeners
+ ()[Ljavax/swing/event/ChangeListener;
+ ()[Ljavax/swing/event/ChangeListener;
+getSelectedPath
+ ()[Ljavax/swing/MenuElement;
+ ()[Ljavax/swing/MenuElement;
+isComponentPartOfCurrentMenu
+ (Ljava/awt/Component;)Z
+ (Ljava/awt/Component;)Z
+processKeyEvent
+ (Ljava/awt/event/KeyEvent;)V
+ (Ljava/awt/event/KeyEvent;)V
+processMouseEvent
+ (Ljava/awt/event/MouseEvent;)V
+ (Ljava/awt/event/MouseEvent;)V
+removeChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V
+setSelectedPath
+ ([Ljavax/swing/MenuElement;)V
+ ([Ljavax/swing/MenuElement;)V

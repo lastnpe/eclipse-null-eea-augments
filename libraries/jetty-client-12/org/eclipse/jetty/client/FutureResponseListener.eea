@@ -1,0 +1,24 @@
+class org/eclipse/jetty/client/FutureResponseListener
+
+super java/util/concurrent/Future
+ <Lorg/eclipse/jetty/client/ContentResponse;>
+ <Lorg/eclipse/jetty/client/ContentResponse;>
+
+<init>
+ (Lorg/eclipse/jetty/client/Request;)V
+ (Lorg/eclipse/jetty/client/Request;)V
+<init>
+ (Lorg/eclipse/jetty/client/Request;I)V
+ (Lorg/eclipse/jetty/client/Request;I)V
+get
+ ()Lorg/eclipse/jetty/client/ContentResponse;
+ ()Lorg/eclipse/jetty/client/ContentResponse;
+get
+ (JLjava/util/concurrent/TimeUnit;)Lorg/eclipse/jetty/client/ContentResponse;
+ (JLjava/util/concurrent/TimeUnit;)Lorg/eclipse/jetty/client/ContentResponse;
+getRequest
+ ()Lorg/eclipse/jetty/client/Request;
+ ()Lorg/eclipse/jetty/client/Request;
+onComplete
+ (Lorg/eclipse/jetty/client/Result;)V
+ (L1org/eclipse/jetty/client/Result;)V # @Inherited(org.eclipse.jetty.client.BufferingResponseListener)

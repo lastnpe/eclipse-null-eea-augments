@@ -1,0 +1,32 @@
+class com/fasterxml/jackson/databind/jsontype/SubtypeResolver
+
+collectAndResolveSubtypes
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/AnnotationIntrospector;)Ljava/util/Collection<Lcom/fasterxml/jackson/databind/jsontype/NamedType;>;
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/AnnotationIntrospector;)Ljava/util/Collection<Lcom/fasterxml/jackson/databind/jsontype/NamedType;>;
+collectAndResolveSubtypes
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/AnnotationIntrospector;Lcom/fasterxml/jackson/databind/JavaType;)Ljava/util/Collection<Lcom/fasterxml/jackson/databind/jsontype/NamedType;>;
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/AnnotationIntrospector;Lcom/fasterxml/jackson/databind/JavaType;)Ljava/util/Collection<Lcom/fasterxml/jackson/databind/jsontype/NamedType;>;
+collectAndResolveSubtypesByClass
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;)Ljava/util/Collection<Lcom/fasterxml/jackson/databind/jsontype/NamedType;>;
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;)Ljava/util/Collection<Lcom/fasterxml/jackson/databind/jsontype/NamedType;>;
+collectAndResolveSubtypesByClass
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;Lcom/fasterxml/jackson/databind/JavaType;)Ljava/util/Collection<Lcom/fasterxml/jackson/databind/jsontype/NamedType;>;
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;Lcom/fasterxml/jackson/databind/JavaType;)Ljava/util/Collection<Lcom/fasterxml/jackson/databind/jsontype/NamedType;>;
+collectAndResolveSubtypesByTypeId
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;)Ljava/util/Collection<Lcom/fasterxml/jackson/databind/jsontype/NamedType;>;
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;)Ljava/util/Collection<Lcom/fasterxml/jackson/databind/jsontype/NamedType;>;
+collectAndResolveSubtypesByTypeId
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;Lcom/fasterxml/jackson/databind/JavaType;)Ljava/util/Collection<Lcom/fasterxml/jackson/databind/jsontype/NamedType;>;
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;Lcom/fasterxml/jackson/databind/JavaType;)Ljava/util/Collection<Lcom/fasterxml/jackson/databind/jsontype/NamedType;>;
+copy
+ ()Lcom/fasterxml/jackson/databind/jsontype/SubtypeResolver;
+ ()Lcom/fasterxml/jackson/databind/jsontype/SubtypeResolver;
+registerSubtypes
+ (Ljava/util/Collection<Ljava/lang/Class<*>;>;)V
+ (Ljava/util/Collection<Ljava/lang/Class<*>;>;)V
+registerSubtypes
+ ([Lcom/fasterxml/jackson/databind/jsontype/NamedType;)V
+ ([Lcom/fasterxml/jackson/databind/jsontype/NamedType;)V
+registerSubtypes
+ ([Ljava/lang/Class<*>;)V
+ ([Ljava/lang/Class<*>;)V

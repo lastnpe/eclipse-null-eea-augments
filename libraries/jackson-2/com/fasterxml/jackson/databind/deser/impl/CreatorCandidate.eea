@@ -1,0 +1,43 @@
+class com/fasterxml/jackson/databind/deser/impl/CreatorCandidate
+
+construct
+ (Lcom/fasterxml/jackson/databind/AnnotationIntrospector;Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;[Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;)Lcom/fasterxml/jackson/databind/deser/impl/CreatorCandidate;
+ (Lcom/fasterxml/jackson/databind/AnnotationIntrospector;Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;[Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;)Lcom/fasterxml/jackson/databind/deser/impl/CreatorCandidate;
+
+_creator
+ Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;
+ Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;
+_intr
+ Lcom/fasterxml/jackson/databind/AnnotationIntrospector;
+ Lcom/fasterxml/jackson/databind/AnnotationIntrospector;
+_params
+ [Lcom/fasterxml/jackson/databind/deser/impl/CreatorCandidate$Param;
+ [Lcom/fasterxml/jackson/databind/deser/impl/CreatorCandidate$Param;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/AnnotationIntrospector;Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;[Lcom/fasterxml/jackson/databind/deser/impl/CreatorCandidate$Param;I)V
+ (Lcom/fasterxml/jackson/databind/AnnotationIntrospector;Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;[Lcom/fasterxml/jackson/databind/deser/impl/CreatorCandidate$Param;I)V
+creator
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;
+explicitParamName
+ (I)Lcom/fasterxml/jackson/databind/PropertyName;
+ (I)Lcom/fasterxml/jackson/databind/PropertyName;
+findImplicitParamName
+ (I)Lcom/fasterxml/jackson/databind/PropertyName;
+ (I)Lcom/fasterxml/jackson/databind/PropertyName;
+injection
+ (I)Lcom/fasterxml/jackson/annotation/JacksonInject$Value;
+ (I)Lcom/fasterxml/jackson/annotation/JacksonInject$Value;
+paramName
+ (I)Lcom/fasterxml/jackson/databind/PropertyName;
+ (I)Lcom/fasterxml/jackson/databind/PropertyName;
+parameter
+ (I)Lcom/fasterxml/jackson/databind/introspect/AnnotatedParameter;
+ (I)Lcom/fasterxml/jackson/databind/introspect/AnnotatedParameter;
+propertyDef
+ (I)Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;
+ (I)Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

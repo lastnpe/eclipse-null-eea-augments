@@ -1,0 +1,186 @@
+class java/awt/font/TextAttribute
+
+BACKGROUND
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+BIDI_EMBEDDING
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+CHAR_REPLACEMENT
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+FAMILY
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+FONT
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+FOREGROUND
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+INPUT_METHOD_HIGHLIGHT
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+INPUT_METHOD_UNDERLINE
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+JUSTIFICATION
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+JUSTIFICATION_FULL
+ Ljava/lang/Float;
+ L1java/lang/Float;
+JUSTIFICATION_NONE
+ Ljava/lang/Float;
+ L1java/lang/Float;
+KERNING
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+KERNING_ON
+ Ljava/lang/Integer;
+ L1java/lang/Integer;
+LIGATURES
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+LIGATURES_ON
+ Ljava/lang/Integer;
+ L1java/lang/Integer;
+NUMERIC_SHAPING
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+POSTURE
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+POSTURE_OBLIQUE
+ Ljava/lang/Float;
+ L1java/lang/Float;
+POSTURE_REGULAR
+ Ljava/lang/Float;
+ L1java/lang/Float;
+RUN_DIRECTION
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+RUN_DIRECTION_LTR
+ Ljava/lang/Boolean;
+ L1java/lang/Boolean;
+RUN_DIRECTION_RTL
+ Ljava/lang/Boolean;
+ L1java/lang/Boolean;
+SIZE
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+STRIKETHROUGH
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+STRIKETHROUGH_ON
+ Ljava/lang/Boolean;
+ L1java/lang/Boolean;
+SUPERSCRIPT
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+SUPERSCRIPT_SUB
+ Ljava/lang/Integer;
+ L1java/lang/Integer;
+SUPERSCRIPT_SUPER
+ Ljava/lang/Integer;
+ L1java/lang/Integer;
+SWAP_COLORS
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+SWAP_COLORS_ON
+ Ljava/lang/Boolean;
+ L1java/lang/Boolean;
+TRACKING
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+TRACKING_LOOSE
+ Ljava/lang/Float;
+ L1java/lang/Float;
+TRACKING_TIGHT
+ Ljava/lang/Float;
+ L1java/lang/Float;
+TRANSFORM
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+UNDERLINE
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+UNDERLINE_LOW_DASHED
+ Ljava/lang/Integer;
+ L1java/lang/Integer;
+UNDERLINE_LOW_DOTTED
+ Ljava/lang/Integer;
+ L1java/lang/Integer;
+UNDERLINE_LOW_GRAY
+ Ljava/lang/Integer;
+ L1java/lang/Integer;
+UNDERLINE_LOW_ONE_PIXEL
+ Ljava/lang/Integer;
+ L1java/lang/Integer;
+UNDERLINE_LOW_TWO_PIXEL
+ Ljava/lang/Integer;
+ L1java/lang/Integer;
+UNDERLINE_ON
+ Ljava/lang/Integer;
+ L1java/lang/Integer;
+WEIGHT
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+WEIGHT_BOLD
+ Ljava/lang/Float;
+ L1java/lang/Float;
+WEIGHT_DEMIBOLD
+ Ljava/lang/Float;
+ L1java/lang/Float;
+WEIGHT_DEMILIGHT
+ Ljava/lang/Float;
+ L1java/lang/Float;
+WEIGHT_EXTRABOLD
+ Ljava/lang/Float;
+ L1java/lang/Float;
+WEIGHT_EXTRA_LIGHT
+ Ljava/lang/Float;
+ L1java/lang/Float;
+WEIGHT_HEAVY
+ Ljava/lang/Float;
+ L1java/lang/Float;
+WEIGHT_LIGHT
+ Ljava/lang/Float;
+ L1java/lang/Float;
+WEIGHT_MEDIUM
+ Ljava/lang/Float;
+ L1java/lang/Float;
+WEIGHT_REGULAR
+ Ljava/lang/Float;
+ L1java/lang/Float;
+WEIGHT_SEMIBOLD
+ Ljava/lang/Float;
+ L1java/lang/Float;
+WEIGHT_ULTRABOLD
+ Ljava/lang/Float;
+ L1java/lang/Float;
+WIDTH
+ Ljava/awt/font/TextAttribute;
+ L1java/awt/font/TextAttribute;
+WIDTH_CONDENSED
+ Ljava/lang/Float;
+ L1java/lang/Float;
+WIDTH_EXTENDED
+ Ljava/lang/Float;
+ L1java/lang/Float;
+WIDTH_REGULAR
+ Ljava/lang/Float;
+ L1java/lang/Float;
+WIDTH_SEMI_CONDENSED
+ Ljava/lang/Float;
+ L1java/lang/Float;
+WIDTH_SEMI_EXTENDED
+ Ljava/lang/Float;
+ L1java/lang/Float;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+readResolve
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.text.AttributedCharacterIterator$Attribute)

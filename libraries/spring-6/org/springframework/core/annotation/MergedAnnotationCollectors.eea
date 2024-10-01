@@ -1,0 +1,17 @@
+class org/springframework/core/annotation/MergedAnnotationCollectors
+
+toAnnotationArray
+ <A::Ljava/lang/annotation/Annotation;>()Ljava/util/stream/Collector<Lorg/springframework/core/annotation/MergedAnnotation<TA;>;*[Ljava/lang/annotation/Annotation;>;
+ <A::Ljava/lang/annotation/Annotation;>()Ljava/util/stream/Collector<Lorg/springframework/core/annotation/MergedAnnotation<TA;>;*[Ljava/lang/annotation/Annotation;>;
+toAnnotationArray
+ <R::Ljava/lang/annotation/Annotation;A:TR;>(Ljava/util/function/IntFunction<[TR;>;)Ljava/util/stream/Collector<Lorg/springframework/core/annotation/MergedAnnotation<TA;>;*[TR;>;
+ <R::Ljava/lang/annotation/Annotation;A:TR;>(Ljava/util/function/IntFunction<[TR;>;)Ljava/util/stream/Collector<Lorg/springframework/core/annotation/MergedAnnotation<TA;>;*[TR;>;
+toAnnotationSet
+ <A::Ljava/lang/annotation/Annotation;>()Ljava/util/stream/Collector<Lorg/springframework/core/annotation/MergedAnnotation<TA;>;*Ljava/util/Set<TA;>;>;
+ <A::Ljava/lang/annotation/Annotation;>()Ljava/util/stream/Collector<Lorg/springframework/core/annotation/MergedAnnotation<TA;>;*Ljava/util/Set<TA;>;>;
+toMultiValueMap
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/util/function/Function<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/Object;>;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/Object;>;>;[Lorg/springframework/core/annotation/MergedAnnotation$Adapt;)Ljava/util/stream/Collector<Lorg/springframework/core/annotation/MergedAnnotation<TA;>;*Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/Object;>;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/util/function/Function<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/Object;>;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/Object;>;>;[Lorg/springframework/core/annotation/MergedAnnotation$Adapt;)Ljava/util/stream/Collector<Lorg/springframework/core/annotation/MergedAnnotation<TA;>;*Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/Object;>;>;
+toMultiValueMap
+ <A::Ljava/lang/annotation/Annotation;>([Lorg/springframework/core/annotation/MergedAnnotation$Adapt;)Ljava/util/stream/Collector<Lorg/springframework/core/annotation/MergedAnnotation<TA;>;*Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/Object;>;>;
+ <A::Ljava/lang/annotation/Annotation;>([Lorg/springframework/core/annotation/MergedAnnotation$Adapt;)Ljava/util/stream/Collector<Lorg/springframework/core/annotation/MergedAnnotation<TA;>;*Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/Object;>;>;

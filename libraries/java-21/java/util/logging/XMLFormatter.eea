@@ -1,0 +1,11 @@
+class java/util/logging/XMLFormatter
+
+format
+ (Ljava/util/logging/LogRecord;)Ljava/lang/String;
+ (L1java/util/logging/LogRecord;)L1java/lang/String; # @Inherited(java.util.logging.Formatter)
+getHead
+ (Ljava/util/logging/Handler;)Ljava/lang/String;
+ (L0java/util/logging/Handler;)L1java/lang/String; # @Inherited(java.util.logging.Formatter)
+getTail
+ (Ljava/util/logging/Handler;)Ljava/lang/String;
+ (L0java/util/logging/Handler;)L1java/lang/String; # @Inherited(java.util.logging.Formatter)

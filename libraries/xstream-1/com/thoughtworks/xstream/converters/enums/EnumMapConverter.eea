@@ -1,0 +1,14 @@
+class com/thoughtworks/xstream/converters/enums/EnumMapConverter
+
+<init>
+ (Lcom/thoughtworks/xstream/mapper/Mapper;)V
+ (Lcom/thoughtworks/xstream/mapper/Mapper;)V
+canConvert
+ (Ljava/lang/Class;)Z
+ (Ljava/lang/Class;)Z
+marshal
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Lcom/thoughtworks/xstream/converters/MarshallingContext;)V
+ (L0java/lang/Object;L1com/thoughtworks/xstream/io/HierarchicalStreamWriter;L1com/thoughtworks/xstream/converters/MarshallingContext;)V # @Inherited(com.thoughtworks.xstream.converters.collections.MapConverter)
+unmarshal
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Lcom/thoughtworks/xstream/converters/UnmarshallingContext;)Ljava/lang/Object;
+ (L1com/thoughtworks/xstream/io/HierarchicalStreamReader;L1com/thoughtworks/xstream/converters/UnmarshallingContext;)L0java/lang/Object; # @Inherited(com.thoughtworks.xstream.converters.collections.MapConverter)

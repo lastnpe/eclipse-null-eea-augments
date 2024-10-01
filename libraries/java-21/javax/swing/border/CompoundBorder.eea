@@ -1,0 +1,24 @@
+class javax/swing/border/CompoundBorder
+
+insideBorder
+ Ljavax/swing/border/Border;
+ Ljavax/swing/border/Border;
+outsideBorder
+ Ljavax/swing/border/Border;
+ Ljavax/swing/border/Border;
+
+<init>
+ (Ljavax/swing/border/Border;Ljavax/swing/border/Border;)V
+ (Ljavax/swing/border/Border;Ljavax/swing/border/Border;)V
+getBorderInsets
+ (Ljava/awt/Component;Ljava/awt/Insets;)Ljava/awt/Insets;
+ (Ljava/awt/Component;Ljava/awt/Insets;)Ljava/awt/Insets;
+getInsideBorder
+ ()Ljavax/swing/border/Border;
+ ()Ljavax/swing/border/Border;
+getOutsideBorder
+ ()Ljavax/swing/border/Border;
+ ()Ljavax/swing/border/Border;
+paintBorder
+ (Ljava/awt/Component;Ljava/awt/Graphics;IIII)V
+ (Ljava/awt/Component;Ljava/awt/Graphics;IIII)V

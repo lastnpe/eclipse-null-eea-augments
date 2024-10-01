@@ -1,0 +1,186 @@
+class org/mockito/Mockito
+
+CALLS_REAL_METHODS
+ Lorg/mockito/stubbing/Answer<Ljava/lang/Object;>;
+ L1org/mockito/stubbing/Answer<Ljava/lang/Object;>;
+RETURNS_DEEP_STUBS
+ Lorg/mockito/stubbing/Answer<Ljava/lang/Object;>;
+ L1org/mockito/stubbing/Answer<Ljava/lang/Object;>;
+RETURNS_DEFAULTS
+ Lorg/mockito/stubbing/Answer<Ljava/lang/Object;>;
+ L1org/mockito/stubbing/Answer<Ljava/lang/Object;>;
+RETURNS_MOCKS
+ Lorg/mockito/stubbing/Answer<Ljava/lang/Object;>;
+ L1org/mockito/stubbing/Answer<Ljava/lang/Object;>;
+RETURNS_SELF
+ Lorg/mockito/stubbing/Answer<Ljava/lang/Object;>;
+ L1org/mockito/stubbing/Answer<Ljava/lang/Object;>;
+RETURNS_SMART_NULLS
+ Lorg/mockito/stubbing/Answer<Ljava/lang/Object;>;
+ L1org/mockito/stubbing/Answer<Ljava/lang/Object;>;
+
+after
+ (J)Lorg/mockito/verification/VerificationAfterDelay;
+ (J)Lorg/mockito/verification/VerificationAfterDelay;
+atLeast
+ (I)Lorg/mockito/verification/VerificationMode;
+ (I)Lorg/mockito/verification/VerificationMode;
+atLeastOnce
+ ()Lorg/mockito/verification/VerificationMode;
+ ()Lorg/mockito/verification/VerificationMode;
+atMost
+ (I)Lorg/mockito/verification/VerificationMode;
+ (I)Lorg/mockito/verification/VerificationMode;
+atMostOnce
+ ()Lorg/mockito/verification/VerificationMode;
+ ()Lorg/mockito/verification/VerificationMode;
+calls
+ (I)Lorg/mockito/verification/VerificationMode;
+ (I)Lorg/mockito/verification/VerificationMode;
+clearInvocations
+ <T:Ljava/lang/Object;>([TT;)V
+ <T:Ljava/lang/Object;>([TT;)V
+description
+ (Ljava/lang/String;)Lorg/mockito/verification/VerificationMode;
+ (Ljava/lang/String;)Lorg/mockito/verification/VerificationMode;
+doAnswer
+ (Lorg/mockito/stubbing/Answer;)Lorg/mockito/stubbing/Stubber;
+ (Lorg/mockito/stubbing/Answer;)Lorg/mockito/stubbing/Stubber;
+doCallRealMethod
+ ()Lorg/mockito/stubbing/Stubber;
+ ()Lorg/mockito/stubbing/Stubber;
+doNothing
+ ()Lorg/mockito/stubbing/Stubber;
+ ()Lorg/mockito/stubbing/Stubber;
+doReturn
+ (Ljava/lang/Object;)Lorg/mockito/stubbing/Stubber;
+ (Ljava/lang/Object;)Lorg/mockito/stubbing/Stubber;
+doReturn
+ (Ljava/lang/Object;[Ljava/lang/Object;)Lorg/mockito/stubbing/Stubber;
+ (Ljava/lang/Object;[Ljava/lang/Object;)Lorg/mockito/stubbing/Stubber;
+doThrow
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;)Lorg/mockito/stubbing/Stubber;
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;)Lorg/mockito/stubbing/Stubber;
+doThrow
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;[Ljava/lang/Class<+Ljava/lang/Throwable;>;)Lorg/mockito/stubbing/Stubber;
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;[Ljava/lang/Class<+Ljava/lang/Throwable;>;)Lorg/mockito/stubbing/Stubber;
+doThrow
+ ([Ljava/lang/Throwable;)Lorg/mockito/stubbing/Stubber;
+ ([Ljava/lang/Throwable;)Lorg/mockito/stubbing/Stubber;
+framework
+ ()Lorg/mockito/MockitoFramework;
+ ()Lorg/mockito/MockitoFramework;
+ignoreStubs
+ ([Ljava/lang/Object;)[Ljava/lang/Object;
+ ([Ljava/lang/Object;)[Ljava/lang/Object;
+inOrder
+ ([Ljava/lang/Object;)Lorg/mockito/InOrder;
+ ([Ljava/lang/Object;)Lorg/mockito/InOrder;
+lenient
+ ()Lorg/mockito/stubbing/LenientStubber;
+ ()Lorg/mockito/stubbing/LenientStubber;
+mock
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+mock
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/String;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/String;)TT;
+mock
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/MockSettings;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/MockSettings;)TT;
+mock
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/stubbing/Answer;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/stubbing/Answer;)TT;
+mock
+ <T:Ljava/lang/Object;>(Ljava/lang/String;[TT;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;[TT;)TT;
+mock
+ <T:Ljava/lang/Object;>(Lorg/mockito/MockSettings;[TT;)TT;
+ <T:Ljava/lang/Object;>(Lorg/mockito/MockSettings;[TT;)TT;
+mock
+ <T:Ljava/lang/Object;>(Lorg/mockito/stubbing/Answer;[TT;)TT;
+ <T:Ljava/lang/Object;>(Lorg/mockito/stubbing/Answer;[TT;)TT;
+mock
+ <T:Ljava/lang/Object;>([TT;)TT;
+ <T:Ljava/lang/Object;>([TT;)TT;
+mockConstruction
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/mockito/MockedConstruction<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/mockito/MockedConstruction<TT;>;
+mockConstruction
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Function<Lorg/mockito/MockedConstruction$Context;Lorg/mockito/MockSettings;>;)Lorg/mockito/MockedConstruction<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Function<Lorg/mockito/MockedConstruction$Context;Lorg/mockito/MockSettings;>;)Lorg/mockito/MockedConstruction<TT;>;
+mockConstruction
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Function<Lorg/mockito/MockedConstruction$Context;Lorg/mockito/MockSettings;>;Lorg/mockito/MockedConstruction$MockInitializer<TT;>;)Lorg/mockito/MockedConstruction<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Function<Lorg/mockito/MockedConstruction$Context;Lorg/mockito/MockSettings;>;Lorg/mockito/MockedConstruction$MockInitializer<TT;>;)Lorg/mockito/MockedConstruction<TT;>;
+mockConstruction
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/MockSettings;)Lorg/mockito/MockedConstruction<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/MockSettings;)Lorg/mockito/MockedConstruction<TT;>;
+mockConstruction
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/MockSettings;Lorg/mockito/MockedConstruction$MockInitializer<TT;>;)Lorg/mockito/MockedConstruction<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/MockSettings;Lorg/mockito/MockedConstruction$MockInitializer<TT;>;)Lorg/mockito/MockedConstruction<TT;>;
+mockConstruction
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/MockedConstruction$MockInitializer<TT;>;)Lorg/mockito/MockedConstruction<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/MockedConstruction$MockInitializer<TT;>;)Lorg/mockito/MockedConstruction<TT;>;
+mockConstructionWithAnswer
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/stubbing/Answer;[Lorg/mockito/stubbing/Answer;)Lorg/mockito/MockedConstruction<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/stubbing/Answer;[Lorg/mockito/stubbing/Answer;)Lorg/mockito/MockedConstruction<TT;>;
+mockStatic
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/mockito/MockedStatic<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/mockito/MockedStatic<TT;>;
+mockStatic
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/String;)Lorg/mockito/MockedStatic<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/String;)Lorg/mockito/MockedStatic<TT;>;
+mockStatic
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/MockSettings;)Lorg/mockito/MockedStatic<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/MockSettings;)Lorg/mockito/MockedStatic<TT;>;
+mockStatic
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/stubbing/Answer;)Lorg/mockito/MockedStatic<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/mockito/stubbing/Answer;)Lorg/mockito/MockedStatic<TT;>;
+mockingDetails
+ (Ljava/lang/Object;)Lorg/mockito/MockingDetails;
+ (Ljava/lang/Object;)Lorg/mockito/MockingDetails;
+mockitoSession
+ ()Lorg/mockito/session/MockitoSessionBuilder;
+ ()Lorg/mockito/session/MockitoSessionBuilder;
+never
+ ()Lorg/mockito/verification/VerificationMode;
+ ()Lorg/mockito/verification/VerificationMode;
+only
+ ()Lorg/mockito/verification/VerificationMode;
+ ()Lorg/mockito/verification/VerificationMode;
+reset
+ <T:Ljava/lang/Object;>([TT;)V
+ <T:Ljava/lang/Object;>([TT;)V
+spy
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+spy
+ <T:Ljava/lang/Object;>(TT;)TT;
+ <T:Ljava/lang/Object;>(TT;)TT;
+spy
+ <T:Ljava/lang/Object;>([TT;)TT;
+ <T:Ljava/lang/Object;>([TT;)TT;
+timeout
+ (J)Lorg/mockito/verification/VerificationWithTimeout;
+ (J)Lorg/mockito/verification/VerificationWithTimeout;
+times
+ (I)Lorg/mockito/verification/VerificationMode;
+ (I)Lorg/mockito/verification/VerificationMode;
+verify
+ <T:Ljava/lang/Object;>(TT;)TT;
+ <T:Ljava/lang/Object;>(TT;)TT;
+verify
+ <T:Ljava/lang/Object;>(TT;Lorg/mockito/verification/VerificationMode;)TT;
+ <T:Ljava/lang/Object;>(TT;Lorg/mockito/verification/VerificationMode;)TT;
+verifyNoInteractions
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+verifyNoMoreInteractions
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+when
+ <T:Ljava/lang/Object;>(TT;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+ <T:Ljava/lang/Object;>(TT;)Lorg/mockito/stubbing/OngoingStubbing<TT;>;
+withSettings
+ ()Lorg/mockito/MockSettings;
+ ()Lorg/mockito/MockSettings;

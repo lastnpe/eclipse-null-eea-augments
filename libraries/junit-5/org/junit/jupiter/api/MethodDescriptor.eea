@@ -1,0 +1,17 @@
+class org/junit/jupiter/api/MethodDescriptor
+
+findAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Ljava/util/Optional<TA;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Ljava/util/Optional<TA;>;
+findRepeatableAnnotations
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Ljava/util/List<TA;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Ljava/util/List<TA;>;
+getDisplayName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMethod
+ ()Ljava/lang/reflect/Method;
+ ()Ljava/lang/reflect/Method;
+isAnnotated
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z

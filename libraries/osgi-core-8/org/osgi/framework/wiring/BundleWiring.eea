@@ -1,0 +1,41 @@
+class org/osgi/framework/wiring/BundleWiring
+
+findEntries
+ (Ljava/lang/String;Ljava/lang/String;I)Ljava/util/List<Ljava/net/URL;>;
+ (Ljava/lang/String;Ljava/lang/String;I)Ljava/util/List<Ljava/net/URL;>;
+getCapabilities
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/framework/wiring/BundleCapability;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/framework/wiring/BundleCapability;>;
+getClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()Ljava/lang/ClassLoader;
+getProvidedResourceWires
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Wire;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Wire;>;
+getProvidedWires
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/framework/wiring/BundleWire;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/framework/wiring/BundleWire;>;
+getRequiredResourceWires
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Wire;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Wire;>;
+getRequiredWires
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/framework/wiring/BundleWire;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/framework/wiring/BundleWire;>;
+getRequirements
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/framework/wiring/BundleRequirement;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/framework/wiring/BundleRequirement;>;
+getResource
+ ()Lorg/osgi/framework/wiring/BundleRevision;
+ ()Lorg/osgi/framework/wiring/BundleRevision;
+getResourceCapabilities
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Capability;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Capability;>;
+getResourceRequirements
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Requirement;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/osgi/resource/Requirement;>;
+getRevision
+ ()Lorg/osgi/framework/wiring/BundleRevision;
+ ()Lorg/osgi/framework/wiring/BundleRevision;
+listResources
+ (Ljava/lang/String;Ljava/lang/String;I)Ljava/util/Collection<Ljava/lang/String;>;
+ (Ljava/lang/String;Ljava/lang/String;I)Ljava/util/Collection<Ljava/lang/String;>;

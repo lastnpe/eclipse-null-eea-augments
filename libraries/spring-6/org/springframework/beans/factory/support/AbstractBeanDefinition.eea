@@ -1,0 +1,174 @@
+class org/springframework/beans/factory/support/AbstractBeanDefinition
+
+INFER_METHOD
+ Ljava/lang/String;
+ L1java/lang/String;
+ORDER_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+PREFERRED_CONSTRUCTORS_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+SCOPE_DEFAULT
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+<init>
+ (Lorg/springframework/beans/factory/config/ConstructorArgumentValues;Lorg/springframework/beans/MutablePropertyValues;)V
+ (Lorg/springframework/beans/factory/config/ConstructorArgumentValues;Lorg/springframework/beans/MutablePropertyValues;)V
+addQualifier
+ (Lorg/springframework/beans/factory/support/AutowireCandidateQualifier;)V
+ (Lorg/springframework/beans/factory/support/AutowireCandidateQualifier;)V
+applyDefaults
+ (Lorg/springframework/beans/factory/support/BeanDefinitionDefaults;)V
+ (Lorg/springframework/beans/factory/support/BeanDefinitionDefaults;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+cloneBeanDefinition
+ ()Lorg/springframework/beans/factory/support/AbstractBeanDefinition;
+ ()Lorg/springframework/beans/factory/support/AbstractBeanDefinition;
+copyQualifiersFrom
+ (Lorg/springframework/beans/factory/support/AbstractBeanDefinition;)V
+ (Lorg/springframework/beans/factory/support/AbstractBeanDefinition;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(org.springframework.core.AttributeAccessorSupport)
+getBeanClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getBeanClassName
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.beans.factory.config.BeanDefinition)
+getConstructorArgumentValues
+ ()Lorg/springframework/beans/factory/config/ConstructorArgumentValues;
+ ()Lorg/springframework/beans/factory/config/ConstructorArgumentValues;
+getDependsOn
+ ()[Ljava/lang/String;
+ ()[0Ljava/lang/String; # @Inherited(org.springframework.beans.factory.config.BeanDefinition)
+getDescription
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.beans.factory.config.BeanDefinition)
+getDestroyMethodName
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.beans.factory.config.BeanDefinition)
+getDestroyMethodNames
+ ()[Ljava/lang/String;
+ ()[0Ljava/lang/String;
+getFactoryBeanName
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.beans.factory.config.BeanDefinition)
+getFactoryMethodName
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.beans.factory.config.BeanDefinition)
+getInitMethodName
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.beans.factory.config.BeanDefinition)
+getInitMethodNames
+ ()[Ljava/lang/String;
+ ()[0Ljava/lang/String;
+getInstanceSupplier
+ ()Ljava/util/function/Supplier<*>;
+ ()L0java/util/function/Supplier<*>;
+getLazyInit
+ ()Ljava/lang/Boolean;
+ ()L0java/lang/Boolean;
+getMethodOverrides
+ ()Lorg/springframework/beans/factory/support/MethodOverrides;
+ ()Lorg/springframework/beans/factory/support/MethodOverrides;
+getOriginatingBeanDefinition
+ ()Lorg/springframework/beans/factory/config/BeanDefinition;
+ ()L0org/springframework/beans/factory/config/BeanDefinition; # @Inherited(org.springframework.beans.factory.config.BeanDefinition)
+getPropertyValues
+ ()Lorg/springframework/beans/MutablePropertyValues;
+ ()Lorg/springframework/beans/MutablePropertyValues;
+getQualifier
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/support/AutowireCandidateQualifier;
+ (Ljava/lang/String;)L0org/springframework/beans/factory/support/AutowireCandidateQualifier;
+getQualifiers
+ ()Ljava/util/Set<Lorg/springframework/beans/factory/support/AutowireCandidateQualifier;>;
+ ()Ljava/util/Set<Lorg/springframework/beans/factory/support/AutowireCandidateQualifier;>;
+getResolvableType
+ ()Lorg/springframework/core/ResolvableType;
+ ()Lorg/springframework/core/ResolvableType;
+getResource
+ ()Lorg/springframework/core/io/Resource;
+ ()L0org/springframework/core/io/Resource;
+getResourceDescription
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.beans.factory.config.BeanDefinition)
+getScope
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.beans.factory.config.BeanDefinition)
+hasQualifier
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+overrideFrom
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+prepareMethodOverride
+ (Lorg/springframework/beans/factory/support/MethodOverride;)V
+ (Lorg/springframework/beans/factory/support/MethodOverride;)V
+resolveBeanClass
+ (Ljava/lang/ClassLoader;)Ljava/lang/Class<*>;
+ (Ljava/lang/ClassLoader;)L0java/lang/Class<*>;
+setBeanClass
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+setBeanClassName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setConstructorArgumentValues
+ (Lorg/springframework/beans/factory/config/ConstructorArgumentValues;)V
+ (Lorg/springframework/beans/factory/config/ConstructorArgumentValues;)V
+setDependsOn
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setDescription
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setDestroyMethodName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setDestroyMethodNames
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setFactoryBeanName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setFactoryMethodName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setInitMethodName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setInitMethodNames
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setInstanceSupplier
+ (Ljava/util/function/Supplier<*>;)V
+ (Ljava/util/function/Supplier<*>;)V
+setMethodOverrides
+ (Lorg/springframework/beans/factory/support/MethodOverrides;)V
+ (Lorg/springframework/beans/factory/support/MethodOverrides;)V
+setOriginatingBeanDefinition
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)V
+setPropertyValues
+ (Lorg/springframework/beans/MutablePropertyValues;)V
+ (Lorg/springframework/beans/MutablePropertyValues;)V
+setResource
+ (Lorg/springframework/core/io/Resource;)V
+ (Lorg/springframework/core/io/Resource;)V
+setResourceDescription
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setScope
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

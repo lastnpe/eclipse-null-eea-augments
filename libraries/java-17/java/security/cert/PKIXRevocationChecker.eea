@@ -1,0 +1,38 @@
+class java/security/cert/PKIXRevocationChecker
+
+clone
+ ()Ljava/security/cert/PKIXRevocationChecker;
+ ()Ljava/security/cert/PKIXRevocationChecker;
+getOcspExtensions
+ ()Ljava/util/List<Ljava/security/cert/Extension;>;
+ ()Ljava/util/List<Ljava/security/cert/Extension;>;
+getOcspResponder
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+getOcspResponderCert
+ ()Ljava/security/cert/X509Certificate;
+ ()Ljava/security/cert/X509Certificate;
+getOcspResponses
+ ()Ljava/util/Map<Ljava/security/cert/X509Certificate;[B>;
+ ()Ljava/util/Map<Ljava/security/cert/X509Certificate;[B>;
+getOptions
+ ()Ljava/util/Set<Ljava/security/cert/PKIXRevocationChecker$Option;>;
+ ()Ljava/util/Set<Ljava/security/cert/PKIXRevocationChecker$Option;>;
+getSoftFailExceptions
+ ()Ljava/util/List<Ljava/security/cert/CertPathValidatorException;>;
+ ()Ljava/util/List<Ljava/security/cert/CertPathValidatorException;>;
+setOcspExtensions
+ (Ljava/util/List<Ljava/security/cert/Extension;>;)V
+ (Ljava/util/List<Ljava/security/cert/Extension;>;)V
+setOcspResponder
+ (Ljava/net/URI;)V
+ (Ljava/net/URI;)V
+setOcspResponderCert
+ (Ljava/security/cert/X509Certificate;)V
+ (Ljava/security/cert/X509Certificate;)V
+setOcspResponses
+ (Ljava/util/Map<Ljava/security/cert/X509Certificate;[B>;)V
+ (Ljava/util/Map<Ljava/security/cert/X509Certificate;[B>;)V
+setOptions
+ (Ljava/util/Set<Ljava/security/cert/PKIXRevocationChecker$Option;>;)V
+ (Ljava/util/Set<Ljava/security/cert/PKIXRevocationChecker$Option;>;)V

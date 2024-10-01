@@ -1,0 +1,43 @@
+class java/time/Month
+
+super java/lang/Enum
+ <Ljava/time/Month;>
+ <Ljava/time/Month;>
+
+from
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/Month;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/Month;
+of
+ (I)Ljava/time/Month;
+ (I)Ljava/time/Month;
+
+adjustInto
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal; # @Inherited(java.time.temporal.TemporalAdjuster)
+firstMonthOfQuarter
+ ()Ljava/time/Month;
+ ()Ljava/time/Month;
+get
+ (Ljava/time/temporal/TemporalField;)I
+ (L1java/time/temporal/TemporalField;)I # @Inherited(java.time.temporal.TemporalAccessor)
+getDisplayName
+ (Ljava/time/format/TextStyle;Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/time/format/TextStyle;Ljava/util/Locale;)Ljava/lang/String;
+getLong
+ (Ljava/time/temporal/TemporalField;)J
+ (L1java/time/temporal/TemporalField;)J # @Inherited(java.time.temporal.TemporalAccessor)
+isSupported
+ (Ljava/time/temporal/TemporalField;)Z
+ (L1java/time/temporal/TemporalField;)Z # @Inherited(java.time.temporal.TemporalAccessor)
+minus
+ (J)Ljava/time/Month;
+ (J)Ljava/time/Month;
+plus
+ (J)Ljava/time/Month;
+ (J)Ljava/time/Month;
+query
+ <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+ <R:Ljava/lang/Object;>(L1java/time/temporal/TemporalQuery<TR;>;)T0R; # @Inherited(java.time.temporal.TemporalAccessor)
+range
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange; # @Inherited(java.time.temporal.TemporalAccessor)

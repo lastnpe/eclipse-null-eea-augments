@@ -1,0 +1,26 @@
+class org/springframework/beans/AbstractPropertyAccessor
+
+getPropertyType
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;)L0java/lang/Class<*>; # @Inherited(org.springframework.beans.PropertyEditorRegistrySupport)
+getPropertyValue
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.beans.PropertyAccessor)
+setPropertyValue
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+setPropertyValue
+ (Lorg/springframework/beans/PropertyValue;)V
+ (Lorg/springframework/beans/PropertyValue;)V
+setPropertyValues
+ (Ljava/util/Map<**>;)V
+ (Ljava/util/Map<**>;)V
+setPropertyValues
+ (Lorg/springframework/beans/PropertyValues;)V
+ (Lorg/springframework/beans/PropertyValues;)V
+setPropertyValues
+ (Lorg/springframework/beans/PropertyValues;Z)V
+ (Lorg/springframework/beans/PropertyValues;Z)V
+setPropertyValues
+ (Lorg/springframework/beans/PropertyValues;ZZ)V
+ (Lorg/springframework/beans/PropertyValues;ZZ)V

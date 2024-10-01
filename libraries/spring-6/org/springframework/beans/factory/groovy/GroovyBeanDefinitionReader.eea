@@ -1,0 +1,59 @@
+class org/springframework/beans/factory/groovy/GroovyBeanDefinitionReader
+
+<init>
+ (Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;)V
+ (Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;)V
+<init>
+ (Lorg/springframework/beans/factory/xml/XmlBeanDefinitionReader;)V
+ (Lorg/springframework/beans/factory/xml/XmlBeanDefinitionReader;)V
+applyPropertyToBeanDefinition
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+bean
+ (Ljava/lang/Class<*>;)Lorg/springframework/beans/factory/support/GenericBeanDefinition;
+ (Ljava/lang/Class<*>;)Lorg/springframework/beans/factory/support/GenericBeanDefinition;
+bean
+ (Ljava/lang/Class<*>;[Ljava/lang/Object;)Lorg/springframework/beans/factory/support/AbstractBeanDefinition;
+ (Ljava/lang/Class<*>;[Ljava/lang/Object;)Lorg/springframework/beans/factory/support/AbstractBeanDefinition;
+beans
+ (Lgroovy/lang/Closure<*>;)Lorg/springframework/beans/factory/groovy/GroovyBeanDefinitionReader;
+ (Lgroovy/lang/Closure<*>;)Lorg/springframework/beans/factory/groovy/GroovyBeanDefinitionReader;
+getBinding
+ ()Lgroovy/lang/Binding;
+ ()L0groovy/lang/Binding;
+getMetaClass
+ ()Lgroovy/lang/MetaClass;
+ ()Lgroovy/lang/MetaClass;
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object;
+importBeans
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+invokeBeanDefiningClosure
+ (Lgroovy/lang/Closure<*>;)Lorg/springframework/beans/factory/groovy/GroovyBeanDefinitionReader;
+ (Lgroovy/lang/Closure<*>;)Lorg/springframework/beans/factory/groovy/GroovyBeanDefinitionReader;
+invokeMethod
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+loadBeanDefinitions
+ (Lorg/springframework/core/io/Resource;)I
+ (Lorg/springframework/core/io/Resource;)I
+loadBeanDefinitions
+ (Lorg/springframework/core/io/support/EncodedResource;)I
+ (Lorg/springframework/core/io/support/EncodedResource;)I
+resolveConstructorArguments
+ ([Ljava/lang/Object;II)Ljava/util/List<Ljava/lang/Object;>;
+ ([Ljava/lang/Object;II)Ljava/util/List<Ljava/lang/Object;>;
+setBinding
+ (Lgroovy/lang/Binding;)V
+ (Lgroovy/lang/Binding;)V
+setMetaClass
+ (Lgroovy/lang/MetaClass;)V
+ (Lgroovy/lang/MetaClass;)V
+setProperty
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+xmlns
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V

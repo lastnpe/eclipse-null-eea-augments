@@ -1,0 +1,16 @@
+class com/fasterxml/jackson/databind/ser/impl/FailingSerializer
+
+super com/fasterxml/jackson/databind/ser/std/StdSerializer
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+_msg
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+serialize
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V

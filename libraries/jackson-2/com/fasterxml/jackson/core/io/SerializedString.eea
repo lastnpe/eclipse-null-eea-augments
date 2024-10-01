@@ -1,0 +1,66 @@
+class com/fasterxml/jackson/core/io/SerializedString
+
+_jdkSerializeValue
+ Ljava/lang/String;
+ Ljava/lang/String;
+_quotedChars
+ [C
+ [C
+_quotedUTF8Ref
+ [B
+ [B
+_unquotedUTF8Ref
+ [B
+ [B
+_value
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+appendQuoted
+ ([CI)I
+ ([CI)I
+appendQuotedUTF8
+ ([BI)I
+ ([BI)I
+appendUnquoted
+ ([CI)I
+ ([CI)I
+appendUnquotedUTF8
+ ([BI)I
+ ([BI)I
+asQuotedChars
+ ()[C
+ ()[C
+asQuotedUTF8
+ ()[B
+ ()[B
+asUnquotedUTF8
+ ()[B
+ ()[B
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getValue
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+putQuotedUTF8
+ (Ljava/nio/ByteBuffer;)I
+ (Ljava/nio/ByteBuffer;)I
+putUnquotedUTF8
+ (Ljava/nio/ByteBuffer;)I
+ (Ljava/nio/ByteBuffer;)I
+readResolve
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+writeQuotedUTF8
+ (Ljava/io/OutputStream;)I
+ (Ljava/io/OutputStream;)I
+writeUnquotedUTF8
+ (Ljava/io/OutputStream;)I
+ (Ljava/io/OutputStream;)I

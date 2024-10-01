@@ -1,0 +1,26 @@
+class java/awt/Scrollbar
+
+addAdjustmentListener
+ (Ljava/awt/event/AdjustmentListener;)V
+ (L1java/awt/event/AdjustmentListener;)V # @Inherited(java.awt.Adjustable)
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getAdjustmentListeners
+ ()[Ljava/awt/event/AdjustmentListener;
+ ()[Ljava/awt/event/AdjustmentListener;
+getListeners
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+processAdjustmentEvent
+ (Ljava/awt/event/AdjustmentEvent;)V
+ (Ljava/awt/event/AdjustmentEvent;)V
+processEvent
+ (Ljava/awt/AWTEvent;)V
+ (Ljava/awt/AWTEvent;)V
+removeAdjustmentListener
+ (Ljava/awt/event/AdjustmentListener;)V
+ (L1java/awt/event/AdjustmentListener;)V # @Inherited(java.awt.Adjustable)

@@ -1,0 +1,33 @@
+class java/awt/color/ICC_Profile
+
+getInstance
+ (I)Ljava/awt/color/ICC_Profile;
+ (I)Ljava/awt/color/ICC_Profile;
+getInstance
+ (Ljava/io/InputStream;)Ljava/awt/color/ICC_Profile;
+ (Ljava/io/InputStream;)Ljava/awt/color/ICC_Profile;
+getInstance
+ (Ljava/lang/String;)Ljava/awt/color/ICC_Profile;
+ (Ljava/lang/String;)Ljava/awt/color/ICC_Profile;
+getInstance
+ ([B)Ljava/awt/color/ICC_Profile;
+ ([B)Ljava/awt/color/ICC_Profile;
+
+getData
+ ()[B
+ ()[B
+getData
+ (I)[B
+ (I)[B
+readResolve
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;
+setData
+ (I[B)V
+ (I[B)V
+write
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V
+write
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

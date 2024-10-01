@@ -1,0 +1,61 @@
+class java/nio/charset/Charset
+
+super java/lang/Comparable
+ <Ljava/nio/charset/Charset;>
+ <Ljava/nio/charset/Charset;>
+
+availableCharsets
+ ()Ljava/util/SortedMap<Ljava/lang/String;Ljava/nio/charset/Charset;>;
+ ()L1java/util/SortedMap<L1java/lang/String;L1java/nio/charset/Charset;>;
+defaultCharset
+ ()Ljava/nio/charset/Charset;
+ ()L1java/nio/charset/Charset;
+forName
+ (Ljava/lang/String;)Ljava/nio/charset/Charset;
+ (L1java/lang/String;)L1java/nio/charset/Charset;
+isSupported
+ (Ljava/lang/String;)Z
+ (L1java/lang/String;)Z
+
+<init>
+ (Ljava/lang/String;[Ljava/lang/String;)V
+ (L1java/lang/String;[0Ljava/lang/String;)V
+aliases
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()L1java/util/Set<L1java/lang/String;>;
+compareTo
+ (Ljava/nio/charset/Charset;)I
+ (L1java/nio/charset/Charset;)I
+contains
+ (Ljava/nio/charset/Charset;)Z
+ (L0java/nio/charset/Charset;)Z
+decode
+ (Ljava/nio/ByteBuffer;)Ljava/nio/CharBuffer;
+ (L1java/nio/ByteBuffer;)L1java/nio/CharBuffer;
+displayName
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+displayName
+ (Ljava/util/Locale;)Ljava/lang/String;
+ (L1java/util/Locale;)L1java/lang/String;
+encode
+ (Ljava/lang/String;)Ljava/nio/ByteBuffer;
+ (L1java/lang/String;)L1java/nio/ByteBuffer;
+encode
+ (Ljava/nio/CharBuffer;)Ljava/nio/ByteBuffer;
+ (L1java/nio/CharBuffer;)L1java/nio/ByteBuffer;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+name
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+newDecoder
+ ()Ljava/nio/charset/CharsetDecoder;
+ ()L1java/nio/charset/CharsetDecoder;
+newEncoder
+ ()Ljava/nio/charset/CharsetEncoder;
+ ()L1java/nio/charset/CharsetEncoder;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

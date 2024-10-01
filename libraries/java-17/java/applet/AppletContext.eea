@@ -1,0 +1,32 @@
+class java/applet/AppletContext
+
+getApplet
+ (Ljava/lang/String;)Ljava/applet/Applet;
+ (Ljava/lang/String;)Ljava/applet/Applet;
+getApplets
+ ()Ljava/util/Enumeration<Ljava/applet/Applet;>;
+ ()Ljava/util/Enumeration<Ljava/applet/Applet;>;
+getAudioClip
+ (Ljava/net/URL;)Ljava/applet/AudioClip;
+ (Ljava/net/URL;)Ljava/applet/AudioClip;
+getImage
+ (Ljava/net/URL;)Ljava/awt/Image;
+ (Ljava/net/URL;)Ljava/awt/Image;
+getStream
+ (Ljava/lang/String;)Ljava/io/InputStream;
+ (Ljava/lang/String;)Ljava/io/InputStream;
+getStreamKeys
+ ()Ljava/util/Iterator<Ljava/lang/String;>;
+ ()Ljava/util/Iterator<Ljava/lang/String;>;
+setStream
+ (Ljava/lang/String;Ljava/io/InputStream;)V
+ (Ljava/lang/String;Ljava/io/InputStream;)V
+showDocument
+ (Ljava/net/URL;)V
+ (Ljava/net/URL;)V
+showDocument
+ (Ljava/net/URL;Ljava/lang/String;)V
+ (Ljava/net/URL;Ljava/lang/String;)V
+showStatus
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

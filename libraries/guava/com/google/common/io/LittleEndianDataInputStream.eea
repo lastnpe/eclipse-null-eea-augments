@@ -1,0 +1,17 @@
+class com/google/common/io/LittleEndianDataInputStream
+
+<init>
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+readFully
+ ([B)V
+ ([1B)V # @Inherited(java.io.DataInput)
+readFully
+ ([BII)V
+ ([1BII)V # @Inherited(java.io.DataInput)
+readLine
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(java.io.DataInput)
+readUTF
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.io.DataInput)

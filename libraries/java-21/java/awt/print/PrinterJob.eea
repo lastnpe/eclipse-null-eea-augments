@@ -1,0 +1,60 @@
+class java/awt/print/PrinterJob
+
+getPrinterJob
+ ()Ljava/awt/print/PrinterJob;
+ ()Ljava/awt/print/PrinterJob;
+lookupPrintServices
+ ()[Ljavax/print/PrintService;
+ ()[Ljavax/print/PrintService;
+lookupStreamPrintServices
+ (Ljava/lang/String;)[Ljavax/print/StreamPrintServiceFactory;
+ (Ljava/lang/String;)[Ljavax/print/StreamPrintServiceFactory;
+
+defaultPage
+ ()Ljava/awt/print/PageFormat;
+ ()Ljava/awt/print/PageFormat;
+defaultPage
+ (Ljava/awt/print/PageFormat;)Ljava/awt/print/PageFormat;
+ (Ljava/awt/print/PageFormat;)Ljava/awt/print/PageFormat;
+getJobName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPageFormat
+ (Ljavax/print/attribute/PrintRequestAttributeSet;)Ljava/awt/print/PageFormat;
+ (Ljavax/print/attribute/PrintRequestAttributeSet;)Ljava/awt/print/PageFormat;
+getPrintService
+ ()Ljavax/print/PrintService;
+ ()Ljavax/print/PrintService;
+getUserName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+pageDialog
+ (Ljava/awt/print/PageFormat;)Ljava/awt/print/PageFormat;
+ (Ljava/awt/print/PageFormat;)Ljava/awt/print/PageFormat;
+pageDialog
+ (Ljavax/print/attribute/PrintRequestAttributeSet;)Ljava/awt/print/PageFormat;
+ (Ljavax/print/attribute/PrintRequestAttributeSet;)Ljava/awt/print/PageFormat;
+print
+ (Ljavax/print/attribute/PrintRequestAttributeSet;)V
+ (Ljavax/print/attribute/PrintRequestAttributeSet;)V
+printDialog
+ (Ljavax/print/attribute/PrintRequestAttributeSet;)Z
+ (Ljavax/print/attribute/PrintRequestAttributeSet;)Z
+setJobName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPageable
+ (Ljava/awt/print/Pageable;)V
+ (Ljava/awt/print/Pageable;)V
+setPrintService
+ (Ljavax/print/PrintService;)V
+ (Ljavax/print/PrintService;)V
+setPrintable
+ (Ljava/awt/print/Printable;)V
+ (Ljava/awt/print/Printable;)V
+setPrintable
+ (Ljava/awt/print/Printable;Ljava/awt/print/PageFormat;)V
+ (Ljava/awt/print/Printable;Ljava/awt/print/PageFormat;)V
+validatePage
+ (Ljava/awt/print/PageFormat;)Ljava/awt/print/PageFormat;
+ (Ljava/awt/print/PageFormat;)Ljava/awt/print/PageFormat;

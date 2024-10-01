@@ -1,0 +1,68 @@
+class com/google/common/graph/AbstractNetwork
+ <N:Ljava/lang/Object;E:Ljava/lang/Object;>
+ <N:Ljava/lang/Object;E:Ljava/lang/Object;>
+
+super com/google/common/graph/Network
+ <TN;TE;>
+ <TN;TE;>
+
+adjacentEdges
+ (TE;)Ljava/util/Set<TE;>;
+ (TE;)Ljava/util/Set<TE;>;
+asGraph
+ ()Lcom/google/common/graph/Graph<TN;>;
+ ()Lcom/google/common/graph/Graph<TN;>;
+degree
+ (TN;)I
+ (TN;)I
+edgeConnecting
+ (Lcom/google/common/graph/EndpointPair<TN;>;)Ljava/util/Optional<TE;>;
+ (Lcom/google/common/graph/EndpointPair<TN;>;)Ljava/util/Optional<TE;>;
+edgeConnecting
+ (TN;TN;)Ljava/util/Optional<TE;>;
+ (TN;TN;)Ljava/util/Optional<TE;>;
+edgeConnectingOrNull
+ (Lcom/google/common/graph/EndpointPair<TN;>;)TE;
+ (Lcom/google/common/graph/EndpointPair<TN;>;)T0E; # @Inherited(com.google.common.graph.Network)
+edgeConnectingOrNull
+ (TN;TN;)TE;
+ (TN;TN;)T0E; # @Inherited(com.google.common.graph.Network)
+edgeInvalidatableSet
+ <T:Ljava/lang/Object;>(Ljava/util/Set<TT;>;TE;)Ljava/util/Set<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Set<TT;>;TE;)Ljava/util/Set<TT;>;
+edgesConnecting
+ (Lcom/google/common/graph/EndpointPair<TN;>;)Ljava/util/Set<TE;>;
+ (Lcom/google/common/graph/EndpointPair<TN;>;)Ljava/util/Set<TE;>;
+edgesConnecting
+ (TN;TN;)Ljava/util/Set<TE;>;
+ (TN;TN;)Ljava/util/Set<TE;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+hasEdgeConnecting
+ (Lcom/google/common/graph/EndpointPair<TN;>;)Z
+ (Lcom/google/common/graph/EndpointPair<TN;>;)Z
+hasEdgeConnecting
+ (TN;TN;)Z
+ (TN;TN;)Z
+inDegree
+ (TN;)I
+ (TN;)I
+isOrderingCompatible
+ (Lcom/google/common/graph/EndpointPair<*>;)Z
+ (Lcom/google/common/graph/EndpointPair<*>;)Z
+nodeInvalidatableSet
+ <T:Ljava/lang/Object;>(Ljava/util/Set<TT;>;TN;)Ljava/util/Set<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Set<TT;>;TN;)Ljava/util/Set<TT;>;
+nodePairInvalidatableSet
+ <T:Ljava/lang/Object;>(Ljava/util/Set<TT;>;TN;TN;)Ljava/util/Set<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Set<TT;>;TN;TN;)Ljava/util/Set<TT;>;
+outDegree
+ (TN;)I
+ (TN;)I
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+validateEndpoints
+ (Lcom/google/common/graph/EndpointPair<*>;)V
+ (Lcom/google/common/graph/EndpointPair<*>;)V

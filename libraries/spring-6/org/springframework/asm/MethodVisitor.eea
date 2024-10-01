@@ -1,0 +1,84 @@
+class org/springframework/asm/MethodVisitor
+
+mv
+ Lorg/springframework/asm/MethodVisitor;
+ Lorg/springframework/asm/MethodVisitor;
+
+<init>
+ (ILorg/springframework/asm/MethodVisitor;)V
+ (ILorg/springframework/asm/MethodVisitor;)V
+getDelegate
+ ()Lorg/springframework/asm/MethodVisitor;
+ ()Lorg/springframework/asm/MethodVisitor;
+visitAnnotation
+ (Ljava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;
+ (Ljava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;
+visitAnnotationDefault
+ ()Lorg/springframework/asm/AnnotationVisitor;
+ ()Lorg/springframework/asm/AnnotationVisitor;
+visitAttribute
+ (Lorg/springframework/asm/Attribute;)V
+ (Lorg/springframework/asm/Attribute;)V
+visitFieldInsn
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+visitFrame
+ (II[Ljava/lang/Object;I[Ljava/lang/Object;)V
+ (II[Ljava/lang/Object;I[Ljava/lang/Object;)V
+visitInsnAnnotation
+ (ILorg/springframework/asm/TypePath;Ljava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;
+ (ILorg/springframework/asm/TypePath;Ljava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;
+visitInvokeDynamicInsn
+ (Ljava/lang/String;Ljava/lang/String;Lorg/springframework/asm/Handle;[Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/String;Lorg/springframework/asm/Handle;[Ljava/lang/Object;)V
+visitJumpInsn
+ (ILorg/springframework/asm/Label;)V
+ (ILorg/springframework/asm/Label;)V
+visitLabel
+ (Lorg/springframework/asm/Label;)V
+ (Lorg/springframework/asm/Label;)V
+visitLdcInsn
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+visitLineNumber
+ (ILorg/springframework/asm/Label;)V
+ (ILorg/springframework/asm/Label;)V
+visitLocalVariable
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/springframework/asm/Label;Lorg/springframework/asm/Label;I)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/springframework/asm/Label;Lorg/springframework/asm/Label;I)V
+visitLocalVariableAnnotation
+ (ILorg/springframework/asm/TypePath;[Lorg/springframework/asm/Label;[Lorg/springframework/asm/Label;[ILjava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;
+ (ILorg/springframework/asm/TypePath;[Lorg/springframework/asm/Label;[Lorg/springframework/asm/Label;[ILjava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;
+visitLookupSwitchInsn
+ (Lorg/springframework/asm/Label;[I[Lorg/springframework/asm/Label;)V
+ (Lorg/springframework/asm/Label;[I[Lorg/springframework/asm/Label;)V
+visitMethodInsn
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+visitMethodInsn
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+visitMultiANewArrayInsn
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+visitParameter
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+visitParameterAnnotation
+ (ILjava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;
+ (ILjava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;
+visitTableSwitchInsn
+ (IILorg/springframework/asm/Label;[Lorg/springframework/asm/Label;)V
+ (IILorg/springframework/asm/Label;[Lorg/springframework/asm/Label;)V
+visitTryCatchAnnotation
+ (ILorg/springframework/asm/TypePath;Ljava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;
+ (ILorg/springframework/asm/TypePath;Ljava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;
+visitTryCatchBlock
+ (Lorg/springframework/asm/Label;Lorg/springframework/asm/Label;Lorg/springframework/asm/Label;Ljava/lang/String;)V
+ (Lorg/springframework/asm/Label;Lorg/springframework/asm/Label;Lorg/springframework/asm/Label;Ljava/lang/String;)V
+visitTypeAnnotation
+ (ILorg/springframework/asm/TypePath;Ljava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;
+ (ILorg/springframework/asm/TypePath;Ljava/lang/String;Z)Lorg/springframework/asm/AnnotationVisitor;
+visitTypeInsn
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V

@@ -1,0 +1,29 @@
+class org/springframework/beans/factory/parsing/Problem
+
+<init>
+ (Ljava/lang/String;Lorg/springframework/beans/factory/parsing/Location;)V
+ (Ljava/lang/String;Lorg/springframework/beans/factory/parsing/Location;)V
+<init>
+ (Ljava/lang/String;Lorg/springframework/beans/factory/parsing/Location;Lorg/springframework/beans/factory/parsing/ParseState;)V
+ (Ljava/lang/String;Lorg/springframework/beans/factory/parsing/Location;Lorg/springframework/beans/factory/parsing/ParseState;)V
+<init>
+ (Ljava/lang/String;Lorg/springframework/beans/factory/parsing/Location;Lorg/springframework/beans/factory/parsing/ParseState;Ljava/lang/Throwable;)V
+ (Ljava/lang/String;Lorg/springframework/beans/factory/parsing/Location;Lorg/springframework/beans/factory/parsing/ParseState;Ljava/lang/Throwable;)V
+getLocation
+ ()Lorg/springframework/beans/factory/parsing/Location;
+ ()Lorg/springframework/beans/factory/parsing/Location;
+getMessage
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getParseState
+ ()Lorg/springframework/beans/factory/parsing/ParseState;
+ ()L0org/springframework/beans/factory/parsing/ParseState;
+getResourceDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRootCause
+ ()Ljava/lang/Throwable;
+ ()L0java/lang/Throwable;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

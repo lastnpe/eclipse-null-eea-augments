@@ -1,0 +1,11 @@
+class org/eclipse/jetty/client/BasicAuthentication
+
+<init>
+ (Ljava/net/URI;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/net/URI;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+authenticate
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/ContentResponse;Lorg/eclipse/jetty/client/Authentication$HeaderInfo;Lorg/eclipse/jetty/util/Attributes;)Lorg/eclipse/jetty/client/Authentication$Result;
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/ContentResponse;Lorg/eclipse/jetty/client/Authentication$HeaderInfo;Lorg/eclipse/jetty/util/Attributes;)Lorg/eclipse/jetty/client/Authentication$Result;
+getType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

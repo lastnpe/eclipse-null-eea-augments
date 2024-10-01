@@ -1,0 +1,36 @@
+class java/beans/XMLDecoder
+
+createHandler
+ (Ljava/lang/Object;Ljava/beans/ExceptionListener;Ljava/lang/ClassLoader;)Lorg/xml/sax/helpers/DefaultHandler;
+ (Ljava/lang/Object;Ljava/beans/ExceptionListener;Ljava/lang/ClassLoader;)Lorg/xml/sax/helpers/DefaultHandler;
+
+<init>
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+<init>
+ (Ljava/io/InputStream;Ljava/lang/Object;)V
+ (Ljava/io/InputStream;Ljava/lang/Object;)V
+<init>
+ (Ljava/io/InputStream;Ljava/lang/Object;Ljava/beans/ExceptionListener;)V
+ (Ljava/io/InputStream;Ljava/lang/Object;Ljava/beans/ExceptionListener;)V
+<init>
+ (Ljava/io/InputStream;Ljava/lang/Object;Ljava/beans/ExceptionListener;Ljava/lang/ClassLoader;)V
+ (Ljava/io/InputStream;Ljava/lang/Object;Ljava/beans/ExceptionListener;Ljava/lang/ClassLoader;)V
+<init>
+ (Lorg/xml/sax/InputSource;)V
+ (Lorg/xml/sax/InputSource;)V
+getExceptionListener
+ ()Ljava/beans/ExceptionListener;
+ ()Ljava/beans/ExceptionListener;
+getOwner
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+readObject
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;
+setExceptionListener
+ (Ljava/beans/ExceptionListener;)V
+ (Ljava/beans/ExceptionListener;)V
+setOwner
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

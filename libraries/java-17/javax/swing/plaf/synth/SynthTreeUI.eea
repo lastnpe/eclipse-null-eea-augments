@@ -1,0 +1,54 @@
+class javax/swing/plaf/synth/SynthTreeUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+createDefaultCellEditor
+ ()Ljavax/swing/tree/TreeCellEditor;
+ ()Ljavax/swing/tree/TreeCellEditor;
+createDefaultCellRenderer
+ ()Ljavax/swing/tree/TreeCellRenderer;
+ ()Ljavax/swing/tree/TreeCellRenderer;
+drawCentered
+ (Ljava/awt/Component;Ljava/awt/Graphics;Ljavax/swing/Icon;II)V
+ (Ljava/awt/Component;Ljava/awt/Graphics;Ljavax/swing/Icon;II)V
+getContext
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/synth/SynthContext;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/synth/SynthContext;
+getExpandedIcon
+ ()Ljavax/swing/Icon;
+ ()Ljavax/swing/Icon;
+paint
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+paint
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;)V
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;)V
+paintBorder
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;IIII)V
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;IIII)V
+paintDropLine
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paintExpandControl
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;Ljava/awt/Insets;Ljava/awt/Rectangle;Ljavax/swing/tree/TreePath;IZZZ)V
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;Ljava/awt/Insets;Ljava/awt/Rectangle;Ljavax/swing/tree/TreePath;IZZZ)V
+paintHorizontalLine
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;III)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;III)V
+paintHorizontalPartOfLeg
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;Ljava/awt/Insets;Ljava/awt/Rectangle;Ljavax/swing/tree/TreePath;IZZZ)V
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;Ljava/awt/Insets;Ljava/awt/Rectangle;Ljavax/swing/tree/TreePath;IZZZ)V
+paintVerticalLine
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;III)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;III)V
+paintVerticalPartOfLeg
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;Ljava/awt/Insets;Ljavax/swing/tree/TreePath;)V
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;Ljava/awt/Insets;Ljavax/swing/tree/TreePath;)V
+propertyChange
+ (Ljava/beans/PropertyChangeEvent;)V
+ (L1java/beans/PropertyChangeEvent;)V # @Inherited(java.beans.PropertyChangeListener)
+update
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V

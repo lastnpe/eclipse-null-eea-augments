@@ -1,0 +1,48 @@
+class javax/crypto/Mac
+
+getInstance
+ (Ljava/lang/String;)Ljavax/crypto/Mac;
+ (Ljava/lang/String;)Ljavax/crypto/Mac;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/Mac;
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/Mac;
+getInstance
+ (Ljava/lang/String;Ljava/security/Provider;)Ljavax/crypto/Mac;
+ (Ljava/lang/String;Ljava/security/Provider;)Ljavax/crypto/Mac;
+
+<init>
+ (Ljavax/crypto/MacSpi;Ljava/security/Provider;Ljava/lang/String;)V
+ (Ljavax/crypto/MacSpi;Ljava/security/Provider;Ljava/lang/String;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+doFinal
+ ()[B
+ ()[B
+doFinal
+ ([B)[B
+ ([B)[B
+doFinal
+ ([BI)V
+ ([BI)V
+getAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getProvider
+ ()Ljava/security/Provider;
+ ()Ljava/security/Provider;
+init
+ (Ljava/security/Key;)V
+ (Ljava/security/Key;)V
+init
+ (Ljava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+ (Ljava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+update
+ (Ljava/nio/ByteBuffer;)V
+ (Ljava/nio/ByteBuffer;)V
+update
+ ([B)V
+ ([B)V
+update
+ ([BII)V
+ ([BII)V

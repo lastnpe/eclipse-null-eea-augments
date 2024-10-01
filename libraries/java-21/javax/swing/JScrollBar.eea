@@ -1,0 +1,42 @@
+class javax/swing/JScrollBar
+
+model
+ Ljavax/swing/BoundedRangeModel;
+ Ljavax/swing/BoundedRangeModel;
+
+addAdjustmentListener
+ (Ljava/awt/event/AdjustmentListener;)V
+ (L1java/awt/event/AdjustmentListener;)V # @Inherited(java.awt.Adjustable)
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getAdjustmentListeners
+ ()[Ljava/awt/event/AdjustmentListener;
+ ()[Ljava/awt/event/AdjustmentListener;
+getMaximumSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getMinimumSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getModel
+ ()Ljavax/swing/BoundedRangeModel;
+ ()Ljavax/swing/BoundedRangeModel;
+getUI
+ ()Ljavax/swing/plaf/ScrollBarUI;
+ ()Ljavax/swing/plaf/ScrollBarUI;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+removeAdjustmentListener
+ (Ljava/awt/event/AdjustmentListener;)V
+ (L1java/awt/event/AdjustmentListener;)V # @Inherited(java.awt.Adjustable)
+setModel
+ (Ljavax/swing/BoundedRangeModel;)V
+ (Ljavax/swing/BoundedRangeModel;)V
+setUI
+ (Ljavax/swing/plaf/ScrollBarUI;)V
+ (Ljavax/swing/plaf/ScrollBarUI;)V

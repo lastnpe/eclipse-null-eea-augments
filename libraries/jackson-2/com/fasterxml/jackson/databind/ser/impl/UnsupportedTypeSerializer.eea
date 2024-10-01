@@ -1,0 +1,19 @@
+class com/fasterxml/jackson/databind/ser/impl/UnsupportedTypeSerializer
+
+super com/fasterxml/jackson/databind/ser/std/StdSerializer
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+_message
+ Ljava/lang/String;
+ Ljava/lang/String;
+_type
+ Lcom/fasterxml/jackson/databind/JavaType;
+ Lcom/fasterxml/jackson/databind/JavaType;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;)V
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;)V
+serialize
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V

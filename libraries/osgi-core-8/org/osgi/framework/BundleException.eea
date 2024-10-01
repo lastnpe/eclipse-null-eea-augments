@@ -1,0 +1,23 @@
+class org/osgi/framework/BundleException
+
+<init>
+ (Ljava/lang/String;)V
+ (L0java/lang/String;)V
+<init>
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+<init>
+ (Ljava/lang/String;ILjava/lang/Throwable;)V
+ (Ljava/lang/String;ILjava/lang/Throwable;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+ (L0java/lang/String;L0java/lang/Throwable;)V
+getCause
+ ()Ljava/lang/Throwable;
+ ()L0java/lang/Throwable; # @Inherited(java.lang.Throwable)
+getNestedException
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
+initCause
+ (Ljava/lang/Throwable;)Ljava/lang/Throwable;
+ (L0java/lang/Throwable;)Ljava/lang/Throwable; # @Inherited(java.lang.Throwable)

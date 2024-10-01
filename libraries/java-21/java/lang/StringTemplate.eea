@@ -1,0 +1,40 @@
+class java/lang/StringTemplate
+
+RAW
+ Ljava/lang/StringTemplate$Processor<Ljava/lang/StringTemplate;Ljava/lang/RuntimeException;>;
+ L1java/lang/StringTemplate$Processor<Ljava/lang/StringTemplate;Ljava/lang/RuntimeException;>;
+STR
+ Ljava/lang/StringTemplate$Processor<Ljava/lang/String;Ljava/lang/RuntimeException;>;
+ L1java/lang/StringTemplate$Processor<Ljava/lang/String;Ljava/lang/RuntimeException;>;
+
+combine
+ (Ljava/util/List<Ljava/lang/StringTemplate;>;)Ljava/lang/StringTemplate;
+ (Ljava/util/List<Ljava/lang/StringTemplate;>;)Ljava/lang/StringTemplate;
+combine
+ ([Ljava/lang/StringTemplate;)Ljava/lang/StringTemplate;
+ ([Ljava/lang/StringTemplate;)Ljava/lang/StringTemplate;
+interpolate
+ (Ljava/util/List<Ljava/lang/String;>;Ljava/util/List<*>;)Ljava/lang/String;
+ (Ljava/util/List<Ljava/lang/String;>;Ljava/util/List<*>;)Ljava/lang/String;
+of
+ (Ljava/lang/String;)Ljava/lang/StringTemplate;
+ (Ljava/lang/String;)Ljava/lang/StringTemplate;
+of
+ (Ljava/util/List<Ljava/lang/String;>;Ljava/util/List<*>;)Ljava/lang/StringTemplate;
+ (Ljava/util/List<Ljava/lang/String;>;Ljava/util/List<*>;)Ljava/lang/StringTemplate;
+toString
+ (Ljava/lang/StringTemplate;)Ljava/lang/String;
+ (Ljava/lang/StringTemplate;)Ljava/lang/String;
+
+fragments
+ ()Ljava/util/List<Ljava/lang/String;>;
+ ()Ljava/util/List<Ljava/lang/String;>;
+interpolate
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+process
+ <R:Ljava/lang/Object;E:Ljava/lang/Throwable;>(Ljava/lang/StringTemplate$Processor<+TR;+TE;>;)TR;^TE;
+ <R:Ljava/lang/Object;E:Ljava/lang/Throwable;>(Ljava/lang/StringTemplate$Processor<+TR;+TE;>;)TR;^TE;
+values
+ ()Ljava/util/List<Ljava/lang/Object;>;
+ ()Ljava/util/List<Ljava/lang/Object;>;

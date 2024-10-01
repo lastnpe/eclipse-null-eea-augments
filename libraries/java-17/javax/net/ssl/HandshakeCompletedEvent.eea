@@ -1,0 +1,29 @@
+class javax/net/ssl/HandshakeCompletedEvent
+
+<init>
+ (Ljavax/net/ssl/SSLSocket;Ljavax/net/ssl/SSLSession;)V
+ (Ljavax/net/ssl/SSLSocket;Ljavax/net/ssl/SSLSession;)V
+getCipherSuite
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getLocalCertificates
+ ()[Ljava/security/cert/Certificate;
+ ()[Ljava/security/cert/Certificate;
+getLocalPrincipal
+ ()Ljava/security/Principal;
+ ()Ljava/security/Principal;
+getPeerCertificateChain
+ ()[Ljavax/security/cert/X509Certificate;
+ ()[Ljavax/security/cert/X509Certificate;
+getPeerCertificates
+ ()[Ljava/security/cert/Certificate;
+ ()[Ljava/security/cert/Certificate;
+getPeerPrincipal
+ ()Ljava/security/Principal;
+ ()Ljava/security/Principal;
+getSession
+ ()Ljavax/net/ssl/SSLSession;
+ ()Ljavax/net/ssl/SSLSession;
+getSocket
+ ()Ljavax/net/ssl/SSLSocket;
+ ()Ljavax/net/ssl/SSLSocket;

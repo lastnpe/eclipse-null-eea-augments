@@ -1,0 +1,36 @@
+class com/google/common/collect/MutableClassToInstanceMap
+ <B:Ljava/lang/Object;>
+ <B:Ljava/lang/Object;>
+
+super com/google/common/collect/ForwardingMap
+ <Ljava/lang/Class<+TB;>;TB;>
+ <Ljava/lang/Class<+TB;>;TB;>
+super com/google/common/collect/ClassToInstanceMap
+ <TB;>
+ <TB;>
+
+create
+ <B:Ljava/lang/Object;>()Lcom/google/common/collect/MutableClassToInstanceMap<TB;>;
+ <B:Ljava/lang/Object;>()Lcom/google/common/collect/MutableClassToInstanceMap<TB;>;
+create
+ <B:Ljava/lang/Object;>(Ljava/util/Map<Ljava/lang/Class<+TB;>;TB;>;)Lcom/google/common/collect/MutableClassToInstanceMap<TB;>;
+ <B:Ljava/lang/Object;>(Ljava/util/Map<Ljava/lang/Class<+TB;>;TB;>;)Lcom/google/common/collect/MutableClassToInstanceMap<TB;>;
+
+delegate
+ ()Ljava/util/Map<Ljava/lang/Class<+TB;>;TB;>;
+ ()Ljava/util/Map<Ljava/lang/Class<+TB;>;TB;>;
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<Ljava/lang/Class<+TB;>;TB;>;>;
+ ()Ljava/util/Set<Ljava/util/Map$Entry<Ljava/lang/Class<+TB;>;TB;>;>;
+getInstance
+ <T:TB;>(Ljava/lang/Class<TT;>;)TT;
+ <T:TB;>(Ljava/lang/Class<TT;>;)T0T; # @Inherited(com.google.common.collect.ClassToInstanceMap)
+put
+ (Ljava/lang/Class<+TB;>;TB;)TB;
+ (Ljava/lang/Class<+TB;>;TB;)T0B;
+putAll
+ (Ljava/util/Map<+Ljava/lang/Class<+TB;>;+TB;>;)V
+ (Ljava/util/Map<+Ljava/lang/Class<+TB;>;+TB;>;)V
+putInstance
+ <T:TB;>(Ljava/lang/Class<TT;>;TT;)TT;
+ <T:TB;>(Ljava/lang/Class<TT;>;TT;)T0T; # @Inherited(com.google.common.collect.ClassToInstanceMap)

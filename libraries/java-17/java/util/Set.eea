@@ -1,0 +1,84 @@
+class java/util/Set
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/util/Collection
+ <TE;>
+ <TE;>
+
+copyOf
+ <E:Ljava/lang/Object;>(Ljava/util/Collection<+TE;>;)Ljava/util/Set<TE;>;
+ <E:Ljava/lang/Object;>(L1java/util/Collection<+TE;>;)L1java/util/Set<TE;>;
+of
+ <E:Ljava/lang/Object;>()Ljava/util/Set<TE;>;
+ <E:Ljava/lang/Object;>()L1java/util/Set<TE;>;
+of
+ <E:Ljava/lang/Object;>(TE;)Ljava/util/Set<TE;>;
+ <E:Ljava/lang/Object;>(T1E;)L1java/util/Set<TE;>;
+of
+ <E:Ljava/lang/Object;>(TE;TE;)Ljava/util/Set<TE;>;
+ <E:Ljava/lang/Object;>(T1E;T1E;)L1java/util/Set<TE;>;
+of
+ <E:Ljava/lang/Object;>(TE;TE;TE;)Ljava/util/Set<TE;>;
+ <E:Ljava/lang/Object;>(T1E;T1E;T1E;)L1java/util/Set<TE;>;
+of
+ <E:Ljava/lang/Object;>(TE;TE;TE;TE;)Ljava/util/Set<TE;>;
+ <E:Ljava/lang/Object;>(T1E;T1E;T1E;T1E;)L1java/util/Set<TE;>;
+of
+ <E:Ljava/lang/Object;>(TE;TE;TE;TE;TE;)Ljava/util/Set<TE;>;
+ <E:Ljava/lang/Object;>(T1E;T1E;T1E;T1E;T1E;)L1java/util/Set<TE;>;
+of
+ <E:Ljava/lang/Object;>(TE;TE;TE;TE;TE;TE;)Ljava/util/Set<TE;>;
+ <E:Ljava/lang/Object;>(T1E;T1E;T1E;T1E;T1E;T1E;)L1java/util/Set<TE;>;
+of
+ <E:Ljava/lang/Object;>(TE;TE;TE;TE;TE;TE;TE;)Ljava/util/Set<TE;>;
+ <E:Ljava/lang/Object;>(T1E;T1E;T1E;T1E;T1E;T1E;T1E;)L1java/util/Set<TE;>;
+of
+ <E:Ljava/lang/Object;>(TE;TE;TE;TE;TE;TE;TE;TE;)Ljava/util/Set<TE;>;
+ <E:Ljava/lang/Object;>(T1E;T1E;T1E;T1E;T1E;T1E;T1E;T1E;)L1java/util/Set<TE;>;
+of
+ <E:Ljava/lang/Object;>(TE;TE;TE;TE;TE;TE;TE;TE;TE;)Ljava/util/Set<TE;>;
+ <E:Ljava/lang/Object;>(T1E;T1E;T1E;T1E;T1E;T1E;T1E;T1E;T1E;)L1java/util/Set<TE;>;
+of
+ <E:Ljava/lang/Object;>(TE;TE;TE;TE;TE;TE;TE;TE;TE;TE;)Ljava/util/Set<TE;>;
+ <E:Ljava/lang/Object;>(T1E;T1E;T1E;T1E;T1E;T1E;T1E;T1E;T1E;T1E;)L1java/util/Set<TE;>;
+of
+ <E:Ljava/lang/Object;>([TE;)Ljava/util/Set<TE;>;
+ <E:Ljava/lang/Object;>([T1E;)L1java/util/Set<TE;>;
+
+add
+ (TE;)Z
+ (TE;)Z
+addAll
+ (Ljava/util/Collection<+TE;>;)Z
+ (L1java/util/Collection<+TE;>;)Z # @Inherited(java.util.Collection)
+contains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+containsAll
+ (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.Collection)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(java.util.Collection)
+remove
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+removeAll
+ (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.Collection)
+retainAll
+ (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.Collection)
+spliterator
+ ()Ljava/util/Spliterator<TE;>;
+ ()L1java/util/Spliterator<TE;>; # @Inherited(java.util.Collection)
+toArray
+ ()[Ljava/lang/Object;
+ ()[1Ljava/lang/Object; # @Inherited(java.util.Collection)
+toArray
+ <T:Ljava/lang/Object;>([TT;)[TT;
+ <T:Ljava/lang/Object;>([1TT;)[1TT; # @Inherited(java.util.Collection)

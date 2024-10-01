@@ -1,0 +1,15 @@
+class com/fasterxml/jackson/databind/deser/std/AtomicLongDeserializer
+
+super com/fasterxml/jackson/databind/deser/std/StdScalarDeserializer
+ <Ljava/util/concurrent/atomic/AtomicLong;>
+ <Ljava/util/concurrent/atomic/AtomicLong;>
+
+deserialize
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/util/concurrent/atomic/AtomicLong;
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/util/concurrent/atomic/AtomicLong;
+getEmptyValue
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object;
+ (L1com/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object; # @Inherited(com.fasterxml.jackson.databind.JsonDeserializer)
+logicalType
+ ()Lcom/fasterxml/jackson/databind/type/LogicalType;
+ ()L0com/fasterxml/jackson/databind/type/LogicalType; # @Inherited(com.fasterxml.jackson.databind.deser.std.StdScalarDeserializer)

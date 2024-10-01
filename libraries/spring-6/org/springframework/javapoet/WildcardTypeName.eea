@@ -1,0 +1,34 @@
+class org/springframework/javapoet/WildcardTypeName
+
+get
+ (Ljava/lang/reflect/WildcardType;)Lorg/springframework/javapoet/TypeName;
+ (Ljava/lang/reflect/WildcardType;)Lorg/springframework/javapoet/TypeName;
+get
+ (Ljavax/lang/model/type/WildcardType;)Lorg/springframework/javapoet/TypeName;
+ (Ljavax/lang/model/type/WildcardType;)Lorg/springframework/javapoet/TypeName;
+subtypeOf
+ (Ljava/lang/reflect/Type;)Lorg/springframework/javapoet/WildcardTypeName;
+ (Ljava/lang/reflect/Type;)Lorg/springframework/javapoet/WildcardTypeName;
+subtypeOf
+ (Lorg/springframework/javapoet/TypeName;)Lorg/springframework/javapoet/WildcardTypeName;
+ (Lorg/springframework/javapoet/TypeName;)Lorg/springframework/javapoet/WildcardTypeName;
+supertypeOf
+ (Ljava/lang/reflect/Type;)Lorg/springframework/javapoet/WildcardTypeName;
+ (Ljava/lang/reflect/Type;)Lorg/springframework/javapoet/WildcardTypeName;
+supertypeOf
+ (Lorg/springframework/javapoet/TypeName;)Lorg/springframework/javapoet/WildcardTypeName;
+ (Lorg/springframework/javapoet/TypeName;)Lorg/springframework/javapoet/WildcardTypeName;
+
+lowerBounds
+ Ljava/util/List<Lorg/springframework/javapoet/TypeName;>;
+ Ljava/util/List<Lorg/springframework/javapoet/TypeName;>;
+upperBounds
+ Ljava/util/List<Lorg/springframework/javapoet/TypeName;>;
+ Ljava/util/List<Lorg/springframework/javapoet/TypeName;>;
+
+annotated
+ (Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;)Lorg/springframework/javapoet/WildcardTypeName;
+ (Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;)Lorg/springframework/javapoet/WildcardTypeName;
+withoutAnnotations
+ ()Lorg/springframework/javapoet/TypeName;
+ ()Lorg/springframework/javapoet/TypeName;

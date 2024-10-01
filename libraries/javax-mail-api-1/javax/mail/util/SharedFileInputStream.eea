@@ -1,0 +1,24 @@
+class javax/mail/util/SharedFileInputStream
+
+in
+ Ljava/io/RandomAccessFile;
+ Ljava/io/RandomAccessFile;
+
+<init>
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+<init>
+ (Ljava/io/File;I)V
+ (Ljava/io/File;I)V
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+newStream
+ (JJ)Ljava/io/InputStream;
+ (JJ)Ljava/io/InputStream;
+read
+ ([BII)I
+ ([1BII)I # @Inherited(java.io.BufferedInputStream)

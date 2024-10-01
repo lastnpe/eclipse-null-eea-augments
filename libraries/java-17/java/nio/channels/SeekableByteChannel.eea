@@ -1,0 +1,14 @@
+class java/nio/channels/SeekableByteChannel
+
+position
+ (J)Ljava/nio/channels/SeekableByteChannel;
+ (J)Ljava/nio/channels/SeekableByteChannel;
+read
+ (Ljava/nio/ByteBuffer;)I
+ (L1java/nio/ByteBuffer;)I # @Inherited(java.nio.channels.ReadableByteChannel)
+truncate
+ (J)Ljava/nio/channels/SeekableByteChannel;
+ (J)Ljava/nio/channels/SeekableByteChannel;
+write
+ (Ljava/nio/ByteBuffer;)I
+ (L1java/nio/ByteBuffer;)I # @Inherited(java.nio.channels.WritableByteChannel)

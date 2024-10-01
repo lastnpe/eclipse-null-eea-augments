@@ -1,0 +1,64 @@
+class org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader
+
+ALIAS_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+ALIAS_ELEMENT
+ Ljava/lang/String;
+ L1java/lang/String;
+BEAN_ELEMENT
+ Ljava/lang/String;
+ L1java/lang/String;
+IMPORT_ELEMENT
+ Ljava/lang/String;
+ L1java/lang/String;
+NAME_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+NESTED_BEANS_ELEMENT
+ Ljava/lang/String;
+ L1java/lang/String;
+PROFILE_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+RESOURCE_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+createDelegate
+ (Lorg/springframework/beans/factory/xml/XmlReaderContext;Lorg/w3c/dom/Element;Lorg/springframework/beans/factory/xml/BeanDefinitionParserDelegate;)Lorg/springframework/beans/factory/xml/BeanDefinitionParserDelegate;
+ (Lorg/springframework/beans/factory/xml/XmlReaderContext;Lorg/w3c/dom/Element;Lorg/springframework/beans/factory/xml/BeanDefinitionParserDelegate;)Lorg/springframework/beans/factory/xml/BeanDefinitionParserDelegate;
+doRegisterBeanDefinitions
+ (Lorg/w3c/dom/Element;)V
+ (Lorg/w3c/dom/Element;)V
+extractSource
+ (Lorg/w3c/dom/Element;)Ljava/lang/Object;
+ (Lorg/w3c/dom/Element;)L0java/lang/Object;
+getReaderContext
+ ()Lorg/springframework/beans/factory/xml/XmlReaderContext;
+ ()Lorg/springframework/beans/factory/xml/XmlReaderContext;
+importBeanDefinitionResource
+ (Lorg/w3c/dom/Element;)V
+ (Lorg/w3c/dom/Element;)V
+parseBeanDefinitions
+ (Lorg/w3c/dom/Element;Lorg/springframework/beans/factory/xml/BeanDefinitionParserDelegate;)V
+ (Lorg/w3c/dom/Element;Lorg/springframework/beans/factory/xml/BeanDefinitionParserDelegate;)V
+postProcessXml
+ (Lorg/w3c/dom/Element;)V
+ (Lorg/w3c/dom/Element;)V
+preProcessXml
+ (Lorg/w3c/dom/Element;)V
+ (Lorg/w3c/dom/Element;)V
+processAliasRegistration
+ (Lorg/w3c/dom/Element;)V
+ (Lorg/w3c/dom/Element;)V
+processBeanDefinition
+ (Lorg/w3c/dom/Element;Lorg/springframework/beans/factory/xml/BeanDefinitionParserDelegate;)V
+ (Lorg/w3c/dom/Element;Lorg/springframework/beans/factory/xml/BeanDefinitionParserDelegate;)V
+registerBeanDefinitions
+ (Lorg/w3c/dom/Document;Lorg/springframework/beans/factory/xml/XmlReaderContext;)V
+ (Lorg/w3c/dom/Document;Lorg/springframework/beans/factory/xml/XmlReaderContext;)V

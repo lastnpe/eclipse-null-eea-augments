@@ -1,0 +1,23 @@
+class org/springframework/util/FastByteArrayOutputStream
+
+getInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+toByteArray
+ ()[B
+ ()[B
+toByteArrayUnsafe
+ ()[B
+ ()[B
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+toString
+ (Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/nio/charset/Charset;)Ljava/lang/String;
+write
+ ([BII)V
+ ([1BII)V # @Inherited(java.io.OutputStream)
+writeTo
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V

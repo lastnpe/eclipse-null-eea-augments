@@ -1,0 +1,29 @@
+class javax/xml/stream/util/EventReaderDelegate
+
+<init>
+ (Ljavax/xml/stream/XMLEventReader;)V
+ (Ljavax/xml/stream/XMLEventReader;)V
+getElementText
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.xml.stream.XMLEventReader)
+getParent
+ ()Ljavax/xml/stream/XMLEventReader;
+ ()Ljavax/xml/stream/XMLEventReader;
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (L1java/lang/String;)L1java/lang/Object; # @Inherited(javax.xml.stream.XMLEventReader)
+next
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+nextEvent
+ ()Ljavax/xml/stream/events/XMLEvent;
+ ()L1javax/xml/stream/events/XMLEvent; # @Inherited(javax.xml.stream.XMLEventReader)
+nextTag
+ ()Ljavax/xml/stream/events/XMLEvent;
+ ()L1javax/xml/stream/events/XMLEvent; # @Inherited(javax.xml.stream.XMLEventReader)
+peek
+ ()Ljavax/xml/stream/events/XMLEvent;
+ ()L0javax/xml/stream/events/XMLEvent; # @Inherited(javax.xml.stream.XMLEventReader)
+setParent
+ (Ljavax/xml/stream/XMLEventReader;)V
+ (Ljavax/xml/stream/XMLEventReader;)V

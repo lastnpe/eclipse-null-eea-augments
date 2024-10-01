@@ -1,0 +1,77 @@
+class com/fasterxml/jackson/databind/jsontype/TypeSerializer
+
+_writeLegacySuffix
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/core/type/WritableTypeId;)V
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/core/type/WritableTypeId;)V
+forProperty
+ (Lcom/fasterxml/jackson/databind/BeanProperty;)Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;
+ (Lcom/fasterxml/jackson/databind/BeanProperty;)Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;
+getPropertyName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTypeIdResolver
+ ()Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;
+ ()Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;
+getTypeInclusion
+ ()Lcom/fasterxml/jackson/annotation/JsonTypeInfo$As;
+ ()Lcom/fasterxml/jackson/annotation/JsonTypeInfo$As;
+typeId
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonToken;)Lcom/fasterxml/jackson/core/type/WritableTypeId;
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonToken;)Lcom/fasterxml/jackson/core/type/WritableTypeId;
+typeId
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonToken;Ljava/lang/Object;)Lcom/fasterxml/jackson/core/type/WritableTypeId;
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonToken;Ljava/lang/Object;)Lcom/fasterxml/jackson/core/type/WritableTypeId;
+typeId
+ (Ljava/lang/Object;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/core/JsonToken;)Lcom/fasterxml/jackson/core/type/WritableTypeId;
+ (Ljava/lang/Object;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/core/JsonToken;)Lcom/fasterxml/jackson/core/type/WritableTypeId;
+writeCustomTypePrefixForArray
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)V
+writeCustomTypePrefixForObject
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)V
+writeCustomTypePrefixForScalar
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)V
+writeCustomTypeSuffixForArray
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)V
+writeCustomTypeSuffixForObject
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)V
+writeCustomTypeSuffixForScalar
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)V
+writeTypePrefix
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/core/type/WritableTypeId;)Lcom/fasterxml/jackson/core/type/WritableTypeId;
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/core/type/WritableTypeId;)Lcom/fasterxml/jackson/core/type/WritableTypeId;
+writeTypePrefixForArray
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;)V
+writeTypePrefixForArray
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/Class<*>;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/Class<*>;)V
+writeTypePrefixForObject
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;)V
+writeTypePrefixForObject
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/Class<*>;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/Class<*>;)V
+writeTypePrefixForScalar
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;)V
+writeTypePrefixForScalar
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/Class<*>;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/Class<*>;)V
+writeTypeSuffix
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/core/type/WritableTypeId;)Lcom/fasterxml/jackson/core/type/WritableTypeId;
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/core/type/WritableTypeId;)Lcom/fasterxml/jackson/core/type/WritableTypeId;
+writeTypeSuffixForArray
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;)V
+writeTypeSuffixForObject
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;)V
+writeTypeSuffixForScalar
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;)V
+ (Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;)V

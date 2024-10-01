@@ -1,0 +1,21 @@
+class java/time/InstantSource
+
+fixed
+ (Ljava/time/Instant;)Ljava/time/InstantSource;
+ (Ljava/time/Instant;)Ljava/time/InstantSource;
+offset
+ (Ljava/time/InstantSource;Ljava/time/Duration;)Ljava/time/InstantSource;
+ (Ljava/time/InstantSource;Ljava/time/Duration;)Ljava/time/InstantSource;
+system
+ ()Ljava/time/InstantSource;
+ ()Ljava/time/InstantSource;
+tick
+ (Ljava/time/InstantSource;Ljava/time/Duration;)Ljava/time/InstantSource;
+ (Ljava/time/InstantSource;Ljava/time/Duration;)Ljava/time/InstantSource;
+
+instant
+ ()Ljava/time/Instant;
+ ()Ljava/time/Instant;
+withZone
+ (Ljava/time/ZoneId;)Ljava/time/Clock;
+ (Ljava/time/ZoneId;)Ljava/time/Clock;

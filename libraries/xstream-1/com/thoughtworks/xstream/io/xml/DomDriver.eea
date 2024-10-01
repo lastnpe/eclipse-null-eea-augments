@@ -1,0 +1,32 @@
+class com/thoughtworks/xstream/io/xml/DomDriver
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Lcom/thoughtworks/xstream/io/naming/NameCoder;)V
+ (Ljava/lang/String;Lcom/thoughtworks/xstream/io/naming/NameCoder;)V
+<init>
+ (Ljava/lang/String;Lcom/thoughtworks/xstream/io/xml/XmlFriendlyReplacer;)V
+ (Ljava/lang/String;Lcom/thoughtworks/xstream/io/xml/XmlFriendlyReplacer;)V
+createDocumentBuilderFactory
+ ()Ljavax/xml/parsers/DocumentBuilderFactory;
+ ()Ljavax/xml/parsers/DocumentBuilderFactory;
+createReader
+ (Ljava/io/File;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ (Ljava/io/File;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+createReader
+ (Ljava/io/InputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ (Ljava/io/InputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+createReader
+ (Ljava/io/Reader;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ (Ljava/io/Reader;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+createReader
+ (Ljava/net/URL;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ (Ljava/net/URL;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+createWriter
+ (Ljava/io/OutputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+ (Ljava/io/OutputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+createWriter
+ (Ljava/io/Writer;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+ (Ljava/io/Writer;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;

@@ -1,0 +1,74 @@
+class javax/management/ObjectName
+
+super java/lang/Comparable
+ <Ljavax/management/ObjectName;>
+ <Ljavax/management/ObjectName;>
+
+WILDCARD
+ Ljavax/management/ObjectName;
+ L1javax/management/ObjectName;
+
+getInstance
+ (Ljava/lang/String;)Ljavax/management/ObjectName;
+ (Ljava/lang/String;)Ljavax/management/ObjectName;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavax/management/ObjectName;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavax/management/ObjectName;
+getInstance
+ (Ljava/lang/String;Ljava/util/Hashtable<Ljava/lang/String;Ljava/lang/String;>;)Ljavax/management/ObjectName;
+ (Ljava/lang/String;Ljava/util/Hashtable<Ljava/lang/String;Ljava/lang/String;>;)Ljavax/management/ObjectName;
+getInstance
+ (Ljavax/management/ObjectName;)Ljavax/management/ObjectName;
+ (Ljavax/management/ObjectName;)Ljavax/management/ObjectName;
+quote
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+unquote
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/util/Hashtable<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Ljava/lang/String;Ljava/util/Hashtable<Ljava/lang/String;Ljava/lang/String;>;)V
+apply
+ (Ljavax/management/ObjectName;)Z
+ (Ljavax/management/ObjectName;)Z
+compareTo
+ (Ljavax/management/ObjectName;)I
+ (L1javax/management/ObjectName;)I
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getCanonicalKeyPropertyListString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getCanonicalName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDomain
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getKeyProperty
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getKeyPropertyList
+ ()Ljava/util/Hashtable<Ljava/lang/String;Ljava/lang/String;>;
+ ()Ljava/util/Hashtable<Ljava/lang/String;Ljava/lang/String;>;
+getKeyPropertyListString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+isPropertyValuePattern
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+setMBeanServer
+ (Ljavax/management/MBeanServer;)V
+ (Ljavax/management/MBeanServer;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

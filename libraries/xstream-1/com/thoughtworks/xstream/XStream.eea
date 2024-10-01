@@ -1,0 +1,298 @@
+class com/thoughtworks/xstream/XStream
+
+COLLECTION_UPDATE_LIMIT
+ Ljava/lang/String;
+ L1java/lang/String;
+COLLECTION_UPDATE_SECONDS
+ Ljava/lang/String;
+ L1java/lang/String;
+
+setupDefaultSecurity
+ (Lcom/thoughtworks/xstream/XStream;)V
+ (L1com/thoughtworks/xstream/XStream;)V
+
+<init>
+ (Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;)V
+ (Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;)V
+<init>
+ (Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;Lcom/thoughtworks/xstream/io/HierarchicalStreamDriver;)V
+ (Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;Lcom/thoughtworks/xstream/io/HierarchicalStreamDriver;)V
+<init>
+ (Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;Lcom/thoughtworks/xstream/io/HierarchicalStreamDriver;Lcom/thoughtworks/xstream/core/ClassLoaderReference;)V
+ (Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;Lcom/thoughtworks/xstream/io/HierarchicalStreamDriver;Lcom/thoughtworks/xstream/core/ClassLoaderReference;)V
+<init>
+ (Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;Lcom/thoughtworks/xstream/io/HierarchicalStreamDriver;Lcom/thoughtworks/xstream/core/ClassLoaderReference;Lcom/thoughtworks/xstream/mapper/Mapper;)V
+ (Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;Lcom/thoughtworks/xstream/io/HierarchicalStreamDriver;Lcom/thoughtworks/xstream/core/ClassLoaderReference;Lcom/thoughtworks/xstream/mapper/Mapper;)V
+<init>
+ (Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;Lcom/thoughtworks/xstream/io/HierarchicalStreamDriver;Lcom/thoughtworks/xstream/core/ClassLoaderReference;Lcom/thoughtworks/xstream/mapper/Mapper;Lcom/thoughtworks/xstream/converters/ConverterLookup;Lcom/thoughtworks/xstream/converters/ConverterRegistry;)V
+ (Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;Lcom/thoughtworks/xstream/io/HierarchicalStreamDriver;Lcom/thoughtworks/xstream/core/ClassLoaderReference;Lcom/thoughtworks/xstream/mapper/Mapper;Lcom/thoughtworks/xstream/converters/ConverterLookup;Lcom/thoughtworks/xstream/converters/ConverterRegistry;)V
+<init>
+ (Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;Lcom/thoughtworks/xstream/io/HierarchicalStreamDriver;Ljava/lang/ClassLoader;)V
+ (Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;Lcom/thoughtworks/xstream/io/HierarchicalStreamDriver;Ljava/lang/ClassLoader;)V
+<init>
+ (Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;Lcom/thoughtworks/xstream/io/HierarchicalStreamDriver;Ljava/lang/ClassLoader;Lcom/thoughtworks/xstream/mapper/Mapper;)V
+ (Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;Lcom/thoughtworks/xstream/io/HierarchicalStreamDriver;Ljava/lang/ClassLoader;Lcom/thoughtworks/xstream/mapper/Mapper;)V
+<init>
+ (Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;Lcom/thoughtworks/xstream/io/HierarchicalStreamDriver;Ljava/lang/ClassLoader;Lcom/thoughtworks/xstream/mapper/Mapper;Lcom/thoughtworks/xstream/converters/ConverterLookup;Lcom/thoughtworks/xstream/converters/ConverterRegistry;)V
+ (Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;Lcom/thoughtworks/xstream/io/HierarchicalStreamDriver;Ljava/lang/ClassLoader;Lcom/thoughtworks/xstream/mapper/Mapper;Lcom/thoughtworks/xstream/converters/ConverterLookup;Lcom/thoughtworks/xstream/converters/ConverterRegistry;)V
+<init>
+ (Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;Lcom/thoughtworks/xstream/mapper/Mapper;Lcom/thoughtworks/xstream/io/HierarchicalStreamDriver;)V
+ (Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;Lcom/thoughtworks/xstream/mapper/Mapper;Lcom/thoughtworks/xstream/io/HierarchicalStreamDriver;)V
+<init>
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamDriver;)V
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamDriver;)V
+addDefaultImplementation
+ (Ljava/lang/Class;Ljava/lang/Class;)V
+ (Ljava/lang/Class;Ljava/lang/Class;)V
+addImmutableType
+ (Ljava/lang/Class;)V
+ (Ljava/lang/Class;)V
+addImmutableType
+ (Ljava/lang/Class;Z)V
+ (Ljava/lang/Class;Z)V
+addImplicitArray
+ (Ljava/lang/Class;Ljava/lang/String;)V
+ (Ljava/lang/Class;Ljava/lang/String;)V
+addImplicitArray
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)V
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)V
+addImplicitArray
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
+addImplicitCollection
+ (Ljava/lang/Class;Ljava/lang/String;)V
+ (Ljava/lang/Class;Ljava/lang/String;)V
+addImplicitCollection
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)V
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)V
+addImplicitCollection
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;)V
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;)V
+addImplicitMap
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
+addImplicitMap
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
+addPermission
+ (Lcom/thoughtworks/xstream/security/TypePermission;)V
+ (Lcom/thoughtworks/xstream/security/TypePermission;)V
+alias
+ (Ljava/lang/String;Ljava/lang/Class;)V
+ (L1java/lang/String;L1java/lang/Class;)V
+alias
+ (Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Class;)V
+ (Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Class;)V
+aliasAttribute
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
+aliasAttribute
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+aliasField
+ (Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
+aliasPackage
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+aliasSystemAttribute
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+aliasType
+ (Ljava/lang/String;Ljava/lang/Class;)V
+ (Ljava/lang/String;Ljava/lang/Class;)V
+allowTypeHierarchy
+ (Ljava/lang/Class;)V
+ (Ljava/lang/Class;)V
+allowTypes
+ ([Ljava/lang/Class;)V
+ ([Ljava/lang/Class;)V
+allowTypes
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+allowTypesByRegExp
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+allowTypesByRegExp
+ ([Ljava/util/regex/Pattern;)V
+ ([Ljava/util/regex/Pattern;)V
+allowTypesByWildcard
+ ([Ljava/lang/String;)V
+ ([0Ljava/lang/String;)V
+createObjectInputStream
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;)Ljava/io/ObjectInputStream;
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;)Ljava/io/ObjectInputStream;
+createObjectInputStream
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Lcom/thoughtworks/xstream/converters/DataHolder;)Ljava/io/ObjectInputStream;
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Lcom/thoughtworks/xstream/converters/DataHolder;)Ljava/io/ObjectInputStream;
+createObjectInputStream
+ (Ljava/io/InputStream;)Ljava/io/ObjectInputStream;
+ (Ljava/io/InputStream;)Ljava/io/ObjectInputStream;
+createObjectInputStream
+ (Ljava/io/Reader;)Ljava/io/ObjectInputStream;
+ (Ljava/io/Reader;)Ljava/io/ObjectInputStream;
+createObjectOutputStream
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;)Ljava/io/ObjectOutputStream;
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;)Ljava/io/ObjectOutputStream;
+createObjectOutputStream
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Ljava/lang/String;)Ljava/io/ObjectOutputStream;
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Ljava/lang/String;)Ljava/io/ObjectOutputStream;
+createObjectOutputStream
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Ljava/lang/String;Lcom/thoughtworks/xstream/converters/DataHolder;)Ljava/io/ObjectOutputStream;
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Ljava/lang/String;Lcom/thoughtworks/xstream/converters/DataHolder;)Ljava/io/ObjectOutputStream;
+createObjectOutputStream
+ (Ljava/io/OutputStream;)Ljava/io/ObjectOutputStream;
+ (Ljava/io/OutputStream;)Ljava/io/ObjectOutputStream;
+createObjectOutputStream
+ (Ljava/io/OutputStream;Ljava/lang/String;)Ljava/io/ObjectOutputStream;
+ (Ljava/io/OutputStream;Ljava/lang/String;)Ljava/io/ObjectOutputStream;
+createObjectOutputStream
+ (Ljava/io/Writer;)Ljava/io/ObjectOutputStream;
+ (Ljava/io/Writer;)Ljava/io/ObjectOutputStream;
+createObjectOutputStream
+ (Ljava/io/Writer;Ljava/lang/String;)Ljava/io/ObjectOutputStream;
+ (Ljava/io/Writer;Ljava/lang/String;)Ljava/io/ObjectOutputStream;
+denyPermission
+ (Lcom/thoughtworks/xstream/security/TypePermission;)V
+ (Lcom/thoughtworks/xstream/security/TypePermission;)V
+denyTypeHierarchy
+ (Ljava/lang/Class;)V
+ (Ljava/lang/Class;)V
+denyTypes
+ ([Ljava/lang/Class;)V
+ ([Ljava/lang/Class;)V
+denyTypes
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+denyTypesByRegExp
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+denyTypesByRegExp
+ ([Ljava/util/regex/Pattern;)V
+ ([Ljava/util/regex/Pattern;)V
+denyTypesByWildcard
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+fromXML
+ (Ljava/io/File;)Ljava/lang/Object;
+ (Ljava/io/File;)Ljava/lang/Object;
+fromXML
+ (Ljava/io/File;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/io/File;Ljava/lang/Object;)Ljava/lang/Object;
+fromXML
+ (Ljava/io/InputStream;)Ljava/lang/Object;
+ (Ljava/io/InputStream;)Ljava/lang/Object;
+fromXML
+ (Ljava/io/InputStream;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/io/InputStream;Ljava/lang/Object;)Ljava/lang/Object;
+fromXML
+ (Ljava/io/Reader;)Ljava/lang/Object;
+ (Ljava/io/Reader;)Ljava/lang/Object;
+fromXML
+ (Ljava/io/Reader;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/io/Reader;Ljava/lang/Object;)Ljava/lang/Object;
+fromXML
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+fromXML
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+fromXML
+ (Ljava/net/URL;)Ljava/lang/Object;
+ (Ljava/net/URL;)Ljava/lang/Object;
+fromXML
+ (Ljava/net/URL;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/net/URL;Ljava/lang/Object;)Ljava/lang/Object;
+getClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()Ljava/lang/ClassLoader;
+getClassLoaderReference
+ ()Lcom/thoughtworks/xstream/core/ClassLoaderReference;
+ ()Lcom/thoughtworks/xstream/core/ClassLoaderReference;
+getConverterLookup
+ ()Lcom/thoughtworks/xstream/converters/ConverterLookup;
+ ()Lcom/thoughtworks/xstream/converters/ConverterLookup;
+getMapper
+ ()Lcom/thoughtworks/xstream/mapper/Mapper;
+ ()Lcom/thoughtworks/xstream/mapper/Mapper;
+getReflectionProvider
+ ()Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;
+ ()Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;
+ignoreUnknownElements
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+ignoreUnknownElements
+ (Ljava/util/regex/Pattern;)V
+ (Ljava/util/regex/Pattern;)V
+marshal
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;)V
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;)V
+marshal
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Lcom/thoughtworks/xstream/converters/DataHolder;)V
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Lcom/thoughtworks/xstream/converters/DataHolder;)V
+newDataHolder
+ ()Lcom/thoughtworks/xstream/converters/DataHolder;
+ ()Lcom/thoughtworks/xstream/converters/DataHolder;
+omitField
+ (Ljava/lang/Class;Ljava/lang/String;)V
+ (Ljava/lang/Class;Ljava/lang/String;)V
+processAnnotations
+ (Ljava/lang/Class;)V
+ (Ljava/lang/Class;)V
+processAnnotations
+ ([Ljava/lang/Class;)V
+ ([Ljava/lang/Class;)V
+registerConverter
+ (Lcom/thoughtworks/xstream/converters/Converter;)V
+ (L1com/thoughtworks/xstream/converters/Converter;)V
+registerConverter
+ (Lcom/thoughtworks/xstream/converters/Converter;I)V
+ (Lcom/thoughtworks/xstream/converters/Converter;I)V
+registerConverter
+ (Lcom/thoughtworks/xstream/converters/SingleValueConverter;)V
+ (Lcom/thoughtworks/xstream/converters/SingleValueConverter;)V
+registerConverter
+ (Lcom/thoughtworks/xstream/converters/SingleValueConverter;I)V
+ (Lcom/thoughtworks/xstream/converters/SingleValueConverter;I)V
+registerLocalConverter
+ (Ljava/lang/Class;Ljava/lang/String;Lcom/thoughtworks/xstream/converters/Converter;)V
+ (Ljava/lang/Class;Ljava/lang/String;Lcom/thoughtworks/xstream/converters/Converter;)V
+registerLocalConverter
+ (Ljava/lang/Class;Ljava/lang/String;Lcom/thoughtworks/xstream/converters/SingleValueConverter;)V
+ (Ljava/lang/Class;Ljava/lang/String;Lcom/thoughtworks/xstream/converters/SingleValueConverter;)V
+setClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setMarshallingStrategy
+ (Lcom/thoughtworks/xstream/MarshallingStrategy;)V
+ (Lcom/thoughtworks/xstream/MarshallingStrategy;)V
+toXML
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+toXML
+ (Ljava/lang/Object;Ljava/io/OutputStream;)V
+ (Ljava/lang/Object;Ljava/io/OutputStream;)V
+toXML
+ (Ljava/lang/Object;Ljava/io/Writer;)V
+ (Ljava/lang/Object;Ljava/io/Writer;)V
+unmarshal
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;)Ljava/lang/Object;
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;)Ljava/lang/Object;
+unmarshal
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Ljava/lang/Object;)Ljava/lang/Object;
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Ljava/lang/Object;)Ljava/lang/Object;
+unmarshal
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Ljava/lang/Object;Lcom/thoughtworks/xstream/converters/DataHolder;)Ljava/lang/Object;
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Ljava/lang/Object;Lcom/thoughtworks/xstream/converters/DataHolder;)Ljava/lang/Object;
+useAttributeFor
+ (Ljava/lang/Class;)V
+ (Ljava/lang/Class;)V
+useAttributeFor
+ (Ljava/lang/Class;Ljava/lang/String;)V
+ (Ljava/lang/Class;Ljava/lang/String;)V
+useAttributeFor
+ (Ljava/lang/String;Ljava/lang/Class;)V
+ (Ljava/lang/String;Ljava/lang/Class;)V
+wrapMapper
+ (Lcom/thoughtworks/xstream/mapper/MapperWrapper;)Lcom/thoughtworks/xstream/mapper/MapperWrapper;
+ (Lcom/thoughtworks/xstream/mapper/MapperWrapper;)Lcom/thoughtworks/xstream/mapper/MapperWrapper;

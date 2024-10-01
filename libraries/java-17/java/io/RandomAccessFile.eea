@@ -1,0 +1,47 @@
+class java/io/RandomAccessFile
+
+<init>
+ (Ljava/io/File;Ljava/lang/String;)V
+ (Ljava/io/File;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+getChannel
+ ()Ljava/nio/channels/FileChannel;
+ ()Ljava/nio/channels/FileChannel;
+getFD
+ ()Ljava/io/FileDescriptor;
+ ()Ljava/io/FileDescriptor;
+read
+ ([B)I
+ ([B)I
+read
+ ([BII)I
+ ([BII)I
+readFully
+ ([B)V
+ ([1B)V # @Inherited(java.io.DataInput)
+readFully
+ ([BII)V
+ ([1BII)V # @Inherited(java.io.DataInput)
+readLine
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(java.io.DataInput)
+readUTF
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.io.DataInput)
+write
+ ([B)V
+ ([1B)V # @Inherited(java.io.DataOutput)
+write
+ ([BII)V
+ ([1BII)V # @Inherited(java.io.DataOutput)
+writeBytes
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(java.io.DataOutput)
+writeChars
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(java.io.DataOutput)
+writeUTF
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(java.io.DataOutput)

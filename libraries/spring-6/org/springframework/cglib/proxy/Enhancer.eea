@@ -1,0 +1,84 @@
+class org/springframework/cglib/proxy/Enhancer
+
+create
+ (Ljava/lang/Class;Lorg/springframework/cglib/proxy/Callback;)Ljava/lang/Object;
+ (Ljava/lang/Class;Lorg/springframework/cglib/proxy/Callback;)Ljava/lang/Object;
+create
+ (Ljava/lang/Class;[Ljava/lang/Class;Lorg/springframework/cglib/proxy/Callback;)Ljava/lang/Object;
+ (Ljava/lang/Class;[Ljava/lang/Class;Lorg/springframework/cglib/proxy/Callback;)Ljava/lang/Object;
+create
+ (Ljava/lang/Class;[Ljava/lang/Class;Lorg/springframework/cglib/proxy/CallbackFilter;[Lorg/springframework/cglib/proxy/Callback;)Ljava/lang/Object;
+ (Ljava/lang/Class;[Ljava/lang/Class;Lorg/springframework/cglib/proxy/CallbackFilter;[Lorg/springframework/cglib/proxy/Callback;)Ljava/lang/Object;
+getMethods
+ (Ljava/lang/Class;[Ljava/lang/Class;Ljava/util/List;)V
+ (Ljava/lang/Class;[Ljava/lang/Class;Ljava/util/List;)V
+isEnhanced
+ (Ljava/lang/Class;)Z
+ (Ljava/lang/Class;)Z
+registerCallbacks
+ (Ljava/lang/Class;[Lorg/springframework/cglib/proxy/Callback;)V
+ (Ljava/lang/Class;[Lorg/springframework/cglib/proxy/Callback;)V
+registerStaticCallbacks
+ (Ljava/lang/Class;[Lorg/springframework/cglib/proxy/Callback;)V
+ (Ljava/lang/Class;[Lorg/springframework/cglib/proxy/Callback;)V
+
+create
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+create
+ ([Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;
+createClass
+ ()Ljava/lang/Class;
+ ()Ljava/lang/Class;
+filterConstructors
+ (Ljava/lang/Class;Ljava/util/List;)V
+ (Ljava/lang/Class;Ljava/util/List;)V
+firstInstance
+ (Ljava/lang/Class;)Ljava/lang/Object;
+ (Ljava/lang/Class;)Ljava/lang/Object;
+generate
+ (Lorg/springframework/cglib/core/AbstractClassGenerator$ClassLoaderData;)Ljava/lang/Class;
+ (Lorg/springframework/cglib/core/AbstractClassGenerator$ClassLoaderData;)Ljava/lang/Class;
+generateClass
+ (Lorg/springframework/asm/ClassVisitor;)V
+ (Lorg/springframework/asm/ClassVisitor;)V
+getDefaultClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()Ljava/lang/ClassLoader;
+getProtectionDomain
+ ()Ljava/security/ProtectionDomain;
+ ()Ljava/security/ProtectionDomain;
+nextInstance
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+setCallback
+ (Lorg/springframework/cglib/proxy/Callback;)V
+ (Lorg/springframework/cglib/proxy/Callback;)V
+setCallbackFilter
+ (Lorg/springframework/cglib/proxy/CallbackFilter;)V
+ (Lorg/springframework/cglib/proxy/CallbackFilter;)V
+setCallbackType
+ (Ljava/lang/Class;)V
+ (Ljava/lang/Class;)V
+setCallbackTypes
+ ([Ljava/lang/Class;)V
+ ([Ljava/lang/Class;)V
+setCallbacks
+ ([Lorg/springframework/cglib/proxy/Callback;)V
+ ([Lorg/springframework/cglib/proxy/Callback;)V
+setInterfaces
+ ([Ljava/lang/Class;)V
+ ([Ljava/lang/Class;)V
+setSerialVersionUID
+ (Ljava/lang/Long;)V
+ (Ljava/lang/Long;)V
+setSuperclass
+ (Ljava/lang/Class;)V
+ (Ljava/lang/Class;)V
+unwrapCachedValue
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+wrapCachedClass
+ (Ljava/lang/Class;)Ljava/lang/Object;
+ (Ljava/lang/Class;)Ljava/lang/Object;

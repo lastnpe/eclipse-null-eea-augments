@@ -1,0 +1,32 @@
+class org/springframework/beans/factory/parsing/BeanComponentDefinition
+
+<init>
+ (Lorg/springframework/beans/factory/config/BeanDefinition;Ljava/lang/String;)V
+ (Lorg/springframework/beans/factory/config/BeanDefinition;Ljava/lang/String;)V
+<init>
+ (Lorg/springframework/beans/factory/config/BeanDefinition;Ljava/lang/String;[Ljava/lang/String;)V
+ (Lorg/springframework/beans/factory/config/BeanDefinition;Ljava/lang/String;[Ljava/lang/String;)V
+<init>
+ (Lorg/springframework/beans/factory/config/BeanDefinitionHolder;)V
+ (Lorg/springframework/beans/factory/config/BeanDefinitionHolder;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(org.springframework.beans.factory.config.BeanDefinitionHolder)
+getBeanDefinitions
+ ()[Lorg/springframework/beans/factory/config/BeanDefinition;
+ ()[Lorg/springframework/beans/factory/config/BeanDefinition;
+getBeanReferences
+ ()[Lorg/springframework/beans/factory/config/BeanReference;
+ ()[Lorg/springframework/beans/factory/config/BeanReference;
+getDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getInnerBeanDefinitions
+ ()[Lorg/springframework/beans/factory/config/BeanDefinition;
+ ()[Lorg/springframework/beans/factory/config/BeanDefinition;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.springframework.beans.factory.config.BeanDefinitionHolder)

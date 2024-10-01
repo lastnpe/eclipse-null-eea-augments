@@ -1,0 +1,21 @@
+class com/fasterxml/jackson/core/io/UTF32Reader
+
+_buffer
+ [B
+ [B
+_context
+ Lcom/fasterxml/jackson/core/io/IOContext;
+ Lcom/fasterxml/jackson/core/io/IOContext;
+_in
+ Ljava/io/InputStream;
+ Ljava/io/InputStream;
+_tmpBuf
+ [C
+ [C
+
+<init>
+ (Lcom/fasterxml/jackson/core/io/IOContext;Ljava/io/InputStream;[BIIZ)V
+ (Lcom/fasterxml/jackson/core/io/IOContext;Ljava/io/InputStream;[BIIZ)V
+read
+ ([CII)I
+ ([1CII)I # @Inherited(java.io.Reader)

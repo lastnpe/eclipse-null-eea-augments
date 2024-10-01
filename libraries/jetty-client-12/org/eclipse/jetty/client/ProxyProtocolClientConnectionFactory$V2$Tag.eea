@@ -1,0 +1,39 @@
+class org/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag
+
+LOCAL
+ Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag;
+ L1org/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag;
+
+<init>
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+<init>
+ (Ljava/lang/String;ILjava/util/List<Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag$TLV;>;)V
+ (Ljava/lang/String;ILjava/util/List<Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag$TLV;>;)V
+<init>
+ (Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag$Command;Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag$Family;Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag$Protocol;Ljava/lang/String;ILjava/lang/String;ILjava/util/List<Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag$TLV;>;)V
+ (Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag$Command;Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag$Family;Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag$Protocol;Ljava/lang/String;ILjava/lang/String;ILjava/util/List<Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag$TLV;>;)V
+apply
+ (Lorg/eclipse/jetty/io/ClientConnectionFactory;)Lorg/eclipse/jetty/io/ClientConnectionFactory;
+ (Lorg/eclipse/jetty/io/ClientConnectionFactory;)Lorg/eclipse/jetty/io/ClientConnectionFactory;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getCommand
+ ()Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag$Command;
+ ()Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag$Command;
+getDestinationAddress
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFamily
+ ()Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag$Family;
+ ()Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag$Family;
+getProtocol
+ ()Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag$Protocol;
+ ()Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag$Protocol;
+getSourceAddress
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTLVs
+ ()Ljava/util/List<Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag$TLV;>;
+ ()Ljava/util/List<Lorg/eclipse/jetty/client/ProxyProtocolClientConnectionFactory$V2$Tag$TLV;>;

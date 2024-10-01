@@ -1,0 +1,23 @@
+class jakarta/servlet/http/HttpSession
+
+getAccessor
+ ()Ljakarta/servlet/http/HttpSession$Accessor;
+ ()Ljakarta/servlet/http/HttpSession$Accessor;
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getAttributeNames
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()L1java/util/Enumeration<L1java/lang/String;>;
+getId
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getServletContext
+ ()Ljakarta/servlet/ServletContext;
+ ()Ljakarta/servlet/ServletContext;
+removeAttribute
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setAttribute
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V

@@ -1,0 +1,12 @@
+class java/awt/event/AWTEventListenerProxy
+
+super java/util/EventListenerProxy
+ <Ljava/awt/event/AWTEventListener;>
+ <Ljava/awt/event/AWTEventListener;>
+
+<init>
+ (JLjava/awt/event/AWTEventListener;)V
+ (JLjava/awt/event/AWTEventListener;)V
+eventDispatched
+ (Ljava/awt/AWTEvent;)V
+ (L1java/awt/AWTEvent;)V # @Inherited(java.awt.event.AWTEventListener)

@@ -1,0 +1,29 @@
+class org/springframework/core/io/AbstractResource
+
+createRelative
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getFile
+ ()Ljava/io/File;
+ ()Ljava/io/File;
+getFileForLastModifiedCheck
+ ()Ljava/io/File;
+ ()Ljava/io/File;
+getFilename
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.core.io.Resource)
+getURI
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+getURL
+ ()Ljava/net/URL;
+ ()Ljava/net/URL;
+readableChannel
+ ()Ljava/nio/channels/ReadableByteChannel;
+ ()Ljava/nio/channels/ReadableByteChannel;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

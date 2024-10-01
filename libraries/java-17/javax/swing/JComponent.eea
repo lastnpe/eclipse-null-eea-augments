@@ -1,0 +1,278 @@
+class javax/swing/JComponent
+
+TOOL_TIP_TEXT_KEY
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getDefaultLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+isLightweightComponent
+ (Ljava/awt/Component;)Z
+ (Ljava/awt/Component;)Z
+setDefaultLocale
+ (Ljava/util/Locale;)V
+ (Ljava/util/Locale;)V
+
+listenerList
+ Ljavax/swing/event/EventListenerList;
+ Ljavax/swing/event/EventListenerList;
+ui
+ Ljavax/swing/plaf/ComponentUI;
+ Ljavax/swing/plaf/ComponentUI;
+
+addAncestorListener
+ (Ljavax/swing/event/AncestorListener;)V
+ (L1javax/swing/event/AncestorListener;)V
+addVetoableChangeListener
+ (Ljava/beans/VetoableChangeListener;)V
+ (L1java/beans/VetoableChangeListener;)V
+computeVisibleRect
+ (Ljava/awt/Rectangle;)V
+ (Ljava/awt/Rectangle;)V
+createToolTip
+ ()Ljavax/swing/JToolTip;
+ ()Ljavax/swing/JToolTip;
+firePropertyChange
+ (Ljava/lang/String;CC)V
+ (Ljava/lang/String;CC)V
+firePropertyChange
+ (Ljava/lang/String;II)V
+ (Ljava/lang/String;II)V
+firePropertyChange
+ (Ljava/lang/String;ZZ)V
+ (Ljava/lang/String;ZZ)V
+fireVetoableChange
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+getActionForKeyStroke
+ (Ljavax/swing/KeyStroke;)Ljava/awt/event/ActionListener;
+ (Ljavax/swing/KeyStroke;)Ljava/awt/event/ActionListener;
+getActionMap
+ ()Ljavax/swing/ActionMap;
+ ()Ljavax/swing/ActionMap;
+getAncestorListeners
+ ()[Ljavax/swing/event/AncestorListener;
+ ()[Ljavax/swing/event/AncestorListener;
+getBaselineResizeBehavior
+ ()Ljava/awt/Component$BaselineResizeBehavior;
+ ()Ljava/awt/Component$BaselineResizeBehavior;
+getBorder
+ ()Ljavax/swing/border/Border;
+ ()Ljavax/swing/border/Border;
+getBounds
+ (Ljava/awt/Rectangle;)Ljava/awt/Rectangle;
+ (Ljava/awt/Rectangle;)Ljava/awt/Rectangle;
+getClientProperty
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+getComponentGraphics
+ (Ljava/awt/Graphics;)Ljava/awt/Graphics;
+ (Ljava/awt/Graphics;)Ljava/awt/Graphics;
+getComponentPopupMenu
+ ()Ljavax/swing/JPopupMenu;
+ ()Ljavax/swing/JPopupMenu;
+getConditionForKeyStroke
+ (Ljavax/swing/KeyStroke;)I
+ (Ljavax/swing/KeyStroke;)I
+getFontMetrics
+ (Ljava/awt/Font;)Ljava/awt/FontMetrics;
+ (Ljava/awt/Font;)Ljava/awt/FontMetrics;
+getGraphics
+ ()Ljava/awt/Graphics;
+ ()Ljava/awt/Graphics;
+getInputMap
+ ()Ljavax/swing/InputMap;
+ ()Ljavax/swing/InputMap;
+getInputMap
+ (I)Ljavax/swing/InputMap;
+ (I)Ljavax/swing/InputMap;
+getInputVerifier
+ ()Ljavax/swing/InputVerifier;
+ ()Ljavax/swing/InputVerifier;
+getInsets
+ ()Ljava/awt/Insets;
+ ()Ljava/awt/Insets;
+getInsets
+ (Ljava/awt/Insets;)Ljava/awt/Insets;
+ (Ljava/awt/Insets;)Ljava/awt/Insets;
+getListeners
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+getLocation
+ (Ljava/awt/Point;)Ljava/awt/Point;
+ (Ljava/awt/Point;)Ljava/awt/Point;
+getMaximumSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getMinimumSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getNextFocusableComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getPopupLocation
+ (Ljava/awt/event/MouseEvent;)Ljava/awt/Point;
+ (Ljava/awt/event/MouseEvent;)Ljava/awt/Point;
+getPreferredSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getRegisteredKeyStrokes
+ ()[Ljavax/swing/KeyStroke;
+ ()[Ljavax/swing/KeyStroke;
+getRootPane
+ ()Ljavax/swing/JRootPane;
+ ()Ljavax/swing/JRootPane;
+getSize
+ (Ljava/awt/Dimension;)Ljava/awt/Dimension;
+ (Ljava/awt/Dimension;)Ljava/awt/Dimension;
+getToolTipLocation
+ (Ljava/awt/event/MouseEvent;)Ljava/awt/Point;
+ (Ljava/awt/event/MouseEvent;)Ljava/awt/Point;
+getToolTipText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getToolTipText
+ (Ljava/awt/event/MouseEvent;)Ljava/lang/String;
+ (L1java/awt/event/MouseEvent;)Ljava/lang/String;
+getTopLevelAncestor
+ ()Ljava/awt/Container;
+ ()Ljava/awt/Container;
+getTransferHandler
+ ()Ljavax/swing/TransferHandler;
+ ()Ljavax/swing/TransferHandler;
+getUI
+ ()Ljavax/swing/plaf/ComponentUI;
+ ()Ljavax/swing/plaf/ComponentUI;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getVetoableChangeListeners
+ ()[Ljava/beans/VetoableChangeListener;
+ ()[Ljava/beans/VetoableChangeListener;
+getVisibleRect
+ ()Ljava/awt/Rectangle;
+ ()Ljava/awt/Rectangle;
+paint
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paintBorder
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paintChildren
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paintComponent
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paintImmediately
+ (Ljava/awt/Rectangle;)V
+ (Ljava/awt/Rectangle;)V
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+print
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+printAll
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+printBorder
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+printChildren
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+printComponent
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+processComponentKeyEvent
+ (Ljava/awt/event/KeyEvent;)V
+ (Ljava/awt/event/KeyEvent;)V
+processKeyBinding
+ (Ljavax/swing/KeyStroke;Ljava/awt/event/KeyEvent;IZ)Z
+ (Ljavax/swing/KeyStroke;Ljava/awt/event/KeyEvent;IZ)Z
+processKeyEvent
+ (Ljava/awt/event/KeyEvent;)V
+ (Ljava/awt/event/KeyEvent;)V
+processMouseEvent
+ (Ljava/awt/event/MouseEvent;)V
+ (Ljava/awt/event/MouseEvent;)V
+processMouseMotionEvent
+ (Ljava/awt/event/MouseEvent;)V
+ (Ljava/awt/event/MouseEvent;)V
+putClientProperty
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+registerKeyboardAction
+ (Ljava/awt/event/ActionListener;Ljava/lang/String;Ljavax/swing/KeyStroke;I)V
+ (Ljava/awt/event/ActionListener;Ljava/lang/String;Ljavax/swing/KeyStroke;I)V
+registerKeyboardAction
+ (Ljava/awt/event/ActionListener;Ljavax/swing/KeyStroke;I)V
+ (Ljava/awt/event/ActionListener;Ljavax/swing/KeyStroke;I)V
+removeAncestorListener
+ (Ljavax/swing/event/AncestorListener;)V
+ (L1javax/swing/event/AncestorListener;)V
+removeVetoableChangeListener
+ (Ljava/beans/VetoableChangeListener;)V
+ (L1java/beans/VetoableChangeListener;)V
+repaint
+ (Ljava/awt/Rectangle;)V
+ (Ljava/awt/Rectangle;)V
+scrollRectToVisible
+ (Ljava/awt/Rectangle;)V
+ (Ljava/awt/Rectangle;)V
+setActionMap
+ (Ljavax/swing/ActionMap;)V
+ (Ljavax/swing/ActionMap;)V
+setBackground
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setBorder
+ (Ljavax/swing/border/Border;)V
+ (Ljavax/swing/border/Border;)V
+setComponentPopupMenu
+ (Ljavax/swing/JPopupMenu;)V
+ (Ljavax/swing/JPopupMenu;)V
+setFocusTraversalKeys
+ (ILjava/util/Set<+Ljava/awt/AWTKeyStroke;>;)V
+ (ILjava/util/Set<+Ljava/awt/AWTKeyStroke;>;)V
+setFont
+ (Ljava/awt/Font;)V
+ (Ljava/awt/Font;)V
+setForeground
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setInputMap
+ (ILjavax/swing/InputMap;)V
+ (ILjavax/swing/InputMap;)V
+setInputVerifier
+ (Ljavax/swing/InputVerifier;)V
+ (Ljavax/swing/InputVerifier;)V
+setMaximumSize
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V
+setMinimumSize
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V
+setNextFocusableComponent
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+setPreferredSize
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V
+setToolTipText
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setTransferHandler
+ (Ljavax/swing/TransferHandler;)V
+ (Ljavax/swing/TransferHandler;)V
+setUI
+ (Ljavax/swing/plaf/ComponentUI;)V
+ (Ljavax/swing/plaf/ComponentUI;)V
+unregisterKeyboardAction
+ (Ljavax/swing/KeyStroke;)V
+ (Ljavax/swing/KeyStroke;)V
+update
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V

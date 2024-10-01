@@ -1,0 +1,51 @@
+class org/springframework/beans/factory/config/AutowireCapableBeanFactory
+
+ORIGINAL_INSTANCE_SUFFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+
+applyBeanPostProcessorsAfterInitialization
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+applyBeanPostProcessorsBeforeInitialization
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+applyBeanPropertyValues
+ (Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/Object;Ljava/lang/String;)V
+autowire
+ (Ljava/lang/Class<*>;IZ)Ljava/lang/Object;
+ (Ljava/lang/Class<*>;IZ)Ljava/lang/Object;
+autowireBean
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+autowireBeanProperties
+ (Ljava/lang/Object;IZ)V
+ (Ljava/lang/Object;IZ)V
+configureBean
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+createBean
+ (Ljava/lang/Class<*>;IZ)Ljava/lang/Object;
+ (Ljava/lang/Class<*>;IZ)Ljava/lang/Object;
+createBean
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+destroyBean
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+initializeBean
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+resolveBeanByName
+ (Ljava/lang/String;Lorg/springframework/beans/factory/config/DependencyDescriptor;)Ljava/lang/Object;
+ (Ljava/lang/String;Lorg/springframework/beans/factory/config/DependencyDescriptor;)Ljava/lang/Object;
+resolveDependency
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;Ljava/lang/String;)Ljava/lang/Object;
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;Ljava/lang/String;)L0java/lang/Object;
+resolveDependency
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;Lorg/springframework/beans/TypeConverter;)Ljava/lang/Object;
+ (Lorg/springframework/beans/factory/config/DependencyDescriptor;Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;Lorg/springframework/beans/TypeConverter;)L0java/lang/Object;
+resolveNamedBean
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/springframework/beans/factory/config/NamedBeanHolder<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/springframework/beans/factory/config/NamedBeanHolder<TT;>;

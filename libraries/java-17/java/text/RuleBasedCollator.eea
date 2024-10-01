@@ -1,0 +1,26 @@
+class java/text/RuleBasedCollator
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.text.Collator)
+compare
+ (Ljava/lang/String;Ljava/lang/String;)I
+ (Ljava/lang/String;Ljava/lang/String;)I
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.text.Collator)
+getCollationElementIterator
+ (Ljava/lang/String;)Ljava/text/CollationElementIterator;
+ (Ljava/lang/String;)Ljava/text/CollationElementIterator;
+getCollationElementIterator
+ (Ljava/text/CharacterIterator;)Ljava/text/CollationElementIterator;
+ (Ljava/text/CharacterIterator;)Ljava/text/CollationElementIterator;
+getCollationKey
+ (Ljava/lang/String;)Ljava/text/CollationKey;
+ (L0java/lang/String;)L0java/text/CollationKey; # @Inherited(java.text.Collator)
+getRules
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

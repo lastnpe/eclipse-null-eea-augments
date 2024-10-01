@@ -1,0 +1,81 @@
+class com/fasterxml/jackson/core/io/NumberInput
+
+NASTY_SMALL_DOUBLE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+inLongRange
+ (Ljava/lang/String;Z)Z
+ (Ljava/lang/String;Z)Z
+inLongRange
+ ([CIIZ)Z
+ ([CIIZ)Z
+looksLikeValidNumber
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+parseAsDouble
+ (Ljava/lang/String;D)D
+ (Ljava/lang/String;D)D
+parseAsDouble
+ (Ljava/lang/String;DZ)D
+ (Ljava/lang/String;DZ)D
+parseAsInt
+ (Ljava/lang/String;I)I
+ (Ljava/lang/String;I)I
+parseAsLong
+ (Ljava/lang/String;J)J
+ (Ljava/lang/String;J)J
+parseBigDecimal
+ (Ljava/lang/String;)Ljava/math/BigDecimal;
+ (Ljava/lang/String;)Ljava/math/BigDecimal;
+parseBigDecimal
+ (Ljava/lang/String;Z)Ljava/math/BigDecimal;
+ (Ljava/lang/String;Z)Ljava/math/BigDecimal;
+parseBigDecimal
+ ([C)Ljava/math/BigDecimal;
+ ([C)Ljava/math/BigDecimal;
+parseBigDecimal
+ ([CII)Ljava/math/BigDecimal;
+ ([CII)Ljava/math/BigDecimal;
+parseBigDecimal
+ ([CIIZ)Ljava/math/BigDecimal;
+ ([CIIZ)Ljava/math/BigDecimal;
+parseBigDecimal
+ ([CZ)Ljava/math/BigDecimal;
+ ([CZ)Ljava/math/BigDecimal;
+parseBigInteger
+ (Ljava/lang/String;)Ljava/math/BigInteger;
+ (Ljava/lang/String;)Ljava/math/BigInteger;
+parseBigInteger
+ (Ljava/lang/String;Z)Ljava/math/BigInteger;
+ (Ljava/lang/String;Z)Ljava/math/BigInteger;
+parseBigIntegerWithRadix
+ (Ljava/lang/String;IZ)Ljava/math/BigInteger;
+ (Ljava/lang/String;IZ)Ljava/math/BigInteger;
+parseDouble
+ (Ljava/lang/String;)D
+ (Ljava/lang/String;)D
+parseDouble
+ (Ljava/lang/String;Z)D
+ (Ljava/lang/String;Z)D
+parseFloat
+ (Ljava/lang/String;)F
+ (Ljava/lang/String;)F
+parseFloat
+ (Ljava/lang/String;Z)F
+ (Ljava/lang/String;Z)F
+parseInt
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+parseInt
+ ([CII)I
+ ([CII)I
+parseLong
+ (Ljava/lang/String;)J
+ (Ljava/lang/String;)J
+parseLong
+ ([CII)J
+ ([CII)J
+parseLong19
+ ([CIZ)J
+ ([CIZ)J

@@ -1,0 +1,81 @@
+class com/fasterxml/jackson/annotation/JsonTypeInfo$Value
+
+super com/fasterxml/jackson/annotation/JacksonAnnotationValue
+ <Lcom/fasterxml/jackson/annotation/JsonTypeInfo;>
+ <Lcom/fasterxml/jackson/annotation/JsonTypeInfo;>
+
+EMPTY
+ Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Value;
+ L1com/fasterxml/jackson/annotation/JsonTypeInfo$Value;
+
+construct
+ (Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Id;Lcom/fasterxml/jackson/annotation/JsonTypeInfo$As;Ljava/lang/String;Ljava/lang/Class<*>;ZLjava/lang/Boolean;)Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Id;Lcom/fasterxml/jackson/annotation/JsonTypeInfo$As;Ljava/lang/String;Ljava/lang/Class<*>;ZLjava/lang/Boolean;)Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Value;
+from
+ (Lcom/fasterxml/jackson/annotation/JsonTypeInfo;)Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonTypeInfo;)Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Value;
+isEnabled
+ (Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Value;)Z
+ (Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Value;)Z
+
+_defaultImpl
+ Ljava/lang/Class<*>;
+ Ljava/lang/Class<*>;
+_idType
+ Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Id;
+ Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Id;
+_inclusionType
+ Lcom/fasterxml/jackson/annotation/JsonTypeInfo$As;
+ Lcom/fasterxml/jackson/annotation/JsonTypeInfo$As;
+_propertyName
+ Ljava/lang/String;
+ Ljava/lang/String;
+_requireTypeIdForSubtypes
+ Ljava/lang/Boolean;
+ Ljava/lang/Boolean;
+
+<init>
+ (Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Id;Lcom/fasterxml/jackson/annotation/JsonTypeInfo$As;Ljava/lang/String;Ljava/lang/Class<*>;ZLjava/lang/Boolean;)V
+ (Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Id;Lcom/fasterxml/jackson/annotation/JsonTypeInfo$As;Ljava/lang/String;Ljava/lang/Class<*>;ZLjava/lang/Boolean;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getDefaultImpl
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getIdType
+ ()Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Id;
+ ()Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Id;
+getInclusionType
+ ()Lcom/fasterxml/jackson/annotation/JsonTypeInfo$As;
+ ()Lcom/fasterxml/jackson/annotation/JsonTypeInfo$As;
+getPropertyName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRequireTypeIdForSubtypes
+ ()Ljava/lang/Boolean;
+ ()Ljava/lang/Boolean;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+valueFor
+ ()Ljava/lang/Class<Lcom/fasterxml/jackson/annotation/JsonTypeInfo;>;
+ ()Ljava/lang/Class<Lcom/fasterxml/jackson/annotation/JsonTypeInfo;>;
+withDefaultImpl
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Value;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Value;
+withIdType
+ (Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Id;)Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Id;)Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Value;
+withIdVisible
+ (Z)Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Value;
+ (Z)Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Value;
+withInclusionType
+ (Lcom/fasterxml/jackson/annotation/JsonTypeInfo$As;)Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonTypeInfo$As;)Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Value;
+withPropertyName
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Value;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Value;
+withRequireTypeIdForSubtypes
+ (Ljava/lang/Boolean;)Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Value;
+ (Ljava/lang/Boolean;)Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Value;

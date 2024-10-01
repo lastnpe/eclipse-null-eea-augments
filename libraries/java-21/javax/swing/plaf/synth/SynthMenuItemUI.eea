@@ -1,0 +1,30 @@
+class javax/swing/plaf/synth/SynthMenuItemUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+getContext
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/synth/SynthContext;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/synth/SynthContext;
+getPreferredMenuItemSize
+ (Ljavax/swing/JComponent;Ljavax/swing/Icon;Ljavax/swing/Icon;I)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;Ljavax/swing/Icon;Ljavax/swing/Icon;I)Ljava/awt/Dimension;
+paint
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+paint
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;)V
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;)V
+paintBorder
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;IIII)V
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;IIII)V
+propertyChange
+ (Ljava/beans/PropertyChangeEvent;)V
+ (L1java/beans/PropertyChangeEvent;)V # @Inherited(java.beans.PropertyChangeListener)
+uninstallUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+update
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V

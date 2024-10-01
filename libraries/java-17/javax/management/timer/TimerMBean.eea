@@ -1,0 +1,47 @@
+class javax/management/timer/TimerMBean
+
+addNotification
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Ljava/util/Date;)Ljava/lang/Integer;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Ljava/util/Date;)Ljava/lang/Integer;
+addNotification
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Ljava/util/Date;J)Ljava/lang/Integer;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Ljava/util/Date;J)Ljava/lang/Integer;
+addNotification
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Ljava/util/Date;JJ)Ljava/lang/Integer;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Ljava/util/Date;JJ)Ljava/lang/Integer;
+addNotification
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Ljava/util/Date;JJZ)Ljava/lang/Integer;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Ljava/util/Date;JJZ)Ljava/lang/Integer;
+getAllNotificationIDs
+ ()Ljava/util/Vector<Ljava/lang/Integer;>;
+ ()Ljava/util/Vector<Ljava/lang/Integer;>;
+getDate
+ (Ljava/lang/Integer;)Ljava/util/Date;
+ (Ljava/lang/Integer;)Ljava/util/Date;
+getFixedRate
+ (Ljava/lang/Integer;)Ljava/lang/Boolean;
+ (Ljava/lang/Integer;)Ljava/lang/Boolean;
+getNbOccurences
+ (Ljava/lang/Integer;)Ljava/lang/Long;
+ (Ljava/lang/Integer;)Ljava/lang/Long;
+getNotificationIDs
+ (Ljava/lang/String;)Ljava/util/Vector<Ljava/lang/Integer;>;
+ (Ljava/lang/String;)Ljava/util/Vector<Ljava/lang/Integer;>;
+getNotificationMessage
+ (Ljava/lang/Integer;)Ljava/lang/String;
+ (Ljava/lang/Integer;)Ljava/lang/String;
+getNotificationType
+ (Ljava/lang/Integer;)Ljava/lang/String;
+ (Ljava/lang/Integer;)Ljava/lang/String;
+getNotificationUserData
+ (Ljava/lang/Integer;)Ljava/lang/Object;
+ (Ljava/lang/Integer;)Ljava/lang/Object;
+getPeriod
+ (Ljava/lang/Integer;)Ljava/lang/Long;
+ (Ljava/lang/Integer;)Ljava/lang/Long;
+removeNotification
+ (Ljava/lang/Integer;)V
+ (Ljava/lang/Integer;)V
+removeNotifications
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

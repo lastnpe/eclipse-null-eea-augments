@@ -1,0 +1,41 @@
+class com/google/common/collect/ForwardingSortedSet
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super com/google/common/collect/ForwardingSet
+ <TE;>
+ <TE;>
+super java/util/SortedSet
+ <TE;>
+ <TE;>
+
+comparator
+ ()Ljava/util/Comparator<-TE;>;
+ ()L0java/util/Comparator<-TE;>; # @Inherited(java.util.SortedSet)
+delegate
+ ()Ljava/util/SortedSet<TE;>;
+ ()Ljava/util/SortedSet<TE;>;
+first
+ ()TE;
+ ()T1E;
+headSet
+ (TE;)Ljava/util/SortedSet<TE;>;
+ (TE;)L1java/util/SortedSet<TE;>; # @Inherited(java.util.SortedSet)
+last
+ ()TE;
+ ()T1E;
+standardContains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+standardRemove
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+standardSubSet
+ (TE;TE;)Ljava/util/SortedSet<TE;>;
+ (TE;TE;)Ljava/util/SortedSet<TE;>;
+subSet
+ (TE;TE;)Ljava/util/SortedSet<TE;>;
+ (TE;TE;)L1java/util/SortedSet<TE;>; # @Inherited(java.util.SortedSet)
+tailSet
+ (TE;)Ljava/util/SortedSet<TE;>;
+ (TE;)L1java/util/SortedSet<TE;>; # @Inherited(java.util.SortedSet)

@@ -1,0 +1,29 @@
+class javax/management/NotificationBroadcasterSupport
+
+<init>
+ (Ljava/util/concurrent/Executor;)V
+ (Ljava/util/concurrent/Executor;)V
+<init>
+ (Ljava/util/concurrent/Executor;[Ljavax/management/MBeanNotificationInfo;)V
+ (Ljava/util/concurrent/Executor;[Ljavax/management/MBeanNotificationInfo;)V
+<init>
+ ([Ljavax/management/MBeanNotificationInfo;)V
+ ([Ljavax/management/MBeanNotificationInfo;)V
+addNotificationListener
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+getNotificationInfo
+ ()[Ljavax/management/MBeanNotificationInfo;
+ ()[Ljavax/management/MBeanNotificationInfo;
+handleNotification
+ (Ljavax/management/NotificationListener;Ljavax/management/Notification;Ljava/lang/Object;)V
+ (Ljavax/management/NotificationListener;Ljavax/management/Notification;Ljava/lang/Object;)V
+removeNotificationListener
+ (Ljavax/management/NotificationListener;)V
+ (L1javax/management/NotificationListener;)V # @Inherited(javax.management.NotificationBroadcaster)
+removeNotificationListener
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+sendNotification
+ (Ljavax/management/Notification;)V
+ (Ljavax/management/Notification;)V

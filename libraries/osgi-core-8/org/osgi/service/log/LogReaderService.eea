@@ -1,0 +1,11 @@
+class org/osgi/service/log/LogReaderService
+
+addLogListener
+ (Lorg/osgi/service/log/LogListener;)V
+ (L1org/osgi/service/log/LogListener;)V
+getLog
+ ()Ljava/util/Enumeration<Lorg/osgi/service/log/LogEntry;>;
+ ()Ljava/util/Enumeration<Lorg/osgi/service/log/LogEntry;>;
+removeLogListener
+ (Lorg/osgi/service/log/LogListener;)V
+ (L1org/osgi/service/log/LogListener;)V

@@ -1,0 +1,20 @@
+class java/util/concurrent/Phaser
+
+<init>
+ (Ljava/util/concurrent/Phaser;)V
+ (Ljava/util/concurrent/Phaser;)V
+<init>
+ (Ljava/util/concurrent/Phaser;I)V
+ (Ljava/util/concurrent/Phaser;I)V
+awaitAdvanceInterruptibly
+ (IJLjava/util/concurrent/TimeUnit;)I
+ (IJLjava/util/concurrent/TimeUnit;)I
+getParent
+ ()Ljava/util/concurrent/Phaser;
+ ()Ljava/util/concurrent/Phaser;
+getRoot
+ ()Ljava/util/concurrent/Phaser;
+ ()Ljava/util/concurrent/Phaser;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

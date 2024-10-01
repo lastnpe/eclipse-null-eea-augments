@@ -1,0 +1,29 @@
+class javax/swing/text/ZoneView
+
+<init>
+ (Ljavax/swing/text/Element;I)V
+ (Ljavax/swing/text/Element;I)V
+createZone
+ (II)Ljavax/swing/text/View;
+ (II)Ljavax/swing/text/View;
+insertUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+isZoneLoaded
+ (Ljavax/swing/text/View;)Z
+ (Ljavax/swing/text/View;)Z
+loadChildren
+ (Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/text/ViewFactory;)V
+removeUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+unloadZone
+ (Ljavax/swing/text/View;)V
+ (Ljavax/swing/text/View;)V
+updateChildren
+ (Ljavax/swing/event/DocumentEvent$ElementChange;Ljavax/swing/event/DocumentEvent;Ljavax/swing/text/ViewFactory;)Z
+ (Ljavax/swing/event/DocumentEvent$ElementChange;Ljavax/swing/event/DocumentEvent;Ljavax/swing/text/ViewFactory;)Z
+zoneWasLoaded
+ (Ljavax/swing/text/View;)V
+ (Ljavax/swing/text/View;)V

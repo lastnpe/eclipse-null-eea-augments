@@ -1,0 +1,48 @@
+class javax/management/relation/RelationNotification
+
+RELATION_BASIC_CREATION
+ Ljava/lang/String;
+ L1java/lang/String;
+RELATION_BASIC_REMOVAL
+ Ljava/lang/String;
+ L1java/lang/String;
+RELATION_BASIC_UPDATE
+ Ljava/lang/String;
+ L1java/lang/String;
+RELATION_MBEAN_CREATION
+ Ljava/lang/String;
+ L1java/lang/String;
+RELATION_MBEAN_REMOVAL
+ Ljava/lang/String;
+ L1java/lang/String;
+RELATION_MBEAN_UPDATE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljava/lang/String;Ljava/lang/Object;JJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljavax/management/ObjectName;Ljava/lang/String;Ljava/util/List<Ljavax/management/ObjectName;>;Ljava/util/List<Ljavax/management/ObjectName;>;)V
+ (Ljava/lang/String;Ljava/lang/Object;JJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljavax/management/ObjectName;Ljava/lang/String;Ljava/util/List<Ljavax/management/ObjectName;>;Ljava/util/List<Ljavax/management/ObjectName;>;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Object;JJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljavax/management/ObjectName;Ljava/util/List<Ljavax/management/ObjectName;>;)V
+ (Ljava/lang/String;Ljava/lang/Object;JJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljavax/management/ObjectName;Ljava/util/List<Ljavax/management/ObjectName;>;)V
+getMBeansToUnregister
+ ()Ljava/util/List<Ljavax/management/ObjectName;>;
+ ()Ljava/util/List<Ljavax/management/ObjectName;>;
+getNewRoleValue
+ ()Ljava/util/List<Ljavax/management/ObjectName;>;
+ ()Ljava/util/List<Ljavax/management/ObjectName;>;
+getObjectName
+ ()Ljavax/management/ObjectName;
+ ()Ljavax/management/ObjectName;
+getOldRoleValue
+ ()Ljava/util/List<Ljavax/management/ObjectName;>;
+ ()Ljava/util/List<Ljavax/management/ObjectName;>;
+getRelationId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRelationTypeName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRoleName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

@@ -1,0 +1,29 @@
+class javax/sql/rowset/JoinRowSet
+
+addRowSet
+ (Ljavax/sql/RowSet;I)V
+ (Ljavax/sql/RowSet;I)V
+addRowSet
+ (Ljavax/sql/RowSet;Ljava/lang/String;)V
+ (Ljavax/sql/RowSet;Ljava/lang/String;)V
+addRowSet
+ (Ljavax/sql/rowset/Joinable;)V
+ (Ljavax/sql/rowset/Joinable;)V
+addRowSet
+ ([Ljavax/sql/RowSet;[I)V
+ ([Ljavax/sql/RowSet;[I)V
+addRowSet
+ ([Ljavax/sql/RowSet;[Ljava/lang/String;)V
+ ([Ljavax/sql/RowSet;[Ljava/lang/String;)V
+getRowSetNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getRowSets
+ ()Ljava/util/Collection<*>;
+ ()Ljava/util/Collection<*>;
+getWhereClause
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+toCachedRowSet
+ ()Ljavax/sql/rowset/CachedRowSet;
+ ()Ljavax/sql/rowset/CachedRowSet;

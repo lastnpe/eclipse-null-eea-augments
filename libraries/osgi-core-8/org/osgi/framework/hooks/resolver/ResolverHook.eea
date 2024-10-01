@@ -1,0 +1,11 @@
+class org/osgi/framework/hooks/resolver/ResolverHook
+
+filterMatches
+ (Lorg/osgi/framework/wiring/BundleRequirement;Ljava/util/Collection<Lorg/osgi/framework/wiring/BundleCapability;>;)V
+ (Lorg/osgi/framework/wiring/BundleRequirement;Ljava/util/Collection<Lorg/osgi/framework/wiring/BundleCapability;>;)V
+filterResolvable
+ (Ljava/util/Collection<Lorg/osgi/framework/wiring/BundleRevision;>;)V
+ (Ljava/util/Collection<Lorg/osgi/framework/wiring/BundleRevision;>;)V
+filterSingletonCollisions
+ (Lorg/osgi/framework/wiring/BundleCapability;Ljava/util/Collection<Lorg/osgi/framework/wiring/BundleCapability;>;)V
+ (Lorg/osgi/framework/wiring/BundleCapability;Ljava/util/Collection<Lorg/osgi/framework/wiring/BundleCapability;>;)V

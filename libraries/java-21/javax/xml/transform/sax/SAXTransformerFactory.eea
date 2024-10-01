@@ -1,0 +1,27 @@
+class javax/xml/transform/sax/SAXTransformerFactory
+
+FEATURE
+ Ljava/lang/String;
+ L1java/lang/String;
+FEATURE_XMLFILTER
+ Ljava/lang/String;
+ L1java/lang/String;
+
+newTemplatesHandler
+ ()Ljavax/xml/transform/sax/TemplatesHandler;
+ ()Ljavax/xml/transform/sax/TemplatesHandler;
+newTransformerHandler
+ ()Ljavax/xml/transform/sax/TransformerHandler;
+ ()Ljavax/xml/transform/sax/TransformerHandler;
+newTransformerHandler
+ (Ljavax/xml/transform/Source;)Ljavax/xml/transform/sax/TransformerHandler;
+ (Ljavax/xml/transform/Source;)Ljavax/xml/transform/sax/TransformerHandler;
+newTransformerHandler
+ (Ljavax/xml/transform/Templates;)Ljavax/xml/transform/sax/TransformerHandler;
+ (Ljavax/xml/transform/Templates;)Ljavax/xml/transform/sax/TransformerHandler;
+newXMLFilter
+ (Ljavax/xml/transform/Source;)Lorg/xml/sax/XMLFilter;
+ (Ljavax/xml/transform/Source;)Lorg/xml/sax/XMLFilter;
+newXMLFilter
+ (Ljavax/xml/transform/Templates;)Lorg/xml/sax/XMLFilter;
+ (Ljavax/xml/transform/Templates;)Lorg/xml/sax/XMLFilter;

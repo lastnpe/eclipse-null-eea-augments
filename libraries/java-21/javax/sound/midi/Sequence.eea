@@ -1,0 +1,18 @@
+class javax/sound/midi/Sequence
+
+tracks
+ Ljava/util/Vector<Ljavax/sound/midi/Track;>;
+ Ljava/util/Vector<Ljavax/sound/midi/Track;>;
+
+createTrack
+ ()Ljavax/sound/midi/Track;
+ ()Ljavax/sound/midi/Track;
+deleteTrack
+ (Ljavax/sound/midi/Track;)Z
+ (Ljavax/sound/midi/Track;)Z
+getPatchList
+ ()[Ljavax/sound/midi/Patch;
+ ()[Ljavax/sound/midi/Patch;
+getTracks
+ ()[Ljavax/sound/midi/Track;
+ ()[Ljavax/sound/midi/Track;

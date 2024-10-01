@@ -1,0 +1,30 @@
+class java/lang/reflect/AccessibleObject
+
+setAccessible
+ ([Ljava/lang/reflect/AccessibleObject;Z)V
+ ([1Ljava/lang/reflect/AccessibleObject;Z)V
+
+canAccess
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+getAnnotation
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)T0T; # @Inherited(java.lang.reflect.AnnotatedElement)
+getAnnotations
+ ()[Ljava/lang/annotation/Annotation;
+ ()[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.AnnotatedElement)
+getAnnotationsByType
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)[1T1T; # @Inherited(java.lang.reflect.AnnotatedElement)
+getDeclaredAnnotation
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)T0T; # @Inherited(java.lang.reflect.AnnotatedElement)
+getDeclaredAnnotations
+ ()[Ljava/lang/annotation/Annotation;
+ ()[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.AnnotatedElement)
+getDeclaredAnnotationsByType
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)[1T1T; # @Inherited(java.lang.reflect.AnnotatedElement)
+isAnnotationPresent
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+ (L1java/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z # @Inherited(java.lang.reflect.AnnotatedElement)

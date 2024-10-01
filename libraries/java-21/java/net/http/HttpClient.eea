@@ -1,0 +1,51 @@
+class java/net/http/HttpClient
+
+newBuilder
+ ()Ljava/net/http/HttpClient$Builder;
+ ()L1java/net/http/HttpClient$Builder;
+newHttpClient
+ ()Ljava/net/http/HttpClient;
+ ()L1java/net/http/HttpClient;
+
+authenticator
+ ()Ljava/util/Optional<Ljava/net/Authenticator;>;
+ ()Ljava/util/Optional<Ljava/net/Authenticator;>;
+awaitTermination
+ (Ljava/time/Duration;)Z
+ (Ljava/time/Duration;)Z
+connectTimeout
+ ()Ljava/util/Optional<Ljava/time/Duration;>;
+ ()Ljava/util/Optional<Ljava/time/Duration;>;
+cookieHandler
+ ()Ljava/util/Optional<Ljava/net/CookieHandler;>;
+ ()Ljava/util/Optional<Ljava/net/CookieHandler;>;
+executor
+ ()Ljava/util/Optional<Ljava/util/concurrent/Executor;>;
+ ()Ljava/util/Optional<Ljava/util/concurrent/Executor;>;
+followRedirects
+ ()Ljava/net/http/HttpClient$Redirect;
+ ()Ljava/net/http/HttpClient$Redirect;
+newWebSocketBuilder
+ ()Ljava/net/http/WebSocket$Builder;
+ ()Ljava/net/http/WebSocket$Builder;
+proxy
+ ()Ljava/util/Optional<Ljava/net/ProxySelector;>;
+ ()Ljava/util/Optional<Ljava/net/ProxySelector;>;
+send
+ <T:Ljava/lang/Object;>(Ljava/net/http/HttpRequest;Ljava/net/http/HttpResponse$BodyHandler<TT;>;)Ljava/net/http/HttpResponse<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/net/http/HttpRequest;Ljava/net/http/HttpResponse$BodyHandler<TT;>;)Ljava/net/http/HttpResponse<TT;>;
+sendAsync
+ <T:Ljava/lang/Object;>(Ljava/net/http/HttpRequest;Ljava/net/http/HttpResponse$BodyHandler<TT;>;)Ljava/util/concurrent/CompletableFuture<Ljava/net/http/HttpResponse<TT;>;>;
+ <T:Ljava/lang/Object;>(Ljava/net/http/HttpRequest;Ljava/net/http/HttpResponse$BodyHandler<TT;>;)Ljava/util/concurrent/CompletableFuture<Ljava/net/http/HttpResponse<TT;>;>;
+sendAsync
+ <T:Ljava/lang/Object;>(Ljava/net/http/HttpRequest;Ljava/net/http/HttpResponse$BodyHandler<TT;>;Ljava/net/http/HttpResponse$PushPromiseHandler<TT;>;)Ljava/util/concurrent/CompletableFuture<Ljava/net/http/HttpResponse<TT;>;>;
+ <T:Ljava/lang/Object;>(Ljava/net/http/HttpRequest;Ljava/net/http/HttpResponse$BodyHandler<TT;>;Ljava/net/http/HttpResponse$PushPromiseHandler<TT;>;)Ljava/util/concurrent/CompletableFuture<Ljava/net/http/HttpResponse<TT;>;>;
+sslContext
+ ()Ljavax/net/ssl/SSLContext;
+ ()Ljavax/net/ssl/SSLContext;
+sslParameters
+ ()Ljavax/net/ssl/SSLParameters;
+ ()Ljavax/net/ssl/SSLParameters;
+version
+ ()Ljava/net/http/HttpClient$Version;
+ ()Ljava/net/http/HttpClient$Version;

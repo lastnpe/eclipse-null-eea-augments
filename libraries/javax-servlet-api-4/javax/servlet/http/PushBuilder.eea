@@ -1,0 +1,41 @@
+class javax/servlet/http/PushBuilder
+
+addHeader
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/servlet/http/PushBuilder;
+ (Ljava/lang/String;Ljava/lang/String;)L1javax/servlet/http/PushBuilder;
+getHeader
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getHeaderNames
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getMethod
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPath
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getQueryString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSessionId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+method
+ (Ljava/lang/String;)Ljavax/servlet/http/PushBuilder;
+ (Ljava/lang/String;)L1javax/servlet/http/PushBuilder;
+path
+ (Ljava/lang/String;)Ljavax/servlet/http/PushBuilder;
+ (Ljava/lang/String;)L1javax/servlet/http/PushBuilder;
+queryString
+ (Ljava/lang/String;)Ljavax/servlet/http/PushBuilder;
+ (Ljava/lang/String;)L1javax/servlet/http/PushBuilder;
+removeHeader
+ (Ljava/lang/String;)Ljavax/servlet/http/PushBuilder;
+ (Ljava/lang/String;)L1javax/servlet/http/PushBuilder;
+sessionId
+ (Ljava/lang/String;)Ljavax/servlet/http/PushBuilder;
+ (Ljava/lang/String;)L1javax/servlet/http/PushBuilder;
+setHeader
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/servlet/http/PushBuilder;
+ (Ljava/lang/String;Ljava/lang/String;)L1javax/servlet/http/PushBuilder;

@@ -1,0 +1,83 @@
+class org/eclipse/jetty/client/transport/HttpDestination
+
+<init>
+ (Lorg/eclipse/jetty/client/HttpClient;Lorg/eclipse/jetty/client/Origin;)V
+ (Lorg/eclipse/jetty/client/HttpClient;Lorg/eclipse/jetty/client/Origin;)V
+<init>
+ (Lorg/eclipse/jetty/client/HttpClient;Lorg/eclipse/jetty/client/Origin;Z)V
+ (Lorg/eclipse/jetty/client/HttpClient;Lorg/eclipse/jetty/client/Origin;Z)V
+accept
+ (Lorg/eclipse/jetty/client/Connection;)V
+ (Lorg/eclipse/jetty/client/Connection;)V
+asString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+createConnection
+ (Lorg/eclipse/jetty/util/Promise<Lorg/eclipse/jetty/client/Connection;>;)V
+ (Lorg/eclipse/jetty/util/Promise<Lorg/eclipse/jetty/client/Connection;>;)V
+dump
+ (Ljava/lang/Appendable;Ljava/lang/String;)V
+ (Ljava/lang/Appendable;Ljava/lang/String;)V
+enqueue
+ (Ljava/util/Queue<Lorg/eclipse/jetty/client/transport/HttpExchange;>;Lorg/eclipse/jetty/client/transport/HttpExchange;)Z
+ (Ljava/util/Queue<Lorg/eclipse/jetty/client/transport/HttpExchange;>;Lorg/eclipse/jetty/client/transport/HttpExchange;)Z
+failed
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+getClientConnectionFactory
+ ()Lorg/eclipse/jetty/io/ClientConnectionFactory;
+ ()Lorg/eclipse/jetty/io/ClientConnectionFactory;
+getConnectionPool
+ ()Lorg/eclipse/jetty/client/ConnectionPool;
+ ()Lorg/eclipse/jetty/client/ConnectionPool;
+getHost
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getHostField
+ ()Lorg/eclipse/jetty/http/HttpField;
+ ()Lorg/eclipse/jetty/http/HttpField;
+getHttpClient
+ ()Lorg/eclipse/jetty/client/HttpClient;
+ ()Lorg/eclipse/jetty/client/HttpClient;
+getHttpExchanges
+ ()Ljava/util/Queue<Lorg/eclipse/jetty/client/transport/HttpExchange;>;
+ ()Ljava/util/Queue<Lorg/eclipse/jetty/client/transport/HttpExchange;>;
+getOrigin
+ ()Lorg/eclipse/jetty/client/Origin;
+ ()Lorg/eclipse/jetty/client/Origin;
+getProxy
+ ()Lorg/eclipse/jetty/client/ProxyConfiguration$Proxy;
+ ()Lorg/eclipse/jetty/client/ProxyConfiguration$Proxy;
+getScheme
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+newConnection
+ (Lorg/eclipse/jetty/util/Promise<Lorg/eclipse/jetty/client/Connection;>;)V
+ (Lorg/eclipse/jetty/util/Promise<Lorg/eclipse/jetty/client/Connection;>;)V
+newConnectionPool
+ (Lorg/eclipse/jetty/client/HttpClient;)Lorg/eclipse/jetty/client/ConnectionPool;
+ (Lorg/eclipse/jetty/client/HttpClient;)Lorg/eclipse/jetty/client/ConnectionPool;
+newExchangeQueue
+ (Lorg/eclipse/jetty/client/HttpClient;)Ljava/util/Queue<Lorg/eclipse/jetty/client/transport/HttpExchange;>;
+ (Lorg/eclipse/jetty/client/HttpClient;)Ljava/util/Queue<Lorg/eclipse/jetty/client/transport/HttpExchange;>;
+release
+ (Lorg/eclipse/jetty/client/Connection;)V
+ (Lorg/eclipse/jetty/client/Connection;)V
+remove
+ (Lorg/eclipse/jetty/client/Connection;)Z
+ (Lorg/eclipse/jetty/client/Connection;)Z
+remove
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)Z
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)Z
+send
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response$CompleteListener;)V
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response$CompleteListener;)V
+send
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)V
+ (Lorg/eclipse/jetty/client/transport/HttpExchange;)V
+send
+ (Lorg/eclipse/jetty/client/transport/IConnection;Lorg/eclipse/jetty/client/transport/HttpExchange;)Lorg/eclipse/jetty/client/transport/SendFailure;
+ (Lorg/eclipse/jetty/client/transport/IConnection;Lorg/eclipse/jetty/client/transport/HttpExchange;)Lorg/eclipse/jetty/client/transport/SendFailure;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

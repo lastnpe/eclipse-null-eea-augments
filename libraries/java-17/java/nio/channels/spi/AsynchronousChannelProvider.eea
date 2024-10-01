@@ -1,0 +1,18 @@
+class java/nio/channels/spi/AsynchronousChannelProvider
+
+provider
+ ()Ljava/nio/channels/spi/AsynchronousChannelProvider;
+ ()Ljava/nio/channels/spi/AsynchronousChannelProvider;
+
+openAsynchronousChannelGroup
+ (ILjava/util/concurrent/ThreadFactory;)Ljava/nio/channels/AsynchronousChannelGroup;
+ (ILjava/util/concurrent/ThreadFactory;)Ljava/nio/channels/AsynchronousChannelGroup;
+openAsynchronousChannelGroup
+ (Ljava/util/concurrent/ExecutorService;I)Ljava/nio/channels/AsynchronousChannelGroup;
+ (Ljava/util/concurrent/ExecutorService;I)Ljava/nio/channels/AsynchronousChannelGroup;
+openAsynchronousServerSocketChannel
+ (Ljava/nio/channels/AsynchronousChannelGroup;)Ljava/nio/channels/AsynchronousServerSocketChannel;
+ (Ljava/nio/channels/AsynchronousChannelGroup;)Ljava/nio/channels/AsynchronousServerSocketChannel;
+openAsynchronousSocketChannel
+ (Ljava/nio/channels/AsynchronousChannelGroup;)Ljava/nio/channels/AsynchronousSocketChannel;
+ (Ljava/nio/channels/AsynchronousChannelGroup;)Ljava/nio/channels/AsynchronousSocketChannel;

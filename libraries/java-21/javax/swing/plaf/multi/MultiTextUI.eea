@@ -1,0 +1,79 @@
+class javax/swing/plaf/multi/MultiTextUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+uis
+ Ljava/util/Vector<Ljavax/swing/plaf/ComponentUI;>;
+ Ljava/util/Vector<Ljavax/swing/plaf/ComponentUI;>;
+
+contains
+ (Ljavax/swing/JComponent;II)Z
+ (Ljavax/swing/JComponent;II)Z
+damageRange
+ (Ljavax/swing/text/JTextComponent;II)V
+ (Ljavax/swing/text/JTextComponent;II)V
+damageRange
+ (Ljavax/swing/text/JTextComponent;IILjavax/swing/text/Position$Bias;Ljavax/swing/text/Position$Bias;)V
+ (Ljavax/swing/text/JTextComponent;IILjavax/swing/text/Position$Bias;Ljavax/swing/text/Position$Bias;)V
+getAccessibleChild
+ (Ljavax/swing/JComponent;I)Ljavax/accessibility/Accessible;
+ (Ljavax/swing/JComponent;I)Ljavax/accessibility/Accessible;
+getAccessibleChildrenCount
+ (Ljavax/swing/JComponent;)I
+ (Ljavax/swing/JComponent;)I
+getEditorKit
+ (Ljavax/swing/text/JTextComponent;)Ljavax/swing/text/EditorKit;
+ (Ljavax/swing/text/JTextComponent;)Ljavax/swing/text/EditorKit;
+getMaximumSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getMinimumSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getNextVisualPositionFrom
+ (Ljavax/swing/text/JTextComponent;ILjavax/swing/text/Position$Bias;I[Ljavax/swing/text/Position$Bias;)I
+ (Ljavax/swing/text/JTextComponent;ILjavax/swing/text/Position$Bias;I[Ljavax/swing/text/Position$Bias;)I
+getPreferredSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getRootView
+ (Ljavax/swing/text/JTextComponent;)Ljavax/swing/text/View;
+ (Ljavax/swing/text/JTextComponent;)Ljavax/swing/text/View;
+getToolTipText
+ (Ljavax/swing/text/JTextComponent;Ljava/awt/Point;)Ljava/lang/String;
+ (Ljavax/swing/text/JTextComponent;Ljava/awt/Point;)Ljava/lang/String;
+getUIs
+ ()[Ljavax/swing/plaf/ComponentUI;
+ ()[Ljavax/swing/plaf/ComponentUI;
+installUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+modelToView
+ (Ljavax/swing/text/JTextComponent;I)Ljava/awt/Rectangle;
+ (Ljavax/swing/text/JTextComponent;I)Ljava/awt/Rectangle;
+modelToView
+ (Ljavax/swing/text/JTextComponent;ILjavax/swing/text/Position$Bias;)Ljava/awt/Rectangle;
+ (Ljavax/swing/text/JTextComponent;ILjavax/swing/text/Position$Bias;)Ljava/awt/Rectangle;
+modelToView2D
+ (Ljavax/swing/text/JTextComponent;ILjavax/swing/text/Position$Bias;)Ljava/awt/geom/Rectangle2D;
+ (Ljavax/swing/text/JTextComponent;ILjavax/swing/text/Position$Bias;)Ljava/awt/geom/Rectangle2D;
+paint
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+uninstallUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+update
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+viewToModel
+ (Ljavax/swing/text/JTextComponent;Ljava/awt/Point;)I
+ (Ljavax/swing/text/JTextComponent;Ljava/awt/Point;)I
+viewToModel
+ (Ljavax/swing/text/JTextComponent;Ljava/awt/Point;[Ljavax/swing/text/Position$Bias;)I
+ (Ljavax/swing/text/JTextComponent;Ljava/awt/Point;[Ljavax/swing/text/Position$Bias;)I
+viewToModel2D
+ (Ljavax/swing/text/JTextComponent;Ljava/awt/geom/Point2D;[Ljavax/swing/text/Position$Bias;)I
+ (Ljavax/swing/text/JTextComponent;Ljava/awt/geom/Point2D;[Ljavax/swing/text/Position$Bias;)I

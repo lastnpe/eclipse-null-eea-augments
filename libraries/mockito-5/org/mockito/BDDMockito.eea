@@ -1,0 +1,35 @@
+class org/mockito/BDDMockito
+
+given
+ <T:Ljava/lang/Object;>(TT;)Lorg/mockito/BDDMockito$BDDMyOngoingStubbing<TT;>;
+ <T:Ljava/lang/Object;>(TT;)Lorg/mockito/BDDMockito$BDDMyOngoingStubbing<TT;>;
+then
+ <T:Ljava/lang/Object;>(TT;)Lorg/mockito/BDDMockito$Then<TT;>;
+ <T:Ljava/lang/Object;>(TT;)Lorg/mockito/BDDMockito$Then<TT;>;
+will
+ (Lorg/mockito/stubbing/Answer<*>;)Lorg/mockito/BDDMockito$BDDStubber;
+ (Lorg/mockito/stubbing/Answer<*>;)Lorg/mockito/BDDMockito$BDDStubber;
+willAnswer
+ (Lorg/mockito/stubbing/Answer<*>;)Lorg/mockito/BDDMockito$BDDStubber;
+ (Lorg/mockito/stubbing/Answer<*>;)Lorg/mockito/BDDMockito$BDDStubber;
+willCallRealMethod
+ ()Lorg/mockito/BDDMockito$BDDStubber;
+ ()Lorg/mockito/BDDMockito$BDDStubber;
+willDoNothing
+ ()Lorg/mockito/BDDMockito$BDDStubber;
+ ()Lorg/mockito/BDDMockito$BDDStubber;
+willReturn
+ (Ljava/lang/Object;)Lorg/mockito/BDDMockito$BDDStubber;
+ (Ljava/lang/Object;)Lorg/mockito/BDDMockito$BDDStubber;
+willReturn
+ (Ljava/lang/Object;[Ljava/lang/Object;)Lorg/mockito/BDDMockito$BDDStubber;
+ (Ljava/lang/Object;[Ljava/lang/Object;)Lorg/mockito/BDDMockito$BDDStubber;
+willThrow
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;)Lorg/mockito/BDDMockito$BDDStubber;
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;)Lorg/mockito/BDDMockito$BDDStubber;
+willThrow
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;[Ljava/lang/Class<+Ljava/lang/Throwable;>;)Lorg/mockito/BDDMockito$BDDStubber;
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;[Ljava/lang/Class<+Ljava/lang/Throwable;>;)Lorg/mockito/BDDMockito$BDDStubber;
+willThrow
+ ([Ljava/lang/Throwable;)Lorg/mockito/BDDMockito$BDDStubber;
+ ([Ljava/lang/Throwable;)Lorg/mockito/BDDMockito$BDDStubber;

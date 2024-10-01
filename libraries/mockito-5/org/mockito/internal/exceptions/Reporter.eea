@@ -1,0 +1,239 @@
+class org/mockito/internal/exceptions/Reporter
+
+argumentsAreDifferent
+ (Lorg/mockito/invocation/Invocation;Lorg/mockito/invocation/MatchableInvocation;Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;Ljava/util/List<Lorg/mockito/invocation/Location;>;)Ljava/lang/AssertionError;
+ (Lorg/mockito/invocation/Invocation;Lorg/mockito/invocation/MatchableInvocation;Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;Ljava/util/List<Lorg/mockito/invocation/Location;>;)Ljava/lang/AssertionError;
+atMostAndNeverShouldNotBeUsedWithTimeout
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+cannotCallAbstractRealMethod
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+cannotCreateTimerWithNegativeDurationTime
+ (J)Lorg/mockito/exceptions/base/MockitoException;
+ (J)Lorg/mockito/exceptions/base/MockitoException;
+cannotInitializeForInjectMocksAnnotation
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;
+cannotInitializeForSpyAnnotation
+ (Ljava/lang/String;Ljava/lang/Exception;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/String;Ljava/lang/Exception;)Lorg/mockito/exceptions/base/MockitoException;
+cannotInjectDependency
+ (Ljava/lang/reflect/Field;Ljava/lang/Object;Ljava/lang/Exception;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/reflect/Field;Ljava/lang/Object;Ljava/lang/Exception;)Lorg/mockito/exceptions/base/MockitoException;
+cannotMockClass
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;
+cannotStubVoidMethodWithAReturnValue
+ (Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;
+cannotStubWithNullThrowable
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+cannotVerifyToString
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+checkedExceptionInvalid
+ (Ljava/lang/Throwable;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/Throwable;)Lorg/mockito/exceptions/base/MockitoException;
+defaultAnswerDoesNotAcceptNullParameter
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+delegatedMethodDoesNotExistOnDelegate
+ (Ljava/lang/reflect/Method;Ljava/lang/Object;Ljava/lang/Object;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/reflect/Method;Ljava/lang/Object;Ljava/lang/Object;)Lorg/mockito/exceptions/base/MockitoException;
+delegatedMethodHasWrongReturnType
+ (Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;Ljava/lang/Object;Ljava/lang/Object;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;Ljava/lang/Object;Ljava/lang/Object;)Lorg/mockito/exceptions/base/MockitoException;
+extraInterfacesAcceptsOnlyInterfaces
+ (Ljava/lang/Class<*>;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/Class<*>;)Lorg/mockito/exceptions/base/MockitoException;
+extraInterfacesCannotContainMockedType
+ (Ljava/lang/Class<*>;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/Class<*>;)Lorg/mockito/exceptions/base/MockitoException;
+extraInterfacesDoesNotAcceptNullParameters
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+extraInterfacesRequiresAtLeastOneInterface
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+fieldInitialisationThrewException
+ (Ljava/lang/reflect/Field;Ljava/lang/Throwable;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/reflect/Field;Ljava/lang/Throwable;)Lorg/mockito/exceptions/base/MockitoException;
+formatUnncessaryStubbingException
+ (Ljava/lang/Class<*>;Ljava/util/Collection<Lorg/mockito/invocation/Invocation;>;)Lorg/mockito/exceptions/misusing/UnnecessaryStubbingException;
+ (Ljava/lang/Class<*>;Ljava/util/Collection<Lorg/mockito/invocation/Invocation;>;)Lorg/mockito/exceptions/misusing/UnnecessaryStubbingException;
+inOrderRequiresFamiliarMock
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+incorrectUseOfAdditionalMatchers
+ (Ljava/lang/String;ILjava/util/Collection<Lorg/mockito/internal/matchers/LocalizedMatcher;>;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/String;ILjava/util/Collection<Lorg/mockito/internal/matchers/LocalizedMatcher;>;)Lorg/mockito/exceptions/base/MockitoException;
+incorrectUseOfApi
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+inlineClassWithoutUnboxImpl
+ (Ljava/lang/Class<*>;Ljava/lang/Exception;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/Class<*>;Ljava/lang/Exception;)Lorg/mockito/exceptions/base/MockitoException;
+invalidArgumentPositionRangeAtInvocationTime
+ (Lorg/mockito/invocation/InvocationOnMock;ZI)Lorg/mockito/exceptions/base/MockitoException;
+ (Lorg/mockito/invocation/InvocationOnMock;ZI)Lorg/mockito/exceptions/base/MockitoException;
+invalidArgumentRangeAtIdentityAnswerCreationTime
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+invalidUseOfMatchers
+ (ILjava/util/List<Lorg/mockito/internal/matchers/LocalizedMatcher;>;)Lorg/mockito/exceptions/base/MockitoException;
+ (ILjava/util/List<Lorg/mockito/internal/matchers/LocalizedMatcher;>;)Lorg/mockito/exceptions/base/MockitoException;
+invocationListenerThrewException
+ (Lorg/mockito/listeners/InvocationListener;Ljava/lang/Throwable;)Lorg/mockito/exceptions/base/MockitoException;
+ (Lorg/mockito/listeners/InvocationListener;Ljava/lang/Throwable;)Lorg/mockito/exceptions/base/MockitoException;
+methodDoesNotAcceptParameter
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;
+misplacedArgumentMatcher
+ (Ljava/util/List<Lorg/mockito/internal/matchers/LocalizedMatcher;>;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/util/List<Lorg/mockito/internal/matchers/LocalizedMatcher;>;)Lorg/mockito/exceptions/base/MockitoException;
+missingByteBuddyDependency
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+missingMethodInvocation
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+mockedTypeIsInconsistentWithDelegatedInstanceType
+ (Ljava/lang/Class<*>;Ljava/lang/Object;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/Class<*>;Ljava/lang/Object;)Lorg/mockito/exceptions/base/MockitoException;
+mockedTypeIsInconsistentWithSpiedInstanceType
+ (Ljava/lang/Class<*>;Ljava/lang/Object;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/Class<*>;Ljava/lang/Object;)Lorg/mockito/exceptions/base/MockitoException;
+mocksHaveToBePassedToVerifyNoMoreInteractions
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+mocksHaveToBePassedWhenCreatingInOrder
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+moreThanOneAnnotationNotAllowed
+ (Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;
+moreThanOneMockCandidate
+ (Ljava/lang/reflect/Field;Ljava/util/Collection<*>;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/reflect/Field;Ljava/util/Collection<*>;)Lorg/mockito/exceptions/base/MockitoException;
+neverWantedButInvoked
+ (Lorg/mockito/invocation/DescribedInvocation;Ljava/util/List<Lorg/mockito/invocation/Invocation;>;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+ (Lorg/mockito/invocation/DescribedInvocation;Ljava/util/List<Lorg/mockito/invocation/Invocation;>;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+noArgumentValueWasCaptured
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+noInteractionsWanted
+ (Ljava/lang/Object;Ljava/util/List<Lorg/mockito/internal/exceptions/VerificationAwareInvocation;>;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+ (Ljava/lang/Object;Ljava/util/List<Lorg/mockito/internal/exceptions/VerificationAwareInvocation;>;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+noMoreInteractionsWanted
+ (Lorg/mockito/invocation/Invocation;Ljava/util/List<Lorg/mockito/internal/exceptions/VerificationAwareInvocation;>;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+ (Lorg/mockito/invocation/Invocation;Ljava/util/List<Lorg/mockito/internal/exceptions/VerificationAwareInvocation;>;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+noMoreInteractionsWantedInOrder
+ (Lorg/mockito/invocation/Invocation;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+ (Lorg/mockito/invocation/Invocation;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+notAMockPassedToVerify
+ (Ljava/lang/Class<*>;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/Class<*>;)Lorg/mockito/exceptions/base/MockitoException;
+notAMockPassedToVerifyNoMoreInteractions
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+notAMockPassedToWhenMethod
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+notAMockPassedWhenCreatingInOrder
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+notAnException
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+nullPassedToVerify
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+nullPassedToVerifyNoMoreInteractions
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+nullPassedToWhenMethod
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+nullPassedWhenCreatingInOrder
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+onlyVoidMethodsCanBeSetToDoNothing
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+potentialStubbingProblem
+ (Lorg/mockito/invocation/Invocation;Ljava/util/Collection<Lorg/mockito/invocation/Invocation;>;)V
+ (Lorg/mockito/invocation/Invocation;Ljava/util/Collection<Lorg/mockito/invocation/Invocation;>;)V
+redundantMockitoListener
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+reportNoSubMatchersFound
+ (Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;
+requiresAtLeastOneListener
+ (Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;
+serializableWontWorkForObjectsThatDontImplementSerializable
+ (Ljava/lang/Class<*>;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/Class<*>;)Lorg/mockito/exceptions/base/MockitoException;
+smartNullPointerException
+ (Ljava/lang/String;Lorg/mockito/invocation/Location;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/String;Lorg/mockito/invocation/Location;)Lorg/mockito/exceptions/base/MockitoException;
+spyAndDelegateAreMutuallyExclusive
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+strictnessDoesNotAcceptNullParameter
+ ()Lorg/mockito/exceptions/base/MockitoException;
+ ()Lorg/mockito/exceptions/base/MockitoException;
+stubPassedToVerify
+ (Ljava/lang/Object;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/Object;)Lorg/mockito/exceptions/base/MockitoException;
+tooFewActualInvocations
+ (Lorg/mockito/internal/reporting/Discrepancy;Lorg/mockito/invocation/DescribedInvocation;Ljava/util/List<Lorg/mockito/invocation/Location;>;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+ (Lorg/mockito/internal/reporting/Discrepancy;Lorg/mockito/invocation/DescribedInvocation;Ljava/util/List<Lorg/mockito/invocation/Location;>;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+tooFewActualInvocationsInOrder
+ (Lorg/mockito/internal/reporting/Discrepancy;Lorg/mockito/invocation/DescribedInvocation;Ljava/util/List<Lorg/mockito/invocation/Location;>;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+ (Lorg/mockito/internal/reporting/Discrepancy;Lorg/mockito/invocation/DescribedInvocation;Ljava/util/List<Lorg/mockito/invocation/Location;>;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+tooManyActualInvocations
+ (IILorg/mockito/invocation/DescribedInvocation;Ljava/util/List<Lorg/mockito/invocation/Location;>;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+ (IILorg/mockito/invocation/DescribedInvocation;Ljava/util/List<Lorg/mockito/invocation/Location;>;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+tooManyActualInvocationsInOrder
+ (IILorg/mockito/invocation/DescribedInvocation;Ljava/util/List<Lorg/mockito/invocation/Location;>;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+ (IILorg/mockito/invocation/DescribedInvocation;Ljava/util/List<Lorg/mockito/invocation/Location;>;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+unfinishedStubbing
+ (Lorg/mockito/invocation/Location;)Lorg/mockito/exceptions/base/MockitoException;
+ (Lorg/mockito/invocation/Location;)Lorg/mockito/exceptions/base/MockitoException;
+unfinishedVerificationException
+ (Lorg/mockito/invocation/Location;)Lorg/mockito/exceptions/base/MockitoException;
+ (Lorg/mockito/invocation/Location;)Lorg/mockito/exceptions/base/MockitoException;
+unncessaryStubbingException
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;)V
+ (Ljava/util/List<Lorg/mockito/invocation/Invocation;>;)V
+unsupportedCombinationOfAnnotations
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;
+usingConstructorWithFancySerializable
+ (Lorg/mockito/mock/SerializableMode;)Lorg/mockito/exceptions/base/MockitoException;
+ (Lorg/mockito/mock/SerializableMode;)Lorg/mockito/exceptions/base/MockitoException;
+wantedAtMostX
+ (II)Lorg/mockito/exceptions/verification/MoreThanAllowedActualInvocations;
+ (II)Lorg/mockito/exceptions/verification/MoreThanAllowedActualInvocations;
+wantedButNotInvoked
+ (Lorg/mockito/invocation/DescribedInvocation;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+ (Lorg/mockito/invocation/DescribedInvocation;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+wantedButNotInvoked
+ (Lorg/mockito/invocation/DescribedInvocation;Ljava/util/List<+Lorg/mockito/invocation/DescribedInvocation;>;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+ (Lorg/mockito/invocation/DescribedInvocation;Ljava/util/List<+Lorg/mockito/invocation/DescribedInvocation;>;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+wantedButNotInvokedInOrder
+ (Lorg/mockito/invocation/DescribedInvocation;Lorg/mockito/invocation/DescribedInvocation;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+ (Lorg/mockito/invocation/DescribedInvocation;Lorg/mockito/invocation/DescribedInvocation;)Lorg/mockito/exceptions/base/MockitoAssertionError;
+wrongTypeOfArgumentToReturn
+ (Lorg/mockito/invocation/InvocationOnMock;Ljava/lang/String;Ljava/lang/Class<*>;I)Lorg/mockito/exceptions/base/MockitoException;
+ (Lorg/mockito/invocation/InvocationOnMock;Ljava/lang/String;Ljava/lang/Class<*>;I)Lorg/mockito/exceptions/base/MockitoException;
+wrongTypeOfReturnValue
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;
+wrongTypeReturnedByDefaultAnswer
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/mockito/exceptions/base/MockitoException;

@@ -1,0 +1,26 @@
+class com/google/common/collect/ImmutableSortedSet$Builder
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super com/google/common/collect/ImmutableSet$Builder
+ <TE;>
+ <TE;>
+
+<init>
+ (Ljava/util/Comparator<-TE;>;)V
+ (Ljava/util/Comparator<-TE;>;)V
+add
+ (TE;)Lcom/google/common/collect/ImmutableSortedSet$Builder<TE;>;
+ (TE;)L1com/google/common/collect/ImmutableSortedSet$Builder<TE;>;
+add
+ ([TE;)Lcom/google/common/collect/ImmutableSortedSet$Builder<TE;>;
+ ([TE;)L1com/google/common/collect/ImmutableSortedSet$Builder<TE;>;
+addAll
+ (Ljava/lang/Iterable<+TE;>;)Lcom/google/common/collect/ImmutableSortedSet$Builder<TE;>;
+ (Ljava/lang/Iterable<+TE;>;)L1com/google/common/collect/ImmutableSortedSet$Builder<TE;>;
+addAll
+ (Ljava/util/Iterator<+TE;>;)Lcom/google/common/collect/ImmutableSortedSet$Builder<TE;>;
+ (Ljava/util/Iterator<+TE;>;)L1com/google/common/collect/ImmutableSortedSet$Builder<TE;>;
+build
+ ()Lcom/google/common/collect/ImmutableSortedSet<TE;>;
+ ()L1com/google/common/collect/ImmutableSortedSet<TE;>;

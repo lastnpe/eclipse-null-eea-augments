@@ -1,0 +1,26 @@
+class com/google/common/io/CharSink
+
+openBufferedStream
+ ()Ljava/io/Writer;
+ ()Ljava/io/Writer;
+openStream
+ ()Ljava/io/Writer;
+ ()Ljava/io/Writer;
+write
+ (Ljava/lang/CharSequence;)V
+ (Ljava/lang/CharSequence;)V
+writeFrom
+ (Ljava/lang/Readable;)J
+ (Ljava/lang/Readable;)J
+writeLines
+ (Ljava/lang/Iterable<+Ljava/lang/CharSequence;>;)V
+ (Ljava/lang/Iterable<+Ljava/lang/CharSequence;>;)V
+writeLines
+ (Ljava/lang/Iterable<+Ljava/lang/CharSequence;>;Ljava/lang/String;)V
+ (Ljava/lang/Iterable<+Ljava/lang/CharSequence;>;Ljava/lang/String;)V
+writeLines
+ (Ljava/util/stream/Stream<+Ljava/lang/CharSequence;>;)V
+ (Ljava/util/stream/Stream<+Ljava/lang/CharSequence;>;)V
+writeLines
+ (Ljava/util/stream/Stream<+Ljava/lang/CharSequence;>;Ljava/lang/String;)V
+ (Ljava/util/stream/Stream<+Ljava/lang/CharSequence;>;Ljava/lang/String;)V

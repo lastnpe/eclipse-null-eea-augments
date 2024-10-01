@@ -1,0 +1,83 @@
+class javax/naming/directory/InitialDirContext
+
+<init>
+ (Ljava/util/Hashtable<**>;)V
+ (Ljava/util/Hashtable<**>;)V
+bind
+ (Ljava/lang/String;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V
+bind
+ (Ljavax/naming/Name;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V
+ (Ljavax/naming/Name;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V
+createSubcontext
+ (Ljava/lang/String;Ljavax/naming/directory/Attributes;)Ljavax/naming/directory/DirContext;
+ (Ljava/lang/String;Ljavax/naming/directory/Attributes;)Ljavax/naming/directory/DirContext;
+createSubcontext
+ (Ljavax/naming/Name;Ljavax/naming/directory/Attributes;)Ljavax/naming/directory/DirContext;
+ (Ljavax/naming/Name;Ljavax/naming/directory/Attributes;)Ljavax/naming/directory/DirContext;
+getAttributes
+ (Ljava/lang/String;)Ljavax/naming/directory/Attributes;
+ (Ljava/lang/String;)Ljavax/naming/directory/Attributes;
+getAttributes
+ (Ljava/lang/String;[Ljava/lang/String;)Ljavax/naming/directory/Attributes;
+ (Ljava/lang/String;[Ljava/lang/String;)Ljavax/naming/directory/Attributes;
+getAttributes
+ (Ljavax/naming/Name;)Ljavax/naming/directory/Attributes;
+ (Ljavax/naming/Name;)Ljavax/naming/directory/Attributes;
+getAttributes
+ (Ljavax/naming/Name;[Ljava/lang/String;)Ljavax/naming/directory/Attributes;
+ (Ljavax/naming/Name;[Ljava/lang/String;)Ljavax/naming/directory/Attributes;
+getSchema
+ (Ljava/lang/String;)Ljavax/naming/directory/DirContext;
+ (Ljava/lang/String;)Ljavax/naming/directory/DirContext;
+getSchema
+ (Ljavax/naming/Name;)Ljavax/naming/directory/DirContext;
+ (Ljavax/naming/Name;)Ljavax/naming/directory/DirContext;
+getSchemaClassDefinition
+ (Ljava/lang/String;)Ljavax/naming/directory/DirContext;
+ (Ljava/lang/String;)Ljavax/naming/directory/DirContext;
+getSchemaClassDefinition
+ (Ljavax/naming/Name;)Ljavax/naming/directory/DirContext;
+ (Ljavax/naming/Name;)Ljavax/naming/directory/DirContext;
+modifyAttributes
+ (Ljava/lang/String;ILjavax/naming/directory/Attributes;)V
+ (Ljava/lang/String;ILjavax/naming/directory/Attributes;)V
+modifyAttributes
+ (Ljava/lang/String;[Ljavax/naming/directory/ModificationItem;)V
+ (Ljava/lang/String;[Ljavax/naming/directory/ModificationItem;)V
+modifyAttributes
+ (Ljavax/naming/Name;ILjavax/naming/directory/Attributes;)V
+ (Ljavax/naming/Name;ILjavax/naming/directory/Attributes;)V
+modifyAttributes
+ (Ljavax/naming/Name;[Ljavax/naming/directory/ModificationItem;)V
+ (Ljavax/naming/Name;[Ljavax/naming/directory/ModificationItem;)V
+rebind
+ (Ljava/lang/String;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V
+rebind
+ (Ljavax/naming/Name;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V
+ (Ljavax/naming/Name;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V
+search
+ (Ljava/lang/String;Ljava/lang/String;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration<Ljavax/naming/directory/SearchResult;>;
+ (Ljava/lang/String;Ljava/lang/String;Ljavax/naming/directory/SearchControls;)L1javax/naming/NamingEnumeration<L1javax/naming/directory/SearchResult;>; # @Inherited(javax.naming.directory.DirContext)
+search
+ (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration<Ljavax/naming/directory/SearchResult;>;
+ (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;Ljavax/naming/directory/SearchControls;)L1javax/naming/NamingEnumeration<L1javax/naming/directory/SearchResult;>; # @Inherited(javax.naming.directory.DirContext)
+search
+ (Ljava/lang/String;Ljavax/naming/directory/Attributes;)Ljavax/naming/NamingEnumeration<Ljavax/naming/directory/SearchResult;>;
+ (Ljava/lang/String;Ljavax/naming/directory/Attributes;)L1javax/naming/NamingEnumeration<L1javax/naming/directory/SearchResult;>; # @Inherited(javax.naming.directory.DirContext)
+search
+ (Ljava/lang/String;Ljavax/naming/directory/Attributes;[Ljava/lang/String;)Ljavax/naming/NamingEnumeration<Ljavax/naming/directory/SearchResult;>;
+ (Ljava/lang/String;Ljavax/naming/directory/Attributes;[Ljava/lang/String;)L1javax/naming/NamingEnumeration<L1javax/naming/directory/SearchResult;>; # @Inherited(javax.naming.directory.DirContext)
+search
+ (Ljavax/naming/Name;Ljava/lang/String;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration<Ljavax/naming/directory/SearchResult;>;
+ (Ljavax/naming/Name;Ljava/lang/String;Ljavax/naming/directory/SearchControls;)L1javax/naming/NamingEnumeration<L1javax/naming/directory/SearchResult;>; # @Inherited(javax.naming.directory.DirContext)
+search
+ (Ljavax/naming/Name;Ljava/lang/String;[Ljava/lang/Object;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration<Ljavax/naming/directory/SearchResult;>;
+ (Ljavax/naming/Name;Ljava/lang/String;[Ljava/lang/Object;Ljavax/naming/directory/SearchControls;)L1javax/naming/NamingEnumeration<L1javax/naming/directory/SearchResult;>; # @Inherited(javax.naming.directory.DirContext)
+search
+ (Ljavax/naming/Name;Ljavax/naming/directory/Attributes;)Ljavax/naming/NamingEnumeration<Ljavax/naming/directory/SearchResult;>;
+ (Ljavax/naming/Name;Ljavax/naming/directory/Attributes;)L1javax/naming/NamingEnumeration<L1javax/naming/directory/SearchResult;>; # @Inherited(javax.naming.directory.DirContext)
+search
+ (Ljavax/naming/Name;Ljavax/naming/directory/Attributes;[Ljava/lang/String;)Ljavax/naming/NamingEnumeration<Ljavax/naming/directory/SearchResult;>;
+ (Ljavax/naming/Name;Ljavax/naming/directory/Attributes;[Ljava/lang/String;)L1javax/naming/NamingEnumeration<L1javax/naming/directory/SearchResult;>; # @Inherited(javax.naming.directory.DirContext)

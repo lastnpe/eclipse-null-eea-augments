@@ -1,0 +1,34 @@
+class org/springframework/beans/support/PagedListHolder
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+<init>
+ (Ljava/util/List<TE;>;)V
+ (Ljava/util/List<TE;>;)V
+<init>
+ (Ljava/util/List<TE;>;Lorg/springframework/beans/support/SortDefinition;)V
+ (Ljava/util/List<TE;>;Lorg/springframework/beans/support/SortDefinition;)V
+copySortDefinition
+ (Lorg/springframework/beans/support/SortDefinition;)Lorg/springframework/beans/support/SortDefinition;
+ (Lorg/springframework/beans/support/SortDefinition;)Lorg/springframework/beans/support/SortDefinition;
+doSort
+ (Ljava/util/List<TE;>;Lorg/springframework/beans/support/SortDefinition;)V
+ (Ljava/util/List<TE;>;Lorg/springframework/beans/support/SortDefinition;)V
+getPageList
+ ()Ljava/util/List<TE;>;
+ ()Ljava/util/List<TE;>;
+getRefreshDate
+ ()Ljava/util/Date;
+ ()L0java/util/Date;
+getSort
+ ()Lorg/springframework/beans/support/SortDefinition;
+ ()L0org/springframework/beans/support/SortDefinition;
+getSource
+ ()Ljava/util/List<TE;>;
+ ()Ljava/util/List<TE;>;
+setSort
+ (Lorg/springframework/beans/support/SortDefinition;)V
+ (Lorg/springframework/beans/support/SortDefinition;)V
+setSource
+ (Ljava/util/List<TE;>;)V
+ (Ljava/util/List<TE;>;)V

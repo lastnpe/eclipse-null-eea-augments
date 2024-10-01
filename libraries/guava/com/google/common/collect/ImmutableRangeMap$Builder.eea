@@ -1,0 +1,13 @@
+class com/google/common/collect/ImmutableRangeMap$Builder
+ <K::Ljava/lang/Comparable<*>;V:Ljava/lang/Object;>
+ <K::Ljava/lang/Comparable<*>;V:Ljava/lang/Object;>
+
+build
+ ()Lcom/google/common/collect/ImmutableRangeMap<TK;TV;>;
+ ()L1com/google/common/collect/ImmutableRangeMap<TK;TV;>;
+put
+ (Lcom/google/common/collect/Range<TK;>;TV;)Lcom/google/common/collect/ImmutableRangeMap$Builder<TK;TV;>;
+ (Lcom/google/common/collect/Range<TK;>;TV;)L1com/google/common/collect/ImmutableRangeMap$Builder<TK;TV;>;
+putAll
+ (Lcom/google/common/collect/RangeMap<TK;+TV;>;)Lcom/google/common/collect/ImmutableRangeMap$Builder<TK;TV;>;
+ (Lcom/google/common/collect/RangeMap<TK;+TV;>;)L1com/google/common/collect/ImmutableRangeMap$Builder<TK;TV;>;

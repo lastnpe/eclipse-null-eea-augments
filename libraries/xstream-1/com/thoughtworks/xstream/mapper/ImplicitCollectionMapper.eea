@@ -1,0 +1,23 @@
+class com/thoughtworks/xstream/mapper/ImplicitCollectionMapper
+
+<init>
+ (Lcom/thoughtworks/xstream/mapper/Mapper;Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;)V
+ (Lcom/thoughtworks/xstream/mapper/Mapper;Lcom/thoughtworks/xstream/converters/reflection/ReflectionProvider;)V
+add
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)V
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)V
+add
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;)V
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;)V
+add
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
+ (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
+getFieldNameForItemTypeAndName
+ (Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
+getImplicitCollectionDefForFieldName
+ (Ljava/lang/Class;Ljava/lang/String;)Lcom/thoughtworks/xstream/mapper/Mapper$ImplicitCollectionMapping;
+ (Ljava/lang/Class;Ljava/lang/String;)Lcom/thoughtworks/xstream/mapper/Mapper$ImplicitCollectionMapping;
+getItemTypeForItemFieldName
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Class;
+ (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Class;

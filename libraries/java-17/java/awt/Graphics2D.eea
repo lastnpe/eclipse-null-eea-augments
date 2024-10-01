@@ -1,0 +1,95 @@
+class java/awt/Graphics2D
+
+addRenderingHints
+ (Ljava/util/Map<**>;)V
+ (Ljava/util/Map<**>;)V
+clip
+ (Ljava/awt/Shape;)V
+ (Ljava/awt/Shape;)V
+draw
+ (Ljava/awt/Shape;)V
+ (Ljava/awt/Shape;)V
+drawGlyphVector
+ (Ljava/awt/font/GlyphVector;FF)V
+ (Ljava/awt/font/GlyphVector;FF)V
+drawImage
+ (Ljava/awt/Image;Ljava/awt/geom/AffineTransform;Ljava/awt/image/ImageObserver;)Z
+ (Ljava/awt/Image;Ljava/awt/geom/AffineTransform;Ljava/awt/image/ImageObserver;)Z
+drawImage
+ (Ljava/awt/image/BufferedImage;Ljava/awt/image/BufferedImageOp;II)V
+ (Ljava/awt/image/BufferedImage;Ljava/awt/image/BufferedImageOp;II)V
+drawRenderableImage
+ (Ljava/awt/image/renderable/RenderableImage;Ljava/awt/geom/AffineTransform;)V
+ (Ljava/awt/image/renderable/RenderableImage;Ljava/awt/geom/AffineTransform;)V
+drawRenderedImage
+ (Ljava/awt/image/RenderedImage;Ljava/awt/geom/AffineTransform;)V
+ (Ljava/awt/image/RenderedImage;Ljava/awt/geom/AffineTransform;)V
+drawString
+ (Ljava/lang/String;FF)V
+ (Ljava/lang/String;FF)V
+drawString
+ (Ljava/lang/String;II)V
+ (Ljava/lang/String;II)V
+drawString
+ (Ljava/text/AttributedCharacterIterator;FF)V
+ (Ljava/text/AttributedCharacterIterator;FF)V
+drawString
+ (Ljava/text/AttributedCharacterIterator;II)V
+ (Ljava/text/AttributedCharacterIterator;II)V
+fill
+ (Ljava/awt/Shape;)V
+ (Ljava/awt/Shape;)V
+getBackground
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getComposite
+ ()Ljava/awt/Composite;
+ ()Ljava/awt/Composite;
+getDeviceConfiguration
+ ()Ljava/awt/GraphicsConfiguration;
+ ()Ljava/awt/GraphicsConfiguration;
+getFontRenderContext
+ ()Ljava/awt/font/FontRenderContext;
+ ()Ljava/awt/font/FontRenderContext;
+getPaint
+ ()Ljava/awt/Paint;
+ ()Ljava/awt/Paint;
+getRenderingHint
+ (Ljava/awt/RenderingHints$Key;)Ljava/lang/Object;
+ (Ljava/awt/RenderingHints$Key;)Ljava/lang/Object;
+getRenderingHints
+ ()Ljava/awt/RenderingHints;
+ ()Ljava/awt/RenderingHints;
+getStroke
+ ()Ljava/awt/Stroke;
+ ()Ljava/awt/Stroke;
+getTransform
+ ()Ljava/awt/geom/AffineTransform;
+ ()Ljava/awt/geom/AffineTransform;
+hit
+ (Ljava/awt/Rectangle;Ljava/awt/Shape;Z)Z
+ (Ljava/awt/Rectangle;Ljava/awt/Shape;Z)Z
+setBackground
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setComposite
+ (Ljava/awt/Composite;)V
+ (Ljava/awt/Composite;)V
+setPaint
+ (Ljava/awt/Paint;)V
+ (Ljava/awt/Paint;)V
+setRenderingHint
+ (Ljava/awt/RenderingHints$Key;Ljava/lang/Object;)V
+ (Ljava/awt/RenderingHints$Key;Ljava/lang/Object;)V
+setRenderingHints
+ (Ljava/util/Map<**>;)V
+ (Ljava/util/Map<**>;)V
+setStroke
+ (Ljava/awt/Stroke;)V
+ (Ljava/awt/Stroke;)V
+setTransform
+ (Ljava/awt/geom/AffineTransform;)V
+ (Ljava/awt/geom/AffineTransform;)V
+transform
+ (Ljava/awt/geom/AffineTransform;)V
+ (Ljava/awt/geom/AffineTransform;)V

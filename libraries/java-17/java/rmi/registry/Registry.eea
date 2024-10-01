@@ -1,0 +1,17 @@
+class java/rmi/registry/Registry
+
+bind
+ (Ljava/lang/String;Ljava/rmi/Remote;)V
+ (Ljava/lang/String;Ljava/rmi/Remote;)V
+list
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+lookup
+ (Ljava/lang/String;)Ljava/rmi/Remote;
+ (Ljava/lang/String;)Ljava/rmi/Remote;
+rebind
+ (Ljava/lang/String;Ljava/rmi/Remote;)V
+ (Ljava/lang/String;Ljava/rmi/Remote;)V
+unbind
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

@@ -1,0 +1,160 @@
+class java/beans/beancontext/BeanContextSupport
+
+classEquals
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Z
+getChildBeanContextChild
+ (Ljava/lang/Object;)Ljava/beans/beancontext/BeanContextChild;
+ (Ljava/lang/Object;)Ljava/beans/beancontext/BeanContextChild;
+getChildBeanContextMembershipListener
+ (Ljava/lang/Object;)Ljava/beans/beancontext/BeanContextMembershipListener;
+ (Ljava/lang/Object;)Ljava/beans/beancontext/BeanContextMembershipListener;
+getChildPropertyChangeListener
+ (Ljava/lang/Object;)Ljava/beans/PropertyChangeListener;
+ (Ljava/lang/Object;)Ljava/beans/PropertyChangeListener;
+getChildSerializable
+ (Ljava/lang/Object;)Ljava/io/Serializable;
+ (Ljava/lang/Object;)Ljava/io/Serializable;
+getChildVetoableChangeListener
+ (Ljava/lang/Object;)Ljava/beans/VetoableChangeListener;
+ (Ljava/lang/Object;)Ljava/beans/VetoableChangeListener;
+getChildVisibility
+ (Ljava/lang/Object;)Ljava/beans/Visibility;
+ (Ljava/lang/Object;)Ljava/beans/Visibility;
+
+bcmListeners
+ Ljava/util/ArrayList<Ljava/beans/beancontext/BeanContextMembershipListener;>;
+ Ljava/util/ArrayList<Ljava/beans/beancontext/BeanContextMembershipListener;>;
+children
+ Ljava/util/HashMap<Ljava/lang/Object;Ljava/beans/beancontext/BeanContextSupport$BCSChild;>;
+ Ljava/util/HashMap<Ljava/lang/Object;Ljava/beans/beancontext/BeanContextSupport$BCSChild;>;
+locale
+ Ljava/util/Locale;
+ Ljava/util/Locale;
+
+<init>
+ (Ljava/beans/beancontext/BeanContext;)V
+ (Ljava/beans/beancontext/BeanContext;)V
+<init>
+ (Ljava/beans/beancontext/BeanContext;Ljava/util/Locale;)V
+ (Ljava/beans/beancontext/BeanContext;Ljava/util/Locale;)V
+<init>
+ (Ljava/beans/beancontext/BeanContext;Ljava/util/Locale;Z)V
+ (Ljava/beans/beancontext/BeanContext;Ljava/util/Locale;Z)V
+<init>
+ (Ljava/beans/beancontext/BeanContext;Ljava/util/Locale;ZZ)V
+ (Ljava/beans/beancontext/BeanContext;Ljava/util/Locale;ZZ)V
+add
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+addAll
+ (Ljava/util/Collection;)Z
+ (Ljava/util/Collection;)Z
+addBeanContextMembershipListener
+ (Ljava/beans/beancontext/BeanContextMembershipListener;)V
+ (L1java/beans/beancontext/BeanContextMembershipListener;)V # @Inherited(java.beans.beancontext.BeanContext)
+bcsChildren
+ ()Ljava/util/Iterator<Ljava/beans/beancontext/BeanContextSupport$BCSChild;>;
+ ()Ljava/util/Iterator<Ljava/beans/beancontext/BeanContextSupport$BCSChild;>;
+bcsPreDeserializationHook
+ (Ljava/io/ObjectInputStream;)V
+ (Ljava/io/ObjectInputStream;)V
+bcsPreSerializationHook
+ (Ljava/io/ObjectOutputStream;)V
+ (Ljava/io/ObjectOutputStream;)V
+childDeserializedHook
+ (Ljava/lang/Object;Ljava/beans/beancontext/BeanContextSupport$BCSChild;)V
+ (Ljava/lang/Object;Ljava/beans/beancontext/BeanContextSupport$BCSChild;)V
+childJustAddedHook
+ (Ljava/lang/Object;Ljava/beans/beancontext/BeanContextSupport$BCSChild;)V
+ (Ljava/lang/Object;Ljava/beans/beancontext/BeanContextSupport$BCSChild;)V
+childJustRemovedHook
+ (Ljava/lang/Object;Ljava/beans/beancontext/BeanContextSupport$BCSChild;)V
+ (Ljava/lang/Object;Ljava/beans/beancontext/BeanContextSupport$BCSChild;)V
+contains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+containsAll
+ (Ljava/util/Collection;)Z
+ (Ljava/util/Collection;)Z
+containsKey
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+copyChildren
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+createBCSChild
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/beans/beancontext/BeanContextSupport$BCSChild;
+ (Ljava/lang/Object;Ljava/lang/Object;)Ljava/beans/beancontext/BeanContextSupport$BCSChild;
+deserialize
+ (Ljava/io/ObjectInputStream;Ljava/util/Collection;)V
+ (Ljava/io/ObjectInputStream;Ljava/util/Collection;)V
+fireChildrenAdded
+ (Ljava/beans/beancontext/BeanContextMembershipEvent;)V
+ (Ljava/beans/beancontext/BeanContextMembershipEvent;)V
+fireChildrenRemoved
+ (Ljava/beans/beancontext/BeanContextMembershipEvent;)V
+ (Ljava/beans/beancontext/BeanContextMembershipEvent;)V
+getBeanContextPeer
+ ()Ljava/beans/beancontext/BeanContext;
+ ()Ljava/beans/beancontext/BeanContext;
+getLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+getResource
+ (Ljava/lang/String;Ljava/beans/beancontext/BeanContextChild;)Ljava/net/URL;
+ (Ljava/lang/String;Ljava/beans/beancontext/BeanContextChild;)Ljava/net/URL;
+getResourceAsStream
+ (Ljava/lang/String;Ljava/beans/beancontext/BeanContextChild;)Ljava/io/InputStream;
+ (Ljava/lang/String;Ljava/beans/beancontext/BeanContextChild;)Ljava/io/InputStream;
+instantiateChild
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+iterator
+ ()Ljava/util/Iterator<Ljava/lang/Object;>;
+ ()Ljava/util/Iterator<Ljava/lang/Object;>;
+propertyChange
+ (Ljava/beans/PropertyChangeEvent;)V
+ (L1java/beans/PropertyChangeEvent;)V # @Inherited(java.beans.PropertyChangeListener)
+readChildren
+ (Ljava/io/ObjectInputStream;)V
+ (Ljava/io/ObjectInputStream;)V
+remove
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+remove
+ (Ljava/lang/Object;Z)Z
+ (Ljava/lang/Object;Z)Z
+removeAll
+ (Ljava/util/Collection;)Z
+ (Ljava/util/Collection;)Z
+removeBeanContextMembershipListener
+ (Ljava/beans/beancontext/BeanContextMembershipListener;)V
+ (L1java/beans/beancontext/BeanContextMembershipListener;)V # @Inherited(java.beans.beancontext.BeanContext)
+retainAll
+ (Ljava/util/Collection;)Z
+ (Ljava/util/Collection;)Z
+serialize
+ (Ljava/io/ObjectOutputStream;Ljava/util/Collection<*>;)V
+ (Ljava/io/ObjectOutputStream;Ljava/util/Collection<*>;)V
+setLocale
+ (Ljava/util/Locale;)V
+ (Ljava/util/Locale;)V
+toArray
+ ()[Ljava/lang/Object;
+ ()[1Ljava/lang/Object; # @Inherited(java.util.Collection)
+toArray
+ ([Ljava/lang/Object;)[Ljava/lang/Object;
+ ([Ljava/lang/Object;)[Ljava/lang/Object;
+validatePendingAdd
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+validatePendingRemove
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+vetoableChange
+ (Ljava/beans/PropertyChangeEvent;)V
+ (L1java/beans/PropertyChangeEvent;)V # @Inherited(java.beans.VetoableChangeListener)
+writeChildren
+ (Ljava/io/ObjectOutputStream;)V
+ (Ljava/io/ObjectOutputStream;)V

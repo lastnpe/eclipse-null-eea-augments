@@ -1,0 +1,33 @@
+class java/nio/channels/spi/SelectorProvider
+
+provider
+ ()Ljava/nio/channels/spi/SelectorProvider;
+ ()Ljava/nio/channels/spi/SelectorProvider;
+
+inheritedChannel
+ ()Ljava/nio/channels/Channel;
+ ()Ljava/nio/channels/Channel;
+openDatagramChannel
+ ()Ljava/nio/channels/DatagramChannel;
+ ()Ljava/nio/channels/DatagramChannel;
+openDatagramChannel
+ (Ljava/net/ProtocolFamily;)Ljava/nio/channels/DatagramChannel;
+ (Ljava/net/ProtocolFamily;)Ljava/nio/channels/DatagramChannel;
+openPipe
+ ()Ljava/nio/channels/Pipe;
+ ()Ljava/nio/channels/Pipe;
+openSelector
+ ()Ljava/nio/channels/spi/AbstractSelector;
+ ()Ljava/nio/channels/spi/AbstractSelector;
+openServerSocketChannel
+ ()Ljava/nio/channels/ServerSocketChannel;
+ ()Ljava/nio/channels/ServerSocketChannel;
+openServerSocketChannel
+ (Ljava/net/ProtocolFamily;)Ljava/nio/channels/ServerSocketChannel;
+ (Ljava/net/ProtocolFamily;)Ljava/nio/channels/ServerSocketChannel;
+openSocketChannel
+ ()Ljava/nio/channels/SocketChannel;
+ ()Ljava/nio/channels/SocketChannel;
+openSocketChannel
+ (Ljava/net/ProtocolFamily;)Ljava/nio/channels/SocketChannel;
+ (Ljava/net/ProtocolFamily;)Ljava/nio/channels/SocketChannel;

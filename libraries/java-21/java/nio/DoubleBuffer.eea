@@ -1,0 +1,106 @@
+class java/nio/DoubleBuffer
+
+super java/lang/Comparable
+ <Ljava/nio/DoubleBuffer;>
+ <Ljava/nio/DoubleBuffer;>
+
+allocate
+ (I)Ljava/nio/DoubleBuffer;
+ (I)L1java/nio/DoubleBuffer;
+wrap
+ ([D)Ljava/nio/DoubleBuffer;
+ ([1D)L1java/nio/DoubleBuffer;
+wrap
+ ([DII)Ljava/nio/DoubleBuffer;
+ ([1DII)L1java/nio/DoubleBuffer;
+
+array
+ ()[D
+ ()[1D
+asReadOnlyBuffer
+ ()Ljava/nio/DoubleBuffer;
+ ()L1java/nio/DoubleBuffer;
+clear
+ ()Ljava/nio/DoubleBuffer;
+ ()L1java/nio/DoubleBuffer;
+compact
+ ()Ljava/nio/DoubleBuffer;
+ ()L1java/nio/DoubleBuffer;
+compareTo
+ (Ljava/nio/DoubleBuffer;)I
+ (L1java/nio/DoubleBuffer;)I
+duplicate
+ ()Ljava/nio/DoubleBuffer;
+ ()L1java/nio/DoubleBuffer;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+flip
+ ()Ljava/nio/DoubleBuffer;
+ ()L1java/nio/DoubleBuffer;
+get
+ (I[D)Ljava/nio/DoubleBuffer;
+ (I[D)Ljava/nio/DoubleBuffer;
+get
+ (I[DII)Ljava/nio/DoubleBuffer;
+ (I[DII)Ljava/nio/DoubleBuffer;
+get
+ ([D)Ljava/nio/DoubleBuffer;
+ ([1D)L1java/nio/DoubleBuffer;
+get
+ ([DII)Ljava/nio/DoubleBuffer;
+ ([1DII)L1java/nio/DoubleBuffer;
+limit
+ (I)Ljava/nio/DoubleBuffer;
+ (I)L1java/nio/DoubleBuffer;
+mark
+ ()Ljava/nio/DoubleBuffer;
+ ()L1java/nio/DoubleBuffer;
+mismatch
+ (Ljava/nio/DoubleBuffer;)I
+ (L1java/nio/DoubleBuffer;)I
+order
+ ()Ljava/nio/ByteOrder;
+ ()L1java/nio/ByteOrder;
+position
+ (I)Ljava/nio/DoubleBuffer;
+ (I)L1java/nio/DoubleBuffer;
+put
+ (D)Ljava/nio/DoubleBuffer;
+ (D)L1java/nio/DoubleBuffer;
+put
+ (ID)Ljava/nio/DoubleBuffer;
+ (ID)L1java/nio/DoubleBuffer;
+put
+ (ILjava/nio/DoubleBuffer;II)Ljava/nio/DoubleBuffer;
+ (ILjava/nio/DoubleBuffer;II)Ljava/nio/DoubleBuffer;
+put
+ (I[D)Ljava/nio/DoubleBuffer;
+ (I[D)Ljava/nio/DoubleBuffer;
+put
+ (I[DII)Ljava/nio/DoubleBuffer;
+ (I[DII)Ljava/nio/DoubleBuffer;
+put
+ (Ljava/nio/DoubleBuffer;)Ljava/nio/DoubleBuffer;
+ (L1java/nio/DoubleBuffer;)L1java/nio/DoubleBuffer;
+put
+ ([D)Ljava/nio/DoubleBuffer;
+ ([1D)L1java/nio/DoubleBuffer;
+put
+ ([DII)Ljava/nio/DoubleBuffer;
+ ([1DII)L1java/nio/DoubleBuffer;
+reset
+ ()Ljava/nio/DoubleBuffer;
+ ()L1java/nio/DoubleBuffer;
+rewind
+ ()Ljava/nio/DoubleBuffer;
+ ()L1java/nio/DoubleBuffer;
+slice
+ ()Ljava/nio/DoubleBuffer;
+ ()L1java/nio/DoubleBuffer;
+slice
+ (II)Ljava/nio/DoubleBuffer;
+ (II)Ljava/nio/DoubleBuffer;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

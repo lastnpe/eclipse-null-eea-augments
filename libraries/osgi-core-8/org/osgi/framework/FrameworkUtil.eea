@@ -1,0 +1,20 @@
+class org/osgi/framework/FrameworkUtil
+
+asDictionary
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<+TK;+TV;>;)Ljava/util/Dictionary<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Map<+TK;+TV;>;)Ljava/util/Dictionary<TK;TV;>;
+asMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Dictionary<+TK;+TV;>;)Ljava/util/Map<TK;TV;>;
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>(Ljava/util/Dictionary<+TK;+TV;>;)Ljava/util/Map<TK;TV;>;
+createFilter
+ (Ljava/lang/String;)Lorg/osgi/framework/Filter;
+ (L1java/lang/String;)L1org/osgi/framework/Filter;
+getBundle
+ (Ljava/lang/Class<*>;)Lorg/osgi/framework/Bundle;
+ (L1java/lang/Class<*>;)L0org/osgi/framework/Bundle;
+getBundle
+ (Ljava/lang/ClassLoader;)Ljava/util/Optional<Lorg/osgi/framework/Bundle;>;
+ (L1java/lang/ClassLoader;)L1java/util/Optional<Lorg/osgi/framework/Bundle;>;
+matchDistinguishedNameChain
+ (Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;)Z
+ (Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;)Z

@@ -1,0 +1,22 @@
+class com/fasterxml/jackson/databind/ser/std/CalendarSerializer
+
+super com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase
+ <Ljava/util/Calendar;>
+ <Ljava/util/Calendar;>
+
+instance
+ Lcom/fasterxml/jackson/databind/ser/std/CalendarSerializer;
+ L1com/fasterxml/jackson/databind/ser/std/CalendarSerializer;
+
+<init>
+ (Ljava/lang/Boolean;Ljava/text/DateFormat;)V
+ (Ljava/lang/Boolean;Ljava/text/DateFormat;)V
+_timestamp
+ (Ljava/util/Calendar;)J
+ (Ljava/util/Calendar;)J
+serialize
+ (Ljava/util/Calendar;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljava/util/Calendar;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+withFormat
+ (Ljava/lang/Boolean;Ljava/text/DateFormat;)Lcom/fasterxml/jackson/databind/ser/std/CalendarSerializer;
+ (Ljava/lang/Boolean;Ljava/text/DateFormat;)Lcom/fasterxml/jackson/databind/ser/std/CalendarSerializer;

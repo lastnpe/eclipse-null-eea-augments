@@ -1,0 +1,20 @@
+class com/thoughtworks/xstream/converters/extended/JavaMethodConverter
+
+<init>
+ (Lcom/thoughtworks/xstream/converters/SingleValueConverter;)V
+ (Lcom/thoughtworks/xstream/converters/SingleValueConverter;)V
+<init>
+ (Lcom/thoughtworks/xstream/core/ClassLoaderReference;)V
+ (Lcom/thoughtworks/xstream/core/ClassLoaderReference;)V
+<init>
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+canConvert
+ (Ljava/lang/Class;)Z
+ (Ljava/lang/Class;)Z
+marshal
+ (Ljava/lang/Object;Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;Lcom/thoughtworks/xstream/converters/MarshallingContext;)V
+ (L0java/lang/Object;L1com/thoughtworks/xstream/io/HierarchicalStreamWriter;L1com/thoughtworks/xstream/converters/MarshallingContext;)V # @Inherited(com.thoughtworks.xstream.converters.Converter)
+unmarshal
+ (Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;Lcom/thoughtworks/xstream/converters/UnmarshallingContext;)Ljava/lang/Object;
+ (L1com/thoughtworks/xstream/io/HierarchicalStreamReader;L1com/thoughtworks/xstream/converters/UnmarshallingContext;)L0java/lang/Object; # @Inherited(com.thoughtworks.xstream.converters.Converter)

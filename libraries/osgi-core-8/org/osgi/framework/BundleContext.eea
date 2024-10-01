@@ -1,0 +1,86 @@
+class org/osgi/framework/BundleContext
+
+addBundleListener
+ (Lorg/osgi/framework/BundleListener;)V
+ (L1org/osgi/framework/BundleListener;)V
+addFrameworkListener
+ (Lorg/osgi/framework/FrameworkListener;)V
+ (L1org/osgi/framework/FrameworkListener;)V
+addServiceListener
+ (Lorg/osgi/framework/ServiceListener;)V
+ (L1org/osgi/framework/ServiceListener;)V
+addServiceListener
+ (Lorg/osgi/framework/ServiceListener;Ljava/lang/String;)V
+ (Lorg/osgi/framework/ServiceListener;Ljava/lang/String;)V
+createFilter
+ (Ljava/lang/String;)Lorg/osgi/framework/Filter;
+ (Ljava/lang/String;)Lorg/osgi/framework/Filter;
+getAllServiceReferences
+ (Ljava/lang/String;Ljava/lang/String;)[Lorg/osgi/framework/ServiceReference<*>;
+ (Ljava/lang/String;Ljava/lang/String;)[Lorg/osgi/framework/ServiceReference<*>;
+getBundle
+ ()Lorg/osgi/framework/Bundle;
+ ()L1org/osgi/framework/Bundle; # @Inherited(org.osgi.framework.BundleReference)
+getBundle
+ (J)Lorg/osgi/framework/Bundle;
+ (J)Lorg/osgi/framework/Bundle;
+getBundle
+ (Ljava/lang/String;)Lorg/osgi/framework/Bundle;
+ (Ljava/lang/String;)Lorg/osgi/framework/Bundle;
+getBundles
+ ()[Lorg/osgi/framework/Bundle;
+ ()[Lorg/osgi/framework/Bundle;
+getDataFile
+ (Ljava/lang/String;)Ljava/io/File;
+ (Ljava/lang/String;)Ljava/io/File;
+getProperty
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getService
+ <S:Ljava/lang/Object;>(Lorg/osgi/framework/ServiceReference<TS;>;)TS;
+ <S:Ljava/lang/Object;>(Lorg/osgi/framework/ServiceReference<TS;>;)TS;
+getServiceObjects
+ <S:Ljava/lang/Object;>(Lorg/osgi/framework/ServiceReference<TS;>;)Lorg/osgi/framework/ServiceObjects<TS;>;
+ <S:Ljava/lang/Object;>(Lorg/osgi/framework/ServiceReference<TS;>;)Lorg/osgi/framework/ServiceObjects<TS;>;
+getServiceReference
+ (Ljava/lang/String;)Lorg/osgi/framework/ServiceReference<*>;
+ (Ljava/lang/String;)Lorg/osgi/framework/ServiceReference<*>;
+getServiceReference
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<TS;>;)Lorg/osgi/framework/ServiceReference<TS;>;
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<TS;>;)Lorg/osgi/framework/ServiceReference<TS;>;
+getServiceReferences
+ (Ljava/lang/String;Ljava/lang/String;)[Lorg/osgi/framework/ServiceReference<*>;
+ (Ljava/lang/String;Ljava/lang/String;)[Lorg/osgi/framework/ServiceReference<*>;
+getServiceReferences
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<TS;>;Ljava/lang/String;)Ljava/util/Collection<Lorg/osgi/framework/ServiceReference<TS;>;>;
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<TS;>;Ljava/lang/String;)Ljava/util/Collection<Lorg/osgi/framework/ServiceReference<TS;>;>;
+installBundle
+ (Ljava/lang/String;)Lorg/osgi/framework/Bundle;
+ (Ljava/lang/String;)Lorg/osgi/framework/Bundle;
+installBundle
+ (Ljava/lang/String;Ljava/io/InputStream;)Lorg/osgi/framework/Bundle;
+ (Ljava/lang/String;Ljava/io/InputStream;)Lorg/osgi/framework/Bundle;
+registerService
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/util/Dictionary<Ljava/lang/String;*>;)Lorg/osgi/framework/ServiceRegistration<*>;
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/util/Dictionary<Ljava/lang/String;*>;)Lorg/osgi/framework/ServiceRegistration<*>;
+registerService
+ ([Ljava/lang/String;Ljava/lang/Object;Ljava/util/Dictionary<Ljava/lang/String;*>;)Lorg/osgi/framework/ServiceRegistration<*>;
+ ([Ljava/lang/String;Ljava/lang/Object;Ljava/util/Dictionary<Ljava/lang/String;*>;)Lorg/osgi/framework/ServiceRegistration<*>;
+registerService
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<TS;>;Lorg/osgi/framework/ServiceFactory<TS;>;Ljava/util/Dictionary<Ljava/lang/String;*>;)Lorg/osgi/framework/ServiceRegistration<TS;>;
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<TS;>;Lorg/osgi/framework/ServiceFactory<TS;>;Ljava/util/Dictionary<Ljava/lang/String;*>;)Lorg/osgi/framework/ServiceRegistration<TS;>;
+registerService
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<TS;>;TS;Ljava/util/Dictionary<Ljava/lang/String;*>;)Lorg/osgi/framework/ServiceRegistration<TS;>;
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<TS;>;TS;Ljava/util/Dictionary<Ljava/lang/String;*>;)Lorg/osgi/framework/ServiceRegistration<TS;>;
+removeBundleListener
+ (Lorg/osgi/framework/BundleListener;)V
+ (L1org/osgi/framework/BundleListener;)V
+removeFrameworkListener
+ (Lorg/osgi/framework/FrameworkListener;)V
+ (L1org/osgi/framework/FrameworkListener;)V
+removeServiceListener
+ (Lorg/osgi/framework/ServiceListener;)V
+ (L1org/osgi/framework/ServiceListener;)V
+ungetService
+ (Lorg/osgi/framework/ServiceReference<*>;)Z
+ (L1org/osgi/framework/ServiceReference<*>;)Z

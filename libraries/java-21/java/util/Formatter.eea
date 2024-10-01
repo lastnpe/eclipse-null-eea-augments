@@ -1,0 +1,68 @@
+class java/util/Formatter
+
+<init>
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+<init>
+ (Ljava/io/File;Ljava/lang/String;)V
+ (Ljava/io/File;Ljava/lang/String;)V
+<init>
+ (Ljava/io/File;Ljava/lang/String;Ljava/util/Locale;)V
+ (Ljava/io/File;Ljava/lang/String;Ljava/util/Locale;)V
+<init>
+ (Ljava/io/File;Ljava/nio/charset/Charset;Ljava/util/Locale;)V
+ (Ljava/io/File;Ljava/nio/charset/Charset;Ljava/util/Locale;)V
+<init>
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V
+<init>
+ (Ljava/io/OutputStream;Ljava/lang/String;)V
+ (Ljava/io/OutputStream;Ljava/lang/String;)V
+<init>
+ (Ljava/io/OutputStream;Ljava/lang/String;Ljava/util/Locale;)V
+ (Ljava/io/OutputStream;Ljava/lang/String;Ljava/util/Locale;)V
+<init>
+ (Ljava/io/OutputStream;Ljava/nio/charset/Charset;Ljava/util/Locale;)V
+ (Ljava/io/OutputStream;Ljava/nio/charset/Charset;Ljava/util/Locale;)V
+<init>
+ (Ljava/io/PrintStream;)V
+ (Ljava/io/PrintStream;)V
+<init>
+ (Ljava/lang/Appendable;)V
+ (Ljava/lang/Appendable;)V
+<init>
+ (Ljava/lang/Appendable;Ljava/util/Locale;)V
+ (Ljava/lang/Appendable;Ljava/util/Locale;)V
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/util/Locale;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/util/Locale;)V
+<init>
+ (Ljava/lang/String;Ljava/nio/charset/Charset;Ljava/util/Locale;)V
+ (Ljava/lang/String;Ljava/nio/charset/Charset;Ljava/util/Locale;)V
+<init>
+ (Ljava/util/Locale;)V
+ (Ljava/util/Locale;)V
+format
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/util/Formatter;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1java/util/Formatter;
+format
+ (Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/util/Formatter;
+ (Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)L1java/util/Formatter;
+ioException
+ ()Ljava/io/IOException;
+ ()Ljava/io/IOException;
+locale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+out
+ ()Ljava/lang/Appendable;
+ ()Ljava/lang/Appendable;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

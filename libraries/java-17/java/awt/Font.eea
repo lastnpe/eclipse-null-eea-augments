@@ -1,0 +1,161 @@
+class java/awt/Font
+
+DIALOG
+ Ljava/lang/String;
+ L1java/lang/String;
+DIALOG_INPUT
+ Ljava/lang/String;
+ L1java/lang/String;
+MONOSPACED
+ Ljava/lang/String;
+ L1java/lang/String;
+SANS_SERIF
+ Ljava/lang/String;
+ L1java/lang/String;
+SERIF
+ Ljava/lang/String;
+ L1java/lang/String;
+
+createFont
+ (ILjava/io/File;)Ljava/awt/Font;
+ (ILjava/io/File;)Ljava/awt/Font;
+createFont
+ (ILjava/io/InputStream;)Ljava/awt/Font;
+ (ILjava/io/InputStream;)Ljava/awt/Font;
+createFonts
+ (Ljava/io/File;)[Ljava/awt/Font;
+ (Ljava/io/File;)[Ljava/awt/Font;
+createFonts
+ (Ljava/io/InputStream;)[Ljava/awt/Font;
+ (Ljava/io/InputStream;)[Ljava/awt/Font;
+decode
+ (Ljava/lang/String;)Ljava/awt/Font;
+ (Ljava/lang/String;)Ljava/awt/Font;
+getFont
+ (Ljava/lang/String;)Ljava/awt/Font;
+ (Ljava/lang/String;)Ljava/awt/Font;
+getFont
+ (Ljava/lang/String;Ljava/awt/Font;)Ljava/awt/Font;
+ (Ljava/lang/String;Ljava/awt/Font;)Ljava/awt/Font;
+getFont
+ (Ljava/util/Map<+Ljava/text/AttributedCharacterIterator$Attribute;*>;)Ljava/awt/Font;
+ (Ljava/util/Map<+Ljava/text/AttributedCharacterIterator$Attribute;*>;)Ljava/awt/Font;
+textRequiresLayout
+ ([CII)Z
+ ([CII)Z
+
+name
+ Ljava/lang/String;
+ Ljava/lang/String;
+
+<init>
+ (Ljava/awt/Font;)V
+ (Ljava/awt/Font;)V
+<init>
+ (Ljava/lang/String;II)V
+ (Ljava/lang/String;II)V
+<init>
+ (Ljava/util/Map<+Ljava/text/AttributedCharacterIterator$Attribute;*>;)V
+ (Ljava/util/Map<+Ljava/text/AttributedCharacterIterator$Attribute;*>;)V
+canDisplayUpTo
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+canDisplayUpTo
+ (Ljava/text/CharacterIterator;II)I
+ (Ljava/text/CharacterIterator;II)I
+canDisplayUpTo
+ ([CII)I
+ ([CII)I
+createGlyphVector
+ (Ljava/awt/font/FontRenderContext;Ljava/lang/String;)Ljava/awt/font/GlyphVector;
+ (Ljava/awt/font/FontRenderContext;Ljava/lang/String;)Ljava/awt/font/GlyphVector;
+createGlyphVector
+ (Ljava/awt/font/FontRenderContext;Ljava/text/CharacterIterator;)Ljava/awt/font/GlyphVector;
+ (Ljava/awt/font/FontRenderContext;Ljava/text/CharacterIterator;)Ljava/awt/font/GlyphVector;
+createGlyphVector
+ (Ljava/awt/font/FontRenderContext;[C)Ljava/awt/font/GlyphVector;
+ (Ljava/awt/font/FontRenderContext;[C)Ljava/awt/font/GlyphVector;
+createGlyphVector
+ (Ljava/awt/font/FontRenderContext;[I)Ljava/awt/font/GlyphVector;
+ (Ljava/awt/font/FontRenderContext;[I)Ljava/awt/font/GlyphVector;
+deriveFont
+ (F)Ljava/awt/Font;
+ (F)Ljava/awt/Font;
+deriveFont
+ (I)Ljava/awt/Font;
+ (I)Ljava/awt/Font;
+deriveFont
+ (IF)Ljava/awt/Font;
+ (IF)Ljava/awt/Font;
+deriveFont
+ (ILjava/awt/geom/AffineTransform;)Ljava/awt/Font;
+ (ILjava/awt/geom/AffineTransform;)Ljava/awt/Font;
+deriveFont
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/Font;
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/Font;
+deriveFont
+ (Ljava/util/Map<+Ljava/text/AttributedCharacterIterator$Attribute;*>;)Ljava/awt/Font;
+ (Ljava/util/Map<+Ljava/text/AttributedCharacterIterator$Attribute;*>;)Ljava/awt/Font;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAttributes
+ ()Ljava/util/Map<Ljava/awt/font/TextAttribute;*>;
+ ()Ljava/util/Map<Ljava/awt/font/TextAttribute;*>;
+getAvailableAttributes
+ ()[Ljava/text/AttributedCharacterIterator$Attribute;
+ ()[Ljava/text/AttributedCharacterIterator$Attribute;
+getFamily
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFamily
+ (Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/util/Locale;)Ljava/lang/String;
+getFontName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFontName
+ (Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/util/Locale;)Ljava/lang/String;
+getLineMetrics
+ (Ljava/lang/String;IILjava/awt/font/FontRenderContext;)Ljava/awt/font/LineMetrics;
+ (Ljava/lang/String;IILjava/awt/font/FontRenderContext;)Ljava/awt/font/LineMetrics;
+getLineMetrics
+ (Ljava/lang/String;Ljava/awt/font/FontRenderContext;)Ljava/awt/font/LineMetrics;
+ (Ljava/lang/String;Ljava/awt/font/FontRenderContext;)Ljava/awt/font/LineMetrics;
+getLineMetrics
+ (Ljava/text/CharacterIterator;IILjava/awt/font/FontRenderContext;)Ljava/awt/font/LineMetrics;
+ (Ljava/text/CharacterIterator;IILjava/awt/font/FontRenderContext;)Ljava/awt/font/LineMetrics;
+getLineMetrics
+ ([CIILjava/awt/font/FontRenderContext;)Ljava/awt/font/LineMetrics;
+ ([CIILjava/awt/font/FontRenderContext;)Ljava/awt/font/LineMetrics;
+getMaxCharBounds
+ (Ljava/awt/font/FontRenderContext;)Ljava/awt/geom/Rectangle2D;
+ (Ljava/awt/font/FontRenderContext;)Ljava/awt/geom/Rectangle2D;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPSName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getStringBounds
+ (Ljava/lang/String;IILjava/awt/font/FontRenderContext;)Ljava/awt/geom/Rectangle2D;
+ (Ljava/lang/String;IILjava/awt/font/FontRenderContext;)Ljava/awt/geom/Rectangle2D;
+getStringBounds
+ (Ljava/lang/String;Ljava/awt/font/FontRenderContext;)Ljava/awt/geom/Rectangle2D;
+ (Ljava/lang/String;Ljava/awt/font/FontRenderContext;)Ljava/awt/geom/Rectangle2D;
+getStringBounds
+ (Ljava/text/CharacterIterator;IILjava/awt/font/FontRenderContext;)Ljava/awt/geom/Rectangle2D;
+ (Ljava/text/CharacterIterator;IILjava/awt/font/FontRenderContext;)Ljava/awt/geom/Rectangle2D;
+getStringBounds
+ ([CIILjava/awt/font/FontRenderContext;)Ljava/awt/geom/Rectangle2D;
+ ([CIILjava/awt/font/FontRenderContext;)Ljava/awt/geom/Rectangle2D;
+getTransform
+ ()Ljava/awt/geom/AffineTransform;
+ ()Ljava/awt/geom/AffineTransform;
+layoutGlyphVector
+ (Ljava/awt/font/FontRenderContext;[CIII)Ljava/awt/font/GlyphVector;
+ (Ljava/awt/font/FontRenderContext;[CIII)Ljava/awt/font/GlyphVector;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

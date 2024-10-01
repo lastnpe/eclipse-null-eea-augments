@@ -1,0 +1,29 @@
+class org/springframework/beans/factory/aot/CodeWarnings
+
+detectDeprecation
+ (Ljava/util/stream/Stream<Ljava/lang/reflect/AnnotatedElement;>;)Lorg/springframework/beans/factory/aot/CodeWarnings;
+ (Ljava/util/stream/Stream<Ljava/lang/reflect/AnnotatedElement;>;)Lorg/springframework/beans/factory/aot/CodeWarnings;
+detectDeprecation
+ (Lorg/springframework/core/ResolvableType;)Lorg/springframework/beans/factory/aot/CodeWarnings;
+ (Lorg/springframework/core/ResolvableType;)Lorg/springframework/beans/factory/aot/CodeWarnings;
+detectDeprecation
+ ([Ljava/lang/reflect/AnnotatedElement;)Lorg/springframework/beans/factory/aot/CodeWarnings;
+ ([Ljava/lang/reflect/AnnotatedElement;)Lorg/springframework/beans/factory/aot/CodeWarnings;
+getWarnings
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+register
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+suppress
+ (Ljava/util/function/Consumer<Lorg/springframework/javapoet/AnnotationSpec$Builder;>;)V
+ (Ljava/util/function/Consumer<Lorg/springframework/javapoet/AnnotationSpec$Builder;>;)V
+suppress
+ (Lorg/springframework/javapoet/MethodSpec$Builder;)V
+ (Lorg/springframework/javapoet/MethodSpec$Builder;)V
+suppress
+ (Lorg/springframework/javapoet/TypeSpec$Builder;)V
+ (Lorg/springframework/javapoet/TypeSpec$Builder;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

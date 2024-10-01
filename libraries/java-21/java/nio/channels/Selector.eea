@@ -1,0 +1,27 @@
+class java/nio/channels/Selector
+
+open
+ ()Ljava/nio/channels/Selector;
+ ()Ljava/nio/channels/Selector;
+
+keys
+ ()Ljava/util/Set<Ljava/nio/channels/SelectionKey;>;
+ ()Ljava/util/Set<Ljava/nio/channels/SelectionKey;>;
+provider
+ ()Ljava/nio/channels/spi/SelectorProvider;
+ ()Ljava/nio/channels/spi/SelectorProvider;
+select
+ (Ljava/util/function/Consumer<Ljava/nio/channels/SelectionKey;>;)I
+ (Ljava/util/function/Consumer<Ljava/nio/channels/SelectionKey;>;)I
+select
+ (Ljava/util/function/Consumer<Ljava/nio/channels/SelectionKey;>;J)I
+ (Ljava/util/function/Consumer<Ljava/nio/channels/SelectionKey;>;J)I
+selectNow
+ (Ljava/util/function/Consumer<Ljava/nio/channels/SelectionKey;>;)I
+ (Ljava/util/function/Consumer<Ljava/nio/channels/SelectionKey;>;)I
+selectedKeys
+ ()Ljava/util/Set<Ljava/nio/channels/SelectionKey;>;
+ ()Ljava/util/Set<Ljava/nio/channels/SelectionKey;>;
+wakeup
+ ()Ljava/nio/channels/Selector;
+ ()Ljava/nio/channels/Selector;

@@ -1,0 +1,77 @@
+class java/util/Spliterators
+
+emptyDoubleSpliterator
+ ()Ljava/util/Spliterator$OfDouble;
+ ()L1java/util/Spliterator$OfDouble;
+emptyIntSpliterator
+ ()Ljava/util/Spliterator$OfInt;
+ ()L1java/util/Spliterator$OfInt;
+emptyLongSpliterator
+ ()Ljava/util/Spliterator$OfLong;
+ ()L1java/util/Spliterator$OfLong;
+emptySpliterator
+ <T:Ljava/lang/Object;>()Ljava/util/Spliterator<TT;>;
+ <T:Ljava/lang/Object;>()L1java/util/Spliterator<TT;>;
+iterator
+ (Ljava/util/Spliterator$OfDouble;)Ljava/util/PrimitiveIterator$OfDouble;
+ (L1java/util/Spliterator$OfDouble;)L1java/util/PrimitiveIterator$OfDouble;
+iterator
+ (Ljava/util/Spliterator$OfInt;)Ljava/util/PrimitiveIterator$OfInt;
+ (L1java/util/Spliterator$OfInt;)L1java/util/PrimitiveIterator$OfInt;
+iterator
+ (Ljava/util/Spliterator$OfLong;)Ljava/util/PrimitiveIterator$OfLong;
+ (L1java/util/Spliterator$OfLong;)L1java/util/PrimitiveIterator$OfLong;
+iterator
+ <T:Ljava/lang/Object;>(Ljava/util/Spliterator<+TT;>;)Ljava/util/Iterator<TT;>;
+ <T:Ljava/lang/Object;>(L1java/util/Spliterator<+TT;>;)L1java/util/Iterator<TT;>;
+spliterator
+ (Ljava/util/PrimitiveIterator$OfDouble;JI)Ljava/util/Spliterator$OfDouble;
+ (L1java/util/PrimitiveIterator$OfDouble;JI)L1java/util/Spliterator$OfDouble;
+spliterator
+ (Ljava/util/PrimitiveIterator$OfInt;JI)Ljava/util/Spliterator$OfInt;
+ (L1java/util/PrimitiveIterator$OfInt;JI)L1java/util/Spliterator$OfInt;
+spliterator
+ (Ljava/util/PrimitiveIterator$OfLong;JI)Ljava/util/Spliterator$OfLong;
+ (L1java/util/PrimitiveIterator$OfLong;JI)L1java/util/Spliterator$OfLong;
+spliterator
+ ([DI)Ljava/util/Spliterator$OfDouble;
+ ([1DI)L1java/util/Spliterator$OfDouble;
+spliterator
+ ([DIII)Ljava/util/Spliterator$OfDouble;
+ ([1DIII)L1java/util/Spliterator$OfDouble;
+spliterator
+ ([II)Ljava/util/Spliterator$OfInt;
+ ([1II)L1java/util/Spliterator$OfInt;
+spliterator
+ ([IIII)Ljava/util/Spliterator$OfInt;
+ ([1IIII)L1java/util/Spliterator$OfInt;
+spliterator
+ ([JI)Ljava/util/Spliterator$OfLong;
+ ([1JI)L1java/util/Spliterator$OfLong;
+spliterator
+ ([JIII)Ljava/util/Spliterator$OfLong;
+ ([1JIII)L1java/util/Spliterator$OfLong;
+spliterator
+ <T:Ljava/lang/Object;>(Ljava/util/Collection<+TT;>;I)Ljava/util/Spliterator<TT;>;
+ <T:Ljava/lang/Object;>(L1java/util/Collection<+TT;>;I)L1java/util/Spliterator<TT;>;
+spliterator
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+TT;>;JI)Ljava/util/Spliterator<TT;>;
+ <T:Ljava/lang/Object;>(L1java/util/Iterator<+TT;>;JI)L1java/util/Spliterator<TT;>;
+spliterator
+ <T:Ljava/lang/Object;>([Ljava/lang/Object;I)Ljava/util/Spliterator<TT;>;
+ <T:Ljava/lang/Object;>([L1java/lang/Object;I)L1java/util/Spliterator<TT;>;
+spliterator
+ <T:Ljava/lang/Object;>([Ljava/lang/Object;III)Ljava/util/Spliterator<TT;>;
+ <T:Ljava/lang/Object;>([Ljava/lang/Object;III)L1java/util/Spliterator<TT;>;
+spliteratorUnknownSize
+ (Ljava/util/PrimitiveIterator$OfDouble;I)Ljava/util/Spliterator$OfDouble;
+ (L1java/util/PrimitiveIterator$OfDouble;I)L1java/util/Spliterator$OfDouble;
+spliteratorUnknownSize
+ (Ljava/util/PrimitiveIterator$OfInt;I)Ljava/util/Spliterator$OfInt;
+ (L1java/util/PrimitiveIterator$OfInt;I)L1java/util/Spliterator$OfInt;
+spliteratorUnknownSize
+ (Ljava/util/PrimitiveIterator$OfLong;I)Ljava/util/Spliterator$OfLong;
+ (L1java/util/PrimitiveIterator$OfLong;I)L1java/util/Spliterator$OfLong;
+spliteratorUnknownSize
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+TT;>;I)Ljava/util/Spliterator<TT;>;
+ <T:Ljava/lang/Object;>(L1java/util/Iterator<+TT;>;I)L1java/util/Spliterator<TT;>;

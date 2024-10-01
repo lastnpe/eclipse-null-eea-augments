@@ -1,0 +1,47 @@
+class java/security/Identity
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/security/IdentityScope;)V
+ (Ljava/lang/String;Ljava/security/IdentityScope;)V
+addCertificate
+ (Ljava/security/Certificate;)V
+ (Ljava/security/Certificate;)V
+certificates
+ ()[Ljava/security/Certificate;
+ ()[Ljava/security/Certificate;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getInfo
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getName
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.security.Principal)
+getPublicKey
+ ()Ljava/security/PublicKey;
+ ()Ljava/security/PublicKey;
+getScope
+ ()Ljava/security/IdentityScope;
+ ()Ljava/security/IdentityScope;
+identityEquals
+ (Ljava/security/Identity;)Z
+ (Ljava/security/Identity;)Z
+removeCertificate
+ (Ljava/security/Certificate;)V
+ (Ljava/security/Certificate;)V
+setInfo
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPublicKey
+ (Ljava/security/PublicKey;)V
+ (Ljava/security/PublicKey;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+toString
+ (Z)Ljava/lang/String;
+ (Z)Ljava/lang/String;

@@ -1,0 +1,30 @@
+class java/util/OptionalInt
+
+empty
+ ()Ljava/util/OptionalInt;
+ ()Ljava/util/OptionalInt;
+of
+ (I)Ljava/util/OptionalInt;
+ (I)Ljava/util/OptionalInt;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+ifPresent
+ (Ljava/util/function/IntConsumer;)V
+ (Ljava/util/function/IntConsumer;)V
+ifPresentOrElse
+ (Ljava/util/function/IntConsumer;Ljava/lang/Runnable;)V
+ (Ljava/util/function/IntConsumer;Ljava/lang/Runnable;)V
+orElseGet
+ (Ljava/util/function/IntSupplier;)I
+ (Ljava/util/function/IntSupplier;)I
+orElseThrow
+ <X:Ljava/lang/Throwable;>(Ljava/util/function/Supplier<+TX;>;)I^TX;
+ <X:Ljava/lang/Throwable;>(Ljava/util/function/Supplier<+TX;>;)I^TX;
+stream
+ ()Ljava/util/stream/IntStream;
+ ()Ljava/util/stream/IntStream;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

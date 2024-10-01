@@ -1,0 +1,15 @@
+class com/fasterxml/jackson/databind/ext/OptionalHandlerFactory
+
+instance
+ Lcom/fasterxml/jackson/databind/ext/OptionalHandlerFactory;
+ L1com/fasterxml/jackson/databind/ext/OptionalHandlerFactory;
+
+findDeserializer
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/BeanDescription;)Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/BeanDescription;)Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;
+findSerializer
+ (Lcom/fasterxml/jackson/databind/SerializationConfig;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/BeanDescription;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+ (Lcom/fasterxml/jackson/databind/SerializationConfig;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/BeanDescription;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+hasDeserializerFor
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z

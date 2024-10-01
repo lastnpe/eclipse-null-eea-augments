@@ -1,0 +1,17 @@
+class org/springframework/core/io/buffer/DataBufferFactory
+
+allocateBuffer
+ ()Lorg/springframework/core/io/buffer/DataBuffer;
+ ()Lorg/springframework/core/io/buffer/DataBuffer;
+allocateBuffer
+ (I)Lorg/springframework/core/io/buffer/DataBuffer;
+ (I)Lorg/springframework/core/io/buffer/DataBuffer;
+join
+ (Ljava/util/List<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Lorg/springframework/core/io/buffer/DataBuffer;
+ (Ljava/util/List<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Lorg/springframework/core/io/buffer/DataBuffer;
+wrap
+ (Ljava/nio/ByteBuffer;)Lorg/springframework/core/io/buffer/DataBuffer;
+ (Ljava/nio/ByteBuffer;)Lorg/springframework/core/io/buffer/DataBuffer;
+wrap
+ ([B)Lorg/springframework/core/io/buffer/DataBuffer;
+ ([B)Lorg/springframework/core/io/buffer/DataBuffer;

@@ -1,0 +1,13 @@
+class org/mockito/internal/configuration/CaptorAnnotationProcessor
+
+super org/mockito/internal/configuration/FieldAnnotationProcessor
+ <Lorg/mockito/Captor;>
+ <Lorg/mockito/Captor;>
+
+process
+ (Ljava/lang/reflect/Parameter;)Ljava/lang/Object;
+ (Ljava/lang/reflect/Parameter;)Ljava/lang/Object;
+
+process
+ (Lorg/mockito/Captor;Ljava/lang/reflect/Field;)Ljava/lang/Object;
+ (Lorg/mockito/Captor;Ljava/lang/reflect/Field;)Ljava/lang/Object;

@@ -1,0 +1,52 @@
+class javax/lang/model/element/AnnotationValueVisitor
+ <R:Ljava/lang/Object;P:Ljava/lang/Object;>
+ <R:Ljava/lang/Object;P:Ljava/lang/Object;>
+
+visit
+ (Ljavax/lang/model/element/AnnotationValue;)TR;
+ (Ljavax/lang/model/element/AnnotationValue;)TR;
+visit
+ (Ljavax/lang/model/element/AnnotationValue;TP;)TR;
+ (Ljavax/lang/model/element/AnnotationValue;TP;)TR;
+visitAnnotation
+ (Ljavax/lang/model/element/AnnotationMirror;TP;)TR;
+ (Ljavax/lang/model/element/AnnotationMirror;TP;)TR;
+visitArray
+ (Ljava/util/List<+Ljavax/lang/model/element/AnnotationValue;>;TP;)TR;
+ (Ljava/util/List<+Ljavax/lang/model/element/AnnotationValue;>;TP;)TR;
+visitBoolean
+ (ZTP;)TR;
+ (ZTP;)TR;
+visitByte
+ (BTP;)TR;
+ (BTP;)TR;
+visitChar
+ (CTP;)TR;
+ (CTP;)TR;
+visitDouble
+ (DTP;)TR;
+ (DTP;)TR;
+visitEnumConstant
+ (Ljavax/lang/model/element/VariableElement;TP;)TR;
+ (Ljavax/lang/model/element/VariableElement;TP;)TR;
+visitFloat
+ (FTP;)TR;
+ (FTP;)TR;
+visitInt
+ (ITP;)TR;
+ (ITP;)TR;
+visitLong
+ (JTP;)TR;
+ (JTP;)TR;
+visitShort
+ (STP;)TR;
+ (STP;)TR;
+visitString
+ (Ljava/lang/String;TP;)TR;
+ (Ljava/lang/String;TP;)TR;
+visitType
+ (Ljavax/lang/model/type/TypeMirror;TP;)TR;
+ (Ljavax/lang/model/type/TypeMirror;TP;)TR;
+visitUnknown
+ (Ljavax/lang/model/element/AnnotationValue;TP;)TR;
+ (Ljavax/lang/model/element/AnnotationValue;TP;)TR;

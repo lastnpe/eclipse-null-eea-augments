@@ -1,0 +1,96 @@
+class java/awt/geom/AffineTransform
+
+getQuadrantRotateInstance
+ (I)Ljava/awt/geom/AffineTransform;
+ (I)Ljava/awt/geom/AffineTransform;
+getQuadrantRotateInstance
+ (IDD)Ljava/awt/geom/AffineTransform;
+ (IDD)Ljava/awt/geom/AffineTransform;
+getRotateInstance
+ (D)Ljava/awt/geom/AffineTransform;
+ (D)Ljava/awt/geom/AffineTransform;
+getRotateInstance
+ (DD)Ljava/awt/geom/AffineTransform;
+ (DD)Ljava/awt/geom/AffineTransform;
+getRotateInstance
+ (DDD)Ljava/awt/geom/AffineTransform;
+ (DDD)Ljava/awt/geom/AffineTransform;
+getRotateInstance
+ (DDDD)Ljava/awt/geom/AffineTransform;
+ (DDDD)Ljava/awt/geom/AffineTransform;
+getScaleInstance
+ (DD)Ljava/awt/geom/AffineTransform;
+ (DD)Ljava/awt/geom/AffineTransform;
+getShearInstance
+ (DD)Ljava/awt/geom/AffineTransform;
+ (DD)Ljava/awt/geom/AffineTransform;
+getTranslateInstance
+ (DD)Ljava/awt/geom/AffineTransform;
+ (DD)Ljava/awt/geom/AffineTransform;
+
+<init>
+ (Ljava/awt/geom/AffineTransform;)V
+ (Ljava/awt/geom/AffineTransform;)V
+<init>
+ ([D)V
+ ([D)V
+<init>
+ ([F)V
+ ([F)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+concatenate
+ (Ljava/awt/geom/AffineTransform;)V
+ (Ljava/awt/geom/AffineTransform;)V
+createInverse
+ ()Ljava/awt/geom/AffineTransform;
+ ()Ljava/awt/geom/AffineTransform;
+createTransformedShape
+ (Ljava/awt/Shape;)Ljava/awt/Shape;
+ (Ljava/awt/Shape;)Ljava/awt/Shape;
+deltaTransform
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)Ljava/awt/geom/Point2D;
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)Ljava/awt/geom/Point2D;
+deltaTransform
+ ([DI[DII)V
+ ([DI[DII)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getMatrix
+ ([D)V
+ ([D)V
+inverseTransform
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)Ljava/awt/geom/Point2D;
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)Ljava/awt/geom/Point2D;
+inverseTransform
+ ([DI[DII)V
+ ([DI[DII)V
+preConcatenate
+ (Ljava/awt/geom/AffineTransform;)V
+ (Ljava/awt/geom/AffineTransform;)V
+setTransform
+ (Ljava/awt/geom/AffineTransform;)V
+ (Ljava/awt/geom/AffineTransform;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+transform
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)Ljava/awt/geom/Point2D;
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)Ljava/awt/geom/Point2D;
+transform
+ ([DI[DII)V
+ ([DI[DII)V
+transform
+ ([DI[FII)V
+ ([DI[FII)V
+transform
+ ([FI[DII)V
+ ([FI[DII)V
+transform
+ ([FI[FII)V
+ ([FI[FII)V
+transform
+ ([Ljava/awt/geom/Point2D;I[Ljava/awt/geom/Point2D;II)V
+ ([Ljava/awt/geom/Point2D;I[Ljava/awt/geom/Point2D;II)V

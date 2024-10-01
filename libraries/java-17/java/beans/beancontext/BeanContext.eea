@@ -1,0 +1,21 @@
+class java/beans/beancontext/BeanContext
+
+globalHierarchyLock
+ Ljava/lang/Object;
+ L1java/lang/Object;
+
+addBeanContextMembershipListener
+ (Ljava/beans/beancontext/BeanContextMembershipListener;)V
+ (L1java/beans/beancontext/BeanContextMembershipListener;)V
+getResource
+ (Ljava/lang/String;Ljava/beans/beancontext/BeanContextChild;)Ljava/net/URL;
+ (Ljava/lang/String;Ljava/beans/beancontext/BeanContextChild;)Ljava/net/URL;
+getResourceAsStream
+ (Ljava/lang/String;Ljava/beans/beancontext/BeanContextChild;)Ljava/io/InputStream;
+ (Ljava/lang/String;Ljava/beans/beancontext/BeanContextChild;)Ljava/io/InputStream;
+instantiateChild
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+removeBeanContextMembershipListener
+ (Ljava/beans/beancontext/BeanContextMembershipListener;)V
+ (L1java/beans/beancontext/BeanContextMembershipListener;)V

@@ -1,0 +1,29 @@
+class javax/swing/text/AbstractDocument$DefaultDocumentEvent
+
+<init>
+ (Ljavax/swing/text/AbstractDocument;IILjavax/swing/event/DocumentEvent$EventType;)V
+ (Ljavax/swing/text/AbstractDocument;IILjavax/swing/event/DocumentEvent$EventType;)V
+addEdit
+ (Ljavax/swing/undo/UndoableEdit;)Z
+ (Ljavax/swing/undo/UndoableEdit;)Z
+getChange
+ (Ljavax/swing/text/Element;)Ljavax/swing/event/DocumentEvent$ElementChange;
+ (Ljavax/swing/text/Element;)Ljavax/swing/event/DocumentEvent$ElementChange;
+getDocument
+ ()Ljavax/swing/text/Document;
+ ()Ljavax/swing/text/Document;
+getPresentationName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRedoPresentationName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getType
+ ()Ljavax/swing/event/DocumentEvent$EventType;
+ ()Ljavax/swing/event/DocumentEvent$EventType;
+getUndoPresentationName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.swing.undo.CompoundEdit)

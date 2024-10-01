@@ -1,0 +1,55 @@
+class com/fasterxml/jackson/databind/util/TokenBufferReadContext
+
+createRootContext
+ (Lcom/fasterxml/jackson/core/JsonStreamContext;)Lcom/fasterxml/jackson/databind/util/TokenBufferReadContext;
+ (Lcom/fasterxml/jackson/core/JsonStreamContext;)Lcom/fasterxml/jackson/databind/util/TokenBufferReadContext;
+
+_currentName
+ Ljava/lang/String;
+ Ljava/lang/String;
+_currentValue
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+_parent
+ Lcom/fasterxml/jackson/core/JsonStreamContext;
+ Lcom/fasterxml/jackson/core/JsonStreamContext;
+_startLocation
+ Lcom/fasterxml/jackson/core/JsonLocation;
+ Lcom/fasterxml/jackson/core/JsonLocation;
+
+<init>
+ (Lcom/fasterxml/jackson/core/JsonStreamContext;Lcom/fasterxml/jackson/core/JsonLocation;)V
+ (Lcom/fasterxml/jackson/core/JsonStreamContext;Lcom/fasterxml/jackson/core/JsonLocation;)V
+<init>
+ (Lcom/fasterxml/jackson/core/JsonStreamContext;Lcom/fasterxml/jackson/core/io/ContentReference;)V
+ (Lcom/fasterxml/jackson/core/JsonStreamContext;Lcom/fasterxml/jackson/core/io/ContentReference;)V
+<init>
+ (Lcom/fasterxml/jackson/core/JsonStreamContext;Ljava/lang/Object;)V
+ (Lcom/fasterxml/jackson/core/JsonStreamContext;Ljava/lang/Object;)V
+<init>
+ (Lcom/fasterxml/jackson/databind/util/TokenBufferReadContext;II)V
+ (Lcom/fasterxml/jackson/databind/util/TokenBufferReadContext;II)V
+createChildArrayContext
+ ()Lcom/fasterxml/jackson/databind/util/TokenBufferReadContext;
+ ()Lcom/fasterxml/jackson/databind/util/TokenBufferReadContext;
+createChildObjectContext
+ ()Lcom/fasterxml/jackson/databind/util/TokenBufferReadContext;
+ ()Lcom/fasterxml/jackson/databind/util/TokenBufferReadContext;
+getCurrentName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getCurrentValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getParent
+ ()Lcom/fasterxml/jackson/core/JsonStreamContext;
+ ()Lcom/fasterxml/jackson/core/JsonStreamContext;
+parentOrCopy
+ ()Lcom/fasterxml/jackson/databind/util/TokenBufferReadContext;
+ ()Lcom/fasterxml/jackson/databind/util/TokenBufferReadContext;
+setCurrentName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setCurrentValue
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

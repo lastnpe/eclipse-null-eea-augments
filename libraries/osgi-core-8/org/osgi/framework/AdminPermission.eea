@@ -1,0 +1,54 @@
+class org/osgi/framework/AdminPermission
+
+CLASS
+ Ljava/lang/String;
+ L1java/lang/String;
+CONTEXT
+ Ljava/lang/String;
+ L1java/lang/String;
+EXECUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+EXTENSIONLIFECYCLE
+ Ljava/lang/String;
+ L1java/lang/String;
+LIFECYCLE
+ Ljava/lang/String;
+ L1java/lang/String;
+LISTENER
+ Ljava/lang/String;
+ L1java/lang/String;
+METADATA
+ Ljava/lang/String;
+ L1java/lang/String;
+RESOLVE
+ Ljava/lang/String;
+ L1java/lang/String;
+RESOURCE
+ Ljava/lang/String;
+ L1java/lang/String;
+STARTLEVEL
+ Ljava/lang/String;
+ L1java/lang/String;
+WEAVE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Lorg/osgi/framework/Bundle;Ljava/lang/String;)V
+ (Lorg/osgi/framework/Bundle;Ljava/lang/String;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.security.BasicPermission)
+getActions
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.security.BasicPermission)
+implies
+ (Ljava/security/Permission;)Z
+ (Ljava/security/Permission;)Z
+newPermissionCollection
+ ()Ljava/security/PermissionCollection;
+ ()L1java/security/PermissionCollection; # @Inherited(java.security.BasicPermission)

@@ -1,0 +1,14 @@
+class java/sql/Driver
+
+acceptsURL
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+connect
+ (Ljava/lang/String;Ljava/util/Properties;)Ljava/sql/Connection;
+ (L1java/lang/String;Ljava/util/Properties;)Ljava/sql/Connection;
+getParentLogger
+ ()Ljava/util/logging/Logger;
+ ()Ljava/util/logging/Logger;
+getPropertyInfo
+ (Ljava/lang/String;Ljava/util/Properties;)[Ljava/sql/DriverPropertyInfo;
+ (Ljava/lang/String;Ljava/util/Properties;)[Ljava/sql/DriverPropertyInfo;

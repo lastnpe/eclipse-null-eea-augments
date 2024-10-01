@@ -1,0 +1,20 @@
+class org/osgi/framework/wiring/BundleWire
+
+getCapability
+ ()Lorg/osgi/framework/wiring/BundleCapability;
+ ()Lorg/osgi/framework/wiring/BundleCapability;
+getProvider
+ ()Lorg/osgi/framework/wiring/BundleRevision;
+ ()Lorg/osgi/framework/wiring/BundleRevision;
+getProviderWiring
+ ()Lorg/osgi/framework/wiring/BundleWiring;
+ ()Lorg/osgi/framework/wiring/BundleWiring;
+getRequirement
+ ()Lorg/osgi/framework/wiring/BundleRequirement;
+ ()Lorg/osgi/framework/wiring/BundleRequirement;
+getRequirer
+ ()Lorg/osgi/framework/wiring/BundleRevision;
+ ()Lorg/osgi/framework/wiring/BundleRevision;
+getRequirerWiring
+ ()Lorg/osgi/framework/wiring/BundleWiring;
+ ()Lorg/osgi/framework/wiring/BundleWiring;

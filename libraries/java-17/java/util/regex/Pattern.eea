@@ -1,0 +1,39 @@
+class java/util/regex/Pattern
+
+compile
+ (Ljava/lang/String;)Ljava/util/regex/Pattern;
+ (L1java/lang/String;)L1java/util/regex/Pattern;
+compile
+ (Ljava/lang/String;I)Ljava/util/regex/Pattern;
+ (L1java/lang/String;I)L1java/util/regex/Pattern;
+matches
+ (Ljava/lang/String;Ljava/lang/CharSequence;)Z
+ (L1java/lang/String;L1java/lang/CharSequence;)Z
+quote
+ (Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;)L1java/lang/String;
+
+asMatchPredicate
+ ()Ljava/util/function/Predicate<Ljava/lang/String;>;
+ ()L1java/util/function/Predicate<Ljava/lang/String;>;
+asPredicate
+ ()Ljava/util/function/Predicate<Ljava/lang/String;>;
+ ()L1java/util/function/Predicate<Ljava/lang/String;>;
+matcher
+ (Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+ (L1java/lang/CharSequence;)L1java/util/regex/Matcher;
+pattern
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+split
+ (Ljava/lang/CharSequence;)[Ljava/lang/String;
+ (L1java/lang/CharSequence;)[1L1java/lang/String;
+split
+ (Ljava/lang/CharSequence;I)[Ljava/lang/String;
+ (L1java/lang/CharSequence;I)[1L1java/lang/String;
+splitAsStream
+ (Ljava/lang/CharSequence;)Ljava/util/stream/Stream<Ljava/lang/String;>;
+ (L1java/lang/CharSequence;)L1java/util/stream/Stream<L1java/lang/String;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

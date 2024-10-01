@@ -1,0 +1,41 @@
+class javax/servlet/ServletResponseWrapper
+
+<init>
+ (Ljavax/servlet/ServletResponse;)V
+ (Ljavax/servlet/ServletResponse;)V
+getCharacterEncoding
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.servlet.ServletResponse)
+getContentType
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(javax.servlet.ServletResponse)
+getLocale
+ ()Ljava/util/Locale;
+ ()L1java/util/Locale; # @Inherited(javax.servlet.ServletResponse)
+getOutputStream
+ ()Ljavax/servlet/ServletOutputStream;
+ ()L1javax/servlet/ServletOutputStream; # @Inherited(javax.servlet.ServletResponse)
+getResponse
+ ()Ljavax/servlet/ServletResponse;
+ ()Ljavax/servlet/ServletResponse;
+getWriter
+ ()Ljava/io/PrintWriter;
+ ()L1java/io/PrintWriter; # @Inherited(javax.servlet.ServletResponse)
+isWrapperFor
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isWrapperFor
+ (Ljavax/servlet/ServletResponse;)Z
+ (Ljavax/servlet/ServletResponse;)Z
+setCharacterEncoding
+ (Ljava/lang/String;)V
+ (L0java/lang/String;)V # @Inherited(javax.servlet.ServletResponse)
+setContentType
+ (Ljava/lang/String;)V
+ (L0java/lang/String;)V # @Inherited(javax.servlet.ServletResponse)
+setLocale
+ (Ljava/util/Locale;)V
+ (L0java/util/Locale;)V # @Inherited(javax.servlet.ServletResponse)
+setResponse
+ (Ljavax/servlet/ServletResponse;)V
+ (Ljavax/servlet/ServletResponse;)V

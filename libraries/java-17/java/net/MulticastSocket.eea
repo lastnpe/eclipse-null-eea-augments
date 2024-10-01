@@ -1,0 +1,32 @@
+class java/net/MulticastSocket
+
+<init>
+ (Ljava/net/SocketAddress;)V
+ (Ljava/net/SocketAddress;)V
+getInterface
+ ()Ljava/net/InetAddress;
+ ()Ljava/net/InetAddress;
+getNetworkInterface
+ ()Ljava/net/NetworkInterface;
+ ()Ljava/net/NetworkInterface;
+joinGroup
+ (Ljava/net/InetAddress;)V
+ (Ljava/net/InetAddress;)V
+joinGroup
+ (Ljava/net/SocketAddress;Ljava/net/NetworkInterface;)V
+ (Ljava/net/SocketAddress;Ljava/net/NetworkInterface;)V
+leaveGroup
+ (Ljava/net/InetAddress;)V
+ (Ljava/net/InetAddress;)V
+leaveGroup
+ (Ljava/net/SocketAddress;Ljava/net/NetworkInterface;)V
+ (Ljava/net/SocketAddress;Ljava/net/NetworkInterface;)V
+send
+ (Ljava/net/DatagramPacket;B)V
+ (Ljava/net/DatagramPacket;B)V
+setInterface
+ (Ljava/net/InetAddress;)V
+ (Ljava/net/InetAddress;)V
+setNetworkInterface
+ (Ljava/net/NetworkInterface;)V
+ (Ljava/net/NetworkInterface;)V

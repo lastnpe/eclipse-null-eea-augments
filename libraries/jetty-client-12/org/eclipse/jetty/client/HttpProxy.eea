@@ -1,0 +1,29 @@
+class org/eclipse/jetty/client/HttpProxy
+
+<init>
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+<init>
+ (Lorg/eclipse/jetty/client/Origin$Address;Lorg/eclipse/jetty/util/ssl/SslContextFactory$Client;)V
+ (Lorg/eclipse/jetty/client/Origin$Address;Lorg/eclipse/jetty/util/ssl/SslContextFactory$Client;)V
+<init>
+ (Lorg/eclipse/jetty/client/Origin$Address;Lorg/eclipse/jetty/util/ssl/SslContextFactory$Client;Lorg/eclipse/jetty/client/Origin$Protocol;)V
+ (Lorg/eclipse/jetty/client/Origin$Address;Lorg/eclipse/jetty/util/ssl/SslContextFactory$Client;Lorg/eclipse/jetty/client/Origin$Protocol;)V
+<init>
+ (Lorg/eclipse/jetty/client/Origin$Address;Z)V
+ (Lorg/eclipse/jetty/client/Origin$Address;Z)V
+<init>
+ (Lorg/eclipse/jetty/client/Origin$Address;ZLorg/eclipse/jetty/client/Origin$Protocol;)V
+ (Lorg/eclipse/jetty/client/Origin$Address;ZLorg/eclipse/jetty/client/Origin$Protocol;)V
+<init>
+ (Lorg/eclipse/jetty/client/Origin;Lorg/eclipse/jetty/util/ssl/SslContextFactory$Client;)V
+ (Lorg/eclipse/jetty/client/Origin;Lorg/eclipse/jetty/util/ssl/SslContextFactory$Client;)V
+getURI
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+newClientConnectionFactory
+ (Lorg/eclipse/jetty/io/ClientConnectionFactory;)Lorg/eclipse/jetty/io/ClientConnectionFactory;
+ (Lorg/eclipse/jetty/io/ClientConnectionFactory;)Lorg/eclipse/jetty/io/ClientConnectionFactory;
+requiresTunnel
+ (Lorg/eclipse/jetty/client/Origin;)Z
+ (Lorg/eclipse/jetty/client/Origin;)Z

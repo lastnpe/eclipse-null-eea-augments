@@ -1,0 +1,72 @@
+class java/lang/foreign/ValueLayout
+
+ADDRESS
+ Ljava/lang/foreign/AddressLayout;
+ L1java/lang/foreign/AddressLayout;
+ADDRESS_UNALIGNED
+ Ljava/lang/foreign/AddressLayout;
+ L1java/lang/foreign/AddressLayout;
+JAVA_BOOLEAN
+ Ljava/lang/foreign/ValueLayout$OfBoolean;
+ L1java/lang/foreign/ValueLayout$OfBoolean;
+JAVA_BYTE
+ Ljava/lang/foreign/ValueLayout$OfByte;
+ L1java/lang/foreign/ValueLayout$OfByte;
+JAVA_CHAR
+ Ljava/lang/foreign/ValueLayout$OfChar;
+ L1java/lang/foreign/ValueLayout$OfChar;
+JAVA_CHAR_UNALIGNED
+ Ljava/lang/foreign/ValueLayout$OfChar;
+ L1java/lang/foreign/ValueLayout$OfChar;
+JAVA_DOUBLE
+ Ljava/lang/foreign/ValueLayout$OfDouble;
+ L1java/lang/foreign/ValueLayout$OfDouble;
+JAVA_DOUBLE_UNALIGNED
+ Ljava/lang/foreign/ValueLayout$OfDouble;
+ L1java/lang/foreign/ValueLayout$OfDouble;
+JAVA_FLOAT
+ Ljava/lang/foreign/ValueLayout$OfFloat;
+ L1java/lang/foreign/ValueLayout$OfFloat;
+JAVA_FLOAT_UNALIGNED
+ Ljava/lang/foreign/ValueLayout$OfFloat;
+ L1java/lang/foreign/ValueLayout$OfFloat;
+JAVA_INT
+ Ljava/lang/foreign/ValueLayout$OfInt;
+ L1java/lang/foreign/ValueLayout$OfInt;
+JAVA_INT_UNALIGNED
+ Ljava/lang/foreign/ValueLayout$OfInt;
+ L1java/lang/foreign/ValueLayout$OfInt;
+JAVA_LONG
+ Ljava/lang/foreign/ValueLayout$OfLong;
+ L1java/lang/foreign/ValueLayout$OfLong;
+JAVA_LONG_UNALIGNED
+ Ljava/lang/foreign/ValueLayout$OfLong;
+ L1java/lang/foreign/ValueLayout$OfLong;
+JAVA_SHORT
+ Ljava/lang/foreign/ValueLayout$OfShort;
+ L1java/lang/foreign/ValueLayout$OfShort;
+JAVA_SHORT_UNALIGNED
+ Ljava/lang/foreign/ValueLayout$OfShort;
+ L1java/lang/foreign/ValueLayout$OfShort;
+
+arrayElementVarHandle
+ ([I)Ljava/lang/invoke/VarHandle;
+ ([I)Ljava/lang/invoke/VarHandle;
+carrier
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+order
+ ()Ljava/nio/ByteOrder;
+ ()Ljava/nio/ByteOrder;
+withByteAlignment
+ (J)Ljava/lang/foreign/ValueLayout;
+ (J)Ljava/lang/foreign/ValueLayout;
+withName
+ (Ljava/lang/String;)Ljava/lang/foreign/ValueLayout;
+ (Ljava/lang/String;)Ljava/lang/foreign/ValueLayout;
+withOrder
+ (Ljava/nio/ByteOrder;)Ljava/lang/foreign/ValueLayout;
+ (Ljava/nio/ByteOrder;)Ljava/lang/foreign/ValueLayout;
+withoutName
+ ()Ljava/lang/foreign/ValueLayout;
+ ()Ljava/lang/foreign/ValueLayout;

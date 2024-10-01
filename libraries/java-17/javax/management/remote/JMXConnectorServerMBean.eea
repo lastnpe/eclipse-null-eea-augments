@@ -1,0 +1,17 @@
+class javax/management/remote/JMXConnectorServerMBean
+
+getAddress
+ ()Ljavax/management/remote/JMXServiceURL;
+ ()Ljavax/management/remote/JMXServiceURL;
+getAttributes
+ ()Ljava/util/Map<Ljava/lang/String;*>;
+ ()Ljava/util/Map<Ljava/lang/String;*>;
+getConnectionIds
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+setMBeanServerForwarder
+ (Ljavax/management/remote/MBeanServerForwarder;)V
+ (Ljavax/management/remote/MBeanServerForwarder;)V
+toJMXConnector
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljavax/management/remote/JMXConnector;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljavax/management/remote/JMXConnector;

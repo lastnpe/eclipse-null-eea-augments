@@ -1,0 +1,47 @@
+class org/junit/jupiter/api/Assumptions
+
+abort
+ <V:Ljava/lang/Object;>()TV;
+ <V:Ljava/lang/Object;>()TV;
+abort
+ <V:Ljava/lang/Object;>(Ljava/lang/String;)TV;
+ <V:Ljava/lang/Object;>(Ljava/lang/String;)TV;
+abort
+ <V:Ljava/lang/Object;>(Ljava/util/function/Supplier<Ljava/lang/String;>;)TV;
+ <V:Ljava/lang/Object;>(Ljava/util/function/Supplier<Ljava/lang/String;>;)TV;
+assumeFalse
+ (Ljava/util/function/BooleanSupplier;)V
+ (Ljava/util/function/BooleanSupplier;)V
+assumeFalse
+ (Ljava/util/function/BooleanSupplier;Ljava/lang/String;)V
+ (Ljava/util/function/BooleanSupplier;Ljava/lang/String;)V
+assumeFalse
+ (Ljava/util/function/BooleanSupplier;Ljava/util/function/Supplier<Ljava/lang/String;>;)V
+ (Ljava/util/function/BooleanSupplier;Ljava/util/function/Supplier<Ljava/lang/String;>;)V
+assumeFalse
+ (ZLjava/lang/String;)V
+ (ZLjava/lang/String;)V
+assumeFalse
+ (ZLjava/util/function/Supplier<Ljava/lang/String;>;)V
+ (ZLjava/util/function/Supplier<Ljava/lang/String;>;)V
+assumeTrue
+ (Ljava/util/function/BooleanSupplier;)V
+ (Ljava/util/function/BooleanSupplier;)V
+assumeTrue
+ (Ljava/util/function/BooleanSupplier;Ljava/lang/String;)V
+ (Ljava/util/function/BooleanSupplier;Ljava/lang/String;)V
+assumeTrue
+ (Ljava/util/function/BooleanSupplier;Ljava/util/function/Supplier<Ljava/lang/String;>;)V
+ (Ljava/util/function/BooleanSupplier;Ljava/util/function/Supplier<Ljava/lang/String;>;)V
+assumeTrue
+ (ZLjava/lang/String;)V
+ (ZLjava/lang/String;)V
+assumeTrue
+ (ZLjava/util/function/Supplier<Ljava/lang/String;>;)V
+ (ZLjava/util/function/Supplier<Ljava/lang/String;>;)V
+assumingThat
+ (Ljava/util/function/BooleanSupplier;Lorg/junit/jupiter/api/function/Executable;)V
+ (Ljava/util/function/BooleanSupplier;Lorg/junit/jupiter/api/function/Executable;)V
+assumingThat
+ (ZLorg/junit/jupiter/api/function/Executable;)V
+ (ZLorg/junit/jupiter/api/function/Executable;)V

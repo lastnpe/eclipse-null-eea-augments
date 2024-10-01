@@ -1,0 +1,35 @@
+class org/osgi/framework/Version
+
+super java/lang/Comparable
+ <Lorg/osgi/framework/Version;>
+ <Lorg/osgi/framework/Version;>
+
+emptyVersion
+ Lorg/osgi/framework/Version;
+ L1org/osgi/framework/Version;
+
+parseVersion
+ (Ljava/lang/String;)Lorg/osgi/framework/Version;
+ (L0java/lang/String;)L1org/osgi/framework/Version;
+valueOf
+ (Ljava/lang/String;)Lorg/osgi/framework/Version;
+ (L1java/lang/String;)L1org/osgi/framework/Version;
+
+<init>
+ (IIILjava/lang/String;)V
+ (IIIL0java/lang/String;)V
+<init>
+ (Ljava/lang/String;)V
+ (L0java/lang/String;)V
+compareTo
+ (Lorg/osgi/framework/Version;)I
+ (L1org/osgi/framework/Version;)I
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getQualifier
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

@@ -1,0 +1,42 @@
+class javax/management/MBeanServerDelegate
+
+DELEGATE_NAME
+ Ljavax/management/ObjectName;
+ L1javax/management/ObjectName;
+
+addNotificationListener
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+getImplementationName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getImplementationVendor
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getImplementationVersion
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMBeanServerId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getNotificationInfo
+ ()[Ljavax/management/MBeanNotificationInfo;
+ ()[Ljavax/management/MBeanNotificationInfo;
+getSpecificationName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSpecificationVendor
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSpecificationVersion
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+removeNotificationListener
+ (Ljavax/management/NotificationListener;)V
+ (L1javax/management/NotificationListener;)V # @Inherited(javax.management.NotificationBroadcaster)
+removeNotificationListener
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+sendNotification
+ (Ljavax/management/Notification;)V
+ (Ljavax/management/Notification;)V

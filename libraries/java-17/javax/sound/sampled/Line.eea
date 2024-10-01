@@ -1,0 +1,20 @@
+class javax/sound/sampled/Line
+
+addLineListener
+ (Ljavax/sound/sampled/LineListener;)V
+ (L1javax/sound/sampled/LineListener;)V
+getControl
+ (Ljavax/sound/sampled/Control$Type;)Ljavax/sound/sampled/Control;
+ (Ljavax/sound/sampled/Control$Type;)Ljavax/sound/sampled/Control;
+getControls
+ ()[Ljavax/sound/sampled/Control;
+ ()[Ljavax/sound/sampled/Control;
+getLineInfo
+ ()Ljavax/sound/sampled/Line$Info;
+ ()Ljavax/sound/sampled/Line$Info;
+isControlSupported
+ (Ljavax/sound/sampled/Control$Type;)Z
+ (Ljavax/sound/sampled/Control$Type;)Z
+removeLineListener
+ (Ljavax/sound/sampled/LineListener;)V
+ (L1javax/sound/sampled/LineListener;)V

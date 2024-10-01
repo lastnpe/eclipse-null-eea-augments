@@ -1,0 +1,38 @@
+class java/beans/VetoableChangeSupport
+
+<init>
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+addVetoableChangeListener
+ (Ljava/beans/VetoableChangeListener;)V
+ (L1java/beans/VetoableChangeListener;)V
+addVetoableChangeListener
+ (Ljava/lang/String;Ljava/beans/VetoableChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/VetoableChangeListener;)V
+fireVetoableChange
+ (Ljava/beans/PropertyChangeEvent;)V
+ (Ljava/beans/PropertyChangeEvent;)V
+fireVetoableChange
+ (Ljava/lang/String;II)V
+ (Ljava/lang/String;II)V
+fireVetoableChange
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+fireVetoableChange
+ (Ljava/lang/String;ZZ)V
+ (Ljava/lang/String;ZZ)V
+getVetoableChangeListeners
+ ()[Ljava/beans/VetoableChangeListener;
+ ()[Ljava/beans/VetoableChangeListener;
+getVetoableChangeListeners
+ (Ljava/lang/String;)[Ljava/beans/VetoableChangeListener;
+ (Ljava/lang/String;)[Ljava/beans/VetoableChangeListener;
+hasListeners
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+removeVetoableChangeListener
+ (Ljava/beans/VetoableChangeListener;)V
+ (L1java/beans/VetoableChangeListener;)V
+removeVetoableChangeListener
+ (Ljava/lang/String;Ljava/beans/VetoableChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/VetoableChangeListener;)V

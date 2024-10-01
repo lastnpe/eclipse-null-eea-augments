@@ -1,0 +1,145 @@
+class javax/swing/text/AbstractDocument
+
+BAD_LOCATION
+ Ljava/lang/String;
+ L1java/lang/String;
+BidiElementName
+ Ljava/lang/String;
+ L1java/lang/String;
+ContentElementName
+ Ljava/lang/String;
+ L1java/lang/String;
+ElementNameAttribute
+ Ljava/lang/String;
+ L1java/lang/String;
+ParagraphElementName
+ Ljava/lang/String;
+ L1java/lang/String;
+SectionElementName
+ Ljava/lang/String;
+ L1java/lang/String;
+
+listenerList
+ Ljavax/swing/event/EventListenerList;
+ Ljavax/swing/event/EventListenerList;
+
+<init>
+ (Ljavax/swing/text/AbstractDocument$Content;)V
+ (Ljavax/swing/text/AbstractDocument$Content;)V
+<init>
+ (Ljavax/swing/text/AbstractDocument$Content;Ljavax/swing/text/AbstractDocument$AttributeContext;)V
+ (Ljavax/swing/text/AbstractDocument$Content;Ljavax/swing/text/AbstractDocument$AttributeContext;)V
+addDocumentListener
+ (Ljavax/swing/event/DocumentListener;)V
+ (L1javax/swing/event/DocumentListener;)V # @Inherited(javax.swing.text.Document)
+addUndoableEditListener
+ (Ljavax/swing/event/UndoableEditListener;)V
+ (L1javax/swing/event/UndoableEditListener;)V # @Inherited(javax.swing.text.Document)
+createBranchElement
+ (Ljavax/swing/text/Element;Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/Element;
+ (Ljavax/swing/text/Element;Ljavax/swing/text/AttributeSet;)Ljavax/swing/text/Element;
+createLeafElement
+ (Ljavax/swing/text/Element;Ljavax/swing/text/AttributeSet;II)Ljavax/swing/text/Element;
+ (Ljavax/swing/text/Element;Ljavax/swing/text/AttributeSet;II)Ljavax/swing/text/Element;
+createPosition
+ (I)Ljavax/swing/text/Position;
+ (I)Ljavax/swing/text/Position;
+dump
+ (Ljava/io/PrintStream;)V
+ (Ljava/io/PrintStream;)V
+fireChangedUpdate
+ (Ljavax/swing/event/DocumentEvent;)V
+ (Ljavax/swing/event/DocumentEvent;)V
+fireInsertUpdate
+ (Ljavax/swing/event/DocumentEvent;)V
+ (Ljavax/swing/event/DocumentEvent;)V
+fireRemoveUpdate
+ (Ljavax/swing/event/DocumentEvent;)V
+ (Ljavax/swing/event/DocumentEvent;)V
+fireUndoableEditUpdate
+ (Ljavax/swing/event/UndoableEditEvent;)V
+ (Ljavax/swing/event/UndoableEditEvent;)V
+getAttributeContext
+ ()Ljavax/swing/text/AbstractDocument$AttributeContext;
+ ()Ljavax/swing/text/AbstractDocument$AttributeContext;
+getBidiRootElement
+ ()Ljavax/swing/text/Element;
+ ()Ljavax/swing/text/Element;
+getContent
+ ()Ljavax/swing/text/AbstractDocument$Content;
+ ()Ljavax/swing/text/AbstractDocument$Content;
+getCurrentWriter
+ ()Ljava/lang/Thread;
+ ()Ljava/lang/Thread;
+getDefaultRootElement
+ ()Ljavax/swing/text/Element;
+ ()Ljavax/swing/text/Element;
+getDocumentFilter
+ ()Ljavax/swing/text/DocumentFilter;
+ ()Ljavax/swing/text/DocumentFilter;
+getDocumentListeners
+ ()[Ljavax/swing/event/DocumentListener;
+ ()[Ljavax/swing/event/DocumentListener;
+getDocumentProperties
+ ()Ljava/util/Dictionary<Ljava/lang/Object;Ljava/lang/Object;>;
+ ()Ljava/util/Dictionary<Ljava/lang/Object;Ljava/lang/Object;>;
+getEndPosition
+ ()Ljavax/swing/text/Position;
+ ()Ljavax/swing/text/Position;
+getListeners
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+getParagraphElement
+ (I)Ljavax/swing/text/Element;
+ (I)Ljavax/swing/text/Element;
+getProperty
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+getRootElements
+ ()[Ljavax/swing/text/Element;
+ ()[Ljavax/swing/text/Element;
+getStartPosition
+ ()Ljavax/swing/text/Position;
+ ()Ljavax/swing/text/Position;
+getText
+ (II)Ljava/lang/String;
+ (II)Ljava/lang/String;
+getText
+ (IILjavax/swing/text/Segment;)V
+ (IILjavax/swing/text/Segment;)V
+getUndoableEditListeners
+ ()[Ljavax/swing/event/UndoableEditListener;
+ ()[Ljavax/swing/event/UndoableEditListener;
+insertString
+ (ILjava/lang/String;Ljavax/swing/text/AttributeSet;)V
+ (ILjava/lang/String;Ljavax/swing/text/AttributeSet;)V
+insertUpdate
+ (Ljavax/swing/text/AbstractDocument$DefaultDocumentEvent;Ljavax/swing/text/AttributeSet;)V
+ (Ljavax/swing/text/AbstractDocument$DefaultDocumentEvent;Ljavax/swing/text/AttributeSet;)V
+postRemoveUpdate
+ (Ljavax/swing/text/AbstractDocument$DefaultDocumentEvent;)V
+ (Ljavax/swing/text/AbstractDocument$DefaultDocumentEvent;)V
+putProperty
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+removeDocumentListener
+ (Ljavax/swing/event/DocumentListener;)V
+ (L1javax/swing/event/DocumentListener;)V # @Inherited(javax.swing.text.Document)
+removeUndoableEditListener
+ (Ljavax/swing/event/UndoableEditListener;)V
+ (L1javax/swing/event/UndoableEditListener;)V # @Inherited(javax.swing.text.Document)
+removeUpdate
+ (Ljavax/swing/text/AbstractDocument$DefaultDocumentEvent;)V
+ (Ljavax/swing/text/AbstractDocument$DefaultDocumentEvent;)V
+render
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+replace
+ (IILjava/lang/String;Ljavax/swing/text/AttributeSet;)V
+ (IILjava/lang/String;Ljavax/swing/text/AttributeSet;)V
+setDocumentFilter
+ (Ljavax/swing/text/DocumentFilter;)V
+ (Ljavax/swing/text/DocumentFilter;)V
+setDocumentProperties
+ (Ljava/util/Dictionary<Ljava/lang/Object;Ljava/lang/Object;>;)V
+ (Ljava/util/Dictionary<Ljava/lang/Object;Ljava/lang/Object;>;)V

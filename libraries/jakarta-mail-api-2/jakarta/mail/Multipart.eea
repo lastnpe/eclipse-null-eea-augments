@@ -1,0 +1,42 @@
+class jakarta/mail/Multipart
+
+contentType
+ Ljava/lang/String;
+ Ljava/lang/String;
+parent
+ Ljakarta/mail/Part;
+ Ljakarta/mail/Part;
+parts
+ Ljava/util/Vector<Ljakarta/mail/BodyPart;>;
+ Ljava/util/Vector<Ljakarta/mail/BodyPart;>;
+streamProvider
+ Ljakarta/mail/util/StreamProvider;
+ Ljakarta/mail/util/StreamProvider;
+
+addBodyPart
+ (Ljakarta/mail/BodyPart;)V
+ (Ljakarta/mail/BodyPart;)V
+addBodyPart
+ (Ljakarta/mail/BodyPart;I)V
+ (Ljakarta/mail/BodyPart;I)V
+getBodyPart
+ (I)Ljakarta/mail/BodyPart;
+ (I)Ljakarta/mail/BodyPart;
+getContentType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getParent
+ ()Ljakarta/mail/Part;
+ ()Ljakarta/mail/Part;
+removeBodyPart
+ (Ljakarta/mail/BodyPart;)Z
+ (Ljakarta/mail/BodyPart;)Z
+setMultipartDataSource
+ (Ljakarta/mail/MultipartDataSource;)V
+ (Ljakarta/mail/MultipartDataSource;)V
+setParent
+ (Ljakarta/mail/Part;)V
+ (Ljakarta/mail/Part;)V
+writeTo
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V

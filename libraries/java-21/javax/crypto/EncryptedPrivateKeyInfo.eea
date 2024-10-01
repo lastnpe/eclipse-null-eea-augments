@@ -1,0 +1,35 @@
+class javax/crypto/EncryptedPrivateKeyInfo
+
+<init>
+ (Ljava/lang/String;[B)V
+ (Ljava/lang/String;[B)V
+<init>
+ (Ljava/security/AlgorithmParameters;[B)V
+ (Ljava/security/AlgorithmParameters;[B)V
+<init>
+ ([B)V
+ ([B)V
+getAlgName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getAlgParameters
+ ()Ljava/security/AlgorithmParameters;
+ ()Ljava/security/AlgorithmParameters;
+getEncoded
+ ()[B
+ ()[B
+getEncryptedData
+ ()[B
+ ()[B
+getKeySpec
+ (Ljava/security/Key;)Ljava/security/spec/PKCS8EncodedKeySpec;
+ (Ljava/security/Key;)Ljava/security/spec/PKCS8EncodedKeySpec;
+getKeySpec
+ (Ljava/security/Key;Ljava/lang/String;)Ljava/security/spec/PKCS8EncodedKeySpec;
+ (Ljava/security/Key;Ljava/lang/String;)Ljava/security/spec/PKCS8EncodedKeySpec;
+getKeySpec
+ (Ljava/security/Key;Ljava/security/Provider;)Ljava/security/spec/PKCS8EncodedKeySpec;
+ (Ljava/security/Key;Ljava/security/Provider;)Ljava/security/spec/PKCS8EncodedKeySpec;
+getKeySpec
+ (Ljavax/crypto/Cipher;)Ljava/security/spec/PKCS8EncodedKeySpec;
+ (Ljavax/crypto/Cipher;)Ljava/security/spec/PKCS8EncodedKeySpec;

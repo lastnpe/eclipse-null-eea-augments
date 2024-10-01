@@ -1,0 +1,29 @@
+class org/mockito/internal/matchers/CapturingMatcher
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/mockito/ArgumentMatcher
+ <TT;>
+ <TT;>
+
+<init>
+ (Ljava/lang/Class<+TT;>;)V
+ (Ljava/lang/Class<+TT;>;)V
+captureFrom
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+getAllValues
+ ()Ljava/util/List<TT;>;
+ ()Ljava/util/List<TT;>;
+getLastValue
+ ()TT;
+ ()TT;
+matches
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+type
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;

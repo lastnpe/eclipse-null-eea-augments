@@ -1,0 +1,23 @@
+class java/awt/Shape
+
+contains
+ (Ljava/awt/geom/Point2D;)Z
+ (Ljava/awt/geom/Point2D;)Z
+contains
+ (Ljava/awt/geom/Rectangle2D;)Z
+ (Ljava/awt/geom/Rectangle2D;)Z
+getBounds
+ ()Ljava/awt/Rectangle;
+ ()Ljava/awt/Rectangle;
+getBounds2D
+ ()Ljava/awt/geom/Rectangle2D;
+ ()Ljava/awt/geom/Rectangle2D;
+getPathIterator
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/geom/PathIterator;
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/geom/PathIterator;
+getPathIterator
+ (Ljava/awt/geom/AffineTransform;D)Ljava/awt/geom/PathIterator;
+ (Ljava/awt/geom/AffineTransform;D)Ljava/awt/geom/PathIterator;
+intersects
+ (Ljava/awt/geom/Rectangle2D;)Z
+ (Ljava/awt/geom/Rectangle2D;)Z

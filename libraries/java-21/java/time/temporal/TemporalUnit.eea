@@ -1,0 +1,17 @@
+class java/time/temporal/TemporalUnit
+
+addTo
+ <R::Ljava/time/temporal/Temporal;>(TR;J)TR;
+ <1R::Ljava/time/temporal/Temporal;>(TR;J)TR;
+between
+ (Ljava/time/temporal/Temporal;Ljava/time/temporal/Temporal;)J
+ (L1java/time/temporal/Temporal;L1java/time/temporal/Temporal;)J
+getDuration
+ ()Ljava/time/Duration;
+ ()L1java/time/Duration;
+isSupportedBy
+ (Ljava/time/temporal/Temporal;)Z
+ (L1java/time/temporal/Temporal;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

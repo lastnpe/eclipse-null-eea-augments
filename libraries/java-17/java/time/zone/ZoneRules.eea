@@ -1,0 +1,51 @@
+class java/time/zone/ZoneRules
+
+of
+ (Ljava/time/ZoneOffset;)Ljava/time/zone/ZoneRules;
+ (L1java/time/ZoneOffset;)L1java/time/zone/ZoneRules;
+of
+ (Ljava/time/ZoneOffset;Ljava/time/ZoneOffset;Ljava/util/List<Ljava/time/zone/ZoneOffsetTransition;>;Ljava/util/List<Ljava/time/zone/ZoneOffsetTransition;>;Ljava/util/List<Ljava/time/zone/ZoneOffsetTransitionRule;>;)Ljava/time/zone/ZoneRules;
+ (L1java/time/ZoneOffset;Ljava/time/ZoneOffset;Ljava/util/List<Ljava/time/zone/ZoneOffsetTransition;>;Ljava/util/List<Ljava/time/zone/ZoneOffsetTransition;>;Ljava/util/List<Ljava/time/zone/ZoneOffsetTransitionRule;>;)L1java/time/zone/ZoneRules;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getDaylightSavings
+ (Ljava/time/Instant;)Ljava/time/Duration;
+ (Ljava/time/Instant;)Ljava/time/Duration;
+getOffset
+ (Ljava/time/Instant;)Ljava/time/ZoneOffset;
+ (Ljava/time/Instant;)Ljava/time/ZoneOffset;
+getOffset
+ (Ljava/time/LocalDateTime;)Ljava/time/ZoneOffset;
+ (Ljava/time/LocalDateTime;)Ljava/time/ZoneOffset;
+getStandardOffset
+ (Ljava/time/Instant;)Ljava/time/ZoneOffset;
+ (Ljava/time/Instant;)Ljava/time/ZoneOffset;
+getTransition
+ (Ljava/time/LocalDateTime;)Ljava/time/zone/ZoneOffsetTransition;
+ (Ljava/time/LocalDateTime;)Ljava/time/zone/ZoneOffsetTransition;
+getTransitionRules
+ ()Ljava/util/List<Ljava/time/zone/ZoneOffsetTransitionRule;>;
+ ()Ljava/util/List<Ljava/time/zone/ZoneOffsetTransitionRule;>;
+getTransitions
+ ()Ljava/util/List<Ljava/time/zone/ZoneOffsetTransition;>;
+ ()Ljava/util/List<Ljava/time/zone/ZoneOffsetTransition;>;
+getValidOffsets
+ (Ljava/time/LocalDateTime;)Ljava/util/List<Ljava/time/ZoneOffset;>;
+ (Ljava/time/LocalDateTime;)Ljava/util/List<Ljava/time/ZoneOffset;>;
+isDaylightSavings
+ (Ljava/time/Instant;)Z
+ (Ljava/time/Instant;)Z
+isValidOffset
+ (Ljava/time/LocalDateTime;Ljava/time/ZoneOffset;)Z
+ (Ljava/time/LocalDateTime;Ljava/time/ZoneOffset;)Z
+nextTransition
+ (Ljava/time/Instant;)Ljava/time/zone/ZoneOffsetTransition;
+ (Ljava/time/Instant;)Ljava/time/zone/ZoneOffsetTransition;
+previousTransition
+ (Ljava/time/Instant;)Ljava/time/zone/ZoneOffsetTransition;
+ (Ljava/time/Instant;)Ljava/time/zone/ZoneOffsetTransition;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

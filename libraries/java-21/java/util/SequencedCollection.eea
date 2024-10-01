@@ -1,0 +1,29 @@
+class java/util/SequencedCollection
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/util/Collection
+ <TE;>
+ <TE;>
+
+addFirst
+ (TE;)V
+ (TE;)V
+addLast
+ (TE;)V
+ (TE;)V
+getFirst
+ ()TE;
+ ()TE;
+getLast
+ ()TE;
+ ()TE;
+removeFirst
+ ()TE;
+ ()TE;
+removeLast
+ ()TE;
+ ()TE;
+reversed
+ ()Ljava/util/SequencedCollection<TE;>;
+ ()Ljava/util/SequencedCollection<TE;>;

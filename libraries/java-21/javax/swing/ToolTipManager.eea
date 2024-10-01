@@ -1,0 +1,27 @@
+class javax/swing/ToolTipManager
+
+sharedInstance
+ ()Ljavax/swing/ToolTipManager;
+ ()Ljavax/swing/ToolTipManager;
+
+mouseDragged
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseAdapter)
+mouseEntered
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseAdapter)
+mouseExited
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseAdapter)
+mouseMoved
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseAdapter)
+mousePressed
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseAdapter)
+registerComponent
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+unregisterComponent
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V

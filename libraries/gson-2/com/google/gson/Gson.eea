@@ -1,0 +1,92 @@
+class com/google/gson/Gson
+
+excluder
+ ()Lcom/google/gson/internal/Excluder;
+ ()L1com/google/gson/internal/Excluder;
+fieldNamingStrategy
+ ()Lcom/google/gson/FieldNamingStrategy;
+ ()L1com/google/gson/FieldNamingStrategy;
+fromJson
+ <T:Ljava/lang/Object;>(Lcom/google/gson/JsonElement;Lcom/google/gson/reflect/TypeToken<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lcom/google/gson/JsonElement;Lcom/google/gson/reflect/TypeToken<TT;>;)TT;
+fromJson
+ <T:Ljava/lang/Object;>(Lcom/google/gson/JsonElement;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(L0com/google/gson/JsonElement;L1java/lang/Class<TT;>;)T0T;
+fromJson
+ <T:Ljava/lang/Object;>(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;)TT;
+ <T:Ljava/lang/Object;>(L0com/google/gson/JsonElement;L1java/lang/reflect/Type;)T0T;
+fromJson
+ <T:Ljava/lang/Object;>(Lcom/google/gson/stream/JsonReader;Lcom/google/gson/reflect/TypeToken<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lcom/google/gson/stream/JsonReader;Lcom/google/gson/reflect/TypeToken<TT;>;)TT;
+fromJson
+ <T:Ljava/lang/Object;>(Lcom/google/gson/stream/JsonReader;Ljava/lang/reflect/Type;)TT;
+ <T:Ljava/lang/Object;>(L1com/google/gson/stream/JsonReader;L1java/lang/reflect/Type;)T0T;
+fromJson
+ <T:Ljava/lang/Object;>(Ljava/io/Reader;Lcom/google/gson/reflect/TypeToken<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/io/Reader;Lcom/google/gson/reflect/TypeToken<TT;>;)TT;
+fromJson
+ <T:Ljava/lang/Object;>(Ljava/io/Reader;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(L1java/io/Reader;L1java/lang/Class<TT;>;)T0T;
+fromJson
+ <T:Ljava/lang/Object;>(Ljava/io/Reader;Ljava/lang/reflect/Type;)TT;
+ <T:Ljava/lang/Object;>(L1java/io/Reader;L1java/lang/reflect/Type;)T0T;
+fromJson
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lcom/google/gson/reflect/TypeToken<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lcom/google/gson/reflect/TypeToken<TT;>;)TT;
+fromJson
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(L0java/lang/String;L1java/lang/Class<TT;>;)T0T;
+fromJson
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/reflect/Type;)TT;
+ <T:Ljava/lang/Object;>(L0java/lang/String;L1java/lang/reflect/Type;)T0T;
+getAdapter
+ <T:Ljava/lang/Object;>(Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;
+ <T:Ljava/lang/Object;>(L0com/google/gson/reflect/TypeToken<TT;>;)L1com/google/gson/TypeAdapter<TT;>;
+getAdapter
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;
+ <T:Ljava/lang/Object;>(L1java/lang/Class<TT;>;)L1com/google/gson/TypeAdapter<TT;>;
+getDelegateAdapter
+ <T:Ljava/lang/Object;>(Lcom/google/gson/TypeAdapterFactory;Lcom/google/gson/reflect/TypeToken<TT;>;)Lcom/google/gson/TypeAdapter<TT;>;
+ <T:Ljava/lang/Object;>(L0com/google/gson/TypeAdapterFactory;L1com/google/gson/reflect/TypeToken<TT;>;)L1com/google/gson/TypeAdapter<TT;>;
+newBuilder
+ ()Lcom/google/gson/GsonBuilder;
+ ()L1com/google/gson/GsonBuilder;
+newJsonReader
+ (Ljava/io/Reader;)Lcom/google/gson/stream/JsonReader;
+ (L1java/io/Reader;)L1com/google/gson/stream/JsonReader;
+newJsonWriter
+ (Ljava/io/Writer;)Lcom/google/gson/stream/JsonWriter;
+ (L1java/io/Writer;)L1com/google/gson/stream/JsonWriter;
+toJson
+ (Lcom/google/gson/JsonElement;)Ljava/lang/String;
+ (L0com/google/gson/JsonElement;)L1java/lang/String;
+toJson
+ (Lcom/google/gson/JsonElement;Lcom/google/gson/stream/JsonWriter;)V
+ (L0com/google/gson/JsonElement;L1com/google/gson/stream/JsonWriter;)V
+toJson
+ (Lcom/google/gson/JsonElement;Ljava/lang/Appendable;)V
+ (L0com/google/gson/JsonElement;L1java/lang/Appendable;)V
+toJson
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (L0java/lang/Object;)L1java/lang/String;
+toJson
+ (Ljava/lang/Object;Ljava/lang/Appendable;)V
+ (L0java/lang/Object;L1java/lang/Appendable;)V
+toJson
+ (Ljava/lang/Object;Ljava/lang/reflect/Type;)Ljava/lang/String;
+ (L0java/lang/Object;L1java/lang/reflect/Type;)L1java/lang/String;
+toJson
+ (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/stream/JsonWriter;)V
+ (L0java/lang/Object;L1java/lang/reflect/Type;L1com/google/gson/stream/JsonWriter;)V
+toJson
+ (Ljava/lang/Object;Ljava/lang/reflect/Type;Ljava/lang/Appendable;)V
+ (L0java/lang/Object;L1java/lang/reflect/Type;L1java/lang/Appendable;)V
+toJsonTree
+ (Ljava/lang/Object;)Lcom/google/gson/JsonElement;
+ (L0java/lang/Object;)L1com/google/gson/JsonElement;
+toJsonTree
+ (Ljava/lang/Object;Ljava/lang/reflect/Type;)Lcom/google/gson/JsonElement;
+ (L0java/lang/Object;Ljava/lang/reflect/Type;)L1com/google/gson/JsonElement;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

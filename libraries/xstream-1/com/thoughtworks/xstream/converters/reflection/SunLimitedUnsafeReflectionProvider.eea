@@ -1,0 +1,18 @@
+class com/thoughtworks/xstream/converters/reflection/SunLimitedUnsafeReflectionProvider
+
+exception
+ Ljava/lang/Exception;
+ L1java/lang/Exception;
+unsafe
+ Lsun/misc/Unsafe;
+ L1sun/misc/Unsafe;
+
+<init>
+ (Lcom/thoughtworks/xstream/converters/reflection/FieldDictionary;)V
+ (Lcom/thoughtworks/xstream/converters/reflection/FieldDictionary;)V
+newInstance
+ (Ljava/lang/Class;)Ljava/lang/Object;
+ (Ljava/lang/Class;)Ljava/lang/Object;
+validateFieldAccess
+ (Ljava/lang/reflect/Field;)V
+ (Ljava/lang/reflect/Field;)V

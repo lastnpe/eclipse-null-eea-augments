@@ -1,0 +1,18 @@
+class com/thoughtworks/xstream/converters/time/HijrahDateConverter
+
+super com/thoughtworks/xstream/converters/time/AbstractChronoLocalDateConverter
+ <Ljava/time/chrono/HijrahEra;>
+ <Ljava/time/chrono/HijrahEra;>
+
+canConvert
+ (Ljava/lang/Class;)Z
+ (Ljava/lang/Class;)Z
+chronoLocalDateOf
+ (Ljava/time/chrono/HijrahEra;III)Ljava/time/chrono/ChronoLocalDate;
+ (Ljava/time/chrono/HijrahEra;III)Ljava/time/chrono/ChronoLocalDate;
+eraOf
+ (Ljava/lang/String;)Ljava/time/chrono/HijrahEra;
+ (Ljava/lang/String;)Ljava/time/chrono/HijrahEra;
+fromString
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;

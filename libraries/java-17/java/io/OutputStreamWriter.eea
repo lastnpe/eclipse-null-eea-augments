@@ -1,0 +1,29 @@
+class java/io/OutputStreamWriter
+
+<init>
+ (Ljava/io/OutputStream;)V
+ (L1java/io/OutputStream;)V
+<init>
+ (Ljava/io/OutputStream;Ljava/lang/String;)V
+ (L1java/io/OutputStream;L1java/lang/String;)V
+<init>
+ (Ljava/io/OutputStream;Ljava/nio/charset/Charset;)V
+ (Ljava/io/OutputStream;L1java/nio/charset/Charset;)V
+<init>
+ (Ljava/io/OutputStream;Ljava/nio/charset/CharsetEncoder;)V
+ (L1java/io/OutputStream;L1java/nio/charset/CharsetEncoder;)V
+append
+ (Ljava/lang/CharSequence;)Ljava/io/Writer;
+ (L0java/lang/CharSequence;)L1java/io/Writer; # @Inherited(java.io.Writer)
+append
+ (Ljava/lang/CharSequence;II)Ljava/io/Writer;
+ (L0java/lang/CharSequence;II)L1java/io/Writer; # @Inherited(java.io.Writer)
+getEncoding
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+write
+ (Ljava/lang/String;II)V
+ (L1java/lang/String;II)V # @Inherited(java.io.Writer)
+write
+ ([CII)V
+ ([1CII)V # @Inherited(java.io.Writer)

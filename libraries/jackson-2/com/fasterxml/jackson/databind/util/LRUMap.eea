@@ -1,0 +1,30 @@
+class com/fasterxml/jackson/databind/util/LRUMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/fasterxml/jackson/databind/util/LookupCache
+ <TK;TV;>
+ <TK;TV;>
+
+_map
+ Lcom/fasterxml/jackson/databind/util/internal/PrivateMaxEntriesMap<TK;TV;>;
+ Lcom/fasterxml/jackson/databind/util/internal/PrivateMaxEntriesMap<TK;TV;>;
+
+contents
+ (Ljava/util/function/BiConsumer<TK;TV;>;)V
+ (Ljava/util/function/BiConsumer<TK;TV;>;)V
+emptyCopy
+ ()Lcom/fasterxml/jackson/databind/util/LookupCache<TK;TV;>;
+ ()Lcom/fasterxml/jackson/databind/util/LookupCache<TK;TV;>;
+get
+ (Ljava/lang/Object;)TV;
+ (Ljava/lang/Object;)TV;
+put
+ (TK;TV;)TV;
+ (TK;TV;)TV;
+putIfAbsent
+ (TK;TV;)TV;
+ (TK;TV;)TV;
+readResolve
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;

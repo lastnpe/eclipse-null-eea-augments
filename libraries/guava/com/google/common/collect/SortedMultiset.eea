@@ -1,0 +1,47 @@
+class com/google/common/collect/SortedMultiset
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super com/google/common/collect/SortedMultisetBridge
+ <TE;>
+ <TE;>
+super com/google/common/collect/SortedIterable
+ <TE;>
+ <TE;>
+
+comparator
+ ()Ljava/util/Comparator<-TE;>;
+ ()Ljava/util/Comparator<-TE;>;
+descendingMultiset
+ ()Lcom/google/common/collect/SortedMultiset<TE;>;
+ ()Lcom/google/common/collect/SortedMultiset<TE;>;
+elementSet
+ ()Ljava/util/NavigableSet<TE;>;
+ ()Ljava/util/NavigableSet<TE;>;
+entrySet
+ ()Ljava/util/Set<Lcom/google/common/collect/Multiset$Entry<TE;>;>;
+ ()Ljava/util/Set<Lcom/google/common/collect/Multiset$Entry<TE;>;>;
+firstEntry
+ ()Lcom/google/common/collect/Multiset$Entry<TE;>;
+ ()L0com/google/common/collect/Multiset$Entry<TE;>;
+headMultiset
+ (TE;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/SortedMultiset<TE;>;
+ (TE;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/SortedMultiset<TE;>;
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>; # @Inherited(com.google.common.collect.Multiset)
+lastEntry
+ ()Lcom/google/common/collect/Multiset$Entry<TE;>;
+ ()L0com/google/common/collect/Multiset$Entry<TE;>;
+pollFirstEntry
+ ()Lcom/google/common/collect/Multiset$Entry<TE;>;
+ ()L0com/google/common/collect/Multiset$Entry<TE;>;
+pollLastEntry
+ ()Lcom/google/common/collect/Multiset$Entry<TE;>;
+ ()L0com/google/common/collect/Multiset$Entry<TE;>;
+subMultiset
+ (TE;Lcom/google/common/collect/BoundType;TE;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/SortedMultiset<TE;>;
+ (TE;Lcom/google/common/collect/BoundType;TE;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/SortedMultiset<TE;>;
+tailMultiset
+ (TE;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/SortedMultiset<TE;>;
+ (TE;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/SortedMultiset<TE;>;

@@ -1,0 +1,21 @@
+class com/google/common/util/concurrent/CycleDetectingLockFactory
+
+newInstance
+ (Lcom/google/common/util/concurrent/CycleDetectingLockFactory$Policy;)Lcom/google/common/util/concurrent/CycleDetectingLockFactory;
+ (Lcom/google/common/util/concurrent/CycleDetectingLockFactory$Policy;)Lcom/google/common/util/concurrent/CycleDetectingLockFactory;
+newInstanceWithExplicitOrdering
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/lang/Class<TE;>;Lcom/google/common/util/concurrent/CycleDetectingLockFactory$Policy;)Lcom/google/common/util/concurrent/CycleDetectingLockFactory$WithExplicitOrdering<TE;>;
+ <E:Ljava/lang/Enum<TE;>;>(Ljava/lang/Class<TE;>;Lcom/google/common/util/concurrent/CycleDetectingLockFactory$Policy;)Lcom/google/common/util/concurrent/CycleDetectingLockFactory$WithExplicitOrdering<TE;>;
+
+newReentrantLock
+ (Ljava/lang/String;)Ljava/util/concurrent/locks/ReentrantLock;
+ (Ljava/lang/String;)Ljava/util/concurrent/locks/ReentrantLock;
+newReentrantLock
+ (Ljava/lang/String;Z)Ljava/util/concurrent/locks/ReentrantLock;
+ (Ljava/lang/String;Z)Ljava/util/concurrent/locks/ReentrantLock;
+newReentrantReadWriteLock
+ (Ljava/lang/String;)Ljava/util/concurrent/locks/ReentrantReadWriteLock;
+ (Ljava/lang/String;)Ljava/util/concurrent/locks/ReentrantReadWriteLock;
+newReentrantReadWriteLock
+ (Ljava/lang/String;Z)Ljava/util/concurrent/locks/ReentrantReadWriteLock;
+ (Ljava/lang/String;Z)Ljava/util/concurrent/locks/ReentrantReadWriteLock;

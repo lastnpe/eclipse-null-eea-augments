@@ -1,0 +1,50 @@
+class javax/management/modelmbean/ModelMBeanInfo
+
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+getAttribute
+ (Ljava/lang/String;)Ljavax/management/modelmbean/ModelMBeanAttributeInfo;
+ (Ljava/lang/String;)Ljavax/management/modelmbean/ModelMBeanAttributeInfo;
+getAttributes
+ ()[Ljavax/management/MBeanAttributeInfo;
+ ()[Ljavax/management/MBeanAttributeInfo;
+getClassName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getConstructors
+ ()[Ljavax/management/MBeanConstructorInfo;
+ ()[Ljavax/management/MBeanConstructorInfo;
+getDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDescriptor
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/management/Descriptor;
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/management/Descriptor;
+getDescriptors
+ (Ljava/lang/String;)[Ljavax/management/Descriptor;
+ (Ljava/lang/String;)[Ljavax/management/Descriptor;
+getMBeanDescriptor
+ ()Ljavax/management/Descriptor;
+ ()Ljavax/management/Descriptor;
+getNotification
+ (Ljava/lang/String;)Ljavax/management/modelmbean/ModelMBeanNotificationInfo;
+ (Ljava/lang/String;)Ljavax/management/modelmbean/ModelMBeanNotificationInfo;
+getNotifications
+ ()[Ljavax/management/MBeanNotificationInfo;
+ ()[Ljavax/management/MBeanNotificationInfo;
+getOperation
+ (Ljava/lang/String;)Ljavax/management/modelmbean/ModelMBeanOperationInfo;
+ (Ljava/lang/String;)Ljavax/management/modelmbean/ModelMBeanOperationInfo;
+getOperations
+ ()[Ljavax/management/MBeanOperationInfo;
+ ()[Ljavax/management/MBeanOperationInfo;
+setDescriptor
+ (Ljavax/management/Descriptor;Ljava/lang/String;)V
+ (Ljavax/management/Descriptor;Ljava/lang/String;)V
+setDescriptors
+ ([Ljavax/management/Descriptor;)V
+ ([Ljavax/management/Descriptor;)V
+setMBeanDescriptor
+ (Ljavax/management/Descriptor;)V
+ (Ljavax/management/Descriptor;)V

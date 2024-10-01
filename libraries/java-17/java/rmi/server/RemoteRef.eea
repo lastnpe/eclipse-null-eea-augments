@@ -1,0 +1,27 @@
+class java/rmi/server/RemoteRef
+
+packagePrefix
+ Ljava/lang/String;
+ L1java/lang/String;
+
+done
+ (Ljava/rmi/server/RemoteCall;)V
+ (Ljava/rmi/server/RemoteCall;)V
+getRefClass
+ (Ljava/io/ObjectOutput;)Ljava/lang/String;
+ (Ljava/io/ObjectOutput;)Ljava/lang/String;
+invoke
+ (Ljava/rmi/Remote;Ljava/lang/reflect/Method;[Ljava/lang/Object;J)Ljava/lang/Object;
+ (Ljava/rmi/Remote;Ljava/lang/reflect/Method;[Ljava/lang/Object;J)Ljava/lang/Object;
+invoke
+ (Ljava/rmi/server/RemoteCall;)V
+ (Ljava/rmi/server/RemoteCall;)V
+newCall
+ (Ljava/rmi/server/RemoteObject;[Ljava/rmi/server/Operation;IJ)Ljava/rmi/server/RemoteCall;
+ (Ljava/rmi/server/RemoteObject;[Ljava/rmi/server/Operation;IJ)Ljava/rmi/server/RemoteCall;
+remoteEquals
+ (Ljava/rmi/server/RemoteRef;)Z
+ (Ljava/rmi/server/RemoteRef;)Z
+remoteToString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

@@ -1,0 +1,68 @@
+class java/awt/JobAttributes
+
+<init>
+ (ILjava/awt/JobAttributes$DefaultSelectionType;Ljava/awt/JobAttributes$DestinationType;Ljava/awt/JobAttributes$DialogType;Ljava/lang/String;IILjava/awt/JobAttributes$MultipleDocumentHandlingType;[[ILjava/lang/String;Ljava/awt/JobAttributes$SidesType;)V
+ (ILjava/awt/JobAttributes$DefaultSelectionType;Ljava/awt/JobAttributes$DestinationType;Ljava/awt/JobAttributes$DialogType;Ljava/lang/String;IILjava/awt/JobAttributes$MultipleDocumentHandlingType;[[ILjava/lang/String;Ljava/awt/JobAttributes$SidesType;)V
+<init>
+ (Ljava/awt/JobAttributes;)V
+ (Ljava/awt/JobAttributes;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getDefaultSelection
+ ()Ljava/awt/JobAttributes$DefaultSelectionType;
+ ()Ljava/awt/JobAttributes$DefaultSelectionType;
+getDestination
+ ()Ljava/awt/JobAttributes$DestinationType;
+ ()Ljava/awt/JobAttributes$DestinationType;
+getDialog
+ ()Ljava/awt/JobAttributes$DialogType;
+ ()Ljava/awt/JobAttributes$DialogType;
+getFileName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMultipleDocumentHandling
+ ()Ljava/awt/JobAttributes$MultipleDocumentHandlingType;
+ ()Ljava/awt/JobAttributes$MultipleDocumentHandlingType;
+getPageRanges
+ ()[[I
+ ()[[I
+getPrinter
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSides
+ ()Ljava/awt/JobAttributes$SidesType;
+ ()Ljava/awt/JobAttributes$SidesType;
+set
+ (Ljava/awt/JobAttributes;)V
+ (Ljava/awt/JobAttributes;)V
+setDefaultSelection
+ (Ljava/awt/JobAttributes$DefaultSelectionType;)V
+ (Ljava/awt/JobAttributes$DefaultSelectionType;)V
+setDestination
+ (Ljava/awt/JobAttributes$DestinationType;)V
+ (Ljava/awt/JobAttributes$DestinationType;)V
+setDialog
+ (Ljava/awt/JobAttributes$DialogType;)V
+ (Ljava/awt/JobAttributes$DialogType;)V
+setFileName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setMultipleDocumentHandling
+ (Ljava/awt/JobAttributes$MultipleDocumentHandlingType;)V
+ (Ljava/awt/JobAttributes$MultipleDocumentHandlingType;)V
+setPageRanges
+ ([[I)V
+ ([[I)V
+setPrinter
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSides
+ (Ljava/awt/JobAttributes$SidesType;)V
+ (Ljava/awt/JobAttributes$SidesType;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

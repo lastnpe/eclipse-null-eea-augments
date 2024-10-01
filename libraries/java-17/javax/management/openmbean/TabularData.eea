@@ -1,0 +1,38 @@
+class javax/management/openmbean/TabularData
+
+calculateIndex
+ (Ljavax/management/openmbean/CompositeData;)[Ljava/lang/Object;
+ (Ljavax/management/openmbean/CompositeData;)[Ljava/lang/Object;
+containsKey
+ ([Ljava/lang/Object;)Z
+ ([Ljava/lang/Object;)Z
+containsValue
+ (Ljavax/management/openmbean/CompositeData;)Z
+ (Ljavax/management/openmbean/CompositeData;)Z
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ ([Ljava/lang/Object;)Ljavax/management/openmbean/CompositeData;
+ ([Ljava/lang/Object;)Ljavax/management/openmbean/CompositeData;
+getTabularType
+ ()Ljavax/management/openmbean/TabularType;
+ ()Ljavax/management/openmbean/TabularType;
+keySet
+ ()Ljava/util/Set<*>;
+ ()Ljava/util/Set<*>;
+put
+ (Ljavax/management/openmbean/CompositeData;)V
+ (Ljavax/management/openmbean/CompositeData;)V
+putAll
+ ([Ljavax/management/openmbean/CompositeData;)V
+ ([Ljavax/management/openmbean/CompositeData;)V
+remove
+ ([Ljava/lang/Object;)Ljavax/management/openmbean/CompositeData;
+ ([Ljava/lang/Object;)Ljavax/management/openmbean/CompositeData;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+values
+ ()Ljava/util/Collection<*>;
+ ()Ljava/util/Collection<*>;

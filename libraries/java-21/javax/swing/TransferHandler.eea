@@ -1,0 +1,57 @@
+class javax/swing/TransferHandler
+
+getCopyAction
+ ()Ljavax/swing/Action;
+ ()Ljavax/swing/Action;
+getCutAction
+ ()Ljavax/swing/Action;
+ ()Ljavax/swing/Action;
+getPasteAction
+ ()Ljavax/swing/Action;
+ ()Ljavax/swing/Action;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+canImport
+ (Ljavax/swing/JComponent;[Ljava/awt/datatransfer/DataFlavor;)Z
+ (Ljavax/swing/JComponent;[Ljava/awt/datatransfer/DataFlavor;)Z
+canImport
+ (Ljavax/swing/TransferHandler$TransferSupport;)Z
+ (Ljavax/swing/TransferHandler$TransferSupport;)Z
+createTransferable
+ (Ljavax/swing/JComponent;)Ljava/awt/datatransfer/Transferable;
+ (Ljavax/swing/JComponent;)Ljava/awt/datatransfer/Transferable;
+exportAsDrag
+ (Ljavax/swing/JComponent;Ljava/awt/event/InputEvent;I)V
+ (Ljavax/swing/JComponent;Ljava/awt/event/InputEvent;I)V
+exportDone
+ (Ljavax/swing/JComponent;Ljava/awt/datatransfer/Transferable;I)V
+ (Ljavax/swing/JComponent;Ljava/awt/datatransfer/Transferable;I)V
+exportToClipboard
+ (Ljavax/swing/JComponent;Ljava/awt/datatransfer/Clipboard;I)V
+ (Ljavax/swing/JComponent;Ljava/awt/datatransfer/Clipboard;I)V
+getDragImage
+ ()Ljava/awt/Image;
+ ()Ljava/awt/Image;
+getDragImageOffset
+ ()Ljava/awt/Point;
+ ()Ljava/awt/Point;
+getSourceActions
+ (Ljavax/swing/JComponent;)I
+ (Ljavax/swing/JComponent;)I
+getVisualRepresentation
+ (Ljava/awt/datatransfer/Transferable;)Ljavax/swing/Icon;
+ (Ljava/awt/datatransfer/Transferable;)Ljavax/swing/Icon;
+importData
+ (Ljavax/swing/JComponent;Ljava/awt/datatransfer/Transferable;)Z
+ (Ljavax/swing/JComponent;Ljava/awt/datatransfer/Transferable;)Z
+importData
+ (Ljavax/swing/TransferHandler$TransferSupport;)Z
+ (Ljavax/swing/TransferHandler$TransferSupport;)Z
+setDragImage
+ (Ljava/awt/Image;)V
+ (Ljava/awt/Image;)V
+setDragImageOffset
+ (Ljava/awt/Point;)V
+ (Ljava/awt/Point;)V

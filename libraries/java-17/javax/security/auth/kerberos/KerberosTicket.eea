@@ -1,0 +1,41 @@
+class javax/security/auth/kerberos/KerberosTicket
+
+<init>
+ ([BLjavax/security/auth/kerberos/KerberosPrincipal;Ljavax/security/auth/kerberos/KerberosPrincipal;[BI[ZLjava/util/Date;Ljava/util/Date;Ljava/util/Date;Ljava/util/Date;[Ljava/net/InetAddress;)V
+ ([BLjavax/security/auth/kerberos/KerberosPrincipal;Ljavax/security/auth/kerberos/KerberosPrincipal;[BI[ZLjava/util/Date;Ljava/util/Date;Ljava/util/Date;Ljava/util/Date;[Ljava/net/InetAddress;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAuthTime
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+getClient
+ ()Ljavax/security/auth/kerberos/KerberosPrincipal;
+ ()Ljavax/security/auth/kerberos/KerberosPrincipal;
+getClientAddresses
+ ()[Ljava/net/InetAddress;
+ ()[Ljava/net/InetAddress;
+getEncoded
+ ()[B
+ ()[B
+getEndTime
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+getFlags
+ ()[Z
+ ()[Z
+getRenewTill
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+getServer
+ ()Ljavax/security/auth/kerberos/KerberosPrincipal;
+ ()Ljavax/security/auth/kerberos/KerberosPrincipal;
+getSessionKey
+ ()Ljavax/crypto/SecretKey;
+ ()Ljavax/crypto/SecretKey;
+getStartTime
+ ()Ljava/util/Date;
+ ()Ljava/util/Date;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

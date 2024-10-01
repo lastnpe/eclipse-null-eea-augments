@@ -1,0 +1,42 @@
+class com/thoughtworks/xstream/core/util/CustomObjectOutputStream
+
+getInstance
+ (Lcom/thoughtworks/xstream/converters/DataHolder;Lcom/thoughtworks/xstream/core/util/CustomObjectOutputStream$StreamCallback;)Lcom/thoughtworks/xstream/core/util/CustomObjectOutputStream;
+ (Lcom/thoughtworks/xstream/converters/DataHolder;Lcom/thoughtworks/xstream/core/util/CustomObjectOutputStream$StreamCallback;)Lcom/thoughtworks/xstream/core/util/CustomObjectOutputStream;
+
+<init>
+ (Lcom/thoughtworks/xstream/core/util/CustomObjectOutputStream$StreamCallback;)V
+ (Lcom/thoughtworks/xstream/core/util/CustomObjectOutputStream$StreamCallback;)V
+peekCallback
+ ()Lcom/thoughtworks/xstream/core/util/CustomObjectOutputStream$StreamCallback;
+ ()Lcom/thoughtworks/xstream/core/util/CustomObjectOutputStream$StreamCallback;
+popCallback
+ ()Lcom/thoughtworks/xstream/core/util/CustomObjectOutputStream$StreamCallback;
+ ()Lcom/thoughtworks/xstream/core/util/CustomObjectOutputStream$StreamCallback;
+pushCallback
+ (Lcom/thoughtworks/xstream/core/util/CustomObjectOutputStream$StreamCallback;)V
+ (Lcom/thoughtworks/xstream/core/util/CustomObjectOutputStream$StreamCallback;)V
+putFields
+ ()Ljava/io/ObjectOutputStream$PutField;
+ ()Ljava/io/ObjectOutputStream$PutField;
+write
+ ([B)V
+ ([1B)V # @Inherited(java.io.ObjectOutputStream)
+write
+ ([BII)V
+ ([1BII)V # @Inherited(java.io.ObjectOutputStream)
+writeBytes
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(java.io.ObjectOutputStream)
+writeChars
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(java.io.ObjectOutputStream)
+writeObjectOverride
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+writeUTF
+ (Ljava/lang/String;)V
+ (L1java/lang/String;)V # @Inherited(java.io.ObjectOutputStream)
+writeUnshared
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

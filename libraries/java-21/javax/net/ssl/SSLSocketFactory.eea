@@ -1,0 +1,18 @@
+class javax/net/ssl/SSLSocketFactory
+
+getDefault
+ ()Ljavax/net/SocketFactory;
+ ()Ljavax/net/SocketFactory;
+
+createSocket
+ (Ljava/net/Socket;Ljava/io/InputStream;Z)Ljava/net/Socket;
+ (Ljava/net/Socket;Ljava/io/InputStream;Z)Ljava/net/Socket;
+createSocket
+ (Ljava/net/Socket;Ljava/lang/String;IZ)Ljava/net/Socket;
+ (Ljava/net/Socket;Ljava/lang/String;IZ)Ljava/net/Socket;
+getDefaultCipherSuites
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getSupportedCipherSuites
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;

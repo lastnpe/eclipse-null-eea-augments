@@ -1,0 +1,63 @@
+class javax/swing/ImageIcon
+
+component
+ Ljava/awt/Component;
+ L1java/awt/Component;
+tracker
+ Ljava/awt/MediaTracker;
+ L1java/awt/MediaTracker;
+
+<init>
+ (Ljava/awt/Image;)V
+ (Ljava/awt/Image;)V
+<init>
+ (Ljava/awt/Image;Ljava/lang/String;)V
+ (Ljava/awt/Image;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/net/URL;)V
+ (Ljava/net/URL;)V
+<init>
+ (Ljava/net/URL;Ljava/lang/String;)V
+ (Ljava/net/URL;Ljava/lang/String;)V
+<init>
+ ([B)V
+ ([B)V
+<init>
+ ([BLjava/lang/String;)V
+ ([BLjava/lang/String;)V
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getImage
+ ()Ljava/awt/Image;
+ ()Ljava/awt/Image;
+getImageObserver
+ ()Ljava/awt/image/ImageObserver;
+ ()Ljava/awt/image/ImageObserver;
+loadImage
+ (Ljava/awt/Image;)V
+ (Ljava/awt/Image;)V
+paintIcon
+ (Ljava/awt/Component;Ljava/awt/Graphics;II)V
+ (Ljava/awt/Component;Ljava/awt/Graphics;II)V
+setDescription
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setImage
+ (Ljava/awt/Image;)V
+ (Ljava/awt/Image;)V
+setImageObserver
+ (Ljava/awt/image/ImageObserver;)V
+ (Ljava/awt/image/ImageObserver;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

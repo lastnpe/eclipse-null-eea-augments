@@ -1,0 +1,29 @@
+class javax/net/ssl/SSLServerSocket
+
+<init>
+ (IILjava/net/InetAddress;)V
+ (IILjava/net/InetAddress;)V
+getEnabledCipherSuites
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getEnabledProtocols
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getSSLParameters
+ ()Ljavax/net/ssl/SSLParameters;
+ ()Ljavax/net/ssl/SSLParameters;
+getSupportedCipherSuites
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getSupportedProtocols
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+setEnabledCipherSuites
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setEnabledProtocols
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setSSLParameters
+ (Ljavax/net/ssl/SSLParameters;)V
+ (Ljavax/net/ssl/SSLParameters;)V

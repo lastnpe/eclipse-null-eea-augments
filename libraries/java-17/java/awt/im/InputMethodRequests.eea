@@ -1,0 +1,17 @@
+class java/awt/im/InputMethodRequests
+
+cancelLatestCommittedText
+ ([Ljava/text/AttributedCharacterIterator$Attribute;)Ljava/text/AttributedCharacterIterator;
+ ([Ljava/text/AttributedCharacterIterator$Attribute;)Ljava/text/AttributedCharacterIterator;
+getCommittedText
+ (II[Ljava/text/AttributedCharacterIterator$Attribute;)Ljava/text/AttributedCharacterIterator;
+ (II[Ljava/text/AttributedCharacterIterator$Attribute;)Ljava/text/AttributedCharacterIterator;
+getLocationOffset
+ (II)Ljava/awt/font/TextHitInfo;
+ (II)Ljava/awt/font/TextHitInfo;
+getSelectedText
+ ([Ljava/text/AttributedCharacterIterator$Attribute;)Ljava/text/AttributedCharacterIterator;
+ ([Ljava/text/AttributedCharacterIterator$Attribute;)Ljava/text/AttributedCharacterIterator;
+getTextLocation
+ (Ljava/awt/font/TextHitInfo;)Ljava/awt/Rectangle;
+ (Ljava/awt/font/TextHitInfo;)Ljava/awt/Rectangle;

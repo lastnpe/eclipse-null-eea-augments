@@ -1,0 +1,71 @@
+class com/fasterxml/jackson/databind/MappingIterator
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super java/util/Iterator
+ <TT;>
+ <TT;>
+
+EMPTY_ITERATOR
+ Lcom/fasterxml/jackson/databind/MappingIterator<*>;
+ L1com/fasterxml/jackson/databind/MappingIterator<*>;
+
+emptyIterator
+ <T:Ljava/lang/Object;>()Lcom/fasterxml/jackson/databind/MappingIterator<TT;>;
+ <T:Ljava/lang/Object;>()Lcom/fasterxml/jackson/databind/MappingIterator<TT;>;
+
+_context
+ Lcom/fasterxml/jackson/databind/DeserializationContext;
+ Lcom/fasterxml/jackson/databind/DeserializationContext;
+_deserializer
+ Lcom/fasterxml/jackson/databind/JsonDeserializer<TT;>;
+ Lcom/fasterxml/jackson/databind/JsonDeserializer<TT;>;
+_parser
+ Lcom/fasterxml/jackson/core/JsonParser;
+ Lcom/fasterxml/jackson/core/JsonParser;
+_seqContext
+ Lcom/fasterxml/jackson/core/JsonStreamContext;
+ Lcom/fasterxml/jackson/core/JsonStreamContext;
+_type
+ Lcom/fasterxml/jackson/databind/JavaType;
+ Lcom/fasterxml/jackson/databind/JavaType;
+_updatedValue
+ TT;
+ TT;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;ZLjava/lang/Object;)V
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;ZLjava/lang/Object;)V
+_handleIOException
+ <R:Ljava/lang/Object;>(Ljava/io/IOException;)TR;
+ <R:Ljava/lang/Object;>(Ljava/io/IOException;)TR;
+_handleMappingException
+ <R:Ljava/lang/Object;>(Lcom/fasterxml/jackson/databind/JsonMappingException;)TR;
+ <R:Ljava/lang/Object;>(Lcom/fasterxml/jackson/databind/JsonMappingException;)TR;
+_throwNoSuchElement
+ <R:Ljava/lang/Object;>()TR;
+ <R:Ljava/lang/Object;>()TR;
+getCurrentLocation
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+getParser
+ ()Lcom/fasterxml/jackson/core/JsonParser;
+ ()Lcom/fasterxml/jackson/core/JsonParser;
+getParserSchema
+ ()Lcom/fasterxml/jackson/core/FormatSchema;
+ ()Lcom/fasterxml/jackson/core/FormatSchema;
+next
+ ()TT;
+ ()TT;
+nextValue
+ ()TT;
+ ()TT;
+readAll
+ ()Ljava/util/List<TT;>;
+ ()Ljava/util/List<TT;>;
+readAll
+ <C::Ljava/util/Collection<-TT;>;>(TC;)TC;
+ <C::Ljava/util/Collection<-TT;>;>(TC;)TC;
+readAll
+ <L::Ljava/util/List<-TT;>;>(TL;)TL;
+ <L::Ljava/util/List<-TT;>;>(TL;)TL;

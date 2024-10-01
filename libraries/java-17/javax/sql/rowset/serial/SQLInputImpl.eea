@@ -1,0 +1,62 @@
+class javax/sql/rowset/serial/SQLInputImpl
+
+<init>
+ ([Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Class<*>;>;)V
+ ([Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Class<*>;>;)V
+readArray
+ ()Ljava/sql/Array;
+ ()Ljava/sql/Array;
+readAsciiStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+readBigDecimal
+ ()Ljava/math/BigDecimal;
+ ()Ljava/math/BigDecimal;
+readBinaryStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+readBlob
+ ()Ljava/sql/Blob;
+ ()Ljava/sql/Blob;
+readBytes
+ ()[B
+ ()[B
+readCharacterStream
+ ()Ljava/io/Reader;
+ ()Ljava/io/Reader;
+readClob
+ ()Ljava/sql/Clob;
+ ()Ljava/sql/Clob;
+readDate
+ ()Ljava/sql/Date;
+ ()Ljava/sql/Date;
+readNClob
+ ()Ljava/sql/NClob;
+ ()Ljava/sql/NClob;
+readNString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+readObject
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.sql.SQLInput)
+readRef
+ ()Ljava/sql/Ref;
+ ()Ljava/sql/Ref;
+readRowId
+ ()Ljava/sql/RowId;
+ ()Ljava/sql/RowId;
+readSQLXML
+ ()Ljava/sql/SQLXML;
+ ()Ljava/sql/SQLXML;
+readString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+readTime
+ ()Ljava/sql/Time;
+ ()Ljava/sql/Time;
+readTimestamp
+ ()Ljava/sql/Timestamp;
+ ()Ljava/sql/Timestamp;
+readURL
+ ()Ljava/net/URL;
+ ()Ljava/net/URL;

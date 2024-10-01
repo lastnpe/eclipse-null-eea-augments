@@ -1,0 +1,34 @@
+class java/time/format/DecimalStyle
+
+STANDARD
+ Ljava/time/format/DecimalStyle;
+ L1java/time/format/DecimalStyle;
+
+getAvailableLocales
+ ()Ljava/util/Set<Ljava/util/Locale;>;
+ ()L1java/util/Set<L1java/util/Locale;>;
+of
+ (Ljava/util/Locale;)Ljava/time/format/DecimalStyle;
+ (L1java/util/Locale;)L1java/time/format/DecimalStyle;
+ofDefaultLocale
+ ()Ljava/time/format/DecimalStyle;
+ ()L1java/time/format/DecimalStyle;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+withDecimalSeparator
+ (C)Ljava/time/format/DecimalStyle;
+ (C)L1java/time/format/DecimalStyle;
+withNegativeSign
+ (C)Ljava/time/format/DecimalStyle;
+ (C)L1java/time/format/DecimalStyle;
+withPositiveSign
+ (C)Ljava/time/format/DecimalStyle;
+ (C)L1java/time/format/DecimalStyle;
+withZeroDigit
+ (C)Ljava/time/format/DecimalStyle;
+ (C)L1java/time/format/DecimalStyle;

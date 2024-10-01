@@ -1,0 +1,38 @@
+class javax/swing/text/StyledDocument
+
+addStyle
+ (Ljava/lang/String;Ljavax/swing/text/Style;)Ljavax/swing/text/Style;
+ (Ljava/lang/String;Ljavax/swing/text/Style;)Ljavax/swing/text/Style;
+getBackground
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Color;
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Color;
+getCharacterElement
+ (I)Ljavax/swing/text/Element;
+ (I)Ljavax/swing/text/Element;
+getFont
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Font;
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Font;
+getForeground
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Color;
+ (Ljavax/swing/text/AttributeSet;)Ljava/awt/Color;
+getLogicalStyle
+ (I)Ljavax/swing/text/Style;
+ (I)Ljavax/swing/text/Style;
+getParagraphElement
+ (I)Ljavax/swing/text/Element;
+ (I)Ljavax/swing/text/Element;
+getStyle
+ (Ljava/lang/String;)Ljavax/swing/text/Style;
+ (Ljava/lang/String;)Ljavax/swing/text/Style;
+removeStyle
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setCharacterAttributes
+ (IILjavax/swing/text/AttributeSet;Z)V
+ (IILjavax/swing/text/AttributeSet;Z)V
+setLogicalStyle
+ (ILjavax/swing/text/Style;)V
+ (ILjavax/swing/text/Style;)V
+setParagraphAttributes
+ (IILjavax/swing/text/AttributeSet;Z)V
+ (IILjavax/swing/text/AttributeSet;Z)V

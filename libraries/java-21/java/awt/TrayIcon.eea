@@ -1,0 +1,68 @@
+class java/awt/TrayIcon
+
+<init>
+ (Ljava/awt/Image;)V
+ (Ljava/awt/Image;)V
+<init>
+ (Ljava/awt/Image;Ljava/lang/String;)V
+ (Ljava/awt/Image;Ljava/lang/String;)V
+<init>
+ (Ljava/awt/Image;Ljava/lang/String;Ljava/awt/PopupMenu;)V
+ (Ljava/awt/Image;Ljava/lang/String;Ljava/awt/PopupMenu;)V
+addActionListener
+ (Ljava/awt/event/ActionListener;)V
+ (L1java/awt/event/ActionListener;)V
+addMouseListener
+ (Ljava/awt/event/MouseListener;)V
+ (L1java/awt/event/MouseListener;)V
+addMouseMotionListener
+ (Ljava/awt/event/MouseMotionListener;)V
+ (L1java/awt/event/MouseMotionListener;)V
+displayMessage
+ (Ljava/lang/String;Ljava/lang/String;Ljava/awt/TrayIcon$MessageType;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/awt/TrayIcon$MessageType;)V
+getActionCommand
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getActionListeners
+ ()[Ljava/awt/event/ActionListener;
+ ()[Ljava/awt/event/ActionListener;
+getImage
+ ()Ljava/awt/Image;
+ ()Ljava/awt/Image;
+getMouseListeners
+ ()[Ljava/awt/event/MouseListener;
+ ()[Ljava/awt/event/MouseListener;
+getMouseMotionListeners
+ ()[Ljava/awt/event/MouseMotionListener;
+ ()[Ljava/awt/event/MouseMotionListener;
+getPopupMenu
+ ()Ljava/awt/PopupMenu;
+ ()Ljava/awt/PopupMenu;
+getSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getToolTip
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+removeActionListener
+ (Ljava/awt/event/ActionListener;)V
+ (L1java/awt/event/ActionListener;)V
+removeMouseListener
+ (Ljava/awt/event/MouseListener;)V
+ (L1java/awt/event/MouseListener;)V
+removeMouseMotionListener
+ (Ljava/awt/event/MouseMotionListener;)V
+ (L1java/awt/event/MouseMotionListener;)V
+setActionCommand
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setImage
+ (Ljava/awt/Image;)V
+ (Ljava/awt/Image;)V
+setPopupMenu
+ (Ljava/awt/PopupMenu;)V
+ (Ljava/awt/PopupMenu;)V
+setToolTip
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

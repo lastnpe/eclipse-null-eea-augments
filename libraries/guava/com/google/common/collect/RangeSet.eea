@@ -1,0 +1,61 @@
+class com/google/common/collect/RangeSet
+ <C::Ljava/lang/Comparable;>
+ <C::Ljava/lang/Comparable;>
+
+add
+ (Lcom/google/common/collect/Range<TC;>;)V
+ (Lcom/google/common/collect/Range<TC;>;)V
+addAll
+ (Lcom/google/common/collect/RangeSet<TC;>;)V
+ (Lcom/google/common/collect/RangeSet<TC;>;)V
+addAll
+ (Ljava/lang/Iterable<Lcom/google/common/collect/Range<TC;>;>;)V
+ (Ljava/lang/Iterable<Lcom/google/common/collect/Range<TC;>;>;)V
+asDescendingSetOfRanges
+ ()Ljava/util/Set<Lcom/google/common/collect/Range<TC;>;>;
+ ()Ljava/util/Set<Lcom/google/common/collect/Range<TC;>;>;
+asRanges
+ ()Ljava/util/Set<Lcom/google/common/collect/Range<TC;>;>;
+ ()Ljava/util/Set<Lcom/google/common/collect/Range<TC;>;>;
+complement
+ ()Lcom/google/common/collect/RangeSet<TC;>;
+ ()Lcom/google/common/collect/RangeSet<TC;>;
+contains
+ (TC;)Z
+ (TC;)Z
+encloses
+ (Lcom/google/common/collect/Range<TC;>;)Z
+ (Lcom/google/common/collect/Range<TC;>;)Z
+enclosesAll
+ (Lcom/google/common/collect/RangeSet<TC;>;)Z
+ (Lcom/google/common/collect/RangeSet<TC;>;)Z
+enclosesAll
+ (Ljava/lang/Iterable<Lcom/google/common/collect/Range<TC;>;>;)Z
+ (Ljava/lang/Iterable<Lcom/google/common/collect/Range<TC;>;>;)Z
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+intersects
+ (Lcom/google/common/collect/Range<TC;>;)Z
+ (Lcom/google/common/collect/Range<TC;>;)Z
+rangeContaining
+ (TC;)Lcom/google/common/collect/Range<TC;>;
+ (TC;)L0com/google/common/collect/Range<TC;>;
+remove
+ (Lcom/google/common/collect/Range<TC;>;)V
+ (Lcom/google/common/collect/Range<TC;>;)V
+removeAll
+ (Lcom/google/common/collect/RangeSet<TC;>;)V
+ (Lcom/google/common/collect/RangeSet<TC;>;)V
+removeAll
+ (Ljava/lang/Iterable<Lcom/google/common/collect/Range<TC;>;>;)V
+ (Ljava/lang/Iterable<Lcom/google/common/collect/Range<TC;>;>;)V
+span
+ ()Lcom/google/common/collect/Range<TC;>;
+ ()Lcom/google/common/collect/Range<TC;>;
+subRangeSet
+ (Lcom/google/common/collect/Range<TC;>;)Lcom/google/common/collect/RangeSet<TC;>;
+ (Lcom/google/common/collect/Range<TC;>;)Lcom/google/common/collect/RangeSet<TC;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

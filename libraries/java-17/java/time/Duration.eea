@@ -1,0 +1,137 @@
+class java/time/Duration
+
+super java/lang/Comparable
+ <Ljava/time/Duration;>
+ <Ljava/time/Duration;>
+
+ZERO
+ Ljava/time/Duration;
+ L1java/time/Duration;
+
+between
+ (Ljava/time/temporal/Temporal;Ljava/time/temporal/Temporal;)Ljava/time/Duration;
+ (L1java/time/temporal/Temporal;L1java/time/temporal/Temporal;)L1java/time/Duration;
+from
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/Duration;
+ (L1java/time/temporal/TemporalAmount;)L1java/time/Duration;
+of
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/Duration;
+ (JL1java/time/temporal/TemporalUnit;)L1java/time/Duration;
+ofDays
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+ofHours
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+ofMillis
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+ofMinutes
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+ofNanos
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+ofSeconds
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+ofSeconds
+ (JJ)Ljava/time/Duration;
+ (JJ)L1java/time/Duration;
+parse
+ (Ljava/lang/CharSequence;)Ljava/time/Duration;
+ (L1java/lang/CharSequence;)L1java/time/Duration;
+
+abs
+ ()Ljava/time/Duration;
+ ()L1java/time/Duration;
+addTo
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal; # @Inherited(java.time.temporal.TemporalAmount)
+compareTo
+ (Ljava/time/Duration;)I
+ (L1java/time/Duration;)I
+dividedBy
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+dividedBy
+ (Ljava/time/Duration;)J
+ (Ljava/time/Duration;)J
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (Ljava/time/temporal/TemporalUnit;)J
+ (L0java/time/temporal/TemporalUnit;)J # @Overrides(java.time.temporal.TemporalAmount)
+getUnits
+ ()Ljava/util/List<Ljava/time/temporal/TemporalUnit;>;
+ ()L1java/util/List<Ljava/time/temporal/TemporalUnit;>; # @Overrides(java.time.temporal.TemporalAmount)
+minus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/Duration;
+ (JL1java/time/temporal/TemporalUnit;)L1java/time/Duration;
+minus
+ (Ljava/time/Duration;)Ljava/time/Duration;
+ (L1java/time/Duration;)L1java/time/Duration;
+minusDays
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+minusHours
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+minusMillis
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+minusMinutes
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+minusNanos
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+minusSeconds
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+multipliedBy
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+negated
+ ()Ljava/time/Duration;
+ ()L1java/time/Duration;
+plus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/Duration;
+ (JL1java/time/temporal/TemporalUnit;)L1java/time/Duration;
+plus
+ (Ljava/time/Duration;)Ljava/time/Duration;
+ (L1java/time/Duration;)L1java/time/Duration;
+plusDays
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+plusHours
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+plusMillis
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+plusMinutes
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+plusNanos
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+plusSeconds
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;
+subtractFrom
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal; # @Inherited(java.time.temporal.TemporalAmount)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+truncatedTo
+ (Ljava/time/temporal/TemporalUnit;)Ljava/time/Duration;
+ (Ljava/time/temporal/TemporalUnit;)Ljava/time/Duration;
+withNanos
+ (I)Ljava/time/Duration;
+ (I)L1java/time/Duration;
+withSeconds
+ (J)Ljava/time/Duration;
+ (J)L1java/time/Duration;

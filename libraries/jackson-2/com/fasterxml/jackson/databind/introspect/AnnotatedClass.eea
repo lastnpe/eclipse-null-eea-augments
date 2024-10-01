@@ -1,0 +1,112 @@
+class com/fasterxml/jackson/databind/introspect/AnnotatedClass
+
+construct
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;
+construct
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/ClassIntrospector$MixInResolver;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/ClassIntrospector$MixInResolver;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;
+constructWithoutSuperTypes
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;
+constructWithoutSuperTypes
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/ClassIntrospector$MixInResolver;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/ClassIntrospector$MixInResolver;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;
+
+_annotationIntrospector
+ Lcom/fasterxml/jackson/databind/AnnotationIntrospector;
+ Lcom/fasterxml/jackson/databind/AnnotationIntrospector;
+_bindings
+ Lcom/fasterxml/jackson/databind/type/TypeBindings;
+ Lcom/fasterxml/jackson/databind/type/TypeBindings;
+_class
+ Ljava/lang/Class<*>;
+ Ljava/lang/Class<*>;
+_classAnnotations
+ Lcom/fasterxml/jackson/databind/util/Annotations;
+ Lcom/fasterxml/jackson/databind/util/Annotations;
+_creators
+ Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass$Creators;
+ Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass$Creators;
+_fields
+ Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/AnnotatedField;>;
+ Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/AnnotatedField;>;
+_memberMethods
+ Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethodMap;
+ Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethodMap;
+_mixInResolver
+ Lcom/fasterxml/jackson/databind/introspect/ClassIntrospector$MixInResolver;
+ Lcom/fasterxml/jackson/databind/introspect/ClassIntrospector$MixInResolver;
+_nonStaticInnerClass
+ Ljava/lang/Boolean;
+ Ljava/lang/Boolean;
+_primaryMixIn
+ Ljava/lang/Class<*>;
+ Ljava/lang/Class<*>;
+_superTypes
+ Ljava/util/List<Lcom/fasterxml/jackson/databind/JavaType;>;
+ Ljava/util/List<Lcom/fasterxml/jackson/databind/JavaType;>;
+_type
+ Lcom/fasterxml/jackson/databind/JavaType;
+ Lcom/fasterxml/jackson/databind/JavaType;
+_typeFactory
+ Lcom/fasterxml/jackson/databind/type/TypeFactory;
+ Lcom/fasterxml/jackson/databind/type/TypeFactory;
+
+annotations
+ ()Ljava/lang/Iterable<Ljava/lang/annotation/Annotation;>;
+ ()Ljava/lang/Iterable<Ljava/lang/annotation/Annotation;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(com.fasterxml.jackson.databind.introspect.Annotated)
+fields
+ ()Ljava/lang/Iterable<Lcom/fasterxml/jackson/databind/introspect/AnnotatedField;>;
+ ()Ljava/lang/Iterable<Lcom/fasterxml/jackson/databind/introspect/AnnotatedField;>;
+findMethod
+ (Ljava/lang/String;[Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;
+ (Ljava/lang/String;[Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;
+getAnnotated
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
+getAnnotations
+ ()Lcom/fasterxml/jackson/databind/util/Annotations;
+ ()Lcom/fasterxml/jackson/databind/util/Annotations;
+getConstructors
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/AnnotatedConstructor;>;
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/AnnotatedConstructor;>;
+getDefaultConstructor
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedConstructor;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedConstructor;
+getFactoryMethods
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;>;
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;>;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRawType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getStaticMethods
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;>;
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;>;
+getType
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+hasAnnotation
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+hasOneOf
+ ([Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+ ([Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+memberMethods
+ ()Ljava/lang/Iterable<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;>;
+ ()Ljava/lang/Iterable<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;>;
+resolveType
+ (Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JavaType;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(com.fasterxml.jackson.databind.introspect.Annotated)

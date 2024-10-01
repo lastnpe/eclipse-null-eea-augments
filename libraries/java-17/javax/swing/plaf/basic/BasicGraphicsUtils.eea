@@ -1,0 +1,44 @@
+class javax/swing/plaf/basic/BasicGraphicsUtils
+
+drawBezel
+ (Ljava/awt/Graphics;IIIIZZLjava/awt/Color;Ljava/awt/Color;Ljava/awt/Color;Ljava/awt/Color;)V
+ (Ljava/awt/Graphics;IIIIZZLjava/awt/Color;Ljava/awt/Color;Ljava/awt/Color;Ljava/awt/Color;)V
+drawDashedRect
+ (Ljava/awt/Graphics;IIII)V
+ (Ljava/awt/Graphics;IIII)V
+drawEtchedRect
+ (Ljava/awt/Graphics;IIIILjava/awt/Color;Ljava/awt/Color;Ljava/awt/Color;Ljava/awt/Color;)V
+ (Ljava/awt/Graphics;IIIILjava/awt/Color;Ljava/awt/Color;Ljava/awt/Color;Ljava/awt/Color;)V
+drawGroove
+ (Ljava/awt/Graphics;IIIILjava/awt/Color;Ljava/awt/Color;)V
+ (Ljava/awt/Graphics;IIIILjava/awt/Color;Ljava/awt/Color;)V
+drawLoweredBezel
+ (Ljava/awt/Graphics;IIIILjava/awt/Color;Ljava/awt/Color;Ljava/awt/Color;Ljava/awt/Color;)V
+ (Ljava/awt/Graphics;IIIILjava/awt/Color;Ljava/awt/Color;Ljava/awt/Color;Ljava/awt/Color;)V
+drawString
+ (Ljava/awt/Graphics;Ljava/lang/String;III)V
+ (Ljava/awt/Graphics;Ljava/lang/String;III)V
+drawString
+ (Ljavax/swing/JComponent;Ljava/awt/Graphics2D;Ljava/lang/String;FF)V
+ (Ljavax/swing/JComponent;Ljava/awt/Graphics2D;Ljava/lang/String;FF)V
+drawStringUnderlineCharAt
+ (Ljava/awt/Graphics;Ljava/lang/String;III)V
+ (Ljava/awt/Graphics;Ljava/lang/String;III)V
+drawStringUnderlineCharAt
+ (Ljavax/swing/JComponent;Ljava/awt/Graphics2D;Ljava/lang/String;IFF)V
+ (Ljavax/swing/JComponent;Ljava/awt/Graphics2D;Ljava/lang/String;IFF)V
+getClippedString
+ (Ljavax/swing/JComponent;Ljava/awt/FontMetrics;Ljava/lang/String;I)Ljava/lang/String;
+ (Ljavax/swing/JComponent;Ljava/awt/FontMetrics;Ljava/lang/String;I)Ljava/lang/String;
+getEtchedInsets
+ ()Ljava/awt/Insets;
+ ()Ljava/awt/Insets;
+getGrooveInsets
+ ()Ljava/awt/Insets;
+ ()Ljava/awt/Insets;
+getPreferredButtonSize
+ (Ljavax/swing/AbstractButton;I)Ljava/awt/Dimension;
+ (Ljavax/swing/AbstractButton;I)Ljava/awt/Dimension;
+getStringWidth
+ (Ljavax/swing/JComponent;Ljava/awt/FontMetrics;Ljava/lang/String;)F
+ (Ljavax/swing/JComponent;Ljava/awt/FontMetrics;Ljava/lang/String;)F

@@ -1,0 +1,29 @@
+class javax/swing/text/StyledEditorKit
+
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(javax.swing.text.EditorKit)
+createDefaultDocument
+ ()Ljavax/swing/text/Document;
+ ()Ljavax/swing/text/Document;
+createInputAttributes
+ (Ljavax/swing/text/Element;Ljavax/swing/text/MutableAttributeSet;)V
+ (Ljavax/swing/text/Element;Ljavax/swing/text/MutableAttributeSet;)V
+deinstall
+ (Ljavax/swing/JEditorPane;)V
+ (Ljavax/swing/JEditorPane;)V
+getActions
+ ()[Ljavax/swing/Action;
+ ()[Ljavax/swing/Action;
+getCharacterAttributeRun
+ ()Ljavax/swing/text/Element;
+ ()Ljavax/swing/text/Element;
+getInputAttributes
+ ()Ljavax/swing/text/MutableAttributeSet;
+ ()Ljavax/swing/text/MutableAttributeSet;
+getViewFactory
+ ()Ljavax/swing/text/ViewFactory;
+ ()Ljavax/swing/text/ViewFactory;
+install
+ (Ljavax/swing/JEditorPane;)V
+ (Ljavax/swing/JEditorPane;)V

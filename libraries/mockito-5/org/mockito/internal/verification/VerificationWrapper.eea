@@ -1,0 +1,38 @@
+class org/mockito/internal/verification/VerificationWrapper
+ <WrapperT::Lorg/mockito/verification/VerificationMode;>
+ <WrapperT::Lorg/mockito/verification/VerificationMode;>
+
+wrappedVerification
+ TWrapperT;
+ TWrapperT;
+
+<init>
+ (TWrapperT;)V
+ (TWrapperT;)V
+atLeast
+ (I)Lorg/mockito/verification/VerificationMode;
+ (I)Lorg/mockito/verification/VerificationMode;
+atLeastOnce
+ ()Lorg/mockito/verification/VerificationMode;
+ ()Lorg/mockito/verification/VerificationMode;
+atMost
+ (I)Lorg/mockito/verification/VerificationMode;
+ (I)Lorg/mockito/verification/VerificationMode;
+atMostOnce
+ ()Lorg/mockito/verification/VerificationMode;
+ ()Lorg/mockito/verification/VerificationMode;
+copySelfWithNewVerificationMode
+ (Lorg/mockito/verification/VerificationMode;)Lorg/mockito/verification/VerificationMode;
+ (Lorg/mockito/verification/VerificationMode;)Lorg/mockito/verification/VerificationMode;
+never
+ ()Lorg/mockito/verification/VerificationMode;
+ ()Lorg/mockito/verification/VerificationMode;
+only
+ ()Lorg/mockito/verification/VerificationMode;
+ ()Lorg/mockito/verification/VerificationMode;
+times
+ (I)Lorg/mockito/verification/VerificationMode;
+ (I)Lorg/mockito/verification/VerificationMode;
+verify
+ (Lorg/mockito/internal/verification/api/VerificationData;)V
+ (Lorg/mockito/internal/verification/api/VerificationData;)V

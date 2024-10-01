@@ -1,0 +1,23 @@
+class org/springframework/util/concurrent/FutureAdapter
+ <T:Ljava/lang/Object;S:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;S:Ljava/lang/Object;>
+
+super java/util/concurrent/Future
+ <TT;>
+ <TT;>
+
+<init>
+ (Ljava/util/concurrent/Future<TS;>;)V
+ (Ljava/util/concurrent/Future<TS;>;)V
+adapt
+ (TS;)TT;
+ (TS;)T0T;
+get
+ ()TT;
+ ()T0T;
+get
+ (JLjava/util/concurrent/TimeUnit;)TT;
+ (JLjava/util/concurrent/TimeUnit;)T0T;
+getAdaptee
+ ()Ljava/util/concurrent/Future<TS;>;
+ ()Ljava/util/concurrent/Future<TS;>;

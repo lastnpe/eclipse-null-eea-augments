@@ -1,0 +1,29 @@
+class org/osgi/framework/launch/Framework
+
+adapt
+ <A:Ljava/lang/Object;>(Ljava/lang/Class<TA;>;)TA;
+ <A:Ljava/lang/Object;>(Ljava/lang/Class<TA;>;)TA;
+findEntries
+ (Ljava/lang/String;Ljava/lang/String;Z)Ljava/util/Enumeration<Ljava/net/URL;>;
+ (L1java/lang/String;L0java/lang/String;Z)L0java/util/Enumeration<L1java/net/URL;>; # @Inherited(org.osgi.framework.Bundle)
+getEntry
+ (Ljava/lang/String;)Ljava/net/URL;
+ (Ljava/lang/String;)Ljava/net/URL;
+getEntryPaths
+ (Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+ (Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+getLocation
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.osgi.framework.Bundle)
+getSymbolicName
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.osgi.framework.Bundle)
+init
+ ([Lorg/osgi/framework/FrameworkListener;)V
+ ([Lorg/osgi/framework/FrameworkListener;)V
+update
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+waitForStop
+ (J)Lorg/osgi/framework/FrameworkEvent;
+ (J)Lorg/osgi/framework/FrameworkEvent;

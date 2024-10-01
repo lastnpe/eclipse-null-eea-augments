@@ -1,0 +1,14 @@
+class javax/net/ssl/ExtendedSSLSession
+
+getLocalSupportedSignatureAlgorithms
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getPeerSupportedSignatureAlgorithms
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getRequestedServerNames
+ ()Ljava/util/List<Ljavax/net/ssl/SNIServerName;>;
+ ()Ljava/util/List<Ljavax/net/ssl/SNIServerName;>;
+getStatusResponses
+ ()Ljava/util/List<[B>;
+ ()Ljava/util/List<[B>;

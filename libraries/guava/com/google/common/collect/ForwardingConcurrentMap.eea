@@ -1,0 +1,26 @@
+class com/google/common/collect/ForwardingConcurrentMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/collect/ForwardingMap
+ <TK;TV;>
+ <TK;TV;>
+super java/util/concurrent/ConcurrentMap
+ <TK;TV;>
+ <TK;TV;>
+
+delegate
+ ()Ljava/util/concurrent/ConcurrentMap<TK;TV;>;
+ ()Ljava/util/concurrent/ConcurrentMap<TK;TV;>;
+putIfAbsent
+ (TK;TV;)TV;
+ (TK;TV;)T0V; # @Inherited(java.util.concurrent.ConcurrentMap)
+remove
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+ (L0java/lang/Object;L0java/lang/Object;)Z # @Inherited(java.util.concurrent.ConcurrentMap)
+replace
+ (TK;TV;)TV;
+ (TK;TV;)T0V; # @Inherited(java.util.concurrent.ConcurrentMap)
+replace
+ (TK;TV;TV;)Z
+ (TK;TV;TV;)Z

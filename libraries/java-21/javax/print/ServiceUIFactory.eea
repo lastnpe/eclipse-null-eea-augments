@@ -1,0 +1,21 @@
+class javax/print/ServiceUIFactory
+
+DIALOG_UI
+ Ljava/lang/String;
+ L1java/lang/String;
+JCOMPONENT_UI
+ Ljava/lang/String;
+ L1java/lang/String;
+JDIALOG_UI
+ Ljava/lang/String;
+ L1java/lang/String;
+PANEL_UI
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getUI
+ (ILjava/lang/String;)Ljava/lang/Object;
+ (ILjava/lang/String;)Ljava/lang/Object;
+getUIClassNamesForRole
+ (I)[Ljava/lang/String;
+ (I)[Ljava/lang/String;

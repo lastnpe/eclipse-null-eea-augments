@@ -1,0 +1,71 @@
+class com/thoughtworks/xstream/io/xml/StaxDriver
+
+<init>
+ (Lcom/thoughtworks/xstream/io/naming/NameCoder;)V
+ (Lcom/thoughtworks/xstream/io/naming/NameCoder;)V
+<init>
+ (Lcom/thoughtworks/xstream/io/xml/QNameMap;)V
+ (Lcom/thoughtworks/xstream/io/xml/QNameMap;)V
+<init>
+ (Lcom/thoughtworks/xstream/io/xml/QNameMap;Lcom/thoughtworks/xstream/io/naming/NameCoder;)V
+ (Lcom/thoughtworks/xstream/io/xml/QNameMap;Lcom/thoughtworks/xstream/io/naming/NameCoder;)V
+<init>
+ (Lcom/thoughtworks/xstream/io/xml/QNameMap;Lcom/thoughtworks/xstream/io/xml/XmlFriendlyReplacer;)V
+ (Lcom/thoughtworks/xstream/io/xml/QNameMap;Lcom/thoughtworks/xstream/io/xml/XmlFriendlyReplacer;)V
+<init>
+ (Lcom/thoughtworks/xstream/io/xml/XmlFriendlyReplacer;)V
+ (Lcom/thoughtworks/xstream/io/xml/XmlFriendlyReplacer;)V
+createInputFactory
+ ()Ljavax/xml/stream/XMLInputFactory;
+ ()Ljavax/xml/stream/XMLInputFactory;
+createOutputFactory
+ ()Ljavax/xml/stream/XMLOutputFactory;
+ ()Ljavax/xml/stream/XMLOutputFactory;
+createParser
+ (Ljava/io/InputStream;)Ljavax/xml/stream/XMLStreamReader;
+ (Ljava/io/InputStream;)Ljavax/xml/stream/XMLStreamReader;
+createParser
+ (Ljava/io/Reader;)Ljavax/xml/stream/XMLStreamReader;
+ (Ljava/io/Reader;)Ljavax/xml/stream/XMLStreamReader;
+createParser
+ (Ljavax/xml/transform/Source;)Ljavax/xml/stream/XMLStreamReader;
+ (Ljavax/xml/transform/Source;)Ljavax/xml/stream/XMLStreamReader;
+createReader
+ (Ljava/io/File;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ (Ljava/io/File;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+createReader
+ (Ljava/io/InputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ (Ljava/io/InputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+createReader
+ (Ljava/io/Reader;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ (Ljava/io/Reader;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+createReader
+ (Ljava/net/URL;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ (Ljava/net/URL;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+createStaxReader
+ (Ljavax/xml/stream/XMLStreamReader;)Lcom/thoughtworks/xstream/io/xml/AbstractPullReader;
+ (Ljavax/xml/stream/XMLStreamReader;)Lcom/thoughtworks/xstream/io/xml/AbstractPullReader;
+createStaxWriter
+ (Ljavax/xml/stream/XMLStreamWriter;)Lcom/thoughtworks/xstream/io/xml/StaxWriter;
+ (Ljavax/xml/stream/XMLStreamWriter;)Lcom/thoughtworks/xstream/io/xml/StaxWriter;
+createStaxWriter
+ (Ljavax/xml/stream/XMLStreamWriter;Z)Lcom/thoughtworks/xstream/io/xml/StaxWriter;
+ (Ljavax/xml/stream/XMLStreamWriter;Z)Lcom/thoughtworks/xstream/io/xml/StaxWriter;
+createWriter
+ (Ljava/io/OutputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+ (Ljava/io/OutputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+createWriter
+ (Ljava/io/Writer;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+ (Ljava/io/Writer;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+getInputFactory
+ ()Ljavax/xml/stream/XMLInputFactory;
+ ()Ljavax/xml/stream/XMLInputFactory;
+getOutputFactory
+ ()Ljavax/xml/stream/XMLOutputFactory;
+ ()Ljavax/xml/stream/XMLOutputFactory;
+getQnameMap
+ ()Lcom/thoughtworks/xstream/io/xml/QNameMap;
+ ()Lcom/thoughtworks/xstream/io/xml/QNameMap;
+setQnameMap
+ (Lcom/thoughtworks/xstream/io/xml/QNameMap;)V
+ (Lcom/thoughtworks/xstream/io/xml/QNameMap;)V

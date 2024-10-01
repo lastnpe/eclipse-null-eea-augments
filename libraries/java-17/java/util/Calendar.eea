@@ -1,0 +1,77 @@
+class java/util/Calendar
+
+super java/lang/Comparable
+ <Ljava/util/Calendar;>
+ <Ljava/util/Calendar;>
+
+getAvailableCalendarTypes
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()L1java/util/Set<L1java/lang/String;>;
+getAvailableLocales
+ ()[Ljava/util/Locale;
+ ()[1L1java/util/Locale;
+getInstance
+ ()Ljava/util/Calendar;
+ ()L1java/util/Calendar;
+getInstance
+ (Ljava/util/Locale;)Ljava/util/Calendar;
+ (L1java/util/Locale;)L1java/util/Calendar;
+getInstance
+ (Ljava/util/TimeZone;)Ljava/util/Calendar;
+ (L1java/util/TimeZone;)L1java/util/Calendar;
+getInstance
+ (Ljava/util/TimeZone;Ljava/util/Locale;)Ljava/util/Calendar;
+ (L1java/util/TimeZone;L1java/util/Locale;)L1java/util/Calendar;
+
+fields
+ [I
+ [I
+isSet
+ [Z
+ [Z
+
+<init>
+ (Ljava/util/TimeZone;Ljava/util/Locale;)V
+ (L1java/util/TimeZone;L1java/util/Locale;)V
+after
+ (Ljava/lang/Object;)Z
+ (L1java/lang/Object;)Z
+before
+ (Ljava/lang/Object;)Z
+ (L1java/lang/Object;)Z
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+compareTo
+ (Ljava/util/Calendar;)I
+ (L1java/util/Calendar;)I
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getCalendarType
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getDisplayName
+ (IILjava/util/Locale;)Ljava/lang/String;
+ (IILjava/util/Locale;)L0java/lang/String;
+getDisplayNames
+ (IILjava/util/Locale;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Integer;>;
+ (IILjava/util/Locale;)L0java/util/Map<L1java/lang/String;L1java/lang/Integer;>;
+getTime
+ ()Ljava/util/Date;
+ ()L1java/util/Date;
+getTimeZone
+ ()Ljava/util/TimeZone;
+ ()L1java/util/TimeZone;
+setTime
+ (Ljava/util/Date;)V
+ (L1java/util/Date;)V
+setTimeZone
+ (Ljava/util/TimeZone;)V
+ (L1java/util/TimeZone;)V
+toInstant
+ ()Ljava/time/Instant;
+ ()L1java/time/Instant;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

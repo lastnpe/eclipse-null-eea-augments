@@ -1,0 +1,30 @@
+class java/lang/foreign/FunctionDescriptor
+
+of
+ (Ljava/lang/foreign/MemoryLayout;[Ljava/lang/foreign/MemoryLayout;)Ljava/lang/foreign/FunctionDescriptor;
+ (Ljava/lang/foreign/MemoryLayout;[Ljava/lang/foreign/MemoryLayout;)Ljava/lang/foreign/FunctionDescriptor;
+ofVoid
+ ([Ljava/lang/foreign/MemoryLayout;)Ljava/lang/foreign/FunctionDescriptor;
+ ([Ljava/lang/foreign/MemoryLayout;)Ljava/lang/foreign/FunctionDescriptor;
+
+appendArgumentLayouts
+ ([Ljava/lang/foreign/MemoryLayout;)Ljava/lang/foreign/FunctionDescriptor;
+ ([Ljava/lang/foreign/MemoryLayout;)Ljava/lang/foreign/FunctionDescriptor;
+argumentLayouts
+ ()Ljava/util/List<Ljava/lang/foreign/MemoryLayout;>;
+ ()Ljava/util/List<Ljava/lang/foreign/MemoryLayout;>;
+changeReturnLayout
+ (Ljava/lang/foreign/MemoryLayout;)Ljava/lang/foreign/FunctionDescriptor;
+ (Ljava/lang/foreign/MemoryLayout;)Ljava/lang/foreign/FunctionDescriptor;
+dropReturnLayout
+ ()Ljava/lang/foreign/FunctionDescriptor;
+ ()Ljava/lang/foreign/FunctionDescriptor;
+insertArgumentLayouts
+ (I[Ljava/lang/foreign/MemoryLayout;)Ljava/lang/foreign/FunctionDescriptor;
+ (I[Ljava/lang/foreign/MemoryLayout;)Ljava/lang/foreign/FunctionDescriptor;
+returnLayout
+ ()Ljava/util/Optional<Ljava/lang/foreign/MemoryLayout;>;
+ ()Ljava/util/Optional<Ljava/lang/foreign/MemoryLayout;>;
+toMethodType
+ ()Ljava/lang/invoke/MethodType;
+ ()Ljava/lang/invoke/MethodType;

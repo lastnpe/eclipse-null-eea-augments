@@ -1,0 +1,92 @@
+class com/fasterxml/jackson/databind/DatabindContext
+
+_colonConcat
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+_desc
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+_format
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+_quotedString
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+_throwNotASubtype
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;)TT;
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;)TT;
+_throwSubtypeClassNotAllowed
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;Lcom/fasterxml/jackson/databind/jsontype/PolymorphicTypeValidator;)TT;
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;Lcom/fasterxml/jackson/databind/jsontype/PolymorphicTypeValidator;)TT;
+_throwSubtypeNameNotAllowed
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;Lcom/fasterxml/jackson/databind/jsontype/PolymorphicTypeValidator;)TT;
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;Lcom/fasterxml/jackson/databind/jsontype/PolymorphicTypeValidator;)TT;
+_truncate
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+constructSpecializedType
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+constructType
+ (Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JavaType;
+converterInstance
+ (Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/util/Converter<Ljava/lang/Object;Ljava/lang/Object;>;
+ (Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/util/Converter<Ljava/lang/Object;Ljava/lang/Object;>;
+getActiveView
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getAnnotationIntrospector
+ ()Lcom/fasterxml/jackson/databind/AnnotationIntrospector;
+ ()Lcom/fasterxml/jackson/databind/AnnotationIntrospector;
+getAttribute
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+getConfig
+ ()Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;
+ ()Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;
+getDatatypeFeatures
+ ()Lcom/fasterxml/jackson/databind/cfg/DatatypeFeatures;
+ ()Lcom/fasterxml/jackson/databind/cfg/DatatypeFeatures;
+getDefaultPropertyFormat
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+getLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+getTimeZone
+ ()Ljava/util/TimeZone;
+ ()Ljava/util/TimeZone;
+getTypeFactory
+ ()Lcom/fasterxml/jackson/databind/type/TypeFactory;
+ ()Lcom/fasterxml/jackson/databind/type/TypeFactory;
+invalidTypeIdException
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+isEnabled
+ (Lcom/fasterxml/jackson/databind/MapperFeature;)Z
+ (Lcom/fasterxml/jackson/databind/MapperFeature;)Z
+isEnabled
+ (Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Z
+ (Lcom/fasterxml/jackson/databind/cfg/DatatypeFeature;)Z
+objectIdGeneratorInstance
+ (Lcom/fasterxml/jackson/databind/introspect/Annotated;Lcom/fasterxml/jackson/databind/introspect/ObjectIdInfo;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;
+ (Lcom/fasterxml/jackson/databind/introspect/Annotated;Lcom/fasterxml/jackson/databind/introspect/ObjectIdInfo;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;
+objectIdResolverInstance
+ (Lcom/fasterxml/jackson/databind/introspect/Annotated;Lcom/fasterxml/jackson/databind/introspect/ObjectIdInfo;)Lcom/fasterxml/jackson/annotation/ObjectIdResolver;
+ (Lcom/fasterxml/jackson/databind/introspect/Annotated;Lcom/fasterxml/jackson/databind/introspect/ObjectIdInfo;)Lcom/fasterxml/jackson/annotation/ObjectIdResolver;
+reportBadDefinition
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;)TT;
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;)TT;
+reportBadDefinition
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<*>;Ljava/lang/String;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<*>;Ljava/lang/String;)TT;
+resolveAndValidateSubType
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;Lcom/fasterxml/jackson/databind/jsontype/PolymorphicTypeValidator;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;Lcom/fasterxml/jackson/databind/jsontype/PolymorphicTypeValidator;)Lcom/fasterxml/jackson/databind/JavaType;
+resolveSubType
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JavaType;
+setAttribute
+ (Ljava/lang/Object;Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/DatabindContext;
+ (Ljava/lang/Object;Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/DatabindContext;

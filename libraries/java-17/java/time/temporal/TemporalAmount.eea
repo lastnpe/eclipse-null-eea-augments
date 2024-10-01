@@ -1,0 +1,14 @@
+class java/time/temporal/TemporalAmount
+
+addTo
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal;
+get
+ (Ljava/time/temporal/TemporalUnit;)J
+ (L1java/time/temporal/TemporalUnit;)J
+getUnits
+ ()Ljava/util/List<Ljava/time/temporal/TemporalUnit;>;
+ ()L1java/util/List<L1java/time/temporal/TemporalUnit;>;
+subtractFrom
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal;

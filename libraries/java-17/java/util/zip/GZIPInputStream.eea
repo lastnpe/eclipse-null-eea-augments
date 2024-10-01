@@ -1,0 +1,15 @@
+class java/util/zip/GZIPInputStream
+
+crc
+ Ljava/util/zip/CRC32;
+ L1java/util/zip/CRC32;
+
+<init>
+ (Ljava/io/InputStream;)V
+ (L1java/io/InputStream;)V
+<init>
+ (Ljava/io/InputStream;I)V
+ (L1java/io/InputStream;I)V
+read
+ ([BII)I
+ ([1BII)I # @Inherited(java.util.zip.InflaterInputStream)

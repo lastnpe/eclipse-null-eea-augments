@@ -1,0 +1,97 @@
+class java/net/URLConnection
+
+getDefaultRequestProperty
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getDefaultUseCaches
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+getFileNameMap
+ ()Ljava/net/FileNameMap;
+ ()L1java/net/FileNameMap;
+guessContentTypeFromName
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+guessContentTypeFromStream
+ (Ljava/io/InputStream;)Ljava/lang/String;
+ (Ljava/io/InputStream;)Ljava/lang/String;
+setContentHandlerFactory
+ (Ljava/net/ContentHandlerFactory;)V
+ (Ljava/net/ContentHandlerFactory;)V
+setDefaultRequestProperty
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setDefaultUseCaches
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+setFileNameMap
+ (Ljava/net/FileNameMap;)V
+ (Ljava/net/FileNameMap;)V
+
+url
+ Ljava/net/URL;
+ Ljava/net/URL;
+
+<init>
+ (Ljava/net/URL;)V
+ (Ljava/net/URL;)V
+addRequestProperty
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+getContent
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;
+getContent
+ ([Ljava/lang/Class<*>;)Ljava/lang/Object;
+ ([Ljava/lang/Class<*>;)Ljava/lang/Object;
+getContentEncoding
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getContentType
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getHeaderField
+ (I)Ljava/lang/String;
+ (I)L0java/lang/String;
+getHeaderField
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+getHeaderFieldDate
+ (Ljava/lang/String;J)J
+ (Ljava/lang/String;J)J
+getHeaderFieldInt
+ (Ljava/lang/String;I)I
+ (Ljava/lang/String;I)I
+getHeaderFieldKey
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+getHeaderFieldLong
+ (Ljava/lang/String;J)J
+ (Ljava/lang/String;J)J
+getHeaderFields
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;
+getInputStream
+ ()Ljava/io/InputStream;
+ ()L1java/io/InputStream;
+getOutputStream
+ ()Ljava/io/OutputStream;
+ ()L1java/io/OutputStream;
+getPermission
+ ()Ljava/security/Permission;
+ ()L1java/security/Permission;
+getRequestProperties
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;
+getRequestProperty
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getURL
+ ()Ljava/net/URL;
+ ()L1java/net/URL;
+setRequestProperty
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

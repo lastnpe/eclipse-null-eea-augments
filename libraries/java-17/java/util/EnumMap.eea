@@ -1,0 +1,50 @@
+class java/util/EnumMap
+ <K:Ljava/lang/Enum<TK;>;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Enum<TK;>;V:Ljava/lang/Object;>
+
+super java/util/AbstractMap
+ <TK;TV;>
+ <TK;TV;>
+
+<init>
+ (Ljava/lang/Class<TK;>;)V
+ (Ljava/lang/Class<TK;>;)V
+<init>
+ (Ljava/util/EnumMap<TK;+TV;>;)V
+ (Ljava/util/EnumMap<TK;+TV;>;)V
+<init>
+ (Ljava/util/Map<TK;+TV;>;)V
+ (Ljava/util/Map<TK;+TV;>;)V
+clone
+ ()Ljava/util/EnumMap<TK;TV;>;
+ ()Ljava/util/EnumMap<TK;TV;>;
+containsKey
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.AbstractMap)
+containsValue
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.AbstractMap)
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()L1java/util/Set<L1java/util/Map$Entry<TK;TV;>;>; # @Inherited(java.util.AbstractMap)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.AbstractMap)
+get
+ (Ljava/lang/Object;)TV;
+ (Ljava/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
+keySet
+ ()Ljava/util/Set<TK;>;
+ ()L1java/util/Set<TK;>; # @Inherited(java.util.AbstractMap)
+put
+ (TK;TV;)TV;
+ (TK;TV;)T0V; # @Inherited(java.util.AbstractMap)
+putAll
+ (Ljava/util/Map<+TK;+TV;>;)V
+ (L1java/util/Map<+TK;+TV;>;)V # @Inherited(java.util.AbstractMap)
+remove
+ (Ljava/lang/Object;)TV;
+ (L0java/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
+values
+ ()Ljava/util/Collection<TV;>;
+ ()L1java/util/Collection<TV;>; # @Inherited(java.util.AbstractMap)

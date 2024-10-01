@@ -1,0 +1,50 @@
+class com/fasterxml/jackson/core/ObjectCodec
+
+createArrayNode
+ ()Lcom/fasterxml/jackson/core/TreeNode;
+ ()Lcom/fasterxml/jackson/core/TreeNode;
+createObjectNode
+ ()Lcom/fasterxml/jackson/core/TreeNode;
+ ()Lcom/fasterxml/jackson/core/TreeNode;
+getFactory
+ ()Lcom/fasterxml/jackson/core/JsonFactory;
+ ()Lcom/fasterxml/jackson/core/JsonFactory;
+getJsonFactory
+ ()Lcom/fasterxml/jackson/core/JsonFactory;
+ ()Lcom/fasterxml/jackson/core/JsonFactory;
+readTree
+ <T::Lcom/fasterxml/jackson/core/TreeNode;>(Lcom/fasterxml/jackson/core/JsonParser;)TT;
+ <T::Lcom/fasterxml/jackson/core/TreeNode;>(Lcom/fasterxml/jackson/core/JsonParser;)TT;
+readValue
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/core/type/ResolvedType;)TT;
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/core/type/ResolvedType;)TT;
+readValue
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/core/type/TypeReference<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/core/type/TypeReference<TT;>;)TT;
+readValue
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/Class<TT;>;)TT;
+readValues
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/core/type/ResolvedType;)Ljava/util/Iterator<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/core/type/ResolvedType;)Ljava/util/Iterator<TT;>;
+readValues
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/core/type/TypeReference<TT;>;)Ljava/util/Iterator<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/core/type/TypeReference<TT;>;)Ljava/util/Iterator<TT;>;
+readValues
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/Class<TT;>;)Ljava/util/Iterator<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/Class<TT;>;)Ljava/util/Iterator<TT;>;
+treeAsTokens
+ (Lcom/fasterxml/jackson/core/TreeNode;)Lcom/fasterxml/jackson/core/JsonParser;
+ (Lcom/fasterxml/jackson/core/TreeNode;)Lcom/fasterxml/jackson/core/JsonParser;
+treeToValue
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/core/TreeNode;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lcom/fasterxml/jackson/core/TreeNode;Ljava/lang/Class<TT;>;)TT;
+version
+ ()Lcom/fasterxml/jackson/core/Version;
+ ()Lcom/fasterxml/jackson/core/Version;
+writeTree
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/core/TreeNode;)V
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/core/TreeNode;)V
+writeValue
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/Object;)V
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/Object;)V

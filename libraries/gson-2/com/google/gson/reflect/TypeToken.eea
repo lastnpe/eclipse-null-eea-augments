@@ -1,0 +1,38 @@
+class com/google/gson/reflect/TypeToken
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+get
+ (Ljava/lang/reflect/Type;)Lcom/google/gson/reflect/TypeToken<*>;
+ (L1java/lang/reflect/Type;)L1com/google/gson/reflect/TypeToken<*>;
+get
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lcom/google/gson/reflect/TypeToken<TT;>;
+ <T:Ljava/lang/Object;>(L1java/lang/Class<TT;>;)L1com/google/gson/reflect/TypeToken<TT;>;
+getArray
+ (Ljava/lang/reflect/Type;)Lcom/google/gson/reflect/TypeToken<*>;
+ (L1java/lang/reflect/Type;)L1com/google/gson/reflect/TypeToken<*>;
+getParameterized
+ (Ljava/lang/reflect/Type;[Ljava/lang/reflect/Type;)Lcom/google/gson/reflect/TypeToken<*>;
+ (L1java/lang/reflect/Type;[1L1java/lang/reflect/Type;)L1com/google/gson/reflect/TypeToken<*>;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getRawType
+ ()Ljava/lang/Class<-TT;>;
+ ()L1java/lang/Class<-TT;>;
+getType
+ ()Ljava/lang/reflect/Type;
+ ()L1java/lang/reflect/Type;
+isAssignableFrom
+ (Lcom/google/gson/reflect/TypeToken<*>;)Z
+ (L1com/google/gson/reflect/TypeToken<*>;)Z
+isAssignableFrom
+ (Ljava/lang/Class<*>;)Z
+ (L1java/lang/Class<*>;)Z
+isAssignableFrom
+ (Ljava/lang/reflect/Type;)Z
+ (L1java/lang/reflect/Type;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

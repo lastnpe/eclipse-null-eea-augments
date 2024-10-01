@@ -1,0 +1,29 @@
+class org/springframework/core/type/StandardAnnotationMetadata
+
+<init>
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+<init>
+ (Ljava/lang/Class<*>;Z)V
+ (Ljava/lang/Class<*>;Z)V
+getAllAnnotationAttributes
+ (Ljava/lang/String;Z)Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/Object;>;
+ (Ljava/lang/String;Z)L0org/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/Object;>; # @Inherited(org.springframework.core.type.AnnotatedTypeMetadata)
+getAnnotatedMethods
+ (Ljava/lang/String;)Ljava/util/Set<Lorg/springframework/core/type/MethodMetadata;>;
+ (Ljava/lang/String;)Ljava/util/Set<Lorg/springframework/core/type/MethodMetadata;>;
+getAnnotationAttributes
+ (Ljava/lang/String;Z)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ (Ljava/lang/String;Z)L0java/util/Map<Ljava/lang/String;Ljava/lang/Object;>; # @Inherited(org.springframework.core.type.AnnotatedTypeMetadata)
+getAnnotationTypes
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getAnnotations
+ ()Lorg/springframework/core/annotation/MergedAnnotations;
+ ()Lorg/springframework/core/annotation/MergedAnnotations;
+getDeclaredMethods
+ ()Ljava/util/Set<Lorg/springframework/core/type/MethodMetadata;>;
+ ()Ljava/util/Set<Lorg/springframework/core/type/MethodMetadata;>;
+hasAnnotatedMethods
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z

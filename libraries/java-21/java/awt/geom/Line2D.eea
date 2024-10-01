@@ -1,0 +1,53 @@
+class java/awt/geom/Line2D
+
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+contains
+ (Ljava/awt/geom/Point2D;)Z
+ (Ljava/awt/geom/Point2D;)Z
+contains
+ (Ljava/awt/geom/Rectangle2D;)Z
+ (Ljava/awt/geom/Rectangle2D;)Z
+getBounds
+ ()Ljava/awt/Rectangle;
+ ()Ljava/awt/Rectangle;
+getP1
+ ()Ljava/awt/geom/Point2D;
+ ()Ljava/awt/geom/Point2D;
+getP2
+ ()Ljava/awt/geom/Point2D;
+ ()Ljava/awt/geom/Point2D;
+getPathIterator
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/geom/PathIterator;
+ (Ljava/awt/geom/AffineTransform;)Ljava/awt/geom/PathIterator;
+getPathIterator
+ (Ljava/awt/geom/AffineTransform;D)Ljava/awt/geom/PathIterator;
+ (Ljava/awt/geom/AffineTransform;D)Ljava/awt/geom/PathIterator;
+intersects
+ (Ljava/awt/geom/Rectangle2D;)Z
+ (Ljava/awt/geom/Rectangle2D;)Z
+intersectsLine
+ (Ljava/awt/geom/Line2D;)Z
+ (Ljava/awt/geom/Line2D;)Z
+ptLineDist
+ (Ljava/awt/geom/Point2D;)D
+ (Ljava/awt/geom/Point2D;)D
+ptLineDistSq
+ (Ljava/awt/geom/Point2D;)D
+ (Ljava/awt/geom/Point2D;)D
+ptSegDist
+ (Ljava/awt/geom/Point2D;)D
+ (Ljava/awt/geom/Point2D;)D
+ptSegDistSq
+ (Ljava/awt/geom/Point2D;)D
+ (Ljava/awt/geom/Point2D;)D
+relativeCCW
+ (Ljava/awt/geom/Point2D;)I
+ (Ljava/awt/geom/Point2D;)I
+setLine
+ (Ljava/awt/geom/Line2D;)V
+ (Ljava/awt/geom/Line2D;)V
+setLine
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)V
+ (Ljava/awt/geom/Point2D;Ljava/awt/geom/Point2D;)V

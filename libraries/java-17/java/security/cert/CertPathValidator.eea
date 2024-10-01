@@ -1,0 +1,30 @@
+class java/security/cert/CertPathValidator
+
+getDefaultType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getInstance
+ (Ljava/lang/String;)Ljava/security/cert/CertPathValidator;
+ (Ljava/lang/String;)Ljava/security/cert/CertPathValidator;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/cert/CertPathValidator;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/security/cert/CertPathValidator;
+getInstance
+ (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/cert/CertPathValidator;
+ (Ljava/lang/String;Ljava/security/Provider;)Ljava/security/cert/CertPathValidator;
+
+<init>
+ (Ljava/security/cert/CertPathValidatorSpi;Ljava/security/Provider;Ljava/lang/String;)V
+ (Ljava/security/cert/CertPathValidatorSpi;Ljava/security/Provider;Ljava/lang/String;)V
+getAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getProvider
+ ()Ljava/security/Provider;
+ ()Ljava/security/Provider;
+getRevocationChecker
+ ()Ljava/security/cert/CertPathChecker;
+ ()Ljava/security/cert/CertPathChecker;
+validate
+ (Ljava/security/cert/CertPath;Ljava/security/cert/CertPathParameters;)Ljava/security/cert/CertPathValidatorResult;
+ (Ljava/security/cert/CertPath;Ljava/security/cert/CertPathParameters;)Ljava/security/cert/CertPathValidatorResult;

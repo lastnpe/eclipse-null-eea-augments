@@ -1,0 +1,29 @@
+class com/fasterxml/jackson/databind/ser/std/NumberSerializer
+
+super com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+ <Ljava/lang/Number;>
+ <Ljava/lang/Number;>
+
+instance
+ Lcom/fasterxml/jackson/databind/ser/std/NumberSerializer;
+ L1com/fasterxml/jackson/databind/ser/std/NumberSerializer;
+
+bigDecimalAsStringSerializer
+ ()Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+ ()Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+
+<init>
+ (Ljava/lang/Class<+Ljava/lang/Number;>;)V
+ (Ljava/lang/Class<+Ljava/lang/Number;>;)V
+acceptJsonFormatVisitor
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+createContextual
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/BeanProperty;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/BeanProperty;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+getSchema
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JsonNode;
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JsonNode;
+serialize
+ (Ljava/lang/Number;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljava/lang/Number;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V

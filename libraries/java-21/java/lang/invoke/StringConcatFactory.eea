@@ -1,0 +1,17 @@
+class java/lang/invoke/StringConcatFactory
+
+makeConcat
+ (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+ (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+makeConcatWithConstants
+ (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+ (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+makeConcatWithTemplate
+ (Ljava/util/List<Ljava/lang/String;>;Ljava/util/List<Ljava/lang/Class<*>;>;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/util/List<Ljava/lang/String;>;Ljava/util/List<Ljava/lang/Class<*>;>;)Ljava/lang/invoke/MethodHandle;
+makeConcatWithTemplateCluster
+ (Ljava/util/List<Ljava/lang/String;>;Ljava/util/List<Ljava/lang/Class<*>;>;I)Ljava/util/List<Ljava/lang/invoke/MethodHandle;>;
+ (Ljava/util/List<Ljava/lang/String;>;Ljava/util/List<Ljava/lang/Class<*>;>;I)Ljava/util/List<Ljava/lang/invoke/MethodHandle;>;
+makeConcatWithTemplateGetters
+ (Ljava/util/List<Ljava/lang/String;>;Ljava/util/List<Ljava/lang/invoke/MethodHandle;>;I)Ljava/lang/invoke/MethodHandle;
+ (Ljava/util/List<Ljava/lang/String;>;Ljava/util/List<Ljava/lang/invoke/MethodHandle;>;I)Ljava/lang/invoke/MethodHandle;

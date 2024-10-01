@@ -1,0 +1,21 @@
+class java/security/spec/RSAKeyGenParameterSpec
+
+F0
+ Ljava/math/BigInteger;
+ L1java/math/BigInteger;
+F4
+ Ljava/math/BigInteger;
+ L1java/math/BigInteger;
+
+<init>
+ (ILjava/math/BigInteger;)V
+ (ILjava/math/BigInteger;)V
+<init>
+ (ILjava/math/BigInteger;Ljava/security/spec/AlgorithmParameterSpec;)V
+ (ILjava/math/BigInteger;Ljava/security/spec/AlgorithmParameterSpec;)V
+getKeyParams
+ ()Ljava/security/spec/AlgorithmParameterSpec;
+ ()Ljava/security/spec/AlgorithmParameterSpec;
+getPublicExponent
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;

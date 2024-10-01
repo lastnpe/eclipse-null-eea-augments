@@ -1,0 +1,11 @@
+class javax/smartcardio/CardChannel
+
+getCard
+ ()Ljavax/smartcardio/Card;
+ ()Ljavax/smartcardio/Card;
+transmit
+ (Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)I
+ (Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)I
+transmit
+ (Ljavax/smartcardio/CommandAPDU;)Ljavax/smartcardio/ResponseAPDU;
+ (Ljavax/smartcardio/CommandAPDU;)Ljavax/smartcardio/ResponseAPDU;

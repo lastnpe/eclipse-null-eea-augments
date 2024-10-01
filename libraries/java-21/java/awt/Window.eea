@@ -1,0 +1,168 @@
+class java/awt/Window
+
+getOwnerlessWindows
+ ()[Ljava/awt/Window;
+ ()[Ljava/awt/Window;
+getWindows
+ ()[Ljava/awt/Window;
+ ()[Ljava/awt/Window;
+
+<init>
+ (Ljava/awt/Frame;)V
+ (Ljava/awt/Frame;)V
+<init>
+ (Ljava/awt/Window;)V
+ (Ljava/awt/Window;)V
+<init>
+ (Ljava/awt/Window;Ljava/awt/GraphicsConfiguration;)V
+ (Ljava/awt/Window;Ljava/awt/GraphicsConfiguration;)V
+addPropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V # @Inherited(java.awt.Container)
+addPropertyChangeListener
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+addWindowFocusListener
+ (Ljava/awt/event/WindowFocusListener;)V
+ (L1java/awt/event/WindowFocusListener;)V
+addWindowListener
+ (Ljava/awt/event/WindowListener;)V
+ (L1java/awt/event/WindowListener;)V
+addWindowStateListener
+ (Ljava/awt/event/WindowStateListener;)V
+ (L1java/awt/event/WindowStateListener;)V
+applyResourceBundle
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+applyResourceBundle
+ (Ljava/util/ResourceBundle;)V
+ (Ljava/util/ResourceBundle;)V
+createBufferStrategy
+ (ILjava/awt/BufferCapabilities;)V
+ (ILjava/awt/BufferCapabilities;)V
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getBackground
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getBufferStrategy
+ ()Ljava/awt/image/BufferStrategy;
+ ()Ljava/awt/image/BufferStrategy;
+getFocusCycleRootAncestor
+ ()Ljava/awt/Container;
+ ()Ljava/awt/Container;
+getFocusOwner
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getFocusTraversalKeys
+ (I)Ljava/util/Set<Ljava/awt/AWTKeyStroke;>;
+ (I)Ljava/util/Set<Ljava/awt/AWTKeyStroke;>;
+getIconImages
+ ()Ljava/util/List<Ljava/awt/Image;>;
+ ()Ljava/util/List<Ljava/awt/Image;>;
+getInputContext
+ ()Ljava/awt/im/InputContext;
+ ()Ljava/awt/im/InputContext;
+getListeners
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+getLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+getModalExclusionType
+ ()Ljava/awt/Dialog$ModalExclusionType;
+ ()Ljava/awt/Dialog$ModalExclusionType;
+getMostRecentFocusOwner
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getOwnedWindows
+ ()[Ljava/awt/Window;
+ ()[Ljava/awt/Window;
+getOwner
+ ()Ljava/awt/Window;
+ ()Ljava/awt/Window;
+getShape
+ ()Ljava/awt/Shape;
+ ()Ljava/awt/Shape;
+getToolkit
+ ()Ljava/awt/Toolkit;
+ ()Ljava/awt/Toolkit;
+getType
+ ()Ljava/awt/Window$Type;
+ ()Ljava/awt/Window$Type;
+getWarningString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getWindowFocusListeners
+ ()[Ljava/awt/event/WindowFocusListener;
+ ()[Ljava/awt/event/WindowFocusListener;
+getWindowListeners
+ ()[Ljava/awt/event/WindowListener;
+ ()[Ljava/awt/event/WindowListener;
+getWindowStateListeners
+ ()[Ljava/awt/event/WindowStateListener;
+ ()[Ljava/awt/event/WindowStateListener;
+paint
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+postEvent
+ (Ljava/awt/Event;)Z
+ (Ljava/awt/Event;)Z
+processEvent
+ (Ljava/awt/AWTEvent;)V
+ (Ljava/awt/AWTEvent;)V
+processWindowEvent
+ (Ljava/awt/event/WindowEvent;)V
+ (Ljava/awt/event/WindowEvent;)V
+processWindowFocusEvent
+ (Ljava/awt/event/WindowEvent;)V
+ (Ljava/awt/event/WindowEvent;)V
+processWindowStateEvent
+ (Ljava/awt/event/WindowEvent;)V
+ (Ljava/awt/event/WindowEvent;)V
+removeWindowFocusListener
+ (Ljava/awt/event/WindowFocusListener;)V
+ (L1java/awt/event/WindowFocusListener;)V
+removeWindowListener
+ (Ljava/awt/event/WindowListener;)V
+ (L1java/awt/event/WindowListener;)V
+removeWindowStateListener
+ (Ljava/awt/event/WindowStateListener;)V
+ (L1java/awt/event/WindowStateListener;)V
+setBackground
+ (Ljava/awt/Color;)V
+ (Ljava/awt/Color;)V
+setBounds
+ (Ljava/awt/Rectangle;)V
+ (Ljava/awt/Rectangle;)V
+setCursor
+ (Ljava/awt/Cursor;)V
+ (Ljava/awt/Cursor;)V
+setIconImage
+ (Ljava/awt/Image;)V
+ (Ljava/awt/Image;)V
+setIconImages
+ (Ljava/util/List<+Ljava/awt/Image;>;)V
+ (Ljava/util/List<+Ljava/awt/Image;>;)V
+setLocation
+ (Ljava/awt/Point;)V
+ (Ljava/awt/Point;)V
+setLocationRelativeTo
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+setMinimumSize
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V
+setModalExclusionType
+ (Ljava/awt/Dialog$ModalExclusionType;)V
+ (Ljava/awt/Dialog$ModalExclusionType;)V
+setShape
+ (Ljava/awt/Shape;)V
+ (Ljava/awt/Shape;)V
+setSize
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V
+setType
+ (Ljava/awt/Window$Type;)V
+ (Ljava/awt/Window$Type;)V

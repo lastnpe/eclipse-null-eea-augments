@@ -1,0 +1,68 @@
+class java/awt/font/GlyphVector
+
+equals
+ (Ljava/awt/font/GlyphVector;)Z
+ (Ljava/awt/font/GlyphVector;)Z
+getFont
+ ()Ljava/awt/Font;
+ ()Ljava/awt/Font;
+getFontRenderContext
+ ()Ljava/awt/font/FontRenderContext;
+ ()Ljava/awt/font/FontRenderContext;
+getGlyphCharIndices
+ (II[I)[I
+ (II[I)[I
+getGlyphCodes
+ (II[I)[I
+ (II[I)[I
+getGlyphJustificationInfo
+ (I)Ljava/awt/font/GlyphJustificationInfo;
+ (I)Ljava/awt/font/GlyphJustificationInfo;
+getGlyphLogicalBounds
+ (I)Ljava/awt/Shape;
+ (I)Ljava/awt/Shape;
+getGlyphMetrics
+ (I)Ljava/awt/font/GlyphMetrics;
+ (I)Ljava/awt/font/GlyphMetrics;
+getGlyphOutline
+ (I)Ljava/awt/Shape;
+ (I)Ljava/awt/Shape;
+getGlyphOutline
+ (IFF)Ljava/awt/Shape;
+ (IFF)Ljava/awt/Shape;
+getGlyphPixelBounds
+ (ILjava/awt/font/FontRenderContext;FF)Ljava/awt/Rectangle;
+ (ILjava/awt/font/FontRenderContext;FF)Ljava/awt/Rectangle;
+getGlyphPosition
+ (I)Ljava/awt/geom/Point2D;
+ (I)Ljava/awt/geom/Point2D;
+getGlyphPositions
+ (II[F)[F
+ (II[F)[F
+getGlyphTransform
+ (I)Ljava/awt/geom/AffineTransform;
+ (I)Ljava/awt/geom/AffineTransform;
+getGlyphVisualBounds
+ (I)Ljava/awt/Shape;
+ (I)Ljava/awt/Shape;
+getLogicalBounds
+ ()Ljava/awt/geom/Rectangle2D;
+ ()Ljava/awt/geom/Rectangle2D;
+getOutline
+ ()Ljava/awt/Shape;
+ ()Ljava/awt/Shape;
+getOutline
+ (FF)Ljava/awt/Shape;
+ (FF)Ljava/awt/Shape;
+getPixelBounds
+ (Ljava/awt/font/FontRenderContext;FF)Ljava/awt/Rectangle;
+ (Ljava/awt/font/FontRenderContext;FF)Ljava/awt/Rectangle;
+getVisualBounds
+ ()Ljava/awt/geom/Rectangle2D;
+ ()Ljava/awt/geom/Rectangle2D;
+setGlyphPosition
+ (ILjava/awt/geom/Point2D;)V
+ (ILjava/awt/geom/Point2D;)V
+setGlyphTransform
+ (ILjava/awt/geom/AffineTransform;)V
+ (ILjava/awt/geom/AffineTransform;)V

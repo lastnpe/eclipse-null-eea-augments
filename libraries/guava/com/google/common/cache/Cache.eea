@@ -1,4 +1,7 @@
 class com/google/common/cache/Cache
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
 asMap
  ()Ljava/util/concurrent/ConcurrentMap<TK;TV;>;
  ()L1java/util/concurrent/ConcurrentMap<TK;TV;>;
@@ -6,11 +9,23 @@ get
  (TK;Ljava/util/concurrent/Callable<+TV;>;)TV;
  (TK;Ljava/util/concurrent/Callable<+1TV;>;)T1V;
 getAllPresent
- (Ljava/lang/Iterable<*>;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
- (Ljava/lang/Iterable<*>;)L1com/google/common/collect/ImmutableMap<TK;TV;>;
+ (Ljava/lang/Iterable<+Ljava/lang/Object;>;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+ (Ljava/lang/Iterable<+Ljava/lang/Object;>;)L1com/google/common/collect/ImmutableMap<TK;TV;>;
 getIfPresent
  (Ljava/lang/Object;)TV;
  (Ljava/lang/Object;)T0V;
+invalidate
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+invalidateAll
+ (Ljava/lang/Iterable<+Ljava/lang/Object;>;)V
+ (Ljava/lang/Iterable<+Ljava/lang/Object;>;)V
+put
+ (TK;TV;)V
+ (TK;TV;)V
 putAll
  (Ljava/util/Map<+TK;+TV;>;)V
  (L1java/util/Map<+TK;+TV;>;)V
+stats
+ ()Lcom/google/common/cache/CacheStats;
+ ()Lcom/google/common/cache/CacheStats;

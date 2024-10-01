@@ -1,0 +1,35 @@
+class java/awt/image/MultiPixelPackedSampleModel
+
+createCompatibleSampleModel
+ (II)Ljava/awt/image/SampleModel;
+ (II)Ljava/awt/image/SampleModel;
+createDataBuffer
+ ()Ljava/awt/image/DataBuffer;
+ ()Ljava/awt/image/DataBuffer;
+createSubsetSampleModel
+ ([I)Ljava/awt/image/SampleModel;
+ ([I)Ljava/awt/image/SampleModel;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getDataElements
+ (IILjava/lang/Object;Ljava/awt/image/DataBuffer;)Ljava/lang/Object;
+ (IILjava/lang/Object;Ljava/awt/image/DataBuffer;)Ljava/lang/Object;
+getPixel
+ (II[ILjava/awt/image/DataBuffer;)[I
+ (II[ILjava/awt/image/DataBuffer;)[I
+getSample
+ (IIILjava/awt/image/DataBuffer;)I
+ (IIILjava/awt/image/DataBuffer;)I
+getSampleSize
+ ()[I
+ ()[I
+setDataElements
+ (IILjava/lang/Object;Ljava/awt/image/DataBuffer;)V
+ (IILjava/lang/Object;Ljava/awt/image/DataBuffer;)V
+setPixel
+ (II[ILjava/awt/image/DataBuffer;)V
+ (II[ILjava/awt/image/DataBuffer;)V
+setSample
+ (IIIILjava/awt/image/DataBuffer;)V
+ (IIIILjava/awt/image/DataBuffer;)V

@@ -1,0 +1,162 @@
+class jakarta/mail/internet/MimeBodyPart
+
+cachedContent
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+content
+ [B
+ [B
+contentStream
+ Ljava/io/InputStream;
+ Ljava/io/InputStream;
+dh
+ Ljakarta/activation/DataHandler;
+ Ljakarta/activation/DataHandler;
+headers
+ Ljakarta/mail/internet/InternetHeaders;
+ Ljakarta/mail/internet/InternetHeaders;
+
+<init>
+ (Ljakarta/mail/internet/InternetHeaders;[B)V
+ (Ljakarta/mail/internet/InternetHeaders;[B)V
+<init>
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+addHeader
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+addHeaderLine
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+attachFile
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+attachFile
+ (Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)V
+attachFile
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+attachFile
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+getAllHeaderLines
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+getAllHeaders
+ ()Ljava/util/Enumeration<Ljakarta/mail/Header;>;
+ ()Ljava/util/Enumeration<Ljakarta/mail/Header;>;
+getContent
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getContentID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getContentLanguage
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getContentMD5
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getContentStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getContentType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDataHandler
+ ()Ljakarta/activation/DataHandler;
+ ()Ljakarta/activation/DataHandler;
+getDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDisposition
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getEncoding
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFileName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getHeader
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[Ljava/lang/String;
+getHeader
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+getInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getMatchingHeaderLines
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+getMatchingHeaders
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljakarta/mail/Header;>;
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljakarta/mail/Header;>;
+getNonMatchingHeaderLines
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+getNonMatchingHeaders
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljakarta/mail/Header;>;
+ ([Ljava/lang/String;)Ljava/util/Enumeration<Ljakarta/mail/Header;>;
+getRawInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+isMimeType
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+removeHeader
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+saveFile
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+saveFile
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setContent
+ (Ljakarta/mail/Multipart;)V
+ (Ljakarta/mail/Multipart;)V
+setContent
+ (Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/Object;Ljava/lang/String;)V
+setContentID
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setContentLanguage
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setContentMD5
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setDataHandler
+ (Ljakarta/activation/DataHandler;)V
+ (Ljakarta/activation/DataHandler;)V
+setDescription
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setDescription
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setDisposition
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setFileName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setHeader
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setText
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setText
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setText
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+writeTo
+ (Ljava/io/OutputStream;)V
+ (Ljava/io/OutputStream;)V

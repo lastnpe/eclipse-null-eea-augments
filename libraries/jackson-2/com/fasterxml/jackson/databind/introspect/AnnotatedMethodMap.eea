@@ -1,0 +1,22 @@
+class com/fasterxml/jackson/databind/introspect/AnnotatedMethodMap
+
+super java/lang/Iterable
+ <Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;>
+ <Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;>
+
+_methods
+ Ljava/util/Map<Lcom/fasterxml/jackson/databind/introspect/MemberKey;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;>;
+ Ljava/util/Map<Lcom/fasterxml/jackson/databind/introspect/MemberKey;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;>;
+
+<init>
+ (Ljava/util/Map<Lcom/fasterxml/jackson/databind/introspect/MemberKey;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;>;)V
+ (Ljava/util/Map<Lcom/fasterxml/jackson/databind/introspect/MemberKey;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;>;)V
+find
+ (Ljava/lang/String;[Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;
+ (Ljava/lang/String;[Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;
+find
+ (Ljava/lang/reflect/Method;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;
+ (Ljava/lang/reflect/Method;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;
+iterator
+ ()Ljava/util/Iterator<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;>;
+ ()Ljava/util/Iterator<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;>;

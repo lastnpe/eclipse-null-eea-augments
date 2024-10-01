@@ -1,0 +1,23 @@
+class java/util/AbstractQueue
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/util/AbstractCollection
+ <TE;>
+ <TE;>
+super java/util/Queue
+ <TE;>
+ <TE;>
+
+add
+ (TE;)Z
+ (T1E;)Z # @Inherited(java.util.Queue)
+addAll
+ (Ljava/util/Collection<+TE;>;)Z
+ (L1java/util/Collection<+TE;>;)Z # @Inherited(java.util.AbstractCollection)
+element
+ ()TE;
+ ()T1E; # @Inherited(java.util.Queue)
+remove
+ ()TE;
+ ()T1E; # @Inherited(java.util.Queue)

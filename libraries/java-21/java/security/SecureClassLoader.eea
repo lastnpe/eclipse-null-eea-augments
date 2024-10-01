@@ -1,0 +1,17 @@
+class java/security/SecureClassLoader
+
+<init>
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)V
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)V
+defineClass
+ (Ljava/lang/String;Ljava/nio/ByteBuffer;Ljava/security/CodeSource;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;Ljava/nio/ByteBuffer;Ljava/security/CodeSource;)Ljava/lang/Class<*>;
+defineClass
+ (Ljava/lang/String;[BIILjava/security/CodeSource;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;[BIILjava/security/CodeSource;)Ljava/lang/Class<*>;
+getPermissions
+ (Ljava/security/CodeSource;)Ljava/security/PermissionCollection;
+ (Ljava/security/CodeSource;)Ljava/security/PermissionCollection;

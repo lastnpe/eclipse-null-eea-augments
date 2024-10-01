@@ -1,0 +1,96 @@
+class org/eclipse/jetty/client/RequestListeners
+
+notifyBegin
+ (Lorg/eclipse/jetty/client/Request$BeginListener;Lorg/eclipse/jetty/client/Request;)V
+ (Lorg/eclipse/jetty/client/Request$BeginListener;Lorg/eclipse/jetty/client/Request;)V
+notifyCommit
+ (Lorg/eclipse/jetty/client/Request$CommitListener;Lorg/eclipse/jetty/client/Request;)V
+ (Lorg/eclipse/jetty/client/Request$CommitListener;Lorg/eclipse/jetty/client/Request;)V
+notifyContent
+ (Lorg/eclipse/jetty/client/Request$ContentListener;Lorg/eclipse/jetty/client/Request;Ljava/nio/ByteBuffer;)V
+ (Lorg/eclipse/jetty/client/Request$ContentListener;Lorg/eclipse/jetty/client/Request;Ljava/nio/ByteBuffer;)V
+notifyFailure
+ (Lorg/eclipse/jetty/client/Request$FailureListener;Lorg/eclipse/jetty/client/Request;Ljava/lang/Throwable;)V
+ (Lorg/eclipse/jetty/client/Request$FailureListener;Lorg/eclipse/jetty/client/Request;Ljava/lang/Throwable;)V
+notifyHeaders
+ (Lorg/eclipse/jetty/client/Request$HeadersListener;Lorg/eclipse/jetty/client/Request;)V
+ (Lorg/eclipse/jetty/client/Request$HeadersListener;Lorg/eclipse/jetty/client/Request;)V
+notifyQueued
+ (Lorg/eclipse/jetty/client/Request$QueuedListener;Lorg/eclipse/jetty/client/Request;)V
+ (Lorg/eclipse/jetty/client/Request$QueuedListener;Lorg/eclipse/jetty/client/Request;)V
+notifySuccess
+ (Lorg/eclipse/jetty/client/Request$SuccessListener;Lorg/eclipse/jetty/client/Request;)V
+ (Lorg/eclipse/jetty/client/Request$SuccessListener;Lorg/eclipse/jetty/client/Request;)V
+
+addBeginListener
+ (Lorg/eclipse/jetty/client/Request$BeginListener;)Z
+ (Lorg/eclipse/jetty/client/Request$BeginListener;)Z
+addCommitListener
+ (Lorg/eclipse/jetty/client/Request$CommitListener;)Z
+ (Lorg/eclipse/jetty/client/Request$CommitListener;)Z
+addContentListener
+ (Lorg/eclipse/jetty/client/Request$ContentListener;)Z
+ (Lorg/eclipse/jetty/client/Request$ContentListener;)Z
+addFailureListener
+ (Lorg/eclipse/jetty/client/Request$FailureListener;)Z
+ (Lorg/eclipse/jetty/client/Request$FailureListener;)Z
+addHeadersListener
+ (Lorg/eclipse/jetty/client/Request$HeadersListener;)Z
+ (Lorg/eclipse/jetty/client/Request$HeadersListener;)Z
+addListener
+ (Lorg/eclipse/jetty/client/Request$Listener;)Z
+ (Lorg/eclipse/jetty/client/Request$Listener;)Z
+addQueuedListener
+ (Lorg/eclipse/jetty/client/Request$QueuedListener;)Z
+ (Lorg/eclipse/jetty/client/Request$QueuedListener;)Z
+addSuccessListener
+ (Lorg/eclipse/jetty/client/Request$SuccessListener;)Z
+ (Lorg/eclipse/jetty/client/Request$SuccessListener;)Z
+dump
+ (Ljava/lang/Appendable;Ljava/lang/String;)V
+ (Ljava/lang/Appendable;Ljava/lang/String;)V
+getBeginListener
+ ()Lorg/eclipse/jetty/client/Request$BeginListener;
+ ()Lorg/eclipse/jetty/client/Request$BeginListener;
+getCommitListener
+ ()Lorg/eclipse/jetty/client/Request$CommitListener;
+ ()Lorg/eclipse/jetty/client/Request$CommitListener;
+getContentListener
+ ()Lorg/eclipse/jetty/client/Request$ContentListener;
+ ()Lorg/eclipse/jetty/client/Request$ContentListener;
+getFailureListener
+ ()Lorg/eclipse/jetty/client/Request$FailureListener;
+ ()Lorg/eclipse/jetty/client/Request$FailureListener;
+getHeadersListener
+ ()Lorg/eclipse/jetty/client/Request$HeadersListener;
+ ()Lorg/eclipse/jetty/client/Request$HeadersListener;
+getQueuedListener
+ ()Lorg/eclipse/jetty/client/Request$QueuedListener;
+ ()Lorg/eclipse/jetty/client/Request$QueuedListener;
+getSuccessListener
+ ()Lorg/eclipse/jetty/client/Request$SuccessListener;
+ ()Lorg/eclipse/jetty/client/Request$SuccessListener;
+removeBeginListener
+ (Lorg/eclipse/jetty/client/Request$BeginListener;)Z
+ (Lorg/eclipse/jetty/client/Request$BeginListener;)Z
+removeCommitListener
+ (Lorg/eclipse/jetty/client/Request$CommitListener;)Z
+ (Lorg/eclipse/jetty/client/Request$CommitListener;)Z
+removeContentListener
+ (Lorg/eclipse/jetty/client/Request$ContentListener;)Z
+ (Lorg/eclipse/jetty/client/Request$ContentListener;)Z
+removeFailureListener
+ (Lorg/eclipse/jetty/client/Request$FailureListener;)Z
+ (Lorg/eclipse/jetty/client/Request$FailureListener;)Z
+removeHeadersListener
+ (Lorg/eclipse/jetty/client/Request$HeadersListener;)Z
+ (Lorg/eclipse/jetty/client/Request$HeadersListener;)Z
+removeListener
+ (Lorg/eclipse/jetty/client/Request$Listener;)Z
+ (Lorg/eclipse/jetty/client/Request$Listener;)Z
+removeQueuedListener
+ (Lorg/eclipse/jetty/client/Request$QueuedListener;)Z
+ (Lorg/eclipse/jetty/client/Request$QueuedListener;)Z
+removeSuccessListener
+ (Lorg/eclipse/jetty/client/Request$SuccessListener;)Z
+ (Lorg/eclipse/jetty/client/Request$SuccessListener;)Z

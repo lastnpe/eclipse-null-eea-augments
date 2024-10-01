@@ -1,0 +1,23 @@
+class com/google/common/cache/AbstractLoadingCache
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/cache/AbstractCache
+ <TK;TV;>
+ <TK;TV;>
+super com/google/common/cache/LoadingCache
+ <TK;TV;>
+ <TK;TV;>
+
+apply
+ (TK;)TV;
+ (TK;)TV;
+getAll
+ (Ljava/lang/Iterable<+TK;>;)Lcom/google/common/collect/ImmutableMap<TK;TV;>;
+ (Ljava/lang/Iterable<+TK;>;)L1com/google/common/collect/ImmutableMap<TK;TV;>; # @Inherited(com.google.common.cache.LoadingCache)
+getUnchecked
+ (TK;)TV;
+ (TK;)TV;
+refresh
+ (TK;)V
+ (TK;)V

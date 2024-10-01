@@ -1,0 +1,61 @@
+class java/time/chrono/MinguoDate
+
+super java/time/chrono/ChronoLocalDateImpl
+ <Ljava/time/chrono/MinguoDate;>
+ <Ljava/time/chrono/MinguoDate;>
+
+from
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/MinguoDate;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/MinguoDate;
+now
+ ()Ljava/time/chrono/MinguoDate;
+ ()Ljava/time/chrono/MinguoDate;
+now
+ (Ljava/time/Clock;)Ljava/time/chrono/MinguoDate;
+ (Ljava/time/Clock;)Ljava/time/chrono/MinguoDate;
+now
+ (Ljava/time/ZoneId;)Ljava/time/chrono/MinguoDate;
+ (Ljava/time/ZoneId;)Ljava/time/chrono/MinguoDate;
+of
+ (III)Ljava/time/chrono/MinguoDate;
+ (III)Ljava/time/chrono/MinguoDate;
+
+atTime
+ (Ljava/time/LocalTime;)Ljava/time/chrono/ChronoLocalDateTime<Ljava/time/chrono/MinguoDate;>;
+ (Ljava/time/LocalTime;)Ljava/time/chrono/ChronoLocalDateTime<Ljava/time/chrono/MinguoDate;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getChronology
+ ()Ljava/time/chrono/MinguoChronology;
+ ()Ljava/time/chrono/MinguoChronology;
+getEra
+ ()Ljava/time/chrono/MinguoEra;
+ ()Ljava/time/chrono/MinguoEra;
+getLong
+ (Ljava/time/temporal/TemporalField;)J
+ (L1java/time/temporal/TemporalField;)J # @Inherited(java.time.temporal.TemporalAccessor)
+minus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/MinguoDate;
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/MinguoDate;
+minus
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/MinguoDate;
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/MinguoDate;
+plus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/MinguoDate;
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/MinguoDate;
+plus
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/MinguoDate;
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/MinguoDate;
+range
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange; # @Inherited(java.time.temporal.TemporalAccessor)
+until
+ (Ljava/time/chrono/ChronoLocalDate;)Ljava/time/chrono/ChronoPeriod;
+ (Ljava/time/chrono/ChronoLocalDate;)Ljava/time/chrono/ChronoPeriod;
+with
+ (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/chrono/MinguoDate;
+ (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/chrono/MinguoDate;
+with
+ (Ljava/time/temporal/TemporalField;J)Ljava/time/chrono/MinguoDate;
+ (Ljava/time/temporal/TemporalField;J)Ljava/time/chrono/MinguoDate;

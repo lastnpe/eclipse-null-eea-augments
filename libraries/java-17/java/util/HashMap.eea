@@ -1,0 +1,77 @@
+class java/util/HashMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super java/util/AbstractMap
+ <TK;TV;>
+ <TK;TV;>
+super java/util/Map
+ <TK;TV;>
+ <TK;TV;>
+
+<init>
+ (Ljava/util/Map<+TK;+TV;>;)V
+ (L1java/util/Map<+TK;+TV;>;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.util.AbstractMap)
+compute
+ (TK;Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)TV;
+ (TK;L1java/util/function/BiFunction<-TK;-T0V;+T0V;>;)T0V; # @Inherited(java.util.Map)
+computeIfAbsent
+ (TK;Ljava/util/function/Function<-TK;+TV;>;)TV;
+ (TK;L1java/util/function/Function<-TK;+T0V;>;)TV; # @Inherited(java.util.Map)
+computeIfPresent
+ (TK;Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)TV;
+ (TK;L1java/util/function/BiFunction<-TK;-TV;+T0V;>;)T0V; # @Inherited(java.util.Map)
+containsKey
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.AbstractMap)
+containsValue
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.AbstractMap)
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()L1java/util/Set<L1java/util/Map$Entry<TK;TV;>;>; # @Inherited(java.util.AbstractMap)
+forEach
+ (Ljava/util/function/BiConsumer<-TK;-TV;>;)V
+ (L1java/util/function/BiConsumer<-TK;-TV;>;)V # @Inherited(java.util.Map)
+get
+ (Ljava/lang/Object;)TV;
+ (Ljava/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
+getOrDefault
+ (Ljava/lang/Object;TV;)TV;
+ (Ljava/lang/Object;TV;)TV;
+keySet
+ ()Ljava/util/Set<TK;>;
+ ()L1java/util/Set<TK;>; # @Inherited(java.util.AbstractMap)
+merge
+ (TK;TV;Ljava/util/function/BiFunction<-TV;-TV;+TV;>;)TV;
+ (TK;T1V;L1java/util/function/BiFunction<-TV;-TV;+TV;>;)T0V; # @Inherited(java.util.Map)
+put
+ (TK;TV;)TV;
+ (TK;TV;)T0V; # @Inherited(java.util.AbstractMap)
+putAll
+ (Ljava/util/Map<+TK;+TV;>;)V
+ (L1java/util/Map<+TK;+TV;>;)V # @Inherited(java.util.AbstractMap)
+putIfAbsent
+ (TK;TV;)TV;
+ (TK;TV;)T0V; # @Inherited(java.util.Map)
+remove
+ (Ljava/lang/Object;)TV;
+ (L0java/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
+remove
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+ (L0java/lang/Object;L0java/lang/Object;)Z # @Inherited(java.util.Map)
+replace
+ (TK;TV;)TV;
+ (TK;TV;)T0V; # @Inherited(java.util.Map)
+replace
+ (TK;TV;TV;)Z
+ (TK;TV;TV;)Z
+replaceAll
+ (Ljava/util/function/BiFunction<-TK;-TV;+TV;>;)V
+ (L1java/util/function/BiFunction<-TK;-TV;+TV;>;)V # @Inherited(java.util.Map)
+values
+ ()Ljava/util/Collection<TV;>;
+ ()L1java/util/Collection<TV;>; # @Inherited(java.util.AbstractMap)

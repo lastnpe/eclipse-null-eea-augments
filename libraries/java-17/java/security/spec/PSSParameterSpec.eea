@@ -1,0 +1,21 @@
+class java/security/spec/PSSParameterSpec
+
+DEFAULT
+ Ljava/security/spec/PSSParameterSpec;
+ L1java/security/spec/PSSParameterSpec;
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/security/spec/AlgorithmParameterSpec;II)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/security/spec/AlgorithmParameterSpec;II)V
+getDigestAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMGFAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMGFParameters
+ ()Ljava/security/spec/AlgorithmParameterSpec;
+ ()Ljava/security/spec/AlgorithmParameterSpec;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

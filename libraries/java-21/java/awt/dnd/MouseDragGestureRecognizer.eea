@@ -1,0 +1,35 @@
+class java/awt/dnd/MouseDragGestureRecognizer
+
+<init>
+ (Ljava/awt/dnd/DragSource;)V
+ (Ljava/awt/dnd/DragSource;)V
+<init>
+ (Ljava/awt/dnd/DragSource;Ljava/awt/Component;)V
+ (Ljava/awt/dnd/DragSource;Ljava/awt/Component;)V
+<init>
+ (Ljava/awt/dnd/DragSource;Ljava/awt/Component;I)V
+ (Ljava/awt/dnd/DragSource;Ljava/awt/Component;I)V
+<init>
+ (Ljava/awt/dnd/DragSource;Ljava/awt/Component;ILjava/awt/dnd/DragGestureListener;)V
+ (Ljava/awt/dnd/DragSource;Ljava/awt/Component;ILjava/awt/dnd/DragGestureListener;)V
+mouseClicked
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseListener)
+mouseDragged
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseMotionListener)
+mouseEntered
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseListener)
+mouseExited
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseListener)
+mouseMoved
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseMotionListener)
+mousePressed
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseListener)
+mouseReleased
+ (Ljava/awt/event/MouseEvent;)V
+ (L1java/awt/event/MouseEvent;)V # @Inherited(java.awt.event.MouseListener)

@@ -1,0 +1,20 @@
+class jakarta/servlet/GenericFilter
+
+getFilterConfig
+ ()Ljakarta/servlet/FilterConfig;
+ ()Ljakarta/servlet/FilterConfig;
+getFilterName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getInitParameter
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getInitParameterNames
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()L1java/util/Enumeration<L1java/lang/String;>; # @Inherited(jakarta.servlet.FilterConfig)
+getServletContext
+ ()Ljakarta/servlet/ServletContext;
+ ()L1jakarta/servlet/ServletContext; # @Inherited(jakarta.servlet.FilterConfig)
+init
+ (Ljakarta/servlet/FilterConfig;)V
+ (L1jakarta/servlet/FilterConfig;)V # @Inherited(jakarta.servlet.Filter)

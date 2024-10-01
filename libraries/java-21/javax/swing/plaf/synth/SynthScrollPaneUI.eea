@@ -1,0 +1,36 @@
+class javax/swing/plaf/synth/SynthScrollPaneUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+getContext
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/synth/SynthContext;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/synth/SynthContext;
+installDefaults
+ (Ljavax/swing/JScrollPane;)V
+ (Ljavax/swing/JScrollPane;)V
+installListeners
+ (Ljavax/swing/JScrollPane;)V
+ (Ljavax/swing/JScrollPane;)V
+paint
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+paint
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;)V
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;)V
+paintBorder
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;IIII)V
+ (Ljavax/swing/plaf/synth/SynthContext;Ljava/awt/Graphics;IIII)V
+propertyChange
+ (Ljava/beans/PropertyChangeEvent;)V
+ (L1java/beans/PropertyChangeEvent;)V # @Inherited(java.beans.PropertyChangeListener)
+uninstallDefaults
+ (Ljavax/swing/JScrollPane;)V
+ (Ljavax/swing/JScrollPane;)V
+uninstallListeners
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+update
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V

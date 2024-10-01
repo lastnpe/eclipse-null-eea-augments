@@ -1,0 +1,43 @@
+class javax/swing/plaf/multi/MultiDesktopPaneUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+uis
+ Ljava/util/Vector<Ljavax/swing/plaf/ComponentUI;>;
+ Ljava/util/Vector<Ljavax/swing/plaf/ComponentUI;>;
+
+contains
+ (Ljavax/swing/JComponent;II)Z
+ (Ljavax/swing/JComponent;II)Z
+getAccessibleChild
+ (Ljavax/swing/JComponent;I)Ljavax/accessibility/Accessible;
+ (Ljavax/swing/JComponent;I)Ljavax/accessibility/Accessible;
+getAccessibleChildrenCount
+ (Ljavax/swing/JComponent;)I
+ (Ljavax/swing/JComponent;)I
+getMaximumSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getMinimumSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getPreferredSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getUIs
+ ()[Ljavax/swing/plaf/ComponentUI;
+ ()[Ljavax/swing/plaf/ComponentUI;
+installUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+paint
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+uninstallUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+update
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V

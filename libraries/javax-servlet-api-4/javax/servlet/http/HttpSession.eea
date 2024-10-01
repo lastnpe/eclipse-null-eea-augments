@@ -1,0 +1,35 @@
+class javax/servlet/http/HttpSession
+
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getAttributeNames
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()L1java/util/Enumeration<L1java/lang/String;>;
+getId
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getServletContext
+ ()Ljavax/servlet/ServletContext;
+ ()Ljavax/servlet/ServletContext;
+getSessionContext
+ ()Ljavax/servlet/http/HttpSessionContext;
+ ()Ljavax/servlet/http/HttpSessionContext;
+getValue
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getValueNames
+ ()[Ljava/lang/String;
+ ()[1Ljava/lang/String;
+putValue
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+removeAttribute
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+removeValue
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setAttribute
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V

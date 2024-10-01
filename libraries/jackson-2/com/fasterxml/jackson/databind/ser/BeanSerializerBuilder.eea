@@ -1,0 +1,84 @@
+class com/fasterxml/jackson/databind/ser/BeanSerializerBuilder
+
+_anyGetter
+ Lcom/fasterxml/jackson/databind/ser/AnyGetterWriter;
+ Lcom/fasterxml/jackson/databind/ser/AnyGetterWriter;
+_beanDesc
+ Lcom/fasterxml/jackson/databind/BeanDescription;
+ Lcom/fasterxml/jackson/databind/BeanDescription;
+_config
+ Lcom/fasterxml/jackson/databind/SerializationConfig;
+ Lcom/fasterxml/jackson/databind/SerializationConfig;
+_filterId
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+_filteredProperties
+ [Lcom/fasterxml/jackson/databind/ser/BeanPropertyWriter;
+ [Lcom/fasterxml/jackson/databind/ser/BeanPropertyWriter;
+_objectIdWriter
+ Lcom/fasterxml/jackson/databind/ser/impl/ObjectIdWriter;
+ Lcom/fasterxml/jackson/databind/ser/impl/ObjectIdWriter;
+_properties
+ Ljava/util/List<Lcom/fasterxml/jackson/databind/ser/BeanPropertyWriter;>;
+ Ljava/util/List<Lcom/fasterxml/jackson/databind/ser/BeanPropertyWriter;>;
+_typeId
+ Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+ Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/BeanDescription;)V
+ (Lcom/fasterxml/jackson/databind/BeanDescription;)V
+<init>
+ (Lcom/fasterxml/jackson/databind/ser/BeanSerializerBuilder;)V
+ (Lcom/fasterxml/jackson/databind/ser/BeanSerializerBuilder;)V
+build
+ ()Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+ ()L1com/fasterxml/jackson/databind/JsonSerializer<*>;
+createDummy
+ ()Lcom/fasterxml/jackson/databind/ser/BeanSerializer;
+ ()Lcom/fasterxml/jackson/databind/ser/BeanSerializer;
+getAnyGetter
+ ()Lcom/fasterxml/jackson/databind/ser/AnyGetterWriter;
+ ()Lcom/fasterxml/jackson/databind/ser/AnyGetterWriter;
+getBeanDescription
+ ()Lcom/fasterxml/jackson/databind/BeanDescription;
+ ()Lcom/fasterxml/jackson/databind/BeanDescription;
+getClassInfo
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;
+getFilterId
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getFilteredProperties
+ ()[Lcom/fasterxml/jackson/databind/ser/BeanPropertyWriter;
+ ()[Lcom/fasterxml/jackson/databind/ser/BeanPropertyWriter;
+getObjectIdWriter
+ ()Lcom/fasterxml/jackson/databind/ser/impl/ObjectIdWriter;
+ ()Lcom/fasterxml/jackson/databind/ser/impl/ObjectIdWriter;
+getProperties
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/ser/BeanPropertyWriter;>;
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/ser/BeanPropertyWriter;>;
+getTypeId
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+setAnyGetter
+ (Lcom/fasterxml/jackson/databind/ser/AnyGetterWriter;)V
+ (Lcom/fasterxml/jackson/databind/ser/AnyGetterWriter;)V
+setConfig
+ (Lcom/fasterxml/jackson/databind/SerializationConfig;)V
+ (Lcom/fasterxml/jackson/databind/SerializationConfig;)V
+setFilterId
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setFilteredProperties
+ ([Lcom/fasterxml/jackson/databind/ser/BeanPropertyWriter;)V
+ ([Lcom/fasterxml/jackson/databind/ser/BeanPropertyWriter;)V
+setObjectIdWriter
+ (Lcom/fasterxml/jackson/databind/ser/impl/ObjectIdWriter;)V
+ (Lcom/fasterxml/jackson/databind/ser/impl/ObjectIdWriter;)V
+setProperties
+ (Ljava/util/List<Lcom/fasterxml/jackson/databind/ser/BeanPropertyWriter;>;)V
+ (Ljava/util/List<Lcom/fasterxml/jackson/databind/ser/BeanPropertyWriter;>;)V
+setTypeId
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;)V
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;)V

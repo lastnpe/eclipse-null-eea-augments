@@ -1,0 +1,21 @@
+class com/fasterxml/jackson/annotation/ObjectIdGenerators$UUIDGenerator
+
+super com/fasterxml/jackson/annotation/ObjectIdGenerators$Base
+ <Ljava/util/UUID;>
+ <Ljava/util/UUID;>
+
+canUseFor
+ (Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;)Z
+ (Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;)Z
+forScope
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<Ljava/util/UUID;>;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<Ljava/util/UUID;>;
+generateId
+ (Ljava/lang/Object;)Ljava/util/UUID;
+ (Ljava/lang/Object;)Ljava/util/UUID;
+key
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator$IdKey;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator$IdKey;
+newForSerialization
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<Ljava/util/UUID;>;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<Ljava/util/UUID;>;

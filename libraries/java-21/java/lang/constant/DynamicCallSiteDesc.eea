@@ -1,0 +1,39 @@
+class java/lang/constant/DynamicCallSiteDesc
+
+of
+ (Ljava/lang/constant/DirectMethodHandleDesc;Ljava/lang/String;Ljava/lang/constant/MethodTypeDesc;)Ljava/lang/constant/DynamicCallSiteDesc;
+ (Ljava/lang/constant/DirectMethodHandleDesc;Ljava/lang/String;Ljava/lang/constant/MethodTypeDesc;)Ljava/lang/constant/DynamicCallSiteDesc;
+of
+ (Ljava/lang/constant/DirectMethodHandleDesc;Ljava/lang/String;Ljava/lang/constant/MethodTypeDesc;[Ljava/lang/constant/ConstantDesc;)Ljava/lang/constant/DynamicCallSiteDesc;
+ (Ljava/lang/constant/DirectMethodHandleDesc;Ljava/lang/String;Ljava/lang/constant/MethodTypeDesc;[Ljava/lang/constant/ConstantDesc;)Ljava/lang/constant/DynamicCallSiteDesc;
+of
+ (Ljava/lang/constant/DirectMethodHandleDesc;Ljava/lang/constant/MethodTypeDesc;)Ljava/lang/constant/DynamicCallSiteDesc;
+ (Ljava/lang/constant/DirectMethodHandleDesc;Ljava/lang/constant/MethodTypeDesc;)Ljava/lang/constant/DynamicCallSiteDesc;
+
+bootstrapArgs
+ ()[Ljava/lang/constant/ConstantDesc;
+ ()[Ljava/lang/constant/ConstantDesc;
+bootstrapMethod
+ ()Ljava/lang/constant/MethodHandleDesc;
+ ()Ljava/lang/constant/MethodHandleDesc;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+invocationName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+invocationType
+ ()Ljava/lang/constant/MethodTypeDesc;
+ ()Ljava/lang/constant/MethodTypeDesc;
+resolveCallSiteDesc
+ (Ljava/lang/invoke/MethodHandles$Lookup;)Ljava/lang/invoke/CallSite;
+ (Ljava/lang/invoke/MethodHandles$Lookup;)Ljava/lang/invoke/CallSite;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+withArgs
+ ([Ljava/lang/constant/ConstantDesc;)Ljava/lang/constant/DynamicCallSiteDesc;
+ ([Ljava/lang/constant/ConstantDesc;)Ljava/lang/constant/DynamicCallSiteDesc;
+withNameAndType
+ (Ljava/lang/String;Ljava/lang/constant/MethodTypeDesc;)Ljava/lang/constant/DynamicCallSiteDesc;
+ (Ljava/lang/String;Ljava/lang/constant/MethodTypeDesc;)Ljava/lang/constant/DynamicCallSiteDesc;

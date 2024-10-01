@@ -1,0 +1,109 @@
+class com/fasterxml/jackson/core/json/async/NonBlockingJsonParserBase
+
+NON_STD_TOKENS
+ [Ljava/lang/String;
+ [1Ljava/lang/String;
+NON_STD_TOKEN_VALUES
+ [D
+ [1D
+
+_quadBuffer
+ [I
+ [I
+_symbols
+ Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
+ Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
+
+<init>
+ (Lcom/fasterxml/jackson/core/io/IOContext;ILcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;)V
+ (Lcom/fasterxml/jackson/core/io/IOContext;ILcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;)V
+_addName
+ ([III)Ljava/lang/String;
+ ([III)Ljava/lang/String;
+_closeArrayScope
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+_closeObjectScope
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+_currentLocationMinusOne
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+_eofAsNextToken
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+_fieldComplete
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/JsonToken;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/JsonToken;
+_findName
+ (II)Ljava/lang/String;
+ (II)Ljava/lang/String;
+_findName
+ (III)Ljava/lang/String;
+ (III)Ljava/lang/String;
+_findName
+ (IIII)Ljava/lang/String;
+ (IIII)Ljava/lang/String;
+_getText2
+ (Lcom/fasterxml/jackson/core/JsonToken;)Ljava/lang/String;
+ (Lcom/fasterxml/jackson/core/JsonToken;)Ljava/lang/String;
+_nonStdToken
+ (I)Ljava/lang/String;
+ (I)Ljava/lang/String;
+_startArrayScope
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+_startObjectScope
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+_valueComplete
+ (Lcom/fasterxml/jackson/core/JsonToken;)Lcom/fasterxml/jackson/core/JsonToken;
+ (Lcom/fasterxml/jackson/core/JsonToken;)Lcom/fasterxml/jackson/core/JsonToken;
+_valueCompleteInt
+ (ILjava/lang/String;)Lcom/fasterxml/jackson/core/JsonToken;
+ (ILjava/lang/String;)Lcom/fasterxml/jackson/core/JsonToken;
+_valueNonStdNumberComplete
+ (I)Lcom/fasterxml/jackson/core/JsonToken;
+ (I)Lcom/fasterxml/jackson/core/JsonToken;
+currentLocation
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+currentTokenLocation
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+ ()Lcom/fasterxml/jackson/core/JsonLocation;
+getBinaryValue
+ (Lcom/fasterxml/jackson/core/Base64Variant;)[B
+ (Lcom/fasterxml/jackson/core/Base64Variant;)[B
+getEmbeddedObject
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getInputSource
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getText
+ (Ljava/io/Writer;)I
+ (Ljava/io/Writer;)I
+getTextCharacters
+ ()[C
+ ()[C
+getValueAsString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getValueAsString
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+readBinaryValue
+ (Lcom/fasterxml/jackson/core/Base64Variant;Ljava/io/OutputStream;)I
+ (Lcom/fasterxml/jackson/core/Base64Variant;Ljava/io/OutputStream;)I
+releaseBuffered
+ (Ljava/io/OutputStream;)I
+ (Ljava/io/OutputStream;)I
+setCodec
+ (Lcom/fasterxml/jackson/core/ObjectCodec;)V
+ (Lcom/fasterxml/jackson/core/ObjectCodec;)V
+symbolTableForTests
+ ()Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
+ ()Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;

@@ -1,0 +1,33 @@
+class org/springframework/core/io/buffer/LimitedDataBufferList
+
+super java/util/ArrayList
+ <Lorg/springframework/core/io/buffer/DataBuffer;>
+ <Lorg/springframework/core/io/buffer/DataBuffer;>
+
+add
+ (ILorg/springframework/core/io/buffer/DataBuffer;)V
+ (ILorg/springframework/core/io/buffer/DataBuffer;)V
+add
+ (Lorg/springframework/core/io/buffer/DataBuffer;)Z
+ (Lorg/springframework/core/io/buffer/DataBuffer;)Z
+addAll
+ (ILjava/util/Collection<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Z
+ (ILjava/util/Collection<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Z
+addAll
+ (Ljava/util/Collection<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Z
+ (Ljava/util/Collection<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Z
+remove
+ (I)Lorg/springframework/core/io/buffer/DataBuffer;
+ (I)Lorg/springframework/core/io/buffer/DataBuffer;
+remove
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.ArrayList)
+removeAll
+ (Ljava/util/Collection<*>;)Z
+ (L1java/util/Collection<*>;)Z # @Inherited(java.util.ArrayList)
+removeIf
+ (Ljava/util/function/Predicate<-Lorg/springframework/core/io/buffer/DataBuffer;>;)Z
+ (Ljava/util/function/Predicate<-Lorg/springframework/core/io/buffer/DataBuffer;>;)Z
+set
+ (ILorg/springframework/core/io/buffer/DataBuffer;)Lorg/springframework/core/io/buffer/DataBuffer;
+ (ILorg/springframework/core/io/buffer/DataBuffer;)Lorg/springframework/core/io/buffer/DataBuffer;

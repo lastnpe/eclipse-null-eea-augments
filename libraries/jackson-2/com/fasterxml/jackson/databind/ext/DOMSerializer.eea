@@ -1,0 +1,19 @@
+class com/fasterxml/jackson/databind/ext/DOMSerializer
+
+super com/fasterxml/jackson/databind/ser/std/StdSerializer
+ <Lorg/w3c/dom/Node;>
+ <Lorg/w3c/dom/Node;>
+
+transformerFactory
+ Ljavax/xml/transform/TransformerFactory;
+ Ljavax/xml/transform/TransformerFactory;
+
+acceptJsonFormatVisitor
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+getSchema
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JsonNode;
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JsonNode;
+serialize
+ (Lorg/w3c/dom/Node;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Lorg/w3c/dom/Node;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V

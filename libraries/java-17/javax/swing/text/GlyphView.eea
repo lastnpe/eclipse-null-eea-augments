@@ -1,0 +1,59 @@
+class javax/swing/text/GlyphView
+
+<init>
+ (Ljavax/swing/text/Element;)V
+ (Ljavax/swing/text/Element;)V
+breakView
+ (IIFF)Ljavax/swing/text/View;
+ (IIFF)Ljavax/swing/text/View;
+changedUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+createFragment
+ (II)Ljavax/swing/text/View;
+ (II)Ljavax/swing/text/View;
+getBackground
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getFont
+ ()Ljava/awt/Font;
+ ()Ljava/awt/Font;
+getForeground
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getGlyphPainter
+ ()Ljavax/swing/text/GlyphView$GlyphPainter;
+ ()Ljavax/swing/text/GlyphView$GlyphPainter;
+getNextVisualPositionFrom
+ (ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;I[Ljavax/swing/text/Position$Bias;)I
+ (ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;I[Ljavax/swing/text/Position$Bias;)I
+getTabExpander
+ ()Ljavax/swing/text/TabExpander;
+ ()Ljavax/swing/text/TabExpander;
+getTabbedSpan
+ (FLjavax/swing/text/TabExpander;)F
+ (FLjavax/swing/text/TabExpander;)F
+getText
+ (II)Ljavax/swing/text/Segment;
+ (II)Ljavax/swing/text/Segment;
+insertUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+modelToView
+ (ILjava/awt/Shape;Ljavax/swing/text/Position$Bias;)Ljava/awt/Shape;
+ (ILjava/awt/Shape;Ljavax/swing/text/Position$Bias;)Ljava/awt/Shape;
+paint
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V
+removeUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+setGlyphPainter
+ (Ljavax/swing/text/GlyphView$GlyphPainter;)V
+ (Ljavax/swing/text/GlyphView$GlyphPainter;)V
+viewToModel
+ (FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I
+ (FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I

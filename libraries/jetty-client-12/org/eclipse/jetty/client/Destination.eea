@@ -1,0 +1,23 @@
+class org/eclipse/jetty/client/Destination
+
+getConnectionPool
+ ()Lorg/eclipse/jetty/client/ConnectionPool;
+ ()Lorg/eclipse/jetty/client/ConnectionPool;
+getHttpClient
+ ()Lorg/eclipse/jetty/client/HttpClient;
+ ()Lorg/eclipse/jetty/client/HttpClient;
+getOrigin
+ ()Lorg/eclipse/jetty/client/Origin;
+ ()Lorg/eclipse/jetty/client/Origin;
+getProxy
+ ()Lorg/eclipse/jetty/client/ProxyConfiguration$Proxy;
+ ()Lorg/eclipse/jetty/client/ProxyConfiguration$Proxy;
+newConnection
+ ()Ljava/util/concurrent/CompletableFuture<Lorg/eclipse/jetty/client/Connection;>;
+ ()Ljava/util/concurrent/CompletableFuture<Lorg/eclipse/jetty/client/Connection;>;
+newConnection
+ (Lorg/eclipse/jetty/util/Promise<Lorg/eclipse/jetty/client/Connection;>;)V
+ (Lorg/eclipse/jetty/util/Promise<Lorg/eclipse/jetty/client/Connection;>;)V
+send
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response$CompleteListener;)V
+ (Lorg/eclipse/jetty/client/Request;Lorg/eclipse/jetty/client/Response$CompleteListener;)V

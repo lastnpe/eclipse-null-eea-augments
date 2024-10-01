@@ -1,0 +1,18 @@
+class org/springframework/core/NamedThreadLocal
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super java/lang/ThreadLocal
+ <TT;>
+ <TT;>
+
+withInitial
+ <S:Ljava/lang/Object;>(Ljava/lang/String;Ljava/util/function/Supplier<+TS;>;)Ljava/lang/ThreadLocal<TS;>;
+ <S:Ljava/lang/Object;>(Ljava/lang/String;Ljava/util/function/Supplier<+TS;>;)Ljava/lang/ThreadLocal<TS;>;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

@@ -1,0 +1,123 @@
+class javax/mail/Folder
+
+store
+ Ljavax/mail/Store;
+ Ljavax/mail/Store;
+
+<init>
+ (Ljavax/mail/Store;)V
+ (Ljavax/mail/Store;)V
+addConnectionListener
+ (Ljavax/mail/event/ConnectionListener;)V
+ (L1javax/mail/event/ConnectionListener;)V
+addFolderListener
+ (Ljavax/mail/event/FolderListener;)V
+ (L1javax/mail/event/FolderListener;)V
+addMessageChangedListener
+ (Ljavax/mail/event/MessageChangedListener;)V
+ (L1javax/mail/event/MessageChangedListener;)V
+addMessageCountListener
+ (Ljavax/mail/event/MessageCountListener;)V
+ (L1javax/mail/event/MessageCountListener;)V
+appendMessages
+ ([Ljavax/mail/Message;)V
+ ([Ljavax/mail/Message;)V
+copyMessages
+ ([Ljavax/mail/Message;Ljavax/mail/Folder;)V
+ ([Ljavax/mail/Message;Ljavax/mail/Folder;)V
+expunge
+ ()[Ljavax/mail/Message;
+ ()[Ljavax/mail/Message;
+fetch
+ ([Ljavax/mail/Message;Ljavax/mail/FetchProfile;)V
+ ([Ljavax/mail/Message;Ljavax/mail/FetchProfile;)V
+getFolder
+ (Ljava/lang/String;)Ljavax/mail/Folder;
+ (Ljava/lang/String;)Ljavax/mail/Folder;
+getFullName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMessage
+ (I)Ljavax/mail/Message;
+ (I)Ljavax/mail/Message;
+getMessages
+ ()[Ljavax/mail/Message;
+ ()[Ljavax/mail/Message;
+getMessages
+ (II)[Ljavax/mail/Message;
+ (II)[Ljavax/mail/Message;
+getMessages
+ ([I)[Ljavax/mail/Message;
+ ([I)[Ljavax/mail/Message;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getParent
+ ()Ljavax/mail/Folder;
+ ()Ljavax/mail/Folder;
+getPermanentFlags
+ ()Ljavax/mail/Flags;
+ ()Ljavax/mail/Flags;
+getStore
+ ()Ljavax/mail/Store;
+ ()Ljavax/mail/Store;
+getURLName
+ ()Ljavax/mail/URLName;
+ ()Ljavax/mail/URLName;
+list
+ ()[Ljavax/mail/Folder;
+ ()[Ljavax/mail/Folder;
+list
+ (Ljava/lang/String;)[Ljavax/mail/Folder;
+ (Ljava/lang/String;)[Ljavax/mail/Folder;
+listSubscribed
+ ()[Ljavax/mail/Folder;
+ ()[Ljavax/mail/Folder;
+listSubscribed
+ (Ljava/lang/String;)[Ljavax/mail/Folder;
+ (Ljava/lang/String;)[Ljavax/mail/Folder;
+notifyFolderRenamedListeners
+ (Ljavax/mail/Folder;)V
+ (Ljavax/mail/Folder;)V
+notifyMessageAddedListeners
+ ([Ljavax/mail/Message;)V
+ ([Ljavax/mail/Message;)V
+notifyMessageChangedListeners
+ (ILjavax/mail/Message;)V
+ (ILjavax/mail/Message;)V
+notifyMessageRemovedListeners
+ (Z[Ljavax/mail/Message;)V
+ (Z[Ljavax/mail/Message;)V
+removeConnectionListener
+ (Ljavax/mail/event/ConnectionListener;)V
+ (L1javax/mail/event/ConnectionListener;)V
+removeFolderListener
+ (Ljavax/mail/event/FolderListener;)V
+ (L1javax/mail/event/FolderListener;)V
+removeMessageChangedListener
+ (Ljavax/mail/event/MessageChangedListener;)V
+ (L1javax/mail/event/MessageChangedListener;)V
+removeMessageCountListener
+ (Ljavax/mail/event/MessageCountListener;)V
+ (L1javax/mail/event/MessageCountListener;)V
+renameTo
+ (Ljavax/mail/Folder;)Z
+ (Ljavax/mail/Folder;)Z
+search
+ (Ljavax/mail/search/SearchTerm;)[Ljavax/mail/Message;
+ (Ljavax/mail/search/SearchTerm;)[Ljavax/mail/Message;
+search
+ (Ljavax/mail/search/SearchTerm;[Ljavax/mail/Message;)[Ljavax/mail/Message;
+ (Ljavax/mail/search/SearchTerm;[Ljavax/mail/Message;)[Ljavax/mail/Message;
+setFlags
+ (IILjavax/mail/Flags;Z)V
+ (IILjavax/mail/Flags;Z)V
+setFlags
+ ([ILjavax/mail/Flags;Z)V
+ ([ILjavax/mail/Flags;Z)V
+setFlags
+ ([Ljavax/mail/Message;Ljavax/mail/Flags;Z)V
+ ([Ljavax/mail/Message;Ljavax/mail/Flags;Z)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

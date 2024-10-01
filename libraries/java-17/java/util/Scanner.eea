@@ -1,0 +1,132 @@
+class java/util/Scanner
+
+super java/util/Iterator
+ <Ljava/lang/String;>
+ <Ljava/lang/String;>
+
+<init>
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+<init>
+ (Ljava/io/File;Ljava/lang/String;)V
+ (Ljava/io/File;Ljava/lang/String;)V
+<init>
+ (Ljava/io/File;Ljava/nio/charset/Charset;)V
+ (Ljava/io/File;Ljava/nio/charset/Charset;)V
+<init>
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+<init>
+ (Ljava/io/InputStream;Ljava/lang/String;)V
+ (Ljava/io/InputStream;Ljava/lang/String;)V
+<init>
+ (Ljava/io/InputStream;Ljava/nio/charset/Charset;)V
+ (Ljava/io/InputStream;Ljava/nio/charset/Charset;)V
+<init>
+ (Ljava/lang/Readable;)V
+ (Ljava/lang/Readable;)V
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/nio/channels/ReadableByteChannel;)V
+ (Ljava/nio/channels/ReadableByteChannel;)V
+<init>
+ (Ljava/nio/channels/ReadableByteChannel;Ljava/lang/String;)V
+ (Ljava/nio/channels/ReadableByteChannel;Ljava/lang/String;)V
+<init>
+ (Ljava/nio/channels/ReadableByteChannel;Ljava/nio/charset/Charset;)V
+ (Ljava/nio/channels/ReadableByteChannel;Ljava/nio/charset/Charset;)V
+<init>
+ (Ljava/nio/file/Path;)V
+ (Ljava/nio/file/Path;)V
+<init>
+ (Ljava/nio/file/Path;Ljava/lang/String;)V
+ (Ljava/nio/file/Path;Ljava/lang/String;)V
+<init>
+ (Ljava/nio/file/Path;Ljava/nio/charset/Charset;)V
+ (Ljava/nio/file/Path;Ljava/nio/charset/Charset;)V
+delimiter
+ ()Ljava/util/regex/Pattern;
+ ()Ljava/util/regex/Pattern;
+findAll
+ (Ljava/lang/String;)Ljava/util/stream/Stream<Ljava/util/regex/MatchResult;>;
+ (Ljava/lang/String;)Ljava/util/stream/Stream<Ljava/util/regex/MatchResult;>;
+findAll
+ (Ljava/util/regex/Pattern;)Ljava/util/stream/Stream<Ljava/util/regex/MatchResult;>;
+ (Ljava/util/regex/Pattern;)Ljava/util/stream/Stream<Ljava/util/regex/MatchResult;>;
+findInLine
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+findInLine
+ (Ljava/util/regex/Pattern;)Ljava/lang/String;
+ (Ljava/util/regex/Pattern;)Ljava/lang/String;
+findWithinHorizon
+ (Ljava/lang/String;I)Ljava/lang/String;
+ (Ljava/lang/String;I)Ljava/lang/String;
+findWithinHorizon
+ (Ljava/util/regex/Pattern;I)Ljava/lang/String;
+ (Ljava/util/regex/Pattern;I)Ljava/lang/String;
+hasNext
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+hasNext
+ (Ljava/util/regex/Pattern;)Z
+ (Ljava/util/regex/Pattern;)Z
+ioException
+ ()Ljava/io/IOException;
+ ()Ljava/io/IOException;
+locale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+match
+ ()Ljava/util/regex/MatchResult;
+ ()Ljava/util/regex/MatchResult;
+next
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+next
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+next
+ (Ljava/util/regex/Pattern;)Ljava/lang/String;
+ (Ljava/util/regex/Pattern;)Ljava/lang/String;
+nextBigDecimal
+ ()Ljava/math/BigDecimal;
+ ()Ljava/math/BigDecimal;
+nextBigInteger
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;
+nextBigInteger
+ (I)Ljava/math/BigInteger;
+ (I)Ljava/math/BigInteger;
+nextLine
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+reset
+ ()Ljava/util/Scanner;
+ ()Ljava/util/Scanner;
+skip
+ (Ljava/lang/String;)Ljava/util/Scanner;
+ (Ljava/lang/String;)Ljava/util/Scanner;
+skip
+ (Ljava/util/regex/Pattern;)Ljava/util/Scanner;
+ (Ljava/util/regex/Pattern;)Ljava/util/Scanner;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+tokens
+ ()Ljava/util/stream/Stream<Ljava/lang/String;>;
+ ()Ljava/util/stream/Stream<Ljava/lang/String;>;
+useDelimiter
+ (Ljava/lang/String;)Ljava/util/Scanner;
+ (Ljava/lang/String;)Ljava/util/Scanner;
+useDelimiter
+ (Ljava/util/regex/Pattern;)Ljava/util/Scanner;
+ (Ljava/util/regex/Pattern;)Ljava/util/Scanner;
+useLocale
+ (Ljava/util/Locale;)Ljava/util/Scanner;
+ (Ljava/util/Locale;)Ljava/util/Scanner;
+useRadix
+ (I)Ljava/util/Scanner;
+ (I)Ljava/util/Scanner;

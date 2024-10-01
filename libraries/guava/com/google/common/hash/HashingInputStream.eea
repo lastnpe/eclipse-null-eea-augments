@@ -1,0 +1,11 @@
+class com/google/common/hash/HashingInputStream
+
+<init>
+ (Lcom/google/common/hash/HashFunction;Ljava/io/InputStream;)V
+ (Lcom/google/common/hash/HashFunction;Ljava/io/InputStream;)V
+hash
+ ()Lcom/google/common/hash/HashCode;
+ ()Lcom/google/common/hash/HashCode;
+read
+ ([BII)I
+ ([1BII)I # @Inherited(java.io.FilterInputStream)

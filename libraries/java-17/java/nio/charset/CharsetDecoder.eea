@@ -1,0 +1,56 @@
+class java/nio/charset/CharsetDecoder
+
+<init>
+ (Ljava/nio/charset/Charset;FF)V
+ (Ljava/nio/charset/Charset;FF)V
+charset
+ ()Ljava/nio/charset/Charset;
+ ()Ljava/nio/charset/Charset;
+decode
+ (Ljava/nio/ByteBuffer;)Ljava/nio/CharBuffer;
+ (Ljava/nio/ByteBuffer;)Ljava/nio/CharBuffer;
+decode
+ (Ljava/nio/ByteBuffer;Ljava/nio/CharBuffer;Z)Ljava/nio/charset/CoderResult;
+ (Ljava/nio/ByteBuffer;Ljava/nio/CharBuffer;Z)Ljava/nio/charset/CoderResult;
+decodeLoop
+ (Ljava/nio/ByteBuffer;Ljava/nio/CharBuffer;)Ljava/nio/charset/CoderResult;
+ (Ljava/nio/ByteBuffer;Ljava/nio/CharBuffer;)Ljava/nio/charset/CoderResult;
+detectedCharset
+ ()Ljava/nio/charset/Charset;
+ ()Ljava/nio/charset/Charset;
+flush
+ (Ljava/nio/CharBuffer;)Ljava/nio/charset/CoderResult;
+ (Ljava/nio/CharBuffer;)Ljava/nio/charset/CoderResult;
+implFlush
+ (Ljava/nio/CharBuffer;)Ljava/nio/charset/CoderResult;
+ (Ljava/nio/CharBuffer;)Ljava/nio/charset/CoderResult;
+implOnMalformedInput
+ (Ljava/nio/charset/CodingErrorAction;)V
+ (Ljava/nio/charset/CodingErrorAction;)V
+implOnUnmappableCharacter
+ (Ljava/nio/charset/CodingErrorAction;)V
+ (Ljava/nio/charset/CodingErrorAction;)V
+implReplaceWith
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+malformedInputAction
+ ()Ljava/nio/charset/CodingErrorAction;
+ ()Ljava/nio/charset/CodingErrorAction;
+onMalformedInput
+ (Ljava/nio/charset/CodingErrorAction;)Ljava/nio/charset/CharsetDecoder;
+ (Ljava/nio/charset/CodingErrorAction;)Ljava/nio/charset/CharsetDecoder;
+onUnmappableCharacter
+ (Ljava/nio/charset/CodingErrorAction;)Ljava/nio/charset/CharsetDecoder;
+ (Ljava/nio/charset/CodingErrorAction;)Ljava/nio/charset/CharsetDecoder;
+replaceWith
+ (Ljava/lang/String;)Ljava/nio/charset/CharsetDecoder;
+ (Ljava/lang/String;)Ljava/nio/charset/CharsetDecoder;
+replacement
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+reset
+ ()Ljava/nio/charset/CharsetDecoder;
+ ()Ljava/nio/charset/CharsetDecoder;
+unmappableCharacterAction
+ ()Ljava/nio/charset/CodingErrorAction;
+ ()Ljava/nio/charset/CodingErrorAction;

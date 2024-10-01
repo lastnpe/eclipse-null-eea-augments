@@ -1,0 +1,17 @@
+class com/google/common/io/ByteSink
+
+asCharSink
+ (Ljava/nio/charset/Charset;)Lcom/google/common/io/CharSink;
+ (Ljava/nio/charset/Charset;)Lcom/google/common/io/CharSink;
+openBufferedStream
+ ()Ljava/io/OutputStream;
+ ()Ljava/io/OutputStream;
+openStream
+ ()Ljava/io/OutputStream;
+ ()Ljava/io/OutputStream;
+write
+ ([B)V
+ ([B)V
+writeFrom
+ (Ljava/io/InputStream;)J
+ (Ljava/io/InputStream;)J

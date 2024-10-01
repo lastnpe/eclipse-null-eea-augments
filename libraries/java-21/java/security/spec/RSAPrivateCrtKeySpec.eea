@@ -1,0 +1,26 @@
+class java/security/spec/RSAPrivateCrtKeySpec
+
+<init>
+ (Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;)V
+ (Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;)V
+<init>
+ (Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/security/spec/AlgorithmParameterSpec;)V
+ (Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/security/spec/AlgorithmParameterSpec;)V
+getCrtCoefficient
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;
+getPrimeExponentP
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;
+getPrimeExponentQ
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;
+getPrimeP
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;
+getPrimeQ
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;
+getPublicExponent
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;

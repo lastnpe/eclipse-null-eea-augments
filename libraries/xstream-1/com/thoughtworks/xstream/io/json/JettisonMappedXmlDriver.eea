@@ -1,0 +1,36 @@
+class com/thoughtworks/xstream/io/json/JettisonMappedXmlDriver
+
+convention
+ Lorg/codehaus/jettison/mapped/MappedNamespaceConvention;
+ Lorg/codehaus/jettison/mapped/MappedNamespaceConvention;
+mif
+ Lorg/codehaus/jettison/mapped/MappedXMLInputFactory;
+ Lorg/codehaus/jettison/mapped/MappedXMLInputFactory;
+mof
+ Lorg/codehaus/jettison/mapped/MappedXMLOutputFactory;
+ Lorg/codehaus/jettison/mapped/MappedXMLOutputFactory;
+
+<init>
+ (Lorg/codehaus/jettison/mapped/Configuration;)V
+ (Lorg/codehaus/jettison/mapped/Configuration;)V
+<init>
+ (Lorg/codehaus/jettison/mapped/Configuration;Z)V
+ (Lorg/codehaus/jettison/mapped/Configuration;Z)V
+createReader
+ (Ljava/io/File;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ (Ljava/io/File;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+createReader
+ (Ljava/io/InputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ (Ljava/io/InputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+createReader
+ (Ljava/io/Reader;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ (Ljava/io/Reader;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+createReader
+ (Ljava/net/URL;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+ (Ljava/net/URL;)Lcom/thoughtworks/xstream/io/HierarchicalStreamReader;
+createWriter
+ (Ljava/io/OutputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+ (Ljava/io/OutputStream;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+createWriter
+ (Ljava/io/Writer;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;
+ (Ljava/io/Writer;)Lcom/thoughtworks/xstream/io/HierarchicalStreamWriter;

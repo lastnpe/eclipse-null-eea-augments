@@ -1,0 +1,23 @@
+class java/awt/im/spi/InputMethod
+
+dispatchEvent
+ (Ljava/awt/AWTEvent;)V
+ (Ljava/awt/AWTEvent;)V
+getControlObject
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+notifyClientWindowChange
+ (Ljava/awt/Rectangle;)V
+ (Ljava/awt/Rectangle;)V
+setCharacterSubsets
+ ([Ljava/lang/Character$Subset;)V
+ ([Ljava/lang/Character$Subset;)V
+setInputMethodContext
+ (Ljava/awt/im/spi/InputMethodContext;)V
+ (Ljava/awt/im/spi/InputMethodContext;)V
+setLocale
+ (Ljava/util/Locale;)Z
+ (Ljava/util/Locale;)Z

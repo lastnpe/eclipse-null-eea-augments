@@ -1,0 +1,28 @@
+class com/fasterxml/jackson/databind/deser/std/JsonNodeDeserializer
+
+super com/fasterxml/jackson/databind/deser/std/BaseNodeDeserializer
+ <Lcom/fasterxml/jackson/databind/JsonNode;>
+ <Lcom/fasterxml/jackson/databind/JsonNode;>
+
+getDeserializer
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JsonDeserializer<+Lcom/fasterxml/jackson/databind/JsonNode;>;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JsonDeserializer<+Lcom/fasterxml/jackson/databind/JsonNode;>;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/deser/std/JsonNodeDeserializer;ZZ)V
+ (Lcom/fasterxml/jackson/databind/deser/std/JsonNodeDeserializer;ZZ)V
+_createWithMerge
+ (ZZ)Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;
+ (ZZ)Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;
+deserialize
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;)Lcom/fasterxml/jackson/databind/JsonNode;
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;)Lcom/fasterxml/jackson/databind/JsonNode;
+getAbsentValue
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object;
+ (L1com/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object; # @Inherited(com.fasterxml.jackson.databind.JsonDeserializer)
+getNullValue
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;)Lcom/fasterxml/jackson/databind/JsonNode;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;)Lcom/fasterxml/jackson/databind/JsonNode;
+supportsUpdate
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;)Ljava/lang/Boolean;
+ (L1com/fasterxml/jackson/databind/DeserializationConfig;)L0java/lang/Boolean; # @Inherited(com.fasterxml.jackson.databind.JsonDeserializer)

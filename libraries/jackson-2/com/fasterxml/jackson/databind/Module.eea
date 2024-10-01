@@ -1,0 +1,17 @@
+class com/fasterxml/jackson/databind/Module
+
+getDependencies
+ ()Ljava/lang/Iterable<+Lcom/fasterxml/jackson/databind/Module;>;
+ ()L1java/lang/Iterable<+L1com/fasterxml/jackson/databind/Module;>;
+getModuleName
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getTypeId
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;
+setupModule
+ (Lcom/fasterxml/jackson/databind/Module$SetupContext;)V
+ (L1com/fasterxml/jackson/databind/Module$SetupContext;)V
+version
+ ()Lcom/fasterxml/jackson/core/Version;
+ ()L1com/fasterxml/jackson/core/Version;

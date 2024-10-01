@@ -1,0 +1,99 @@
+class org/springframework/core/convert/TypeDescriptor
+
+array
+ (Lorg/springframework/core/convert/TypeDescriptor;)Lorg/springframework/core/convert/TypeDescriptor;
+ (Lorg/springframework/core/convert/TypeDescriptor;)L0org/springframework/core/convert/TypeDescriptor;
+collection
+ (Ljava/lang/Class<*>;Lorg/springframework/core/convert/TypeDescriptor;)Lorg/springframework/core/convert/TypeDescriptor;
+ (Ljava/lang/Class<*>;Lorg/springframework/core/convert/TypeDescriptor;)Lorg/springframework/core/convert/TypeDescriptor;
+forObject
+ (Ljava/lang/Object;)Lorg/springframework/core/convert/TypeDescriptor;
+ (Ljava/lang/Object;)L0org/springframework/core/convert/TypeDescriptor;
+map
+ (Ljava/lang/Class<*>;Lorg/springframework/core/convert/TypeDescriptor;Lorg/springframework/core/convert/TypeDescriptor;)Lorg/springframework/core/convert/TypeDescriptor;
+ (Ljava/lang/Class<*>;Lorg/springframework/core/convert/TypeDescriptor;Lorg/springframework/core/convert/TypeDescriptor;)Lorg/springframework/core/convert/TypeDescriptor;
+nested
+ (Ljava/lang/reflect/Field;I)Lorg/springframework/core/convert/TypeDescriptor;
+ (Ljava/lang/reflect/Field;I)L0org/springframework/core/convert/TypeDescriptor;
+nested
+ (Lorg/springframework/core/MethodParameter;I)Lorg/springframework/core/convert/TypeDescriptor;
+ (Lorg/springframework/core/MethodParameter;I)L0org/springframework/core/convert/TypeDescriptor;
+nested
+ (Lorg/springframework/core/convert/Property;I)Lorg/springframework/core/convert/TypeDescriptor;
+ (Lorg/springframework/core/convert/Property;I)L0org/springframework/core/convert/TypeDescriptor;
+valueOf
+ (Ljava/lang/Class<*>;)Lorg/springframework/core/convert/TypeDescriptor;
+ (Ljava/lang/Class<*>;)Lorg/springframework/core/convert/TypeDescriptor;
+
+<init>
+ (Ljava/lang/reflect/Field;)V
+ (Ljava/lang/reflect/Field;)V
+<init>
+ (Lorg/springframework/core/MethodParameter;)V
+ (Lorg/springframework/core/MethodParameter;)V
+<init>
+ (Lorg/springframework/core/ResolvableType;Ljava/lang/Class<*>;[Ljava/lang/annotation/Annotation;)V
+ (Lorg/springframework/core/ResolvableType;Ljava/lang/Class<*>;[Ljava/lang/annotation/Annotation;)V
+<init>
+ (Lorg/springframework/core/convert/Property;)V
+ (Lorg/springframework/core/convert/Property;)V
+elementTypeDescriptor
+ (Ljava/lang/Object;)Lorg/springframework/core/convert/TypeDescriptor;
+ (Ljava/lang/Object;)L0org/springframework/core/convert/TypeDescriptor;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAnnotation
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)T0T;
+getAnnotations
+ ()[Ljava/lang/annotation/Annotation;
+ ()[Ljava/lang/annotation/Annotation;
+getElementTypeDescriptor
+ ()Lorg/springframework/core/convert/TypeDescriptor;
+ ()L0org/springframework/core/convert/TypeDescriptor;
+getMapKeyTypeDescriptor
+ ()Lorg/springframework/core/convert/TypeDescriptor;
+ ()L0org/springframework/core/convert/TypeDescriptor;
+getMapKeyTypeDescriptor
+ (Ljava/lang/Object;)Lorg/springframework/core/convert/TypeDescriptor;
+ (Ljava/lang/Object;)L0org/springframework/core/convert/TypeDescriptor;
+getMapValueTypeDescriptor
+ ()Lorg/springframework/core/convert/TypeDescriptor;
+ ()L0org/springframework/core/convert/TypeDescriptor;
+getMapValueTypeDescriptor
+ (Ljava/lang/Object;)Lorg/springframework/core/convert/TypeDescriptor;
+ (Ljava/lang/Object;)L0org/springframework/core/convert/TypeDescriptor;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getObjectType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getResolvableType
+ ()Lorg/springframework/core/ResolvableType;
+ ()Lorg/springframework/core/ResolvableType;
+getSource
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+hasAnnotation
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+isAssignableTo
+ (Lorg/springframework/core/convert/TypeDescriptor;)Z
+ (Lorg/springframework/core/convert/TypeDescriptor;)Z
+narrow
+ (Ljava/lang/Object;)Lorg/springframework/core/convert/TypeDescriptor;
+ (Ljava/lang/Object;)Lorg/springframework/core/convert/TypeDescriptor;
+nested
+ (I)Lorg/springframework/core/convert/TypeDescriptor;
+ (I)L0org/springframework/core/convert/TypeDescriptor;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+upcast
+ (Ljava/lang/Class<*>;)Lorg/springframework/core/convert/TypeDescriptor;
+ (Ljava/lang/Class<*>;)L0org/springframework/core/convert/TypeDescriptor;

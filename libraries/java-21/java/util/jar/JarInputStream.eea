@@ -1,0 +1,23 @@
+class java/util/jar/JarInputStream
+
+<init>
+ (Ljava/io/InputStream;)V
+ (L1java/io/InputStream;)V
+<init>
+ (Ljava/io/InputStream;Z)V
+ (L1java/io/InputStream;Z)V
+createZipEntry
+ (Ljava/lang/String;)Ljava/util/zip/ZipEntry;
+ (L1java/lang/String;)L1java/util/zip/ZipEntry; # @Inherited(java.util.zip.ZipInputStream)
+getManifest
+ ()Ljava/util/jar/Manifest;
+ ()L0java/util/jar/Manifest;
+getNextEntry
+ ()Ljava/util/zip/ZipEntry;
+ ()L0java/util/zip/ZipEntry; # @Inherited(java.util.zip.ZipInputStream)
+getNextJarEntry
+ ()Ljava/util/jar/JarEntry;
+ ()L0java/util/jar/JarEntry;
+read
+ ([BII)I
+ ([1BII)I # @Inherited(java.util.zip.ZipInputStream)

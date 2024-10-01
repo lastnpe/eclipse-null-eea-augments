@@ -1,0 +1,36 @@
+class org/springframework/javapoet/ParameterSpec$Builder
+
+annotations
+ Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;
+ Ljava/util/List<Lorg/springframework/javapoet/AnnotationSpec;>;
+modifiers
+ Ljava/util/List<Ljavax/lang/model/element/Modifier;>;
+ Ljava/util/List<Ljavax/lang/model/element/Modifier;>;
+
+addAnnotation
+ (Ljava/lang/Class<*>;)Lorg/springframework/javapoet/ParameterSpec$Builder;
+ (Ljava/lang/Class<*>;)L1org/springframework/javapoet/ParameterSpec$Builder;
+addAnnotation
+ (Lorg/springframework/javapoet/AnnotationSpec;)Lorg/springframework/javapoet/ParameterSpec$Builder;
+ (Lorg/springframework/javapoet/AnnotationSpec;)L1org/springframework/javapoet/ParameterSpec$Builder;
+addAnnotation
+ (Lorg/springframework/javapoet/ClassName;)Lorg/springframework/javapoet/ParameterSpec$Builder;
+ (Lorg/springframework/javapoet/ClassName;)L1org/springframework/javapoet/ParameterSpec$Builder;
+addAnnotations
+ (Ljava/lang/Iterable<Lorg/springframework/javapoet/AnnotationSpec;>;)Lorg/springframework/javapoet/ParameterSpec$Builder;
+ (Ljava/lang/Iterable<Lorg/springframework/javapoet/AnnotationSpec;>;)L1org/springframework/javapoet/ParameterSpec$Builder;
+addJavadoc
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/javapoet/ParameterSpec$Builder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/javapoet/ParameterSpec$Builder;
+addJavadoc
+ (Lorg/springframework/javapoet/CodeBlock;)Lorg/springframework/javapoet/ParameterSpec$Builder;
+ (Lorg/springframework/javapoet/CodeBlock;)L1org/springframework/javapoet/ParameterSpec$Builder;
+addModifiers
+ (Ljava/lang/Iterable<Ljavax/lang/model/element/Modifier;>;)Lorg/springframework/javapoet/ParameterSpec$Builder;
+ (Ljava/lang/Iterable<Ljavax/lang/model/element/Modifier;>;)L1org/springframework/javapoet/ParameterSpec$Builder;
+addModifiers
+ ([Ljavax/lang/model/element/Modifier;)Lorg/springframework/javapoet/ParameterSpec$Builder;
+ ([Ljavax/lang/model/element/Modifier;)L1org/springframework/javapoet/ParameterSpec$Builder;
+build
+ ()Lorg/springframework/javapoet/ParameterSpec;
+ ()L1org/springframework/javapoet/ParameterSpec;

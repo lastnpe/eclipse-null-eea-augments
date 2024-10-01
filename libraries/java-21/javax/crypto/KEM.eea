@@ -1,0 +1,30 @@
+class javax/crypto/KEM
+
+getInstance
+ (Ljava/lang/String;)Ljavax/crypto/KEM;
+ (Ljava/lang/String;)Ljavax/crypto/KEM;
+getInstance
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/KEM;
+ (Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/KEM;
+getInstance
+ (Ljava/lang/String;Ljava/security/Provider;)Ljavax/crypto/KEM;
+ (Ljava/lang/String;Ljava/security/Provider;)Ljavax/crypto/KEM;
+
+getAlgorithm
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+newDecapsulator
+ (Ljava/security/PrivateKey;)Ljavax/crypto/KEM$Decapsulator;
+ (Ljava/security/PrivateKey;)Ljavax/crypto/KEM$Decapsulator;
+newDecapsulator
+ (Ljava/security/PrivateKey;Ljava/security/spec/AlgorithmParameterSpec;)Ljavax/crypto/KEM$Decapsulator;
+ (Ljava/security/PrivateKey;Ljava/security/spec/AlgorithmParameterSpec;)Ljavax/crypto/KEM$Decapsulator;
+newEncapsulator
+ (Ljava/security/PublicKey;)Ljavax/crypto/KEM$Encapsulator;
+ (Ljava/security/PublicKey;)Ljavax/crypto/KEM$Encapsulator;
+newEncapsulator
+ (Ljava/security/PublicKey;Ljava/security/SecureRandom;)Ljavax/crypto/KEM$Encapsulator;
+ (Ljava/security/PublicKey;Ljava/security/SecureRandom;)Ljavax/crypto/KEM$Encapsulator;
+newEncapsulator
+ (Ljava/security/PublicKey;Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)Ljavax/crypto/KEM$Encapsulator;
+ (Ljava/security/PublicKey;Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)Ljavax/crypto/KEM$Encapsulator;

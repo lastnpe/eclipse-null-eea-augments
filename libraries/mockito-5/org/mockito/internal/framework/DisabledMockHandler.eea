@@ -1,0 +1,15 @@
+class org/mockito/internal/framework/DisabledMockHandler
+
+HANDLER
+ Lorg/mockito/invocation/MockHandler;
+ Lorg/mockito/invocation/MockHandler;
+
+getInvocationContainer
+ ()Lorg/mockito/invocation/InvocationContainer;
+ ()Lorg/mockito/invocation/InvocationContainer;
+getMockSettings
+ ()Lorg/mockito/mock/MockCreationSettings;
+ ()Lorg/mockito/mock/MockCreationSettings;
+handle
+ (Lorg/mockito/invocation/Invocation;)Ljava/lang/Object;
+ (Lorg/mockito/invocation/Invocation;)Ljava/lang/Object;

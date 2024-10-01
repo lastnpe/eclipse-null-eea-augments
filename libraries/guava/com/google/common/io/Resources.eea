@@ -1,0 +1,29 @@
+class com/google/common/io/Resources
+
+asByteSource
+ (Ljava/net/URL;)Lcom/google/common/io/ByteSource;
+ (Ljava/net/URL;)Lcom/google/common/io/ByteSource;
+asCharSource
+ (Ljava/net/URL;Ljava/nio/charset/Charset;)Lcom/google/common/io/CharSource;
+ (Ljava/net/URL;Ljava/nio/charset/Charset;)Lcom/google/common/io/CharSource;
+copy
+ (Ljava/net/URL;Ljava/io/OutputStream;)V
+ (Ljava/net/URL;Ljava/io/OutputStream;)V
+getResource
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/net/URL;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/net/URL;
+getResource
+ (Ljava/lang/String;)Ljava/net/URL;
+ (Ljava/lang/String;)Ljava/net/URL;
+readLines
+ (Ljava/net/URL;Ljava/nio/charset/Charset;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/net/URL;Ljava/nio/charset/Charset;)Ljava/util/List<Ljava/lang/String;>;
+readLines
+ <T:Ljava/lang/Object;>(Ljava/net/URL;Ljava/nio/charset/Charset;Lcom/google/common/io/LineProcessor<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/net/URL;Ljava/nio/charset/Charset;Lcom/google/common/io/LineProcessor<TT;>;)T1T;
+toByteArray
+ (Ljava/net/URL;)[B
+ (Ljava/net/URL;)[B
+toString
+ (Ljava/net/URL;Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/net/URL;Ljava/nio/charset/Charset;)Ljava/lang/String;

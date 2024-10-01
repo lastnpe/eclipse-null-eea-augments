@@ -1,0 +1,68 @@
+class com/google/common/collect/Streams
+
+concat
+ ([Ljava/util/stream/DoubleStream;)Ljava/util/stream/DoubleStream;
+ ([Ljava/util/stream/DoubleStream;)Ljava/util/stream/DoubleStream;
+concat
+ ([Ljava/util/stream/IntStream;)Ljava/util/stream/IntStream;
+ ([Ljava/util/stream/IntStream;)Ljava/util/stream/IntStream;
+concat
+ ([Ljava/util/stream/LongStream;)Ljava/util/stream/LongStream;
+ ([Ljava/util/stream/LongStream;)Ljava/util/stream/LongStream;
+concat
+ <T:Ljava/lang/Object;>([Ljava/util/stream/Stream<+TT;>;)Ljava/util/stream/Stream<TT;>;
+ <T:Ljava/lang/Object;>([Ljava/util/stream/Stream<+TT;>;)Ljava/util/stream/Stream<TT;>;
+findLast
+ (Ljava/util/stream/DoubleStream;)Ljava/util/OptionalDouble;
+ (Ljava/util/stream/DoubleStream;)Ljava/util/OptionalDouble;
+findLast
+ (Ljava/util/stream/IntStream;)Ljava/util/OptionalInt;
+ (Ljava/util/stream/IntStream;)Ljava/util/OptionalInt;
+findLast
+ (Ljava/util/stream/LongStream;)Ljava/util/OptionalLong;
+ (Ljava/util/stream/LongStream;)Ljava/util/OptionalLong;
+findLast
+ <T:Ljava/lang/Object;>(Ljava/util/stream/Stream<TT;>;)Ljava/util/Optional<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/stream/Stream<TT;>;)Ljava/util/Optional<TT;>;
+forEachPair
+ <A:Ljava/lang/Object;B:Ljava/lang/Object;>(Ljava/util/stream/Stream<TA;>;Ljava/util/stream/Stream<TB;>;Ljava/util/function/BiConsumer<-TA;-TB;>;)V
+ <A:Ljava/lang/Object;B:Ljava/lang/Object;>(Ljava/util/stream/Stream<TA;>;Ljava/util/stream/Stream<TB;>;Ljava/util/function/BiConsumer<-TA;-TB;>;)V
+mapWithIndex
+ <R:Ljava/lang/Object;>(Ljava/util/stream/DoubleStream;Lcom/google/common/collect/Streams$DoubleFunctionWithIndex<TR;>;)Ljava/util/stream/Stream<TR;>;
+ <R:Ljava/lang/Object;>(Ljava/util/stream/DoubleStream;Lcom/google/common/collect/Streams$DoubleFunctionWithIndex<TR;>;)Ljava/util/stream/Stream<TR;>;
+mapWithIndex
+ <R:Ljava/lang/Object;>(Ljava/util/stream/IntStream;Lcom/google/common/collect/Streams$IntFunctionWithIndex<TR;>;)Ljava/util/stream/Stream<TR;>;
+ <R:Ljava/lang/Object;>(Ljava/util/stream/IntStream;Lcom/google/common/collect/Streams$IntFunctionWithIndex<TR;>;)Ljava/util/stream/Stream<TR;>;
+mapWithIndex
+ <R:Ljava/lang/Object;>(Ljava/util/stream/LongStream;Lcom/google/common/collect/Streams$LongFunctionWithIndex<TR;>;)Ljava/util/stream/Stream<TR;>;
+ <R:Ljava/lang/Object;>(Ljava/util/stream/LongStream;Lcom/google/common/collect/Streams$LongFunctionWithIndex<TR;>;)Ljava/util/stream/Stream<TR;>;
+mapWithIndex
+ <T:Ljava/lang/Object;R:Ljava/lang/Object;>(Ljava/util/stream/Stream<TT;>;Lcom/google/common/collect/Streams$FunctionWithIndex<-TT;+TR;>;)Ljava/util/stream/Stream<TR;>;
+ <T:Ljava/lang/Object;R:Ljava/lang/Object;>(Ljava/util/stream/Stream<TT;>;Lcom/google/common/collect/Streams$FunctionWithIndex<-TT;+TR;>;)Ljava/util/stream/Stream<TR;>;
+stream
+ (Ljava/util/OptionalDouble;)Ljava/util/stream/DoubleStream;
+ (Ljava/util/OptionalDouble;)Ljava/util/stream/DoubleStream;
+stream
+ (Ljava/util/OptionalInt;)Ljava/util/stream/IntStream;
+ (Ljava/util/OptionalInt;)Ljava/util/stream/IntStream;
+stream
+ (Ljava/util/OptionalLong;)Ljava/util/stream/LongStream;
+ (Ljava/util/OptionalLong;)Ljava/util/stream/LongStream;
+stream
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Optional<TT;>;)Ljava/util/stream/Stream<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Optional<TT;>;)Ljava/util/stream/Stream<TT;>;
+stream
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<TT;>;)Ljava/util/stream/Stream<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<TT;>;)Ljava/util/stream/Stream<TT;>;
+stream
+ <T:Ljava/lang/Object;>(Ljava/util/Collection<TT;>;)Ljava/util/stream/Stream<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Collection<TT;>;)Ljava/util/stream/Stream<TT;>;
+stream
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;)Ljava/util/stream/Stream<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;)Ljava/util/stream/Stream<TT;>;
+stream
+ <T:Ljava/lang/Object;>(Ljava/util/Optional<TT;>;)Ljava/util/stream/Stream<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Optional<TT;>;)Ljava/util/stream/Stream<TT;>;
+zip
+ <A:Ljava/lang/Object;B:Ljava/lang/Object;R:Ljava/lang/Object;>(Ljava/util/stream/Stream<TA;>;Ljava/util/stream/Stream<TB;>;Ljava/util/function/BiFunction<-TA;-TB;TR;>;)Ljava/util/stream/Stream<TR;>;
+ <A:Ljava/lang/Object;B:Ljava/lang/Object;R:Ljava/lang/Object;>(Ljava/util/stream/Stream<TA;>;Ljava/util/stream/Stream<TB;>;Ljava/util/function/BiFunction<-TA;-TB;TR;>;)Ljava/util/stream/Stream<TR;>;

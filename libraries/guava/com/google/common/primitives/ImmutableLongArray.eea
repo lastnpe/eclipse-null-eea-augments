@@ -1,0 +1,69 @@
+class com/google/common/primitives/ImmutableLongArray
+
+builder
+ ()Lcom/google/common/primitives/ImmutableLongArray$Builder;
+ ()Lcom/google/common/primitives/ImmutableLongArray$Builder;
+builder
+ (I)Lcom/google/common/primitives/ImmutableLongArray$Builder;
+ (I)Lcom/google/common/primitives/ImmutableLongArray$Builder;
+copyOf
+ (Ljava/lang/Iterable<Ljava/lang/Long;>;)Lcom/google/common/primitives/ImmutableLongArray;
+ (Ljava/lang/Iterable<Ljava/lang/Long;>;)Lcom/google/common/primitives/ImmutableLongArray;
+copyOf
+ (Ljava/util/Collection<Ljava/lang/Long;>;)Lcom/google/common/primitives/ImmutableLongArray;
+ (Ljava/util/Collection<Ljava/lang/Long;>;)Lcom/google/common/primitives/ImmutableLongArray;
+copyOf
+ (Ljava/util/stream/LongStream;)Lcom/google/common/primitives/ImmutableLongArray;
+ (Ljava/util/stream/LongStream;)Lcom/google/common/primitives/ImmutableLongArray;
+copyOf
+ ([J)Lcom/google/common/primitives/ImmutableLongArray;
+ ([J)Lcom/google/common/primitives/ImmutableLongArray;
+of
+ ()Lcom/google/common/primitives/ImmutableLongArray;
+ ()Lcom/google/common/primitives/ImmutableLongArray;
+of
+ (J)Lcom/google/common/primitives/ImmutableLongArray;
+ (J)Lcom/google/common/primitives/ImmutableLongArray;
+of
+ (JJ)Lcom/google/common/primitives/ImmutableLongArray;
+ (JJ)Lcom/google/common/primitives/ImmutableLongArray;
+of
+ (JJJ)Lcom/google/common/primitives/ImmutableLongArray;
+ (JJJ)Lcom/google/common/primitives/ImmutableLongArray;
+of
+ (JJJJ)Lcom/google/common/primitives/ImmutableLongArray;
+ (JJJJ)Lcom/google/common/primitives/ImmutableLongArray;
+of
+ (JJJJJ)Lcom/google/common/primitives/ImmutableLongArray;
+ (JJJJJ)Lcom/google/common/primitives/ImmutableLongArray;
+of
+ (JJJJJJ)Lcom/google/common/primitives/ImmutableLongArray;
+ (JJJJJJ)Lcom/google/common/primitives/ImmutableLongArray;
+of
+ (J[J)Lcom/google/common/primitives/ImmutableLongArray;
+ (J[J)Lcom/google/common/primitives/ImmutableLongArray;
+
+asList
+ ()Ljava/util/List<Ljava/lang/Long;>;
+ ()Ljava/util/List<Ljava/lang/Long;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+forEach
+ (Ljava/util/function/LongConsumer;)V
+ (Ljava/util/function/LongConsumer;)V
+stream
+ ()Ljava/util/stream/LongStream;
+ ()Ljava/util/stream/LongStream;
+subArray
+ (II)Lcom/google/common/primitives/ImmutableLongArray;
+ (II)Lcom/google/common/primitives/ImmutableLongArray;
+toArray
+ ()[J
+ ()[J
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+trimmed
+ ()Lcom/google/common/primitives/ImmutableLongArray;
+ ()Lcom/google/common/primitives/ImmutableLongArray;

@@ -1,0 +1,71 @@
+class java/time/ZoneOffset
+
+super java/lang/Comparable
+ <Ljava/time/ZoneOffset;>
+ <Ljava/time/ZoneOffset;>
+
+MAX
+ Ljava/time/ZoneOffset;
+ L1java/time/ZoneOffset;
+MIN
+ Ljava/time/ZoneOffset;
+ L1java/time/ZoneOffset;
+UTC
+ Ljava/time/ZoneOffset;
+ L1java/time/ZoneOffset;
+
+from
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/ZoneOffset;
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/ZoneOffset;
+of
+ (Ljava/lang/String;)Ljava/time/ZoneOffset;
+ (Ljava/lang/String;)Ljava/time/ZoneOffset;
+ofHours
+ (I)Ljava/time/ZoneOffset;
+ (I)Ljava/time/ZoneOffset;
+ofHoursMinutes
+ (II)Ljava/time/ZoneOffset;
+ (II)Ljava/time/ZoneOffset;
+ofHoursMinutesSeconds
+ (III)Ljava/time/ZoneOffset;
+ (III)Ljava/time/ZoneOffset;
+ofTotalSeconds
+ (I)Ljava/time/ZoneOffset;
+ (I)Ljava/time/ZoneOffset;
+
+adjustInto
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal; # @Inherited(java.time.temporal.TemporalAdjuster)
+compareTo
+ (Ljava/time/ZoneOffset;)I
+ (L1java/time/ZoneOffset;)I
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.time.ZoneId)
+get
+ (Ljava/time/temporal/TemporalField;)I
+ (L1java/time/temporal/TemporalField;)I # @Inherited(java.time.temporal.TemporalAccessor)
+getId
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.time.ZoneId)
+getLong
+ (Ljava/time/temporal/TemporalField;)J
+ (L1java/time/temporal/TemporalField;)J # @Inherited(java.time.temporal.TemporalAccessor)
+getRules
+ ()Ljava/time/zone/ZoneRules;
+ ()L1java/time/zone/ZoneRules; # @Inherited(java.time.ZoneId)
+isSupported
+ (Ljava/time/temporal/TemporalField;)Z
+ (L1java/time/temporal/TemporalField;)Z # @Inherited(java.time.temporal.TemporalAccessor)
+normalized
+ ()Ljava/time/ZoneId;
+ ()L1java/time/ZoneId; # @Inherited(java.time.ZoneId)
+query
+ <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+ <R:Ljava/lang/Object;>(L1java/time/temporal/TemporalQuery<TR;>;)T0R; # @Inherited(java.time.temporal.TemporalAccessor)
+range
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (L1java/time/temporal/TemporalField;)L1java/time/temporal/ValueRange; # @Inherited(java.time.temporal.TemporalAccessor)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.time.ZoneId)

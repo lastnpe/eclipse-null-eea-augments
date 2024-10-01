@@ -1,0 +1,37 @@
+class com/fasterxml/jackson/databind/ObjectMapper$DefaultTypeResolverBuilder
+
+construct
+ (Lcom/fasterxml/jackson/databind/ObjectMapper$DefaultTyping;Lcom/fasterxml/jackson/databind/jsontype/PolymorphicTypeValidator;)Lcom/fasterxml/jackson/databind/ObjectMapper$DefaultTypeResolverBuilder;
+ (Lcom/fasterxml/jackson/databind/ObjectMapper$DefaultTyping;Lcom/fasterxml/jackson/databind/jsontype/PolymorphicTypeValidator;)Lcom/fasterxml/jackson/databind/ObjectMapper$DefaultTypeResolverBuilder;
+
+_appliesFor
+ Lcom/fasterxml/jackson/databind/ObjectMapper$DefaultTyping;
+ Lcom/fasterxml/jackson/databind/ObjectMapper$DefaultTyping;
+_subtypeValidator
+ Lcom/fasterxml/jackson/databind/jsontype/PolymorphicTypeValidator;
+ Lcom/fasterxml/jackson/databind/jsontype/PolymorphicTypeValidator;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/ObjectMapper$DefaultTypeResolverBuilder;Ljava/lang/Class<*>;)V
+ (Lcom/fasterxml/jackson/databind/ObjectMapper$DefaultTypeResolverBuilder;Ljava/lang/Class<*>;)V
+<init>
+ (Lcom/fasterxml/jackson/databind/ObjectMapper$DefaultTyping;)V
+ (Lcom/fasterxml/jackson/databind/ObjectMapper$DefaultTyping;)V
+<init>
+ (Lcom/fasterxml/jackson/databind/ObjectMapper$DefaultTyping;Lcom/fasterxml/jackson/databind/jsontype/PolymorphicTypeValidator;)V
+ (Lcom/fasterxml/jackson/databind/ObjectMapper$DefaultTyping;Lcom/fasterxml/jackson/databind/jsontype/PolymorphicTypeValidator;)V
+buildTypeDeserializer
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/JavaType;Ljava/util/Collection<Lcom/fasterxml/jackson/databind/jsontype/NamedType;>;)Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/JavaType;Ljava/util/Collection<Lcom/fasterxml/jackson/databind/jsontype/NamedType;>;)Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;
+buildTypeSerializer
+ (Lcom/fasterxml/jackson/databind/SerializationConfig;Lcom/fasterxml/jackson/databind/JavaType;Ljava/util/Collection<Lcom/fasterxml/jackson/databind/jsontype/NamedType;>;)Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;
+ (Lcom/fasterxml/jackson/databind/SerializationConfig;Lcom/fasterxml/jackson/databind/JavaType;Ljava/util/Collection<Lcom/fasterxml/jackson/databind/jsontype/NamedType;>;)Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;
+subTypeValidator
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;)Lcom/fasterxml/jackson/databind/jsontype/PolymorphicTypeValidator;
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;)Lcom/fasterxml/jackson/databind/jsontype/PolymorphicTypeValidator;
+useForType
+ (Lcom/fasterxml/jackson/databind/JavaType;)Z
+ (Lcom/fasterxml/jackson/databind/JavaType;)Z
+withDefaultImpl
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/ObjectMapper$DefaultTypeResolverBuilder;
+ (Ljava/lang/Class<*>;)L1com/fasterxml/jackson/databind/ObjectMapper$DefaultTypeResolverBuilder;

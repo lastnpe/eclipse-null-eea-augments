@@ -1,0 +1,42 @@
+class java/util/LinkedHashSet
+ <E:Ljava/lang/Object;>
+ <E:Ljava/lang/Object;>
+
+super java/util/HashSet
+ <TE;>
+ <TE;>
+super java/util/SequencedSet
+ <TE;>
+ <TE;>
+
+newLinkedHashSet
+ <T:Ljava/lang/Object;>(I)Ljava/util/LinkedHashSet<TT;>;
+ <T:Ljava/lang/Object;>(I)Ljava/util/LinkedHashSet<TT;>;
+
+<init>
+ (Ljava/util/Collection<+TE;>;)V
+ (Ljava/util/Collection<+TE;>;)V
+addFirst
+ (TE;)V
+ (TE;)V
+addLast
+ (TE;)V
+ (TE;)V
+getFirst
+ ()TE;
+ ()TE;
+getLast
+ ()TE;
+ ()TE;
+removeFirst
+ ()TE;
+ ()TE;
+removeLast
+ ()TE;
+ ()TE;
+reversed
+ ()Ljava/util/SequencedSet<TE;>;
+ ()Ljava/util/SequencedSet<TE;>;
+spliterator
+ ()Ljava/util/Spliterator<TE;>;
+ ()L1java/util/Spliterator<TE;>; # @Inherited(java.util.HashSet)

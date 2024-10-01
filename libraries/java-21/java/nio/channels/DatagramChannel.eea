@@ -1,0 +1,57 @@
+class java/nio/channels/DatagramChannel
+
+open
+ ()Ljava/nio/channels/DatagramChannel;
+ ()Ljava/nio/channels/DatagramChannel;
+open
+ (Ljava/net/ProtocolFamily;)Ljava/nio/channels/DatagramChannel;
+ (Ljava/net/ProtocolFamily;)Ljava/nio/channels/DatagramChannel;
+
+<init>
+ (Ljava/nio/channels/spi/SelectorProvider;)V
+ (Ljava/nio/channels/spi/SelectorProvider;)V
+bind
+ (Ljava/net/SocketAddress;)Ljava/nio/channels/DatagramChannel;
+ (Ljava/net/SocketAddress;)Ljava/nio/channels/DatagramChannel;
+connect
+ (Ljava/net/SocketAddress;)Ljava/nio/channels/DatagramChannel;
+ (Ljava/net/SocketAddress;)Ljava/nio/channels/DatagramChannel;
+disconnect
+ ()Ljava/nio/channels/DatagramChannel;
+ ()Ljava/nio/channels/DatagramChannel;
+getLocalAddress
+ ()Ljava/net/SocketAddress;
+ ()Ljava/net/SocketAddress;
+getRemoteAddress
+ ()Ljava/net/SocketAddress;
+ ()Ljava/net/SocketAddress;
+read
+ (Ljava/nio/ByteBuffer;)I
+ (L1java/nio/ByteBuffer;)I # @Inherited(java.nio.channels.ReadableByteChannel)
+read
+ ([Ljava/nio/ByteBuffer;)J
+ ([Ljava/nio/ByteBuffer;)J
+read
+ ([Ljava/nio/ByteBuffer;II)J
+ ([Ljava/nio/ByteBuffer;II)J
+receive
+ (Ljava/nio/ByteBuffer;)Ljava/net/SocketAddress;
+ (Ljava/nio/ByteBuffer;)Ljava/net/SocketAddress;
+send
+ (Ljava/nio/ByteBuffer;Ljava/net/SocketAddress;)I
+ (Ljava/nio/ByteBuffer;Ljava/net/SocketAddress;)I
+setOption
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/nio/channels/DatagramChannel;
+ <T:Ljava/lang/Object;>(Ljava/net/SocketOption<TT;>;TT;)Ljava/nio/channels/DatagramChannel;
+socket
+ ()Ljava/net/DatagramSocket;
+ ()Ljava/net/DatagramSocket;
+write
+ (Ljava/nio/ByteBuffer;)I
+ (L1java/nio/ByteBuffer;)I # @Inherited(java.nio.channels.WritableByteChannel)
+write
+ ([Ljava/nio/ByteBuffer;)J
+ ([Ljava/nio/ByteBuffer;)J
+write
+ ([Ljava/nio/ByteBuffer;II)J
+ ([Ljava/nio/ByteBuffer;II)J

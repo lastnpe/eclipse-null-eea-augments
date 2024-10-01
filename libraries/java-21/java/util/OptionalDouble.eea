@@ -1,0 +1,30 @@
+class java/util/OptionalDouble
+
+empty
+ ()Ljava/util/OptionalDouble;
+ ()Ljava/util/OptionalDouble;
+of
+ (D)Ljava/util/OptionalDouble;
+ (D)Ljava/util/OptionalDouble;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+ifPresent
+ (Ljava/util/function/DoubleConsumer;)V
+ (Ljava/util/function/DoubleConsumer;)V
+ifPresentOrElse
+ (Ljava/util/function/DoubleConsumer;Ljava/lang/Runnable;)V
+ (Ljava/util/function/DoubleConsumer;Ljava/lang/Runnable;)V
+orElseGet
+ (Ljava/util/function/DoubleSupplier;)D
+ (Ljava/util/function/DoubleSupplier;)D
+orElseThrow
+ <X:Ljava/lang/Throwable;>(Ljava/util/function/Supplier<+TX;>;)D^TX;
+ <X:Ljava/lang/Throwable;>(Ljava/util/function/Supplier<+TX;>;)D^TX;
+stream
+ ()Ljava/util/stream/DoubleStream;
+ ()Ljava/util/stream/DoubleStream;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

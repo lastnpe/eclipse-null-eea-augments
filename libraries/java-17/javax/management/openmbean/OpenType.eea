@@ -1,0 +1,32 @@
+class javax/management/openmbean/OpenType
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+ALLOWED_CLASSNAMES
+ [Ljava/lang/String;
+ [1Ljava/lang/String;
+ALLOWED_CLASSNAMES_LIST
+ Ljava/util/List<Ljava/lang/String;>;
+ L1java/util/List<Ljava/lang/String;>;
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getClassName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTypeName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+isValue
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

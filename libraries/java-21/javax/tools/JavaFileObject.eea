@@ -1,0 +1,14 @@
+class javax/tools/JavaFileObject
+
+getAccessLevel
+ ()Ljavax/lang/model/element/Modifier;
+ ()Ljavax/lang/model/element/Modifier;
+getKind
+ ()Ljavax/tools/JavaFileObject$Kind;
+ ()Ljavax/tools/JavaFileObject$Kind;
+getNestingKind
+ ()Ljavax/lang/model/element/NestingKind;
+ ()Ljavax/lang/model/element/NestingKind;
+isNameCompatible
+ (Ljava/lang/String;Ljavax/tools/JavaFileObject$Kind;)Z
+ (Ljava/lang/String;Ljavax/tools/JavaFileObject$Kind;)Z

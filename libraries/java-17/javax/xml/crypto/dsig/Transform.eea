@@ -1,0 +1,27 @@
+class javax/xml/crypto/dsig/Transform
+
+BASE64
+ Ljava/lang/String;
+ L1java/lang/String;
+ENVELOPED
+ Ljava/lang/String;
+ L1java/lang/String;
+XPATH
+ Ljava/lang/String;
+ L1java/lang/String;
+XPATH2
+ Ljava/lang/String;
+ L1java/lang/String;
+XSLT
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getParameterSpec
+ ()Ljava/security/spec/AlgorithmParameterSpec;
+ ()Ljava/security/spec/AlgorithmParameterSpec;
+transform
+ (Ljavax/xml/crypto/Data;Ljavax/xml/crypto/XMLCryptoContext;)Ljavax/xml/crypto/Data;
+ (Ljavax/xml/crypto/Data;Ljavax/xml/crypto/XMLCryptoContext;)Ljavax/xml/crypto/Data;
+transform
+ (Ljavax/xml/crypto/Data;Ljavax/xml/crypto/XMLCryptoContext;Ljava/io/OutputStream;)Ljavax/xml/crypto/Data;
+ (Ljavax/xml/crypto/Data;Ljavax/xml/crypto/XMLCryptoContext;Ljava/io/OutputStream;)Ljavax/xml/crypto/Data;

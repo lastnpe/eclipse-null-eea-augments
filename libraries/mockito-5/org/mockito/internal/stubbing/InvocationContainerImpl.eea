@@ -1,0 +1,44 @@
+class org/mockito/internal/stubbing/InvocationContainerImpl
+
+<init>
+ (Lorg/mockito/mock/MockCreationSettings<*>;)V
+ (Lorg/mockito/mock/MockCreationSettings<*>;)V
+addAnswer
+ (Lorg/mockito/stubbing/Answer<*>;Lorg/mockito/quality/Strictness;)V
+ (Lorg/mockito/stubbing/Answer<*>;Lorg/mockito/quality/Strictness;)V
+addAnswer
+ (Lorg/mockito/stubbing/Answer<*>;ZLorg/mockito/quality/Strictness;)Lorg/mockito/internal/stubbing/StubbedInvocationMatcher;
+ (Lorg/mockito/stubbing/Answer<*>;ZLorg/mockito/quality/Strictness;)Lorg/mockito/internal/stubbing/StubbedInvocationMatcher;
+addConsecutiveAnswer
+ (Lorg/mockito/stubbing/Answer<*>;)V
+ (Lorg/mockito/stubbing/Answer<*>;)V
+findAnswerFor
+ (Lorg/mockito/invocation/Invocation;)Lorg/mockito/internal/stubbing/StubbedInvocationMatcher;
+ (Lorg/mockito/invocation/Invocation;)Lorg/mockito/internal/stubbing/StubbedInvocationMatcher;
+findStubbedAnswer
+ ()Lorg/mockito/stubbing/Answer<*>;
+ ()Lorg/mockito/stubbing/Answer<*>;
+getInvocations
+ ()Ljava/util/List<Lorg/mockito/invocation/Invocation;>;
+ ()Ljava/util/List<Lorg/mockito/invocation/Invocation;>;
+getStubbingsAscending
+ ()Ljava/util/Collection<Lorg/mockito/stubbing/Stubbing;>;
+ ()Ljava/util/Collection<Lorg/mockito/stubbing/Stubbing;>;
+invokedMock
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+resetInvocationForPotentialStubbing
+ (Lorg/mockito/invocation/MatchableInvocation;)V
+ (Lorg/mockito/invocation/MatchableInvocation;)V
+setAnswersForStubbing
+ (Ljava/util/List<Lorg/mockito/stubbing/Answer<*>;>;Lorg/mockito/quality/Strictness;)V
+ (Ljava/util/List<Lorg/mockito/stubbing/Answer<*>;>;Lorg/mockito/quality/Strictness;)V
+setInvocationForPotentialStubbing
+ (Lorg/mockito/invocation/MatchableInvocation;)V
+ (Lorg/mockito/invocation/MatchableInvocation;)V
+setMethodForStubbing
+ (Lorg/mockito/invocation/MatchableInvocation;)V
+ (Lorg/mockito/invocation/MatchableInvocation;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

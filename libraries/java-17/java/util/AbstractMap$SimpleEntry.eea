@@ -1,0 +1,29 @@
+class java/util/AbstractMap$SimpleEntry
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super java/util/Map$Entry
+ <TK;TV;>
+ <TK;TV;>
+
+<init>
+ (Ljava/util/Map$Entry<+TK;+TV;>;)V
+ (Ljava/util/Map$Entry<+TK;+TV;>;)V
+<init>
+ (TK;TV;)V
+ (TK;TV;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getKey
+ ()TK;
+ ()TK;
+getValue
+ ()TV;
+ ()TV;
+setValue
+ (TV;)TV;
+ (TV;)TV;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

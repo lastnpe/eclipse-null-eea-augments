@@ -1,0 +1,56 @@
+class java/lang/reflect/Executable
+
+accessFlags
+ ()Ljava/util/Set<Ljava/lang/reflect/AccessFlag;>;
+ ()Ljava/util/Set<Ljava/lang/reflect/AccessFlag;>;
+getAnnotatedExceptionTypes
+ ()[Ljava/lang/reflect/AnnotatedType;
+ ()[1L1java/lang/reflect/AnnotatedType;
+getAnnotatedParameterTypes
+ ()[Ljava/lang/reflect/AnnotatedType;
+ ()[1L1java/lang/reflect/AnnotatedType;
+getAnnotatedReceiverType
+ ()Ljava/lang/reflect/AnnotatedType;
+ ()L0java/lang/reflect/AnnotatedType;
+getAnnotatedReturnType
+ ()Ljava/lang/reflect/AnnotatedType;
+ ()L1java/lang/reflect/AnnotatedType;
+getAnnotation
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)T0T; # @Inherited(java.lang.reflect.AccessibleObject)
+getAnnotationsByType
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/lang/annotation/Annotation;>(L1java/lang/Class<TT;>;)[1T1T; # @Inherited(java.lang.reflect.AccessibleObject)
+getDeclaredAnnotations
+ ()[Ljava/lang/annotation/Annotation;
+ ()[1L1java/lang/annotation/Annotation; # @Inherited(java.lang.reflect.AccessibleObject)
+getDeclaringClass
+ ()Ljava/lang/Class<*>;
+ ()L1java/lang/Class<*>; # @Inherited(java.lang.reflect.Member)
+getExceptionTypes
+ ()[Ljava/lang/Class<*>;
+ ()[1L1java/lang/Class<*>;
+getGenericExceptionTypes
+ ()[Ljava/lang/reflect/Type;
+ ()[1L1java/lang/reflect/Type;
+getGenericParameterTypes
+ ()[Ljava/lang/reflect/Type;
+ ()[1L1java/lang/reflect/Type;
+getName
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.reflect.Member)
+getParameterAnnotations
+ ()[[Ljava/lang/annotation/Annotation;
+ ()[1[1L1java/lang/annotation/Annotation;
+getParameterTypes
+ ()[Ljava/lang/Class<*>;
+ ()[1L1java/lang/Class<*>;
+getParameters
+ ()[Ljava/lang/reflect/Parameter;
+ ()[1L1java/lang/reflect/Parameter;
+getTypeParameters
+ ()[Ljava/lang/reflect/TypeVariable<*>;
+ ()[1L1java/lang/reflect/TypeVariable<*>; # @Inherited(java.lang.reflect.GenericDeclaration)
+toGenericString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;

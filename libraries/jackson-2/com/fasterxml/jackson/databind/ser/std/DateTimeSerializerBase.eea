@@ -1,0 +1,51 @@
+class com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+ <TT;>
+ <TT;>
+
+_customFormat
+ Ljava/text/DateFormat;
+ Ljava/text/DateFormat;
+_reusedCustomFormat
+ Ljava/util/concurrent/atomic/AtomicReference<Ljava/text/DateFormat;>;
+ Ljava/util/concurrent/atomic/AtomicReference<Ljava/text/DateFormat;>;
+_useTimestamp
+ Ljava/lang/Boolean;
+ Ljava/lang/Boolean;
+
+<init>
+ (Ljava/lang/Class<TT;>;Ljava/lang/Boolean;Ljava/text/DateFormat;)V
+ (Ljava/lang/Class<TT;>;Ljava/lang/Boolean;Ljava/text/DateFormat;)V
+_acceptJsonFormatVisitor
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;Z)V
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;Z)V
+_asTimestamp
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;)Z
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;)Z
+_serializeAsString
+ (Ljava/util/Date;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljava/util/Date;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+_timestamp
+ (TT;)J
+ (TT;)J
+acceptJsonFormatVisitor
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+createContextual
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/BeanProperty;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/BeanProperty;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+getSchema
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JsonNode;
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JsonNode;
+isEmpty
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;TT;)Z
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;TT;)Z
+serialize
+ (TT;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (TT;L1com/fasterxml/jackson/core/JsonGenerator;L1com/fasterxml/jackson/databind/SerializerProvider;)V # @Inherited(com.fasterxml.jackson.databind.ser.std.StdSerializer)
+withFormat
+ (Ljava/lang/Boolean;Ljava/text/DateFormat;)Lcom/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase<TT;>;
+ (Ljava/lang/Boolean;Ljava/text/DateFormat;)Lcom/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase<TT;>;

@@ -1,0 +1,30 @@
+class java/lang/module/Configuration
+
+empty
+ ()Ljava/lang/module/Configuration;
+ ()Ljava/lang/module/Configuration;
+resolve
+ (Ljava/lang/module/ModuleFinder;Ljava/util/List<Ljava/lang/module/Configuration;>;Ljava/lang/module/ModuleFinder;Ljava/util/Collection<Ljava/lang/String;>;)Ljava/lang/module/Configuration;
+ (Ljava/lang/module/ModuleFinder;Ljava/util/List<Ljava/lang/module/Configuration;>;Ljava/lang/module/ModuleFinder;Ljava/util/Collection<Ljava/lang/String;>;)Ljava/lang/module/Configuration;
+resolveAndBind
+ (Ljava/lang/module/ModuleFinder;Ljava/util/List<Ljava/lang/module/Configuration;>;Ljava/lang/module/ModuleFinder;Ljava/util/Collection<Ljava/lang/String;>;)Ljava/lang/module/Configuration;
+ (Ljava/lang/module/ModuleFinder;Ljava/util/List<Ljava/lang/module/Configuration;>;Ljava/lang/module/ModuleFinder;Ljava/util/Collection<Ljava/lang/String;>;)Ljava/lang/module/Configuration;
+
+findModule
+ (Ljava/lang/String;)Ljava/util/Optional<Ljava/lang/module/ResolvedModule;>;
+ (Ljava/lang/String;)Ljava/util/Optional<Ljava/lang/module/ResolvedModule;>;
+modules
+ ()Ljava/util/Set<Ljava/lang/module/ResolvedModule;>;
+ ()Ljava/util/Set<Ljava/lang/module/ResolvedModule;>;
+parents
+ ()Ljava/util/List<Ljava/lang/module/Configuration;>;
+ ()Ljava/util/List<Ljava/lang/module/Configuration;>;
+resolve
+ (Ljava/lang/module/ModuleFinder;Ljava/lang/module/ModuleFinder;Ljava/util/Collection<Ljava/lang/String;>;)Ljava/lang/module/Configuration;
+ (Ljava/lang/module/ModuleFinder;Ljava/lang/module/ModuleFinder;Ljava/util/Collection<Ljava/lang/String;>;)Ljava/lang/module/Configuration;
+resolveAndBind
+ (Ljava/lang/module/ModuleFinder;Ljava/lang/module/ModuleFinder;Ljava/util/Collection<Ljava/lang/String;>;)Ljava/lang/module/Configuration;
+ (Ljava/lang/module/ModuleFinder;Ljava/lang/module/ModuleFinder;Ljava/util/Collection<Ljava/lang/String;>;)Ljava/lang/module/Configuration;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

@@ -1,0 +1,23 @@
+class java/security/AlgorithmParametersSpi
+
+engineGetEncoded
+ ()[B
+ ()[B
+engineGetEncoded
+ (Ljava/lang/String;)[B
+ (Ljava/lang/String;)[B
+engineGetParameterSpec
+ <T::Ljava/security/spec/AlgorithmParameterSpec;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljava/security/spec/AlgorithmParameterSpec;>(Ljava/lang/Class<TT;>;)TT;
+engineInit
+ (Ljava/security/spec/AlgorithmParameterSpec;)V
+ (Ljava/security/spec/AlgorithmParameterSpec;)V
+engineInit
+ ([B)V
+ ([B)V
+engineInit
+ ([BLjava/lang/String;)V
+ ([BLjava/lang/String;)V
+engineToString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

@@ -1,0 +1,99 @@
+class javax/swing/JViewport
+
+backingStoreImage
+ Ljava/awt/Image;
+ Ljava/awt/Image;
+lastPaintPosition
+ Ljava/awt/Point;
+ Ljava/awt/Point;
+
+addChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V
+addImpl
+ (Ljava/awt/Component;Ljava/lang/Object;I)V
+ (Ljava/awt/Component;Ljava/lang/Object;I)V
+computeBlit
+ (IILjava/awt/Point;Ljava/awt/Point;Ljava/awt/Dimension;Ljava/awt/Rectangle;)Z
+ (IILjava/awt/Point;Ljava/awt/Point;Ljava/awt/Dimension;Ljava/awt/Rectangle;)Z
+createLayoutManager
+ ()Ljava/awt/LayoutManager;
+ ()Ljava/awt/LayoutManager;
+createViewListener
+ ()Ljavax/swing/JViewport$ViewListener;
+ ()Ljavax/swing/JViewport$ViewListener;
+firePropertyChange
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getChangeListeners
+ ()[Ljavax/swing/event/ChangeListener;
+ ()[Ljavax/swing/event/ChangeListener;
+getExtentSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getInsets
+ ()Ljava/awt/Insets;
+ ()Ljava/awt/Insets;
+getInsets
+ (Ljava/awt/Insets;)Ljava/awt/Insets;
+ (Ljava/awt/Insets;)Ljava/awt/Insets;
+getUI
+ ()Ljavax/swing/plaf/ViewportUI;
+ ()Ljavax/swing/plaf/ViewportUI;
+getUIClassID
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getView
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+getViewPosition
+ ()Ljava/awt/Point;
+ ()Ljava/awt/Point;
+getViewRect
+ ()Ljava/awt/Rectangle;
+ ()Ljava/awt/Rectangle;
+getViewSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+paint
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+remove
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+removeChangeListener
+ (Ljavax/swing/event/ChangeListener;)V
+ (L1javax/swing/event/ChangeListener;)V
+scrollRectToVisible
+ (Ljava/awt/Rectangle;)V
+ (Ljava/awt/Rectangle;)V
+setBorder
+ (Ljavax/swing/border/Border;)V
+ (Ljavax/swing/border/Border;)V
+setExtentSize
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V
+setUI
+ (Ljavax/swing/plaf/ViewportUI;)V
+ (Ljavax/swing/plaf/ViewportUI;)V
+setView
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+setViewPosition
+ (Ljava/awt/Point;)V
+ (Ljava/awt/Point;)V
+setViewSize
+ (Ljava/awt/Dimension;)V
+ (Ljava/awt/Dimension;)V
+toViewCoordinates
+ (Ljava/awt/Dimension;)Ljava/awt/Dimension;
+ (Ljava/awt/Dimension;)Ljava/awt/Dimension;
+toViewCoordinates
+ (Ljava/awt/Point;)Ljava/awt/Point;
+ (Ljava/awt/Point;)Ljava/awt/Point;

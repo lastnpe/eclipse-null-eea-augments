@@ -1,0 +1,76 @@
+class org/springframework/core/annotation/MergedAnnotations
+
+super java/lang/Iterable
+ <Lorg/springframework/core/annotation/MergedAnnotation<Ljava/lang/annotation/Annotation;>;>
+ <Lorg/springframework/core/annotation/MergedAnnotation<Ljava/lang/annotation/Annotation;>;>
+
+from
+ (Ljava/lang/Object;[Ljava/lang/annotation/Annotation;)Lorg/springframework/core/annotation/MergedAnnotations;
+ (Ljava/lang/Object;[Ljava/lang/annotation/Annotation;)Lorg/springframework/core/annotation/MergedAnnotations;
+from
+ (Ljava/lang/Object;[Ljava/lang/annotation/Annotation;Lorg/springframework/core/annotation/RepeatableContainers;)Lorg/springframework/core/annotation/MergedAnnotations;
+ (Ljava/lang/Object;[Ljava/lang/annotation/Annotation;Lorg/springframework/core/annotation/RepeatableContainers;)Lorg/springframework/core/annotation/MergedAnnotations;
+from
+ (Ljava/lang/Object;[Ljava/lang/annotation/Annotation;Lorg/springframework/core/annotation/RepeatableContainers;Lorg/springframework/core/annotation/AnnotationFilter;)Lorg/springframework/core/annotation/MergedAnnotations;
+ (Ljava/lang/Object;[Ljava/lang/annotation/Annotation;Lorg/springframework/core/annotation/RepeatableContainers;Lorg/springframework/core/annotation/AnnotationFilter;)Lorg/springframework/core/annotation/MergedAnnotations;
+from
+ (Ljava/lang/reflect/AnnotatedElement;)Lorg/springframework/core/annotation/MergedAnnotations;
+ (Ljava/lang/reflect/AnnotatedElement;)Lorg/springframework/core/annotation/MergedAnnotations;
+from
+ (Ljava/lang/reflect/AnnotatedElement;Lorg/springframework/core/annotation/MergedAnnotations$SearchStrategy;)Lorg/springframework/core/annotation/MergedAnnotations;
+ (Ljava/lang/reflect/AnnotatedElement;Lorg/springframework/core/annotation/MergedAnnotations$SearchStrategy;)Lorg/springframework/core/annotation/MergedAnnotations;
+from
+ (Ljava/lang/reflect/AnnotatedElement;Lorg/springframework/core/annotation/MergedAnnotations$SearchStrategy;Lorg/springframework/core/annotation/RepeatableContainers;)Lorg/springframework/core/annotation/MergedAnnotations;
+ (Ljava/lang/reflect/AnnotatedElement;Lorg/springframework/core/annotation/MergedAnnotations$SearchStrategy;Lorg/springframework/core/annotation/RepeatableContainers;)Lorg/springframework/core/annotation/MergedAnnotations;
+from
+ (Ljava/lang/reflect/AnnotatedElement;Lorg/springframework/core/annotation/MergedAnnotations$SearchStrategy;Lorg/springframework/core/annotation/RepeatableContainers;Lorg/springframework/core/annotation/AnnotationFilter;)Lorg/springframework/core/annotation/MergedAnnotations;
+ (Ljava/lang/reflect/AnnotatedElement;Lorg/springframework/core/annotation/MergedAnnotations$SearchStrategy;Lorg/springframework/core/annotation/RepeatableContainers;Lorg/springframework/core/annotation/AnnotationFilter;)Lorg/springframework/core/annotation/MergedAnnotations;
+from
+ ([Ljava/lang/annotation/Annotation;)Lorg/springframework/core/annotation/MergedAnnotations;
+ ([Ljava/lang/annotation/Annotation;)Lorg/springframework/core/annotation/MergedAnnotations;
+of
+ (Ljava/util/Collection<Lorg/springframework/core/annotation/MergedAnnotation<*>;>;)Lorg/springframework/core/annotation/MergedAnnotations;
+ (Ljava/util/Collection<Lorg/springframework/core/annotation/MergedAnnotation<*>;>;)Lorg/springframework/core/annotation/MergedAnnotations;
+search
+ (Lorg/springframework/core/annotation/MergedAnnotations$SearchStrategy;)Lorg/springframework/core/annotation/MergedAnnotations$Search;
+ (Lorg/springframework/core/annotation/MergedAnnotations$SearchStrategy;)Lorg/springframework/core/annotation/MergedAnnotations$Search;
+
+get
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+get
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;Ljava/util/function/Predicate<-Lorg/springframework/core/annotation/MergedAnnotation<TA;>;>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;Ljava/util/function/Predicate<-Lorg/springframework/core/annotation/MergedAnnotation<TA;>;>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+get
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;Ljava/util/function/Predicate<-Lorg/springframework/core/annotation/MergedAnnotation<TA;>;>;Lorg/springframework/core/annotation/MergedAnnotationSelector<TA;>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;Ljava/util/function/Predicate<-Lorg/springframework/core/annotation/MergedAnnotation<TA;>;>;Lorg/springframework/core/annotation/MergedAnnotationSelector<TA;>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+get
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/String;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/String;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+get
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/String;Ljava/util/function/Predicate<-Lorg/springframework/core/annotation/MergedAnnotation<TA;>;>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/String;Ljava/util/function/Predicate<-Lorg/springframework/core/annotation/MergedAnnotation<TA;>;>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+get
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/String;Ljava/util/function/Predicate<-Lorg/springframework/core/annotation/MergedAnnotation<TA;>;>;Lorg/springframework/core/annotation/MergedAnnotationSelector<TA;>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/String;Ljava/util/function/Predicate<-Lorg/springframework/core/annotation/MergedAnnotation<TA;>;>;Lorg/springframework/core/annotation/MergedAnnotationSelector<TA;>;)Lorg/springframework/core/annotation/MergedAnnotation<TA;>;
+isDirectlyPresent
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isDirectlyPresent
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Z
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Z
+isPresent
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isPresent
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Z
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Z
+stream
+ ()Ljava/util/stream/Stream<Lorg/springframework/core/annotation/MergedAnnotation<Ljava/lang/annotation/Annotation;>;>;
+ ()Ljava/util/stream/Stream<Lorg/springframework/core/annotation/MergedAnnotation<Ljava/lang/annotation/Annotation;>;>;
+stream
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Ljava/util/stream/Stream<Lorg/springframework/core/annotation/MergedAnnotation<TA;>;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)Ljava/util/stream/Stream<Lorg/springframework/core/annotation/MergedAnnotation<TA;>;>;
+stream
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/String;)Ljava/util/stream/Stream<Lorg/springframework/core/annotation/MergedAnnotation<TA;>;>;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/String;)Ljava/util/stream/Stream<Lorg/springframework/core/annotation/MergedAnnotation<TA;>;>;

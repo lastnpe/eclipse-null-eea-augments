@@ -1,0 +1,50 @@
+class javax/print/PrintService
+
+addPrintServiceAttributeListener
+ (Ljavax/print/event/PrintServiceAttributeListener;)V
+ (L1javax/print/event/PrintServiceAttributeListener;)V
+createPrintJob
+ ()Ljavax/print/DocPrintJob;
+ ()Ljavax/print/DocPrintJob;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAttribute
+ <T::Ljavax/print/attribute/PrintServiceAttribute;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljavax/print/attribute/PrintServiceAttribute;>(Ljava/lang/Class<TT;>;)TT;
+getAttributes
+ ()Ljavax/print/attribute/PrintServiceAttributeSet;
+ ()Ljavax/print/attribute/PrintServiceAttributeSet;
+getDefaultAttributeValue
+ (Ljava/lang/Class<+Ljavax/print/attribute/Attribute;>;)Ljava/lang/Object;
+ (Ljava/lang/Class<+Ljavax/print/attribute/Attribute;>;)Ljava/lang/Object;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getServiceUIFactory
+ ()Ljavax/print/ServiceUIFactory;
+ ()Ljavax/print/ServiceUIFactory;
+getSupportedAttributeCategories
+ ()[Ljava/lang/Class<*>;
+ ()[Ljava/lang/Class<*>;
+getSupportedAttributeValues
+ (Ljava/lang/Class<+Ljavax/print/attribute/Attribute;>;Ljavax/print/DocFlavor;Ljavax/print/attribute/AttributeSet;)Ljava/lang/Object;
+ (Ljava/lang/Class<+Ljavax/print/attribute/Attribute;>;Ljavax/print/DocFlavor;Ljavax/print/attribute/AttributeSet;)Ljava/lang/Object;
+getSupportedDocFlavors
+ ()[Ljavax/print/DocFlavor;
+ ()[Ljavax/print/DocFlavor;
+getUnsupportedAttributes
+ (Ljavax/print/DocFlavor;Ljavax/print/attribute/AttributeSet;)Ljavax/print/attribute/AttributeSet;
+ (Ljavax/print/DocFlavor;Ljavax/print/attribute/AttributeSet;)Ljavax/print/attribute/AttributeSet;
+isAttributeCategorySupported
+ (Ljava/lang/Class<+Ljavax/print/attribute/Attribute;>;)Z
+ (Ljava/lang/Class<+Ljavax/print/attribute/Attribute;>;)Z
+isAttributeValueSupported
+ (Ljavax/print/attribute/Attribute;Ljavax/print/DocFlavor;Ljavax/print/attribute/AttributeSet;)Z
+ (Ljavax/print/attribute/Attribute;Ljavax/print/DocFlavor;Ljavax/print/attribute/AttributeSet;)Z
+isDocFlavorSupported
+ (Ljavax/print/DocFlavor;)Z
+ (Ljavax/print/DocFlavor;)Z
+removePrintServiceAttributeListener
+ (Ljavax/print/event/PrintServiceAttributeListener;)V
+ (L1javax/print/event/PrintServiceAttributeListener;)V

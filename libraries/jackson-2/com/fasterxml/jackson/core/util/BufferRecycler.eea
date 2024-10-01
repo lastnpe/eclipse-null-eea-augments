@@ -1,0 +1,40 @@
+class com/fasterxml/jackson/core/util/BufferRecycler
+
+super com/fasterxml/jackson/core/util/RecyclerPool$WithPool
+ <Lcom/fasterxml/jackson/core/util/BufferRecycler;>
+ <Lcom/fasterxml/jackson/core/util/BufferRecycler;>
+
+_byteBuffers
+ Ljava/util/concurrent/atomic/AtomicReferenceArray<[B>;
+ Ljava/util/concurrent/atomic/AtomicReferenceArray<[B>;
+_charBuffers
+ Ljava/util/concurrent/atomic/AtomicReferenceArray<[C>;
+ Ljava/util/concurrent/atomic/AtomicReferenceArray<[C>;
+
+allocByteBuffer
+ (I)[B
+ (I)[B
+allocByteBuffer
+ (II)[B
+ (II)[B
+allocCharBuffer
+ (I)[C
+ (I)[C
+allocCharBuffer
+ (II)[C
+ (II)[C
+balloc
+ (I)[B
+ (I)[B
+calloc
+ (I)[C
+ (I)[C
+releaseByteBuffer
+ (I[B)V
+ (I[B)V
+releaseCharBuffer
+ (I[C)V
+ (I[C)V
+withPool
+ (Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;)Lcom/fasterxml/jackson/core/util/BufferRecycler;
+ (Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;)Lcom/fasterxml/jackson/core/util/BufferRecycler;

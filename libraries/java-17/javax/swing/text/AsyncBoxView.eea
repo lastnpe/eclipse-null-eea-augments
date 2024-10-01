@@ -1,0 +1,63 @@
+class javax/swing/text/AsyncBoxView
+
+locator
+ Ljavax/swing/text/AsyncBoxView$ChildLocator;
+ Ljavax/swing/text/AsyncBoxView$ChildLocator;
+
+<init>
+ (Ljavax/swing/text/Element;I)V
+ (Ljavax/swing/text/Element;I)V
+createChildState
+ (Ljavax/swing/text/View;)Ljavax/swing/text/AsyncBoxView$ChildState;
+ (Ljavax/swing/text/View;)Ljavax/swing/text/AsyncBoxView$ChildState;
+getChildAllocation
+ (ILjava/awt/Shape;)Ljava/awt/Shape;
+ (ILjava/awt/Shape;)Ljava/awt/Shape;
+getChildState
+ (I)Ljavax/swing/text/AsyncBoxView$ChildState;
+ (I)Ljavax/swing/text/AsyncBoxView$ChildState;
+getLayoutQueue
+ ()Ljavax/swing/text/LayoutQueue;
+ ()Ljavax/swing/text/LayoutQueue;
+getNextVisualPositionFrom
+ (ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;I[Ljavax/swing/text/Position$Bias;)I
+ (ILjavax/swing/text/Position$Bias;Ljava/awt/Shape;I[Ljavax/swing/text/Position$Bias;)I
+getView
+ (I)Ljavax/swing/text/View;
+ (I)Ljavax/swing/text/View;
+getViewIndex
+ (ILjavax/swing/text/Position$Bias;)I
+ (ILjavax/swing/text/Position$Bias;)I
+getViewIndexAtPosition
+ (ILjavax/swing/text/Position$Bias;)I
+ (ILjavax/swing/text/Position$Bias;)I
+loadChildren
+ (Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/text/ViewFactory;)V
+majorRequirementChange
+ (Ljavax/swing/text/AsyncBoxView$ChildState;F)V
+ (Ljavax/swing/text/AsyncBoxView$ChildState;F)V
+minorRequirementChange
+ (Ljavax/swing/text/AsyncBoxView$ChildState;)V
+ (Ljavax/swing/text/AsyncBoxView$ChildState;)V
+modelToView
+ (ILjava/awt/Shape;Ljavax/swing/text/Position$Bias;)Ljava/awt/Shape;
+ (ILjava/awt/Shape;Ljavax/swing/text/Position$Bias;)Ljava/awt/Shape;
+paint
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V
+preferenceChanged
+ (Ljavax/swing/text/View;ZZ)V
+ (Ljavax/swing/text/View;ZZ)V
+replace
+ (II[Ljavax/swing/text/View;)V
+ (II[Ljavax/swing/text/View;)V
+setParent
+ (Ljavax/swing/text/View;)V
+ (Ljavax/swing/text/View;)V
+updateLayout
+ (Ljavax/swing/event/DocumentEvent$ElementChange;Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;)V
+ (Ljavax/swing/event/DocumentEvent$ElementChange;Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;)V
+viewToModel
+ (FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I
+ (FFLjava/awt/Shape;[Ljavax/swing/text/Position$Bias;)I

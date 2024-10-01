@@ -1,0 +1,24 @@
+class com/fasterxml/jackson/core/util/RequestPayload
+
+_charset
+ Ljava/lang/String;
+ Ljava/lang/String;
+_payloadAsBytes
+ [B
+ [B
+_payloadAsText
+ Ljava/lang/CharSequence;
+ Ljava/lang/CharSequence;
+
+<init>
+ (Ljava/lang/CharSequence;)V
+ (Ljava/lang/CharSequence;)V
+<init>
+ ([BLjava/lang/String;)V
+ ([BLjava/lang/String;)V
+getRawPayload
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

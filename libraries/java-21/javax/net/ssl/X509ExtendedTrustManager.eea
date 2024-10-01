@@ -1,0 +1,14 @@
+class javax/net/ssl/X509ExtendedTrustManager
+
+checkClientTrusted
+ ([Ljava/security/cert/X509Certificate;Ljava/lang/String;Ljava/net/Socket;)V
+ ([Ljava/security/cert/X509Certificate;Ljava/lang/String;Ljava/net/Socket;)V
+checkClientTrusted
+ ([Ljava/security/cert/X509Certificate;Ljava/lang/String;Ljavax/net/ssl/SSLEngine;)V
+ ([Ljava/security/cert/X509Certificate;Ljava/lang/String;Ljavax/net/ssl/SSLEngine;)V
+checkServerTrusted
+ ([Ljava/security/cert/X509Certificate;Ljava/lang/String;Ljava/net/Socket;)V
+ ([Ljava/security/cert/X509Certificate;Ljava/lang/String;Ljava/net/Socket;)V
+checkServerTrusted
+ ([Ljava/security/cert/X509Certificate;Ljava/lang/String;Ljavax/net/ssl/SSLEngine;)V
+ ([Ljava/security/cert/X509Certificate;Ljava/lang/String;Ljavax/net/ssl/SSLEngine;)V

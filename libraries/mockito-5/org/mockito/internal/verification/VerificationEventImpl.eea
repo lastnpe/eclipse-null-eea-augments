@@ -1,0 +1,17 @@
+class org/mockito/internal/verification/VerificationEventImpl
+
+<init>
+ (Ljava/lang/Object;Lorg/mockito/verification/VerificationMode;Lorg/mockito/internal/verification/api/VerificationData;Ljava/lang/Throwable;)V
+ (Ljava/lang/Object;Lorg/mockito/verification/VerificationMode;Lorg/mockito/internal/verification/api/VerificationData;Ljava/lang/Throwable;)V
+getData
+ ()Lorg/mockito/internal/verification/api/VerificationData;
+ ()Lorg/mockito/internal/verification/api/VerificationData;
+getMock
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getMode
+ ()Lorg/mockito/verification/VerificationMode;
+ ()Lorg/mockito/verification/VerificationMode;
+getVerificationError
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;

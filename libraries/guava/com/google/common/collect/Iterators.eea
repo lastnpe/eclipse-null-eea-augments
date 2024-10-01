@@ -1,4 +1,20 @@
 class com/google/common/collect/Iterators
+
+addAll
+ <T:Ljava/lang/Object;>(Ljava/util/Collection<TT;>;Ljava/util/Iterator<+TT;>;)Z
+ <T:Ljava/lang/Object;>(Ljava/util/Collection<TT;>;Ljava/util/Iterator<+TT;>;)Z
+advance
+ (Ljava/util/Iterator<*>;I)I
+ (Ljava/util/Iterator<*>;I)I
+all
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;Lcom/google/common/base/Predicate<-TT;>;)Z
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;Lcom/google/common/base/Predicate<-TT;>;)Z
+any
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;Lcom/google/common/base/Predicate<-TT;>;)Z
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;Lcom/google/common/base/Predicate<-TT;>;)Z
+asEnumeration
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;)Ljava/util/Enumeration<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;)Ljava/util/Enumeration<TT;>;
 concat
  <T:Ljava/lang/Object;>(Ljava/util/Iterator<+Ljava/util/Iterator<+TT;>;>;)Ljava/util/Iterator<TT;>;
  <T:Ljava/lang/Object;>(Ljava/util/Iterator<+Ljava/util/Iterator<+TT;>;>;)L1java/util/Iterator<TT;>;
@@ -14,9 +30,114 @@ concat
 concat
  <T:Ljava/lang/Object;>([Ljava/util/Iterator<+TT;>;)Ljava/util/Iterator<TT;>;
  <T:Ljava/lang/Object;>([Ljava/util/Iterator<+TT;>;)L1java/util/Iterator<TT;>;
+consumingIterator
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;)Ljava/util/Iterator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;)Ljava/util/Iterator<TT;>;
+contains
+ (Ljava/util/Iterator<*>;Ljava/lang/Object;)Z
+ (Ljava/util/Iterator<*>;Ljava/lang/Object;)Z
 cycle
  <T:Ljava/lang/Object;>(Ljava/lang/Iterable<TT;>;)Ljava/util/Iterator<TT;>;
  <T:Ljava/lang/Object;>(Ljava/lang/Iterable<TT;>;)L1java/util/Iterator<TT;>;
 cycle
  <T:Ljava/lang/Object;>([TT;)Ljava/util/Iterator<TT;>;
  <T:Ljava/lang/Object;>([TT;)L1java/util/Iterator<TT;>;
+elementsEqual
+ (Ljava/util/Iterator<*>;Ljava/util/Iterator<*>;)Z
+ (Ljava/util/Iterator<*>;Ljava/util/Iterator<*>;)Z
+filter
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<*>;Ljava/lang/Class<TT;>;)Lcom/google/common/collect/UnmodifiableIterator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<*>;Ljava/lang/Class<TT;>;)Lcom/google/common/collect/UnmodifiableIterator<TT;>;
+filter
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;Lcom/google/common/base/Predicate<-TT;>;)Lcom/google/common/collect/UnmodifiableIterator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;Lcom/google/common/base/Predicate<-TT;>;)Lcom/google/common/collect/UnmodifiableIterator<TT;>;
+find
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+TT;>;Lcom/google/common/base/Predicate<-TT;>;TT;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+TT;>;Lcom/google/common/base/Predicate<-TT;>;TT;)T0T;
+find
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;Lcom/google/common/base/Predicate<-TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;Lcom/google/common/base/Predicate<-TT;>;)T1T;
+forArray
+ <T:Ljava/lang/Object;>([TT;)Lcom/google/common/collect/UnmodifiableIterator<TT;>;
+ <T:Ljava/lang/Object;>([TT;)Lcom/google/common/collect/UnmodifiableIterator<TT;>;
+forEnumeration
+ <T:Ljava/lang/Object;>(Ljava/util/Enumeration<TT;>;)Lcom/google/common/collect/UnmodifiableIterator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Enumeration<TT;>;)Lcom/google/common/collect/UnmodifiableIterator<TT;>;
+frequency
+ (Ljava/util/Iterator<*>;Ljava/lang/Object;)I
+ (Ljava/util/Iterator<*>;Ljava/lang/Object;)I
+get
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+TT;>;ITT;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+TT;>;ITT;)T1T;
+get
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;I)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;I)T1T;
+getLast
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+TT;>;TT;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+TT;>;TT;)T1T;
+getLast
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;)T1T;
+getNext
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+TT;>;TT;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+TT;>;TT;)T1T;
+getOnlyElement
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+TT;>;TT;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+TT;>;TT;)T1T;
+getOnlyElement
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;)T1T;
+indexOf
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;Lcom/google/common/base/Predicate<-TT;>;)I
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;Lcom/google/common/base/Predicate<-TT;>;)I
+limit
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;I)Ljava/util/Iterator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;I)Ljava/util/Iterator<TT;>;
+mergeSorted
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+Ljava/util/Iterator<+TT;>;>;Ljava/util/Comparator<-TT;>;)Lcom/google/common/collect/UnmodifiableIterator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+Ljava/util/Iterator<+TT;>;>;Ljava/util/Comparator<-TT;>;)Lcom/google/common/collect/UnmodifiableIterator<TT;>;
+paddedPartition
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;I)Lcom/google/common/collect/UnmodifiableIterator<Ljava/util/List<TT;>;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;I)Lcom/google/common/collect/UnmodifiableIterator<Ljava/util/List<TT;>;>;
+partition
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;I)Lcom/google/common/collect/UnmodifiableIterator<Ljava/util/List<TT;>;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;I)Lcom/google/common/collect/UnmodifiableIterator<Ljava/util/List<TT;>;>;
+peekingIterator
+ <T:Ljava/lang/Object;>(Lcom/google/common/collect/PeekingIterator<TT;>;)Lcom/google/common/collect/PeekingIterator<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/collect/PeekingIterator<TT;>;)Lcom/google/common/collect/PeekingIterator<TT;>;
+peekingIterator
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+TT;>;)Lcom/google/common/collect/PeekingIterator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+TT;>;)Lcom/google/common/collect/PeekingIterator<TT;>;
+removeAll
+ (Ljava/util/Iterator<*>;Ljava/util/Collection<*>;)Z
+ (Ljava/util/Iterator<*>;Ljava/util/Collection<*>;)Z
+removeIf
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;Lcom/google/common/base/Predicate<-TT;>;)Z
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;Lcom/google/common/base/Predicate<-TT;>;)Z
+retainAll
+ (Ljava/util/Iterator<*>;Ljava/util/Collection<*>;)Z
+ (Ljava/util/Iterator<*>;Ljava/util/Collection<*>;)Z
+singletonIterator
+ <T:Ljava/lang/Object;>(TT;)Lcom/google/common/collect/UnmodifiableIterator<TT;>;
+ <T:Ljava/lang/Object;>(TT;)Lcom/google/common/collect/UnmodifiableIterator<TT;>;
+size
+ (Ljava/util/Iterator<*>;)I
+ (Ljava/util/Iterator<*>;)I
+toArray
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+TT;>;Ljava/lang/Class<TT;>;)[TT;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+TT;>;Ljava/lang/Class<TT;>;)[TT;
+toString
+ (Ljava/util/Iterator<*>;)Ljava/lang/String;
+ (Ljava/util/Iterator<*>;)Ljava/lang/String;
+transform
+ <F:Ljava/lang/Object;T:Ljava/lang/Object;>(Ljava/util/Iterator<TF;>;Lcom/google/common/base/Function<-TF;+TT;>;)Ljava/util/Iterator<TT;>;
+ <F:Ljava/lang/Object;T:Ljava/lang/Object;>(Ljava/util/Iterator<TF;>;Lcom/google/common/base/Function<-TF;+TT;>;)Ljava/util/Iterator<TT;>;
+tryFind
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;Lcom/google/common/base/Predicate<-TT;>;)Lcom/google/common/base/Optional<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<TT;>;Lcom/google/common/base/Predicate<-TT;>;)Lcom/google/common/base/Optional<TT;>;
+unmodifiableIterator
+ <T:Ljava/lang/Object;>(Lcom/google/common/collect/UnmodifiableIterator<TT;>;)Lcom/google/common/collect/UnmodifiableIterator<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/collect/UnmodifiableIterator<TT;>;)Lcom/google/common/collect/UnmodifiableIterator<TT;>;
+unmodifiableIterator
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+TT;>;)Lcom/google/common/collect/UnmodifiableIterator<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Iterator<+TT;>;)Lcom/google/common/collect/UnmodifiableIterator<TT;>;

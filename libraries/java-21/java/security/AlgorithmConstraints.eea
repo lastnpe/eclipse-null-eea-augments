@@ -1,0 +1,11 @@
+class java/security/AlgorithmConstraints
+
+permits
+ (Ljava/util/Set<Ljava/security/CryptoPrimitive;>;Ljava/lang/String;Ljava/security/AlgorithmParameters;)Z
+ (Ljava/util/Set<Ljava/security/CryptoPrimitive;>;Ljava/lang/String;Ljava/security/AlgorithmParameters;)Z
+permits
+ (Ljava/util/Set<Ljava/security/CryptoPrimitive;>;Ljava/lang/String;Ljava/security/Key;Ljava/security/AlgorithmParameters;)Z
+ (Ljava/util/Set<Ljava/security/CryptoPrimitive;>;Ljava/lang/String;Ljava/security/Key;Ljava/security/AlgorithmParameters;)Z
+permits
+ (Ljava/util/Set<Ljava/security/CryptoPrimitive;>;Ljava/security/Key;)Z
+ (Ljava/util/Set<Ljava/security/CryptoPrimitive;>;Ljava/security/Key;)Z

@@ -1,0 +1,17 @@
+class org/springframework/beans/factory/xml/NamespaceHandlerSupport
+
+decorate
+ (Lorg/w3c/dom/Node;Lorg/springframework/beans/factory/config/BeanDefinitionHolder;Lorg/springframework/beans/factory/xml/ParserContext;)Lorg/springframework/beans/factory/config/BeanDefinitionHolder;
+ (Lorg/w3c/dom/Node;Lorg/springframework/beans/factory/config/BeanDefinitionHolder;Lorg/springframework/beans/factory/xml/ParserContext;)L0org/springframework/beans/factory/config/BeanDefinitionHolder; # @Inherited(org.springframework.beans.factory.xml.NamespaceHandler)
+parse
+ (Lorg/w3c/dom/Element;Lorg/springframework/beans/factory/xml/ParserContext;)Lorg/springframework/beans/factory/config/BeanDefinition;
+ (Lorg/w3c/dom/Element;Lorg/springframework/beans/factory/xml/ParserContext;)L0org/springframework/beans/factory/config/BeanDefinition; # @Inherited(org.springframework.beans.factory.xml.NamespaceHandler)
+registerBeanDefinitionDecorator
+ (Ljava/lang/String;Lorg/springframework/beans/factory/xml/BeanDefinitionDecorator;)V
+ (Ljava/lang/String;Lorg/springframework/beans/factory/xml/BeanDefinitionDecorator;)V
+registerBeanDefinitionDecoratorForAttribute
+ (Ljava/lang/String;Lorg/springframework/beans/factory/xml/BeanDefinitionDecorator;)V
+ (Ljava/lang/String;Lorg/springframework/beans/factory/xml/BeanDefinitionDecorator;)V
+registerBeanDefinitionParser
+ (Ljava/lang/String;Lorg/springframework/beans/factory/xml/BeanDefinitionParser;)V
+ (Ljava/lang/String;Lorg/springframework/beans/factory/xml/BeanDefinitionParser;)V

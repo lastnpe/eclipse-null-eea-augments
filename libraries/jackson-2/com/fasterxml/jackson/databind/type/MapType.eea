@@ -1,0 +1,45 @@
+class com/fasterxml/jackson/databind/type/MapType
+
+construct
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/MapType;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/MapType;
+construct
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/MapType;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/MapType;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/type/TypeBase;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/type/TypeBase;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)V
+refine
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(com.fasterxml.jackson.databind.type.MapLikeType)
+withContentType
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/JavaType;)L1com/fasterxml/jackson/databind/JavaType; # @Inherited(com.fasterxml.jackson.databind.type.MapLikeType)
+withContentTypeHandler
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/MapType;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/MapType;
+withContentValueHandler
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/MapType;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/MapType;
+withKeyType
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/MapType;
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/MapType;
+withKeyTypeHandler
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/MapType;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/MapType;
+withKeyValueHandler
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/MapType;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/MapType;
+withStaticTyping
+ ()Lcom/fasterxml/jackson/databind/type/MapType;
+ ()Lcom/fasterxml/jackson/databind/type/MapType;
+withTypeHandler
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/MapType;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/MapType;
+withValueHandler
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/MapType;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/MapType;

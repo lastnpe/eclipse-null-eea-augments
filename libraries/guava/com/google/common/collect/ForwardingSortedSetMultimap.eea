@@ -1,0 +1,26 @@
+class com/google/common/collect/ForwardingSortedSetMultimap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super com/google/common/collect/ForwardingSetMultimap
+ <TK;TV;>
+ <TK;TV;>
+super com/google/common/collect/SortedSetMultimap
+ <TK;TV;>
+ <TK;TV;>
+
+delegate
+ ()Lcom/google/common/collect/SortedSetMultimap<TK;TV;>;
+ ()Lcom/google/common/collect/SortedSetMultimap<TK;TV;>;
+get
+ (TK;)Ljava/util/SortedSet<TV;>;
+ (TK;)Ljava/util/SortedSet<TV;>;
+removeAll
+ (Ljava/lang/Object;)Ljava/util/SortedSet<TV;>;
+ (Ljava/lang/Object;)Ljava/util/SortedSet<TV;>;
+replaceValues
+ (TK;Ljava/lang/Iterable<+TV;>;)Ljava/util/SortedSet<TV;>;
+ (TK;Ljava/lang/Iterable<+TV;>;)Ljava/util/SortedSet<TV;>;
+valueComparator
+ ()Ljava/util/Comparator<-TV;>;
+ ()L0java/util/Comparator<-TV;>; # @Inherited(com.google.common.collect.SortedSetMultimap)

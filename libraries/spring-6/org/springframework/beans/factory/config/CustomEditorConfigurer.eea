@@ -1,0 +1,15 @@
+class org/springframework/beans/factory/config/CustomEditorConfigurer
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+postProcessBeanFactory
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+setCustomEditors
+ (Ljava/util/Map<Ljava/lang/Class<*>;Ljava/lang/Class<+Ljava/beans/PropertyEditor;>;>;)V
+ (Ljava/util/Map<Ljava/lang/Class<*>;Ljava/lang/Class<+Ljava/beans/PropertyEditor;>;>;)V
+setPropertyEditorRegistrars
+ ([Lorg/springframework/beans/PropertyEditorRegistrar;)V
+ ([Lorg/springframework/beans/PropertyEditorRegistrar;)V

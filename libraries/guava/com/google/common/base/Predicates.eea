@@ -1,0 +1,56 @@
+class com/google/common/base/Predicates
+
+alwaysFalse
+ <T:Ljava/lang/Object;>()Lcom/google/common/base/Predicate<TT;>;
+ <T:Ljava/lang/Object;>()Lcom/google/common/base/Predicate<TT;>;
+alwaysTrue
+ <T:Ljava/lang/Object;>()Lcom/google/common/base/Predicate<TT;>;
+ <T:Ljava/lang/Object;>()Lcom/google/common/base/Predicate<TT;>;
+and
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Predicate<-TT;>;Lcom/google/common/base/Predicate<-TT;>;)Lcom/google/common/base/Predicate<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Predicate<-TT;>;Lcom/google/common/base/Predicate<-TT;>;)Lcom/google/common/base/Predicate<TT;>;
+and
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+Lcom/google/common/base/Predicate<-TT;>;>;)Lcom/google/common/base/Predicate<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+Lcom/google/common/base/Predicate<-TT;>;>;)Lcom/google/common/base/Predicate<TT;>;
+and
+ <T:Ljava/lang/Object;>([Lcom/google/common/base/Predicate<-TT;>;)Lcom/google/common/base/Predicate<TT;>;
+ <T:Ljava/lang/Object;>([Lcom/google/common/base/Predicate<-TT;>;)Lcom/google/common/base/Predicate<TT;>;
+compose
+ <A:Ljava/lang/Object;B:Ljava/lang/Object;>(Lcom/google/common/base/Predicate<TB;>;Lcom/google/common/base/Function<TA;+TB;>;)Lcom/google/common/base/Predicate<TA;>;
+ <A:Ljava/lang/Object;B:Ljava/lang/Object;>(Lcom/google/common/base/Predicate<TB;>;Lcom/google/common/base/Function<TA;+TB;>;)Lcom/google/common/base/Predicate<TA;>;
+contains
+ (Ljava/util/regex/Pattern;)Lcom/google/common/base/Predicate<Ljava/lang/CharSequence;>;
+ (Ljava/util/regex/Pattern;)Lcom/google/common/base/Predicate<Ljava/lang/CharSequence;>;
+containsPattern
+ (Ljava/lang/String;)Lcom/google/common/base/Predicate<Ljava/lang/CharSequence;>;
+ (Ljava/lang/String;)Lcom/google/common/base/Predicate<Ljava/lang/CharSequence;>;
+equalTo
+ <T:Ljava/lang/Object;>(TT;)Lcom/google/common/base/Predicate<TT;>;
+ <T:Ljava/lang/Object;>(TT;)Lcom/google/common/base/Predicate<TT;>;
+in
+ <T:Ljava/lang/Object;>(Ljava/util/Collection<+TT;>;)Lcom/google/common/base/Predicate<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Collection<+TT;>;)Lcom/google/common/base/Predicate<TT;>;
+instanceOf
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<*>;)Lcom/google/common/base/Predicate<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<*>;)Lcom/google/common/base/Predicate<TT;>;
+isNull
+ <T:Ljava/lang/Object;>()Lcom/google/common/base/Predicate<TT;>;
+ <T:Ljava/lang/Object;>()Lcom/google/common/base/Predicate<TT;>;
+not
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Predicate<TT;>;)Lcom/google/common/base/Predicate<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Predicate<TT;>;)Lcom/google/common/base/Predicate<TT;>;
+notNull
+ <T:Ljava/lang/Object;>()Lcom/google/common/base/Predicate<TT;>;
+ <T:Ljava/lang/Object;>()Lcom/google/common/base/Predicate<TT;>;
+or
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Predicate<-TT;>;Lcom/google/common/base/Predicate<-TT;>;)Lcom/google/common/base/Predicate<TT;>;
+ <T:Ljava/lang/Object;>(Lcom/google/common/base/Predicate<-TT;>;Lcom/google/common/base/Predicate<-TT;>;)Lcom/google/common/base/Predicate<TT;>;
+or
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+Lcom/google/common/base/Predicate<-TT;>;>;)Lcom/google/common/base/Predicate<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Iterable<+Lcom/google/common/base/Predicate<-TT;>;>;)Lcom/google/common/base/Predicate<TT;>;
+or
+ <T:Ljava/lang/Object;>([Lcom/google/common/base/Predicate<-TT;>;)Lcom/google/common/base/Predicate<TT;>;
+ <T:Ljava/lang/Object;>([Lcom/google/common/base/Predicate<-TT;>;)Lcom/google/common/base/Predicate<TT;>;
+subtypeOf
+ (Ljava/lang/Class<*>;)Lcom/google/common/base/Predicate<Ljava/lang/Class<*>;>;
+ (Ljava/lang/Class<*>;)Lcom/google/common/base/Predicate<Ljava/lang/Class<*>;>;

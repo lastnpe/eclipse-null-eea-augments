@@ -1,0 +1,85 @@
+class com/fasterxml/jackson/databind/node/JsonNodeFactory
+
+instance
+ Lcom/fasterxml/jackson/databind/node/JsonNodeFactory;
+ L1com/fasterxml/jackson/databind/node/JsonNodeFactory;
+
+withExactBigDecimals
+ (Z)Lcom/fasterxml/jackson/databind/node/JsonNodeFactory;
+ (Z)Lcom/fasterxml/jackson/databind/node/JsonNodeFactory;
+
+arrayNode
+ ()Lcom/fasterxml/jackson/databind/node/ArrayNode;
+ ()Lcom/fasterxml/jackson/databind/node/ArrayNode;
+arrayNode
+ (I)Lcom/fasterxml/jackson/databind/node/ArrayNode;
+ (I)Lcom/fasterxml/jackson/databind/node/ArrayNode;
+binaryNode
+ ([B)Lcom/fasterxml/jackson/databind/node/BinaryNode;
+ ([B)Lcom/fasterxml/jackson/databind/node/BinaryNode;
+binaryNode
+ ([BII)Lcom/fasterxml/jackson/databind/node/BinaryNode;
+ ([BII)Lcom/fasterxml/jackson/databind/node/BinaryNode;
+booleanNode
+ (Z)Lcom/fasterxml/jackson/databind/node/BooleanNode;
+ (Z)Lcom/fasterxml/jackson/databind/node/BooleanNode;
+missingNode
+ ()Lcom/fasterxml/jackson/databind/JsonNode;
+ ()Lcom/fasterxml/jackson/databind/JsonNode;
+nullNode
+ ()Lcom/fasterxml/jackson/databind/node/NullNode;
+ ()Lcom/fasterxml/jackson/databind/node/NullNode;
+numberNode
+ (B)Lcom/fasterxml/jackson/databind/node/NumericNode;
+ (B)Lcom/fasterxml/jackson/databind/node/NumericNode;
+numberNode
+ (D)Lcom/fasterxml/jackson/databind/node/NumericNode;
+ (D)Lcom/fasterxml/jackson/databind/node/NumericNode;
+numberNode
+ (F)Lcom/fasterxml/jackson/databind/node/NumericNode;
+ (F)Lcom/fasterxml/jackson/databind/node/NumericNode;
+numberNode
+ (I)Lcom/fasterxml/jackson/databind/node/NumericNode;
+ (I)Lcom/fasterxml/jackson/databind/node/NumericNode;
+numberNode
+ (J)Lcom/fasterxml/jackson/databind/node/NumericNode;
+ (J)Lcom/fasterxml/jackson/databind/node/NumericNode;
+numberNode
+ (Ljava/lang/Byte;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+ (Ljava/lang/Byte;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+numberNode
+ (Ljava/lang/Double;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+ (Ljava/lang/Double;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+numberNode
+ (Ljava/lang/Float;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+ (Ljava/lang/Float;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+numberNode
+ (Ljava/lang/Integer;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+ (Ljava/lang/Integer;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+numberNode
+ (Ljava/lang/Long;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+ (Ljava/lang/Long;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+numberNode
+ (Ljava/lang/Short;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+ (Ljava/lang/Short;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+numberNode
+ (Ljava/math/BigDecimal;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+ (Ljava/math/BigDecimal;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+numberNode
+ (Ljava/math/BigInteger;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+ (Ljava/math/BigInteger;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+numberNode
+ (S)Lcom/fasterxml/jackson/databind/node/NumericNode;
+ (S)Lcom/fasterxml/jackson/databind/node/NumericNode;
+objectNode
+ ()Lcom/fasterxml/jackson/databind/node/ObjectNode;
+ ()Lcom/fasterxml/jackson/databind/node/ObjectNode;
+pojoNode
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+rawValueNode
+ (Lcom/fasterxml/jackson/databind/util/RawValue;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+ (Lcom/fasterxml/jackson/databind/util/RawValue;)Lcom/fasterxml/jackson/databind/node/ValueNode;
+textNode
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/node/TextNode;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/node/TextNode;

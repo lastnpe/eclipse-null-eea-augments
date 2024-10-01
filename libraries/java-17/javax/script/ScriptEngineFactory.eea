@@ -1,0 +1,38 @@
+class javax/script/ScriptEngineFactory
+
+getEngineName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getEngineVersion
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getExtensions
+ ()Ljava/util/List<Ljava/lang/String;>;
+ ()Ljava/util/List<Ljava/lang/String;>;
+getLanguageName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getLanguageVersion
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMethodCallSyntax
+ (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;
+getMimeTypes
+ ()Ljava/util/List<Ljava/lang/String;>;
+ ()Ljava/util/List<Ljava/lang/String;>;
+getNames
+ ()Ljava/util/List<Ljava/lang/String;>;
+ ()Ljava/util/List<Ljava/lang/String;>;
+getOutputStatement
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getParameter
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getProgram
+ ([Ljava/lang/String;)Ljava/lang/String;
+ ([Ljava/lang/String;)Ljava/lang/String;
+getScriptEngine
+ ()Ljavax/script/ScriptEngine;
+ ()Ljavax/script/ScriptEngine;

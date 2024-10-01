@@ -1,0 +1,14 @@
+class org/springframework/beans/factory/config/CustomScopeConfigurer
+
+addScope
+ (Ljava/lang/String;Lorg/springframework/beans/factory/config/Scope;)V
+ (Ljava/lang/String;Lorg/springframework/beans/factory/config/Scope;)V
+postProcessBeanFactory
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setScopes
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V

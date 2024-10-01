@@ -1,0 +1,58 @@
+class com/fasterxml/jackson/core/json/JsonGeneratorImpl
+
+JSON_WRITE_CAPABILITIES
+ Lcom/fasterxml/jackson/core/util/JacksonFeatureSet<Lcom/fasterxml/jackson/core/StreamWriteCapability;>;
+ L1com/fasterxml/jackson/core/util/JacksonFeatureSet<Lcom/fasterxml/jackson/core/StreamWriteCapability;>;
+sOutputEscapes
+ [I
+ [1I
+
+_characterEscapes
+ Lcom/fasterxml/jackson/core/io/CharacterEscapes;
+ Lcom/fasterxml/jackson/core/io/CharacterEscapes;
+_outputEscapes
+ [I
+ [I
+_rootValueSeparator
+ Lcom/fasterxml/jackson/core/SerializableString;
+ Lcom/fasterxml/jackson/core/SerializableString;
+_streamWriteConstraints
+ Lcom/fasterxml/jackson/core/StreamWriteConstraints;
+ Lcom/fasterxml/jackson/core/StreamWriteConstraints;
+
+<init>
+ (Lcom/fasterxml/jackson/core/io/IOContext;ILcom/fasterxml/jackson/core/ObjectCodec;)V
+ (Lcom/fasterxml/jackson/core/io/IOContext;ILcom/fasterxml/jackson/core/ObjectCodec;)V
+_reportCantWriteValueExpectName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+_verifyPrettyValueWrite
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+disable
+ (Lcom/fasterxml/jackson/core/JsonGenerator$Feature;)Lcom/fasterxml/jackson/core/JsonGenerator;
+ (Lcom/fasterxml/jackson/core/JsonGenerator$Feature;)Lcom/fasterxml/jackson/core/JsonGenerator;
+enable
+ (Lcom/fasterxml/jackson/core/JsonGenerator$Feature;)Lcom/fasterxml/jackson/core/JsonGenerator;
+ (Lcom/fasterxml/jackson/core/JsonGenerator$Feature;)Lcom/fasterxml/jackson/core/JsonGenerator;
+getCharacterEscapes
+ ()Lcom/fasterxml/jackson/core/io/CharacterEscapes;
+ ()Lcom/fasterxml/jackson/core/io/CharacterEscapes;
+getWriteCapabilities
+ ()Lcom/fasterxml/jackson/core/util/JacksonFeatureSet<Lcom/fasterxml/jackson/core/StreamWriteCapability;>;
+ ()Lcom/fasterxml/jackson/core/util/JacksonFeatureSet<Lcom/fasterxml/jackson/core/StreamWriteCapability;>;
+setCharacterEscapes
+ (Lcom/fasterxml/jackson/core/io/CharacterEscapes;)Lcom/fasterxml/jackson/core/JsonGenerator;
+ (Lcom/fasterxml/jackson/core/io/CharacterEscapes;)Lcom/fasterxml/jackson/core/JsonGenerator;
+setHighestNonEscapedChar
+ (I)Lcom/fasterxml/jackson/core/JsonGenerator;
+ (I)Lcom/fasterxml/jackson/core/JsonGenerator;
+setRootValueSeparator
+ (Lcom/fasterxml/jackson/core/SerializableString;)Lcom/fasterxml/jackson/core/JsonGenerator;
+ (Lcom/fasterxml/jackson/core/SerializableString;)Lcom/fasterxml/jackson/core/JsonGenerator;
+streamWriteConstraints
+ ()Lcom/fasterxml/jackson/core/StreamWriteConstraints;
+ ()Lcom/fasterxml/jackson/core/StreamWriteConstraints;
+version
+ ()Lcom/fasterxml/jackson/core/Version;
+ ()Lcom/fasterxml/jackson/core/Version;

@@ -1,0 +1,48 @@
+class javax/naming/LinkException
+
+linkExplanation
+ Ljava/lang/String;
+ Ljava/lang/String;
+linkRemainingName
+ Ljavax/naming/Name;
+ Ljavax/naming/Name;
+linkResolvedName
+ Ljavax/naming/Name;
+ Ljavax/naming/Name;
+linkResolvedObj
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+
+<init>
+ (Ljava/lang/String;)V
+ (L0java/lang/String;)V
+getLinkExplanation
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getLinkRemainingName
+ ()Ljavax/naming/Name;
+ ()Ljavax/naming/Name;
+getLinkResolvedName
+ ()Ljavax/naming/Name;
+ ()Ljavax/naming/Name;
+getLinkResolvedObj
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+setLinkExplanation
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setLinkRemainingName
+ (Ljavax/naming/Name;)V
+ (Ljavax/naming/Name;)V
+setLinkResolvedName
+ (Ljavax/naming/Name;)V
+ (Ljavax/naming/Name;)V
+setLinkResolvedObj
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.naming.NamingException)
+toString
+ (Z)Ljava/lang/String;
+ (Z)Ljava/lang/String;

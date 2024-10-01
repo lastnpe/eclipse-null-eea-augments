@@ -1,0 +1,40 @@
+class com/fasterxml/jackson/databind/ObjectWriter$GeneratorSettings
+
+empty
+ Lcom/fasterxml/jackson/databind/ObjectWriter$GeneratorSettings;
+ L1com/fasterxml/jackson/databind/ObjectWriter$GeneratorSettings;
+
+characterEscapes
+ Lcom/fasterxml/jackson/core/io/CharacterEscapes;
+ Lcom/fasterxml/jackson/core/io/CharacterEscapes;
+prettyPrinter
+ Lcom/fasterxml/jackson/core/PrettyPrinter;
+ Lcom/fasterxml/jackson/core/PrettyPrinter;
+rootValueSeparator
+ Lcom/fasterxml/jackson/core/SerializableString;
+ Lcom/fasterxml/jackson/core/SerializableString;
+schema
+ Lcom/fasterxml/jackson/core/FormatSchema;
+ Lcom/fasterxml/jackson/core/FormatSchema;
+
+<init>
+ (Lcom/fasterxml/jackson/core/PrettyPrinter;Lcom/fasterxml/jackson/core/FormatSchema;Lcom/fasterxml/jackson/core/io/CharacterEscapes;Lcom/fasterxml/jackson/core/SerializableString;)V
+ (Lcom/fasterxml/jackson/core/PrettyPrinter;Lcom/fasterxml/jackson/core/FormatSchema;Lcom/fasterxml/jackson/core/io/CharacterEscapes;Lcom/fasterxml/jackson/core/SerializableString;)V
+initialize
+ (Lcom/fasterxml/jackson/core/JsonGenerator;)V
+ (Lcom/fasterxml/jackson/core/JsonGenerator;)V
+with
+ (Lcom/fasterxml/jackson/core/FormatSchema;)Lcom/fasterxml/jackson/databind/ObjectWriter$GeneratorSettings;
+ (Lcom/fasterxml/jackson/core/FormatSchema;)Lcom/fasterxml/jackson/databind/ObjectWriter$GeneratorSettings;
+with
+ (Lcom/fasterxml/jackson/core/PrettyPrinter;)Lcom/fasterxml/jackson/databind/ObjectWriter$GeneratorSettings;
+ (Lcom/fasterxml/jackson/core/PrettyPrinter;)Lcom/fasterxml/jackson/databind/ObjectWriter$GeneratorSettings;
+with
+ (Lcom/fasterxml/jackson/core/io/CharacterEscapes;)Lcom/fasterxml/jackson/databind/ObjectWriter$GeneratorSettings;
+ (Lcom/fasterxml/jackson/core/io/CharacterEscapes;)Lcom/fasterxml/jackson/databind/ObjectWriter$GeneratorSettings;
+withRootValueSeparator
+ (Lcom/fasterxml/jackson/core/SerializableString;)Lcom/fasterxml/jackson/databind/ObjectWriter$GeneratorSettings;
+ (Lcom/fasterxml/jackson/core/SerializableString;)Lcom/fasterxml/jackson/databind/ObjectWriter$GeneratorSettings;
+withRootValueSeparator
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/ObjectWriter$GeneratorSettings;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/ObjectWriter$GeneratorSettings;

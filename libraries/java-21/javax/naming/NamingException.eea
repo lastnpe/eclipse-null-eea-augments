@@ -1,0 +1,63 @@
+class javax/naming/NamingException
+
+remainingName
+ Ljavax/naming/Name;
+ Ljavax/naming/Name;
+resolvedName
+ Ljavax/naming/Name;
+ Ljavax/naming/Name;
+resolvedObj
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+rootException
+ Ljava/lang/Throwable;
+ Ljava/lang/Throwable;
+
+<init>
+ (Ljava/lang/String;)V
+ (L0java/lang/String;)V
+appendRemainingComponent
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+appendRemainingName
+ (Ljavax/naming/Name;)V
+ (Ljavax/naming/Name;)V
+getCause
+ ()Ljava/lang/Throwable;
+ ()L0java/lang/Throwable; # @Inherited(java.lang.Throwable)
+getExplanation
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRemainingName
+ ()Ljavax/naming/Name;
+ ()Ljavax/naming/Name;
+getResolvedName
+ ()Ljavax/naming/Name;
+ ()Ljavax/naming/Name;
+getResolvedObj
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getRootCause
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
+initCause
+ (Ljava/lang/Throwable;)Ljava/lang/Throwable;
+ (L0java/lang/Throwable;)Ljava/lang/Throwable; # @Inherited(java.lang.Throwable)
+setRemainingName
+ (Ljavax/naming/Name;)V
+ (Ljavax/naming/Name;)V
+setResolvedName
+ (Ljavax/naming/Name;)V
+ (Ljavax/naming/Name;)V
+setResolvedObj
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setRootCause
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Throwable)
+toString
+ (Z)Ljava/lang/String;
+ (Z)Ljava/lang/String;

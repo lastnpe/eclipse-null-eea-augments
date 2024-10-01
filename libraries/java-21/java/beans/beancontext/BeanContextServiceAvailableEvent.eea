@@ -1,0 +1,18 @@
+class java/beans/beancontext/BeanContextServiceAvailableEvent
+
+serviceClass
+ Ljava/lang/Class<*>;
+ Ljava/lang/Class<*>;
+
+<init>
+ (Ljava/beans/beancontext/BeanContextServices;Ljava/lang/Class<*>;)V
+ (Ljava/beans/beancontext/BeanContextServices;Ljava/lang/Class<*>;)V
+getCurrentServiceSelectors
+ ()Ljava/util/Iterator<*>;
+ ()Ljava/util/Iterator<*>;
+getServiceClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getSourceAsBeanContextServices
+ ()Ljava/beans/beancontext/BeanContextServices;
+ ()Ljava/beans/beancontext/BeanContextServices;

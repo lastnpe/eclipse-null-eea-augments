@@ -1,0 +1,145 @@
+class javax/swing/plaf/basic/BasicComboBoxUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+arrowButton
+ Ljavax/swing/JButton;
+ Ljavax/swing/JButton;
+cachedMinimumSize
+ Ljava/awt/Dimension;
+ Ljava/awt/Dimension;
+comboBox
+ Ljavax/swing/JComboBox<Ljava/lang/Object;>;
+ Ljavax/swing/JComboBox<Ljava/lang/Object;>;
+currentValuePane
+ Ljavax/swing/CellRendererPane;
+ Ljavax/swing/CellRendererPane;
+editor
+ Ljava/awt/Component;
+ Ljava/awt/Component;
+focusListener
+ Ljava/awt/event/FocusListener;
+ Ljava/awt/event/FocusListener;
+itemListener
+ Ljava/awt/event/ItemListener;
+ Ljava/awt/event/ItemListener;
+keyListener
+ Ljava/awt/event/KeyListener;
+ Ljava/awt/event/KeyListener;
+listBox
+ Ljavax/swing/JList<Ljava/lang/Object;>;
+ Ljavax/swing/JList<Ljava/lang/Object;>;
+listDataListener
+ Ljavax/swing/event/ListDataListener;
+ Ljavax/swing/event/ListDataListener;
+padding
+ Ljava/awt/Insets;
+ Ljava/awt/Insets;
+popup
+ Ljavax/swing/plaf/basic/ComboPopup;
+ Ljavax/swing/plaf/basic/ComboPopup;
+popupKeyListener
+ Ljava/awt/event/KeyListener;
+ Ljava/awt/event/KeyListener;
+popupMouseListener
+ Ljava/awt/event/MouseListener;
+ Ljava/awt/event/MouseListener;
+popupMouseMotionListener
+ Ljava/awt/event/MouseMotionListener;
+ Ljava/awt/event/MouseMotionListener;
+propertyChangeListener
+ Ljava/beans/PropertyChangeListener;
+ Ljava/beans/PropertyChangeListener;
+
+createArrowButton
+ ()Ljavax/swing/JButton;
+ ()Ljavax/swing/JButton;
+createEditor
+ ()Ljavax/swing/ComboBoxEditor;
+ ()Ljavax/swing/ComboBoxEditor;
+createFocusListener
+ ()Ljava/awt/event/FocusListener;
+ ()Ljava/awt/event/FocusListener;
+createItemListener
+ ()Ljava/awt/event/ItemListener;
+ ()Ljava/awt/event/ItemListener;
+createKeyListener
+ ()Ljava/awt/event/KeyListener;
+ ()Ljava/awt/event/KeyListener;
+createLayoutManager
+ ()Ljava/awt/LayoutManager;
+ ()Ljava/awt/LayoutManager;
+createListDataListener
+ ()Ljavax/swing/event/ListDataListener;
+ ()Ljavax/swing/event/ListDataListener;
+createPopup
+ ()Ljavax/swing/plaf/basic/ComboPopup;
+ ()Ljavax/swing/plaf/basic/ComboPopup;
+createPropertyChangeListener
+ ()Ljava/beans/PropertyChangeListener;
+ ()Ljava/beans/PropertyChangeListener;
+createRenderer
+ ()Ljavax/swing/ListCellRenderer<Ljava/lang/Object;>;
+ ()Ljavax/swing/ListCellRenderer<Ljava/lang/Object;>;
+getAccessibleChild
+ (Ljavax/swing/JComponent;I)Ljavax/accessibility/Accessible;
+ (Ljavax/swing/JComponent;I)Ljavax/accessibility/Accessible;
+getAccessibleChildrenCount
+ (Ljavax/swing/JComponent;)I
+ (Ljavax/swing/JComponent;)I
+getBaseline
+ (Ljavax/swing/JComponent;II)I
+ (Ljavax/swing/JComponent;II)I
+getBaselineResizeBehavior
+ (Ljavax/swing/JComponent;)Ljava/awt/Component$BaselineResizeBehavior;
+ (Ljavax/swing/JComponent;)Ljava/awt/Component$BaselineResizeBehavior;
+getDefaultSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getDisplaySize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getInsets
+ ()Ljava/awt/Insets;
+ ()Ljava/awt/Insets;
+getMaximumSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getMinimumSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getPreferredSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getSizeForComponent
+ (Ljava/awt/Component;)Ljava/awt/Dimension;
+ (Ljava/awt/Component;)Ljava/awt/Dimension;
+installUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+isFocusTraversable
+ (Ljavax/swing/JComboBox<*>;)Z
+ (Ljavax/swing/JComboBox<*>;)Z
+isPopupVisible
+ (Ljavax/swing/JComboBox<*>;)Z
+ (Ljavax/swing/JComboBox<*>;)Z
+paint
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+paintCurrentValue
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;Z)V
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;Z)V
+paintCurrentValueBackground
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;Z)V
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;Z)V
+rectangleForCurrentValue
+ ()Ljava/awt/Rectangle;
+ ()Ljava/awt/Rectangle;
+setPopupVisible
+ (Ljavax/swing/JComboBox<*>;Z)V
+ (Ljavax/swing/JComboBox<*>;Z)V
+uninstallUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V

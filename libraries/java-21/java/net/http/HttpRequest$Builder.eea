@@ -1,0 +1,47 @@
+class java/net/http/HttpRequest$Builder
+
+DELETE
+ ()Ljava/net/http/HttpRequest$Builder;
+ ()L1java/net/http/HttpRequest$Builder;
+GET
+ ()Ljava/net/http/HttpRequest$Builder;
+ ()L1java/net/http/HttpRequest$Builder;
+HEAD
+ ()Ljava/net/http/HttpRequest$Builder;
+ ()L1java/net/http/HttpRequest$Builder;
+POST
+ (Ljava/net/http/HttpRequest$BodyPublisher;)Ljava/net/http/HttpRequest$Builder;
+ (Ljava/net/http/HttpRequest$BodyPublisher;)L1java/net/http/HttpRequest$Builder;
+PUT
+ (Ljava/net/http/HttpRequest$BodyPublisher;)Ljava/net/http/HttpRequest$Builder;
+ (Ljava/net/http/HttpRequest$BodyPublisher;)L1java/net/http/HttpRequest$Builder;
+build
+ ()Ljava/net/http/HttpRequest;
+ ()L1java/net/http/HttpRequest;
+copy
+ ()Ljava/net/http/HttpRequest$Builder;
+ ()L1java/net/http/HttpRequest$Builder;
+expectContinue
+ (Z)Ljava/net/http/HttpRequest$Builder;
+ (Z)L1java/net/http/HttpRequest$Builder;
+header
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/net/http/HttpRequest$Builder;
+ (Ljava/lang/String;Ljava/lang/String;)L1java/net/http/HttpRequest$Builder;
+headers
+ ([Ljava/lang/String;)Ljava/net/http/HttpRequest$Builder;
+ ([Ljava/lang/String;)L1java/net/http/HttpRequest$Builder;
+method
+ (Ljava/lang/String;Ljava/net/http/HttpRequest$BodyPublisher;)Ljava/net/http/HttpRequest$Builder;
+ (Ljava/lang/String;Ljava/net/http/HttpRequest$BodyPublisher;)L1java/net/http/HttpRequest$Builder;
+setHeader
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/net/http/HttpRequest$Builder;
+ (Ljava/lang/String;Ljava/lang/String;)L1java/net/http/HttpRequest$Builder;
+timeout
+ (Ljava/time/Duration;)Ljava/net/http/HttpRequest$Builder;
+ (Ljava/time/Duration;)L1java/net/http/HttpRequest$Builder;
+uri
+ (Ljava/net/URI;)Ljava/net/http/HttpRequest$Builder;
+ (Ljava/net/URI;)L1java/net/http/HttpRequest$Builder;
+version
+ (Ljava/net/http/HttpClient$Version;)Ljava/net/http/HttpRequest$Builder;
+ (Ljava/net/http/HttpClient$Version;)L1java/net/http/HttpRequest$Builder;

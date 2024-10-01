@@ -1,0 +1,27 @@
+class org/springframework/aot/hint/TypeHint
+
+builtWith
+ ([Lorg/springframework/aot/hint/MemberCategory;)Ljava/util/function/Consumer<Lorg/springframework/aot/hint/TypeHint$Builder;>;
+ ([Lorg/springframework/aot/hint/MemberCategory;)Ljava/util/function/Consumer<Lorg/springframework/aot/hint/TypeHint$Builder;>;
+
+constructors
+ ()Ljava/util/stream/Stream<Lorg/springframework/aot/hint/ExecutableHint;>;
+ ()Ljava/util/stream/Stream<Lorg/springframework/aot/hint/ExecutableHint;>;
+fields
+ ()Ljava/util/stream/Stream<Lorg/springframework/aot/hint/FieldHint;>;
+ ()Ljava/util/stream/Stream<Lorg/springframework/aot/hint/FieldHint;>;
+getMemberCategories
+ ()Ljava/util/Set<Lorg/springframework/aot/hint/MemberCategory;>;
+ ()Ljava/util/Set<Lorg/springframework/aot/hint/MemberCategory;>;
+getReachableType
+ ()Lorg/springframework/aot/hint/TypeReference;
+ ()L0org/springframework/aot/hint/TypeReference; # @Inherited(org.springframework.aot.hint.ConditionalHint)
+getType
+ ()Lorg/springframework/aot/hint/TypeReference;
+ ()Lorg/springframework/aot/hint/TypeReference;
+methods
+ ()Ljava/util/stream/Stream<Lorg/springframework/aot/hint/ExecutableHint;>;
+ ()Ljava/util/stream/Stream<Lorg/springframework/aot/hint/ExecutableHint;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

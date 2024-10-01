@@ -1,0 +1,37 @@
+class javax/swing/plaf/metal/MetalRadioButtonUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+
+disabledTextColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+focusColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+selectColor
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+
+getDisabledTextColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getFocusColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+getSelectColor
+ ()Ljava/awt/Color;
+ ()Ljava/awt/Color;
+installDefaults
+ (Ljavax/swing/AbstractButton;)V
+ (Ljavax/swing/AbstractButton;)V
+paint
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+paintFocus
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;Ljava/awt/Dimension;)V
+ (Ljava/awt/Graphics;Ljava/awt/Rectangle;Ljava/awt/Dimension;)V
+uninstallDefaults
+ (Ljavax/swing/AbstractButton;)V
+ (Ljavax/swing/AbstractButton;)V

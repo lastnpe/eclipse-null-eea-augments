@@ -1,0 +1,38 @@
+class com/fasterxml/jackson/core/JsonStreamContext
+
+<init>
+ (Lcom/fasterxml/jackson/core/JsonStreamContext;)V
+ (Lcom/fasterxml/jackson/core/JsonStreamContext;)V
+getCurrentName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getCurrentValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getParent
+ ()Lcom/fasterxml/jackson/core/JsonStreamContext;
+ ()Lcom/fasterxml/jackson/core/JsonStreamContext;
+getStartLocation
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/core/JsonLocation;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/core/JsonLocation;
+getTypeDesc
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+pathAsPointer
+ ()Lcom/fasterxml/jackson/core/JsonPointer;
+ ()Lcom/fasterxml/jackson/core/JsonPointer;
+pathAsPointer
+ (Z)Lcom/fasterxml/jackson/core/JsonPointer;
+ (Z)Lcom/fasterxml/jackson/core/JsonPointer;
+setCurrentValue
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+startLocation
+ (Lcom/fasterxml/jackson/core/io/ContentReference;)Lcom/fasterxml/jackson/core/JsonLocation;
+ (Lcom/fasterxml/jackson/core/io/ContentReference;)Lcom/fasterxml/jackson/core/JsonLocation;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+typeDesc
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

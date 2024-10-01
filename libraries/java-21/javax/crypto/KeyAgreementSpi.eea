@@ -1,0 +1,20 @@
+class javax/crypto/KeyAgreementSpi
+
+engineDoPhase
+ (Ljava/security/Key;Z)Ljava/security/Key;
+ (Ljava/security/Key;Z)Ljava/security/Key;
+engineGenerateSecret
+ ()[B
+ ()[B
+engineGenerateSecret
+ (Ljava/lang/String;)Ljavax/crypto/SecretKey;
+ (Ljava/lang/String;)Ljavax/crypto/SecretKey;
+engineGenerateSecret
+ ([BI)I
+ ([BI)I
+engineInit
+ (Ljava/security/Key;Ljava/security/SecureRandom;)V
+ (Ljava/security/Key;Ljava/security/SecureRandom;)V
+engineInit
+ (Ljava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V
+ (Ljava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)V

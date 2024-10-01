@@ -1,0 +1,35 @@
+class org/osgi/service/packageadmin/PackageAdmin
+
+getBundle
+ (Ljava/lang/Class<*>;)Lorg/osgi/framework/Bundle;
+ (Ljava/lang/Class<*>;)Lorg/osgi/framework/Bundle;
+getBundleType
+ (Lorg/osgi/framework/Bundle;)I
+ (Lorg/osgi/framework/Bundle;)I
+getBundles
+ (Ljava/lang/String;Ljava/lang/String;)[Lorg/osgi/framework/Bundle;
+ (Ljava/lang/String;Ljava/lang/String;)[Lorg/osgi/framework/Bundle;
+getExportedPackage
+ (Ljava/lang/String;)Lorg/osgi/service/packageadmin/ExportedPackage;
+ (Ljava/lang/String;)Lorg/osgi/service/packageadmin/ExportedPackage;
+getExportedPackages
+ (Ljava/lang/String;)[Lorg/osgi/service/packageadmin/ExportedPackage;
+ (Ljava/lang/String;)[Lorg/osgi/service/packageadmin/ExportedPackage;
+getExportedPackages
+ (Lorg/osgi/framework/Bundle;)[Lorg/osgi/service/packageadmin/ExportedPackage;
+ (Lorg/osgi/framework/Bundle;)[Lorg/osgi/service/packageadmin/ExportedPackage;
+getFragments
+ (Lorg/osgi/framework/Bundle;)[Lorg/osgi/framework/Bundle;
+ (Lorg/osgi/framework/Bundle;)[Lorg/osgi/framework/Bundle;
+getHosts
+ (Lorg/osgi/framework/Bundle;)[Lorg/osgi/framework/Bundle;
+ (Lorg/osgi/framework/Bundle;)[Lorg/osgi/framework/Bundle;
+getRequiredBundles
+ (Ljava/lang/String;)[Lorg/osgi/service/packageadmin/RequiredBundle;
+ (Ljava/lang/String;)[Lorg/osgi/service/packageadmin/RequiredBundle;
+refreshPackages
+ ([Lorg/osgi/framework/Bundle;)V
+ ([Lorg/osgi/framework/Bundle;)V
+resolveBundles
+ ([Lorg/osgi/framework/Bundle;)Z
+ ([Lorg/osgi/framework/Bundle;)Z

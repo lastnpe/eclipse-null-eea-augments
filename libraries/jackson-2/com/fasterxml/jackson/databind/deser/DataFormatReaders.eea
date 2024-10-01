@@ -1,0 +1,48 @@
+class com/fasterxml/jackson/databind/deser/DataFormatReaders
+
+_minimalMatch
+ Lcom/fasterxml/jackson/core/format/MatchStrength;
+ Lcom/fasterxml/jackson/core/format/MatchStrength;
+_optimalMatch
+ Lcom/fasterxml/jackson/core/format/MatchStrength;
+ Lcom/fasterxml/jackson/core/format/MatchStrength;
+_readers
+ [Lcom/fasterxml/jackson/databind/ObjectReader;
+ [Lcom/fasterxml/jackson/databind/ObjectReader;
+
+<init>
+ (Ljava/util/Collection<Lcom/fasterxml/jackson/databind/ObjectReader;>;)V
+ (Ljava/util/Collection<Lcom/fasterxml/jackson/databind/ObjectReader;>;)V
+<init>
+ ([Lcom/fasterxml/jackson/databind/ObjectReader;)V
+ ([Lcom/fasterxml/jackson/databind/ObjectReader;)V
+findFormat
+ (Ljava/io/InputStream;)Lcom/fasterxml/jackson/databind/deser/DataFormatReaders$Match;
+ (Ljava/io/InputStream;)Lcom/fasterxml/jackson/databind/deser/DataFormatReaders$Match;
+findFormat
+ ([B)Lcom/fasterxml/jackson/databind/deser/DataFormatReaders$Match;
+ ([B)Lcom/fasterxml/jackson/databind/deser/DataFormatReaders$Match;
+findFormat
+ ([BII)Lcom/fasterxml/jackson/databind/deser/DataFormatReaders$Match;
+ ([BII)Lcom/fasterxml/jackson/databind/deser/DataFormatReaders$Match;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+with
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;)Lcom/fasterxml/jackson/databind/deser/DataFormatReaders;
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;)Lcom/fasterxml/jackson/databind/deser/DataFormatReaders;
+with
+ ([Lcom/fasterxml/jackson/databind/ObjectReader;)Lcom/fasterxml/jackson/databind/deser/DataFormatReaders;
+ ([Lcom/fasterxml/jackson/databind/ObjectReader;)Lcom/fasterxml/jackson/databind/deser/DataFormatReaders;
+withMaxInputLookahead
+ (I)Lcom/fasterxml/jackson/databind/deser/DataFormatReaders;
+ (I)Lcom/fasterxml/jackson/databind/deser/DataFormatReaders;
+withMinimalMatch
+ (Lcom/fasterxml/jackson/core/format/MatchStrength;)Lcom/fasterxml/jackson/databind/deser/DataFormatReaders;
+ (Lcom/fasterxml/jackson/core/format/MatchStrength;)Lcom/fasterxml/jackson/databind/deser/DataFormatReaders;
+withOptimalMatch
+ (Lcom/fasterxml/jackson/core/format/MatchStrength;)Lcom/fasterxml/jackson/databind/deser/DataFormatReaders;
+ (Lcom/fasterxml/jackson/core/format/MatchStrength;)Lcom/fasterxml/jackson/databind/deser/DataFormatReaders;
+withType
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/deser/DataFormatReaders;
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/deser/DataFormatReaders;

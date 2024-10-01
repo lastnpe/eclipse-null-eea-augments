@@ -1,0 +1,50 @@
+class javax/tools/JavaFileManager
+
+contains
+ (Ljavax/tools/JavaFileManager$Location;Ljavax/tools/FileObject;)Z
+ (Ljavax/tools/JavaFileManager$Location;Ljavax/tools/FileObject;)Z
+getClassLoader
+ (Ljavax/tools/JavaFileManager$Location;)Ljava/lang/ClassLoader;
+ (Ljavax/tools/JavaFileManager$Location;)Ljava/lang/ClassLoader;
+getFileForInput
+ (Ljavax/tools/JavaFileManager$Location;Ljava/lang/String;Ljava/lang/String;)Ljavax/tools/FileObject;
+ (Ljavax/tools/JavaFileManager$Location;Ljava/lang/String;Ljava/lang/String;)Ljavax/tools/FileObject;
+getFileForOutput
+ (Ljavax/tools/JavaFileManager$Location;Ljava/lang/String;Ljava/lang/String;Ljavax/tools/FileObject;)Ljavax/tools/FileObject;
+ (Ljavax/tools/JavaFileManager$Location;Ljava/lang/String;Ljava/lang/String;Ljavax/tools/FileObject;)Ljavax/tools/FileObject;
+getJavaFileForInput
+ (Ljavax/tools/JavaFileManager$Location;Ljava/lang/String;Ljavax/tools/JavaFileObject$Kind;)Ljavax/tools/JavaFileObject;
+ (Ljavax/tools/JavaFileManager$Location;Ljava/lang/String;Ljavax/tools/JavaFileObject$Kind;)Ljavax/tools/JavaFileObject;
+getJavaFileForOutput
+ (Ljavax/tools/JavaFileManager$Location;Ljava/lang/String;Ljavax/tools/JavaFileObject$Kind;Ljavax/tools/FileObject;)Ljavax/tools/JavaFileObject;
+ (Ljavax/tools/JavaFileManager$Location;Ljava/lang/String;Ljavax/tools/JavaFileObject$Kind;Ljavax/tools/FileObject;)Ljavax/tools/JavaFileObject;
+getLocationForModule
+ (Ljavax/tools/JavaFileManager$Location;Ljava/lang/String;)Ljavax/tools/JavaFileManager$Location;
+ (Ljavax/tools/JavaFileManager$Location;Ljava/lang/String;)Ljavax/tools/JavaFileManager$Location;
+getLocationForModule
+ (Ljavax/tools/JavaFileManager$Location;Ljavax/tools/JavaFileObject;)Ljavax/tools/JavaFileManager$Location;
+ (Ljavax/tools/JavaFileManager$Location;Ljavax/tools/JavaFileObject;)Ljavax/tools/JavaFileManager$Location;
+getServiceLoader
+ <S:Ljava/lang/Object;>(Ljavax/tools/JavaFileManager$Location;Ljava/lang/Class<TS;>;)Ljava/util/ServiceLoader<TS;>;
+ <S:Ljava/lang/Object;>(Ljavax/tools/JavaFileManager$Location;Ljava/lang/Class<TS;>;)Ljava/util/ServiceLoader<TS;>;
+handleOption
+ (Ljava/lang/String;Ljava/util/Iterator<Ljava/lang/String;>;)Z
+ (Ljava/lang/String;Ljava/util/Iterator<Ljava/lang/String;>;)Z
+hasLocation
+ (Ljavax/tools/JavaFileManager$Location;)Z
+ (Ljavax/tools/JavaFileManager$Location;)Z
+inferBinaryName
+ (Ljavax/tools/JavaFileManager$Location;Ljavax/tools/JavaFileObject;)Ljava/lang/String;
+ (Ljavax/tools/JavaFileManager$Location;Ljavax/tools/JavaFileObject;)Ljava/lang/String;
+inferModuleName
+ (Ljavax/tools/JavaFileManager$Location;)Ljava/lang/String;
+ (Ljavax/tools/JavaFileManager$Location;)Ljava/lang/String;
+isSameFile
+ (Ljavax/tools/FileObject;Ljavax/tools/FileObject;)Z
+ (Ljavax/tools/FileObject;Ljavax/tools/FileObject;)Z
+list
+ (Ljavax/tools/JavaFileManager$Location;Ljava/lang/String;Ljava/util/Set<Ljavax/tools/JavaFileObject$Kind;>;Z)Ljava/lang/Iterable<Ljavax/tools/JavaFileObject;>;
+ (Ljavax/tools/JavaFileManager$Location;Ljava/lang/String;Ljava/util/Set<Ljavax/tools/JavaFileObject$Kind;>;Z)Ljava/lang/Iterable<Ljavax/tools/JavaFileObject;>;
+listLocationsForModules
+ (Ljavax/tools/JavaFileManager$Location;)Ljava/lang/Iterable<Ljava/util/Set<Ljavax/tools/JavaFileManager$Location;>;>;
+ (Ljavax/tools/JavaFileManager$Location;)Ljava/lang/Iterable<Ljava/util/Set<Ljavax/tools/JavaFileManager$Location;>;>;

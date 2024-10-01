@@ -1,0 +1,193 @@
+class javax/swing/plaf/basic/BasicTabbedPaneUI
+
+createUI
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+ (Ljavax/swing/JComponent;)Ljavax/swing/plaf/ComponentUI;
+rotateInsets
+ (Ljava/awt/Insets;Ljava/awt/Insets;I)V
+ (Ljava/awt/Insets;Ljava/awt/Insets;I)V
+
+calcRect
+ Ljava/awt/Rectangle;
+ Ljava/awt/Rectangle;
+contentBorderInsets
+ Ljava/awt/Insets;
+ Ljava/awt/Insets;
+darkShadow
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+downKey
+ Ljavax/swing/KeyStroke;
+ Ljavax/swing/KeyStroke;
+focus
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+focusListener
+ Ljava/awt/event/FocusListener;
+ Ljava/awt/event/FocusListener;
+highlight
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+leftKey
+ Ljavax/swing/KeyStroke;
+ Ljavax/swing/KeyStroke;
+lightHighlight
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+mouseListener
+ Ljava/awt/event/MouseListener;
+ Ljava/awt/event/MouseListener;
+propertyChangeListener
+ Ljava/beans/PropertyChangeListener;
+ Ljava/beans/PropertyChangeListener;
+rects
+ [Ljava/awt/Rectangle;
+ [Ljava/awt/Rectangle;
+rightKey
+ Ljavax/swing/KeyStroke;
+ Ljavax/swing/KeyStroke;
+selectedTabPadInsets
+ Ljava/awt/Insets;
+ Ljava/awt/Insets;
+shadow
+ Ljava/awt/Color;
+ Ljava/awt/Color;
+tabAreaInsets
+ Ljava/awt/Insets;
+ Ljava/awt/Insets;
+tabChangeListener
+ Ljavax/swing/event/ChangeListener;
+ Ljavax/swing/event/ChangeListener;
+tabInsets
+ Ljava/awt/Insets;
+ Ljava/awt/Insets;
+tabPane
+ Ljavax/swing/JTabbedPane;
+ Ljavax/swing/JTabbedPane;
+tabRuns
+ [I
+ [I
+upKey
+ Ljavax/swing/KeyStroke;
+ Ljavax/swing/KeyStroke;
+
+calculateTabWidth
+ (IILjava/awt/FontMetrics;)I
+ (IILjava/awt/FontMetrics;)I
+createChangeListener
+ ()Ljavax/swing/event/ChangeListener;
+ ()Ljavax/swing/event/ChangeListener;
+createFocusListener
+ ()Ljava/awt/event/FocusListener;
+ ()Ljava/awt/event/FocusListener;
+createLayoutManager
+ ()Ljava/awt/LayoutManager;
+ ()Ljava/awt/LayoutManager;
+createMouseListener
+ ()Ljava/awt/event/MouseListener;
+ ()Ljava/awt/event/MouseListener;
+createPropertyChangeListener
+ ()Ljava/beans/PropertyChangeListener;
+ ()Ljava/beans/PropertyChangeListener;
+createScrollButton
+ (I)Ljavax/swing/JButton;
+ (I)Ljavax/swing/JButton;
+getBaseline
+ (Ljavax/swing/JComponent;II)I
+ (Ljavax/swing/JComponent;II)I
+getBaselineResizeBehavior
+ (Ljavax/swing/JComponent;)Ljava/awt/Component$BaselineResizeBehavior;
+ (Ljavax/swing/JComponent;)Ljava/awt/Component$BaselineResizeBehavior;
+getContentBorderInsets
+ (I)Ljava/awt/Insets;
+ (I)Ljava/awt/Insets;
+getFontMetrics
+ ()Ljava/awt/FontMetrics;
+ ()Ljava/awt/FontMetrics;
+getIconForTab
+ (I)Ljavax/swing/Icon;
+ (I)Ljavax/swing/Icon;
+getMaximumSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getMinimumSize
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+ (Ljavax/swing/JComponent;)Ljava/awt/Dimension;
+getSelectedTabPadInsets
+ (I)Ljava/awt/Insets;
+ (I)Ljava/awt/Insets;
+getTabAreaInsets
+ (I)Ljava/awt/Insets;
+ (I)Ljava/awt/Insets;
+getTabBounds
+ (ILjava/awt/Rectangle;)Ljava/awt/Rectangle;
+ (ILjava/awt/Rectangle;)Ljava/awt/Rectangle;
+getTabBounds
+ (Ljavax/swing/JTabbedPane;I)Ljava/awt/Rectangle;
+ (Ljavax/swing/JTabbedPane;I)Ljava/awt/Rectangle;
+getTabInsets
+ (II)Ljava/awt/Insets;
+ (II)Ljava/awt/Insets;
+getTabRunCount
+ (Ljavax/swing/JTabbedPane;)I
+ (Ljavax/swing/JTabbedPane;)I
+getTextViewForTab
+ (I)Ljavax/swing/text/View;
+ (I)Ljavax/swing/text/View;
+getVisibleComponent
+ ()Ljava/awt/Component;
+ ()Ljava/awt/Component;
+installUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V
+layoutLabel
+ (ILjava/awt/FontMetrics;ILjava/lang/String;Ljavax/swing/Icon;Ljava/awt/Rectangle;Ljava/awt/Rectangle;Ljava/awt/Rectangle;Z)V
+ (ILjava/awt/FontMetrics;ILjava/lang/String;Ljavax/swing/Icon;Ljava/awt/Rectangle;Ljava/awt/Rectangle;Ljava/awt/Rectangle;Z)V
+paint
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+ (Ljava/awt/Graphics;Ljavax/swing/JComponent;)V
+paintContentBorder
+ (Ljava/awt/Graphics;II)V
+ (Ljava/awt/Graphics;II)V
+paintContentBorderBottomEdge
+ (Ljava/awt/Graphics;IIIIII)V
+ (Ljava/awt/Graphics;IIIIII)V
+paintContentBorderLeftEdge
+ (Ljava/awt/Graphics;IIIIII)V
+ (Ljava/awt/Graphics;IIIIII)V
+paintContentBorderRightEdge
+ (Ljava/awt/Graphics;IIIIII)V
+ (Ljava/awt/Graphics;IIIIII)V
+paintContentBorderTopEdge
+ (Ljava/awt/Graphics;IIIIII)V
+ (Ljava/awt/Graphics;IIIIII)V
+paintFocusIndicator
+ (Ljava/awt/Graphics;I[Ljava/awt/Rectangle;ILjava/awt/Rectangle;Ljava/awt/Rectangle;Z)V
+ (Ljava/awt/Graphics;I[Ljava/awt/Rectangle;ILjava/awt/Rectangle;Ljava/awt/Rectangle;Z)V
+paintIcon
+ (Ljava/awt/Graphics;IILjavax/swing/Icon;Ljava/awt/Rectangle;Z)V
+ (Ljava/awt/Graphics;IILjavax/swing/Icon;Ljava/awt/Rectangle;Z)V
+paintTab
+ (Ljava/awt/Graphics;I[Ljava/awt/Rectangle;ILjava/awt/Rectangle;Ljava/awt/Rectangle;)V
+ (Ljava/awt/Graphics;I[Ljava/awt/Rectangle;ILjava/awt/Rectangle;Ljava/awt/Rectangle;)V
+paintTabArea
+ (Ljava/awt/Graphics;II)V
+ (Ljava/awt/Graphics;II)V
+paintTabBackground
+ (Ljava/awt/Graphics;IIIIIIZ)V
+ (Ljava/awt/Graphics;IIIIIIZ)V
+paintTabBorder
+ (Ljava/awt/Graphics;IIIIIIZ)V
+ (Ljava/awt/Graphics;IIIIIIZ)V
+paintText
+ (Ljava/awt/Graphics;ILjava/awt/Font;Ljava/awt/FontMetrics;ILjava/lang/String;Ljava/awt/Rectangle;Z)V
+ (Ljava/awt/Graphics;ILjava/awt/Font;Ljava/awt/FontMetrics;ILjava/lang/String;Ljava/awt/Rectangle;Z)V
+setVisibleComponent
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+tabForCoordinate
+ (Ljavax/swing/JTabbedPane;II)I
+ (Ljavax/swing/JTabbedPane;II)I
+uninstallUI
+ (Ljavax/swing/JComponent;)V
+ (Ljavax/swing/JComponent;)V

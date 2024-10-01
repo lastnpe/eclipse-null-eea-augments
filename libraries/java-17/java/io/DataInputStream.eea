@@ -1,0 +1,27 @@
+class java/io/DataInputStream
+
+readUTF
+ (Ljava/io/DataInput;)Ljava/lang/String;
+ (Ljava/io/DataInput;)Ljava/lang/String;
+
+<init>
+ (Ljava/io/InputStream;)V
+ (Ljava/io/InputStream;)V
+read
+ ([B)I
+ ([1B)I # @Inherited(java.io.FilterInputStream)
+read
+ ([BII)I
+ ([1BII)I # @Inherited(java.io.FilterInputStream)
+readFully
+ ([B)V
+ ([1B)V # @Inherited(java.io.DataInput)
+readFully
+ ([BII)V
+ ([1BII)V # @Inherited(java.io.DataInput)
+readLine
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(java.io.DataInput)
+readUTF
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.io.DataInput)

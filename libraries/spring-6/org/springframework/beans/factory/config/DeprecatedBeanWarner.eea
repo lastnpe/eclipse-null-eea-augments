@@ -1,0 +1,18 @@
+class org/springframework/beans/factory/config/DeprecatedBeanWarner
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+logDeprecatedBean
+ (Ljava/lang/String;Ljava/lang/Class<*>;Lorg/springframework/beans/factory/config/BeanDefinition;)V
+ (Ljava/lang/String;Ljava/lang/Class<*>;Lorg/springframework/beans/factory/config/BeanDefinition;)V
+postProcessBeanFactory
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+setLoggerName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeToLog
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

@@ -1,0 +1,20 @@
+class com/google/common/escape/ArrayBasedUnicodeEscaper
+
+<init>
+ (Lcom/google/common/escape/ArrayBasedEscaperMap;IILjava/lang/String;)V
+ (Lcom/google/common/escape/ArrayBasedEscaperMap;IILjava/lang/String;)V
+<init>
+ (Ljava/util/Map<Ljava/lang/Character;Ljava/lang/String;>;IILjava/lang/String;)V
+ (Ljava/util/Map<Ljava/lang/Character;Ljava/lang/String;>;IILjava/lang/String;)V
+escape
+ (I)[C
+ (I)[0C # @Inherited(com.google.common.escape.UnicodeEscaper)
+escape
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+escapeUnsafe
+ (I)[C
+ (I)[0C
+nextEscapeIndex
+ (Ljava/lang/CharSequence;II)I
+ (Ljava/lang/CharSequence;II)I

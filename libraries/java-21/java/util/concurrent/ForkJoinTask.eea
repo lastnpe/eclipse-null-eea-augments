@@ -1,0 +1,90 @@
+class java/util/concurrent/ForkJoinTask
+ <V:Ljava/lang/Object;>
+ <V:Ljava/lang/Object;>
+
+super java/util/concurrent/Future
+ <TV;>
+ <TV;>
+
+adapt
+ (Ljava/lang/Runnable;)Ljava/util/concurrent/ForkJoinTask<*>;
+ (L1java/lang/Runnable;)L1java/util/concurrent/ForkJoinTask<*>;
+adapt
+ <T:Ljava/lang/Object;>(Ljava/lang/Runnable;TT;)Ljava/util/concurrent/ForkJoinTask<TT;>;
+ <T:Ljava/lang/Object;>(L1java/lang/Runnable;TT;)L1java/util/concurrent/ForkJoinTask<TT;>;
+adapt
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<+TT;>;)Ljava/util/concurrent/ForkJoinTask<TT;>;
+ <T:Ljava/lang/Object;>(L1java/util/concurrent/Callable<+TT;>;)L1java/util/concurrent/ForkJoinTask<TT;>;
+adaptInterruptible
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<+TT;>;)Ljava/util/concurrent/ForkJoinTask<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<+TT;>;)Ljava/util/concurrent/ForkJoinTask<TT;>;
+getPool
+ ()Ljava/util/concurrent/ForkJoinPool;
+ ()L0java/util/concurrent/ForkJoinPool;
+invokeAll
+ (Ljava/util/concurrent/ForkJoinTask<*>;Ljava/util/concurrent/ForkJoinTask<*>;)V
+ (L1java/util/concurrent/ForkJoinTask<*>;L1java/util/concurrent/ForkJoinTask<*>;)V
+invokeAll
+ ([Ljava/util/concurrent/ForkJoinTask<*>;)V
+ ([1L1java/util/concurrent/ForkJoinTask<*>;)V
+invokeAll
+ <T:Ljava/util/concurrent/ForkJoinTask<*>;>(Ljava/util/Collection<TT;>;)Ljava/util/Collection<TT;>;
+ <T:Ljava/util/concurrent/ForkJoinTask<*>;>(L1java/util/Collection<TT;>;)L1java/util/Collection<TT;>;
+peekNextLocalTask
+ ()Ljava/util/concurrent/ForkJoinTask<*>;
+ ()L0java/util/concurrent/ForkJoinTask<*>;
+pollNextLocalTask
+ ()Ljava/util/concurrent/ForkJoinTask<*>;
+ ()L0java/util/concurrent/ForkJoinTask<*>;
+pollSubmission
+ ()Ljava/util/concurrent/ForkJoinTask<*>;
+ ()L0java/util/concurrent/ForkJoinTask<*>;
+pollTask
+ ()Ljava/util/concurrent/ForkJoinTask<*>;
+ ()L0java/util/concurrent/ForkJoinTask<*>;
+
+complete
+ (TV;)V
+ (TV;)V
+completeExceptionally
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+exceptionNow
+ ()Ljava/lang/Throwable;
+ ()Ljava/lang/Throwable;
+fork
+ ()Ljava/util/concurrent/ForkJoinTask<TV;>;
+ ()L1java/util/concurrent/ForkJoinTask<TV;>;
+get
+ ()TV;
+ ()TV;
+get
+ (JLjava/util/concurrent/TimeUnit;)TV;
+ (JL1java/util/concurrent/TimeUnit;)TV; # @Inherited(java.util.concurrent.Future)
+getException
+ ()Ljava/lang/Throwable;
+ ()L0java/lang/Throwable;
+getRawResult
+ ()TV;
+ ()TV;
+invoke
+ ()TV;
+ ()TV;
+join
+ ()TV;
+ ()TV;
+quietlyJoin
+ (JLjava/util/concurrent/TimeUnit;)Z
+ (JLjava/util/concurrent/TimeUnit;)Z
+quietlyJoinUninterruptibly
+ (JLjava/util/concurrent/TimeUnit;)Z
+ (JLjava/util/concurrent/TimeUnit;)Z
+resultNow
+ ()TV;
+ ()TV;
+setRawResult
+ (TV;)V
+ (TV;)V
+state
+ ()Ljava/util/concurrent/Future$State;
+ ()Ljava/util/concurrent/Future$State;

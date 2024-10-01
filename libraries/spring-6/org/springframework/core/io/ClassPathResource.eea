@@ -1,0 +1,38 @@
+class org/springframework/core/io/ClassPathResource
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Class<*>;)V
+ (Ljava/lang/String;Ljava/lang/Class<*>;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)V
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)V
+createRelative
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(org.springframework.core.io.AbstractResource)
+getClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()L0java/lang/ClassLoader;
+getDescription
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFilename
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.core.io.AbstractResource)
+getInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getPath
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getURL
+ ()Ljava/net/URL;
+ ()Ljava/net/URL;
+resolveURL
+ ()Ljava/net/URL;
+ ()L0java/net/URL;

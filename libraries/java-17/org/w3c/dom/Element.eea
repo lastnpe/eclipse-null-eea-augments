@@ -1,0 +1,62 @@
+class org/w3c/dom/Element
+
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getAttributeNS
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+getAttributeNode
+ (Ljava/lang/String;)Lorg/w3c/dom/Attr;
+ (Ljava/lang/String;)Lorg/w3c/dom/Attr;
+getAttributeNodeNS
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/w3c/dom/Attr;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/w3c/dom/Attr;
+getElementsByTagName
+ (Ljava/lang/String;)Lorg/w3c/dom/NodeList;
+ (Ljava/lang/String;)L1org/w3c/dom/NodeList;
+getElementsByTagNameNS
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/w3c/dom/NodeList;
+ (Ljava/lang/String;Ljava/lang/String;)L1org/w3c/dom/NodeList;
+getSchemaTypeInfo
+ ()Lorg/w3c/dom/TypeInfo;
+ ()Lorg/w3c/dom/TypeInfo;
+getTagName
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+hasAttribute
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+hasAttributeNS
+ (Ljava/lang/String;Ljava/lang/String;)Z
+ (Ljava/lang/String;Ljava/lang/String;)Z
+removeAttribute
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+removeAttributeNS
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+removeAttributeNode
+ (Lorg/w3c/dom/Attr;)Lorg/w3c/dom/Attr;
+ (Lorg/w3c/dom/Attr;)Lorg/w3c/dom/Attr;
+setAttribute
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setAttributeNS
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+setAttributeNode
+ (Lorg/w3c/dom/Attr;)Lorg/w3c/dom/Attr;
+ (Lorg/w3c/dom/Attr;)Lorg/w3c/dom/Attr;
+setAttributeNodeNS
+ (Lorg/w3c/dom/Attr;)Lorg/w3c/dom/Attr;
+ (Lorg/w3c/dom/Attr;)Lorg/w3c/dom/Attr;
+setIdAttribute
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+setIdAttributeNS
+ (Ljava/lang/String;Ljava/lang/String;Z)V
+ (Ljava/lang/String;Ljava/lang/String;Z)V
+setIdAttributeNode
+ (Lorg/w3c/dom/Attr;Z)V
+ (Lorg/w3c/dom/Attr;Z)V

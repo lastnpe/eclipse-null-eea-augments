@@ -1,0 +1,111 @@
+class org/springframework/beans/factory/config/ConfigurableBeanFactory
+
+SCOPE_PROTOTYPE
+ Ljava/lang/String;
+ L1java/lang/String;
+SCOPE_SINGLETON
+ Ljava/lang/String;
+ L1java/lang/String;
+
+addBeanPostProcessor
+ (Lorg/springframework/beans/factory/config/BeanPostProcessor;)V
+ (Lorg/springframework/beans/factory/config/BeanPostProcessor;)V
+addEmbeddedValueResolver
+ (Lorg/springframework/util/StringValueResolver;)V
+ (Lorg/springframework/util/StringValueResolver;)V
+addPropertyEditorRegistrar
+ (Lorg/springframework/beans/PropertyEditorRegistrar;)V
+ (Lorg/springframework/beans/PropertyEditorRegistrar;)V
+copyConfigurationFrom
+ (Lorg/springframework/beans/factory/config/ConfigurableBeanFactory;)V
+ (Lorg/springframework/beans/factory/config/ConfigurableBeanFactory;)V
+copyRegisteredEditorsTo
+ (Lorg/springframework/beans/PropertyEditorRegistry;)V
+ (Lorg/springframework/beans/PropertyEditorRegistry;)V
+destroyBean
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+destroyScopedBean
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getApplicationStartup
+ ()Lorg/springframework/core/metrics/ApplicationStartup;
+ ()Lorg/springframework/core/metrics/ApplicationStartup;
+getBeanClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()L0java/lang/ClassLoader;
+getBeanExpressionResolver
+ ()Lorg/springframework/beans/factory/config/BeanExpressionResolver;
+ ()L0org/springframework/beans/factory/config/BeanExpressionResolver;
+getConversionService
+ ()Lorg/springframework/core/convert/ConversionService;
+ ()L0org/springframework/core/convert/ConversionService;
+getDependenciesForBean
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[Ljava/lang/String;
+getDependentBeans
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[Ljava/lang/String;
+getMergedBeanDefinition
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/config/BeanDefinition;
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/config/BeanDefinition;
+getRegisteredScope
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/config/Scope;
+ (Ljava/lang/String;)L0org/springframework/beans/factory/config/Scope;
+getRegisteredScopeNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getTempClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()L0java/lang/ClassLoader;
+getTypeConverter
+ ()Lorg/springframework/beans/TypeConverter;
+ ()Lorg/springframework/beans/TypeConverter;
+isCurrentlyInCreation
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isFactoryBean
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+registerAlias
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+registerCustomEditor
+ (Ljava/lang/Class<*>;Ljava/lang/Class<+Ljava/beans/PropertyEditor;>;)V
+ (Ljava/lang/Class<*>;Ljava/lang/Class<+Ljava/beans/PropertyEditor;>;)V
+registerDependentBean
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+registerScope
+ (Ljava/lang/String;Lorg/springframework/beans/factory/config/Scope;)V
+ (Ljava/lang/String;Lorg/springframework/beans/factory/config/Scope;)V
+resolveAliases
+ (Lorg/springframework/util/StringValueResolver;)V
+ (Lorg/springframework/util/StringValueResolver;)V
+resolveEmbeddedValue
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+setApplicationStartup
+ (Lorg/springframework/core/metrics/ApplicationStartup;)V
+ (Lorg/springframework/core/metrics/ApplicationStartup;)V
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setBeanExpressionResolver
+ (Lorg/springframework/beans/factory/config/BeanExpressionResolver;)V
+ (Lorg/springframework/beans/factory/config/BeanExpressionResolver;)V
+setConversionService
+ (Lorg/springframework/core/convert/ConversionService;)V
+ (Lorg/springframework/core/convert/ConversionService;)V
+setCurrentlyInCreation
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+setParentBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setTempClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setTypeConverter
+ (Lorg/springframework/beans/TypeConverter;)V
+ (Lorg/springframework/beans/TypeConverter;)V

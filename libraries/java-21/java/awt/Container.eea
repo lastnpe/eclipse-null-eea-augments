@@ -1,0 +1,155 @@
+class java/awt/Container
+
+add
+ (Ljava/awt/Component;)Ljava/awt/Component;
+ (Ljava/awt/Component;)Ljava/awt/Component;
+add
+ (Ljava/awt/Component;I)Ljava/awt/Component;
+ (Ljava/awt/Component;I)Ljava/awt/Component;
+add
+ (Ljava/awt/Component;Ljava/lang/Object;)V
+ (Ljava/awt/Component;Ljava/lang/Object;)V
+add
+ (Ljava/awt/Component;Ljava/lang/Object;I)V
+ (Ljava/awt/Component;Ljava/lang/Object;I)V
+add
+ (Ljava/lang/String;Ljava/awt/Component;)Ljava/awt/Component;
+ (Ljava/lang/String;Ljava/awt/Component;)Ljava/awt/Component;
+addContainerListener
+ (Ljava/awt/event/ContainerListener;)V
+ (L1java/awt/event/ContainerListener;)V
+addImpl
+ (Ljava/awt/Component;Ljava/lang/Object;I)V
+ (Ljava/awt/Component;Ljava/lang/Object;I)V
+addPropertyChangeListener
+ (Ljava/beans/PropertyChangeListener;)V
+ (L1java/beans/PropertyChangeListener;)V # @Inherited(java.awt.Component)
+addPropertyChangeListener
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+ (Ljava/lang/String;Ljava/beans/PropertyChangeListener;)V
+applyComponentOrientation
+ (Ljava/awt/ComponentOrientation;)V
+ (Ljava/awt/ComponentOrientation;)V
+deliverEvent
+ (Ljava/awt/Event;)V
+ (Ljava/awt/Event;)V
+findComponentAt
+ (II)Ljava/awt/Component;
+ (II)Ljava/awt/Component;
+findComponentAt
+ (Ljava/awt/Point;)Ljava/awt/Component;
+ (Ljava/awt/Point;)Ljava/awt/Component;
+getComponent
+ (I)Ljava/awt/Component;
+ (I)Ljava/awt/Component;
+getComponentAt
+ (II)Ljava/awt/Component;
+ (II)Ljava/awt/Component;
+getComponentAt
+ (Ljava/awt/Point;)Ljava/awt/Component;
+ (Ljava/awt/Point;)Ljava/awt/Component;
+getComponentZOrder
+ (Ljava/awt/Component;)I
+ (Ljava/awt/Component;)I
+getComponents
+ ()[Ljava/awt/Component;
+ ()[Ljava/awt/Component;
+getContainerListeners
+ ()[Ljava/awt/event/ContainerListener;
+ ()[Ljava/awt/event/ContainerListener;
+getFocusTraversalKeys
+ (I)Ljava/util/Set<Ljava/awt/AWTKeyStroke;>;
+ (I)Ljava/util/Set<Ljava/awt/AWTKeyStroke;>;
+getFocusTraversalPolicy
+ ()Ljava/awt/FocusTraversalPolicy;
+ ()Ljava/awt/FocusTraversalPolicy;
+getInsets
+ ()Ljava/awt/Insets;
+ ()Ljava/awt/Insets;
+getLayout
+ ()Ljava/awt/LayoutManager;
+ ()Ljava/awt/LayoutManager;
+getListeners
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+ <T::Ljava/util/EventListener;>(Ljava/lang/Class<TT;>;)[TT;
+getMaximumSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getMinimumSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+getMousePosition
+ (Z)Ljava/awt/Point;
+ (Z)Ljava/awt/Point;
+getPreferredSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+insets
+ ()Ljava/awt/Insets;
+ ()Ljava/awt/Insets;
+isAncestorOf
+ (Ljava/awt/Component;)Z
+ (Ljava/awt/Component;)Z
+isFocusCycleRoot
+ (Ljava/awt/Container;)Z
+ (Ljava/awt/Container;)Z
+list
+ (Ljava/io/PrintStream;I)V
+ (Ljava/io/PrintStream;I)V
+list
+ (Ljava/io/PrintWriter;I)V
+ (Ljava/io/PrintWriter;I)V
+locate
+ (II)Ljava/awt/Component;
+ (II)Ljava/awt/Component;
+minimumSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+paint
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paintComponents
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+preferredSize
+ ()Ljava/awt/Dimension;
+ ()Ljava/awt/Dimension;
+print
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+printComponents
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+processContainerEvent
+ (Ljava/awt/event/ContainerEvent;)V
+ (Ljava/awt/event/ContainerEvent;)V
+processEvent
+ (Ljava/awt/AWTEvent;)V
+ (Ljava/awt/AWTEvent;)V
+remove
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+removeContainerListener
+ (Ljava/awt/event/ContainerListener;)V
+ (L1java/awt/event/ContainerListener;)V
+setComponentZOrder
+ (Ljava/awt/Component;I)V
+ (Ljava/awt/Component;I)V
+setFocusTraversalKeys
+ (ILjava/util/Set<+Ljava/awt/AWTKeyStroke;>;)V
+ (ILjava/util/Set<+Ljava/awt/AWTKeyStroke;>;)V
+setFocusTraversalPolicy
+ (Ljava/awt/FocusTraversalPolicy;)V
+ (Ljava/awt/FocusTraversalPolicy;)V
+setFont
+ (Ljava/awt/Font;)V
+ (Ljava/awt/Font;)V
+setLayout
+ (Ljava/awt/LayoutManager;)V
+ (Ljava/awt/LayoutManager;)V
+update
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V

@@ -1,0 +1,21 @@
+class org/springframework/core/serializer/support/SerializationDelegate
+
+super org/springframework/core/serializer/Serializer
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+super org/springframework/core/serializer/Deserializer
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+<init>
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+<init>
+ (Lorg/springframework/core/serializer/Serializer<Ljava/lang/Object;>;Lorg/springframework/core/serializer/Deserializer<Ljava/lang/Object;>;)V
+ (Lorg/springframework/core/serializer/Serializer<Ljava/lang/Object;>;Lorg/springframework/core/serializer/Deserializer<Ljava/lang/Object;>;)V
+deserialize
+ (Ljava/io/InputStream;)Ljava/lang/Object;
+ (Ljava/io/InputStream;)Ljava/lang/Object;
+serialize
+ (Ljava/lang/Object;Ljava/io/OutputStream;)V
+ (Ljava/lang/Object;Ljava/io/OutputStream;)V

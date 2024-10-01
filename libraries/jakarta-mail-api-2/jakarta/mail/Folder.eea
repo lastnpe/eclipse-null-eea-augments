@@ -1,0 +1,123 @@
+class jakarta/mail/Folder
+
+store
+ Ljakarta/mail/Store;
+ Ljakarta/mail/Store;
+
+<init>
+ (Ljakarta/mail/Store;)V
+ (Ljakarta/mail/Store;)V
+addConnectionListener
+ (Ljakarta/mail/event/ConnectionListener;)V
+ (L1jakarta/mail/event/ConnectionListener;)V
+addFolderListener
+ (Ljakarta/mail/event/FolderListener;)V
+ (L1jakarta/mail/event/FolderListener;)V
+addMessageChangedListener
+ (Ljakarta/mail/event/MessageChangedListener;)V
+ (L1jakarta/mail/event/MessageChangedListener;)V
+addMessageCountListener
+ (Ljakarta/mail/event/MessageCountListener;)V
+ (L1jakarta/mail/event/MessageCountListener;)V
+appendMessages
+ ([Ljakarta/mail/Message;)V
+ ([Ljakarta/mail/Message;)V
+copyMessages
+ ([Ljakarta/mail/Message;Ljakarta/mail/Folder;)V
+ ([Ljakarta/mail/Message;Ljakarta/mail/Folder;)V
+expunge
+ ()[Ljakarta/mail/Message;
+ ()[Ljakarta/mail/Message;
+fetch
+ ([Ljakarta/mail/Message;Ljakarta/mail/FetchProfile;)V
+ ([Ljakarta/mail/Message;Ljakarta/mail/FetchProfile;)V
+getFolder
+ (Ljava/lang/String;)Ljakarta/mail/Folder;
+ (Ljava/lang/String;)Ljakarta/mail/Folder;
+getFullName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMessage
+ (I)Ljakarta/mail/Message;
+ (I)Ljakarta/mail/Message;
+getMessages
+ ()[Ljakarta/mail/Message;
+ ()[Ljakarta/mail/Message;
+getMessages
+ (II)[Ljakarta/mail/Message;
+ (II)[Ljakarta/mail/Message;
+getMessages
+ ([I)[Ljakarta/mail/Message;
+ ([I)[Ljakarta/mail/Message;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getParent
+ ()Ljakarta/mail/Folder;
+ ()Ljakarta/mail/Folder;
+getPermanentFlags
+ ()Ljakarta/mail/Flags;
+ ()Ljakarta/mail/Flags;
+getStore
+ ()Ljakarta/mail/Store;
+ ()Ljakarta/mail/Store;
+getURLName
+ ()Ljakarta/mail/URLName;
+ ()Ljakarta/mail/URLName;
+list
+ ()[Ljakarta/mail/Folder;
+ ()[Ljakarta/mail/Folder;
+list
+ (Ljava/lang/String;)[Ljakarta/mail/Folder;
+ (Ljava/lang/String;)[Ljakarta/mail/Folder;
+listSubscribed
+ ()[Ljakarta/mail/Folder;
+ ()[Ljakarta/mail/Folder;
+listSubscribed
+ (Ljava/lang/String;)[Ljakarta/mail/Folder;
+ (Ljava/lang/String;)[Ljakarta/mail/Folder;
+notifyFolderRenamedListeners
+ (Ljakarta/mail/Folder;)V
+ (Ljakarta/mail/Folder;)V
+notifyMessageAddedListeners
+ ([Ljakarta/mail/Message;)V
+ ([Ljakarta/mail/Message;)V
+notifyMessageChangedListeners
+ (ILjakarta/mail/Message;)V
+ (ILjakarta/mail/Message;)V
+notifyMessageRemovedListeners
+ (Z[Ljakarta/mail/Message;)V
+ (Z[Ljakarta/mail/Message;)V
+removeConnectionListener
+ (Ljakarta/mail/event/ConnectionListener;)V
+ (L1jakarta/mail/event/ConnectionListener;)V
+removeFolderListener
+ (Ljakarta/mail/event/FolderListener;)V
+ (L1jakarta/mail/event/FolderListener;)V
+removeMessageChangedListener
+ (Ljakarta/mail/event/MessageChangedListener;)V
+ (L1jakarta/mail/event/MessageChangedListener;)V
+removeMessageCountListener
+ (Ljakarta/mail/event/MessageCountListener;)V
+ (L1jakarta/mail/event/MessageCountListener;)V
+renameTo
+ (Ljakarta/mail/Folder;)Z
+ (Ljakarta/mail/Folder;)Z
+search
+ (Ljakarta/mail/search/SearchTerm;)[Ljakarta/mail/Message;
+ (Ljakarta/mail/search/SearchTerm;)[Ljakarta/mail/Message;
+search
+ (Ljakarta/mail/search/SearchTerm;[Ljakarta/mail/Message;)[Ljakarta/mail/Message;
+ (Ljakarta/mail/search/SearchTerm;[Ljakarta/mail/Message;)[Ljakarta/mail/Message;
+setFlags
+ (IILjakarta/mail/Flags;Z)V
+ (IILjakarta/mail/Flags;Z)V
+setFlags
+ ([ILjakarta/mail/Flags;Z)V
+ ([ILjakarta/mail/Flags;Z)V
+setFlags
+ ([Ljakarta/mail/Message;Ljakarta/mail/Flags;Z)V
+ ([Ljakarta/mail/Message;Ljakarta/mail/Flags;Z)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

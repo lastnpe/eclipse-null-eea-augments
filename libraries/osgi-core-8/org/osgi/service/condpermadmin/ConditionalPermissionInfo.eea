@@ -1,0 +1,30 @@
+class org/osgi/service/condpermadmin/ConditionalPermissionInfo
+
+ALLOW
+ Ljava/lang/String;
+ L1java/lang/String;
+DENY
+ Ljava/lang/String;
+ L1java/lang/String;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAccessDecision
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getConditionInfos
+ ()[Lorg/osgi/service/condpermadmin/ConditionInfo;
+ ()[Lorg/osgi/service/condpermadmin/ConditionInfo;
+getEncoded
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPermissionInfos
+ ()[Lorg/osgi/service/permissionadmin/PermissionInfo;
+ ()[Lorg/osgi/service/permissionadmin/PermissionInfo;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

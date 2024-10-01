@@ -1,0 +1,47 @@
+class java/awt/image/renderable/RenderContext
+
+<init>
+ (Ljava/awt/geom/AffineTransform;)V
+ (Ljava/awt/geom/AffineTransform;)V
+<init>
+ (Ljava/awt/geom/AffineTransform;Ljava/awt/RenderingHints;)V
+ (Ljava/awt/geom/AffineTransform;Ljava/awt/RenderingHints;)V
+<init>
+ (Ljava/awt/geom/AffineTransform;Ljava/awt/Shape;)V
+ (Ljava/awt/geom/AffineTransform;Ljava/awt/Shape;)V
+<init>
+ (Ljava/awt/geom/AffineTransform;Ljava/awt/Shape;Ljava/awt/RenderingHints;)V
+ (Ljava/awt/geom/AffineTransform;Ljava/awt/Shape;Ljava/awt/RenderingHints;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+concatenateTransform
+ (Ljava/awt/geom/AffineTransform;)V
+ (Ljava/awt/geom/AffineTransform;)V
+concetenateTransform
+ (Ljava/awt/geom/AffineTransform;)V
+ (Ljava/awt/geom/AffineTransform;)V
+getAreaOfInterest
+ ()Ljava/awt/Shape;
+ ()Ljava/awt/Shape;
+getRenderingHints
+ ()Ljava/awt/RenderingHints;
+ ()Ljava/awt/RenderingHints;
+getTransform
+ ()Ljava/awt/geom/AffineTransform;
+ ()Ljava/awt/geom/AffineTransform;
+preConcatenateTransform
+ (Ljava/awt/geom/AffineTransform;)V
+ (Ljava/awt/geom/AffineTransform;)V
+preConcetenateTransform
+ (Ljava/awt/geom/AffineTransform;)V
+ (Ljava/awt/geom/AffineTransform;)V
+setAreaOfInterest
+ (Ljava/awt/Shape;)V
+ (Ljava/awt/Shape;)V
+setRenderingHints
+ (Ljava/awt/RenderingHints;)V
+ (Ljava/awt/RenderingHints;)V
+setTransform
+ (Ljava/awt/geom/AffineTransform;)V
+ (Ljava/awt/geom/AffineTransform;)V

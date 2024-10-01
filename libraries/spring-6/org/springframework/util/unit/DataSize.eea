@@ -1,0 +1,40 @@
+class org/springframework/util/unit/DataSize
+
+super java/lang/Comparable
+ <Lorg/springframework/util/unit/DataSize;>
+ <Lorg/springframework/util/unit/DataSize;>
+
+of
+ (JLorg/springframework/util/unit/DataUnit;)Lorg/springframework/util/unit/DataSize;
+ (JLorg/springframework/util/unit/DataUnit;)Lorg/springframework/util/unit/DataSize;
+ofBytes
+ (J)Lorg/springframework/util/unit/DataSize;
+ (J)Lorg/springframework/util/unit/DataSize;
+ofGigabytes
+ (J)Lorg/springframework/util/unit/DataSize;
+ (J)Lorg/springframework/util/unit/DataSize;
+ofKilobytes
+ (J)Lorg/springframework/util/unit/DataSize;
+ (J)Lorg/springframework/util/unit/DataSize;
+ofMegabytes
+ (J)Lorg/springframework/util/unit/DataSize;
+ (J)Lorg/springframework/util/unit/DataSize;
+ofTerabytes
+ (J)Lorg/springframework/util/unit/DataSize;
+ (J)Lorg/springframework/util/unit/DataSize;
+parse
+ (Ljava/lang/CharSequence;)Lorg/springframework/util/unit/DataSize;
+ (Ljava/lang/CharSequence;)Lorg/springframework/util/unit/DataSize;
+parse
+ (Ljava/lang/CharSequence;Lorg/springframework/util/unit/DataUnit;)Lorg/springframework/util/unit/DataSize;
+ (Ljava/lang/CharSequence;Lorg/springframework/util/unit/DataUnit;)Lorg/springframework/util/unit/DataSize;
+
+compareTo
+ (Lorg/springframework/util/unit/DataSize;)I
+ (L1org/springframework/util/unit/DataSize;)I
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

@@ -1,0 +1,26 @@
+class com/google/gson/FieldAttributes
+
+<init>
+ (Ljava/lang/reflect/Field;)V
+ (Ljava/lang/reflect/Field;)V
+getAnnotation
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TT;>;)TT;
+getAnnotations
+ ()Ljava/util/Collection<Ljava/lang/annotation/Annotation;>;
+ ()Ljava/util/Collection<Ljava/lang/annotation/Annotation;>;
+getDeclaredClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getDeclaredType
+ ()Ljava/lang/reflect/Type;
+ ()Ljava/lang/reflect/Type;
+getDeclaringClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

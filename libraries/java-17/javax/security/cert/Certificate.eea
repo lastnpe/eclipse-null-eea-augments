@@ -1,0 +1,20 @@
+class javax/security/cert/Certificate
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getEncoded
+ ()[B
+ ()[1B
+getPublicKey
+ ()Ljava/security/PublicKey;
+ ()Ljava/security/PublicKey;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+verify
+ (Ljava/security/PublicKey;)V
+ (Ljava/security/PublicKey;)V
+verify
+ (Ljava/security/PublicKey;Ljava/lang/String;)V
+ (Ljava/security/PublicKey;Ljava/lang/String;)V

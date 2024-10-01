@@ -1,0 +1,41 @@
+class org/springframework/cglib/core/ClassEmitter
+
+<init>
+ (Lorg/springframework/asm/ClassVisitor;)V
+ (Lorg/springframework/asm/ClassVisitor;)V
+begin_class
+ (IILjava/lang/String;Lorg/springframework/asm/Type;[Lorg/springframework/asm/Type;Ljava/lang/String;)V
+ (IILjava/lang/String;Lorg/springframework/asm/Type;[Lorg/springframework/asm/Type;Ljava/lang/String;)V
+begin_method
+ (ILorg/springframework/cglib/core/Signature;[Lorg/springframework/asm/Type;)Lorg/springframework/cglib/core/CodeEmitter;
+ (ILorg/springframework/cglib/core/Signature;[Lorg/springframework/asm/Type;)Lorg/springframework/cglib/core/CodeEmitter;
+begin_static
+ ()Lorg/springframework/cglib/core/CodeEmitter;
+ ()Lorg/springframework/cglib/core/CodeEmitter;
+declare_field
+ (ILjava/lang/String;Lorg/springframework/asm/Type;Ljava/lang/Object;)V
+ (ILjava/lang/String;Lorg/springframework/asm/Type;Ljava/lang/Object;)V
+getClassInfo
+ ()Lorg/springframework/cglib/core/ClassInfo;
+ ()Lorg/springframework/cglib/core/ClassInfo;
+getClassType
+ ()Lorg/springframework/asm/Type;
+ ()Lorg/springframework/asm/Type;
+getStaticHook
+ ()Lorg/springframework/cglib/core/CodeEmitter;
+ ()Lorg/springframework/cglib/core/CodeEmitter;
+getSuperType
+ ()Lorg/springframework/asm/Type;
+ ()Lorg/springframework/asm/Type;
+setTarget
+ (Lorg/springframework/asm/ClassVisitor;)V
+ (Lorg/springframework/asm/ClassVisitor;)V
+visit
+ (IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
+ (IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
+visitField
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/asm/FieldVisitor;
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/asm/FieldVisitor;
+visitMethod
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/asm/MethodVisitor;
+ (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/asm/MethodVisitor;

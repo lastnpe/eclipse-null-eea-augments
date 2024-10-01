@@ -1,0 +1,135 @@
+class com/fasterxml/jackson/databind/module/SimpleModule
+
+_abstractTypes
+ Lcom/fasterxml/jackson/databind/module/SimpleAbstractTypeResolver;
+ Lcom/fasterxml/jackson/databind/module/SimpleAbstractTypeResolver;
+_deserializerModifier
+ Lcom/fasterxml/jackson/databind/deser/BeanDeserializerModifier;
+ Lcom/fasterxml/jackson/databind/deser/BeanDeserializerModifier;
+_deserializers
+ Lcom/fasterxml/jackson/databind/module/SimpleDeserializers;
+ Lcom/fasterxml/jackson/databind/module/SimpleDeserializers;
+_keyDeserializers
+ Lcom/fasterxml/jackson/databind/module/SimpleKeyDeserializers;
+ Lcom/fasterxml/jackson/databind/module/SimpleKeyDeserializers;
+_keySerializers
+ Lcom/fasterxml/jackson/databind/module/SimpleSerializers;
+ Lcom/fasterxml/jackson/databind/module/SimpleSerializers;
+_mixins
+ Ljava/util/HashMap<Ljava/lang/Class<*>;Ljava/lang/Class<*>;>;
+ Ljava/util/HashMap<Ljava/lang/Class<*>;Ljava/lang/Class<*>;>;
+_name
+ Ljava/lang/String;
+ Ljava/lang/String;
+_namingStrategy
+ Lcom/fasterxml/jackson/databind/PropertyNamingStrategy;
+ Lcom/fasterxml/jackson/databind/PropertyNamingStrategy;
+_serializerModifier
+ Lcom/fasterxml/jackson/databind/ser/BeanSerializerModifier;
+ Lcom/fasterxml/jackson/databind/ser/BeanSerializerModifier;
+_serializers
+ Lcom/fasterxml/jackson/databind/module/SimpleSerializers;
+ Lcom/fasterxml/jackson/databind/module/SimpleSerializers;
+_subtypes
+ Ljava/util/LinkedHashSet<Lcom/fasterxml/jackson/databind/jsontype/NamedType;>;
+ Ljava/util/LinkedHashSet<Lcom/fasterxml/jackson/databind/jsontype/NamedType;>;
+_valueInstantiators
+ Lcom/fasterxml/jackson/databind/module/SimpleValueInstantiators;
+ Lcom/fasterxml/jackson/databind/module/SimpleValueInstantiators;
+_version
+ Lcom/fasterxml/jackson/core/Version;
+ Lcom/fasterxml/jackson/core/Version;
+
+<init>
+ (Lcom/fasterxml/jackson/core/Version;)V
+ (Lcom/fasterxml/jackson/core/Version;)V
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/Version;)V
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/Version;)V
+<init>
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/Version;Ljava/util/List<Lcom/fasterxml/jackson/databind/JsonSerializer<*>;>;)V
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/Version;Ljava/util/List<Lcom/fasterxml/jackson/databind/JsonSerializer<*>;>;)V
+<init>
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/Version;Ljava/util/Map<Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;>;)V
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/Version;Ljava/util/Map<Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;>;)V
+<init>
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/Version;Ljava/util/Map<Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;>;Ljava/util/List<Lcom/fasterxml/jackson/databind/JsonSerializer<*>;>;)V
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/Version;Ljava/util/Map<Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;>;Ljava/util/List<Lcom/fasterxml/jackson/databind/JsonSerializer<*>;>;)V
+_checkNotNull
+ (Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/Object;Ljava/lang/String;)V
+addAbstractTypeMapping
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/Class<+TT;>;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/Class<+TT;>;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+addDeserializer
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lcom/fasterxml/jackson/databind/JsonDeserializer<+TT;>;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lcom/fasterxml/jackson/databind/JsonDeserializer<+TT;>;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+addKeyDeserializer
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/KeyDeserializer;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/KeyDeserializer;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+addKeySerializer
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<+TT;>;Lcom/fasterxml/jackson/databind/JsonSerializer<TT;>;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<+TT;>;Lcom/fasterxml/jackson/databind/JsonSerializer<TT;>;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+addSerializer
+ (Lcom/fasterxml/jackson/databind/JsonSerializer<*>;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+ (Lcom/fasterxml/jackson/databind/JsonSerializer<*>;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+addSerializer
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<+TT;>;Lcom/fasterxml/jackson/databind/JsonSerializer<TT;>;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<+TT;>;Lcom/fasterxml/jackson/databind/JsonSerializer<TT;>;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+addValueInstantiator
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/deser/ValueInstantiator;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/deser/ValueInstantiator;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+getModuleName
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(com.fasterxml.jackson.databind.Module)
+getTypeId
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(com.fasterxml.jackson.databind.Module)
+registerSubtypes
+ (Ljava/util/Collection<Ljava/lang/Class<*>;>;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+ (Ljava/util/Collection<Ljava/lang/Class<*>;>;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+registerSubtypes
+ ([Lcom/fasterxml/jackson/databind/jsontype/NamedType;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+ ([Lcom/fasterxml/jackson/databind/jsontype/NamedType;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+registerSubtypes
+ ([Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+ ([Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+setAbstractTypes
+ (Lcom/fasterxml/jackson/databind/module/SimpleAbstractTypeResolver;)V
+ (Lcom/fasterxml/jackson/databind/module/SimpleAbstractTypeResolver;)V
+setDeserializerModifier
+ (Lcom/fasterxml/jackson/databind/deser/BeanDeserializerModifier;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+ (Lcom/fasterxml/jackson/databind/deser/BeanDeserializerModifier;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+setDeserializers
+ (Lcom/fasterxml/jackson/databind/module/SimpleDeserializers;)V
+ (Lcom/fasterxml/jackson/databind/module/SimpleDeserializers;)V
+setKeyDeserializers
+ (Lcom/fasterxml/jackson/databind/module/SimpleKeyDeserializers;)V
+ (Lcom/fasterxml/jackson/databind/module/SimpleKeyDeserializers;)V
+setKeySerializers
+ (Lcom/fasterxml/jackson/databind/module/SimpleSerializers;)V
+ (Lcom/fasterxml/jackson/databind/module/SimpleSerializers;)V
+setMixInAnnotation
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+setNamingStrategy
+ (Lcom/fasterxml/jackson/databind/PropertyNamingStrategy;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+ (Lcom/fasterxml/jackson/databind/PropertyNamingStrategy;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+setSerializerModifier
+ (Lcom/fasterxml/jackson/databind/ser/BeanSerializerModifier;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+ (Lcom/fasterxml/jackson/databind/ser/BeanSerializerModifier;)Lcom/fasterxml/jackson/databind/module/SimpleModule;
+setSerializers
+ (Lcom/fasterxml/jackson/databind/module/SimpleSerializers;)V
+ (Lcom/fasterxml/jackson/databind/module/SimpleSerializers;)V
+setValueInstantiators
+ (Lcom/fasterxml/jackson/databind/module/SimpleValueInstantiators;)V
+ (Lcom/fasterxml/jackson/databind/module/SimpleValueInstantiators;)V
+setupModule
+ (Lcom/fasterxml/jackson/databind/Module$SetupContext;)V
+ (L1com/fasterxml/jackson/databind/Module$SetupContext;)V # @Inherited(com.fasterxml.jackson.databind.Module)
+version
+ ()Lcom/fasterxml/jackson/core/Version;
+ ()L1com/fasterxml/jackson/core/Version; # @Inherited(com.fasterxml.jackson.databind.Module)

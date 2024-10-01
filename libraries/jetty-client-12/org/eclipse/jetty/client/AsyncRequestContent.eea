@@ -1,0 +1,14 @@
+class org/eclipse/jetty/client/AsyncRequestContent
+
+<init>
+ (Ljava/lang/String;[Ljava/nio/ByteBuffer;)V
+ (Ljava/lang/String;[Ljava/nio/ByteBuffer;)V
+<init>
+ ([Ljava/nio/ByteBuffer;)V
+ ([Ljava/nio/ByteBuffer;)V
+getContentType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+write
+ (Ljava/nio/ByteBuffer;Lorg/eclipse/jetty/util/Callback;)V
+ (Ljava/nio/ByteBuffer;Lorg/eclipse/jetty/util/Callback;)V

@@ -1,0 +1,80 @@
+class java/awt/image/IndexColorModel
+
+<init>
+ (II[BIZ)V
+ (II[BIZ)V
+<init>
+ (II[BIZI)V
+ (II[BIZI)V
+<init>
+ (II[B[B[B)V
+ (II[B[B[B)V
+<init>
+ (II[B[B[BI)V
+ (II[B[B[BI)V
+<init>
+ (II[B[B[B[B)V
+ (II[B[B[B[B)V
+<init>
+ (II[IIILjava/math/BigInteger;)V
+ (II[IIILjava/math/BigInteger;)V
+<init>
+ (II[IIZII)V
+ (II[IIZII)V
+convertToIntDiscrete
+ (Ljava/awt/image/Raster;Z)Ljava/awt/image/BufferedImage;
+ (Ljava/awt/image/Raster;Z)Ljava/awt/image/BufferedImage;
+createCompatibleSampleModel
+ (II)Ljava/awt/image/SampleModel;
+ (II)Ljava/awt/image/SampleModel;
+createCompatibleWritableRaster
+ (II)Ljava/awt/image/WritableRaster;
+ (II)Ljava/awt/image/WritableRaster;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.awt.image.ColorModel)
+getAlphas
+ ([B)V
+ ([B)V
+getBlues
+ ([B)V
+ ([B)V
+getComponentSize
+ ()[I
+ ()[I
+getComponents
+ (I[II)[I
+ (I[II)[I
+getComponents
+ (Ljava/lang/Object;[II)[I
+ (Ljava/lang/Object;[II)[I
+getDataElement
+ ([II)I
+ ([II)I
+getDataElements
+ (ILjava/lang/Object;)Ljava/lang/Object;
+ (ILjava/lang/Object;)Ljava/lang/Object;
+getDataElements
+ ([IILjava/lang/Object;)Ljava/lang/Object;
+ ([IILjava/lang/Object;)Ljava/lang/Object;
+getGreens
+ ([B)V
+ ([B)V
+getRGBs
+ ([I)V
+ ([I)V
+getReds
+ ([B)V
+ ([B)V
+getValidPixels
+ ()Ljava/math/BigInteger;
+ ()Ljava/math/BigInteger;
+isCompatibleRaster
+ (Ljava/awt/image/Raster;)Z
+ (Ljava/awt/image/Raster;)Z
+isCompatibleSampleModel
+ (Ljava/awt/image/SampleModel;)Z
+ (Ljava/awt/image/SampleModel;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.awt.image.ColorModel)

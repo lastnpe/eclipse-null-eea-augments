@@ -1,0 +1,20 @@
+class javax/management/MBeanNotificationInfo
+
+<init>
+ ([Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ ([Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ ([Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljavax/management/Descriptor;)V
+ ([Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljavax/management/Descriptor;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(javax.management.MBeanFeatureInfo)
+getNotifTypes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

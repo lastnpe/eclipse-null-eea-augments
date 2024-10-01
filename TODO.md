@@ -7,11 +7,6 @@ TODO
 
 * https://github.com/lastnpe/eclipse-external-annotations-m2e-plugin/issues/6: Travis with automatic reliable bleeding edge p2 site for eclipse-external-annotations-m2e-plugin
 
-* convert JDK null metadata from Checker framework?
-
 * Community: https://bugs.eclipse.org/bugs/show_bug.cgi?id=449653 & https://bugs.eclipse.org/bugs/show_bug.cgi?id=457792
 
-* BLOG to planet.eclipse.org
-
-* for each PR, validate EEA? Needs analyzer and source transformer..
-
+* BLOG to https://planeteclipse.org

@@ -1,0 +1,59 @@
+class org/springframework/util/ConcurrentReferenceHashMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super java/util/AbstractMap
+ <TK;TV;>
+ <TK;TV;>
+super java/util/concurrent/ConcurrentMap
+ <TK;TV;>
+ <TK;TV;>
+
+<init>
+ (IFILorg/springframework/util/ConcurrentReferenceHashMap$ReferenceType;)V
+ (IFILorg/springframework/util/ConcurrentReferenceHashMap$ReferenceType;)V
+<init>
+ (ILorg/springframework/util/ConcurrentReferenceHashMap$ReferenceType;)V
+ (ILorg/springframework/util/ConcurrentReferenceHashMap$ReferenceType;)V
+containsKey
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.AbstractMap)
+createReferenceManager
+ ()Lorg/springframework/util/ConcurrentReferenceHashMap<TK;TV;>.ReferenceManager;
+ ()Lorg/springframework/util/ConcurrentReferenceHashMap<TK;TV;>.ReferenceManager;
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()L1java/util/Set<L1java/util/Map$Entry<TK;TV;>;>; # @Inherited(java.util.AbstractMap)
+get
+ (Ljava/lang/Object;)TV;
+ (Ljava/lang/Object;)T0V; # @Inherited(java.util.AbstractMap)
+getHash
+ (Ljava/lang/Object;)I
+ (Ljava/lang/Object;)I
+getOrDefault
+ (Ljava/lang/Object;TV;)TV;
+ (Ljava/lang/Object;TV;)T0V;
+getReference
+ (Ljava/lang/Object;Lorg/springframework/util/ConcurrentReferenceHashMap$Restructure;)Lorg/springframework/util/ConcurrentReferenceHashMap$Reference<TK;TV;>;
+ (Ljava/lang/Object;Lorg/springframework/util/ConcurrentReferenceHashMap$Restructure;)L0org/springframework/util/ConcurrentReferenceHashMap$Reference<TK;TV;>;
+getSegment
+ (I)Lorg/springframework/util/ConcurrentReferenceHashMap<TK;TV;>.Segment;
+ (I)Lorg/springframework/util/ConcurrentReferenceHashMap<TK;TV;>.Segment;
+put
+ (TK;TV;)TV;
+ (TK;TV;)T0V; # @Inherited(java.util.AbstractMap)
+putIfAbsent
+ (TK;TV;)TV;
+ (TK;TV;)T0V; # @Inherited(java.util.concurrent.ConcurrentMap)
+remove
+ (Ljava/lang/Object;)TV;
+ (Ljava/lang/Object;)T0V; # @Overrides(java.util.AbstractMap)
+remove
+ (Ljava/lang/Object;Ljava/lang/Object;)Z
+ (L0java/lang/Object;L0java/lang/Object;)Z # @Inherited(java.util.concurrent.ConcurrentMap)
+replace
+ (TK;TV;)TV;
+ (TK;TV;)T0V; # @Inherited(java.util.concurrent.ConcurrentMap)
+replace
+ (TK;TV;TV;)Z
+ (TK;TV;TV;)Z

@@ -1,0 +1,95 @@
+class javax/servlet/http/HttpServletRequestWrapper
+
+<init>
+ (Ljavax/servlet/http/HttpServletRequest;)V
+ (Ljavax/servlet/http/HttpServletRequest;)V
+authenticate
+ (Ljavax/servlet/http/HttpServletResponse;)Z
+ (L1javax/servlet/http/HttpServletResponse;)Z # @Inherited(javax.servlet.http.HttpServletRequest)
+changeSessionId
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.servlet.http.HttpServletRequest)
+getAuthType
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(javax.servlet.http.HttpServletRequest)
+getContextPath
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.servlet.http.HttpServletRequest)
+getCookies
+ ()[Ljavax/servlet/http/Cookie;
+ ()[0L1javax/servlet/http/Cookie; # @Inherited(javax.servlet.http.HttpServletRequest)
+getDateHeader
+ (Ljava/lang/String;)J
+ (L1java/lang/String;)J # @Inherited(javax.servlet.http.HttpServletRequest)
+getHeader
+ (Ljava/lang/String;)Ljava/lang/String;
+ (L1java/lang/String;)L0java/lang/String; # @Inherited(javax.servlet.http.HttpServletRequest)
+getHeaderNames
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()L0java/util/Enumeration<Ljava/lang/String;>; # @Inherited(javax.servlet.http.HttpServletRequest)
+getHeaders
+ (Ljava/lang/String;)Ljava/util/Enumeration<Ljava/lang/String;>;
+ (L1java/lang/String;)L0java/util/Enumeration<Ljava/lang/String;>; # @Inherited(javax.servlet.http.HttpServletRequest)
+getHttpServletMapping
+ ()Ljavax/servlet/http/HttpServletMapping;
+ ()Ljavax/servlet/http/HttpServletMapping;
+getIntHeader
+ (Ljava/lang/String;)I
+ (L1java/lang/String;)I # @Inherited(javax.servlet.http.HttpServletRequest)
+getMethod
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(javax.servlet.http.HttpServletRequest)
+getPart
+ (Ljava/lang/String;)Ljavax/servlet/http/Part;
+ (L1java/lang/String;)L0javax/servlet/http/Part; # @Inherited(javax.servlet.http.HttpServletRequest)
+getParts
+ ()Ljava/util/Collection<Ljavax/servlet/http/Part;>;
+ ()L1java/util/Collection<Ljavax/servlet/http/Part;>; # @Inherited(javax.servlet.http.HttpServletRequest)
+getPathInfo
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(javax.servlet.http.HttpServletRequest)
+getPathTranslated
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(javax.servlet.http.HttpServletRequest)
+getQueryString
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(javax.servlet.http.HttpServletRequest)
+getRemoteUser
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(javax.servlet.http.HttpServletRequest)
+getRequestURI
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.servlet.http.HttpServletRequest)
+getRequestURL
+ ()Ljava/lang/StringBuffer;
+ ()L1java/lang/StringBuffer; # @Inherited(javax.servlet.http.HttpServletRequest)
+getRequestedSessionId
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(javax.servlet.http.HttpServletRequest)
+getServletPath
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.servlet.http.HttpServletRequest)
+getSession
+ ()Ljavax/servlet/http/HttpSession;
+ ()L1javax/servlet/http/HttpSession; # @Inherited(javax.servlet.http.HttpServletRequest)
+getSession
+ (Z)Ljavax/servlet/http/HttpSession;
+ (Z)L0javax/servlet/http/HttpSession; # @Inherited(javax.servlet.http.HttpServletRequest)
+getTrailerFields
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+getUserPrincipal
+ ()Ljava/security/Principal;
+ ()L0java/security/Principal; # @Inherited(javax.servlet.http.HttpServletRequest)
+isUserInRole
+ (Ljava/lang/String;)Z
+ (L1java/lang/String;)Z # @Inherited(javax.servlet.http.HttpServletRequest)
+login
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (L1java/lang/String;L1java/lang/String;)V # @Inherited(javax.servlet.http.HttpServletRequest)
+newPushBuilder
+ ()Ljavax/servlet/http/PushBuilder;
+ ()Ljavax/servlet/http/PushBuilder;
+upgrade
+ <T::Ljavax/servlet/http/HttpUpgradeHandler;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Ljavax/servlet/http/HttpUpgradeHandler;>(L1java/lang/Class<TT;>;)T1T; # @Inherited(javax.servlet.http.HttpServletRequest)

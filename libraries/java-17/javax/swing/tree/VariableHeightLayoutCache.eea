@@ -1,0 +1,53 @@
+class javax/swing/tree/VariableHeightLayoutCache
+
+getBounds
+ (Ljavax/swing/tree/TreePath;Ljava/awt/Rectangle;)Ljava/awt/Rectangle;
+ (Ljavax/swing/tree/TreePath;Ljava/awt/Rectangle;)Ljava/awt/Rectangle;
+getExpandedState
+ (Ljavax/swing/tree/TreePath;)Z
+ (Ljavax/swing/tree/TreePath;)Z
+getPathClosestTo
+ (II)Ljavax/swing/tree/TreePath;
+ (II)Ljavax/swing/tree/TreePath;
+getPathForRow
+ (I)Ljavax/swing/tree/TreePath;
+ (I)Ljavax/swing/tree/TreePath;
+getPreferredWidth
+ (Ljava/awt/Rectangle;)I
+ (Ljava/awt/Rectangle;)I
+getRowForPath
+ (Ljavax/swing/tree/TreePath;)I
+ (Ljavax/swing/tree/TreePath;)I
+getVisibleChildCount
+ (Ljavax/swing/tree/TreePath;)I
+ (Ljavax/swing/tree/TreePath;)I
+getVisiblePathsFrom
+ (Ljavax/swing/tree/TreePath;)Ljava/util/Enumeration<Ljavax/swing/tree/TreePath;>;
+ (Ljavax/swing/tree/TreePath;)Ljava/util/Enumeration<Ljavax/swing/tree/TreePath;>;
+invalidatePathBounds
+ (Ljavax/swing/tree/TreePath;)V
+ (Ljavax/swing/tree/TreePath;)V
+isExpanded
+ (Ljavax/swing/tree/TreePath;)Z
+ (Ljavax/swing/tree/TreePath;)Z
+setExpandedState
+ (Ljavax/swing/tree/TreePath;Z)V
+ (Ljavax/swing/tree/TreePath;Z)V
+setModel
+ (Ljavax/swing/tree/TreeModel;)V
+ (Ljavax/swing/tree/TreeModel;)V
+setNodeDimensions
+ (Ljavax/swing/tree/AbstractLayoutCache$NodeDimensions;)V
+ (Ljavax/swing/tree/AbstractLayoutCache$NodeDimensions;)V
+treeNodesChanged
+ (Ljavax/swing/event/TreeModelEvent;)V
+ (Ljavax/swing/event/TreeModelEvent;)V
+treeNodesInserted
+ (Ljavax/swing/event/TreeModelEvent;)V
+ (Ljavax/swing/event/TreeModelEvent;)V
+treeNodesRemoved
+ (Ljavax/swing/event/TreeModelEvent;)V
+ (Ljavax/swing/event/TreeModelEvent;)V
+treeStructureChanged
+ (Ljavax/swing/event/TreeModelEvent;)V
+ (Ljavax/swing/event/TreeModelEvent;)V

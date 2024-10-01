@@ -1,0 +1,79 @@
+class javax/swing/JLayeredPane
+
+DEFAULT_LAYER
+ Ljava/lang/Integer;
+ L1java/lang/Integer;
+DRAG_LAYER
+ Ljava/lang/Integer;
+ L1java/lang/Integer;
+FRAME_CONTENT_LAYER
+ Ljava/lang/Integer;
+ L1java/lang/Integer;
+LAYER_PROPERTY
+ Ljava/lang/String;
+ L1java/lang/String;
+MODAL_LAYER
+ Ljava/lang/Integer;
+ L1java/lang/Integer;
+PALETTE_LAYER
+ Ljava/lang/Integer;
+ L1java/lang/Integer;
+POPUP_LAYER
+ Ljava/lang/Integer;
+ L1java/lang/Integer;
+
+getLayer
+ (Ljavax/swing/JComponent;)I
+ (Ljavax/swing/JComponent;)I
+getLayeredPaneAbove
+ (Ljava/awt/Component;)Ljavax/swing/JLayeredPane;
+ (Ljava/awt/Component;)Ljavax/swing/JLayeredPane;
+putLayer
+ (Ljavax/swing/JComponent;I)V
+ (Ljavax/swing/JComponent;I)V
+
+addImpl
+ (Ljava/awt/Component;Ljava/lang/Object;I)V
+ (Ljava/awt/Component;Ljava/lang/Object;I)V
+getAccessibleContext
+ ()Ljavax/accessibility/AccessibleContext;
+ ()Ljavax/accessibility/AccessibleContext;
+getComponentToLayer
+ ()Ljava/util/Hashtable<Ljava/awt/Component;Ljava/lang/Integer;>;
+ ()Ljava/util/Hashtable<Ljava/awt/Component;Ljava/lang/Integer;>;
+getComponentsInLayer
+ (I)[Ljava/awt/Component;
+ (I)[Ljava/awt/Component;
+getIndexOf
+ (Ljava/awt/Component;)I
+ (Ljava/awt/Component;)I
+getLayer
+ (Ljava/awt/Component;)I
+ (Ljava/awt/Component;)I
+getObjectForLayer
+ (I)Ljava/lang/Integer;
+ (I)Ljava/lang/Integer;
+getPosition
+ (Ljava/awt/Component;)I
+ (Ljava/awt/Component;)I
+moveToBack
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+moveToFront
+ (Ljava/awt/Component;)V
+ (Ljava/awt/Component;)V
+paint
+ (Ljava/awt/Graphics;)V
+ (Ljava/awt/Graphics;)V
+paramString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setLayer
+ (Ljava/awt/Component;I)V
+ (Ljava/awt/Component;I)V
+setLayer
+ (Ljava/awt/Component;II)V
+ (Ljava/awt/Component;II)V
+setPosition
+ (Ljava/awt/Component;I)V
+ (Ljava/awt/Component;I)V

@@ -1,0 +1,42 @@
+class java/nio/channels/AsynchronousFileChannel
+
+open
+ (Ljava/nio/file/Path;Ljava/util/Set<+Ljava/nio/file/OpenOption;>;Ljava/util/concurrent/ExecutorService;[Ljava/nio/file/attribute/FileAttribute<*>;)Ljava/nio/channels/AsynchronousFileChannel;
+ (Ljava/nio/file/Path;Ljava/util/Set<+Ljava/nio/file/OpenOption;>;Ljava/util/concurrent/ExecutorService;[Ljava/nio/file/attribute/FileAttribute<*>;)Ljava/nio/channels/AsynchronousFileChannel;
+open
+ (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/nio/channels/AsynchronousFileChannel;
+ (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/nio/channels/AsynchronousFileChannel;
+
+lock
+ ()Ljava/util/concurrent/Future<Ljava/nio/channels/FileLock;>;
+ ()Ljava/util/concurrent/Future<Ljava/nio/channels/FileLock;>;
+lock
+ (JJZ)Ljava/util/concurrent/Future<Ljava/nio/channels/FileLock;>;
+ (JJZ)Ljava/util/concurrent/Future<Ljava/nio/channels/FileLock;>;
+lock
+ <A:Ljava/lang/Object;>(JJZTA;Ljava/nio/channels/CompletionHandler<Ljava/nio/channels/FileLock;-TA;>;)V
+ <A:Ljava/lang/Object;>(JJZTA;Ljava/nio/channels/CompletionHandler<Ljava/nio/channels/FileLock;-TA;>;)V
+lock
+ <A:Ljava/lang/Object;>(TA;Ljava/nio/channels/CompletionHandler<Ljava/nio/channels/FileLock;-TA;>;)V
+ <A:Ljava/lang/Object;>(TA;Ljava/nio/channels/CompletionHandler<Ljava/nio/channels/FileLock;-TA;>;)V
+read
+ (Ljava/nio/ByteBuffer;J)Ljava/util/concurrent/Future<Ljava/lang/Integer;>;
+ (Ljava/nio/ByteBuffer;J)Ljava/util/concurrent/Future<Ljava/lang/Integer;>;
+read
+ <A:Ljava/lang/Object;>(Ljava/nio/ByteBuffer;JTA;Ljava/nio/channels/CompletionHandler<Ljava/lang/Integer;-TA;>;)V
+ <A:Ljava/lang/Object;>(Ljava/nio/ByteBuffer;JTA;Ljava/nio/channels/CompletionHandler<Ljava/lang/Integer;-TA;>;)V
+truncate
+ (J)Ljava/nio/channels/AsynchronousFileChannel;
+ (J)Ljava/nio/channels/AsynchronousFileChannel;
+tryLock
+ ()Ljava/nio/channels/FileLock;
+ ()Ljava/nio/channels/FileLock;
+tryLock
+ (JJZ)Ljava/nio/channels/FileLock;
+ (JJZ)Ljava/nio/channels/FileLock;
+write
+ (Ljava/nio/ByteBuffer;J)Ljava/util/concurrent/Future<Ljava/lang/Integer;>;
+ (Ljava/nio/ByteBuffer;J)Ljava/util/concurrent/Future<Ljava/lang/Integer;>;
+write
+ <A:Ljava/lang/Object;>(Ljava/nio/ByteBuffer;JTA;Ljava/nio/channels/CompletionHandler<Ljava/lang/Integer;-TA;>;)V
+ <A:Ljava/lang/Object;>(Ljava/nio/ByteBuffer;JTA;Ljava/nio/channels/CompletionHandler<Ljava/lang/Integer;-TA;>;)V

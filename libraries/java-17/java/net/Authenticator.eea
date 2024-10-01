@@ -1,0 +1,48 @@
+class java/net/Authenticator
+
+getDefault
+ ()Ljava/net/Authenticator;
+ ()Ljava/net/Authenticator;
+requestPasswordAuthentication
+ (Ljava/lang/String;Ljava/net/InetAddress;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/net/PasswordAuthentication;
+ (Ljava/lang/String;Ljava/net/InetAddress;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/net/PasswordAuthentication;
+requestPasswordAuthentication
+ (Ljava/lang/String;Ljava/net/InetAddress;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/URL;Ljava/net/Authenticator$RequestorType;)Ljava/net/PasswordAuthentication;
+ (Ljava/lang/String;Ljava/net/InetAddress;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/URL;Ljava/net/Authenticator$RequestorType;)Ljava/net/PasswordAuthentication;
+requestPasswordAuthentication
+ (Ljava/net/Authenticator;Ljava/lang/String;Ljava/net/InetAddress;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/URL;Ljava/net/Authenticator$RequestorType;)Ljava/net/PasswordAuthentication;
+ (Ljava/net/Authenticator;Ljava/lang/String;Ljava/net/InetAddress;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/URL;Ljava/net/Authenticator$RequestorType;)Ljava/net/PasswordAuthentication;
+requestPasswordAuthentication
+ (Ljava/net/InetAddress;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/net/PasswordAuthentication;
+ (Ljava/net/InetAddress;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/net/PasswordAuthentication;
+setDefault
+ (Ljava/net/Authenticator;)V
+ (Ljava/net/Authenticator;)V
+
+getPasswordAuthentication
+ ()Ljava/net/PasswordAuthentication;
+ ()Ljava/net/PasswordAuthentication;
+getRequestingHost
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRequestingPrompt
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRequestingProtocol
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRequestingScheme
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRequestingSite
+ ()Ljava/net/InetAddress;
+ ()Ljava/net/InetAddress;
+getRequestingURL
+ ()Ljava/net/URL;
+ ()Ljava/net/URL;
+getRequestorType
+ ()Ljava/net/Authenticator$RequestorType;
+ ()Ljava/net/Authenticator$RequestorType;
+requestPasswordAuthenticationInstance
+ (Ljava/lang/String;Ljava/net/InetAddress;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/URL;Ljava/net/Authenticator$RequestorType;)Ljava/net/PasswordAuthentication;
+ (Ljava/lang/String;Ljava/net/InetAddress;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/net/URL;Ljava/net/Authenticator$RequestorType;)Ljava/net/PasswordAuthentication;

@@ -1,0 +1,32 @@
+class org/springframework/aot/hint/ResourceHints
+
+registerPattern
+ (Ljava/lang/String;)Lorg/springframework/aot/hint/ResourceHints;
+ (Ljava/lang/String;)Lorg/springframework/aot/hint/ResourceHints;
+registerPattern
+ (Ljava/util/function/Consumer<Lorg/springframework/aot/hint/ResourcePatternHints$Builder;>;)Lorg/springframework/aot/hint/ResourceHints;
+ (Ljava/util/function/Consumer<Lorg/springframework/aot/hint/ResourcePatternHints$Builder;>;)Lorg/springframework/aot/hint/ResourceHints;
+registerPatternIfPresent
+ (Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/function/Consumer<Lorg/springframework/aot/hint/ResourcePatternHints$Builder;>;)Lorg/springframework/aot/hint/ResourceHints;
+ (Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/function/Consumer<Lorg/springframework/aot/hint/ResourcePatternHints$Builder;>;)Lorg/springframework/aot/hint/ResourceHints;
+registerResource
+ (Lorg/springframework/core/io/Resource;)V
+ (Lorg/springframework/core/io/Resource;)V
+registerResourceBundle
+ (Ljava/lang/String;)Lorg/springframework/aot/hint/ResourceHints;
+ (Ljava/lang/String;)Lorg/springframework/aot/hint/ResourceHints;
+registerResourceBundle
+ (Ljava/lang/String;Ljava/util/function/Consumer<Lorg/springframework/aot/hint/ResourceBundleHint$Builder;>;)Lorg/springframework/aot/hint/ResourceHints;
+ (Ljava/lang/String;Ljava/util/function/Consumer<Lorg/springframework/aot/hint/ResourceBundleHint$Builder;>;)Lorg/springframework/aot/hint/ResourceHints;
+registerType
+ (Ljava/lang/Class<*>;)Lorg/springframework/aot/hint/ResourceHints;
+ (Ljava/lang/Class<*>;)Lorg/springframework/aot/hint/ResourceHints;
+registerType
+ (Lorg/springframework/aot/hint/TypeReference;)Lorg/springframework/aot/hint/ResourceHints;
+ (Lorg/springframework/aot/hint/TypeReference;)Lorg/springframework/aot/hint/ResourceHints;
+resourceBundleHints
+ ()Ljava/util/stream/Stream<Lorg/springframework/aot/hint/ResourceBundleHint;>;
+ ()Ljava/util/stream/Stream<Lorg/springframework/aot/hint/ResourceBundleHint;>;
+resourcePatternHints
+ ()Ljava/util/stream/Stream<Lorg/springframework/aot/hint/ResourcePatternHints;>;
+ ()Ljava/util/stream/Stream<Lorg/springframework/aot/hint/ResourcePatternHints;>;

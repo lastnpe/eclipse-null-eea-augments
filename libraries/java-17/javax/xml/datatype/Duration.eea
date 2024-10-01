@@ -1,0 +1,56 @@
+class javax/xml/datatype/Duration
+
+add
+ (Ljavax/xml/datatype/Duration;)Ljavax/xml/datatype/Duration;
+ (Ljavax/xml/datatype/Duration;)Ljavax/xml/datatype/Duration;
+addTo
+ (Ljava/util/Calendar;)V
+ (Ljava/util/Calendar;)V
+addTo
+ (Ljava/util/Date;)V
+ (Ljava/util/Date;)V
+compare
+ (Ljavax/xml/datatype/Duration;)I
+ (L1javax/xml/datatype/Duration;)I
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getField
+ (Ljavax/xml/datatype/DatatypeConstants$Field;)Ljava/lang/Number;
+ (Ljavax/xml/datatype/DatatypeConstants$Field;)Ljava/lang/Number;
+getTimeInMillis
+ (Ljava/util/Calendar;)J
+ (Ljava/util/Calendar;)J
+getTimeInMillis
+ (Ljava/util/Date;)J
+ (Ljava/util/Date;)J
+getXMLSchemaType
+ ()Ljavax/xml/namespace/QName;
+ ()Ljavax/xml/namespace/QName;
+isLongerThan
+ (Ljavax/xml/datatype/Duration;)Z
+ (Ljavax/xml/datatype/Duration;)Z
+isSet
+ (Ljavax/xml/datatype/DatatypeConstants$Field;)Z
+ (Ljavax/xml/datatype/DatatypeConstants$Field;)Z
+isShorterThan
+ (Ljavax/xml/datatype/Duration;)Z
+ (Ljavax/xml/datatype/Duration;)Z
+multiply
+ (I)Ljavax/xml/datatype/Duration;
+ (I)Ljavax/xml/datatype/Duration;
+multiply
+ (Ljava/math/BigDecimal;)Ljavax/xml/datatype/Duration;
+ (Ljava/math/BigDecimal;)Ljavax/xml/datatype/Duration;
+negate
+ ()Ljavax/xml/datatype/Duration;
+ ()Ljavax/xml/datatype/Duration;
+normalizeWith
+ (Ljava/util/Calendar;)Ljavax/xml/datatype/Duration;
+ (Ljava/util/Calendar;)Ljavax/xml/datatype/Duration;
+subtract
+ (Ljavax/xml/datatype/Duration;)Ljavax/xml/datatype/Duration;
+ (Ljavax/xml/datatype/Duration;)Ljavax/xml/datatype/Duration;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

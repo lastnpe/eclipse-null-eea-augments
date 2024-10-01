@@ -1,0 +1,137 @@
+class java/lang/invoke/MethodHandles
+
+arrayConstructor
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+arrayElementGetter
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+arrayElementSetter
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+arrayElementVarHandle
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/VarHandle;
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/VarHandle;
+arrayLength
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+byteArrayViewVarHandle
+ (Ljava/lang/Class<*>;Ljava/nio/ByteOrder;)Ljava/lang/invoke/VarHandle;
+ (Ljava/lang/Class<*>;Ljava/nio/ByteOrder;)Ljava/lang/invoke/VarHandle;
+byteBufferViewVarHandle
+ (Ljava/lang/Class<*>;Ljava/nio/ByteOrder;)Ljava/lang/invoke/VarHandle;
+ (Ljava/lang/Class<*>;Ljava/nio/ByteOrder;)Ljava/lang/invoke/VarHandle;
+catchException
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/Class<+Ljava/lang/Throwable;>;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/Class<+Ljava/lang/Throwable;>;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+classData
+ <T:Ljava/lang/Object;>(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/Class<TT;>;)TT;
+classDataAt
+ <T:Ljava/lang/Object;>(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/Class<TT;>;I)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/Class<TT;>;I)TT;
+collectArguments
+ (Ljava/lang/invoke/MethodHandle;ILjava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;ILjava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+constant
+ (Ljava/lang/Class<*>;Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Class<*>;Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;
+countedLoop
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+countedLoop
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+doWhileLoop
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+dropArguments
+ (Ljava/lang/invoke/MethodHandle;ILjava/util/List<Ljava/lang/Class<*>;>;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;ILjava/util/List<Ljava/lang/Class<*>;>;)Ljava/lang/invoke/MethodHandle;
+dropArguments
+ (Ljava/lang/invoke/MethodHandle;I[Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;I[Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+dropArgumentsToMatch
+ (Ljava/lang/invoke/MethodHandle;ILjava/util/List<Ljava/lang/Class<*>;>;I)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;ILjava/util/List<Ljava/lang/Class<*>;>;I)Ljava/lang/invoke/MethodHandle;
+dropReturn
+ (Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+empty
+ (Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+exactInvoker
+ (Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+explicitCastArguments
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+filterArguments
+ (Ljava/lang/invoke/MethodHandle;I[Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;I[Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+filterReturnValue
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+foldArguments
+ (Ljava/lang/invoke/MethodHandle;ILjava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;ILjava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+foldArguments
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+guardWithTest
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+identity
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+insertArguments
+ (Ljava/lang/invoke/MethodHandle;I[Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;I[Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;
+invoker
+ (Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+iteratedLoop
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+lookup
+ ()Ljava/lang/invoke/MethodHandles$Lookup;
+ ()L1java/lang/invoke/MethodHandles$Lookup;
+loop
+ ([[Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+ ([[Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+permuteArguments
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;[I)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;[I)Ljava/lang/invoke/MethodHandle;
+privateLookupIn
+ (Ljava/lang/Class<*>;Ljava/lang/invoke/MethodHandles$Lookup;)Ljava/lang/invoke/MethodHandles$Lookup;
+ (Ljava/lang/Class<*>;Ljava/lang/invoke/MethodHandles$Lookup;)Ljava/lang/invoke/MethodHandles$Lookup;
+publicLookup
+ ()Ljava/lang/invoke/MethodHandles$Lookup;
+ ()Ljava/lang/invoke/MethodHandles$Lookup;
+reflectAs
+ <T::Ljava/lang/reflect/Member;>(Ljava/lang/Class<TT;>;Ljava/lang/invoke/MethodHandle;)TT;
+ <T::Ljava/lang/reflect/Member;>(Ljava/lang/Class<TT;>;Ljava/lang/invoke/MethodHandle;)TT;
+spreadInvoker
+ (Ljava/lang/invoke/MethodType;I)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodType;I)Ljava/lang/invoke/MethodHandle;
+tableSwitch
+ (Ljava/lang/invoke/MethodHandle;[Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;[Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+throwException
+ (Ljava/lang/Class<*>;Ljava/lang/Class<+Ljava/lang/Throwable;>;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Class<*>;Ljava/lang/Class<+Ljava/lang/Throwable;>;)Ljava/lang/invoke/MethodHandle;
+tryFinally
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+varHandleExactInvoker
+ (Ljava/lang/invoke/VarHandle$AccessMode;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/VarHandle$AccessMode;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+varHandleInvoker
+ (Ljava/lang/invoke/VarHandle$AccessMode;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/VarHandle$AccessMode;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+whileLoop
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;
+zero
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;

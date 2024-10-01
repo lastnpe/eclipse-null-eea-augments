@@ -1,0 +1,57 @@
+class com/google/common/math/Stats
+
+fromByteArray
+ ([B)Lcom/google/common/math/Stats;
+ ([B)Lcom/google/common/math/Stats;
+meanOf
+ (Ljava/lang/Iterable<+Ljava/lang/Number;>;)D
+ (Ljava/lang/Iterable<+Ljava/lang/Number;>;)D
+meanOf
+ (Ljava/util/Iterator<+Ljava/lang/Number;>;)D
+ (Ljava/util/Iterator<+Ljava/lang/Number;>;)D
+meanOf
+ ([D)D
+ ([D)D
+meanOf
+ ([I)D
+ ([I)D
+meanOf
+ ([J)D
+ ([J)D
+of
+ (Ljava/lang/Iterable<+Ljava/lang/Number;>;)Lcom/google/common/math/Stats;
+ (Ljava/lang/Iterable<+Ljava/lang/Number;>;)Lcom/google/common/math/Stats;
+of
+ (Ljava/util/Iterator<+Ljava/lang/Number;>;)Lcom/google/common/math/Stats;
+ (Ljava/util/Iterator<+Ljava/lang/Number;>;)Lcom/google/common/math/Stats;
+of
+ (Ljava/util/stream/DoubleStream;)Lcom/google/common/math/Stats;
+ (Ljava/util/stream/DoubleStream;)Lcom/google/common/math/Stats;
+of
+ (Ljava/util/stream/IntStream;)Lcom/google/common/math/Stats;
+ (Ljava/util/stream/IntStream;)Lcom/google/common/math/Stats;
+of
+ (Ljava/util/stream/LongStream;)Lcom/google/common/math/Stats;
+ (Ljava/util/stream/LongStream;)Lcom/google/common/math/Stats;
+of
+ ([D)Lcom/google/common/math/Stats;
+ ([D)Lcom/google/common/math/Stats;
+of
+ ([I)Lcom/google/common/math/Stats;
+ ([I)Lcom/google/common/math/Stats;
+of
+ ([J)Lcom/google/common/math/Stats;
+ ([J)Lcom/google/common/math/Stats;
+toStats
+ ()Ljava/util/stream/Collector<Ljava/lang/Number;Lcom/google/common/math/StatsAccumulator;Lcom/google/common/math/Stats;>;
+ ()Ljava/util/stream/Collector<Ljava/lang/Number;Lcom/google/common/math/StatsAccumulator;Lcom/google/common/math/Stats;>;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+toByteArray
+ ()[B
+ ()[B
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

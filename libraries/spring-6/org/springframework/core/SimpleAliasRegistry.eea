@@ -1,0 +1,30 @@
+class org/springframework/core/SimpleAliasRegistry
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+canonicalName
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+checkForAliasCircle
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+getAliases
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[Ljava/lang/String;
+hasAlias
+ (Ljava/lang/String;Ljava/lang/String;)Z
+ (Ljava/lang/String;Ljava/lang/String;)Z
+isAlias
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+registerAlias
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+removeAlias
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+resolveAliases
+ (Lorg/springframework/util/StringValueResolver;)V
+ (Lorg/springframework/util/StringValueResolver;)V

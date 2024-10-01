@@ -1,0 +1,24 @@
+class javax/swing/undo/CompoundEdit
+
+edits
+ Ljava/util/Vector<Ljavax/swing/undo/UndoableEdit;>;
+ Ljava/util/Vector<Ljavax/swing/undo/UndoableEdit;>;
+
+addEdit
+ (Ljavax/swing/undo/UndoableEdit;)Z
+ (Ljavax/swing/undo/UndoableEdit;)Z
+getPresentationName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRedoPresentationName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getUndoPresentationName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+lastEdit
+ ()Ljavax/swing/undo/UndoableEdit;
+ ()Ljavax/swing/undo/UndoableEdit;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.swing.undo.AbstractUndoableEdit)

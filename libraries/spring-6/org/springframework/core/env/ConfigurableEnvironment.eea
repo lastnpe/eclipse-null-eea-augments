@@ -1,0 +1,23 @@
+class org/springframework/core/env/ConfigurableEnvironment
+
+addActiveProfile
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getPropertySources
+ ()Lorg/springframework/core/env/MutablePropertySources;
+ ()Lorg/springframework/core/env/MutablePropertySources;
+getSystemEnvironment
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getSystemProperties
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+merge
+ (Lorg/springframework/core/env/ConfigurableEnvironment;)V
+ (Lorg/springframework/core/env/ConfigurableEnvironment;)V
+setActiveProfiles
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setDefaultProfiles
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V

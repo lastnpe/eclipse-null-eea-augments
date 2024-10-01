@@ -1,0 +1,29 @@
+class com/google/gson/stream/JsonReader
+
+<init>
+ (Ljava/io/Reader;)V
+ (L1java/io/Reader;)V
+getPath
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getPreviousPath
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+getStrictness
+ ()Lcom/google/gson/Strictness;
+ ()Lcom/google/gson/Strictness;
+nextName
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+nextString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+peek
+ ()Lcom/google/gson/stream/JsonToken;
+ ()L1com/google/gson/stream/JsonToken;
+setStrictness
+ (Lcom/google/gson/Strictness;)V
+ (Lcom/google/gson/Strictness;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

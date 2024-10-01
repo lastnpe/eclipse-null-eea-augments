@@ -1,0 +1,32 @@
+class com/fasterxml/jackson/databind/introspect/Annotated
+
+annotations
+ ()Ljava/lang/Iterable<Ljava/lang/annotation/Annotation;>;
+ ()Ljava/lang/Iterable<Ljava/lang/annotation/Annotation;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getAnnotated
+ ()Ljava/lang/reflect/AnnotatedElement;
+ ()Ljava/lang/reflect/AnnotatedElement;
+getAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
+ <A::Ljava/lang/annotation/Annotation;>(Ljava/lang/Class<TA;>;)TA;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRawType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getType
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+hasAnnotation
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+hasOneOf
+ ([Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+ ([Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

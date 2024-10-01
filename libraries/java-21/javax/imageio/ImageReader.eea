@@ -1,0 +1,160 @@
+class javax/imageio/ImageReader
+
+checkReadParamBandSettings
+ (Ljavax/imageio/ImageReadParam;II)V
+ (Ljavax/imageio/ImageReadParam;II)V
+computeRegions
+ (Ljavax/imageio/ImageReadParam;IILjava/awt/image/BufferedImage;Ljava/awt/Rectangle;Ljava/awt/Rectangle;)V
+ (Ljavax/imageio/ImageReadParam;IILjava/awt/image/BufferedImage;Ljava/awt/Rectangle;Ljava/awt/Rectangle;)V
+getDestination
+ (Ljavax/imageio/ImageReadParam;Ljava/util/Iterator<Ljavax/imageio/ImageTypeSpecifier;>;II)Ljava/awt/image/BufferedImage;
+ (Ljavax/imageio/ImageReadParam;Ljava/util/Iterator<Ljavax/imageio/ImageTypeSpecifier;>;II)Ljava/awt/image/BufferedImage;
+getSourceRegion
+ (Ljavax/imageio/ImageReadParam;II)Ljava/awt/Rectangle;
+ (Ljavax/imageio/ImageReadParam;II)Ljava/awt/Rectangle;
+
+availableLocales
+ [Ljava/util/Locale;
+ [Ljava/util/Locale;
+input
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+locale
+ Ljava/util/Locale;
+ Ljava/util/Locale;
+originatingProvider
+ Ljavax/imageio/spi/ImageReaderSpi;
+ Ljavax/imageio/spi/ImageReaderSpi;
+progressListeners
+ Ljava/util/List<Ljavax/imageio/event/IIOReadProgressListener;>;
+ Ljava/util/List<Ljavax/imageio/event/IIOReadProgressListener;>;
+updateListeners
+ Ljava/util/List<Ljavax/imageio/event/IIOReadUpdateListener;>;
+ Ljava/util/List<Ljavax/imageio/event/IIOReadUpdateListener;>;
+warningListeners
+ Ljava/util/List<Ljavax/imageio/event/IIOReadWarningListener;>;
+ Ljava/util/List<Ljavax/imageio/event/IIOReadWarningListener;>;
+warningLocales
+ Ljava/util/List<Ljava/util/Locale;>;
+ Ljava/util/List<Ljava/util/Locale;>;
+
+<init>
+ (Ljavax/imageio/spi/ImageReaderSpi;)V
+ (Ljavax/imageio/spi/ImageReaderSpi;)V
+addIIOReadProgressListener
+ (Ljavax/imageio/event/IIOReadProgressListener;)V
+ (L1javax/imageio/event/IIOReadProgressListener;)V
+addIIOReadUpdateListener
+ (Ljavax/imageio/event/IIOReadUpdateListener;)V
+ (L1javax/imageio/event/IIOReadUpdateListener;)V
+addIIOReadWarningListener
+ (Ljavax/imageio/event/IIOReadWarningListener;)V
+ (L1javax/imageio/event/IIOReadWarningListener;)V
+getAvailableLocales
+ ()[Ljava/util/Locale;
+ ()[Ljava/util/Locale;
+getDefaultReadParam
+ ()Ljavax/imageio/ImageReadParam;
+ ()Ljavax/imageio/ImageReadParam;
+getFormatName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getImageMetadata
+ (I)Ljavax/imageio/metadata/IIOMetadata;
+ (I)Ljavax/imageio/metadata/IIOMetadata;
+getImageMetadata
+ (ILjava/lang/String;Ljava/util/Set<Ljava/lang/String;>;)Ljavax/imageio/metadata/IIOMetadata;
+ (ILjava/lang/String;Ljava/util/Set<Ljava/lang/String;>;)Ljavax/imageio/metadata/IIOMetadata;
+getImageTypes
+ (I)Ljava/util/Iterator<Ljavax/imageio/ImageTypeSpecifier;>;
+ (I)Ljava/util/Iterator<Ljavax/imageio/ImageTypeSpecifier;>;
+getInput
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+getOriginatingProvider
+ ()Ljavax/imageio/spi/ImageReaderSpi;
+ ()Ljavax/imageio/spi/ImageReaderSpi;
+getRawImageType
+ (I)Ljavax/imageio/ImageTypeSpecifier;
+ (I)Ljavax/imageio/ImageTypeSpecifier;
+getStreamMetadata
+ ()Ljavax/imageio/metadata/IIOMetadata;
+ ()Ljavax/imageio/metadata/IIOMetadata;
+getStreamMetadata
+ (Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;)Ljavax/imageio/metadata/IIOMetadata;
+ (Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;)Ljavax/imageio/metadata/IIOMetadata;
+processImageUpdate
+ (Ljava/awt/image/BufferedImage;IIIIII[I)V
+ (Ljava/awt/image/BufferedImage;IIIIII[I)V
+processPassComplete
+ (Ljava/awt/image/BufferedImage;)V
+ (Ljava/awt/image/BufferedImage;)V
+processPassStarted
+ (Ljava/awt/image/BufferedImage;IIIIIII[I)V
+ (Ljava/awt/image/BufferedImage;IIIIIII[I)V
+processThumbnailPassComplete
+ (Ljava/awt/image/BufferedImage;)V
+ (Ljava/awt/image/BufferedImage;)V
+processThumbnailPassStarted
+ (Ljava/awt/image/BufferedImage;IIIIIII[I)V
+ (Ljava/awt/image/BufferedImage;IIIIIII[I)V
+processThumbnailUpdate
+ (Ljava/awt/image/BufferedImage;IIIIII[I)V
+ (Ljava/awt/image/BufferedImage;IIIIII[I)V
+processWarningOccurred
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+processWarningOccurred
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+read
+ (I)Ljava/awt/image/BufferedImage;
+ (I)Ljava/awt/image/BufferedImage;
+read
+ (ILjavax/imageio/ImageReadParam;)Ljava/awt/image/BufferedImage;
+ (ILjavax/imageio/ImageReadParam;)Ljava/awt/image/BufferedImage;
+readAll
+ (ILjavax/imageio/ImageReadParam;)Ljavax/imageio/IIOImage;
+ (ILjavax/imageio/ImageReadParam;)Ljavax/imageio/IIOImage;
+readAll
+ (Ljava/util/Iterator<+Ljavax/imageio/ImageReadParam;>;)Ljava/util/Iterator<Ljavax/imageio/IIOImage;>;
+ (Ljava/util/Iterator<+Ljavax/imageio/ImageReadParam;>;)Ljava/util/Iterator<Ljavax/imageio/IIOImage;>;
+readAsRenderedImage
+ (ILjavax/imageio/ImageReadParam;)Ljava/awt/image/RenderedImage;
+ (ILjavax/imageio/ImageReadParam;)Ljava/awt/image/RenderedImage;
+readRaster
+ (ILjavax/imageio/ImageReadParam;)Ljava/awt/image/Raster;
+ (ILjavax/imageio/ImageReadParam;)Ljava/awt/image/Raster;
+readThumbnail
+ (II)Ljava/awt/image/BufferedImage;
+ (II)Ljava/awt/image/BufferedImage;
+readTile
+ (III)Ljava/awt/image/BufferedImage;
+ (III)Ljava/awt/image/BufferedImage;
+readTileRaster
+ (III)Ljava/awt/image/Raster;
+ (III)Ljava/awt/image/Raster;
+removeIIOReadProgressListener
+ (Ljavax/imageio/event/IIOReadProgressListener;)V
+ (L1javax/imageio/event/IIOReadProgressListener;)V
+removeIIOReadUpdateListener
+ (Ljavax/imageio/event/IIOReadUpdateListener;)V
+ (L1javax/imageio/event/IIOReadUpdateListener;)V
+removeIIOReadWarningListener
+ (Ljavax/imageio/event/IIOReadWarningListener;)V
+ (L1javax/imageio/event/IIOReadWarningListener;)V
+setInput
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setInput
+ (Ljava/lang/Object;Z)V
+ (Ljava/lang/Object;Z)V
+setInput
+ (Ljava/lang/Object;ZZ)V
+ (Ljava/lang/Object;ZZ)V
+setLocale
+ (Ljava/util/Locale;)V
+ (Ljava/util/Locale;)V

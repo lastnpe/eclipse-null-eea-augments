@@ -1,0 +1,89 @@
+class java/lang/invoke/MethodHandles$Lookup
+
+accessClass
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/lang/Class<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/lang/Class<TT;>;
+bind
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+defineClass
+ ([B)Ljava/lang/Class<*>;
+ ([B)Ljava/lang/Class<*>;
+defineHiddenClass
+ ([BZ[Ljava/lang/invoke/MethodHandles$Lookup$ClassOption;)Ljava/lang/invoke/MethodHandles$Lookup;
+ ([BZ[Ljava/lang/invoke/MethodHandles$Lookup$ClassOption;)Ljava/lang/invoke/MethodHandles$Lookup;
+defineHiddenClassWithClassData
+ ([BLjava/lang/Object;Z[Ljava/lang/invoke/MethodHandles$Lookup$ClassOption;)Ljava/lang/invoke/MethodHandles$Lookup;
+ ([BLjava/lang/Object;Z[Ljava/lang/invoke/MethodHandles$Lookup$ClassOption;)Ljava/lang/invoke/MethodHandles$Lookup;
+dropLookupMode
+ (I)Ljava/lang/invoke/MethodHandles$Lookup;
+ (I)Ljava/lang/invoke/MethodHandles$Lookup;
+ensureInitialized
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/lang/Class<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/lang/Class<TT;>;
+findClass
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+findConstructor
+ (Ljava/lang/Class<*>;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Class<*>;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+findGetter
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+findSetter
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+findSpecial
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+findStatic
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+findStaticGetter
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+findStaticSetter
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+findStaticVarHandle
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/Class<*>;)Ljava/lang/invoke/VarHandle;
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/Class<*>;)Ljava/lang/invoke/VarHandle;
+findVarHandle
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/Class<*>;)Ljava/lang/invoke/VarHandle;
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/Class<*>;)Ljava/lang/invoke/VarHandle;
+findVirtual
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;
+in
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandles$Lookup;
+ (Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandles$Lookup;
+lookupClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+previousLookupClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+revealDirect
+ (Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandleInfo;
+ (Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandleInfo;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+unreflect
+ (Ljava/lang/reflect/Method;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/reflect/Method;)Ljava/lang/invoke/MethodHandle;
+unreflectConstructor
+ (Ljava/lang/reflect/Constructor<*>;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/reflect/Constructor<*>;)Ljava/lang/invoke/MethodHandle;
+unreflectGetter
+ (Ljava/lang/reflect/Field;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/reflect/Field;)Ljava/lang/invoke/MethodHandle;
+unreflectSetter
+ (Ljava/lang/reflect/Field;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/reflect/Field;)Ljava/lang/invoke/MethodHandle;
+unreflectSpecial
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Ljava/lang/invoke/MethodHandle;
+unreflectVarHandle
+ (Ljava/lang/reflect/Field;)Ljava/lang/invoke/VarHandle;
+ (Ljava/lang/reflect/Field;)Ljava/lang/invoke/VarHandle;

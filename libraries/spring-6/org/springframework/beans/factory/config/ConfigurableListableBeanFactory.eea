@@ -1,0 +1,20 @@
+class org/springframework/beans/factory/config/ConfigurableListableBeanFactory
+
+getBeanDefinition
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/config/BeanDefinition;
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/config/BeanDefinition;
+getBeanNamesIterator
+ ()Ljava/util/Iterator<Ljava/lang/String;>;
+ ()Ljava/util/Iterator<Ljava/lang/String;>;
+ignoreDependencyInterface
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+ignoreDependencyType
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+isAutowireCandidate
+ (Ljava/lang/String;Lorg/springframework/beans/factory/config/DependencyDescriptor;)Z
+ (Ljava/lang/String;Lorg/springframework/beans/factory/config/DependencyDescriptor;)Z
+registerResolvableDependency
+ (Ljava/lang/Class<*>;Ljava/lang/Object;)V
+ (Ljava/lang/Class<*>;Ljava/lang/Object;)V

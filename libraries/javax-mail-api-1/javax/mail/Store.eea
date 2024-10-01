@@ -1,0 +1,44 @@
+class javax/mail/Store
+
+<init>
+ (Ljavax/mail/Session;Ljavax/mail/URLName;)V
+ (Ljavax/mail/Session;Ljavax/mail/URLName;)V
+addFolderListener
+ (Ljavax/mail/event/FolderListener;)V
+ (L1javax/mail/event/FolderListener;)V
+addStoreListener
+ (Ljavax/mail/event/StoreListener;)V
+ (L1javax/mail/event/StoreListener;)V
+getDefaultFolder
+ ()Ljavax/mail/Folder;
+ ()Ljavax/mail/Folder;
+getFolder
+ (Ljava/lang/String;)Ljavax/mail/Folder;
+ (Ljava/lang/String;)Ljavax/mail/Folder;
+getFolder
+ (Ljavax/mail/URLName;)Ljavax/mail/Folder;
+ (Ljavax/mail/URLName;)Ljavax/mail/Folder;
+getPersonalNamespaces
+ ()[Ljavax/mail/Folder;
+ ()[Ljavax/mail/Folder;
+getSharedNamespaces
+ ()[Ljavax/mail/Folder;
+ ()[Ljavax/mail/Folder;
+getUserNamespaces
+ (Ljava/lang/String;)[Ljavax/mail/Folder;
+ (Ljava/lang/String;)[Ljavax/mail/Folder;
+notifyFolderListeners
+ (ILjavax/mail/Folder;)V
+ (ILjavax/mail/Folder;)V
+notifyFolderRenamedListeners
+ (Ljavax/mail/Folder;Ljavax/mail/Folder;)V
+ (Ljavax/mail/Folder;Ljavax/mail/Folder;)V
+notifyStoreListeners
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+removeFolderListener
+ (Ljavax/mail/event/FolderListener;)V
+ (L1javax/mail/event/FolderListener;)V
+removeStoreListener
+ (Ljavax/mail/event/StoreListener;)V
+ (L1javax/mail/event/StoreListener;)V

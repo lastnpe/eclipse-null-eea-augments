@@ -1,0 +1,44 @@
+class javax/swing/text/WrappedPlainView
+
+<init>
+ (Ljavax/swing/text/Element;)V
+ (Ljavax/swing/text/Element;)V
+<init>
+ (Ljavax/swing/text/Element;Z)V
+ (Ljavax/swing/text/Element;Z)V
+changedUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+drawLine
+ (IILjava/awt/Graphics2D;FF)V
+ (IILjava/awt/Graphics2D;FF)V
+drawLine
+ (IILjava/awt/Graphics;II)V
+ (IILjava/awt/Graphics;II)V
+drawSelectedText
+ (Ljava/awt/Graphics2D;FFII)F
+ (Ljava/awt/Graphics2D;FFII)F
+drawSelectedText
+ (Ljava/awt/Graphics;IIII)I
+ (Ljava/awt/Graphics;IIII)I
+drawUnselectedText
+ (Ljava/awt/Graphics2D;FFII)F
+ (Ljava/awt/Graphics2D;FFII)F
+drawUnselectedText
+ (Ljava/awt/Graphics;IIII)I
+ (Ljava/awt/Graphics;IIII)I
+getLineBuffer
+ ()Ljavax/swing/text/Segment;
+ ()Ljavax/swing/text/Segment;
+insertUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+loadChildren
+ (Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/text/ViewFactory;)V
+paint
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V
+ (Ljava/awt/Graphics;Ljava/awt/Shape;)V
+removeUpdate
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V
+ (Ljavax/swing/event/DocumentEvent;Ljava/awt/Shape;Ljavax/swing/text/ViewFactory;)V

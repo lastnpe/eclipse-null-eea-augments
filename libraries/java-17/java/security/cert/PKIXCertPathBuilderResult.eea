@@ -1,0 +1,11 @@
+class java/security/cert/PKIXCertPathBuilderResult
+
+<init>
+ (Ljava/security/cert/CertPath;Ljava/security/cert/TrustAnchor;Ljava/security/cert/PolicyNode;Ljava/security/PublicKey;)V
+ (Ljava/security/cert/CertPath;Ljava/security/cert/TrustAnchor;Ljava/security/cert/PolicyNode;Ljava/security/PublicKey;)V
+getCertPath
+ ()Ljava/security/cert/CertPath;
+ ()Ljava/security/cert/CertPath;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.security.cert.PKIXCertPathValidatorResult)

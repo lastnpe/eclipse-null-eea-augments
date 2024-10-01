@@ -1,0 +1,20 @@
+class javax/print/SimpleDoc
+
+<init>
+ (Ljava/lang/Object;Ljavax/print/DocFlavor;Ljavax/print/attribute/DocAttributeSet;)V
+ (Ljava/lang/Object;Ljavax/print/DocFlavor;Ljavax/print/attribute/DocAttributeSet;)V
+getAttributes
+ ()Ljavax/print/attribute/DocAttributeSet;
+ ()Ljavax/print/attribute/DocAttributeSet;
+getDocFlavor
+ ()Ljavax/print/DocFlavor;
+ ()Ljavax/print/DocFlavor;
+getPrintData
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getReaderForText
+ ()Ljava/io/Reader;
+ ()Ljava/io/Reader;
+getStreamForBytes
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;

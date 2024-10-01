@@ -1,0 +1,11 @@
+class java/security/PolicySpi
+
+engineGetPermissions
+ (Ljava/security/CodeSource;)Ljava/security/PermissionCollection;
+ (Ljava/security/CodeSource;)Ljava/security/PermissionCollection;
+engineGetPermissions
+ (Ljava/security/ProtectionDomain;)Ljava/security/PermissionCollection;
+ (Ljava/security/ProtectionDomain;)Ljava/security/PermissionCollection;
+engineImplies
+ (Ljava/security/ProtectionDomain;Ljava/security/Permission;)Z
+ (Ljava/security/ProtectionDomain;Ljava/security/Permission;)Z

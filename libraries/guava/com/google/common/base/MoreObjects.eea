@@ -1,4 +1,14 @@
 class com/google/common/base/MoreObjects
+
 firstNonNull
  <T:Ljava/lang/Object;>(TT;TT;)TT;
- <T:Ljava/lang/Object;>(TT;TT;)T1T;
+ <T:Ljava/lang/Object;>(T1T;TT;)T1T;
+toStringHelper
+ (Ljava/lang/Class<*>;)Lcom/google/common/base/MoreObjects$ToStringHelper;
+ (L1java/lang/Class<*>;)L1com/google/common/base/MoreObjects$ToStringHelper;
+toStringHelper
+ (Ljava/lang/Object;)Lcom/google/common/base/MoreObjects$ToStringHelper;
+ (L1java/lang/Object;)L1com/google/common/base/MoreObjects$ToStringHelper;
+toStringHelper
+ (Ljava/lang/String;)Lcom/google/common/base/MoreObjects$ToStringHelper;
+ (L1java/lang/String;)L1com/google/common/base/MoreObjects$ToStringHelper;

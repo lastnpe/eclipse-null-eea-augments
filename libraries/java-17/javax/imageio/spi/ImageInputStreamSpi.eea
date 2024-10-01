@@ -1,0 +1,18 @@
+class javax/imageio/spi/ImageInputStreamSpi
+
+inputClass
+ Ljava/lang/Class<*>;
+ Ljava/lang/Class<*>;
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class<*>;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class<*>;)V
+createInputStreamInstance
+ (Ljava/lang/Object;)Ljavax/imageio/stream/ImageInputStream;
+ (Ljava/lang/Object;)Ljavax/imageio/stream/ImageInputStream;
+createInputStreamInstance
+ (Ljava/lang/Object;ZLjava/io/File;)Ljavax/imageio/stream/ImageInputStream;
+ (Ljava/lang/Object;ZLjava/io/File;)Ljavax/imageio/stream/ImageInputStream;
+getInputClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;

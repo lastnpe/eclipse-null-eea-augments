@@ -1,0 +1,29 @@
+class javax/management/StandardEmitterMBean
+
+<init>
+ (Ljava/lang/Class<*>;Ljavax/management/NotificationEmitter;)V
+ (Ljava/lang/Class<*>;Ljavax/management/NotificationEmitter;)V
+<init>
+ (Ljava/lang/Class<*>;ZLjavax/management/NotificationEmitter;)V
+ (Ljava/lang/Class<*>;ZLjavax/management/NotificationEmitter;)V
+<init>
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/Class<TT;>;Ljavax/management/NotificationEmitter;)V
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/Class<TT;>;Ljavax/management/NotificationEmitter;)V
+<init>
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/Class<TT;>;ZLjavax/management/NotificationEmitter;)V
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/Class<TT;>;ZLjavax/management/NotificationEmitter;)V
+addNotificationListener
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+getNotificationInfo
+ ()[Ljavax/management/MBeanNotificationInfo;
+ ()[Ljavax/management/MBeanNotificationInfo;
+removeNotificationListener
+ (Ljavax/management/NotificationListener;)V
+ (L1javax/management/NotificationListener;)V # @Inherited(javax.management.NotificationBroadcaster)
+removeNotificationListener
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+ (Ljavax/management/NotificationListener;Ljavax/management/NotificationFilter;Ljava/lang/Object;)V
+sendNotification
+ (Ljavax/management/Notification;)V
+ (Ljavax/management/Notification;)V

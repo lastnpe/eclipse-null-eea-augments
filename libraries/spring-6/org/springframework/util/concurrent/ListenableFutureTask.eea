@@ -1,0 +1,26 @@
+class org/springframework/util/concurrent/ListenableFutureTask
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super java/util/concurrent/FutureTask
+ <TT;>
+ <TT;>
+super org/springframework/util/concurrent/ListenableFuture
+ <TT;>
+ <TT;>
+
+<init>
+ (Ljava/lang/Runnable;TT;)V
+ (Ljava/lang/Runnable;TT;)V
+<init>
+ (Ljava/util/concurrent/Callable<TT;>;)V
+ (Ljava/util/concurrent/Callable<TT;>;)V
+addCallback
+ (Lorg/springframework/util/concurrent/ListenableFutureCallback<-TT;>;)V
+ (Lorg/springframework/util/concurrent/ListenableFutureCallback<-TT;>;)V
+addCallback
+ (Lorg/springframework/util/concurrent/SuccessCallback<-TT;>;Lorg/springframework/util/concurrent/FailureCallback;)V
+ (Lorg/springframework/util/concurrent/SuccessCallback<-TT;>;Lorg/springframework/util/concurrent/FailureCallback;)V
+completable
+ ()Ljava/util/concurrent/CompletableFuture<TT;>;
+ ()Ljava/util/concurrent/CompletableFuture<TT;>;

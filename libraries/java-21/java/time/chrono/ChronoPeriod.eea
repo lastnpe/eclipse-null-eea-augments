@@ -1,0 +1,42 @@
+class java/time/chrono/ChronoPeriod
+
+between
+ (Ljava/time/chrono/ChronoLocalDate;Ljava/time/chrono/ChronoLocalDate;)Ljava/time/chrono/ChronoPeriod;
+ (Ljava/time/chrono/ChronoLocalDate;Ljava/time/chrono/ChronoLocalDate;)Ljava/time/chrono/ChronoPeriod;
+
+addTo
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal; # @Inherited(java.time.temporal.TemporalAmount)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (Ljava/time/temporal/TemporalUnit;)J
+ (L1java/time/temporal/TemporalUnit;)J # @Inherited(java.time.temporal.TemporalAmount)
+getChronology
+ ()Ljava/time/chrono/Chronology;
+ ()Ljava/time/chrono/Chronology;
+getUnits
+ ()Ljava/util/List<Ljava/time/temporal/TemporalUnit;>;
+ ()L1java/util/List<L1java/time/temporal/TemporalUnit;>; # @Inherited(java.time.temporal.TemporalAmount)
+minus
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/ChronoPeriod;
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/ChronoPeriod;
+multipliedBy
+ (I)Ljava/time/chrono/ChronoPeriod;
+ (I)Ljava/time/chrono/ChronoPeriod;
+negated
+ ()Ljava/time/chrono/ChronoPeriod;
+ ()Ljava/time/chrono/ChronoPeriod;
+normalized
+ ()Ljava/time/chrono/ChronoPeriod;
+ ()Ljava/time/chrono/ChronoPeriod;
+plus
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/ChronoPeriod;
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/ChronoPeriod;
+subtractFrom
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (L1java/time/temporal/Temporal;)L1java/time/temporal/Temporal; # @Inherited(java.time.temporal.TemporalAmount)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

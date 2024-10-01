@@ -1,0 +1,35 @@
+class java/util/SortedMap
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+ <K:Ljava/lang/Object;V:Ljava/lang/Object;>
+
+super java/util/Map
+ <TK;TV;>
+ <TK;TV;>
+
+comparator
+ ()Ljava/util/Comparator<-TK;>;
+ ()Ljava/util/Comparator<-TK;>;
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;
+ ()L1java/util/Set<L1java/util/Map$Entry<TK;TV;>;>; # @Inherited(java.util.Map)
+firstKey
+ ()TK;
+ ()TK;
+headMap
+ (TK;)Ljava/util/SortedMap<TK;TV;>;
+ (TK;)Ljava/util/SortedMap<TK;TV;>;
+keySet
+ ()Ljava/util/Set<TK;>;
+ ()L1java/util/Set<TK;>; # @Inherited(java.util.Map)
+lastKey
+ ()TK;
+ ()TK;
+subMap
+ (TK;TK;)Ljava/util/SortedMap<TK;TV;>;
+ (TK;TK;)Ljava/util/SortedMap<TK;TV;>;
+tailMap
+ (TK;)Ljava/util/SortedMap<TK;TV;>;
+ (TK;)Ljava/util/SortedMap<TK;TV;>;
+values
+ ()Ljava/util/Collection<TV;>;
+ ()L1java/util/Collection<TV;>; # @Inherited(java.util.Map)

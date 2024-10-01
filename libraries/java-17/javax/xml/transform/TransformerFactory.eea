@@ -1,0 +1,48 @@
+class javax/xml/transform/TransformerFactory
+
+newDefaultInstance
+ ()Ljavax/xml/transform/TransformerFactory;
+ ()Ljavax/xml/transform/TransformerFactory;
+newInstance
+ ()Ljavax/xml/transform/TransformerFactory;
+ ()Ljavax/xml/transform/TransformerFactory;
+newInstance
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/transform/TransformerFactory;
+ (Ljava/lang/String;Ljava/lang/ClassLoader;)Ljavax/xml/transform/TransformerFactory;
+
+getAssociatedStylesheet
+ (Ljavax/xml/transform/Source;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/transform/Source;
+ (Ljavax/xml/transform/Source;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/transform/Source;
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getErrorListener
+ ()Ljavax/xml/transform/ErrorListener;
+ ()Ljavax/xml/transform/ErrorListener;
+getFeature
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+getURIResolver
+ ()Ljavax/xml/transform/URIResolver;
+ ()Ljavax/xml/transform/URIResolver;
+newTemplates
+ (Ljavax/xml/transform/Source;)Ljavax/xml/transform/Templates;
+ (Ljavax/xml/transform/Source;)Ljavax/xml/transform/Templates;
+newTransformer
+ ()Ljavax/xml/transform/Transformer;
+ ()Ljavax/xml/transform/Transformer;
+newTransformer
+ (Ljavax/xml/transform/Source;)Ljavax/xml/transform/Transformer;
+ (Ljavax/xml/transform/Source;)Ljavax/xml/transform/Transformer;
+setAttribute
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+setErrorListener
+ (Ljavax/xml/transform/ErrorListener;)V
+ (Ljavax/xml/transform/ErrorListener;)V
+setFeature
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+setURIResolver
+ (Ljavax/xml/transform/URIResolver;)V
+ (Ljavax/xml/transform/URIResolver;)V

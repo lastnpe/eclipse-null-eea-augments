@@ -1,0 +1,59 @@
+class com/google/common/collect/Lists
+
+asList
+ <E:Ljava/lang/Object;>(TE;TE;[TE;)Ljava/util/List<TE;>;
+ <E:Ljava/lang/Object;>(TE;TE;[TE;)Ljava/util/List<TE;>;
+asList
+ <E:Ljava/lang/Object;>(TE;[TE;)Ljava/util/List<TE;>;
+ <E:Ljava/lang/Object;>(TE;[TE;)Ljava/util/List<TE;>;
+cartesianProduct
+ <B:Ljava/lang/Object;>(Ljava/util/List<+Ljava/util/List<+TB;>;>;)Ljava/util/List<Ljava/util/List<TB;>;>;
+ <B:Ljava/lang/Object;>(Ljava/util/List<+Ljava/util/List<+TB;>;>;)Ljava/util/List<Ljava/util/List<TB;>;>;
+cartesianProduct
+ <B:Ljava/lang/Object;>([Ljava/util/List<+TB;>;)Ljava/util/List<Ljava/util/List<TB;>;>;
+ <B:Ljava/lang/Object;>([Ljava/util/List<+TB;>;)Ljava/util/List<Ljava/util/List<TB;>;>;
+charactersOf
+ (Ljava/lang/CharSequence;)Ljava/util/List<Ljava/lang/Character;>;
+ (Ljava/lang/CharSequence;)Ljava/util/List<Ljava/lang/Character;>;
+charactersOf
+ (Ljava/lang/String;)Lcom/google/common/collect/ImmutableList<Ljava/lang/Character;>;
+ (Ljava/lang/String;)Lcom/google/common/collect/ImmutableList<Ljava/lang/Character;>;
+newArrayList
+ <E:Ljava/lang/Object;>()Ljava/util/ArrayList<TE;>;
+ <E:Ljava/lang/Object;>()Ljava/util/ArrayList<TE;>;
+newArrayList
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<+TE;>;)Ljava/util/ArrayList<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<+TE;>;)Ljava/util/ArrayList<TE;>;
+newArrayList
+ <E:Ljava/lang/Object;>(Ljava/util/Iterator<+TE;>;)Ljava/util/ArrayList<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/util/Iterator<+TE;>;)Ljava/util/ArrayList<TE;>;
+newArrayList
+ <E:Ljava/lang/Object;>([TE;)Ljava/util/ArrayList<TE;>;
+ <E:Ljava/lang/Object;>([TE;)Ljava/util/ArrayList<TE;>;
+newArrayListWithCapacity
+ <E:Ljava/lang/Object;>(I)Ljava/util/ArrayList<TE;>;
+ <E:Ljava/lang/Object;>(I)Ljava/util/ArrayList<TE;>;
+newArrayListWithExpectedSize
+ <E:Ljava/lang/Object;>(I)Ljava/util/ArrayList<TE;>;
+ <E:Ljava/lang/Object;>(I)Ljava/util/ArrayList<TE;>;
+newCopyOnWriteArrayList
+ <E:Ljava/lang/Object;>()Ljava/util/concurrent/CopyOnWriteArrayList<TE;>;
+ <E:Ljava/lang/Object;>()Ljava/util/concurrent/CopyOnWriteArrayList<TE;>;
+newCopyOnWriteArrayList
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<+TE;>;)Ljava/util/concurrent/CopyOnWriteArrayList<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<+TE;>;)Ljava/util/concurrent/CopyOnWriteArrayList<TE;>;
+newLinkedList
+ <E:Ljava/lang/Object;>()Ljava/util/LinkedList<TE;>;
+ <E:Ljava/lang/Object;>()Ljava/util/LinkedList<TE;>;
+newLinkedList
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<+TE;>;)Ljava/util/LinkedList<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/lang/Iterable<+TE;>;)Ljava/util/LinkedList<TE;>;
+partition
+ <T:Ljava/lang/Object;>(Ljava/util/List<TT;>;I)Ljava/util/List<Ljava/util/List<TT;>;>;
+ <T:Ljava/lang/Object;>(Ljava/util/List<TT;>;I)Ljava/util/List<Ljava/util/List<TT;>;>;
+reverse
+ <T:Ljava/lang/Object;>(Ljava/util/List<TT;>;)Ljava/util/List<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/List<TT;>;)Ljava/util/List<TT;>;
+transform
+ <F:Ljava/lang/Object;T:Ljava/lang/Object;>(Ljava/util/List<TF;>;Lcom/google/common/base/Function<-TF;+TT;>;)Ljava/util/List<TT;>;
+ <F:Ljava/lang/Object;T:Ljava/lang/Object;>(Ljava/util/List<TF;>;Lcom/google/common/base/Function<-TF;+TT;>;)Ljava/util/List<TT;>;

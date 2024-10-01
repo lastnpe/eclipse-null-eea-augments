@@ -1,0 +1,70 @@
+class com/fasterxml/jackson/core/JsonFactoryBuilder
+
+super com/fasterxml/jackson/core/TSFBuilder
+ <Lcom/fasterxml/jackson/core/JsonFactory;Lcom/fasterxml/jackson/core/JsonFactoryBuilder;>
+ <Lcom/fasterxml/jackson/core/JsonFactory;Lcom/fasterxml/jackson/core/JsonFactoryBuilder;>
+
+_characterEscapes
+ Lcom/fasterxml/jackson/core/io/CharacterEscapes;
+ Lcom/fasterxml/jackson/core/io/CharacterEscapes;
+_rootValueSeparator
+ Lcom/fasterxml/jackson/core/SerializableString;
+ Lcom/fasterxml/jackson/core/SerializableString;
+
+<init>
+ (Lcom/fasterxml/jackson/core/JsonFactory;)V
+ (Lcom/fasterxml/jackson/core/JsonFactory;)V
+build
+ ()Lcom/fasterxml/jackson/core/JsonFactory;
+ ()L1com/fasterxml/jackson/core/JsonFactory;
+characterEscapes
+ ()Lcom/fasterxml/jackson/core/io/CharacterEscapes;
+ ()Lcom/fasterxml/jackson/core/io/CharacterEscapes;
+characterEscapes
+ (Lcom/fasterxml/jackson/core/io/CharacterEscapes;)Lcom/fasterxml/jackson/core/JsonFactoryBuilder;
+ (Lcom/fasterxml/jackson/core/io/CharacterEscapes;)L1com/fasterxml/jackson/core/JsonFactoryBuilder;
+configure
+ (Lcom/fasterxml/jackson/core/json/JsonReadFeature;Z)Lcom/fasterxml/jackson/core/JsonFactoryBuilder;
+ (Lcom/fasterxml/jackson/core/json/JsonReadFeature;Z)L1com/fasterxml/jackson/core/JsonFactoryBuilder;
+configure
+ (Lcom/fasterxml/jackson/core/json/JsonWriteFeature;Z)Lcom/fasterxml/jackson/core/JsonFactoryBuilder;
+ (Lcom/fasterxml/jackson/core/json/JsonWriteFeature;Z)L1com/fasterxml/jackson/core/JsonFactoryBuilder;
+disable
+ (Lcom/fasterxml/jackson/core/json/JsonReadFeature;)Lcom/fasterxml/jackson/core/JsonFactoryBuilder;
+ (Lcom/fasterxml/jackson/core/json/JsonReadFeature;)L1com/fasterxml/jackson/core/JsonFactoryBuilder;
+disable
+ (Lcom/fasterxml/jackson/core/json/JsonReadFeature;[Lcom/fasterxml/jackson/core/json/JsonReadFeature;)Lcom/fasterxml/jackson/core/JsonFactoryBuilder;
+ (Lcom/fasterxml/jackson/core/json/JsonReadFeature;[Lcom/fasterxml/jackson/core/json/JsonReadFeature;)L1com/fasterxml/jackson/core/JsonFactoryBuilder;
+disable
+ (Lcom/fasterxml/jackson/core/json/JsonWriteFeature;)Lcom/fasterxml/jackson/core/JsonFactoryBuilder;
+ (Lcom/fasterxml/jackson/core/json/JsonWriteFeature;)L1com/fasterxml/jackson/core/JsonFactoryBuilder;
+disable
+ (Lcom/fasterxml/jackson/core/json/JsonWriteFeature;[Lcom/fasterxml/jackson/core/json/JsonWriteFeature;)Lcom/fasterxml/jackson/core/JsonFactoryBuilder;
+ (Lcom/fasterxml/jackson/core/json/JsonWriteFeature;[Lcom/fasterxml/jackson/core/json/JsonWriteFeature;)L1com/fasterxml/jackson/core/JsonFactoryBuilder;
+enable
+ (Lcom/fasterxml/jackson/core/json/JsonReadFeature;)Lcom/fasterxml/jackson/core/JsonFactoryBuilder;
+ (Lcom/fasterxml/jackson/core/json/JsonReadFeature;)L1com/fasterxml/jackson/core/JsonFactoryBuilder;
+enable
+ (Lcom/fasterxml/jackson/core/json/JsonReadFeature;[Lcom/fasterxml/jackson/core/json/JsonReadFeature;)Lcom/fasterxml/jackson/core/JsonFactoryBuilder;
+ (Lcom/fasterxml/jackson/core/json/JsonReadFeature;[Lcom/fasterxml/jackson/core/json/JsonReadFeature;)L1com/fasterxml/jackson/core/JsonFactoryBuilder;
+enable
+ (Lcom/fasterxml/jackson/core/json/JsonWriteFeature;)Lcom/fasterxml/jackson/core/JsonFactoryBuilder;
+ (Lcom/fasterxml/jackson/core/json/JsonWriteFeature;)L1com/fasterxml/jackson/core/JsonFactoryBuilder;
+enable
+ (Lcom/fasterxml/jackson/core/json/JsonWriteFeature;[Lcom/fasterxml/jackson/core/json/JsonWriteFeature;)Lcom/fasterxml/jackson/core/JsonFactoryBuilder;
+ (Lcom/fasterxml/jackson/core/json/JsonWriteFeature;[Lcom/fasterxml/jackson/core/json/JsonWriteFeature;)L1com/fasterxml/jackson/core/JsonFactoryBuilder;
+highestNonEscapedChar
+ (I)Lcom/fasterxml/jackson/core/JsonFactoryBuilder;
+ (I)L1com/fasterxml/jackson/core/JsonFactoryBuilder;
+quoteChar
+ (C)Lcom/fasterxml/jackson/core/JsonFactoryBuilder;
+ (C)L1com/fasterxml/jackson/core/JsonFactoryBuilder;
+rootValueSeparator
+ ()Lcom/fasterxml/jackson/core/SerializableString;
+ ()Lcom/fasterxml/jackson/core/SerializableString;
+rootValueSeparator
+ (Lcom/fasterxml/jackson/core/SerializableString;)Lcom/fasterxml/jackson/core/JsonFactoryBuilder;
+ (Lcom/fasterxml/jackson/core/SerializableString;)L1com/fasterxml/jackson/core/JsonFactoryBuilder;
+rootValueSeparator
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/JsonFactoryBuilder;
+ (Ljava/lang/String;)L1com/fasterxml/jackson/core/JsonFactoryBuilder;

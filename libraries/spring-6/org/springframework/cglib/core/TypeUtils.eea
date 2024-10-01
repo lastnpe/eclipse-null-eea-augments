@@ -1,0 +1,80 @@
+class org/springframework/cglib/core/TypeUtils
+
+NEWARRAY
+ (Lorg/springframework/asm/Type;)I
+ (Lorg/springframework/asm/Type;)I
+add
+ ([Lorg/springframework/asm/Type;Lorg/springframework/asm/Type;)[Lorg/springframework/asm/Type;
+ ([Lorg/springframework/asm/Type;Lorg/springframework/asm/Type;)[Lorg/springframework/asm/Type;
+add
+ ([Lorg/springframework/asm/Type;[Lorg/springframework/asm/Type;)[Lorg/springframework/asm/Type;
+ ([Lorg/springframework/asm/Type;[Lorg/springframework/asm/Type;)[Lorg/springframework/asm/Type;
+emulateClassGetName
+ (Lorg/springframework/asm/Type;)Ljava/lang/String;
+ (Lorg/springframework/asm/Type;)Ljava/lang/String;
+escapeType
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+fromInternalName
+ (Ljava/lang/String;)Lorg/springframework/asm/Type;
+ (Ljava/lang/String;)Lorg/springframework/asm/Type;
+fromInternalNames
+ ([Ljava/lang/String;)[Lorg/springframework/asm/Type;
+ ([Ljava/lang/String;)[Lorg/springframework/asm/Type;
+getBoxedType
+ (Lorg/springframework/asm/Type;)Lorg/springframework/asm/Type;
+ (Lorg/springframework/asm/Type;)Lorg/springframework/asm/Type;
+getClassName
+ (Lorg/springframework/asm/Type;)Ljava/lang/String;
+ (Lorg/springframework/asm/Type;)Ljava/lang/String;
+getComponentType
+ (Lorg/springframework/asm/Type;)Lorg/springframework/asm/Type;
+ (Lorg/springframework/asm/Type;)Lorg/springframework/asm/Type;
+getPackageName
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getPackageName
+ (Lorg/springframework/asm/Type;)Ljava/lang/String;
+ (Lorg/springframework/asm/Type;)Ljava/lang/String;
+getStackSize
+ ([Lorg/springframework/asm/Type;)I
+ ([Lorg/springframework/asm/Type;)I
+getType
+ (Ljava/lang/String;)Lorg/springframework/asm/Type;
+ (Ljava/lang/String;)Lorg/springframework/asm/Type;
+getTypes
+ ([Ljava/lang/Class;)[Lorg/springframework/asm/Type;
+ ([Ljava/lang/Class;)[Lorg/springframework/asm/Type;
+getUnboxedType
+ (Lorg/springframework/asm/Type;)Lorg/springframework/asm/Type;
+ (Lorg/springframework/asm/Type;)Lorg/springframework/asm/Type;
+isArray
+ (Lorg/springframework/asm/Type;)Z
+ (Lorg/springframework/asm/Type;)Z
+isConstructor
+ (Lorg/springframework/cglib/core/MethodInfo;)Z
+ (Lorg/springframework/cglib/core/MethodInfo;)Z
+isPrimitive
+ (Lorg/springframework/asm/Type;)Z
+ (Lorg/springframework/asm/Type;)Z
+parseConstructor
+ (Ljava/lang/String;)Lorg/springframework/cglib/core/Signature;
+ (Ljava/lang/String;)Lorg/springframework/cglib/core/Signature;
+parseConstructor
+ ([Lorg/springframework/asm/Type;)Lorg/springframework/cglib/core/Signature;
+ ([Lorg/springframework/asm/Type;)Lorg/springframework/cglib/core/Signature;
+parseSignature
+ (Ljava/lang/String;)Lorg/springframework/cglib/core/Signature;
+ (Ljava/lang/String;)Lorg/springframework/cglib/core/Signature;
+parseType
+ (Ljava/lang/String;)Lorg/springframework/asm/Type;
+ (Ljava/lang/String;)Lorg/springframework/asm/Type;
+parseTypes
+ (Ljava/lang/String;)[Lorg/springframework/asm/Type;
+ (Ljava/lang/String;)[Lorg/springframework/asm/Type;
+toInternalNames
+ ([Lorg/springframework/asm/Type;)[Ljava/lang/String;
+ ([Lorg/springframework/asm/Type;)[Ljava/lang/String;
+upperFirst
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;

@@ -1,0 +1,44 @@
+class com/fasterxml/jackson/databind/util/BeanUtil
+
+checkUnsupportedType
+ (Lcom/fasterxml/jackson/databind/JavaType;)Ljava/lang/String;
+ (Lcom/fasterxml/jackson/databind/JavaType;)Ljava/lang/String;
+getDefaultValue
+ (Lcom/fasterxml/jackson/databind/JavaType;)Ljava/lang/Object;
+ (Lcom/fasterxml/jackson/databind/JavaType;)Ljava/lang/Object;
+isCglibGetCallbacks
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;)Z
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;)Z
+isGroovyMetaClassGetter
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;)Z
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;)Z
+isJava8OptionalClass
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isJava8TimeClass
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isJodaTimeClass
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+legacyManglePropertyName
+ (Ljava/lang/String;I)Ljava/lang/String;
+ (Ljava/lang/String;I)Ljava/lang/String;
+okNameForGetter
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;Z)Ljava/lang/String;
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;Z)Ljava/lang/String;
+okNameForIsGetter
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;Ljava/lang/String;Z)Ljava/lang/String;
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;Ljava/lang/String;Z)Ljava/lang/String;
+okNameForMutator
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;Ljava/lang/String;Z)Ljava/lang/String;
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;Ljava/lang/String;Z)Ljava/lang/String;
+okNameForRegularGetter
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;Ljava/lang/String;Z)Ljava/lang/String;
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;Ljava/lang/String;Z)Ljava/lang/String;
+okNameForSetter
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;Z)Ljava/lang/String;
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;Z)Ljava/lang/String;
+stdManglePropertyName
+ (Ljava/lang/String;I)Ljava/lang/String;
+ (Ljava/lang/String;I)Ljava/lang/String;

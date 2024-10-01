@@ -1,0 +1,29 @@
+class javax/management/modelmbean/ModelMBeanOperationInfo
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;[Ljavax/management/MBeanParameterInfo;Ljava/lang/String;I)V
+ (Ljava/lang/String;Ljava/lang/String;[Ljavax/management/MBeanParameterInfo;Ljava/lang/String;I)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;[Ljavax/management/MBeanParameterInfo;Ljava/lang/String;ILjavax/management/Descriptor;)V
+ (Ljava/lang/String;Ljava/lang/String;[Ljavax/management/MBeanParameterInfo;Ljava/lang/String;ILjavax/management/Descriptor;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/reflect/Method;)V
+ (Ljava/lang/String;Ljava/lang/reflect/Method;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/reflect/Method;Ljavax/management/Descriptor;)V
+ (Ljava/lang/String;Ljava/lang/reflect/Method;Ljavax/management/Descriptor;)V
+<init>
+ (Ljavax/management/modelmbean/ModelMBeanOperationInfo;)V
+ (Ljavax/management/modelmbean/ModelMBeanOperationInfo;)V
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(javax.management.MBeanOperationInfo)
+getDescriptor
+ ()Ljavax/management/Descriptor;
+ ()Ljavax/management/Descriptor;
+setDescriptor
+ (Ljavax/management/Descriptor;)V
+ (Ljavax/management/Descriptor;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(javax.management.MBeanOperationInfo)
