@@ -29,7 +29,7 @@ If you like/use this project, a Star / Watch / Follow on GitHub is appreciated.
 General usage of External Null Annotations in Eclipse is documented at
 https://help.eclipse.org/latest/index.jsp?topic=/org.eclipse.jdt.doc.user/tasks/task-using_external_null_annotations.htm
 
-[See theses slides here](http://www.slideshare.net/mikervorburger/the-end-of-the-world-as-we-know-it-aka-your-last-nullpointerexception-1b-bugs) from this
+[See theses slides here](https://www.slideshare.net/mikervorburger/the-end-of-the-world-as-we-know-it-aka-your-last-nullpointerexception-1b-bugs) from this
 [EclipseCon Europe 2016 presentation](https://www.eclipsecon.org/europe2016/session/end-world-we-know-it-aka-your-last-nullpointerexception-1b-bugs) for some background about this project.
 
 To automatically Enable Annotation-based Null Analysis in the Eclipse Project Preferences correctly (e.g. when you import the `examples/` here), we highly
@@ -70,7 +70,7 @@ You need to add this repository configuration to your Maven `settings.xml`:
 
 ### <a id="building"></a>Building from Sources
 
-The project also uses the [maven-toolchains-plugin](http://maven.apache.org/plugins/maven-toolchains-plugin/) which decouples the JDK that is
+The project also uses the [maven-toolchains-plugin](https://maven.apache.org/plugins/maven-toolchains-plugin/) which decouples the JDK that is
 used to execute Maven and it's plug-ins from the target JDK that is used for compilation and/or unit testing. This ensures full binary
 compatibility of the compiled artifacts with the runtime library of the required target JDK.
 
