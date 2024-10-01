@@ -1,0 +1,35 @@
+class com/fasterxml/jackson/databind/deser/BeanDeserializerModifier
+
+modifyArrayDeserializer
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/type/ArrayType;Lcom/fasterxml/jackson/databind/BeanDescription;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;)Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;
+ (L1com/fasterxml/jackson/databind/DeserializationConfig;L1com/fasterxml/jackson/databind/type/ArrayType;L1com/fasterxml/jackson/databind/BeanDescription;L1com/fasterxml/jackson/databind/JsonDeserializer<*>;)L1com/fasterxml/jackson/databind/JsonDeserializer<*>;
+modifyCollectionDeserializer
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/type/CollectionType;Lcom/fasterxml/jackson/databind/BeanDescription;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;)Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;
+ (L1com/fasterxml/jackson/databind/DeserializationConfig;L1com/fasterxml/jackson/databind/type/CollectionType;L1com/fasterxml/jackson/databind/BeanDescription;L1com/fasterxml/jackson/databind/JsonDeserializer<*>;)L1com/fasterxml/jackson/databind/JsonDeserializer<*>;
+modifyCollectionLikeDeserializer
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/type/CollectionLikeType;Lcom/fasterxml/jackson/databind/BeanDescription;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;)Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;
+ (L1com/fasterxml/jackson/databind/DeserializationConfig;L1com/fasterxml/jackson/databind/type/CollectionLikeType;L1com/fasterxml/jackson/databind/BeanDescription;L1com/fasterxml/jackson/databind/JsonDeserializer<*>;)L1com/fasterxml/jackson/databind/JsonDeserializer<*>;
+modifyDeserializer
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/BeanDescription;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;)Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;
+ (L1com/fasterxml/jackson/databind/DeserializationConfig;L1com/fasterxml/jackson/databind/BeanDescription;L1com/fasterxml/jackson/databind/JsonDeserializer<*>;)L1com/fasterxml/jackson/databind/JsonDeserializer<*>;
+modifyEnumDeserializer
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/BeanDescription;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;)Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;
+ (L1com/fasterxml/jackson/databind/DeserializationConfig;L1com/fasterxml/jackson/databind/JavaType;L1com/fasterxml/jackson/databind/BeanDescription;L1com/fasterxml/jackson/databind/JsonDeserializer<*>;)L1com/fasterxml/jackson/databind/JsonDeserializer<*>;
+modifyKeyDeserializer
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/KeyDeserializer;)Lcom/fasterxml/jackson/databind/KeyDeserializer;
+ (L1com/fasterxml/jackson/databind/DeserializationConfig;L1com/fasterxml/jackson/databind/JavaType;L1com/fasterxml/jackson/databind/KeyDeserializer;)L1com/fasterxml/jackson/databind/KeyDeserializer;
+modifyMapDeserializer
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/type/MapType;Lcom/fasterxml/jackson/databind/BeanDescription;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;)Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;
+ (L1com/fasterxml/jackson/databind/DeserializationConfig;L1com/fasterxml/jackson/databind/type/MapType;L1com/fasterxml/jackson/databind/BeanDescription;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;)L1com/fasterxml/jackson/databind/JsonDeserializer<*>;
+modifyMapLikeDeserializer
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/type/MapLikeType;Lcom/fasterxml/jackson/databind/BeanDescription;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;)Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;
+ (L1com/fasterxml/jackson/databind/DeserializationConfig;L1com/fasterxml/jackson/databind/type/MapLikeType;L1com/fasterxml/jackson/databind/BeanDescription;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;)L1com/fasterxml/jackson/databind/JsonDeserializer<*>;
+modifyReferenceDeserializer
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/type/ReferenceType;Lcom/fasterxml/jackson/databind/BeanDescription;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;)Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;
+ (L1com/fasterxml/jackson/databind/DeserializationConfig;L1com/fasterxml/jackson/databind/type/ReferenceType;L1com/fasterxml/jackson/databind/BeanDescription;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;)L1com/fasterxml/jackson/databind/JsonDeserializer<*>;
+updateBuilder
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/BeanDescription;Lcom/fasterxml/jackson/databind/deser/BeanDeserializerBuilder;)Lcom/fasterxml/jackson/databind/deser/BeanDeserializerBuilder;
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/BeanDescription;Lcom/fasterxml/jackson/databind/deser/BeanDeserializerBuilder;)Lcom/fasterxml/jackson/databind/deser/BeanDeserializerBuilder;
+updateProperties
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/BeanDescription;Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;>;)Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;>;
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/BeanDescription;Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;>;)Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;>;

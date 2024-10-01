@@ -1,0 +1,124 @@
+class com/fasterxml/jackson/core/json/WriterBasedJsonGenerator
+
+HEX_CHARS_LOWER
+ [C
+ [1C
+HEX_CHARS_UPPER
+ [C
+ [1C
+
+_copyBuffer
+ [C
+ [C
+_currentEscape
+ Lcom/fasterxml/jackson/core/SerializableString;
+ Lcom/fasterxml/jackson/core/SerializableString;
+_entityBuffer
+ [C
+ [C
+_outputBuffer
+ [C
+ [C
+_writer
+ Ljava/io/Writer;
+ Ljava/io/Writer;
+
+<init>
+ (Lcom/fasterxml/jackson/core/io/IOContext;ILcom/fasterxml/jackson/core/ObjectCodec;Ljava/io/Writer;)V
+ (Lcom/fasterxml/jackson/core/io/IOContext;ILcom/fasterxml/jackson/core/ObjectCodec;Ljava/io/Writer;)V
+<init>
+ (Lcom/fasterxml/jackson/core/io/IOContext;ILcom/fasterxml/jackson/core/ObjectCodec;Ljava/io/Writer;C)V
+ (Lcom/fasterxml/jackson/core/io/IOContext;ILcom/fasterxml/jackson/core/ObjectCodec;Ljava/io/Writer;C)V
+_verifyValueWrite
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+_writeBinary
+ (Lcom/fasterxml/jackson/core/Base64Variant;Ljava/io/InputStream;[B)I
+ (Lcom/fasterxml/jackson/core/Base64Variant;Ljava/io/InputStream;[B)I
+_writeBinary
+ (Lcom/fasterxml/jackson/core/Base64Variant;Ljava/io/InputStream;[BI)I
+ (Lcom/fasterxml/jackson/core/Base64Variant;Ljava/io/InputStream;[BI)I
+_writeBinary
+ (Lcom/fasterxml/jackson/core/Base64Variant;[BII)V
+ (Lcom/fasterxml/jackson/core/Base64Variant;[BII)V
+_writeFieldName
+ (Lcom/fasterxml/jackson/core/SerializableString;Z)V
+ (Lcom/fasterxml/jackson/core/SerializableString;Z)V
+_writeFieldName
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+_writePPFieldName
+ (Lcom/fasterxml/jackson/core/SerializableString;Z)V
+ (Lcom/fasterxml/jackson/core/SerializableString;Z)V
+_writePPFieldName
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+getOutputTarget
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+writeBinary
+ (Lcom/fasterxml/jackson/core/Base64Variant;Ljava/io/InputStream;I)I
+ (Lcom/fasterxml/jackson/core/Base64Variant;Ljava/io/InputStream;I)I
+writeBinary
+ (Lcom/fasterxml/jackson/core/Base64Variant;[BII)V
+ (Lcom/fasterxml/jackson/core/Base64Variant;[BII)V
+writeFieldName
+ (Lcom/fasterxml/jackson/core/SerializableString;)V
+ (Lcom/fasterxml/jackson/core/SerializableString;)V
+writeFieldName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeNumber
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeNumber
+ (Ljava/math/BigDecimal;)V
+ (Ljava/math/BigDecimal;)V
+writeNumber
+ (Ljava/math/BigInteger;)V
+ (Ljava/math/BigInteger;)V
+writeNumber
+ ([CII)V
+ ([CII)V
+writeRaw
+ (Lcom/fasterxml/jackson/core/SerializableString;)V
+ (Lcom/fasterxml/jackson/core/SerializableString;)V
+writeRaw
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeRaw
+ (Ljava/lang/String;II)V
+ (Ljava/lang/String;II)V
+writeRaw
+ ([CII)V
+ ([CII)V
+writeRawUTF8String
+ ([BII)V
+ ([BII)V
+writeStartArray
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+writeStartArray
+ (Ljava/lang/Object;I)V
+ (Ljava/lang/Object;I)V
+writeStartObject
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+writeStartObject
+ (Ljava/lang/Object;I)V
+ (Ljava/lang/Object;I)V
+writeString
+ (Lcom/fasterxml/jackson/core/SerializableString;)V
+ (Lcom/fasterxml/jackson/core/SerializableString;)V
+writeString
+ (Ljava/io/Reader;I)V
+ (Ljava/io/Reader;I)V
+writeString
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+writeString
+ ([CII)V
+ ([CII)V
+writeUTF8String
+ ([BII)V
+ ([BII)V

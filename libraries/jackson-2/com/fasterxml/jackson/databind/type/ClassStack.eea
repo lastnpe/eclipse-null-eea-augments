@@ -1,0 +1,27 @@
+class com/fasterxml/jackson/databind/type/ClassStack
+
+_current
+ Ljava/lang/Class<*>;
+ Ljava/lang/Class<*>;
+_parent
+ Lcom/fasterxml/jackson/databind/type/ClassStack;
+ Lcom/fasterxml/jackson/databind/type/ClassStack;
+
+<init>
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+addSelfReference
+ (Lcom/fasterxml/jackson/databind/type/ResolvedRecursiveType;)V
+ (Lcom/fasterxml/jackson/databind/type/ResolvedRecursiveType;)V
+child
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/type/ClassStack;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/type/ClassStack;
+find
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/type/ClassStack;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/type/ClassStack;
+resolveSelfReferences
+ (Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/JavaType;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

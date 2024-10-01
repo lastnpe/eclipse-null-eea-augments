@@ -1,0 +1,67 @@
+class com/fasterxml/jackson/core/json/JsonReadContext
+
+createRootContext
+ (IILcom/fasterxml/jackson/core/json/DupDetector;)Lcom/fasterxml/jackson/core/json/JsonReadContext;
+ (IILcom/fasterxml/jackson/core/json/DupDetector;)Lcom/fasterxml/jackson/core/json/JsonReadContext;
+createRootContext
+ (Lcom/fasterxml/jackson/core/json/DupDetector;)Lcom/fasterxml/jackson/core/json/JsonReadContext;
+ (Lcom/fasterxml/jackson/core/json/DupDetector;)Lcom/fasterxml/jackson/core/json/JsonReadContext;
+
+_child
+ Lcom/fasterxml/jackson/core/json/JsonReadContext;
+ Lcom/fasterxml/jackson/core/json/JsonReadContext;
+_currentName
+ Ljava/lang/String;
+ Ljava/lang/String;
+_currentValue
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+_dups
+ Lcom/fasterxml/jackson/core/json/DupDetector;
+ Lcom/fasterxml/jackson/core/json/DupDetector;
+_parent
+ Lcom/fasterxml/jackson/core/json/JsonReadContext;
+ Lcom/fasterxml/jackson/core/json/JsonReadContext;
+
+<init>
+ (Lcom/fasterxml/jackson/core/json/JsonReadContext;ILcom/fasterxml/jackson/core/json/DupDetector;III)V
+ (Lcom/fasterxml/jackson/core/json/JsonReadContext;ILcom/fasterxml/jackson/core/json/DupDetector;III)V
+<init>
+ (Lcom/fasterxml/jackson/core/json/JsonReadContext;Lcom/fasterxml/jackson/core/json/DupDetector;III)V
+ (Lcom/fasterxml/jackson/core/json/JsonReadContext;Lcom/fasterxml/jackson/core/json/DupDetector;III)V
+clearAndGetParent
+ ()Lcom/fasterxml/jackson/core/json/JsonReadContext;
+ ()Lcom/fasterxml/jackson/core/json/JsonReadContext;
+createChildArrayContext
+ (II)Lcom/fasterxml/jackson/core/json/JsonReadContext;
+ (II)Lcom/fasterxml/jackson/core/json/JsonReadContext;
+createChildObjectContext
+ (II)Lcom/fasterxml/jackson/core/json/JsonReadContext;
+ (II)Lcom/fasterxml/jackson/core/json/JsonReadContext;
+getCurrentName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getCurrentValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getDupDetector
+ ()Lcom/fasterxml/jackson/core/json/DupDetector;
+ ()Lcom/fasterxml/jackson/core/json/DupDetector;
+getParent
+ ()Lcom/fasterxml/jackson/core/json/JsonReadContext;
+ ()Lcom/fasterxml/jackson/core/json/JsonReadContext;
+getStartLocation
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/core/JsonLocation;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/core/JsonLocation;
+setCurrentName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setCurrentValue
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+startLocation
+ (Lcom/fasterxml/jackson/core/io/ContentReference;)Lcom/fasterxml/jackson/core/JsonLocation;
+ (Lcom/fasterxml/jackson/core/io/ContentReference;)Lcom/fasterxml/jackson/core/JsonLocation;
+withDupDetector
+ (Lcom/fasterxml/jackson/core/json/DupDetector;)Lcom/fasterxml/jackson/core/json/JsonReadContext;
+ (Lcom/fasterxml/jackson/core/json/DupDetector;)Lcom/fasterxml/jackson/core/json/JsonReadContext;

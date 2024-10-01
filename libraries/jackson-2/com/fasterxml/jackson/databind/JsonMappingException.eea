@@ -1,0 +1,106 @@
+class com/fasterxml/jackson/databind/JsonMappingException
+
+from
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+from
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;Ljava/lang/Throwable;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Ljava/lang/String;Ljava/lang/Throwable;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+from
+ (Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+ (Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+from
+ (Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;Ljava/lang/Throwable;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+ (Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;Ljava/lang/Throwable;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+from
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+from
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/String;Ljava/lang/Throwable;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;Ljava/lang/String;Ljava/lang/Throwable;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+from
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+from
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/lang/String;Ljava/lang/Throwable;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljava/lang/String;Ljava/lang/Throwable;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+fromUnexpectedIOE
+ (Ljava/io/IOException;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+ (Ljava/io/IOException;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+wrapWithPath
+ (Ljava/lang/Throwable;Lcom/fasterxml/jackson/databind/JsonMappingException$Reference;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+ (Ljava/lang/Throwable;Lcom/fasterxml/jackson/databind/JsonMappingException$Reference;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+wrapWithPath
+ (Ljava/lang/Throwable;Ljava/lang/Object;I)Lcom/fasterxml/jackson/databind/JsonMappingException;
+ (Ljava/lang/Throwable;Ljava/lang/Object;I)Lcom/fasterxml/jackson/databind/JsonMappingException;
+wrapWithPath
+ (Ljava/lang/Throwable;Ljava/lang/Object;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+ (Ljava/lang/Throwable;Ljava/lang/Object;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+
+_path
+ Ljava/util/LinkedList<Lcom/fasterxml/jackson/databind/JsonMappingException$Reference;>;
+ Ljava/util/LinkedList<Lcom/fasterxml/jackson/databind/JsonMappingException$Reference;>;
+_processor
+ Ljava/io/Closeable;
+ Ljava/io/Closeable;
+
+<init>
+ (Ljava/io/Closeable;Ljava/lang/String;)V
+ (Ljava/io/Closeable;Ljava/lang/String;)V
+<init>
+ (Ljava/io/Closeable;Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonLocation;)V
+ (Ljava/io/Closeable;Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonLocation;)V
+<init>
+ (Ljava/io/Closeable;Ljava/lang/String;Ljava/lang/Throwable;)V
+ (Ljava/io/Closeable;Ljava/lang/String;Ljava/lang/Throwable;)V
+<init>
+ (Ljava/lang/String;)V
+ (L0java/lang/String;)V
+<init>
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonLocation;)V
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonLocation;)V
+<init>
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonLocation;Ljava/lang/Throwable;)V
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonLocation;Ljava/lang/Throwable;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+ (L0java/lang/String;L0java/lang/Throwable;)V
+_appendPathDesc
+ (Ljava/lang/StringBuilder;)V
+ (Ljava/lang/StringBuilder;)V
+_buildMessage
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getLocalizedMessage
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(java.lang.Throwable)
+getMessage
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(com.fasterxml.jackson.core.JsonProcessingException)
+getPath
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/JsonMappingException$Reference;>;
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/JsonMappingException$Reference;>;
+getPathReference
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPathReference
+ (Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+ (Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+getProcessor
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+prependPath
+ (Lcom/fasterxml/jackson/databind/JsonMappingException$Reference;)V
+ (Lcom/fasterxml/jackson/databind/JsonMappingException$Reference;)V
+prependPath
+ (Ljava/lang/Object;I)V
+ (Ljava/lang/Object;I)V
+prependPath
+ (Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/Object;Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(com.fasterxml.jackson.core.JsonProcessingException)
+withCause
+ (Ljava/lang/Throwable;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+ (Ljava/lang/Throwable;)Lcom/fasterxml/jackson/databind/JsonMappingException;

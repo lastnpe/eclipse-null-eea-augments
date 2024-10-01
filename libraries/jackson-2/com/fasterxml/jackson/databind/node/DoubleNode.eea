@@ -1,0 +1,30 @@
+class com/fasterxml/jackson/databind/node/DoubleNode
+
+valueOf
+ (D)Lcom/fasterxml/jackson/databind/node/DoubleNode;
+ (D)L1com/fasterxml/jackson/databind/node/DoubleNode;
+
+asText
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(com.fasterxml.jackson.databind.node.NumericNode)
+asToken
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()L1com/fasterxml/jackson/core/JsonToken; # @Inherited(com.fasterxml.jackson.databind.node.ValueNode)
+bigIntegerValue
+ ()Ljava/math/BigInteger;
+ ()L1java/math/BigInteger; # @Inherited(com.fasterxml.jackson.databind.node.NumericNode)
+decimalValue
+ ()Ljava/math/BigDecimal;
+ ()L1java/math/BigDecimal; # @Inherited(com.fasterxml.jackson.databind.node.NumericNode)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(com.fasterxml.jackson.databind.JsonNode)
+numberType
+ ()Lcom/fasterxml/jackson/core/JsonParser$NumberType;
+ ()L1com/fasterxml/jackson/core/JsonParser$NumberType; # @Inherited(com.fasterxml.jackson.databind.node.NumericNode)
+numberValue
+ ()Ljava/lang/Number;
+ ()L1java/lang/Number; # @Inherited(com.fasterxml.jackson.databind.node.NumericNode)
+serialize
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (L1com/fasterxml/jackson/core/JsonGenerator;L1com/fasterxml/jackson/databind/SerializerProvider;)V # @Inherited(com.fasterxml.jackson.databind.node.BaseJsonNode)

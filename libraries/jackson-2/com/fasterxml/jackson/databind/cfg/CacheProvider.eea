@@ -1,0 +1,11 @@
+class com/fasterxml/jackson/databind/cfg/CacheProvider
+
+forDeserializerCache
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;)Lcom/fasterxml/jackson/databind/util/LookupCache<Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JsonDeserializer<Ljava/lang/Object;>;>;
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;)Lcom/fasterxml/jackson/databind/util/LookupCache<Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JsonDeserializer<Ljava/lang/Object;>;>;
+forSerializerCache
+ (Lcom/fasterxml/jackson/databind/SerializationConfig;)Lcom/fasterxml/jackson/databind/util/LookupCache<Lcom/fasterxml/jackson/databind/util/TypeKey;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;>;
+ (Lcom/fasterxml/jackson/databind/SerializationConfig;)Lcom/fasterxml/jackson/databind/util/LookupCache<Lcom/fasterxml/jackson/databind/util/TypeKey;Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;>;
+forTypeFactory
+ ()Lcom/fasterxml/jackson/databind/util/LookupCache<Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JavaType;>;
+ ()Lcom/fasterxml/jackson/databind/util/LookupCache<Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JavaType;>;

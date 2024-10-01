@@ -1,0 +1,186 @@
+class com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector
+
+_accessorNaming
+ Lcom/fasterxml/jackson/databind/introspect/AccessorNamingStrategy;
+ Lcom/fasterxml/jackson/databind/introspect/AccessorNamingStrategy;
+_annotationIntrospector
+ Lcom/fasterxml/jackson/databind/AnnotationIntrospector;
+ Lcom/fasterxml/jackson/databind/AnnotationIntrospector;
+_anyGetterField
+ Ljava/util/LinkedList<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;>;
+ Ljava/util/LinkedList<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;>;
+_anyGetters
+ Ljava/util/LinkedList<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;>;
+ Ljava/util/LinkedList<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;>;
+_anySetterField
+ Ljava/util/LinkedList<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;>;
+ Ljava/util/LinkedList<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;>;
+_anySetters
+ Ljava/util/LinkedList<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;>;
+ Ljava/util/LinkedList<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;>;
+_classDef
+ Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;
+ Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;
+_config
+ Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;
+ Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;
+_creatorProperties
+ Ljava/util/LinkedList<Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;
+ Ljava/util/LinkedList<Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;
+_fieldRenameMappings
+ Ljava/util/Map<Lcom/fasterxml/jackson/databind/PropertyName;Lcom/fasterxml/jackson/databind/PropertyName;>;
+ Ljava/util/Map<Lcom/fasterxml/jackson/databind/PropertyName;Lcom/fasterxml/jackson/databind/PropertyName;>;
+_formatOverrides
+ Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+_ignoredPropertyNames
+ Ljava/util/HashSet<Ljava/lang/String;>;
+ Ljava/util/HashSet<Ljava/lang/String;>;
+_injectables
+ Ljava/util/LinkedHashMap<Ljava/lang/Object;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;>;
+ Ljava/util/LinkedHashMap<Ljava/lang/Object;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;>;
+_jsonKeyAccessors
+ Ljava/util/LinkedList<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;>;
+ Ljava/util/LinkedList<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;>;
+_jsonValueAccessors
+ Ljava/util/LinkedList<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;>;
+ Ljava/util/LinkedList<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;>;
+_mutatorPrefix
+ Ljava/lang/String;
+ Ljava/lang/String;
+_properties
+ Ljava/util/LinkedHashMap<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;
+ Ljava/util/LinkedHashMap<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;
+_type
+ Lcom/fasterxml/jackson/databind/JavaType;
+ Lcom/fasterxml/jackson/databind/JavaType;
+_visibilityChecker
+ Lcom/fasterxml/jackson/databind/introspect/VisibilityChecker<*>;
+ Lcom/fasterxml/jackson/databind/introspect/VisibilityChecker<*>;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;ZLcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;Lcom/fasterxml/jackson/databind/introspect/AccessorNamingStrategy;)V
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;ZLcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;Lcom/fasterxml/jackson/databind/introspect/AccessorNamingStrategy;)V
+<init>
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;ZLcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;Ljava/lang/String;)V
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;ZLcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;Ljava/lang/String;)V
+_addCreatorParam
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedParameter;)V
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedParameter;)V
+_addCreators
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+_addFields
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+_addGetterMethod
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;Lcom/fasterxml/jackson/databind/AnnotationIntrospector;)V
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;Lcom/fasterxml/jackson/databind/AnnotationIntrospector;)V
+_addInjectables
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+_addMethods
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+_addSetterMethod
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;Lcom/fasterxml/jackson/databind/AnnotationIntrospector;)V
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;Lcom/fasterxml/jackson/databind/AnnotationIntrospector;)V
+_collectIgnorals
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+_doAddInjectable
+ (Lcom/fasterxml/jackson/annotation/JacksonInject$Value;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;)V
+ (Lcom/fasterxml/jackson/annotation/JacksonInject$Value;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;)V
+_property
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;Lcom/fasterxml/jackson/databind/PropertyName;)Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;Lcom/fasterxml/jackson/databind/PropertyName;)Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;
+_property
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;
+_removeUnwantedAccessor
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+_removeUnwantedProperties
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+_renameProperties
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+_renameUsing
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;Lcom/fasterxml/jackson/databind/PropertyNamingStrategy;)V
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;Lcom/fasterxml/jackson/databind/PropertyNamingStrategy;)V
+_renameWithWrappers
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+_replaceCreatorProperty
+ (Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)Z
+ (Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)Z
+_resolveFieldVsGetter
+ (Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;>;)Z
+ (Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;>;)Z
+_sortProperties
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+_updateCreatorProperty
+ (Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+ (Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;)V
+findPOJOBuilderClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getAnnotationIntrospector
+ ()Lcom/fasterxml/jackson/databind/AnnotationIntrospector;
+ ()Lcom/fasterxml/jackson/databind/AnnotationIntrospector;
+getAnyGetter
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+getAnyGetterField
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+getAnyGetterMethod
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+getAnySetterField
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+getAnySetterMethod
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;
+getClassDef
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;
+getConfig
+ ()Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;
+ ()Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;
+getFormatOverrides
+ ()Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+ ()Lcom/fasterxml/jackson/annotation/JsonFormat$Value;
+getIgnoredPropertyNames
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getInjectables
+ ()Ljava/util/Map<Ljava/lang/Object;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;>;
+ ()Ljava/util/Map<Ljava/lang/Object;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;>;
+getJsonKeyAccessor
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+getJsonValueAccessor
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+getJsonValueMethod
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;
+getObjectIdInfo
+ ()Lcom/fasterxml/jackson/databind/introspect/ObjectIdInfo;
+ ()Lcom/fasterxml/jackson/databind/introspect/ObjectIdInfo;
+getProperties
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;>;
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;>;
+getPropertyMap
+ ()Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;
+ ()Ljava/util/Map<Ljava/lang/String;Lcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder;>;
+getType
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+reportProblem
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljava/lang/String;[Ljava/lang/Object;)V

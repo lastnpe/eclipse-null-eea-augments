@@ -1,0 +1,28 @@
+class com/fasterxml/jackson/databind/ser/impl/ObjectIdWriter
+
+construct
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/PropertyName;Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;Z)Lcom/fasterxml/jackson/databind/ser/impl/ObjectIdWriter;
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/PropertyName;Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;Z)Lcom/fasterxml/jackson/databind/ser/impl/ObjectIdWriter;
+
+generator
+ Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;
+ Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;
+idType
+ Lcom/fasterxml/jackson/databind/JavaType;
+ Lcom/fasterxml/jackson/databind/JavaType;
+propertyName
+ Lcom/fasterxml/jackson/core/SerializableString;
+ Lcom/fasterxml/jackson/core/SerializableString;
+serializer
+ Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;
+ Lcom/fasterxml/jackson/databind/JsonSerializer<Ljava/lang/Object;>;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/core/SerializableString;Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;Lcom/fasterxml/jackson/databind/JsonSerializer<*>;Z)V
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/core/SerializableString;Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;Lcom/fasterxml/jackson/databind/JsonSerializer<*>;Z)V
+withAlwaysAsId
+ (Z)Lcom/fasterxml/jackson/databind/ser/impl/ObjectIdWriter;
+ (Z)Lcom/fasterxml/jackson/databind/ser/impl/ObjectIdWriter;
+withSerializer
+ (Lcom/fasterxml/jackson/databind/JsonSerializer<*>;)Lcom/fasterxml/jackson/databind/ser/impl/ObjectIdWriter;
+ (Lcom/fasterxml/jackson/databind/JsonSerializer<*>;)Lcom/fasterxml/jackson/databind/ser/impl/ObjectIdWriter;

@@ -1,0 +1,24 @@
+class com/fasterxml/jackson/core/exc/InputCoercionException
+
+_inputType
+ Lcom/fasterxml/jackson/core/JsonToken;
+ Lcom/fasterxml/jackson/core/JsonToken;
+_targetType
+ Ljava/lang/Class<*>;
+ Ljava/lang/Class<*>;
+
+<init>
+ (Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonToken;Ljava/lang/Class<*>;)V
+ (Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonToken;Ljava/lang/Class<*>;)V
+getInputType
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+getTargetType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+withParser
+ (Lcom/fasterxml/jackson/core/JsonParser;)Lcom/fasterxml/jackson/core/exc/InputCoercionException;
+ (Lcom/fasterxml/jackson/core/JsonParser;)Lcom/fasterxml/jackson/core/exc/InputCoercionException;
+withRequestPayload
+ (Lcom/fasterxml/jackson/core/util/RequestPayload;)Lcom/fasterxml/jackson/core/exc/InputCoercionException;
+ (Lcom/fasterxml/jackson/core/util/RequestPayload;)Lcom/fasterxml/jackson/core/exc/InputCoercionException;

@@ -1,0 +1,33 @@
+class com/fasterxml/jackson/core/filter/JsonPointerBasedFilter
+
+_pathToMatch
+ Lcom/fasterxml/jackson/core/JsonPointer;
+ Lcom/fasterxml/jackson/core/JsonPointer;
+
+<init>
+ (Lcom/fasterxml/jackson/core/JsonPointer;)V
+ (Lcom/fasterxml/jackson/core/JsonPointer;)V
+<init>
+ (Lcom/fasterxml/jackson/core/JsonPointer;Z)V
+ (Lcom/fasterxml/jackson/core/JsonPointer;Z)V
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+construct
+ (Lcom/fasterxml/jackson/core/JsonPointer;Z)Lcom/fasterxml/jackson/core/filter/JsonPointerBasedFilter;
+ (Lcom/fasterxml/jackson/core/JsonPointer;Z)Lcom/fasterxml/jackson/core/filter/JsonPointerBasedFilter;
+filterStartArray
+ ()Lcom/fasterxml/jackson/core/filter/TokenFilter;
+ ()Lcom/fasterxml/jackson/core/filter/TokenFilter;
+filterStartObject
+ ()Lcom/fasterxml/jackson/core/filter/TokenFilter;
+ ()Lcom/fasterxml/jackson/core/filter/TokenFilter;
+includeElement
+ (I)Lcom/fasterxml/jackson/core/filter/TokenFilter;
+ (I)Lcom/fasterxml/jackson/core/filter/TokenFilter;
+includeProperty
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/filter/TokenFilter;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/filter/TokenFilter;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(com.fasterxml.jackson.core.filter.TokenFilter)

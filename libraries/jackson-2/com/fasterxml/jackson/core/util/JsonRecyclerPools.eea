@@ -1,0 +1,29 @@
+class com/fasterxml/jackson/core/util/JsonRecyclerPools
+
+defaultPool
+ ()Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;
+ ()Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;
+newBoundedPool
+ (I)Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;
+ (I)Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;
+newConcurrentDequePool
+ ()Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;
+ ()Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;
+newLockFreePool
+ ()Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;
+ ()Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;
+nonRecyclingPool
+ ()Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;
+ ()Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;
+sharedBoundedPool
+ ()Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;
+ ()Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;
+sharedConcurrentDequePool
+ ()Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;
+ ()Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;
+sharedLockFreePool
+ ()Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;
+ ()Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;
+threadLocalPool
+ ()Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;
+ ()Lcom/fasterxml/jackson/core/util/RecyclerPool<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;

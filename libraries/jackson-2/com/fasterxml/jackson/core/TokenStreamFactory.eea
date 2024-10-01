@@ -1,0 +1,110 @@
+class com/fasterxml/jackson/core/TokenStreamFactory
+
+_checkRangeBoundsForByteArray
+ ([BII)V
+ ([BII)V
+_checkRangeBoundsForCharArray
+ ([CII)V
+ ([CII)V
+_createDataOutputWrapper
+ (Ljava/io/DataOutput;)Ljava/io/OutputStream;
+ (Ljava/io/DataOutput;)Ljava/io/OutputStream;
+_fileInputStream
+ (Ljava/io/File;)Ljava/io/InputStream;
+ (Ljava/io/File;)Ljava/io/InputStream;
+_fileOutputStream
+ (Ljava/io/File;)Ljava/io/OutputStream;
+ (Ljava/io/File;)Ljava/io/OutputStream;
+_optimizedStreamFromURL
+ (Ljava/net/URL;)Ljava/io/InputStream;
+ (Ljava/net/URL;)Ljava/io/InputStream;
+_reportRangeError
+ <T:Ljava/lang/Object;>(Ljava/lang/String;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;)TT;
+canUseSchema
+ (Lcom/fasterxml/jackson/core/FormatSchema;)Z
+ (Lcom/fasterxml/jackson/core/FormatSchema;)Z
+createGenerator
+ (Ljava/io/DataOutput;)Lcom/fasterxml/jackson/core/JsonGenerator;
+ (Ljava/io/DataOutput;)Lcom/fasterxml/jackson/core/JsonGenerator;
+createGenerator
+ (Ljava/io/DataOutput;Lcom/fasterxml/jackson/core/JsonEncoding;)Lcom/fasterxml/jackson/core/JsonGenerator;
+ (Ljava/io/DataOutput;Lcom/fasterxml/jackson/core/JsonEncoding;)Lcom/fasterxml/jackson/core/JsonGenerator;
+createGenerator
+ (Ljava/io/File;Lcom/fasterxml/jackson/core/JsonEncoding;)Lcom/fasterxml/jackson/core/JsonGenerator;
+ (Ljava/io/File;Lcom/fasterxml/jackson/core/JsonEncoding;)Lcom/fasterxml/jackson/core/JsonGenerator;
+createGenerator
+ (Ljava/io/OutputStream;)Lcom/fasterxml/jackson/core/JsonGenerator;
+ (Ljava/io/OutputStream;)Lcom/fasterxml/jackson/core/JsonGenerator;
+createGenerator
+ (Ljava/io/OutputStream;Lcom/fasterxml/jackson/core/JsonEncoding;)Lcom/fasterxml/jackson/core/JsonGenerator;
+ (Ljava/io/OutputStream;Lcom/fasterxml/jackson/core/JsonEncoding;)Lcom/fasterxml/jackson/core/JsonGenerator;
+createGenerator
+ (Ljava/io/Writer;)Lcom/fasterxml/jackson/core/JsonGenerator;
+ (Ljava/io/Writer;)Lcom/fasterxml/jackson/core/JsonGenerator;
+createNonBlockingByteArrayParser
+ ()Lcom/fasterxml/jackson/core/JsonParser;
+ ()Lcom/fasterxml/jackson/core/JsonParser;
+createNonBlockingByteBufferParser
+ ()Lcom/fasterxml/jackson/core/JsonParser;
+ ()Lcom/fasterxml/jackson/core/JsonParser;
+createParser
+ (Ljava/io/DataInput;)Lcom/fasterxml/jackson/core/JsonParser;
+ (Ljava/io/DataInput;)Lcom/fasterxml/jackson/core/JsonParser;
+createParser
+ (Ljava/io/File;)Lcom/fasterxml/jackson/core/JsonParser;
+ (Ljava/io/File;)Lcom/fasterxml/jackson/core/JsonParser;
+createParser
+ (Ljava/io/InputStream;)Lcom/fasterxml/jackson/core/JsonParser;
+ (Ljava/io/InputStream;)Lcom/fasterxml/jackson/core/JsonParser;
+createParser
+ (Ljava/io/Reader;)Lcom/fasterxml/jackson/core/JsonParser;
+ (Ljava/io/Reader;)Lcom/fasterxml/jackson/core/JsonParser;
+createParser
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/JsonParser;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/JsonParser;
+createParser
+ (Ljava/net/URL;)Lcom/fasterxml/jackson/core/JsonParser;
+ (Ljava/net/URL;)Lcom/fasterxml/jackson/core/JsonParser;
+createParser
+ ([B)Lcom/fasterxml/jackson/core/JsonParser;
+ ([B)Lcom/fasterxml/jackson/core/JsonParser;
+createParser
+ ([BII)Lcom/fasterxml/jackson/core/JsonParser;
+ ([BII)Lcom/fasterxml/jackson/core/JsonParser;
+createParser
+ ([C)Lcom/fasterxml/jackson/core/JsonParser;
+ ([C)Lcom/fasterxml/jackson/core/JsonParser;
+createParser
+ ([CII)Lcom/fasterxml/jackson/core/JsonParser;
+ ([CII)Lcom/fasterxml/jackson/core/JsonParser;
+getFormatName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getFormatReadFeatureType
+ ()Ljava/lang/Class<+Lcom/fasterxml/jackson/core/FormatFeature;>;
+ ()Ljava/lang/Class<+Lcom/fasterxml/jackson/core/FormatFeature;>;
+getFormatWriteFeatureType
+ ()Ljava/lang/Class<+Lcom/fasterxml/jackson/core/FormatFeature;>;
+ ()Ljava/lang/Class<+Lcom/fasterxml/jackson/core/FormatFeature;>;
+isEnabled
+ (Lcom/fasterxml/jackson/core/JsonFactory$Feature;)Z
+ (Lcom/fasterxml/jackson/core/JsonFactory$Feature;)Z
+isEnabled
+ (Lcom/fasterxml/jackson/core/JsonGenerator$Feature;)Z
+ (Lcom/fasterxml/jackson/core/JsonGenerator$Feature;)Z
+isEnabled
+ (Lcom/fasterxml/jackson/core/JsonParser$Feature;)Z
+ (Lcom/fasterxml/jackson/core/JsonParser$Feature;)Z
+isEnabled
+ (Lcom/fasterxml/jackson/core/StreamReadFeature;)Z
+ (Lcom/fasterxml/jackson/core/StreamReadFeature;)Z
+isEnabled
+ (Lcom/fasterxml/jackson/core/StreamWriteFeature;)Z
+ (Lcom/fasterxml/jackson/core/StreamWriteFeature;)Z
+streamReadConstraints
+ ()Lcom/fasterxml/jackson/core/StreamReadConstraints;
+ ()Lcom/fasterxml/jackson/core/StreamReadConstraints;
+streamWriteConstraints
+ ()Lcom/fasterxml/jackson/core/StreamWriteConstraints;
+ ()Lcom/fasterxml/jackson/core/StreamWriteConstraints;

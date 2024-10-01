@@ -1,0 +1,16 @@
+class com/fasterxml/jackson/core/util/JsonRecyclerPools$NonRecyclingPool
+
+super com/fasterxml/jackson/core/util/RecyclerPool$NonRecyclingPoolBase
+ <Lcom/fasterxml/jackson/core/util/BufferRecycler;>
+ <Lcom/fasterxml/jackson/core/util/BufferRecycler;>
+
+GLOBAL
+ Lcom/fasterxml/jackson/core/util/JsonRecyclerPools$NonRecyclingPool;
+ L1com/fasterxml/jackson/core/util/JsonRecyclerPools$NonRecyclingPool;
+
+acquirePooled
+ ()Lcom/fasterxml/jackson/core/util/BufferRecycler;
+ ()Lcom/fasterxml/jackson/core/util/BufferRecycler;
+readResolve
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;

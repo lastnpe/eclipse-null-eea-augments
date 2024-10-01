@@ -1,0 +1,42 @@
+class com/fasterxml/jackson/core/filter/TokenFilter
+
+INCLUDE_ALL
+ Lcom/fasterxml/jackson/core/filter/TokenFilter;
+ L1com/fasterxml/jackson/core/filter/TokenFilter;
+
+filterStartArray
+ ()Lcom/fasterxml/jackson/core/filter/TokenFilter;
+ ()Lcom/fasterxml/jackson/core/filter/TokenFilter;
+filterStartObject
+ ()Lcom/fasterxml/jackson/core/filter/TokenFilter;
+ ()Lcom/fasterxml/jackson/core/filter/TokenFilter;
+includeElement
+ (I)Lcom/fasterxml/jackson/core/filter/TokenFilter;
+ (I)Lcom/fasterxml/jackson/core/filter/TokenFilter;
+includeEmbeddedValue
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+includeNumber
+ (Ljava/math/BigDecimal;)Z
+ (Ljava/math/BigDecimal;)Z
+includeNumber
+ (Ljava/math/BigInteger;)Z
+ (Ljava/math/BigInteger;)Z
+includeProperty
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/filter/TokenFilter;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/core/filter/TokenFilter;
+includeRootValue
+ (I)Lcom/fasterxml/jackson/core/filter/TokenFilter;
+ (I)Lcom/fasterxml/jackson/core/filter/TokenFilter;
+includeString
+ (Ljava/io/Reader;I)Z
+ (Ljava/io/Reader;I)Z
+includeString
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+includeValue
+ (Lcom/fasterxml/jackson/core/JsonParser;)Z
+ (Lcom/fasterxml/jackson/core/JsonParser;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

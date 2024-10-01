@@ -1,0 +1,94 @@
+class com/fasterxml/jackson/databind/util/SimpleBeanPropertyDefinition
+
+construct
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;)Lcom/fasterxml/jackson/databind/util/SimpleBeanPropertyDefinition;
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;)Lcom/fasterxml/jackson/databind/util/SimpleBeanPropertyDefinition;
+construct
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;Lcom/fasterxml/jackson/databind/PropertyName;)Lcom/fasterxml/jackson/databind/util/SimpleBeanPropertyDefinition;
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;Lcom/fasterxml/jackson/databind/PropertyName;)Lcom/fasterxml/jackson/databind/util/SimpleBeanPropertyDefinition;
+construct
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;Lcom/fasterxml/jackson/databind/PropertyName;Lcom/fasterxml/jackson/databind/PropertyMetadata;Lcom/fasterxml/jackson/annotation/JsonInclude$Include;)Lcom/fasterxml/jackson/databind/util/SimpleBeanPropertyDefinition;
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;Lcom/fasterxml/jackson/databind/PropertyName;Lcom/fasterxml/jackson/databind/PropertyMetadata;Lcom/fasterxml/jackson/annotation/JsonInclude$Include;)Lcom/fasterxml/jackson/databind/util/SimpleBeanPropertyDefinition;
+construct
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;Lcom/fasterxml/jackson/databind/PropertyName;Lcom/fasterxml/jackson/databind/PropertyMetadata;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/databind/util/SimpleBeanPropertyDefinition;
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;Lcom/fasterxml/jackson/databind/PropertyName;Lcom/fasterxml/jackson/databind/PropertyMetadata;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/databind/util/SimpleBeanPropertyDefinition;
+
+_annotationIntrospector
+ Lcom/fasterxml/jackson/databind/AnnotationIntrospector;
+ Lcom/fasterxml/jackson/databind/AnnotationIntrospector;
+_fullName
+ Lcom/fasterxml/jackson/databind/PropertyName;
+ Lcom/fasterxml/jackson/databind/PropertyName;
+_inclusion
+ Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+_member
+ Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+ Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+_metadata
+ Lcom/fasterxml/jackson/databind/PropertyMetadata;
+ Lcom/fasterxml/jackson/databind/PropertyMetadata;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/AnnotationIntrospector;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;Lcom/fasterxml/jackson/databind/PropertyName;Lcom/fasterxml/jackson/databind/PropertyMetadata;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)V
+ (Lcom/fasterxml/jackson/databind/AnnotationIntrospector;Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;Lcom/fasterxml/jackson/databind/PropertyName;Lcom/fasterxml/jackson/databind/PropertyMetadata;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)V
+findAliases
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/PropertyName;>;
+ ()Ljava/util/List<Lcom/fasterxml/jackson/databind/PropertyName;>;
+findInclusion
+ ()Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ ()Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+getConstructorParameter
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedParameter;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedParameter;
+getConstructorParameters
+ ()Ljava/util/Iterator<Lcom/fasterxml/jackson/databind/introspect/AnnotatedParameter;>;
+ ()Ljava/util/Iterator<Lcom/fasterxml/jackson/databind/introspect/AnnotatedParameter;>;
+getField
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedField;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedField;
+getFullName
+ ()Lcom/fasterxml/jackson/databind/PropertyName;
+ ()Lcom/fasterxml/jackson/databind/PropertyName;
+getGetter
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;
+getInternalName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMetadata
+ ()Lcom/fasterxml/jackson/databind/PropertyMetadata;
+ ()Lcom/fasterxml/jackson/databind/PropertyMetadata;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPrimaryMember
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMember;
+getPrimaryType
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+getRawPrimaryType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getSetter
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;
+ ()Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;
+getWrapperName
+ ()Lcom/fasterxml/jackson/databind/PropertyName;
+ ()Lcom/fasterxml/jackson/databind/PropertyName;
+hasName
+ (Lcom/fasterxml/jackson/databind/PropertyName;)Z
+ (Lcom/fasterxml/jackson/databind/PropertyName;)Z
+withInclusion
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;
+withMetadata
+ (Lcom/fasterxml/jackson/databind/PropertyMetadata;)Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;
+ (Lcom/fasterxml/jackson/databind/PropertyMetadata;)Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;
+withName
+ (Lcom/fasterxml/jackson/databind/PropertyName;)Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;
+ (Lcom/fasterxml/jackson/databind/PropertyName;)Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;
+withSimpleName
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/introspect/BeanPropertyDefinition;

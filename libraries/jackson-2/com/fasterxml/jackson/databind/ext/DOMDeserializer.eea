@@ -1,0 +1,20 @@
+class com/fasterxml/jackson/databind/ext/DOMDeserializer
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super com/fasterxml/jackson/databind/deser/std/FromStringDeserializer
+ <TT;>
+ <TT;>
+
+<init>
+ (Ljava/lang/Class<TT;>;)V
+ (Ljava/lang/Class<TT;>;)V
+_deserialize
+ (Ljava/lang/String;Lcom/fasterxml/jackson/databind/DeserializationContext;)TT;
+ (L1java/lang/String;L1com/fasterxml/jackson/databind/DeserializationContext;)TT; # @Inherited(com.fasterxml.jackson.databind.deser.std.FromStringDeserializer)
+documentBuilder
+ ()Ljavax/xml/parsers/DocumentBuilder;
+ ()Ljavax/xml/parsers/DocumentBuilder;
+parse
+ (Ljava/lang/String;)Lorg/w3c/dom/Document;
+ (Ljava/lang/String;)Lorg/w3c/dom/Document;

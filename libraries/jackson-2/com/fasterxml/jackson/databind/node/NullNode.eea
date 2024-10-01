@@ -1,0 +1,34 @@
+class com/fasterxml/jackson/databind/node/NullNode
+
+instance
+ Lcom/fasterxml/jackson/databind/node/NullNode;
+ L1com/fasterxml/jackson/databind/node/NullNode;
+
+getInstance
+ ()Lcom/fasterxml/jackson/databind/node/NullNode;
+ ()L1com/fasterxml/jackson/databind/node/NullNode;
+
+asText
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Overrides(com.fasterxml.jackson.databind.JsonNode)
+asText
+ (Ljava/lang/String;)Ljava/lang/String;
+ (L0java/lang/String;)L0java/lang/String; # @Inherited(com.fasterxml.jackson.databind.JsonNode)
+asToken
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()L1com/fasterxml/jackson/core/JsonToken; # @Inherited(com.fasterxml.jackson.databind.node.ValueNode)
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(com.fasterxml.jackson.databind.JsonNode)
+getNodeType
+ ()Lcom/fasterxml/jackson/databind/node/JsonNodeType;
+ ()L1com/fasterxml/jackson/databind/node/JsonNodeType; # @Inherited(com.fasterxml.jackson.databind.JsonNode)
+readResolve
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;
+requireNonNull
+ ()Lcom/fasterxml/jackson/databind/JsonNode;
+ ()Lcom/fasterxml/jackson/databind/JsonNode;
+serialize
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (L1com/fasterxml/jackson/core/JsonGenerator;L1com/fasterxml/jackson/databind/SerializerProvider;)V # @Inherited(com.fasterxml.jackson.databind.node.BaseJsonNode)

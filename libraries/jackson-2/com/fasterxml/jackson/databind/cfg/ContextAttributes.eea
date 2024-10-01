@@ -1,0 +1,21 @@
+class com/fasterxml/jackson/databind/cfg/ContextAttributes
+
+getEmpty
+ ()Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+ ()Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+
+getAttribute
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+withPerCallAttribute
+ (Ljava/lang/Object;Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+ (Ljava/lang/Object;Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+withSharedAttribute
+ (Ljava/lang/Object;Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+ (Ljava/lang/Object;Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+withSharedAttributes
+ (Ljava/util/Map<**>;)Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+ (Ljava/util/Map<**>;)Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+withoutSharedAttribute
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/cfg/ContextAttributes;

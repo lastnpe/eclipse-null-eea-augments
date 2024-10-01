@@ -1,0 +1,39 @@
+class com/fasterxml/jackson/databind/jsontype/impl/TypeSerializerBase
+
+_idResolver
+ Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;
+ Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;
+_property
+ Lcom/fasterxml/jackson/databind/BeanProperty;
+ Lcom/fasterxml/jackson/databind/BeanProperty;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;Lcom/fasterxml/jackson/databind/BeanProperty;)V
+ (Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;Lcom/fasterxml/jackson/databind/BeanProperty;)V
+_generateTypeId
+ (Lcom/fasterxml/jackson/core/type/WritableTypeId;)V
+ (Lcom/fasterxml/jackson/core/type/WritableTypeId;)V
+getPropertyName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTypeIdResolver
+ ()Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;
+ ()Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;
+getTypeInclusion
+ ()Lcom/fasterxml/jackson/annotation/JsonTypeInfo$As;
+ ()Lcom/fasterxml/jackson/annotation/JsonTypeInfo$As;
+handleMissingId
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+idFromValue
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+idFromValueAndType
+ (Ljava/lang/Object;Ljava/lang/Class<*>;)Ljava/lang/String;
+ (Ljava/lang/Object;Ljava/lang/Class<*>;)Ljava/lang/String;
+writeTypePrefix
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/core/type/WritableTypeId;)Lcom/fasterxml/jackson/core/type/WritableTypeId;
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/core/type/WritableTypeId;)Lcom/fasterxml/jackson/core/type/WritableTypeId;
+writeTypeSuffix
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/core/type/WritableTypeId;)Lcom/fasterxml/jackson/core/type/WritableTypeId;
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/core/type/WritableTypeId;)Lcom/fasterxml/jackson/core/type/WritableTypeId;

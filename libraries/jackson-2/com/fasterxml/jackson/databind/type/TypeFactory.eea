@@ -1,0 +1,251 @@
+class com/fasterxml/jackson/databind/type/TypeFactory
+
+CORE_TYPE_BOOL
+ Lcom/fasterxml/jackson/databind/type/SimpleType;
+ L1com/fasterxml/jackson/databind/type/SimpleType;
+CORE_TYPE_COMPARABLE
+ Lcom/fasterxml/jackson/databind/type/SimpleType;
+ L1com/fasterxml/jackson/databind/type/SimpleType;
+CORE_TYPE_DOUBLE
+ Lcom/fasterxml/jackson/databind/type/SimpleType;
+ L1com/fasterxml/jackson/databind/type/SimpleType;
+CORE_TYPE_ENUM
+ Lcom/fasterxml/jackson/databind/type/SimpleType;
+ L1com/fasterxml/jackson/databind/type/SimpleType;
+CORE_TYPE_INT
+ Lcom/fasterxml/jackson/databind/type/SimpleType;
+ L1com/fasterxml/jackson/databind/type/SimpleType;
+CORE_TYPE_JSON_NODE
+ Lcom/fasterxml/jackson/databind/type/SimpleType;
+ L1com/fasterxml/jackson/databind/type/SimpleType;
+CORE_TYPE_LONG
+ Lcom/fasterxml/jackson/databind/type/SimpleType;
+ L1com/fasterxml/jackson/databind/type/SimpleType;
+CORE_TYPE_OBJECT
+ Lcom/fasterxml/jackson/databind/type/SimpleType;
+ L1com/fasterxml/jackson/databind/type/SimpleType;
+CORE_TYPE_STRING
+ Lcom/fasterxml/jackson/databind/type/SimpleType;
+ L1com/fasterxml/jackson/databind/type/SimpleType;
+EMPTY_BINDINGS
+ Lcom/fasterxml/jackson/databind/type/TypeBindings;
+ L1com/fasterxml/jackson/databind/type/TypeBindings;
+instance
+ Lcom/fasterxml/jackson/databind/type/TypeFactory;
+ L1com/fasterxml/jackson/databind/type/TypeFactory;
+
+defaultInstance
+ ()Lcom/fasterxml/jackson/databind/type/TypeFactory;
+ ()Lcom/fasterxml/jackson/databind/type/TypeFactory;
+rawClass
+ (Ljava/lang/reflect/Type;)Ljava/lang/Class<*>;
+ (Ljava/lang/reflect/Type;)Ljava/lang/Class<*>;
+unknownType
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+
+_classLoader
+ Ljava/lang/ClassLoader;
+ Ljava/lang/ClassLoader;
+_modifiers
+ [Lcom/fasterxml/jackson/databind/type/TypeModifier;
+ [Lcom/fasterxml/jackson/databind/type/TypeModifier;
+_parser
+ Lcom/fasterxml/jackson/databind/type/TypeParser;
+ Lcom/fasterxml/jackson/databind/type/TypeParser;
+_typeCache
+ Lcom/fasterxml/jackson/databind/util/LookupCache<Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JavaType;>;
+ Lcom/fasterxml/jackson/databind/util/LookupCache<Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JavaType;>;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/util/LookupCache<Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JavaType;>;)V
+ (Lcom/fasterxml/jackson/databind/util/LookupCache<Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JavaType;>;)V
+<init>
+ (Lcom/fasterxml/jackson/databind/util/LookupCache<Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JavaType;>;Lcom/fasterxml/jackson/databind/type/TypeParser;[Lcom/fasterxml/jackson/databind/type/TypeModifier;Ljava/lang/ClassLoader;)V
+ (Lcom/fasterxml/jackson/databind/util/LookupCache<Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JavaType;>;Lcom/fasterxml/jackson/databind/type/TypeParser;[Lcom/fasterxml/jackson/databind/type/TypeModifier;Ljava/lang/ClassLoader;)V
+_applyModifiers
+ (Ljava/lang/reflect/Type;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/reflect/Type;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+_constructSimple
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+_findPrimitive
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+_findWellKnownSimple
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+_fromAny
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/reflect/Type;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/reflect/Type;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+_fromArrayType
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/reflect/GenericArrayType;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/reflect/GenericArrayType;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+_fromClass
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+_fromParamType
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/reflect/ParameterizedType;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/reflect/ParameterizedType;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+_fromVariable
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/reflect/TypeVariable<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/reflect/TypeVariable<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+_fromWellKnownClass
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+_fromWellKnownInterface
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+_fromWildcard
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/reflect/WildcardType;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/reflect/WildcardType;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+_newSimpleType
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+_resolveSuperClass
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+_resolveSuperInterfaces
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;)[Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/type/ClassStack;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;)[Lcom/fasterxml/jackson/databind/JavaType;
+_unknownType
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+classForName
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+classForName
+ (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class<*>;
+constructArrayType
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/ArrayType;
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/ArrayType;
+constructArrayType
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/type/ArrayType;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/type/ArrayType;
+constructCollectionLikeType
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/CollectionLikeType;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/CollectionLikeType;
+constructCollectionLikeType
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/type/CollectionLikeType;
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/type/CollectionLikeType;
+constructCollectionType
+ (Ljava/lang/Class<+Ljava/util/Collection;>;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/CollectionType;
+ (Ljava/lang/Class<+Ljava/util/Collection;>;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/CollectionType;
+constructCollectionType
+ (Ljava/lang/Class<+Ljava/util/Collection;>;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/type/CollectionType;
+ (Ljava/lang/Class<+Ljava/util/Collection;>;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/type/CollectionType;
+constructFromCanonical
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JavaType;
+constructGeneralizedType
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+constructMapLikeType
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/MapLikeType;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/MapLikeType;
+constructMapLikeType
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/type/MapLikeType;
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/type/MapLikeType;
+constructMapType
+ (Ljava/lang/Class<+Ljava/util/Map;>;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/MapType;
+ (Ljava/lang/Class<+Ljava/util/Map;>;Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/MapType;
+constructMapType
+ (Ljava/lang/Class<+Ljava/util/Map;>;Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/type/MapType;
+ (Ljava/lang/Class<+Ljava/util/Map;>;Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/type/MapType;
+constructParametricType
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+constructParametricType
+ (Ljava/lang/Class<*>;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/Class<*>;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+constructParametricType
+ (Ljava/lang/Class<*>;[Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/Class<*>;[Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+constructParametrizedType
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+constructParametrizedType
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;[Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;[Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+constructRawCollectionLikeType
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/type/CollectionLikeType;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/type/CollectionLikeType;
+constructRawCollectionType
+ (Ljava/lang/Class<+Ljava/util/Collection;>;)Lcom/fasterxml/jackson/databind/type/CollectionType;
+ (Ljava/lang/Class<+Ljava/util/Collection;>;)Lcom/fasterxml/jackson/databind/type/CollectionType;
+constructRawMapLikeType
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/type/MapLikeType;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/type/MapLikeType;
+constructRawMapType
+ (Ljava/lang/Class<+Ljava/util/Map;>;)Lcom/fasterxml/jackson/databind/type/MapType;
+ (Ljava/lang/Class<+Ljava/util/Map;>;)Lcom/fasterxml/jackson/databind/type/MapType;
+constructReferenceType
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+constructSimpleType
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+constructSimpleType
+ (Ljava/lang/Class<*>;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/Class<*>;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+constructSpecializedType
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+constructSpecializedType
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class<*>;Z)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class<*>;Z)Lcom/fasterxml/jackson/databind/JavaType;
+constructType
+ (Lcom/fasterxml/jackson/core/type/TypeReference<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/core/type/TypeReference<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+constructType
+ (Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/reflect/Type;)Lcom/fasterxml/jackson/databind/JavaType;
+constructType
+ (Ljava/lang/reflect/Type;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/reflect/Type;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+constructType
+ (Ljava/lang/reflect/Type;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/reflect/Type;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+constructType
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+findClass
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+findFirstTypeParameter
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+findTypeParameters
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class<*>;)[Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class<*>;)[Lcom/fasterxml/jackson/databind/JavaType;
+findTypeParameters
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)[Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)[Lcom/fasterxml/jackson/databind/JavaType;
+findTypeParameters
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;)[Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;)[Lcom/fasterxml/jackson/databind/JavaType;
+getClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()Ljava/lang/ClassLoader;
+moreSpecificType
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+resolveMemberType
+ (Ljava/lang/reflect/Type;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/reflect/Type;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+uncheckedSimpleType
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+withCache
+ (Lcom/fasterxml/jackson/databind/util/LRUMap<Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JavaType;>;)Lcom/fasterxml/jackson/databind/type/TypeFactory;
+ (Lcom/fasterxml/jackson/databind/util/LRUMap<Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JavaType;>;)Lcom/fasterxml/jackson/databind/type/TypeFactory;
+withCache
+ (Lcom/fasterxml/jackson/databind/util/LookupCache<Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JavaType;>;)Lcom/fasterxml/jackson/databind/type/TypeFactory;
+ (Lcom/fasterxml/jackson/databind/util/LookupCache<Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JavaType;>;)Lcom/fasterxml/jackson/databind/type/TypeFactory;
+withClassLoader
+ (Ljava/lang/ClassLoader;)Lcom/fasterxml/jackson/databind/type/TypeFactory;
+ (Ljava/lang/ClassLoader;)Lcom/fasterxml/jackson/databind/type/TypeFactory;
+withModifier
+ (Lcom/fasterxml/jackson/databind/type/TypeModifier;)Lcom/fasterxml/jackson/databind/type/TypeFactory;
+ (Lcom/fasterxml/jackson/databind/type/TypeModifier;)Lcom/fasterxml/jackson/databind/type/TypeFactory;

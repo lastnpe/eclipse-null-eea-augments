@@ -1,0 +1,33 @@
+class com/fasterxml/jackson/databind/exc/PropertyBindingException
+
+_propertiesAsString
+ Ljava/lang/String;
+ Ljava/lang/String;
+_propertyIds
+ Ljava/util/Collection<Ljava/lang/Object;>;
+ Ljava/util/Collection<Ljava/lang/Object;>;
+_propertyName
+ Ljava/lang/String;
+ Ljava/lang/String;
+_referringClass
+ Ljava/lang/Class<*>;
+ Ljava/lang/Class<*>;
+
+<init>
+ (Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonLocation;Ljava/lang/Class<*>;Ljava/lang/String;Ljava/util/Collection<Ljava/lang/Object;>;)V
+ (Lcom/fasterxml/jackson/core/JsonParser;Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonLocation;Ljava/lang/Class<*>;Ljava/lang/String;Ljava/util/Collection<Ljava/lang/Object;>;)V
+<init>
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonLocation;Ljava/lang/Class<*>;Ljava/lang/String;Ljava/util/Collection<Ljava/lang/Object;>;)V
+ (Ljava/lang/String;Lcom/fasterxml/jackson/core/JsonLocation;Ljava/lang/Class<*>;Ljava/lang/String;Ljava/util/Collection<Ljava/lang/Object;>;)V
+getKnownPropertyIds
+ ()Ljava/util/Collection<Ljava/lang/Object;>;
+ ()Ljava/util/Collection<Ljava/lang/Object;>;
+getMessageSuffix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getPropertyName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getReferringClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;

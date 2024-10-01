@@ -1,0 +1,23 @@
+class com/fasterxml/jackson/databind/jsontype/TypeIdResolver
+
+getDescForKnownTypeIds
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMechanism
+ ()Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Id;
+ ()Lcom/fasterxml/jackson/annotation/JsonTypeInfo$Id;
+idFromBaseType
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+idFromValue
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+idFromValueAndType
+ (Ljava/lang/Object;Ljava/lang/Class<*>;)Ljava/lang/String;
+ (Ljava/lang/Object;Ljava/lang/Class<*>;)Ljava/lang/String;
+init
+ (Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/JavaType;)V
+typeFromId
+ (Lcom/fasterxml/jackson/databind/DatabindContext;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/DatabindContext;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JavaType;

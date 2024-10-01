@@ -1,0 +1,38 @@
+class com/fasterxml/jackson/databind/ser/ContainerSerializer
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super com/fasterxml/jackson/databind/ser/std/StdSerializer
+ <TT;>
+ <TT;>
+
+<init>
+ (Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/JavaType;)V
+<init>
+ (Lcom/fasterxml/jackson/databind/ser/ContainerSerializer<*>;)V
+ (Lcom/fasterxml/jackson/databind/ser/ContainerSerializer<*>;)V
+<init>
+ (Ljava/lang/Class<*>;Z)V
+ (Ljava/lang/Class<*>;Z)V
+<init>
+ (Ljava/lang/Class<TT;>;)V
+ (Ljava/lang/Class<TT;>;)V
+_withValueTypeSerializer
+ (Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;)Lcom/fasterxml/jackson/databind/ser/ContainerSerializer<*>;
+ (Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;)Lcom/fasterxml/jackson/databind/ser/ContainerSerializer<*>;
+getContentSerializer
+ ()Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+ ()Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+getContentType
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+hasContentTypeAnnotation
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/BeanProperty;)Z
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/BeanProperty;)Z
+hasSingleElement
+ (TT;)Z
+ (TT;)Z
+withValueTypeSerializer
+ (Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;)Lcom/fasterxml/jackson/databind/ser/ContainerSerializer<*>;
+ (Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;)Lcom/fasterxml/jackson/databind/ser/ContainerSerializer<*>;

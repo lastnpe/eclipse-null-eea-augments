@@ -1,0 +1,39 @@
+class com/fasterxml/jackson/databind/util/JSONWrappedObject
+
+_prefix
+ Ljava/lang/String;
+ Ljava/lang/String;
+_serializationType
+ Lcom/fasterxml/jackson/databind/JavaType;
+ Lcom/fasterxml/jackson/databind/JavaType;
+_suffix
+ Ljava/lang/String;
+ Ljava/lang/String;
+_value
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Lcom/fasterxml/jackson/databind/JavaType;)V
+getPrefix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSerializationType
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+getSuffix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+serialize
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (L1com/fasterxml/jackson/core/JsonGenerator;L1com/fasterxml/jackson/databind/SerializerProvider;)V # @Inherited(com.fasterxml.jackson.databind.JsonSerializable)
+serializeWithType
+ (Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;)V
+ (L1com/fasterxml/jackson/core/JsonGenerator;L1com/fasterxml/jackson/databind/SerializerProvider;L1com/fasterxml/jackson/databind/jsontype/TypeSerializer;)V # @Inherited(com.fasterxml.jackson.databind.JsonSerializable)

@@ -1,0 +1,87 @@
+class com/fasterxml/jackson/annotation/JsonInclude$Value
+
+super com/fasterxml/jackson/annotation/JacksonAnnotationValue
+ <Lcom/fasterxml/jackson/annotation/JsonInclude;>
+ <Lcom/fasterxml/jackson/annotation/JsonInclude;>
+
+EMPTY
+ Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ L1com/fasterxml/jackson/annotation/JsonInclude$Value;
+
+construct
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Include;Lcom/fasterxml/jackson/annotation/JsonInclude$Include;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Include;Lcom/fasterxml/jackson/annotation/JsonInclude$Include;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+construct
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Include;Lcom/fasterxml/jackson/annotation/JsonInclude$Include;Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Include;Lcom/fasterxml/jackson/annotation/JsonInclude$Include;Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+empty
+ ()Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ ()Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+from
+ (Lcom/fasterxml/jackson/annotation/JsonInclude;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonInclude;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+merge
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Value;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Value;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+mergeAll
+ ([Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ ([Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+
+_contentFilter
+ Ljava/lang/Class<*>;
+ Ljava/lang/Class<*>;
+_contentInclusion
+ Lcom/fasterxml/jackson/annotation/JsonInclude$Include;
+ Lcom/fasterxml/jackson/annotation/JsonInclude$Include;
+_valueFilter
+ Ljava/lang/Class<*>;
+ Ljava/lang/Class<*>;
+_valueInclusion
+ Lcom/fasterxml/jackson/annotation/JsonInclude$Include;
+ Lcom/fasterxml/jackson/annotation/JsonInclude$Include;
+
+<init>
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Include;Lcom/fasterxml/jackson/annotation/JsonInclude$Include;Ljava/lang/Class<*>;Ljava/lang/Class<*>;)V
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Include;Lcom/fasterxml/jackson/annotation/JsonInclude$Include;Ljava/lang/Class<*>;Ljava/lang/Class<*>;)V
+<init>
+ (Lcom/fasterxml/jackson/annotation/JsonInclude;)V
+ (Lcom/fasterxml/jackson/annotation/JsonInclude;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getContentFilter
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getContentInclusion
+ ()Lcom/fasterxml/jackson/annotation/JsonInclude$Include;
+ ()Lcom/fasterxml/jackson/annotation/JsonInclude$Include;
+getValueFilter
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getValueInclusion
+ ()Lcom/fasterxml/jackson/annotation/JsonInclude$Include;
+ ()Lcom/fasterxml/jackson/annotation/JsonInclude$Include;
+readResolve
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+valueFor
+ ()Ljava/lang/Class<Lcom/fasterxml/jackson/annotation/JsonInclude;>;
+ ()Ljava/lang/Class<Lcom/fasterxml/jackson/annotation/JsonInclude;>;
+withContentFilter
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+withContentInclusion
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Include;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Include;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+withOverrides
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+withValueFilter
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ (Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+withValueInclusion
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Include;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Include;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;

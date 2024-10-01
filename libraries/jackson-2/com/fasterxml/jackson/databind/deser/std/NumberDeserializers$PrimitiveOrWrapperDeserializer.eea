@@ -1,0 +1,36 @@
+class com/fasterxml/jackson/databind/deser/std/NumberDeserializers$PrimitiveOrWrapperDeserializer
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super com/fasterxml/jackson/databind/deser/std/StdScalarDeserializer
+ <TT;>
+ <TT;>
+
+_emptyValue
+ TT;
+ TT;
+_logicalType
+ Lcom/fasterxml/jackson/databind/type/LogicalType;
+ Lcom/fasterxml/jackson/databind/type/LogicalType;
+_nullValue
+ TT;
+ TT;
+
+<init>
+ (Ljava/lang/Class<TT;>;Lcom/fasterxml/jackson/databind/type/LogicalType;TT;TT;)V
+ (Ljava/lang/Class<TT;>;Lcom/fasterxml/jackson/databind/type/LogicalType;TT;TT;)V
+<init>
+ (Ljava/lang/Class<TT;>;TT;TT;)V
+ (Ljava/lang/Class<TT;>;TT;TT;)V
+getEmptyValue
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object;
+ (L1com/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object; # @Inherited(com.fasterxml.jackson.databind.JsonDeserializer)
+getNullAccessPattern
+ ()Lcom/fasterxml/jackson/databind/util/AccessPattern;
+ ()L1com/fasterxml/jackson/databind/util/AccessPattern; # @Inherited(com.fasterxml.jackson.databind.deser.std.StdScalarDeserializer)
+getNullValue
+ (Lcom/fasterxml/jackson/databind/DeserializationContext;)TT;
+ (L1com/fasterxml/jackson/databind/DeserializationContext;)T0T; # @Inherited(com.fasterxml.jackson.databind.JsonDeserializer)
+logicalType
+ ()Lcom/fasterxml/jackson/databind/type/LogicalType;
+ ()L0com/fasterxml/jackson/databind/type/LogicalType; # @Inherited(com.fasterxml.jackson.databind.deser.std.StdScalarDeserializer)

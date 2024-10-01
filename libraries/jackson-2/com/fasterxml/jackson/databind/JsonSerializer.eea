@@ -1,0 +1,40 @@
+class com/fasterxml/jackson/databind/JsonSerializer
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+acceptJsonFormatVisitor
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+getDelegatee
+ ()Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+ ()Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+handledType
+ ()Ljava/lang/Class<TT;>;
+ ()Ljava/lang/Class<TT;>;
+isEmpty
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;TT;)Z
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;TT;)Z
+isEmpty
+ (TT;)Z
+ (TT;)Z
+properties
+ ()Ljava/util/Iterator<Lcom/fasterxml/jackson/databind/ser/PropertyWriter;>;
+ ()Ljava/util/Iterator<Lcom/fasterxml/jackson/databind/ser/PropertyWriter;>;
+replaceDelegatee
+ (Lcom/fasterxml/jackson/databind/JsonSerializer<*>;)Lcom/fasterxml/jackson/databind/JsonSerializer<TT;>;
+ (Lcom/fasterxml/jackson/databind/JsonSerializer<*>;)Lcom/fasterxml/jackson/databind/JsonSerializer<TT;>;
+serialize
+ (TT;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (TT;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+serializeWithType
+ (TT;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;)V
+ (TT;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;)V
+unwrappingSerializer
+ (Lcom/fasterxml/jackson/databind/util/NameTransformer;)Lcom/fasterxml/jackson/databind/JsonSerializer<TT;>;
+ (Lcom/fasterxml/jackson/databind/util/NameTransformer;)Lcom/fasterxml/jackson/databind/JsonSerializer<TT;>;
+withFilterId
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+withIgnoredProperties
+ (Ljava/util/Set<Ljava/lang/String;>;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+ (Ljava/util/Set<Ljava/lang/String;>;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;

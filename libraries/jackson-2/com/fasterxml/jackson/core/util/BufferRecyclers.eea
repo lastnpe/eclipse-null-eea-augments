@@ -1,0 +1,27 @@
+class com/fasterxml/jackson/core/util/BufferRecyclers
+
+SYSTEM_PROPERTY_TRACK_REUSABLE_BUFFERS
+ Ljava/lang/String;
+ L1java/lang/String;
+_recyclerRef
+ Ljava/lang/ThreadLocal<Ljava/lang/ref/SoftReference<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;>;
+ L1java/lang/ThreadLocal<Ljava/lang/ref/SoftReference<Lcom/fasterxml/jackson/core/util/BufferRecycler;>;>;
+
+encodeAsUTF8
+ (Ljava/lang/String;)[B
+ (Ljava/lang/String;)[B
+getBufferRecycler
+ ()Lcom/fasterxml/jackson/core/util/BufferRecycler;
+ ()Lcom/fasterxml/jackson/core/util/BufferRecycler;
+getJsonStringEncoder
+ ()Lcom/fasterxml/jackson/core/io/JsonStringEncoder;
+ ()Lcom/fasterxml/jackson/core/io/JsonStringEncoder;
+quoteAsJsonText
+ (Ljava/lang/CharSequence;Ljava/lang/StringBuilder;)V
+ (Ljava/lang/CharSequence;Ljava/lang/StringBuilder;)V
+quoteAsJsonText
+ (Ljava/lang/String;)[C
+ (Ljava/lang/String;)[C
+quoteAsJsonUTF8
+ (Ljava/lang/String;)[B
+ (Ljava/lang/String;)[B

@@ -1,0 +1,38 @@
+class com/fasterxml/jackson/core/SerializableString
+
+appendQuoted
+ ([CI)I
+ ([CI)I
+appendQuotedUTF8
+ ([BI)I
+ ([BI)I
+appendUnquoted
+ ([CI)I
+ ([CI)I
+appendUnquotedUTF8
+ ([BI)I
+ ([BI)I
+asQuotedChars
+ ()[C
+ ()[C
+asQuotedUTF8
+ ()[B
+ ()[B
+asUnquotedUTF8
+ ()[B
+ ()[B
+getValue
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+putQuotedUTF8
+ (Ljava/nio/ByteBuffer;)I
+ (Ljava/nio/ByteBuffer;)I
+putUnquotedUTF8
+ (Ljava/nio/ByteBuffer;)I
+ (Ljava/nio/ByteBuffer;)I
+writeQuotedUTF8
+ (Ljava/io/OutputStream;)I
+ (Ljava/io/OutputStream;)I
+writeUnquotedUTF8
+ (Ljava/io/OutputStream;)I
+ (Ljava/io/OutputStream;)I

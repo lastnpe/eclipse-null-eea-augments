@@ -1,0 +1,26 @@
+class com/fasterxml/jackson/databind/util/PrimitiveArrayBuilder
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+_bufferHead
+ Lcom/fasterxml/jackson/databind/util/PrimitiveArrayBuilder$Node<TT;>;
+ Lcom/fasterxml/jackson/databind/util/PrimitiveArrayBuilder$Node<TT;>;
+_bufferTail
+ Lcom/fasterxml/jackson/databind/util/PrimitiveArrayBuilder$Node<TT;>;
+ Lcom/fasterxml/jackson/databind/util/PrimitiveArrayBuilder$Node<TT;>;
+_freeBuffer
+ TT;
+ TT;
+
+_constructArray
+ (I)TT;
+ (I)TT;
+appendCompletedChunk
+ (TT;I)TT;
+ (TT;I)TT;
+completeAndClearBuffer
+ (TT;I)TT;
+ (TT;I)TT;
+resetAndStart
+ ()TT;
+ ()TT;

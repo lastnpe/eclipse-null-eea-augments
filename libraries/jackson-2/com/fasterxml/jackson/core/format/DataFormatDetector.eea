@@ -1,0 +1,39 @@
+class com/fasterxml/jackson/core/format/DataFormatDetector
+
+_detectors
+ [Lcom/fasterxml/jackson/core/JsonFactory;
+ [Lcom/fasterxml/jackson/core/JsonFactory;
+_minimalMatch
+ Lcom/fasterxml/jackson/core/format/MatchStrength;
+ Lcom/fasterxml/jackson/core/format/MatchStrength;
+_optimalMatch
+ Lcom/fasterxml/jackson/core/format/MatchStrength;
+ Lcom/fasterxml/jackson/core/format/MatchStrength;
+
+<init>
+ (Ljava/util/Collection<Lcom/fasterxml/jackson/core/JsonFactory;>;)V
+ (Ljava/util/Collection<Lcom/fasterxml/jackson/core/JsonFactory;>;)V
+<init>
+ ([Lcom/fasterxml/jackson/core/JsonFactory;)V
+ ([Lcom/fasterxml/jackson/core/JsonFactory;)V
+findFormat
+ (Ljava/io/InputStream;)Lcom/fasterxml/jackson/core/format/DataFormatMatcher;
+ (Ljava/io/InputStream;)Lcom/fasterxml/jackson/core/format/DataFormatMatcher;
+findFormat
+ ([B)Lcom/fasterxml/jackson/core/format/DataFormatMatcher;
+ ([B)Lcom/fasterxml/jackson/core/format/DataFormatMatcher;
+findFormat
+ ([BII)Lcom/fasterxml/jackson/core/format/DataFormatMatcher;
+ ([BII)Lcom/fasterxml/jackson/core/format/DataFormatMatcher;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+withMaxInputLookahead
+ (I)Lcom/fasterxml/jackson/core/format/DataFormatDetector;
+ (I)Lcom/fasterxml/jackson/core/format/DataFormatDetector;
+withMinimalMatch
+ (Lcom/fasterxml/jackson/core/format/MatchStrength;)Lcom/fasterxml/jackson/core/format/DataFormatDetector;
+ (Lcom/fasterxml/jackson/core/format/MatchStrength;)Lcom/fasterxml/jackson/core/format/DataFormatDetector;
+withOptimalMatch
+ (Lcom/fasterxml/jackson/core/format/MatchStrength;)Lcom/fasterxml/jackson/core/format/DataFormatDetector;
+ (Lcom/fasterxml/jackson/core/format/MatchStrength;)Lcom/fasterxml/jackson/core/format/DataFormatDetector;

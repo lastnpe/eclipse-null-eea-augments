@@ -1,0 +1,42 @@
+class com/fasterxml/jackson/databind/introspect/AnnotatedWithParams
+
+_paramAnnotations
+ [Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;
+ [Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;[Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;)V
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedWithParams;[Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;)V
+<init>
+ (Lcom/fasterxml/jackson/databind/introspect/TypeResolutionContext;Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;[Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;)V
+ (Lcom/fasterxml/jackson/databind/introspect/TypeResolutionContext;Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;[Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;)V
+addOrOverrideParam
+ (ILjava/lang/annotation/Annotation;)V
+ (ILjava/lang/annotation/Annotation;)V
+call
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+call
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+call1
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+getGenericParameterType
+ (I)Ljava/lang/reflect/Type;
+ (I)Ljava/lang/reflect/Type;
+getParameter
+ (I)Lcom/fasterxml/jackson/databind/introspect/AnnotatedParameter;
+ (I)Lcom/fasterxml/jackson/databind/introspect/AnnotatedParameter;
+getParameterAnnotations
+ (I)Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;
+ (I)Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;
+getParameterType
+ (I)Lcom/fasterxml/jackson/databind/JavaType;
+ (I)Lcom/fasterxml/jackson/databind/JavaType;
+getRawParameterType
+ (I)Ljava/lang/Class<*>;
+ (I)Ljava/lang/Class<*>;
+replaceParameterAnnotations
+ (ILcom/fasterxml/jackson/databind/introspect/AnnotationMap;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedParameter;
+ (ILcom/fasterxml/jackson/databind/introspect/AnnotationMap;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedParameter;

@@ -1,0 +1,73 @@
+class com/fasterxml/jackson/core/json/JsonWriteContext
+
+createRootContext
+ ()Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+ ()Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+createRootContext
+ (Lcom/fasterxml/jackson/core/json/DupDetector;)Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+ (Lcom/fasterxml/jackson/core/json/DupDetector;)Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+
+_child
+ Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+ Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+_currentName
+ Ljava/lang/String;
+ Ljava/lang/String;
+_currentValue
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+_dups
+ Lcom/fasterxml/jackson/core/json/DupDetector;
+ Lcom/fasterxml/jackson/core/json/DupDetector;
+_parent
+ Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+ Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+
+<init>
+ (ILcom/fasterxml/jackson/core/json/JsonWriteContext;Lcom/fasterxml/jackson/core/json/DupDetector;)V
+ (ILcom/fasterxml/jackson/core/json/JsonWriteContext;Lcom/fasterxml/jackson/core/json/DupDetector;)V
+<init>
+ (ILcom/fasterxml/jackson/core/json/JsonWriteContext;Lcom/fasterxml/jackson/core/json/DupDetector;Ljava/lang/Object;)V
+ (ILcom/fasterxml/jackson/core/json/JsonWriteContext;Lcom/fasterxml/jackson/core/json/DupDetector;Ljava/lang/Object;)V
+clearAndGetParent
+ ()Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+ ()Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+createChildArrayContext
+ ()Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+ ()Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+createChildArrayContext
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+createChildObjectContext
+ ()Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+ ()Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+createChildObjectContext
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+getCurrentName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getCurrentValue
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getDupDetector
+ ()Lcom/fasterxml/jackson/core/json/DupDetector;
+ ()Lcom/fasterxml/jackson/core/json/DupDetector;
+getParent
+ ()Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+ ()Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+reset
+ (I)Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+ (I)Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+reset
+ (ILjava/lang/Object;)Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+ (ILjava/lang/Object;)Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+setCurrentValue
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+withDupDetector
+ (Lcom/fasterxml/jackson/core/json/DupDetector;)Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+ (Lcom/fasterxml/jackson/core/json/DupDetector;)Lcom/fasterxml/jackson/core/json/JsonWriteContext;
+writeFieldName
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I

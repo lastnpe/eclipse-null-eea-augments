@@ -1,0 +1,35 @@
+class com/fasterxml/jackson/databind/deser/std/StdScalarDeserializer
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super com/fasterxml/jackson/databind/deser/std/StdDeserializer
+ <TT;>
+ <TT;>
+
+<init>
+ (Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/JavaType;)V
+<init>
+ (Lcom/fasterxml/jackson/databind/deser/std/StdScalarDeserializer<*>;)V
+ (Lcom/fasterxml/jackson/databind/deser/std/StdScalarDeserializer<*>;)V
+<init>
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+deserialize
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;TT;)TT;
+ (L1com/fasterxml/jackson/core/JsonParser;L1com/fasterxml/jackson/databind/DeserializationContext;TT;)TT; # @Inherited(com.fasterxml.jackson.databind.JsonDeserializer)
+deserializeWithType
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+ (L1com/fasterxml/jackson/core/JsonParser;L1com/fasterxml/jackson/databind/DeserializationContext;L1com/fasterxml/jackson/databind/jsontype/TypeDeserializer;)L0java/lang/Object; # @Inherited(com.fasterxml.jackson.databind.deser.std.StdDeserializer)
+getEmptyAccessPattern
+ ()Lcom/fasterxml/jackson/databind/util/AccessPattern;
+ ()L1com/fasterxml/jackson/databind/util/AccessPattern; # @Inherited(com.fasterxml.jackson.databind.JsonDeserializer)
+getNullAccessPattern
+ ()Lcom/fasterxml/jackson/databind/util/AccessPattern;
+ ()L1com/fasterxml/jackson/databind/util/AccessPattern; # @Inherited(com.fasterxml.jackson.databind.JsonDeserializer)
+logicalType
+ ()Lcom/fasterxml/jackson/databind/type/LogicalType;
+ ()L0com/fasterxml/jackson/databind/type/LogicalType; # @Inherited(com.fasterxml.jackson.databind.JsonDeserializer)
+supportsUpdate
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;)Ljava/lang/Boolean;
+ (L1com/fasterxml/jackson/databind/DeserializationConfig;)L0java/lang/Boolean; # @Inherited(com.fasterxml.jackson.databind.JsonDeserializer)

@@ -1,0 +1,30 @@
+class com/fasterxml/jackson/databind/ext/CoreXMLSerializers$XMLGregorianCalendarSerializer
+
+super com/fasterxml/jackson/databind/ser/std/StdSerializer
+ <Ljavax/xml/datatype/XMLGregorianCalendar;>
+ <Ljavax/xml/datatype/XMLGregorianCalendar;>
+
+<init>
+ (Lcom/fasterxml/jackson/databind/JsonSerializer<*>;)V
+ (Lcom/fasterxml/jackson/databind/JsonSerializer<*>;)V
+_convert
+ (Ljavax/xml/datatype/XMLGregorianCalendar;)Ljava/util/Calendar;
+ (Ljavax/xml/datatype/XMLGregorianCalendar;)Ljava/util/Calendar;
+acceptJsonFormatVisitor
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+createContextual
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/BeanProperty;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/BeanProperty;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+getDelegatee
+ ()Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+ ()Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+isEmpty
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljavax/xml/datatype/XMLGregorianCalendar;)Z
+ (Lcom/fasterxml/jackson/databind/SerializerProvider;Ljavax/xml/datatype/XMLGregorianCalendar;)Z
+serialize
+ (Ljavax/xml/datatype/XMLGregorianCalendar;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+ (Ljavax/xml/datatype/XMLGregorianCalendar;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V
+serializeWithType
+ (Ljavax/xml/datatype/XMLGregorianCalendar;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;)V
+ (Ljavax/xml/datatype/XMLGregorianCalendar;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;Lcom/fasterxml/jackson/databind/jsontype/TypeSerializer;)V

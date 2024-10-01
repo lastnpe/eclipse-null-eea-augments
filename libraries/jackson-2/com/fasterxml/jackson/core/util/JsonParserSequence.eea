@@ -1,0 +1,31 @@
+class com/fasterxml/jackson/core/util/JsonParserSequence
+
+createFlattened
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/core/JsonParser;)Lcom/fasterxml/jackson/core/util/JsonParserSequence;
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/core/JsonParser;)Lcom/fasterxml/jackson/core/util/JsonParserSequence;
+createFlattened
+ (ZLcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/core/JsonParser;)Lcom/fasterxml/jackson/core/util/JsonParserSequence;
+ (ZLcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/core/JsonParser;)Lcom/fasterxml/jackson/core/util/JsonParserSequence;
+
+_parsers
+ [Lcom/fasterxml/jackson/core/JsonParser;
+ [Lcom/fasterxml/jackson/core/JsonParser;
+
+<init>
+ (Z[Lcom/fasterxml/jackson/core/JsonParser;)V
+ (Z[Lcom/fasterxml/jackson/core/JsonParser;)V
+<init>
+ ([Lcom/fasterxml/jackson/core/JsonParser;)V
+ ([Lcom/fasterxml/jackson/core/JsonParser;)V
+addFlattenedActiveParsers
+ (Ljava/util/List<Lcom/fasterxml/jackson/core/JsonParser;>;)V
+ (Ljava/util/List<Lcom/fasterxml/jackson/core/JsonParser;>;)V
+nextToken
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+skipChildren
+ ()Lcom/fasterxml/jackson/core/JsonParser;
+ ()Lcom/fasterxml/jackson/core/JsonParser;
+switchAndReturnNext
+ ()Lcom/fasterxml/jackson/core/JsonToken;
+ ()Lcom/fasterxml/jackson/core/JsonToken;

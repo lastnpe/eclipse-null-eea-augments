@@ -1,0 +1,33 @@
+class com/fasterxml/jackson/databind/json/JsonMapper
+
+builder
+ ()Lcom/fasterxml/jackson/databind/json/JsonMapper$Builder;
+ ()L1com/fasterxml/jackson/databind/json/JsonMapper$Builder;
+builder
+ (Lcom/fasterxml/jackson/core/JsonFactory;)Lcom/fasterxml/jackson/databind/json/JsonMapper$Builder;
+ (L0com/fasterxml/jackson/core/JsonFactory;)L1com/fasterxml/jackson/databind/json/JsonMapper$Builder;
+
+<init>
+ (Lcom/fasterxml/jackson/core/JsonFactory;)V
+ (L0com/fasterxml/jackson/core/JsonFactory;)V
+<init>
+ (Lcom/fasterxml/jackson/databind/json/JsonMapper;)V
+ (L0com/fasterxml/jackson/databind/json/JsonMapper;)V
+copy
+ ()Lcom/fasterxml/jackson/databind/json/JsonMapper;
+ ()L1com/fasterxml/jackson/databind/json/JsonMapper;
+getFactory
+ ()Lcom/fasterxml/jackson/core/JsonFactory;
+ ()L1com/fasterxml/jackson/core/JsonFactory; # @Inherited(com.fasterxml.jackson.databind.ObjectMapper)
+isEnabled
+ (Lcom/fasterxml/jackson/core/json/JsonReadFeature;)Z
+ (L1com/fasterxml/jackson/core/json/JsonReadFeature;)Z
+isEnabled
+ (Lcom/fasterxml/jackson/core/json/JsonWriteFeature;)Z
+ (L1com/fasterxml/jackson/core/json/JsonWriteFeature;)Z
+rebuild
+ ()Lcom/fasterxml/jackson/databind/json/JsonMapper$Builder;
+ ()L1com/fasterxml/jackson/databind/json/JsonMapper$Builder;
+version
+ ()Lcom/fasterxml/jackson/core/Version;
+ ()L1com/fasterxml/jackson/core/Version; # @Inherited(com.fasterxml.jackson.databind.ObjectMapper)

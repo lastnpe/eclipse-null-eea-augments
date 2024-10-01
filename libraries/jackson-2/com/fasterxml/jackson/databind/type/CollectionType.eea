@@ -1,0 +1,36 @@
+class com/fasterxml/jackson/databind/type/CollectionType
+
+construct
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/CollectionType;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/CollectionType;
+construct
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/CollectionType;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/type/CollectionType;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/type/TypeBase;Lcom/fasterxml/jackson/databind/JavaType;)V
+ (Lcom/fasterxml/jackson/databind/type/TypeBase;Lcom/fasterxml/jackson/databind/JavaType;)V
+refine
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(com.fasterxml.jackson.databind.type.CollectionLikeType)
+withContentType
+ (Lcom/fasterxml/jackson/databind/JavaType;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Lcom/fasterxml/jackson/databind/JavaType;)L1com/fasterxml/jackson/databind/JavaType; # @Inherited(com.fasterxml.jackson.databind.type.CollectionLikeType)
+withContentTypeHandler
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/CollectionType;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/CollectionType;
+withContentValueHandler
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/CollectionType;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/CollectionType;
+withStaticTyping
+ ()Lcom/fasterxml/jackson/databind/type/CollectionType;
+ ()Lcom/fasterxml/jackson/databind/type/CollectionType;
+withTypeHandler
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/CollectionType;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/CollectionType;
+withValueHandler
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/CollectionType;
+ (Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/type/CollectionType;

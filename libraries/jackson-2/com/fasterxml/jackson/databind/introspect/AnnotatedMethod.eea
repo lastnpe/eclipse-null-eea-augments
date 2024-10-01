@@ -1,0 +1,87 @@
+class com/fasterxml/jackson/databind/introspect/AnnotatedMethod
+
+_method
+ Ljava/lang/reflect/Method;
+ Ljava/lang/reflect/Method;
+_paramClasses
+ [Ljava/lang/Class<*>;
+ [Ljava/lang/Class<*>;
+_serialization
+ Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod$Serialization;
+ Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod$Serialization;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod$Serialization;)V
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod$Serialization;)V
+<init>
+ (Lcom/fasterxml/jackson/databind/introspect/TypeResolutionContext;Ljava/lang/reflect/Method;Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;[Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;)V
+ (Lcom/fasterxml/jackson/databind/introspect/TypeResolutionContext;Ljava/lang/reflect/Method;Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;[Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;)V
+call
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+call
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+call1
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+callOn
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+callOnWith
+ (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(com.fasterxml.jackson.databind.introspect.Annotated)
+getAnnotated
+ ()Ljava/lang/reflect/Method;
+ ()Ljava/lang/reflect/Method;
+getDeclaringClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getFullName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getGenericParameterType
+ (I)Ljava/lang/reflect/Type;
+ (I)Ljava/lang/reflect/Type;
+getGenericParameterTypes
+ ()[Ljava/lang/reflect/Type;
+ ()[Ljava/lang/reflect/Type;
+getMember
+ ()Ljava/lang/reflect/Method;
+ ()Ljava/lang/reflect/Method;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getParameterType
+ (I)Lcom/fasterxml/jackson/databind/JavaType;
+ (I)Lcom/fasterxml/jackson/databind/JavaType;
+getRawParameterType
+ (I)Ljava/lang/Class<*>;
+ (I)Ljava/lang/Class<*>;
+getRawParameterTypes
+ ()[Ljava/lang/Class<*>;
+ ()[Ljava/lang/Class<*>;
+getRawReturnType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getRawType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getType
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+ ()Lcom/fasterxml/jackson/databind/JavaType;
+getValue
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+setValue
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(com.fasterxml.jackson.databind.introspect.Annotated)
+withAnnotations
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;
+ (Lcom/fasterxml/jackson/databind/introspect/AnnotationMap;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedMethod;

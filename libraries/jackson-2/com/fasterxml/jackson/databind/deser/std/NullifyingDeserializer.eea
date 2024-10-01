@@ -1,0 +1,19 @@
+class com/fasterxml/jackson/databind/deser/std/NullifyingDeserializer
+
+super com/fasterxml/jackson/databind/deser/std/StdDeserializer
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+instance
+ Lcom/fasterxml/jackson/databind/deser/std/NullifyingDeserializer;
+ L1com/fasterxml/jackson/databind/deser/std/NullifyingDeserializer;
+
+deserialize
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object;
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object;
+deserializeWithType
+ (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+ (L1com/fasterxml/jackson/core/JsonParser;L1com/fasterxml/jackson/databind/DeserializationContext;L1com/fasterxml/jackson/databind/jsontype/TypeDeserializer;)L0java/lang/Object; # @Inherited(com.fasterxml.jackson.databind.deser.std.StdDeserializer)
+supportsUpdate
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;)Ljava/lang/Boolean;
+ (L1com/fasterxml/jackson/databind/DeserializationConfig;)L0java/lang/Boolean; # @Inherited(com.fasterxml.jackson.databind.JsonDeserializer)
