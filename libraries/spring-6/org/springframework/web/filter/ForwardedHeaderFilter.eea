@@ -1,0 +1,14 @@
+class org/springframework/web/filter/ForwardedHeaderFilter
+
+doFilterInternal
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljakarta/servlet/FilterChain;)V
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljakarta/servlet/FilterChain;)V
+doFilterNestedErrorDispatch
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljakarta/servlet/FilterChain;)V
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljakarta/servlet/FilterChain;)V
+formatRequest
+ (Ljakarta/servlet/http/HttpServletRequest;)Ljava/lang/String;
+ (Ljakarta/servlet/http/HttpServletRequest;)Ljava/lang/String;
+shouldNotFilter
+ (Ljakarta/servlet/http/HttpServletRequest;)Z
+ (Ljakarta/servlet/http/HttpServletRequest;)Z

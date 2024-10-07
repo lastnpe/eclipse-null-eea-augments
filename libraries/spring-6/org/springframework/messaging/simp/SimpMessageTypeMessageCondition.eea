@@ -1,0 +1,34 @@
+class org/springframework/messaging/simp/SimpMessageTypeMessageCondition
+
+super org/springframework/messaging/handler/AbstractMessageCondition
+ <Lorg/springframework/messaging/simp/SimpMessageTypeMessageCondition;>
+ <Lorg/springframework/messaging/simp/SimpMessageTypeMessageCondition;>
+
+MESSAGE
+ Lorg/springframework/messaging/simp/SimpMessageTypeMessageCondition;
+ L1org/springframework/messaging/simp/SimpMessageTypeMessageCondition;
+SUBSCRIBE
+ Lorg/springframework/messaging/simp/SimpMessageTypeMessageCondition;
+ L1org/springframework/messaging/simp/SimpMessageTypeMessageCondition;
+
+<init>
+ (Lorg/springframework/messaging/simp/SimpMessageType;)V
+ (Lorg/springframework/messaging/simp/SimpMessageType;)V
+combine
+ (Lorg/springframework/messaging/simp/SimpMessageTypeMessageCondition;)Lorg/springframework/messaging/simp/SimpMessageTypeMessageCondition;
+ (Lorg/springframework/messaging/simp/SimpMessageTypeMessageCondition;)Lorg/springframework/messaging/simp/SimpMessageTypeMessageCondition;
+compareTo
+ (Lorg/springframework/messaging/simp/SimpMessageTypeMessageCondition;Lorg/springframework/messaging/Message<*>;)I
+ (Lorg/springframework/messaging/simp/SimpMessageTypeMessageCondition;Lorg/springframework/messaging/Message<*>;)I
+getContent
+ ()Ljava/util/Collection<*>;
+ ()Ljava/util/Collection<*>;
+getMatchingCondition
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/simp/SimpMessageTypeMessageCondition;
+ (Lorg/springframework/messaging/Message<*>;)L0org/springframework/messaging/simp/SimpMessageTypeMessageCondition;
+getMessageType
+ ()Lorg/springframework/messaging/simp/SimpMessageType;
+ ()Lorg/springframework/messaging/simp/SimpMessageType;
+getToStringInfix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

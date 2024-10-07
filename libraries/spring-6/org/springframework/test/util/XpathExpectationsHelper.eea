@@ -1,0 +1,50 @@
+class org/springframework/test/util/XpathExpectationsHelper
+
+<init>
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;[Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;[Ljava/lang/Object;)V
+assertBoolean
+ ([BLjava/lang/String;Z)V
+ ([BLjava/lang/String;Z)V
+assertNode
+ ([BLjava/lang/String;Lorg/hamcrest/Matcher<-Lorg/w3c/dom/Node;>;)V
+ ([BLjava/lang/String;Lorg/hamcrest/Matcher<-Lorg/w3c/dom/Node;>;)V
+assertNodeCount
+ ([BLjava/lang/String;I)V
+ ([BLjava/lang/String;I)V
+assertNodeCount
+ ([BLjava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/Integer;>;)V
+ ([BLjava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/Integer;>;)V
+assertNodeList
+ ([BLjava/lang/String;Lorg/hamcrest/Matcher<-Lorg/w3c/dom/NodeList;>;)V
+ ([BLjava/lang/String;Lorg/hamcrest/Matcher<-Lorg/w3c/dom/NodeList;>;)V
+assertNumber
+ ([BLjava/lang/String;Ljava/lang/Double;)V
+ ([BLjava/lang/String;Ljava/lang/Double;)V
+assertNumber
+ ([BLjava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/Double;>;)V
+ ([BLjava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/Double;>;)V
+assertString
+ ([BLjava/lang/String;Ljava/lang/String;)V
+ ([BLjava/lang/String;Ljava/lang/String;)V
+assertString
+ ([BLjava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)V
+ ([BLjava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)V
+doesNotExist
+ ([BLjava/lang/String;)V
+ ([BLjava/lang/String;)V
+evaluateXpath
+ <T:Ljava/lang/Object;>(Lorg/w3c/dom/Document;Ljavax/xml/namespace/QName;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lorg/w3c/dom/Document;Ljavax/xml/namespace/QName;Ljava/lang/Class<TT;>;)T0T;
+evaluateXpath
+ <T:Ljava/lang/Object;>([BLjava/lang/String;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>([BLjava/lang/String;Ljava/lang/Class<TT;>;)T0T;
+exists
+ ([BLjava/lang/String;)V
+ ([BLjava/lang/String;)V
+getXpathExpression
+ ()Ljavax/xml/xpath/XPathExpression;
+ ()Ljavax/xml/xpath/XPathExpression;
+parseXmlByteArray
+ ([BLjava/lang/String;)Lorg/w3c/dom/Document;
+ ([BLjava/lang/String;)Lorg/w3c/dom/Document;

@@ -1,0 +1,29 @@
+class org/springframework/web/client/UnknownContentTypeException
+
+<init>
+ (Ljava/lang/reflect/Type;Lorg/springframework/http/MediaType;ILjava/lang/String;Lorg/springframework/http/HttpHeaders;[B)V
+ (Ljava/lang/reflect/Type;Lorg/springframework/http/MediaType;ILjava/lang/String;Lorg/springframework/http/HttpHeaders;[B)V
+<init>
+ (Ljava/lang/reflect/Type;Lorg/springframework/http/MediaType;Lorg/springframework/http/HttpStatusCode;Ljava/lang/String;Lorg/springframework/http/HttpHeaders;[B)V
+ (Ljava/lang/reflect/Type;Lorg/springframework/http/MediaType;Lorg/springframework/http/HttpStatusCode;Ljava/lang/String;Lorg/springframework/http/HttpHeaders;[B)V
+getContentType
+ ()Lorg/springframework/http/MediaType;
+ ()Lorg/springframework/http/MediaType;
+getResponseBody
+ ()[B
+ ()[B
+getResponseBodyAsString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getResponseHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()L0org/springframework/http/HttpHeaders;
+getStatusCode
+ ()Lorg/springframework/http/HttpStatusCode;
+ ()Lorg/springframework/http/HttpStatusCode;
+getStatusText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTargetType
+ ()Ljava/lang/reflect/Type;
+ ()Ljava/lang/reflect/Type;

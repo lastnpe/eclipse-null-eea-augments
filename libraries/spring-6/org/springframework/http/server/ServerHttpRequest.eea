@@ -1,0 +1,14 @@
+class org/springframework/http/server/ServerHttpRequest
+
+getAsyncRequestControl
+ (Lorg/springframework/http/server/ServerHttpResponse;)Lorg/springframework/http/server/ServerHttpAsyncRequestControl;
+ (Lorg/springframework/http/server/ServerHttpResponse;)Lorg/springframework/http/server/ServerHttpAsyncRequestControl;
+getLocalAddress
+ ()Ljava/net/InetSocketAddress;
+ ()Ljava/net/InetSocketAddress;
+getPrincipal
+ ()Ljava/security/Principal;
+ ()L0java/security/Principal;
+getRemoteAddress
+ ()Ljava/net/InetSocketAddress;
+ ()Ljava/net/InetSocketAddress;

@@ -1,0 +1,27 @@
+class org/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolverComposite
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+addResolver
+ (Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolver;)Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolverComposite;
+ (Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolver;)Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolverComposite;
+addResolvers
+ (Ljava/util/List<+Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolver;>;)Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolverComposite;
+ (Ljava/util/List<+Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolver;>;)Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolverComposite;
+addResolvers
+ ([Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolver;)Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolverComposite;
+ ([Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolver;)Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolverComposite;
+getArgumentResolver
+ (Lorg/springframework/core/MethodParameter;)Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolver;
+ (Lorg/springframework/core/MethodParameter;)L0org/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolver;
+getResolvers
+ ()Ljava/util/List<Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolver;>;
+ ()Ljava/util/List<Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolver;>;
+resolveArgument
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Object;>;
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Object;>;
+supportsParameter
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z

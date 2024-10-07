@@ -1,0 +1,50 @@
+class org/springframework/jdbc/core/simple/SimpleJdbcInsertOperations
+
+execute
+ (Ljava/util/Map<Ljava/lang/String;*>;)I
+ (Ljava/util/Map<Ljava/lang/String;*>;)I
+execute
+ (Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)I
+ (Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)I
+executeAndReturnKey
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljava/lang/Number;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljava/lang/Number;
+executeAndReturnKey
+ (Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)Ljava/lang/Number;
+ (Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)Ljava/lang/Number;
+executeAndReturnKeyHolder
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/jdbc/support/KeyHolder;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/jdbc/support/KeyHolder;
+executeAndReturnKeyHolder
+ (Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)Lorg/springframework/jdbc/support/KeyHolder;
+ (Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)Lorg/springframework/jdbc/support/KeyHolder;
+executeBatch
+ ([Ljava/util/Map<Ljava/lang/String;*>;)[I
+ ([Ljava/util/Map<Ljava/lang/String;*>;)[I
+executeBatch
+ ([Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)[I
+ ([Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)[I
+includeSynonymsForTableColumnMetaData
+ ()Lorg/springframework/jdbc/core/simple/SimpleJdbcInsertOperations;
+ ()Lorg/springframework/jdbc/core/simple/SimpleJdbcInsertOperations;
+usingColumns
+ ([Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcInsertOperations;
+ ([Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcInsertOperations;
+usingGeneratedKeyColumns
+ ([Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcInsertOperations;
+ ([Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcInsertOperations;
+usingQuotedIdentifiers
+ ()Lorg/springframework/jdbc/core/simple/SimpleJdbcInsertOperations;
+ ()Lorg/springframework/jdbc/core/simple/SimpleJdbcInsertOperations;
+withCatalogName
+ (Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcInsertOperations;
+ (Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcInsertOperations;
+withSchemaName
+ (Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcInsertOperations;
+ (Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcInsertOperations;
+withTableName
+ (Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcInsertOperations;
+ (Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcInsertOperations;
+withoutTableColumnMetaDataAccess
+ ()Lorg/springframework/jdbc/core/simple/SimpleJdbcInsertOperations;
+ ()Lorg/springframework/jdbc/core/simple/SimpleJdbcInsertOperations;

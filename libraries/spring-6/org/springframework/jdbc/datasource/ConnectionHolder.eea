@@ -1,0 +1,27 @@
+class org/springframework/jdbc/datasource/ConnectionHolder
+
+SAVEPOINT_NAME_PREFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljava/sql/Connection;)V
+ (Ljava/sql/Connection;)V
+<init>
+ (Ljava/sql/Connection;Z)V
+ (Ljava/sql/Connection;Z)V
+<init>
+ (Lorg/springframework/jdbc/datasource/ConnectionHandle;)V
+ (Lorg/springframework/jdbc/datasource/ConnectionHandle;)V
+createSavepoint
+ ()Ljava/sql/Savepoint;
+ ()Ljava/sql/Savepoint;
+getConnection
+ ()Ljava/sql/Connection;
+ ()Ljava/sql/Connection;
+getConnectionHandle
+ ()Lorg/springframework/jdbc/datasource/ConnectionHandle;
+ ()L0org/springframework/jdbc/datasource/ConnectionHandle;
+setConnection
+ (Ljava/sql/Connection;)V
+ (Ljava/sql/Connection;)V

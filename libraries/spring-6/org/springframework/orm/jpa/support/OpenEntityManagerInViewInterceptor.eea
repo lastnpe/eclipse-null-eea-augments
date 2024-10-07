@@ -1,0 +1,21 @@
+class org/springframework/orm/jpa/support/OpenEntityManagerInViewInterceptor
+
+PARTICIPATE_SUFFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+
+afterCompletion
+ (Lorg/springframework/web/context/request/WebRequest;Ljava/lang/Exception;)V
+ (Lorg/springframework/web/context/request/WebRequest;Ljava/lang/Exception;)V
+afterConcurrentHandlingStarted
+ (Lorg/springframework/web/context/request/WebRequest;)V
+ (Lorg/springframework/web/context/request/WebRequest;)V
+getParticipateAttributeName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+postHandle
+ (Lorg/springframework/web/context/request/WebRequest;Lorg/springframework/ui/ModelMap;)V
+ (Lorg/springframework/web/context/request/WebRequest;Lorg/springframework/ui/ModelMap;)V
+preHandle
+ (Lorg/springframework/web/context/request/WebRequest;)V
+ (Lorg/springframework/web/context/request/WebRequest;)V

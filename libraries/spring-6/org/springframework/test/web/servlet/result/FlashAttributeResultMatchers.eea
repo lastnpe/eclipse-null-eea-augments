@@ -1,0 +1,14 @@
+class org/springframework/test/web/servlet/result/FlashAttributeResultMatchers
+
+attribute
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/test/web/servlet/ResultMatcher;
+attribute
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<-TT;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<-TT;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+attributeCount
+ (I)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (I)Lorg/springframework/test/web/servlet/ResultMatcher;
+attributeExists
+ ([Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ ([Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;

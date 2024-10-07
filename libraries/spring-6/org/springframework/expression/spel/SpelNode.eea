@@ -1,0 +1,23 @@
+class org/springframework/expression/spel/SpelNode
+
+getChild
+ (I)Lorg/springframework/expression/spel/SpelNode;
+ (I)Lorg/springframework/expression/spel/SpelNode;
+getObjectClass
+ (Ljava/lang/Object;)Ljava/lang/Class<*>;
+ (Ljava/lang/Object;)L0java/lang/Class<*>;
+getTypedValue
+ (Lorg/springframework/expression/spel/ExpressionState;)Lorg/springframework/expression/TypedValue;
+ (Lorg/springframework/expression/spel/ExpressionState;)Lorg/springframework/expression/TypedValue;
+getValue
+ (Lorg/springframework/expression/spel/ExpressionState;)Ljava/lang/Object;
+ (Lorg/springframework/expression/spel/ExpressionState;)L0java/lang/Object;
+isWritable
+ (Lorg/springframework/expression/spel/ExpressionState;)Z
+ (Lorg/springframework/expression/spel/ExpressionState;)Z
+setValue
+ (Lorg/springframework/expression/spel/ExpressionState;Ljava/lang/Object;)V
+ (Lorg/springframework/expression/spel/ExpressionState;Ljava/lang/Object;)V
+toStringAST
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

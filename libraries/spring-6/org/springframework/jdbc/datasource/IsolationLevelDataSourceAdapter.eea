@@ -1,0 +1,17 @@
+class org/springframework/jdbc/datasource/IsolationLevelDataSourceAdapter
+
+doGetConnection
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;
+getCurrentIsolationLevel
+ ()Ljava/lang/Integer;
+ ()L0java/lang/Integer;
+getCurrentReadOnlyFlag
+ ()Ljava/lang/Boolean;
+ ()L0java/lang/Boolean;
+getIsolationLevel
+ ()Ljava/lang/Integer;
+ ()L0java/lang/Integer;
+setIsolationLevelName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

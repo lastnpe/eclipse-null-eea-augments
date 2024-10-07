@@ -1,0 +1,42 @@
+class org/springframework/aop/framework/AbstractSingletonProxyFactoryBean
+
+super org/springframework/beans/factory/FactoryBean
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+createMainInterceptor
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+createTargetSource
+ (Ljava/lang/Object;)Lorg/springframework/aop/TargetSource;
+ (Ljava/lang/Object;)Lorg/springframework/aop/TargetSource;
+getObject
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getObjectType
+ ()Ljava/lang/Class<*>;
+ ()L0java/lang/Class<*>; # @Inherited(org.springframework.beans.factory.FactoryBean)
+postProcessProxyFactory
+ (Lorg/springframework/aop/framework/ProxyFactory;)V
+ (Lorg/springframework/aop/framework/ProxyFactory;)V
+setAdvisorAdapterRegistry
+ (Lorg/springframework/aop/framework/adapter/AdvisorAdapterRegistry;)V
+ (Lorg/springframework/aop/framework/adapter/AdvisorAdapterRegistry;)V
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setPostInterceptors
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+setPreInterceptors
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+setProxyClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setProxyInterfaces
+ ([Ljava/lang/Class<*>;)V
+ ([Ljava/lang/Class<*>;)V
+setTarget
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

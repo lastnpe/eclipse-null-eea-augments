@@ -1,0 +1,27 @@
+class org/springframework/validation/method/MethodValidationResult
+
+create
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;Ljava/util/List<Lorg/springframework/validation/method/ParameterValidationResult;>;)Lorg/springframework/validation/method/MethodValidationResult;
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;Ljava/util/List<Lorg/springframework/validation/method/ParameterValidationResult;>;)Lorg/springframework/validation/method/MethodValidationResult;
+emptyResult
+ ()Lorg/springframework/validation/method/MethodValidationResult;
+ ()Lorg/springframework/validation/method/MethodValidationResult;
+
+getAllErrors
+ ()Ljava/util/List<+Lorg/springframework/context/MessageSourceResolvable;>;
+ ()Ljava/util/List<+Lorg/springframework/context/MessageSourceResolvable;>;
+getAllValidationResults
+ ()Ljava/util/List<Lorg/springframework/validation/method/ParameterValidationResult;>;
+ ()Ljava/util/List<Lorg/springframework/validation/method/ParameterValidationResult;>;
+getBeanResults
+ ()Ljava/util/List<Lorg/springframework/validation/method/ParameterErrors;>;
+ ()Ljava/util/List<Lorg/springframework/validation/method/ParameterErrors;>;
+getMethod
+ ()Ljava/lang/reflect/Method;
+ ()Ljava/lang/reflect/Method;
+getTarget
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getValueResults
+ ()Ljava/util/List<Lorg/springframework/validation/method/ParameterValidationResult;>;
+ ()Ljava/util/List<Lorg/springframework/validation/method/ParameterValidationResult;>;

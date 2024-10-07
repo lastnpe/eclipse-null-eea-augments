@@ -1,0 +1,37 @@
+class org/springframework/web/util/pattern/PathPattern
+
+super java/lang/Comparable
+ <Lorg/springframework/web/util/pattern/PathPattern;>
+ <Lorg/springframework/web/util/pattern/PathPattern;>
+
+SPECIFICITY_COMPARATOR
+ Ljava/util/Comparator<Lorg/springframework/web/util/pattern/PathPattern;>;
+ L1java/util/Comparator<Lorg/springframework/web/util/pattern/PathPattern;>;
+
+combine
+ (Lorg/springframework/web/util/pattern/PathPattern;)Lorg/springframework/web/util/pattern/PathPattern;
+ (Lorg/springframework/web/util/pattern/PathPattern;)Lorg/springframework/web/util/pattern/PathPattern;
+compareTo
+ (Lorg/springframework/web/util/pattern/PathPattern;)I
+ (L1org/springframework/web/util/pattern/PathPattern;)I
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+extractPathWithinPattern
+ (Lorg/springframework/http/server/PathContainer;)Lorg/springframework/http/server/PathContainer;
+ (Lorg/springframework/http/server/PathContainer;)Lorg/springframework/http/server/PathContainer;
+getPatternString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+matchAndExtract
+ (Lorg/springframework/http/server/PathContainer;)Lorg/springframework/web/util/pattern/PathPattern$PathMatchInfo;
+ (Lorg/springframework/http/server/PathContainer;)L0org/springframework/web/util/pattern/PathPattern$PathMatchInfo;
+matchStartOfPath
+ (Lorg/springframework/http/server/PathContainer;)Lorg/springframework/web/util/pattern/PathPattern$PathRemainingMatchInfo;
+ (Lorg/springframework/http/server/PathContainer;)L0org/springframework/web/util/pattern/PathPattern$PathRemainingMatchInfo;
+matches
+ (Lorg/springframework/http/server/PathContainer;)Z
+ (Lorg/springframework/http/server/PathContainer;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

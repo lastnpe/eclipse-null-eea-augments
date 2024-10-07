@@ -1,0 +1,16 @@
+class org/springframework/messaging/tcp/TcpConnectionHandler
+ <P:Ljava/lang/Object;>
+ <P:Ljava/lang/Object;>
+
+afterConnectFailure
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+afterConnected
+ (Lorg/springframework/messaging/tcp/TcpConnection<TP;>;)V
+ (Lorg/springframework/messaging/tcp/TcpConnection<TP;>;)V
+handleFailure
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+handleMessage
+ (Lorg/springframework/messaging/Message<TP;>;)V
+ (Lorg/springframework/messaging/Message<TP;>;)V

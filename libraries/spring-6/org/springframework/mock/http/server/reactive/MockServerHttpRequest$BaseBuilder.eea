@@ -1,0 +1,58 @@
+class org/springframework/mock/http/server/reactive/MockServerHttpRequest$BaseBuilder
+ <B::Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BaseBuilder<TB;>;>
+ <B::Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BaseBuilder<TB;>;>
+
+accept
+ ([Lorg/springframework/http/MediaType;)TB;
+ ([Lorg/springframework/http/MediaType;)T1B;
+acceptCharset
+ ([Ljava/nio/charset/Charset;)TB;
+ ([Ljava/nio/charset/Charset;)T1B;
+acceptLanguageAsLocales
+ ([Ljava/util/Locale;)TB;
+ ([Ljava/util/Locale;)T1B;
+build
+ ()Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest;
+ ()L1org/springframework/mock/http/server/reactive/MockServerHttpRequest;
+contextPath
+ (Ljava/lang/String;)TB;
+ (Ljava/lang/String;)T1B;
+cookie
+ ([Lorg/springframework/http/HttpCookie;)TB;
+ ([Lorg/springframework/http/HttpCookie;)T1B;
+cookies
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;)TB;
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;)T1B;
+header
+ (Ljava/lang/String;[Ljava/lang/String;)TB;
+ (Ljava/lang/String;[Ljava/lang/String;)T1B;
+headers
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)TB;
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)T1B;
+ifModifiedSince
+ (J)TB;
+ (J)T1B;
+ifNoneMatch
+ ([Ljava/lang/String;)TB;
+ ([Ljava/lang/String;)T1B;
+ifUnmodifiedSince
+ (J)TB;
+ (J)T1B;
+localAddress
+ (Ljava/net/InetSocketAddress;)TB;
+ (Ljava/net/InetSocketAddress;)T1B;
+queryParam
+ (Ljava/lang/String;[Ljava/lang/Object;)TB;
+ (Ljava/lang/String;[Ljava/lang/Object;)T1B;
+queryParams
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)TB;
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)T1B;
+range
+ ([Lorg/springframework/http/HttpRange;)TB;
+ ([Lorg/springframework/http/HttpRange;)T1B;
+remoteAddress
+ (Ljava/net/InetSocketAddress;)TB;
+ (Ljava/net/InetSocketAddress;)T1B;
+sslInfo
+ (Lorg/springframework/http/server/reactive/SslInfo;)V
+ (Lorg/springframework/http/server/reactive/SslInfo;)V

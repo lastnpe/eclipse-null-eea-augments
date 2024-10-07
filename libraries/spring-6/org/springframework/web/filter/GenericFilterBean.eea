@@ -1,0 +1,39 @@
+class org/springframework/web/filter/GenericFilterBean
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+addRequiredProperty
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+createEnvironment
+ ()Lorg/springframework/core/env/Environment;
+ ()Lorg/springframework/core/env/Environment;
+getEnvironment
+ ()Lorg/springframework/core/env/Environment;
+ ()Lorg/springframework/core/env/Environment;
+getFilterConfig
+ ()Ljakarta/servlet/FilterConfig;
+ ()L0jakarta/servlet/FilterConfig;
+getFilterName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getServletContext
+ ()Ljakarta/servlet/ServletContext;
+ ()Ljakarta/servlet/ServletContext;
+init
+ (Ljakarta/servlet/FilterConfig;)V
+ (Ljakarta/servlet/FilterConfig;)V
+initBeanWrapper
+ (Lorg/springframework/beans/BeanWrapper;)V
+ (Lorg/springframework/beans/BeanWrapper;)V
+setBeanName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setEnvironment
+ (Lorg/springframework/core/env/Environment;)V
+ (Lorg/springframework/core/env/Environment;)V
+setServletContext
+ (Ljakarta/servlet/ServletContext;)V
+ (Ljakarta/servlet/ServletContext;)V

@@ -1,0 +1,34 @@
+class org/springframework/web/client/RestClient$RequestHeadersSpec
+ <S::Lorg/springframework/web/client/RestClient$RequestHeadersSpec<TS;>;>
+ <S::Lorg/springframework/web/client/RestClient$RequestHeadersSpec<TS;>;>
+
+accept
+ ([Lorg/springframework/http/MediaType;)TS;
+ ([Lorg/springframework/http/MediaType;)TS;
+acceptCharset
+ ([Ljava/nio/charset/Charset;)TS;
+ ([Ljava/nio/charset/Charset;)TS;
+exchange
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/client/RestClient$RequestHeadersSpec$ExchangeFunction<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/client/RestClient$RequestHeadersSpec$ExchangeFunction<TT;>;)TT;
+exchange
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/client/RestClient$RequestHeadersSpec$ExchangeFunction<TT;>;Z)TT;
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/client/RestClient$RequestHeadersSpec$ExchangeFunction<TT;>;Z)TT;
+header
+ (Ljava/lang/String;[Ljava/lang/String;)TS;
+ (Ljava/lang/String;[Ljava/lang/String;)TS;
+headers
+ (Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)TS;
+ (Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)TS;
+httpRequest
+ (Ljava/util/function/Consumer<Lorg/springframework/http/client/ClientHttpRequest;>;)TS;
+ (Ljava/util/function/Consumer<Lorg/springframework/http/client/ClientHttpRequest;>;)TS;
+ifModifiedSince
+ (Ljava/time/ZonedDateTime;)TS;
+ (Ljava/time/ZonedDateTime;)TS;
+ifNoneMatch
+ ([Ljava/lang/String;)TS;
+ ([Ljava/lang/String;)TS;
+retrieve
+ ()Lorg/springframework/web/client/RestClient$ResponseSpec;
+ ()Lorg/springframework/web/client/RestClient$ResponseSpec;

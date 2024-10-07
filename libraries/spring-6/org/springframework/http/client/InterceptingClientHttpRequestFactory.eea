@@ -1,0 +1,8 @@
+class org/springframework/http/client/InterceptingClientHttpRequestFactory
+
+<init>
+ (Lorg/springframework/http/client/ClientHttpRequestFactory;Ljava/util/List<Lorg/springframework/http/client/ClientHttpRequestInterceptor;>;)V
+ (Lorg/springframework/http/client/ClientHttpRequestFactory;Ljava/util/List<Lorg/springframework/http/client/ClientHttpRequestInterceptor;>;)V
+createRequest
+ (Ljava/net/URI;Lorg/springframework/http/HttpMethod;Lorg/springframework/http/client/ClientHttpRequestFactory;)Lorg/springframework/http/client/ClientHttpRequest;
+ (Ljava/net/URI;Lorg/springframework/http/HttpMethod;Lorg/springframework/http/client/ClientHttpRequestFactory;)Lorg/springframework/http/client/ClientHttpRequest;

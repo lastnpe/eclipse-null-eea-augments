@@ -1,0 +1,15 @@
+class org/springframework/format/number/AbstractNumberFormatter
+
+super org/springframework/format/Formatter
+ <Ljava/lang/Number;>
+ <Ljava/lang/Number;>
+
+getNumberFormat
+ (Ljava/util/Locale;)Ljava/text/NumberFormat;
+ (Ljava/util/Locale;)Ljava/text/NumberFormat;
+parse
+ (Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/Number;
+ (Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/Number;
+print
+ (Ljava/lang/Number;Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/lang/Number;Ljava/util/Locale;)Ljava/lang/String;

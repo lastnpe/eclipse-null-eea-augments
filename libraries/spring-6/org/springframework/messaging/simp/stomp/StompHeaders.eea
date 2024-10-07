@@ -1,0 +1,203 @@
+class org/springframework/messaging/simp/stomp/StompHeaders
+
+super org/springframework/util/MultiValueMap
+ <Ljava/lang/String;Ljava/lang/String;>
+ <Ljava/lang/String;Ljava/lang/String;>
+
+ACCEPT_VERSION
+ Ljava/lang/String;
+ L1java/lang/String;
+ACK
+ Ljava/lang/String;
+ L1java/lang/String;
+CONTENT_LENGTH
+ Ljava/lang/String;
+ L1java/lang/String;
+CONTENT_TYPE
+ Ljava/lang/String;
+ L1java/lang/String;
+DESTINATION
+ Ljava/lang/String;
+ L1java/lang/String;
+HEARTBEAT
+ Ljava/lang/String;
+ L1java/lang/String;
+HOST
+ Ljava/lang/String;
+ L1java/lang/String;
+ID
+ Ljava/lang/String;
+ L1java/lang/String;
+LOGIN
+ Ljava/lang/String;
+ L1java/lang/String;
+MESSAGE_ID
+ Ljava/lang/String;
+ L1java/lang/String;
+PASSCODE
+ Ljava/lang/String;
+ L1java/lang/String;
+RECEIPT
+ Ljava/lang/String;
+ L1java/lang/String;
+RECEIPT_ID
+ Ljava/lang/String;
+ L1java/lang/String;
+SERVER
+ Ljava/lang/String;
+ L1java/lang/String;
+SESSION
+ Ljava/lang/String;
+ L1java/lang/String;
+SUBSCRIPTION
+ Ljava/lang/String;
+ L1java/lang/String;
+
+readOnlyStompHeaders
+ (Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;)Lorg/springframework/messaging/simp/stomp/StompHeaders;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;)Lorg/springframework/messaging/simp/stomp/StompHeaders;
+
+add
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+addAll
+ (Ljava/lang/String;Ljava/util/List<+Ljava/lang/String;>;)V
+ (Ljava/lang/String;Ljava/util/List<+Ljava/lang/String;>;)V
+addAll
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)V
+containsKey
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.Map)
+containsValue
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.Map)
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;>;
+ ()Ljava/util/Set<Ljava/util/Map$Entry<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (Ljava/lang/Object;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/lang/Object;)Ljava/util/List<Ljava/lang/String;>;
+getAcceptVersion
+ ()[Ljava/lang/String;
+ ()[0Ljava/lang/String;
+getAck
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getContentType
+ ()Lorg/springframework/util/MimeType;
+ ()L0org/springframework/util/MimeType;
+getDestination
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getFirst
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+getHeartbeat
+ ()[J
+ ()[0J
+getHost
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getId
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getLogin
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getMessageId
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getPasscode
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getReceipt
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getReceiptId
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getServer
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getSession
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getSubscription
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+keySet
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+put
+ (Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;)Ljava/util/List<Ljava/lang/String;>;
+putAll
+ (Ljava/util/Map<+Ljava/lang/String;+Ljava/util/List<Ljava/lang/String;>;>;)V
+ (Ljava/util/Map<+Ljava/lang/String;+Ljava/util/List<Ljava/lang/String;>;>;)V
+remove
+ (Ljava/lang/Object;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/lang/Object;)Ljava/util/List<Ljava/lang/String;>;
+set
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setAcceptVersion
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setAck
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setAll
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+setContentType
+ (Lorg/springframework/util/MimeType;)V
+ (Lorg/springframework/util/MimeType;)V
+setDestination
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setHeartbeat
+ ([J)V
+ ([J)V
+setHost
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setId
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setLogin
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setMessageId
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPasscode
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setReceipt
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setReceiptId
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setServer
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSession
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSubscription
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toSingleValueMap
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+values
+ ()Ljava/util/Collection<Ljava/util/List<Ljava/lang/String;>;>;
+ ()Ljava/util/Collection<Ljava/util/List<Ljava/lang/String;>;>;

@@ -1,0 +1,44 @@
+class org/springframework/context/annotation/CommonAnnotationBeanPostProcessor
+
+autowireResource
+ (Lorg/springframework/beans/factory/BeanFactory;Lorg/springframework/context/annotation/CommonAnnotationBeanPostProcessor$LookupElement;Ljava/lang/String;)Ljava/lang/Object;
+ (Lorg/springframework/beans/factory/BeanFactory;Lorg/springframework/context/annotation/CommonAnnotationBeanPostProcessor$LookupElement;Ljava/lang/String;)Ljava/lang/Object;
+buildLazyResourceProxy
+ (Lorg/springframework/context/annotation/CommonAnnotationBeanPostProcessor$LookupElement;Ljava/lang/String;)Ljava/lang/Object;
+ (Lorg/springframework/context/annotation/CommonAnnotationBeanPostProcessor$LookupElement;Ljava/lang/String;)Ljava/lang/Object;
+getResource
+ (Lorg/springframework/context/annotation/CommonAnnotationBeanPostProcessor$LookupElement;Ljava/lang/String;)Ljava/lang/Object;
+ (Lorg/springframework/context/annotation/CommonAnnotationBeanPostProcessor$LookupElement;Ljava/lang/String;)Ljava/lang/Object;
+ignoreResourceType
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+postProcessAfterInstantiation
+ (Ljava/lang/Object;Ljava/lang/String;)Z
+ (Ljava/lang/Object;Ljava/lang/String;)Z
+postProcessBeforeInstantiation
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor)
+postProcessMergedBeanDefinition
+ (Lorg/springframework/beans/factory/support/RootBeanDefinition;Ljava/lang/Class<*>;Ljava/lang/String;)V
+ (Lorg/springframework/beans/factory/support/RootBeanDefinition;Ljava/lang/Class<*>;Ljava/lang/String;)V
+postProcessProperties
+ (Lorg/springframework/beans/PropertyValues;Ljava/lang/Object;Ljava/lang/String;)Lorg/springframework/beans/PropertyValues;
+ (Lorg/springframework/beans/PropertyValues;Ljava/lang/Object;Ljava/lang/String;)L0org/springframework/beans/PropertyValues; # @Inherited(org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor)
+processAheadOfTime
+ (Lorg/springframework/beans/factory/support/RegisteredBean;)Lorg/springframework/beans/factory/aot/BeanRegistrationAotContribution;
+ (Lorg/springframework/beans/factory/support/RegisteredBean;)L0org/springframework/beans/factory/aot/BeanRegistrationAotContribution; # @Inherited(org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor)
+processInjection
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+resetBeanDefinition
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setJndiFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setResourceFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V

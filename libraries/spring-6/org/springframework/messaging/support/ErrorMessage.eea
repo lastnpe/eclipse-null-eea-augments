@@ -1,0 +1,30 @@
+class org/springframework/messaging/support/ErrorMessage
+
+super org/springframework/messaging/support/GenericMessage
+ <Ljava/lang/Throwable;>
+ <Ljava/lang/Throwable;>
+
+<init>
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+<init>
+ (Ljava/lang/Throwable;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+ (Ljava/lang/Throwable;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+<init>
+ (Ljava/lang/Throwable;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Lorg/springframework/messaging/Message<*>;)V
+ (Ljava/lang/Throwable;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Lorg/springframework/messaging/Message<*>;)V
+<init>
+ (Ljava/lang/Throwable;Lorg/springframework/messaging/Message<*>;)V
+ (Ljava/lang/Throwable;Lorg/springframework/messaging/Message<*>;)V
+<init>
+ (Ljava/lang/Throwable;Lorg/springframework/messaging/MessageHeaders;)V
+ (Ljava/lang/Throwable;Lorg/springframework/messaging/MessageHeaders;)V
+<init>
+ (Ljava/lang/Throwable;Lorg/springframework/messaging/MessageHeaders;Lorg/springframework/messaging/Message<*>;)V
+ (Ljava/lang/Throwable;Lorg/springframework/messaging/MessageHeaders;Lorg/springframework/messaging/Message<*>;)V
+getOriginalMessage
+ ()Lorg/springframework/messaging/Message<*>;
+ ()L0org/springframework/messaging/Message<*>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.springframework.messaging.support.GenericMessage)

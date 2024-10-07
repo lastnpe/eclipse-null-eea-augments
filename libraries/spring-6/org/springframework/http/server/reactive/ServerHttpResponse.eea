@@ -1,0 +1,20 @@
+class org/springframework/http/server/reactive/ServerHttpResponse
+
+addCookie
+ (Lorg/springframework/http/ResponseCookie;)V
+ (Lorg/springframework/http/ResponseCookie;)V
+getCookies
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/ResponseCookie;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/ResponseCookie;>;
+getRawStatusCode
+ ()Ljava/lang/Integer;
+ ()L0java/lang/Integer;
+getStatusCode
+ ()Lorg/springframework/http/HttpStatusCode;
+ ()L0org/springframework/http/HttpStatusCode;
+setRawStatusCode
+ (Ljava/lang/Integer;)Z
+ (Ljava/lang/Integer;)Z
+setStatusCode
+ (Lorg/springframework/http/HttpStatusCode;)Z
+ (Lorg/springframework/http/HttpStatusCode;)Z

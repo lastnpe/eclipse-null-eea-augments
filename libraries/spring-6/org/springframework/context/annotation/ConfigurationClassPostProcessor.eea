@@ -1,0 +1,48 @@
+class org/springframework/context/annotation/ConfigurationClassPostProcessor
+
+IMPORT_BEAN_NAME_GENERATOR
+ Lorg/springframework/context/annotation/AnnotationBeanNameGenerator;
+ L1org/springframework/context/annotation/AnnotationBeanNameGenerator;
+
+enhanceConfigurationClasses
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+postProcessBeanDefinitionRegistry
+ (Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;)V
+ (Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;)V
+postProcessBeanFactory
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+processAheadOfTime
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)Lorg/springframework/beans/factory/aot/BeanFactoryInitializationAotContribution;
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)L0org/springframework/beans/factory/aot/BeanFactoryInitializationAotContribution; # @Inherited(org.springframework.beans.factory.aot.BeanFactoryInitializationAotProcessor)
+processAheadOfTime
+ (Lorg/springframework/beans/factory/support/RegisteredBean;)Lorg/springframework/beans/factory/aot/BeanRegistrationAotContribution;
+ (Lorg/springframework/beans/factory/support/RegisteredBean;)L0org/springframework/beans/factory/aot/BeanRegistrationAotContribution; # @Inherited(org.springframework.beans.factory.aot.BeanRegistrationAotProcessor)
+processConfigBeanDefinitions
+ (Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;)V
+ (Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;)V
+setApplicationStartup
+ (Lorg/springframework/core/metrics/ApplicationStartup;)V
+ (Lorg/springframework/core/metrics/ApplicationStartup;)V
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setBeanNameGenerator
+ (Lorg/springframework/beans/factory/support/BeanNameGenerator;)V
+ (Lorg/springframework/beans/factory/support/BeanNameGenerator;)V
+setEnvironment
+ (Lorg/springframework/core/env/Environment;)V
+ (Lorg/springframework/core/env/Environment;)V
+setMetadataReaderFactory
+ (Lorg/springframework/core/type/classreading/MetadataReaderFactory;)V
+ (Lorg/springframework/core/type/classreading/MetadataReaderFactory;)V
+setProblemReporter
+ (Lorg/springframework/beans/factory/parsing/ProblemReporter;)V
+ (Lorg/springframework/beans/factory/parsing/ProblemReporter;)V
+setResourceLoader
+ (Lorg/springframework/core/io/ResourceLoader;)V
+ (Lorg/springframework/core/io/ResourceLoader;)V
+setSourceExtractor
+ (Lorg/springframework/beans/factory/parsing/SourceExtractor;)V
+ (Lorg/springframework/beans/factory/parsing/SourceExtractor;)V

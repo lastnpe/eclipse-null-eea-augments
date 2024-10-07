@@ -1,0 +1,17 @@
+class org/springframework/messaging/simp/stomp/StompDecoder
+
+decode
+ (Ljava/nio/ByteBuffer;)Ljava/util/List<Lorg/springframework/messaging/Message<[B>;>;
+ (Ljava/nio/ByteBuffer;)Ljava/util/List<Lorg/springframework/messaging/Message<[B>;>;
+decode
+ (Ljava/nio/ByteBuffer;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)Ljava/util/List<Lorg/springframework/messaging/Message<[B>;>;
+ (Ljava/nio/ByteBuffer;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)Ljava/util/List<Lorg/springframework/messaging/Message<[B>;>;
+getHeaderInitializer
+ ()Lorg/springframework/messaging/support/MessageHeaderInitializer;
+ ()L0org/springframework/messaging/support/MessageHeaderInitializer;
+setHeaderInitializer
+ (Lorg/springframework/messaging/support/MessageHeaderInitializer;)V
+ (Lorg/springframework/messaging/support/MessageHeaderInitializer;)V
+skipEol
+ (Ljava/nio/ByteBuffer;)V
+ (Ljava/nio/ByteBuffer;)V

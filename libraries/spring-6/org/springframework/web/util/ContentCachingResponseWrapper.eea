@@ -1,0 +1,47 @@
+class org/springframework/web/util/ContentCachingResponseWrapper
+
+<init>
+ (Ljakarta/servlet/http/HttpServletResponse;)V
+ (Ljakarta/servlet/http/HttpServletResponse;)V
+addHeader
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+addIntHeader
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+containsHeader
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+getContentAsByteArray
+ ()[B
+ ()[B
+getContentInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getHeader
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+getHeaderNames
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+getHeaders
+ (Ljava/lang/String;)Ljava/util/Collection<Ljava/lang/String;>;
+ (Ljava/lang/String;)Ljava/util/Collection<Ljava/lang/String;>;
+getOutputStream
+ ()Ljakarta/servlet/ServletOutputStream;
+ ()Ljakarta/servlet/ServletOutputStream;
+getWriter
+ ()Ljava/io/PrintWriter;
+ ()Ljava/io/PrintWriter;
+sendError
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+sendRedirect
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setHeader
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setIntHeader
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V

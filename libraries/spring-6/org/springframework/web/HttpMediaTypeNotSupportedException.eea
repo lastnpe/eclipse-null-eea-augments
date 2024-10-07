@@ -1,0 +1,26 @@
+class org/springframework/web/HttpMediaTypeNotSupportedException
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/util/List<Lorg/springframework/http/MediaType;>;)V
+ (Ljava/lang/String;Ljava/util/List<Lorg/springframework/http/MediaType;>;)V
+<init>
+ (Lorg/springframework/http/MediaType;Ljava/util/List<Lorg/springframework/http/MediaType;>;)V
+ (Lorg/springframework/http/MediaType;Ljava/util/List<Lorg/springframework/http/MediaType;>;)V
+<init>
+ (Lorg/springframework/http/MediaType;Ljava/util/List<Lorg/springframework/http/MediaType;>;Lorg/springframework/http/HttpMethod;)V
+ (Lorg/springframework/http/MediaType;Ljava/util/List<Lorg/springframework/http/MediaType;>;Lorg/springframework/http/HttpMethod;)V
+<init>
+ (Lorg/springframework/http/MediaType;Ljava/util/List<Lorg/springframework/http/MediaType;>;Lorg/springframework/http/HttpMethod;Ljava/lang/String;)V
+ (Lorg/springframework/http/MediaType;Ljava/util/List<Lorg/springframework/http/MediaType;>;Lorg/springframework/http/HttpMethod;Ljava/lang/String;)V
+getContentType
+ ()Lorg/springframework/http/MediaType;
+ ()L0org/springframework/http/MediaType;
+getHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+getStatusCode
+ ()Lorg/springframework/http/HttpStatusCode;
+ ()Lorg/springframework/http/HttpStatusCode;

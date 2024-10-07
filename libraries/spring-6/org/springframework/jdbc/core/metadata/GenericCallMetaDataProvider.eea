@@ -1,0 +1,54 @@
+class org/springframework/jdbc/core/metadata/GenericCallMetaDataProvider
+
+logger
+ Lorg/apache/commons/logging/Log;
+ L1org/apache/commons/logging/Log;
+
+<init>
+ (Ljava/sql/DatabaseMetaData;)V
+ (Ljava/sql/DatabaseMetaData;)V
+byPassReturnParameter
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+catalogNameToUse
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String; # @Inherited(org.springframework.jdbc.core.metadata.CallMetaDataProvider)
+createDefaultInOutParameter
+ (Ljava/lang/String;Lorg/springframework/jdbc/core/metadata/CallParameterMetaData;)Lorg/springframework/jdbc/core/SqlParameter;
+ (Ljava/lang/String;Lorg/springframework/jdbc/core/metadata/CallParameterMetaData;)Lorg/springframework/jdbc/core/SqlParameter;
+createDefaultInParameter
+ (Ljava/lang/String;Lorg/springframework/jdbc/core/metadata/CallParameterMetaData;)Lorg/springframework/jdbc/core/SqlParameter;
+ (Ljava/lang/String;Lorg/springframework/jdbc/core/metadata/CallParameterMetaData;)Lorg/springframework/jdbc/core/SqlParameter;
+createDefaultOutParameter
+ (Ljava/lang/String;Lorg/springframework/jdbc/core/metadata/CallParameterMetaData;)Lorg/springframework/jdbc/core/SqlParameter;
+ (Ljava/lang/String;Lorg/springframework/jdbc/core/metadata/CallParameterMetaData;)Lorg/springframework/jdbc/core/SqlParameter;
+getCallParameterMetaData
+ ()Ljava/util/List<Lorg/springframework/jdbc/core/metadata/CallParameterMetaData;>;
+ ()Ljava/util/List<Lorg/springframework/jdbc/core/metadata/CallParameterMetaData;>;
+getUserName
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.jdbc.core.metadata.CallMetaDataProvider)
+initializeWithMetaData
+ (Ljava/sql/DatabaseMetaData;)V
+ (Ljava/sql/DatabaseMetaData;)V
+initializeWithProcedureColumnMetaData
+ (Ljava/sql/DatabaseMetaData;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/sql/DatabaseMetaData;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+metaDataCatalogNameToUse
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String; # @Inherited(org.springframework.jdbc.core.metadata.CallMetaDataProvider)
+metaDataSchemaNameToUse
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String; # @Inherited(org.springframework.jdbc.core.metadata.CallMetaDataProvider)
+namedParameterBindingToUse
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+parameterNameToUse
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String; # @Inherited(org.springframework.jdbc.core.metadata.CallMetaDataProvider)
+procedureNameToUse
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String; # @Inherited(org.springframework.jdbc.core.metadata.CallMetaDataProvider)
+schemaNameToUse
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String; # @Inherited(org.springframework.jdbc.core.metadata.CallMetaDataProvider)

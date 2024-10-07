@@ -1,0 +1,23 @@
+class org/springframework/web/server/session/InMemoryWebSessionStore
+
+createWebSession
+ ()Lreactor/core/publisher/Mono<Lorg/springframework/web/server/WebSession;>;
+ ()Lreactor/core/publisher/Mono<Lorg/springframework/web/server/WebSession;>;
+getClock
+ ()Ljava/time/Clock;
+ ()Ljava/time/Clock;
+getSessions
+ ()Ljava/util/Map<Ljava/lang/String;Lorg/springframework/web/server/WebSession;>;
+ ()Ljava/util/Map<Ljava/lang/String;Lorg/springframework/web/server/WebSession;>;
+removeSession
+ (Ljava/lang/String;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Ljava/lang/String;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+retrieveSession
+ (Ljava/lang/String;)Lreactor/core/publisher/Mono<Lorg/springframework/web/server/WebSession;>;
+ (Ljava/lang/String;)Lreactor/core/publisher/Mono<Lorg/springframework/web/server/WebSession;>;
+setClock
+ (Ljava/time/Clock;)V
+ (Ljava/time/Clock;)V
+updateLastAccessTime
+ (Lorg/springframework/web/server/WebSession;)Lreactor/core/publisher/Mono<Lorg/springframework/web/server/WebSession;>;
+ (Lorg/springframework/web/server/WebSession;)Lreactor/core/publisher/Mono<Lorg/springframework/web/server/WebSession;>;

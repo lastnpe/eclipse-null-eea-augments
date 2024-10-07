@@ -1,0 +1,50 @@
+class org/springframework/cache/concurrent/ConcurrentMapCache
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/util/concurrent/ConcurrentMap<Ljava/lang/Object;Ljava/lang/Object;>;Z)V
+ (Ljava/lang/String;Ljava/util/concurrent/ConcurrentMap<Ljava/lang/Object;Ljava/lang/Object;>;Z)V
+<init>
+ (Ljava/lang/String;Ljava/util/concurrent/ConcurrentMap<Ljava/lang/Object;Ljava/lang/Object;>;ZLorg/springframework/core/serializer/support/SerializationDelegate;)V
+ (Ljava/lang/String;Ljava/util/concurrent/ConcurrentMap<Ljava/lang/Object;Ljava/lang/Object;>;ZLorg/springframework/core/serializer/support/SerializationDelegate;)V
+<init>
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+evict
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+evictIfPresent
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+fromStoreValue
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)L0java/lang/Object; # @Inherited(org.springframework.cache.support.AbstractValueAdaptingCache)
+get
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/util/concurrent/Callable<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/util/concurrent/Callable<TT;>;)T0T; # @Inherited(org.springframework.cache.Cache)
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getNativeCache
+ ()Ljava/util/concurrent/ConcurrentMap<Ljava/lang/Object;Ljava/lang/Object;>;
+ ()Ljava/util/concurrent/ConcurrentMap<Ljava/lang/Object;Ljava/lang/Object;>;
+lookup
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)L0java/lang/Object; # @Inherited(org.springframework.cache.support.AbstractValueAdaptingCache)
+put
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+putIfAbsent
+ (Ljava/lang/Object;Ljava/lang/Object;)Lorg/springframework/cache/Cache$ValueWrapper;
+ (Ljava/lang/Object;Ljava/lang/Object;)L0org/springframework/cache/Cache$ValueWrapper; # @Inherited(org.springframework.cache.Cache)
+retrieve
+ (Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture<*>;
+ (Ljava/lang/Object;)L0java/util/concurrent/CompletableFuture<*>; # @Inherited(org.springframework.cache.Cache)
+retrieve
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/util/function/Supplier<Ljava/util/concurrent/CompletableFuture<TT;>;>;)Ljava/util/concurrent/CompletableFuture<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/util/function/Supplier<Ljava/util/concurrent/CompletableFuture<TT;>;>;)Ljava/util/concurrent/CompletableFuture<TT;>;
+toStoreValue
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;

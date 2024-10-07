@@ -1,0 +1,24 @@
+class org/springframework/http/HttpRange
+
+createByteRange
+ (J)Lorg/springframework/http/HttpRange;
+ (J)Lorg/springframework/http/HttpRange;
+createByteRange
+ (JJ)Lorg/springframework/http/HttpRange;
+ (JJ)Lorg/springframework/http/HttpRange;
+createSuffixRange
+ (J)Lorg/springframework/http/HttpRange;
+ (J)Lorg/springframework/http/HttpRange;
+parseRanges
+ (Ljava/lang/String;)Ljava/util/List<Lorg/springframework/http/HttpRange;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/springframework/http/HttpRange;>;
+toResourceRegions
+ (Ljava/util/List<Lorg/springframework/http/HttpRange;>;Lorg/springframework/core/io/Resource;)Ljava/util/List<Lorg/springframework/core/io/support/ResourceRegion;>;
+ (Ljava/util/List<Lorg/springframework/http/HttpRange;>;Lorg/springframework/core/io/Resource;)Ljava/util/List<Lorg/springframework/core/io/support/ResourceRegion;>;
+toString
+ (Ljava/util/Collection<Lorg/springframework/http/HttpRange;>;)Ljava/lang/String;
+ (Ljava/util/Collection<Lorg/springframework/http/HttpRange;>;)Ljava/lang/String;
+
+toResourceRegion
+ (Lorg/springframework/core/io/Resource;)Lorg/springframework/core/io/support/ResourceRegion;
+ (Lorg/springframework/core/io/Resource;)Lorg/springframework/core/io/support/ResourceRegion;

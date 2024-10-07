@@ -1,0 +1,19 @@
+class org/springframework/web/filter/reactive/ServerHttpObservationFilter
+
+CURRENT_OBSERVATION_CONTEXT_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+findObservationContext
+ (Lorg/springframework/web/server/ServerWebExchange;)Ljava/util/Optional<Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;>;
+ (Lorg/springframework/web/server/ServerWebExchange;)Ljava/util/Optional<Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;>;
+
+<init>
+ (Lio/micrometer/observation/ObservationRegistry;)V
+ (Lio/micrometer/observation/ObservationRegistry;)V
+<init>
+ (Lio/micrometer/observation/ObservationRegistry;Lorg/springframework/http/server/reactive/observation/ServerRequestObservationConvention;)V
+ (Lio/micrometer/observation/ObservationRegistry;Lorg/springframework/http/server/reactive/observation/ServerRequestObservationConvention;)V
+filter
+ (Lorg/springframework/web/server/ServerWebExchange;Lorg/springframework/web/server/WebFilterChain;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/springframework/web/server/ServerWebExchange;Lorg/springframework/web/server/WebFilterChain;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;

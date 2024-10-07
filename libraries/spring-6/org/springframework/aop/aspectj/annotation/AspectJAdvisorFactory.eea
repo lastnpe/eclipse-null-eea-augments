@@ -1,0 +1,17 @@
+class org/springframework/aop/aspectj/annotation/AspectJAdvisorFactory
+
+getAdvice
+ (Ljava/lang/reflect/Method;Lorg/springframework/aop/aspectj/AspectJExpressionPointcut;Lorg/springframework/aop/aspectj/annotation/MetadataAwareAspectInstanceFactory;ILjava/lang/String;)Lorg/aopalliance/aop/Advice;
+ (Ljava/lang/reflect/Method;Lorg/springframework/aop/aspectj/AspectJExpressionPointcut;Lorg/springframework/aop/aspectj/annotation/MetadataAwareAspectInstanceFactory;ILjava/lang/String;)L0org/aopalliance/aop/Advice;
+getAdvisor
+ (Ljava/lang/reflect/Method;Lorg/springframework/aop/aspectj/annotation/MetadataAwareAspectInstanceFactory;ILjava/lang/String;)Lorg/springframework/aop/Advisor;
+ (Ljava/lang/reflect/Method;Lorg/springframework/aop/aspectj/annotation/MetadataAwareAspectInstanceFactory;ILjava/lang/String;)L0org/springframework/aop/Advisor;
+getAdvisors
+ (Lorg/springframework/aop/aspectj/annotation/MetadataAwareAspectInstanceFactory;)Ljava/util/List<Lorg/springframework/aop/Advisor;>;
+ (Lorg/springframework/aop/aspectj/annotation/MetadataAwareAspectInstanceFactory;)Ljava/util/List<Lorg/springframework/aop/Advisor;>;
+isAspect
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+validate
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V

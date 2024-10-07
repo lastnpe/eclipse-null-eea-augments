@@ -1,0 +1,23 @@
+class org/springframework/format/support/FormattingConversionService
+
+addFormatter
+ (Lorg/springframework/format/Formatter<*>;)V
+ (Lorg/springframework/format/Formatter<*>;)V
+addFormatterForFieldAnnotation
+ (Lorg/springframework/format/AnnotationFormatterFactory<+Ljava/lang/annotation/Annotation;>;)V
+ (Lorg/springframework/format/AnnotationFormatterFactory<+Ljava/lang/annotation/Annotation;>;)V
+addFormatterForFieldType
+ (Ljava/lang/Class<*>;Lorg/springframework/format/Formatter<*>;)V
+ (Ljava/lang/Class<*>;Lorg/springframework/format/Formatter<*>;)V
+addFormatterForFieldType
+ (Ljava/lang/Class<*>;Lorg/springframework/format/Printer<*>;Lorg/springframework/format/Parser<*>;)V
+ (Ljava/lang/Class<*>;Lorg/springframework/format/Printer<*>;Lorg/springframework/format/Parser<*>;)V
+addParser
+ (Lorg/springframework/format/Parser<*>;)V
+ (Lorg/springframework/format/Parser<*>;)V
+addPrinter
+ (Lorg/springframework/format/Printer<*>;)V
+ (Lorg/springframework/format/Printer<*>;)V
+setEmbeddedValueResolver
+ (Lorg/springframework/util/StringValueResolver;)V
+ (Lorg/springframework/util/StringValueResolver;)V

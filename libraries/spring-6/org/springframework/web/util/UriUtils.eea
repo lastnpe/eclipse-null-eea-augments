@@ -1,0 +1,86 @@
+class org/springframework/web/util/UriUtils
+
+decode
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+decode
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+encode
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+encode
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+encodeAuthority
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+encodeAuthority
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+encodeFragment
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+encodeFragment
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+encodeHost
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+encodeHost
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+encodePath
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+encodePath
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+encodePathSegment
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+encodePathSegment
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+encodePort
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+encodePort
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+encodeQuery
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+encodeQuery
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+encodeQueryParam
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+encodeQueryParam
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+encodeQueryParams
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+encodeScheme
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+encodeScheme
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+encodeUriVariables
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+encodeUriVariables
+ ([Ljava/lang/Object;)[Ljava/lang/Object;
+ ([Ljava/lang/Object;)[Ljava/lang/Object;
+encodeUserInfo
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+encodeUserInfo
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+extractFileExtension
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;

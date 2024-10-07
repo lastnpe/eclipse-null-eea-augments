@@ -1,0 +1,11 @@
+class org/springframework/orm/hibernate5/HibernateExceptionTranslator
+
+convertHibernateAccessException
+ (Lorg/hibernate/HibernateException;)Lorg/springframework/dao/DataAccessException;
+ (Lorg/hibernate/HibernateException;)Lorg/springframework/dao/DataAccessException;
+setJdbcExceptionTranslator
+ (Lorg/springframework/jdbc/support/SQLExceptionTranslator;)V
+ (Lorg/springframework/jdbc/support/SQLExceptionTranslator;)V
+translateExceptionIfPossible
+ (Ljava/lang/RuntimeException;)Lorg/springframework/dao/DataAccessException;
+ (Ljava/lang/RuntimeException;)L0org/springframework/dao/DataAccessException; # @Inherited(org.springframework.dao.support.PersistenceExceptionTranslator)

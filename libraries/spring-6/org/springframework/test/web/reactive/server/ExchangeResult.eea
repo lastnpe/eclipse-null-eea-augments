@@ -1,0 +1,38 @@
+class org/springframework/test/web/reactive/server/ExchangeResult
+
+assertWithDiagnostics
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+getMethod
+ ()Lorg/springframework/http/HttpMethod;
+ ()Lorg/springframework/http/HttpMethod;
+getMockServerResult
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getRequestBodyContent
+ ()[B
+ ()[0B
+getRequestHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+getResponseBodyContent
+ ()[B
+ ()[0B
+getResponseCookies
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/ResponseCookie;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/ResponseCookie;>;
+getResponseHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+getStatus
+ ()Lorg/springframework/http/HttpStatusCode;
+ ()Lorg/springframework/http/HttpStatusCode;
+getUriTemplate
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getUrl
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

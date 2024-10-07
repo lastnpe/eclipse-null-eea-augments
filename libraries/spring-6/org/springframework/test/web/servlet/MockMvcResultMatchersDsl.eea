@@ -1,0 +1,59 @@
+class org/springframework/test/web/servlet/MockMvcResultMatchersDsl
+
+<init>
+ (Lorg/springframework/test/web/servlet/ResultActions;)V
+ (Lorg/springframework/test/web/servlet/ResultActions;)V
+content
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/ContentResultMatchersDsl;Lkotlin/Unit;>;)V
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/ContentResultMatchersDsl;Lkotlin/Unit;>;)V
+cookie
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/CookieResultMatchersDsl;Lkotlin/Unit;>;)V
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/CookieResultMatchersDsl;Lkotlin/Unit;>;)V
+flash
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/FlashAttributeResultMatchersDsl;Lkotlin/Unit;>;)V
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/FlashAttributeResultMatchersDsl;Lkotlin/Unit;>;)V
+forwardedUrl
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+forwardedUrlPattern
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+forwardedUrlTemplate
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+header
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/HeaderResultMatchersDsl;Lkotlin/Unit;>;)V
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/HeaderResultMatchersDsl;Lkotlin/Unit;>;)V
+jsonPath
+ (Ljava/lang/String;[Ljava/lang/Object;Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/JsonPathResultMatchersDsl;Lkotlin/Unit;>;)V
+ (Ljava/lang/String;[Ljava/lang/Object;Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/JsonPathResultMatchersDsl;Lkotlin/Unit;>;)V
+jsonPath
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<TT;>;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<TT;>;)V
+match
+ (Lorg/springframework/test/web/servlet/ResultMatcher;)V
+ (Lorg/springframework/test/web/servlet/ResultMatcher;)V
+matchAll
+ ([Lorg/springframework/test/web/servlet/ResultMatcher;)V
+ ([Lorg/springframework/test/web/servlet/ResultMatcher;)V
+model
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/ModelResultMatchersDsl;Lkotlin/Unit;>;)V
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/ModelResultMatchersDsl;Lkotlin/Unit;>;)V
+redirectedUrl
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+redirectedUrlPattern
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+request
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/RequestResultMatchersDsl;Lkotlin/Unit;>;)V
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/RequestResultMatchersDsl;Lkotlin/Unit;>;)V
+status
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/StatusResultMatchersDsl;Lkotlin/Unit;>;)V
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/StatusResultMatchersDsl;Lkotlin/Unit;>;)V
+view
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/ViewResultMatchersDsl;Lkotlin/Unit;>;)V
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/ViewResultMatchersDsl;Lkotlin/Unit;>;)V
+xpath
+ (Ljava/lang/String;[Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/XpathResultMatchersDsl;Lkotlin/Unit;>;)V
+ (Ljava/lang/String;[Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/result/XpathResultMatchersDsl;Lkotlin/Unit;>;)V

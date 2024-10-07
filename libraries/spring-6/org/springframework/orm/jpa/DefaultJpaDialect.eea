@@ -1,0 +1,20 @@
+class org/springframework/orm/jpa/DefaultJpaDialect
+
+beginTransaction
+ (Ljakarta/persistence/EntityManager;Lorg/springframework/transaction/TransactionDefinition;)Ljava/lang/Object;
+ (Ljakarta/persistence/EntityManager;Lorg/springframework/transaction/TransactionDefinition;)L0java/lang/Object; # @Inherited(org.springframework.orm.jpa.JpaDialect)
+cleanupTransaction
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+getJdbcConnection
+ (Ljakarta/persistence/EntityManager;Z)Lorg/springframework/jdbc/datasource/ConnectionHandle;
+ (Ljakarta/persistence/EntityManager;Z)L0org/springframework/jdbc/datasource/ConnectionHandle; # @Inherited(org.springframework.orm.jpa.JpaDialect)
+prepareTransaction
+ (Ljakarta/persistence/EntityManager;ZLjava/lang/String;)Ljava/lang/Object;
+ (Ljakarta/persistence/EntityManager;ZLjava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.orm.jpa.JpaDialect)
+releaseJdbcConnection
+ (Lorg/springframework/jdbc/datasource/ConnectionHandle;Ljakarta/persistence/EntityManager;)V
+ (Lorg/springframework/jdbc/datasource/ConnectionHandle;Ljakarta/persistence/EntityManager;)V
+translateExceptionIfPossible
+ (Ljava/lang/RuntimeException;)Lorg/springframework/dao/DataAccessException;
+ (Ljava/lang/RuntimeException;)L0org/springframework/dao/DataAccessException; # @Inherited(org.springframework.dao.support.PersistenceExceptionTranslator)

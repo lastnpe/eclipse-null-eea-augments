@@ -1,0 +1,20 @@
+class org/springframework/web/multipart/MultipartRequest
+
+getFile
+ (Ljava/lang/String;)Lorg/springframework/web/multipart/MultipartFile;
+ (Ljava/lang/String;)L0org/springframework/web/multipart/MultipartFile;
+getFileMap
+ ()Ljava/util/Map<Ljava/lang/String;Lorg/springframework/web/multipart/MultipartFile;>;
+ ()Ljava/util/Map<Ljava/lang/String;Lorg/springframework/web/multipart/MultipartFile;>;
+getFileNames
+ ()Ljava/util/Iterator<Ljava/lang/String;>;
+ ()Ljava/util/Iterator<Ljava/lang/String;>;
+getFiles
+ (Ljava/lang/String;)Ljava/util/List<Lorg/springframework/web/multipart/MultipartFile;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/springframework/web/multipart/MultipartFile;>;
+getMultiFileMap
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/web/multipart/MultipartFile;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/web/multipart/MultipartFile;>;
+getMultipartContentType
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;

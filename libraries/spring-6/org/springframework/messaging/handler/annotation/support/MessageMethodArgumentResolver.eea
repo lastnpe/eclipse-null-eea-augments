@@ -1,0 +1,17 @@
+class org/springframework/messaging/handler/annotation/support/MessageMethodArgumentResolver
+
+<init>
+ (Lorg/springframework/messaging/converter/MessageConverter;)V
+ (Lorg/springframework/messaging/converter/MessageConverter;)V
+getPayloadType
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Ljava/lang/Class<*>;
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Ljava/lang/Class<*>;
+isEmptyPayload
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+resolveArgument
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Ljava/lang/Object;
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)L0java/lang/Object; # @Inherited(org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolver)
+supportsParameter
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z

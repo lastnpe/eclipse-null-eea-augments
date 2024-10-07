@@ -1,0 +1,20 @@
+class org/springframework/web/jsf/DelegatingPhaseListenerMulticaster
+
+afterPhase
+ (Ljakarta/faces/event/PhaseEvent;)V
+ (Ljakarta/faces/event/PhaseEvent;)V
+beforePhase
+ (Ljakarta/faces/event/PhaseEvent;)V
+ (Ljakarta/faces/event/PhaseEvent;)V
+getBeanFactory
+ (Ljakarta/faces/context/FacesContext;)Lorg/springframework/beans/factory/ListableBeanFactory;
+ (Ljakarta/faces/context/FacesContext;)Lorg/springframework/beans/factory/ListableBeanFactory;
+getDelegates
+ (Ljakarta/faces/context/FacesContext;)Ljava/util/Collection<Ljakarta/faces/event/PhaseListener;>;
+ (Ljakarta/faces/context/FacesContext;)Ljava/util/Collection<Ljakarta/faces/event/PhaseListener;>;
+getPhaseId
+ ()Ljakarta/faces/event/PhaseId;
+ ()Ljakarta/faces/event/PhaseId;
+getWebApplicationContext
+ (Ljakarta/faces/context/FacesContext;)Lorg/springframework/web/context/WebApplicationContext;
+ (Ljakarta/faces/context/FacesContext;)Lorg/springframework/web/context/WebApplicationContext;

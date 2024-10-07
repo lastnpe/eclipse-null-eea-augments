@@ -1,0 +1,26 @@
+class org/springframework/web/method/annotation/HandlerMethodValidationException
+
+<init>
+ (Lorg/springframework/validation/method/MethodValidationResult;)V
+ (Lorg/springframework/validation/method/MethodValidationResult;)V
+<init>
+ (Lorg/springframework/validation/method/MethodValidationResult;Ljava/util/function/Predicate<Lorg/springframework/core/MethodParameter;>;Ljava/util/function/Predicate<Lorg/springframework/core/MethodParameter;>;)V
+ (Lorg/springframework/validation/method/MethodValidationResult;Ljava/util/function/Predicate<Lorg/springframework/core/MethodParameter;>;Ljava/util/function/Predicate<Lorg/springframework/core/MethodParameter;>;)V
+getAllValidationResults
+ ()Ljava/util/List<Lorg/springframework/validation/method/ParameterValidationResult;>;
+ ()Ljava/util/List<Lorg/springframework/validation/method/ParameterValidationResult;>;
+getDetailMessageArguments
+ ()[Ljava/lang/Object;
+ ()[0Ljava/lang/Object; # @Inherited(org.springframework.web.ErrorResponseException)
+getDetailMessageArguments
+ (Lorg/springframework/context/MessageSource;Ljava/util/Locale;)[Ljava/lang/Object;
+ (Lorg/springframework/context/MessageSource;Ljava/util/Locale;)[0Ljava/lang/Object; # @Inherited(org.springframework.web.ErrorResponse)
+getMethod
+ ()Ljava/lang/reflect/Method;
+ ()Ljava/lang/reflect/Method;
+getTarget
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+visitResults
+ (Lorg/springframework/web/method/annotation/HandlerMethodValidationException$Visitor;)V
+ (Lorg/springframework/web/method/annotation/HandlerMethodValidationException$Visitor;)V

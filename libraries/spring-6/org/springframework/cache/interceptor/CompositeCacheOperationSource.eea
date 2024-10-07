@@ -1,0 +1,14 @@
+class org/springframework/cache/interceptor/CompositeCacheOperationSource
+
+<init>
+ ([Lorg/springframework/cache/interceptor/CacheOperationSource;)V
+ ([Lorg/springframework/cache/interceptor/CacheOperationSource;)V
+getCacheOperationSources
+ ()[Lorg/springframework/cache/interceptor/CacheOperationSource;
+ ()[Lorg/springframework/cache/interceptor/CacheOperationSource;
+getCacheOperations
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Ljava/util/Collection<Lorg/springframework/cache/interceptor/CacheOperation;>;
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)L0java/util/Collection<Lorg/springframework/cache/interceptor/CacheOperation;>; # @Inherited(org.springframework.cache.interceptor.CacheOperationSource)
+isCandidateClass
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z

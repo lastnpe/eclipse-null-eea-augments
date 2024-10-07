@@ -1,0 +1,32 @@
+class org/springframework/test/context/TestContext
+
+getApplicationContext
+ ()Lorg/springframework/context/ApplicationContext;
+ ()Lorg/springframework/context/ApplicationContext;
+getMethodInvoker
+ ()Lorg/springframework/test/context/MethodInvoker;
+ ()Lorg/springframework/test/context/MethodInvoker;
+getTestClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getTestException
+ ()Ljava/lang/Throwable;
+ ()L0java/lang/Throwable;
+getTestInstance
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getTestMethod
+ ()Ljava/lang/reflect/Method;
+ ()Ljava/lang/reflect/Method;
+markApplicationContextDirty
+ (Lorg/springframework/test/annotation/DirtiesContext$HierarchyMode;)V
+ (Lorg/springframework/test/annotation/DirtiesContext$HierarchyMode;)V
+publishEvent
+ (Ljava/util/function/Function<Lorg/springframework/test/context/TestContext;+Lorg/springframework/context/ApplicationEvent;>;)V
+ (Ljava/util/function/Function<Lorg/springframework/test/context/TestContext;+Lorg/springframework/context/ApplicationEvent;>;)V
+setMethodInvoker
+ (Lorg/springframework/test/context/MethodInvoker;)V
+ (Lorg/springframework/test/context/MethodInvoker;)V
+updateState
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;Ljava/lang/Throwable;)V
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;Ljava/lang/Throwable;)V

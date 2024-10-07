@@ -1,0 +1,26 @@
+class org/springframework/web/multipart/MultipartFile
+
+getBytes
+ ()[B
+ ()[B
+getContentType
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getOriginalFilename
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getResource
+ ()Lorg/springframework/core/io/Resource;
+ ()Lorg/springframework/core/io/Resource;
+transferTo
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V
+transferTo
+ (Ljava/nio/file/Path;)V
+ (Ljava/nio/file/Path;)V

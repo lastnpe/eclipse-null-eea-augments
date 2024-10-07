@@ -1,0 +1,14 @@
+class org/springframework/aop/interceptor/ExposeBeanNameAdvisors
+
+createAdvisorIntroducingNamedBean
+ (Ljava/lang/String;)Lorg/springframework/aop/Advisor;
+ (Ljava/lang/String;)Lorg/springframework/aop/Advisor;
+createAdvisorWithoutIntroduction
+ (Ljava/lang/String;)Lorg/springframework/aop/Advisor;
+ (Ljava/lang/String;)Lorg/springframework/aop/Advisor;
+getBeanName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getBeanName
+ (Lorg/aopalliance/intercept/MethodInvocation;)Ljava/lang/String;
+ (Lorg/aopalliance/intercept/MethodInvocation;)Ljava/lang/String;

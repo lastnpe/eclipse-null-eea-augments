@@ -1,0 +1,23 @@
+class org/springframework/http/client/reactive/AbstractClientHttpRequest
+
+<init>
+ (Lorg/springframework/http/HttpHeaders;)V
+ (Lorg/springframework/http/HttpHeaders;)V
+beforeCommit
+ (Ljava/util/function/Supplier<+Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>;)V
+ (Ljava/util/function/Supplier<+Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>;)V
+doCommit
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+doCommit
+ (Ljava/util/function/Supplier<+Lorg/reactivestreams/Publisher<Ljava/lang/Void;>;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Ljava/util/function/Supplier<+Lorg/reactivestreams/Publisher<Ljava/lang/Void;>;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+getCookies
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;
+getHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+initReadOnlyHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;

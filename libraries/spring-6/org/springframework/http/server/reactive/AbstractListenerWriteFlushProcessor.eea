@@ -1,0 +1,36 @@
+class org/springframework/http/server/reactive/AbstractListenerWriteFlushProcessor
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/reactivestreams/Processor
+ <Lorg/reactivestreams/Publisher<+TT;>;Ljava/lang/Void;>
+ <Lorg/reactivestreams/Publisher<+TT;>;Ljava/lang/Void;>
+
+rsWriteFlushLogger
+ Lorg/apache/commons/logging/Log;
+ L1org/apache/commons/logging/Log;
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+createWriteProcessor
+ ()Lorg/reactivestreams/Processor<-TT;Ljava/lang/Void;>;
+ ()Lorg/reactivestreams/Processor<-TT;Ljava/lang/Void;>;
+flushingFailed
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+getLogPrefix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+onError
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+onNext
+ (Lorg/reactivestreams/Publisher<+TT;>;)V
+ (Lorg/reactivestreams/Publisher<+TT;>;)V
+onSubscribe
+ (Lorg/reactivestreams/Subscription;)V
+ (Lorg/reactivestreams/Subscription;)V
+subscribe
+ (Lorg/reactivestreams/Subscriber<-Ljava/lang/Void;>;)V
+ (Lorg/reactivestreams/Subscriber<-Ljava/lang/Void;>;)V

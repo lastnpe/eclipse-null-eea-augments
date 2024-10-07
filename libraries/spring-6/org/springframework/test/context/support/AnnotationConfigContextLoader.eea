@@ -1,0 +1,26 @@
+class org/springframework/test/context/support/AnnotationConfigContextLoader
+
+createBeanDefinitionReader
+ (Lorg/springframework/context/support/GenericApplicationContext;)Lorg/springframework/beans/factory/support/BeanDefinitionReader;
+ (Lorg/springframework/context/support/GenericApplicationContext;)Lorg/springframework/beans/factory/support/BeanDefinitionReader;
+detectDefaultConfigurationClasses
+ (Ljava/lang/Class<*>;)[Ljava/lang/Class<*>;
+ (Ljava/lang/Class<*>;)[Ljava/lang/Class<*>;
+generateDefaultLocations
+ (Ljava/lang/Class<*>;)[Ljava/lang/String;
+ (Ljava/lang/Class<*>;)[Ljava/lang/String;
+getResourceSuffix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+loadBeanDefinitions
+ (Lorg/springframework/context/support/GenericApplicationContext;Lorg/springframework/test/context/MergedContextConfiguration;)V
+ (Lorg/springframework/context/support/GenericApplicationContext;Lorg/springframework/test/context/MergedContextConfiguration;)V
+modifyLocations
+ (Ljava/lang/Class<*>;[Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/Class<*>;[Ljava/lang/String;)[Ljava/lang/String;
+processContextConfiguration
+ (Lorg/springframework/test/context/ContextConfigurationAttributes;)V
+ (Lorg/springframework/test/context/ContextConfigurationAttributes;)V
+validateMergedContextConfiguration
+ (Lorg/springframework/test/context/MergedContextConfiguration;)V
+ (Lorg/springframework/test/context/MergedContextConfiguration;)V

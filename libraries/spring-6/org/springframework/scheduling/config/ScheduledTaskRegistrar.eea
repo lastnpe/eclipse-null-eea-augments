@@ -1,0 +1,111 @@
+class org/springframework/scheduling/config/ScheduledTaskRegistrar
+
+CRON_DISABLED
+ Ljava/lang/String;
+ L1java/lang/String;
+
+addCronTask
+ (Ljava/lang/Runnable;Ljava/lang/String;)V
+ (Ljava/lang/Runnable;Ljava/lang/String;)V
+addCronTask
+ (Lorg/springframework/scheduling/config/CronTask;)V
+ (Lorg/springframework/scheduling/config/CronTask;)V
+addFixedDelayTask
+ (Ljava/lang/Runnable;J)V
+ (Ljava/lang/Runnable;J)V
+addFixedDelayTask
+ (Ljava/lang/Runnable;Ljava/time/Duration;)V
+ (Ljava/lang/Runnable;Ljava/time/Duration;)V
+addFixedDelayTask
+ (Lorg/springframework/scheduling/config/IntervalTask;)V
+ (Lorg/springframework/scheduling/config/IntervalTask;)V
+addFixedRateTask
+ (Ljava/lang/Runnable;J)V
+ (Ljava/lang/Runnable;J)V
+addFixedRateTask
+ (Ljava/lang/Runnable;Ljava/time/Duration;)V
+ (Ljava/lang/Runnable;Ljava/time/Duration;)V
+addFixedRateTask
+ (Lorg/springframework/scheduling/config/IntervalTask;)V
+ (Lorg/springframework/scheduling/config/IntervalTask;)V
+addOneTimeTask
+ (Ljava/lang/Runnable;Ljava/time/Duration;)V
+ (Ljava/lang/Runnable;Ljava/time/Duration;)V
+addOneTimeTask
+ (Lorg/springframework/scheduling/config/DelayedTask;)V
+ (Lorg/springframework/scheduling/config/DelayedTask;)V
+addTriggerTask
+ (Ljava/lang/Runnable;Lorg/springframework/scheduling/Trigger;)V
+ (Ljava/lang/Runnable;Lorg/springframework/scheduling/Trigger;)V
+addTriggerTask
+ (Lorg/springframework/scheduling/config/TriggerTask;)V
+ (Lorg/springframework/scheduling/config/TriggerTask;)V
+getCronTaskList
+ ()Ljava/util/List<Lorg/springframework/scheduling/config/CronTask;>;
+ ()Ljava/util/List<Lorg/springframework/scheduling/config/CronTask;>;
+getFixedDelayTaskList
+ ()Ljava/util/List<Lorg/springframework/scheduling/config/IntervalTask;>;
+ ()Ljava/util/List<Lorg/springframework/scheduling/config/IntervalTask;>;
+getFixedRateTaskList
+ ()Ljava/util/List<Lorg/springframework/scheduling/config/IntervalTask;>;
+ ()Ljava/util/List<Lorg/springframework/scheduling/config/IntervalTask;>;
+getObservationRegistry
+ ()Lio/micrometer/observation/ObservationRegistry;
+ ()L0io/micrometer/observation/ObservationRegistry;
+getScheduledTasks
+ ()Ljava/util/Set<Lorg/springframework/scheduling/config/ScheduledTask;>;
+ ()Ljava/util/Set<Lorg/springframework/scheduling/config/ScheduledTask;>;
+getScheduler
+ ()Lorg/springframework/scheduling/TaskScheduler;
+ ()L0org/springframework/scheduling/TaskScheduler;
+getTriggerTaskList
+ ()Ljava/util/List<Lorg/springframework/scheduling/config/TriggerTask;>;
+ ()Ljava/util/List<Lorg/springframework/scheduling/config/TriggerTask;>;
+scheduleCronTask
+ (Lorg/springframework/scheduling/config/CronTask;)Lorg/springframework/scheduling/config/ScheduledTask;
+ (Lorg/springframework/scheduling/config/CronTask;)L0org/springframework/scheduling/config/ScheduledTask;
+scheduleFixedDelayTask
+ (Lorg/springframework/scheduling/config/FixedDelayTask;)Lorg/springframework/scheduling/config/ScheduledTask;
+ (Lorg/springframework/scheduling/config/FixedDelayTask;)L0org/springframework/scheduling/config/ScheduledTask;
+scheduleFixedRateTask
+ (Lorg/springframework/scheduling/config/FixedRateTask;)Lorg/springframework/scheduling/config/ScheduledTask;
+ (Lorg/springframework/scheduling/config/FixedRateTask;)L0org/springframework/scheduling/config/ScheduledTask;
+scheduleOneTimeTask
+ (Lorg/springframework/scheduling/config/OneTimeTask;)Lorg/springframework/scheduling/config/ScheduledTask;
+ (Lorg/springframework/scheduling/config/OneTimeTask;)L0org/springframework/scheduling/config/ScheduledTask;
+scheduleTriggerTask
+ (Lorg/springframework/scheduling/config/TriggerTask;)Lorg/springframework/scheduling/config/ScheduledTask;
+ (Lorg/springframework/scheduling/config/TriggerTask;)L0org/springframework/scheduling/config/ScheduledTask;
+setCronTasks
+ (Ljava/util/Map<Ljava/lang/Runnable;Ljava/lang/String;>;)V
+ (Ljava/util/Map<Ljava/lang/Runnable;Ljava/lang/String;>;)V
+setCronTasksList
+ (Ljava/util/List<Lorg/springframework/scheduling/config/CronTask;>;)V
+ (Ljava/util/List<Lorg/springframework/scheduling/config/CronTask;>;)V
+setFixedDelayTasks
+ (Ljava/util/Map<Ljava/lang/Runnable;Ljava/lang/Long;>;)V
+ (Ljava/util/Map<Ljava/lang/Runnable;Ljava/lang/Long;>;)V
+setFixedDelayTasksList
+ (Ljava/util/List<Lorg/springframework/scheduling/config/IntervalTask;>;)V
+ (Ljava/util/List<Lorg/springframework/scheduling/config/IntervalTask;>;)V
+setFixedRateTasks
+ (Ljava/util/Map<Ljava/lang/Runnable;Ljava/lang/Long;>;)V
+ (Ljava/util/Map<Ljava/lang/Runnable;Ljava/lang/Long;>;)V
+setFixedRateTasksList
+ (Ljava/util/List<Lorg/springframework/scheduling/config/IntervalTask;>;)V
+ (Ljava/util/List<Lorg/springframework/scheduling/config/IntervalTask;>;)V
+setObservationRegistry
+ (Lio/micrometer/observation/ObservationRegistry;)V
+ (Lio/micrometer/observation/ObservationRegistry;)V
+setScheduler
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setTaskScheduler
+ (Lorg/springframework/scheduling/TaskScheduler;)V
+ (Lorg/springframework/scheduling/TaskScheduler;)V
+setTriggerTasks
+ (Ljava/util/Map<Ljava/lang/Runnable;Lorg/springframework/scheduling/Trigger;>;)V
+ (Ljava/util/Map<Ljava/lang/Runnable;Lorg/springframework/scheduling/Trigger;>;)V
+setTriggerTasksList
+ (Ljava/util/List<Lorg/springframework/scheduling/config/TriggerTask;>;)V
+ (Ljava/util/List<Lorg/springframework/scheduling/config/TriggerTask;>;)V

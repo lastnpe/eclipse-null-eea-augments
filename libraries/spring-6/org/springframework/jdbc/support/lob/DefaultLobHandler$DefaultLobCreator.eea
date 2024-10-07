@@ -1,0 +1,20 @@
+class org/springframework/jdbc/support/lob/DefaultLobHandler$DefaultLobCreator
+
+<init>
+ (Lorg/springframework/jdbc/support/lob/DefaultLobHandler;)V
+ (Lorg/springframework/jdbc/support/lob/DefaultLobHandler;)V
+setBlobAsBinaryStream
+ (Ljava/sql/PreparedStatement;ILjava/io/InputStream;I)V
+ (Ljava/sql/PreparedStatement;ILjava/io/InputStream;I)V
+setBlobAsBytes
+ (Ljava/sql/PreparedStatement;I[B)V
+ (Ljava/sql/PreparedStatement;I[B)V
+setClobAsAsciiStream
+ (Ljava/sql/PreparedStatement;ILjava/io/InputStream;I)V
+ (Ljava/sql/PreparedStatement;ILjava/io/InputStream;I)V
+setClobAsCharacterStream
+ (Ljava/sql/PreparedStatement;ILjava/io/Reader;I)V
+ (Ljava/sql/PreparedStatement;ILjava/io/Reader;I)V
+setClobAsString
+ (Ljava/sql/PreparedStatement;ILjava/lang/String;)V
+ (Ljava/sql/PreparedStatement;ILjava/lang/String;)V

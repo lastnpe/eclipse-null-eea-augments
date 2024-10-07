@@ -1,0 +1,167 @@
+class org/springframework/orm/hibernate5/HibernateOperations
+
+bulkUpdate
+ (Ljava/lang/String;[Ljava/lang/Object;)I
+ (Ljava/lang/String;[Ljava/lang/Object;)I
+closeIterator
+ (Ljava/util/Iterator<*>;)V
+ (Ljava/util/Iterator<*>;)V
+contains
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+delete
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+delete
+ (Ljava/lang/Object;Lorg/hibernate/LockMode;)V
+ (Ljava/lang/Object;Lorg/hibernate/LockMode;)V
+delete
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+delete
+ (Ljava/lang/String;Ljava/lang/Object;Lorg/hibernate/LockMode;)V
+ (Ljava/lang/String;Ljava/lang/Object;Lorg/hibernate/LockMode;)V
+deleteAll
+ (Ljava/util/Collection<*>;)V
+ (Ljava/util/Collection<*>;)V
+enableFilter
+ (Ljava/lang/String;)Lorg/hibernate/Filter;
+ (Ljava/lang/String;)Lorg/hibernate/Filter;
+evict
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+execute
+ <T:Ljava/lang/Object;>(Lorg/springframework/orm/hibernate5/HibernateCallback<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lorg/springframework/orm/hibernate5/HibernateCallback<TT;>;)T0T;
+find
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/util/List<*>;
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/util/List<*>;
+findByCriteria
+ (Lorg/hibernate/criterion/DetachedCriteria;)Ljava/util/List<*>;
+ (Lorg/hibernate/criterion/DetachedCriteria;)Ljava/util/List<*>;
+findByCriteria
+ (Lorg/hibernate/criterion/DetachedCriteria;II)Ljava/util/List<*>;
+ (Lorg/hibernate/criterion/DetachedCriteria;II)Ljava/util/List<*>;
+findByExample
+ <T:Ljava/lang/Object;>(Ljava/lang/String;TT;)Ljava/util/List<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;TT;)Ljava/util/List<TT;>;
+findByExample
+ <T:Ljava/lang/Object;>(Ljava/lang/String;TT;II)Ljava/util/List<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;TT;II)Ljava/util/List<TT;>;
+findByExample
+ <T:Ljava/lang/Object;>(TT;)Ljava/util/List<TT;>;
+ <T:Ljava/lang/Object;>(TT;)Ljava/util/List<TT;>;
+findByExample
+ <T:Ljava/lang/Object;>(TT;II)Ljava/util/List<TT;>;
+ <T:Ljava/lang/Object;>(TT;II)Ljava/util/List<TT;>;
+findByNamedParam
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Ljava/util/List<*>;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Ljava/util/List<*>;
+findByNamedParam
+ (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/Object;)Ljava/util/List<*>;
+ (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/Object;)Ljava/util/List<*>;
+findByNamedQuery
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/util/List<*>;
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/util/List<*>;
+findByNamedQueryAndNamedParam
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Ljava/util/List<*>;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Ljava/util/List<*>;
+findByNamedQueryAndNamedParam
+ (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/Object;)Ljava/util/List<*>;
+ (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/Object;)Ljava/util/List<*>;
+findByNamedQueryAndValueBean
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/util/List<*>;
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/util/List<*>;
+findByValueBean
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/util/List<*>;
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/util/List<*>;
+get
+ (Ljava/lang/String;Ljava/io/Serializable;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/io/Serializable;)L0java/lang/Object;
+get
+ (Ljava/lang/String;Ljava/io/Serializable;Lorg/hibernate/LockMode;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/io/Serializable;Lorg/hibernate/LockMode;)L0java/lang/Object;
+get
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/io/Serializable;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/io/Serializable;)T0T;
+get
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/io/Serializable;Lorg/hibernate/LockMode;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/io/Serializable;Lorg/hibernate/LockMode;)T0T;
+initialize
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+iterate
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/util/Iterator<*>;
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/util/Iterator<*>;
+load
+ (Ljava/lang/Object;Ljava/io/Serializable;)V
+ (Ljava/lang/Object;Ljava/io/Serializable;)V
+load
+ (Ljava/lang/String;Ljava/io/Serializable;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/io/Serializable;)Ljava/lang/Object;
+load
+ (Ljava/lang/String;Ljava/io/Serializable;Lorg/hibernate/LockMode;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/io/Serializable;Lorg/hibernate/LockMode;)Ljava/lang/Object;
+load
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/io/Serializable;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/io/Serializable;)TT;
+load
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/io/Serializable;Lorg/hibernate/LockMode;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/io/Serializable;Lorg/hibernate/LockMode;)TT;
+loadAll
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/util/List<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Ljava/util/List<TT;>;
+lock
+ (Ljava/lang/Object;Lorg/hibernate/LockMode;)V
+ (Ljava/lang/Object;Lorg/hibernate/LockMode;)V
+lock
+ (Ljava/lang/String;Ljava/lang/Object;Lorg/hibernate/LockMode;)V
+ (Ljava/lang/String;Ljava/lang/Object;Lorg/hibernate/LockMode;)V
+merge
+ <T:Ljava/lang/Object;>(Ljava/lang/String;TT;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;TT;)TT;
+merge
+ <T:Ljava/lang/Object;>(TT;)TT;
+ <T:Ljava/lang/Object;>(TT;)TT;
+persist
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+persist
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+refresh
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+refresh
+ (Ljava/lang/Object;Lorg/hibernate/LockMode;)V
+ (Ljava/lang/Object;Lorg/hibernate/LockMode;)V
+replicate
+ (Ljava/lang/Object;Lorg/hibernate/ReplicationMode;)V
+ (Ljava/lang/Object;Lorg/hibernate/ReplicationMode;)V
+replicate
+ (Ljava/lang/String;Ljava/lang/Object;Lorg/hibernate/ReplicationMode;)V
+ (Ljava/lang/String;Ljava/lang/Object;Lorg/hibernate/ReplicationMode;)V
+save
+ (Ljava/lang/Object;)Ljava/io/Serializable;
+ (Ljava/lang/Object;)Ljava/io/Serializable;
+save
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/io/Serializable;
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/io/Serializable;
+saveOrUpdate
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+saveOrUpdate
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+update
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+update
+ (Ljava/lang/Object;Lorg/hibernate/LockMode;)V
+ (Ljava/lang/Object;Lorg/hibernate/LockMode;)V
+update
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+update
+ (Ljava/lang/String;Ljava/lang/Object;Lorg/hibernate/LockMode;)V
+ (Ljava/lang/String;Ljava/lang/Object;Lorg/hibernate/LockMode;)V

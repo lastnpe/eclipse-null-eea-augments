@@ -1,0 +1,81 @@
+class org/springframework/messaging/simp/stomp/StompBrokerRelayMessageHandler
+
+SYSTEM_SESSION_ID
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/MessageChannel;Lorg/springframework/messaging/SubscribableChannel;Ljava/util/Collection<Ljava/lang/String;>;)V
+ (Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/MessageChannel;Lorg/springframework/messaging/SubscribableChannel;Ljava/util/Collection<Ljava/lang/String;>;)V
+getClientLogin
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getClientPasscode
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getHeaderInitializer
+ ()Lorg/springframework/messaging/support/MessageHeaderInitializer;
+ ()L0org/springframework/messaging/support/MessageHeaderInitializer;
+getRelayHost
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getStats
+ ()Lorg/springframework/messaging/simp/stomp/StompBrokerRelayMessageHandler$Stats;
+ ()Lorg/springframework/messaging/simp/stomp/StompBrokerRelayMessageHandler$Stats;
+getStatsInfo
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSystemLogin
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSystemPasscode
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSystemSubscriptions
+ ()Ljava/util/Map<Ljava/lang/String;Lorg/springframework/messaging/MessageHandler;>;
+ ()Ljava/util/Map<Ljava/lang/String;Lorg/springframework/messaging/MessageHandler;>;
+getTaskScheduler
+ ()Lorg/springframework/scheduling/TaskScheduler;
+ ()L0org/springframework/scheduling/TaskScheduler;
+getTcpClient
+ ()Lorg/springframework/messaging/tcp/TcpOperations<[B>;
+ ()L0org/springframework/messaging/tcp/TcpOperations<[B>;
+getVirtualHost
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+handleMessageInternal
+ (Lorg/springframework/messaging/Message<*>;)V
+ (Lorg/springframework/messaging/Message<*>;)V
+setClientLogin
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setClientPasscode
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setHeaderInitializer
+ (Lorg/springframework/messaging/support/MessageHeaderInitializer;)V
+ (Lorg/springframework/messaging/support/MessageHeaderInitializer;)V
+setRelayHost
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSystemLogin
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSystemPasscode
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSystemSubscriptions
+ (Ljava/util/Map<Ljava/lang/String;Lorg/springframework/messaging/MessageHandler;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Lorg/springframework/messaging/MessageHandler;>;)V
+setTaskScheduler
+ (Lorg/springframework/scheduling/TaskScheduler;)V
+ (Lorg/springframework/scheduling/TaskScheduler;)V
+setTcpClient
+ (Lorg/springframework/messaging/tcp/TcpOperations<[B>;)V
+ (Lorg/springframework/messaging/tcp/TcpOperations<[B>;)V
+setVirtualHost
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

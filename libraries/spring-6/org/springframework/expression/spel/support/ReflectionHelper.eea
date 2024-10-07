@@ -1,0 +1,14 @@
+class org/springframework/expression/spel/support/ReflectionHelper
+
+convertAllArguments
+ (Lorg/springframework/expression/TypeConverter;[Ljava/lang/Object;Ljava/lang/reflect/Method;)Z
+ (Lorg/springframework/expression/TypeConverter;[Ljava/lang/Object;Ljava/lang/reflect/Method;)Z
+convertAllMethodHandleArguments
+ (Lorg/springframework/expression/TypeConverter;[Ljava/lang/Object;Ljava/lang/invoke/MethodHandle;Ljava/lang/Integer;)Z
+ (Lorg/springframework/expression/TypeConverter;[Ljava/lang/Object;Ljava/lang/invoke/MethodHandle;Ljava/lang/Integer;)Z
+getTypeDifferenceWeight
+ (Ljava/util/List<Lorg/springframework/core/convert/TypeDescriptor;>;Ljava/util/List<Lorg/springframework/core/convert/TypeDescriptor;>;)I
+ (Ljava/util/List<Lorg/springframework/core/convert/TypeDescriptor;>;Ljava/util/List<Lorg/springframework/core/convert/TypeDescriptor;>;)I
+setupArgumentsForVarargsInvocation
+ ([Ljava/lang/Class<*>;[Ljava/lang/Object;)[Ljava/lang/Object;
+ ([Ljava/lang/Class<*>;[Ljava/lang/Object;)[Ljava/lang/Object;

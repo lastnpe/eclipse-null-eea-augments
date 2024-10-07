@@ -1,0 +1,26 @@
+class org/springframework/scheduling/annotation/AsyncAnnotationAdvisor
+
+<init>
+ (Ljava/util/concurrent/Executor;Lorg/springframework/aop/interceptor/AsyncUncaughtExceptionHandler;)V
+ (Ljava/util/concurrent/Executor;Lorg/springframework/aop/interceptor/AsyncUncaughtExceptionHandler;)V
+<init>
+ (Ljava/util/function/Supplier<Ljava/util/concurrent/Executor;>;Ljava/util/function/Supplier<Lorg/springframework/aop/interceptor/AsyncUncaughtExceptionHandler;>;)V
+ (Ljava/util/function/Supplier<Ljava/util/concurrent/Executor;>;Ljava/util/function/Supplier<Lorg/springframework/aop/interceptor/AsyncUncaughtExceptionHandler;>;)V
+buildAdvice
+ (Ljava/util/function/Supplier<Ljava/util/concurrent/Executor;>;Ljava/util/function/Supplier<Lorg/springframework/aop/interceptor/AsyncUncaughtExceptionHandler;>;)Lorg/aopalliance/aop/Advice;
+ (Ljava/util/function/Supplier<Ljava/util/concurrent/Executor;>;Ljava/util/function/Supplier<Lorg/springframework/aop/interceptor/AsyncUncaughtExceptionHandler;>;)Lorg/aopalliance/aop/Advice;
+buildPointcut
+ (Ljava/util/Set<Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;>;)Lorg/springframework/aop/Pointcut;
+ (Ljava/util/Set<Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;>;)Lorg/springframework/aop/Pointcut;
+getAdvice
+ ()Lorg/aopalliance/aop/Advice;
+ ()Lorg/aopalliance/aop/Advice;
+getPointcut
+ ()Lorg/springframework/aop/Pointcut;
+ ()Lorg/springframework/aop/Pointcut;
+setAsyncAnnotationType
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V

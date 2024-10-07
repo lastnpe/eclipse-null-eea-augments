@@ -1,0 +1,42 @@
+class org/springframework/jmx/support/JmxUtils
+
+IDENTITY_OBJECT_NAME_KEY
+ Ljava/lang/String;
+ L1java/lang/String;
+
+appendIdentityToObjectName
+ (Ljavax/management/ObjectName;Ljava/lang/Object;)Ljavax/management/ObjectName;
+ (Ljavax/management/ObjectName;Ljava/lang/Object;)Ljavax/management/ObjectName;
+getAttributeName
+ (Ljava/beans/PropertyDescriptor;Z)Ljava/lang/String;
+ (Ljava/beans/PropertyDescriptor;Z)Ljava/lang/String;
+getClassToExpose
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+getClassToExpose
+ (Ljava/lang/Object;)Ljava/lang/Class<*>;
+ (Ljava/lang/Object;)Ljava/lang/Class<*>;
+getMBeanInterface
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+ (Ljava/lang/Class<*>;)L0java/lang/Class<*>;
+getMXBeanInterface
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+ (Ljava/lang/Class<*>;)L0java/lang/Class<*>;
+getMethodSignature
+ (Ljava/lang/reflect/Method;)[Ljava/lang/String;
+ (Ljava/lang/reflect/Method;)[Ljava/lang/String;
+isMBean
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+locateMBeanServer
+ ()Ljavax/management/MBeanServer;
+ ()Ljavax/management/MBeanServer;
+locateMBeanServer
+ (Ljava/lang/String;)Ljavax/management/MBeanServer;
+ (Ljava/lang/String;)Ljavax/management/MBeanServer;
+parameterInfoToTypes
+ ([Ljavax/management/MBeanParameterInfo;)[Ljava/lang/Class<*>;
+ ([Ljavax/management/MBeanParameterInfo;)[0Ljava/lang/Class<*>;
+parameterInfoToTypes
+ ([Ljavax/management/MBeanParameterInfo;Ljava/lang/ClassLoader;)[Ljava/lang/Class<*>;
+ ([Ljavax/management/MBeanParameterInfo;Ljava/lang/ClassLoader;)[0Ljava/lang/Class<*>;

@@ -1,0 +1,71 @@
+class org/springframework/jmx/export/MBeanExporter
+
+adaptMBeanIfPossible
+ (Ljava/lang/Object;)Ljavax/management/DynamicMBean;
+ (Ljava/lang/Object;)L0javax/management/DynamicMBean;
+addExcludedBean
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+createAndConfigureMBean
+ (Ljava/lang/Object;Ljava/lang/String;)Ljavax/management/modelmbean/ModelMBean;
+ (Ljava/lang/Object;Ljava/lang/String;)Ljavax/management/modelmbean/ModelMBean;
+createModelMBean
+ ()Ljavax/management/modelmbean/ModelMBean;
+ ()Ljavax/management/modelmbean/ModelMBean;
+getObjectName
+ (Ljava/lang/Object;Ljava/lang/String;)Ljavax/management/ObjectName;
+ (Ljava/lang/Object;Ljava/lang/String;)Ljavax/management/ObjectName;
+isBeanDefinitionLazyInit
+ (Lorg/springframework/beans/factory/ListableBeanFactory;Ljava/lang/String;)Z
+ (Lorg/springframework/beans/factory/ListableBeanFactory;Ljava/lang/String;)Z
+isMBean
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+onRegister
+ (Ljavax/management/ObjectName;)V
+ (Ljavax/management/ObjectName;)V
+onUnregister
+ (Ljavax/management/ObjectName;)V
+ (Ljavax/management/ObjectName;)V
+registerBeanNameOrInstance
+ (Ljava/lang/Object;Ljava/lang/String;)Ljavax/management/ObjectName;
+ (Ljava/lang/Object;Ljava/lang/String;)Ljavax/management/ObjectName;
+registerManagedResource
+ (Ljava/lang/Object;)Ljavax/management/ObjectName;
+ (Ljava/lang/Object;)Ljavax/management/ObjectName;
+registerManagedResource
+ (Ljava/lang/Object;Ljavax/management/ObjectName;)V
+ (Ljava/lang/Object;Ljavax/management/ObjectName;)V
+setAssembler
+ (Lorg/springframework/jmx/export/assembler/MBeanInfoAssembler;)V
+ (Lorg/springframework/jmx/export/assembler/MBeanInfoAssembler;)V
+setAutodetectModeName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setBeans
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+setExcludedBeans
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setListeners
+ ([Lorg/springframework/jmx/export/MBeanExporterListener;)V
+ ([Lorg/springframework/jmx/export/MBeanExporterListener;)V
+setNamingStrategy
+ (Lorg/springframework/jmx/export/naming/ObjectNamingStrategy;)V
+ (Lorg/springframework/jmx/export/naming/ObjectNamingStrategy;)V
+setNotificationListenerMappings
+ (Ljava/util/Map<*+Ljavax/management/NotificationListener;>;)V
+ (Ljava/util/Map<*+Ljavax/management/NotificationListener;>;)V
+setNotificationListeners
+ ([Lorg/springframework/jmx/export/NotificationListenerBean;)V
+ ([Lorg/springframework/jmx/export/NotificationListenerBean;)V
+unregisterManagedResource
+ (Ljavax/management/ObjectName;)V
+ (Ljavax/management/ObjectName;)V

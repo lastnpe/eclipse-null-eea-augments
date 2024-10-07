@@ -1,0 +1,38 @@
+class org/springframework/jdbc/datasource/DataSourceUtils
+
+applyTimeout
+ (Ljava/sql/Statement;Ljavax/sql/DataSource;I)V
+ (Ljava/sql/Statement;Ljavax/sql/DataSource;I)V
+applyTransactionTimeout
+ (Ljava/sql/Statement;Ljavax/sql/DataSource;)V
+ (Ljava/sql/Statement;Ljavax/sql/DataSource;)V
+doCloseConnection
+ (Ljava/sql/Connection;Ljavax/sql/DataSource;)V
+ (Ljava/sql/Connection;Ljavax/sql/DataSource;)V
+doGetConnection
+ (Ljavax/sql/DataSource;)Ljava/sql/Connection;
+ (Ljavax/sql/DataSource;)Ljava/sql/Connection;
+doReleaseConnection
+ (Ljava/sql/Connection;Ljavax/sql/DataSource;)V
+ (Ljava/sql/Connection;Ljavax/sql/DataSource;)V
+getConnection
+ (Ljavax/sql/DataSource;)Ljava/sql/Connection;
+ (Ljavax/sql/DataSource;)Ljava/sql/Connection;
+getTargetConnection
+ (Ljava/sql/Connection;)Ljava/sql/Connection;
+ (Ljava/sql/Connection;)Ljava/sql/Connection;
+isConnectionTransactional
+ (Ljava/sql/Connection;Ljavax/sql/DataSource;)Z
+ (Ljava/sql/Connection;Ljavax/sql/DataSource;)Z
+prepareConnectionForTransaction
+ (Ljava/sql/Connection;Lorg/springframework/transaction/TransactionDefinition;)Ljava/lang/Integer;
+ (Ljava/sql/Connection;Lorg/springframework/transaction/TransactionDefinition;)L0java/lang/Integer;
+releaseConnection
+ (Ljava/sql/Connection;Ljavax/sql/DataSource;)V
+ (Ljava/sql/Connection;Ljavax/sql/DataSource;)V
+resetConnectionAfterTransaction
+ (Ljava/sql/Connection;Ljava/lang/Integer;)V
+ (Ljava/sql/Connection;Ljava/lang/Integer;)V
+resetConnectionAfterTransaction
+ (Ljava/sql/Connection;Ljava/lang/Integer;Z)V
+ (Ljava/sql/Connection;Ljava/lang/Integer;Z)V

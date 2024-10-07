@@ -1,0 +1,14 @@
+class org/springframework/web/method/annotation/MapMethodProcessor
+
+handleReturnValue
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;Lorg/springframework/web/method/support/ModelAndViewContainer;Lorg/springframework/web/context/request/NativeWebRequest;)V
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;Lorg/springframework/web/method/support/ModelAndViewContainer;Lorg/springframework/web/context/request/NativeWebRequest;)V
+resolveArgument
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/web/method/support/ModelAndViewContainer;Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/bind/support/WebDataBinderFactory;)Ljava/lang/Object;
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/web/method/support/ModelAndViewContainer;Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/bind/support/WebDataBinderFactory;)L0java/lang/Object; # @Inherited(org.springframework.web.method.support.HandlerMethodArgumentResolver)
+supportsParameter
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z
+supportsReturnType
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z

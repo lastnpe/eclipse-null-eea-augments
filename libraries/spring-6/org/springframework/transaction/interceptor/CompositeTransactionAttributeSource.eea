@@ -1,0 +1,14 @@
+class org/springframework/transaction/interceptor/CompositeTransactionAttributeSource
+
+<init>
+ ([Lorg/springframework/transaction/interceptor/TransactionAttributeSource;)V
+ ([Lorg/springframework/transaction/interceptor/TransactionAttributeSource;)V
+getTransactionAttribute
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Lorg/springframework/transaction/interceptor/TransactionAttribute;
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)L0org/springframework/transaction/interceptor/TransactionAttribute; # @Inherited(org.springframework.transaction.interceptor.TransactionAttributeSource)
+getTransactionAttributeSources
+ ()[Lorg/springframework/transaction/interceptor/TransactionAttributeSource;
+ ()[Lorg/springframework/transaction/interceptor/TransactionAttributeSource;
+isCandidateClass
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z

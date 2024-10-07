@@ -1,0 +1,28 @@
+class org/springframework/http/codec/FormHttpMessageReader
+
+super org/springframework/http/codec/HttpMessageReader
+ <Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>
+ <Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>
+
+DEFAULT_CHARSET
+ Ljava/nio/charset/Charset;
+ L1java/nio/charset/Charset;
+
+canRead
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/http/MediaType;)Z
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/http/MediaType;)Z
+getDefaultCharset
+ ()Ljava/nio/charset/Charset;
+ ()Ljava/nio/charset/Charset;
+getReadableMediaTypes
+ ()Ljava/util/List<Lorg/springframework/http/MediaType;>;
+ ()Ljava/util/List<Lorg/springframework/http/MediaType;>;
+read
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/http/ReactiveHttpInputMessage;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/http/ReactiveHttpInputMessage;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;
+readMono
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/http/ReactiveHttpInputMessage;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Mono<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/http/ReactiveHttpInputMessage;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Mono<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;
+setDefaultCharset
+ (Ljava/nio/charset/Charset;)V
+ (Ljava/nio/charset/Charset;)V

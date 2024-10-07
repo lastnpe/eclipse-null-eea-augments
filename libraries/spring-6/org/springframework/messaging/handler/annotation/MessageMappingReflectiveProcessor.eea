@@ -1,0 +1,26 @@
+class org/springframework/messaging/handler/annotation/MessageMappingReflectiveProcessor
+
+couldBePayload
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z
+getMessageType
+ (Lorg/springframework/core/MethodParameter;)Ljava/lang/reflect/Type;
+ (Lorg/springframework/core/MethodParameter;)L0java/lang/reflect/Type;
+registerMessageExceptionHandlerHints
+ (Lorg/springframework/aot/hint/ReflectionHints;Lorg/springframework/messaging/handler/annotation/MessageExceptionHandler;)V
+ (Lorg/springframework/aot/hint/ReflectionHints;Lorg/springframework/messaging/handler/annotation/MessageExceptionHandler;)V
+registerMethodHints
+ (Lorg/springframework/aot/hint/ReflectionHints;Ljava/lang/reflect/Method;)V
+ (Lorg/springframework/aot/hint/ReflectionHints;Ljava/lang/reflect/Method;)V
+registerParameterHints
+ (Lorg/springframework/aot/hint/ReflectionHints;Ljava/lang/reflect/Method;)V
+ (Lorg/springframework/aot/hint/ReflectionHints;Ljava/lang/reflect/Method;)V
+registerReflectionHints
+ (Lorg/springframework/aot/hint/ReflectionHints;Ljava/lang/reflect/AnnotatedElement;)V
+ (Lorg/springframework/aot/hint/ReflectionHints;Ljava/lang/reflect/AnnotatedElement;)V
+registerReturnValueHints
+ (Lorg/springframework/aot/hint/ReflectionHints;Ljava/lang/reflect/Method;)V
+ (Lorg/springframework/aot/hint/ReflectionHints;Ljava/lang/reflect/Method;)V
+registerTypeHints
+ (Lorg/springframework/aot/hint/ReflectionHints;Ljava/lang/Class<*>;)V
+ (Lorg/springframework/aot/hint/ReflectionHints;Ljava/lang/Class<*>;)V

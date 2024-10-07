@@ -1,0 +1,15 @@
+class org/springframework/aop/framework/autoproxy/AutoProxyUtils
+
+ORIGINAL_TARGET_CLASS_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+PRESERVE_TARGET_CLASS_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+determineTargetClass
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;Ljava/lang/String;)L0java/lang/Class<*>;
+shouldProxyTargetClass
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;Ljava/lang/String;)Z
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;Ljava/lang/String;)Z

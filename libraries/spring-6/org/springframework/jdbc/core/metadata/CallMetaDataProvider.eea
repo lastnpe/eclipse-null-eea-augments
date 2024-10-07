@@ -1,0 +1,47 @@
+class org/springframework/jdbc/core/metadata/CallMetaDataProvider
+
+byPassReturnParameter
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+catalogNameToUse
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+createDefaultInOutParameter
+ (Ljava/lang/String;Lorg/springframework/jdbc/core/metadata/CallParameterMetaData;)Lorg/springframework/jdbc/core/SqlParameter;
+ (Ljava/lang/String;Lorg/springframework/jdbc/core/metadata/CallParameterMetaData;)Lorg/springframework/jdbc/core/SqlParameter;
+createDefaultInParameter
+ (Ljava/lang/String;Lorg/springframework/jdbc/core/metadata/CallParameterMetaData;)Lorg/springframework/jdbc/core/SqlParameter;
+ (Ljava/lang/String;Lorg/springframework/jdbc/core/metadata/CallParameterMetaData;)Lorg/springframework/jdbc/core/SqlParameter;
+createDefaultOutParameter
+ (Ljava/lang/String;Lorg/springframework/jdbc/core/metadata/CallParameterMetaData;)Lorg/springframework/jdbc/core/SqlParameter;
+ (Ljava/lang/String;Lorg/springframework/jdbc/core/metadata/CallParameterMetaData;)Lorg/springframework/jdbc/core/SqlParameter;
+getCallParameterMetaData
+ ()Ljava/util/List<Lorg/springframework/jdbc/core/metadata/CallParameterMetaData;>;
+ ()Ljava/util/List<Lorg/springframework/jdbc/core/metadata/CallParameterMetaData;>;
+getUserName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+initializeWithMetaData
+ (Ljava/sql/DatabaseMetaData;)V
+ (Ljava/sql/DatabaseMetaData;)V
+initializeWithProcedureColumnMetaData
+ (Ljava/sql/DatabaseMetaData;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/sql/DatabaseMetaData;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+metaDataCatalogNameToUse
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+metaDataSchemaNameToUse
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+namedParameterBindingToUse
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+parameterNameToUse
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+procedureNameToUse
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+schemaNameToUse
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;

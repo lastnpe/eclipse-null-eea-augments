@@ -1,0 +1,31 @@
+class org/springframework/jdbc/support/SQLErrorCodesFactory
+
+SQL_ERROR_CODE_DEFAULT_PATH
+ Ljava/lang/String;
+ L1java/lang/String;
+SQL_ERROR_CODE_OVERRIDE_PATH
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getInstance
+ ()Lorg/springframework/jdbc/support/SQLErrorCodesFactory;
+ ()Lorg/springframework/jdbc/support/SQLErrorCodesFactory;
+
+getErrorCodes
+ (Ljava/lang/String;)Lorg/springframework/jdbc/support/SQLErrorCodes;
+ (Ljava/lang/String;)Lorg/springframework/jdbc/support/SQLErrorCodes;
+getErrorCodes
+ (Ljavax/sql/DataSource;)Lorg/springframework/jdbc/support/SQLErrorCodes;
+ (Ljavax/sql/DataSource;)Lorg/springframework/jdbc/support/SQLErrorCodes;
+loadResource
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+ (Ljava/lang/String;)L0org/springframework/core/io/Resource;
+registerDatabase
+ (Ljavax/sql/DataSource;Ljava/lang/String;)Lorg/springframework/jdbc/support/SQLErrorCodes;
+ (Ljavax/sql/DataSource;Ljava/lang/String;)Lorg/springframework/jdbc/support/SQLErrorCodes;
+resolveErrorCodes
+ (Ljavax/sql/DataSource;)Lorg/springframework/jdbc/support/SQLErrorCodes;
+ (Ljavax/sql/DataSource;)L0org/springframework/jdbc/support/SQLErrorCodes;
+unregisterDatabase
+ (Ljavax/sql/DataSource;)Lorg/springframework/jdbc/support/SQLErrorCodes;
+ (Ljavax/sql/DataSource;)L0org/springframework/jdbc/support/SQLErrorCodes;

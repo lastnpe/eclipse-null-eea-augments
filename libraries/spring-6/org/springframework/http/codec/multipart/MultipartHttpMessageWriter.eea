@@ -1,0 +1,27 @@
+class org/springframework/http/codec/multipart/MultipartHttpMessageWriter
+
+super org/springframework/http/codec/HttpMessageWriter
+ <Lorg/springframework/util/MultiValueMap<Ljava/lang/String;*>;>
+ <Lorg/springframework/util/MultiValueMap<Ljava/lang/String;*>;>
+
+<init>
+ (Ljava/util/List<Lorg/springframework/http/codec/HttpMessageWriter<*>;>;)V
+ (Ljava/util/List<Lorg/springframework/http/codec/HttpMessageWriter<*>;>;)V
+<init>
+ (Ljava/util/List<Lorg/springframework/http/codec/HttpMessageWriter<*>;>;Lorg/springframework/http/codec/HttpMessageWriter<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;)V
+ (Ljava/util/List<Lorg/springframework/http/codec/HttpMessageWriter<*>;>;Lorg/springframework/http/codec/HttpMessageWriter<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;)V
+<init>
+ (Ljava/util/function/Supplier<Ljava/util/List<Lorg/springframework/http/codec/HttpMessageWriter<*>;>;>;Lorg/springframework/http/codec/HttpMessageWriter<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;)V
+ (Ljava/util/function/Supplier<Ljava/util/List<Lorg/springframework/http/codec/HttpMessageWriter<*>;>;>;Lorg/springframework/http/codec/HttpMessageWriter<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;)V
+canWrite
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/http/MediaType;)Z
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/http/MediaType;)Z
+getFormWriter
+ ()Lorg/springframework/http/codec/HttpMessageWriter<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;
+ ()L0org/springframework/http/codec/HttpMessageWriter<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;
+getPartWriters
+ ()Ljava/util/List<Lorg/springframework/http/codec/HttpMessageWriter<*>;>;
+ ()Ljava/util/List<Lorg/springframework/http/codec/HttpMessageWriter<*>;>;
+write
+ (Lorg/reactivestreams/Publisher<+Lorg/springframework/util/MultiValueMap<Ljava/lang/String;*>;>;Lorg/springframework/core/ResolvableType;Lorg/springframework/http/MediaType;Lorg/springframework/http/ReactiveHttpOutputMessage;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/reactivestreams/Publisher<+Lorg/springframework/util/MultiValueMap<Ljava/lang/String;*>;>;Lorg/springframework/core/ResolvableType;Lorg/springframework/http/MediaType;Lorg/springframework/http/ReactiveHttpOutputMessage;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;

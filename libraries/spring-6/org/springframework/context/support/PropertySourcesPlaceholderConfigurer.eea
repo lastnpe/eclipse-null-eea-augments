@@ -1,0 +1,30 @@
+class org/springframework/context/support/PropertySourcesPlaceholderConfigurer
+
+ENVIRONMENT_PROPERTIES_PROPERTY_SOURCE_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+LOCAL_PROPERTIES_PROPERTY_SOURCE_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+createPropertyResolver
+ (Lorg/springframework/core/env/MutablePropertySources;)Lorg/springframework/core/env/ConfigurablePropertyResolver;
+ (Lorg/springframework/core/env/MutablePropertySources;)Lorg/springframework/core/env/ConfigurablePropertyResolver;
+getAppliedPropertySources
+ ()Lorg/springframework/core/env/PropertySources;
+ ()Lorg/springframework/core/env/PropertySources;
+postProcessBeanFactory
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+processProperties
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;Ljava/util/Properties;)V
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;Ljava/util/Properties;)V
+processProperties
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;Lorg/springframework/core/env/ConfigurablePropertyResolver;)V
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;Lorg/springframework/core/env/ConfigurablePropertyResolver;)V
+setEnvironment
+ (Lorg/springframework/core/env/Environment;)V
+ (Lorg/springframework/core/env/Environment;)V
+setPropertySources
+ (Lorg/springframework/core/env/PropertySources;)V
+ (Lorg/springframework/core/env/PropertySources;)V

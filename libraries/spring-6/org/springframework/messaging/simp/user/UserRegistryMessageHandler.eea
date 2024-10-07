@@ -1,0 +1,18 @@
+class org/springframework/messaging/simp/user/UserRegistryMessageHandler
+
+super org/springframework/context/ApplicationListener
+ <Lorg/springframework/messaging/simp/broker/BrokerAvailabilityEvent;>
+ <Lorg/springframework/messaging/simp/broker/BrokerAvailabilityEvent;>
+
+<init>
+ (Lorg/springframework/messaging/simp/user/MultiServerUserRegistry;Lorg/springframework/messaging/simp/SimpMessagingTemplate;Ljava/lang/String;Lorg/springframework/scheduling/TaskScheduler;)V
+ (Lorg/springframework/messaging/simp/user/MultiServerUserRegistry;Lorg/springframework/messaging/simp/SimpMessagingTemplate;Ljava/lang/String;Lorg/springframework/scheduling/TaskScheduler;)V
+getBroadcastDestination
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+handleMessage
+ (Lorg/springframework/messaging/Message<*>;)V
+ (Lorg/springframework/messaging/Message<*>;)V
+onApplicationEvent
+ (Lorg/springframework/messaging/simp/broker/BrokerAvailabilityEvent;)V
+ (Lorg/springframework/messaging/simp/broker/BrokerAvailabilityEvent;)V

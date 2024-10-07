@@ -1,0 +1,79 @@
+class org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator
+
+DO_NOT_PROXY
+ [Ljava/lang/Object;
+ [0Ljava/lang/Object;
+PROXY_WITHOUT_ADDITIONAL_INTERCEPTORS
+ [Ljava/lang/Object;
+ [1Ljava/lang/Object;
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+buildAdvisors
+ (Ljava/lang/String;[Ljava/lang/Object;)[Lorg/springframework/aop/Advisor;
+ (Ljava/lang/String;[Ljava/lang/Object;)[Lorg/springframework/aop/Advisor;
+createProxy
+ (Ljava/lang/Class<*>;Ljava/lang/String;[Ljava/lang/Object;Lorg/springframework/aop/TargetSource;)Ljava/lang/Object;
+ (Ljava/lang/Class<*>;Ljava/lang/String;[Ljava/lang/Object;Lorg/springframework/aop/TargetSource;)Ljava/lang/Object;
+customizeProxyFactory
+ (Lorg/springframework/aop/framework/ProxyFactory;)V
+ (Lorg/springframework/aop/framework/ProxyFactory;)V
+determineBeanType
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/Class<*>;
+determineCandidateConstructors
+ (Ljava/lang/Class<*>;Ljava/lang/String;)[Ljava/lang/reflect/Constructor<*>;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)[0Ljava/lang/reflect/Constructor<*>; # @Inherited(org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor)
+getAdvicesAndAdvisorsForBean
+ (Ljava/lang/Class<*>;Ljava/lang/String;Lorg/springframework/aop/TargetSource;)[Ljava/lang/Object;
+ (Ljava/lang/Class<*>;Ljava/lang/String;Lorg/springframework/aop/TargetSource;)[0Ljava/lang/Object;
+getBeanFactory
+ ()Lorg/springframework/beans/factory/BeanFactory;
+ ()L0org/springframework/beans/factory/BeanFactory;
+getCacheKey
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/Object;
+getCustomTargetSource
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Lorg/springframework/aop/TargetSource;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)L0org/springframework/aop/TargetSource;
+getEarlyBeanReference
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+isInfrastructureClass
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+postProcessAfterInitialization
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/String;)L0java/lang/Object; # @Overrides(org.springframework.beans.factory.config.BeanPostProcessor)
+postProcessBeforeInstantiation
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor)
+postProcessProperties
+ (Lorg/springframework/beans/PropertyValues;Ljava/lang/Object;Ljava/lang/String;)Lorg/springframework/beans/PropertyValues;
+ (Lorg/springframework/beans/PropertyValues;Ljava/lang/Object;Ljava/lang/String;)L0org/springframework/beans/PropertyValues; # @Inherited(org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor)
+predictBeanType
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)L0java/lang/Class<*>; # @Inherited(org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor)
+setAdvisorAdapterRegistry
+ (Lorg/springframework/aop/framework/adapter/AdvisorAdapterRegistry;)V
+ (Lorg/springframework/aop/framework/adapter/AdvisorAdapterRegistry;)V
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setCustomTargetSourceCreators
+ ([Lorg/springframework/aop/framework/autoproxy/TargetSourceCreator;)V
+ ([Lorg/springframework/aop/framework/autoproxy/TargetSourceCreator;)V
+setInterceptorNames
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+shouldProxyTargetClass
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Z
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Z
+shouldSkip
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Z
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Z
+wrapIfNecessary
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;

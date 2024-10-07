@@ -1,0 +1,61 @@
+class org/springframework/http/converter/FormHttpMessageConverter
+
+super org/springframework/http/converter/HttpMessageConverter
+ <Lorg/springframework/util/MultiValueMap<Ljava/lang/String;*>;>
+ <Lorg/springframework/util/MultiValueMap<Ljava/lang/String;*>;>
+
+DEFAULT_CHARSET
+ Ljava/nio/charset/Charset;
+ L1java/nio/charset/Charset;
+
+addPartConverter
+ (Lorg/springframework/http/converter/HttpMessageConverter<*>;)V
+ (Lorg/springframework/http/converter/HttpMessageConverter<*>;)V
+addSupportedMediaTypes
+ ([Lorg/springframework/http/MediaType;)V
+ ([Lorg/springframework/http/MediaType;)V
+canRead
+ (Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+ (Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+canWrite
+ (Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+ (Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+generateMultipartBoundary
+ ()[B
+ ()[B
+getFilename
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)L0java/lang/String;
+getFormContentType
+ (Lorg/springframework/http/MediaType;)Lorg/springframework/http/MediaType;
+ (Lorg/springframework/http/MediaType;)Lorg/springframework/http/MediaType;
+getHttpEntity
+ (Ljava/lang/Object;)Lorg/springframework/http/HttpEntity<*>;
+ (Ljava/lang/Object;)Lorg/springframework/http/HttpEntity<*>;
+getPartConverters
+ ()Ljava/util/List<Lorg/springframework/http/converter/HttpMessageConverter<*>;>;
+ ()Ljava/util/List<Lorg/springframework/http/converter/HttpMessageConverter<*>;>;
+getSupportedMediaTypes
+ ()Ljava/util/List<Lorg/springframework/http/MediaType;>;
+ ()Ljava/util/List<Lorg/springframework/http/MediaType;>;
+read
+ (Ljava/lang/Class<+Lorg/springframework/util/MultiValueMap<Ljava/lang/String;*>;>;Lorg/springframework/http/HttpInputMessage;)Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+ (Ljava/lang/Class<+Lorg/springframework/util/MultiValueMap<Ljava/lang/String;*>;>;Lorg/springframework/http/HttpInputMessage;)Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+serializeForm
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/Object;>;Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/Object;>;Ljava/nio/charset/Charset;)Ljava/lang/String;
+setCharset
+ (Ljava/nio/charset/Charset;)V
+ (Ljava/nio/charset/Charset;)V
+setMultipartCharset
+ (Ljava/nio/charset/Charset;)V
+ (Ljava/nio/charset/Charset;)V
+setPartConverters
+ (Ljava/util/List<Lorg/springframework/http/converter/HttpMessageConverter<*>;>;)V
+ (Ljava/util/List<Lorg/springframework/http/converter/HttpMessageConverter<*>;>;)V
+setSupportedMediaTypes
+ (Ljava/util/List<Lorg/springframework/http/MediaType;>;)V
+ (Ljava/util/List<Lorg/springframework/http/MediaType;>;)V
+write
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;*>;Lorg/springframework/http/MediaType;Lorg/springframework/http/HttpOutputMessage;)V
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;*>;Lorg/springframework/http/MediaType;Lorg/springframework/http/HttpOutputMessage;)V

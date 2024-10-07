@@ -1,0 +1,26 @@
+class org/springframework/messaging/MessagingException
+
+<init>
+ (Ljava/lang/String;)V
+ (L0java/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+ (L0java/lang/String;L0java/lang/Throwable;)V
+<init>
+ (Lorg/springframework/messaging/Message<*>;)V
+ (Lorg/springframework/messaging/Message<*>;)V
+<init>
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/String;)V
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/String;)V
+<init>
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/String;Ljava/lang/Throwable;)V
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/String;Ljava/lang/Throwable;)V
+<init>
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Throwable;)V
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Throwable;)V
+getFailedMessage
+ ()Lorg/springframework/messaging/Message<*>;
+ ()L0org/springframework/messaging/Message<*>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Throwable)

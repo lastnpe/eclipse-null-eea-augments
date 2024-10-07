@@ -1,0 +1,12 @@
+class org/springframework/messaging/rsocket/annotation/support/RSocketRequesterMethodArgumentResolver
+
+RSOCKET_REQUESTER_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+
+resolveArgument
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Object;>;
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Object;>;
+supportsParameter
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z

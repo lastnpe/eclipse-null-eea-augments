@@ -1,0 +1,14 @@
+class org/springframework/messaging/converter/DefaultContentTypeResolver
+
+getDefaultMimeType
+ ()Lorg/springframework/util/MimeType;
+ ()L0org/springframework/util/MimeType;
+resolve
+ (Lorg/springframework/messaging/MessageHeaders;)Lorg/springframework/util/MimeType;
+ (Lorg/springframework/messaging/MessageHeaders;)L0org/springframework/util/MimeType; # @Inherited(org.springframework.messaging.converter.ContentTypeResolver)
+setDefaultMimeType
+ (Lorg/springframework/util/MimeType;)V
+ (Lorg/springframework/util/MimeType;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

@@ -1,0 +1,17 @@
+class org/springframework/web/server/ServerWebExchange$Builder
+
+build
+ ()Lorg/springframework/web/server/ServerWebExchange;
+ ()L1org/springframework/web/server/ServerWebExchange;
+principal
+ (Lreactor/core/publisher/Mono<Ljava/security/Principal;>;)Lorg/springframework/web/server/ServerWebExchange$Builder;
+ (Lreactor/core/publisher/Mono<Ljava/security/Principal;>;)L1org/springframework/web/server/ServerWebExchange$Builder;
+request
+ (Ljava/util/function/Consumer<Lorg/springframework/http/server/reactive/ServerHttpRequest$Builder;>;)Lorg/springframework/web/server/ServerWebExchange$Builder;
+ (Ljava/util/function/Consumer<Lorg/springframework/http/server/reactive/ServerHttpRequest$Builder;>;)L1org/springframework/web/server/ServerWebExchange$Builder;
+request
+ (Lorg/springframework/http/server/reactive/ServerHttpRequest;)Lorg/springframework/web/server/ServerWebExchange$Builder;
+ (Lorg/springframework/http/server/reactive/ServerHttpRequest;)L1org/springframework/web/server/ServerWebExchange$Builder;
+response
+ (Lorg/springframework/http/server/reactive/ServerHttpResponse;)Lorg/springframework/web/server/ServerWebExchange$Builder;
+ (Lorg/springframework/http/server/reactive/ServerHttpResponse;)L1org/springframework/web/server/ServerWebExchange$Builder;

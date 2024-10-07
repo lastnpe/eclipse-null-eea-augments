@@ -1,0 +1,59 @@
+class org/springframework/orm/jpa/support/PersistenceAnnotationBeanPostProcessor
+
+findDefaultEntityManagerFactory
+ (Ljava/lang/String;)Ljakarta/persistence/EntityManagerFactory;
+ (Ljava/lang/String;)Ljakarta/persistence/EntityManagerFactory;
+findEntityManagerFactory
+ (Ljava/lang/String;Ljava/lang/String;)Ljakarta/persistence/EntityManagerFactory;
+ (Ljava/lang/String;Ljava/lang/String;)Ljakarta/persistence/EntityManagerFactory;
+findNamedEntityManagerFactory
+ (Ljava/lang/String;Ljava/lang/String;)Ljakarta/persistence/EntityManagerFactory;
+ (Ljava/lang/String;Ljava/lang/String;)Ljakarta/persistence/EntityManagerFactory;
+getPersistenceContext
+ (Ljava/lang/String;Z)Ljakarta/persistence/EntityManager;
+ (Ljava/lang/String;Z)L0jakarta/persistence/EntityManager;
+getPersistenceUnit
+ (Ljava/lang/String;)Ljakarta/persistence/EntityManagerFactory;
+ (Ljava/lang/String;)L0jakarta/persistence/EntityManagerFactory;
+lookup
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;)TT;
+postProcessBeforeDestruction
+ (Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/Object;Ljava/lang/String;)V
+postProcessMergedBeanDefinition
+ (Lorg/springframework/beans/factory/support/RootBeanDefinition;Ljava/lang/Class<*>;Ljava/lang/String;)V
+ (Lorg/springframework/beans/factory/support/RootBeanDefinition;Ljava/lang/Class<*>;Ljava/lang/String;)V
+postProcessProperties
+ (Lorg/springframework/beans/PropertyValues;Ljava/lang/Object;Ljava/lang/String;)Lorg/springframework/beans/PropertyValues;
+ (Lorg/springframework/beans/PropertyValues;Ljava/lang/Object;Ljava/lang/String;)L0org/springframework/beans/PropertyValues; # @Inherited(org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor)
+processAheadOfTime
+ (Lorg/springframework/beans/factory/support/RegisteredBean;)Lorg/springframework/beans/factory/aot/BeanRegistrationAotContribution;
+ (Lorg/springframework/beans/factory/support/RegisteredBean;)L0org/springframework/beans/factory/aot/BeanRegistrationAotContribution; # @Inherited(org.springframework.beans.factory.aot.BeanRegistrationAotProcessor)
+requiresDestruction
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+resetBeanDefinition
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setDefaultPersistenceUnitName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setExtendedPersistenceContexts
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+setJndiEnvironment
+ (Ljava/util/Properties;)V
+ (Ljava/util/Properties;)V
+setJndiTemplate
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setPersistenceContexts
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+setPersistenceUnits
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V

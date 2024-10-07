@@ -1,0 +1,61 @@
+class org/springframework/cache/interceptor/CacheAspectSupport
+
+IGNORE_REACTIVESTREAMS_PROPERTY_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+configure
+ (Ljava/util/function/Supplier<Lorg/springframework/cache/interceptor/CacheErrorHandler;>;Ljava/util/function/Supplier<Lorg/springframework/cache/interceptor/KeyGenerator;>;Ljava/util/function/Supplier<Lorg/springframework/cache/interceptor/CacheResolver;>;Ljava/util/function/Supplier<Lorg/springframework/cache/CacheManager;>;)V
+ (Ljava/util/function/Supplier<Lorg/springframework/cache/interceptor/CacheErrorHandler;>;Ljava/util/function/Supplier<Lorg/springframework/cache/interceptor/KeyGenerator;>;Ljava/util/function/Supplier<Lorg/springframework/cache/interceptor/CacheResolver;>;Ljava/util/function/Supplier<Lorg/springframework/cache/CacheManager;>;)V
+execute
+ (Lorg/springframework/cache/interceptor/CacheOperationInvoker;Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
+ (Lorg/springframework/cache/interceptor/CacheOperationInvoker;Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)L0java/lang/Object;
+getBean
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;)TT;
+getCacheOperationMetadata
+ (Lorg/springframework/cache/interceptor/CacheOperation;Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Lorg/springframework/cache/interceptor/CacheAspectSupport$CacheOperationMetadata;
+ (Lorg/springframework/cache/interceptor/CacheOperation;Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Lorg/springframework/cache/interceptor/CacheAspectSupport$CacheOperationMetadata;
+getCacheOperationSource
+ ()Lorg/springframework/cache/interceptor/CacheOperationSource;
+ ()L0org/springframework/cache/interceptor/CacheOperationSource;
+getCacheResolver
+ ()Lorg/springframework/cache/interceptor/CacheResolver;
+ ()L0org/springframework/cache/interceptor/CacheResolver;
+getCaches
+ (Lorg/springframework/cache/interceptor/CacheOperationInvocationContext<Lorg/springframework/cache/interceptor/CacheOperation;>;Lorg/springframework/cache/interceptor/CacheResolver;)Ljava/util/Collection<+Lorg/springframework/cache/Cache;>;
+ (Lorg/springframework/cache/interceptor/CacheOperationInvocationContext<Lorg/springframework/cache/interceptor/CacheOperation;>;Lorg/springframework/cache/interceptor/CacheResolver;)Ljava/util/Collection<+Lorg/springframework/cache/Cache;>;
+getKeyGenerator
+ ()Lorg/springframework/cache/interceptor/KeyGenerator;
+ ()Lorg/springframework/cache/interceptor/KeyGenerator;
+getOperationContext
+ (Lorg/springframework/cache/interceptor/CacheOperation;Ljava/lang/reflect/Method;[Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Class<*>;)Lorg/springframework/cache/interceptor/CacheAspectSupport$CacheOperationContext;
+ (Lorg/springframework/cache/interceptor/CacheOperation;Ljava/lang/reflect/Method;[Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Class<*>;)Lorg/springframework/cache/interceptor/CacheAspectSupport$CacheOperationContext;
+invokeOperation
+ (Lorg/springframework/cache/interceptor/CacheOperationInvoker;)Ljava/lang/Object;
+ (Lorg/springframework/cache/interceptor/CacheOperationInvoker;)L0java/lang/Object;
+methodIdentification
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Ljava/lang/String;
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Ljava/lang/String;
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setCacheManager
+ (Lorg/springframework/cache/CacheManager;)V
+ (Lorg/springframework/cache/CacheManager;)V
+setCacheOperationSource
+ (Lorg/springframework/cache/interceptor/CacheOperationSource;)V
+ (Lorg/springframework/cache/interceptor/CacheOperationSource;)V
+setCacheOperationSources
+ ([Lorg/springframework/cache/interceptor/CacheOperationSource;)V
+ ([Lorg/springframework/cache/interceptor/CacheOperationSource;)V
+setCacheResolver
+ (Lorg/springframework/cache/interceptor/CacheResolver;)V
+ (Lorg/springframework/cache/interceptor/CacheResolver;)V
+setKeyGenerator
+ (Lorg/springframework/cache/interceptor/KeyGenerator;)V
+ (Lorg/springframework/cache/interceptor/KeyGenerator;)V

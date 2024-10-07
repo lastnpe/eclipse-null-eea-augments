@@ -1,0 +1,36 @@
+class org/springframework/expression/ExpressionException
+
+expressionString
+ Ljava/lang/String;
+ L0java/lang/String;
+
+<init>
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+<init>
+ (ILjava/lang/String;Ljava/lang/Throwable;)V
+ (ILjava/lang/String;Ljava/lang/Throwable;)V
+<init>
+ (Ljava/lang/String;)V
+ (L0java/lang/String;)V
+<init>
+ (Ljava/lang/String;ILjava/lang/String;)V
+ (Ljava/lang/String;ILjava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+ (L0java/lang/String;L0java/lang/Throwable;)V
+getExpressionString
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getMessage
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(java.lang.Throwable)
+getSimpleMessage
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+toDetailedString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

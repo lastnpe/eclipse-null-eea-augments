@@ -1,0 +1,14 @@
+class org/springframework/web/context/request/AbstractRequestAttributesScope
+
+get
+ (Ljava/lang/String;Lorg/springframework/beans/factory/ObjectFactory<*>;)Ljava/lang/Object;
+ (Ljava/lang/String;Lorg/springframework/beans/factory/ObjectFactory<*>;)Ljava/lang/Object;
+registerDestructionCallback
+ (Ljava/lang/String;Ljava/lang/Runnable;)V
+ (Ljava/lang/String;Ljava/lang/Runnable;)V
+remove
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.beans.factory.config.Scope)
+resolveContextualObject
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.beans.factory.config.Scope)

@@ -1,0 +1,20 @@
+class org/springframework/messaging/handler/invocation/HandlerMethodArgumentResolverComposite
+
+addResolver
+ (Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolver;)Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolverComposite;
+ (Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolver;)Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolverComposite;
+addResolvers
+ (Ljava/util/List<+Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolver;>;)Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolverComposite;
+ (Ljava/util/List<+Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolver;>;)Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolverComposite;
+addResolvers
+ ([Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolver;)Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolverComposite;
+ ([Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolver;)Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolverComposite;
+getResolvers
+ ()Ljava/util/List<Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolver;>;
+ ()Ljava/util/List<Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolver;>;
+resolveArgument
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Ljava/lang/Object;
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)L0java/lang/Object; # @Inherited(org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolver)
+supportsParameter
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z

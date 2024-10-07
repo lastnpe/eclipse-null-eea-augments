@@ -1,0 +1,17 @@
+class org/springframework/jdbc/core/SimplePropertyRowMapper
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/springframework/jdbc/core/RowMapper
+ <TT;>
+ <TT;>
+
+<init>
+ (Ljava/lang/Class<TT;>;)V
+ (Ljava/lang/Class<TT;>;)V
+<init>
+ (Ljava/lang/Class<TT;>;Lorg/springframework/core/convert/ConversionService;)V
+ (Ljava/lang/Class<TT;>;Lorg/springframework/core/convert/ConversionService;)V
+mapRow
+ (Ljava/sql/ResultSet;I)TT;
+ (Ljava/sql/ResultSet;I)T0T; # @Inherited(org.springframework.jdbc.core.RowMapper)

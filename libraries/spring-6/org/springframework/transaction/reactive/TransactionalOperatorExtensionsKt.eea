@@ -1,0 +1,8 @@
+class org/springframework/transaction/reactive/TransactionalOperatorExtensionsKt
+
+executeAndAwait
+ <T:Ljava/lang/Object;>(Lorg/springframework/transaction/reactive/TransactionalOperator;Lkotlin/jvm/functions/Function2<-Lorg/springframework/transaction/ReactiveTransaction;-Lkotlin/coroutines/Continuation<-TT;>;+Ljava/lang/Object;>;Lkotlin/coroutines/Continuation<-TT;>;)Ljava/lang/Object;
+ <T:Ljava/lang/Object;>(Lorg/springframework/transaction/reactive/TransactionalOperator;Lkotlin/jvm/functions/Function2<-Lorg/springframework/transaction/ReactiveTransaction;-Lkotlin/coroutines/Continuation<-TT;>;+Ljava/lang/Object;>;Lkotlin/coroutines/Continuation<-TT;>;)L0java/lang/Object;
+transactional
+ <T:Ljava/lang/Object;>(Lkotlinx/coroutines/flow/Flow<+TT;>;Lorg/springframework/transaction/reactive/TransactionalOperator;Lkotlin/coroutines/CoroutineContext;)Lkotlinx/coroutines/flow/Flow<TT;>;
+ <T:Ljava/lang/Object;>(Lkotlinx/coroutines/flow/Flow<+TT;>;Lorg/springframework/transaction/reactive/TransactionalOperator;Lkotlin/coroutines/CoroutineContext;)L1kotlinx/coroutines/flow/Flow<TT;>;

@@ -1,0 +1,47 @@
+class org/springframework/test/web/client/match/JsonPathRequestMatchers
+
+<init>
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+doesNotExist
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+doesNotHaveJsonPath
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+exists
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+hasJsonPath
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+isArray
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+isBoolean
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+isEmpty
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+isMap
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+isNotEmpty
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+isNumber
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+isString
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+value
+ (Ljava/lang/Object;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/lang/Object;)Lorg/springframework/test/web/client/RequestMatcher;
+value
+ <T:Ljava/lang/Object;>(Lorg/hamcrest/Matcher<-TT;>;)Lorg/springframework/test/web/client/RequestMatcher;
+ <T:Ljava/lang/Object;>(Lorg/hamcrest/Matcher<-TT;>;)Lorg/springframework/test/web/client/RequestMatcher;
+value
+ <T:Ljava/lang/Object;>(Lorg/hamcrest/Matcher<-TT;>;Ljava/lang/Class<TT;>;)Lorg/springframework/test/web/client/RequestMatcher;
+ <T:Ljava/lang/Object;>(Lorg/hamcrest/Matcher<-TT;>;Ljava/lang/Class<TT;>;)Lorg/springframework/test/web/client/RequestMatcher;

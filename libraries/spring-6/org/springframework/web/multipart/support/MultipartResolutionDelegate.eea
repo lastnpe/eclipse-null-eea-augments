@@ -1,0 +1,18 @@
+class org/springframework/web/multipart/support/MultipartResolutionDelegate
+
+UNRESOLVABLE
+ Ljava/lang/Object;
+ L1java/lang/Object;
+
+isMultipartArgument
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z
+isMultipartRequest
+ (Ljakarta/servlet/http/HttpServletRequest;)Z
+ (Ljakarta/servlet/http/HttpServletRequest;)Z
+resolveMultipartArgument
+ (Ljava/lang/String;Lorg/springframework/core/MethodParameter;Ljakarta/servlet/http/HttpServletRequest;)Ljava/lang/Object;
+ (Ljava/lang/String;Lorg/springframework/core/MethodParameter;Ljakarta/servlet/http/HttpServletRequest;)L0java/lang/Object;
+resolveMultipartRequest
+ (Lorg/springframework/web/context/request/NativeWebRequest;)Lorg/springframework/web/multipart/MultipartRequest;
+ (Lorg/springframework/web/context/request/NativeWebRequest;)L0org/springframework/web/multipart/MultipartRequest;

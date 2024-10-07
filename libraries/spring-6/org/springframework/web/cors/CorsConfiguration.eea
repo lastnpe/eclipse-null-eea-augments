@@ -1,0 +1,93 @@
+class org/springframework/web/cors/CorsConfiguration
+
+ALL
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Lorg/springframework/web/cors/CorsConfiguration;)V
+ (Lorg/springframework/web/cors/CorsConfiguration;)V
+addAllowedHeader
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+addAllowedMethod
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+addAllowedMethod
+ (Lorg/springframework/http/HttpMethod;)V
+ (Lorg/springframework/http/HttpMethod;)V
+addAllowedOrigin
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+addAllowedOriginPattern
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+addExposedHeader
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+applyPermitDefaultValues
+ ()Lorg/springframework/web/cors/CorsConfiguration;
+ ()Lorg/springframework/web/cors/CorsConfiguration;
+checkHeaders
+ (Ljava/util/List<Ljava/lang/String;>;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/util/List<Ljava/lang/String;>;)L0java/util/List<Ljava/lang/String;>;
+checkHttpMethod
+ (Lorg/springframework/http/HttpMethod;)Ljava/util/List<Lorg/springframework/http/HttpMethod;>;
+ (Lorg/springframework/http/HttpMethod;)L0java/util/List<Lorg/springframework/http/HttpMethod;>;
+checkOrigin
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+combine
+ (Lorg/springframework/web/cors/CorsConfiguration;)Lorg/springframework/web/cors/CorsConfiguration;
+ (Lorg/springframework/web/cors/CorsConfiguration;)Lorg/springframework/web/cors/CorsConfiguration;
+getAllowCredentials
+ ()Ljava/lang/Boolean;
+ ()L0java/lang/Boolean;
+getAllowPrivateNetwork
+ ()Ljava/lang/Boolean;
+ ()L0java/lang/Boolean;
+getAllowedHeaders
+ ()Ljava/util/List<Ljava/lang/String;>;
+ ()L0java/util/List<Ljava/lang/String;>;
+getAllowedMethods
+ ()Ljava/util/List<Ljava/lang/String;>;
+ ()L0java/util/List<Ljava/lang/String;>;
+getAllowedOriginPatterns
+ ()Ljava/util/List<Ljava/lang/String;>;
+ ()L0java/util/List<Ljava/lang/String;>;
+getAllowedOrigins
+ ()Ljava/util/List<Ljava/lang/String;>;
+ ()L0java/util/List<Ljava/lang/String;>;
+getExposedHeaders
+ ()Ljava/util/List<Ljava/lang/String;>;
+ ()L0java/util/List<Ljava/lang/String;>;
+getMaxAge
+ ()Ljava/lang/Long;
+ ()L0java/lang/Long;
+setAllowCredentials
+ (Ljava/lang/Boolean;)V
+ (Ljava/lang/Boolean;)V
+setAllowPrivateNetwork
+ (Ljava/lang/Boolean;)V
+ (Ljava/lang/Boolean;)V
+setAllowedHeaders
+ (Ljava/util/List<Ljava/lang/String;>;)V
+ (Ljava/util/List<Ljava/lang/String;>;)V
+setAllowedMethods
+ (Ljava/util/List<Ljava/lang/String;>;)V
+ (Ljava/util/List<Ljava/lang/String;>;)V
+setAllowedOriginPatterns
+ (Ljava/util/List<Ljava/lang/String;>;)Lorg/springframework/web/cors/CorsConfiguration;
+ (Ljava/util/List<Ljava/lang/String;>;)Lorg/springframework/web/cors/CorsConfiguration;
+setAllowedOrigins
+ (Ljava/util/List<Ljava/lang/String;>;)V
+ (Ljava/util/List<Ljava/lang/String;>;)V
+setExposedHeaders
+ (Ljava/util/List<Ljava/lang/String;>;)V
+ (Ljava/util/List<Ljava/lang/String;>;)V
+setMaxAge
+ (Ljava/lang/Long;)V
+ (Ljava/lang/Long;)V
+setMaxAge
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V

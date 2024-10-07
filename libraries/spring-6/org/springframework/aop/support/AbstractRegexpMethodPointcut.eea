@@ -1,0 +1,44 @@
+class org/springframework/aop/support/AbstractRegexpMethodPointcut
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getExcludedPatterns
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getPatterns
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+initExcludedPatternRepresentation
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+initPatternRepresentation
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+matches
+ (Ljava/lang/String;I)Z
+ (Ljava/lang/String;I)Z
+matches
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Z
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Z
+matchesExclusion
+ (Ljava/lang/String;I)Z
+ (Ljava/lang/String;I)Z
+matchesPattern
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+setExcludedPattern
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setExcludedPatterns
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setPattern
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPatterns
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

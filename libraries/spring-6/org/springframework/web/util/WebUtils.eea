@@ -1,0 +1,150 @@
+class org/springframework/web/util/WebUtils
+
+CONTENT_TYPE_CHARSET_PREFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+DEFAULT_CHARACTER_ENCODING
+ Ljava/lang/String;
+ L1java/lang/String;
+DEFAULT_WEB_APP_ROOT_KEY
+ Ljava/lang/String;
+ L1java/lang/String;
+ERROR_EXCEPTION_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+ERROR_EXCEPTION_TYPE_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+ERROR_MESSAGE_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+ERROR_REQUEST_URI_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+ERROR_SERVLET_NAME_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+ERROR_STATUS_CODE_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+FORWARD_CONTEXT_PATH_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+FORWARD_PATH_INFO_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+FORWARD_QUERY_STRING_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+FORWARD_REQUEST_URI_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+FORWARD_SERVLET_PATH_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+HTML_ESCAPE_CONTEXT_PARAM
+ Ljava/lang/String;
+ L1java/lang/String;
+INCLUDE_CONTEXT_PATH_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+INCLUDE_PATH_INFO_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+INCLUDE_QUERY_STRING_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+INCLUDE_REQUEST_URI_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+INCLUDE_SERVLET_PATH_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+RESPONSE_ENCODED_HTML_ESCAPE_CONTEXT_PARAM
+ Ljava/lang/String;
+ L1java/lang/String;
+SESSION_MUTEX_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+SUBMIT_IMAGE_SUFFIXES
+ [Ljava/lang/String;
+ [1Ljava/lang/String;
+TEMP_DIR_CONTEXT_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+WEB_APP_ROOT_KEY_PARAM
+ Ljava/lang/String;
+ L1java/lang/String;
+
+clearErrorRequestAttributes
+ (Ljakarta/servlet/http/HttpServletRequest;)V
+ (Ljakarta/servlet/http/HttpServletRequest;)V
+exposeErrorRequestAttributes
+ (Ljakarta/servlet/http/HttpServletRequest;Ljava/lang/Throwable;Ljava/lang/String;)V
+ (Ljakarta/servlet/http/HttpServletRequest;Ljava/lang/Throwable;Ljava/lang/String;)V
+findParameterValue
+ (Ljakarta/servlet/ServletRequest;Ljava/lang/String;)Ljava/lang/String;
+ (Ljakarta/servlet/ServletRequest;Ljava/lang/String;)L0java/lang/String;
+findParameterValue
+ (Ljava/util/Map<Ljava/lang/String;*>;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/util/Map<Ljava/lang/String;*>;Ljava/lang/String;)L0java/lang/String;
+getCookie
+ (Ljakarta/servlet/http/HttpServletRequest;Ljava/lang/String;)Ljakarta/servlet/http/Cookie;
+ (Ljakarta/servlet/http/HttpServletRequest;Ljava/lang/String;)L0jakarta/servlet/http/Cookie;
+getDefaultHtmlEscape
+ (Ljakarta/servlet/ServletContext;)Ljava/lang/Boolean;
+ (Ljakarta/servlet/ServletContext;)L0java/lang/Boolean;
+getNativeRequest
+ <T:Ljava/lang/Object;>(Ljakarta/servlet/ServletRequest;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljakarta/servlet/ServletRequest;Ljava/lang/Class<TT;>;)T0T;
+getNativeResponse
+ <T:Ljava/lang/Object;>(Ljakarta/servlet/ServletResponse;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljakarta/servlet/ServletResponse;Ljava/lang/Class<TT;>;)T0T;
+getParametersStartingWith
+ (Ljakarta/servlet/ServletRequest;Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ (Ljakarta/servlet/ServletRequest;Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getRealPath
+ (Ljakarta/servlet/ServletContext;Ljava/lang/String;)Ljava/lang/String;
+ (Ljakarta/servlet/ServletContext;Ljava/lang/String;)Ljava/lang/String;
+getRequiredSessionAttribute
+ (Ljakarta/servlet/http/HttpServletRequest;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljakarta/servlet/http/HttpServletRequest;Ljava/lang/String;)Ljava/lang/Object;
+getResponseEncodedHtmlEscape
+ (Ljakarta/servlet/ServletContext;)Ljava/lang/Boolean;
+ (Ljakarta/servlet/ServletContext;)L0java/lang/Boolean;
+getSessionAttribute
+ (Ljakarta/servlet/http/HttpServletRequest;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljakarta/servlet/http/HttpServletRequest;Ljava/lang/String;)L0java/lang/Object;
+getSessionId
+ (Ljakarta/servlet/http/HttpServletRequest;)Ljava/lang/String;
+ (Ljakarta/servlet/http/HttpServletRequest;)L0java/lang/String;
+getSessionMutex
+ (Ljakarta/servlet/http/HttpSession;)Ljava/lang/Object;
+ (Ljakarta/servlet/http/HttpSession;)Ljava/lang/Object;
+getTempDir
+ (Ljakarta/servlet/ServletContext;)Ljava/io/File;
+ (Ljakarta/servlet/ServletContext;)Ljava/io/File;
+hasSubmitParameter
+ (Ljakarta/servlet/ServletRequest;Ljava/lang/String;)Z
+ (Ljakarta/servlet/ServletRequest;Ljava/lang/String;)Z
+isIncludeRequest
+ (Ljakarta/servlet/ServletRequest;)Z
+ (Ljakarta/servlet/ServletRequest;)Z
+isSameOrigin
+ (Lorg/springframework/http/HttpRequest;)Z
+ (Lorg/springframework/http/HttpRequest;)Z
+isValidOrigin
+ (Lorg/springframework/http/HttpRequest;Ljava/util/Collection<Ljava/lang/String;>;)Z
+ (Lorg/springframework/http/HttpRequest;Ljava/util/Collection<Ljava/lang/String;>;)Z
+parseMatrixVariables
+ (Ljava/lang/String;)Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+ (Ljava/lang/String;)Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+removeWebAppRootSystemProperty
+ (Ljakarta/servlet/ServletContext;)V
+ (Ljakarta/servlet/ServletContext;)V
+setSessionAttribute
+ (Ljakarta/servlet/http/HttpServletRequest;Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljakarta/servlet/http/HttpServletRequest;Ljava/lang/String;Ljava/lang/Object;)V
+setWebAppRootSystemProperty
+ (Ljakarta/servlet/ServletContext;)V
+ (Ljakarta/servlet/ServletContext;)V

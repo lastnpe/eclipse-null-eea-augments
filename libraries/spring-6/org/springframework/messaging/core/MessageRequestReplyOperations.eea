@@ -1,0 +1,28 @@
+class org/springframework/messaging/core/MessageRequestReplyOperations
+ <D:Ljava/lang/Object;>
+ <D:Ljava/lang/Object;>
+
+convertSendAndReceive
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;)T0T;
+convertSendAndReceive
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;Lorg/springframework/messaging/core/MessagePostProcessor;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;Lorg/springframework/messaging/core/MessagePostProcessor;)T0T;
+convertSendAndReceive
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Object;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Object;Ljava/lang/Class<TT;>;)T0T;
+convertSendAndReceive
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Object;Ljava/lang/Class<TT;>;Lorg/springframework/messaging/core/MessagePostProcessor;)TT;
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Object;Ljava/lang/Class<TT;>;Lorg/springframework/messaging/core/MessagePostProcessor;)T0T;
+convertSendAndReceive
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/lang/Class<TT;>;)T0T;
+convertSendAndReceive
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/lang/Class<TT;>;Lorg/springframework/messaging/core/MessagePostProcessor;)TT;
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/lang/Class<TT;>;Lorg/springframework/messaging/core/MessagePostProcessor;)T0T;
+sendAndReceive
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/Message<*>;
+ (Lorg/springframework/messaging/Message<*>;)L0org/springframework/messaging/Message<*>;
+sendAndReceive
+ (TD;Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/Message<*>;
+ (TD;Lorg/springframework/messaging/Message<*>;)L0org/springframework/messaging/Message<*>;

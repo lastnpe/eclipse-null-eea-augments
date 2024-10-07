@@ -1,0 +1,128 @@
+class org/springframework/test/web/servlet/MockHttpServletRequestDsl
+
+<init>
+ (Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;)V
+ (Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;)V
+accept
+ ([Lorg/springframework/http/MediaType;)V
+ ([Lorg/springframework/http/MediaType;)V
+cookie
+ ([Ljakarta/servlet/http/Cookie;)V
+ ([Ljakarta/servlet/http/Cookie;)V
+flashAttr
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+getAccept
+ ()Lorg/springframework/http/MediaType;
+ ()L0org/springframework/http/MediaType;
+getCharacterEncoding
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getContent
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getContentType
+ ()Lorg/springframework/http/MediaType;
+ ()L0org/springframework/http/MediaType;
+getContextPath
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getFlashAttrs
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()L0java/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getParams
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+ ()L0org/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+getPathInfo
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getPrincipal
+ ()Ljava/security/Principal;
+ ()L0java/security/Principal;
+getQueryParams
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+ ()L0org/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+getSecure
+ ()Ljava/lang/Boolean;
+ ()L0java/lang/Boolean;
+getServletPath
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getSession
+ ()Lorg/springframework/mock/web/MockHttpSession;
+ ()L0org/springframework/mock/web/MockHttpSession;
+getSessionAttrs
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()L0java/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+header
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+headers
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/http/HttpHeaders;Lkotlin/Unit;>;)V
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/http/HttpHeaders;Lkotlin/Unit;>;)V
+locale
+ ([Ljava/util/Locale;)V
+ ([Ljava/util/Locale;)V
+merge
+ (Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;)V
+ (Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;)V
+param
+ (Ljava/lang/String;[Ljava/lang/String;)V
+ (Ljava/lang/String;[Ljava/lang/String;)V
+perform$spring_test
+ (Lorg/springframework/test/web/servlet/MockMvc;)Lorg/springframework/test/web/servlet/ResultActionsDsl;
+ (Lorg/springframework/test/web/servlet/MockMvc;)L1org/springframework/test/web/servlet/ResultActionsDsl;
+queryParam
+ (Ljava/lang/String;[Ljava/lang/String;)V
+ (Ljava/lang/String;[Ljava/lang/String;)V
+requestAttr
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+sessionAttr
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+setAccept
+ (Lorg/springframework/http/MediaType;)V
+ (Lorg/springframework/http/MediaType;)V
+setCharacterEncoding
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setContent
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setContentType
+ (Lorg/springframework/http/MediaType;)V
+ (Lorg/springframework/http/MediaType;)V
+setContextPath
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setFlashAttrs
+ (Ljava/util/Map<Ljava/lang/String;+Ljava/lang/Object;>;)V
+ (Ljava/util/Map<Ljava/lang/String;+Ljava/lang/Object;>;)V
+setParams
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)V
+setPathInfo
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPrincipal
+ (Ljava/security/Principal;)V
+ (Ljava/security/Principal;)V
+setQueryParams
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)V
+setSecure
+ (Ljava/lang/Boolean;)V
+ (Ljava/lang/Boolean;)V
+setServletPath
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSession
+ (Lorg/springframework/mock/web/MockHttpSession;)V
+ (Lorg/springframework/mock/web/MockHttpSession;)V
+setSessionAttrs
+ (Ljava/util/Map<Ljava/lang/String;+Ljava/lang/Object;>;)V
+ (Ljava/util/Map<Ljava/lang/String;+Ljava/lang/Object;>;)V
+with
+ (Lorg/springframework/test/web/servlet/request/RequestPostProcessor;)V
+ (Lorg/springframework/test/web/servlet/request/RequestPostProcessor;)V

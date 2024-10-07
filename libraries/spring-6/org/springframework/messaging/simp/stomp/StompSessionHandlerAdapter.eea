@@ -1,0 +1,17 @@
+class org/springframework/messaging/simp/stomp/StompSessionHandlerAdapter
+
+afterConnected
+ (Lorg/springframework/messaging/simp/stomp/StompSession;Lorg/springframework/messaging/simp/stomp/StompHeaders;)V
+ (Lorg/springframework/messaging/simp/stomp/StompSession;Lorg/springframework/messaging/simp/stomp/StompHeaders;)V
+getPayloadType
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;)Ljava/lang/reflect/Type;
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;)Ljava/lang/reflect/Type;
+handleException
+ (Lorg/springframework/messaging/simp/stomp/StompSession;Lorg/springframework/messaging/simp/stomp/StompCommand;Lorg/springframework/messaging/simp/stomp/StompHeaders;[BLjava/lang/Throwable;)V
+ (Lorg/springframework/messaging/simp/stomp/StompSession;Lorg/springframework/messaging/simp/stomp/StompCommand;Lorg/springframework/messaging/simp/stomp/StompHeaders;[BLjava/lang/Throwable;)V
+handleFrame
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Ljava/lang/Object;)V
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Ljava/lang/Object;)V
+handleTransportError
+ (Lorg/springframework/messaging/simp/stomp/StompSession;Ljava/lang/Throwable;)V
+ (Lorg/springframework/messaging/simp/stomp/StompSession;Ljava/lang/Throwable;)V

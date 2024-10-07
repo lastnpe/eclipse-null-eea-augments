@@ -1,0 +1,12 @@
+class org/springframework/test/web/servlet/setup/SharedHttpSessionConfigurer
+
+sharedHttpSession
+ ()Lorg/springframework/test/web/servlet/setup/SharedHttpSessionConfigurer;
+ ()Lorg/springframework/test/web/servlet/setup/SharedHttpSessionConfigurer;
+
+afterConfigurerAdded
+ (Lorg/springframework/test/web/servlet/setup/ConfigurableMockMvcBuilder<*>;)V
+ (Lorg/springframework/test/web/servlet/setup/ConfigurableMockMvcBuilder<*>;)V
+beforeMockMvcCreated
+ (Lorg/springframework/test/web/servlet/setup/ConfigurableMockMvcBuilder<*>;Lorg/springframework/web/context/WebApplicationContext;)Lorg/springframework/test/web/servlet/request/RequestPostProcessor;
+ (Lorg/springframework/test/web/servlet/setup/ConfigurableMockMvcBuilder<*>;Lorg/springframework/web/context/WebApplicationContext;)L0org/springframework/test/web/servlet/request/RequestPostProcessor; # @Inherited(org.springframework.test.web.servlet.setup.MockMvcConfigurer)

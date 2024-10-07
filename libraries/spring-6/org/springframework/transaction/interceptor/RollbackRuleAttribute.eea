@@ -1,0 +1,24 @@
+class org/springframework/transaction/interceptor/RollbackRuleAttribute
+
+ROLLBACK_ON_RUNTIME_EXCEPTIONS
+ Lorg/springframework/transaction/interceptor/RollbackRuleAttribute;
+ L1org/springframework/transaction/interceptor/RollbackRuleAttribute;
+
+<init>
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getDepth
+ (Ljava/lang/Throwable;)I
+ (Ljava/lang/Throwable;)I
+getExceptionName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

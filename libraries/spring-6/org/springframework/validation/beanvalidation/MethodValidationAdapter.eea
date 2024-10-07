@@ -1,0 +1,44 @@
+class org/springframework/validation/beanvalidation/MethodValidationAdapter
+
+<init>
+ (Ljakarta/validation/Validator;)V
+ (Ljakarta/validation/Validator;)V
+<init>
+ (Ljakarta/validation/ValidatorFactory;)V
+ (Ljakarta/validation/ValidatorFactory;)V
+<init>
+ (Ljava/util/function/Supplier<Ljakarta/validation/Validator;>;)V
+ (Ljava/util/function/Supplier<Ljakarta/validation/Validator;>;)V
+determineValidationGroups
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;)[Ljava/lang/Class<*>;
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;)[Ljava/lang/Class<*>;
+getMessageCodesResolver
+ ()Lorg/springframework/validation/MessageCodesResolver;
+ ()Lorg/springframework/validation/MessageCodesResolver;
+getParameterNameDiscoverer
+ ()Lorg/springframework/core/ParameterNameDiscoverer;
+ ()Lorg/springframework/core/ParameterNameDiscoverer;
+getSpringValidatorAdapter
+ ()Ljava/util/function/Supplier<Lorg/springframework/validation/beanvalidation/SpringValidatorAdapter;>;
+ ()Ljava/util/function/Supplier<Lorg/springframework/validation/beanvalidation/SpringValidatorAdapter;>;
+invokeValidatorForArguments
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;[Ljava/lang/Class<*>;)Ljava/util/Set<Ljakarta/validation/ConstraintViolation<Ljava/lang/Object;>;>;
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;[Ljava/lang/Class<*>;)Ljava/util/Set<Ljakarta/validation/ConstraintViolation<Ljava/lang/Object;>;>;
+invokeValidatorForReturnValue
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Class<*>;)Ljava/util/Set<Ljakarta/validation/ConstraintViolation<Ljava/lang/Object;>;>;
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Class<*>;)Ljava/util/Set<Ljakarta/validation/ConstraintViolation<Ljava/lang/Object;>;>;
+setMessageCodesResolver
+ (Lorg/springframework/validation/MessageCodesResolver;)V
+ (Lorg/springframework/validation/MessageCodesResolver;)V
+setObjectNameResolver
+ (Lorg/springframework/validation/beanvalidation/MethodValidationAdapter$ObjectNameResolver;)V
+ (Lorg/springframework/validation/beanvalidation/MethodValidationAdapter$ObjectNameResolver;)V
+setParameterNameDiscoverer
+ (Lorg/springframework/core/ParameterNameDiscoverer;)V
+ (Lorg/springframework/core/ParameterNameDiscoverer;)V
+validateArguments
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;[Lorg/springframework/core/MethodParameter;[Ljava/lang/Object;[Ljava/lang/Class<*>;)Lorg/springframework/validation/method/MethodValidationResult;
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;[Lorg/springframework/core/MethodParameter;[Ljava/lang/Object;[Ljava/lang/Class<*>;)Lorg/springframework/validation/method/MethodValidationResult;
+validateReturnValue
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;Lorg/springframework/core/MethodParameter;Ljava/lang/Object;[Ljava/lang/Class<*>;)Lorg/springframework/validation/method/MethodValidationResult;
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;Lorg/springframework/core/MethodParameter;Ljava/lang/Object;[Ljava/lang/Class<*>;)Lorg/springframework/validation/method/MethodValidationResult;

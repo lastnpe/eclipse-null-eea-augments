@@ -1,0 +1,14 @@
+class org/springframework/web/server/handler/DefaultWebFilterChain
+
+<init>
+ (Lorg/springframework/web/server/WebHandler;Ljava/util/List<Lorg/springframework/web/server/WebFilter;>;)V
+ (Lorg/springframework/web/server/WebHandler;Ljava/util/List<Lorg/springframework/web/server/WebFilter;>;)V
+filter
+ (Lorg/springframework/web/server/ServerWebExchange;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/springframework/web/server/ServerWebExchange;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+getFilters
+ ()Ljava/util/List<Lorg/springframework/web/server/WebFilter;>;
+ ()Ljava/util/List<Lorg/springframework/web/server/WebFilter;>;
+getHandler
+ ()Lorg/springframework/web/server/WebHandler;
+ ()Lorg/springframework/web/server/WebHandler;

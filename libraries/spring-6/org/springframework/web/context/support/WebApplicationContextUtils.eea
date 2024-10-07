@@ -1,0 +1,32 @@
+class org/springframework/web/context/support/WebApplicationContextUtils
+
+findWebApplicationContext
+ (Ljakarta/servlet/ServletContext;)Lorg/springframework/web/context/WebApplicationContext;
+ (Ljakarta/servlet/ServletContext;)L0org/springframework/web/context/WebApplicationContext;
+getRequiredWebApplicationContext
+ (Ljakarta/servlet/ServletContext;)Lorg/springframework/web/context/WebApplicationContext;
+ (Ljakarta/servlet/ServletContext;)Lorg/springframework/web/context/WebApplicationContext;
+getWebApplicationContext
+ (Ljakarta/servlet/ServletContext;)Lorg/springframework/web/context/WebApplicationContext;
+ (Ljakarta/servlet/ServletContext;)L0org/springframework/web/context/WebApplicationContext;
+getWebApplicationContext
+ (Ljakarta/servlet/ServletContext;Ljava/lang/String;)Lorg/springframework/web/context/WebApplicationContext;
+ (Ljakarta/servlet/ServletContext;Ljava/lang/String;)L0org/springframework/web/context/WebApplicationContext;
+initServletPropertySources
+ (Lorg/springframework/core/env/MutablePropertySources;Ljakarta/servlet/ServletContext;)V
+ (Lorg/springframework/core/env/MutablePropertySources;Ljakarta/servlet/ServletContext;)V
+initServletPropertySources
+ (Lorg/springframework/core/env/MutablePropertySources;Ljakarta/servlet/ServletContext;Ljakarta/servlet/ServletConfig;)V
+ (Lorg/springframework/core/env/MutablePropertySources;Ljakarta/servlet/ServletContext;Ljakarta/servlet/ServletConfig;)V
+registerEnvironmentBeans
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;Ljakarta/servlet/ServletContext;)V
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;Ljakarta/servlet/ServletContext;)V
+registerEnvironmentBeans
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;Ljakarta/servlet/ServletContext;Ljakarta/servlet/ServletConfig;)V
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;Ljakarta/servlet/ServletContext;Ljakarta/servlet/ServletConfig;)V
+registerWebApplicationScopes
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+registerWebApplicationScopes
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;Ljakarta/servlet/ServletContext;)V
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;Ljakarta/servlet/ServletContext;)V

@@ -1,0 +1,14 @@
+class org/springframework/cache/interceptor/CacheErrorHandler
+
+handleCacheClearError
+ (Ljava/lang/RuntimeException;Lorg/springframework/cache/Cache;)V
+ (Ljava/lang/RuntimeException;Lorg/springframework/cache/Cache;)V
+handleCacheEvictError
+ (Ljava/lang/RuntimeException;Lorg/springframework/cache/Cache;Ljava/lang/Object;)V
+ (Ljava/lang/RuntimeException;Lorg/springframework/cache/Cache;Ljava/lang/Object;)V
+handleCacheGetError
+ (Ljava/lang/RuntimeException;Lorg/springframework/cache/Cache;Ljava/lang/Object;)V
+ (Ljava/lang/RuntimeException;Lorg/springframework/cache/Cache;Ljava/lang/Object;)V
+handleCachePutError
+ (Ljava/lang/RuntimeException;Lorg/springframework/cache/Cache;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/RuntimeException;Lorg/springframework/cache/Cache;Ljava/lang/Object;Ljava/lang/Object;)V

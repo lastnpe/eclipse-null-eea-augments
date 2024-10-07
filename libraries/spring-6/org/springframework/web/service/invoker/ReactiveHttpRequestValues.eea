@@ -1,0 +1,18 @@
+class org/springframework/web/service/invoker/ReactiveHttpRequestValues
+
+builder
+ ()Lorg/springframework/web/service/invoker/ReactiveHttpRequestValues$Builder;
+ ()Lorg/springframework/web/service/invoker/ReactiveHttpRequestValues$Builder;
+
+getBody
+ ()Lorg/reactivestreams/Publisher<*>;
+ ()L0org/reactivestreams/Publisher<*>; # @Inherited(org.springframework.web.service.invoker.HttpRequestValues)
+getBodyElementType
+ ()Lorg/springframework/core/ParameterizedTypeReference<*>;
+ ()L0org/springframework/core/ParameterizedTypeReference<*>; # @Inherited(org.springframework.web.service.invoker.HttpRequestValues)
+getBodyPublisher
+ ()Lorg/reactivestreams/Publisher<*>;
+ ()L0org/reactivestreams/Publisher<*>;
+getBodyPublisherElementType
+ ()Lorg/springframework/core/ParameterizedTypeReference<*>;
+ ()L0org/springframework/core/ParameterizedTypeReference<*>;

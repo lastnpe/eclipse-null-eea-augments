@@ -1,0 +1,12 @@
+class org/springframework/context/event/GenericApplicationListener
+
+forEventType
+ <E:Lorg/springframework/context/ApplicationEvent;>(Ljava/lang/Class<TE;>;Ljava/util/function/Consumer<TE;>;)Lorg/springframework/context/event/GenericApplicationListener;
+ <E:Lorg/springframework/context/ApplicationEvent;>(Ljava/lang/Class<TE;>;Ljava/util/function/Consumer<TE;>;)Lorg/springframework/context/event/GenericApplicationListener;
+
+supportsEventType
+ (Ljava/lang/Class<+Lorg/springframework/context/ApplicationEvent;>;)Z
+ (Ljava/lang/Class<+Lorg/springframework/context/ApplicationEvent;>;)Z
+supportsEventType
+ (Lorg/springframework/core/ResolvableType;)Z
+ (Lorg/springframework/core/ResolvableType;)Z

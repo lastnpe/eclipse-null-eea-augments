@@ -1,0 +1,27 @@
+class org/springframework/transaction/interceptor/RuleBasedTransactionAttribute
+
+PREFIX_COMMIT_RULE
+ Ljava/lang/String;
+ L1java/lang/String;
+PREFIX_ROLLBACK_RULE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (ILjava/util/List<Lorg/springframework/transaction/interceptor/RollbackRuleAttribute;>;)V
+ (ILjava/util/List<Lorg/springframework/transaction/interceptor/RollbackRuleAttribute;>;)V
+<init>
+ (Lorg/springframework/transaction/interceptor/RuleBasedTransactionAttribute;)V
+ (Lorg/springframework/transaction/interceptor/RuleBasedTransactionAttribute;)V
+getRollbackRules
+ ()Ljava/util/List<Lorg/springframework/transaction/interceptor/RollbackRuleAttribute;>;
+ ()Ljava/util/List<Lorg/springframework/transaction/interceptor/RollbackRuleAttribute;>;
+rollbackOn
+ (Ljava/lang/Throwable;)Z
+ (Ljava/lang/Throwable;)Z
+setRollbackRules
+ (Ljava/util/List<Lorg/springframework/transaction/interceptor/RollbackRuleAttribute;>;)V
+ (Ljava/util/List<Lorg/springframework/transaction/interceptor/RollbackRuleAttribute;>;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.springframework.transaction.support.DefaultTransactionDefinition)

@@ -1,0 +1,20 @@
+class org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator
+
+findCandidateAdvisors
+ ()Ljava/util/List<Lorg/springframework/aop/Advisor;>;
+ ()Ljava/util/List<Lorg/springframework/aop/Advisor;>;
+initBeanFactory
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+isEligibleAspectBean
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isInfrastructureClass
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+setAspectJAdvisorFactory
+ (Lorg/springframework/aop/aspectj/annotation/AspectJAdvisorFactory;)V
+ (Lorg/springframework/aop/aspectj/annotation/AspectJAdvisorFactory;)V
+setIncludePatterns
+ (Ljava/util/List<Ljava/lang/String;>;)V
+ (Ljava/util/List<Ljava/lang/String;>;)V

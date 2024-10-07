@@ -1,0 +1,36 @@
+class org/springframework/web/method/annotation/ModelAttributeMethodProcessor
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+bindRequestParameters
+ (Lorg/springframework/web/bind/WebDataBinder;Lorg/springframework/web/context/request/NativeWebRequest;)V
+ (Lorg/springframework/web/bind/WebDataBinder;Lorg/springframework/web/context/request/NativeWebRequest;)V
+constructAttribute
+ (Lorg/springframework/web/bind/WebDataBinder;Lorg/springframework/web/context/request/NativeWebRequest;)V
+ (Lorg/springframework/web/bind/WebDataBinder;Lorg/springframework/web/context/request/NativeWebRequest;)V
+createAttribute
+ (Ljava/lang/String;Lorg/springframework/core/MethodParameter;Lorg/springframework/web/bind/support/WebDataBinderFactory;Lorg/springframework/web/context/request/NativeWebRequest;)Ljava/lang/Object;
+ (Ljava/lang/String;Lorg/springframework/core/MethodParameter;Lorg/springframework/web/bind/support/WebDataBinderFactory;Lorg/springframework/web/context/request/NativeWebRequest;)L0java/lang/Object;
+handleReturnValue
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;Lorg/springframework/web/method/support/ModelAndViewContainer;Lorg/springframework/web/context/request/NativeWebRequest;)V
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;Lorg/springframework/web/method/support/ModelAndViewContainer;Lorg/springframework/web/context/request/NativeWebRequest;)V
+isBindExceptionRequired
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z
+isBindExceptionRequired
+ (Lorg/springframework/web/bind/WebDataBinder;Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/web/bind/WebDataBinder;Lorg/springframework/core/MethodParameter;)Z
+resolveArgument
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/web/method/support/ModelAndViewContainer;Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/bind/support/WebDataBinderFactory;)Ljava/lang/Object;
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/web/method/support/ModelAndViewContainer;Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/bind/support/WebDataBinderFactory;)L0java/lang/Object; # @Inherited(org.springframework.web.method.support.HandlerMethodArgumentResolver)
+supportsParameter
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z
+supportsReturnType
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z
+validateIfApplicable
+ (Lorg/springframework/web/bind/WebDataBinder;Lorg/springframework/core/MethodParameter;)V
+ (Lorg/springframework/web/bind/WebDataBinder;Lorg/springframework/core/MethodParameter;)V

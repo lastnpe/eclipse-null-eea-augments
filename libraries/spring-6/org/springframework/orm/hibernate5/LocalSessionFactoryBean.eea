@@ -1,0 +1,102 @@
+class org/springframework/orm/hibernate5/LocalSessionFactoryBean
+
+super org/springframework/beans/factory/FactoryBean
+ <Lorg/hibernate/SessionFactory;>
+ <Lorg/hibernate/SessionFactory;>
+
+buildSessionFactory
+ (Lorg/springframework/orm/hibernate5/LocalSessionFactoryBuilder;)Lorg/hibernate/SessionFactory;
+ (Lorg/springframework/orm/hibernate5/LocalSessionFactoryBuilder;)Lorg/hibernate/SessionFactory;
+getConfiguration
+ ()Lorg/hibernate/cfg/Configuration;
+ ()Lorg/hibernate/cfg/Configuration;
+getHibernateProperties
+ ()Ljava/util/Properties;
+ ()Ljava/util/Properties;
+getMetadataSources
+ ()Lorg/hibernate/boot/MetadataSources;
+ ()Lorg/hibernate/boot/MetadataSources;
+getObject
+ ()Lorg/hibernate/SessionFactory;
+ ()L0org/hibernate/SessionFactory;
+getObjectType
+ ()Ljava/lang/Class<*>;
+ ()L0java/lang/Class<*>; # @Inherited(org.springframework.beans.factory.FactoryBean)
+getResourceLoader
+ ()Lorg/springframework/core/io/ResourceLoader;
+ ()Lorg/springframework/core/io/ResourceLoader;
+setAnnotatedClasses
+ ([Ljava/lang/Class<*>;)V
+ ([Ljava/lang/Class<*>;)V
+setAnnotatedPackages
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setBootstrapExecutor
+ (Lorg/springframework/core/task/AsyncTaskExecutor;)V
+ (Lorg/springframework/core/task/AsyncTaskExecutor;)V
+setCacheRegionFactory
+ (Lorg/hibernate/cache/spi/RegionFactory;)V
+ (Lorg/hibernate/cache/spi/RegionFactory;)V
+setCacheableMappingLocations
+ ([Lorg/springframework/core/io/Resource;)V
+ ([Lorg/springframework/core/io/Resource;)V
+setConfigLocation
+ (Lorg/springframework/core/io/Resource;)V
+ (Lorg/springframework/core/io/Resource;)V
+setConfigLocations
+ ([Lorg/springframework/core/io/Resource;)V
+ ([Lorg/springframework/core/io/Resource;)V
+setCurrentTenantIdentifierResolver
+ (Lorg/hibernate/context/spi/CurrentTenantIdentifierResolver;)V
+ (Lorg/hibernate/context/spi/CurrentTenantIdentifierResolver;)V
+setDataSource
+ (Ljavax/sql/DataSource;)V
+ (Ljavax/sql/DataSource;)V
+setEntityInterceptor
+ (Lorg/hibernate/Interceptor;)V
+ (Lorg/hibernate/Interceptor;)V
+setEntityTypeFilters
+ ([Lorg/springframework/core/type/filter/TypeFilter;)V
+ ([Lorg/springframework/core/type/filter/TypeFilter;)V
+setHibernateIntegrators
+ ([Lorg/hibernate/integrator/spi/Integrator;)V
+ ([Lorg/hibernate/integrator/spi/Integrator;)V
+setHibernateProperties
+ (Ljava/util/Properties;)V
+ (Ljava/util/Properties;)V
+setImplicitNamingStrategy
+ (Lorg/hibernate/boot/model/naming/ImplicitNamingStrategy;)V
+ (Lorg/hibernate/boot/model/naming/ImplicitNamingStrategy;)V
+setJtaTransactionManager
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setMappingDirectoryLocations
+ ([Lorg/springframework/core/io/Resource;)V
+ ([Lorg/springframework/core/io/Resource;)V
+setMappingJarLocations
+ ([Lorg/springframework/core/io/Resource;)V
+ ([Lorg/springframework/core/io/Resource;)V
+setMappingLocations
+ ([Lorg/springframework/core/io/Resource;)V
+ ([Lorg/springframework/core/io/Resource;)V
+setMappingResources
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setMetadataSources
+ (Lorg/hibernate/boot/MetadataSources;)V
+ (Lorg/hibernate/boot/MetadataSources;)V
+setMultiTenantConnectionProvider
+ (Lorg/hibernate/engine/jdbc/connections/spi/MultiTenantConnectionProvider;)V
+ (Lorg/hibernate/engine/jdbc/connections/spi/MultiTenantConnectionProvider;)V
+setPackagesToScan
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setPhysicalNamingStrategy
+ (Lorg/hibernate/boot/model/naming/PhysicalNamingStrategy;)V
+ (Lorg/hibernate/boot/model/naming/PhysicalNamingStrategy;)V
+setResourceLoader
+ (Lorg/springframework/core/io/ResourceLoader;)V
+ (Lorg/springframework/core/io/ResourceLoader;)V

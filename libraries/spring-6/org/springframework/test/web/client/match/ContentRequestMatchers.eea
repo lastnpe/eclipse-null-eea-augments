@@ -1,0 +1,50 @@
+class org/springframework/test/web/client/match/ContentRequestMatchers
+
+bytes
+ ([B)Lorg/springframework/test/web/client/RequestMatcher;
+ ([B)Lorg/springframework/test/web/client/RequestMatcher;
+contentType
+ (Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;
+contentType
+ (Lorg/springframework/http/MediaType;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Lorg/springframework/http/MediaType;)Lorg/springframework/test/web/client/RequestMatcher;
+contentTypeCompatibleWith
+ (Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;
+contentTypeCompatibleWith
+ (Lorg/springframework/http/MediaType;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Lorg/springframework/http/MediaType;)Lorg/springframework/test/web/client/RequestMatcher;
+formData
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)Lorg/springframework/test/web/client/RequestMatcher;
+formDataContains
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)Lorg/springframework/test/web/client/RequestMatcher;
+json
+ (Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;
+json
+ (Ljava/lang/String;Z)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/lang/String;Z)Lorg/springframework/test/web/client/RequestMatcher;
+multipartData
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;*>;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;*>;)Lorg/springframework/test/web/client/RequestMatcher;
+multipartDataContains
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/test/web/client/RequestMatcher;
+node
+ (Lorg/hamcrest/Matcher<-Lorg/w3c/dom/Node;>;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Lorg/hamcrest/Matcher<-Lorg/w3c/dom/Node;>;)Lorg/springframework/test/web/client/RequestMatcher;
+source
+ (Lorg/hamcrest/Matcher<-Ljavax/xml/transform/Source;>;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Lorg/hamcrest/Matcher<-Ljavax/xml/transform/Source;>;)Lorg/springframework/test/web/client/RequestMatcher;
+string
+ (Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;
+string
+ (Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/client/RequestMatcher;
+xml
+ (Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;

@@ -1,0 +1,26 @@
+class org/springframework/test/context/support/AbstractContextLoader
+
+customizeContext
+ (Lorg/springframework/context/ConfigurableApplicationContext;Lorg/springframework/test/context/MergedContextConfiguration;)V
+ (Lorg/springframework/context/ConfigurableApplicationContext;Lorg/springframework/test/context/MergedContextConfiguration;)V
+generateDefaultLocations
+ (Ljava/lang/Class<*>;)[Ljava/lang/String;
+ (Ljava/lang/Class<*>;)[Ljava/lang/String;
+getResourceSuffix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getResourceSuffixes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+modifyLocations
+ (Ljava/lang/Class<*>;[Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/Class<*>;[Ljava/lang/String;)[Ljava/lang/String;
+prepareContext
+ (Lorg/springframework/context/ConfigurableApplicationContext;Lorg/springframework/test/context/MergedContextConfiguration;)V
+ (Lorg/springframework/context/ConfigurableApplicationContext;Lorg/springframework/test/context/MergedContextConfiguration;)V
+processContextConfiguration
+ (Lorg/springframework/test/context/ContextConfigurationAttributes;)V
+ (Lorg/springframework/test/context/ContextConfigurationAttributes;)V
+processLocations
+ (Ljava/lang/Class<*>;[Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/Class<*>;[Ljava/lang/String;)[Ljava/lang/String;

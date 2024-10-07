@@ -1,0 +1,71 @@
+class org/springframework/orm/hibernate5/HibernateTransactionManager
+
+<init>
+ (Lorg/hibernate/SessionFactory;)V
+ (Lorg/hibernate/SessionFactory;)V
+convertHibernateAccessException
+ (Lorg/hibernate/HibernateException;)Lorg/springframework/dao/DataAccessException;
+ (Lorg/hibernate/HibernateException;)Lorg/springframework/dao/DataAccessException;
+disconnectOnCompletion
+ (Lorg/hibernate/Session;)V
+ (Lorg/hibernate/Session;)V
+doBegin
+ (Ljava/lang/Object;Lorg/springframework/transaction/TransactionDefinition;)V
+ (Ljava/lang/Object;Lorg/springframework/transaction/TransactionDefinition;)V
+doCleanupAfterCompletion
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+doCommit
+ (Lorg/springframework/transaction/support/DefaultTransactionStatus;)V
+ (Lorg/springframework/transaction/support/DefaultTransactionStatus;)V
+doGetTransaction
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+doResume
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+doRollback
+ (Lorg/springframework/transaction/support/DefaultTransactionStatus;)V
+ (Lorg/springframework/transaction/support/DefaultTransactionStatus;)V
+doSetRollbackOnly
+ (Lorg/springframework/transaction/support/DefaultTransactionStatus;)V
+ (Lorg/springframework/transaction/support/DefaultTransactionStatus;)V
+doSuspend
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+getDataSource
+ ()Ljavax/sql/DataSource;
+ ()L0javax/sql/DataSource;
+getEntityInterceptor
+ ()Lorg/hibernate/Interceptor;
+ ()L0org/hibernate/Interceptor;
+getResourceFactory
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getSessionFactory
+ ()Lorg/hibernate/SessionFactory;
+ ()L0org/hibernate/SessionFactory;
+isExistingTransaction
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+obtainSessionFactory
+ ()Lorg/hibernate/SessionFactory;
+ ()Lorg/hibernate/SessionFactory;
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setDataSource
+ (Ljavax/sql/DataSource;)V
+ (Ljavax/sql/DataSource;)V
+setEntityInterceptor
+ (Lorg/hibernate/Interceptor;)V
+ (Lorg/hibernate/Interceptor;)V
+setEntityInterceptorBeanName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSessionFactory
+ (Lorg/hibernate/SessionFactory;)V
+ (Lorg/hibernate/SessionFactory;)V
+setSessionInitializer
+ (Ljava/util/function/Consumer<Lorg/hibernate/Session;>;)V
+ (Ljava/util/function/Consumer<Lorg/hibernate/Session;>;)V

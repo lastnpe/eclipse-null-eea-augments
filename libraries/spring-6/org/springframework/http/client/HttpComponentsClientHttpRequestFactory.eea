@@ -1,0 +1,38 @@
+class org/springframework/http/client/HttpComponentsClientHttpRequestFactory
+
+<init>
+ (Lorg/apache/hc/client5/http/classic/HttpClient;)V
+ (Lorg/apache/hc/client5/http/classic/HttpClient;)V
+createHttpContext
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;)Lorg/apache/hc/core5/http/protocol/HttpContext;
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;)L0org/apache/hc/core5/http/protocol/HttpContext;
+createHttpUriRequest
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;)Lorg/apache/hc/core5/http/ClassicHttpRequest;
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;)Lorg/apache/hc/core5/http/ClassicHttpRequest;
+createRequest
+ (Ljava/net/URI;Lorg/springframework/http/HttpMethod;)Lorg/springframework/http/client/ClientHttpRequest;
+ (Ljava/net/URI;Lorg/springframework/http/HttpMethod;)Lorg/springframework/http/client/ClientHttpRequest;
+createRequestConfig
+ (Ljava/lang/Object;)Lorg/apache/hc/client5/http/config/RequestConfig;
+ (Ljava/lang/Object;)L0org/apache/hc/client5/http/config/RequestConfig;
+getHttpClient
+ ()Lorg/apache/hc/client5/http/classic/HttpClient;
+ ()Lorg/apache/hc/client5/http/classic/HttpClient;
+mergeRequestConfig
+ (Lorg/apache/hc/client5/http/config/RequestConfig;)Lorg/apache/hc/client5/http/config/RequestConfig;
+ (Lorg/apache/hc/client5/http/config/RequestConfig;)Lorg/apache/hc/client5/http/config/RequestConfig;
+postProcessHttpRequest
+ (Lorg/apache/hc/core5/http/ClassicHttpRequest;)V
+ (Lorg/apache/hc/core5/http/ClassicHttpRequest;)V
+setConnectTimeout
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V
+setConnectionRequestTimeout
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V
+setHttpClient
+ (Lorg/apache/hc/client5/http/classic/HttpClient;)V
+ (Lorg/apache/hc/client5/http/classic/HttpClient;)V
+setHttpContextFactory
+ (Ljava/util/function/BiFunction<Lorg/springframework/http/HttpMethod;Ljava/net/URI;Lorg/apache/hc/core5/http/protocol/HttpContext;>;)V
+ (Ljava/util/function/BiFunction<Lorg/springframework/http/HttpMethod;Ljava/net/URI;Lorg/apache/hc/core5/http/protocol/HttpContext;>;)V

@@ -1,0 +1,17 @@
+class org/springframework/jdbc/support/GeneratedKeyHolder
+
+<init>
+ (Ljava/util/List<Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;>;)V
+ (Ljava/util/List<Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;>;)V
+getKey
+ ()Ljava/lang/Number;
+ ()L0java/lang/Number; # @Inherited(org.springframework.jdbc.support.KeyHolder)
+getKeyAs
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)T0T; # @Inherited(org.springframework.jdbc.support.KeyHolder)
+getKeyList
+ ()Ljava/util/List<Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;>;
+ ()Ljava/util/List<Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;>;
+getKeys
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()L0java/util/Map<Ljava/lang/String;Ljava/lang/Object;>; # @Inherited(org.springframework.jdbc.support.KeyHolder)

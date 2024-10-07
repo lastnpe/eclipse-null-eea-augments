@@ -1,0 +1,14 @@
+class org/springframework/aop/aspectj/annotation/SingletonMetadataAwareAspectInstanceFactory
+
+<init>
+ (Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/Object;Ljava/lang/String;)V
+getAspectCreationMutex
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object; # @Inherited(org.springframework.aop.aspectj.annotation.MetadataAwareAspectInstanceFactory)
+getAspectMetadata
+ ()Lorg/springframework/aop/aspectj/annotation/AspectMetadata;
+ ()Lorg/springframework/aop/aspectj/annotation/AspectMetadata;
+getOrderForAspectClass
+ (Ljava/lang/Class<*>;)I
+ (Ljava/lang/Class<*>;)I

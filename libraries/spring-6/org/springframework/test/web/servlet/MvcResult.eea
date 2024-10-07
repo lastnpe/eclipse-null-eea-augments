@@ -1,0 +1,29 @@
+class org/springframework/test/web/servlet/MvcResult
+
+getAsyncResult
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getAsyncResult
+ (J)Ljava/lang/Object;
+ (J)Ljava/lang/Object;
+getFlashMap
+ ()Lorg/springframework/web/servlet/FlashMap;
+ ()Lorg/springframework/web/servlet/FlashMap;
+getHandler
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getInterceptors
+ ()[Lorg/springframework/web/servlet/HandlerInterceptor;
+ ()[0Lorg/springframework/web/servlet/HandlerInterceptor;
+getModelAndView
+ ()Lorg/springframework/web/servlet/ModelAndView;
+ ()L0org/springframework/web/servlet/ModelAndView;
+getRequest
+ ()Lorg/springframework/mock/web/MockHttpServletRequest;
+ ()Lorg/springframework/mock/web/MockHttpServletRequest;
+getResolvedException
+ ()Ljava/lang/Exception;
+ ()L0java/lang/Exception;
+getResponse
+ ()Lorg/springframework/mock/web/MockHttpServletResponse;
+ ()Lorg/springframework/mock/web/MockHttpServletResponse;

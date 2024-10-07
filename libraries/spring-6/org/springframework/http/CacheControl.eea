@@ -1,0 +1,60 @@
+class org/springframework/http/CacheControl
+
+empty
+ ()Lorg/springframework/http/CacheControl;
+ ()Lorg/springframework/http/CacheControl;
+maxAge
+ (JLjava/util/concurrent/TimeUnit;)Lorg/springframework/http/CacheControl;
+ (JLjava/util/concurrent/TimeUnit;)Lorg/springframework/http/CacheControl;
+maxAge
+ (Ljava/time/Duration;)Lorg/springframework/http/CacheControl;
+ (Ljava/time/Duration;)Lorg/springframework/http/CacheControl;
+noCache
+ ()Lorg/springframework/http/CacheControl;
+ ()Lorg/springframework/http/CacheControl;
+noStore
+ ()Lorg/springframework/http/CacheControl;
+ ()Lorg/springframework/http/CacheControl;
+
+cachePrivate
+ ()Lorg/springframework/http/CacheControl;
+ ()Lorg/springframework/http/CacheControl;
+cachePublic
+ ()Lorg/springframework/http/CacheControl;
+ ()Lorg/springframework/http/CacheControl;
+getHeaderValue
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+immutable
+ ()Lorg/springframework/http/CacheControl;
+ ()Lorg/springframework/http/CacheControl;
+mustRevalidate
+ ()Lorg/springframework/http/CacheControl;
+ ()Lorg/springframework/http/CacheControl;
+noTransform
+ ()Lorg/springframework/http/CacheControl;
+ ()Lorg/springframework/http/CacheControl;
+proxyRevalidate
+ ()Lorg/springframework/http/CacheControl;
+ ()Lorg/springframework/http/CacheControl;
+sMaxAge
+ (JLjava/util/concurrent/TimeUnit;)Lorg/springframework/http/CacheControl;
+ (JLjava/util/concurrent/TimeUnit;)Lorg/springframework/http/CacheControl;
+sMaxAge
+ (Ljava/time/Duration;)Lorg/springframework/http/CacheControl;
+ (Ljava/time/Duration;)Lorg/springframework/http/CacheControl;
+staleIfError
+ (JLjava/util/concurrent/TimeUnit;)Lorg/springframework/http/CacheControl;
+ (JLjava/util/concurrent/TimeUnit;)Lorg/springframework/http/CacheControl;
+staleIfError
+ (Ljava/time/Duration;)Lorg/springframework/http/CacheControl;
+ (Ljava/time/Duration;)Lorg/springframework/http/CacheControl;
+staleWhileRevalidate
+ (JLjava/util/concurrent/TimeUnit;)Lorg/springframework/http/CacheControl;
+ (JLjava/util/concurrent/TimeUnit;)Lorg/springframework/http/CacheControl;
+staleWhileRevalidate
+ (Ljava/time/Duration;)Lorg/springframework/http/CacheControl;
+ (Ljava/time/Duration;)Lorg/springframework/http/CacheControl;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

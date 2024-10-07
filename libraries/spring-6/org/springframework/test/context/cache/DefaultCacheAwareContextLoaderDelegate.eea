@@ -1,0 +1,23 @@
+class org/springframework/test/context/cache/DefaultCacheAwareContextLoaderDelegate
+
+<init>
+ (Lorg/springframework/test/context/cache/ContextCache;)V
+ (Lorg/springframework/test/context/cache/ContextCache;)V
+closeContext
+ (Lorg/springframework/test/context/MergedContextConfiguration;Lorg/springframework/test/annotation/DirtiesContext$HierarchyMode;)V
+ (Lorg/springframework/test/context/MergedContextConfiguration;Lorg/springframework/test/annotation/DirtiesContext$HierarchyMode;)V
+getContextCache
+ ()Lorg/springframework/test/context/cache/ContextCache;
+ ()Lorg/springframework/test/context/cache/ContextCache;
+isContextLoaded
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Z
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Z
+loadContext
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Lorg/springframework/context/ApplicationContext;
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Lorg/springframework/context/ApplicationContext;
+loadContextInAotMode
+ (Lorg/springframework/test/context/cache/AotMergedContextConfiguration;)Lorg/springframework/context/ApplicationContext;
+ (Lorg/springframework/test/context/cache/AotMergedContextConfiguration;)Lorg/springframework/context/ApplicationContext;
+loadContextInternal
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Lorg/springframework/context/ApplicationContext;
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Lorg/springframework/context/ApplicationContext;

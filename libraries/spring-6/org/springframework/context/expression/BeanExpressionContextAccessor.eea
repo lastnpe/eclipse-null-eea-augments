@@ -1,0 +1,17 @@
+class org/springframework/context/expression/BeanExpressionContextAccessor
+
+canRead
+ (Lorg/springframework/expression/EvaluationContext;Ljava/lang/Object;Ljava/lang/String;)Z
+ (Lorg/springframework/expression/EvaluationContext;Ljava/lang/Object;Ljava/lang/String;)Z
+canWrite
+ (Lorg/springframework/expression/EvaluationContext;Ljava/lang/Object;Ljava/lang/String;)Z
+ (Lorg/springframework/expression/EvaluationContext;Ljava/lang/Object;Ljava/lang/String;)Z
+getSpecificTargetClasses
+ ()[Ljava/lang/Class<*>;
+ ()[0Ljava/lang/Class<*>; # @Inherited(org.springframework.expression.PropertyAccessor)
+read
+ (Lorg/springframework/expression/EvaluationContext;Ljava/lang/Object;Ljava/lang/String;)Lorg/springframework/expression/TypedValue;
+ (Lorg/springframework/expression/EvaluationContext;Ljava/lang/Object;Ljava/lang/String;)Lorg/springframework/expression/TypedValue;
+write
+ (Lorg/springframework/expression/EvaluationContext;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V
+ (Lorg/springframework/expression/EvaluationContext;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V

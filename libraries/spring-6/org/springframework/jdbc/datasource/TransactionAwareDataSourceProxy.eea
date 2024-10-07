@@ -1,0 +1,14 @@
+class org/springframework/jdbc/datasource/TransactionAwareDataSourceProxy
+
+<init>
+ (Ljavax/sql/DataSource;)V
+ (Ljavax/sql/DataSource;)V
+getConnection
+ ()Ljava/sql/Connection;
+ ()Ljava/sql/Connection;
+getTransactionAwareConnectionProxy
+ (Ljavax/sql/DataSource;)Ljava/sql/Connection;
+ (Ljavax/sql/DataSource;)Ljava/sql/Connection;
+shouldObtainFixedConnection
+ (Ljavax/sql/DataSource;)Z
+ (Ljavax/sql/DataSource;)Z

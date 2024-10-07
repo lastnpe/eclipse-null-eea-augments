@@ -1,0 +1,41 @@
+class org/springframework/http/client/reactive/ClientHttpRequestDecorator
+
+<init>
+ (Lorg/springframework/http/client/reactive/ClientHttpRequest;)V
+ (Lorg/springframework/http/client/reactive/ClientHttpRequest;)V
+beforeCommit
+ (Ljava/util/function/Supplier<+Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>;)V
+ (Ljava/util/function/Supplier<+Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>;)V
+bufferFactory
+ ()Lorg/springframework/core/io/buffer/DataBufferFactory;
+ ()Lorg/springframework/core/io/buffer/DataBufferFactory;
+getCookies
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;
+getDelegate
+ ()Lorg/springframework/http/client/reactive/ClientHttpRequest;
+ ()Lorg/springframework/http/client/reactive/ClientHttpRequest;
+getHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+getMethod
+ ()Lorg/springframework/http/HttpMethod;
+ ()Lorg/springframework/http/HttpMethod;
+getNativeRequest
+ <T:Ljava/lang/Object;>()TT;
+ <T:Ljava/lang/Object;>()TT;
+getURI
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+setComplete
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+writeAndFlushWith
+ (Lorg/reactivestreams/Publisher<+Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/reactivestreams/Publisher<+Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+writeWith
+ (Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;

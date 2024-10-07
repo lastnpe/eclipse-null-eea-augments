@@ -1,0 +1,51 @@
+class org/springframework/mock/http/server/reactive/MockServerHttpRequest
+
+delete
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BaseBuilder<*>;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BaseBuilder<*>;
+get
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BaseBuilder<*>;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BaseBuilder<*>;
+head
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BaseBuilder<*>;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BaseBuilder<*>;
+method
+ (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BodyBuilder;
+ (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BodyBuilder;
+method
+ (Lorg/springframework/http/HttpMethod;Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BodyBuilder;
+ (Lorg/springframework/http/HttpMethod;Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BodyBuilder;
+method
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BodyBuilder;
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BodyBuilder;
+options
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BaseBuilder<*>;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BaseBuilder<*>;
+patch
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BodyBuilder;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BodyBuilder;
+post
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BodyBuilder;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BodyBuilder;
+put
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BodyBuilder;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BodyBuilder;
+
+getBody
+ ()Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+ ()Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+getLocalAddress
+ ()Ljava/net/InetSocketAddress;
+ ()L0java/net/InetSocketAddress; # @Inherited(org.springframework.http.server.reactive.ServerHttpRequest)
+getNativeRequest
+ <T:Ljava/lang/Object;>()TT;
+ <T:Ljava/lang/Object;>()TT;
+getRemoteAddress
+ ()Ljava/net/InetSocketAddress;
+ ()L0java/net/InetSocketAddress; # @Inherited(org.springframework.http.server.reactive.ServerHttpRequest)
+initCookies
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;
+initSslInfo
+ ()Lorg/springframework/http/server/reactive/SslInfo;
+ ()L0org/springframework/http/server/reactive/SslInfo; # @Inherited(org.springframework.http.server.reactive.AbstractServerHttpRequest)

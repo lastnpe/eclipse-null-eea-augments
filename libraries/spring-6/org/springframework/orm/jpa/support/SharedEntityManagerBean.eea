@@ -1,0 +1,15 @@
+class org/springframework/orm/jpa/support/SharedEntityManagerBean
+
+super org/springframework/beans/factory/FactoryBean
+ <Ljakarta/persistence/EntityManager;>
+ <Ljakarta/persistence/EntityManager;>
+
+getObject
+ ()Ljakarta/persistence/EntityManager;
+ ()L0jakarta/persistence/EntityManager;
+getObjectType
+ ()Ljava/lang/Class<+Ljakarta/persistence/EntityManager;>;
+ ()Ljava/lang/Class<+Ljakarta/persistence/EntityManager;>;
+setEntityManagerInterface
+ (Ljava/lang/Class<+Ljakarta/persistence/EntityManager;>;)V
+ (Ljava/lang/Class<+Ljakarta/persistence/EntityManager;>;)V

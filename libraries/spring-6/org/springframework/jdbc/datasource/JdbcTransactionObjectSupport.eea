@@ -1,0 +1,26 @@
+class org/springframework/jdbc/datasource/JdbcTransactionObjectSupport
+
+createSavepoint
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getConnectionHolder
+ ()Lorg/springframework/jdbc/datasource/ConnectionHolder;
+ ()Lorg/springframework/jdbc/datasource/ConnectionHolder;
+getConnectionHolderForSavepoint
+ ()Lorg/springframework/jdbc/datasource/ConnectionHolder;
+ ()Lorg/springframework/jdbc/datasource/ConnectionHolder;
+getPreviousIsolationLevel
+ ()Ljava/lang/Integer;
+ ()L0java/lang/Integer;
+releaseSavepoint
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+rollbackToSavepoint
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setConnectionHolder
+ (Lorg/springframework/jdbc/datasource/ConnectionHolder;)V
+ (Lorg/springframework/jdbc/datasource/ConnectionHolder;)V
+setPreviousIsolationLevel
+ (Ljava/lang/Integer;)V
+ (Ljava/lang/Integer;)V

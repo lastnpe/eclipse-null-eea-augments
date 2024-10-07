@@ -1,0 +1,40 @@
+class org/springframework/messaging/simp/SimpAttributes
+
+DESTRUCTION_CALLBACK_NAME_PREFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+SESSION_COMPLETED_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+SESSION_MUTEX_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+fromMessage
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/simp/SimpAttributes;
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/simp/SimpAttributes;
+
+<init>
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object;
+getAttributeNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getSessionId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSessionMutex
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+registerDestructionCallback
+ (Ljava/lang/String;Ljava/lang/Runnable;)V
+ (Ljava/lang/String;Ljava/lang/Runnable;)V
+removeAttribute
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setAttribute
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V

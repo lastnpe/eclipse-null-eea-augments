@@ -1,0 +1,45 @@
+class org/springframework/web/service/invoker/HttpRequestValues
+
+builder
+ ()Lorg/springframework/web/service/invoker/HttpRequestValues$Builder;
+ ()Lorg/springframework/web/service/invoker/HttpRequestValues$Builder;
+
+<init>
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;Lorg/springframework/http/HttpHeaders;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/lang/Object;)V
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;Lorg/springframework/http/HttpHeaders;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/lang/Object;)V
+<init>
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;Lorg/springframework/web/util/UriBuilderFactory;Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;Lorg/springframework/http/HttpHeaders;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/lang/Object;)V
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;Lorg/springframework/web/util/UriBuilderFactory;Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;Lorg/springframework/http/HttpHeaders;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/lang/Object;)V
+getAttributes
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getBody
+ ()Lorg/reactivestreams/Publisher<*>;
+ ()L0org/reactivestreams/Publisher<*>;
+getBodyElementType
+ ()Lorg/springframework/core/ParameterizedTypeReference<*>;
+ ()L0org/springframework/core/ParameterizedTypeReference<*>;
+getBodyValue
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getCookies
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+getHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+getHttpMethod
+ ()Lorg/springframework/http/HttpMethod;
+ ()L0org/springframework/http/HttpMethod;
+getUri
+ ()Ljava/net/URI;
+ ()L0java/net/URI;
+getUriBuilderFactory
+ ()Lorg/springframework/web/util/UriBuilderFactory;
+ ()L0org/springframework/web/util/UriBuilderFactory;
+getUriTemplate
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getUriVariables
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;

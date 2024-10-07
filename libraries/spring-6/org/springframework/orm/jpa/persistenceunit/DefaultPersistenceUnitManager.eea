@@ -1,0 +1,94 @@
+class org/springframework/orm/jpa/persistenceunit/DefaultPersistenceUnitManager
+
+DEFAULT_PERSISTENCE_XML_LOCATION
+ Ljava/lang/String;
+ L1java/lang/String;
+ORIGINAL_DEFAULT_PERSISTENCE_UNIT_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+ORIGINAL_DEFAULT_PERSISTENCE_UNIT_ROOT_LOCATION
+ Ljava/lang/String;
+ L1java/lang/String;
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+getDataSourceLookup
+ ()Lorg/springframework/jdbc/datasource/lookup/DataSourceLookup;
+ ()L0org/springframework/jdbc/datasource/lookup/DataSourceLookup;
+getDefaultDataSource
+ ()Ljavax/sql/DataSource;
+ ()L0javax/sql/DataSource;
+getDefaultJtaDataSource
+ ()Ljavax/sql/DataSource;
+ ()L0javax/sql/DataSource;
+getLoadTimeWeaver
+ ()Lorg/springframework/instrument/classloading/LoadTimeWeaver;
+ ()L0org/springframework/instrument/classloading/LoadTimeWeaver;
+getPersistenceUnitInfo
+ (Ljava/lang/String;)Lorg/springframework/orm/jpa/persistenceunit/MutablePersistenceUnitInfo;
+ (Ljava/lang/String;)L0org/springframework/orm/jpa/persistenceunit/MutablePersistenceUnitInfo;
+getPersistenceUnitPostProcessors
+ ()[Lorg/springframework/orm/jpa/persistenceunit/PersistenceUnitPostProcessor;
+ ()[0Lorg/springframework/orm/jpa/persistenceunit/PersistenceUnitPostProcessor;
+obtainDefaultPersistenceUnitInfo
+ ()Ljakarta/persistence/spi/PersistenceUnitInfo;
+ ()Ljakarta/persistence/spi/PersistenceUnitInfo;
+obtainPersistenceUnitInfo
+ (Ljava/lang/String;)Ljakarta/persistence/spi/PersistenceUnitInfo;
+ (Ljava/lang/String;)Ljakarta/persistence/spi/PersistenceUnitInfo;
+postProcessPersistenceUnitInfo
+ (Lorg/springframework/orm/jpa/persistenceunit/MutablePersistenceUnitInfo;)V
+ (Lorg/springframework/orm/jpa/persistenceunit/MutablePersistenceUnitInfo;)V
+setDataSourceLookup
+ (Lorg/springframework/jdbc/datasource/lookup/DataSourceLookup;)V
+ (Lorg/springframework/jdbc/datasource/lookup/DataSourceLookup;)V
+setDataSources
+ (Ljava/util/Map<Ljava/lang/String;Ljavax/sql/DataSource;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljavax/sql/DataSource;>;)V
+setDefaultDataSource
+ (Ljavax/sql/DataSource;)V
+ (Ljavax/sql/DataSource;)V
+setDefaultJtaDataSource
+ (Ljavax/sql/DataSource;)V
+ (Ljavax/sql/DataSource;)V
+setDefaultPersistenceUnitName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setDefaultPersistenceUnitRootLocation
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setLoadTimeWeaver
+ (Lorg/springframework/instrument/classloading/LoadTimeWeaver;)V
+ (Lorg/springframework/instrument/classloading/LoadTimeWeaver;)V
+setManagedClassNameFilter
+ (Lorg/springframework/orm/jpa/persistenceunit/ManagedClassNameFilter;)V
+ (Lorg/springframework/orm/jpa/persistenceunit/ManagedClassNameFilter;)V
+setManagedTypes
+ (Lorg/springframework/orm/jpa/persistenceunit/PersistenceManagedTypes;)V
+ (Lorg/springframework/orm/jpa/persistenceunit/PersistenceManagedTypes;)V
+setMappingResources
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setPackagesToScan
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setPersistenceUnitPostProcessors
+ ([Lorg/springframework/orm/jpa/persistenceunit/PersistenceUnitPostProcessor;)V
+ ([Lorg/springframework/orm/jpa/persistenceunit/PersistenceUnitPostProcessor;)V
+setPersistenceXmlLocation
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPersistenceXmlLocations
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setResourceLoader
+ (Lorg/springframework/core/io/ResourceLoader;)V
+ (Lorg/springframework/core/io/ResourceLoader;)V
+setSharedCacheMode
+ (Ljakarta/persistence/SharedCacheMode;)V
+ (Ljakarta/persistence/SharedCacheMode;)V
+setValidationMode
+ (Ljakarta/persistence/ValidationMode;)V
+ (Ljakarta/persistence/ValidationMode;)V

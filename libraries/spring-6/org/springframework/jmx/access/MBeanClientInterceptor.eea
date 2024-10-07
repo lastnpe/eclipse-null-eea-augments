@@ -1,0 +1,45 @@
+class org/springframework/jmx/access/MBeanClientInterceptor
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+convertResultValueIfNecessary
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;)Ljava/lang/Object;
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;)L0java/lang/Object;
+doInvoke
+ (Lorg/aopalliance/intercept/MethodInvocation;)Ljava/lang/Object;
+ (Lorg/aopalliance/intercept/MethodInvocation;)L0java/lang/Object;
+getEnvironment
+ ()Ljava/util/Map<Ljava/lang/String;*>;
+ ()L0java/util/Map<Ljava/lang/String;*>;
+getManagementInterface
+ ()Ljava/lang/Class<*>;
+ ()L0java/lang/Class<*>;
+handleConnectFailure
+ (Lorg/aopalliance/intercept/MethodInvocation;Ljava/lang/Exception;)Ljava/lang/Object;
+ (Lorg/aopalliance/intercept/MethodInvocation;Ljava/lang/Exception;)L0java/lang/Object;
+invoke
+ (Lorg/aopalliance/intercept/MethodInvocation;)Ljava/lang/Object;
+ (Lorg/aopalliance/intercept/MethodInvocation;)L0java/lang/Object;
+setAgentId
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setEnvironment
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+setManagementInterface
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+setObjectName
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setServer
+ (Ljavax/management/MBeanServerConnection;)V
+ (Ljavax/management/MBeanServerConnection;)V
+setServiceUrl
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

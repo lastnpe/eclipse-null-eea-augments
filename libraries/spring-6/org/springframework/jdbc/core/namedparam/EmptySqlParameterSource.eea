@@ -1,0 +1,21 @@
+class org/springframework/jdbc/core/namedparam/EmptySqlParameterSource
+
+INSTANCE
+ Lorg/springframework/jdbc/core/namedparam/EmptySqlParameterSource;
+ L1org/springframework/jdbc/core/namedparam/EmptySqlParameterSource;
+
+getParameterNames
+ ()[Ljava/lang/String;
+ ()[0Ljava/lang/String; # @Inherited(org.springframework.jdbc.core.namedparam.SqlParameterSource)
+getSqlType
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+getTypeName
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String; # @Inherited(org.springframework.jdbc.core.namedparam.SqlParameterSource)
+getValue
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.jdbc.core.namedparam.SqlParameterSource)
+hasValue
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z

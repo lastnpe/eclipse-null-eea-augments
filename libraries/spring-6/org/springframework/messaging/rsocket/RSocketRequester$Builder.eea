@@ -1,0 +1,50 @@
+class org/springframework/messaging/rsocket/RSocketRequester$Builder
+
+apply
+ (Ljava/util/function/Consumer<Lorg/springframework/messaging/rsocket/RSocketRequester$Builder;>;)Lorg/springframework/messaging/rsocket/RSocketRequester$Builder;
+ (Ljava/util/function/Consumer<Lorg/springframework/messaging/rsocket/RSocketRequester$Builder;>;)L1org/springframework/messaging/rsocket/RSocketRequester$Builder;
+connect
+ (Lio/rsocket/transport/ClientTransport;)Lreactor/core/publisher/Mono<Lorg/springframework/messaging/rsocket/RSocketRequester;>;
+ (Lio/rsocket/transport/ClientTransport;)Lreactor/core/publisher/Mono<Lorg/springframework/messaging/rsocket/RSocketRequester;>;
+connectTcp
+ (Ljava/lang/String;I)Lreactor/core/publisher/Mono<Lorg/springframework/messaging/rsocket/RSocketRequester;>;
+ (Ljava/lang/String;I)Lreactor/core/publisher/Mono<Lorg/springframework/messaging/rsocket/RSocketRequester;>;
+connectWebSocket
+ (Ljava/net/URI;)Lreactor/core/publisher/Mono<Lorg/springframework/messaging/rsocket/RSocketRequester;>;
+ (Ljava/net/URI;)Lreactor/core/publisher/Mono<Lorg/springframework/messaging/rsocket/RSocketRequester;>;
+dataMimeType
+ (Lorg/springframework/util/MimeType;)Lorg/springframework/messaging/rsocket/RSocketRequester$Builder;
+ (Lorg/springframework/util/MimeType;)L1org/springframework/messaging/rsocket/RSocketRequester$Builder;
+metadataMimeType
+ (Lorg/springframework/util/MimeType;)Lorg/springframework/messaging/rsocket/RSocketRequester$Builder;
+ (Lorg/springframework/util/MimeType;)L1org/springframework/messaging/rsocket/RSocketRequester$Builder;
+rsocketConnector
+ (Lorg/springframework/messaging/rsocket/RSocketConnectorConfigurer;)Lorg/springframework/messaging/rsocket/RSocketRequester$Builder;
+ (Lorg/springframework/messaging/rsocket/RSocketConnectorConfigurer;)L1org/springframework/messaging/rsocket/RSocketRequester$Builder;
+rsocketStrategies
+ (Ljava/util/function/Consumer<Lorg/springframework/messaging/rsocket/RSocketStrategies$Builder;>;)Lorg/springframework/messaging/rsocket/RSocketRequester$Builder;
+ (Ljava/util/function/Consumer<Lorg/springframework/messaging/rsocket/RSocketStrategies$Builder;>;)L1org/springframework/messaging/rsocket/RSocketRequester$Builder;
+rsocketStrategies
+ (Lorg/springframework/messaging/rsocket/RSocketStrategies;)Lorg/springframework/messaging/rsocket/RSocketRequester$Builder;
+ (Lorg/springframework/messaging/rsocket/RSocketStrategies;)L1org/springframework/messaging/rsocket/RSocketRequester$Builder;
+setupData
+ (Ljava/lang/Object;)Lorg/springframework/messaging/rsocket/RSocketRequester$Builder;
+ (Ljava/lang/Object;)L1org/springframework/messaging/rsocket/RSocketRequester$Builder;
+setupMetadata
+ (Ljava/lang/Object;Lorg/springframework/util/MimeType;)Lorg/springframework/messaging/rsocket/RSocketRequester$Builder;
+ (Ljava/lang/Object;Lorg/springframework/util/MimeType;)L1org/springframework/messaging/rsocket/RSocketRequester$Builder;
+setupRoute
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/messaging/rsocket/RSocketRequester$Builder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/messaging/rsocket/RSocketRequester$Builder;
+tcp
+ (Ljava/lang/String;I)Lorg/springframework/messaging/rsocket/RSocketRequester;
+ (Ljava/lang/String;I)Lorg/springframework/messaging/rsocket/RSocketRequester;
+transport
+ (Lio/rsocket/transport/ClientTransport;)Lorg/springframework/messaging/rsocket/RSocketRequester;
+ (Lio/rsocket/transport/ClientTransport;)Lorg/springframework/messaging/rsocket/RSocketRequester;
+transports
+ (Lorg/reactivestreams/Publisher<Ljava/util/List<Lio/rsocket/loadbalance/LoadbalanceTarget;>;>;Lio/rsocket/loadbalance/LoadbalanceStrategy;)Lorg/springframework/messaging/rsocket/RSocketRequester;
+ (Lorg/reactivestreams/Publisher<Ljava/util/List<Lio/rsocket/loadbalance/LoadbalanceTarget;>;>;Lio/rsocket/loadbalance/LoadbalanceStrategy;)Lorg/springframework/messaging/rsocket/RSocketRequester;
+websocket
+ (Ljava/net/URI;)Lorg/springframework/messaging/rsocket/RSocketRequester;
+ (Ljava/net/URI;)Lorg/springframework/messaging/rsocket/RSocketRequester;

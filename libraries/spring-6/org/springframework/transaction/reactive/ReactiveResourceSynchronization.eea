@@ -1,0 +1,37 @@
+class org/springframework/transaction/reactive/ReactiveResourceSynchronization
+ <O:Ljava/lang/Object;K:Ljava/lang/Object;>
+ <O:Ljava/lang/Object;K:Ljava/lang/Object;>
+
+<init>
+ (TO;TK;Lorg/springframework/transaction/reactive/TransactionSynchronizationManager;)V
+ (TO;TK;Lorg/springframework/transaction/reactive/TransactionSynchronizationManager;)V
+afterCommit
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+afterCompletion
+ (I)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (I)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+beforeCommit
+ (Z)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Z)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+beforeCompletion
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+cleanupResource
+ (TO;TK;Z)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (TO;TK;Z)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+processResourceAfterCommit
+ (TO;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (TO;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+releaseResource
+ (TO;TK;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (TO;TK;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+resume
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+shouldReleaseAfterCompletion
+ (TO;)Z
+ (TO;)Z
+suspend
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;

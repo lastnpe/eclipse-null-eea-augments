@@ -1,0 +1,65 @@
+class org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder
+
+attribute
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ (Ljava/lang/String;Ljava/lang/Object;)L1org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+attributes
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)L1org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+body
+ (Ljava/lang/Object;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest;
+ (Ljava/lang/Object;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest;
+build
+ ()Lorg/springframework/mock/web/reactive/function/server/MockServerRequest;
+ ()L1org/springframework/mock/web/reactive/function/server/MockServerRequest;
+contextPath
+ (Ljava/lang/String;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ (Ljava/lang/String;)L1org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+cookie
+ ([Lorg/springframework/http/HttpCookie;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ ([Lorg/springframework/http/HttpCookie;)L1org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+cookies
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;)L1org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+exchange
+ (Lorg/springframework/web/server/ServerWebExchange;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ (Lorg/springframework/web/server/ServerWebExchange;)L1org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+header
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ (Ljava/lang/String;Ljava/lang/String;)L1org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+headers
+ (Lorg/springframework/http/HttpHeaders;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ (Lorg/springframework/http/HttpHeaders;)L1org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+localAddress
+ (Ljava/net/InetSocketAddress;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ (Ljava/net/InetSocketAddress;)L1org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+messageReaders
+ (Ljava/util/List<Lorg/springframework/http/codec/HttpMessageReader<*>;>;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ (Ljava/util/List<Lorg/springframework/http/codec/HttpMessageReader<*>;>;)L1org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+method
+ (Lorg/springframework/http/HttpMethod;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ (Lorg/springframework/http/HttpMethod;)L1org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+pathVariable
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ (Ljava/lang/String;Ljava/lang/String;)L1org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+pathVariables
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)L1org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+principal
+ (Ljava/security/Principal;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ (Ljava/security/Principal;)L1org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+queryParam
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ (Ljava/lang/String;Ljava/lang/String;)L1org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+queryParams
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)L1org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+remoteAddress
+ (Ljava/net/InetSocketAddress;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ (Ljava/net/InetSocketAddress;)L1org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+session
+ (Lorg/springframework/web/server/WebSession;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ (Lorg/springframework/web/server/WebSession;)L1org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+uri
+ (Ljava/net/URI;)Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ (Ljava/net/URI;)L1org/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;

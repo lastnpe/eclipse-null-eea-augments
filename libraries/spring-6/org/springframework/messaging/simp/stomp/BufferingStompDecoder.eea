@@ -1,0 +1,14 @@
+class org/springframework/messaging/simp/stomp/BufferingStompDecoder
+
+<init>
+ (Lorg/springframework/messaging/simp/stomp/StompDecoder;I)V
+ (Lorg/springframework/messaging/simp/stomp/StompDecoder;I)V
+decode
+ (Ljava/nio/ByteBuffer;)Ljava/util/List<Lorg/springframework/messaging/Message<[B>;>;
+ (Ljava/nio/ByteBuffer;)Ljava/util/List<Lorg/springframework/messaging/Message<[B>;>;
+getExpectedContentLength
+ ()Ljava/lang/Integer;
+ ()L0java/lang/Integer;
+getStompDecoder
+ ()Lorg/springframework/messaging/simp/stomp/StompDecoder;
+ ()Lorg/springframework/messaging/simp/stomp/StompDecoder;

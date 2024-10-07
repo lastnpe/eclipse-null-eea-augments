@@ -1,0 +1,20 @@
+class org/springframework/jdbc/datasource/ShardingKeyDataSourceAdapter
+
+<init>
+ (Ljavax/sql/DataSource;)V
+ (Ljavax/sql/DataSource;)V
+<init>
+ (Ljavax/sql/DataSource;Lorg/springframework/jdbc/datasource/ShardingKeyProvider;)V
+ (Ljavax/sql/DataSource;Lorg/springframework/jdbc/datasource/ShardingKeyProvider;)V
+createConnectionBuilder
+ ()Ljava/sql/ConnectionBuilder;
+ ()Ljava/sql/ConnectionBuilder;
+getConnection
+ ()Ljava/sql/Connection;
+ ()Ljava/sql/Connection;
+getConnection
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;
+setShardingKeyProvider
+ (Lorg/springframework/jdbc/datasource/ShardingKeyProvider;)V
+ (Lorg/springframework/jdbc/datasource/ShardingKeyProvider;)V

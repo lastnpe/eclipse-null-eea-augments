@@ -1,0 +1,17 @@
+class org/springframework/validation/beanvalidation/BeanValidationPostProcessor
+
+doValidate
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+postProcessAfterInitialization
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+ (L1java/lang/Object;L1java/lang/String;)Ljava/lang/Object; # @Inherited(org.springframework.beans.factory.config.BeanPostProcessor)
+postProcessBeforeInitialization
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+ (L1java/lang/Object;L1java/lang/String;)Ljava/lang/Object; # @Inherited(org.springframework.beans.factory.config.BeanPostProcessor)
+setValidator
+ (Ljakarta/validation/Validator;)V
+ (Ljakarta/validation/Validator;)V
+setValidatorFactory
+ (Ljakarta/validation/ValidatorFactory;)V
+ (Ljakarta/validation/ValidatorFactory;)V

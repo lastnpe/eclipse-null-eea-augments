@@ -1,0 +1,38 @@
+class org/springframework/transaction/support/TransactionSynchronizationManager
+
+bindResource
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+getCurrentTransactionIsolationLevel
+ ()Ljava/lang/Integer;
+ ()L0java/lang/Integer;
+getCurrentTransactionName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getResource
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)L0java/lang/Object;
+getResourceMap
+ ()Ljava/util/Map<Ljava/lang/Object;Ljava/lang/Object;>;
+ ()Ljava/util/Map<Ljava/lang/Object;Ljava/lang/Object;>;
+getSynchronizations
+ ()Ljava/util/List<Lorg/springframework/transaction/support/TransactionSynchronization;>;
+ ()Ljava/util/List<Lorg/springframework/transaction/support/TransactionSynchronization;>;
+hasResource
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+registerSynchronization
+ (Lorg/springframework/transaction/support/TransactionSynchronization;)V
+ (Lorg/springframework/transaction/support/TransactionSynchronization;)V
+setCurrentTransactionIsolationLevel
+ (Ljava/lang/Integer;)V
+ (Ljava/lang/Integer;)V
+setCurrentTransactionName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+unbindResource
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+unbindResourceIfPossible
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)L0java/lang/Object;

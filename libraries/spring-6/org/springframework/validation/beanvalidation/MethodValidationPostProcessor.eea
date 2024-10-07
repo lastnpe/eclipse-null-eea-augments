@@ -1,0 +1,17 @@
+class org/springframework/validation/beanvalidation/MethodValidationPostProcessor
+
+createMethodValidationAdvice
+ (Ljava/util/function/Supplier<Ljakarta/validation/Validator;>;)Lorg/aopalliance/aop/Advice;
+ (Ljava/util/function/Supplier<Ljakarta/validation/Validator;>;)Lorg/aopalliance/aop/Advice;
+setValidatedAnnotationType
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+ (Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+setValidator
+ (Ljakarta/validation/Validator;)V
+ (Ljakarta/validation/Validator;)V
+setValidatorFactory
+ (Ljakarta/validation/ValidatorFactory;)V
+ (Ljakarta/validation/ValidatorFactory;)V
+setValidatorProvider
+ (Lorg/springframework/beans/factory/ObjectProvider<Ljakarta/validation/Validator;>;)V
+ (Lorg/springframework/beans/factory/ObjectProvider<Ljakarta/validation/Validator;>;)V

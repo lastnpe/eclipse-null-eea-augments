@@ -1,0 +1,26 @@
+class org/springframework/messaging/simp/stomp/StompClientSupport
+
+createSession
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Lorg/springframework/messaging/simp/stomp/StompSessionHandler;)Lorg/springframework/messaging/simp/stomp/ConnectionHandlingStompSession;
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Lorg/springframework/messaging/simp/stomp/StompSessionHandler;)Lorg/springframework/messaging/simp/stomp/ConnectionHandlingStompSession;
+getDefaultHeartbeat
+ ()[J
+ ()[J
+getMessageConverter
+ ()Lorg/springframework/messaging/converter/MessageConverter;
+ ()Lorg/springframework/messaging/converter/MessageConverter;
+getTaskScheduler
+ ()Lorg/springframework/scheduling/TaskScheduler;
+ ()L0org/springframework/scheduling/TaskScheduler;
+processConnectHeaders
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;)Lorg/springframework/messaging/simp/stomp/StompHeaders;
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;)Lorg/springframework/messaging/simp/stomp/StompHeaders;
+setDefaultHeartbeat
+ ([J)V
+ ([J)V
+setMessageConverter
+ (Lorg/springframework/messaging/converter/MessageConverter;)V
+ (Lorg/springframework/messaging/converter/MessageConverter;)V
+setTaskScheduler
+ (Lorg/springframework/scheduling/TaskScheduler;)V
+ (Lorg/springframework/scheduling/TaskScheduler;)V

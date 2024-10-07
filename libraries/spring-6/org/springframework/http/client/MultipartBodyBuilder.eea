@@ -1,0 +1,17 @@
+class org/springframework/http/client/MultipartBodyBuilder
+
+asyncPart
+ <T:Ljava/lang/Object;P::Lorg/reactivestreams/Publisher<TT;>;>(Ljava/lang/String;TP;Ljava/lang/Class<TT;>;)Lorg/springframework/http/client/MultipartBodyBuilder$PartBuilder;
+ <T:Ljava/lang/Object;P::Lorg/reactivestreams/Publisher<TT;>;>(Ljava/lang/String;TP;Ljava/lang/Class<TT;>;)Lorg/springframework/http/client/MultipartBodyBuilder$PartBuilder;
+asyncPart
+ <T:Ljava/lang/Object;P::Lorg/reactivestreams/Publisher<TT;>;>(Ljava/lang/String;TP;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lorg/springframework/http/client/MultipartBodyBuilder$PartBuilder;
+ <T:Ljava/lang/Object;P::Lorg/reactivestreams/Publisher<TT;>;>(Ljava/lang/String;TP;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lorg/springframework/http/client/MultipartBodyBuilder$PartBuilder;
+build
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpEntity<*>;>;
+ ()L1org/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpEntity<*>;>;
+part
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/http/client/MultipartBodyBuilder$PartBuilder;
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/http/client/MultipartBodyBuilder$PartBuilder;
+part
+ (Ljava/lang/String;Ljava/lang/Object;Lorg/springframework/http/MediaType;)Lorg/springframework/http/client/MultipartBodyBuilder$PartBuilder;
+ (Ljava/lang/String;Ljava/lang/Object;Lorg/springframework/http/MediaType;)Lorg/springframework/http/client/MultipartBodyBuilder$PartBuilder;

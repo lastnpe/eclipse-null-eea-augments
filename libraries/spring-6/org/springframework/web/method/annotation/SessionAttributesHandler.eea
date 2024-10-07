@@ -1,0 +1,21 @@
+class org/springframework/web/method/annotation/SessionAttributesHandler
+
+SESSION_KNOWN_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljava/lang/Class<*>;Lorg/springframework/web/bind/support/SessionAttributeStore;)V
+ (Ljava/lang/Class<*>;Lorg/springframework/web/bind/support/SessionAttributeStore;)V
+cleanupAttributes
+ (Lorg/springframework/web/context/request/WebRequest;)V
+ (Lorg/springframework/web/context/request/WebRequest;)V
+isHandlerSessionAttribute
+ (Ljava/lang/String;Ljava/lang/Class<*>;)Z
+ (Ljava/lang/String;Ljava/lang/Class<*>;)Z
+retrieveAttributes
+ (Lorg/springframework/web/context/request/WebRequest;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ (Lorg/springframework/web/context/request/WebRequest;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+storeAttributes
+ (Lorg/springframework/web/context/request/WebRequest;Ljava/util/Map<Ljava/lang/String;*>;)V
+ (Lorg/springframework/web/context/request/WebRequest;Ljava/util/Map<Ljava/lang/String;*>;)V

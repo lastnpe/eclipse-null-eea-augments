@@ -1,0 +1,60 @@
+class org/springframework/http/support/Netty4HeadersAdapter
+
+super org/springframework/util/MultiValueMap
+ <Ljava/lang/String;Ljava/lang/String;>
+ <Ljava/lang/String;Ljava/lang/String;>
+
+<init>
+ (Lio/netty/handler/codec/http/HttpHeaders;)V
+ (Lio/netty/handler/codec/http/HttpHeaders;)V
+add
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+addAll
+ (Ljava/lang/String;Ljava/util/List<+Ljava/lang/String;>;)V
+ (Ljava/lang/String;Ljava/util/List<+Ljava/lang/String;>;)V
+addAll
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)V
+containsKey
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.Map)
+containsValue
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.Map)
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;>;
+ ()Ljava/util/Set<Ljava/util/Map$Entry<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;>;
+get
+ (Ljava/lang/Object;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/lang/Object;)L0java/util/List<Ljava/lang/String;>;
+getFirst
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+keySet
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+put
+ (Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;)L0java/util/List<Ljava/lang/String;>;
+putAll
+ (Ljava/util/Map<+Ljava/lang/String;+Ljava/util/List<Ljava/lang/String;>;>;)V
+ (Ljava/util/Map<+Ljava/lang/String;+Ljava/util/List<Ljava/lang/String;>;>;)V
+remove
+ (Ljava/lang/Object;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/lang/Object;)L0java/util/List<Ljava/lang/String;>;
+set
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setAll
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+toSingleValueMap
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+values
+ ()Ljava/util/Collection<Ljava/util/List<Ljava/lang/String;>;>;
+ ()Ljava/util/Collection<Ljava/util/List<Ljava/lang/String;>;>;

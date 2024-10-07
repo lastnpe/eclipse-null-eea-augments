@@ -1,0 +1,75 @@
+class org/springframework/http/ResponseEntity
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/springframework/http/HttpEntity
+ <TT;>
+ <TT;>
+
+accepted
+ ()Lorg/springframework/http/ResponseEntity$BodyBuilder;
+ ()Lorg/springframework/http/ResponseEntity$BodyBuilder;
+badRequest
+ ()Lorg/springframework/http/ResponseEntity$BodyBuilder;
+ ()Lorg/springframework/http/ResponseEntity$BodyBuilder;
+created
+ (Ljava/net/URI;)Lorg/springframework/http/ResponseEntity$BodyBuilder;
+ (Ljava/net/URI;)Lorg/springframework/http/ResponseEntity$BodyBuilder;
+internalServerError
+ ()Lorg/springframework/http/ResponseEntity$BodyBuilder;
+ ()Lorg/springframework/http/ResponseEntity$BodyBuilder;
+noContent
+ ()Lorg/springframework/http/ResponseEntity$HeadersBuilder<*>;
+ ()Lorg/springframework/http/ResponseEntity$HeadersBuilder<*>;
+notFound
+ ()Lorg/springframework/http/ResponseEntity$HeadersBuilder<*>;
+ ()Lorg/springframework/http/ResponseEntity$HeadersBuilder<*>;
+of
+ (Lorg/springframework/http/ProblemDetail;)Lorg/springframework/http/ResponseEntity$HeadersBuilder<*>;
+ (Lorg/springframework/http/ProblemDetail;)Lorg/springframework/http/ResponseEntity$HeadersBuilder<*>;
+of
+ <T:Ljava/lang/Object;>(Ljava/util/Optional<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/Optional<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+ofNullable
+ <T:Ljava/lang/Object;>(TT;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(TT;)Lorg/springframework/http/ResponseEntity<TT;>;
+ok
+ ()Lorg/springframework/http/ResponseEntity$BodyBuilder;
+ ()Lorg/springframework/http/ResponseEntity$BodyBuilder;
+ok
+ <T:Ljava/lang/Object;>(TT;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(TT;)Lorg/springframework/http/ResponseEntity<TT;>;
+status
+ (I)Lorg/springframework/http/ResponseEntity$BodyBuilder;
+ (I)Lorg/springframework/http/ResponseEntity$BodyBuilder;
+status
+ (Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/http/ResponseEntity$BodyBuilder;
+ (Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/http/ResponseEntity$BodyBuilder;
+unprocessableEntity
+ ()Lorg/springframework/http/ResponseEntity$BodyBuilder;
+ ()Lorg/springframework/http/ResponseEntity$BodyBuilder;
+
+<init>
+ (Lorg/springframework/http/HttpStatusCode;)V
+ (Lorg/springframework/http/HttpStatusCode;)V
+<init>
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;Lorg/springframework/http/HttpStatusCode;)V
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;Lorg/springframework/http/HttpStatusCode;)V
+<init>
+ (TT;Lorg/springframework/http/HttpStatusCode;)V
+ (TT;Lorg/springframework/http/HttpStatusCode;)V
+<init>
+ (TT;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;I)V
+ (TT;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;I)V
+<init>
+ (TT;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;Lorg/springframework/http/HttpStatusCode;)V
+ (TT;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;Lorg/springframework/http/HttpStatusCode;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(org.springframework.http.HttpEntity)
+getStatusCode
+ ()Lorg/springframework/http/HttpStatusCode;
+ ()Lorg/springframework/http/HttpStatusCode;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.springframework.http.HttpEntity)

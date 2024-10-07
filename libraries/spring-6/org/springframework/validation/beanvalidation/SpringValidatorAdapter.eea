@@ -1,0 +1,56 @@
+class org/springframework/validation/beanvalidation/SpringValidatorAdapter
+
+<init>
+ (Ljakarta/validation/Validator;)V
+ (Ljakarta/validation/Validator;)V
+determineErrorCode
+ (Ljakarta/validation/metadata/ConstraintDescriptor<*>;)Ljava/lang/String;
+ (Ljakarta/validation/metadata/ConstraintDescriptor<*>;)Ljava/lang/String;
+determineField
+ (Ljakarta/validation/ConstraintViolation<Ljava/lang/Object;>;)Ljava/lang/String;
+ (Ljakarta/validation/ConstraintViolation<Ljava/lang/Object;>;)Ljava/lang/String;
+forExecutables
+ ()Ljakarta/validation/executable/ExecutableValidator;
+ ()Ljakarta/validation/executable/ExecutableValidator;
+getArgumentsForConstraint
+ (Ljava/lang/String;Ljava/lang/String;Ljakarta/validation/metadata/ConstraintDescriptor<*>;)[Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/lang/String;Ljakarta/validation/metadata/ConstraintDescriptor<*>;)[Ljava/lang/Object;
+getConstraintsForClass
+ (Ljava/lang/Class<*>;)Ljakarta/validation/metadata/BeanDescriptor;
+ (Ljava/lang/Class<*>;)Ljakarta/validation/metadata/BeanDescriptor;
+getRejectedValue
+ (Ljava/lang/String;Ljakarta/validation/ConstraintViolation<Ljava/lang/Object;>;Lorg/springframework/validation/BindingResult;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljakarta/validation/ConstraintViolation<Ljava/lang/Object;>;Lorg/springframework/validation/BindingResult;)L0java/lang/Object;
+getResolvableField
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/context/MessageSourceResolvable;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/context/MessageSourceResolvable;
+processConstraintViolations
+ (Ljava/util/Set<Ljakarta/validation/ConstraintViolation<Ljava/lang/Object;>;>;Lorg/springframework/validation/Errors;)V
+ (Ljava/util/Set<Ljakarta/validation/ConstraintViolation<Ljava/lang/Object;>;>;Lorg/springframework/validation/Errors;)V
+requiresMessageFormat
+ (Ljakarta/validation/ConstraintViolation<*>;)Z
+ (Ljakarta/validation/ConstraintViolation<*>;)Z
+supports
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+unwrap
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)T0T; # @Inherited(org.springframework.validation.SmartValidator)
+validate
+ (Ljava/lang/Object;Lorg/springframework/validation/Errors;)V
+ (Ljava/lang/Object;Lorg/springframework/validation/Errors;)V
+validate
+ (Ljava/lang/Object;Lorg/springframework/validation/Errors;[Ljava/lang/Object;)V
+ (Ljava/lang/Object;Lorg/springframework/validation/Errors;[Ljava/lang/Object;)V
+validate
+ <T:Ljava/lang/Object;>(TT;[Ljava/lang/Class<*>;)Ljava/util/Set<Ljakarta/validation/ConstraintViolation<TT;>;>;
+ <T:Ljava/lang/Object;>(TT;[Ljava/lang/Class<*>;)Ljava/util/Set<Ljakarta/validation/ConstraintViolation<TT;>;>;
+validateProperty
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;[Ljava/lang/Class<*>;)Ljava/util/Set<Ljakarta/validation/ConstraintViolation<TT;>;>;
+ <T:Ljava/lang/Object;>(TT;Ljava/lang/String;[Ljava/lang/Class<*>;)Ljava/util/Set<Ljakarta/validation/ConstraintViolation<TT;>;>;
+validateValue
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/Object;Lorg/springframework/validation/Errors;[Ljava/lang/Object;)V
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/Object;Lorg/springframework/validation/Errors;[Ljava/lang/Object;)V
+validateValue
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Class<*>;)Ljava/util/Set<Ljakarta/validation/ConstraintViolation<TT;>;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Class<*>;)Ljava/util/Set<Ljakarta/validation/ConstraintViolation<TT;>;>;

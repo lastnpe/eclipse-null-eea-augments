@@ -1,0 +1,12 @@
+class org/springframework/http/codec/protobuf/ProtobufHttpMessageWriter
+
+super org/springframework/http/codec/EncoderHttpMessageWriter
+ <Lcom/google/protobuf/Message;>
+ <Lcom/google/protobuf/Message;>
+
+<init>
+ (Lorg/springframework/core/codec/Encoder<Lcom/google/protobuf/Message;>;)V
+ (Lorg/springframework/core/codec/Encoder<Lcom/google/protobuf/Message;>;)V
+write
+ (Lorg/reactivestreams/Publisher<+Lcom/google/protobuf/Message;>;Lorg/springframework/core/ResolvableType;Lorg/springframework/http/MediaType;Lorg/springframework/http/ReactiveHttpOutputMessage;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/reactivestreams/Publisher<+Lcom/google/protobuf/Message;>;Lorg/springframework/core/ResolvableType;Lorg/springframework/http/MediaType;Lorg/springframework/http/ReactiveHttpOutputMessage;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;

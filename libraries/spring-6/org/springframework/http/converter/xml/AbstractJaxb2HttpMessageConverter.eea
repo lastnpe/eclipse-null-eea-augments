@@ -1,0 +1,23 @@
+class org/springframework/http/converter/xml/AbstractJaxb2HttpMessageConverter
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/springframework/http/converter/xml/AbstractXmlHttpMessageConverter
+ <TT;>
+ <TT;>
+
+createMarshaller
+ (Ljava/lang/Class<*>;)Ljakarta/xml/bind/Marshaller;
+ (Ljava/lang/Class<*>;)Ljakarta/xml/bind/Marshaller;
+createUnmarshaller
+ (Ljava/lang/Class<*>;)Ljakarta/xml/bind/Unmarshaller;
+ (Ljava/lang/Class<*>;)Ljakarta/xml/bind/Unmarshaller;
+customizeMarshaller
+ (Ljakarta/xml/bind/Marshaller;)V
+ (Ljakarta/xml/bind/Marshaller;)V
+customizeUnmarshaller
+ (Ljakarta/xml/bind/Unmarshaller;)V
+ (Ljakarta/xml/bind/Unmarshaller;)V
+getJaxbContext
+ (Ljava/lang/Class<*>;)Ljakarta/xml/bind/JAXBContext;
+ (Ljava/lang/Class<*>;)Ljakarta/xml/bind/JAXBContext;

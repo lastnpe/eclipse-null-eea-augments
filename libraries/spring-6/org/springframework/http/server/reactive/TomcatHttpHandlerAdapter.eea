@@ -1,0 +1,11 @@
+class org/springframework/http/server/reactive/TomcatHttpHandlerAdapter
+
+<init>
+ (Lorg/springframework/http/server/reactive/HttpHandler;)V
+ (Lorg/springframework/http/server/reactive/HttpHandler;)V
+createRequest
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/AsyncContext;)Lorg/springframework/http/server/reactive/ServletServerHttpRequest;
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/AsyncContext;)Lorg/springframework/http/server/reactive/ServletServerHttpRequest;
+createResponse
+ (Ljakarta/servlet/http/HttpServletResponse;Ljakarta/servlet/AsyncContext;Lorg/springframework/http/server/reactive/ServletServerHttpRequest;)Lorg/springframework/http/server/reactive/ServletServerHttpResponse;
+ (Ljakarta/servlet/http/HttpServletResponse;Ljakarta/servlet/AsyncContext;Lorg/springframework/http/server/reactive/ServletServerHttpRequest;)Lorg/springframework/http/server/reactive/ServletServerHttpResponse;

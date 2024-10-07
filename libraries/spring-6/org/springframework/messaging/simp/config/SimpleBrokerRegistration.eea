@@ -1,0 +1,17 @@
+class org/springframework/messaging/simp/config/SimpleBrokerRegistration
+
+<init>
+ (Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/MessageChannel;[Ljava/lang/String;)V
+ (Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/MessageChannel;[Ljava/lang/String;)V
+getMessageHandler
+ (Lorg/springframework/messaging/SubscribableChannel;)Lorg/springframework/messaging/simp/broker/SimpleBrokerMessageHandler;
+ (Lorg/springframework/messaging/SubscribableChannel;)Lorg/springframework/messaging/simp/broker/SimpleBrokerMessageHandler;
+setHeartbeatValue
+ ([J)Lorg/springframework/messaging/simp/config/SimpleBrokerRegistration;
+ ([J)Lorg/springframework/messaging/simp/config/SimpleBrokerRegistration;
+setSelectorHeaderName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setTaskScheduler
+ (Lorg/springframework/scheduling/TaskScheduler;)Lorg/springframework/messaging/simp/config/SimpleBrokerRegistration;
+ (Lorg/springframework/scheduling/TaskScheduler;)Lorg/springframework/messaging/simp/config/SimpleBrokerRegistration;

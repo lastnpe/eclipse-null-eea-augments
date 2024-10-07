@@ -1,0 +1,23 @@
+class org/springframework/web/multipart/support/StandardMultipartHttpServletRequest
+
+<init>
+ (Ljakarta/servlet/http/HttpServletRequest;)V
+ (Ljakarta/servlet/http/HttpServletRequest;)V
+<init>
+ (Ljakarta/servlet/http/HttpServletRequest;Z)V
+ (Ljakarta/servlet/http/HttpServletRequest;Z)V
+getMultipartContentType
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String; # @Inherited(org.springframework.web.multipart.MultipartRequest)
+getMultipartHeaders
+ (Ljava/lang/String;)Lorg/springframework/http/HttpHeaders;
+ (Ljava/lang/String;)L0org/springframework/http/HttpHeaders; # @Inherited(org.springframework.web.multipart.MultipartHttpServletRequest)
+getParameterMap
+ ()Ljava/util/Map<Ljava/lang/String;[Ljava/lang/String;>;
+ ()Ljava/util/Map<Ljava/lang/String;[Ljava/lang/String;>;
+getParameterNames
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+handleParseFailure
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V

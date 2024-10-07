@@ -1,0 +1,24 @@
+class org/springframework/jdbc/core/DataClassRowMapper
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/springframework/jdbc/core/BeanPropertyRowMapper
+ <TT;>
+ <TT;>
+
+newInstance
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/springframework/jdbc/core/DataClassRowMapper<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/springframework/jdbc/core/DataClassRowMapper<TT;>;
+newInstance
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/springframework/core/convert/ConversionService;)Lorg/springframework/jdbc/core/DataClassRowMapper<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/springframework/core/convert/ConversionService;)Lorg/springframework/jdbc/core/DataClassRowMapper<TT;>;
+
+<init>
+ (Ljava/lang/Class<TT;>;)V
+ (Ljava/lang/Class<TT;>;)V
+constructMappedInstance
+ (Ljava/sql/ResultSet;Lorg/springframework/beans/TypeConverter;)TT;
+ (Ljava/sql/ResultSet;Lorg/springframework/beans/TypeConverter;)TT;
+initialize
+ (Ljava/lang/Class<TT;>;)V
+ (Ljava/lang/Class<TT;>;)V

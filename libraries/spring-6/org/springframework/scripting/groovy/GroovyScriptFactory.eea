@@ -1,0 +1,47 @@
+class org/springframework/scripting/groovy/GroovyScriptFactory
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Lorg/codehaus/groovy/control/CompilerConfiguration;)V
+ (Ljava/lang/String;Lorg/codehaus/groovy/control/CompilerConfiguration;)V
+<init>
+ (Ljava/lang/String;Lorg/springframework/scripting/groovy/GroovyObjectCustomizer;)V
+ (Ljava/lang/String;Lorg/springframework/scripting/groovy/GroovyObjectCustomizer;)V
+<init>
+ (Ljava/lang/String;[Lorg/codehaus/groovy/control/customizers/CompilationCustomizer;)V
+ (Ljava/lang/String;[Lorg/codehaus/groovy/control/customizers/CompilationCustomizer;)V
+buildGroovyClassLoader
+ (Ljava/lang/ClassLoader;)Lgroovy/lang/GroovyClassLoader;
+ (Ljava/lang/ClassLoader;)Lgroovy/lang/GroovyClassLoader;
+executeScript
+ (Lorg/springframework/scripting/ScriptSource;Ljava/lang/Class<*>;)Ljava/lang/Object;
+ (Lorg/springframework/scripting/ScriptSource;Ljava/lang/Class<*>;)L0java/lang/Object;
+getGroovyClassLoader
+ ()Lgroovy/lang/GroovyClassLoader;
+ ()Lgroovy/lang/GroovyClassLoader;
+getScriptInterfaces
+ ()[Ljava/lang/Class<*>;
+ ()[0Ljava/lang/Class<*>; # @Inherited(org.springframework.scripting.ScriptFactory)
+getScriptSourceLocator
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getScriptedObject
+ (Lorg/springframework/scripting/ScriptSource;[Ljava/lang/Class<*>;)Ljava/lang/Object;
+ (Lorg/springframework/scripting/ScriptSource;[Ljava/lang/Class<*>;)L0java/lang/Object; # @Inherited(org.springframework.scripting.ScriptFactory)
+getScriptedObjectType
+ (Lorg/springframework/scripting/ScriptSource;)Ljava/lang/Class<*>;
+ (Lorg/springframework/scripting/ScriptSource;)L0java/lang/Class<*>; # @Inherited(org.springframework.scripting.ScriptFactory)
+requiresScriptedObjectRefresh
+ (Lorg/springframework/scripting/ScriptSource;)Z
+ (Lorg/springframework/scripting/ScriptSource;)Z
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

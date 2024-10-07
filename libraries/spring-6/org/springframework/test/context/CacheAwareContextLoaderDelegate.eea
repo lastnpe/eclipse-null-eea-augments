@@ -1,0 +1,15 @@
+class org/springframework/test/context/CacheAwareContextLoaderDelegate
+
+CONTEXT_FAILURE_THRESHOLD_PROPERTY_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+closeContext
+ (Lorg/springframework/test/context/MergedContextConfiguration;Lorg/springframework/test/annotation/DirtiesContext$HierarchyMode;)V
+ (Lorg/springframework/test/context/MergedContextConfiguration;Lorg/springframework/test/annotation/DirtiesContext$HierarchyMode;)V
+isContextLoaded
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Z
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Z
+loadContext
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Lorg/springframework/context/ApplicationContext;
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Lorg/springframework/context/ApplicationContext;

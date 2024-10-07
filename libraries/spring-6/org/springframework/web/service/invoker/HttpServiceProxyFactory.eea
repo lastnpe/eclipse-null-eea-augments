@@ -1,0 +1,15 @@
+class org/springframework/web/service/invoker/HttpServiceProxyFactory
+
+builder
+ ()Lorg/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;
+ ()Lorg/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;
+builder
+ (Lorg/springframework/web/service/invoker/HttpClientAdapter;)Lorg/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;
+ (Lorg/springframework/web/service/invoker/HttpClientAdapter;)Lorg/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;
+builderFor
+ (Lorg/springframework/web/service/invoker/HttpExchangeAdapter;)Lorg/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;
+ (Lorg/springframework/web/service/invoker/HttpExchangeAdapter;)Lorg/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;
+
+createClient
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<TS;>;)TS;
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<TS;>;)TS;

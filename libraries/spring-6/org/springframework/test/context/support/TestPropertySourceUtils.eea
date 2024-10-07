@@ -1,0 +1,27 @@
+class org/springframework/test/context/support/TestPropertySourceUtils
+
+INLINED_PROPERTIES_PROPERTY_SOURCE_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+addInlinedPropertiesToEnvironment
+ (Lorg/springframework/context/ConfigurableApplicationContext;[Ljava/lang/String;)V
+ (Lorg/springframework/context/ConfigurableApplicationContext;[Ljava/lang/String;)V
+addInlinedPropertiesToEnvironment
+ (Lorg/springframework/core/env/ConfigurableEnvironment;[Ljava/lang/String;)V
+ (Lorg/springframework/core/env/ConfigurableEnvironment;[Ljava/lang/String;)V
+addPropertiesFilesToEnvironment
+ (Lorg/springframework/context/ConfigurableApplicationContext;[Ljava/lang/String;)V
+ (Lorg/springframework/context/ConfigurableApplicationContext;[Ljava/lang/String;)V
+addPropertiesFilesToEnvironment
+ (Lorg/springframework/core/env/ConfigurableEnvironment;Lorg/springframework/core/io/ResourceLoader;[Ljava/lang/String;)V
+ (Lorg/springframework/core/env/ConfigurableEnvironment;Lorg/springframework/core/io/ResourceLoader;[Ljava/lang/String;)V
+addPropertySourcesToEnvironment
+ (Lorg/springframework/context/ConfigurableApplicationContext;Ljava/util/List<Lorg/springframework/core/io/support/PropertySourceDescriptor;>;)V
+ (Lorg/springframework/context/ConfigurableApplicationContext;Ljava/util/List<Lorg/springframework/core/io/support/PropertySourceDescriptor;>;)V
+addPropertySourcesToEnvironment
+ (Lorg/springframework/core/env/ConfigurableEnvironment;Lorg/springframework/core/io/ResourceLoader;Ljava/util/List<Lorg/springframework/core/io/support/PropertySourceDescriptor;>;)V
+ (Lorg/springframework/core/env/ConfigurableEnvironment;Lorg/springframework/core/io/ResourceLoader;Ljava/util/List<Lorg/springframework/core/io/support/PropertySourceDescriptor;>;)V
+convertInlinedPropertiesToMap
+ ([Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ([Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;

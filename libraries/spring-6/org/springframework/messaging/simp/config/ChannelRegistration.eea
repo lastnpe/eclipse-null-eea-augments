@@ -1,0 +1,20 @@
+class org/springframework/messaging/simp/config/ChannelRegistration
+
+executor
+ (Lorg/springframework/core/task/TaskExecutor;)Lorg/springframework/messaging/simp/config/ChannelRegistration;
+ (Lorg/springframework/core/task/TaskExecutor;)Lorg/springframework/messaging/simp/config/ChannelRegistration;
+getInterceptors
+ ()Ljava/util/List<Lorg/springframework/messaging/support/ChannelInterceptor;>;
+ ()Ljava/util/List<Lorg/springframework/messaging/support/ChannelInterceptor;>;
+getTaskExecutor
+ (Ljava/util/function/Supplier<Lorg/springframework/core/task/TaskExecutor;>;Ljava/util/function/Consumer<Lorg/springframework/core/task/TaskExecutor;>;)Lorg/springframework/core/task/TaskExecutor;
+ (Ljava/util/function/Supplier<Lorg/springframework/core/task/TaskExecutor;>;Ljava/util/function/Consumer<Lorg/springframework/core/task/TaskExecutor;>;)Lorg/springframework/core/task/TaskExecutor;
+interceptors
+ ([Lorg/springframework/messaging/support/ChannelInterceptor;)Lorg/springframework/messaging/simp/config/ChannelRegistration;
+ ([Lorg/springframework/messaging/support/ChannelInterceptor;)Lorg/springframework/messaging/simp/config/ChannelRegistration;
+taskExecutor
+ ()Lorg/springframework/messaging/simp/config/TaskExecutorRegistration;
+ ()Lorg/springframework/messaging/simp/config/TaskExecutorRegistration;
+taskExecutor
+ (Lorg/springframework/scheduling/concurrent/ThreadPoolTaskExecutor;)Lorg/springframework/messaging/simp/config/TaskExecutorRegistration;
+ (Lorg/springframework/scheduling/concurrent/ThreadPoolTaskExecutor;)Lorg/springframework/messaging/simp/config/TaskExecutorRegistration;

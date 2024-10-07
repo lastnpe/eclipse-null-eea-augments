@@ -1,0 +1,44 @@
+class org/springframework/aop/aspectj/MethodInvocationProceedingJoinPoint
+
+<init>
+ (Lorg/springframework/aop/ProxyMethodInvocation;)V
+ (Lorg/springframework/aop/ProxyMethodInvocation;)V
+getArgs
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+getKind
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSignature
+ ()Lorg/aspectj/lang/Signature;
+ ()Lorg/aspectj/lang/Signature;
+getSourceLocation
+ ()Lorg/aspectj/lang/reflect/SourceLocation;
+ ()Lorg/aspectj/lang/reflect/SourceLocation;
+getStaticPart
+ ()Lorg/aspectj/lang/JoinPoint$StaticPart;
+ ()Lorg/aspectj/lang/JoinPoint$StaticPart;
+getTarget
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getThis
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+proceed
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+proceed
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)L0java/lang/Object;
+set$AroundClosure
+ (Lorg/aspectj/runtime/internal/AroundClosure;)V
+ (Lorg/aspectj/runtime/internal/AroundClosure;)V
+toLongString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+toShortString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

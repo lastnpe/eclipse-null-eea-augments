@@ -1,0 +1,36 @@
+class org/springframework/jca/endpoint/AbstractMessageEndpointFactory
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+createEndpoint
+ (Ljavax/transaction/xa/XAResource;)Ljakarta/resource/spi/endpoint/MessageEndpoint;
+ (Ljavax/transaction/xa/XAResource;)Ljakarta/resource/spi/endpoint/MessageEndpoint;
+createEndpoint
+ (Ljavax/transaction/xa/XAResource;J)Ljakarta/resource/spi/endpoint/MessageEndpoint;
+ (Ljavax/transaction/xa/XAResource;J)Ljakarta/resource/spi/endpoint/MessageEndpoint;
+createEndpointInternal
+ ()Lorg/springframework/jca/endpoint/AbstractMessageEndpointFactory$AbstractMessageEndpoint;
+ ()Lorg/springframework/jca/endpoint/AbstractMessageEndpointFactory$AbstractMessageEndpoint;
+getActivationName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getEndpointClass
+ ()Ljava/lang/Class<*>;
+ ()L0java/lang/Class<*>;
+isDeliveryTransacted
+ (Ljava/lang/reflect/Method;)Z
+ (Ljava/lang/reflect/Method;)Z
+setBeanName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setTransactionFactory
+ (Lorg/springframework/transaction/jta/TransactionFactory;)V
+ (Lorg/springframework/transaction/jta/TransactionFactory;)V
+setTransactionManager
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setTransactionName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

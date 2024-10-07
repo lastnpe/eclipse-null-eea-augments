@@ -1,0 +1,24 @@
+class org/springframework/web/jsf/DelegatingNavigationHandlerProxy
+
+DEFAULT_TARGET_BEAN_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljakarta/faces/application/NavigationHandler;)V
+ (Ljakarta/faces/application/NavigationHandler;)V
+getBeanFactory
+ (Ljakarta/faces/context/FacesContext;)Lorg/springframework/beans/factory/BeanFactory;
+ (Ljakarta/faces/context/FacesContext;)Lorg/springframework/beans/factory/BeanFactory;
+getDelegate
+ (Ljakarta/faces/context/FacesContext;)Ljakarta/faces/application/NavigationHandler;
+ (Ljakarta/faces/context/FacesContext;)Ljakarta/faces/application/NavigationHandler;
+getTargetBeanName
+ (Ljakarta/faces/context/FacesContext;)Ljava/lang/String;
+ (Ljakarta/faces/context/FacesContext;)Ljava/lang/String;
+getWebApplicationContext
+ (Ljakarta/faces/context/FacesContext;)Lorg/springframework/web/context/WebApplicationContext;
+ (Ljakarta/faces/context/FacesContext;)Lorg/springframework/web/context/WebApplicationContext;
+handleNavigation
+ (Ljakarta/faces/context/FacesContext;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljakarta/faces/context/FacesContext;Ljava/lang/String;Ljava/lang/String;)V

@@ -1,0 +1,21 @@
+class org/springframework/messaging/handler/annotation/reactive/DestinationVariableMethodArgumentResolver
+
+DESTINATION_TEMPLATE_VARIABLES_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Lorg/springframework/core/convert/ConversionService;)V
+ (Lorg/springframework/core/convert/ConversionService;)V
+createNamedValueInfo
+ (Lorg/springframework/core/MethodParameter;)Lorg/springframework/messaging/handler/annotation/reactive/AbstractNamedValueMethodArgumentResolver$NamedValueInfo;
+ (Lorg/springframework/core/MethodParameter;)Lorg/springframework/messaging/handler/annotation/reactive/AbstractNamedValueMethodArgumentResolver$NamedValueInfo;
+handleMissingValue
+ (Ljava/lang/String;Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)V
+ (Ljava/lang/String;Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)V
+resolveArgumentInternal
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;Ljava/lang/String;)Ljava/lang/Object;
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;Ljava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.messaging.handler.annotation.reactive.AbstractNamedValueMethodArgumentResolver)
+supportsParameter
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z

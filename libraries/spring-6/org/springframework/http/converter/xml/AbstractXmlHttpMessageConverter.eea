@@ -1,0 +1,23 @@
+class org/springframework/http/converter/xml/AbstractXmlHttpMessageConverter
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/springframework/http/converter/AbstractHttpMessageConverter
+ <TT;>
+ <TT;>
+
+readFromSource
+ (Ljava/lang/Class<+TT;>;Lorg/springframework/http/HttpHeaders;Ljavax/xml/transform/Source;)TT;
+ (Ljava/lang/Class<+TT;>;Lorg/springframework/http/HttpHeaders;Ljavax/xml/transform/Source;)TT;
+readInternal
+ (Ljava/lang/Class<+TT;>;Lorg/springframework/http/HttpInputMessage;)TT;
+ (Ljava/lang/Class<+TT;>;Lorg/springframework/http/HttpInputMessage;)TT;
+transform
+ (Ljavax/xml/transform/Source;Ljavax/xml/transform/Result;)V
+ (Ljavax/xml/transform/Source;Ljavax/xml/transform/Result;)V
+writeInternal
+ (TT;Lorg/springframework/http/HttpOutputMessage;)V
+ (TT;Lorg/springframework/http/HttpOutputMessage;)V
+writeToResult
+ (TT;Lorg/springframework/http/HttpHeaders;Ljavax/xml/transform/Result;)V
+ (TT;Lorg/springframework/http/HttpHeaders;Ljavax/xml/transform/Result;)V

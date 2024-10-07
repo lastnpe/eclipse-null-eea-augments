@@ -1,0 +1,38 @@
+class org/springframework/http/converter/json/SpringHandlerInstantiator
+
+<init>
+ (Lorg/springframework/beans/factory/config/AutowireCapableBeanFactory;)V
+ (Lorg/springframework/beans/factory/config/AutowireCapableBeanFactory;)V
+converterInstance
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/util/Converter<**>;
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/util/Converter<**>;
+deserializerInstance
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;
+keyDeserializerInstance
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/KeyDeserializer;
+ (Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/KeyDeserializer;
+namingStrategyInstance
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/PropertyNamingStrategy;
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/PropertyNamingStrategy;
+objectIdGeneratorInstance
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/ObjectIdGenerator<*>;
+resolverIdGeneratorInstance
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/ObjectIdResolver;
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/annotation/ObjectIdResolver;
+serializerInstance
+ (Lcom/fasterxml/jackson/databind/SerializationConfig;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+ (Lcom/fasterxml/jackson/databind/SerializationConfig;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JsonSerializer<*>;
+typeIdResolverInstance
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/jsontype/TypeIdResolver;
+typeResolverBuilderInstance
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/jsontype/TypeResolverBuilder<*>;
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/jsontype/TypeResolverBuilder<*>;
+valueInstantiatorInstance
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/deser/ValueInstantiator;
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Lcom/fasterxml/jackson/databind/introspect/Annotated;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/deser/ValueInstantiator;
+virtualPropertyWriterInstance
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/ser/VirtualBeanPropertyWriter;
+ (Lcom/fasterxml/jackson/databind/cfg/MapperConfig<*>;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/ser/VirtualBeanPropertyWriter;

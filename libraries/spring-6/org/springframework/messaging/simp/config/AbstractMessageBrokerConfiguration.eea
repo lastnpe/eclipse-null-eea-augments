@@ -1,0 +1,101 @@
+class org/springframework/messaging/simp/config/AbstractMessageBrokerConfiguration
+
+addArgumentResolvers
+ (Ljava/util/List<Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolver;>;)V
+ (Ljava/util/List<Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolver;>;)V
+addReturnValueHandlers
+ (Ljava/util/List<Lorg/springframework/messaging/handler/invocation/HandlerMethodReturnValueHandler;>;)V
+ (Ljava/util/List<Lorg/springframework/messaging/handler/invocation/HandlerMethodReturnValueHandler;>;)V
+brokerChannel
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/core/task/TaskExecutor;)Lorg/springframework/messaging/support/AbstractSubscribableChannel;
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/core/task/TaskExecutor;)Lorg/springframework/messaging/support/AbstractSubscribableChannel;
+brokerChannelExecutor
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;)Lorg/springframework/core/task/TaskExecutor;
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;)Lorg/springframework/core/task/TaskExecutor;
+brokerMessageConverter
+ ()Lorg/springframework/messaging/converter/CompositeMessageConverter;
+ ()Lorg/springframework/messaging/converter/CompositeMessageConverter;
+brokerMessagingTemplate
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/converter/CompositeMessageConverter;)Lorg/springframework/messaging/simp/SimpMessagingTemplate;
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/converter/CompositeMessageConverter;)Lorg/springframework/messaging/simp/SimpMessagingTemplate;
+clientInboundChannel
+ (Lorg/springframework/core/task/TaskExecutor;)Lorg/springframework/messaging/support/AbstractSubscribableChannel;
+ (Lorg/springframework/core/task/TaskExecutor;)Lorg/springframework/messaging/support/AbstractSubscribableChannel;
+clientInboundChannelExecutor
+ ()Lorg/springframework/core/task/TaskExecutor;
+ ()Lorg/springframework/core/task/TaskExecutor;
+clientOutboundChannel
+ (Lorg/springframework/core/task/TaskExecutor;)Lorg/springframework/messaging/support/AbstractSubscribableChannel;
+ (Lorg/springframework/core/task/TaskExecutor;)Lorg/springframework/messaging/support/AbstractSubscribableChannel;
+clientOutboundChannelExecutor
+ ()Lorg/springframework/core/task/TaskExecutor;
+ ()Lorg/springframework/core/task/TaskExecutor;
+configureClientInboundChannel
+ (Lorg/springframework/messaging/simp/config/ChannelRegistration;)V
+ (Lorg/springframework/messaging/simp/config/ChannelRegistration;)V
+configureClientOutboundChannel
+ (Lorg/springframework/messaging/simp/config/ChannelRegistration;)V
+ (Lorg/springframework/messaging/simp/config/ChannelRegistration;)V
+configureMessageBroker
+ (Lorg/springframework/messaging/simp/config/MessageBrokerRegistry;)V
+ (Lorg/springframework/messaging/simp/config/MessageBrokerRegistry;)V
+configureMessageConverters
+ (Ljava/util/List<Lorg/springframework/messaging/converter/MessageConverter;>;)Z
+ (Ljava/util/List<Lorg/springframework/messaging/converter/MessageConverter;>;)Z
+createAnnotationMethodMessageHandler
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/simp/SimpMessagingTemplate;)Lorg/springframework/messaging/simp/annotation/support/SimpAnnotationMethodMessageHandler;
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/simp/SimpMessagingTemplate;)Lorg/springframework/messaging/simp/annotation/support/SimpAnnotationMethodMessageHandler;
+createJacksonConverter
+ ()Lorg/springframework/messaging/converter/MappingJackson2MessageConverter;
+ ()Lorg/springframework/messaging/converter/MappingJackson2MessageConverter;
+createLocalUserRegistry
+ (Ljava/lang/Integer;)Lorg/springframework/messaging/simp/user/SimpUserRegistry;
+ (Ljava/lang/Integer;)Lorg/springframework/messaging/simp/user/SimpUserRegistry;
+getApplicationContext
+ ()Lorg/springframework/context/ApplicationContext;
+ ()L0org/springframework/context/ApplicationContext;
+getBrokerRegistry
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;)Lorg/springframework/messaging/simp/config/MessageBrokerRegistry;
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;)Lorg/springframework/messaging/simp/config/MessageBrokerRegistry;
+getClientInboundChannelRegistration
+ ()Lorg/springframework/messaging/simp/config/ChannelRegistration;
+ ()Lorg/springframework/messaging/simp/config/ChannelRegistration;
+getClientOutboundChannelRegistration
+ ()Lorg/springframework/messaging/simp/config/ChannelRegistration;
+ ()Lorg/springframework/messaging/simp/config/ChannelRegistration;
+getPathMatcher
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;)Lorg/springframework/util/PathMatcher;
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;)L0org/springframework/util/PathMatcher;
+getValidator
+ ()Lorg/springframework/validation/Validator;
+ ()L0org/springframework/validation/Validator;
+messageBrokerTaskScheduler
+ ()Lorg/springframework/scheduling/TaskScheduler;
+ ()Lorg/springframework/scheduling/TaskScheduler;
+setApplicationContext
+ (Lorg/springframework/context/ApplicationContext;)V
+ (Lorg/springframework/context/ApplicationContext;)V
+simpAnnotationMethodMessageHandler
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/simp/SimpMessagingTemplate;Lorg/springframework/messaging/converter/CompositeMessageConverter;)Lorg/springframework/messaging/simp/annotation/support/SimpAnnotationMethodMessageHandler;
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/simp/SimpMessagingTemplate;Lorg/springframework/messaging/converter/CompositeMessageConverter;)Lorg/springframework/messaging/simp/annotation/support/SimpAnnotationMethodMessageHandler;
+simpValidator
+ ()Lorg/springframework/validation/Validator;
+ ()Lorg/springframework/validation/Validator;
+simpleBrokerMessageHandler
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/simp/user/UserDestinationResolver;)Lorg/springframework/messaging/simp/broker/AbstractBrokerMessageHandler;
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/simp/user/UserDestinationResolver;)L0org/springframework/messaging/simp/broker/AbstractBrokerMessageHandler;
+stompBrokerRelayMessageHandler
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/simp/user/UserDestinationMessageHandler;Lorg/springframework/messaging/MessageHandler;Lorg/springframework/messaging/simp/user/UserDestinationResolver;)Lorg/springframework/messaging/simp/broker/AbstractBrokerMessageHandler;
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/simp/user/UserDestinationMessageHandler;Lorg/springframework/messaging/MessageHandler;Lorg/springframework/messaging/simp/user/UserDestinationResolver;)L0org/springframework/messaging/simp/broker/AbstractBrokerMessageHandler;
+userDestinationMessageHandler
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/simp/user/UserDestinationResolver;)Lorg/springframework/messaging/simp/user/UserDestinationMessageHandler;
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/simp/user/UserDestinationResolver;)Lorg/springframework/messaging/simp/user/UserDestinationMessageHandler;
+userDestinationResolver
+ (Lorg/springframework/messaging/simp/user/SimpUserRegistry;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;)Lorg/springframework/messaging/simp/user/UserDestinationResolver;
+ (Lorg/springframework/messaging/simp/user/SimpUserRegistry;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;)Lorg/springframework/messaging/simp/user/UserDestinationResolver;
+userRegistry
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;)Lorg/springframework/messaging/simp/user/SimpUserRegistry;
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;)Lorg/springframework/messaging/simp/user/SimpUserRegistry;
+userRegistryMessageHandler
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/simp/user/SimpUserRegistry;Lorg/springframework/messaging/simp/SimpMessagingTemplate;Lorg/springframework/scheduling/TaskScheduler;)Lorg/springframework/messaging/MessageHandler;
+ (Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/support/AbstractSubscribableChannel;Lorg/springframework/messaging/simp/user/SimpUserRegistry;Lorg/springframework/messaging/simp/SimpMessagingTemplate;Lorg/springframework/scheduling/TaskScheduler;)L0org/springframework/messaging/MessageHandler;

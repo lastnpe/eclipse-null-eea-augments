@@ -1,0 +1,20 @@
+class org/springframework/jmx/export/metadata/JmxAttributeSource
+
+getManagedAttribute
+ (Ljava/lang/reflect/Method;)Lorg/springframework/jmx/export/metadata/ManagedAttribute;
+ (Ljava/lang/reflect/Method;)L0org/springframework/jmx/export/metadata/ManagedAttribute;
+getManagedMetric
+ (Ljava/lang/reflect/Method;)Lorg/springframework/jmx/export/metadata/ManagedMetric;
+ (Ljava/lang/reflect/Method;)L0org/springframework/jmx/export/metadata/ManagedMetric;
+getManagedNotifications
+ (Ljava/lang/Class<*>;)[Lorg/springframework/jmx/export/metadata/ManagedNotification;
+ (Ljava/lang/Class<*>;)[Lorg/springframework/jmx/export/metadata/ManagedNotification;
+getManagedOperation
+ (Ljava/lang/reflect/Method;)Lorg/springframework/jmx/export/metadata/ManagedOperation;
+ (Ljava/lang/reflect/Method;)L0org/springframework/jmx/export/metadata/ManagedOperation;
+getManagedOperationParameters
+ (Ljava/lang/reflect/Method;)[Lorg/springframework/jmx/export/metadata/ManagedOperationParameter;
+ (Ljava/lang/reflect/Method;)[Lorg/springframework/jmx/export/metadata/ManagedOperationParameter;
+getManagedResource
+ (Ljava/lang/Class<*>;)Lorg/springframework/jmx/export/metadata/ManagedResource;
+ (Ljava/lang/Class<*>;)L0org/springframework/jmx/export/metadata/ManagedResource;

@@ -1,0 +1,32 @@
+class org/springframework/mock/web/MockMultipartFile
+
+<init>
+ (Ljava/lang/String;Ljava/io/InputStream;)V
+ (Ljava/lang/String;Ljava/io/InputStream;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[B)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[B)V
+<init>
+ (Ljava/lang/String;[B)V
+ (Ljava/lang/String;[B)V
+getBytes
+ ()[B
+ ()[B
+getContentType
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.web.multipart.MultipartFile)
+getInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getOriginalFilename
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Overrides(org.springframework.web.multipart.MultipartFile)
+transferTo
+ (Ljava/io/File;)V
+ (Ljava/io/File;)V

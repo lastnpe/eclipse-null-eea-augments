@@ -1,0 +1,14 @@
+class org/springframework/aop/support/MethodMatchers
+
+intersection
+ (Lorg/springframework/aop/MethodMatcher;Lorg/springframework/aop/MethodMatcher;)Lorg/springframework/aop/MethodMatcher;
+ (Lorg/springframework/aop/MethodMatcher;Lorg/springframework/aop/MethodMatcher;)Lorg/springframework/aop/MethodMatcher;
+matches
+ (Lorg/springframework/aop/MethodMatcher;Ljava/lang/reflect/Method;Ljava/lang/Class<*>;Z)Z
+ (Lorg/springframework/aop/MethodMatcher;Ljava/lang/reflect/Method;Ljava/lang/Class<*>;Z)Z
+negate
+ (Lorg/springframework/aop/MethodMatcher;)Lorg/springframework/aop/MethodMatcher;
+ (Lorg/springframework/aop/MethodMatcher;)Lorg/springframework/aop/MethodMatcher;
+union
+ (Lorg/springframework/aop/MethodMatcher;Lorg/springframework/aop/MethodMatcher;)Lorg/springframework/aop/MethodMatcher;
+ (Lorg/springframework/aop/MethodMatcher;Lorg/springframework/aop/MethodMatcher;)Lorg/springframework/aop/MethodMatcher;

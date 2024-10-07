@@ -1,0 +1,17 @@
+class org/springframework/http/client/reactive/AbstractClientHttpResponse
+
+<init>
+ (Lorg/springframework/http/HttpStatusCode;Lorg/springframework/http/HttpHeaders;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/ResponseCookie;>;Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;)V
+ (Lorg/springframework/http/HttpStatusCode;Lorg/springframework/http/HttpHeaders;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/ResponseCookie;>;Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;)V
+getBody
+ ()Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+ ()Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+getCookies
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/ResponseCookie;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/ResponseCookie;>;
+getHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+getStatusCode
+ ()Lorg/springframework/http/HttpStatusCode;
+ ()Lorg/springframework/http/HttpStatusCode;

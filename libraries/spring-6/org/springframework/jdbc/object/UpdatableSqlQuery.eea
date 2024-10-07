@@ -1,0 +1,17 @@
+class org/springframework/jdbc/object/UpdatableSqlQuery
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/springframework/jdbc/object/SqlQuery
+ <TT;>
+ <TT;>
+
+<init>
+ (Ljavax/sql/DataSource;Ljava/lang/String;)V
+ (Ljavax/sql/DataSource;Ljava/lang/String;)V
+newRowMapper
+ ([Ljava/lang/Object;Ljava/util/Map<**>;)Lorg/springframework/jdbc/core/RowMapper<TT;>;
+ ([Ljava/lang/Object;Ljava/util/Map<**>;)Lorg/springframework/jdbc/core/RowMapper<TT;>;
+updateRow
+ (Ljava/sql/ResultSet;ILjava/util/Map<**>;)TT;
+ (Ljava/sql/ResultSet;ILjava/util/Map<**>;)TT;

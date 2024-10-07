@@ -1,0 +1,18 @@
+class org/springframework/mock/web/server/MockServerWebExchange
+
+builder
+ (Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BaseBuilder<*>;)Lorg/springframework/mock/web/server/MockServerWebExchange$Builder;
+ (Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BaseBuilder<*>;)Lorg/springframework/mock/web/server/MockServerWebExchange$Builder;
+builder
+ (Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest;)Lorg/springframework/mock/web/server/MockServerWebExchange$Builder;
+ (Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest;)Lorg/springframework/mock/web/server/MockServerWebExchange$Builder;
+from
+ (Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BaseBuilder<*>;)Lorg/springframework/mock/web/server/MockServerWebExchange;
+ (Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest$BaseBuilder<*>;)Lorg/springframework/mock/web/server/MockServerWebExchange;
+from
+ (Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest;)Lorg/springframework/mock/web/server/MockServerWebExchange;
+ (Lorg/springframework/mock/http/server/reactive/MockServerHttpRequest;)Lorg/springframework/mock/web/server/MockServerWebExchange;
+
+getResponse
+ ()Lorg/springframework/mock/http/server/reactive/MockServerHttpResponse;
+ ()Lorg/springframework/mock/http/server/reactive/MockServerHttpResponse;

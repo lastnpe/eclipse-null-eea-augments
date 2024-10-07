@@ -1,0 +1,44 @@
+class org/springframework/context/annotation/AnnotatedBeanDefinitionReader
+
+<init>
+ (Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;)V
+ (Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;)V
+<init>
+ (Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;Lorg/springframework/core/env/Environment;)V
+ (Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;Lorg/springframework/core/env/Environment;)V
+getRegistry
+ ()Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;
+ ()Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;
+register
+ ([Ljava/lang/Class<*>;)V
+ ([Ljava/lang/Class<*>;)V
+registerBean
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+registerBean
+ (Ljava/lang/Class<*>;Ljava/lang/String;)V
+ (Ljava/lang/Class<*>;Ljava/lang/String;)V
+registerBean
+ (Ljava/lang/Class<*>;Ljava/lang/String;[Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+ (Ljava/lang/Class<*>;Ljava/lang/String;[Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+registerBean
+ (Ljava/lang/Class<*>;[Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+ (Ljava/lang/Class<*>;[Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)V
+registerBean
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/String;Ljava/util/function/Supplier<TT;>;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/String;Ljava/util/function/Supplier<TT;>;)V
+registerBean
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/String;Ljava/util/function/Supplier<TT;>;[Lorg/springframework/beans/factory/config/BeanDefinitionCustomizer;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/lang/String;Ljava/util/function/Supplier<TT;>;[Lorg/springframework/beans/factory/config/BeanDefinitionCustomizer;)V
+registerBean
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Supplier<TT;>;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Supplier<TT;>;)V
+setBeanNameGenerator
+ (Lorg/springframework/beans/factory/support/BeanNameGenerator;)V
+ (Lorg/springframework/beans/factory/support/BeanNameGenerator;)V
+setEnvironment
+ (Lorg/springframework/core/env/Environment;)V
+ (Lorg/springframework/core/env/Environment;)V
+setScopeMetadataResolver
+ (Lorg/springframework/context/annotation/ScopeMetadataResolver;)V
+ (Lorg/springframework/context/annotation/ScopeMetadataResolver;)V

@@ -1,0 +1,23 @@
+class org/springframework/web/util/UriTemplate
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+expand
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljava/net/URI;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljava/net/URI;
+expand
+ ([Ljava/lang/Object;)Ljava/net/URI;
+ ([Ljava/lang/Object;)Ljava/net/URI;
+getVariableNames
+ ()Ljava/util/List<Ljava/lang/String;>;
+ ()Ljava/util/List<Ljava/lang/String;>;
+match
+ (Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+ (Ljava/lang/String;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+matches
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

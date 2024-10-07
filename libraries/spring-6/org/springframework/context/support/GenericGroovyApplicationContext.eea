@@ -1,0 +1,41 @@
+class org/springframework/context/support/GenericGroovyApplicationContext
+
+<init>
+ (Ljava/lang/Class<*>;[Ljava/lang/String;)V
+ (Ljava/lang/Class<*>;[Ljava/lang/String;)V
+<init>
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+<init>
+ ([Lorg/springframework/core/io/Resource;)V
+ ([Lorg/springframework/core/io/Resource;)V
+getMetaClass
+ ()Lgroovy/lang/MetaClass;
+ ()Lgroovy/lang/MetaClass;
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object;
+getReader
+ ()Lorg/springframework/beans/factory/groovy/GroovyBeanDefinitionReader;
+ ()Lorg/springframework/beans/factory/groovy/GroovyBeanDefinitionReader;
+invokeMethod
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+load
+ (Ljava/lang/Class<*>;[Ljava/lang/String;)V
+ (Ljava/lang/Class<*>;[Ljava/lang/String;)V
+load
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+load
+ ([Lorg/springframework/core/io/Resource;)V
+ ([Lorg/springframework/core/io/Resource;)V
+setEnvironment
+ (Lorg/springframework/core/env/ConfigurableEnvironment;)V
+ (Lorg/springframework/core/env/ConfigurableEnvironment;)V
+setMetaClass
+ (Lgroovy/lang/MetaClass;)V
+ (Lgroovy/lang/MetaClass;)V
+setProperty
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V

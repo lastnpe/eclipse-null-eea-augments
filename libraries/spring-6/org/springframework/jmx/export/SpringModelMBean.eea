@@ -1,0 +1,23 @@
+class org/springframework/jmx/export/SpringModelMBean
+
+<init>
+ (Ljavax/management/modelmbean/ModelMBeanInfo;)V
+ (Ljavax/management/modelmbean/ModelMBeanInfo;)V
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+getAttributes
+ ([Ljava/lang/String;)Ljavax/management/AttributeList;
+ ([Ljava/lang/String;)Ljavax/management/AttributeList;
+invoke
+ (Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;
+setAttribute
+ (Ljavax/management/Attribute;)V
+ (Ljavax/management/Attribute;)V
+setAttributes
+ (Ljavax/management/AttributeList;)Ljavax/management/AttributeList;
+ (Ljavax/management/AttributeList;)Ljavax/management/AttributeList;
+setManagedResource
+ (Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/Object;Ljava/lang/String;)V

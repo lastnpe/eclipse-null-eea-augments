@@ -1,0 +1,15 @@
+class org/springframework/messaging/rsocket/annotation/support/RSocketPayloadReturnValueHandler
+
+RESPONSE_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljava/util/List<Lorg/springframework/core/codec/Encoder<*>;>;Lorg/springframework/core/ReactiveAdapterRegistry;)V
+ (Ljava/util/List<Lorg/springframework/core/codec/Encoder<*>;>;Lorg/springframework/core/ReactiveAdapterRegistry;)V
+handleEncodedContent
+ (Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+handleNoContent
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;

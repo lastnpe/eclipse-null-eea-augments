@@ -1,0 +1,26 @@
+class org/springframework/jdbc/datasource/LazyConnectionDataSourceProxy
+
+<init>
+ (Ljavax/sql/DataSource;)V
+ (Ljavax/sql/DataSource;)V
+checkDefaultConnectionProperties
+ (Ljava/sql/Connection;)V
+ (Ljava/sql/Connection;)V
+defaultAutoCommit
+ ()Ljava/lang/Boolean;
+ ()L0java/lang/Boolean;
+defaultTransactionIsolation
+ ()Ljava/lang/Integer;
+ ()L0java/lang/Integer;
+getConnection
+ ()Ljava/sql/Connection;
+ ()Ljava/sql/Connection;
+getConnection
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;
+setDefaultTransactionIsolationName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setReadOnlyDataSource
+ (Ljavax/sql/DataSource;)V
+ (Ljavax/sql/DataSource;)V

@@ -1,0 +1,23 @@
+class org/springframework/http/client/reactive/JettyResourceFactory
+
+getByteBufferPool
+ ()Lorg/eclipse/jetty/io/ByteBufferPool;
+ ()L0org/eclipse/jetty/io/ByteBufferPool;
+getExecutor
+ ()Ljava/util/concurrent/Executor;
+ ()L0java/util/concurrent/Executor;
+getScheduler
+ ()Lorg/eclipse/jetty/util/thread/Scheduler;
+ ()L0org/eclipse/jetty/util/thread/Scheduler;
+setByteBufferPool
+ (Lorg/eclipse/jetty/io/ByteBufferPool;)V
+ (Lorg/eclipse/jetty/io/ByteBufferPool;)V
+setExecutor
+ (Ljava/util/concurrent/Executor;)V
+ (Ljava/util/concurrent/Executor;)V
+setScheduler
+ (Lorg/eclipse/jetty/util/thread/Scheduler;)V
+ (Lorg/eclipse/jetty/util/thread/Scheduler;)V
+setThreadPrefix
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

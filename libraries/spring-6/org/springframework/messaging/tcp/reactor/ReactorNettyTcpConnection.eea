@@ -1,0 +1,23 @@
+class org/springframework/messaging/tcp/reactor/ReactorNettyTcpConnection
+ <P:Ljava/lang/Object;>
+ <P:Ljava/lang/Object;>
+
+super org/springframework/messaging/tcp/TcpConnection
+ <TP;>
+ <TP;>
+
+<init>
+ (Lreactor/netty/NettyInbound;Lreactor/netty/NettyOutbound;Lorg/springframework/messaging/tcp/reactor/ReactorNettyCodec<TP;>;Lreactor/core/publisher/Sinks$Empty<Ljava/lang/Void;>;)V
+ (Lreactor/netty/NettyInbound;Lreactor/netty/NettyOutbound;Lorg/springframework/messaging/tcp/reactor/ReactorNettyCodec<TP;>;Lreactor/core/publisher/Sinks$Empty<Ljava/lang/Void;>;)V
+onReadInactivity
+ (Ljava/lang/Runnable;J)V
+ (Ljava/lang/Runnable;J)V
+onWriteInactivity
+ (Ljava/lang/Runnable;J)V
+ (Ljava/lang/Runnable;J)V
+sendAsync
+ (Lorg/springframework/messaging/Message<TP;>;)Ljava/util/concurrent/CompletableFuture<Ljava/lang/Void;>;
+ (Lorg/springframework/messaging/Message<TP;>;)Ljava/util/concurrent/CompletableFuture<Ljava/lang/Void;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

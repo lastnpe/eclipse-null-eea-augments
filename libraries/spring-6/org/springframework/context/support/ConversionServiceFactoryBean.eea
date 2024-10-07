@@ -1,0 +1,18 @@
+class org/springframework/context/support/ConversionServiceFactoryBean
+
+super org/springframework/beans/factory/FactoryBean
+ <Lorg/springframework/core/convert/ConversionService;>
+ <Lorg/springframework/core/convert/ConversionService;>
+
+createConversionService
+ ()Lorg/springframework/core/convert/support/GenericConversionService;
+ ()Lorg/springframework/core/convert/support/GenericConversionService;
+getObject
+ ()Lorg/springframework/core/convert/ConversionService;
+ ()L0org/springframework/core/convert/ConversionService;
+getObjectType
+ ()Ljava/lang/Class<+Lorg/springframework/core/convert/ConversionService;>;
+ ()Ljava/lang/Class<+Lorg/springframework/core/convert/ConversionService;>;
+setConverters
+ (Ljava/util/Set<*>;)V
+ (Ljava/util/Set<*>;)V

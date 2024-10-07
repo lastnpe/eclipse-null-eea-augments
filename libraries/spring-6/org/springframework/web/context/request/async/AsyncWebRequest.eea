@@ -1,0 +1,14 @@
+class org/springframework/web/context/request/async/AsyncWebRequest
+
+addCompletionHandler
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+addErrorHandler
+ (Ljava/util/function/Consumer<Ljava/lang/Throwable;>;)V
+ (Ljava/util/function/Consumer<Ljava/lang/Throwable;>;)V
+addTimeoutHandler
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+setTimeout
+ (Ljava/lang/Long;)V
+ (Ljava/lang/Long;)V

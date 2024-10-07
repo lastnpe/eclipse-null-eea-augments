@@ -1,0 +1,29 @@
+class org/springframework/context/annotation/ComponentScan
+
+basePackageClasses
+ ()[Ljava/lang/Class<*>;
+ ()[Ljava/lang/Class<*>;
+basePackages
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+excludeFilters
+ ()[Lorg/springframework/context/annotation/ComponentScan$Filter;
+ ()[Lorg/springframework/context/annotation/ComponentScan$Filter;
+includeFilters
+ ()[Lorg/springframework/context/annotation/ComponentScan$Filter;
+ ()[Lorg/springframework/context/annotation/ComponentScan$Filter;
+nameGenerator
+ ()Ljava/lang/Class<+Lorg/springframework/beans/factory/support/BeanNameGenerator;>;
+ ()Ljava/lang/Class<+Lorg/springframework/beans/factory/support/BeanNameGenerator;>;
+resourcePattern
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+scopeResolver
+ ()Ljava/lang/Class<+Lorg/springframework/context/annotation/ScopeMetadataResolver;>;
+ ()Ljava/lang/Class<+Lorg/springframework/context/annotation/ScopeMetadataResolver;>;
+scopedProxy
+ ()Lorg/springframework/context/annotation/ScopedProxyMode;
+ ()Lorg/springframework/context/annotation/ScopedProxyMode;
+value
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;

@@ -1,0 +1,29 @@
+class org/springframework/web/accept/ContentNegotiationManager
+
+<init>
+ (Ljava/util/Collection<Lorg/springframework/web/accept/ContentNegotiationStrategy;>;)V
+ (Ljava/util/Collection<Lorg/springframework/web/accept/ContentNegotiationStrategy;>;)V
+<init>
+ ([Lorg/springframework/web/accept/ContentNegotiationStrategy;)V
+ ([Lorg/springframework/web/accept/ContentNegotiationStrategy;)V
+addFileExtensionResolvers
+ ([Lorg/springframework/web/accept/MediaTypeFileExtensionResolver;)V
+ ([Lorg/springframework/web/accept/MediaTypeFileExtensionResolver;)V
+getAllFileExtensions
+ ()Ljava/util/List<Ljava/lang/String;>;
+ ()Ljava/util/List<Ljava/lang/String;>;
+getMediaTypeMappings
+ ()Ljava/util/Map<Ljava/lang/String;Lorg/springframework/http/MediaType;>;
+ ()Ljava/util/Map<Ljava/lang/String;Lorg/springframework/http/MediaType;>;
+getStrategies
+ ()Ljava/util/List<Lorg/springframework/web/accept/ContentNegotiationStrategy;>;
+ ()Ljava/util/List<Lorg/springframework/web/accept/ContentNegotiationStrategy;>;
+getStrategy
+ <T::Lorg/springframework/web/accept/ContentNegotiationStrategy;>(Ljava/lang/Class<TT;>;)TT;
+ <T::Lorg/springframework/web/accept/ContentNegotiationStrategy;>(Ljava/lang/Class<TT;>;)T0T;
+resolveFileExtensions
+ (Lorg/springframework/http/MediaType;)Ljava/util/List<Ljava/lang/String;>;
+ (Lorg/springframework/http/MediaType;)Ljava/util/List<Ljava/lang/String;>;
+resolveMediaTypes
+ (Lorg/springframework/web/context/request/NativeWebRequest;)Ljava/util/List<Lorg/springframework/http/MediaType;>;
+ (Lorg/springframework/web/context/request/NativeWebRequest;)Ljava/util/List<Lorg/springframework/http/MediaType;>;

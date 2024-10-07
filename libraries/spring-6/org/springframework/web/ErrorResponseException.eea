@@ -1,0 +1,44 @@
+class org/springframework/web/ErrorResponseException
+
+<init>
+ (Lorg/springframework/http/HttpStatusCode;)V
+ (Lorg/springframework/http/HttpStatusCode;)V
+<init>
+ (Lorg/springframework/http/HttpStatusCode;Ljava/lang/Throwable;)V
+ (Lorg/springframework/http/HttpStatusCode;Ljava/lang/Throwable;)V
+<init>
+ (Lorg/springframework/http/HttpStatusCode;Lorg/springframework/http/ProblemDetail;Ljava/lang/Throwable;)V
+ (Lorg/springframework/http/HttpStatusCode;Lorg/springframework/http/ProblemDetail;Ljava/lang/Throwable;)V
+<init>
+ (Lorg/springframework/http/HttpStatusCode;Lorg/springframework/http/ProblemDetail;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+ (Lorg/springframework/http/HttpStatusCode;Lorg/springframework/http/ProblemDetail;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+getBody
+ ()Lorg/springframework/http/ProblemDetail;
+ ()Lorg/springframework/http/ProblemDetail;
+getDetailMessageArguments
+ ()[Ljava/lang/Object;
+ ()[0Ljava/lang/Object; # @Inherited(org.springframework.web.ErrorResponse)
+getDetailMessageCode
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+getMessage
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(java.lang.Throwable)
+getStatusCode
+ ()Lorg/springframework/http/HttpStatusCode;
+ ()Lorg/springframework/http/HttpStatusCode;
+setDetail
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setInstance
+ (Ljava/net/URI;)V
+ (Ljava/net/URI;)V
+setTitle
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setType
+ (Ljava/net/URI;)V
+ (Ljava/net/URI;)V

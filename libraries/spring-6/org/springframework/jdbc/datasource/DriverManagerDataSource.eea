@@ -1,0 +1,20 @@
+class org/springframework/jdbc/datasource/DriverManagerDataSource
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/util/Properties;)V
+ (Ljava/lang/String;Ljava/util/Properties;)V
+getConnectionFromDriver
+ (Ljava/util/Properties;)Ljava/sql/Connection;
+ (Ljava/util/Properties;)Ljava/sql/Connection;
+getConnectionFromDriverManager
+ (Ljava/lang/String;Ljava/util/Properties;)Ljava/sql/Connection;
+ (Ljava/lang/String;Ljava/util/Properties;)Ljava/sql/Connection;
+setDriverClassName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

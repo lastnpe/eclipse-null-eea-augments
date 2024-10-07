@@ -1,0 +1,17 @@
+class org/springframework/http/converter/KotlinSerializationStringHttpMessageConverter
+ <T::Lkotlinx/serialization/StringFormat;>
+ <T::Lkotlinx/serialization/StringFormat;>
+
+super org/springframework/http/converter/AbstractKotlinSerializationHttpMessageConverter
+ <TT;>
+ <TT;>
+
+<init>
+ (TT;[Lorg/springframework/http/MediaType;)V
+ (TT;[Lorg/springframework/http/MediaType;)V
+readInternal
+ (Lkotlinx/serialization/KSerializer<Ljava/lang/Object;>;TT;Lorg/springframework/http/HttpInputMessage;)Ljava/lang/Object;
+ (Lkotlinx/serialization/KSerializer<Ljava/lang/Object;>;TT;Lorg/springframework/http/HttpInputMessage;)Ljava/lang/Object;
+writeInternal
+ (Ljava/lang/Object;Lkotlinx/serialization/KSerializer<Ljava/lang/Object;>;TT;Lorg/springframework/http/HttpOutputMessage;)V
+ (Ljava/lang/Object;Lkotlinx/serialization/KSerializer<Ljava/lang/Object;>;TT;Lorg/springframework/http/HttpOutputMessage;)V

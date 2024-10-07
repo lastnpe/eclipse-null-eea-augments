@@ -1,0 +1,32 @@
+class org/springframework/web/server/ResponseStatusException
+
+<init>
+ (ILjava/lang/String;Ljava/lang/Throwable;)V
+ (ILjava/lang/String;Ljava/lang/Throwable;)V
+<init>
+ (Lorg/springframework/http/HttpStatusCode;)V
+ (Lorg/springframework/http/HttpStatusCode;)V
+<init>
+ (Lorg/springframework/http/HttpStatusCode;Ljava/lang/String;)V
+ (Lorg/springframework/http/HttpStatusCode;Ljava/lang/String;)V
+<init>
+ (Lorg/springframework/http/HttpStatusCode;Ljava/lang/String;Ljava/lang/Throwable;)V
+ (Lorg/springframework/http/HttpStatusCode;Ljava/lang/String;Ljava/lang/Throwable;)V
+<init>
+ (Lorg/springframework/http/HttpStatusCode;Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+ (Lorg/springframework/http/HttpStatusCode;Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
+getHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+getMessage
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.web.ErrorResponseException)
+getReason
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getResponseHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+updateAndGetBody
+ (Lorg/springframework/context/MessageSource;Ljava/util/Locale;)Lorg/springframework/http/ProblemDetail;
+ (Lorg/springframework/context/MessageSource;Ljava/util/Locale;)Lorg/springframework/http/ProblemDetail;

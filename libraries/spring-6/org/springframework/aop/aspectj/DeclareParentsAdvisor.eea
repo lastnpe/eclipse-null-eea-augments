@@ -1,0 +1,17 @@
+class org/springframework/aop/aspectj/DeclareParentsAdvisor
+
+<init>
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/Class<*>;)V
+<init>
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/Object;)V
+getAdvice
+ ()Lorg/aopalliance/aop/Advice;
+ ()Lorg/aopalliance/aop/Advice;
+getClassFilter
+ ()Lorg/springframework/aop/ClassFilter;
+ ()Lorg/springframework/aop/ClassFilter;
+getInterfaces
+ ()[Ljava/lang/Class<*>;
+ ()[Ljava/lang/Class<*>;

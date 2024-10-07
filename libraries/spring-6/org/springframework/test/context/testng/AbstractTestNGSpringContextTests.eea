@@ -1,0 +1,21 @@
+class org/springframework/test/context/testng/AbstractTestNGSpringContextTests
+
+applicationContext
+ Lorg/springframework/context/ApplicationContext;
+ L0org/springframework/context/ApplicationContext;
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+run
+ (Lorg/testng/IHookCallBack;Lorg/testng/ITestResult;)V
+ (Lorg/testng/IHookCallBack;Lorg/testng/ITestResult;)V
+setApplicationContext
+ (Lorg/springframework/context/ApplicationContext;)V
+ (Lorg/springframework/context/ApplicationContext;)V
+springTestContextAfterTestMethod
+ (Ljava/lang/reflect/Method;)V
+ (Ljava/lang/reflect/Method;)V
+springTestContextBeforeTestMethod
+ (Ljava/lang/reflect/Method;)V
+ (Ljava/lang/reflect/Method;)V

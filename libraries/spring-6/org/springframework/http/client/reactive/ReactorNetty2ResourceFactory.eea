@@ -1,0 +1,29 @@
+class org/springframework/http/client/reactive/ReactorNetty2ResourceFactory
+
+addGlobalResourcesConsumer
+ (Ljava/util/function/Consumer<Lreactor/netty5/http/HttpResources;>;)V
+ (Ljava/util/function/Consumer<Lreactor/netty5/http/HttpResources;>;)V
+getConnectionProvider
+ ()Lreactor/netty5/resources/ConnectionProvider;
+ ()Lreactor/netty5/resources/ConnectionProvider;
+getLoopResources
+ ()Lreactor/netty5/resources/LoopResources;
+ ()Lreactor/netty5/resources/LoopResources;
+setConnectionProvider
+ (Lreactor/netty5/resources/ConnectionProvider;)V
+ (Lreactor/netty5/resources/ConnectionProvider;)V
+setConnectionProviderSupplier
+ (Ljava/util/function/Supplier<Lreactor/netty5/resources/ConnectionProvider;>;)V
+ (Ljava/util/function/Supplier<Lreactor/netty5/resources/ConnectionProvider;>;)V
+setLoopResources
+ (Lreactor/netty5/resources/LoopResources;)V
+ (Lreactor/netty5/resources/LoopResources;)V
+setLoopResourcesSupplier
+ (Ljava/util/function/Supplier<Lreactor/netty5/resources/LoopResources;>;)V
+ (Ljava/util/function/Supplier<Lreactor/netty5/resources/LoopResources;>;)V
+setShutdownQuietPeriod
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V
+setShutdownTimeout
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V

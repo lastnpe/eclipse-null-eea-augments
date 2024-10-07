@@ -1,0 +1,60 @@
+class org/springframework/messaging/rsocket/annotation/support/RSocketMessageHandler
+
+responder
+ (Lorg/springframework/messaging/rsocket/RSocketStrategies;[Ljava/lang/Object;)Lio/rsocket/SocketAcceptor;
+ (Lorg/springframework/messaging/rsocket/RSocketStrategies;[Ljava/lang/Object;)Lio/rsocket/SocketAcceptor;
+
+extendMapping
+ (Lorg/springframework/messaging/handler/CompositeMessageCondition;Lorg/springframework/messaging/handler/HandlerMethod;)Lorg/springframework/messaging/handler/CompositeMessageCondition;
+ (Lorg/springframework/messaging/handler/CompositeMessageCondition;Lorg/springframework/messaging/handler/HandlerMethod;)Lorg/springframework/messaging/handler/CompositeMessageCondition;
+getCondition
+ (Ljava/lang/reflect/AnnotatedElement;)Lorg/springframework/messaging/handler/CompositeMessageCondition;
+ (Ljava/lang/reflect/AnnotatedElement;)L0org/springframework/messaging/handler/CompositeMessageCondition; # @Inherited(org.springframework.messaging.handler.annotation.reactive.MessageMappingMessageHandler)
+getDefaultDataMimeType
+ ()Lorg/springframework/util/MimeType;
+ ()L0org/springframework/util/MimeType;
+getDefaultMetadataMimeType
+ ()Lorg/springframework/util/MimeType;
+ ()Lorg/springframework/util/MimeType;
+getEncoders
+ ()Ljava/util/List<+Lorg/springframework/core/codec/Encoder<*>;>;
+ ()Ljava/util/List<+Lorg/springframework/core/codec/Encoder<*>;>;
+getMetadataExtractor
+ ()Lorg/springframework/messaging/rsocket/MetadataExtractor;
+ ()Lorg/springframework/messaging/rsocket/MetadataExtractor;
+getRSocketStrategies
+ ()Lorg/springframework/messaging/rsocket/RSocketStrategies;
+ ()Lorg/springframework/messaging/rsocket/RSocketStrategies;
+handleNoMatch
+ (Lorg/springframework/util/RouteMatcher$Route;Lorg/springframework/messaging/Message<*>;)V
+ (Lorg/springframework/util/RouteMatcher$Route;Lorg/springframework/messaging/Message<*>;)V
+initReturnValueHandlers
+ ()Ljava/util/List<+Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodReturnValueHandler;>;
+ ()Ljava/util/List<+Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodReturnValueHandler;>;
+responder
+ ()Lio/rsocket/SocketAcceptor;
+ ()Lio/rsocket/SocketAcceptor;
+setDecoders
+ (Ljava/util/List<+Lorg/springframework/core/codec/Decoder<*>;>;)V
+ (Ljava/util/List<+Lorg/springframework/core/codec/Decoder<*>;>;)V
+setDefaultDataMimeType
+ (Lorg/springframework/util/MimeType;)V
+ (Lorg/springframework/util/MimeType;)V
+setDefaultMetadataMimeType
+ (Lorg/springframework/util/MimeType;)V
+ (Lorg/springframework/util/MimeType;)V
+setEncoders
+ (Ljava/util/List<+Lorg/springframework/core/codec/Encoder<*>;>;)V
+ (Ljava/util/List<+Lorg/springframework/core/codec/Encoder<*>;>;)V
+setMetadataExtractor
+ (Lorg/springframework/messaging/rsocket/MetadataExtractor;)V
+ (Lorg/springframework/messaging/rsocket/MetadataExtractor;)V
+setRSocketStrategies
+ (Lorg/springframework/messaging/rsocket/RSocketStrategies;)V
+ (Lorg/springframework/messaging/rsocket/RSocketStrategies;)V
+setReactiveAdapterRegistry
+ (Lorg/springframework/core/ReactiveAdapterRegistry;)V
+ (Lorg/springframework/core/ReactiveAdapterRegistry;)V
+setRouteMatcher
+ (Lorg/springframework/util/RouteMatcher;)V
+ (Lorg/springframework/util/RouteMatcher;)V

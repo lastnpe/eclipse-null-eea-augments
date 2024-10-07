@@ -1,0 +1,32 @@
+class org/springframework/mock/http/client/reactive/MockClientHttpResponse
+
+<init>
+ (Lorg/springframework/http/HttpStatusCode;)V
+ (Lorg/springframework/http/HttpStatusCode;)V
+getBody
+ ()Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+ ()Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+getBodyAsString
+ ()Lreactor/core/publisher/Mono<Ljava/lang/String;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/String;>;
+getCookies
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/ResponseCookie;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/ResponseCookie;>;
+getHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+getStatusCode
+ ()Lorg/springframework/http/HttpStatusCode;
+ ()Lorg/springframework/http/HttpStatusCode;
+setBody
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setBody
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)V
+ (Ljava/lang/String;Ljava/nio/charset/Charset;)V
+setBody
+ (Lorg/reactivestreams/Publisher<Lorg/springframework/core/io/buffer/DataBuffer;>;)V
+ (Lorg/reactivestreams/Publisher<Lorg/springframework/core/io/buffer/DataBuffer;>;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

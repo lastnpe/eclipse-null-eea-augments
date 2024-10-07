@@ -1,0 +1,11 @@
+class org/springframework/http/client/reactive/ReactorClientHttpConnector
+
+<init>
+ (Lorg/springframework/http/client/ReactorResourceFactory;Ljava/util/function/Function<Lreactor/netty/http/client/HttpClient;Lreactor/netty/http/client/HttpClient;>;)V
+ (Lorg/springframework/http/client/ReactorResourceFactory;Ljava/util/function/Function<Lreactor/netty/http/client/HttpClient;Lreactor/netty/http/client/HttpClient;>;)V
+<init>
+ (Lreactor/netty/http/client/HttpClient;)V
+ (Lreactor/netty/http/client/HttpClient;)V
+connect
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;Ljava/util/function/Function<-Lorg/springframework/http/client/reactive/ClientHttpRequest;Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>;)Lreactor/core/publisher/Mono<Lorg/springframework/http/client/reactive/ClientHttpResponse;>;
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;Ljava/util/function/Function<-Lorg/springframework/http/client/reactive/ClientHttpRequest;Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>;)Lreactor/core/publisher/Mono<Lorg/springframework/http/client/reactive/ClientHttpResponse;>;

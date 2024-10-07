@@ -1,0 +1,20 @@
+class org/springframework/web/method/annotation/RequestHeaderMethodArgumentResolver
+
+<init>
+ (Lorg/springframework/beans/factory/config/ConfigurableBeanFactory;)V
+ (Lorg/springframework/beans/factory/config/ConfigurableBeanFactory;)V
+createNamedValueInfo
+ (Lorg/springframework/core/MethodParameter;)Lorg/springframework/web/method/annotation/AbstractNamedValueMethodArgumentResolver$NamedValueInfo;
+ (Lorg/springframework/core/MethodParameter;)Lorg/springframework/web/method/annotation/AbstractNamedValueMethodArgumentResolver$NamedValueInfo;
+handleMissingValue
+ (Ljava/lang/String;Lorg/springframework/core/MethodParameter;)V
+ (Ljava/lang/String;Lorg/springframework/core/MethodParameter;)V
+handleMissingValueAfterConversion
+ (Ljava/lang/String;Lorg/springframework/core/MethodParameter;Lorg/springframework/web/context/request/NativeWebRequest;)V
+ (Ljava/lang/String;Lorg/springframework/core/MethodParameter;Lorg/springframework/web/context/request/NativeWebRequest;)V
+resolveName
+ (Ljava/lang/String;Lorg/springframework/core/MethodParameter;Lorg/springframework/web/context/request/NativeWebRequest;)Ljava/lang/Object;
+ (Ljava/lang/String;Lorg/springframework/core/MethodParameter;Lorg/springframework/web/context/request/NativeWebRequest;)L0java/lang/Object; # @Inherited(org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver)
+supportsParameter
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z

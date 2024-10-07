@@ -1,0 +1,14 @@
+class org/springframework/http/client/reactive/HttpComponentsClientHttpConnector
+
+<init>
+ (Lorg/apache/hc/client5/http/impl/async/CloseableHttpAsyncClient;)V
+ (Lorg/apache/hc/client5/http/impl/async/CloseableHttpAsyncClient;)V
+<init>
+ (Lorg/apache/hc/client5/http/impl/async/CloseableHttpAsyncClient;Ljava/util/function/BiFunction<Lorg/springframework/http/HttpMethod;Ljava/net/URI;+Lorg/apache/hc/client5/http/protocol/HttpClientContext;>;)V
+ (Lorg/apache/hc/client5/http/impl/async/CloseableHttpAsyncClient;Ljava/util/function/BiFunction<Lorg/springframework/http/HttpMethod;Ljava/net/URI;+Lorg/apache/hc/client5/http/protocol/HttpClientContext;>;)V
+connect
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;Ljava/util/function/Function<-Lorg/springframework/http/client/reactive/ClientHttpRequest;Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>;)Lreactor/core/publisher/Mono<Lorg/springframework/http/client/reactive/ClientHttpResponse;>;
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;Ljava/util/function/Function<-Lorg/springframework/http/client/reactive/ClientHttpRequest;Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>;)Lreactor/core/publisher/Mono<Lorg/springframework/http/client/reactive/ClientHttpResponse;>;
+setBufferFactory
+ (Lorg/springframework/core/io/buffer/DataBufferFactory;)V
+ (Lorg/springframework/core/io/buffer/DataBufferFactory;)V

@@ -1,0 +1,42 @@
+class org/springframework/jndi/JndiTemplate
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+<init>
+ (Ljava/util/Properties;)V
+ (Ljava/util/Properties;)V
+bind
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+createInitialContext
+ ()Ljavax/naming/Context;
+ ()Ljavax/naming/Context;
+execute
+ <T:Ljava/lang/Object;>(Lorg/springframework/jndi/JndiCallback<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lorg/springframework/jndi/JndiCallback<TT;>;)T0T;
+getContext
+ ()Ljavax/naming/Context;
+ ()Ljavax/naming/Context;
+getEnvironment
+ ()Ljava/util/Properties;
+ ()L0java/util/Properties;
+lookup
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)Ljava/lang/Object;
+lookup
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;)TT;
+rebind
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+releaseContext
+ (Ljavax/naming/Context;)V
+ (Ljavax/naming/Context;)V
+setEnvironment
+ (Ljava/util/Properties;)V
+ (Ljava/util/Properties;)V
+unbind
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

@@ -1,0 +1,23 @@
+class org/springframework/instrument/classloading/ResourceOverridingShadowingClassLoader
+
+<init>
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+copyOverrides
+ (Lorg/springframework/instrument/classloading/ResourceOverridingShadowingClassLoader;)V
+ (Lorg/springframework/instrument/classloading/ResourceOverridingShadowingClassLoader;)V
+getResource
+ (Ljava/lang/String;)Ljava/net/URL;
+ (L1java/lang/String;)L0java/net/URL; # @Inherited(org.springframework.instrument.classloading.ShadowingClassLoader)
+getResourceAsStream
+ (Ljava/lang/String;)Ljava/io/InputStream;
+ (Ljava/lang/String;)L0java/io/InputStream; # @Inherited(org.springframework.instrument.classloading.ShadowingClassLoader)
+getResources
+ (Ljava/lang/String;)Ljava/util/Enumeration<Ljava/net/URL;>;
+ (L1java/lang/String;)L1java/util/Enumeration<L1java/net/URL;>; # @Inherited(org.springframework.instrument.classloading.ShadowingClassLoader)
+override
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+suppress
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

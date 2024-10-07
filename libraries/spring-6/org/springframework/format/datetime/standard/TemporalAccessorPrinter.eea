@@ -1,0 +1,12 @@
+class org/springframework/format/datetime/standard/TemporalAccessorPrinter
+
+super org/springframework/format/Printer
+ <Ljava/time/temporal/TemporalAccessor;>
+ <Ljava/time/temporal/TemporalAccessor;>
+
+<init>
+ (Ljava/time/format/DateTimeFormatter;)V
+ (Ljava/time/format/DateTimeFormatter;)V
+print
+ (Ljava/time/temporal/TemporalAccessor;Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/time/temporal/TemporalAccessor;Ljava/util/Locale;)Ljava/lang/String;

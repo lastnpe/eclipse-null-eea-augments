@@ -1,0 +1,31 @@
+class org/springframework/test/web/servlet/htmlunit/MockMvcWebClientBuilder
+
+super org/springframework/test/web/servlet/htmlunit/MockMvcWebConnectionBuilderSupport
+ <Lorg/springframework/test/web/servlet/htmlunit/MockMvcWebClientBuilder;>
+ <Lorg/springframework/test/web/servlet/htmlunit/MockMvcWebClientBuilder;>
+
+mockMvcSetup
+ (Lorg/springframework/test/web/servlet/MockMvc;)Lorg/springframework/test/web/servlet/htmlunit/MockMvcWebClientBuilder;
+ (Lorg/springframework/test/web/servlet/MockMvc;)Lorg/springframework/test/web/servlet/htmlunit/MockMvcWebClientBuilder;
+webAppContextSetup
+ (Lorg/springframework/web/context/WebApplicationContext;)Lorg/springframework/test/web/servlet/htmlunit/MockMvcWebClientBuilder;
+ (Lorg/springframework/web/context/WebApplicationContext;)Lorg/springframework/test/web/servlet/htmlunit/MockMvcWebClientBuilder;
+webAppContextSetup
+ (Lorg/springframework/web/context/WebApplicationContext;Lorg/springframework/test/web/servlet/setup/MockMvcConfigurer;)Lorg/springframework/test/web/servlet/htmlunit/MockMvcWebClientBuilder;
+ (Lorg/springframework/web/context/WebApplicationContext;Lorg/springframework/test/web/servlet/setup/MockMvcConfigurer;)Lorg/springframework/test/web/servlet/htmlunit/MockMvcWebClientBuilder;
+
+<init>
+ (Lorg/springframework/test/web/servlet/MockMvc;)V
+ (Lorg/springframework/test/web/servlet/MockMvc;)V
+<init>
+ (Lorg/springframework/web/context/WebApplicationContext;)V
+ (Lorg/springframework/web/context/WebApplicationContext;)V
+<init>
+ (Lorg/springframework/web/context/WebApplicationContext;Lorg/springframework/test/web/servlet/setup/MockMvcConfigurer;)V
+ (Lorg/springframework/web/context/WebApplicationContext;Lorg/springframework/test/web/servlet/setup/MockMvcConfigurer;)V
+build
+ ()Lcom/gargoylesoftware/htmlunit/WebClient;
+ ()L1com/gargoylesoftware/htmlunit/WebClient;
+withDelegate
+ (Lcom/gargoylesoftware/htmlunit/WebClient;)Lorg/springframework/test/web/servlet/htmlunit/MockMvcWebClientBuilder;
+ (Lcom/gargoylesoftware/htmlunit/WebClient;)L1org/springframework/test/web/servlet/htmlunit/MockMvcWebClientBuilder;

@@ -1,0 +1,12 @@
+class org/springframework/http/server/reactive/ReactorNetty2HttpHandlerAdapter
+
+super java/util/function/BiFunction
+ <Lreactor/netty5/http/server/HttpServerRequest;Lreactor/netty5/http/server/HttpServerResponse;Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>
+ <Lreactor/netty5/http/server/HttpServerRequest;Lreactor/netty5/http/server/HttpServerResponse;Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>
+
+<init>
+ (Lorg/springframework/http/server/reactive/HttpHandler;)V
+ (Lorg/springframework/http/server/reactive/HttpHandler;)V
+apply
+ (Lreactor/netty5/http/server/HttpServerRequest;Lreactor/netty5/http/server/HttpServerResponse;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lreactor/netty5/http/server/HttpServerRequest;Lreactor/netty5/http/server/HttpServerResponse;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;

@@ -1,0 +1,14 @@
+class org/springframework/http/server/reactive/UndertowHttpHandlerAdapter
+
+<init>
+ (Lorg/springframework/http/server/reactive/HttpHandler;)V
+ (Lorg/springframework/http/server/reactive/HttpHandler;)V
+getDataBufferFactory
+ ()Lorg/springframework/core/io/buffer/DataBufferFactory;
+ ()Lorg/springframework/core/io/buffer/DataBufferFactory;
+handleRequest
+ (Lio/undertow/server/HttpServerExchange;)V
+ (Lio/undertow/server/HttpServerExchange;)V
+setDataBufferFactory
+ (Lorg/springframework/core/io/buffer/DataBufferFactory;)V
+ (Lorg/springframework/core/io/buffer/DataBufferFactory;)V

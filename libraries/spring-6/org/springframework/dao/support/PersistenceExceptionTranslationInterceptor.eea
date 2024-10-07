@@ -1,0 +1,20 @@
+class org/springframework/dao/support/PersistenceExceptionTranslationInterceptor
+
+<init>
+ (Lorg/springframework/beans/factory/ListableBeanFactory;)V
+ (Lorg/springframework/beans/factory/ListableBeanFactory;)V
+<init>
+ (Lorg/springframework/dao/support/PersistenceExceptionTranslator;)V
+ (Lorg/springframework/dao/support/PersistenceExceptionTranslator;)V
+detectPersistenceExceptionTranslators
+ (Lorg/springframework/beans/factory/ListableBeanFactory;)Lorg/springframework/dao/support/PersistenceExceptionTranslator;
+ (Lorg/springframework/beans/factory/ListableBeanFactory;)Lorg/springframework/dao/support/PersistenceExceptionTranslator;
+invoke
+ (Lorg/aopalliance/intercept/MethodInvocation;)Ljava/lang/Object;
+ (Lorg/aopalliance/intercept/MethodInvocation;)L0java/lang/Object;
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setPersistenceExceptionTranslator
+ (Lorg/springframework/dao/support/PersistenceExceptionTranslator;)V
+ (Lorg/springframework/dao/support/PersistenceExceptionTranslator;)V

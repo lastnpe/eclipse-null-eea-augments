@@ -1,0 +1,32 @@
+class org/springframework/messaging/rsocket/RSocketStrategies$Builder
+
+build
+ ()Lorg/springframework/messaging/rsocket/RSocketStrategies;
+ ()L1org/springframework/messaging/rsocket/RSocketStrategies;
+dataBufferFactory
+ (Lorg/springframework/core/io/buffer/DataBufferFactory;)Lorg/springframework/messaging/rsocket/RSocketStrategies$Builder;
+ (Lorg/springframework/core/io/buffer/DataBufferFactory;)L1org/springframework/messaging/rsocket/RSocketStrategies$Builder;
+decoder
+ ([Lorg/springframework/core/codec/Decoder<*>;)Lorg/springframework/messaging/rsocket/RSocketStrategies$Builder;
+ ([Lorg/springframework/core/codec/Decoder<*>;)L1org/springframework/messaging/rsocket/RSocketStrategies$Builder;
+decoders
+ (Ljava/util/function/Consumer<Ljava/util/List<Lorg/springframework/core/codec/Decoder<*>;>;>;)Lorg/springframework/messaging/rsocket/RSocketStrategies$Builder;
+ (Ljava/util/function/Consumer<Ljava/util/List<Lorg/springframework/core/codec/Decoder<*>;>;>;)L1org/springframework/messaging/rsocket/RSocketStrategies$Builder;
+encoder
+ ([Lorg/springframework/core/codec/Encoder<*>;)Lorg/springframework/messaging/rsocket/RSocketStrategies$Builder;
+ ([Lorg/springframework/core/codec/Encoder<*>;)L1org/springframework/messaging/rsocket/RSocketStrategies$Builder;
+encoders
+ (Ljava/util/function/Consumer<Ljava/util/List<Lorg/springframework/core/codec/Encoder<*>;>;>;)Lorg/springframework/messaging/rsocket/RSocketStrategies$Builder;
+ (Ljava/util/function/Consumer<Ljava/util/List<Lorg/springframework/core/codec/Encoder<*>;>;>;)L1org/springframework/messaging/rsocket/RSocketStrategies$Builder;
+metadataExtractor
+ (Lorg/springframework/messaging/rsocket/MetadataExtractor;)Lorg/springframework/messaging/rsocket/RSocketStrategies$Builder;
+ (Lorg/springframework/messaging/rsocket/MetadataExtractor;)L1org/springframework/messaging/rsocket/RSocketStrategies$Builder;
+metadataExtractorRegistry
+ (Ljava/util/function/Consumer<Lorg/springframework/messaging/rsocket/MetadataExtractorRegistry;>;)Lorg/springframework/messaging/rsocket/RSocketStrategies$Builder;
+ (Ljava/util/function/Consumer<Lorg/springframework/messaging/rsocket/MetadataExtractorRegistry;>;)L1org/springframework/messaging/rsocket/RSocketStrategies$Builder;
+reactiveAdapterStrategy
+ (Lorg/springframework/core/ReactiveAdapterRegistry;)Lorg/springframework/messaging/rsocket/RSocketStrategies$Builder;
+ (Lorg/springframework/core/ReactiveAdapterRegistry;)L1org/springframework/messaging/rsocket/RSocketStrategies$Builder;
+routeMatcher
+ (Lorg/springframework/util/RouteMatcher;)Lorg/springframework/messaging/rsocket/RSocketStrategies$Builder;
+ (Lorg/springframework/util/RouteMatcher;)L1org/springframework/messaging/rsocket/RSocketStrategies$Builder;

@@ -1,0 +1,21 @@
+class org/springframework/web/method/annotation/HandlerMethodValidator
+
+from
+ (Lorg/springframework/web/bind/support/WebBindingInitializer;Lorg/springframework/core/ParameterNameDiscoverer;Ljava/util/function/Predicate<Lorg/springframework/core/MethodParameter;>;Ljava/util/function/Predicate<Lorg/springframework/core/MethodParameter;>;)Lorg/springframework/validation/method/MethodValidator;
+ (Lorg/springframework/web/bind/support/WebBindingInitializer;Lorg/springframework/core/ParameterNameDiscoverer;Ljava/util/function/Predicate<Lorg/springframework/core/MethodParameter;>;Ljava/util/function/Predicate<Lorg/springframework/core/MethodParameter;>;)L0org/springframework/validation/method/MethodValidator;
+
+applyArgumentValidation
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;[Lorg/springframework/core/MethodParameter;[Ljava/lang/Object;[Ljava/lang/Class<*>;)V
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;[Lorg/springframework/core/MethodParameter;[Ljava/lang/Object;[Ljava/lang/Class<*>;)V
+applyReturnValueValidation
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;Lorg/springframework/core/MethodParameter;Ljava/lang/Object;[Ljava/lang/Class<*>;)V
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;Lorg/springframework/core/MethodParameter;Ljava/lang/Object;[Ljava/lang/Class<*>;)V
+determineValidationGroups
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;)[Ljava/lang/Class<*>;
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;)[Ljava/lang/Class<*>;
+validateArguments
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;[Lorg/springframework/core/MethodParameter;[Ljava/lang/Object;[Ljava/lang/Class<*>;)Lorg/springframework/validation/method/MethodValidationResult;
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;[Lorg/springframework/core/MethodParameter;[Ljava/lang/Object;[Ljava/lang/Class<*>;)Lorg/springframework/validation/method/MethodValidationResult;
+validateReturnValue
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;Lorg/springframework/core/MethodParameter;Ljava/lang/Object;[Ljava/lang/Class<*>;)Lorg/springframework/validation/method/MethodValidationResult;
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;Lorg/springframework/core/MethodParameter;Ljava/lang/Object;[Ljava/lang/Class<*>;)Lorg/springframework/validation/method/MethodValidationResult;

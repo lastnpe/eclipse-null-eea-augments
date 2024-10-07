@@ -1,0 +1,40 @@
+class org/springframework/http/server/ServletServerHttpRequest
+
+FORM_CHARSET
+ Ljava/nio/charset/Charset;
+ L1java/nio/charset/Charset;
+
+initURI
+ (Ljakarta/servlet/http/HttpServletRequest;)Ljava/net/URI;
+ (Ljakarta/servlet/http/HttpServletRequest;)Ljava/net/URI;
+
+<init>
+ (Ljakarta/servlet/http/HttpServletRequest;)V
+ (Ljakarta/servlet/http/HttpServletRequest;)V
+getAsyncRequestControl
+ (Lorg/springframework/http/server/ServerHttpResponse;)Lorg/springframework/http/server/ServerHttpAsyncRequestControl;
+ (Lorg/springframework/http/server/ServerHttpResponse;)Lorg/springframework/http/server/ServerHttpAsyncRequestControl;
+getBody
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+getLocalAddress
+ ()Ljava/net/InetSocketAddress;
+ ()Ljava/net/InetSocketAddress;
+getMethod
+ ()Lorg/springframework/http/HttpMethod;
+ ()Lorg/springframework/http/HttpMethod;
+getPrincipal
+ ()Ljava/security/Principal;
+ ()L0java/security/Principal; # @Inherited(org.springframework.http.server.ServerHttpRequest)
+getRemoteAddress
+ ()Ljava/net/InetSocketAddress;
+ ()Ljava/net/InetSocketAddress;
+getServletRequest
+ ()Ljakarta/servlet/http/HttpServletRequest;
+ ()Ljakarta/servlet/http/HttpServletRequest;
+getURI
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;

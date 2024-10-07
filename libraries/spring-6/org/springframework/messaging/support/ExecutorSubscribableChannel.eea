@@ -1,0 +1,20 @@
+class org/springframework/messaging/support/ExecutorSubscribableChannel
+
+<init>
+ (Ljava/util/concurrent/Executor;)V
+ (Ljava/util/concurrent/Executor;)V
+addInterceptor
+ (ILorg/springframework/messaging/support/ChannelInterceptor;)V
+ (ILorg/springframework/messaging/support/ChannelInterceptor;)V
+addInterceptor
+ (Lorg/springframework/messaging/support/ChannelInterceptor;)V
+ (Lorg/springframework/messaging/support/ChannelInterceptor;)V
+getExecutor
+ ()Ljava/util/concurrent/Executor;
+ ()L0java/util/concurrent/Executor;
+sendInternal
+ (Lorg/springframework/messaging/Message<*>;J)Z
+ (Lorg/springframework/messaging/Message<*>;J)Z
+setInterceptors
+ (Ljava/util/List<Lorg/springframework/messaging/support/ChannelInterceptor;>;)V
+ (Ljava/util/List<Lorg/springframework/messaging/support/ChannelInterceptor;>;)V

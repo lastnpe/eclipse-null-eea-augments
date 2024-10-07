@@ -1,0 +1,62 @@
+class org/springframework/test/web/servlet/result/MockMvcResultMatchers
+
+content
+ ()Lorg/springframework/test/web/servlet/result/ContentResultMatchers;
+ ()Lorg/springframework/test/web/servlet/result/ContentResultMatchers;
+cookie
+ ()Lorg/springframework/test/web/servlet/result/CookieResultMatchers;
+ ()Lorg/springframework/test/web/servlet/result/CookieResultMatchers;
+flash
+ ()Lorg/springframework/test/web/servlet/result/FlashAttributeResultMatchers;
+ ()Lorg/springframework/test/web/servlet/result/FlashAttributeResultMatchers;
+forwardedUrl
+ (Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+forwardedUrlPattern
+ (Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+forwardedUrlTemplate
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/ResultMatcher;
+handler
+ ()Lorg/springframework/test/web/servlet/result/HandlerResultMatchers;
+ ()Lorg/springframework/test/web/servlet/result/HandlerResultMatchers;
+header
+ ()Lorg/springframework/test/web/servlet/result/HeaderResultMatchers;
+ ()Lorg/springframework/test/web/servlet/result/HeaderResultMatchers;
+jsonPath
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/result/JsonPathResultMatchers;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/result/JsonPathResultMatchers;
+jsonPath
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<-TT;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<-TT;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+jsonPath
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<-TT;>;Ljava/lang/Class<TT;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<-TT;>;Ljava/lang/Class<TT;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+model
+ ()Lorg/springframework/test/web/servlet/result/ModelResultMatchers;
+ ()Lorg/springframework/test/web/servlet/result/ModelResultMatchers;
+redirectedUrl
+ (Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+redirectedUrlPattern
+ (Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+redirectedUrlTemplate
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/ResultMatcher;
+request
+ ()Lorg/springframework/test/web/servlet/result/RequestResultMatchers;
+ ()Lorg/springframework/test/web/servlet/result/RequestResultMatchers;
+status
+ ()Lorg/springframework/test/web/servlet/result/StatusResultMatchers;
+ ()Lorg/springframework/test/web/servlet/result/StatusResultMatchers;
+view
+ ()Lorg/springframework/test/web/servlet/result/ViewResultMatchers;
+ ()Lorg/springframework/test/web/servlet/result/ViewResultMatchers;
+xpath
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/result/XpathResultMatchers;
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/result/XpathResultMatchers;
+xpath
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/result/XpathResultMatchers;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/result/XpathResultMatchers;

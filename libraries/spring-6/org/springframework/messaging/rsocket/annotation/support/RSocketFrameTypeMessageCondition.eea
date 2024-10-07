@@ -1,0 +1,59 @@
+class org/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition
+
+super org/springframework/messaging/handler/AbstractMessageCondition
+ <Lorg/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;>
+ <Lorg/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;>
+
+CONNECT_CONDITION
+ Lorg/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;
+ L1org/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;
+EMPTY_CONDITION
+ Lorg/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;
+ L1org/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;
+FRAME_TYPE_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+REQUEST_CHANNEL_CONDITION
+ Lorg/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;
+ L1org/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;
+REQUEST_FNF_OR_RESPONSE_CONDITION
+ Lorg/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;
+ L1org/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;
+REQUEST_RESPONSE_CONDITION
+ Lorg/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;
+ L1org/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;
+REQUEST_STREAM_CONDITION
+ Lorg/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;
+ L1org/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;
+
+getCondition
+ (II)Lorg/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;
+ (II)Lorg/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;
+getFrameType
+ (Lorg/springframework/messaging/Message<*>;)Lio/rsocket/frame/FrameType;
+ (Lorg/springframework/messaging/Message<*>;)L0io/rsocket/frame/FrameType;
+
+<init>
+ (Ljava/util/Collection<Lio/rsocket/frame/FrameType;>;)V
+ (Ljava/util/Collection<Lio/rsocket/frame/FrameType;>;)V
+<init>
+ ([Lio/rsocket/frame/FrameType;)V
+ ([Lio/rsocket/frame/FrameType;)V
+combine
+ (Lorg/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;)Lorg/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;
+ (Lorg/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;)Lorg/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;
+compareTo
+ (Lorg/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;Lorg/springframework/messaging/Message<*>;)I
+ (Lorg/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;Lorg/springframework/messaging/Message<*>;)I
+getContent
+ ()Ljava/util/Collection<*>;
+ ()Ljava/util/Collection<*>;
+getFrameTypes
+ ()Ljava/util/Set<Lio/rsocket/frame/FrameType;>;
+ ()Ljava/util/Set<Lio/rsocket/frame/FrameType;>;
+getMatchingCondition
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;
+ (Lorg/springframework/messaging/Message<*>;)L0org/springframework/messaging/rsocket/annotation/support/RSocketFrameTypeMessageCondition;
+getToStringInfix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

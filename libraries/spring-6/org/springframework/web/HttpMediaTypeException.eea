@@ -1,0 +1,23 @@
+class org/springframework/web/HttpMediaTypeException
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/util/List<Lorg/springframework/http/MediaType;>;)V
+ (Ljava/lang/String;Ljava/util/List<Lorg/springframework/http/MediaType;>;)V
+<init>
+ (Ljava/lang/String;Ljava/util/List<Lorg/springframework/http/MediaType;>;Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/util/List<Lorg/springframework/http/MediaType;>;Ljava/lang/String;[Ljava/lang/Object;)V
+getBody
+ ()Lorg/springframework/http/ProblemDetail;
+ ()Lorg/springframework/http/ProblemDetail;
+getDetailMessageArguments
+ ()[Ljava/lang/Object;
+ ()[0Ljava/lang/Object; # @Inherited(org.springframework.web.ErrorResponse)
+getDetailMessageCode
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSupportedMediaTypes
+ ()Ljava/util/List<Lorg/springframework/http/MediaType;>;
+ ()Ljava/util/List<Lorg/springframework/http/MediaType;>;

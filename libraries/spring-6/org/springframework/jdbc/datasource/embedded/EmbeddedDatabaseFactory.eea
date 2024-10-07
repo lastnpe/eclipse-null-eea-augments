@@ -1,0 +1,27 @@
+class org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseFactory
+
+DEFAULT_DATABASE_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getDataSource
+ ()Ljavax/sql/DataSource;
+ ()L0javax/sql/DataSource;
+getDatabase
+ ()Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabase;
+ ()Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabase;
+setDataSourceFactory
+ (Lorg/springframework/jdbc/datasource/embedded/DataSourceFactory;)V
+ (Lorg/springframework/jdbc/datasource/embedded/DataSourceFactory;)V
+setDatabaseConfigurer
+ (Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseConfigurer;)V
+ (Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseConfigurer;)V
+setDatabaseName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setDatabasePopulator
+ (Lorg/springframework/jdbc/datasource/init/DatabasePopulator;)V
+ (Lorg/springframework/jdbc/datasource/init/DatabasePopulator;)V
+setDatabaseType
+ (Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseType;)V
+ (Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseType;)V

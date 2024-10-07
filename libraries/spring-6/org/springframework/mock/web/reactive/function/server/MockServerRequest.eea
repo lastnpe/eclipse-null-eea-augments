@@ -1,0 +1,84 @@
+class org/springframework/mock/web/reactive/function/server/MockServerRequest
+
+builder
+ ()Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+ ()Lorg/springframework/mock/web/reactive/function/server/MockServerRequest$Builder;
+
+attributes
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+bind
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lreactor/core/publisher/Mono<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lreactor/core/publisher/Mono<TT;>;
+bind
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Consumer<Lorg/springframework/web/bind/WebDataBinder;>;)Lreactor/core/publisher/Mono<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Consumer<Lorg/springframework/web/bind/WebDataBinder;>;)Lreactor/core/publisher/Mono<TT;>;
+body
+ <S:Ljava/lang/Object;>(Lorg/springframework/web/reactive/function/BodyExtractor<TS;-Lorg/springframework/http/server/reactive/ServerHttpRequest;>;)TS;
+ <S:Ljava/lang/Object;>(Lorg/springframework/web/reactive/function/BodyExtractor<TS;-Lorg/springframework/http/server/reactive/ServerHttpRequest;>;)TS;
+body
+ <S:Ljava/lang/Object;>(Lorg/springframework/web/reactive/function/BodyExtractor<TS;-Lorg/springframework/http/server/reactive/ServerHttpRequest;>;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)TS;
+ <S:Ljava/lang/Object;>(Lorg/springframework/web/reactive/function/BodyExtractor<TS;-Lorg/springframework/http/server/reactive/ServerHttpRequest;>;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)TS;
+bodyToFlux
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<+TS;>;)Lreactor/core/publisher/Flux<TS;>;
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<+TS;>;)Lreactor/core/publisher/Flux<TS;>;
+bodyToFlux
+ <S:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TS;>;)Lreactor/core/publisher/Flux<TS;>;
+ <S:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TS;>;)Lreactor/core/publisher/Flux<TS;>;
+bodyToMono
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<+TS;>;)Lreactor/core/publisher/Mono<TS;>;
+ <S:Ljava/lang/Object;>(Ljava/lang/Class<+TS;>;)Lreactor/core/publisher/Mono<TS;>;
+bodyToMono
+ <S:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TS;>;)Lreactor/core/publisher/Mono<TS;>;
+ <S:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TS;>;)Lreactor/core/publisher/Mono<TS;>;
+cookies
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;
+exchange
+ ()Lorg/springframework/web/server/ServerWebExchange;
+ ()Lorg/springframework/web/server/ServerWebExchange;
+formData
+ ()Lreactor/core/publisher/Mono<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;
+ ()Lreactor/core/publisher/Mono<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;
+headers
+ ()Lorg/springframework/web/reactive/function/server/ServerRequest$Headers;
+ ()Lorg/springframework/web/reactive/function/server/ServerRequest$Headers;
+localAddress
+ ()Ljava/util/Optional<Ljava/net/InetSocketAddress;>;
+ ()Ljava/util/Optional<Ljava/net/InetSocketAddress;>;
+messageReaders
+ ()Ljava/util/List<Lorg/springframework/http/codec/HttpMessageReader<*>;>;
+ ()Ljava/util/List<Lorg/springframework/http/codec/HttpMessageReader<*>;>;
+method
+ ()Lorg/springframework/http/HttpMethod;
+ ()Lorg/springframework/http/HttpMethod;
+methodName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+multipartData
+ ()Lreactor/core/publisher/Mono<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/codec/multipart/Part;>;>;
+ ()Lreactor/core/publisher/Mono<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/codec/multipart/Part;>;>;
+pathVariables
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+principal
+ ()Lreactor/core/publisher/Mono<+Ljava/security/Principal;>;
+ ()Lreactor/core/publisher/Mono<+Ljava/security/Principal;>;
+queryParams
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+remoteAddress
+ ()Ljava/util/Optional<Ljava/net/InetSocketAddress;>;
+ ()Ljava/util/Optional<Ljava/net/InetSocketAddress;>;
+requestPath
+ ()Lorg/springframework/http/server/RequestPath;
+ ()Lorg/springframework/http/server/RequestPath;
+session
+ ()Lreactor/core/publisher/Mono<Lorg/springframework/web/server/WebSession;>;
+ ()Lreactor/core/publisher/Mono<Lorg/springframework/web/server/WebSession;>;
+uri
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+uriBuilder
+ ()Lorg/springframework/web/util/UriBuilder;
+ ()Lorg/springframework/web/util/UriBuilder;

@@ -1,0 +1,9 @@
+class org/springframework/cache/annotation/CachingConfigurationSelector
+
+super org/springframework/context/annotation/AdviceModeImportSelector
+ <Lorg/springframework/cache/annotation/EnableCaching;>
+ <Lorg/springframework/cache/annotation/EnableCaching;>
+
+selectImports
+ (Lorg/springframework/context/annotation/AdviceMode;)[Ljava/lang/String;
+ (Lorg/springframework/context/annotation/AdviceMode;)[0Ljava/lang/String; # @Inherited(org.springframework.context.annotation.AdviceModeImportSelector)

@@ -1,0 +1,9 @@
+class org/springframework/scheduling/annotation/AsyncConfigurationSelector
+
+super org/springframework/context/annotation/AdviceModeImportSelector
+ <Lorg/springframework/scheduling/annotation/EnableAsync;>
+ <Lorg/springframework/scheduling/annotation/EnableAsync;>
+
+selectImports
+ (Lorg/springframework/context/annotation/AdviceMode;)[Ljava/lang/String;
+ (Lorg/springframework/context/annotation/AdviceMode;)[1Ljava/lang/String; # @Overrides(org.springframework.context.annotation.AdviceModeImportSelector)

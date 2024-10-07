@@ -1,0 +1,64 @@
+class org/springframework/web/server/adapter/WebHttpHandlerBuilder
+
+FORWARDED_HEADER_TRANSFORMER_BEAN_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+LOCALE_CONTEXT_RESOLVER_BEAN_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+SERVER_CODEC_CONFIGURER_BEAN_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+WEB_HANDLER_BEAN_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+WEB_SESSION_MANAGER_BEAN_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+applicationContext
+ (Lorg/springframework/context/ApplicationContext;)Lorg/springframework/web/server/adapter/WebHttpHandlerBuilder;
+ (Lorg/springframework/context/ApplicationContext;)Lorg/springframework/web/server/adapter/WebHttpHandlerBuilder;
+webHandler
+ (Lorg/springframework/web/server/WebHandler;)Lorg/springframework/web/server/adapter/WebHttpHandlerBuilder;
+ (Lorg/springframework/web/server/WebHandler;)Lorg/springframework/web/server/adapter/WebHttpHandlerBuilder;
+
+build
+ ()Lorg/springframework/http/server/reactive/HttpHandler;
+ ()L1org/springframework/http/server/reactive/HttpHandler;
+clone
+ ()Lorg/springframework/web/server/adapter/WebHttpHandlerBuilder;
+ ()L1org/springframework/web/server/adapter/WebHttpHandlerBuilder;
+codecConfigurer
+ (Lorg/springframework/http/codec/ServerCodecConfigurer;)Lorg/springframework/web/server/adapter/WebHttpHandlerBuilder;
+ (Lorg/springframework/http/codec/ServerCodecConfigurer;)L1org/springframework/web/server/adapter/WebHttpHandlerBuilder;
+exceptionHandler
+ ([Lorg/springframework/web/server/WebExceptionHandler;)Lorg/springframework/web/server/adapter/WebHttpHandlerBuilder;
+ ([Lorg/springframework/web/server/WebExceptionHandler;)L1org/springframework/web/server/adapter/WebHttpHandlerBuilder;
+exceptionHandlers
+ (Ljava/util/function/Consumer<Ljava/util/List<Lorg/springframework/web/server/WebExceptionHandler;>;>;)Lorg/springframework/web/server/adapter/WebHttpHandlerBuilder;
+ (Ljava/util/function/Consumer<Ljava/util/List<Lorg/springframework/web/server/WebExceptionHandler;>;>;)L1org/springframework/web/server/adapter/WebHttpHandlerBuilder;
+filter
+ ([Lorg/springframework/web/server/WebFilter;)Lorg/springframework/web/server/adapter/WebHttpHandlerBuilder;
+ ([Lorg/springframework/web/server/WebFilter;)L1org/springframework/web/server/adapter/WebHttpHandlerBuilder;
+filters
+ (Ljava/util/function/Consumer<Ljava/util/List<Lorg/springframework/web/server/WebFilter;>;>;)Lorg/springframework/web/server/adapter/WebHttpHandlerBuilder;
+ (Ljava/util/function/Consumer<Ljava/util/List<Lorg/springframework/web/server/WebFilter;>;>;)L1org/springframework/web/server/adapter/WebHttpHandlerBuilder;
+forwardedHeaderTransformer
+ (Lorg/springframework/web/server/adapter/ForwardedHeaderTransformer;)Lorg/springframework/web/server/adapter/WebHttpHandlerBuilder;
+ (Lorg/springframework/web/server/adapter/ForwardedHeaderTransformer;)L1org/springframework/web/server/adapter/WebHttpHandlerBuilder;
+httpHandlerDecorator
+ (Ljava/util/function/Function<Lorg/springframework/http/server/reactive/HttpHandler;Lorg/springframework/http/server/reactive/HttpHandler;>;)Lorg/springframework/web/server/adapter/WebHttpHandlerBuilder;
+ (Ljava/util/function/Function<Lorg/springframework/http/server/reactive/HttpHandler;Lorg/springframework/http/server/reactive/HttpHandler;>;)L1org/springframework/web/server/adapter/WebHttpHandlerBuilder;
+localeContextResolver
+ (Lorg/springframework/web/server/i18n/LocaleContextResolver;)Lorg/springframework/web/server/adapter/WebHttpHandlerBuilder;
+ (Lorg/springframework/web/server/i18n/LocaleContextResolver;)L1org/springframework/web/server/adapter/WebHttpHandlerBuilder;
+observationConvention
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationConvention;)Lorg/springframework/web/server/adapter/WebHttpHandlerBuilder;
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationConvention;)L1org/springframework/web/server/adapter/WebHttpHandlerBuilder;
+observationRegistry
+ (Lio/micrometer/observation/ObservationRegistry;)Lorg/springframework/web/server/adapter/WebHttpHandlerBuilder;
+ (Lio/micrometer/observation/ObservationRegistry;)L1org/springframework/web/server/adapter/WebHttpHandlerBuilder;
+sessionManager
+ (Lorg/springframework/web/server/session/WebSessionManager;)Lorg/springframework/web/server/adapter/WebHttpHandlerBuilder;
+ (Lorg/springframework/web/server/session/WebSessionManager;)L1org/springframework/web/server/adapter/WebHttpHandlerBuilder;

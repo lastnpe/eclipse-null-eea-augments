@@ -1,0 +1,14 @@
+class org/springframework/cache/annotation/CachingConfigurerSupport
+
+cacheManager
+ ()Lorg/springframework/cache/CacheManager;
+ ()L0org/springframework/cache/CacheManager; # @Inherited(org.springframework.cache.annotation.CachingConfigurer)
+cacheResolver
+ ()Lorg/springframework/cache/interceptor/CacheResolver;
+ ()L0org/springframework/cache/interceptor/CacheResolver; # @Inherited(org.springframework.cache.annotation.CachingConfigurer)
+errorHandler
+ ()Lorg/springframework/cache/interceptor/CacheErrorHandler;
+ ()L0org/springframework/cache/interceptor/CacheErrorHandler; # @Inherited(org.springframework.cache.annotation.CachingConfigurer)
+keyGenerator
+ ()Lorg/springframework/cache/interceptor/KeyGenerator;
+ ()L0org/springframework/cache/interceptor/KeyGenerator; # @Inherited(org.springframework.cache.annotation.CachingConfigurer)

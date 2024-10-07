@@ -1,0 +1,30 @@
+class org/springframework/messaging/simp/SimpMessageMappingInfo
+
+super org/springframework/messaging/handler/MessageCondition
+ <Lorg/springframework/messaging/simp/SimpMessageMappingInfo;>
+ <Lorg/springframework/messaging/simp/SimpMessageMappingInfo;>
+
+<init>
+ (Lorg/springframework/messaging/simp/SimpMessageTypeMessageCondition;Lorg/springframework/messaging/handler/DestinationPatternsMessageCondition;)V
+ (Lorg/springframework/messaging/simp/SimpMessageTypeMessageCondition;Lorg/springframework/messaging/handler/DestinationPatternsMessageCondition;)V
+combine
+ (Lorg/springframework/messaging/simp/SimpMessageMappingInfo;)Lorg/springframework/messaging/simp/SimpMessageMappingInfo;
+ (Lorg/springframework/messaging/simp/SimpMessageMappingInfo;)Lorg/springframework/messaging/simp/SimpMessageMappingInfo;
+compareTo
+ (Lorg/springframework/messaging/simp/SimpMessageMappingInfo;Lorg/springframework/messaging/Message<*>;)I
+ (Lorg/springframework/messaging/simp/SimpMessageMappingInfo;Lorg/springframework/messaging/Message<*>;)I
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getDestinationConditions
+ ()Lorg/springframework/messaging/handler/DestinationPatternsMessageCondition;
+ ()Lorg/springframework/messaging/handler/DestinationPatternsMessageCondition;
+getMatchingCondition
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/simp/SimpMessageMappingInfo;
+ (Lorg/springframework/messaging/Message<*>;)L0org/springframework/messaging/simp/SimpMessageMappingInfo;
+getMessageTypeMessageCondition
+ ()Lorg/springframework/messaging/simp/SimpMessageTypeMessageCondition;
+ ()Lorg/springframework/messaging/simp/SimpMessageTypeMessageCondition;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

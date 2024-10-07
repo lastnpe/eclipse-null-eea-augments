@@ -1,0 +1,15 @@
+class org/springframework/validation/DefaultBindingErrorProcessor
+
+MISSING_FIELD_ERROR_CODE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getArgumentsForBindError
+ (Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/Object;
+processMissingFieldError
+ (Ljava/lang/String;Lorg/springframework/validation/BindingResult;)V
+ (Ljava/lang/String;Lorg/springframework/validation/BindingResult;)V
+processPropertyAccessException
+ (Lorg/springframework/beans/PropertyAccessException;Lorg/springframework/validation/BindingResult;)V
+ (Lorg/springframework/beans/PropertyAccessException;Lorg/springframework/validation/BindingResult;)V

@@ -1,0 +1,59 @@
+class org/springframework/web/client/RestClient$Builder
+
+apply
+ (Ljava/util/function/Consumer<Lorg/springframework/web/client/RestClient$Builder;>;)Lorg/springframework/web/client/RestClient$Builder;
+ (Ljava/util/function/Consumer<Lorg/springframework/web/client/RestClient$Builder;>;)L1org/springframework/web/client/RestClient$Builder;
+baseUrl
+ (Ljava/lang/String;)Lorg/springframework/web/client/RestClient$Builder;
+ (Ljava/lang/String;)L1org/springframework/web/client/RestClient$Builder;
+build
+ ()Lorg/springframework/web/client/RestClient;
+ ()L1org/springframework/web/client/RestClient;
+clone
+ ()Lorg/springframework/web/client/RestClient$Builder;
+ ()L1org/springframework/web/client/RestClient$Builder;
+defaultHeader
+ (Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/web/client/RestClient$Builder;
+ (Ljava/lang/String;[Ljava/lang/String;)L1org/springframework/web/client/RestClient$Builder;
+defaultHeaders
+ (Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)Lorg/springframework/web/client/RestClient$Builder;
+ (Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)L1org/springframework/web/client/RestClient$Builder;
+defaultRequest
+ (Ljava/util/function/Consumer<Lorg/springframework/web/client/RestClient$RequestHeadersSpec<*>;>;)Lorg/springframework/web/client/RestClient$Builder;
+ (Ljava/util/function/Consumer<Lorg/springframework/web/client/RestClient$RequestHeadersSpec<*>;>;)L1org/springframework/web/client/RestClient$Builder;
+defaultStatusHandler
+ (Ljava/util/function/Predicate<Lorg/springframework/http/HttpStatusCode;>;Lorg/springframework/web/client/RestClient$ResponseSpec$ErrorHandler;)Lorg/springframework/web/client/RestClient$Builder;
+ (Ljava/util/function/Predicate<Lorg/springframework/http/HttpStatusCode;>;Lorg/springframework/web/client/RestClient$ResponseSpec$ErrorHandler;)L1org/springframework/web/client/RestClient$Builder;
+defaultStatusHandler
+ (Lorg/springframework/web/client/ResponseErrorHandler;)Lorg/springframework/web/client/RestClient$Builder;
+ (Lorg/springframework/web/client/ResponseErrorHandler;)L1org/springframework/web/client/RestClient$Builder;
+defaultUriVariables
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/web/client/RestClient$Builder;
+ (Ljava/util/Map<Ljava/lang/String;*>;)L1org/springframework/web/client/RestClient$Builder;
+messageConverters
+ (Ljava/util/function/Consumer<Ljava/util/List<Lorg/springframework/http/converter/HttpMessageConverter<*>;>;>;)Lorg/springframework/web/client/RestClient$Builder;
+ (Ljava/util/function/Consumer<Ljava/util/List<Lorg/springframework/http/converter/HttpMessageConverter<*>;>;>;)L1org/springframework/web/client/RestClient$Builder;
+observationConvention
+ (Lorg/springframework/http/client/observation/ClientRequestObservationConvention;)Lorg/springframework/web/client/RestClient$Builder;
+ (Lorg/springframework/http/client/observation/ClientRequestObservationConvention;)L1org/springframework/web/client/RestClient$Builder;
+observationRegistry
+ (Lio/micrometer/observation/ObservationRegistry;)Lorg/springframework/web/client/RestClient$Builder;
+ (Lio/micrometer/observation/ObservationRegistry;)L1org/springframework/web/client/RestClient$Builder;
+requestFactory
+ (Lorg/springframework/http/client/ClientHttpRequestFactory;)Lorg/springframework/web/client/RestClient$Builder;
+ (Lorg/springframework/http/client/ClientHttpRequestFactory;)L1org/springframework/web/client/RestClient$Builder;
+requestInitializer
+ (Lorg/springframework/http/client/ClientHttpRequestInitializer;)Lorg/springframework/web/client/RestClient$Builder;
+ (Lorg/springframework/http/client/ClientHttpRequestInitializer;)L1org/springframework/web/client/RestClient$Builder;
+requestInitializers
+ (Ljava/util/function/Consumer<Ljava/util/List<Lorg/springframework/http/client/ClientHttpRequestInitializer;>;>;)Lorg/springframework/web/client/RestClient$Builder;
+ (Ljava/util/function/Consumer<Ljava/util/List<Lorg/springframework/http/client/ClientHttpRequestInitializer;>;>;)L1org/springframework/web/client/RestClient$Builder;
+requestInterceptor
+ (Lorg/springframework/http/client/ClientHttpRequestInterceptor;)Lorg/springframework/web/client/RestClient$Builder;
+ (Lorg/springframework/http/client/ClientHttpRequestInterceptor;)L1org/springframework/web/client/RestClient$Builder;
+requestInterceptors
+ (Ljava/util/function/Consumer<Ljava/util/List<Lorg/springframework/http/client/ClientHttpRequestInterceptor;>;>;)Lorg/springframework/web/client/RestClient$Builder;
+ (Ljava/util/function/Consumer<Ljava/util/List<Lorg/springframework/http/client/ClientHttpRequestInterceptor;>;>;)L1org/springframework/web/client/RestClient$Builder;
+uriBuilderFactory
+ (Lorg/springframework/web/util/UriBuilderFactory;)Lorg/springframework/web/client/RestClient$Builder;
+ (Lorg/springframework/web/util/UriBuilderFactory;)L1org/springframework/web/client/RestClient$Builder;

@@ -1,0 +1,21 @@
+class org/springframework/messaging/handler/invocation/reactive/HandlerMethodReturnValueHandlerComposite
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+addHandler
+ (Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodReturnValueHandler;)Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodReturnValueHandlerComposite;
+ (Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodReturnValueHandler;)Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodReturnValueHandlerComposite;
+addHandlers
+ (Ljava/util/List<+Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodReturnValueHandler;>;)Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodReturnValueHandlerComposite;
+ (Ljava/util/List<+Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodReturnValueHandler;>;)Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodReturnValueHandlerComposite;
+getReturnValueHandlers
+ ()Ljava/util/List<Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodReturnValueHandler;>;
+ ()Ljava/util/List<Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodReturnValueHandler;>;
+handleReturnValue
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+supportsReturnType
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z

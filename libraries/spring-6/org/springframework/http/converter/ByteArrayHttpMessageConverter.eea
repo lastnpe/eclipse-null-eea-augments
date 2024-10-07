@@ -1,0 +1,21 @@
+class org/springframework/http/converter/ByteArrayHttpMessageConverter
+
+super org/springframework/http/converter/AbstractHttpMessageConverter
+ <[B>
+ <[B>
+
+getContentLength
+ ([BLorg/springframework/http/MediaType;)Ljava/lang/Long;
+ ([BLorg/springframework/http/MediaType;)Ljava/lang/Long;
+readInternal
+ (Ljava/lang/Class<+[B>;Lorg/springframework/http/HttpInputMessage;)[B
+ (Ljava/lang/Class<+[B>;Lorg/springframework/http/HttpInputMessage;)[B
+supports
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+supportsRepeatableWrites
+ ([B)Z
+ ([B)Z
+writeInternal
+ ([BLorg/springframework/http/HttpOutputMessage;)V
+ ([BLorg/springframework/http/HttpOutputMessage;)V

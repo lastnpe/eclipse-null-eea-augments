@@ -1,0 +1,86 @@
+class org/springframework/messaging/MessageHeaders
+
+super java/util/Map
+ <Ljava/lang/String;Ljava/lang/Object;>
+ <Ljava/lang/String;Ljava/lang/Object;>
+
+CONTENT_TYPE
+ Ljava/lang/String;
+ L1java/lang/String;
+ERROR_CHANNEL
+ Ljava/lang/String;
+ L1java/lang/String;
+ID
+ Ljava/lang/String;
+ L1java/lang/String;
+ID_VALUE_NONE
+ Ljava/util/UUID;
+ L1java/util/UUID;
+REPLY_CHANNEL
+ Ljava/lang/String;
+ L1java/lang/String;
+TIMESTAMP
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getIdGenerator
+ ()Lorg/springframework/util/IdGenerator;
+ ()Lorg/springframework/util/IdGenerator;
+
+<init>
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+<init>
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/util/UUID;Ljava/lang/Long;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/util/UUID;Ljava/lang/Long;)V
+containsKey
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.Map)
+containsValue
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.util.Map)
+entrySet
+ ()Ljava/util/Set<Ljava/util/Map$Entry<Ljava/lang/String;Ljava/lang/Object;>;>;
+ ()Ljava/util/Set<Ljava/util/Map$Entry<Ljava/lang/String;Ljava/lang/Object;>;>;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+get
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)L0java/lang/Object;
+get
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;)T0T;
+getErrorChannel
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getId
+ ()Ljava/util/UUID;
+ ()L0java/util/UUID;
+getRawHeaders
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getReplyChannel
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getTimestamp
+ ()Ljava/lang/Long;
+ ()L0java/lang/Long;
+keySet
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+put
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+putAll
+ (Ljava/util/Map<+Ljava/lang/String;+Ljava/lang/Object;>;)V
+ (Ljava/util/Map<+Ljava/lang/String;+Ljava/lang/Object;>;)V
+remove
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+values
+ ()Ljava/util/Collection<Ljava/lang/Object;>;
+ ()Ljava/util/Collection<Ljava/lang/Object;>;

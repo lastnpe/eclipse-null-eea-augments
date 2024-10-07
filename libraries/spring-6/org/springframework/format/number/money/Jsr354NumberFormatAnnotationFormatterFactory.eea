@@ -1,0 +1,15 @@
+class org/springframework/format/number/money/Jsr354NumberFormatAnnotationFormatterFactory
+
+super org/springframework/format/AnnotationFormatterFactory
+ <Lorg/springframework/format/annotation/NumberFormat;>
+ <Lorg/springframework/format/annotation/NumberFormat;>
+
+getFieldTypes
+ ()Ljava/util/Set<Ljava/lang/Class<*>;>;
+ ()Ljava/util/Set<Ljava/lang/Class<*>;>;
+getParser
+ (Lorg/springframework/format/annotation/NumberFormat;Ljava/lang/Class<*>;)Lorg/springframework/format/Parser<Ljavax/money/MonetaryAmount;>;
+ (Lorg/springframework/format/annotation/NumberFormat;Ljava/lang/Class<*>;)Lorg/springframework/format/Parser<Ljavax/money/MonetaryAmount;>;
+getPrinter
+ (Lorg/springframework/format/annotation/NumberFormat;Ljava/lang/Class<*>;)Lorg/springframework/format/Printer<Ljavax/money/MonetaryAmount;>;
+ (Lorg/springframework/format/annotation/NumberFormat;Ljava/lang/Class<*>;)Lorg/springframework/format/Printer<Ljavax/money/MonetaryAmount;>;

@@ -1,0 +1,10 @@
+class org/springframework/test/web/reactive/server/FluxExchangeResult
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+consumeWith
+ (Ljava/util/function/Consumer<Lorg/springframework/test/web/reactive/server/FluxExchangeResult<TT;>;>;)V
+ (Ljava/util/function/Consumer<Lorg/springframework/test/web/reactive/server/FluxExchangeResult<TT;>;>;)V
+getResponseBody
+ ()Lreactor/core/publisher/Flux<TT;>;
+ ()Lreactor/core/publisher/Flux<TT;>;

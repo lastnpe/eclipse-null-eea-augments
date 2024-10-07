@@ -1,0 +1,129 @@
+class org/springframework/web/util/UriComponentsBuilder
+
+fromHttpRequest
+ (Lorg/springframework/http/HttpRequest;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Lorg/springframework/http/HttpRequest;)Lorg/springframework/web/util/UriComponentsBuilder;
+fromHttpUrl
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriComponentsBuilder;
+fromOriginHeader
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriComponentsBuilder;
+fromPath
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriComponentsBuilder;
+fromUri
+ (Ljava/net/URI;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/net/URI;)Lorg/springframework/web/util/UriComponentsBuilder;
+fromUriString
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriComponentsBuilder;
+newInstance
+ ()Lorg/springframework/web/util/UriComponentsBuilder;
+ ()Lorg/springframework/web/util/UriComponentsBuilder;
+parseForwardedFor
+ (Lorg/springframework/http/HttpRequest;Ljava/net/InetSocketAddress;)Ljava/net/InetSocketAddress;
+ (Lorg/springframework/http/HttpRequest;Ljava/net/InetSocketAddress;)L0java/net/InetSocketAddress;
+
+<init>
+ (Lorg/springframework/web/util/UriComponentsBuilder;)V
+ (Lorg/springframework/web/util/UriComponentsBuilder;)V
+build
+ ()Lorg/springframework/web/util/UriComponents;
+ ()L1org/springframework/web/util/UriComponents;
+build
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljava/net/URI;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljava/net/URI;
+build
+ (Z)Lorg/springframework/web/util/UriComponents;
+ (Z)Lorg/springframework/web/util/UriComponents;
+build
+ ([Ljava/lang/Object;)Ljava/net/URI;
+ ([Ljava/lang/Object;)Ljava/net/URI;
+buildAndExpand
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/web/util/UriComponents;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/web/util/UriComponents;
+buildAndExpand
+ ([Ljava/lang/Object;)Lorg/springframework/web/util/UriComponents;
+ ([Ljava/lang/Object;)Lorg/springframework/web/util/UriComponents;
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object; # @Inherited(java.lang.Object)
+cloneBuilder
+ ()Lorg/springframework/web/util/UriComponentsBuilder;
+ ()L1org/springframework/web/util/UriComponentsBuilder;
+encode
+ ()Lorg/springframework/web/util/UriComponentsBuilder;
+ ()L1org/springframework/web/util/UriComponentsBuilder;
+encode
+ (Ljava/nio/charset/Charset;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/nio/charset/Charset;)L1org/springframework/web/util/UriComponentsBuilder;
+fragment
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/lang/String;)L1org/springframework/web/util/UriComponentsBuilder;
+host
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/lang/String;)L1org/springframework/web/util/UriComponentsBuilder;
+path
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/lang/String;)L1org/springframework/web/util/UriComponentsBuilder;
+pathSegment
+ ([Ljava/lang/String;)Lorg/springframework/web/util/UriComponentsBuilder;
+ ([Ljava/lang/String;)L1org/springframework/web/util/UriComponentsBuilder;
+port
+ (I)Lorg/springframework/web/util/UriComponentsBuilder;
+ (I)L1org/springframework/web/util/UriComponentsBuilder;
+port
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/lang/String;)L1org/springframework/web/util/UriComponentsBuilder;
+query
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/lang/String;)L1org/springframework/web/util/UriComponentsBuilder;
+queryParam
+ (Ljava/lang/String;Ljava/util/Collection<*>;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/lang/String;Ljava/util/Collection<*>;)L1org/springframework/web/util/UriComponentsBuilder;
+queryParam
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/web/util/UriComponentsBuilder;
+queryParamIfPresent
+ (Ljava/lang/String;Ljava/util/Optional<*>;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/lang/String;Ljava/util/Optional<*>;)L1org/springframework/web/util/UriComponentsBuilder;
+queryParams
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)L1org/springframework/web/util/UriComponentsBuilder;
+replacePath
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/lang/String;)L1org/springframework/web/util/UriComponentsBuilder;
+replaceQuery
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/lang/String;)L1org/springframework/web/util/UriComponentsBuilder;
+replaceQueryParam
+ (Ljava/lang/String;Ljava/util/Collection<*>;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/lang/String;Ljava/util/Collection<*>;)L1org/springframework/web/util/UriComponentsBuilder;
+replaceQueryParam
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/web/util/UriComponentsBuilder;
+replaceQueryParams
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)L1org/springframework/web/util/UriComponentsBuilder;
+scheme
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/lang/String;)L1org/springframework/web/util/UriComponentsBuilder;
+schemeSpecificPart
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/lang/String;)L1org/springframework/web/util/UriComponentsBuilder;
+toUriString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+uri
+ (Ljava/net/URI;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/net/URI;)L1org/springframework/web/util/UriComponentsBuilder;
+uriComponents
+ (Lorg/springframework/web/util/UriComponents;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Lorg/springframework/web/util/UriComponents;)L1org/springframework/web/util/UriComponentsBuilder;
+uriVariables
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)L1org/springframework/web/util/UriComponentsBuilder;
+userInfo
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriComponentsBuilder;
+ (Ljava/lang/String;)L1org/springframework/web/util/UriComponentsBuilder;

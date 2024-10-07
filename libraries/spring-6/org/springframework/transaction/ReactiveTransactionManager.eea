@@ -1,0 +1,11 @@
+class org/springframework/transaction/ReactiveTransactionManager
+
+commit
+ (Lorg/springframework/transaction/ReactiveTransaction;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/springframework/transaction/ReactiveTransaction;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+getReactiveTransaction
+ (Lorg/springframework/transaction/TransactionDefinition;)Lreactor/core/publisher/Mono<Lorg/springframework/transaction/ReactiveTransaction;>;
+ (Lorg/springframework/transaction/TransactionDefinition;)Lreactor/core/publisher/Mono<Lorg/springframework/transaction/ReactiveTransaction;>;
+rollback
+ (Lorg/springframework/transaction/ReactiveTransaction;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/springframework/transaction/ReactiveTransaction;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;

@@ -1,0 +1,24 @@
+class org/springframework/aop/framework/AbstractAdvisingBeanPostProcessor
+
+advisor
+ Lorg/springframework/aop/Advisor;
+ L0org/springframework/aop/Advisor;
+
+customizeProxyFactory
+ (Lorg/springframework/aop/framework/ProxyFactory;)V
+ (Lorg/springframework/aop/framework/ProxyFactory;)V
+determineBeanType
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/Class<*>;
+isEligible
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isEligible
+ (Ljava/lang/Object;Ljava/lang/String;)Z
+ (Ljava/lang/Object;Ljava/lang/String;)Z
+postProcessAfterInitialization
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+ (L1java/lang/Object;L1java/lang/String;)Ljava/lang/Object; # @Inherited(org.springframework.beans.factory.config.BeanPostProcessor)
+prepareProxyFactory
+ (Ljava/lang/Object;Ljava/lang/String;)Lorg/springframework/aop/framework/ProxyFactory;
+ (Ljava/lang/Object;Ljava/lang/String;)Lorg/springframework/aop/framework/ProxyFactory;

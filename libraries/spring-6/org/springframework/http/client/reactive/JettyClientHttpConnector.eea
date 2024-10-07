@@ -1,0 +1,17 @@
+class org/springframework/http/client/reactive/JettyClientHttpConnector
+
+<init>
+ (Lorg/eclipse/jetty/client/HttpClient;)V
+ (Lorg/eclipse/jetty/client/HttpClient;)V
+<init>
+ (Lorg/eclipse/jetty/client/HttpClient;Lorg/springframework/http/client/reactive/JettyResourceFactory;)V
+ (Lorg/eclipse/jetty/client/HttpClient;Lorg/springframework/http/client/reactive/JettyResourceFactory;)V
+<init>
+ (Lorg/springframework/http/client/reactive/JettyResourceFactory;Ljava/util/function/Consumer<Lorg/eclipse/jetty/client/HttpClient;>;)V
+ (Lorg/springframework/http/client/reactive/JettyResourceFactory;Ljava/util/function/Consumer<Lorg/eclipse/jetty/client/HttpClient;>;)V
+connect
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;Ljava/util/function/Function<-Lorg/springframework/http/client/reactive/ClientHttpRequest;Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>;)Lreactor/core/publisher/Mono<Lorg/springframework/http/client/reactive/ClientHttpResponse;>;
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;Ljava/util/function/Function<-Lorg/springframework/http/client/reactive/ClientHttpRequest;Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>;)Lreactor/core/publisher/Mono<Lorg/springframework/http/client/reactive/ClientHttpResponse;>;
+setBufferFactory
+ (Lorg/springframework/core/io/buffer/DataBufferFactory;)V
+ (Lorg/springframework/core/io/buffer/DataBufferFactory;)V

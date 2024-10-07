@@ -1,0 +1,52 @@
+class org/springframework/messaging/support/NativeMessageHeaderAccessor
+
+NATIVE_HEADERS
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getFirstNativeHeader
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)L0java/lang/String;
+
+<init>
+ (Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;)V
+<init>
+ (Lorg/springframework/messaging/Message<*>;)V
+ (Lorg/springframework/messaging/Message<*>;)V
+addNativeHeader
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+addNativeHeaders
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)V
+containsNativeHeader
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+copyHeaders
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+copyHeadersIfAbsent
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+getFirstNativeHeader
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+getNativeHeader
+ (Ljava/lang/String;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/lang/String;)L0java/util/List<Ljava/lang/String;>;
+getNativeHeaders
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;
+ ()L0java/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;
+removeNativeHeader
+ (Ljava/lang/String;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/lang/String;)L0java/util/List<Ljava/lang/String;>;
+setNativeHeader
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setNativeHeaderValues
+ (Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;)V
+ (Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;)V
+toNativeHeaderMap
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;

@@ -1,0 +1,33 @@
+class org/springframework/http/ResponseCookie
+
+from
+ (Ljava/lang/String;)Lorg/springframework/http/ResponseCookie$ResponseCookieBuilder;
+ (Ljava/lang/String;)Lorg/springframework/http/ResponseCookie$ResponseCookieBuilder;
+from
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/http/ResponseCookie$ResponseCookieBuilder;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/http/ResponseCookie$ResponseCookieBuilder;
+fromClientResponse
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/http/ResponseCookie$ResponseCookieBuilder;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/http/ResponseCookie$ResponseCookieBuilder;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(org.springframework.http.HttpCookie)
+getDomain
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getMaxAge
+ ()Ljava/time/Duration;
+ ()Ljava/time/Duration;
+getPath
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getSameSite
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+mutate
+ ()Lorg/springframework/http/ResponseCookie$ResponseCookieBuilder;
+ ()Lorg/springframework/http/ResponseCookie$ResponseCookieBuilder;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.springframework.http.HttpCookie)

@@ -1,0 +1,20 @@
+class org/springframework/web/server/MethodNotAllowedException
+
+<init>
+ (Ljava/lang/String;Ljava/util/Collection<Lorg/springframework/http/HttpMethod;>;)V
+ (Ljava/lang/String;Ljava/util/Collection<Lorg/springframework/http/HttpMethod;>;)V
+<init>
+ (Lorg/springframework/http/HttpMethod;Ljava/util/Collection<Lorg/springframework/http/HttpMethod;>;)V
+ (Lorg/springframework/http/HttpMethod;Ljava/util/Collection<Lorg/springframework/http/HttpMethod;>;)V
+getHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+getHttpMethod
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getResponseHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+getSupportedMethods
+ ()Ljava/util/Set<Lorg/springframework/http/HttpMethod;>;
+ ()Ljava/util/Set<Lorg/springframework/http/HttpMethod;>;

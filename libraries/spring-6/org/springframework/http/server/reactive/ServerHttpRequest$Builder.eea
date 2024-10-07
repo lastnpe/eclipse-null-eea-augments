@@ -1,0 +1,29 @@
+class org/springframework/http/server/reactive/ServerHttpRequest$Builder
+
+build
+ ()Lorg/springframework/http/server/reactive/ServerHttpRequest;
+ ()L1org/springframework/http/server/reactive/ServerHttpRequest;
+contextPath
+ (Ljava/lang/String;)Lorg/springframework/http/server/reactive/ServerHttpRequest$Builder;
+ (Ljava/lang/String;)L1org/springframework/http/server/reactive/ServerHttpRequest$Builder;
+header
+ (Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/http/server/reactive/ServerHttpRequest$Builder;
+ (Ljava/lang/String;[Ljava/lang/String;)L1org/springframework/http/server/reactive/ServerHttpRequest$Builder;
+headers
+ (Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)Lorg/springframework/http/server/reactive/ServerHttpRequest$Builder;
+ (Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)L1org/springframework/http/server/reactive/ServerHttpRequest$Builder;
+method
+ (Lorg/springframework/http/HttpMethod;)Lorg/springframework/http/server/reactive/ServerHttpRequest$Builder;
+ (Lorg/springframework/http/HttpMethod;)L1org/springframework/http/server/reactive/ServerHttpRequest$Builder;
+path
+ (Ljava/lang/String;)Lorg/springframework/http/server/reactive/ServerHttpRequest$Builder;
+ (Ljava/lang/String;)L1org/springframework/http/server/reactive/ServerHttpRequest$Builder;
+remoteAddress
+ (Ljava/net/InetSocketAddress;)Lorg/springframework/http/server/reactive/ServerHttpRequest$Builder;
+ (Ljava/net/InetSocketAddress;)L1org/springframework/http/server/reactive/ServerHttpRequest$Builder;
+sslInfo
+ (Lorg/springframework/http/server/reactive/SslInfo;)Lorg/springframework/http/server/reactive/ServerHttpRequest$Builder;
+ (Lorg/springframework/http/server/reactive/SslInfo;)L1org/springframework/http/server/reactive/ServerHttpRequest$Builder;
+uri
+ (Ljava/net/URI;)Lorg/springframework/http/server/reactive/ServerHttpRequest$Builder;
+ (Ljava/net/URI;)L1org/springframework/http/server/reactive/ServerHttpRequest$Builder;

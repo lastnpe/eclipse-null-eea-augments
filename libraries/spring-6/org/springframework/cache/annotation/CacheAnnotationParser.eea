@@ -1,0 +1,11 @@
+class org/springframework/cache/annotation/CacheAnnotationParser
+
+isCandidateClass
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+parseCacheAnnotations
+ (Ljava/lang/Class<*>;)Ljava/util/Collection<Lorg/springframework/cache/interceptor/CacheOperation;>;
+ (Ljava/lang/Class<*>;)L0java/util/Collection<Lorg/springframework/cache/interceptor/CacheOperation;>;
+parseCacheAnnotations
+ (Ljava/lang/reflect/Method;)Ljava/util/Collection<Lorg/springframework/cache/interceptor/CacheOperation;>;
+ (Ljava/lang/reflect/Method;)L0java/util/Collection<Lorg/springframework/cache/interceptor/CacheOperation;>;

@@ -1,0 +1,22 @@
+class org/springframework/http/converter/HttpMessageConverter
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+canRead
+ (Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+ (Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+canWrite
+ (Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+ (Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+getSupportedMediaTypes
+ ()Ljava/util/List<Lorg/springframework/http/MediaType;>;
+ ()Ljava/util/List<Lorg/springframework/http/MediaType;>;
+getSupportedMediaTypes
+ (Ljava/lang/Class<*>;)Ljava/util/List<Lorg/springframework/http/MediaType;>;
+ (Ljava/lang/Class<*>;)Ljava/util/List<Lorg/springframework/http/MediaType;>;
+read
+ (Ljava/lang/Class<+TT;>;Lorg/springframework/http/HttpInputMessage;)TT;
+ (Ljava/lang/Class<+TT;>;Lorg/springframework/http/HttpInputMessage;)TT;
+write
+ (TT;Lorg/springframework/http/MediaType;Lorg/springframework/http/HttpOutputMessage;)V
+ (TT;Lorg/springframework/http/MediaType;Lorg/springframework/http/HttpOutputMessage;)V

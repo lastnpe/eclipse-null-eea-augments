@@ -1,0 +1,15 @@
+class org/springframework/jdbc/core/SqlRowSetResultSetExtractor
+
+super org/springframework/jdbc/core/ResultSetExtractor
+ <Lorg/springframework/jdbc/support/rowset/SqlRowSet;>
+ <Lorg/springframework/jdbc/support/rowset/SqlRowSet;>
+
+createSqlRowSet
+ (Ljava/sql/ResultSet;)Lorg/springframework/jdbc/support/rowset/SqlRowSet;
+ (Ljava/sql/ResultSet;)Lorg/springframework/jdbc/support/rowset/SqlRowSet;
+extractData
+ (Ljava/sql/ResultSet;)Lorg/springframework/jdbc/support/rowset/SqlRowSet;
+ (Ljava/sql/ResultSet;)Lorg/springframework/jdbc/support/rowset/SqlRowSet;
+newCachedRowSet
+ ()Ljavax/sql/rowset/CachedRowSet;
+ ()Ljavax/sql/rowset/CachedRowSet;

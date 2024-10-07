@@ -1,0 +1,26 @@
+class org/springframework/messaging/handler/invocation/InvocableHandlerMethod
+
+<init>
+ (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Class<*>;)V
+ (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Class<*>;)V
+<init>
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;)V
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;)V
+<init>
+ (Lorg/springframework/messaging/handler/HandlerMethod;)V
+ (Lorg/springframework/messaging/handler/HandlerMethod;)V
+doInvoke
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)L0java/lang/Object;
+getMethodArgumentValues
+ (Lorg/springframework/messaging/Message<*>;[Ljava/lang/Object;)[Ljava/lang/Object;
+ (Lorg/springframework/messaging/Message<*>;[Ljava/lang/Object;)[Ljava/lang/Object;
+invoke
+ (Lorg/springframework/messaging/Message<*>;[Ljava/lang/Object;)Ljava/lang/Object;
+ (Lorg/springframework/messaging/Message<*>;[Ljava/lang/Object;)L0java/lang/Object;
+setMessageMethodArgumentResolvers
+ (Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolverComposite;)V
+ (Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolverComposite;)V
+setParameterNameDiscoverer
+ (Lorg/springframework/core/ParameterNameDiscoverer;)V
+ (Lorg/springframework/core/ParameterNameDiscoverer;)V

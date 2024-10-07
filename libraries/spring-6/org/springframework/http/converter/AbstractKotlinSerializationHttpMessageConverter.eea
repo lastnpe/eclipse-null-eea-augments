@@ -1,0 +1,38 @@
+class org/springframework/http/converter/AbstractKotlinSerializationHttpMessageConverter
+ <T::Lkotlinx/serialization/SerialFormat;>
+ <T::Lkotlinx/serialization/SerialFormat;>
+
+super org/springframework/http/converter/AbstractGenericHttpMessageConverter
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+<init>
+ (TT;[Lorg/springframework/http/MediaType;)V
+ (TT;[Lorg/springframework/http/MediaType;)V
+canRead
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+canWrite
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+read
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/HttpInputMessage;)Ljava/lang/Object;
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/HttpInputMessage;)Ljava/lang/Object;
+readInternal
+ (Ljava/lang/Class<*>;Lorg/springframework/http/HttpInputMessage;)Ljava/lang/Object;
+ (Ljava/lang/Class<*>;Lorg/springframework/http/HttpInputMessage;)Ljava/lang/Object;
+readInternal
+ (Lkotlinx/serialization/KSerializer<Ljava/lang/Object;>;TT;Lorg/springframework/http/HttpInputMessage;)Ljava/lang/Object;
+ (Lkotlinx/serialization/KSerializer<Ljava/lang/Object;>;TT;Lorg/springframework/http/HttpInputMessage;)Ljava/lang/Object;
+supports
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+supportsRepeatableWrites
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+writeInternal
+ (Ljava/lang/Object;Ljava/lang/reflect/Type;Lorg/springframework/http/HttpOutputMessage;)V
+ (Ljava/lang/Object;Ljava/lang/reflect/Type;Lorg/springframework/http/HttpOutputMessage;)V
+writeInternal
+ (Ljava/lang/Object;Lkotlinx/serialization/KSerializer<Ljava/lang/Object;>;TT;Lorg/springframework/http/HttpOutputMessage;)V
+ (Ljava/lang/Object;Lkotlinx/serialization/KSerializer<Ljava/lang/Object;>;TT;Lorg/springframework/http/HttpOutputMessage;)V

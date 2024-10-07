@@ -1,0 +1,27 @@
+class org/springframework/test/context/cache/ContextCache
+
+CONTEXT_CACHE_LOGGING_CATEGORY
+ Ljava/lang/String;
+ L1java/lang/String;
+MAX_CONTEXT_CACHE_SIZE_PROPERTY_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+contains
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Z
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Z
+get
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Lorg/springframework/context/ApplicationContext;
+ (Lorg/springframework/test/context/MergedContextConfiguration;)L0org/springframework/context/ApplicationContext;
+getFailureCount
+ (Lorg/springframework/test/context/MergedContextConfiguration;)I
+ (Lorg/springframework/test/context/MergedContextConfiguration;)I
+incrementFailureCount
+ (Lorg/springframework/test/context/MergedContextConfiguration;)V
+ (Lorg/springframework/test/context/MergedContextConfiguration;)V
+put
+ (Lorg/springframework/test/context/MergedContextConfiguration;Lorg/springframework/context/ApplicationContext;)V
+ (Lorg/springframework/test/context/MergedContextConfiguration;Lorg/springframework/context/ApplicationContext;)V
+remove
+ (Lorg/springframework/test/context/MergedContextConfiguration;Lorg/springframework/test/annotation/DirtiesContext$HierarchyMode;)V
+ (Lorg/springframework/test/context/MergedContextConfiguration;Lorg/springframework/test/annotation/DirtiesContext$HierarchyMode;)V

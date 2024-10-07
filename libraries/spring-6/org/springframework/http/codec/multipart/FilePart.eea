@@ -1,0 +1,11 @@
+class org/springframework/http/codec/multipart/FilePart
+
+filename
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+transferTo
+ (Ljava/io/File;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Ljava/io/File;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+transferTo
+ (Ljava/nio/file/Path;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Ljava/nio/file/Path;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;

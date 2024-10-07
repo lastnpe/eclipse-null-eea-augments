@@ -1,0 +1,35 @@
+class org/springframework/web/client/RestClientResponseException
+
+<init>
+ (Ljava/lang/String;ILjava/lang/String;Lorg/springframework/http/HttpHeaders;[BLjava/nio/charset/Charset;)V
+ (Ljava/lang/String;ILjava/lang/String;Lorg/springframework/http/HttpHeaders;[BLjava/nio/charset/Charset;)V
+<init>
+ (Ljava/lang/String;Lorg/springframework/http/HttpStatusCode;Ljava/lang/String;Lorg/springframework/http/HttpHeaders;[BLjava/nio/charset/Charset;)V
+ (Ljava/lang/String;Lorg/springframework/http/HttpStatusCode;Ljava/lang/String;Lorg/springframework/http/HttpHeaders;[BLjava/nio/charset/Charset;)V
+getResponseBodyAs
+ <E:Ljava/lang/Object;>(Ljava/lang/Class<TE;>;)TE;
+ <E:Ljava/lang/Object;>(Ljava/lang/Class<TE;>;)T0E;
+getResponseBodyAs
+ <E:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TE;>;)TE;
+ <E:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TE;>;)T0E;
+getResponseBodyAsByteArray
+ ()[B
+ ()[B
+getResponseBodyAsString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getResponseBodyAsString
+ (Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/nio/charset/Charset;)Ljava/lang/String;
+getResponseHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()L0org/springframework/http/HttpHeaders;
+getStatusCode
+ ()Lorg/springframework/http/HttpStatusCode;
+ ()Lorg/springframework/http/HttpStatusCode;
+getStatusText
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setBodyConvertFunction
+ (Ljava/util/function/Function<Lorg/springframework/core/ResolvableType;*>;)V
+ (Ljava/util/function/Function<Lorg/springframework/core/ResolvableType;*>;)V

@@ -1,0 +1,24 @@
+class org/springframework/http/codec/multipart/FilePartEvent
+
+create
+ (Ljava/lang/String;Ljava/lang/String;Lorg/springframework/http/MediaType;Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;)Lreactor/core/publisher/Flux<Lorg/springframework/http/codec/multipart/FilePartEvent;>;
+ (Ljava/lang/String;Ljava/lang/String;Lorg/springframework/http/MediaType;Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;)Lreactor/core/publisher/Flux<Lorg/springframework/http/codec/multipart/FilePartEvent;>;
+create
+ (Ljava/lang/String;Ljava/lang/String;Lorg/springframework/http/MediaType;Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)Lreactor/core/publisher/Flux<Lorg/springframework/http/codec/multipart/FilePartEvent;>;
+ (Ljava/lang/String;Ljava/lang/String;Lorg/springframework/http/MediaType;Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)Lreactor/core/publisher/Flux<Lorg/springframework/http/codec/multipart/FilePartEvent;>;
+create
+ (Ljava/lang/String;Ljava/nio/file/Path;)Lreactor/core/publisher/Flux<Lorg/springframework/http/codec/multipart/FilePartEvent;>;
+ (Ljava/lang/String;Ljava/nio/file/Path;)Lreactor/core/publisher/Flux<Lorg/springframework/http/codec/multipart/FilePartEvent;>;
+create
+ (Ljava/lang/String;Ljava/nio/file/Path;Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)Lreactor/core/publisher/Flux<Lorg/springframework/http/codec/multipart/FilePartEvent;>;
+ (Ljava/lang/String;Ljava/nio/file/Path;Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)Lreactor/core/publisher/Flux<Lorg/springframework/http/codec/multipart/FilePartEvent;>;
+create
+ (Ljava/lang/String;Lorg/springframework/core/io/Resource;)Lreactor/core/publisher/Flux<Lorg/springframework/http/codec/multipart/FilePartEvent;>;
+ (Ljava/lang/String;Lorg/springframework/core/io/Resource;)Lreactor/core/publisher/Flux<Lorg/springframework/http/codec/multipart/FilePartEvent;>;
+create
+ (Ljava/lang/String;Lorg/springframework/core/io/Resource;Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)Lreactor/core/publisher/Flux<Lorg/springframework/http/codec/multipart/FilePartEvent;>;
+ (Ljava/lang/String;Lorg/springframework/core/io/Resource;Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)Lreactor/core/publisher/Flux<Lorg/springframework/http/codec/multipart/FilePartEvent;>;
+
+filename
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

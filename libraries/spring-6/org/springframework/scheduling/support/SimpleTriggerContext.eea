@@ -1,0 +1,29 @@
+class org/springframework/scheduling/support/SimpleTriggerContext
+
+<init>
+ (Ljava/time/Clock;)V
+ (Ljava/time/Clock;)V
+<init>
+ (Ljava/time/Instant;Ljava/time/Instant;Ljava/time/Instant;)V
+ (Ljava/time/Instant;Ljava/time/Instant;Ljava/time/Instant;)V
+<init>
+ (Ljava/util/Date;Ljava/util/Date;Ljava/util/Date;)V
+ (Ljava/util/Date;Ljava/util/Date;Ljava/util/Date;)V
+getClock
+ ()Ljava/time/Clock;
+ ()Ljava/time/Clock;
+lastActualExecution
+ ()Ljava/time/Instant;
+ ()L0java/time/Instant; # @Inherited(org.springframework.scheduling.TriggerContext)
+lastCompletion
+ ()Ljava/time/Instant;
+ ()L0java/time/Instant; # @Inherited(org.springframework.scheduling.TriggerContext)
+lastScheduledExecution
+ ()Ljava/time/Instant;
+ ()L0java/time/Instant; # @Inherited(org.springframework.scheduling.TriggerContext)
+update
+ (Ljava/time/Instant;Ljava/time/Instant;Ljava/time/Instant;)V
+ (Ljava/time/Instant;Ljava/time/Instant;Ljava/time/Instant;)V
+update
+ (Ljava/util/Date;Ljava/util/Date;Ljava/util/Date;)V
+ (Ljava/util/Date;Ljava/util/Date;Ljava/util/Date;)V

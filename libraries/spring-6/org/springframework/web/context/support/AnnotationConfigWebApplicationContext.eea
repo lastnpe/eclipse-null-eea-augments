@@ -1,0 +1,29 @@
+class org/springframework/web/context/support/AnnotationConfigWebApplicationContext
+
+getAnnotatedBeanDefinitionReader
+ (Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;)Lorg/springframework/context/annotation/AnnotatedBeanDefinitionReader;
+ (Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;)Lorg/springframework/context/annotation/AnnotatedBeanDefinitionReader;
+getBeanNameGenerator
+ ()Lorg/springframework/beans/factory/support/BeanNameGenerator;
+ ()L0org/springframework/beans/factory/support/BeanNameGenerator;
+getClassPathBeanDefinitionScanner
+ (Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;)Lorg/springframework/context/annotation/ClassPathBeanDefinitionScanner;
+ (Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;)Lorg/springframework/context/annotation/ClassPathBeanDefinitionScanner;
+getScopeMetadataResolver
+ ()Lorg/springframework/context/annotation/ScopeMetadataResolver;
+ ()L0org/springframework/context/annotation/ScopeMetadataResolver;
+loadBeanDefinitions
+ (Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;)V
+ (Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;)V
+register
+ ([Ljava/lang/Class<*>;)V
+ ([Ljava/lang/Class<*>;)V
+scan
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setBeanNameGenerator
+ (Lorg/springframework/beans/factory/support/BeanNameGenerator;)V
+ (Lorg/springframework/beans/factory/support/BeanNameGenerator;)V
+setScopeMetadataResolver
+ (Lorg/springframework/context/annotation/ScopeMetadataResolver;)V
+ (Lorg/springframework/context/annotation/ScopeMetadataResolver;)V

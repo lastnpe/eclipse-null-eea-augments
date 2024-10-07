@@ -1,0 +1,55 @@
+class org/springframework/test/web/reactive/server/WebTestClient
+
+WEBTESTCLIENT_REQUEST_ID
+ Ljava/lang/String;
+ L1java/lang/String;
+
+bindToApplicationContext
+ (Lorg/springframework/context/ApplicationContext;)Lorg/springframework/test/web/reactive/server/WebTestClient$MockServerSpec<*>;
+ (Lorg/springframework/context/ApplicationContext;)Lorg/springframework/test/web/reactive/server/WebTestClient$MockServerSpec<*>;
+bindToController
+ ([Ljava/lang/Object;)Lorg/springframework/test/web/reactive/server/WebTestClient$ControllerSpec;
+ ([Ljava/lang/Object;)Lorg/springframework/test/web/reactive/server/WebTestClient$ControllerSpec;
+bindToRouterFunction
+ (Lorg/springframework/web/reactive/function/server/RouterFunction<*>;)Lorg/springframework/test/web/reactive/server/WebTestClient$RouterFunctionSpec;
+ (Lorg/springframework/web/reactive/function/server/RouterFunction<*>;)Lorg/springframework/test/web/reactive/server/WebTestClient$RouterFunctionSpec;
+bindToServer
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+bindToServer
+ (Lorg/springframework/http/client/reactive/ClientHttpConnector;)Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+ (Lorg/springframework/http/client/reactive/ClientHttpConnector;)Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+bindToWebHandler
+ (Lorg/springframework/web/server/WebHandler;)Lorg/springframework/test/web/reactive/server/WebTestClient$MockServerSpec<*>;
+ (Lorg/springframework/web/server/WebHandler;)Lorg/springframework/test/web/reactive/server/WebTestClient$MockServerSpec<*>;
+
+delete
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$RequestHeadersUriSpec<*>;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$RequestHeadersUriSpec<*>;
+get
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$RequestHeadersUriSpec<*>;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$RequestHeadersUriSpec<*>;
+head
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$RequestHeadersUriSpec<*>;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$RequestHeadersUriSpec<*>;
+method
+ (Lorg/springframework/http/HttpMethod;)Lorg/springframework/test/web/reactive/server/WebTestClient$RequestBodyUriSpec;
+ (Lorg/springframework/http/HttpMethod;)Lorg/springframework/test/web/reactive/server/WebTestClient$RequestBodyUriSpec;
+mutate
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+mutateWith
+ (Lorg/springframework/test/web/reactive/server/WebTestClientConfigurer;)Lorg/springframework/test/web/reactive/server/WebTestClient;
+ (Lorg/springframework/test/web/reactive/server/WebTestClientConfigurer;)Lorg/springframework/test/web/reactive/server/WebTestClient;
+options
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$RequestHeadersUriSpec<*>;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$RequestHeadersUriSpec<*>;
+patch
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$RequestBodyUriSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$RequestBodyUriSpec;
+post
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$RequestBodyUriSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$RequestBodyUriSpec;
+put
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$RequestBodyUriSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$RequestBodyUriSpec;

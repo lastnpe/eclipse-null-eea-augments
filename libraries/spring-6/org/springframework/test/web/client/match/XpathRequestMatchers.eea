@@ -1,0 +1,35 @@
+class org/springframework/test/web/client/match/XpathRequestMatchers
+
+<init>
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;[Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;[Ljava/lang/Object;)V
+booleanValue
+ (Ljava/lang/Boolean;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/lang/Boolean;)Lorg/springframework/test/web/client/RequestMatcher;
+doesNotExist
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+exists
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+node
+ (Lorg/hamcrest/Matcher<-Lorg/w3c/dom/Node;>;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Lorg/hamcrest/Matcher<-Lorg/w3c/dom/Node;>;)Lorg/springframework/test/web/client/RequestMatcher;
+nodeCount
+ (I)Lorg/springframework/test/web/client/RequestMatcher;
+ (I)Lorg/springframework/test/web/client/RequestMatcher;
+nodeCount
+ (Lorg/hamcrest/Matcher<-Ljava/lang/Integer;>;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Lorg/hamcrest/Matcher<-Ljava/lang/Integer;>;)Lorg/springframework/test/web/client/RequestMatcher;
+number
+ (Ljava/lang/Double;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/lang/Double;)Lorg/springframework/test/web/client/RequestMatcher;
+number
+ (Lorg/hamcrest/Matcher<-Ljava/lang/Double;>;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Lorg/hamcrest/Matcher<-Ljava/lang/Double;>;)Lorg/springframework/test/web/client/RequestMatcher;
+string
+ (Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;
+string
+ (Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/client/RequestMatcher;

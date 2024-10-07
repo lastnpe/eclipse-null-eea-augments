@@ -1,0 +1,17 @@
+class org/springframework/orm/jpa/JpaDialect
+
+beginTransaction
+ (Ljakarta/persistence/EntityManager;Lorg/springframework/transaction/TransactionDefinition;)Ljava/lang/Object;
+ (Ljakarta/persistence/EntityManager;Lorg/springframework/transaction/TransactionDefinition;)L0java/lang/Object;
+cleanupTransaction
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+getJdbcConnection
+ (Ljakarta/persistence/EntityManager;Z)Lorg/springframework/jdbc/datasource/ConnectionHandle;
+ (Ljakarta/persistence/EntityManager;Z)L0org/springframework/jdbc/datasource/ConnectionHandle;
+prepareTransaction
+ (Ljakarta/persistence/EntityManager;ZLjava/lang/String;)Ljava/lang/Object;
+ (Ljakarta/persistence/EntityManager;ZLjava/lang/String;)L0java/lang/Object;
+releaseJdbcConnection
+ (Lorg/springframework/jdbc/datasource/ConnectionHandle;Ljakarta/persistence/EntityManager;)V
+ (Lorg/springframework/jdbc/datasource/ConnectionHandle;Ljakarta/persistence/EntityManager;)V

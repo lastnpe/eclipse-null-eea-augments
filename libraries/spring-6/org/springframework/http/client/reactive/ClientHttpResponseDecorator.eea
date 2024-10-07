@@ -1,0 +1,26 @@
+class org/springframework/http/client/reactive/ClientHttpResponseDecorator
+
+<init>
+ (Lorg/springframework/http/client/reactive/ClientHttpResponse;)V
+ (Lorg/springframework/http/client/reactive/ClientHttpResponse;)V
+getBody
+ ()Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+ ()Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+getCookies
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/ResponseCookie;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/ResponseCookie;>;
+getDelegate
+ ()Lorg/springframework/http/client/reactive/ClientHttpResponse;
+ ()Lorg/springframework/http/client/reactive/ClientHttpResponse;
+getHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+getId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getStatusCode
+ ()Lorg/springframework/http/HttpStatusCode;
+ ()Lorg/springframework/http/HttpStatusCode;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

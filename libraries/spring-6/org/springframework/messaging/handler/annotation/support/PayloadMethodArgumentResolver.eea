@@ -1,0 +1,26 @@
+class org/springframework/messaging/handler/annotation/support/PayloadMethodArgumentResolver
+
+<init>
+ (Lorg/springframework/messaging/converter/MessageConverter;)V
+ (Lorg/springframework/messaging/converter/MessageConverter;)V
+<init>
+ (Lorg/springframework/messaging/converter/MessageConverter;Lorg/springframework/validation/Validator;)V
+ (Lorg/springframework/messaging/converter/MessageConverter;Lorg/springframework/validation/Validator;)V
+<init>
+ (Lorg/springframework/messaging/converter/MessageConverter;Lorg/springframework/validation/Validator;Z)V
+ (Lorg/springframework/messaging/converter/MessageConverter;Lorg/springframework/validation/Validator;Z)V
+isEmptyPayload
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+resolveArgument
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Ljava/lang/Object;
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)L0java/lang/Object; # @Inherited(org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolver)
+resolveTargetClass
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Ljava/lang/Class<*>;
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Ljava/lang/Class<*>;
+supportsParameter
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z
+validate
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/core/MethodParameter;Ljava/lang/Object;)V
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/core/MethodParameter;Ljava/lang/Object;)V

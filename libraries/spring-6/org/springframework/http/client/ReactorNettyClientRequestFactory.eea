@@ -1,0 +1,20 @@
+class org/springframework/http/client/ReactorNettyClientRequestFactory
+
+<init>
+ (Lorg/springframework/http/client/ReactorResourceFactory;Ljava/util/function/Function<Lreactor/netty/http/client/HttpClient;Lreactor/netty/http/client/HttpClient;>;)V
+ (Lorg/springframework/http/client/ReactorResourceFactory;Ljava/util/function/Function<Lreactor/netty/http/client/HttpClient;Lreactor/netty/http/client/HttpClient;>;)V
+<init>
+ (Lreactor/netty/http/client/HttpClient;)V
+ (Lreactor/netty/http/client/HttpClient;)V
+createRequest
+ (Ljava/net/URI;Lorg/springframework/http/HttpMethod;)Lorg/springframework/http/client/ClientHttpRequest;
+ (Ljava/net/URI;Lorg/springframework/http/HttpMethod;)Lorg/springframework/http/client/ClientHttpRequest;
+setConnectTimeout
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V
+setExchangeTimeout
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V
+setReadTimeout
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V

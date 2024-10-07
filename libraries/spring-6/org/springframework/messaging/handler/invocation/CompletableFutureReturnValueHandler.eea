@@ -1,0 +1,8 @@
+class org/springframework/messaging/handler/invocation/CompletableFutureReturnValueHandler
+
+supportsReturnType
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z
+toCompletableFuture
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;)Ljava/util/concurrent/CompletableFuture<*>;
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;)L0java/util/concurrent/CompletableFuture<*>; # @Inherited(org.springframework.messaging.handler.invocation.AsyncHandlerMethodReturnValueHandler)

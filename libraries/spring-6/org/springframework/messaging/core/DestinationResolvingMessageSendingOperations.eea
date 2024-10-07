@@ -1,0 +1,23 @@
+class org/springframework/messaging/core/DestinationResolvingMessageSendingOperations
+ <D:Ljava/lang/Object;>
+ <D:Ljava/lang/Object;>
+
+super org/springframework/messaging/core/MessageSendingOperations
+ <TD;>
+ <TD;>
+
+convertAndSend
+ <T:Ljava/lang/Object;>(Ljava/lang/String;TT;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/String;TT;)V
+convertAndSend
+ <T:Ljava/lang/Object;>(Ljava/lang/String;TT;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/String;TT;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+convertAndSend
+ <T:Ljava/lang/Object;>(Ljava/lang/String;TT;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Lorg/springframework/messaging/core/MessagePostProcessor;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/String;TT;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Lorg/springframework/messaging/core/MessagePostProcessor;)V
+convertAndSend
+ <T:Ljava/lang/Object;>(Ljava/lang/String;TT;Lorg/springframework/messaging/core/MessagePostProcessor;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/String;TT;Lorg/springframework/messaging/core/MessagePostProcessor;)V
+send
+ (Ljava/lang/String;Lorg/springframework/messaging/Message<*>;)V
+ (Ljava/lang/String;Lorg/springframework/messaging/Message<*>;)V

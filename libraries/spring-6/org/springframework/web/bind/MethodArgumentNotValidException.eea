@@ -1,0 +1,33 @@
+class org/springframework/web/bind/MethodArgumentNotValidException
+
+errorsToStringList
+ (Ljava/util/List<+Lorg/springframework/validation/ObjectError;>;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/util/List<+Lorg/springframework/validation/ObjectError;>;)Ljava/util/List<Ljava/lang/String;>;
+errorsToStringList
+ (Ljava/util/List<+Lorg/springframework/validation/ObjectError;>;Lorg/springframework/context/MessageSource;Ljava/util/Locale;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/util/List<+Lorg/springframework/validation/ObjectError;>;Lorg/springframework/context/MessageSource;Ljava/util/Locale;)Ljava/util/List<Ljava/lang/String;>;
+
+<init>
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/validation/BindingResult;)V
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/validation/BindingResult;)V
+getBody
+ ()Lorg/springframework/http/ProblemDetail;
+ ()Lorg/springframework/http/ProblemDetail;
+getDetailMessageArguments
+ ()[Ljava/lang/Object;
+ ()[0Ljava/lang/Object; # @Inherited(org.springframework.web.ErrorResponse)
+getDetailMessageArguments
+ (Lorg/springframework/context/MessageSource;Ljava/util/Locale;)[Ljava/lang/Object;
+ (Lorg/springframework/context/MessageSource;Ljava/util/Locale;)[0Ljava/lang/Object; # @Inherited(org.springframework.web.ErrorResponse)
+getMessage
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.validation.BindException)
+getParameter
+ ()Lorg/springframework/core/MethodParameter;
+ ()Lorg/springframework/core/MethodParameter;
+getStatusCode
+ ()Lorg/springframework/http/HttpStatusCode;
+ ()Lorg/springframework/http/HttpStatusCode;
+resolveErrorMessages
+ (Lorg/springframework/context/MessageSource;Ljava/util/Locale;)Ljava/util/Map<Lorg/springframework/validation/ObjectError;Ljava/lang/String;>;
+ (Lorg/springframework/context/MessageSource;Ljava/util/Locale;)Ljava/util/Map<Lorg/springframework/validation/ObjectError;Ljava/lang/String;>;

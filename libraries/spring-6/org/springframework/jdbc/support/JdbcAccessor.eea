@@ -1,0 +1,24 @@
+class org/springframework/jdbc/support/JdbcAccessor
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+getDataSource
+ ()Ljavax/sql/DataSource;
+ ()L0javax/sql/DataSource;
+getExceptionTranslator
+ ()Lorg/springframework/jdbc/support/SQLExceptionTranslator;
+ ()Lorg/springframework/jdbc/support/SQLExceptionTranslator;
+obtainDataSource
+ ()Ljavax/sql/DataSource;
+ ()Ljavax/sql/DataSource;
+setDataSource
+ (Ljavax/sql/DataSource;)V
+ (Ljavax/sql/DataSource;)V
+setDatabaseProductName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setExceptionTranslator
+ (Lorg/springframework/jdbc/support/SQLExceptionTranslator;)V
+ (Lorg/springframework/jdbc/support/SQLExceptionTranslator;)V

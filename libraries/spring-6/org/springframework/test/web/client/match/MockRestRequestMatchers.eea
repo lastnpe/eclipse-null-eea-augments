@@ -1,0 +1,56 @@
+class org/springframework/test/web/client/match/MockRestRequestMatchers
+
+anything
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+ ()Lorg/springframework/test/web/client/RequestMatcher;
+content
+ ()Lorg/springframework/test/web/client/match/ContentRequestMatchers;
+ ()Lorg/springframework/test/web/client/match/ContentRequestMatchers;
+header
+ (Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;
+header
+ (Ljava/lang/String;[Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/lang/String;[Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/client/RequestMatcher;
+headerDoesNotExist
+ (Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;
+headerList
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/util/List<Ljava/lang/String;>;>;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/util/List<Ljava/lang/String;>;>;)Lorg/springframework/test/web/client/RequestMatcher;
+jsonPath
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/client/match/JsonPathRequestMatchers;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/client/match/JsonPathRequestMatchers;
+jsonPath
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<-TT;>;)Lorg/springframework/test/web/client/RequestMatcher;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<-TT;>;)Lorg/springframework/test/web/client/RequestMatcher;
+method
+ (Lorg/springframework/http/HttpMethod;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Lorg/springframework/http/HttpMethod;)Lorg/springframework/test/web/client/RequestMatcher;
+queryParam
+ (Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;
+queryParam
+ (Ljava/lang/String;[Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/lang/String;[Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/client/RequestMatcher;
+queryParamList
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/util/List<Ljava/lang/String;>;>;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/util/List<Ljava/lang/String;>;>;)Lorg/springframework/test/web/client/RequestMatcher;
+requestTo
+ (Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/lang/String;)Lorg/springframework/test/web/client/RequestMatcher;
+requestTo
+ (Ljava/net/URI;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/net/URI;)Lorg/springframework/test/web/client/RequestMatcher;
+requestTo
+ (Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/client/RequestMatcher;
+requestToUriTemplate
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/client/RequestMatcher;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/client/RequestMatcher;
+xpath
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;[Ljava/lang/Object;)Lorg/springframework/test/web/client/match/XpathRequestMatchers;
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;[Ljava/lang/Object;)Lorg/springframework/test/web/client/match/XpathRequestMatchers;
+xpath
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/client/match/XpathRequestMatchers;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/client/match/XpathRequestMatchers;

@@ -1,0 +1,19 @@
+class org/springframework/http/codec/KotlinSerializationSupport
+ <T::Lkotlinx/serialization/SerialFormat;>
+ <T::Lkotlinx/serialization/SerialFormat;>
+
+<init>
+ (TT;[Lorg/springframework/util/MimeType;)V
+ (TT;[Lorg/springframework/util/MimeType;)V
+canSerialize
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Z
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Z
+format
+ ()TT;
+ ()TT;
+serializer
+ (Lorg/springframework/core/ResolvableType;)Lkotlinx/serialization/KSerializer<Ljava/lang/Object;>;
+ (Lorg/springframework/core/ResolvableType;)L0kotlinx/serialization/KSerializer<Ljava/lang/Object;>;
+supportedMimeTypes
+ ()Ljava/util/List<Lorg/springframework/util/MimeType;>;
+ ()Ljava/util/List<Lorg/springframework/util/MimeType;>;

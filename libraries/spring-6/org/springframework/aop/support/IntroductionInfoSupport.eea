@@ -1,0 +1,21 @@
+class org/springframework/aop/support/IntroductionInfoSupport
+
+publishedInterfaces
+ Ljava/util/Set<Ljava/lang/Class<*>;>;
+ Ljava/util/Set<Ljava/lang/Class<*>;>;
+
+getInterfaces
+ ()[Ljava/lang/Class<*>;
+ ()[Ljava/lang/Class<*>;
+implementInterfacesOnObject
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+implementsInterface
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+isMethodOnIntroducedInterface
+ (Lorg/aopalliance/intercept/MethodInvocation;)Z
+ (Lorg/aopalliance/intercept/MethodInvocation;)Z
+suppressInterface
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V

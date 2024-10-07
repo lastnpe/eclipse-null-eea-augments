@@ -1,0 +1,26 @@
+class org/springframework/test/web/client/AbstractRequestExpectationManager
+
+createUnexpectedRequestError
+ (Lorg/springframework/http/client/ClientHttpRequest;)Ljava/lang/AssertionError;
+ (Lorg/springframework/http/client/ClientHttpRequest;)Ljava/lang/AssertionError;
+expectRequest
+ (Lorg/springframework/test/web/client/ExpectedCount;Lorg/springframework/test/web/client/RequestMatcher;)Lorg/springframework/test/web/client/ResponseActions;
+ (Lorg/springframework/test/web/client/ExpectedCount;Lorg/springframework/test/web/client/RequestMatcher;)Lorg/springframework/test/web/client/ResponseActions;
+getExpectations
+ ()Ljava/util/List<Lorg/springframework/test/web/client/RequestExpectation;>;
+ ()Ljava/util/List<Lorg/springframework/test/web/client/RequestExpectation;>;
+getRequestDetails
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRequests
+ ()Ljava/util/List<Lorg/springframework/http/client/ClientHttpRequest;>;
+ ()Ljava/util/List<Lorg/springframework/http/client/ClientHttpRequest;>;
+matchRequest
+ (Lorg/springframework/http/client/ClientHttpRequest;)Lorg/springframework/test/web/client/RequestExpectation;
+ (Lorg/springframework/http/client/ClientHttpRequest;)Lorg/springframework/test/web/client/RequestExpectation;
+validateRequest
+ (Lorg/springframework/http/client/ClientHttpRequest;)Lorg/springframework/http/client/ClientHttpResponse;
+ (Lorg/springframework/http/client/ClientHttpRequest;)Lorg/springframework/http/client/ClientHttpResponse;
+verify
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V

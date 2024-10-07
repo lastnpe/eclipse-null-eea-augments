@@ -1,0 +1,35 @@
+class org/springframework/test/web/servlet/result/ModelResultMatchersDsl
+
+<init>
+ (Lorg/springframework/test/web/servlet/ResultActions;)V
+ (Lorg/springframework/test/web/servlet/ResultActions;)V
+attribute
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+attribute
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<TT;>;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<TT;>;)V
+attributeDoesNotExist
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+attributeErrorCount
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+attributeExists
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+attributeHasErrors
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+attributeHasFieldErrorCode
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+attributeHasFieldErrorCode
+ (Ljava/lang/String;Ljava/lang/String;Lorg/hamcrest/Matcher<Ljava/lang/String;>;)V
+ (Ljava/lang/String;Ljava/lang/String;Lorg/hamcrest/Matcher<Ljava/lang/String;>;)V
+attributeHasFieldErrors
+ (Ljava/lang/String;[Ljava/lang/String;)V
+ (Ljava/lang/String;[Ljava/lang/String;)V
+attributeHasNoErrors
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V

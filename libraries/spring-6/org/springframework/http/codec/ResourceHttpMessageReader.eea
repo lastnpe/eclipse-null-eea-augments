@@ -1,0 +1,15 @@
+class org/springframework/http/codec/ResourceHttpMessageReader
+
+super org/springframework/http/codec/DecoderHttpMessageReader
+ <Lorg/springframework/core/io/Resource;>
+ <Lorg/springframework/core/io/Resource;>
+
+<init>
+ (Lorg/springframework/core/codec/ResourceDecoder;)V
+ (Lorg/springframework/core/codec/ResourceDecoder;)V
+getReadHints
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/core/ResolvableType;Lorg/springframework/http/server/reactive/ServerHttpRequest;Lorg/springframework/http/server/reactive/ServerHttpResponse;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/core/ResolvableType;Lorg/springframework/http/server/reactive/ServerHttpRequest;Lorg/springframework/http/server/reactive/ServerHttpResponse;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getReadHints
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/http/ReactiveHttpInputMessage;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/http/ReactiveHttpInputMessage;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;

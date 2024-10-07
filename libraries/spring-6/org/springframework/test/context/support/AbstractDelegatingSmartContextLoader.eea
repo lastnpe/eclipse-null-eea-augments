@@ -1,0 +1,20 @@
+class org/springframework/test/context/support/AbstractDelegatingSmartContextLoader
+
+getAnnotationConfigLoader
+ ()Lorg/springframework/test/context/SmartContextLoader;
+ ()Lorg/springframework/test/context/SmartContextLoader;
+getXmlLoader
+ ()Lorg/springframework/test/context/SmartContextLoader;
+ ()Lorg/springframework/test/context/SmartContextLoader;
+loadContext
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Lorg/springframework/context/ApplicationContext;
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Lorg/springframework/context/ApplicationContext;
+loadContextForAotProcessing
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Lorg/springframework/context/ApplicationContext;
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Lorg/springframework/context/ApplicationContext;
+loadContextForAotRuntime
+ (Lorg/springframework/test/context/MergedContextConfiguration;Lorg/springframework/context/ApplicationContextInitializer<Lorg/springframework/context/ConfigurableApplicationContext;>;)Lorg/springframework/context/ApplicationContext;
+ (Lorg/springframework/test/context/MergedContextConfiguration;Lorg/springframework/context/ApplicationContextInitializer<Lorg/springframework/context/ConfigurableApplicationContext;>;)Lorg/springframework/context/ApplicationContext;
+processContextConfiguration
+ (Lorg/springframework/test/context/ContextConfigurationAttributes;)V
+ (Lorg/springframework/test/context/ContextConfigurationAttributes;)V

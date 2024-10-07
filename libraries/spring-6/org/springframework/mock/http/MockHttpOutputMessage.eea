@@ -1,0 +1,17 @@
+class org/springframework/mock/http/MockHttpOutputMessage
+
+getBody
+ ()Ljava/io/OutputStream;
+ ()Ljava/io/OutputStream;
+getBodyAsBytes
+ ()[B
+ ()[B
+getBodyAsString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getBodyAsString
+ (Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/nio/charset/Charset;)Ljava/lang/String;
+getHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;

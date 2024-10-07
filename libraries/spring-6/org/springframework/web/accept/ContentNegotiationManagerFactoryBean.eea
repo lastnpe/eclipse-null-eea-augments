@@ -1,0 +1,42 @@
+class org/springframework/web/accept/ContentNegotiationManagerFactoryBean
+
+super org/springframework/beans/factory/FactoryBean
+ <Lorg/springframework/web/accept/ContentNegotiationManager;>
+ <Lorg/springframework/web/accept/ContentNegotiationManager;>
+
+addMediaType
+ (Ljava/lang/String;Lorg/springframework/http/MediaType;)V
+ (Ljava/lang/String;Lorg/springframework/http/MediaType;)V
+addMediaTypes
+ (Ljava/util/Map<Ljava/lang/String;Lorg/springframework/http/MediaType;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Lorg/springframework/http/MediaType;>;)V
+build
+ ()Lorg/springframework/web/accept/ContentNegotiationManager;
+ ()Lorg/springframework/web/accept/ContentNegotiationManager;
+getObject
+ ()Lorg/springframework/web/accept/ContentNegotiationManager;
+ ()L0org/springframework/web/accept/ContentNegotiationManager;
+getObjectType
+ ()Ljava/lang/Class<*>;
+ ()L0java/lang/Class<*>; # @Inherited(org.springframework.beans.factory.FactoryBean)
+setDefaultContentType
+ (Lorg/springframework/http/MediaType;)V
+ (Lorg/springframework/http/MediaType;)V
+setDefaultContentTypeStrategy
+ (Lorg/springframework/web/accept/ContentNegotiationStrategy;)V
+ (Lorg/springframework/web/accept/ContentNegotiationStrategy;)V
+setDefaultContentTypes
+ (Ljava/util/List<Lorg/springframework/http/MediaType;>;)V
+ (Ljava/util/List<Lorg/springframework/http/MediaType;>;)V
+setMediaTypes
+ (Ljava/util/Properties;)V
+ (Ljava/util/Properties;)V
+setParameterName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setServletContext
+ (Ljakarta/servlet/ServletContext;)V
+ (Ljakarta/servlet/ServletContext;)V
+setStrategies
+ (Ljava/util/List<Lorg/springframework/web/accept/ContentNegotiationStrategy;>;)V
+ (Ljava/util/List<Lorg/springframework/web/accept/ContentNegotiationStrategy;>;)V

@@ -1,0 +1,26 @@
+class org/springframework/orm/jpa/vendor/HibernateJpaVendorAdapter
+
+determineDatabaseDialectClass
+ (Lorg/springframework/orm/jpa/vendor/Database;)Ljava/lang/Class<*>;
+ (Lorg/springframework/orm/jpa/vendor/Database;)L0java/lang/Class<*>;
+getEntityManagerFactoryInterface
+ ()Ljava/lang/Class<+Ljakarta/persistence/EntityManagerFactory;>;
+ ()Ljava/lang/Class<+Ljakarta/persistence/EntityManagerFactory;>;
+getEntityManagerInterface
+ ()Ljava/lang/Class<+Ljakarta/persistence/EntityManager;>;
+ ()Ljava/lang/Class<+Ljakarta/persistence/EntityManager;>;
+getJpaDialect
+ ()Lorg/springframework/orm/jpa/vendor/HibernateJpaDialect;
+ ()Lorg/springframework/orm/jpa/vendor/HibernateJpaDialect;
+getJpaPropertyMap
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getJpaPropertyMap
+ (Ljakarta/persistence/spi/PersistenceUnitInfo;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ (Ljakarta/persistence/spi/PersistenceUnitInfo;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getPersistenceProvider
+ ()Ljakarta/persistence/spi/PersistenceProvider;
+ ()Ljakarta/persistence/spi/PersistenceProvider;
+getPersistenceProviderRootPackage
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.orm.jpa.vendor.AbstractJpaVendorAdapter)

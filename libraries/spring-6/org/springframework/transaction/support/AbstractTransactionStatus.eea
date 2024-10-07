@@ -1,0 +1,20 @@
+class org/springframework/transaction/support/AbstractTransactionStatus
+
+createSavepoint
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getSavepoint
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getSavepointManager
+ ()Lorg/springframework/transaction/SavepointManager;
+ ()Lorg/springframework/transaction/SavepointManager;
+releaseSavepoint
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+rollbackToSavepoint
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setSavepoint
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

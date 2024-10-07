@@ -1,0 +1,39 @@
+class org/springframework/validation/BindingResult
+
+MODEL_KEY_PREFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+
+addError
+ (Lorg/springframework/validation/ObjectError;)V
+ (Lorg/springframework/validation/ObjectError;)V
+findEditor
+ (Ljava/lang/String;Ljava/lang/Class<*>;)Ljava/beans/PropertyEditor;
+ (Ljava/lang/String;Ljava/lang/Class<*>;)L0java/beans/PropertyEditor;
+getModel
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getPropertyEditorRegistry
+ ()Lorg/springframework/beans/PropertyEditorRegistry;
+ ()L0org/springframework/beans/PropertyEditorRegistry;
+getRawFieldValue
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object;
+getSuppressedFields
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getTarget
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+recordFieldValue
+ (Ljava/lang/String;Ljava/lang/Class<*>;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Class<*>;Ljava/lang/Object;)V
+recordSuppressedField
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+resolveMessageCodes
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[Ljava/lang/String;
+resolveMessageCodes
+ (Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;

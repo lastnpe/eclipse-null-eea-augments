@@ -1,0 +1,21 @@
+class org/springframework/scheduling/config/TaskExecutorFactoryBean
+
+super org/springframework/beans/factory/FactoryBean
+ <Lorg/springframework/core/task/TaskExecutor;>
+ <Lorg/springframework/core/task/TaskExecutor;>
+
+getObject
+ ()Lorg/springframework/core/task/TaskExecutor;
+ ()L0org/springframework/core/task/TaskExecutor;
+getObjectType
+ ()Ljava/lang/Class<+Lorg/springframework/core/task/TaskExecutor;>;
+ ()Ljava/lang/Class<+Lorg/springframework/core/task/TaskExecutor;>;
+setBeanName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPoolSize
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setRejectedExecutionHandler
+ (Ljava/util/concurrent/RejectedExecutionHandler;)V
+ (Ljava/util/concurrent/RejectedExecutionHandler;)V

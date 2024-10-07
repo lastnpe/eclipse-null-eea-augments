@@ -1,0 +1,26 @@
+class org/springframework/transaction/annotation/AnnotationTransactionAttributeSource
+
+<init>
+ (Ljava/util/Set<Lorg/springframework/transaction/annotation/TransactionAnnotationParser;>;)V
+ (Ljava/util/Set<Lorg/springframework/transaction/annotation/TransactionAnnotationParser;>;)V
+<init>
+ (Lorg/springframework/transaction/annotation/TransactionAnnotationParser;)V
+ (Lorg/springframework/transaction/annotation/TransactionAnnotationParser;)V
+<init>
+ ([Lorg/springframework/transaction/annotation/TransactionAnnotationParser;)V
+ ([Lorg/springframework/transaction/annotation/TransactionAnnotationParser;)V
+determineTransactionAttribute
+ (Ljava/lang/reflect/AnnotatedElement;)Lorg/springframework/transaction/interceptor/TransactionAttribute;
+ (Ljava/lang/reflect/AnnotatedElement;)L0org/springframework/transaction/interceptor/TransactionAttribute;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+findTransactionAttribute
+ (Ljava/lang/Class<*>;)Lorg/springframework/transaction/interceptor/TransactionAttribute;
+ (Ljava/lang/Class<*>;)L0org/springframework/transaction/interceptor/TransactionAttribute; # @Inherited(org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource)
+findTransactionAttribute
+ (Ljava/lang/reflect/Method;)Lorg/springframework/transaction/interceptor/TransactionAttribute;
+ (Ljava/lang/reflect/Method;)L0org/springframework/transaction/interceptor/TransactionAttribute; # @Inherited(org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource)
+isCandidateClass
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z

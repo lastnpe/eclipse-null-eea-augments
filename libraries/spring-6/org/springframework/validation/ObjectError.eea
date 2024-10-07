@@ -1,0 +1,26 @@
+class org/springframework/validation/ObjectError
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/String;)V
+contains
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(org.springframework.context.support.DefaultMessageSourceResolvable)
+getObjectName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.springframework.context.support.DefaultMessageSourceResolvable)
+unwrap
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+wrap
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V

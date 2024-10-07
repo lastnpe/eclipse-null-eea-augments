@@ -1,0 +1,26 @@
+class org/springframework/ui/Model
+
+addAllAttributes
+ (Ljava/util/Collection<*>;)Lorg/springframework/ui/Model;
+ (Ljava/util/Collection<*>;)Lorg/springframework/ui/Model;
+addAllAttributes
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/ui/Model;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/ui/Model;
+addAttribute
+ (Ljava/lang/Object;)Lorg/springframework/ui/Model;
+ (Ljava/lang/Object;)Lorg/springframework/ui/Model;
+addAttribute
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/ui/Model;
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/ui/Model;
+asMap
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+containsAttribute
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object;
+mergeAttributes
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/ui/Model;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/ui/Model;

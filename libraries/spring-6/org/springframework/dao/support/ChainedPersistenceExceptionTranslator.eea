@@ -1,0 +1,11 @@
+class org/springframework/dao/support/ChainedPersistenceExceptionTranslator
+
+addDelegate
+ (Lorg/springframework/dao/support/PersistenceExceptionTranslator;)V
+ (Lorg/springframework/dao/support/PersistenceExceptionTranslator;)V
+getDelegates
+ ()[Lorg/springframework/dao/support/PersistenceExceptionTranslator;
+ ()[Lorg/springframework/dao/support/PersistenceExceptionTranslator;
+translateExceptionIfPossible
+ (Ljava/lang/RuntimeException;)Lorg/springframework/dao/DataAccessException;
+ (Ljava/lang/RuntimeException;)L0org/springframework/dao/DataAccessException; # @Inherited(org.springframework.dao.support.PersistenceExceptionTranslator)

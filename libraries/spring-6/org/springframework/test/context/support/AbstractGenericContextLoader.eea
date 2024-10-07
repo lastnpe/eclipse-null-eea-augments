@@ -1,0 +1,39 @@
+class org/springframework/test/context/support/AbstractGenericContextLoader
+
+logger
+ Lorg/apache/commons/logging/Log;
+ L1org/apache/commons/logging/Log;
+
+createBeanDefinitionReader
+ (Lorg/springframework/context/support/GenericApplicationContext;)Lorg/springframework/beans/factory/support/BeanDefinitionReader;
+ (Lorg/springframework/context/support/GenericApplicationContext;)Lorg/springframework/beans/factory/support/BeanDefinitionReader;
+createContext
+ ()Lorg/springframework/context/support/GenericApplicationContext;
+ ()Lorg/springframework/context/support/GenericApplicationContext;
+customizeBeanFactory
+ (Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;)V
+ (Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;)V
+customizeContext
+ (Lorg/springframework/context/support/GenericApplicationContext;)V
+ (Lorg/springframework/context/support/GenericApplicationContext;)V
+loadBeanDefinitions
+ (Lorg/springframework/context/support/GenericApplicationContext;Lorg/springframework/test/context/MergedContextConfiguration;)V
+ (Lorg/springframework/context/support/GenericApplicationContext;Lorg/springframework/test/context/MergedContextConfiguration;)V
+loadContext
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Lorg/springframework/context/ApplicationContext;
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Lorg/springframework/context/ApplicationContext;
+loadContext
+ ([Ljava/lang/String;)Lorg/springframework/context/ConfigurableApplicationContext;
+ ([Ljava/lang/String;)Lorg/springframework/context/ConfigurableApplicationContext;
+loadContextForAotProcessing
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Lorg/springframework/context/support/GenericApplicationContext;
+ (Lorg/springframework/test/context/MergedContextConfiguration;)Lorg/springframework/context/support/GenericApplicationContext;
+loadContextForAotRuntime
+ (Lorg/springframework/test/context/MergedContextConfiguration;Lorg/springframework/context/ApplicationContextInitializer<Lorg/springframework/context/ConfigurableApplicationContext;>;)Lorg/springframework/context/support/GenericApplicationContext;
+ (Lorg/springframework/test/context/MergedContextConfiguration;Lorg/springframework/context/ApplicationContextInitializer<Lorg/springframework/context/ConfigurableApplicationContext;>;)Lorg/springframework/context/support/GenericApplicationContext;
+prepareContext
+ (Lorg/springframework/context/support/GenericApplicationContext;)V
+ (Lorg/springframework/context/support/GenericApplicationContext;)V
+validateMergedContextConfiguration
+ (Lorg/springframework/test/context/MergedContextConfiguration;)V
+ (Lorg/springframework/test/context/MergedContextConfiguration;)V

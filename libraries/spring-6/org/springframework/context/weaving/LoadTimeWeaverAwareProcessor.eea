@@ -1,0 +1,17 @@
+class org/springframework/context/weaving/LoadTimeWeaverAwareProcessor
+
+<init>
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+<init>
+ (Lorg/springframework/instrument/classloading/LoadTimeWeaver;)V
+ (Lorg/springframework/instrument/classloading/LoadTimeWeaver;)V
+postProcessAfterInitialization
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+ (L1java/lang/Object;L1java/lang/String;)Ljava/lang/Object; # @Inherited(org.springframework.beans.factory.config.BeanPostProcessor)
+postProcessBeforeInitialization
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+ (L1java/lang/Object;L1java/lang/String;)Ljava/lang/Object; # @Inherited(org.springframework.beans.factory.config.BeanPostProcessor)
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V

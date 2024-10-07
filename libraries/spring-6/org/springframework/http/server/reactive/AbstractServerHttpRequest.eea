@@ -1,0 +1,47 @@
+class org/springframework/http/server/reactive/AbstractServerHttpRequest
+
+<init>
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;Ljava/lang/String;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;Ljava/lang/String;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)V
+getCookies
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;
+getHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+getId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMethod
+ ()Lorg/springframework/http/HttpMethod;
+ ()Lorg/springframework/http/HttpMethod;
+getNativeRequest
+ <T:Ljava/lang/Object;>()TT;
+ <T:Ljava/lang/Object;>()TT;
+getPath
+ ()Lorg/springframework/http/server/RequestPath;
+ ()Lorg/springframework/http/server/RequestPath;
+getQueryParams
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+getSslInfo
+ ()Lorg/springframework/http/server/reactive/SslInfo;
+ ()L0org/springframework/http/server/reactive/SslInfo; # @Inherited(org.springframework.http.server.reactive.ServerHttpRequest)
+getURI
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+initCookies
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;
+initId
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+initLogPrefix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+initQueryParams
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+initSslInfo
+ ()Lorg/springframework/http/server/reactive/SslInfo;
+ ()L0org/springframework/http/server/reactive/SslInfo;

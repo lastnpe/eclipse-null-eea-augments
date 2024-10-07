@@ -1,0 +1,47 @@
+class org/springframework/aop/framework/Advised
+
+addAdvice
+ (ILorg/aopalliance/aop/Advice;)V
+ (ILorg/aopalliance/aop/Advice;)V
+addAdvice
+ (Lorg/aopalliance/aop/Advice;)V
+ (Lorg/aopalliance/aop/Advice;)V
+addAdvisor
+ (ILorg/springframework/aop/Advisor;)V
+ (ILorg/springframework/aop/Advisor;)V
+addAdvisor
+ (Lorg/springframework/aop/Advisor;)V
+ (Lorg/springframework/aop/Advisor;)V
+getAdvisors
+ ()[Lorg/springframework/aop/Advisor;
+ ()[Lorg/springframework/aop/Advisor;
+getProxiedInterfaces
+ ()[Ljava/lang/Class<*>;
+ ()[Ljava/lang/Class<*>;
+getTargetSource
+ ()Lorg/springframework/aop/TargetSource;
+ ()Lorg/springframework/aop/TargetSource;
+indexOf
+ (Lorg/aopalliance/aop/Advice;)I
+ (Lorg/aopalliance/aop/Advice;)I
+indexOf
+ (Lorg/springframework/aop/Advisor;)I
+ (Lorg/springframework/aop/Advisor;)I
+isInterfaceProxied
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+removeAdvice
+ (Lorg/aopalliance/aop/Advice;)Z
+ (Lorg/aopalliance/aop/Advice;)Z
+removeAdvisor
+ (Lorg/springframework/aop/Advisor;)Z
+ (Lorg/springframework/aop/Advisor;)Z
+replaceAdvisor
+ (Lorg/springframework/aop/Advisor;Lorg/springframework/aop/Advisor;)Z
+ (Lorg/springframework/aop/Advisor;Lorg/springframework/aop/Advisor;)Z
+setTargetSource
+ (Lorg/springframework/aop/TargetSource;)V
+ (Lorg/springframework/aop/TargetSource;)V
+toProxyConfigString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

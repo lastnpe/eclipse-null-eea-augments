@@ -1,0 +1,50 @@
+class org/springframework/messaging/support/MessageBuilder
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+createMessage
+ <T:Ljava/lang/Object;>(TT;Lorg/springframework/messaging/MessageHeaders;)Lorg/springframework/messaging/Message<TT;>;
+ <T:Ljava/lang/Object;>(TT;Lorg/springframework/messaging/MessageHeaders;)Lorg/springframework/messaging/Message<TT;>;
+fromMessage
+ <T:Ljava/lang/Object;>(Lorg/springframework/messaging/Message<TT;>;)Lorg/springframework/messaging/support/MessageBuilder<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/messaging/Message<TT;>;)Lorg/springframework/messaging/support/MessageBuilder<TT;>;
+withPayload
+ <T:Ljava/lang/Object;>(TT;)Lorg/springframework/messaging/support/MessageBuilder<TT;>;
+ <T:Ljava/lang/Object;>(TT;)Lorg/springframework/messaging/support/MessageBuilder<TT;>;
+
+build
+ ()Lorg/springframework/messaging/Message<TT;>;
+ ()L1org/springframework/messaging/Message<TT;>;
+copyHeaders
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/messaging/support/MessageBuilder<TT;>;
+ (Ljava/util/Map<Ljava/lang/String;*>;)L1org/springframework/messaging/support/MessageBuilder<TT;>;
+copyHeadersIfAbsent
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/messaging/support/MessageBuilder<TT;>;
+ (Ljava/util/Map<Ljava/lang/String;*>;)L1org/springframework/messaging/support/MessageBuilder<TT;>;
+removeHeader
+ (Ljava/lang/String;)Lorg/springframework/messaging/support/MessageBuilder<TT;>;
+ (Ljava/lang/String;)L1org/springframework/messaging/support/MessageBuilder<TT;>;
+removeHeaders
+ ([Ljava/lang/String;)Lorg/springframework/messaging/support/MessageBuilder<TT;>;
+ ([Ljava/lang/String;)L1org/springframework/messaging/support/MessageBuilder<TT;>;
+setErrorChannel
+ (Lorg/springframework/messaging/MessageChannel;)Lorg/springframework/messaging/support/MessageBuilder<TT;>;
+ (Lorg/springframework/messaging/MessageChannel;)L1org/springframework/messaging/support/MessageBuilder<TT;>;
+setErrorChannelName
+ (Ljava/lang/String;)Lorg/springframework/messaging/support/MessageBuilder<TT;>;
+ (Ljava/lang/String;)L1org/springframework/messaging/support/MessageBuilder<TT;>;
+setHeader
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/messaging/support/MessageBuilder<TT;>;
+ (Ljava/lang/String;Ljava/lang/Object;)L1org/springframework/messaging/support/MessageBuilder<TT;>;
+setHeaderIfAbsent
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/messaging/support/MessageBuilder<TT;>;
+ (Ljava/lang/String;Ljava/lang/Object;)L1org/springframework/messaging/support/MessageBuilder<TT;>;
+setHeaders
+ (Lorg/springframework/messaging/support/MessageHeaderAccessor;)Lorg/springframework/messaging/support/MessageBuilder<TT;>;
+ (Lorg/springframework/messaging/support/MessageHeaderAccessor;)L1org/springframework/messaging/support/MessageBuilder<TT;>;
+setReplyChannel
+ (Lorg/springframework/messaging/MessageChannel;)Lorg/springframework/messaging/support/MessageBuilder<TT;>;
+ (Lorg/springframework/messaging/MessageChannel;)L1org/springframework/messaging/support/MessageBuilder<TT;>;
+setReplyChannelName
+ (Ljava/lang/String;)Lorg/springframework/messaging/support/MessageBuilder<TT;>;
+ (Ljava/lang/String;)L1org/springframework/messaging/support/MessageBuilder<TT;>;

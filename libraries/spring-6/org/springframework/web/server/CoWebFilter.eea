@@ -1,0 +1,15 @@
+class org/springframework/web/server/CoWebFilter
+
+COROUTINE_CONTEXT_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+Companion
+ Lorg/springframework/web/server/CoWebFilter$Companion;
+ L1org/springframework/web/server/CoWebFilter$Companion;
+
+filter
+ (Lorg/springframework/web/server/ServerWebExchange;Lorg/springframework/web/server/CoWebFilterChain;Lkotlin/coroutines/Continuation<-Lkotlin/Unit;>;)Ljava/lang/Object;
+ (Lorg/springframework/web/server/ServerWebExchange;Lorg/springframework/web/server/CoWebFilterChain;Lkotlin/coroutines/Continuation<-Lkotlin/Unit;>;)L0java/lang/Object;
+filter
+ (Lorg/springframework/web/server/ServerWebExchange;Lorg/springframework/web/server/WebFilterChain;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/springframework/web/server/ServerWebExchange;Lorg/springframework/web/server/WebFilterChain;)L1reactor/core/publisher/Mono<Ljava/lang/Void;>;

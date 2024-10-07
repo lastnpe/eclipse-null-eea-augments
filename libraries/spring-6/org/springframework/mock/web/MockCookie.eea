@@ -1,0 +1,27 @@
+class org/springframework/mock/web/MockCookie
+
+parse
+ (Ljava/lang/String;)Lorg/springframework/mock/web/MockCookie;
+ (Ljava/lang/String;)Lorg/springframework/mock/web/MockCookie;
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+getExpires
+ ()Ljava/time/ZonedDateTime;
+ ()L0java/time/ZonedDateTime;
+getSameSite
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+setAttribute
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setExpires
+ (Ljava/time/ZonedDateTime;)V
+ (Ljava/time/ZonedDateTime;)V
+setSameSite
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

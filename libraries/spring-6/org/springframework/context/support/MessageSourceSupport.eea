@@ -1,0 +1,18 @@
+class org/springframework/context/support/MessageSourceSupport
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+createMessageFormat
+ (Ljava/lang/String;Ljava/util/Locale;)Ljava/text/MessageFormat;
+ (Ljava/lang/String;Ljava/util/Locale;)Ljava/text/MessageFormat;
+formatMessage
+ (Ljava/lang/String;[Ljava/lang/Object;Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/lang/String;[Ljava/lang/Object;Ljava/util/Locale;)Ljava/lang/String;
+renderDefaultMessage
+ (Ljava/lang/String;[Ljava/lang/Object;Ljava/util/Locale;)Ljava/lang/String;
+ (Ljava/lang/String;[Ljava/lang/Object;Ljava/util/Locale;)Ljava/lang/String;
+resolveArguments
+ ([Ljava/lang/Object;Ljava/util/Locale;)[Ljava/lang/Object;
+ ([Ljava/lang/Object;Ljava/util/Locale;)[Ljava/lang/Object;

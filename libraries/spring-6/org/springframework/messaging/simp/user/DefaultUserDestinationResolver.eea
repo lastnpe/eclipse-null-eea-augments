@@ -1,0 +1,26 @@
+class org/springframework/messaging/simp/user/DefaultUserDestinationResolver
+
+<init>
+ (Lorg/springframework/messaging/simp/user/SimpUserRegistry;)V
+ (Lorg/springframework/messaging/simp/user/SimpUserRegistry;)V
+checkDestination
+ (Ljava/lang/String;Ljava/lang/String;)Z
+ (Ljava/lang/String;Ljava/lang/String;)Z
+getDestinationPrefix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSimpUserRegistry
+ ()Lorg/springframework/messaging/simp/user/SimpUserRegistry;
+ ()Lorg/springframework/messaging/simp/user/SimpUserRegistry;
+getTargetDestination
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)L0java/lang/String;
+resolveDestination
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/simp/user/UserDestinationResult;
+ (Lorg/springframework/messaging/Message<*>;)L0org/springframework/messaging/simp/user/UserDestinationResult; # @Inherited(org.springframework.messaging.simp.user.UserDestinationResolver)
+setUserDestinationPrefix
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

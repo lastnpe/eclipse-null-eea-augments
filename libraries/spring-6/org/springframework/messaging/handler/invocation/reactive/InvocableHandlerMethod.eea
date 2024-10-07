@@ -1,0 +1,26 @@
+class org/springframework/messaging/handler/invocation/reactive/InvocableHandlerMethod
+
+<init>
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;)V
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;)V
+<init>
+ (Lorg/springframework/messaging/handler/HandlerMethod;)V
+ (Lorg/springframework/messaging/handler/HandlerMethod;)V
+getParameterNameDiscoverer
+ ()Lorg/springframework/core/ParameterNameDiscoverer;
+ ()Lorg/springframework/core/ParameterNameDiscoverer;
+getResolvers
+ ()Ljava/util/List<Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolver;>;
+ ()Ljava/util/List<Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolver;>;
+invoke
+ (Lorg/springframework/messaging/Message<*>;[Ljava/lang/Object;)Lreactor/core/publisher/Mono<Ljava/lang/Object;>;
+ (Lorg/springframework/messaging/Message<*>;[Ljava/lang/Object;)Lreactor/core/publisher/Mono<Ljava/lang/Object;>;
+setArgumentResolvers
+ (Ljava/util/List<Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolver;>;)V
+ (Ljava/util/List<Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolver;>;)V
+setParameterNameDiscoverer
+ (Lorg/springframework/core/ParameterNameDiscoverer;)V
+ (Lorg/springframework/core/ParameterNameDiscoverer;)V
+setReactiveAdapterRegistry
+ (Lorg/springframework/core/ReactiveAdapterRegistry;)V
+ (Lorg/springframework/core/ReactiveAdapterRegistry;)V

@@ -1,0 +1,9 @@
+class org/springframework/http/codec/xml/XmlEventDecoder
+
+super org/springframework/core/codec/AbstractDecoder
+ <Ljavax/xml/stream/events/XMLEvent;>
+ <Ljavax/xml/stream/events/XMLEvent;>
+
+decode
+ (Lorg/reactivestreams/Publisher<Lorg/springframework/core/io/buffer/DataBuffer;>;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<Ljavax/xml/stream/events/XMLEvent;>;
+ (Lorg/reactivestreams/Publisher<Lorg/springframework/core/io/buffer/DataBuffer;>;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<Ljavax/xml/stream/events/XMLEvent;>;

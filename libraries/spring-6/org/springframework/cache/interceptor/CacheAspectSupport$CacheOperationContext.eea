@@ -1,0 +1,39 @@
+class org/springframework/cache/interceptor/CacheAspectSupport$CacheOperationContext
+
+super org/springframework/cache/interceptor/CacheOperationInvocationContext
+ <Lorg/springframework/cache/interceptor/CacheOperation;>
+ <Lorg/springframework/cache/interceptor/CacheOperation;>
+
+<init>
+ (Lorg/springframework/cache/interceptor/CacheAspectSupport;Lorg/springframework/cache/interceptor/CacheAspectSupport$CacheOperationMetadata;[Ljava/lang/Object;Ljava/lang/Object;)V
+ (Lorg/springframework/cache/interceptor/CacheAspectSupport;Lorg/springframework/cache/interceptor/CacheAspectSupport$CacheOperationMetadata;[Ljava/lang/Object;Ljava/lang/Object;)V
+canPutToCache
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+generateKey
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)L0java/lang/Object;
+getArgs
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+getCacheNames
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+getCaches
+ ()Ljava/util/Collection<+Lorg/springframework/cache/Cache;>;
+ ()Ljava/util/Collection<+Lorg/springframework/cache/Cache;>;
+getGeneratedKey
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getMethod
+ ()Ljava/lang/reflect/Method;
+ ()Ljava/lang/reflect/Method;
+getOperation
+ ()Lorg/springframework/cache/interceptor/CacheOperation;
+ ()Lorg/springframework/cache/interceptor/CacheOperation;
+getTarget
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+isConditionPassing
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z

@@ -1,0 +1,15 @@
+class org/springframework/jdbc/core/support/AbstractLobCreatingPreparedStatementCallback
+
+super org/springframework/jdbc/core/PreparedStatementCallback
+ <Ljava/lang/Integer;>
+ <Ljava/lang/Integer;>
+
+<init>
+ (Lorg/springframework/jdbc/support/lob/LobHandler;)V
+ (Lorg/springframework/jdbc/support/lob/LobHandler;)V
+doInPreparedStatement
+ (Ljava/sql/PreparedStatement;)Ljava/lang/Integer;
+ (Ljava/sql/PreparedStatement;)Ljava/lang/Integer;
+setValues
+ (Ljava/sql/PreparedStatement;Lorg/springframework/jdbc/support/lob/LobCreator;)V
+ (Ljava/sql/PreparedStatement;Lorg/springframework/jdbc/support/lob/LobCreator;)V

@@ -1,0 +1,72 @@
+class org/springframework/messaging/handler/annotation/reactive/MessageMappingMessageHandler
+
+super org/springframework/messaging/handler/invocation/reactive/AbstractMethodMessageHandler
+ <Lorg/springframework/messaging/handler/CompositeMessageCondition;>
+ <Lorg/springframework/messaging/handler/CompositeMessageCondition;>
+
+createExceptionMethodResolverFor
+ (Ljava/lang/Class<*>;)Lorg/springframework/messaging/handler/invocation/AbstractExceptionHandlerMethodResolver;
+ (Ljava/lang/Class<*>;)Lorg/springframework/messaging/handler/invocation/AbstractExceptionHandlerMethodResolver;
+getCondition
+ (Ljava/lang/reflect/AnnotatedElement;)Lorg/springframework/messaging/handler/CompositeMessageCondition;
+ (Ljava/lang/reflect/AnnotatedElement;)L0org/springframework/messaging/handler/CompositeMessageCondition;
+getConversionService
+ ()Lorg/springframework/core/convert/ConversionService;
+ ()Lorg/springframework/core/convert/ConversionService;
+getDecoders
+ ()Ljava/util/List<+Lorg/springframework/core/codec/Decoder<*>;>;
+ ()Ljava/util/List<+Lorg/springframework/core/codec/Decoder<*>;>;
+getDestination
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/util/RouteMatcher$Route;
+ (Lorg/springframework/messaging/Message<*>;)L0org/springframework/util/RouteMatcher$Route; # @Inherited(org.springframework.messaging.handler.invocation.reactive.AbstractMethodMessageHandler)
+getDirectLookupMappings
+ (Lorg/springframework/messaging/handler/CompositeMessageCondition;)Ljava/util/Set<Ljava/lang/String;>;
+ (Lorg/springframework/messaging/handler/CompositeMessageCondition;)Ljava/util/Set<Ljava/lang/String;>;
+getMappingComparator
+ (Lorg/springframework/messaging/Message<*>;)Ljava/util/Comparator<Lorg/springframework/messaging/handler/CompositeMessageCondition;>;
+ (Lorg/springframework/messaging/Message<*>;)Ljava/util/Comparator<Lorg/springframework/messaging/handler/CompositeMessageCondition;>;
+getMappingForMethod
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Lorg/springframework/messaging/handler/CompositeMessageCondition;
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)L0org/springframework/messaging/handler/CompositeMessageCondition;
+getMatchingMapping
+ (Lorg/springframework/messaging/handler/CompositeMessageCondition;Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/handler/CompositeMessageCondition;
+ (Lorg/springframework/messaging/handler/CompositeMessageCondition;Lorg/springframework/messaging/Message<*>;)L0org/springframework/messaging/handler/CompositeMessageCondition;
+getRouteMatcher
+ ()Lorg/springframework/util/RouteMatcher;
+ ()L0org/springframework/util/RouteMatcher;
+getValidator
+ ()Lorg/springframework/validation/Validator;
+ ()L0org/springframework/validation/Validator;
+handleMatch
+ (Lorg/springframework/messaging/handler/CompositeMessageCondition;Lorg/springframework/messaging/handler/HandlerMethod;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/springframework/messaging/handler/CompositeMessageCondition;Lorg/springframework/messaging/handler/HandlerMethod;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+initArgumentResolvers
+ ()Ljava/util/List<+Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolver;>;
+ ()Ljava/util/List<+Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodArgumentResolver;>;
+initReturnValueHandlers
+ ()Ljava/util/List<+Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodReturnValueHandler;>;
+ ()Ljava/util/List<+Lorg/springframework/messaging/handler/invocation/reactive/HandlerMethodReturnValueHandler;>;
+obtainRouteMatcher
+ ()Lorg/springframework/util/RouteMatcher;
+ ()Lorg/springframework/util/RouteMatcher;
+processDestinations
+ ([Ljava/lang/String;)[Ljava/lang/String;
+ ([Ljava/lang/String;)[Ljava/lang/String;
+registerMessagingAdvice
+ (Lorg/springframework/messaging/handler/MessagingAdviceBean;)V
+ (Lorg/springframework/messaging/handler/MessagingAdviceBean;)V
+setConversionService
+ (Lorg/springframework/core/convert/ConversionService;)V
+ (Lorg/springframework/core/convert/ConversionService;)V
+setDecoders
+ (Ljava/util/List<+Lorg/springframework/core/codec/Decoder<*>;>;)V
+ (Ljava/util/List<+Lorg/springframework/core/codec/Decoder<*>;>;)V
+setEmbeddedValueResolver
+ (Lorg/springframework/util/StringValueResolver;)V
+ (Lorg/springframework/util/StringValueResolver;)V
+setRouteMatcher
+ (Lorg/springframework/util/RouteMatcher;)V
+ (Lorg/springframework/util/RouteMatcher;)V
+setValidator
+ (Lorg/springframework/validation/Validator;)V
+ (Lorg/springframework/validation/Validator;)V

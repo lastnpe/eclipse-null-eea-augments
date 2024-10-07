@@ -1,0 +1,38 @@
+class org/springframework/web/multipart/support/DefaultMultipartHttpServletRequest
+
+<init>
+ (Ljakarta/servlet/http/HttpServletRequest;)V
+ (Ljakarta/servlet/http/HttpServletRequest;)V
+<init>
+ (Ljakarta/servlet/http/HttpServletRequest;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/web/multipart/MultipartFile;>;Ljava/util/Map<Ljava/lang/String;[Ljava/lang/String;>;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Ljakarta/servlet/http/HttpServletRequest;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/web/multipart/MultipartFile;>;Ljava/util/Map<Ljava/lang/String;[Ljava/lang/String;>;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+getMultipartContentType
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String; # @Inherited(org.springframework.web.multipart.MultipartRequest)
+getMultipartHeaders
+ (Ljava/lang/String;)Lorg/springframework/http/HttpHeaders;
+ (Ljava/lang/String;)L0org/springframework/http/HttpHeaders; # @Inherited(org.springframework.web.multipart.MultipartHttpServletRequest)
+getMultipartParameterContentTypes
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+getMultipartParameters
+ ()Ljava/util/Map<Ljava/lang/String;[Ljava/lang/String;>;
+ ()Ljava/util/Map<Ljava/lang/String;[Ljava/lang/String;>;
+getParameter
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+getParameterMap
+ ()Ljava/util/Map<Ljava/lang/String;[Ljava/lang/String;>;
+ ()Ljava/util/Map<Ljava/lang/String;[Ljava/lang/String;>;
+getParameterNames
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+getParameterValues
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[Ljava/lang/String;
+setMultipartParameterContentTypes
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+setMultipartParameters
+ (Ljava/util/Map<Ljava/lang/String;[Ljava/lang/String;>;)V
+ (Ljava/util/Map<Ljava/lang/String;[Ljava/lang/String;>;)V

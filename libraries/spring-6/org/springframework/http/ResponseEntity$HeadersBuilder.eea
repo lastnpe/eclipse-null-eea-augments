@@ -1,0 +1,40 @@
+class org/springframework/http/ResponseEntity$HeadersBuilder
+ <B::Lorg/springframework/http/ResponseEntity$HeadersBuilder<TB;>;>
+ <B::Lorg/springframework/http/ResponseEntity$HeadersBuilder<TB;>;>
+
+allow
+ ([Lorg/springframework/http/HttpMethod;)TB;
+ ([Lorg/springframework/http/HttpMethod;)T1B;
+build
+ <T:Ljava/lang/Object;>()Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>()L1org/springframework/http/ResponseEntity<TT;>;
+cacheControl
+ (Lorg/springframework/http/CacheControl;)TB;
+ (Lorg/springframework/http/CacheControl;)T1B;
+eTag
+ (Ljava/lang/String;)TB;
+ (Ljava/lang/String;)T1B;
+header
+ (Ljava/lang/String;[Ljava/lang/String;)TB;
+ (Ljava/lang/String;[Ljava/lang/String;)T1B;
+headers
+ (Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)TB;
+ (Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)T1B;
+headers
+ (Lorg/springframework/http/HttpHeaders;)TB;
+ (Lorg/springframework/http/HttpHeaders;)T1B;
+lastModified
+ (J)TB;
+ (J)T1B;
+lastModified
+ (Ljava/time/Instant;)TB;
+ (Ljava/time/Instant;)T1B;
+lastModified
+ (Ljava/time/ZonedDateTime;)TB;
+ (Ljava/time/ZonedDateTime;)T1B;
+location
+ (Ljava/net/URI;)TB;
+ (Ljava/net/URI;)T1B;
+varyBy
+ ([Ljava/lang/String;)TB;
+ ([Ljava/lang/String;)T1B;

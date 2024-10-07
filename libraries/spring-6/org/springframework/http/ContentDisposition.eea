@@ -1,0 +1,51 @@
+class org/springframework/http/ContentDisposition
+
+attachment
+ ()Lorg/springframework/http/ContentDisposition$Builder;
+ ()Lorg/springframework/http/ContentDisposition$Builder;
+builder
+ (Ljava/lang/String;)Lorg/springframework/http/ContentDisposition$Builder;
+ (Ljava/lang/String;)Lorg/springframework/http/ContentDisposition$Builder;
+empty
+ ()Lorg/springframework/http/ContentDisposition;
+ ()Lorg/springframework/http/ContentDisposition;
+formData
+ ()Lorg/springframework/http/ContentDisposition$Builder;
+ ()Lorg/springframework/http/ContentDisposition$Builder;
+inline
+ ()Lorg/springframework/http/ContentDisposition$Builder;
+ ()Lorg/springframework/http/ContentDisposition$Builder;
+parse
+ (Ljava/lang/String;)Lorg/springframework/http/ContentDisposition;
+ (Ljava/lang/String;)Lorg/springframework/http/ContentDisposition;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getCharset
+ ()Ljava/nio/charset/Charset;
+ ()L0java/nio/charset/Charset;
+getCreationDate
+ ()Ljava/time/ZonedDateTime;
+ ()L0java/time/ZonedDateTime;
+getFilename
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getModificationDate
+ ()Ljava/time/ZonedDateTime;
+ ()L0java/time/ZonedDateTime;
+getName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getReadDate
+ ()Ljava/time/ZonedDateTime;
+ ()L0java/time/ZonedDateTime;
+getSize
+ ()Ljava/lang/Long;
+ ()L0java/lang/Long;
+getType
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

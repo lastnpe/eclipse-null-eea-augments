@@ -1,0 +1,32 @@
+class org/springframework/transaction/event/TransactionalApplicationListenerAdapter
+ <E:Lorg/springframework/context/ApplicationEvent;>
+ <E:Lorg/springframework/context/ApplicationEvent;>
+
+super org/springframework/transaction/event/TransactionalApplicationListener
+ <TE;>
+ <TE;>
+
+<init>
+ (Lorg/springframework/context/ApplicationListener<TE;>;)V
+ (Lorg/springframework/context/ApplicationListener<TE;>;)V
+addCallback
+ (Lorg/springframework/transaction/event/TransactionalApplicationListener$SynchronizationCallback;)V
+ (Lorg/springframework/transaction/event/TransactionalApplicationListener$SynchronizationCallback;)V
+getListenerId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTransactionPhase
+ ()Lorg/springframework/transaction/event/TransactionPhase;
+ ()Lorg/springframework/transaction/event/TransactionPhase;
+onApplicationEvent
+ (TE;)V
+ (T1E;)V # @Inherited(org.springframework.context.ApplicationListener)
+processEvent
+ (TE;)V
+ (T1E;)V # @Inherited(org.springframework.transaction.event.TransactionalApplicationListener)
+setListenerId
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setTransactionPhase
+ (Lorg/springframework/transaction/event/TransactionPhase;)V
+ (Lorg/springframework/transaction/event/TransactionPhase;)V

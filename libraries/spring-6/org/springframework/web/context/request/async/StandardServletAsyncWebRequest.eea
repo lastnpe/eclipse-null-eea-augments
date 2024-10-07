@@ -1,0 +1,29 @@
+class org/springframework/web/context/request/async/StandardServletAsyncWebRequest
+
+<init>
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;)V
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;)V
+addCompletionHandler
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+addErrorHandler
+ (Ljava/util/function/Consumer<Ljava/lang/Throwable;>;)V
+ (Ljava/util/function/Consumer<Ljava/lang/Throwable;>;)V
+addTimeoutHandler
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+onComplete
+ (Ljakarta/servlet/AsyncEvent;)V
+ (Ljakarta/servlet/AsyncEvent;)V
+onError
+ (Ljakarta/servlet/AsyncEvent;)V
+ (Ljakarta/servlet/AsyncEvent;)V
+onStartAsync
+ (Ljakarta/servlet/AsyncEvent;)V
+ (Ljakarta/servlet/AsyncEvent;)V
+onTimeout
+ (Ljakarta/servlet/AsyncEvent;)V
+ (Ljakarta/servlet/AsyncEvent;)V
+setTimeout
+ (Ljava/lang/Long;)V
+ (Ljava/lang/Long;)V

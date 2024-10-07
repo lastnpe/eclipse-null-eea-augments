@@ -1,0 +1,24 @@
+class org/springframework/cache/interceptor/NameMatchCacheOperationSource
+
+logger
+ Lorg/apache/commons/logging/Log;
+ L1org/apache/commons/logging/Log;
+
+addCacheMethod
+ (Ljava/lang/String;Ljava/util/Collection<Lorg/springframework/cache/interceptor/CacheOperation;>;)V
+ (Ljava/lang/String;Ljava/util/Collection<Lorg/springframework/cache/interceptor/CacheOperation;>;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getCacheOperations
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Ljava/util/Collection<Lorg/springframework/cache/interceptor/CacheOperation;>;
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)L0java/util/Collection<Lorg/springframework/cache/interceptor/CacheOperation;>; # @Inherited(org.springframework.cache.interceptor.CacheOperationSource)
+isMatch
+ (Ljava/lang/String;Ljava/lang/String;)Z
+ (Ljava/lang/String;Ljava/lang/String;)Z
+setNameMap
+ (Ljava/util/Map<Ljava/lang/String;Ljava/util/Collection<Lorg/springframework/cache/interceptor/CacheOperation;>;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/util/Collection<Lorg/springframework/cache/interceptor/CacheOperation;>;>;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

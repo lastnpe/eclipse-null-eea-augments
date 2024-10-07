@@ -1,0 +1,21 @@
+class org/springframework/test/context/transaction/TestContextTransactionUtils
+
+DEFAULT_DATA_SOURCE_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+DEFAULT_TRANSACTION_MANAGER_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+createDelegatingTransactionAttribute
+ (Lorg/springframework/test/context/TestContext;Lorg/springframework/transaction/interceptor/TransactionAttribute;)Lorg/springframework/transaction/interceptor/TransactionAttribute;
+ (Lorg/springframework/test/context/TestContext;Lorg/springframework/transaction/interceptor/TransactionAttribute;)Lorg/springframework/transaction/interceptor/TransactionAttribute;
+createDelegatingTransactionAttribute
+ (Lorg/springframework/test/context/TestContext;Lorg/springframework/transaction/interceptor/TransactionAttribute;Z)Lorg/springframework/transaction/interceptor/TransactionAttribute;
+ (Lorg/springframework/test/context/TestContext;Lorg/springframework/transaction/interceptor/TransactionAttribute;Z)Lorg/springframework/transaction/interceptor/TransactionAttribute;
+retrieveDataSource
+ (Lorg/springframework/test/context/TestContext;Ljava/lang/String;)Ljavax/sql/DataSource;
+ (Lorg/springframework/test/context/TestContext;Ljava/lang/String;)L0javax/sql/DataSource;
+retrieveTransactionManager
+ (Lorg/springframework/test/context/TestContext;Ljava/lang/String;)Lorg/springframework/transaction/PlatformTransactionManager;
+ (Lorg/springframework/test/context/TestContext;Ljava/lang/String;)L0org/springframework/transaction/PlatformTransactionManager;

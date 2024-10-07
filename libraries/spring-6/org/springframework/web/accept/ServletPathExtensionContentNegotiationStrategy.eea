@@ -1,0 +1,14 @@
+class org/springframework/web/accept/ServletPathExtensionContentNegotiationStrategy
+
+<init>
+ (Ljakarta/servlet/ServletContext;)V
+ (Ljakarta/servlet/ServletContext;)V
+<init>
+ (Ljakarta/servlet/ServletContext;Ljava/util/Map<Ljava/lang/String;Lorg/springframework/http/MediaType;>;)V
+ (Ljakarta/servlet/ServletContext;Ljava/util/Map<Ljava/lang/String;Lorg/springframework/http/MediaType;>;)V
+getMediaTypeForResource
+ (Lorg/springframework/core/io/Resource;)Lorg/springframework/http/MediaType;
+ (Lorg/springframework/core/io/Resource;)L0org/springframework/http/MediaType; # @Inherited(org.springframework.web.accept.PathExtensionContentNegotiationStrategy)
+handleNoMatch
+ (Lorg/springframework/web/context/request/NativeWebRequest;Ljava/lang/String;)Lorg/springframework/http/MediaType;
+ (Lorg/springframework/web/context/request/NativeWebRequest;Ljava/lang/String;)L0org/springframework/http/MediaType; # @Inherited(org.springframework.web.accept.AbstractMappingContentNegotiationStrategy)

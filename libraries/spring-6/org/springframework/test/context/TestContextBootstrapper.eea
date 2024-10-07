@@ -1,0 +1,17 @@
+class org/springframework/test/context/TestContextBootstrapper
+
+buildMergedContextConfiguration
+ ()Lorg/springframework/test/context/MergedContextConfiguration;
+ ()Lorg/springframework/test/context/MergedContextConfiguration;
+buildTestContext
+ ()Lorg/springframework/test/context/TestContext;
+ ()Lorg/springframework/test/context/TestContext;
+getBootstrapContext
+ ()Lorg/springframework/test/context/BootstrapContext;
+ ()Lorg/springframework/test/context/BootstrapContext;
+getTestExecutionListeners
+ ()Ljava/util/List<Lorg/springframework/test/context/TestExecutionListener;>;
+ ()Ljava/util/List<Lorg/springframework/test/context/TestExecutionListener;>;
+setBootstrapContext
+ (Lorg/springframework/test/context/BootstrapContext;)V
+ (Lorg/springframework/test/context/BootstrapContext;)V

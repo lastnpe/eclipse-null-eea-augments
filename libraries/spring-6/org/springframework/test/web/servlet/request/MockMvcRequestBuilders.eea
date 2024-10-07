@@ -1,0 +1,68 @@
+class org/springframework/test/web/servlet/request/MockMvcRequestBuilders
+
+asyncDispatch
+ (Lorg/springframework/test/web/servlet/MvcResult;)Lorg/springframework/test/web/servlet/RequestBuilder;
+ (Lorg/springframework/test/web/servlet/MvcResult;)Lorg/springframework/test/web/servlet/RequestBuilder;
+delete
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+delete
+ (Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+ (Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+get
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+get
+ (Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+ (Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+head
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+head
+ (Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+ (Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+multipart
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockMultipartHttpServletRequestBuilder;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockMultipartHttpServletRequestBuilder;
+multipart
+ (Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockMultipartHttpServletRequestBuilder;
+ (Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockMultipartHttpServletRequestBuilder;
+multipart
+ (Lorg/springframework/http/HttpMethod;Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockMultipartHttpServletRequestBuilder;
+ (Lorg/springframework/http/HttpMethod;Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockMultipartHttpServletRequestBuilder;
+multipart
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockMultipartHttpServletRequestBuilder;
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockMultipartHttpServletRequestBuilder;
+options
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+options
+ (Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+ (Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+patch
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+patch
+ (Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+ (Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+post
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+post
+ (Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+ (Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+put
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+put
+ (Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+ (Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+request
+ (Ljava/lang/String;Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+ (Ljava/lang/String;Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+request
+ (Lorg/springframework/http/HttpMethod;Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+ (Lorg/springframework/http/HttpMethod;Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+request
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;
