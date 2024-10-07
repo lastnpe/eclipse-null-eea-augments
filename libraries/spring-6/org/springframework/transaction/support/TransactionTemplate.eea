@@ -1,0 +1,24 @@
+class org/springframework/transaction/support/TransactionTemplate
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+<init>
+ (Lorg/springframework/transaction/PlatformTransactionManager;)V
+ (Lorg/springframework/transaction/PlatformTransactionManager;)V
+<init>
+ (Lorg/springframework/transaction/PlatformTransactionManager;Lorg/springframework/transaction/TransactionDefinition;)V
+ (Lorg/springframework/transaction/PlatformTransactionManager;Lorg/springframework/transaction/TransactionDefinition;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(org.springframework.transaction.support.DefaultTransactionDefinition)
+execute
+ <T:Ljava/lang/Object;>(Lorg/springframework/transaction/support/TransactionCallback<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lorg/springframework/transaction/support/TransactionCallback<TT;>;)T0T; # @Inherited(org.springframework.transaction.support.TransactionOperations)
+getTransactionManager
+ ()Lorg/springframework/transaction/PlatformTransactionManager;
+ ()L0org/springframework/transaction/PlatformTransactionManager;
+setTransactionManager
+ (Lorg/springframework/transaction/PlatformTransactionManager;)V
+ (Lorg/springframework/transaction/PlatformTransactionManager;)V

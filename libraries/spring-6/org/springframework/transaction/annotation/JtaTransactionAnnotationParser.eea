@@ -1,0 +1,17 @@
+class org/springframework/transaction/annotation/JtaTransactionAnnotationParser
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+isCandidateClass
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+parseTransactionAnnotation
+ (Ljakarta/transaction/Transactional;)Lorg/springframework/transaction/interceptor/TransactionAttribute;
+ (Ljakarta/transaction/Transactional;)Lorg/springframework/transaction/interceptor/TransactionAttribute;
+parseTransactionAnnotation
+ (Ljava/lang/reflect/AnnotatedElement;)Lorg/springframework/transaction/interceptor/TransactionAttribute;
+ (Ljava/lang/reflect/AnnotatedElement;)L0org/springframework/transaction/interceptor/TransactionAttribute; # @Inherited(org.springframework.transaction.annotation.TransactionAnnotationParser)
+parseTransactionAnnotation
+ (Lorg/springframework/core/annotation/AnnotationAttributes;)Lorg/springframework/transaction/interceptor/TransactionAttribute;
+ (Lorg/springframework/core/annotation/AnnotationAttributes;)Lorg/springframework/transaction/interceptor/TransactionAttribute;

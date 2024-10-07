@@ -1,0 +1,92 @@
+class org/springframework/aop/aspectj/AbstractAspectJAdvice
+
+JOIN_POINT_KEY
+ Ljava/lang/String;
+ L1java/lang/String;
+
+currentJoinPoint
+ ()Lorg/aspectj/lang/JoinPoint;
+ ()Lorg/aspectj/lang/JoinPoint;
+
+aspectJAdviceMethod
+ Ljava/lang/reflect/Method;
+ Ljava/lang/reflect/Method;
+
+<init>
+ (Ljava/lang/reflect/Method;Lorg/springframework/aop/aspectj/AspectJExpressionPointcut;Lorg/springframework/aop/aspectj/AspectInstanceFactory;)V
+ (Ljava/lang/reflect/Method;Lorg/springframework/aop/aspectj/AspectJExpressionPointcut;Lorg/springframework/aop/aspectj/AspectInstanceFactory;)V
+argBinding
+ (Lorg/aspectj/lang/JoinPoint;Lorg/aspectj/weaver/tools/JoinPointMatch;Ljava/lang/Object;Ljava/lang/Throwable;)[Ljava/lang/Object;
+ (Lorg/aspectj/lang/JoinPoint;Lorg/aspectj/weaver/tools/JoinPointMatch;Ljava/lang/Object;Ljava/lang/Throwable;)[Ljava/lang/Object;
+buildSafePointcut
+ ()Lorg/springframework/aop/Pointcut;
+ ()Lorg/springframework/aop/Pointcut;
+createParameterNameDiscoverer
+ ()Lorg/springframework/core/ParameterNameDiscoverer;
+ ()Lorg/springframework/core/ParameterNameDiscoverer;
+getAspectClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()L0java/lang/ClassLoader;
+getAspectInstanceFactory
+ ()Lorg/springframework/aop/aspectj/AspectInstanceFactory;
+ ()Lorg/springframework/aop/aspectj/AspectInstanceFactory;
+getAspectJAdviceMethod
+ ()Ljava/lang/reflect/Method;
+ ()Ljava/lang/reflect/Method;
+getAspectName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDiscoveredReturningGenericType
+ ()Ljava/lang/reflect/Type;
+ ()L0java/lang/reflect/Type;
+getDiscoveredReturningType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getDiscoveredThrowingType
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getJoinPoint
+ ()Lorg/aspectj/lang/JoinPoint;
+ ()Lorg/aspectj/lang/JoinPoint;
+getJoinPointMatch
+ ()Lorg/aspectj/weaver/tools/JoinPointMatch;
+ ()L0org/aspectj/weaver/tools/JoinPointMatch;
+getJoinPointMatch
+ (Lorg/springframework/aop/ProxyMethodInvocation;)Lorg/aspectj/weaver/tools/JoinPointMatch;
+ (Lorg/springframework/aop/ProxyMethodInvocation;)L0org/aspectj/weaver/tools/JoinPointMatch;
+getPointcut
+ ()Lorg/springframework/aop/aspectj/AspectJExpressionPointcut;
+ ()Lorg/springframework/aop/aspectj/AspectJExpressionPointcut;
+invokeAdviceMethod
+ (Lorg/aspectj/lang/JoinPoint;Lorg/aspectj/weaver/tools/JoinPointMatch;Ljava/lang/Object;Ljava/lang/Throwable;)Ljava/lang/Object;
+ (Lorg/aspectj/lang/JoinPoint;Lorg/aspectj/weaver/tools/JoinPointMatch;Ljava/lang/Object;Ljava/lang/Throwable;)Ljava/lang/Object;
+invokeAdviceMethod
+ (Lorg/aspectj/weaver/tools/JoinPointMatch;Ljava/lang/Object;Ljava/lang/Throwable;)Ljava/lang/Object;
+ (Lorg/aspectj/weaver/tools/JoinPointMatch;Ljava/lang/Object;Ljava/lang/Throwable;)Ljava/lang/Object;
+invokeAdviceMethodWithGivenArgs
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+setArgumentNames
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setArgumentNamesFromStringArray
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setAspectName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setReturningName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setReturningNameNoCheck
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setThrowingName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setThrowingNameNoCheck
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

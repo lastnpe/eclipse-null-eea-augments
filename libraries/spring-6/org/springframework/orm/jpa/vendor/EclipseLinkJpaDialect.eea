@@ -1,0 +1,8 @@
+class org/springframework/orm/jpa/vendor/EclipseLinkJpaDialect
+
+beginTransaction
+ (Ljakarta/persistence/EntityManager;Lorg/springframework/transaction/TransactionDefinition;)Ljava/lang/Object;
+ (Ljakarta/persistence/EntityManager;Lorg/springframework/transaction/TransactionDefinition;)L0java/lang/Object; # @Inherited(org.springframework.orm.jpa.DefaultJpaDialect)
+getJdbcConnection
+ (Ljakarta/persistence/EntityManager;Z)Lorg/springframework/jdbc/datasource/ConnectionHandle;
+ (Ljakarta/persistence/EntityManager;Z)L0org/springframework/jdbc/datasource/ConnectionHandle; # @Inherited(org.springframework.orm.jpa.DefaultJpaDialect)

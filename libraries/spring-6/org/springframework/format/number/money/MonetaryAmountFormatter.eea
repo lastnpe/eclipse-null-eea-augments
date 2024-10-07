@@ -1,0 +1,21 @@
+class org/springframework/format/number/money/MonetaryAmountFormatter
+
+super org/springframework/format/Formatter
+ <Ljavax/money/MonetaryAmount;>
+ <Ljavax/money/MonetaryAmount;>
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getMonetaryAmountFormat
+ (Ljava/util/Locale;)Ljavax/money/format/MonetaryAmountFormat;
+ (Ljava/util/Locale;)Ljavax/money/format/MonetaryAmountFormat;
+parse
+ (Ljava/lang/String;Ljava/util/Locale;)Ljavax/money/MonetaryAmount;
+ (Ljava/lang/String;Ljava/util/Locale;)Ljavax/money/MonetaryAmount;
+print
+ (Ljavax/money/MonetaryAmount;Ljava/util/Locale;)Ljava/lang/String;
+ (Ljavax/money/MonetaryAmount;Ljava/util/Locale;)Ljava/lang/String;
+setFormatName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

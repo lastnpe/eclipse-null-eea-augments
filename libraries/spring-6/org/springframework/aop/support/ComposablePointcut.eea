@@ -1,0 +1,44 @@
+class org/springframework/aop/support/ComposablePointcut
+
+<init>
+ (Lorg/springframework/aop/ClassFilter;)V
+ (Lorg/springframework/aop/ClassFilter;)V
+<init>
+ (Lorg/springframework/aop/ClassFilter;Lorg/springframework/aop/MethodMatcher;)V
+ (Lorg/springframework/aop/ClassFilter;Lorg/springframework/aop/MethodMatcher;)V
+<init>
+ (Lorg/springframework/aop/MethodMatcher;)V
+ (Lorg/springframework/aop/MethodMatcher;)V
+<init>
+ (Lorg/springframework/aop/Pointcut;)V
+ (Lorg/springframework/aop/Pointcut;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getClassFilter
+ ()Lorg/springframework/aop/ClassFilter;
+ ()Lorg/springframework/aop/ClassFilter;
+getMethodMatcher
+ ()Lorg/springframework/aop/MethodMatcher;
+ ()Lorg/springframework/aop/MethodMatcher;
+intersection
+ (Lorg/springframework/aop/ClassFilter;)Lorg/springframework/aop/support/ComposablePointcut;
+ (Lorg/springframework/aop/ClassFilter;)Lorg/springframework/aop/support/ComposablePointcut;
+intersection
+ (Lorg/springframework/aop/MethodMatcher;)Lorg/springframework/aop/support/ComposablePointcut;
+ (Lorg/springframework/aop/MethodMatcher;)Lorg/springframework/aop/support/ComposablePointcut;
+intersection
+ (Lorg/springframework/aop/Pointcut;)Lorg/springframework/aop/support/ComposablePointcut;
+ (Lorg/springframework/aop/Pointcut;)Lorg/springframework/aop/support/ComposablePointcut;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+union
+ (Lorg/springframework/aop/ClassFilter;)Lorg/springframework/aop/support/ComposablePointcut;
+ (Lorg/springframework/aop/ClassFilter;)Lorg/springframework/aop/support/ComposablePointcut;
+union
+ (Lorg/springframework/aop/MethodMatcher;)Lorg/springframework/aop/support/ComposablePointcut;
+ (Lorg/springframework/aop/MethodMatcher;)Lorg/springframework/aop/support/ComposablePointcut;
+union
+ (Lorg/springframework/aop/Pointcut;)Lorg/springframework/aop/support/ComposablePointcut;
+ (Lorg/springframework/aop/Pointcut;)Lorg/springframework/aop/support/ComposablePointcut;

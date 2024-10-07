@@ -1,0 +1,16 @@
+class org/springframework/transaction/annotation/AbstractTransactionManagementConfiguration
+
+transactionalEventListenerFactory
+ ()Lorg/springframework/transaction/event/TransactionalEventListenerFactory;
+ ()Lorg/springframework/transaction/event/TransactionalEventListenerFactory;
+
+enableTx
+ Lorg/springframework/core/annotation/AnnotationAttributes;
+ L0org/springframework/core/annotation/AnnotationAttributes;
+txManager
+ Lorg/springframework/transaction/TransactionManager;
+ L0org/springframework/transaction/TransactionManager;
+
+setImportMetadata
+ (Lorg/springframework/core/type/AnnotationMetadata;)V
+ (Lorg/springframework/core/type/AnnotationMetadata;)V

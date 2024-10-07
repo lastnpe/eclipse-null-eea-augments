@@ -1,0 +1,18 @@
+class org/springframework/http/server/RequestPath
+
+parse
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/http/server/RequestPath;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/http/server/RequestPath;
+parse
+ (Ljava/net/URI;Ljava/lang/String;)Lorg/springframework/http/server/RequestPath;
+ (Ljava/net/URI;Ljava/lang/String;)Lorg/springframework/http/server/RequestPath;
+
+contextPath
+ ()Lorg/springframework/http/server/PathContainer;
+ ()Lorg/springframework/http/server/PathContainer;
+modifyContextPath
+ (Ljava/lang/String;)Lorg/springframework/http/server/RequestPath;
+ (Ljava/lang/String;)Lorg/springframework/http/server/RequestPath;
+pathWithinApplication
+ ()Lorg/springframework/http/server/PathContainer;
+ ()Lorg/springframework/http/server/PathContainer;

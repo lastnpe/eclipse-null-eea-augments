@@ -1,0 +1,23 @@
+class org/springframework/messaging/converter/CompositeMessageConverter
+
+<init>
+ (Ljava/util/Collection<Lorg/springframework/messaging/converter/MessageConverter;>;)V
+ (Ljava/util/Collection<Lorg/springframework/messaging/converter/MessageConverter;>;)V
+fromMessage
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<*>;)Ljava/lang/Object;
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<*>;)L0java/lang/Object; # @Inherited(org.springframework.messaging.converter.MessageConverter)
+fromMessage
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<*>;Ljava/lang/Object;)Ljava/lang/Object;
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<*>;Ljava/lang/Object;)L0java/lang/Object; # @Inherited(org.springframework.messaging.converter.SmartMessageConverter)
+getConverters
+ ()Ljava/util/List<Lorg/springframework/messaging/converter/MessageConverter;>;
+ ()Ljava/util/List<Lorg/springframework/messaging/converter/MessageConverter;>;
+toMessage
+ (Ljava/lang/Object;Lorg/springframework/messaging/MessageHeaders;)Lorg/springframework/messaging/Message<*>;
+ (Ljava/lang/Object;Lorg/springframework/messaging/MessageHeaders;)L0org/springframework/messaging/Message<*>; # @Inherited(org.springframework.messaging.converter.MessageConverter)
+toMessage
+ (Ljava/lang/Object;Lorg/springframework/messaging/MessageHeaders;Ljava/lang/Object;)Lorg/springframework/messaging/Message<*>;
+ (Ljava/lang/Object;Lorg/springframework/messaging/MessageHeaders;Ljava/lang/Object;)L0org/springframework/messaging/Message<*>; # @Inherited(org.springframework.messaging.converter.SmartMessageConverter)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

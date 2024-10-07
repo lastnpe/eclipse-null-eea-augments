@@ -1,0 +1,28 @@
+class org/springframework/jmx/support/MBeanServerFactoryBean
+
+super org/springframework/beans/factory/FactoryBean
+ <Ljavax/management/MBeanServer;>
+ <Ljavax/management/MBeanServer;>
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+createMBeanServer
+ (Ljava/lang/String;Z)Ljavax/management/MBeanServer;
+ (Ljava/lang/String;Z)Ljavax/management/MBeanServer;
+getObject
+ ()Ljavax/management/MBeanServer;
+ ()L0javax/management/MBeanServer;
+getObjectType
+ ()Ljava/lang/Class<+Ljavax/management/MBeanServer;>;
+ ()Ljava/lang/Class<+Ljavax/management/MBeanServer;>;
+locateMBeanServer
+ (Ljava/lang/String;)Ljavax/management/MBeanServer;
+ (Ljava/lang/String;)Ljavax/management/MBeanServer;
+setAgentId
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setDefaultDomain
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

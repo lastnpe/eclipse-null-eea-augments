@@ -1,0 +1,41 @@
+class org/springframework/jdbc/support/xml/SqlXmlHandler
+
+getXmlAsBinaryStream
+ (Ljava/sql/ResultSet;I)Ljava/io/InputStream;
+ (Ljava/sql/ResultSet;I)L0java/io/InputStream;
+getXmlAsBinaryStream
+ (Ljava/sql/ResultSet;Ljava/lang/String;)Ljava/io/InputStream;
+ (Ljava/sql/ResultSet;Ljava/lang/String;)L0java/io/InputStream;
+getXmlAsCharacterStream
+ (Ljava/sql/ResultSet;I)Ljava/io/Reader;
+ (Ljava/sql/ResultSet;I)L0java/io/Reader;
+getXmlAsCharacterStream
+ (Ljava/sql/ResultSet;Ljava/lang/String;)Ljava/io/Reader;
+ (Ljava/sql/ResultSet;Ljava/lang/String;)L0java/io/Reader;
+getXmlAsSource
+ (Ljava/sql/ResultSet;ILjava/lang/Class<+Ljavax/xml/transform/Source;>;)Ljavax/xml/transform/Source;
+ (Ljava/sql/ResultSet;ILjava/lang/Class<+Ljavax/xml/transform/Source;>;)L0javax/xml/transform/Source;
+getXmlAsSource
+ (Ljava/sql/ResultSet;Ljava/lang/String;Ljava/lang/Class<+Ljavax/xml/transform/Source;>;)Ljavax/xml/transform/Source;
+ (Ljava/sql/ResultSet;Ljava/lang/String;Ljava/lang/Class<+Ljavax/xml/transform/Source;>;)L0javax/xml/transform/Source;
+getXmlAsString
+ (Ljava/sql/ResultSet;I)Ljava/lang/String;
+ (Ljava/sql/ResultSet;I)L0java/lang/String;
+getXmlAsString
+ (Ljava/sql/ResultSet;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/sql/ResultSet;Ljava/lang/String;)L0java/lang/String;
+newSqlXmlValue
+ (Ljava/lang/Class<+Ljavax/xml/transform/Result;>;Lorg/springframework/jdbc/support/xml/XmlResultProvider;)Lorg/springframework/jdbc/support/xml/SqlXmlValue;
+ (Ljava/lang/Class<+Ljavax/xml/transform/Result;>;Lorg/springframework/jdbc/support/xml/XmlResultProvider;)Lorg/springframework/jdbc/support/xml/SqlXmlValue;
+newSqlXmlValue
+ (Ljava/lang/String;)Lorg/springframework/jdbc/support/xml/SqlXmlValue;
+ (Ljava/lang/String;)Lorg/springframework/jdbc/support/xml/SqlXmlValue;
+newSqlXmlValue
+ (Lorg/springframework/jdbc/support/xml/XmlBinaryStreamProvider;)Lorg/springframework/jdbc/support/xml/SqlXmlValue;
+ (Lorg/springframework/jdbc/support/xml/XmlBinaryStreamProvider;)Lorg/springframework/jdbc/support/xml/SqlXmlValue;
+newSqlXmlValue
+ (Lorg/springframework/jdbc/support/xml/XmlCharacterStreamProvider;)Lorg/springframework/jdbc/support/xml/SqlXmlValue;
+ (Lorg/springframework/jdbc/support/xml/XmlCharacterStreamProvider;)Lorg/springframework/jdbc/support/xml/SqlXmlValue;
+newSqlXmlValue
+ (Lorg/w3c/dom/Document;)Lorg/springframework/jdbc/support/xml/SqlXmlValue;
+ (Lorg/w3c/dom/Document;)Lorg/springframework/jdbc/support/xml/SqlXmlValue;

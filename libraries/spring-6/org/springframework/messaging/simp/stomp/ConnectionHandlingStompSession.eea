@@ -1,0 +1,12 @@
+class org/springframework/messaging/simp/stomp/ConnectionHandlingStompSession
+
+super org/springframework/messaging/simp/stomp/StompTcpConnectionHandler
+ <[B>
+ <[B>
+
+getSession
+ ()Ljava/util/concurrent/CompletableFuture<Lorg/springframework/messaging/simp/stomp/StompSession;>;
+ ()Ljava/util/concurrent/CompletableFuture<Lorg/springframework/messaging/simp/stomp/StompSession;>;
+getSessionFuture
+ ()Lorg/springframework/util/concurrent/ListenableFuture<Lorg/springframework/messaging/simp/stomp/StompSession;>;
+ ()Lorg/springframework/util/concurrent/ListenableFuture<Lorg/springframework/messaging/simp/stomp/StompSession;>;

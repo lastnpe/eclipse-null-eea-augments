@@ -1,0 +1,23 @@
+class org/springframework/messaging/simp/stomp/ReactorNettyTcpStompClient
+
+<init>
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+<init>
+ (Lorg/springframework/messaging/tcp/TcpOperations<[B>;)V
+ (Lorg/springframework/messaging/tcp/TcpOperations<[B>;)V
+connect
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Lorg/springframework/messaging/simp/stomp/StompSessionHandler;)Lorg/springframework/util/concurrent/ListenableFuture<Lorg/springframework/messaging/simp/stomp/StompSession;>;
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Lorg/springframework/messaging/simp/stomp/StompSessionHandler;)Lorg/springframework/util/concurrent/ListenableFuture<Lorg/springframework/messaging/simp/stomp/StompSession;>;
+connect
+ (Lorg/springframework/messaging/simp/stomp/StompSessionHandler;)Lorg/springframework/util/concurrent/ListenableFuture<Lorg/springframework/messaging/simp/stomp/StompSession;>;
+ (Lorg/springframework/messaging/simp/stomp/StompSessionHandler;)Lorg/springframework/util/concurrent/ListenableFuture<Lorg/springframework/messaging/simp/stomp/StompSession;>;
+connectAsync
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Lorg/springframework/messaging/simp/stomp/StompSessionHandler;)Ljava/util/concurrent/CompletableFuture<Lorg/springframework/messaging/simp/stomp/StompSession;>;
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Lorg/springframework/messaging/simp/stomp/StompSessionHandler;)Ljava/util/concurrent/CompletableFuture<Lorg/springframework/messaging/simp/stomp/StompSession;>;
+connectAsync
+ (Lorg/springframework/messaging/simp/stomp/StompSessionHandler;)Ljava/util/concurrent/CompletableFuture<Lorg/springframework/messaging/simp/stomp/StompSession;>;
+ (Lorg/springframework/messaging/simp/stomp/StompSessionHandler;)Ljava/util/concurrent/CompletableFuture<Lorg/springframework/messaging/simp/stomp/StompSession;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

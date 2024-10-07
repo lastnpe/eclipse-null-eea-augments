@@ -1,0 +1,36 @@
+class org/springframework/jmx/support/MBeanRegistrationSupport
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+server
+ Ljavax/management/MBeanServer;
+ L0javax/management/MBeanServer;
+
+doRegister
+ (Ljava/lang/Object;Ljavax/management/ObjectName;)V
+ (Ljava/lang/Object;Ljavax/management/ObjectName;)V
+doUnregister
+ (Ljavax/management/ObjectName;)V
+ (Ljavax/management/ObjectName;)V
+getRegisteredObjectNames
+ ()[Ljavax/management/ObjectName;
+ ()[Ljavax/management/ObjectName;
+getServer
+ ()Ljavax/management/MBeanServer;
+ ()L0javax/management/MBeanServer;
+onRegister
+ (Ljavax/management/ObjectName;)V
+ (Ljavax/management/ObjectName;)V
+onRegister
+ (Ljavax/management/ObjectName;Ljava/lang/Object;)V
+ (Ljavax/management/ObjectName;Ljava/lang/Object;)V
+onUnregister
+ (Ljavax/management/ObjectName;)V
+ (Ljavax/management/ObjectName;)V
+setRegistrationPolicy
+ (Lorg/springframework/jmx/support/RegistrationPolicy;)V
+ (Lorg/springframework/jmx/support/RegistrationPolicy;)V
+setServer
+ (Ljavax/management/MBeanServer;)V
+ (Ljavax/management/MBeanServer;)V

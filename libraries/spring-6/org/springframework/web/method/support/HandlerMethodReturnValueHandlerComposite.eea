@@ -1,0 +1,17 @@
+class org/springframework/web/method/support/HandlerMethodReturnValueHandlerComposite
+
+addHandler
+ (Lorg/springframework/web/method/support/HandlerMethodReturnValueHandler;)Lorg/springframework/web/method/support/HandlerMethodReturnValueHandlerComposite;
+ (Lorg/springframework/web/method/support/HandlerMethodReturnValueHandler;)Lorg/springframework/web/method/support/HandlerMethodReturnValueHandlerComposite;
+addHandlers
+ (Ljava/util/List<+Lorg/springframework/web/method/support/HandlerMethodReturnValueHandler;>;)Lorg/springframework/web/method/support/HandlerMethodReturnValueHandlerComposite;
+ (Ljava/util/List<+Lorg/springframework/web/method/support/HandlerMethodReturnValueHandler;>;)Lorg/springframework/web/method/support/HandlerMethodReturnValueHandlerComposite;
+getHandlers
+ ()Ljava/util/List<Lorg/springframework/web/method/support/HandlerMethodReturnValueHandler;>;
+ ()Ljava/util/List<Lorg/springframework/web/method/support/HandlerMethodReturnValueHandler;>;
+handleReturnValue
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;Lorg/springframework/web/method/support/ModelAndViewContainer;Lorg/springframework/web/context/request/NativeWebRequest;)V
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;Lorg/springframework/web/method/support/ModelAndViewContainer;Lorg/springframework/web/context/request/NativeWebRequest;)V
+supportsReturnType
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z

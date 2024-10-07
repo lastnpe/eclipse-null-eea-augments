@@ -1,0 +1,36 @@
+class org/springframework/jmx/support/NotificationListenerHolder
+
+mappedObjectNames
+ Ljava/util/Set<Ljava/lang/Object;>;
+ L0java/util/Set<Ljava/lang/Object;>;
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getHandback
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getNotificationFilter
+ ()Ljavax/management/NotificationFilter;
+ ()L0javax/management/NotificationFilter;
+getNotificationListener
+ ()Ljavax/management/NotificationListener;
+ ()L0javax/management/NotificationListener;
+getResolvedObjectNames
+ ()[Ljavax/management/ObjectName;
+ ()[0Ljavax/management/ObjectName;
+setHandback
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setMappedObjectName
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setMappedObjectNames
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+setNotificationFilter
+ (Ljavax/management/NotificationFilter;)V
+ (Ljavax/management/NotificationFilter;)V
+setNotificationListener
+ (Ljavax/management/NotificationListener;)V
+ (Ljavax/management/NotificationListener;)V

@@ -1,0 +1,26 @@
+class org/springframework/context/event/ApplicationEventMulticaster
+
+addApplicationListener
+ (Lorg/springframework/context/ApplicationListener<*>;)V
+ (L1org/springframework/context/ApplicationListener<*>;)V
+addApplicationListenerBean
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+multicastEvent
+ (Lorg/springframework/context/ApplicationEvent;)V
+ (Lorg/springframework/context/ApplicationEvent;)V
+multicastEvent
+ (Lorg/springframework/context/ApplicationEvent;Lorg/springframework/core/ResolvableType;)V
+ (Lorg/springframework/context/ApplicationEvent;Lorg/springframework/core/ResolvableType;)V
+removeApplicationListener
+ (Lorg/springframework/context/ApplicationListener<*>;)V
+ (L1org/springframework/context/ApplicationListener<*>;)V
+removeApplicationListenerBean
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+removeApplicationListenerBeans
+ (Ljava/util/function/Predicate<Ljava/lang/String;>;)V
+ (Ljava/util/function/Predicate<Ljava/lang/String;>;)V
+removeApplicationListeners
+ (Ljava/util/function/Predicate<Lorg/springframework/context/ApplicationListener<*>;>;)V
+ (Ljava/util/function/Predicate<Lorg/springframework/context/ApplicationListener<*>;>;)V

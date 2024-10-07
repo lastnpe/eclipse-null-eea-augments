@@ -1,0 +1,27 @@
+class org/springframework/messaging/rsocket/service/RSocketRequestValues
+
+builder
+ (Ljava/lang/String;)Lorg/springframework/messaging/rsocket/service/RSocketRequestValues$Builder;
+ (Ljava/lang/String;)Lorg/springframework/messaging/rsocket/service/RSocketRequestValues$Builder;
+
+<init>
+ (Ljava/lang/String;Ljava/util/List<Ljava/lang/Object;>;Lorg/springframework/messaging/rsocket/service/RSocketRequestValues$MetadataHelper;Ljava/lang/Object;Lorg/reactivestreams/Publisher<*>;Lorg/springframework/core/ParameterizedTypeReference<*>;)V
+ (Ljava/lang/String;Ljava/util/List<Ljava/lang/Object;>;Lorg/springframework/messaging/rsocket/service/RSocketRequestValues$MetadataHelper;Ljava/lang/Object;Lorg/reactivestreams/Publisher<*>;Lorg/springframework/core/ParameterizedTypeReference<*>;)V
+getMetadata
+ ()Ljava/util/Map<Ljava/lang/Object;Lorg/springframework/util/MimeType;>;
+ ()Ljava/util/Map<Ljava/lang/Object;Lorg/springframework/util/MimeType;>;
+getPayload
+ ()Lorg/reactivestreams/Publisher<*>;
+ ()L0org/reactivestreams/Publisher<*>;
+getPayloadElementType
+ ()Lorg/springframework/core/ParameterizedTypeReference<*>;
+ ()L0org/springframework/core/ParameterizedTypeReference<*>;
+getPayloadValue
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getRoute
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getRouteVariables
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;

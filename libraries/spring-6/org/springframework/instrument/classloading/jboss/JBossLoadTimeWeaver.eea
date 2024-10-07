@@ -1,0 +1,14 @@
+class org/springframework/instrument/classloading/jboss/JBossLoadTimeWeaver
+
+<init>
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+addTransformer
+ (Ljava/lang/instrument/ClassFileTransformer;)V
+ (Ljava/lang/instrument/ClassFileTransformer;)V
+getInstrumentableClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()Ljava/lang/ClassLoader;
+getThrowawayClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()Ljava/lang/ClassLoader;

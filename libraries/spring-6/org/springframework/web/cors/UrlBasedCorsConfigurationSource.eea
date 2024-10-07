@@ -1,0 +1,26 @@
+class org/springframework/web/cors/UrlBasedCorsConfigurationSource
+
+<init>
+ (Lorg/springframework/web/util/pattern/PathPatternParser;)V
+ (Lorg/springframework/web/util/pattern/PathPatternParser;)V
+getCorsConfiguration
+ (Ljakarta/servlet/http/HttpServletRequest;)Lorg/springframework/web/cors/CorsConfiguration;
+ (Ljakarta/servlet/http/HttpServletRequest;)L0org/springframework/web/cors/CorsConfiguration; # @Inherited(org.springframework.web.cors.CorsConfigurationSource)
+getCorsConfigurations
+ ()Ljava/util/Map<Ljava/lang/String;Lorg/springframework/web/cors/CorsConfiguration;>;
+ ()Ljava/util/Map<Ljava/lang/String;Lorg/springframework/web/cors/CorsConfiguration;>;
+registerCorsConfiguration
+ (Ljava/lang/String;Lorg/springframework/web/cors/CorsConfiguration;)V
+ (Ljava/lang/String;Lorg/springframework/web/cors/CorsConfiguration;)V
+setCorsConfigurations
+ (Ljava/util/Map<Ljava/lang/String;Lorg/springframework/web/cors/CorsConfiguration;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Lorg/springframework/web/cors/CorsConfiguration;>;)V
+setLookupPathAttributeName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPathMatcher
+ (Lorg/springframework/util/PathMatcher;)V
+ (Lorg/springframework/util/PathMatcher;)V
+setUrlPathHelper
+ (Lorg/springframework/web/util/UrlPathHelper;)V
+ (Lorg/springframework/web/util/UrlPathHelper;)V

@@ -1,0 +1,35 @@
+class org/springframework/jdbc/support/lob/LobHandler
+
+getBlobAsBinaryStream
+ (Ljava/sql/ResultSet;I)Ljava/io/InputStream;
+ (Ljava/sql/ResultSet;I)L0java/io/InputStream;
+getBlobAsBinaryStream
+ (Ljava/sql/ResultSet;Ljava/lang/String;)Ljava/io/InputStream;
+ (Ljava/sql/ResultSet;Ljava/lang/String;)L0java/io/InputStream;
+getBlobAsBytes
+ (Ljava/sql/ResultSet;I)[B
+ (Ljava/sql/ResultSet;I)[0B
+getBlobAsBytes
+ (Ljava/sql/ResultSet;Ljava/lang/String;)[B
+ (Ljava/sql/ResultSet;Ljava/lang/String;)[0B
+getClobAsAsciiStream
+ (Ljava/sql/ResultSet;I)Ljava/io/InputStream;
+ (Ljava/sql/ResultSet;I)L0java/io/InputStream;
+getClobAsAsciiStream
+ (Ljava/sql/ResultSet;Ljava/lang/String;)Ljava/io/InputStream;
+ (Ljava/sql/ResultSet;Ljava/lang/String;)L0java/io/InputStream;
+getClobAsCharacterStream
+ (Ljava/sql/ResultSet;I)Ljava/io/Reader;
+ (Ljava/sql/ResultSet;I)Ljava/io/Reader;
+getClobAsCharacterStream
+ (Ljava/sql/ResultSet;Ljava/lang/String;)Ljava/io/Reader;
+ (Ljava/sql/ResultSet;Ljava/lang/String;)Ljava/io/Reader;
+getClobAsString
+ (Ljava/sql/ResultSet;I)Ljava/lang/String;
+ (Ljava/sql/ResultSet;I)L0java/lang/String;
+getClobAsString
+ (Ljava/sql/ResultSet;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/sql/ResultSet;Ljava/lang/String;)L0java/lang/String;
+getLobCreator
+ ()Lorg/springframework/jdbc/support/lob/LobCreator;
+ ()Lorg/springframework/jdbc/support/lob/LobCreator;

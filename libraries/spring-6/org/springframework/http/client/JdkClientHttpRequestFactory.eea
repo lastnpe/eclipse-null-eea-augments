@@ -1,0 +1,14 @@
+class org/springframework/http/client/JdkClientHttpRequestFactory
+
+<init>
+ (Ljava/net/http/HttpClient;)V
+ (Ljava/net/http/HttpClient;)V
+<init>
+ (Ljava/net/http/HttpClient;Ljava/util/concurrent/Executor;)V
+ (Ljava/net/http/HttpClient;Ljava/util/concurrent/Executor;)V
+createRequest
+ (Ljava/net/URI;Lorg/springframework/http/HttpMethod;)Lorg/springframework/http/client/ClientHttpRequest;
+ (Ljava/net/URI;Lorg/springframework/http/HttpMethod;)Lorg/springframework/http/client/ClientHttpRequest;
+setReadTimeout
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V

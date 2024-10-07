@@ -1,0 +1,23 @@
+class org/springframework/web/context/support/ServletContextAwareProcessor
+
+<init>
+ (Ljakarta/servlet/ServletConfig;)V
+ (Ljakarta/servlet/ServletConfig;)V
+<init>
+ (Ljakarta/servlet/ServletContext;)V
+ (Ljakarta/servlet/ServletContext;)V
+<init>
+ (Ljakarta/servlet/ServletContext;Ljakarta/servlet/ServletConfig;)V
+ (Ljakarta/servlet/ServletContext;Ljakarta/servlet/ServletConfig;)V
+getServletConfig
+ ()Ljakarta/servlet/ServletConfig;
+ ()L0jakarta/servlet/ServletConfig;
+getServletContext
+ ()Ljakarta/servlet/ServletContext;
+ ()L0jakarta/servlet/ServletContext;
+postProcessAfterInitialization
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+ (L1java/lang/Object;L1java/lang/String;)Ljava/lang/Object; # @Inherited(org.springframework.beans.factory.config.BeanPostProcessor)
+postProcessBeforeInitialization
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+ (L1java/lang/Object;L1java/lang/String;)Ljava/lang/Object; # @Inherited(org.springframework.beans.factory.config.BeanPostProcessor)

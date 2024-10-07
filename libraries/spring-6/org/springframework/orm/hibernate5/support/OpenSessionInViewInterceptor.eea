@@ -1,0 +1,34 @@
+class org/springframework/orm/hibernate5/support/OpenSessionInViewInterceptor
+
+PARTICIPATE_SUFFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+afterCompletion
+ (Lorg/springframework/web/context/request/WebRequest;Ljava/lang/Exception;)V
+ (Lorg/springframework/web/context/request/WebRequest;Ljava/lang/Exception;)V
+afterConcurrentHandlingStarted
+ (Lorg/springframework/web/context/request/WebRequest;)V
+ (Lorg/springframework/web/context/request/WebRequest;)V
+getParticipateAttributeName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSessionFactory
+ ()Lorg/hibernate/SessionFactory;
+ ()L0org/hibernate/SessionFactory;
+openSession
+ ()Lorg/hibernate/Session;
+ ()Lorg/hibernate/Session;
+postHandle
+ (Lorg/springframework/web/context/request/WebRequest;Lorg/springframework/ui/ModelMap;)V
+ (Lorg/springframework/web/context/request/WebRequest;Lorg/springframework/ui/ModelMap;)V
+preHandle
+ (Lorg/springframework/web/context/request/WebRequest;)V
+ (Lorg/springframework/web/context/request/WebRequest;)V
+setSessionFactory
+ (Lorg/hibernate/SessionFactory;)V
+ (Lorg/hibernate/SessionFactory;)V

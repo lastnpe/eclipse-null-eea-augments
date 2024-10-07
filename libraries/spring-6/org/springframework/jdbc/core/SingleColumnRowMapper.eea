@@ -1,0 +1,36 @@
+class org/springframework/jdbc/core/SingleColumnRowMapper
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/springframework/jdbc/core/RowMapper
+ <TT;>
+ <TT;>
+
+newInstance
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/springframework/jdbc/core/SingleColumnRowMapper<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/springframework/jdbc/core/SingleColumnRowMapper<TT;>;
+newInstance
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/springframework/core/convert/ConversionService;)Lorg/springframework/jdbc/core/SingleColumnRowMapper<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/springframework/core/convert/ConversionService;)Lorg/springframework/jdbc/core/SingleColumnRowMapper<TT;>;
+
+<init>
+ (Ljava/lang/Class<TT;>;)V
+ (Ljava/lang/Class<TT;>;)V
+convertValueToRequiredType
+ (Ljava/lang/Object;Ljava/lang/Class<*>;)Ljava/lang/Object;
+ (Ljava/lang/Object;Ljava/lang/Class<*>;)L0java/lang/Object;
+getColumnValue
+ (Ljava/sql/ResultSet;I)Ljava/lang/Object;
+ (Ljava/sql/ResultSet;I)L0java/lang/Object;
+getColumnValue
+ (Ljava/sql/ResultSet;ILjava/lang/Class<*>;)Ljava/lang/Object;
+ (Ljava/sql/ResultSet;ILjava/lang/Class<*>;)L0java/lang/Object;
+mapRow
+ (Ljava/sql/ResultSet;I)TT;
+ (Ljava/sql/ResultSet;I)T0T; # @Inherited(org.springframework.jdbc.core.RowMapper)
+setConversionService
+ (Lorg/springframework/core/convert/ConversionService;)V
+ (Lorg/springframework/core/convert/ConversionService;)V
+setRequiredType
+ (Ljava/lang/Class<TT;>;)V
+ (Ljava/lang/Class<TT;>;)V

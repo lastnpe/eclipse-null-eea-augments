@@ -1,0 +1,11 @@
+class org/springframework/messaging/converter/ByteArrayMessageConverter
+
+convertFromInternal
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<*>;Ljava/lang/Object;)Ljava/lang/Object;
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<*>;Ljava/lang/Object;)L0java/lang/Object; # @Inherited(org.springframework.messaging.converter.AbstractMessageConverter)
+convertToInternal
+ (Ljava/lang/Object;Lorg/springframework/messaging/MessageHeaders;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;Lorg/springframework/messaging/MessageHeaders;Ljava/lang/Object;)L0java/lang/Object; # @Inherited(org.springframework.messaging.converter.AbstractMessageConverter)
+supports
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z

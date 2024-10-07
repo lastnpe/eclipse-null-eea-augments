@@ -1,0 +1,19 @@
+class org/springframework/web/filter/ServerHttpObservationFilter
+
+CURRENT_OBSERVATION_CONTEXT_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+findObservationContext
+ (Ljakarta/servlet/http/HttpServletRequest;)Ljava/util/Optional<Lorg/springframework/http/server/observation/ServerRequestObservationContext;>;
+ (Ljakarta/servlet/http/HttpServletRequest;)Ljava/util/Optional<Lorg/springframework/http/server/observation/ServerRequestObservationContext;>;
+
+<init>
+ (Lio/micrometer/observation/ObservationRegistry;)V
+ (Lio/micrometer/observation/ObservationRegistry;)V
+<init>
+ (Lio/micrometer/observation/ObservationRegistry;Lorg/springframework/http/server/observation/ServerRequestObservationConvention;)V
+ (Lio/micrometer/observation/ObservationRegistry;Lorg/springframework/http/server/observation/ServerRequestObservationConvention;)V
+doFilterInternal
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljakarta/servlet/FilterChain;)V
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljakarta/servlet/FilterChain;)V

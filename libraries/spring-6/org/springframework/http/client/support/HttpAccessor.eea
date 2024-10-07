@@ -1,0 +1,21 @@
+class org/springframework/http/client/support/HttpAccessor
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+createRequest
+ (Ljava/net/URI;Lorg/springframework/http/HttpMethod;)Lorg/springframework/http/client/ClientHttpRequest;
+ (Ljava/net/URI;Lorg/springframework/http/HttpMethod;)Lorg/springframework/http/client/ClientHttpRequest;
+getClientHttpRequestInitializers
+ ()Ljava/util/List<Lorg/springframework/http/client/ClientHttpRequestInitializer;>;
+ ()Ljava/util/List<Lorg/springframework/http/client/ClientHttpRequestInitializer;>;
+getRequestFactory
+ ()Lorg/springframework/http/client/ClientHttpRequestFactory;
+ ()Lorg/springframework/http/client/ClientHttpRequestFactory;
+setClientHttpRequestInitializers
+ (Ljava/util/List<Lorg/springframework/http/client/ClientHttpRequestInitializer;>;)V
+ (Ljava/util/List<Lorg/springframework/http/client/ClientHttpRequestInitializer;>;)V
+setRequestFactory
+ (Lorg/springframework/http/client/ClientHttpRequestFactory;)V
+ (Lorg/springframework/http/client/ClientHttpRequestFactory;)V

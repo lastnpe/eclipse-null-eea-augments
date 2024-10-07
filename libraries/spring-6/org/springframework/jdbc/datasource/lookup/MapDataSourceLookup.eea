@@ -1,0 +1,20 @@
+class org/springframework/jdbc/datasource/lookup/MapDataSourceLookup
+
+<init>
+ (Ljava/lang/String;Ljavax/sql/DataSource;)V
+ (Ljava/lang/String;Ljavax/sql/DataSource;)V
+<init>
+ (Ljava/util/Map<Ljava/lang/String;Ljavax/sql/DataSource;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljavax/sql/DataSource;>;)V
+addDataSource
+ (Ljava/lang/String;Ljavax/sql/DataSource;)V
+ (Ljava/lang/String;Ljavax/sql/DataSource;)V
+getDataSource
+ (Ljava/lang/String;)Ljavax/sql/DataSource;
+ (Ljava/lang/String;)Ljavax/sql/DataSource;
+getDataSources
+ ()Ljava/util/Map<Ljava/lang/String;Ljavax/sql/DataSource;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljavax/sql/DataSource;>;
+setDataSources
+ (Ljava/util/Map<Ljava/lang/String;Ljavax/sql/DataSource;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljavax/sql/DataSource;>;)V

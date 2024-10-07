@@ -1,0 +1,29 @@
+class org/springframework/messaging/core/AbstractMessageReceivingTemplate
+ <D:Ljava/lang/Object;>
+ <D:Ljava/lang/Object;>
+
+super org/springframework/messaging/core/AbstractMessageSendingTemplate
+ <TD;>
+ <TD;>
+super org/springframework/messaging/core/MessageReceivingOperations
+ <TD;>
+ <TD;>
+
+doConvert
+ <T:Ljava/lang/Object;>(Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<TT;>;)T0T;
+doReceive
+ (TD;)Lorg/springframework/messaging/Message<*>;
+ (TD;)L0org/springframework/messaging/Message<*>;
+receive
+ ()Lorg/springframework/messaging/Message<*>;
+ ()L0org/springframework/messaging/Message<*>; # @Inherited(org.springframework.messaging.core.MessageReceivingOperations)
+receive
+ (TD;)Lorg/springframework/messaging/Message<*>;
+ (TD;)L0org/springframework/messaging/Message<*>; # @Inherited(org.springframework.messaging.core.MessageReceivingOperations)
+receiveAndConvert
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)T0T; # @Inherited(org.springframework.messaging.core.MessageReceivingOperations)
+receiveAndConvert
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Class<TT;>;)T0T; # @Inherited(org.springframework.messaging.core.MessageReceivingOperations)

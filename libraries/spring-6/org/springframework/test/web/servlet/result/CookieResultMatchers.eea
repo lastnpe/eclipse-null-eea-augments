@@ -1,0 +1,62 @@
+class org/springframework/test/web/servlet/result/CookieResultMatchers
+
+attribute
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+attribute
+ (Ljava/lang/String;Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+comment
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+comment
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+doesNotExist
+ (Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+domain
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+domain
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+exists
+ (Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+httpOnly
+ (Ljava/lang/String;Z)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Z)Lorg/springframework/test/web/servlet/ResultMatcher;
+maxAge
+ (Ljava/lang/String;I)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;I)Lorg/springframework/test/web/servlet/ResultMatcher;
+maxAge
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/Integer;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/Integer;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+path
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+path
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+sameSite
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+sameSite
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+secure
+ (Ljava/lang/String;Z)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Z)Lorg/springframework/test/web/servlet/ResultMatcher;
+value
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+value
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+version
+ (Ljava/lang/String;I)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;I)Lorg/springframework/test/web/servlet/ResultMatcher;
+version
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/Integer;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/Integer;>;)Lorg/springframework/test/web/servlet/ResultMatcher;

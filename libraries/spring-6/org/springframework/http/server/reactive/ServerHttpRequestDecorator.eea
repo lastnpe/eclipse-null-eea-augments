@@ -1,0 +1,48 @@
+class org/springframework/http/server/reactive/ServerHttpRequestDecorator
+
+getNativeRequest
+ <T:Ljava/lang/Object;>(Lorg/springframework/http/server/reactive/ServerHttpRequest;)TT;
+ <T:Ljava/lang/Object;>(Lorg/springframework/http/server/reactive/ServerHttpRequest;)TT;
+
+<init>
+ (Lorg/springframework/http/server/reactive/ServerHttpRequest;)V
+ (Lorg/springframework/http/server/reactive/ServerHttpRequest;)V
+getBody
+ ()Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+ ()Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+getCookies
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;
+getDelegate
+ ()Lorg/springframework/http/server/reactive/ServerHttpRequest;
+ ()Lorg/springframework/http/server/reactive/ServerHttpRequest;
+getHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+getId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getLocalAddress
+ ()Ljava/net/InetSocketAddress;
+ ()L0java/net/InetSocketAddress; # @Inherited(org.springframework.http.server.reactive.ServerHttpRequest)
+getMethod
+ ()Lorg/springframework/http/HttpMethod;
+ ()Lorg/springframework/http/HttpMethod;
+getPath
+ ()Lorg/springframework/http/server/RequestPath;
+ ()Lorg/springframework/http/server/RequestPath;
+getQueryParams
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+getRemoteAddress
+ ()Ljava/net/InetSocketAddress;
+ ()L0java/net/InetSocketAddress; # @Inherited(org.springframework.http.server.reactive.ServerHttpRequest)
+getSslInfo
+ ()Lorg/springframework/http/server/reactive/SslInfo;
+ ()L0org/springframework/http/server/reactive/SslInfo; # @Inherited(org.springframework.http.server.reactive.ServerHttpRequest)
+getURI
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

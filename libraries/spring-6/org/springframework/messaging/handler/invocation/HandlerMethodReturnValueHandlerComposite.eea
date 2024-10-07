@@ -1,0 +1,33 @@
+class org/springframework/messaging/handler/invocation/HandlerMethodReturnValueHandlerComposite
+
+defaultLogger
+ Lorg/apache/commons/logging/Log;
+ L1org/apache/commons/logging/Log;
+
+addHandler
+ (Lorg/springframework/messaging/handler/invocation/HandlerMethodReturnValueHandler;)Lorg/springframework/messaging/handler/invocation/HandlerMethodReturnValueHandlerComposite;
+ (Lorg/springframework/messaging/handler/invocation/HandlerMethodReturnValueHandler;)Lorg/springframework/messaging/handler/invocation/HandlerMethodReturnValueHandlerComposite;
+addHandlers
+ (Ljava/util/List<+Lorg/springframework/messaging/handler/invocation/HandlerMethodReturnValueHandler;>;)Lorg/springframework/messaging/handler/invocation/HandlerMethodReturnValueHandlerComposite;
+ (Ljava/util/List<+Lorg/springframework/messaging/handler/invocation/HandlerMethodReturnValueHandler;>;)Lorg/springframework/messaging/handler/invocation/HandlerMethodReturnValueHandlerComposite;
+getLogger
+ ()Lorg/apache/commons/logging/Log;
+ ()Lorg/apache/commons/logging/Log;
+getReturnValueHandlers
+ ()Ljava/util/List<Lorg/springframework/messaging/handler/invocation/HandlerMethodReturnValueHandler;>;
+ ()Ljava/util/List<Lorg/springframework/messaging/handler/invocation/HandlerMethodReturnValueHandler;>;
+handleReturnValue
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)V
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)V
+isAsyncReturnValue
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;)Z
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;)Z
+setLogger
+ (Lorg/apache/commons/logging/Log;)V
+ (Lorg/apache/commons/logging/Log;)V
+supportsReturnType
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z
+toCompletableFuture
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;)Ljava/util/concurrent/CompletableFuture<*>;
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;)L0java/util/concurrent/CompletableFuture<*>; # @Inherited(org.springframework.messaging.handler.invocation.AsyncHandlerMethodReturnValueHandler)

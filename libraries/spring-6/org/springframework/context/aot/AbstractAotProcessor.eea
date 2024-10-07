@@ -1,0 +1,22 @@
+class org/springframework/context/aot/AbstractAotProcessor
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+<init>
+ (Lorg/springframework/context/aot/AbstractAotProcessor$Settings;)V
+ (Lorg/springframework/context/aot/AbstractAotProcessor$Settings;)V
+createFileSystemGeneratedFiles
+ ()Lorg/springframework/aot/generate/FileSystemGeneratedFiles;
+ ()Lorg/springframework/aot/generate/FileSystemGeneratedFiles;
+doProcess
+ ()TT;
+ ()TT;
+getSettings
+ ()Lorg/springframework/context/aot/AbstractAotProcessor$Settings;
+ ()Lorg/springframework/context/aot/AbstractAotProcessor$Settings;
+process
+ ()TT;
+ ()TT;
+writeHints
+ (Lorg/springframework/aot/hint/RuntimeHints;)V
+ (Lorg/springframework/aot/hint/RuntimeHints;)V

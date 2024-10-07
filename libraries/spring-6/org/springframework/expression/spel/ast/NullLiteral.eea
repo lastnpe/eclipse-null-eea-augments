@@ -1,0 +1,11 @@
+class org/springframework/expression/spel/ast/NullLiteral
+
+generateCode
+ (Lorg/springframework/asm/MethodVisitor;Lorg/springframework/expression/spel/CodeFlow;)V
+ (Lorg/springframework/asm/MethodVisitor;Lorg/springframework/expression/spel/CodeFlow;)V
+getLiteralValue
+ ()Lorg/springframework/expression/TypedValue;
+ ()Lorg/springframework/expression/TypedValue;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.springframework.expression.spel.ast.Literal)

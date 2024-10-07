@@ -1,0 +1,44 @@
+class org/springframework/http/converter/xml/Jaxb2CollectionHttpMessageConverter
+ <T::Ljava/util/Collection;>
+ <T::Ljava/util/Collection;>
+
+super org/springframework/http/converter/xml/AbstractJaxb2HttpMessageConverter
+ <TT;>
+ <TT;>
+super org/springframework/http/converter/GenericHttpMessageConverter
+ <TT;>
+ <TT;>
+
+canRead
+ (Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+ (Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+canRead
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+canWrite
+ (Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+ (Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+canWrite
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+createCollection
+ (Ljava/lang/Class<*>;)TT;
+ (Ljava/lang/Class<*>;)TT;
+createXmlInputFactory
+ ()Ljavax/xml/stream/XMLInputFactory;
+ ()Ljavax/xml/stream/XMLInputFactory;
+read
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/HttpInputMessage;)TT;
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/HttpInputMessage;)TT;
+readFromSource
+ (Ljava/lang/Class<+TT;>;Lorg/springframework/http/HttpHeaders;Ljavax/xml/transform/Source;)TT;
+ (Ljava/lang/Class<+TT;>;Lorg/springframework/http/HttpHeaders;Ljavax/xml/transform/Source;)TT;
+supports
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+write
+ (TT;Ljava/lang/reflect/Type;Lorg/springframework/http/MediaType;Lorg/springframework/http/HttpOutputMessage;)V
+ (TT;Ljava/lang/reflect/Type;Lorg/springframework/http/MediaType;Lorg/springframework/http/HttpOutputMessage;)V
+writeToResult
+ (TT;Lorg/springframework/http/HttpHeaders;Ljavax/xml/transform/Result;)V
+ (TT;Lorg/springframework/http/HttpHeaders;Ljavax/xml/transform/Result;)V

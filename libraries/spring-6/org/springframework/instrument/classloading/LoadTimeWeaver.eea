@@ -1,0 +1,11 @@
+class org/springframework/instrument/classloading/LoadTimeWeaver
+
+addTransformer
+ (Ljava/lang/instrument/ClassFileTransformer;)V
+ (Ljava/lang/instrument/ClassFileTransformer;)V
+getInstrumentableClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()Ljava/lang/ClassLoader;
+getThrowawayClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()Ljava/lang/ClassLoader;

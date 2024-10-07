@@ -1,0 +1,30 @@
+class org/springframework/expression/spel/ast/Literal
+
+getIntLiteral
+ (Ljava/lang/String;III)Lorg/springframework/expression/spel/ast/Literal;
+ (Ljava/lang/String;III)Lorg/springframework/expression/spel/ast/Literal;
+getLongLiteral
+ (Ljava/lang/String;III)Lorg/springframework/expression/spel/ast/Literal;
+ (Ljava/lang/String;III)Lorg/springframework/expression/spel/ast/Literal;
+getRealLiteral
+ (Ljava/lang/String;IIZ)Lorg/springframework/expression/spel/ast/Literal;
+ (Ljava/lang/String;IIZ)Lorg/springframework/expression/spel/ast/Literal;
+
+<init>
+ (Ljava/lang/String;II)V
+ (Ljava/lang/String;II)V
+getLiteralValue
+ ()Lorg/springframework/expression/TypedValue;
+ ()Lorg/springframework/expression/TypedValue;
+getOriginalValue
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getValueInternal
+ (Lorg/springframework/expression/spel/ExpressionState;)Lorg/springframework/expression/TypedValue;
+ (Lorg/springframework/expression/spel/ExpressionState;)Lorg/springframework/expression/TypedValue;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+toStringAST
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

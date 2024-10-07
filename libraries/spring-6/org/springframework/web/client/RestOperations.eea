@@ -1,0 +1,125 @@
+class org/springframework/web/client/RestOperations
+
+delete
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;*>;)V
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;*>;)V
+delete
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+ (Ljava/lang/String;[Ljava/lang/Object;)V
+delete
+ (Ljava/net/URI;)V
+ (Ljava/net/URI;)V
+exchange
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/springframework/http/HttpMethod;Lorg/springframework/http/HttpEntity<*>;Ljava/lang/Class<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/springframework/http/HttpMethod;Lorg/springframework/http/HttpEntity<*>;Ljava/lang/Class<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/http/ResponseEntity<TT;>;
+exchange
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/springframework/http/HttpMethod;Lorg/springframework/http/HttpEntity<*>;Ljava/lang/Class<TT;>;[Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/springframework/http/HttpMethod;Lorg/springframework/http/HttpEntity<*>;Ljava/lang/Class<TT;>;[Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity<TT;>;
+exchange
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/springframework/http/HttpMethod;Lorg/springframework/http/HttpEntity<*>;Lorg/springframework/core/ParameterizedTypeReference<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/springframework/http/HttpMethod;Lorg/springframework/http/HttpEntity<*>;Lorg/springframework/core/ParameterizedTypeReference<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/http/ResponseEntity<TT;>;
+exchange
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/springframework/http/HttpMethod;Lorg/springframework/http/HttpEntity<*>;Lorg/springframework/core/ParameterizedTypeReference<TT;>;[Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/springframework/http/HttpMethod;Lorg/springframework/http/HttpEntity<*>;Lorg/springframework/core/ParameterizedTypeReference<TT;>;[Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity<TT;>;
+exchange
+ <T:Ljava/lang/Object;>(Ljava/net/URI;Lorg/springframework/http/HttpMethod;Lorg/springframework/http/HttpEntity<*>;Ljava/lang/Class<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/net/URI;Lorg/springframework/http/HttpMethod;Lorg/springframework/http/HttpEntity<*>;Ljava/lang/Class<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+exchange
+ <T:Ljava/lang/Object;>(Ljava/net/URI;Lorg/springframework/http/HttpMethod;Lorg/springframework/http/HttpEntity<*>;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/net/URI;Lorg/springframework/http/HttpMethod;Lorg/springframework/http/HttpEntity<*>;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+exchange
+ <T:Ljava/lang/Object;>(Lorg/springframework/http/RequestEntity<*>;Ljava/lang/Class<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/http/RequestEntity<*>;Ljava/lang/Class<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+exchange
+ <T:Ljava/lang/Object;>(Lorg/springframework/http/RequestEntity<*>;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/http/RequestEntity<*>;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+execute
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/springframework/http/HttpMethod;Lorg/springframework/web/client/RequestCallback;Lorg/springframework/web/client/ResponseExtractor<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/springframework/http/HttpMethod;Lorg/springframework/web/client/RequestCallback;Lorg/springframework/web/client/ResponseExtractor<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)T0T;
+execute
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/springframework/http/HttpMethod;Lorg/springframework/web/client/RequestCallback;Lorg/springframework/web/client/ResponseExtractor<TT;>;[Ljava/lang/Object;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/springframework/http/HttpMethod;Lorg/springframework/web/client/RequestCallback;Lorg/springframework/web/client/ResponseExtractor<TT;>;[Ljava/lang/Object;)T0T;
+execute
+ <T:Ljava/lang/Object;>(Ljava/net/URI;Lorg/springframework/http/HttpMethod;Lorg/springframework/web/client/RequestCallback;Lorg/springframework/web/client/ResponseExtractor<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/net/URI;Lorg/springframework/http/HttpMethod;Lorg/springframework/web/client/RequestCallback;Lorg/springframework/web/client/ResponseExtractor<TT;>;)T0T;
+getForEntity
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/http/ResponseEntity<TT;>;
+getForEntity
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;[Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;[Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity<TT;>;
+getForEntity
+ <T:Ljava/lang/Object;>(Ljava/net/URI;Ljava/lang/Class<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/net/URI;Ljava/lang/Class<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+getForObject
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)T0T;
+getForObject
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;[Ljava/lang/Object;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;[Ljava/lang/Object;)T0T;
+getForObject
+ <T:Ljava/lang/Object;>(Ljava/net/URI;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/net/URI;Ljava/lang/Class<TT;>;)T0T;
+headForHeaders
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/http/HttpHeaders;
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/http/HttpHeaders;
+headForHeaders
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/http/HttpHeaders;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/http/HttpHeaders;
+headForHeaders
+ (Ljava/net/URI;)Lorg/springframework/http/HttpHeaders;
+ (Ljava/net/URI;)Lorg/springframework/http/HttpHeaders;
+optionsForAllow
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;*>;)Ljava/util/Set<Lorg/springframework/http/HttpMethod;>;
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;*>;)Ljava/util/Set<Lorg/springframework/http/HttpMethod;>;
+optionsForAllow
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/util/Set<Lorg/springframework/http/HttpMethod;>;
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/util/Set<Lorg/springframework/http/HttpMethod;>;
+optionsForAllow
+ (Ljava/net/URI;)Ljava/util/Set<Lorg/springframework/http/HttpMethod;>;
+ (Ljava/net/URI;)Ljava/util/Set<Lorg/springframework/http/HttpMethod;>;
+patchForObject
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Class<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Class<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)T0T;
+patchForObject
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Class<TT;>;[Ljava/lang/Object;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Class<TT;>;[Ljava/lang/Object;)T0T;
+patchForObject
+ <T:Ljava/lang/Object;>(Ljava/net/URI;Ljava/lang/Object;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/net/URI;Ljava/lang/Object;Ljava/lang/Class<TT;>;)T0T;
+postForEntity
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Class<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Class<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/http/ResponseEntity<TT;>;
+postForEntity
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Class<TT;>;[Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Class<TT;>;[Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity<TT;>;
+postForEntity
+ <T:Ljava/lang/Object;>(Ljava/net/URI;Ljava/lang/Object;Ljava/lang/Class<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/net/URI;Ljava/lang/Object;Ljava/lang/Class<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+postForLocation
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;*>;)Ljava/net/URI;
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;*>;)L0java/net/URI;
+postForLocation
+ (Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/net/URI;
+ (Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;)L0java/net/URI;
+postForLocation
+ (Ljava/net/URI;Ljava/lang/Object;)Ljava/net/URI;
+ (Ljava/net/URI;Ljava/lang/Object;)L0java/net/URI;
+postForObject
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Class<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Class<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)T0T;
+postForObject
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Class<TT;>;[Ljava/lang/Object;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Class<TT;>;[Ljava/lang/Object;)T0T;
+postForObject
+ <T:Ljava/lang/Object;>(Ljava/net/URI;Ljava/lang/Object;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/net/URI;Ljava/lang/Object;Ljava/lang/Class<TT;>;)T0T;
+put
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;*>;)V
+ (Ljava/lang/String;Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;*>;)V
+put
+ (Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;)V
+put
+ (Ljava/net/URI;Ljava/lang/Object;)V
+ (Ljava/net/URI;Ljava/lang/Object;)V

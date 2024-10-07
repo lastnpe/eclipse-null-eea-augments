@@ -1,0 +1,26 @@
+class org/springframework/mock/http/server/reactive/MockServerHttpResponse
+
+<init>
+ (Lorg/springframework/core/io/buffer/DataBufferFactory;)V
+ (Lorg/springframework/core/io/buffer/DataBufferFactory;)V
+getBody
+ ()Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+ ()Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+getBodyAsString
+ ()Lreactor/core/publisher/Mono<Ljava/lang/String;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/String;>;
+getNativeResponse
+ <T:Ljava/lang/Object;>()TT;
+ <T:Ljava/lang/Object;>()TT;
+setComplete
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+setWriteHandler
+ (Ljava/util/function/Function<Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>;)V
+ (Ljava/util/function/Function<Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>;)V
+writeAndFlushWithInternal
+ (Lorg/reactivestreams/Publisher<+Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/reactivestreams/Publisher<+Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+writeWithInternal
+ (Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;

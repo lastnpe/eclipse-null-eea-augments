@@ -1,0 +1,17 @@
+class org/springframework/web/multipart/support/MissingServletRequestPartException
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getBody
+ ()Lorg/springframework/http/ProblemDetail;
+ ()Lorg/springframework/http/ProblemDetail;
+getDetailMessageArguments
+ ()[Ljava/lang/Object;
+ ()[0Ljava/lang/Object; # @Inherited(org.springframework.web.ErrorResponse)
+getRequestPartName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getStatusCode
+ ()Lorg/springframework/http/HttpStatusCode;
+ ()Lorg/springframework/http/HttpStatusCode;

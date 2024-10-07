@@ -1,0 +1,10 @@
+class org/springframework/messaging/tcp/reactor/ReactorNettyCodec
+ <P:Ljava/lang/Object;>
+ <P:Ljava/lang/Object;>
+
+decode
+ (Lio/netty/buffer/ByteBuf;)Ljava/util/Collection<Lorg/springframework/messaging/Message<TP;>;>;
+ (Lio/netty/buffer/ByteBuf;)Ljava/util/Collection<Lorg/springframework/messaging/Message<TP;>;>;
+encode
+ (Lorg/springframework/messaging/Message<TP;>;Lio/netty/buffer/ByteBuf;)V
+ (Lorg/springframework/messaging/Message<TP;>;Lio/netty/buffer/ByteBuf;)V

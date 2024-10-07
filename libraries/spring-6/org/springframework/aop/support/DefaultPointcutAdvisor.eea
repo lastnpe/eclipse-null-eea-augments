@@ -1,0 +1,17 @@
+class org/springframework/aop/support/DefaultPointcutAdvisor
+
+<init>
+ (Lorg/aopalliance/aop/Advice;)V
+ (Lorg/aopalliance/aop/Advice;)V
+<init>
+ (Lorg/springframework/aop/Pointcut;Lorg/aopalliance/aop/Advice;)V
+ (Lorg/springframework/aop/Pointcut;Lorg/aopalliance/aop/Advice;)V
+getPointcut
+ ()Lorg/springframework/aop/Pointcut;
+ ()Lorg/springframework/aop/Pointcut;
+setPointcut
+ (Lorg/springframework/aop/Pointcut;)V
+ (Lorg/springframework/aop/Pointcut;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.springframework.aop.support.AbstractGenericPointcutAdvisor)

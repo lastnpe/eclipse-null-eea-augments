@@ -1,0 +1,11 @@
+class org/springframework/messaging/rsocket/PayloadUtils
+
+createPayload
+ (Lorg/springframework/core/io/buffer/DataBuffer;)Lio/rsocket/Payload;
+ (Lorg/springframework/core/io/buffer/DataBuffer;)Lio/rsocket/Payload;
+createPayload
+ (Lorg/springframework/core/io/buffer/DataBuffer;Lorg/springframework/core/io/buffer/DataBuffer;)Lio/rsocket/Payload;
+ (Lorg/springframework/core/io/buffer/DataBuffer;Lorg/springframework/core/io/buffer/DataBuffer;)Lio/rsocket/Payload;
+retainDataAndReleasePayload
+ (Lio/rsocket/Payload;Lorg/springframework/core/io/buffer/DataBufferFactory;)Lorg/springframework/core/io/buffer/DataBuffer;
+ (Lio/rsocket/Payload;Lorg/springframework/core/io/buffer/DataBufferFactory;)Lorg/springframework/core/io/buffer/DataBuffer;

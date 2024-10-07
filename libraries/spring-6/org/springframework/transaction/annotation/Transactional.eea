@@ -1,0 +1,32 @@
+class org/springframework/transaction/annotation/Transactional
+
+isolation
+ ()Lorg/springframework/transaction/annotation/Isolation;
+ ()Lorg/springframework/transaction/annotation/Isolation;
+label
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+noRollbackFor
+ ()[Ljava/lang/Class<+Ljava/lang/Throwable;>;
+ ()[Ljava/lang/Class<+Ljava/lang/Throwable;>;
+noRollbackForClassName
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+propagation
+ ()Lorg/springframework/transaction/annotation/Propagation;
+ ()Lorg/springframework/transaction/annotation/Propagation;
+rollbackFor
+ ()[Ljava/lang/Class<+Ljava/lang/Throwable;>;
+ ()[Ljava/lang/Class<+Ljava/lang/Throwable;>;
+rollbackForClassName
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+timeoutString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+transactionManager
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+value
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

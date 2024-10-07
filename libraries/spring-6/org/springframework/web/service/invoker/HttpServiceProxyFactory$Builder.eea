@@ -1,0 +1,26 @@
+class org/springframework/web/service/invoker/HttpServiceProxyFactory$Builder
+
+blockTimeout
+ (Ljava/time/Duration;)Lorg/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;
+ (Ljava/time/Duration;)L1org/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;
+build
+ ()Lorg/springframework/web/service/invoker/HttpServiceProxyFactory;
+ ()L1org/springframework/web/service/invoker/HttpServiceProxyFactory;
+clientAdapter
+ (Lorg/springframework/web/service/invoker/HttpClientAdapter;)Lorg/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;
+ (Lorg/springframework/web/service/invoker/HttpClientAdapter;)L1org/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;
+conversionService
+ (Lorg/springframework/core/convert/ConversionService;)Lorg/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;
+ (Lorg/springframework/core/convert/ConversionService;)L1org/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;
+customArgumentResolver
+ (Lorg/springframework/web/service/invoker/HttpServiceArgumentResolver;)Lorg/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;
+ (Lorg/springframework/web/service/invoker/HttpServiceArgumentResolver;)L1org/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;
+embeddedValueResolver
+ (Lorg/springframework/util/StringValueResolver;)Lorg/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;
+ (Lorg/springframework/util/StringValueResolver;)L1org/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;
+exchangeAdapter
+ (Lorg/springframework/web/service/invoker/HttpExchangeAdapter;)Lorg/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;
+ (Lorg/springframework/web/service/invoker/HttpExchangeAdapter;)L1org/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;
+reactiveAdapterRegistry
+ (Lorg/springframework/core/ReactiveAdapterRegistry;)Lorg/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;
+ (Lorg/springframework/core/ReactiveAdapterRegistry;)L1org/springframework/web/service/invoker/HttpServiceProxyFactory$Builder;

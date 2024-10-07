@@ -1,0 +1,38 @@
+class org/springframework/validation/SimpleErrors
+
+<init>
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+<init>
+ (Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/Object;Ljava/lang/String;)V
+addAllErrors
+ (Lorg/springframework/validation/Errors;)V
+ (Lorg/springframework/validation/Errors;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getFieldErrors
+ ()Ljava/util/List<Lorg/springframework/validation/FieldError;>;
+ ()Ljava/util/List<Lorg/springframework/validation/FieldError;>;
+getFieldType
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;)L0java/lang/Class<*>; # @Inherited(org.springframework.validation.Errors)
+getFieldValue
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.validation.Errors)
+getGlobalErrors
+ ()Ljava/util/List<Lorg/springframework/validation/ObjectError;>;
+ ()Ljava/util/List<Lorg/springframework/validation/ObjectError;>;
+getObjectName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+reject
+ (Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/String;)V
+rejectValue
+ (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

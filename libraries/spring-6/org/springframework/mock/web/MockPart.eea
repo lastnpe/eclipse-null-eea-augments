@@ -1,0 +1,38 @@
+class org/springframework/mock/web/MockPart
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;[B)V
+ (Ljava/lang/String;Ljava/lang/String;[B)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;[BLorg/springframework/http/MediaType;)V
+ (Ljava/lang/String;Ljava/lang/String;[BLorg/springframework/http/MediaType;)V
+<init>
+ (Ljava/lang/String;[B)V
+ (Ljava/lang/String;[B)V
+getContentType
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getHeader
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+getHeaderNames
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+getHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+getHeaders
+ (Ljava/lang/String;)Ljava/util/Collection<Ljava/lang/String;>;
+ (Ljava/lang/String;)Ljava/util/Collection<Ljava/lang/String;>;
+getInputStream
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSubmittedFileName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+write
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

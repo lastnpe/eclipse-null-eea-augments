@@ -1,0 +1,25 @@
+class org/springframework/http/codec/HttpMessageReader
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+canRead
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/http/MediaType;)Z
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/http/MediaType;)Z
+getReadableMediaTypes
+ ()Ljava/util/List<Lorg/springframework/http/MediaType;>;
+ ()Ljava/util/List<Lorg/springframework/http/MediaType;>;
+getReadableMediaTypes
+ (Lorg/springframework/core/ResolvableType;)Ljava/util/List<Lorg/springframework/http/MediaType;>;
+ (Lorg/springframework/core/ResolvableType;)Ljava/util/List<Lorg/springframework/http/MediaType;>;
+read
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/core/ResolvableType;Lorg/springframework/http/server/reactive/ServerHttpRequest;Lorg/springframework/http/server/reactive/ServerHttpResponse;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<TT;>;
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/core/ResolvableType;Lorg/springframework/http/server/reactive/ServerHttpRequest;Lorg/springframework/http/server/reactive/ServerHttpResponse;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<TT;>;
+read
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/http/ReactiveHttpInputMessage;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<TT;>;
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/http/ReactiveHttpInputMessage;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<TT;>;
+readMono
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/core/ResolvableType;Lorg/springframework/http/server/reactive/ServerHttpRequest;Lorg/springframework/http/server/reactive/ServerHttpResponse;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Mono<TT;>;
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/core/ResolvableType;Lorg/springframework/http/server/reactive/ServerHttpRequest;Lorg/springframework/http/server/reactive/ServerHttpResponse;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Mono<TT;>;
+readMono
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/http/ReactiveHttpInputMessage;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Mono<TT;>;
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/http/ReactiveHttpInputMessage;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Mono<TT;>;

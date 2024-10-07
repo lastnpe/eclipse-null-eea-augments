@@ -1,0 +1,35 @@
+class org/springframework/http/server/reactive/observation/DefaultServerRequestObservationConvention
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+exception
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;)Lio/micrometer/common/KeyValue;
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;)Lio/micrometer/common/KeyValue;
+getContextualName
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;)Ljava/lang/String;
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;)Ljava/lang/String;
+getHighCardinalityKeyValues
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;)Lio/micrometer/common/KeyValues;
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;)Lio/micrometer/common/KeyValues;
+getLowCardinalityKeyValues
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;)Lio/micrometer/common/KeyValues;
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;)Lio/micrometer/common/KeyValues;
+getName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+httpUrl
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;)Lio/micrometer/common/KeyValue;
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;)Lio/micrometer/common/KeyValue;
+method
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;)Lio/micrometer/common/KeyValue;
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;)Lio/micrometer/common/KeyValue;
+outcome
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;)Lio/micrometer/common/KeyValue;
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;)Lio/micrometer/common/KeyValue;
+status
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;)Lio/micrometer/common/KeyValue;
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;)Lio/micrometer/common/KeyValue;
+uri
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;)Lio/micrometer/common/KeyValue;
+ (Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;)Lio/micrometer/common/KeyValue;

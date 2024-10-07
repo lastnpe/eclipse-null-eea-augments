@@ -1,0 +1,38 @@
+class org/springframework/context/event/AbstractApplicationEventMulticaster
+
+addApplicationListener
+ (Lorg/springframework/context/ApplicationListener<*>;)V
+ (L1org/springframework/context/ApplicationListener<*>;)V # @Inherited(org.springframework.context.event.ApplicationEventMulticaster)
+addApplicationListenerBean
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+getApplicationListeners
+ ()Ljava/util/Collection<Lorg/springframework/context/ApplicationListener<*>;>;
+ ()Ljava/util/Collection<Lorg/springframework/context/ApplicationListener<*>;>;
+getApplicationListeners
+ (Lorg/springframework/context/ApplicationEvent;Lorg/springframework/core/ResolvableType;)Ljava/util/Collection<Lorg/springframework/context/ApplicationListener<*>;>;
+ (Lorg/springframework/context/ApplicationEvent;Lorg/springframework/core/ResolvableType;)Ljava/util/Collection<Lorg/springframework/context/ApplicationListener<*>;>;
+removeApplicationListener
+ (Lorg/springframework/context/ApplicationListener<*>;)V
+ (L1org/springframework/context/ApplicationListener<*>;)V # @Inherited(org.springframework.context.event.ApplicationEventMulticaster)
+removeApplicationListenerBean
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+removeApplicationListenerBeans
+ (Ljava/util/function/Predicate<Ljava/lang/String;>;)V
+ (Ljava/util/function/Predicate<Ljava/lang/String;>;)V
+removeApplicationListeners
+ (Ljava/util/function/Predicate<Lorg/springframework/context/ApplicationListener<*>;>;)V
+ (Ljava/util/function/Predicate<Lorg/springframework/context/ApplicationListener<*>;>;)V
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+supportsEvent
+ (Ljava/lang/Class<*>;Lorg/springframework/core/ResolvableType;)Z
+ (Ljava/lang/Class<*>;Lorg/springframework/core/ResolvableType;)Z
+supportsEvent
+ (Lorg/springframework/context/ApplicationListener<*>;Lorg/springframework/core/ResolvableType;Ljava/lang/Class<*>;)Z
+ (Lorg/springframework/context/ApplicationListener<*>;Lorg/springframework/core/ResolvableType;Ljava/lang/Class<*>;)Z

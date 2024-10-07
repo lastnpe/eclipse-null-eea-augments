@@ -1,0 +1,32 @@
+class org/springframework/http/codec/KotlinSerializationStringEncoder
+ <T::Lkotlinx/serialization/StringFormat;>
+ <T::Lkotlinx/serialization/StringFormat;>
+
+super org/springframework/http/codec/KotlinSerializationSupport
+ <TT;>
+ <TT;>
+super org/springframework/core/codec/Encoder
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+<init>
+ (TT;[Lorg/springframework/util/MimeType;)V
+ (TT;[Lorg/springframework/util/MimeType;)V
+canEncode
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Z
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Z
+encode
+ (Lorg/reactivestreams/Publisher<*>;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+ (Lorg/reactivestreams/Publisher<*>;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+encodeValue
+ (Ljava/lang/Object;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/springframework/core/io/buffer/DataBuffer;
+ (Ljava/lang/Object;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/springframework/core/io/buffer/DataBuffer;
+getEncodableMimeTypes
+ ()Ljava/util/List<Lorg/springframework/util/MimeType;>;
+ ()Ljava/util/List<Lorg/springframework/util/MimeType;>;
+getEncodableMimeTypes
+ (Lorg/springframework/core/ResolvableType;)Ljava/util/List<Lorg/springframework/util/MimeType;>;
+ (Lorg/springframework/core/ResolvableType;)Ljava/util/List<Lorg/springframework/util/MimeType;>;
+setStreamingMediaTypes
+ (Ljava/util/Collection<Lorg/springframework/http/MediaType;>;)V
+ (Ljava/util/Collection<Lorg/springframework/http/MediaType;>;)V

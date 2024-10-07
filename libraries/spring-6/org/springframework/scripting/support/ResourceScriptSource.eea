@@ -1,0 +1,27 @@
+class org/springframework/scripting/support/ResourceScriptSource
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+<init>
+ (Lorg/springframework/core/io/Resource;)V
+ (Lorg/springframework/core/io/Resource;)V
+<init>
+ (Lorg/springframework/core/io/support/EncodedResource;)V
+ (Lorg/springframework/core/io/support/EncodedResource;)V
+getResource
+ ()Lorg/springframework/core/io/Resource;
+ ()Lorg/springframework/core/io/Resource;
+getScriptAsString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setEncoding
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+suggestedClassName
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.scripting.ScriptSource)
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

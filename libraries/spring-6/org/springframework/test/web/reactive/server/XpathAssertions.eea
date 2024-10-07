@@ -1,0 +1,41 @@
+class org/springframework/test/web/reactive/server/XpathAssertions
+
+doesNotExist
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+exists
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+isEqualTo
+ (Ljava/lang/Double;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+ (Ljava/lang/Double;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+isEqualTo
+ (Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+ (Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+isEqualTo
+ (Z)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+ (Z)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+nodeCount
+ (I)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+ (I)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+nodeCount
+ (Ljava/util/function/Consumer<Ljava/lang/Integer;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+ (Ljava/util/function/Consumer<Ljava/lang/Integer;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+nodeCount
+ (Lorg/hamcrest/Matcher<-Ljava/lang/Integer;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+ (Lorg/hamcrest/Matcher<-Ljava/lang/Integer;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+number
+ (Ljava/util/function/Consumer<Ljava/lang/Double;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+ (Ljava/util/function/Consumer<Ljava/lang/Double;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+number
+ (Lorg/hamcrest/Matcher<-Ljava/lang/Double;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+ (Lorg/hamcrest/Matcher<-Ljava/lang/Double;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+string
+ (Ljava/util/function/Consumer<Ljava/lang/String;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+ (Ljava/util/function/Consumer<Ljava/lang/String;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+string
+ (Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+ (Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;

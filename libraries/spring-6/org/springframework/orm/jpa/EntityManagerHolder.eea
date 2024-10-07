@@ -1,0 +1,14 @@
+class org/springframework/orm/jpa/EntityManagerHolder
+
+<init>
+ (Ljakarta/persistence/EntityManager;)V
+ (Ljakarta/persistence/EntityManager;)V
+getEntityManager
+ ()Ljakarta/persistence/EntityManager;
+ ()Ljakarta/persistence/EntityManager;
+getSavepointManager
+ ()Lorg/springframework/transaction/SavepointManager;
+ ()L0org/springframework/transaction/SavepointManager;
+setSavepointManager
+ (Lorg/springframework/transaction/SavepointManager;)V
+ (Lorg/springframework/transaction/SavepointManager;)V

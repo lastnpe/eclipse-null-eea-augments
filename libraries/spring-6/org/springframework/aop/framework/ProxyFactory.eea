@@ -1,0 +1,33 @@
+class org/springframework/aop/framework/ProxyFactory
+
+getProxy
+ (Lorg/springframework/aop/TargetSource;)Ljava/lang/Object;
+ (Lorg/springframework/aop/TargetSource;)Ljava/lang/Object;
+getProxy
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/aopalliance/intercept/Interceptor;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/aopalliance/intercept/Interceptor;)TT;
+getProxy
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/springframework/aop/TargetSource;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/springframework/aop/TargetSource;)TT;
+
+<init>
+ (Ljava/lang/Class<*>;Lorg/aopalliance/intercept/Interceptor;)V
+ (Ljava/lang/Class<*>;Lorg/aopalliance/intercept/Interceptor;)V
+<init>
+ (Ljava/lang/Class<*>;Lorg/springframework/aop/TargetSource;)V
+ (Ljava/lang/Class<*>;Lorg/springframework/aop/TargetSource;)V
+<init>
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+<init>
+ ([Ljava/lang/Class<*>;)V
+ ([Ljava/lang/Class<*>;)V
+getProxy
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getProxy
+ (Ljava/lang/ClassLoader;)Ljava/lang/Object;
+ (Ljava/lang/ClassLoader;)Ljava/lang/Object;
+getProxyClass
+ (Ljava/lang/ClassLoader;)Ljava/lang/Class<*>;
+ (Ljava/lang/ClassLoader;)Ljava/lang/Class<*>;

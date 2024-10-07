@@ -1,0 +1,17 @@
+class org/springframework/transaction/interceptor/TransactionAttributeSourceAdvisor
+
+<init>
+ (Lorg/springframework/transaction/interceptor/TransactionInterceptor;)V
+ (Lorg/springframework/transaction/interceptor/TransactionInterceptor;)V
+getAdvice
+ ()Lorg/aopalliance/aop/Advice;
+ ()Lorg/aopalliance/aop/Advice;
+getPointcut
+ ()Lorg/springframework/aop/Pointcut;
+ ()Lorg/springframework/aop/Pointcut;
+setClassFilter
+ (Lorg/springframework/aop/ClassFilter;)V
+ (Lorg/springframework/aop/ClassFilter;)V
+setTransactionInterceptor
+ (Lorg/springframework/transaction/interceptor/TransactionInterceptor;)V
+ (Lorg/springframework/transaction/interceptor/TransactionInterceptor;)V

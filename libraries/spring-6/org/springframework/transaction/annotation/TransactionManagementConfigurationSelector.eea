@@ -1,0 +1,9 @@
+class org/springframework/transaction/annotation/TransactionManagementConfigurationSelector
+
+super org/springframework/context/annotation/AdviceModeImportSelector
+ <Lorg/springframework/transaction/annotation/EnableTransactionManagement;>
+ <Lorg/springframework/transaction/annotation/EnableTransactionManagement;>
+
+selectImports
+ (Lorg/springframework/context/annotation/AdviceMode;)[Ljava/lang/String;
+ (Lorg/springframework/context/annotation/AdviceMode;)[0Ljava/lang/String; # @Inherited(org.springframework.context.annotation.AdviceModeImportSelector)

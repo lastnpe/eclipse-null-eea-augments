@@ -1,0 +1,29 @@
+class org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator
+
+extendAdvisors
+ (Ljava/util/List<Lorg/springframework/aop/Advisor;>;)V
+ (Ljava/util/List<Lorg/springframework/aop/Advisor;>;)V
+findAdvisorsThatCanApply
+ (Ljava/util/List<Lorg/springframework/aop/Advisor;>;Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/util/List<Lorg/springframework/aop/Advisor;>;
+ (Ljava/util/List<Lorg/springframework/aop/Advisor;>;Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/util/List<Lorg/springframework/aop/Advisor;>;
+findCandidateAdvisors
+ ()Ljava/util/List<Lorg/springframework/aop/Advisor;>;
+ ()Ljava/util/List<Lorg/springframework/aop/Advisor;>;
+findEligibleAdvisors
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/util/List<Lorg/springframework/aop/Advisor;>;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/util/List<Lorg/springframework/aop/Advisor;>;
+getAdvicesAndAdvisorsForBean
+ (Ljava/lang/Class<*>;Ljava/lang/String;Lorg/springframework/aop/TargetSource;)[Ljava/lang/Object;
+ (Ljava/lang/Class<*>;Ljava/lang/String;Lorg/springframework/aop/TargetSource;)[0Ljava/lang/Object; # @Inherited(org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator)
+initBeanFactory
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+isEligibleAdvisorBean
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+sortAdvisors
+ (Ljava/util/List<Lorg/springframework/aop/Advisor;>;)Ljava/util/List<Lorg/springframework/aop/Advisor;>;
+ (Ljava/util/List<Lorg/springframework/aop/Advisor;>;)Ljava/util/List<Lorg/springframework/aop/Advisor;>;

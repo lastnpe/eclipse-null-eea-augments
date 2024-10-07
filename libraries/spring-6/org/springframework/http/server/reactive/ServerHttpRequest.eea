@@ -1,0 +1,26 @@
+class org/springframework/http/server/reactive/ServerHttpRequest
+
+getCookies
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/HttpCookie;>;
+getId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getLocalAddress
+ ()Ljava/net/InetSocketAddress;
+ ()L0java/net/InetSocketAddress;
+getPath
+ ()Lorg/springframework/http/server/RequestPath;
+ ()Lorg/springframework/http/server/RequestPath;
+getQueryParams
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+getRemoteAddress
+ ()Ljava/net/InetSocketAddress;
+ ()L0java/net/InetSocketAddress;
+getSslInfo
+ ()Lorg/springframework/http/server/reactive/SslInfo;
+ ()L0org/springframework/http/server/reactive/SslInfo;
+mutate
+ ()Lorg/springframework/http/server/reactive/ServerHttpRequest$Builder;
+ ()Lorg/springframework/http/server/reactive/ServerHttpRequest$Builder;

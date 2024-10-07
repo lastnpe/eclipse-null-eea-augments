@@ -1,0 +1,48 @@
+class org/springframework/jdbc/object/RdbmsOperation
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+declareParameter
+ (Lorg/springframework/jdbc/core/SqlParameter;)V
+ (Lorg/springframework/jdbc/core/SqlParameter;)V
+getDeclaredParameters
+ ()Ljava/util/List<Lorg/springframework/jdbc/core/SqlParameter;>;
+ ()Ljava/util/List<Lorg/springframework/jdbc/core/SqlParameter;>;
+getGeneratedKeysColumnNames
+ ()[Ljava/lang/String;
+ ()[0Ljava/lang/String;
+getJdbcTemplate
+ ()Lorg/springframework/jdbc/core/JdbcTemplate;
+ ()Lorg/springframework/jdbc/core/JdbcTemplate;
+getSql
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+resolveSql
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setDataSource
+ (Ljavax/sql/DataSource;)V
+ (Ljavax/sql/DataSource;)V
+setGeneratedKeysColumnNames
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setJdbcTemplate
+ (Lorg/springframework/jdbc/core/JdbcTemplate;)V
+ (Lorg/springframework/jdbc/core/JdbcTemplate;)V
+setParameters
+ ([Lorg/springframework/jdbc/core/SqlParameter;)V
+ ([Lorg/springframework/jdbc/core/SqlParameter;)V
+setSql
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setTypes
+ ([I)V
+ ([I)V
+validateNamedParameters
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+validateParameters
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V

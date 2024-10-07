@@ -1,0 +1,15 @@
+class org/springframework/scheduling/support/TaskUtils
+
+LOG_AND_PROPAGATE_ERROR_HANDLER
+ Lorg/springframework/util/ErrorHandler;
+ L1org/springframework/util/ErrorHandler;
+LOG_AND_SUPPRESS_ERROR_HANDLER
+ Lorg/springframework/util/ErrorHandler;
+ L1org/springframework/util/ErrorHandler;
+
+decorateTaskWithErrorHandler
+ (Ljava/lang/Runnable;Lorg/springframework/util/ErrorHandler;Z)Lorg/springframework/scheduling/support/DelegatingErrorHandlingRunnable;
+ (Ljava/lang/Runnable;Lorg/springframework/util/ErrorHandler;Z)Lorg/springframework/scheduling/support/DelegatingErrorHandlingRunnable;
+getDefaultErrorHandler
+ (Z)Lorg/springframework/util/ErrorHandler;
+ (Z)Lorg/springframework/util/ErrorHandler;

@@ -1,0 +1,41 @@
+class org/springframework/jdbc/support/JdbcUtils
+
+closeConnection
+ (Ljava/sql/Connection;)V
+ (Ljava/sql/Connection;)V
+closeResultSet
+ (Ljava/sql/ResultSet;)V
+ (Ljava/sql/ResultSet;)V
+closeStatement
+ (Ljava/sql/Statement;)V
+ (Ljava/sql/Statement;)V
+commonDatabaseName
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+convertPropertyNameToUnderscoreName
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+convertUnderscoreNameToPropertyName
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+extractDatabaseMetaData
+ <T:Ljava/lang/Object;>(Ljavax/sql/DataSource;Ljava/lang/String;)TT;
+ <T:Ljava/lang/Object;>(Ljavax/sql/DataSource;Ljava/lang/String;)TT;
+extractDatabaseMetaData
+ <T:Ljava/lang/Object;>(Ljavax/sql/DataSource;Lorg/springframework/jdbc/support/DatabaseMetaDataCallback<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljavax/sql/DataSource;Lorg/springframework/jdbc/support/DatabaseMetaDataCallback<TT;>;)TT;
+getResultSetValue
+ (Ljava/sql/ResultSet;I)Ljava/lang/Object;
+ (Ljava/sql/ResultSet;I)L0java/lang/Object;
+getResultSetValue
+ (Ljava/sql/ResultSet;ILjava/lang/Class<*>;)Ljava/lang/Object;
+ (Ljava/sql/ResultSet;ILjava/lang/Class<*>;)L0java/lang/Object;
+lookupColumnName
+ (Ljava/sql/ResultSetMetaData;I)Ljava/lang/String;
+ (Ljava/sql/ResultSetMetaData;I)Ljava/lang/String;
+resolveTypeName
+ (I)Ljava/lang/String;
+ (I)L0java/lang/String;
+supportsBatchUpdates
+ (Ljava/sql/Connection;)Z
+ (Ljava/sql/Connection;)Z

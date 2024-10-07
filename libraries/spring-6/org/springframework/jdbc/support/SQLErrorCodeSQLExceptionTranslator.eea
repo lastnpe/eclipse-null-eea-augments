@@ -1,0 +1,32 @@
+class org/springframework/jdbc/support/SQLErrorCodeSQLExceptionTranslator
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljavax/sql/DataSource;)V
+ (Ljavax/sql/DataSource;)V
+<init>
+ (Lorg/springframework/jdbc/support/SQLErrorCodes;)V
+ (Lorg/springframework/jdbc/support/SQLErrorCodes;)V
+createCustomException
+ (Ljava/lang/String;Ljava/lang/String;Ljava/sql/SQLException;Ljava/lang/Class<*>;)Lorg/springframework/dao/DataAccessException;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/sql/SQLException;Ljava/lang/Class<*>;)L0org/springframework/dao/DataAccessException;
+customTranslate
+ (Ljava/lang/String;Ljava/lang/String;Ljava/sql/SQLException;)Lorg/springframework/dao/DataAccessException;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/sql/SQLException;)L0org/springframework/dao/DataAccessException;
+doTranslate
+ (Ljava/lang/String;Ljava/lang/String;Ljava/sql/SQLException;)Lorg/springframework/dao/DataAccessException;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/sql/SQLException;)L0org/springframework/dao/DataAccessException; # @Inherited(org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator)
+getSqlErrorCodes
+ ()Lorg/springframework/jdbc/support/SQLErrorCodes;
+ ()L0org/springframework/jdbc/support/SQLErrorCodes;
+setDataSource
+ (Ljavax/sql/DataSource;)V
+ (Ljavax/sql/DataSource;)V
+setDatabaseProductName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSqlErrorCodes
+ (Lorg/springframework/jdbc/support/SQLErrorCodes;)V
+ (Lorg/springframework/jdbc/support/SQLErrorCodes;)V

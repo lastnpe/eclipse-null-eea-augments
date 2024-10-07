@@ -1,0 +1,14 @@
+class org/springframework/jdbc/core/metadata/OracleTableMetaDataProvider
+
+<init>
+ (Ljava/sql/DatabaseMetaData;)V
+ (Ljava/sql/DatabaseMetaData;)V
+<init>
+ (Ljava/sql/DatabaseMetaData;Z)V
+ (Ljava/sql/DatabaseMetaData;Z)V
+getDefaultSchema
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.jdbc.core.metadata.GenericTableMetaDataProvider)
+initializeWithTableColumnMetaData
+ (Ljava/sql/DatabaseMetaData;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/sql/DatabaseMetaData;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V

@@ -1,0 +1,34 @@
+class org/springframework/context/support/BeanDefinitionDsl
+
+super org/springframework/context/ApplicationContextInitializer
+ <Lorg/springframework/context/support/GenericApplicationContext;>
+ <Lorg/springframework/context/support/GenericApplicationContext;>
+
+context
+ Lorg/springframework/context/support/GenericApplicationContext;
+ Lorg/springframework/context/support/GenericApplicationContext;
+
+<init>
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/context/support/BeanDefinitionDsl;Lkotlin/Unit;>;Lkotlin/jvm/functions/Function1<-Lorg/springframework/core/env/ConfigurableEnvironment;Ljava/lang/Boolean;>;)V
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/context/support/BeanDefinitionDsl;Lkotlin/Unit;>;Lkotlin/jvm/functions/Function1<-Lorg/springframework/core/env/ConfigurableEnvironment;Ljava/lang/Boolean;>;)V
+environment
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/core/env/ConfigurableEnvironment;Ljava/lang/Boolean;>;Lkotlin/jvm/functions/Function1<-Lorg/springframework/context/support/BeanDefinitionDsl;Lkotlin/Unit;>;)V
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/core/env/ConfigurableEnvironment;Ljava/lang/Boolean;>;Lkotlin/jvm/functions/Function1<-Lorg/springframework/context/support/BeanDefinitionDsl;Lkotlin/Unit;>;)V
+getChildren
+ ()Ljava/util/ArrayList<Lorg/springframework/context/support/BeanDefinitionDsl;>;
+ ()L1java/util/ArrayList<Lorg/springframework/context/support/BeanDefinitionDsl;>;
+getContext
+ ()Lorg/springframework/context/support/GenericApplicationContext;
+ ()L1org/springframework/context/support/GenericApplicationContext;
+getEnv
+ ()Lorg/springframework/core/env/ConfigurableEnvironment;
+ ()L1org/springframework/core/env/ConfigurableEnvironment;
+initialize
+ (Lorg/springframework/context/support/GenericApplicationContext;)V
+ (Lorg/springframework/context/support/GenericApplicationContext;)V
+profile
+ (Ljava/lang/String;Lkotlin/jvm/functions/Function1<-Lorg/springframework/context/support/BeanDefinitionDsl;Lkotlin/Unit;>;)V
+ (Ljava/lang/String;Lkotlin/jvm/functions/Function1<-Lorg/springframework/context/support/BeanDefinitionDsl;Lkotlin/Unit;>;)V
+setContext
+ (Lorg/springframework/context/support/GenericApplicationContext;)V
+ (Lorg/springframework/context/support/GenericApplicationContext;)V

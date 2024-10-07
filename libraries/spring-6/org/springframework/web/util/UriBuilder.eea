@@ -1,0 +1,65 @@
+class org/springframework/web/util/UriBuilder
+
+build
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljava/net/URI;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljava/net/URI;
+build
+ ([Ljava/lang/Object;)Ljava/net/URI;
+ ([Ljava/lang/Object;)Ljava/net/URI;
+fragment
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriBuilder;
+ (Ljava/lang/String;)L1org/springframework/web/util/UriBuilder;
+host
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriBuilder;
+ (Ljava/lang/String;)L1org/springframework/web/util/UriBuilder;
+path
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriBuilder;
+ (Ljava/lang/String;)L1org/springframework/web/util/UriBuilder;
+pathSegment
+ ([Ljava/lang/String;)Lorg/springframework/web/util/UriBuilder;
+ ([Ljava/lang/String;)L1org/springframework/web/util/UriBuilder;
+port
+ (I)Lorg/springframework/web/util/UriBuilder;
+ (I)L1org/springframework/web/util/UriBuilder;
+port
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriBuilder;
+ (Ljava/lang/String;)L1org/springframework/web/util/UriBuilder;
+query
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriBuilder;
+ (Ljava/lang/String;)L1org/springframework/web/util/UriBuilder;
+queryParam
+ (Ljava/lang/String;Ljava/util/Collection<*>;)Lorg/springframework/web/util/UriBuilder;
+ (Ljava/lang/String;Ljava/util/Collection<*>;)L1org/springframework/web/util/UriBuilder;
+queryParam
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/web/util/UriBuilder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/web/util/UriBuilder;
+queryParamIfPresent
+ (Ljava/lang/String;Ljava/util/Optional<*>;)Lorg/springframework/web/util/UriBuilder;
+ (Ljava/lang/String;Ljava/util/Optional<*>;)L1org/springframework/web/util/UriBuilder;
+queryParams
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)Lorg/springframework/web/util/UriBuilder;
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)L1org/springframework/web/util/UriBuilder;
+replacePath
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriBuilder;
+ (Ljava/lang/String;)L1org/springframework/web/util/UriBuilder;
+replaceQuery
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriBuilder;
+ (Ljava/lang/String;)L1org/springframework/web/util/UriBuilder;
+replaceQueryParam
+ (Ljava/lang/String;Ljava/util/Collection<*>;)Lorg/springframework/web/util/UriBuilder;
+ (Ljava/lang/String;Ljava/util/Collection<*>;)L1org/springframework/web/util/UriBuilder;
+replaceQueryParam
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/web/util/UriBuilder;
+ (Ljava/lang/String;[Ljava/lang/Object;)L1org/springframework/web/util/UriBuilder;
+replaceQueryParams
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)Lorg/springframework/web/util/UriBuilder;
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;)L1org/springframework/web/util/UriBuilder;
+scheme
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriBuilder;
+ (Ljava/lang/String;)L1org/springframework/web/util/UriBuilder;
+toUriString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+userInfo
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriBuilder;
+ (Ljava/lang/String;)L1org/springframework/web/util/UriBuilder;

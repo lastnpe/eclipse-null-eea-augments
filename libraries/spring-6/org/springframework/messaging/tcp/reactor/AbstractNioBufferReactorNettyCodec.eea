@@ -1,0 +1,20 @@
+class org/springframework/messaging/tcp/reactor/AbstractNioBufferReactorNettyCodec
+ <P:Ljava/lang/Object;>
+ <P:Ljava/lang/Object;>
+
+super org/springframework/messaging/tcp/reactor/ReactorNettyCodec
+ <TP;>
+ <TP;>
+
+decode
+ (Lio/netty/buffer/ByteBuf;)Ljava/util/Collection<Lorg/springframework/messaging/Message<TP;>;>;
+ (Lio/netty/buffer/ByteBuf;)Ljava/util/Collection<Lorg/springframework/messaging/Message<TP;>;>;
+decodeInternal
+ (Ljava/nio/ByteBuffer;)Ljava/util/List<Lorg/springframework/messaging/Message<TP;>;>;
+ (Ljava/nio/ByteBuffer;)Ljava/util/List<Lorg/springframework/messaging/Message<TP;>;>;
+encode
+ (Lorg/springframework/messaging/Message<TP;>;Lio/netty/buffer/ByteBuf;)V
+ (Lorg/springframework/messaging/Message<TP;>;Lio/netty/buffer/ByteBuf;)V
+encodeInternal
+ (Lorg/springframework/messaging/Message<TP;>;)Ljava/nio/ByteBuffer;
+ (Lorg/springframework/messaging/Message<TP;>;)Ljava/nio/ByteBuffer;

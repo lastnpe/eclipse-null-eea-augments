@@ -1,0 +1,48 @@
+class org/springframework/web/ErrorResponse
+
+builder
+ (Ljava/lang/Throwable;Lorg/springframework/http/HttpStatusCode;Ljava/lang/String;)Lorg/springframework/web/ErrorResponse$Builder;
+ (Ljava/lang/Throwable;Lorg/springframework/http/HttpStatusCode;Ljava/lang/String;)Lorg/springframework/web/ErrorResponse$Builder;
+builder
+ (Ljava/lang/Throwable;Lorg/springframework/http/ProblemDetail;)Lorg/springframework/web/ErrorResponse$Builder;
+ (Ljava/lang/Throwable;Lorg/springframework/http/ProblemDetail;)Lorg/springframework/web/ErrorResponse$Builder;
+create
+ (Ljava/lang/Throwable;Lorg/springframework/http/HttpStatusCode;Ljava/lang/String;)Lorg/springframework/web/ErrorResponse;
+ (Ljava/lang/Throwable;Lorg/springframework/http/HttpStatusCode;Ljava/lang/String;)Lorg/springframework/web/ErrorResponse;
+getDefaultDetailMessageCode
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/String;
+getDefaultTitleMessageCode
+ (Ljava/lang/Class<*>;)Ljava/lang/String;
+ (Ljava/lang/Class<*>;)Ljava/lang/String;
+getDefaultTypeMessageCode
+ (Ljava/lang/Class<*>;)Ljava/lang/String;
+ (Ljava/lang/Class<*>;)Ljava/lang/String;
+
+getBody
+ ()Lorg/springframework/http/ProblemDetail;
+ ()Lorg/springframework/http/ProblemDetail;
+getDetailMessageArguments
+ ()[Ljava/lang/Object;
+ ()[0Ljava/lang/Object;
+getDetailMessageArguments
+ (Lorg/springframework/context/MessageSource;Ljava/util/Locale;)[Ljava/lang/Object;
+ (Lorg/springframework/context/MessageSource;Ljava/util/Locale;)[0Ljava/lang/Object;
+getDetailMessageCode
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+getStatusCode
+ ()Lorg/springframework/http/HttpStatusCode;
+ ()Lorg/springframework/http/HttpStatusCode;
+getTitleMessageCode
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTypeMessageCode
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+updateAndGetBody
+ (Lorg/springframework/context/MessageSource;Ljava/util/Locale;)Lorg/springframework/http/ProblemDetail;
+ (Lorg/springframework/context/MessageSource;Ljava/util/Locale;)Lorg/springframework/http/ProblemDetail;

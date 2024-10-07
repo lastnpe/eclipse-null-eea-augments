@@ -1,0 +1,23 @@
+class org/springframework/http/converter/xml/SourceHttpMessageConverter
+ <T::Ljavax/xml/transform/Source;>
+ <T::Ljavax/xml/transform/Source;>
+
+super org/springframework/http/converter/AbstractHttpMessageConverter
+ <TT;>
+ <TT;>
+
+getContentLength
+ (TT;Lorg/springframework/http/MediaType;)Ljava/lang/Long;
+ (TT;Lorg/springframework/http/MediaType;)L0java/lang/Long; # @Inherited(org.springframework.http.converter.AbstractHttpMessageConverter)
+readInternal
+ (Ljava/lang/Class<+TT;>;Lorg/springframework/http/HttpInputMessage;)TT;
+ (Ljava/lang/Class<+TT;>;Lorg/springframework/http/HttpInputMessage;)TT;
+supports
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+supportsRepeatableWrites
+ (TT;)Z
+ (TT;)Z
+writeInternal
+ (TT;Lorg/springframework/http/HttpOutputMessage;)V
+ (TT;Lorg/springframework/http/HttpOutputMessage;)V

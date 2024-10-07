@@ -1,0 +1,34 @@
+class org/springframework/web/context/request/async/DeferredResult
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+<init>
+ (Ljava/lang/Long;)V
+ (Ljava/lang/Long;)V
+<init>
+ (Ljava/lang/Long;Ljava/lang/Object;)V
+ (Ljava/lang/Long;Ljava/lang/Object;)V
+<init>
+ (Ljava/lang/Long;Ljava/util/function/Supplier<*>;)V
+ (Ljava/lang/Long;Ljava/util/function/Supplier<*>;)V
+getResult
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+onCompletion
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+onError
+ (Ljava/util/function/Consumer<Ljava/lang/Throwable;>;)V
+ (Ljava/util/function/Consumer<Ljava/lang/Throwable;>;)V
+onTimeout
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+setErrorResult
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+setResult
+ (TT;)Z
+ (TT;)Z
+setResultHandler
+ (Lorg/springframework/web/context/request/async/DeferredResult$DeferredResultHandler;)V
+ (Lorg/springframework/web/context/request/async/DeferredResult$DeferredResultHandler;)V

@@ -1,0 +1,40 @@
+class org/springframework/http/converter/protobuf/ProtobufHttpMessageConverter
+
+super org/springframework/http/converter/AbstractHttpMessageConverter
+ <Lcom/google/protobuf/Message;>
+ <Lcom/google/protobuf/Message;>
+
+DEFAULT_CHARSET
+ Ljava/nio/charset/Charset;
+ L1java/nio/charset/Charset;
+PROTOBUF
+ Lorg/springframework/http/MediaType;
+ L1org/springframework/http/MediaType;
+X_PROTOBUF_MESSAGE_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+X_PROTOBUF_SCHEMA_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Lcom/google/protobuf/ExtensionRegistry;)V
+ (Lcom/google/protobuf/ExtensionRegistry;)V
+canWrite
+ (Lorg/springframework/http/MediaType;)Z
+ (Lorg/springframework/http/MediaType;)Z
+getDefaultContentType
+ (Lcom/google/protobuf/Message;)Lorg/springframework/http/MediaType;
+ (Lcom/google/protobuf/Message;)Lorg/springframework/http/MediaType;
+readInternal
+ (Ljava/lang/Class<+Lcom/google/protobuf/Message;>;Lorg/springframework/http/HttpInputMessage;)Lcom/google/protobuf/Message;
+ (Ljava/lang/Class<+Lcom/google/protobuf/Message;>;Lorg/springframework/http/HttpInputMessage;)Lcom/google/protobuf/Message;
+supports
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+supportsRepeatableWrites
+ (Lcom/google/protobuf/Message;)Z
+ (Lcom/google/protobuf/Message;)Z
+writeInternal
+ (Lcom/google/protobuf/Message;Lorg/springframework/http/HttpOutputMessage;)V
+ (Lcom/google/protobuf/Message;Lorg/springframework/http/HttpOutputMessage;)V

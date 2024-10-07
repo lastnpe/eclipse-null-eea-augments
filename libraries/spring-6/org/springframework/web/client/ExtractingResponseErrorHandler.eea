@@ -1,0 +1,20 @@
+class org/springframework/web/client/ExtractingResponseErrorHandler
+
+<init>
+ (Ljava/util/List<Lorg/springframework/http/converter/HttpMessageConverter<*>;>;)V
+ (Ljava/util/List<Lorg/springframework/http/converter/HttpMessageConverter<*>;>;)V
+handleError
+ (Lorg/springframework/http/client/ClientHttpResponse;Lorg/springframework/http/HttpStatusCode;)V
+ (Lorg/springframework/http/client/ClientHttpResponse;Lorg/springframework/http/HttpStatusCode;)V
+hasError
+ (Lorg/springframework/http/HttpStatusCode;)Z
+ (Lorg/springframework/http/HttpStatusCode;)Z
+setMessageConverters
+ (Ljava/util/List<Lorg/springframework/http/converter/HttpMessageConverter<*>;>;)V
+ (Ljava/util/List<Lorg/springframework/http/converter/HttpMessageConverter<*>;>;)V
+setSeriesMapping
+ (Ljava/util/Map<Lorg/springframework/http/HttpStatus$Series;Ljava/lang/Class<+Lorg/springframework/web/client/RestClientException;>;>;)V
+ (Ljava/util/Map<Lorg/springframework/http/HttpStatus$Series;Ljava/lang/Class<+Lorg/springframework/web/client/RestClientException;>;>;)V
+setStatusMapping
+ (Ljava/util/Map<Lorg/springframework/http/HttpStatusCode;Ljava/lang/Class<+Lorg/springframework/web/client/RestClientException;>;>;)V
+ (Ljava/util/Map<Lorg/springframework/http/HttpStatusCode;Ljava/lang/Class<+Lorg/springframework/web/client/RestClientException;>;>;)V

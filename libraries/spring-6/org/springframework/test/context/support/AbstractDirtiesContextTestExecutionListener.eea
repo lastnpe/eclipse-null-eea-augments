@@ -1,0 +1,11 @@
+class org/springframework/test/context/support/AbstractDirtiesContextTestExecutionListener
+
+beforeOrAfterTestClass
+ (Lorg/springframework/test/context/TestContext;Lorg/springframework/test/annotation/DirtiesContext$ClassMode;)V
+ (Lorg/springframework/test/context/TestContext;Lorg/springframework/test/annotation/DirtiesContext$ClassMode;)V
+beforeOrAfterTestMethod
+ (Lorg/springframework/test/context/TestContext;Lorg/springframework/test/annotation/DirtiesContext$MethodMode;Lorg/springframework/test/annotation/DirtiesContext$ClassMode;)V
+ (Lorg/springframework/test/context/TestContext;Lorg/springframework/test/annotation/DirtiesContext$MethodMode;Lorg/springframework/test/annotation/DirtiesContext$ClassMode;)V
+dirtyContext
+ (Lorg/springframework/test/context/TestContext;Lorg/springframework/test/annotation/DirtiesContext$HierarchyMode;)V
+ (Lorg/springframework/test/context/TestContext;Lorg/springframework/test/annotation/DirtiesContext$HierarchyMode;)V

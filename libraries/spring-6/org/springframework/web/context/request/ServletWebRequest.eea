@@ -1,0 +1,71 @@
+class org/springframework/web/context/request/ServletWebRequest
+
+<init>
+ (Ljakarta/servlet/http/HttpServletRequest;)V
+ (Ljakarta/servlet/http/HttpServletRequest;)V
+<init>
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;)V
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;)V
+checkNotModified
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+checkNotModified
+ (Ljava/lang/String;J)Z
+ (Ljava/lang/String;J)Z
+getContextPath
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDescription
+ (Z)Ljava/lang/String;
+ (Z)Ljava/lang/String;
+getHeader
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String; # @Inherited(org.springframework.web.context.request.WebRequest)
+getHeaderNames
+ ()Ljava/util/Iterator<Ljava/lang/String;>;
+ ()Ljava/util/Iterator<Ljava/lang/String;>;
+getHeaderValues
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[0Ljava/lang/String; # @Inherited(org.springframework.web.context.request.WebRequest)
+getHttpMethod
+ ()Lorg/springframework/http/HttpMethod;
+ ()Lorg/springframework/http/HttpMethod;
+getLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+getNativeRequest
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getNativeRequest
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)T0T; # @Inherited(org.springframework.web.context.request.NativeWebRequest)
+getNativeResponse
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object; # @Inherited(org.springframework.web.context.request.NativeWebRequest)
+getNativeResponse
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)T0T; # @Inherited(org.springframework.web.context.request.NativeWebRequest)
+getParameter
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String; # @Inherited(org.springframework.web.context.request.WebRequest)
+getParameterMap
+ ()Ljava/util/Map<Ljava/lang/String;[Ljava/lang/String;>;
+ ()Ljava/util/Map<Ljava/lang/String;[Ljava/lang/String;>;
+getParameterNames
+ ()Ljava/util/Iterator<Ljava/lang/String;>;
+ ()Ljava/util/Iterator<Ljava/lang/String;>;
+getParameterValues
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[0Ljava/lang/String; # @Inherited(org.springframework.web.context.request.WebRequest)
+getRemoteUser
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.web.context.request.WebRequest)
+getUserPrincipal
+ ()Ljava/security/Principal;
+ ()L0java/security/Principal; # @Inherited(org.springframework.web.context.request.WebRequest)
+isUserInRole
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.springframework.web.context.request.ServletRequestAttributes)

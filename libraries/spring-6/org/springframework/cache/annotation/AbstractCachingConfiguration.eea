@@ -1,0 +1,24 @@
+class org/springframework/cache/annotation/AbstractCachingConfiguration
+
+cacheManager
+ Ljava/util/function/Supplier<Lorg/springframework/cache/CacheManager;>;
+ L0java/util/function/Supplier<Lorg/springframework/cache/CacheManager;>;
+cacheResolver
+ Ljava/util/function/Supplier<Lorg/springframework/cache/interceptor/CacheResolver;>;
+ L0java/util/function/Supplier<Lorg/springframework/cache/interceptor/CacheResolver;>;
+enableCaching
+ Lorg/springframework/core/annotation/AnnotationAttributes;
+ L0org/springframework/core/annotation/AnnotationAttributes;
+errorHandler
+ Ljava/util/function/Supplier<Lorg/springframework/cache/interceptor/CacheErrorHandler;>;
+ L0java/util/function/Supplier<Lorg/springframework/cache/interceptor/CacheErrorHandler;>;
+keyGenerator
+ Ljava/util/function/Supplier<Lorg/springframework/cache/interceptor/KeyGenerator;>;
+ L0java/util/function/Supplier<Lorg/springframework/cache/interceptor/KeyGenerator;>;
+
+setImportMetadata
+ (Lorg/springframework/core/type/AnnotationMetadata;)V
+ (Lorg/springframework/core/type/AnnotationMetadata;)V
+useCachingConfigurer
+ (Lorg/springframework/cache/annotation/AbstractCachingConfiguration$CachingConfigurerSupplier;)V
+ (Lorg/springframework/cache/annotation/AbstractCachingConfiguration$CachingConfigurerSupplier;)V

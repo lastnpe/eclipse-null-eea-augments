@@ -1,0 +1,26 @@
+class org/springframework/test/web/client/DefaultRequestExpectation
+
+<init>
+ (Lorg/springframework/test/web/client/ExpectedCount;Lorg/springframework/test/web/client/RequestMatcher;)V
+ (Lorg/springframework/test/web/client/ExpectedCount;Lorg/springframework/test/web/client/RequestMatcher;)V
+andExpect
+ (Lorg/springframework/test/web/client/RequestMatcher;)Lorg/springframework/test/web/client/ResponseActions;
+ (Lorg/springframework/test/web/client/RequestMatcher;)Lorg/springframework/test/web/client/ResponseActions;
+andRespond
+ (Lorg/springframework/test/web/client/ResponseCreator;)V
+ (Lorg/springframework/test/web/client/ResponseCreator;)V
+createResponse
+ (Lorg/springframework/http/client/ClientHttpRequest;)Lorg/springframework/http/client/ClientHttpResponse;
+ (Lorg/springframework/http/client/ClientHttpRequest;)Lorg/springframework/http/client/ClientHttpResponse;
+getRequestCount
+ ()Lorg/springframework/test/web/client/DefaultRequestExpectation$RequestCount;
+ ()Lorg/springframework/test/web/client/DefaultRequestExpectation$RequestCount;
+getRequestMatchers
+ ()Ljava/util/List<Lorg/springframework/test/web/client/RequestMatcher;>;
+ ()Ljava/util/List<Lorg/springframework/test/web/client/RequestMatcher;>;
+getResponseCreator
+ ()Lorg/springframework/test/web/client/ResponseCreator;
+ ()L0org/springframework/test/web/client/ResponseCreator;
+match
+ (Lorg/springframework/http/client/ClientHttpRequest;)V
+ (Lorg/springframework/http/client/ClientHttpRequest;)V

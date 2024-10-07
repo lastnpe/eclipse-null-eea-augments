@@ -1,0 +1,26 @@
+class org/springframework/messaging/simp/user/UserDestinationResult
+
+<init>
+ (Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;Ljava/lang/String;Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;)V
+ (Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;Ljava/lang/String;Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;)V
+getSessionIds
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()L0java/util/Set<Ljava/lang/String;>;
+getSourceDestination
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getSubscribeDestination
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTargetDestinations
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getUser
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

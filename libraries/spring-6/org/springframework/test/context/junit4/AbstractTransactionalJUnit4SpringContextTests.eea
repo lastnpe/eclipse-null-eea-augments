@@ -1,0 +1,30 @@
+class org/springframework/test/context/junit4/AbstractTransactionalJUnit4SpringContextTests
+
+jdbcTemplate
+ Lorg/springframework/jdbc/core/JdbcTemplate;
+ Lorg/springframework/jdbc/core/JdbcTemplate;
+
+countRowsInTable
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+countRowsInTableWhere
+ (Ljava/lang/String;Ljava/lang/String;)I
+ (Ljava/lang/String;Ljava/lang/String;)I
+deleteFromTableWhere
+ (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)I
+ (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)I
+deleteFromTables
+ ([Ljava/lang/String;)I
+ ([Ljava/lang/String;)I
+dropTables
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+executeSqlScript
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+setDataSource
+ (Ljavax/sql/DataSource;)V
+ (Ljavax/sql/DataSource;)V
+setSqlScriptEncoding
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

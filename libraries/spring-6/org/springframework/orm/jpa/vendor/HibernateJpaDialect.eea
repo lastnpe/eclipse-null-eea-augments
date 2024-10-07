@@ -1,0 +1,32 @@
+class org/springframework/orm/jpa/vendor/HibernateJpaDialect
+
+beginTransaction
+ (Ljakarta/persistence/EntityManager;Lorg/springframework/transaction/TransactionDefinition;)Ljava/lang/Object;
+ (Ljakarta/persistence/EntityManager;Lorg/springframework/transaction/TransactionDefinition;)L0java/lang/Object; # @Inherited(org.springframework.orm.jpa.DefaultJpaDialect)
+cleanupTransaction
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+convertHibernateAccessException
+ (Lorg/hibernate/HibernateException;)Lorg/springframework/dao/DataAccessException;
+ (Lorg/hibernate/HibernateException;)Lorg/springframework/dao/DataAccessException;
+getIdentifier
+ (Lorg/hibernate/HibernateException;)Ljava/lang/Object;
+ (Lorg/hibernate/HibernateException;)L0java/lang/Object;
+getJdbcConnection
+ (Ljakarta/persistence/EntityManager;Z)Lorg/springframework/jdbc/datasource/ConnectionHandle;
+ (Ljakarta/persistence/EntityManager;Z)L0org/springframework/jdbc/datasource/ConnectionHandle; # @Inherited(org.springframework.orm.jpa.DefaultJpaDialect)
+getSession
+ (Ljakarta/persistence/EntityManager;)Lorg/hibernate/engine/spi/SessionImplementor;
+ (Ljakarta/persistence/EntityManager;)Lorg/hibernate/engine/spi/SessionImplementor;
+prepareFlushMode
+ (Lorg/hibernate/Session;Z)Lorg/hibernate/FlushMode;
+ (Lorg/hibernate/Session;Z)L0org/hibernate/FlushMode;
+prepareTransaction
+ (Ljakarta/persistence/EntityManager;ZLjava/lang/String;)Ljava/lang/Object;
+ (Ljakarta/persistence/EntityManager;ZLjava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.orm.jpa.DefaultJpaDialect)
+setJdbcExceptionTranslator
+ (Lorg/springframework/jdbc/support/SQLExceptionTranslator;)V
+ (Lorg/springframework/jdbc/support/SQLExceptionTranslator;)V
+translateExceptionIfPossible
+ (Ljava/lang/RuntimeException;)Lorg/springframework/dao/DataAccessException;
+ (Ljava/lang/RuntimeException;)L0org/springframework/dao/DataAccessException; # @Inherited(org.springframework.orm.jpa.DefaultJpaDialect)

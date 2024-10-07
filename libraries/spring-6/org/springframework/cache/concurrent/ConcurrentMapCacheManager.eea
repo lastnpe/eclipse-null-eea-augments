@@ -1,0 +1,20 @@
+class org/springframework/cache/concurrent/ConcurrentMapCacheManager
+
+<init>
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+createConcurrentMapCache
+ (Ljava/lang/String;)Lorg/springframework/cache/Cache;
+ (Ljava/lang/String;)Lorg/springframework/cache/Cache;
+getCache
+ (Ljava/lang/String;)Lorg/springframework/cache/Cache;
+ (Ljava/lang/String;)L0org/springframework/cache/Cache; # @Inherited(org.springframework.cache.CacheManager)
+getCacheNames
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setCacheNames
+ (Ljava/util/Collection<Ljava/lang/String;>;)V
+ (Ljava/util/Collection<Ljava/lang/String;>;)V

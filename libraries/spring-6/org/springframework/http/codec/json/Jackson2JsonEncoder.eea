@@ -1,0 +1,11 @@
+class org/springframework/http/codec/json/Jackson2JsonEncoder
+
+<init>
+ (Lcom/fasterxml/jackson/databind/ObjectMapper;[Lorg/springframework/util/MimeType;)V
+ (Lcom/fasterxml/jackson/databind/ObjectMapper;[Lorg/springframework/util/MimeType;)V
+customizeWriter
+ (Lcom/fasterxml/jackson/databind/ObjectWriter;Lorg/springframework/util/MimeType;Lorg/springframework/core/ResolvableType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lcom/fasterxml/jackson/databind/ObjectWriter;
+ (Lcom/fasterxml/jackson/databind/ObjectWriter;Lorg/springframework/util/MimeType;Lorg/springframework/core/ResolvableType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lcom/fasterxml/jackson/databind/ObjectWriter;
+getMediaTypesForProblemDetail
+ ()Ljava/util/List<Lorg/springframework/util/MimeType;>;
+ ()Ljava/util/List<Lorg/springframework/util/MimeType;>;

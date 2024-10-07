@@ -1,0 +1,14 @@
+class org/springframework/messaging/simp/stomp/StompTcpConnectionHandler
+ <P:Ljava/lang/Object;>
+ <P:Ljava/lang/Object;>
+
+super org/springframework/messaging/tcp/TcpConnectionHandler
+ <TP;>
+ <TP;>
+
+getConnectHeaders
+ ()Lorg/springframework/messaging/simp/stomp/StompHeaderAccessor;
+ ()Lorg/springframework/messaging/simp/stomp/StompHeaderAccessor;
+getSessionId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

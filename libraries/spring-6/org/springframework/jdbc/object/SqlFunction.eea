@@ -1,0 +1,35 @@
+class org/springframework/jdbc/object/SqlFunction
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/springframework/jdbc/object/MappingSqlQuery
+ <TT;>
+ <TT;>
+
+<init>
+ (Ljavax/sql/DataSource;Ljava/lang/String;)V
+ (Ljavax/sql/DataSource;Ljava/lang/String;)V
+<init>
+ (Ljavax/sql/DataSource;Ljava/lang/String;[I)V
+ (Ljavax/sql/DataSource;Ljava/lang/String;[I)V
+<init>
+ (Ljavax/sql/DataSource;Ljava/lang/String;[ILjava/lang/Class<TT;>;)V
+ (Ljavax/sql/DataSource;Ljava/lang/String;[ILjava/lang/Class<TT;>;)V
+mapRow
+ (Ljava/sql/ResultSet;I)TT;
+ (Ljava/sql/ResultSet;I)T0T; # @Inherited(org.springframework.jdbc.object.MappingSqlQuery)
+run
+ ([Ljava/lang/Object;)I
+ ([Ljava/lang/Object;)I
+runGeneric
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+runGeneric
+ (I)Ljava/lang/Object;
+ (I)L0java/lang/Object;
+runGeneric
+ ([Ljava/lang/Object;)Ljava/lang/Object;
+ ([Ljava/lang/Object;)L0java/lang/Object;
+setResultType
+ (Ljava/lang/Class<TT;>;)V
+ (Ljava/lang/Class<TT;>;)V

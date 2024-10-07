@@ -1,0 +1,24 @@
+class org/springframework/messaging/simp/broker/AbstractSubscriptionRegistry
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+addSubscriptionInternal
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/springframework/messaging/Message<*>;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/springframework/messaging/Message<*>;)V
+findSubscriptions
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+findSubscriptionsInternal
+ (Ljava/lang/String;Lorg/springframework/messaging/Message<*>;)Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+ (Ljava/lang/String;Lorg/springframework/messaging/Message<*>;)Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+registerSubscription
+ (Lorg/springframework/messaging/Message<*>;)V
+ (Lorg/springframework/messaging/Message<*>;)V
+removeSubscriptionInternal
+ (Ljava/lang/String;Ljava/lang/String;Lorg/springframework/messaging/Message<*>;)V
+ (Ljava/lang/String;Ljava/lang/String;Lorg/springframework/messaging/Message<*>;)V
+unregisterSubscription
+ (Lorg/springframework/messaging/Message<*>;)V
+ (Lorg/springframework/messaging/Message<*>;)V

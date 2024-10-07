@@ -1,0 +1,41 @@
+class org/springframework/messaging/converter/MappingJackson2MessageConverter
+
+<init>
+ (Lcom/fasterxml/jackson/databind/ObjectMapper;)V
+ (Lcom/fasterxml/jackson/databind/ObjectMapper;)V
+<init>
+ (Lcom/fasterxml/jackson/databind/ObjectMapper;[Lorg/springframework/util/MimeType;)V
+ (Lcom/fasterxml/jackson/databind/ObjectMapper;[Lorg/springframework/util/MimeType;)V
+<init>
+ ([Lorg/springframework/util/MimeType;)V
+ ([Lorg/springframework/util/MimeType;)V
+canConvertFrom
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<*>;)Z
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<*>;)Z
+canConvertTo
+ (Ljava/lang/Object;Lorg/springframework/messaging/MessageHeaders;)Z
+ (Ljava/lang/Object;Lorg/springframework/messaging/MessageHeaders;)Z
+convertFromInternal
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<*>;Ljava/lang/Object;)Ljava/lang/Object;
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<*>;Ljava/lang/Object;)L0java/lang/Object; # @Inherited(org.springframework.messaging.converter.AbstractMessageConverter)
+convertToInternal
+ (Ljava/lang/Object;Lorg/springframework/messaging/MessageHeaders;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;Lorg/springframework/messaging/MessageHeaders;Ljava/lang/Object;)L0java/lang/Object; # @Inherited(org.springframework.messaging.converter.AbstractMessageConverter)
+getJsonEncoding
+ (Lorg/springframework/util/MimeType;)Lcom/fasterxml/jackson/core/JsonEncoding;
+ (Lorg/springframework/util/MimeType;)Lcom/fasterxml/jackson/core/JsonEncoding;
+getObjectMapper
+ ()Lcom/fasterxml/jackson/databind/ObjectMapper;
+ ()Lcom/fasterxml/jackson/databind/ObjectMapper;
+getSerializationView
+ (Ljava/lang/Object;)Ljava/lang/Class<*>;
+ (Ljava/lang/Object;)L0java/lang/Class<*>;
+logWarningIfNecessary
+ (Ljava/lang/reflect/Type;Ljava/lang/Throwable;)V
+ (Ljava/lang/reflect/Type;Ljava/lang/Throwable;)V
+setObjectMapper
+ (Lcom/fasterxml/jackson/databind/ObjectMapper;)V
+ (Lcom/fasterxml/jackson/databind/ObjectMapper;)V
+supports
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z

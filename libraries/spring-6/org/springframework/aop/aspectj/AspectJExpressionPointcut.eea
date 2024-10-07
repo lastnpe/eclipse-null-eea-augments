@@ -1,0 +1,47 @@
+class org/springframework/aop/aspectj/AspectJExpressionPointcut
+
+<init>
+ (Ljava/lang/Class<*>;[Ljava/lang/String;[Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;[Ljava/lang/String;[Ljava/lang/Class<*>;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getClassFilter
+ ()Lorg/springframework/aop/ClassFilter;
+ ()Lorg/springframework/aop/ClassFilter;
+getCurrentProxiedBeanName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getMethodMatcher
+ ()Lorg/springframework/aop/MethodMatcher;
+ ()Lorg/springframework/aop/MethodMatcher;
+getPointcutExpression
+ ()Lorg/aspectj/weaver/tools/PointcutExpression;
+ ()Lorg/aspectj/weaver/tools/PointcutExpression;
+matches
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+matches
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Z
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Z
+matches
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;Z)Z
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;Z)Z
+matches
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;[Ljava/lang/Object;)Z
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;[Ljava/lang/Object;)Z
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setParameterNames
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setParameterTypes
+ ([Ljava/lang/Class<*>;)V
+ ([Ljava/lang/Class<*>;)V
+setPointcutDeclarationScope
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

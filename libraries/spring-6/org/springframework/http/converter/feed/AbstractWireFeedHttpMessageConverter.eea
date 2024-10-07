@@ -1,0 +1,24 @@
+class org/springframework/http/converter/feed/AbstractWireFeedHttpMessageConverter
+ <T:Lcom/rometools/rome/feed/WireFeed;>
+ <T:Lcom/rometools/rome/feed/WireFeed;>
+
+super org/springframework/http/converter/AbstractHttpMessageConverter
+ <TT;>
+ <TT;>
+
+DEFAULT_CHARSET
+ Ljava/nio/charset/Charset;
+ L1java/nio/charset/Charset;
+
+<init>
+ (Lorg/springframework/http/MediaType;)V
+ (Lorg/springframework/http/MediaType;)V
+readInternal
+ (Ljava/lang/Class<+TT;>;Lorg/springframework/http/HttpInputMessage;)TT;
+ (Ljava/lang/Class<+TT;>;Lorg/springframework/http/HttpInputMessage;)TT;
+supportsRepeatableWrites
+ (TT;)Z
+ (TT;)Z
+writeInternal
+ (TT;Lorg/springframework/http/HttpOutputMessage;)V
+ (TT;Lorg/springframework/http/HttpOutputMessage;)V

@@ -1,0 +1,14 @@
+class org/springframework/messaging/simp/broker/SubscriptionRegistry
+
+findSubscriptions
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+registerSubscription
+ (Lorg/springframework/messaging/Message<*>;)V
+ (Lorg/springframework/messaging/Message<*>;)V
+unregisterAllSubscriptions
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+unregisterSubscription
+ (Lorg/springframework/messaging/Message<*>;)V
+ (Lorg/springframework/messaging/Message<*>;)V

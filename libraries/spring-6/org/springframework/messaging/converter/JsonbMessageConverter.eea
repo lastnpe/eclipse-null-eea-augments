@@ -1,0 +1,26 @@
+class org/springframework/messaging/converter/JsonbMessageConverter
+
+<init>
+ (Ljakarta/json/bind/Jsonb;)V
+ (Ljakarta/json/bind/Jsonb;)V
+<init>
+ (Ljakarta/json/bind/JsonbConfig;)V
+ (Ljakarta/json/bind/JsonbConfig;)V
+fromJson
+ (Ljava/io/Reader;Ljava/lang/reflect/Type;)Ljava/lang/Object;
+ (Ljava/io/Reader;Ljava/lang/reflect/Type;)Ljava/lang/Object;
+fromJson
+ (Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
+getJsonb
+ ()Ljakarta/json/bind/Jsonb;
+ ()Ljakarta/json/bind/Jsonb;
+setJsonb
+ (Ljakarta/json/bind/Jsonb;)V
+ (Ljakarta/json/bind/Jsonb;)V
+toJson
+ (Ljava/lang/Object;Ljava/lang/reflect/Type;)Ljava/lang/String;
+ (Ljava/lang/Object;Ljava/lang/reflect/Type;)Ljava/lang/String;
+toJson
+ (Ljava/lang/Object;Ljava/lang/reflect/Type;Ljava/io/Writer;)V
+ (Ljava/lang/Object;Ljava/lang/reflect/Type;Ljava/io/Writer;)V

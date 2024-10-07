@@ -1,0 +1,63 @@
+class org/springframework/aop/framework/ReflectiveMethodInvocation
+
+arguments
+ [Ljava/lang/Object;
+ [Ljava/lang/Object;
+interceptorsAndDynamicMethodMatchers
+ Ljava/util/List<*>;
+ Ljava/util/List<*>;
+method
+ Ljava/lang/reflect/Method;
+ Ljava/lang/reflect/Method;
+proxy
+ Ljava/lang/Object;
+ Ljava/lang/Object;
+target
+ Ljava/lang/Object;
+ L0java/lang/Object;
+
+<init>
+ (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;Ljava/lang/Class<*>;Ljava/util/List<Ljava/lang/Object;>;)V
+ (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;Ljava/lang/Class<*>;Ljava/util/List<Ljava/lang/Object;>;)V
+getArguments
+ ()[Ljava/lang/Object;
+ ()[Ljava/lang/Object;
+getMethod
+ ()Ljava/lang/reflect/Method;
+ ()Ljava/lang/reflect/Method;
+getProxy
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getStaticPart
+ ()Ljava/lang/reflect/AccessibleObject;
+ ()Ljava/lang/reflect/AccessibleObject;
+getThis
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getUserAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.aop.ProxyMethodInvocation)
+getUserAttributes
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+invocableClone
+ ()Lorg/aopalliance/intercept/MethodInvocation;
+ ()Lorg/aopalliance/intercept/MethodInvocation;
+invocableClone
+ ([Ljava/lang/Object;)Lorg/aopalliance/intercept/MethodInvocation;
+ ([Ljava/lang/Object;)Lorg/aopalliance/intercept/MethodInvocation;
+invokeJoinpoint
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+proceed
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+setArguments
+ ([Ljava/lang/Object;)V
+ ([Ljava/lang/Object;)V
+setUserAttribute
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

@@ -1,0 +1,17 @@
+class org/springframework/web/server/session/DefaultWebSessionManager
+
+getSession
+ (Lorg/springframework/web/server/ServerWebExchange;)Lreactor/core/publisher/Mono<Lorg/springframework/web/server/WebSession;>;
+ (Lorg/springframework/web/server/ServerWebExchange;)Lreactor/core/publisher/Mono<Lorg/springframework/web/server/WebSession;>;
+getSessionIdResolver
+ ()Lorg/springframework/web/server/session/WebSessionIdResolver;
+ ()Lorg/springframework/web/server/session/WebSessionIdResolver;
+getSessionStore
+ ()Lorg/springframework/web/server/session/WebSessionStore;
+ ()Lorg/springframework/web/server/session/WebSessionStore;
+setSessionIdResolver
+ (Lorg/springframework/web/server/session/WebSessionIdResolver;)V
+ (Lorg/springframework/web/server/session/WebSessionIdResolver;)V
+setSessionStore
+ (Lorg/springframework/web/server/session/WebSessionStore;)V
+ (Lorg/springframework/web/server/session/WebSessionStore;)V

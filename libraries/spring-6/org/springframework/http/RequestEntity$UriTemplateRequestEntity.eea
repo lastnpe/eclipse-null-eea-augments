@@ -1,0 +1,23 @@
+class org/springframework/http/RequestEntity$UriTemplateRequestEntity
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/springframework/http/RequestEntity
+ <TT;>
+ <TT;>
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(org.springframework.http.RequestEntity)
+getUriTemplate
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getVars
+ ()[Ljava/lang/Object;
+ ()[0Ljava/lang/Object;
+getVarsMap
+ ()Ljava/util/Map<Ljava/lang/String;*>;
+ ()L0java/util/Map<Ljava/lang/String;*>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.springframework.http.RequestEntity)

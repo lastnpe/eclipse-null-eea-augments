@@ -1,0 +1,10 @@
+class org/springframework/messaging/tcp/reactor/TcpMessageCodec
+ <P:Ljava/lang/Object;>
+ <P:Ljava/lang/Object;>
+
+decode
+ (Ljava/nio/ByteBuffer;)Ljava/util/List<Lorg/springframework/messaging/Message<TP;>;>;
+ (Ljava/nio/ByteBuffer;)Ljava/util/List<Lorg/springframework/messaging/Message<TP;>;>;
+encode
+ (Lorg/springframework/messaging/Message<TP;>;)Ljava/nio/ByteBuffer;
+ (Lorg/springframework/messaging/Message<TP;>;)Ljava/nio/ByteBuffer;

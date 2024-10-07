@@ -1,0 +1,89 @@
+class org/springframework/context/support/GenericApplicationContext
+
+<init>
+ (Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;)V
+ (Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;)V
+<init>
+ (Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;Lorg/springframework/context/ApplicationContext;)V
+ (Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;Lorg/springframework/context/ApplicationContext;)V
+<init>
+ (Lorg/springframework/context/ApplicationContext;)V
+ (Lorg/springframework/context/ApplicationContext;)V
+cancelRefresh
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+getAutowireCapableBeanFactory
+ ()Lorg/springframework/beans/factory/config/AutowireCapableBeanFactory;
+ ()Lorg/springframework/beans/factory/config/AutowireCapableBeanFactory;
+getBeanDefinition
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/config/BeanDefinition;
+ (Ljava/lang/String;)Lorg/springframework/beans/factory/config/BeanDefinition;
+getBeanFactory
+ ()Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;
+ ()Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;
+getClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()L0java/lang/ClassLoader; # @Inherited(org.springframework.core.io.DefaultResourceLoader)
+getDefaultListableBeanFactory
+ ()Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;
+ ()Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;
+getResource
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+ (Ljava/lang/String;)Lorg/springframework/core/io/Resource;
+getResources
+ (Ljava/lang/String;)[Lorg/springframework/core/io/Resource;
+ (Ljava/lang/String;)[Lorg/springframework/core/io/Resource;
+isAlias
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isBeanDefinitionOverridable
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+isBeanNameInUse
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+refreshForAotProcessing
+ (Lorg/springframework/aot/hint/RuntimeHints;)V
+ (Lorg/springframework/aot/hint/RuntimeHints;)V
+registerAlias
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+registerBean
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Supplier<TT;>;[Lorg/springframework/beans/factory/config/BeanDefinitionCustomizer;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/Supplier<TT;>;[Lorg/springframework/beans/factory/config/BeanDefinitionCustomizer;)V
+registerBean
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;[Ljava/lang/Object;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;[Ljava/lang/Object;)V
+registerBean
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;[Lorg/springframework/beans/factory/config/BeanDefinitionCustomizer;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;[Lorg/springframework/beans/factory/config/BeanDefinitionCustomizer;)V
+registerBean
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;Ljava/util/function/Supplier<TT;>;[Lorg/springframework/beans/factory/config/BeanDefinitionCustomizer;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;Ljava/util/function/Supplier<TT;>;[Lorg/springframework/beans/factory/config/BeanDefinitionCustomizer;)V
+registerBean
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;[Ljava/lang/Object;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;[Ljava/lang/Object;)V
+registerBean
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;[Lorg/springframework/beans/factory/config/BeanDefinitionCustomizer;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/lang/Class<TT;>;[Lorg/springframework/beans/factory/config/BeanDefinitionCustomizer;)V
+registerBeanDefinition
+ (Ljava/lang/String;Lorg/springframework/beans/factory/config/BeanDefinition;)V
+ (Ljava/lang/String;Lorg/springframework/beans/factory/config/BeanDefinition;)V
+removeAlias
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+removeBeanDefinition
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setApplicationStartup
+ (Lorg/springframework/core/metrics/ApplicationStartup;)V
+ (Lorg/springframework/core/metrics/ApplicationStartup;)V
+setClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setParent
+ (Lorg/springframework/context/ApplicationContext;)V
+ (Lorg/springframework/context/ApplicationContext;)V
+setResourceLoader
+ (Lorg/springframework/core/io/ResourceLoader;)V
+ (Lorg/springframework/core/io/ResourceLoader;)V

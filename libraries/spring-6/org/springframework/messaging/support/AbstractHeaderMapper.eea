@@ -1,0 +1,27 @@
+class org/springframework/messaging/support/AbstractHeaderMapper
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/springframework/messaging/support/HeaderMapper
+ <TT;>
+ <TT;>
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+fromHeaderName
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getHeaderIfAvailable
+ <V:Ljava/lang/Object;>(Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/lang/String;Ljava/lang/Class<TV;>;)TV;
+ <V:Ljava/lang/Object;>(Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/lang/String;Ljava/lang/Class<TV;>;)T0V;
+setInboundPrefix
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setOutboundPrefix
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toHeaderName
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;

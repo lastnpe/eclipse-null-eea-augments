@@ -1,0 +1,66 @@
+class org/springframework/messaging/simp/stomp/DefaultStompSession
+
+EMPTY_PAYLOAD
+ [B
+ [1B
+
+<init>
+ (Lorg/springframework/messaging/simp/stomp/StompSessionHandler;Lorg/springframework/messaging/simp/stomp/StompHeaders;)V
+ (Lorg/springframework/messaging/simp/stomp/StompSessionHandler;Lorg/springframework/messaging/simp/stomp/StompHeaders;)V
+acknowledge
+ (Ljava/lang/String;Z)Lorg/springframework/messaging/simp/stomp/StompSession$Receiptable;
+ (Ljava/lang/String;Z)Lorg/springframework/messaging/simp/stomp/StompSession$Receiptable;
+acknowledge
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Z)Lorg/springframework/messaging/simp/stomp/StompSession$Receiptable;
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Z)Lorg/springframework/messaging/simp/stomp/StompSession$Receiptable;
+afterConnectFailure
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+afterConnected
+ (Lorg/springframework/messaging/tcp/TcpConnection<[B>;)V
+ (Lorg/springframework/messaging/tcp/TcpConnection<[B>;)V
+disconnect
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;)V
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;)V
+getConnectHeaders
+ ()Lorg/springframework/messaging/simp/stomp/StompHeaderAccessor;
+ ()Lorg/springframework/messaging/simp/stomp/StompHeaderAccessor;
+getMessageConverter
+ ()Lorg/springframework/messaging/converter/MessageConverter;
+ ()Lorg/springframework/messaging/converter/MessageConverter;
+getSession
+ ()Ljava/util/concurrent/CompletableFuture<Lorg/springframework/messaging/simp/stomp/StompSession;>;
+ ()Ljava/util/concurrent/CompletableFuture<Lorg/springframework/messaging/simp/stomp/StompSession;>;
+getSessionHandler
+ ()Lorg/springframework/messaging/simp/stomp/StompSessionHandler;
+ ()Lorg/springframework/messaging/simp/stomp/StompSessionHandler;
+getSessionId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTaskScheduler
+ ()Lorg/springframework/scheduling/TaskScheduler;
+ ()L0org/springframework/scheduling/TaskScheduler;
+handleFailure
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+handleMessage
+ (Lorg/springframework/messaging/Message<[B>;)V
+ (Lorg/springframework/messaging/Message<[B>;)V
+send
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/messaging/simp/stomp/StompSession$Receiptable;
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/messaging/simp/stomp/StompSession$Receiptable;
+send
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Ljava/lang/Object;)Lorg/springframework/messaging/simp/stomp/StompSession$Receiptable;
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Ljava/lang/Object;)Lorg/springframework/messaging/simp/stomp/StompSession$Receiptable;
+setMessageConverter
+ (Lorg/springframework/messaging/converter/MessageConverter;)V
+ (Lorg/springframework/messaging/converter/MessageConverter;)V
+setTaskScheduler
+ (Lorg/springframework/scheduling/TaskScheduler;)V
+ (Lorg/springframework/scheduling/TaskScheduler;)V
+subscribe
+ (Ljava/lang/String;Lorg/springframework/messaging/simp/stomp/StompFrameHandler;)Lorg/springframework/messaging/simp/stomp/StompSession$Subscription;
+ (Ljava/lang/String;Lorg/springframework/messaging/simp/stomp/StompFrameHandler;)Lorg/springframework/messaging/simp/stomp/StompSession$Subscription;
+subscribe
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Lorg/springframework/messaging/simp/stomp/StompFrameHandler;)Lorg/springframework/messaging/simp/stomp/StompSession$Subscription;
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Lorg/springframework/messaging/simp/stomp/StompFrameHandler;)Lorg/springframework/messaging/simp/stomp/StompSession$Subscription;

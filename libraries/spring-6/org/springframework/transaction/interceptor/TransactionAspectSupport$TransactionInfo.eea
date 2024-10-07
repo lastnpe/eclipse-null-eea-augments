@@ -1,0 +1,23 @@
+class org/springframework/transaction/interceptor/TransactionAspectSupport$TransactionInfo
+
+<init>
+ (Lorg/springframework/transaction/PlatformTransactionManager;Lorg/springframework/transaction/interceptor/TransactionAttribute;Ljava/lang/String;)V
+ (Lorg/springframework/transaction/PlatformTransactionManager;Lorg/springframework/transaction/interceptor/TransactionAttribute;Ljava/lang/String;)V
+getJoinpointIdentification
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTransactionAttribute
+ ()Lorg/springframework/transaction/interceptor/TransactionAttribute;
+ ()L0org/springframework/transaction/interceptor/TransactionAttribute;
+getTransactionManager
+ ()Lorg/springframework/transaction/PlatformTransactionManager;
+ ()Lorg/springframework/transaction/PlatformTransactionManager;
+getTransactionStatus
+ ()Lorg/springframework/transaction/TransactionStatus;
+ ()L0org/springframework/transaction/TransactionStatus;
+newTransactionStatus
+ (Lorg/springframework/transaction/TransactionStatus;)V
+ (Lorg/springframework/transaction/TransactionStatus;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

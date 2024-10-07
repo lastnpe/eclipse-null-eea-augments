@@ -1,0 +1,69 @@
+class org/springframework/messaging/converter/AbstractMessageConverter
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+<init>
+ (Ljava/util/Collection<Lorg/springframework/util/MimeType;>;)V
+ (Ljava/util/Collection<Lorg/springframework/util/MimeType;>;)V
+<init>
+ (Lorg/springframework/util/MimeType;)V
+ (Lorg/springframework/util/MimeType;)V
+<init>
+ ([Lorg/springframework/util/MimeType;)V
+ ([Lorg/springframework/util/MimeType;)V
+addSupportedMimeTypes
+ ([Lorg/springframework/util/MimeType;)V
+ ([Lorg/springframework/util/MimeType;)V
+canConvertFrom
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<*>;)Z
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<*>;)Z
+canConvertTo
+ (Ljava/lang/Object;Lorg/springframework/messaging/MessageHeaders;)Z
+ (Ljava/lang/Object;Lorg/springframework/messaging/MessageHeaders;)Z
+convertFromInternal
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<*>;Ljava/lang/Object;)Ljava/lang/Object;
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<*>;Ljava/lang/Object;)L0java/lang/Object;
+convertToInternal
+ (Ljava/lang/Object;Lorg/springframework/messaging/MessageHeaders;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;Lorg/springframework/messaging/MessageHeaders;Ljava/lang/Object;)L0java/lang/Object;
+fromMessage
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<*>;)Ljava/lang/Object;
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<*>;)L0java/lang/Object; # @Inherited(org.springframework.messaging.converter.MessageConverter)
+fromMessage
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<*>;Ljava/lang/Object;)Ljava/lang/Object;
+ (Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<*>;Ljava/lang/Object;)L0java/lang/Object; # @Inherited(org.springframework.messaging.converter.SmartMessageConverter)
+getContentTypeResolver
+ ()Lorg/springframework/messaging/converter/ContentTypeResolver;
+ ()L0org/springframework/messaging/converter/ContentTypeResolver;
+getDefaultContentType
+ (Ljava/lang/Object;)Lorg/springframework/util/MimeType;
+ (Ljava/lang/Object;)L0org/springframework/util/MimeType;
+getMimeType
+ (Lorg/springframework/messaging/MessageHeaders;)Lorg/springframework/util/MimeType;
+ (Lorg/springframework/messaging/MessageHeaders;)L0org/springframework/util/MimeType;
+getSerializedPayloadClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getSupportedMimeTypes
+ ()Ljava/util/List<Lorg/springframework/util/MimeType;>;
+ ()Ljava/util/List<Lorg/springframework/util/MimeType;>;
+setContentTypeResolver
+ (Lorg/springframework/messaging/converter/ContentTypeResolver;)V
+ (Lorg/springframework/messaging/converter/ContentTypeResolver;)V
+setSerializedPayloadClass
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+supports
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+supportsMimeType
+ (Lorg/springframework/messaging/MessageHeaders;)Z
+ (Lorg/springframework/messaging/MessageHeaders;)Z
+toMessage
+ (Ljava/lang/Object;Lorg/springframework/messaging/MessageHeaders;)Lorg/springframework/messaging/Message<*>;
+ (Ljava/lang/Object;Lorg/springframework/messaging/MessageHeaders;)L0org/springframework/messaging/Message<*>; # @Inherited(org.springframework.messaging.converter.MessageConverter)
+toMessage
+ (Ljava/lang/Object;Lorg/springframework/messaging/MessageHeaders;Ljava/lang/Object;)Lorg/springframework/messaging/Message<*>;
+ (Ljava/lang/Object;Lorg/springframework/messaging/MessageHeaders;Ljava/lang/Object;)L0org/springframework/messaging/Message<*>; # @Inherited(org.springframework.messaging.converter.SmartMessageConverter)

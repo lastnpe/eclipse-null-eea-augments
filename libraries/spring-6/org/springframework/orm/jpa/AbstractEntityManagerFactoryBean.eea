@@ -1,0 +1,109 @@
+class org/springframework/orm/jpa/AbstractEntityManagerFactoryBean
+
+super org/springframework/beans/factory/FactoryBean
+ <Ljakarta/persistence/EntityManagerFactory;>
+ <Ljakarta/persistence/EntityManagerFactory;>
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+createEntityManagerFactoryProxy
+ (Ljakarta/persistence/EntityManagerFactory;)Ljakarta/persistence/EntityManagerFactory;
+ (Ljakarta/persistence/EntityManagerFactory;)Ljakarta/persistence/EntityManagerFactory;
+createNativeEntityManager
+ (Ljava/util/Map<**>;)Ljakarta/persistence/EntityManager;
+ (Ljava/util/Map<**>;)Ljakarta/persistence/EntityManager;
+createNativeEntityManagerFactory
+ ()Ljakarta/persistence/EntityManagerFactory;
+ ()Ljakarta/persistence/EntityManagerFactory;
+getBeanClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()Ljava/lang/ClassLoader;
+getBootstrapExecutor
+ ()Lorg/springframework/core/task/AsyncTaskExecutor;
+ ()L0org/springframework/core/task/AsyncTaskExecutor;
+getDataSource
+ ()Ljavax/sql/DataSource;
+ ()L0javax/sql/DataSource; # @Inherited(org.springframework.orm.jpa.EntityManagerFactoryInfo)
+getEntityManagerInterface
+ ()Ljava/lang/Class<+Ljakarta/persistence/EntityManager;>;
+ ()L0java/lang/Class<+Ljakarta/persistence/EntityManager;>; # @Inherited(org.springframework.orm.jpa.EntityManagerFactoryInfo)
+getJpaDialect
+ ()Lorg/springframework/orm/jpa/JpaDialect;
+ ()L0org/springframework/orm/jpa/JpaDialect; # @Inherited(org.springframework.orm.jpa.EntityManagerFactoryInfo)
+getJpaPropertyMap
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getJpaVendorAdapter
+ ()Lorg/springframework/orm/jpa/JpaVendorAdapter;
+ ()L0org/springframework/orm/jpa/JpaVendorAdapter;
+getNativeEntityManagerFactory
+ ()Ljakarta/persistence/EntityManagerFactory;
+ ()Ljakarta/persistence/EntityManagerFactory;
+getObject
+ ()Ljakarta/persistence/EntityManagerFactory;
+ ()L0jakarta/persistence/EntityManagerFactory;
+getObjectType
+ ()Ljava/lang/Class<+Ljakarta/persistence/EntityManagerFactory;>;
+ ()Ljava/lang/Class<+Ljakarta/persistence/EntityManagerFactory;>;
+getPersistenceProvider
+ ()Ljakarta/persistence/spi/PersistenceProvider;
+ ()L0jakarta/persistence/spi/PersistenceProvider; # @Inherited(org.springframework.orm.jpa.EntityManagerFactoryInfo)
+getPersistenceUnitInfo
+ ()Ljakarta/persistence/spi/PersistenceUnitInfo;
+ ()L0jakarta/persistence/spi/PersistenceUnitInfo; # @Inherited(org.springframework.orm.jpa.EntityManagerFactoryInfo)
+getPersistenceUnitName
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.orm.jpa.EntityManagerFactoryInfo)
+postProcessEntityManager
+ (Ljakarta/persistence/EntityManager;)V
+ (Ljakarta/persistence/EntityManager;)V
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setBeanName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setBootstrapExecutor
+ (Lorg/springframework/core/task/AsyncTaskExecutor;)V
+ (Lorg/springframework/core/task/AsyncTaskExecutor;)V
+setEntityManagerFactoryInterface
+ (Ljava/lang/Class<+Ljakarta/persistence/EntityManagerFactory;>;)V
+ (Ljava/lang/Class<+Ljakarta/persistence/EntityManagerFactory;>;)V
+setEntityManagerInitializer
+ (Ljava/util/function/Consumer<Ljakarta/persistence/EntityManager;>;)V
+ (Ljava/util/function/Consumer<Ljakarta/persistence/EntityManager;>;)V
+setEntityManagerInterface
+ (Ljava/lang/Class<+Ljakarta/persistence/EntityManager;>;)V
+ (Ljava/lang/Class<+Ljakarta/persistence/EntityManager;>;)V
+setJpaDialect
+ (Lorg/springframework/orm/jpa/JpaDialect;)V
+ (Lorg/springframework/orm/jpa/JpaDialect;)V
+setJpaProperties
+ (Ljava/util/Properties;)V
+ (Ljava/util/Properties;)V
+setJpaPropertyMap
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+setJpaVendorAdapter
+ (Lorg/springframework/orm/jpa/JpaVendorAdapter;)V
+ (Lorg/springframework/orm/jpa/JpaVendorAdapter;)V
+setPersistenceProvider
+ (Ljakarta/persistence/spi/PersistenceProvider;)V
+ (Ljakarta/persistence/spi/PersistenceProvider;)V
+setPersistenceProviderClass
+ (Ljava/lang/Class<+Ljakarta/persistence/spi/PersistenceProvider;>;)V
+ (Ljava/lang/Class<+Ljakarta/persistence/spi/PersistenceProvider;>;)V
+setPersistenceUnitName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+translateExceptionIfPossible
+ (Ljava/lang/RuntimeException;)Lorg/springframework/dao/DataAccessException;
+ (Ljava/lang/RuntimeException;)L0org/springframework/dao/DataAccessException; # @Inherited(org.springframework.dao.support.PersistenceExceptionTranslator)
+writeReplace
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;

@@ -1,0 +1,48 @@
+class org/springframework/expression/spel/support/SimpleEvaluationContext
+
+forPropertyAccessors
+ ([Lorg/springframework/expression/PropertyAccessor;)Lorg/springframework/expression/spel/support/SimpleEvaluationContext$Builder;
+ ([Lorg/springframework/expression/PropertyAccessor;)Lorg/springframework/expression/spel/support/SimpleEvaluationContext$Builder;
+forReadOnlyDataBinding
+ ()Lorg/springframework/expression/spel/support/SimpleEvaluationContext$Builder;
+ ()Lorg/springframework/expression/spel/support/SimpleEvaluationContext$Builder;
+forReadWriteDataBinding
+ ()Lorg/springframework/expression/spel/support/SimpleEvaluationContext$Builder;
+ ()Lorg/springframework/expression/spel/support/SimpleEvaluationContext$Builder;
+
+assignVariable
+ (Ljava/lang/String;Ljava/util/function/Supplier<Lorg/springframework/expression/TypedValue;>;)Lorg/springframework/expression/TypedValue;
+ (Ljava/lang/String;Ljava/util/function/Supplier<Lorg/springframework/expression/TypedValue;>;)Lorg/springframework/expression/TypedValue;
+getBeanResolver
+ ()Lorg/springframework/expression/BeanResolver;
+ ()L0org/springframework/expression/BeanResolver; # @Inherited(org.springframework.expression.EvaluationContext)
+getConstructorResolvers
+ ()Ljava/util/List<Lorg/springframework/expression/ConstructorResolver;>;
+ ()Ljava/util/List<Lorg/springframework/expression/ConstructorResolver;>;
+getMethodResolvers
+ ()Ljava/util/List<Lorg/springframework/expression/MethodResolver;>;
+ ()Ljava/util/List<Lorg/springframework/expression/MethodResolver;>;
+getOperatorOverloader
+ ()Lorg/springframework/expression/OperatorOverloader;
+ ()Lorg/springframework/expression/OperatorOverloader;
+getPropertyAccessors
+ ()Ljava/util/List<Lorg/springframework/expression/PropertyAccessor;>;
+ ()Ljava/util/List<Lorg/springframework/expression/PropertyAccessor;>;
+getRootObject
+ ()Lorg/springframework/expression/TypedValue;
+ ()Lorg/springframework/expression/TypedValue;
+getTypeComparator
+ ()Lorg/springframework/expression/TypeComparator;
+ ()Lorg/springframework/expression/TypeComparator;
+getTypeConverter
+ ()Lorg/springframework/expression/TypeConverter;
+ ()Lorg/springframework/expression/TypeConverter;
+getTypeLocator
+ ()Lorg/springframework/expression/TypeLocator;
+ ()Lorg/springframework/expression/TypeLocator;
+lookupVariable
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.expression.EvaluationContext)
+setVariable
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V

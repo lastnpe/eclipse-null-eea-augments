@@ -1,0 +1,14 @@
+class org/springframework/context/annotation/Jsr330ScopeMetadataResolver
+
+registerScope
+ (Ljava/lang/Class<*>;Ljava/lang/String;)V
+ (Ljava/lang/Class<*>;Ljava/lang/String;)V
+registerScope
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+resolveScopeMetadata
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)Lorg/springframework/context/annotation/ScopeMetadata;
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)Lorg/springframework/context/annotation/ScopeMetadata;
+resolveScopeName
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;

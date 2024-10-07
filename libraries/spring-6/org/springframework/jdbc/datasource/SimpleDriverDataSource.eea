@@ -1,0 +1,23 @@
+class org/springframework/jdbc/datasource/SimpleDriverDataSource
+
+<init>
+ (Ljava/sql/Driver;Ljava/lang/String;)V
+ (Ljava/sql/Driver;Ljava/lang/String;)V
+<init>
+ (Ljava/sql/Driver;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/sql/Driver;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/sql/Driver;Ljava/lang/String;Ljava/util/Properties;)V
+ (Ljava/sql/Driver;Ljava/lang/String;Ljava/util/Properties;)V
+getConnectionFromDriver
+ (Ljava/util/Properties;)Ljava/sql/Connection;
+ (Ljava/util/Properties;)Ljava/sql/Connection;
+getDriver
+ ()Ljava/sql/Driver;
+ ()L0java/sql/Driver;
+setDriver
+ (Ljava/sql/Driver;)V
+ (Ljava/sql/Driver;)V
+setDriverClass
+ (Ljava/lang/Class<+Ljava/sql/Driver;>;)V
+ (Ljava/lang/Class<+Ljava/sql/Driver;>;)V

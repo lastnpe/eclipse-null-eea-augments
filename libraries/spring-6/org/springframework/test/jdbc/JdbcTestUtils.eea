@@ -1,0 +1,32 @@
+class org/springframework/test/jdbc/JdbcTestUtils
+
+countRowsInTable
+ (Lorg/springframework/jdbc/core/JdbcOperations;Ljava/lang/String;)I
+ (Lorg/springframework/jdbc/core/JdbcOperations;Ljava/lang/String;)I
+countRowsInTable
+ (Lorg/springframework/jdbc/core/simple/JdbcClient;Ljava/lang/String;)I
+ (Lorg/springframework/jdbc/core/simple/JdbcClient;Ljava/lang/String;)I
+countRowsInTableWhere
+ (Lorg/springframework/jdbc/core/JdbcOperations;Ljava/lang/String;Ljava/lang/String;)I
+ (Lorg/springframework/jdbc/core/JdbcOperations;Ljava/lang/String;Ljava/lang/String;)I
+countRowsInTableWhere
+ (Lorg/springframework/jdbc/core/simple/JdbcClient;Ljava/lang/String;Ljava/lang/String;)I
+ (Lorg/springframework/jdbc/core/simple/JdbcClient;Ljava/lang/String;Ljava/lang/String;)I
+deleteFromTableWhere
+ (Lorg/springframework/jdbc/core/JdbcOperations;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)I
+ (Lorg/springframework/jdbc/core/JdbcOperations;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)I
+deleteFromTableWhere
+ (Lorg/springframework/jdbc/core/simple/JdbcClient;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)I
+ (Lorg/springframework/jdbc/core/simple/JdbcClient;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)I
+deleteFromTables
+ (Lorg/springframework/jdbc/core/JdbcOperations;[Ljava/lang/String;)I
+ (Lorg/springframework/jdbc/core/JdbcOperations;[Ljava/lang/String;)I
+deleteFromTables
+ (Lorg/springframework/jdbc/core/simple/JdbcClient;[Ljava/lang/String;)I
+ (Lorg/springframework/jdbc/core/simple/JdbcClient;[Ljava/lang/String;)I
+dropTables
+ (Lorg/springframework/jdbc/core/JdbcOperations;[Ljava/lang/String;)V
+ (Lorg/springframework/jdbc/core/JdbcOperations;[Ljava/lang/String;)V
+dropTables
+ (Lorg/springframework/jdbc/core/simple/JdbcClient;[Ljava/lang/String;)V
+ (Lorg/springframework/jdbc/core/simple/JdbcClient;[Ljava/lang/String;)V

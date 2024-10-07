@@ -1,0 +1,32 @@
+class org/springframework/mock/http/client/MockClientHttpRequest
+
+<init>
+ (Lorg/springframework/http/HttpMethod;Ljava/lang/String;[Ljava/lang/Object;)V
+ (Lorg/springframework/http/HttpMethod;Ljava/lang/String;[Ljava/lang/Object;)V
+<init>
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;)V
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;)V
+execute
+ ()Lorg/springframework/http/client/ClientHttpResponse;
+ ()Lorg/springframework/http/client/ClientHttpResponse;
+executeInternal
+ ()Lorg/springframework/http/client/ClientHttpResponse;
+ ()Lorg/springframework/http/client/ClientHttpResponse;
+getMethod
+ ()Lorg/springframework/http/HttpMethod;
+ ()Lorg/springframework/http/HttpMethod;
+getURI
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+setMethod
+ (Lorg/springframework/http/HttpMethod;)V
+ (Lorg/springframework/http/HttpMethod;)V
+setResponse
+ (Lorg/springframework/http/client/ClientHttpResponse;)V
+ (Lorg/springframework/http/client/ClientHttpResponse;)V
+setURI
+ (Ljava/net/URI;)V
+ (Ljava/net/URI;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

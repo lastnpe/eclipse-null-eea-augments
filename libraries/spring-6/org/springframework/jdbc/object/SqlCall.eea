@@ -1,0 +1,14 @@
+class org/springframework/jdbc/object/SqlCall
+
+<init>
+ (Ljavax/sql/DataSource;Ljava/lang/String;)V
+ (Ljavax/sql/DataSource;Ljava/lang/String;)V
+getCallString
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+newCallableStatementCreator
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/jdbc/core/CallableStatementCreator;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/jdbc/core/CallableStatementCreator;
+newCallableStatementCreator
+ (Lorg/springframework/jdbc/core/ParameterMapper;)Lorg/springframework/jdbc/core/CallableStatementCreator;
+ (Lorg/springframework/jdbc/core/ParameterMapper;)Lorg/springframework/jdbc/core/CallableStatementCreator;

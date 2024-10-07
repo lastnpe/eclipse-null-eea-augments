@@ -1,0 +1,26 @@
+class org/springframework/test/web/servlet/result/RequestResultMatchersDsl
+
+<init>
+ (Lorg/springframework/test/web/servlet/ResultActions;)V
+ (Lorg/springframework/test/web/servlet/ResultActions;)V
+asyncResult
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+asyncResult
+ <T:Ljava/lang/Object;>(Lorg/hamcrest/Matcher<TT;>;)V
+ <T:Ljava/lang/Object;>(Lorg/hamcrest/Matcher<TT;>;)V
+attribute
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+attribute
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<TT;>;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<TT;>;)V
+sessionAttribute
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+sessionAttribute
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<TT;>;)V
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<TT;>;)V
+sessionAttributeDoesNotExist
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V

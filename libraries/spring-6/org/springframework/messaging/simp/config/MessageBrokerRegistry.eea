@@ -1,0 +1,56 @@
+class org/springframework/messaging/simp/config/MessageBrokerRegistry
+
+<init>
+ (Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/MessageChannel;)V
+ (Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/MessageChannel;)V
+configureBrokerChannel
+ ()Lorg/springframework/messaging/simp/config/ChannelRegistration;
+ ()Lorg/springframework/messaging/simp/config/ChannelRegistration;
+enableSimpleBroker
+ ([Ljava/lang/String;)Lorg/springframework/messaging/simp/config/SimpleBrokerRegistration;
+ ([Ljava/lang/String;)Lorg/springframework/messaging/simp/config/SimpleBrokerRegistration;
+enableStompBrokerRelay
+ ([Ljava/lang/String;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+ ([Ljava/lang/String;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+getApplicationDestinationPrefixes
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+ ()L0java/util/Collection<Ljava/lang/String;>;
+getBrokerChannelRegistration
+ ()Lorg/springframework/messaging/simp/config/ChannelRegistration;
+ ()Lorg/springframework/messaging/simp/config/ChannelRegistration;
+getPathMatcher
+ ()Lorg/springframework/util/PathMatcher;
+ ()L0org/springframework/util/PathMatcher;
+getSimpleBroker
+ (Lorg/springframework/messaging/SubscribableChannel;)Lorg/springframework/messaging/simp/broker/SimpleBrokerMessageHandler;
+ (Lorg/springframework/messaging/SubscribableChannel;)L0org/springframework/messaging/simp/broker/SimpleBrokerMessageHandler;
+getStompBrokerRelay
+ (Lorg/springframework/messaging/SubscribableChannel;)Lorg/springframework/messaging/simp/stomp/StompBrokerRelayMessageHandler;
+ (Lorg/springframework/messaging/SubscribableChannel;)L0org/springframework/messaging/simp/stomp/StompBrokerRelayMessageHandler;
+getUserDestinationBroadcast
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getUserDestinationPrefix
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getUserRegistryBroadcast
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getUserRegistryOrder
+ ()Ljava/lang/Integer;
+ ()L0java/lang/Integer;
+setApplicationDestinationPrefixes
+ ([Ljava/lang/String;)Lorg/springframework/messaging/simp/config/MessageBrokerRegistry;
+ ([Ljava/lang/String;)Lorg/springframework/messaging/simp/config/MessageBrokerRegistry;
+setCacheLimit
+ (I)Lorg/springframework/messaging/simp/config/MessageBrokerRegistry;
+ (I)Lorg/springframework/messaging/simp/config/MessageBrokerRegistry;
+setPathMatcher
+ (Lorg/springframework/util/PathMatcher;)Lorg/springframework/messaging/simp/config/MessageBrokerRegistry;
+ (Lorg/springframework/util/PathMatcher;)Lorg/springframework/messaging/simp/config/MessageBrokerRegistry;
+setPreservePublishOrder
+ (Z)Lorg/springframework/messaging/simp/config/MessageBrokerRegistry;
+ (Z)Lorg/springframework/messaging/simp/config/MessageBrokerRegistry;
+setUserDestinationPrefix
+ (Ljava/lang/String;)Lorg/springframework/messaging/simp/config/MessageBrokerRegistry;
+ (Ljava/lang/String;)Lorg/springframework/messaging/simp/config/MessageBrokerRegistry;

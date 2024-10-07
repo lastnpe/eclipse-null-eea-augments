@@ -1,0 +1,27 @@
+class org/springframework/test/web/client/MockRestServiceServer
+
+bindTo
+ (Lorg/springframework/web/client/RestClient$Builder;)Lorg/springframework/test/web/client/MockRestServiceServer$MockRestServiceServerBuilder;
+ (Lorg/springframework/web/client/RestClient$Builder;)Lorg/springframework/test/web/client/MockRestServiceServer$MockRestServiceServerBuilder;
+bindTo
+ (Lorg/springframework/web/client/RestTemplate;)Lorg/springframework/test/web/client/MockRestServiceServer$MockRestServiceServerBuilder;
+ (Lorg/springframework/web/client/RestTemplate;)Lorg/springframework/test/web/client/MockRestServiceServer$MockRestServiceServerBuilder;
+bindTo
+ (Lorg/springframework/web/client/support/RestGatewaySupport;)Lorg/springframework/test/web/client/MockRestServiceServer$MockRestServiceServerBuilder;
+ (Lorg/springframework/web/client/support/RestGatewaySupport;)Lorg/springframework/test/web/client/MockRestServiceServer$MockRestServiceServerBuilder;
+createServer
+ (Lorg/springframework/web/client/RestTemplate;)Lorg/springframework/test/web/client/MockRestServiceServer;
+ (Lorg/springframework/web/client/RestTemplate;)Lorg/springframework/test/web/client/MockRestServiceServer;
+createServer
+ (Lorg/springframework/web/client/support/RestGatewaySupport;)Lorg/springframework/test/web/client/MockRestServiceServer;
+ (Lorg/springframework/web/client/support/RestGatewaySupport;)Lorg/springframework/test/web/client/MockRestServiceServer;
+
+expect
+ (Lorg/springframework/test/web/client/ExpectedCount;Lorg/springframework/test/web/client/RequestMatcher;)Lorg/springframework/test/web/client/ResponseActions;
+ (Lorg/springframework/test/web/client/ExpectedCount;Lorg/springframework/test/web/client/RequestMatcher;)Lorg/springframework/test/web/client/ResponseActions;
+expect
+ (Lorg/springframework/test/web/client/RequestMatcher;)Lorg/springframework/test/web/client/ResponseActions;
+ (Lorg/springframework/test/web/client/RequestMatcher;)Lorg/springframework/test/web/client/ResponseActions;
+verify
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V

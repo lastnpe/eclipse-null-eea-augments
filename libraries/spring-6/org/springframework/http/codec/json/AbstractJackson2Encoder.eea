@@ -1,0 +1,45 @@
+class org/springframework/http/codec/json/AbstractJackson2Encoder
+
+super org/springframework/http/codec/HttpMessageEncoder
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+<init>
+ (Lcom/fasterxml/jackson/databind/ObjectMapper;[Lorg/springframework/util/MimeType;)V
+ (Lcom/fasterxml/jackson/databind/ObjectMapper;[Lorg/springframework/util/MimeType;)V
+canEncode
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Z
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Z
+customizeWriter
+ (Lcom/fasterxml/jackson/databind/ObjectWriter;Lorg/springframework/util/MimeType;Lorg/springframework/core/ResolvableType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lcom/fasterxml/jackson/databind/ObjectWriter;
+ (Lcom/fasterxml/jackson/databind/ObjectWriter;Lorg/springframework/util/MimeType;Lorg/springframework/core/ResolvableType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lcom/fasterxml/jackson/databind/ObjectWriter;
+encode
+ (Lorg/reactivestreams/Publisher<*>;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+ (Lorg/reactivestreams/Publisher<*>;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+encodeValue
+ (Ljava/lang/Object;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/springframework/core/io/buffer/DataBuffer;
+ (Ljava/lang/Object;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/springframework/core/io/buffer/DataBuffer;
+getAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(Lorg/springframework/core/MethodParameter;Ljava/lang/Class<TA;>;)TA;
+ <A::Ljava/lang/annotation/Annotation;>(Lorg/springframework/core/MethodParameter;Ljava/lang/Class<TA;>;)T0A; # @Inherited(org.springframework.http.codec.json.Jackson2CodecSupport)
+getEncodableMimeTypes
+ ()Ljava/util/List<Lorg/springframework/util/MimeType;>;
+ ()Ljava/util/List<Lorg/springframework/util/MimeType;>;
+getEncodableMimeTypes
+ (Lorg/springframework/core/ResolvableType;)Ljava/util/List<Lorg/springframework/util/MimeType;>;
+ (Lorg/springframework/core/ResolvableType;)Ljava/util/List<Lorg/springframework/util/MimeType;>;
+getEncodeHints
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/core/ResolvableType;Lorg/springframework/http/MediaType;Lorg/springframework/http/server/reactive/ServerHttpRequest;Lorg/springframework/http/server/reactive/ServerHttpResponse;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/core/ResolvableType;Lorg/springframework/http/MediaType;Lorg/springframework/http/server/reactive/ServerHttpRequest;Lorg/springframework/http/server/reactive/ServerHttpResponse;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getJsonEncoding
+ (Lorg/springframework/util/MimeType;)Lcom/fasterxml/jackson/core/JsonEncoding;
+ (Lorg/springframework/util/MimeType;)Lcom/fasterxml/jackson/core/JsonEncoding;
+getStreamingMediaTypeSeparator
+ (Lorg/springframework/util/MimeType;)[B
+ (Lorg/springframework/util/MimeType;)[0B
+getStreamingMediaTypes
+ ()Ljava/util/List<Lorg/springframework/http/MediaType;>;
+ ()Ljava/util/List<Lorg/springframework/http/MediaType;>;
+setStreamingMediaTypes
+ (Ljava/util/List<Lorg/springframework/http/MediaType;>;)V
+ (Ljava/util/List<Lorg/springframework/http/MediaType;>;)V

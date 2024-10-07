@@ -1,0 +1,24 @@
+class org/springframework/context/weaving/DefaultContextLoadTimeWeaver
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+<init>
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+addTransformer
+ (Ljava/lang/instrument/ClassFileTransformer;)V
+ (Ljava/lang/instrument/ClassFileTransformer;)V
+createServerSpecificLoadTimeWeaver
+ (Ljava/lang/ClassLoader;)Lorg/springframework/instrument/classloading/LoadTimeWeaver;
+ (Ljava/lang/ClassLoader;)L0org/springframework/instrument/classloading/LoadTimeWeaver;
+getInstrumentableClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()Ljava/lang/ClassLoader;
+getThrowawayClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()Ljava/lang/ClassLoader;
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V

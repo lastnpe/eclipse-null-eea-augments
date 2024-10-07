@@ -1,0 +1,59 @@
+class org/springframework/jdbc/core/simple/SimpleJdbcCallOperations
+
+declareParameters
+ ([Lorg/springframework/jdbc/core/SqlParameter;)Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;
+ ([Lorg/springframework/jdbc/core/SqlParameter;)Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;
+execute
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+execute
+ (Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ (Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+execute
+ ([Ljava/lang/Object;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ([Ljava/lang/Object;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+executeFunction
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)TT;
+executeFunction
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)TT;
+executeFunction
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;[Ljava/lang/Object;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;[Ljava/lang/Object;)TT;
+executeObject
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/Map<Ljava/lang/String;*>;)TT;
+executeObject
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)TT;
+executeObject
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;[Ljava/lang/Object;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;[Ljava/lang/Object;)TT;
+returningResultSet
+ (Ljava/lang/String;Lorg/springframework/jdbc/core/RowMapper<*>;)Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;
+ (Ljava/lang/String;Lorg/springframework/jdbc/core/RowMapper<*>;)Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;
+useInParameterNames
+ ([Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;
+ ([Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;
+withCatalogName
+ (Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;
+ (Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;
+withFunctionName
+ (Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;
+ (Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;
+withNamedBinding
+ ()Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;
+ ()Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;
+withProcedureName
+ (Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;
+ (Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;
+withReturnValue
+ ()Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;
+ ()Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;
+withSchemaName
+ (Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;
+ (Ljava/lang/String;)Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;
+withoutProcedureColumnMetaDataAccess
+ ()Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;
+ ()Lorg/springframework/jdbc/core/simple/SimpleJdbcCallOperations;

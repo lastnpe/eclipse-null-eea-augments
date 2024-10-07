@@ -1,0 +1,12 @@
+class org/springframework/messaging/handler/invocation/reactive/HandlerMethodReturnValueHandler
+
+DATA_BUFFER_FACTORY_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+
+handleReturnValue
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+supportsReturnType
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z

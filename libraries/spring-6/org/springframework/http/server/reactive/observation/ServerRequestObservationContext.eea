@@ -1,0 +1,26 @@
+class org/springframework/http/server/reactive/observation/ServerRequestObservationContext
+
+super io/micrometer/observation/transport/RequestReplyReceiverContext
+ <Lorg/springframework/http/server/reactive/ServerHttpRequest;Lorg/springframework/http/server/reactive/ServerHttpResponse;>
+ <Lorg/springframework/http/server/reactive/ServerHttpRequest;Lorg/springframework/http/server/reactive/ServerHttpResponse;>
+
+CURRENT_OBSERVATION_CONTEXT_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+findCurrent
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Ljava/util/Optional<Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;>;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Ljava/util/Optional<Lorg/springframework/http/server/reactive/observation/ServerRequestObservationContext;>;
+
+<init>
+ (Lorg/springframework/http/server/reactive/ServerHttpRequest;Lorg/springframework/http/server/reactive/ServerHttpResponse;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+ (Lorg/springframework/http/server/reactive/ServerHttpRequest;Lorg/springframework/http/server/reactive/ServerHttpResponse;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+getAttributes
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getPathPattern
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+setPathPattern
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

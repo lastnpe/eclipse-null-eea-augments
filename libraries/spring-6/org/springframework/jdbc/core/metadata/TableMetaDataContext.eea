@@ -1,0 +1,48 @@
+class org/springframework/jdbc/core/metadata/TableMetaDataContext
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+createInsertString
+ ([Ljava/lang/String;)Ljava/lang/String;
+ ([Ljava/lang/String;)Ljava/lang/String;
+createInsertTypes
+ ()[I
+ ()[I
+getCatalogName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getSchemaName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getSimpleQueryForGetGeneratedKey
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)L0java/lang/String;
+getTableColumns
+ ()Ljava/util/List<Ljava/lang/String;>;
+ ()Ljava/util/List<Ljava/lang/String;>;
+getTableName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+matchInParameterValuesWithInsertColumns
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljava/util/List<Ljava/lang/Object;>;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Ljava/util/List<Ljava/lang/Object;>;
+matchInParameterValuesWithInsertColumns
+ (Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)Ljava/util/List<Ljava/lang/Object;>;
+ (Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;)Ljava/util/List<Ljava/lang/Object;>;
+processMetaData
+ (Ljavax/sql/DataSource;Ljava/util/List<Ljava/lang/String;>;[Ljava/lang/String;)V
+ (Ljavax/sql/DataSource;Ljava/util/List<Ljava/lang/String;>;[Ljava/lang/String;)V
+reconcileColumnsToUse
+ (Ljava/util/List<Ljava/lang/String;>;[Ljava/lang/String;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/util/List<Ljava/lang/String;>;[Ljava/lang/String;)Ljava/util/List<Ljava/lang/String;>;
+setCatalogName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSchemaName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setTableName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

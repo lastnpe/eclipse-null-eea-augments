@@ -1,0 +1,33 @@
+class org/springframework/ui/ModelMap
+
+super java/util/LinkedHashMap
+ <Ljava/lang/String;Ljava/lang/Object;>
+ <Ljava/lang/String;Ljava/lang/Object;>
+
+<init>
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+addAllAttributes
+ (Ljava/util/Collection<*>;)Lorg/springframework/ui/ModelMap;
+ (Ljava/util/Collection<*>;)Lorg/springframework/ui/ModelMap;
+addAllAttributes
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/ui/ModelMap;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/ui/ModelMap;
+addAttribute
+ (Ljava/lang/Object;)Lorg/springframework/ui/ModelMap;
+ (Ljava/lang/Object;)Lorg/springframework/ui/ModelMap;
+addAttribute
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/ui/ModelMap;
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/ui/ModelMap;
+containsAttribute
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object;
+mergeAttributes
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/ui/ModelMap;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/ui/ModelMap;

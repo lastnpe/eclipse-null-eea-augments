@@ -1,0 +1,17 @@
+class org/springframework/web/context/support/ContextExposingHttpServletRequest
+
+<init>
+ (Ljakarta/servlet/http/HttpServletRequest;Lorg/springframework/web/context/WebApplicationContext;)V
+ (Ljakarta/servlet/http/HttpServletRequest;Lorg/springframework/web/context/WebApplicationContext;)V
+<init>
+ (Ljakarta/servlet/http/HttpServletRequest;Lorg/springframework/web/context/WebApplicationContext;Ljava/util/Set<Ljava/lang/String;>;)V
+ (Ljakarta/servlet/http/HttpServletRequest;Lorg/springframework/web/context/WebApplicationContext;Ljava/util/Set<Ljava/lang/String;>;)V
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object;
+getWebApplicationContext
+ ()Lorg/springframework/web/context/WebApplicationContext;
+ ()Lorg/springframework/web/context/WebApplicationContext;
+setAttribute
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V

@@ -1,0 +1,43 @@
+class org/springframework/web/util/CookieGenerator
+
+DEFAULT_COOKIE_PATH
+ Ljava/lang/String;
+ L1java/lang/String;
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+addCookie
+ (Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/String;)V
+ (Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/String;)V
+createCookie
+ (Ljava/lang/String;)Ljakarta/servlet/http/Cookie;
+ (Ljava/lang/String;)Ljakarta/servlet/http/Cookie;
+getCookieDomain
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getCookieMaxAge
+ ()Ljava/lang/Integer;
+ ()L0java/lang/Integer;
+getCookieName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getCookiePath
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+removeCookie
+ (Ljakarta/servlet/http/HttpServletResponse;)V
+ (Ljakarta/servlet/http/HttpServletResponse;)V
+setCookieDomain
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setCookieMaxAge
+ (Ljava/lang/Integer;)V
+ (Ljava/lang/Integer;)V
+setCookieName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setCookiePath
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

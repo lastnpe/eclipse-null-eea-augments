@@ -1,0 +1,47 @@
+class org/springframework/messaging/simp/broker/SimpleBrokerMessageHandler
+
+<init>
+ (Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/MessageChannel;Lorg/springframework/messaging/SubscribableChannel;Ljava/util/Collection<Ljava/lang/String;>;)V
+ (Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/MessageChannel;Lorg/springframework/messaging/SubscribableChannel;Ljava/util/Collection<Ljava/lang/String;>;)V
+getHeaderInitializer
+ ()Lorg/springframework/messaging/support/MessageHeaderInitializer;
+ ()L0org/springframework/messaging/support/MessageHeaderInitializer;
+getHeartbeatValue
+ ()[J
+ ()[0J
+getSubscriptionRegistry
+ ()Lorg/springframework/messaging/simp/broker/SubscriptionRegistry;
+ ()Lorg/springframework/messaging/simp/broker/SubscriptionRegistry;
+getTaskScheduler
+ ()Lorg/springframework/scheduling/TaskScheduler;
+ ()L0org/springframework/scheduling/TaskScheduler;
+handleMessageInternal
+ (Lorg/springframework/messaging/Message<*>;)V
+ (Lorg/springframework/messaging/Message<*>;)V
+sendMessageToSubscribers
+ (Ljava/lang/String;Lorg/springframework/messaging/Message<*>;)V
+ (Ljava/lang/String;Lorg/springframework/messaging/Message<*>;)V
+setCacheLimit
+ (Ljava/lang/Integer;)V
+ (Ljava/lang/Integer;)V
+setHeaderInitializer
+ (Lorg/springframework/messaging/support/MessageHeaderInitializer;)V
+ (Lorg/springframework/messaging/support/MessageHeaderInitializer;)V
+setHeartbeatValue
+ ([J)V
+ ([J)V
+setPathMatcher
+ (Lorg/springframework/util/PathMatcher;)V
+ (Lorg/springframework/util/PathMatcher;)V
+setSelectorHeaderName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSubscriptionRegistry
+ (Lorg/springframework/messaging/simp/broker/SubscriptionRegistry;)V
+ (Lorg/springframework/messaging/simp/broker/SubscriptionRegistry;)V
+setTaskScheduler
+ (Lorg/springframework/scheduling/TaskScheduler;)V
+ (Lorg/springframework/scheduling/TaskScheduler;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

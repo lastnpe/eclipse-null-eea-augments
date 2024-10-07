@@ -1,0 +1,122 @@
+class org/springframework/mock/web/MockHttpServletResponse
+
+addCookie
+ (Ljakarta/servlet/http/Cookie;)V
+ (Ljakarta/servlet/http/Cookie;)V
+addDateHeader
+ (Ljava/lang/String;J)V
+ (Ljava/lang/String;J)V
+addHeader
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+addIncludedUrl
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+addIntHeader
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+containsHeader
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+encodeRedirectURL
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+encodeURL
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getCharacterEncoding
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getContentAsByteArray
+ ()[B
+ ()[B
+getContentAsString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getContentAsString
+ (Ljava/nio/charset/Charset;)Ljava/lang/String;
+ (Ljava/nio/charset/Charset;)Ljava/lang/String;
+getContentType
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getCookie
+ (Ljava/lang/String;)Ljakarta/servlet/http/Cookie;
+ (Ljava/lang/String;)L0jakarta/servlet/http/Cookie;
+getCookies
+ ()[Ljakarta/servlet/http/Cookie;
+ ()[Ljakarta/servlet/http/Cookie;
+getDateHeader
+ (Ljava/lang/String;)J
+ (Ljava/lang/String;)J
+getErrorMessage
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getForwardedUrl
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getHeader
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+getHeaderNames
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+getHeaderValue
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object;
+getHeaderValues
+ (Ljava/lang/String;)Ljava/util/List<Ljava/lang/Object;>;
+ (Ljava/lang/String;)Ljava/util/List<Ljava/lang/Object;>;
+getHeaders
+ (Ljava/lang/String;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/lang/String;)Ljava/util/List<Ljava/lang/String;>;
+getIncludedUrl
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getIncludedUrls
+ ()Ljava/util/List<Ljava/lang/String;>;
+ ()Ljava/util/List<Ljava/lang/String;>;
+getLocale
+ ()Ljava/util/Locale;
+ ()Ljava/util/Locale;
+getOutputStream
+ ()Ljakarta/servlet/ServletOutputStream;
+ ()Ljakarta/servlet/ServletOutputStream;
+getRedirectedUrl
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getWriter
+ ()Ljava/io/PrintWriter;
+ ()Ljava/io/PrintWriter;
+sendError
+ (ILjava/lang/String;)V
+ (ILjava/lang/String;)V
+sendRedirect
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setCharacterEncoding
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setContentType
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setDateHeader
+ (Ljava/lang/String;J)V
+ (Ljava/lang/String;J)V
+setDefaultCharacterEncoding
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setForwardedUrl
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setHeader
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+setIncludedUrl
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setIntHeader
+ (Ljava/lang/String;I)V
+ (Ljava/lang/String;I)V
+setLocale
+ (Ljava/util/Locale;)V
+ (Ljava/util/Locale;)V

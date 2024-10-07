@@ -1,0 +1,38 @@
+class org/springframework/mock/http/client/reactive/MockClientHttpRequest
+
+<init>
+ (Lorg/springframework/http/HttpMethod;Ljava/lang/String;[Ljava/lang/Object;)V
+ (Lorg/springframework/http/HttpMethod;Ljava/lang/String;[Ljava/lang/Object;)V
+<init>
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;)V
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;)V
+bufferFactory
+ ()Lorg/springframework/core/io/buffer/DataBufferFactory;
+ ()Lorg/springframework/core/io/buffer/DataBufferFactory;
+getBody
+ ()Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+ ()Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+getBodyAsString
+ ()Lreactor/core/publisher/Mono<Ljava/lang/String;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/String;>;
+getMethod
+ ()Lorg/springframework/http/HttpMethod;
+ ()Lorg/springframework/http/HttpMethod;
+getNativeRequest
+ <T:Ljava/lang/Object;>()TT;
+ <T:Ljava/lang/Object;>()TT;
+getURI
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+setComplete
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+setWriteHandler
+ (Ljava/util/function/Function<Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>;)V
+ (Ljava/util/function/Function<Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>;)V
+writeAndFlushWith
+ (Lorg/reactivestreams/Publisher<+Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/reactivestreams/Publisher<+Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+writeWith
+ (Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;

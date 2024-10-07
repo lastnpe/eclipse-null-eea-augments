@@ -1,0 +1,34 @@
+class org/springframework/http/RequestEntity$HeadersBuilder
+ <B::Lorg/springframework/http/RequestEntity$HeadersBuilder<TB;>;>
+ <B::Lorg/springframework/http/RequestEntity$HeadersBuilder<TB;>;>
+
+accept
+ ([Lorg/springframework/http/MediaType;)TB;
+ ([Lorg/springframework/http/MediaType;)T1B;
+acceptCharset
+ ([Ljava/nio/charset/Charset;)TB;
+ ([Ljava/nio/charset/Charset;)T1B;
+build
+ ()Lorg/springframework/http/RequestEntity<Ljava/lang/Void;>;
+ ()L1org/springframework/http/RequestEntity<Ljava/lang/Void;>;
+header
+ (Ljava/lang/String;[Ljava/lang/String;)TB;
+ (Ljava/lang/String;[Ljava/lang/String;)T1B;
+headers
+ (Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)TB;
+ (Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)T1B;
+headers
+ (Lorg/springframework/http/HttpHeaders;)TB;
+ (Lorg/springframework/http/HttpHeaders;)T1B;
+ifModifiedSince
+ (J)TB;
+ (J)T1B;
+ifModifiedSince
+ (Ljava/time/Instant;)TB;
+ (Ljava/time/Instant;)T1B;
+ifModifiedSince
+ (Ljava/time/ZonedDateTime;)TB;
+ (Ljava/time/ZonedDateTime;)T1B;
+ifNoneMatch
+ ([Ljava/lang/String;)TB;
+ ([Ljava/lang/String;)T1B;

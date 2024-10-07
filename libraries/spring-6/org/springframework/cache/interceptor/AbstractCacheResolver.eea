@@ -1,0 +1,17 @@
+class org/springframework/cache/interceptor/AbstractCacheResolver
+
+<init>
+ (Lorg/springframework/cache/CacheManager;)V
+ (Lorg/springframework/cache/CacheManager;)V
+getCacheManager
+ ()Lorg/springframework/cache/CacheManager;
+ ()Lorg/springframework/cache/CacheManager;
+getCacheNames
+ (Lorg/springframework/cache/interceptor/CacheOperationInvocationContext<*>;)Ljava/util/Collection<Ljava/lang/String;>;
+ (Lorg/springframework/cache/interceptor/CacheOperationInvocationContext<*>;)L0java/util/Collection<Ljava/lang/String;>;
+resolveCaches
+ (Lorg/springframework/cache/interceptor/CacheOperationInvocationContext<*>;)Ljava/util/Collection<+Lorg/springframework/cache/Cache;>;
+ (Lorg/springframework/cache/interceptor/CacheOperationInvocationContext<*>;)Ljava/util/Collection<+Lorg/springframework/cache/Cache;>;
+setCacheManager
+ (Lorg/springframework/cache/CacheManager;)V
+ (Lorg/springframework/cache/CacheManager;)V

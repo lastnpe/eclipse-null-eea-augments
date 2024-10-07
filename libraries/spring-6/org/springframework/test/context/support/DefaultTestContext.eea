@@ -1,0 +1,56 @@
+class org/springframework/test/context/support/DefaultTestContext
+
+<init>
+ (Ljava/lang/Class<*>;Lorg/springframework/test/context/MergedContextConfiguration;Lorg/springframework/test/context/CacheAwareContextLoaderDelegate;)V
+ (Ljava/lang/Class<*>;Lorg/springframework/test/context/MergedContextConfiguration;Lorg/springframework/test/context/CacheAwareContextLoaderDelegate;)V
+<init>
+ (Lorg/springframework/test/context/support/DefaultTestContext;)V
+ (Lorg/springframework/test/context/support/DefaultTestContext;)V
+attributeNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+computeAttribute
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/util/function/Function<Ljava/lang/String;TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Ljava/util/function/Function<Ljava/lang/String;TT;>;)TT;
+getApplicationContext
+ ()Lorg/springframework/context/ApplicationContext;
+ ()Lorg/springframework/context/ApplicationContext;
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.core.AttributeAccessor)
+getMethodInvoker
+ ()Lorg/springframework/test/context/MethodInvoker;
+ ()Lorg/springframework/test/context/MethodInvoker;
+getTestClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getTestException
+ ()Ljava/lang/Throwable;
+ ()L0java/lang/Throwable; # @Inherited(org.springframework.test.context.TestContext)
+getTestInstance
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getTestMethod
+ ()Ljava/lang/reflect/Method;
+ ()Ljava/lang/reflect/Method;
+hasAttribute
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+markApplicationContextDirty
+ (Lorg/springframework/test/annotation/DirtiesContext$HierarchyMode;)V
+ (Lorg/springframework/test/annotation/DirtiesContext$HierarchyMode;)V
+removeAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.core.AttributeAccessor)
+setAttribute
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+setMethodInvoker
+ (Lorg/springframework/test/context/MethodInvoker;)V
+ (Lorg/springframework/test/context/MethodInvoker;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+updateState
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;Ljava/lang/Throwable;)V
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;Ljava/lang/Throwable;)V

@@ -1,0 +1,53 @@
+class org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder
+
+<init>
+ (Lorg/springframework/core/io/ResourceLoader;)V
+ (Lorg/springframework/core/io/ResourceLoader;)V
+addDefaultScripts
+ ()Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+ ()L1org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+addScript
+ (Ljava/lang/String;)Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+ (Ljava/lang/String;)L1org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+addScripts
+ ([Ljava/lang/String;)Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+ ([Ljava/lang/String;)L1org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+build
+ ()Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabase;
+ ()L1org/springframework/jdbc/datasource/embedded/EmbeddedDatabase;
+continueOnError
+ (Z)Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+ (Z)L1org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+generateUniqueName
+ (Z)Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+ (Z)L1org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+ignoreFailedDrops
+ (Z)Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+ (Z)L1org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+setBlockCommentEndDelimiter
+ (Ljava/lang/String;)Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+ (Ljava/lang/String;)L1org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+setBlockCommentStartDelimiter
+ (Ljava/lang/String;)Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+ (Ljava/lang/String;)L1org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+setCommentPrefix
+ (Ljava/lang/String;)Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+ (Ljava/lang/String;)L1org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+setCommentPrefixes
+ ([Ljava/lang/String;)Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+ ([Ljava/lang/String;)L1org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+setDataSourceFactory
+ (Lorg/springframework/jdbc/datasource/embedded/DataSourceFactory;)Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+ (Lorg/springframework/jdbc/datasource/embedded/DataSourceFactory;)L1org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+setName
+ (Ljava/lang/String;)Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+ (Ljava/lang/String;)L1org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+setScriptEncoding
+ (Ljava/lang/String;)Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+ (Ljava/lang/String;)L1org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+setSeparator
+ (Ljava/lang/String;)Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+ (Ljava/lang/String;)L1org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+setType
+ (Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseType;)Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;
+ (Lorg/springframework/jdbc/datasource/embedded/EmbeddedDatabaseType;)L1org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseBuilder;

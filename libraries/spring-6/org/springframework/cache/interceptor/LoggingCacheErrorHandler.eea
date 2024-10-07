@@ -1,0 +1,26 @@
+class org/springframework/cache/interceptor/LoggingCacheErrorHandler
+
+<init>
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+<init>
+ (Lorg/apache/commons/logging/Log;Z)V
+ (Lorg/apache/commons/logging/Log;Z)V
+getLogger
+ ()Lorg/apache/commons/logging/Log;
+ ()Lorg/apache/commons/logging/Log;
+handleCacheClearError
+ (Ljava/lang/RuntimeException;Lorg/springframework/cache/Cache;)V
+ (Ljava/lang/RuntimeException;Lorg/springframework/cache/Cache;)V
+handleCacheEvictError
+ (Ljava/lang/RuntimeException;Lorg/springframework/cache/Cache;Ljava/lang/Object;)V
+ (Ljava/lang/RuntimeException;Lorg/springframework/cache/Cache;Ljava/lang/Object;)V
+handleCacheGetError
+ (Ljava/lang/RuntimeException;Lorg/springframework/cache/Cache;Ljava/lang/Object;)V
+ (Ljava/lang/RuntimeException;Lorg/springframework/cache/Cache;Ljava/lang/Object;)V
+handleCachePutError
+ (Ljava/lang/RuntimeException;Lorg/springframework/cache/Cache;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/RuntimeException;Lorg/springframework/cache/Cache;Ljava/lang/Object;Ljava/lang/Object;)V
+logCacheError
+ (Ljava/util/function/Supplier<Ljava/lang/String;>;Ljava/lang/RuntimeException;)V
+ (Ljava/util/function/Supplier<Ljava/lang/String;>;Ljava/lang/RuntimeException;)V

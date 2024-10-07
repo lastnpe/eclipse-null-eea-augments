@@ -1,0 +1,32 @@
+class org/springframework/messaging/simp/user/UserDestinationMessageHandler
+
+<init>
+ (Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/simp/user/UserDestinationResolver;)V
+ (Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/simp/user/UserDestinationResolver;)V
+getBroadcastDestination
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getBrokerMessagingTemplate
+ ()Lorg/springframework/messaging/core/MessageSendingOperations<Ljava/lang/String;>;
+ ()Lorg/springframework/messaging/core/MessageSendingOperations<Ljava/lang/String;>;
+getHeaderInitializer
+ ()Lorg/springframework/messaging/support/MessageHeaderInitializer;
+ ()L0org/springframework/messaging/support/MessageHeaderInitializer;
+getUserDestinationResolver
+ ()Lorg/springframework/messaging/simp/user/UserDestinationResolver;
+ ()Lorg/springframework/messaging/simp/user/UserDestinationResolver;
+handleMessage
+ (Lorg/springframework/messaging/Message<*>;)V
+ (Lorg/springframework/messaging/Message<*>;)V
+setBroadcastDestination
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setHeaderInitializer
+ (Lorg/springframework/messaging/support/MessageHeaderInitializer;)V
+ (Lorg/springframework/messaging/support/MessageHeaderInitializer;)V
+stop
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

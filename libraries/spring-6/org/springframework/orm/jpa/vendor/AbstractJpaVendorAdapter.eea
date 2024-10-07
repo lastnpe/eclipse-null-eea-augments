@@ -1,0 +1,38 @@
+class org/springframework/orm/jpa/vendor/AbstractJpaVendorAdapter
+
+getDatabase
+ ()Lorg/springframework/orm/jpa/vendor/Database;
+ ()Lorg/springframework/orm/jpa/vendor/Database;
+getDatabasePlatform
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getEntityManagerFactoryInterface
+ ()Ljava/lang/Class<+Ljakarta/persistence/EntityManagerFactory;>;
+ ()Ljava/lang/Class<+Ljakarta/persistence/EntityManagerFactory;>;
+getEntityManagerInterface
+ ()Ljava/lang/Class<+Ljakarta/persistence/EntityManager;>;
+ ()Ljava/lang/Class<+Ljakarta/persistence/EntityManager;>;
+getJpaDialect
+ ()Lorg/springframework/orm/jpa/JpaDialect;
+ ()L0org/springframework/orm/jpa/JpaDialect; # @Inherited(org.springframework.orm.jpa.JpaVendorAdapter)
+getJpaPropertyMap
+ ()Ljava/util/Map<Ljava/lang/String;*>;
+ ()Ljava/util/Map<Ljava/lang/String;*>;
+getJpaPropertyMap
+ (Ljakarta/persistence/spi/PersistenceUnitInfo;)Ljava/util/Map<Ljava/lang/String;*>;
+ (Ljakarta/persistence/spi/PersistenceUnitInfo;)Ljava/util/Map<Ljava/lang/String;*>;
+getPersistenceProviderRootPackage
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.orm.jpa.JpaVendorAdapter)
+postProcessEntityManager
+ (Ljakarta/persistence/EntityManager;)V
+ (Ljakarta/persistence/EntityManager;)V
+postProcessEntityManagerFactory
+ (Ljakarta/persistence/EntityManagerFactory;)V
+ (Ljakarta/persistence/EntityManagerFactory;)V
+setDatabase
+ (Lorg/springframework/orm/jpa/vendor/Database;)V
+ (Lorg/springframework/orm/jpa/vendor/Database;)V
+setDatabasePlatform
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

@@ -1,0 +1,50 @@
+class org/springframework/web/service/invoker/AbstractReactorHttpExchangeAdapter
+
+exchange
+ (Lorg/springframework/web/service/invoker/HttpRequestValues;)V
+ (Lorg/springframework/web/service/invoker/HttpRequestValues;)V
+exchangeForBodilessEntity
+ (Lorg/springframework/web/service/invoker/HttpRequestValues;)Lorg/springframework/http/ResponseEntity<Ljava/lang/Void;>;
+ (Lorg/springframework/web/service/invoker/HttpRequestValues;)Lorg/springframework/http/ResponseEntity<Ljava/lang/Void;>;
+exchangeForBody
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/service/invoker/HttpRequestValues;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/service/invoker/HttpRequestValues;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)T0T; # @Inherited(org.springframework.web.service.invoker.HttpExchangeAdapter)
+exchangeForEntity
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/service/invoker/HttpRequestValues;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/service/invoker/HttpRequestValues;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+exchangeForHeaders
+ (Lorg/springframework/web/service/invoker/HttpRequestValues;)Lorg/springframework/http/HttpHeaders;
+ (Lorg/springframework/web/service/invoker/HttpRequestValues;)Lorg/springframework/http/HttpHeaders;
+getBlockTimeout
+ ()Ljava/time/Duration;
+ ()L0java/time/Duration; # @Inherited(org.springframework.web.service.invoker.ReactorHttpExchangeAdapter)
+getReactiveAdapterRegistry
+ ()Lorg/springframework/core/ReactiveAdapterRegistry;
+ ()Lorg/springframework/core/ReactiveAdapterRegistry;
+requestToBodilessEntity
+ (Lorg/springframework/web/service/invoker/HttpRequestValues;)Lreactor/core/publisher/Mono<Lorg/springframework/http/ResponseEntity<Ljava/lang/Void;>;>;
+ (Lorg/springframework/web/service/invoker/HttpRequestValues;)Lreactor/core/publisher/Mono<Lorg/springframework/http/ResponseEntity<Ljava/lang/Void;>;>;
+requestToBody
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/service/invoker/HttpRequestValues;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lreactor/core/publisher/Mono<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/service/invoker/HttpRequestValues;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lreactor/core/publisher/Mono<TT;>;
+requestToBodyFlux
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/service/invoker/HttpRequestValues;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lreactor/core/publisher/Flux<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/service/invoker/HttpRequestValues;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lreactor/core/publisher/Flux<TT;>;
+requestToEntity
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/service/invoker/HttpRequestValues;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lreactor/core/publisher/Mono<Lorg/springframework/http/ResponseEntity<TT;>;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/service/invoker/HttpRequestValues;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lreactor/core/publisher/Mono<Lorg/springframework/http/ResponseEntity<TT;>;>;
+requestToEntityFlux
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/service/invoker/HttpRequestValues;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lreactor/core/publisher/Mono<Lorg/springframework/http/ResponseEntity<Lreactor/core/publisher/Flux<TT;>;>;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/service/invoker/HttpRequestValues;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lreactor/core/publisher/Mono<Lorg/springframework/http/ResponseEntity<Lreactor/core/publisher/Flux<TT;>;>;>;
+requestToHeaders
+ (Lorg/springframework/web/service/invoker/HttpRequestValues;)Lreactor/core/publisher/Mono<Lorg/springframework/http/HttpHeaders;>;
+ (Lorg/springframework/web/service/invoker/HttpRequestValues;)Lreactor/core/publisher/Mono<Lorg/springframework/http/HttpHeaders;>;
+requestToVoid
+ (Lorg/springframework/web/service/invoker/HttpRequestValues;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/springframework/web/service/invoker/HttpRequestValues;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+setBlockTimeout
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V
+setReactiveAdapterRegistry
+ (Lorg/springframework/core/ReactiveAdapterRegistry;)V
+ (Lorg/springframework/core/ReactiveAdapterRegistry;)V

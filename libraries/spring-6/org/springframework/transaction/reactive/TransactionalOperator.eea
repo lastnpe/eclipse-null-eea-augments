@@ -1,0 +1,18 @@
+class org/springframework/transaction/reactive/TransactionalOperator
+
+create
+ (Lorg/springframework/transaction/ReactiveTransactionManager;)Lorg/springframework/transaction/reactive/TransactionalOperator;
+ (Lorg/springframework/transaction/ReactiveTransactionManager;)Lorg/springframework/transaction/reactive/TransactionalOperator;
+create
+ (Lorg/springframework/transaction/ReactiveTransactionManager;Lorg/springframework/transaction/TransactionDefinition;)Lorg/springframework/transaction/reactive/TransactionalOperator;
+ (Lorg/springframework/transaction/ReactiveTransactionManager;Lorg/springframework/transaction/TransactionDefinition;)Lorg/springframework/transaction/reactive/TransactionalOperator;
+
+execute
+ <T:Ljava/lang/Object;>(Lorg/springframework/transaction/reactive/TransactionCallback<TT;>;)Lreactor/core/publisher/Flux<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/transaction/reactive/TransactionCallback<TT;>;)Lreactor/core/publisher/Flux<TT;>;
+transactional
+ <T:Ljava/lang/Object;>(Lreactor/core/publisher/Flux<TT;>;)Lreactor/core/publisher/Flux<TT;>;
+ <T:Ljava/lang/Object;>(Lreactor/core/publisher/Flux<TT;>;)Lreactor/core/publisher/Flux<TT;>;
+transactional
+ <T:Ljava/lang/Object;>(Lreactor/core/publisher/Mono<TT;>;)Lreactor/core/publisher/Mono<TT;>;
+ <T:Ljava/lang/Object;>(Lreactor/core/publisher/Mono<TT;>;)Lreactor/core/publisher/Mono<TT;>;

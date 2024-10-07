@@ -1,0 +1,8 @@
+class org/springframework/test/web/reactive/server/HttpHandlerConnector
+
+<init>
+ (Lorg/springframework/http/server/reactive/HttpHandler;)V
+ (Lorg/springframework/http/server/reactive/HttpHandler;)V
+connect
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;Ljava/util/function/Function<-Lorg/springframework/http/client/reactive/ClientHttpRequest;Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>;)Lreactor/core/publisher/Mono<Lorg/springframework/http/client/reactive/ClientHttpResponse;>;
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;Ljava/util/function/Function<-Lorg/springframework/http/client/reactive/ClientHttpRequest;Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>;)Lreactor/core/publisher/Mono<Lorg/springframework/http/client/reactive/ClientHttpResponse;>;

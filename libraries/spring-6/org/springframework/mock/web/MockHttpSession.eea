@@ -1,0 +1,39 @@
+class org/springframework/mock/web/MockHttpSession
+
+SESSION_COOKIE_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljakarta/servlet/ServletContext;)V
+ (Ljakarta/servlet/ServletContext;)V
+<init>
+ (Ljakarta/servlet/ServletContext;Ljava/lang/String;)V
+ (Ljakarta/servlet/ServletContext;Ljava/lang/String;)V
+changeSessionId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+deserializeState
+ (Ljava/io/Serializable;)V
+ (Ljava/io/Serializable;)V
+getAttribute
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object;
+getAttributeNames
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+getId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getServletContext
+ ()Ljakarta/servlet/ServletContext;
+ ()Ljakarta/servlet/ServletContext;
+removeAttribute
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+serializeState
+ ()Ljava/io/Serializable;
+ ()Ljava/io/Serializable;
+setAttribute
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V

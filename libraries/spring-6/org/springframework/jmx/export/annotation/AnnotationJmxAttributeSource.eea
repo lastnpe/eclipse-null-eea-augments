@@ -1,0 +1,23 @@
+class org/springframework/jmx/export/annotation/AnnotationJmxAttributeSource
+
+getManagedAttribute
+ (Ljava/lang/reflect/Method;)Lorg/springframework/jmx/export/metadata/ManagedAttribute;
+ (Ljava/lang/reflect/Method;)L0org/springframework/jmx/export/metadata/ManagedAttribute; # @Inherited(org.springframework.jmx.export.metadata.JmxAttributeSource)
+getManagedMetric
+ (Ljava/lang/reflect/Method;)Lorg/springframework/jmx/export/metadata/ManagedMetric;
+ (Ljava/lang/reflect/Method;)L0org/springframework/jmx/export/metadata/ManagedMetric; # @Inherited(org.springframework.jmx.export.metadata.JmxAttributeSource)
+getManagedNotifications
+ (Ljava/lang/Class<*>;)[Lorg/springframework/jmx/export/metadata/ManagedNotification;
+ (Ljava/lang/Class<*>;)[Lorg/springframework/jmx/export/metadata/ManagedNotification;
+getManagedOperation
+ (Ljava/lang/reflect/Method;)Lorg/springframework/jmx/export/metadata/ManagedOperation;
+ (Ljava/lang/reflect/Method;)L0org/springframework/jmx/export/metadata/ManagedOperation; # @Inherited(org.springframework.jmx.export.metadata.JmxAttributeSource)
+getManagedOperationParameters
+ (Ljava/lang/reflect/Method;)[Lorg/springframework/jmx/export/metadata/ManagedOperationParameter;
+ (Ljava/lang/reflect/Method;)[Lorg/springframework/jmx/export/metadata/ManagedOperationParameter;
+getManagedResource
+ (Ljava/lang/Class<*>;)Lorg/springframework/jmx/export/metadata/ManagedResource;
+ (Ljava/lang/Class<*>;)L0org/springframework/jmx/export/metadata/ManagedResource; # @Inherited(org.springframework.jmx.export.metadata.JmxAttributeSource)
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V

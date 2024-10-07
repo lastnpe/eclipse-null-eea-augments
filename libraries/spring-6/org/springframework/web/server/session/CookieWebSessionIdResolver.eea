@@ -1,0 +1,26 @@
+class org/springframework/web/server/session/CookieWebSessionIdResolver
+
+addCookieInitializer
+ (Ljava/util/function/Consumer<Lorg/springframework/http/ResponseCookie$ResponseCookieBuilder;>;)V
+ (Ljava/util/function/Consumer<Lorg/springframework/http/ResponseCookie$ResponseCookieBuilder;>;)V
+expireSession
+ (Lorg/springframework/web/server/ServerWebExchange;)V
+ (Lorg/springframework/web/server/ServerWebExchange;)V
+getCookieMaxAge
+ ()Ljava/time/Duration;
+ ()Ljava/time/Duration;
+getCookieName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+resolveSessionIds
+ (Lorg/springframework/web/server/ServerWebExchange;)Ljava/util/List<Ljava/lang/String;>;
+ (Lorg/springframework/web/server/ServerWebExchange;)Ljava/util/List<Ljava/lang/String;>;
+setCookieMaxAge
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V
+setCookieName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSessionId
+ (Lorg/springframework/web/server/ServerWebExchange;Ljava/lang/String;)V
+ (Lorg/springframework/web/server/ServerWebExchange;Ljava/lang/String;)V

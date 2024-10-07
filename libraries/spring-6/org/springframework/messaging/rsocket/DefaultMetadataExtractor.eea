@@ -1,0 +1,20 @@
+class org/springframework/messaging/rsocket/DefaultMetadataExtractor
+
+<init>
+ (Ljava/util/List<Lorg/springframework/core/codec/Decoder<*>;>;)V
+ (Ljava/util/List<Lorg/springframework/core/codec/Decoder<*>;>;)V
+<init>
+ ([Lorg/springframework/core/codec/Decoder<*>;)V
+ ([Lorg/springframework/core/codec/Decoder<*>;)V
+extract
+ (Lio/rsocket/Payload;Lorg/springframework/util/MimeType;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ (Lio/rsocket/Payload;Lorg/springframework/util/MimeType;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getDecoders
+ ()Ljava/util/List<+Lorg/springframework/core/codec/Decoder<*>;>;
+ ()Ljava/util/List<+Lorg/springframework/core/codec/Decoder<*>;>;
+metadataToExtract
+ <T:Ljava/lang/Object;>(Lorg/springframework/util/MimeType;Ljava/lang/Class<TT;>;Ljava/util/function/BiConsumer<TT;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;>;)V
+ <T:Ljava/lang/Object;>(Lorg/springframework/util/MimeType;Ljava/lang/Class<TT;>;Ljava/util/function/BiConsumer<TT;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;>;)V
+metadataToExtract
+ <T:Ljava/lang/Object;>(Lorg/springframework/util/MimeType;Lorg/springframework/core/ParameterizedTypeReference<TT;>;Ljava/util/function/BiConsumer<TT;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;>;)V
+ <T:Ljava/lang/Object;>(Lorg/springframework/util/MimeType;Lorg/springframework/core/ParameterizedTypeReference<TT;>;Ljava/util/function/BiConsumer<TT;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;>;)V

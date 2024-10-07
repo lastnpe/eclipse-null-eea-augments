@@ -1,0 +1,20 @@
+class org/springframework/http/converter/json/MappingJacksonInputMessage
+
+<init>
+ (Ljava/io/InputStream;Lorg/springframework/http/HttpHeaders;)V
+ (Ljava/io/InputStream;Lorg/springframework/http/HttpHeaders;)V
+<init>
+ (Ljava/io/InputStream;Lorg/springframework/http/HttpHeaders;Ljava/lang/Class<*>;)V
+ (Ljava/io/InputStream;Lorg/springframework/http/HttpHeaders;Ljava/lang/Class<*>;)V
+getBody
+ ()Ljava/io/InputStream;
+ ()Ljava/io/InputStream;
+getDeserializationView
+ ()Ljava/lang/Class<*>;
+ ()L0java/lang/Class<*>;
+getHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+setDeserializationView
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V

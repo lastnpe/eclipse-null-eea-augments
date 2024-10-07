@@ -1,0 +1,20 @@
+class org/springframework/messaging/support/InterceptableChannel
+
+addInterceptor
+ (ILorg/springframework/messaging/support/ChannelInterceptor;)V
+ (ILorg/springframework/messaging/support/ChannelInterceptor;)V
+addInterceptor
+ (Lorg/springframework/messaging/support/ChannelInterceptor;)V
+ (Lorg/springframework/messaging/support/ChannelInterceptor;)V
+getInterceptors
+ ()Ljava/util/List<Lorg/springframework/messaging/support/ChannelInterceptor;>;
+ ()Ljava/util/List<Lorg/springframework/messaging/support/ChannelInterceptor;>;
+removeInterceptor
+ (I)Lorg/springframework/messaging/support/ChannelInterceptor;
+ (I)Lorg/springframework/messaging/support/ChannelInterceptor;
+removeInterceptor
+ (Lorg/springframework/messaging/support/ChannelInterceptor;)Z
+ (Lorg/springframework/messaging/support/ChannelInterceptor;)Z
+setInterceptors
+ (Ljava/util/List<Lorg/springframework/messaging/support/ChannelInterceptor;>;)V
+ (Ljava/util/List<Lorg/springframework/messaging/support/ChannelInterceptor;>;)V

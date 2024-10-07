@@ -1,0 +1,24 @@
+class org/springframework/format/support/FormattingConversionServiceFactoryBean
+
+super org/springframework/beans/factory/FactoryBean
+ <Lorg/springframework/format/support/FormattingConversionService;>
+ <Lorg/springframework/format/support/FormattingConversionService;>
+
+getObject
+ ()Lorg/springframework/format/support/FormattingConversionService;
+ ()L0org/springframework/format/support/FormattingConversionService;
+getObjectType
+ ()Ljava/lang/Class<+Lorg/springframework/format/support/FormattingConversionService;>;
+ ()Ljava/lang/Class<+Lorg/springframework/format/support/FormattingConversionService;>;
+setConverters
+ (Ljava/util/Set<*>;)V
+ (Ljava/util/Set<*>;)V
+setEmbeddedValueResolver
+ (Lorg/springframework/util/StringValueResolver;)V
+ (Lorg/springframework/util/StringValueResolver;)V
+setFormatterRegistrars
+ (Ljava/util/Set<Lorg/springframework/format/FormatterRegistrar;>;)V
+ (Ljava/util/Set<Lorg/springframework/format/FormatterRegistrar;>;)V
+setFormatters
+ (Ljava/util/Set<*>;)V
+ (Ljava/util/Set<*>;)V

@@ -1,0 +1,16 @@
+class org/springframework/messaging/core/MessageReceivingOperations
+ <D:Ljava/lang/Object;>
+ <D:Ljava/lang/Object;>
+
+receive
+ ()Lorg/springframework/messaging/Message<*>;
+ ()L0org/springframework/messaging/Message<*>;
+receive
+ (TD;)Lorg/springframework/messaging/Message<*>;
+ (TD;)L0org/springframework/messaging/Message<*>;
+receiveAndConvert
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)T0T;
+receiveAndConvert
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Class<TT;>;)T0T;

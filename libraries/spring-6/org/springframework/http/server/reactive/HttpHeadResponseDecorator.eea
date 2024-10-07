@@ -1,0 +1,11 @@
+class org/springframework/http/server/reactive/HttpHeadResponseDecorator
+
+<init>
+ (Lorg/springframework/http/server/reactive/ServerHttpResponse;)V
+ (Lorg/springframework/http/server/reactive/ServerHttpResponse;)V
+writeAndFlushWith
+ (Lorg/reactivestreams/Publisher<+Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/reactivestreams/Publisher<+Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+writeWith
+ (Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;

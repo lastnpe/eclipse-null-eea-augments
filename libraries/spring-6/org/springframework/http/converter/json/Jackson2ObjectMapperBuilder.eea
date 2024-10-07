@@ -1,0 +1,153 @@
+class org/springframework/http/converter/json/Jackson2ObjectMapperBuilder
+
+cbor
+ ()Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ ()Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+json
+ ()Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ ()Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+smile
+ ()Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ ()Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+xml
+ ()Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ ()Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+
+annotationIntrospector
+ (Lcom/fasterxml/jackson/databind/AnnotationIntrospector;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Lcom/fasterxml/jackson/databind/AnnotationIntrospector;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+annotationIntrospector
+ (Ljava/util/function/Function<Lcom/fasterxml/jackson/databind/AnnotationIntrospector;Lcom/fasterxml/jackson/databind/AnnotationIntrospector;>;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Ljava/util/function/Function<Lcom/fasterxml/jackson/databind/AnnotationIntrospector;Lcom/fasterxml/jackson/databind/AnnotationIntrospector;>;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+applicationContext
+ (Lorg/springframework/context/ApplicationContext;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Lorg/springframework/context/ApplicationContext;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+autoDetectFields
+ (Z)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Z)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+autoDetectGettersSetters
+ (Z)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Z)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+build
+ <T:Lcom/fasterxml/jackson/databind/ObjectMapper;>()TT;
+ <T:Lcom/fasterxml/jackson/databind/ObjectMapper;>()T1T;
+configure
+ (Lcom/fasterxml/jackson/databind/ObjectMapper;)V
+ (Lcom/fasterxml/jackson/databind/ObjectMapper;)V
+createXmlMapper
+ (Z)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Z)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+dateFormat
+ (Ljava/text/DateFormat;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Ljava/text/DateFormat;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+defaultTyping
+ (Lcom/fasterxml/jackson/databind/jsontype/TypeResolverBuilder<*>;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Lcom/fasterxml/jackson/databind/jsontype/TypeResolverBuilder<*>;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+defaultUseWrapper
+ (Z)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Z)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+defaultViewInclusion
+ (Z)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Z)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+deserializerByType
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+deserializers
+ ([Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ ([Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+deserializersByType
+ (Ljava/util/Map<Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;>;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Ljava/util/Map<Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JsonDeserializer<*>;>;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+factory
+ (Lcom/fasterxml/jackson/core/JsonFactory;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Lcom/fasterxml/jackson/core/JsonFactory;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+failOnEmptyBeans
+ (Z)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Z)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+failOnUnknownProperties
+ (Z)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Z)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+featuresToDisable
+ ([Ljava/lang/Object;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ ([Ljava/lang/Object;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+featuresToEnable
+ ([Ljava/lang/Object;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ ([Ljava/lang/Object;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+filters
+ (Lcom/fasterxml/jackson/databind/ser/FilterProvider;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Lcom/fasterxml/jackson/databind/ser/FilterProvider;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+findModulesViaServiceLoader
+ (Z)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Z)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+handlerInstantiator
+ (Lcom/fasterxml/jackson/databind/cfg/HandlerInstantiator;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Lcom/fasterxml/jackson/databind/cfg/HandlerInstantiator;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+indentOutput
+ (Z)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Z)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+locale
+ (Ljava/lang/String;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Ljava/lang/String;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+locale
+ (Ljava/util/Locale;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Ljava/util/Locale;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+mixIn
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Ljava/lang/Class<*>;Ljava/lang/Class<*>;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+mixIns
+ (Ljava/util/Map<Ljava/lang/Class<*>;Ljava/lang/Class<*>;>;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Ljava/util/Map<Ljava/lang/Class<*>;Ljava/lang/Class<*>;>;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+moduleClassLoader
+ (Ljava/lang/ClassLoader;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Ljava/lang/ClassLoader;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+modules
+ (Ljava/util/List<Lcom/fasterxml/jackson/databind/Module;>;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Ljava/util/List<Lcom/fasterxml/jackson/databind/Module;>;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+modules
+ (Ljava/util/function/Consumer<Ljava/util/List<Lcom/fasterxml/jackson/databind/Module;>;>;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Ljava/util/function/Consumer<Ljava/util/List<Lcom/fasterxml/jackson/databind/Module;>;>;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+modules
+ ([Lcom/fasterxml/jackson/databind/Module;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ ([Lcom/fasterxml/jackson/databind/Module;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+modulesToInstall
+ (Ljava/util/function/Consumer<Ljava/util/List<Lcom/fasterxml/jackson/databind/Module;>;>;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Ljava/util/function/Consumer<Ljava/util/List<Lcom/fasterxml/jackson/databind/Module;>;>;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+modulesToInstall
+ ([Lcom/fasterxml/jackson/databind/Module;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ ([Lcom/fasterxml/jackson/databind/Module;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+modulesToInstall
+ ([Ljava/lang/Class<+Lcom/fasterxml/jackson/databind/Module;>;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ ([Ljava/lang/Class<+Lcom/fasterxml/jackson/databind/Module;>;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+postConfigurer
+ (Ljava/util/function/Consumer<Lcom/fasterxml/jackson/databind/ObjectMapper;>;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Ljava/util/function/Consumer<Lcom/fasterxml/jackson/databind/ObjectMapper;>;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+propertyNamingStrategy
+ (Lcom/fasterxml/jackson/databind/PropertyNamingStrategy;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Lcom/fasterxml/jackson/databind/PropertyNamingStrategy;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+serializationInclusion
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Include;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Include;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+serializationInclusion
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+serializerByType
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JsonSerializer<*>;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JsonSerializer<*>;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+serializers
+ ([Lcom/fasterxml/jackson/databind/JsonSerializer<*>;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ ([Lcom/fasterxml/jackson/databind/JsonSerializer<*>;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+serializersByType
+ (Ljava/util/Map<Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JsonSerializer<*>;>;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Ljava/util/Map<Ljava/lang/Class<*>;Lcom/fasterxml/jackson/databind/JsonSerializer<*>;>;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+simpleDateFormat
+ (Ljava/lang/String;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Ljava/lang/String;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+timeZone
+ (Ljava/lang/String;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Ljava/lang/String;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+timeZone
+ (Ljava/util/TimeZone;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Ljava/util/TimeZone;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+visibility
+ (Lcom/fasterxml/jackson/annotation/PropertyAccessor;Lcom/fasterxml/jackson/annotation/JsonAutoDetect$Visibility;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+ (Lcom/fasterxml/jackson/annotation/PropertyAccessor;Lcom/fasterxml/jackson/annotation/JsonAutoDetect$Visibility;)L1org/springframework/http/converter/json/Jackson2ObjectMapperBuilder;

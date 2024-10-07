@@ -1,0 +1,35 @@
+class org/springframework/http/converter/AbstractGenericHttpMessageConverter
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/springframework/http/converter/AbstractHttpMessageConverter
+ <TT;>
+ <TT;>
+super org/springframework/http/converter/GenericHttpMessageConverter
+ <TT;>
+ <TT;>
+
+<init>
+ (Lorg/springframework/http/MediaType;)V
+ (Lorg/springframework/http/MediaType;)V
+<init>
+ ([Lorg/springframework/http/MediaType;)V
+ ([Lorg/springframework/http/MediaType;)V
+canRead
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+canWrite
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+supports
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+write
+ (TT;Ljava/lang/reflect/Type;Lorg/springframework/http/MediaType;Lorg/springframework/http/HttpOutputMessage;)V
+ (TT;Ljava/lang/reflect/Type;Lorg/springframework/http/MediaType;Lorg/springframework/http/HttpOutputMessage;)V
+writeInternal
+ (TT;Ljava/lang/reflect/Type;Lorg/springframework/http/HttpOutputMessage;)V
+ (TT;Ljava/lang/reflect/Type;Lorg/springframework/http/HttpOutputMessage;)V
+writeInternal
+ (TT;Lorg/springframework/http/HttpOutputMessage;)V
+ (TT;Lorg/springframework/http/HttpOutputMessage;)V

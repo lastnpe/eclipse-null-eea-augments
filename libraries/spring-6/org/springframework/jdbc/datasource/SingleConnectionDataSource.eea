@@ -1,0 +1,32 @@
+class org/springframework/jdbc/datasource/SingleConnectionDataSource
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+<init>
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+<init>
+ (Ljava/sql/Connection;Z)V
+ (Ljava/sql/Connection;Z)V
+closeConnection
+ (Ljava/sql/Connection;)V
+ (Ljava/sql/Connection;)V
+getAutoCommitValue
+ ()Ljava/lang/Boolean;
+ ()L0java/lang/Boolean;
+getCloseSuppressingConnectionProxy
+ (Ljava/sql/Connection;)Ljava/sql/Connection;
+ (Ljava/sql/Connection;)Ljava/sql/Connection;
+getConnection
+ ()Ljava/sql/Connection;
+ ()Ljava/sql/Connection;
+getConnection
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;
+prepareConnection
+ (Ljava/sql/Connection;)V
+ (Ljava/sql/Connection;)V
+shouldClose
+ (Ljava/sql/Connection;)Z
+ (Ljava/sql/Connection;)Z

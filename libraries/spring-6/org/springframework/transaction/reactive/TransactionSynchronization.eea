@@ -1,0 +1,20 @@
+class org/springframework/transaction/reactive/TransactionSynchronization
+
+afterCommit
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+afterCompletion
+ (I)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (I)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+beforeCommit
+ (Z)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Z)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+beforeCompletion
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+resume
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+suspend
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;

@@ -1,0 +1,20 @@
+class org/springframework/messaging/support/ChannelInterceptor
+
+afterReceiveCompletion
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;Ljava/lang/Exception;)V
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;Ljava/lang/Exception;)V
+afterSendCompletion
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;ZLjava/lang/Exception;)V
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;ZLjava/lang/Exception;)V
+postReceive
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;)Lorg/springframework/messaging/Message<*>;
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;)L0org/springframework/messaging/Message<*>;
+postSend
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;Z)V
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;Z)V
+preReceive
+ (Lorg/springframework/messaging/MessageChannel;)Z
+ (Lorg/springframework/messaging/MessageChannel;)Z
+preSend
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;)Lorg/springframework/messaging/Message<*>;
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;)L0org/springframework/messaging/Message<*>;

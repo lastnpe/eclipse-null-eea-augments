@@ -1,0 +1,14 @@
+class org/springframework/messaging/simp/stomp/StompSession$Receiptable
+
+addReceiptLostTask
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+addReceiptTask
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V
+addReceiptTask
+ (Ljava/util/function/Consumer<Lorg/springframework/messaging/simp/stomp/StompHeaders;>;)V
+ (Ljava/util/function/Consumer<Lorg/springframework/messaging/simp/stomp/StompHeaders;>;)V
+getReceiptId
+ ()Ljava/lang/String;
+ ()L0java/lang/String;

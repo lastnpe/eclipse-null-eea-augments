@@ -1,0 +1,23 @@
+class org/springframework/messaging/support/AbstractMessageChannel$ChannelInterceptorChain
+
+<init>
+ (Lorg/springframework/messaging/support/AbstractMessageChannel;)V
+ (Lorg/springframework/messaging/support/AbstractMessageChannel;)V
+applyPostReceive
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;)Lorg/springframework/messaging/Message<*>;
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;)L0org/springframework/messaging/Message<*>;
+applyPostSend
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;Z)V
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;Z)V
+applyPreReceive
+ (Lorg/springframework/messaging/MessageChannel;)Z
+ (Lorg/springframework/messaging/MessageChannel;)Z
+applyPreSend
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;)Lorg/springframework/messaging/Message<*>;
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;)L0org/springframework/messaging/Message<*>;
+triggerAfterReceiveCompletion
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;Ljava/lang/Exception;)V
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;Ljava/lang/Exception;)V
+triggerAfterSendCompletion
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;ZLjava/lang/Exception;)V
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageChannel;ZLjava/lang/Exception;)V

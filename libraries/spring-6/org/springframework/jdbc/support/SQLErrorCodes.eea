@@ -1,0 +1,89 @@
+class org/springframework/jdbc/support/SQLErrorCodes
+
+getBadSqlGrammarCodes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getCannotAcquireLockCodes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getCannotSerializeTransactionCodes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getCustomSqlExceptionTranslator
+ ()Lorg/springframework/jdbc/support/SQLExceptionTranslator;
+ ()L0org/springframework/jdbc/support/SQLExceptionTranslator;
+getCustomTranslations
+ ()[Lorg/springframework/jdbc/support/CustomSQLErrorCodesTranslation;
+ ()[0Lorg/springframework/jdbc/support/CustomSQLErrorCodesTranslation;
+getDataAccessResourceFailureCodes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getDataIntegrityViolationCodes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getDatabaseProductName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getDatabaseProductNames
+ ()[Ljava/lang/String;
+ ()[0Ljava/lang/String;
+getDeadlockLoserCodes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getDuplicateKeyCodes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getInvalidResultSetAccessCodes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getPermissionDeniedCodes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+getTransientDataAccessResourceCodes
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;
+setBadSqlGrammarCodes
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setCannotAcquireLockCodes
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setCannotSerializeTransactionCodes
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setCustomSqlExceptionTranslator
+ (Lorg/springframework/jdbc/support/SQLExceptionTranslator;)V
+ (Lorg/springframework/jdbc/support/SQLExceptionTranslator;)V
+setCustomSqlExceptionTranslatorClass
+ (Ljava/lang/Class<+Lorg/springframework/jdbc/support/SQLExceptionTranslator;>;)V
+ (Ljava/lang/Class<+Lorg/springframework/jdbc/support/SQLExceptionTranslator;>;)V
+setCustomTranslations
+ ([Lorg/springframework/jdbc/support/CustomSQLErrorCodesTranslation;)V
+ ([Lorg/springframework/jdbc/support/CustomSQLErrorCodesTranslation;)V
+setDataAccessResourceFailureCodes
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setDataIntegrityViolationCodes
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setDatabaseProductName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setDatabaseProductNames
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setDeadlockLoserCodes
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setDuplicateKeyCodes
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setInvalidResultSetAccessCodes
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setPermissionDeniedCodes
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setTransientDataAccessResourceCodes
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V

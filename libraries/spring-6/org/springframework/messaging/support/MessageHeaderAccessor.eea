@@ -1,0 +1,106 @@
+class org/springframework/messaging/support/MessageHeaderAccessor
+
+DEFAULT_CHARSET
+ Ljava/nio/charset/Charset;
+ L1java/nio/charset/Charset;
+
+getAccessor
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/support/MessageHeaderAccessor;
+ (Lorg/springframework/messaging/Message<*>;)L0org/springframework/messaging/support/MessageHeaderAccessor;
+getAccessor
+ <T:Lorg/springframework/messaging/support/MessageHeaderAccessor;>(Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<TT;>;)TT;
+ <T:Lorg/springframework/messaging/support/MessageHeaderAccessor;>(Lorg/springframework/messaging/Message<*>;Ljava/lang/Class<TT;>;)T0T;
+getAccessor
+ <T:Lorg/springframework/messaging/support/MessageHeaderAccessor;>(Lorg/springframework/messaging/MessageHeaders;Ljava/lang/Class<TT;>;)TT;
+ <T:Lorg/springframework/messaging/support/MessageHeaderAccessor;>(Lorg/springframework/messaging/MessageHeaders;Ljava/lang/Class<TT;>;)T0T;
+getMutableAccessor
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/support/MessageHeaderAccessor;
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/support/MessageHeaderAccessor;
+
+<init>
+ (Lorg/springframework/messaging/Message<*>;)V
+ (Lorg/springframework/messaging/Message<*>;)V
+copyHeaders
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+copyHeadersIfAbsent
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+createAccessor
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/support/MessageHeaderAccessor;
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/support/MessageHeaderAccessor;
+getContentType
+ ()Lorg/springframework/util/MimeType;
+ ()L0org/springframework/util/MimeType;
+getDetailedLogMessage
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+getDetailedPayloadLogMessage
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+getErrorChannel
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getHeader
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object;
+getId
+ ()Ljava/util/UUID;
+ ()L0java/util/UUID;
+getMessageHeaders
+ ()Lorg/springframework/messaging/MessageHeaders;
+ ()Lorg/springframework/messaging/MessageHeaders;
+getReplyChannel
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getShortLogMessage
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+getShortPayloadLogMessage
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+getTimestamp
+ ()Ljava/lang/Long;
+ ()L0java/lang/Long;
+isReadOnly
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+removeHeader
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+removeHeaders
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setContentType
+ (Lorg/springframework/util/MimeType;)V
+ (Lorg/springframework/util/MimeType;)V
+setErrorChannel
+ (Lorg/springframework/messaging/MessageChannel;)V
+ (Lorg/springframework/messaging/MessageChannel;)V
+setErrorChannelName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setHeader
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+setHeaderIfAbsent
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+setReplyChannel
+ (Lorg/springframework/messaging/MessageChannel;)V
+ (Lorg/springframework/messaging/MessageChannel;)V
+setReplyChannelName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toMap
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+toMessageHeaders
+ ()Lorg/springframework/messaging/MessageHeaders;
+ ()Lorg/springframework/messaging/MessageHeaders;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+verifyType
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V

@@ -1,0 +1,42 @@
+class org/springframework/aop/interceptor/CustomizableTraceInterceptor
+
+PLACEHOLDER_ARGUMENTS
+ Ljava/lang/String;
+ L1java/lang/String;
+PLACEHOLDER_ARGUMENT_TYPES
+ Ljava/lang/String;
+ L1java/lang/String;
+PLACEHOLDER_EXCEPTION
+ Ljava/lang/String;
+ L1java/lang/String;
+PLACEHOLDER_INVOCATION_TIME
+ Ljava/lang/String;
+ L1java/lang/String;
+PLACEHOLDER_METHOD_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+PLACEHOLDER_RETURN_VALUE
+ Ljava/lang/String;
+ L1java/lang/String;
+PLACEHOLDER_TARGET_CLASS_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+PLACEHOLDER_TARGET_CLASS_SHORT_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+invokeUnderTrace
+ (Lorg/aopalliance/intercept/MethodInvocation;Lorg/apache/commons/logging/Log;)Ljava/lang/Object;
+ (Lorg/aopalliance/intercept/MethodInvocation;Lorg/apache/commons/logging/Log;)L0java/lang/Object; # @Inherited(org.springframework.aop.interceptor.AbstractTraceInterceptor)
+replacePlaceholders
+ (Ljava/lang/String;Lorg/aopalliance/intercept/MethodInvocation;Ljava/lang/Object;Ljava/lang/Throwable;J)Ljava/lang/String;
+ (Ljava/lang/String;Lorg/aopalliance/intercept/MethodInvocation;Ljava/lang/Object;Ljava/lang/Throwable;J)Ljava/lang/String;
+setEnterMessage
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setExceptionMessage
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setExitMessage
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

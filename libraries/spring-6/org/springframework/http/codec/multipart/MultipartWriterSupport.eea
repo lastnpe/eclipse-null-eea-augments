@@ -1,0 +1,36 @@
+class org/springframework/http/codec/multipart/MultipartWriterSupport
+
+DEFAULT_CHARSET
+ Ljava/nio/charset/Charset;
+ L1java/nio/charset/Charset;
+
+<init>
+ (Ljava/util/List<Lorg/springframework/http/MediaType;>;)V
+ (Ljava/util/List<Lorg/springframework/http/MediaType;>;)V
+generateBoundaryLine
+ ([BLorg/springframework/core/io/buffer/DataBufferFactory;)Lreactor/core/publisher/Mono<Lorg/springframework/core/io/buffer/DataBuffer;>;
+ ([BLorg/springframework/core/io/buffer/DataBufferFactory;)Lreactor/core/publisher/Mono<Lorg/springframework/core/io/buffer/DataBuffer;>;
+generateLastLine
+ ([BLorg/springframework/core/io/buffer/DataBufferFactory;)Lreactor/core/publisher/Mono<Lorg/springframework/core/io/buffer/DataBuffer;>;
+ ([BLorg/springframework/core/io/buffer/DataBufferFactory;)Lreactor/core/publisher/Mono<Lorg/springframework/core/io/buffer/DataBuffer;>;
+generateMultipartBoundary
+ ()[B
+ ()[B
+generateNewLine
+ (Lorg/springframework/core/io/buffer/DataBufferFactory;)Lreactor/core/publisher/Mono<Lorg/springframework/core/io/buffer/DataBuffer;>;
+ (Lorg/springframework/core/io/buffer/DataBufferFactory;)Lreactor/core/publisher/Mono<Lorg/springframework/core/io/buffer/DataBuffer;>;
+generatePartHeaders
+ (Lorg/springframework/http/HttpHeaders;Lorg/springframework/core/io/buffer/DataBufferFactory;)Lreactor/core/publisher/Mono<Lorg/springframework/core/io/buffer/DataBuffer;>;
+ (Lorg/springframework/http/HttpHeaders;Lorg/springframework/core/io/buffer/DataBufferFactory;)Lreactor/core/publisher/Mono<Lorg/springframework/core/io/buffer/DataBuffer;>;
+getCharset
+ ()Ljava/nio/charset/Charset;
+ ()Ljava/nio/charset/Charset;
+getMultipartMediaType
+ (Lorg/springframework/http/MediaType;[B)Lorg/springframework/http/MediaType;
+ (Lorg/springframework/http/MediaType;[B)Lorg/springframework/http/MediaType;
+getWritableMediaTypes
+ ()Ljava/util/List<Lorg/springframework/http/MediaType;>;
+ ()Ljava/util/List<Lorg/springframework/http/MediaType;>;
+setCharset
+ (Ljava/nio/charset/Charset;)V
+ (Ljava/nio/charset/Charset;)V

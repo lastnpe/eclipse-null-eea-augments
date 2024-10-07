@@ -1,0 +1,64 @@
+class org/springframework/messaging/core/AbstractMessageSendingTemplate
+ <D:Ljava/lang/Object;>
+ <D:Ljava/lang/Object;>
+
+super org/springframework/messaging/core/MessageSendingOperations
+ <TD;>
+ <TD;>
+
+CONVERSION_HINT_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+convertAndSend
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+convertAndSend
+ (Ljava/lang/Object;Lorg/springframework/messaging/core/MessagePostProcessor;)V
+ (Ljava/lang/Object;Lorg/springframework/messaging/core/MessagePostProcessor;)V
+convertAndSend
+ (TD;Ljava/lang/Object;)V
+ (TD;Ljava/lang/Object;)V
+convertAndSend
+ (TD;Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+ (TD;Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+convertAndSend
+ (TD;Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Lorg/springframework/messaging/core/MessagePostProcessor;)V
+ (TD;Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Lorg/springframework/messaging/core/MessagePostProcessor;)V
+convertAndSend
+ (TD;Ljava/lang/Object;Lorg/springframework/messaging/core/MessagePostProcessor;)V
+ (TD;Ljava/lang/Object;Lorg/springframework/messaging/core/MessagePostProcessor;)V
+doConvert
+ (Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Lorg/springframework/messaging/core/MessagePostProcessor;)Lorg/springframework/messaging/Message<*>;
+ (Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Lorg/springframework/messaging/core/MessagePostProcessor;)Lorg/springframework/messaging/Message<*>;
+doSend
+ (TD;Lorg/springframework/messaging/Message<*>;)V
+ (TD;Lorg/springframework/messaging/Message<*>;)V
+getDefaultDestination
+ ()TD;
+ ()T0D;
+getMessageConverter
+ ()Lorg/springframework/messaging/converter/MessageConverter;
+ ()Lorg/springframework/messaging/converter/MessageConverter;
+getRequiredDefaultDestination
+ ()TD;
+ ()TD;
+processHeadersToSend
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)L0java/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+send
+ (Lorg/springframework/messaging/Message<*>;)V
+ (Lorg/springframework/messaging/Message<*>;)V
+send
+ (TD;Lorg/springframework/messaging/Message<*>;)V
+ (TD;Lorg/springframework/messaging/Message<*>;)V
+setDefaultDestination
+ (TD;)V
+ (TD;)V
+setMessageConverter
+ (Lorg/springframework/messaging/converter/MessageConverter;)V
+ (Lorg/springframework/messaging/converter/MessageConverter;)V

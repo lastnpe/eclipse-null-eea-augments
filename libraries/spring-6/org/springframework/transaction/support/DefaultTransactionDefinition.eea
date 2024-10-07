@@ -1,0 +1,39 @@
+class org/springframework/transaction/support/DefaultTransactionDefinition
+
+PREFIX_ISOLATION
+ Ljava/lang/String;
+ L1java/lang/String;
+PREFIX_PROPAGATION
+ Ljava/lang/String;
+ L1java/lang/String;
+PREFIX_TIMEOUT
+ Ljava/lang/String;
+ L1java/lang/String;
+READ_ONLY_MARKER
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Lorg/springframework/transaction/TransactionDefinition;)V
+ (Lorg/springframework/transaction/TransactionDefinition;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getDefinitionDescription
+ ()Ljava/lang/StringBuilder;
+ ()Ljava/lang/StringBuilder;
+getName
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.transaction.TransactionDefinition)
+setIsolationLevelName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPropagationBehaviorName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

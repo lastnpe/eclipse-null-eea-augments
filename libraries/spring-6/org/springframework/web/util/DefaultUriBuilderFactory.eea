@@ -1,0 +1,32 @@
+class org/springframework/web/util/DefaultUriBuilderFactory
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Lorg/springframework/web/util/UriComponentsBuilder;)V
+ (Lorg/springframework/web/util/UriComponentsBuilder;)V
+builder
+ ()Lorg/springframework/web/util/UriBuilder;
+ ()Lorg/springframework/web/util/UriBuilder;
+expand
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;*>;)Ljava/net/URI;
+ (Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;*>;)Ljava/net/URI;
+expand
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/net/URI;
+ (Ljava/lang/String;[Ljava/lang/Object;)Ljava/net/URI;
+getDefaultUriVariables
+ ()Ljava/util/Map<Ljava/lang/String;*>;
+ ()Ljava/util/Map<Ljava/lang/String;*>;
+getEncodingMode
+ ()Lorg/springframework/web/util/DefaultUriBuilderFactory$EncodingMode;
+ ()Lorg/springframework/web/util/DefaultUriBuilderFactory$EncodingMode;
+setDefaultUriVariables
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+ (Ljava/util/Map<Ljava/lang/String;*>;)V
+setEncodingMode
+ (Lorg/springframework/web/util/DefaultUriBuilderFactory$EncodingMode;)V
+ (Lorg/springframework/web/util/DefaultUriBuilderFactory$EncodingMode;)V
+uriString
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriBuilder;
+ (Ljava/lang/String;)Lorg/springframework/web/util/UriBuilder;

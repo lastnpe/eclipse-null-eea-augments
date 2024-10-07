@@ -1,0 +1,35 @@
+class org/springframework/test/web/reactive/server/WebTestClient$ResponseSpec
+
+expectAll
+ ([Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec$ResponseSpecConsumer;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ([Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec$ResponseSpecConsumer;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+expectBody
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$BodyContentSpec;
+expectBody
+ <B:Ljava/lang/Object;>(Ljava/lang/Class<TB;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodySpec<TB;*>;
+ <B:Ljava/lang/Object;>(Ljava/lang/Class<TB;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodySpec<TB;*>;
+expectBody
+ <B:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TB;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodySpec<TB;*>;
+ <B:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TB;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$BodySpec<TB;*>;
+expectBodyList
+ <E:Ljava/lang/Object;>(Ljava/lang/Class<TE;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$ListBodySpec<TE;>;
+ <E:Ljava/lang/Object;>(Ljava/lang/Class<TE;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$ListBodySpec<TE;>;
+expectBodyList
+ <E:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TE;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$ListBodySpec<TE;>;
+ <E:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TE;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$ListBodySpec<TE;>;
+expectCookie
+ ()Lorg/springframework/test/web/reactive/server/CookieAssertions;
+ ()Lorg/springframework/test/web/reactive/server/CookieAssertions;
+expectHeader
+ ()Lorg/springframework/test/web/reactive/server/HeaderAssertions;
+ ()Lorg/springframework/test/web/reactive/server/HeaderAssertions;
+expectStatus
+ ()Lorg/springframework/test/web/reactive/server/StatusAssertions;
+ ()Lorg/springframework/test/web/reactive/server/StatusAssertions;
+returnResult
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/springframework/test/web/reactive/server/FluxExchangeResult<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/springframework/test/web/reactive/server/FluxExchangeResult<TT;>;
+returnResult
+ <T:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lorg/springframework/test/web/reactive/server/FluxExchangeResult<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lorg/springframework/test/web/reactive/server/FluxExchangeResult<TT;>;

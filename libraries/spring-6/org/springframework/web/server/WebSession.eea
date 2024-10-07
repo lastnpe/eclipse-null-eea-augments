@@ -1,0 +1,38 @@
+class org/springframework/web/server/WebSession
+
+changeSessionId
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+getAttribute
+ <T:Ljava/lang/Object;>(Ljava/lang/String;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;)T0T;
+getAttributeOrDefault
+ <T:Ljava/lang/Object;>(Ljava/lang/String;TT;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;TT;)TT;
+getAttributes
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getCreationTime
+ ()Ljava/time/Instant;
+ ()Ljava/time/Instant;
+getId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getLastAccessTime
+ ()Ljava/time/Instant;
+ ()Ljava/time/Instant;
+getMaxIdleTime
+ ()Ljava/time/Duration;
+ ()Ljava/time/Duration;
+getRequiredAttribute
+ <T:Ljava/lang/Object;>(Ljava/lang/String;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;)TT;
+invalidate
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+save
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+setMaxIdleTime
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V

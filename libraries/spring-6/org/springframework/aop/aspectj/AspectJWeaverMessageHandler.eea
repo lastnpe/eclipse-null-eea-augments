@@ -1,0 +1,14 @@
+class org/springframework/aop/aspectj/AspectJWeaverMessageHandler
+
+dontIgnore
+ (Lorg/aspectj/bridge/IMessage$Kind;)V
+ (Lorg/aspectj/bridge/IMessage$Kind;)V
+handleMessage
+ (Lorg/aspectj/bridge/IMessage;)Z
+ (Lorg/aspectj/bridge/IMessage;)Z
+ignore
+ (Lorg/aspectj/bridge/IMessage$Kind;)V
+ (Lorg/aspectj/bridge/IMessage$Kind;)V
+isIgnoring
+ (Lorg/aspectj/bridge/IMessage$Kind;)Z
+ (Lorg/aspectj/bridge/IMessage$Kind;)Z

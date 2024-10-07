@@ -1,0 +1,33 @@
+class org/springframework/web/context/ConfigurableWebApplicationContext
+
+APPLICATION_CONTEXT_ID_PREFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+SERVLET_CONFIG_BEAN_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getConfigLocations
+ ()[Ljava/lang/String;
+ ()[0Ljava/lang/String;
+getNamespace
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getServletConfig
+ ()Ljakarta/servlet/ServletConfig;
+ ()L0jakarta/servlet/ServletConfig;
+setConfigLocation
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setConfigLocations
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setNamespace
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setServletConfig
+ (Ljakarta/servlet/ServletConfig;)V
+ (Ljakarta/servlet/ServletConfig;)V
+setServletContext
+ (Ljakarta/servlet/ServletContext;)V
+ (Ljakarta/servlet/ServletContext;)V

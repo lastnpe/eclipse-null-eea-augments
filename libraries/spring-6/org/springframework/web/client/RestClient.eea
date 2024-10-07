@@ -1,0 +1,45 @@
+class org/springframework/web/client/RestClient
+
+builder
+ ()Lorg/springframework/web/client/RestClient$Builder;
+ ()Lorg/springframework/web/client/RestClient$Builder;
+builder
+ (Lorg/springframework/web/client/RestTemplate;)Lorg/springframework/web/client/RestClient$Builder;
+ (Lorg/springframework/web/client/RestTemplate;)Lorg/springframework/web/client/RestClient$Builder;
+create
+ ()Lorg/springframework/web/client/RestClient;
+ ()Lorg/springframework/web/client/RestClient;
+create
+ (Ljava/lang/String;)Lorg/springframework/web/client/RestClient;
+ (Ljava/lang/String;)Lorg/springframework/web/client/RestClient;
+create
+ (Lorg/springframework/web/client/RestTemplate;)Lorg/springframework/web/client/RestClient;
+ (Lorg/springframework/web/client/RestTemplate;)Lorg/springframework/web/client/RestClient;
+
+delete
+ ()Lorg/springframework/web/client/RestClient$RequestHeadersUriSpec<*>;
+ ()Lorg/springframework/web/client/RestClient$RequestHeadersUriSpec<*>;
+get
+ ()Lorg/springframework/web/client/RestClient$RequestHeadersUriSpec<*>;
+ ()Lorg/springframework/web/client/RestClient$RequestHeadersUriSpec<*>;
+head
+ ()Lorg/springframework/web/client/RestClient$RequestHeadersUriSpec<*>;
+ ()Lorg/springframework/web/client/RestClient$RequestHeadersUriSpec<*>;
+method
+ (Lorg/springframework/http/HttpMethod;)Lorg/springframework/web/client/RestClient$RequestBodyUriSpec;
+ (Lorg/springframework/http/HttpMethod;)Lorg/springframework/web/client/RestClient$RequestBodyUriSpec;
+mutate
+ ()Lorg/springframework/web/client/RestClient$Builder;
+ ()Lorg/springframework/web/client/RestClient$Builder;
+options
+ ()Lorg/springframework/web/client/RestClient$RequestHeadersUriSpec<*>;
+ ()Lorg/springframework/web/client/RestClient$RequestHeadersUriSpec<*>;
+patch
+ ()Lorg/springframework/web/client/RestClient$RequestBodyUriSpec;
+ ()Lorg/springframework/web/client/RestClient$RequestBodyUriSpec;
+post
+ ()Lorg/springframework/web/client/RestClient$RequestBodyUriSpec;
+ ()Lorg/springframework/web/client/RestClient$RequestBodyUriSpec;
+put
+ ()Lorg/springframework/web/client/RestClient$RequestBodyUriSpec;
+ ()Lorg/springframework/web/client/RestClient$RequestBodyUriSpec;

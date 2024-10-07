@@ -1,0 +1,20 @@
+class org/springframework/jmx/export/assembler/InterfaceBasedMBeanInfoAssembler
+
+includeOperation
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Z
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Z
+includeReadAttribute
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Z
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Z
+includeWriteAttribute
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Z
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Z
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setInterfaceMappings
+ (Ljava/util/Properties;)V
+ (Ljava/util/Properties;)V
+setManagedInterfaces
+ ([Ljava/lang/Class<*>;)V
+ ([Ljava/lang/Class<*>;)V

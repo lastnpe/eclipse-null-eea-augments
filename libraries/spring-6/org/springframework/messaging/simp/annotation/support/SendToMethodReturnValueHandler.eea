@@ -1,0 +1,38 @@
+class org/springframework/messaging/simp/annotation/support/SendToMethodReturnValueHandler
+
+<init>
+ (Lorg/springframework/messaging/simp/SimpMessageSendingOperations;Z)V
+ (Lorg/springframework/messaging/simp/SimpMessageSendingOperations;Z)V
+getDefaultDestinationPrefix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getDefaultUserDestinationPrefix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getHeaderInitializer
+ ()Lorg/springframework/messaging/support/MessageHeaderInitializer;
+ ()L0org/springframework/messaging/support/MessageHeaderInitializer;
+getTargetDestinations
+ (Ljava/lang/annotation/Annotation;Lorg/springframework/messaging/Message<*>;Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/annotation/Annotation;Lorg/springframework/messaging/Message<*>;Ljava/lang/String;)[Ljava/lang/String;
+getUserName
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageHeaders;)Ljava/lang/String;
+ (Lorg/springframework/messaging/Message<*>;Lorg/springframework/messaging/MessageHeaders;)L0java/lang/String;
+handleReturnValue
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)V
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)V
+setDefaultDestinationPrefix
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setDefaultUserDestinationPrefix
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setHeaderInitializer
+ (Lorg/springframework/messaging/support/MessageHeaderInitializer;)V
+ (Lorg/springframework/messaging/support/MessageHeaderInitializer;)V
+supportsReturnType
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

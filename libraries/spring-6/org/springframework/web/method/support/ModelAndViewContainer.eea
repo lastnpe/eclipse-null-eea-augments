@@ -1,0 +1,62 @@
+class org/springframework/web/method/support/ModelAndViewContainer
+
+addAllAttributes
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/web/method/support/ModelAndViewContainer;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/web/method/support/ModelAndViewContainer;
+addAttribute
+ (Ljava/lang/Object;)Lorg/springframework/web/method/support/ModelAndViewContainer;
+ (Ljava/lang/Object;)Lorg/springframework/web/method/support/ModelAndViewContainer;
+addAttribute
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/web/method/support/ModelAndViewContainer;
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/web/method/support/ModelAndViewContainer;
+containsAttribute
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+getDefaultModel
+ ()Lorg/springframework/ui/ModelMap;
+ ()Lorg/springframework/ui/ModelMap;
+getModel
+ ()Lorg/springframework/ui/ModelMap;
+ ()Lorg/springframework/ui/ModelMap;
+getSessionStatus
+ ()Lorg/springframework/web/bind/support/SessionStatus;
+ ()Lorg/springframework/web/bind/support/SessionStatus;
+getStatus
+ ()Lorg/springframework/http/HttpStatusCode;
+ ()L0org/springframework/http/HttpStatusCode;
+getView
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getViewName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+isBindingDisabled
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+mergeAttributes
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/web/method/support/ModelAndViewContainer;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/web/method/support/ModelAndViewContainer;
+removeAttributes
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/web/method/support/ModelAndViewContainer;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/web/method/support/ModelAndViewContainer;
+setBinding
+ (Ljava/lang/String;Z)V
+ (Ljava/lang/String;Z)V
+setBindingDisabled
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setRedirectModel
+ (Lorg/springframework/ui/ModelMap;)V
+ (Lorg/springframework/ui/ModelMap;)V
+setStatus
+ (Lorg/springframework/http/HttpStatusCode;)V
+ (Lorg/springframework/http/HttpStatusCode;)V
+setView
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setViewName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

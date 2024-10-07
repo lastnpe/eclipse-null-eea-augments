@@ -1,0 +1,67 @@
+class org/springframework/scripting/support/ScriptFactoryPostProcessor
+
+INLINE_SCRIPT_PREFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+LANGUAGE_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+PROXY_TARGET_CLASS_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+REFRESH_CHECK_DELAY_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+convertToScriptSource
+ (Ljava/lang/String;Ljava/lang/String;Lorg/springframework/core/io/ResourceLoader;)Lorg/springframework/scripting/ScriptSource;
+ (Ljava/lang/String;Ljava/lang/String;Lorg/springframework/core/io/ResourceLoader;)Lorg/springframework/scripting/ScriptSource;
+createCompositeInterface
+ ([Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+ ([Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+createConfigInterface
+ (Lorg/springframework/beans/factory/config/BeanDefinition;[Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+ (Lorg/springframework/beans/factory/config/BeanDefinition;[Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+createRefreshableProxy
+ (Lorg/springframework/aop/TargetSource;[Ljava/lang/Class<*>;Z)Ljava/lang/Object;
+ (Lorg/springframework/aop/TargetSource;[Ljava/lang/Class<*>;Z)Ljava/lang/Object;
+createScriptFactoryBeanDefinition
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)Lorg/springframework/beans/factory/config/BeanDefinition;
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)Lorg/springframework/beans/factory/config/BeanDefinition;
+createScriptedObjectBeanDefinition
+ (Lorg/springframework/beans/factory/config/BeanDefinition;Ljava/lang/String;Lorg/springframework/scripting/ScriptSource;[Ljava/lang/Class<*>;)Lorg/springframework/beans/factory/config/BeanDefinition;
+ (Lorg/springframework/beans/factory/config/BeanDefinition;Ljava/lang/String;Lorg/springframework/scripting/ScriptSource;[Ljava/lang/Class<*>;)Lorg/springframework/beans/factory/config/BeanDefinition;
+getScriptSource
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/scripting/ScriptSource;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/scripting/ScriptSource;
+postProcessBeforeInstantiation
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor)
+postProcessProperties
+ (Lorg/springframework/beans/PropertyValues;Ljava/lang/Object;Ljava/lang/String;)Lorg/springframework/beans/PropertyValues;
+ (Lorg/springframework/beans/PropertyValues;Ljava/lang/Object;Ljava/lang/String;)L0org/springframework/beans/PropertyValues; # @Inherited(org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor)
+predictBeanType
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/Class<*>;Ljava/lang/String;)L0java/lang/Class<*>; # @Inherited(org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor)
+prepareScriptBeans
+ (Lorg/springframework/beans/factory/config/BeanDefinition;Ljava/lang/String;Ljava/lang/String;)V
+ (Lorg/springframework/beans/factory/config/BeanDefinition;Ljava/lang/String;Ljava/lang/String;)V
+resolveProxyTargetClass
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)Z
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)Z
+resolveRefreshCheckDelay
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)J
+ (Lorg/springframework/beans/factory/config/BeanDefinition;)J
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setResourceLoader
+ (Lorg/springframework/core/io/ResourceLoader;)V
+ (Lorg/springframework/core/io/ResourceLoader;)V

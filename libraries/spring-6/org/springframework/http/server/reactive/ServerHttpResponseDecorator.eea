@@ -1,0 +1,51 @@
+class org/springframework/http/server/reactive/ServerHttpResponseDecorator
+
+getNativeResponse
+ <T:Ljava/lang/Object;>(Lorg/springframework/http/server/reactive/ServerHttpResponse;)TT;
+ <T:Ljava/lang/Object;>(Lorg/springframework/http/server/reactive/ServerHttpResponse;)TT;
+
+<init>
+ (Lorg/springframework/http/server/reactive/ServerHttpResponse;)V
+ (Lorg/springframework/http/server/reactive/ServerHttpResponse;)V
+addCookie
+ (Lorg/springframework/http/ResponseCookie;)V
+ (Lorg/springframework/http/ResponseCookie;)V
+beforeCommit
+ (Ljava/util/function/Supplier<+Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>;)V
+ (Ljava/util/function/Supplier<+Lreactor/core/publisher/Mono<Ljava/lang/Void;>;>;)V
+bufferFactory
+ ()Lorg/springframework/core/io/buffer/DataBufferFactory;
+ ()Lorg/springframework/core/io/buffer/DataBufferFactory;
+getCookies
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/ResponseCookie;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/ResponseCookie;>;
+getDelegate
+ ()Lorg/springframework/http/server/reactive/ServerHttpResponse;
+ ()Lorg/springframework/http/server/reactive/ServerHttpResponse;
+getHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+getRawStatusCode
+ ()Ljava/lang/Integer;
+ ()L0java/lang/Integer; # @Inherited(org.springframework.http.server.reactive.ServerHttpResponse)
+getStatusCode
+ ()Lorg/springframework/http/HttpStatusCode;
+ ()L0org/springframework/http/HttpStatusCode; # @Inherited(org.springframework.http.server.reactive.ServerHttpResponse)
+setComplete
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+setRawStatusCode
+ (Ljava/lang/Integer;)Z
+ (Ljava/lang/Integer;)Z
+setStatusCode
+ (Lorg/springframework/http/HttpStatusCode;)Z
+ (Lorg/springframework/http/HttpStatusCode;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+writeAndFlushWith
+ (Lorg/reactivestreams/Publisher<+Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/reactivestreams/Publisher<+Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+writeWith
+ (Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/reactivestreams/Publisher<+Lorg/springframework/core/io/buffer/DataBuffer;>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;

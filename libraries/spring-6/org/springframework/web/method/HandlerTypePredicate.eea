@@ -1,0 +1,28 @@
+class org/springframework/web/method/HandlerTypePredicate
+
+super java/util/function/Predicate
+ <Ljava/lang/Class<*>;>
+ <Ljava/lang/Class<*>;>
+
+builder
+ ()Lorg/springframework/web/method/HandlerTypePredicate$Builder;
+ ()Lorg/springframework/web/method/HandlerTypePredicate$Builder;
+forAnnotation
+ ([Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Lorg/springframework/web/method/HandlerTypePredicate;
+ ([Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;)Lorg/springframework/web/method/HandlerTypePredicate;
+forAnyHandlerType
+ ()Lorg/springframework/web/method/HandlerTypePredicate;
+ ()Lorg/springframework/web/method/HandlerTypePredicate;
+forAssignableType
+ ([Ljava/lang/Class<*>;)Lorg/springframework/web/method/HandlerTypePredicate;
+ ([Ljava/lang/Class<*>;)Lorg/springframework/web/method/HandlerTypePredicate;
+forBasePackage
+ ([Ljava/lang/String;)Lorg/springframework/web/method/HandlerTypePredicate;
+ ([Ljava/lang/String;)Lorg/springframework/web/method/HandlerTypePredicate;
+forBasePackageClass
+ ([Ljava/lang/Class<*>;)Lorg/springframework/web/method/HandlerTypePredicate;
+ ([Ljava/lang/Class<*>;)Lorg/springframework/web/method/HandlerTypePredicate;
+
+test
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z

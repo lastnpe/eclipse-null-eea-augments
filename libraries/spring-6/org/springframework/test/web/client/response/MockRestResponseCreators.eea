@@ -1,0 +1,65 @@
+class org/springframework/test/web/client/response/MockRestResponseCreators
+
+withAccepted
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+withBadGateway
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+withBadRequest
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+withCreatedEntity
+ (Ljava/net/URI;)Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ (Ljava/net/URI;)Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+withException
+ (Ljava/io/IOException;)Lorg/springframework/test/web/client/ResponseCreator;
+ (Ljava/io/IOException;)Lorg/springframework/test/web/client/ResponseCreator;
+withForbiddenRequest
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+withGatewayTimeout
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+withNoContent
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+withRawStatus
+ (I)Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ (I)Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+withRequestConflict
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+withResourceNotFound
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+withServerError
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+withServiceUnavailable
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+withStatus
+ (Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ (Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+withSuccess
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+withSuccess
+ (Ljava/lang/String;Lorg/springframework/http/MediaType;)Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ (Ljava/lang/String;Lorg/springframework/http/MediaType;)Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+withSuccess
+ (Lorg/springframework/core/io/Resource;Lorg/springframework/http/MediaType;)Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ (Lorg/springframework/core/io/Resource;Lorg/springframework/http/MediaType;)Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+withSuccess
+ ([BLorg/springframework/http/MediaType;)Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ ([BLorg/springframework/http/MediaType;)Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+withTooManyRequests
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+withTooManyRequests
+ (I)Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ (I)Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+withUnauthorizedRequest
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;
+ ()Lorg/springframework/test/web/client/response/DefaultResponseCreator;

@@ -1,0 +1,18 @@
+class org/springframework/jca/support/LocalConnectionFactoryBean
+
+super org/springframework/beans/factory/FactoryBean
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+getObject
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getObjectType
+ ()Ljava/lang/Class<*>;
+ ()L0java/lang/Class<*>; # @Inherited(org.springframework.beans.factory.FactoryBean)
+setConnectionManager
+ (Ljakarta/resource/spi/ConnectionManager;)V
+ (Ljakarta/resource/spi/ConnectionManager;)V
+setManagedConnectionFactory
+ (Ljakarta/resource/spi/ManagedConnectionFactory;)V
+ (Ljakarta/resource/spi/ManagedConnectionFactory;)V

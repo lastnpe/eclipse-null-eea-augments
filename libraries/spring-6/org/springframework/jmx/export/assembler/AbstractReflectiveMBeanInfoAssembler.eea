@@ -1,0 +1,120 @@
+class org/springframework/jmx/export/assembler/AbstractReflectiveMBeanInfoAssembler
+
+FIELD_CLASS
+ Ljava/lang/String;
+ L1java/lang/String;
+FIELD_CURRENCY_TIME_LIMIT
+ Ljava/lang/String;
+ L1java/lang/String;
+FIELD_DEFAULT
+ Ljava/lang/String;
+ L1java/lang/String;
+FIELD_DISPLAY_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+FIELD_GET_METHOD
+ Ljava/lang/String;
+ L1java/lang/String;
+FIELD_LOG
+ Ljava/lang/String;
+ L1java/lang/String;
+FIELD_LOG_FILE
+ Ljava/lang/String;
+ L1java/lang/String;
+FIELD_METRIC_CATEGORY
+ Ljava/lang/String;
+ L1java/lang/String;
+FIELD_METRIC_TYPE
+ Ljava/lang/String;
+ L1java/lang/String;
+FIELD_PERSIST_LOCATION
+ Ljava/lang/String;
+ L1java/lang/String;
+FIELD_PERSIST_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+FIELD_PERSIST_PERIOD
+ Ljava/lang/String;
+ L1java/lang/String;
+FIELD_PERSIST_POLICY
+ Ljava/lang/String;
+ L1java/lang/String;
+FIELD_ROLE
+ Ljava/lang/String;
+ L1java/lang/String;
+FIELD_SET_METHOD
+ Ljava/lang/String;
+ L1java/lang/String;
+FIELD_UNITS
+ Ljava/lang/String;
+ L1java/lang/String;
+FIELD_VISIBILITY
+ Ljava/lang/String;
+ L1java/lang/String;
+ROLE_GETTER
+ Ljava/lang/String;
+ L1java/lang/String;
+ROLE_OPERATION
+ Ljava/lang/String;
+ L1java/lang/String;
+ROLE_SETTER
+ Ljava/lang/String;
+ L1java/lang/String;
+
+applyCurrencyTimeLimit
+ (Ljavax/management/Descriptor;I)V
+ (Ljavax/management/Descriptor;I)V
+applyDefaultCurrencyTimeLimit
+ (Ljavax/management/Descriptor;)V
+ (Ljavax/management/Descriptor;)V
+createModelMBeanOperationInfo
+ (Ljava/lang/reflect/Method;Ljava/lang/String;Ljava/lang/String;)Ljavax/management/modelmbean/ModelMBeanOperationInfo;
+ (Ljava/lang/reflect/Method;Ljava/lang/String;Ljava/lang/String;)Ljavax/management/modelmbean/ModelMBeanOperationInfo;
+getAttributeDescription
+ (Ljava/beans/PropertyDescriptor;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/beans/PropertyDescriptor;Ljava/lang/String;)Ljava/lang/String;
+getAttributeInfo
+ (Ljava/lang/Object;Ljava/lang/String;)[Ljavax/management/modelmbean/ModelMBeanAttributeInfo;
+ (Ljava/lang/Object;Ljava/lang/String;)[Ljavax/management/modelmbean/ModelMBeanAttributeInfo;
+getClassForDescriptor
+ (Ljava/lang/Object;)Ljava/lang/Class<*>;
+ (Ljava/lang/Object;)Ljava/lang/Class<*>;
+getDefaultCurrencyTimeLimit
+ ()Ljava/lang/Integer;
+ ()L0java/lang/Integer;
+getOperationDescription
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Ljava/lang/String;
+getOperationInfo
+ (Ljava/lang/Object;Ljava/lang/String;)[Ljavax/management/modelmbean/ModelMBeanOperationInfo;
+ (Ljava/lang/Object;Ljava/lang/String;)[Ljavax/management/modelmbean/ModelMBeanOperationInfo;
+getOperationParameters
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)[Ljavax/management/MBeanParameterInfo;
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)[Ljavax/management/MBeanParameterInfo;
+getParameterNameDiscoverer
+ ()Lorg/springframework/core/ParameterNameDiscoverer;
+ ()L0org/springframework/core/ParameterNameDiscoverer;
+includeOperation
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Z
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Z
+includeReadAttribute
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Z
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Z
+includeWriteAttribute
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Z
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Z
+populateAttributeDescriptor
+ (Ljavax/management/Descriptor;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;Ljava/lang/String;)V
+ (Ljavax/management/Descriptor;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;Ljava/lang/String;)V
+populateMBeanDescriptor
+ (Ljavax/management/Descriptor;Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljavax/management/Descriptor;Ljava/lang/Object;Ljava/lang/String;)V
+populateOperationDescriptor
+ (Ljavax/management/Descriptor;Ljava/lang/reflect/Method;Ljava/lang/String;)V
+ (Ljavax/management/Descriptor;Ljava/lang/reflect/Method;Ljava/lang/String;)V
+setDefaultCurrencyTimeLimit
+ (Ljava/lang/Integer;)V
+ (Ljava/lang/Integer;)V
+setParameterNameDiscoverer
+ (Lorg/springframework/core/ParameterNameDiscoverer;)V
+ (Lorg/springframework/core/ParameterNameDiscoverer;)V

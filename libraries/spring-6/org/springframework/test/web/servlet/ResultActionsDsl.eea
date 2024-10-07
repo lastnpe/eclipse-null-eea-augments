@@ -1,0 +1,20 @@
+class org/springframework/test/web/servlet/ResultActionsDsl
+
+<init>
+ (Lorg/springframework/test/web/servlet/ResultActions;Lorg/springframework/test/web/servlet/MockMvc;)V
+ (Lorg/springframework/test/web/servlet/ResultActions;Lorg/springframework/test/web/servlet/MockMvc;)V
+andDo
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/MockMvcResultHandlersDsl;Lkotlin/Unit;>;)Lorg/springframework/test/web/servlet/ResultActionsDsl;
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/MockMvcResultHandlersDsl;Lkotlin/Unit;>;)L1org/springframework/test/web/servlet/ResultActionsDsl;
+andExpect
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/MockMvcResultMatchersDsl;Lkotlin/Unit;>;)Lorg/springframework/test/web/servlet/ResultActionsDsl;
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/MockMvcResultMatchersDsl;Lkotlin/Unit;>;)L1org/springframework/test/web/servlet/ResultActionsDsl;
+andExpectAll
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/MockMvcResultMatchersDsl;Lkotlin/Unit;>;)Lorg/springframework/test/web/servlet/ResultActionsDsl;
+ (Lkotlin/jvm/functions/Function1<-Lorg/springframework/test/web/servlet/MockMvcResultMatchersDsl;Lkotlin/Unit;>;)L1org/springframework/test/web/servlet/ResultActionsDsl;
+andReturn
+ ()Lorg/springframework/test/web/servlet/MvcResult;
+ ()Lorg/springframework/test/web/servlet/MvcResult;
+asyncDispatch
+ ()Lorg/springframework/test/web/servlet/ResultActionsDsl;
+ ()L1org/springframework/test/web/servlet/ResultActionsDsl;

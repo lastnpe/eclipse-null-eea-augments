@@ -1,0 +1,62 @@
+class org/springframework/web/util/UriComponents
+
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+copyToUriComponentsBuilder
+ (Lorg/springframework/web/util/UriComponentsBuilder;)V
+ (Lorg/springframework/web/util/UriComponentsBuilder;)V
+encode
+ ()Lorg/springframework/web/util/UriComponents;
+ ()Lorg/springframework/web/util/UriComponents;
+encode
+ (Ljava/nio/charset/Charset;)Lorg/springframework/web/util/UriComponents;
+ (Ljava/nio/charset/Charset;)Lorg/springframework/web/util/UriComponents;
+expand
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/web/util/UriComponents;
+ (Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/web/util/UriComponents;
+expand
+ (Lorg/springframework/web/util/UriComponents$UriTemplateVariables;)Lorg/springframework/web/util/UriComponents;
+ (Lorg/springframework/web/util/UriComponents$UriTemplateVariables;)Lorg/springframework/web/util/UriComponents;
+expand
+ ([Ljava/lang/Object;)Lorg/springframework/web/util/UriComponents;
+ ([Ljava/lang/Object;)Lorg/springframework/web/util/UriComponents;
+getFragment
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getHost
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getPath
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getPathSegments
+ ()Ljava/util/List<Ljava/lang/String;>;
+ ()Ljava/util/List<Ljava/lang/String;>;
+getQuery
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getQueryParams
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+getScheme
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getSchemeSpecificPart
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getUserInfo
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+normalize
+ ()Lorg/springframework/web/util/UriComponents;
+ ()Lorg/springframework/web/util/UriComponents;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)
+toUri
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+toUriString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

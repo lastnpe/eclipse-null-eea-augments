@@ -1,0 +1,18 @@
+class org/springframework/web/method/annotation/ModelFactory
+
+getNameForParameter
+ (Lorg/springframework/core/MethodParameter;)Ljava/lang/String;
+ (Lorg/springframework/core/MethodParameter;)Ljava/lang/String;
+getNameForReturnValue
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;)Ljava/lang/String;
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;)Ljava/lang/String;
+
+<init>
+ (Ljava/util/List<Lorg/springframework/web/method/support/InvocableHandlerMethod;>;Lorg/springframework/web/bind/support/WebDataBinderFactory;Lorg/springframework/web/method/annotation/SessionAttributesHandler;)V
+ (Ljava/util/List<Lorg/springframework/web/method/support/InvocableHandlerMethod;>;Lorg/springframework/web/bind/support/WebDataBinderFactory;Lorg/springframework/web/method/annotation/SessionAttributesHandler;)V
+initModel
+ (Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/method/support/ModelAndViewContainer;Lorg/springframework/web/method/HandlerMethod;)V
+ (Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/method/support/ModelAndViewContainer;Lorg/springframework/web/method/HandlerMethod;)V
+updateModel
+ (Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/method/support/ModelAndViewContainer;)V
+ (Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/method/support/ModelAndViewContainer;)V

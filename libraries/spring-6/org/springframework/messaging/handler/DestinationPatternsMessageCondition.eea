@@ -1,0 +1,37 @@
+class org/springframework/messaging/handler/DestinationPatternsMessageCondition
+
+super org/springframework/messaging/handler/AbstractMessageCondition
+ <Lorg/springframework/messaging/handler/DestinationPatternsMessageCondition;>
+ <Lorg/springframework/messaging/handler/DestinationPatternsMessageCondition;>
+
+LOOKUP_DESTINATION_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+<init>
+ ([Ljava/lang/String;Lorg/springframework/util/PathMatcher;)V
+ ([Ljava/lang/String;Lorg/springframework/util/PathMatcher;)V
+<init>
+ ([Ljava/lang/String;Lorg/springframework/util/RouteMatcher;)V
+ ([Ljava/lang/String;Lorg/springframework/util/RouteMatcher;)V
+combine
+ (Lorg/springframework/messaging/handler/DestinationPatternsMessageCondition;)Lorg/springframework/messaging/handler/DestinationPatternsMessageCondition;
+ (Lorg/springframework/messaging/handler/DestinationPatternsMessageCondition;)Lorg/springframework/messaging/handler/DestinationPatternsMessageCondition;
+compareTo
+ (Lorg/springframework/messaging/handler/DestinationPatternsMessageCondition;Lorg/springframework/messaging/Message<*>;)I
+ (Lorg/springframework/messaging/handler/DestinationPatternsMessageCondition;Lorg/springframework/messaging/Message<*>;)I
+getContent
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+getMatchingCondition
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/handler/DestinationPatternsMessageCondition;
+ (Lorg/springframework/messaging/Message<*>;)L0org/springframework/messaging/handler/DestinationPatternsMessageCondition;
+getPatterns
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getToStringInfix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

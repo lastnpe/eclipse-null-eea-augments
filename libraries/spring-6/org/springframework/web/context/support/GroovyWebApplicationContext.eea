@@ -1,0 +1,39 @@
+class org/springframework/web/context/support/GroovyWebApplicationContext
+
+DEFAULT_CONFIG_LOCATION
+ Ljava/lang/String;
+ L1java/lang/String;
+DEFAULT_CONFIG_LOCATION_PREFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+DEFAULT_CONFIG_LOCATION_SUFFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getDefaultConfigLocations
+ ()[Ljava/lang/String;
+ ()[0Ljava/lang/String; # @Inherited(org.springframework.context.support.AbstractRefreshableConfigApplicationContext)
+getMetaClass
+ ()Lgroovy/lang/MetaClass;
+ ()Lgroovy/lang/MetaClass;
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object;
+initBeanDefinitionReader
+ (Lorg/springframework/beans/factory/groovy/GroovyBeanDefinitionReader;)V
+ (Lorg/springframework/beans/factory/groovy/GroovyBeanDefinitionReader;)V
+invokeMethod
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+loadBeanDefinitions
+ (Lorg/springframework/beans/factory/groovy/GroovyBeanDefinitionReader;)V
+ (Lorg/springframework/beans/factory/groovy/GroovyBeanDefinitionReader;)V
+loadBeanDefinitions
+ (Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;)V
+ (Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;)V
+setMetaClass
+ (Lgroovy/lang/MetaClass;)V
+ (Lgroovy/lang/MetaClass;)V
+setProperty
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V

@@ -1,0 +1,34 @@
+class org/springframework/test/web/servlet/setup/ConfigurableMockMvcBuilder
+ <B::Lorg/springframework/test/web/servlet/setup/ConfigurableMockMvcBuilder<TB;>;>
+ <B::Lorg/springframework/test/web/servlet/setup/ConfigurableMockMvcBuilder<TB;>;>
+
+addDispatcherServletCustomizer
+ <T:TB;>(Lorg/springframework/test/web/servlet/DispatcherServletCustomizer;)TT;
+ <T:TB;>(Lorg/springframework/test/web/servlet/DispatcherServletCustomizer;)T1T;
+addFilter
+ <T:TB;>(Ljakarta/servlet/Filter;Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;Ljava/util/EnumSet<Ljakarta/servlet/DispatcherType;>;[Ljava/lang/String;)TT;
+ <T:TB;>(Ljakarta/servlet/Filter;Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;Ljava/util/EnumSet<Ljakarta/servlet/DispatcherType;>;[Ljava/lang/String;)T1T;
+addFilter
+ <T:TB;>(Ljakarta/servlet/Filter;[Ljava/lang/String;)TT;
+ <T:TB;>(Ljakarta/servlet/Filter;[Ljava/lang/String;)T1T;
+addFilters
+ <T:TB;>([Ljakarta/servlet/Filter;)TT;
+ <T:TB;>([Ljakarta/servlet/Filter;)T1T;
+alwaysDo
+ <T:TB;>(Lorg/springframework/test/web/servlet/ResultHandler;)TT;
+ <T:TB;>(Lorg/springframework/test/web/servlet/ResultHandler;)T1T;
+alwaysExpect
+ <T:TB;>(Lorg/springframework/test/web/servlet/ResultMatcher;)TT;
+ <T:TB;>(Lorg/springframework/test/web/servlet/ResultMatcher;)T1T;
+apply
+ <T:TB;>(Lorg/springframework/test/web/servlet/setup/MockMvcConfigurer;)TT;
+ <T:TB;>(Lorg/springframework/test/web/servlet/setup/MockMvcConfigurer;)T1T;
+defaultRequest
+ <T:TB;>(Lorg/springframework/test/web/servlet/RequestBuilder;)TT;
+ <T:TB;>(Lorg/springframework/test/web/servlet/RequestBuilder;)T1T;
+defaultResponseCharacterEncoding
+ <T:TB;>(Ljava/nio/charset/Charset;)TT;
+ <T:TB;>(Ljava/nio/charset/Charset;)T1T;
+dispatchOptions
+ <T:TB;>(Z)TT;
+ <T:TB;>(Z)T1T;

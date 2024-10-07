@@ -1,0 +1,24 @@
+class org/springframework/web/util/TagUtils
+
+SCOPE_APPLICATION
+ Ljava/lang/String;
+ L1java/lang/String;
+SCOPE_PAGE
+ Ljava/lang/String;
+ L1java/lang/String;
+SCOPE_REQUEST
+ Ljava/lang/String;
+ L1java/lang/String;
+SCOPE_SESSION
+ Ljava/lang/String;
+ L1java/lang/String;
+
+assertHasAncestorOfType
+ (Ljakarta/servlet/jsp/tagext/Tag;Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/String;)V
+ (Ljakarta/servlet/jsp/tagext/Tag;Ljava/lang/Class<*>;Ljava/lang/String;Ljava/lang/String;)V
+getScope
+ (Ljava/lang/String;)I
+ (Ljava/lang/String;)I
+hasAncestorOfType
+ (Ljakarta/servlet/jsp/tagext/Tag;Ljava/lang/Class<*>;)Z
+ (Ljakarta/servlet/jsp/tagext/Tag;Ljava/lang/Class<*>;)Z

@@ -1,0 +1,14 @@
+class org/springframework/context/aot/AotApplicationContextInitializer
+ <C::Lorg/springframework/context/ConfigurableApplicationContext;>
+ <C::Lorg/springframework/context/ConfigurableApplicationContext;>
+
+super org/springframework/context/ApplicationContextInitializer
+ <TC;>
+ <TC;>
+
+forInitializerClasses
+ <C::Lorg/springframework/context/ConfigurableApplicationContext;>([Ljava/lang/String;)Lorg/springframework/context/aot/AotApplicationContextInitializer<TC;>;
+ <C::Lorg/springframework/context/ConfigurableApplicationContext;>([Ljava/lang/String;)Lorg/springframework/context/aot/AotApplicationContextInitializer<TC;>;
+instantiateInitializer
+ <C::Lorg/springframework/context/ConfigurableApplicationContext;>(Ljava/lang/String;Ljava/lang/ClassLoader;)Lorg/springframework/context/ApplicationContextInitializer<TC;>;
+ <C::Lorg/springframework/context/ConfigurableApplicationContext;>(Ljava/lang/String;Ljava/lang/ClassLoader;)Lorg/springframework/context/ApplicationContextInitializer<TC;>;

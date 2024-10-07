@@ -1,0 +1,47 @@
+class org/springframework/jmx/export/assembler/MetadataMBeanInfoAssembler
+
+<init>
+ (Lorg/springframework/jmx/export/metadata/JmxAttributeSource;)V
+ (Lorg/springframework/jmx/export/metadata/JmxAttributeSource;)V
+checkManagedBean
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+getAttributeDescription
+ (Ljava/beans/PropertyDescriptor;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/beans/PropertyDescriptor;Ljava/lang/String;)Ljava/lang/String;
+getDescription
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+getNotificationInfo
+ (Ljava/lang/Object;Ljava/lang/String;)[Ljavax/management/modelmbean/ModelMBeanNotificationInfo;
+ (Ljava/lang/Object;Ljava/lang/String;)[Ljavax/management/modelmbean/ModelMBeanNotificationInfo;
+getOperationDescription
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Ljava/lang/String;
+getOperationParameters
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)[Ljavax/management/MBeanParameterInfo;
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)[Ljavax/management/MBeanParameterInfo;
+includeBean
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Z
+ (Ljava/lang/Class<*>;Ljava/lang/String;)Z
+includeOperation
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Z
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Z
+includeReadAttribute
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Z
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Z
+includeWriteAttribute
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Z
+ (Ljava/lang/reflect/Method;Ljava/lang/String;)Z
+populateAttributeDescriptor
+ (Ljavax/management/Descriptor;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;Ljava/lang/String;)V
+ (Ljavax/management/Descriptor;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;Ljava/lang/String;)V
+populateMBeanDescriptor
+ (Ljavax/management/Descriptor;Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljavax/management/Descriptor;Ljava/lang/Object;Ljava/lang/String;)V
+populateOperationDescriptor
+ (Ljavax/management/Descriptor;Ljava/lang/reflect/Method;Ljava/lang/String;)V
+ (Ljavax/management/Descriptor;Ljava/lang/reflect/Method;Ljava/lang/String;)V
+setAttributeSource
+ (Lorg/springframework/jmx/export/metadata/JmxAttributeSource;)V
+ (Lorg/springframework/jmx/export/metadata/JmxAttributeSource;)V

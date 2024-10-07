@@ -1,0 +1,23 @@
+class org/springframework/expression/spel/ast/VariableReference
+
+<init>
+ (Ljava/lang/String;II)V
+ (Ljava/lang/String;II)V
+generateCode
+ (Lorg/springframework/asm/MethodVisitor;Lorg/springframework/expression/spel/CodeFlow;)V
+ (Lorg/springframework/asm/MethodVisitor;Lorg/springframework/expression/spel/CodeFlow;)V
+getValueInternal
+ (Lorg/springframework/expression/spel/ExpressionState;)Lorg/springframework/expression/TypedValue;
+ (Lorg/springframework/expression/spel/ExpressionState;)Lorg/springframework/expression/TypedValue;
+getValueRef
+ (Lorg/springframework/expression/spel/ExpressionState;)Lorg/springframework/expression/spel/ast/ValueRef;
+ (Lorg/springframework/expression/spel/ExpressionState;)Lorg/springframework/expression/spel/ast/ValueRef;
+isWritable
+ (Lorg/springframework/expression/spel/ExpressionState;)Z
+ (Lorg/springframework/expression/spel/ExpressionState;)Z
+setValueInternal
+ (Lorg/springframework/expression/spel/ExpressionState;Ljava/util/function/Supplier<Lorg/springframework/expression/TypedValue;>;)Lorg/springframework/expression/TypedValue;
+ (Lorg/springframework/expression/spel/ExpressionState;Ljava/util/function/Supplier<Lorg/springframework/expression/TypedValue;>;)Lorg/springframework/expression/TypedValue;
+toStringAST
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

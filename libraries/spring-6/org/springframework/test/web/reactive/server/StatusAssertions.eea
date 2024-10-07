@@ -1,0 +1,71 @@
+class org/springframework/test/web/reactive/server/StatusAssertions
+
+is1xxInformational
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+is2xxSuccessful
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+is3xxRedirection
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+is4xxClientError
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+is5xxServerError
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+isAccepted
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+isBadRequest
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+isCreated
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+isEqualTo
+ (I)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (I)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+isEqualTo
+ (Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+isForbidden
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+isFound
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+isNoContent
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+isNotFound
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+isNotModified
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+isOk
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+isPermanentRedirect
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+isSeeOther
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+isTemporaryRedirect
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+isUnauthorized
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+reasonEquals
+ (Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+value
+ (Ljava/util/function/Consumer<Ljava/lang/Integer;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Ljava/util/function/Consumer<Ljava/lang/Integer;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+value
+ (Lorg/hamcrest/Matcher<-Ljava/lang/Integer;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Lorg/hamcrest/Matcher<-Ljava/lang/Integer;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;

@@ -1,0 +1,15 @@
+class org/springframework/http/client/observation/ClientRequestObservationContext
+
+super io/micrometer/observation/transport/RequestReplySenderContext
+ <Lorg/springframework/http/client/ClientHttpRequest;Lorg/springframework/http/client/ClientHttpResponse;>
+ <Lorg/springframework/http/client/ClientHttpRequest;Lorg/springframework/http/client/ClientHttpResponse;>
+
+<init>
+ (Lorg/springframework/http/client/ClientHttpRequest;)V
+ (Lorg/springframework/http/client/ClientHttpRequest;)V
+getUriTemplate
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+setUriTemplate
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

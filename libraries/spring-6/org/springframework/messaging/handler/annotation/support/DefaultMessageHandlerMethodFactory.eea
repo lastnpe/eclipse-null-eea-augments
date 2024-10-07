@@ -1,0 +1,26 @@
+class org/springframework/messaging/handler/annotation/support/DefaultMessageHandlerMethodFactory
+
+createInvocableHandlerMethod
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;)Lorg/springframework/messaging/handler/invocation/InvocableHandlerMethod;
+ (Ljava/lang/Object;Ljava/lang/reflect/Method;)Lorg/springframework/messaging/handler/invocation/InvocableHandlerMethod;
+initArgumentResolvers
+ ()Ljava/util/List<Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolver;>;
+ ()Ljava/util/List<Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolver;>;
+setArgumentResolvers
+ (Ljava/util/List<Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolver;>;)V
+ (Ljava/util/List<Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolver;>;)V
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setConversionService
+ (Lorg/springframework/core/convert/ConversionService;)V
+ (Lorg/springframework/core/convert/ConversionService;)V
+setCustomArgumentResolvers
+ (Ljava/util/List<Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolver;>;)V
+ (Ljava/util/List<Lorg/springframework/messaging/handler/invocation/HandlerMethodArgumentResolver;>;)V
+setMessageConverter
+ (Lorg/springframework/messaging/converter/MessageConverter;)V
+ (Lorg/springframework/messaging/converter/MessageConverter;)V
+setValidator
+ (Lorg/springframework/validation/Validator;)V
+ (Lorg/springframework/validation/Validator;)V

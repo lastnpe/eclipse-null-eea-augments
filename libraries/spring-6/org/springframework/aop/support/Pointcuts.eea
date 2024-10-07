@@ -1,0 +1,18 @@
+class org/springframework/aop/support/Pointcuts
+
+GETTERS
+ Lorg/springframework/aop/Pointcut;
+ L1org/springframework/aop/Pointcut;
+SETTERS
+ Lorg/springframework/aop/Pointcut;
+ L1org/springframework/aop/Pointcut;
+
+intersection
+ (Lorg/springframework/aop/Pointcut;Lorg/springframework/aop/Pointcut;)Lorg/springframework/aop/Pointcut;
+ (Lorg/springframework/aop/Pointcut;Lorg/springframework/aop/Pointcut;)Lorg/springframework/aop/Pointcut;
+matches
+ (Lorg/springframework/aop/Pointcut;Ljava/lang/reflect/Method;Ljava/lang/Class<*>;[Ljava/lang/Object;)Z
+ (Lorg/springframework/aop/Pointcut;Ljava/lang/reflect/Method;Ljava/lang/Class<*>;[Ljava/lang/Object;)Z
+union
+ (Lorg/springframework/aop/Pointcut;Lorg/springframework/aop/Pointcut;)Lorg/springframework/aop/Pointcut;
+ (Lorg/springframework/aop/Pointcut;Lorg/springframework/aop/Pointcut;)Lorg/springframework/aop/Pointcut;

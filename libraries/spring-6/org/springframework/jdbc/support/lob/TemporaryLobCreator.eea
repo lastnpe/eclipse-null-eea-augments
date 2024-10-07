@@ -1,0 +1,21 @@
+class org/springframework/jdbc/support/lob/TemporaryLobCreator
+
+logger
+ Lorg/apache/commons/logging/Log;
+ L1org/apache/commons/logging/Log;
+
+setBlobAsBinaryStream
+ (Ljava/sql/PreparedStatement;ILjava/io/InputStream;I)V
+ (Ljava/sql/PreparedStatement;ILjava/io/InputStream;I)V
+setBlobAsBytes
+ (Ljava/sql/PreparedStatement;I[B)V
+ (Ljava/sql/PreparedStatement;I[B)V
+setClobAsAsciiStream
+ (Ljava/sql/PreparedStatement;ILjava/io/InputStream;I)V
+ (Ljava/sql/PreparedStatement;ILjava/io/InputStream;I)V
+setClobAsCharacterStream
+ (Ljava/sql/PreparedStatement;ILjava/io/Reader;I)V
+ (Ljava/sql/PreparedStatement;ILjava/io/Reader;I)V
+setClobAsString
+ (Ljava/sql/PreparedStatement;ILjava/lang/String;)V
+ (Ljava/sql/PreparedStatement;ILjava/lang/String;)V

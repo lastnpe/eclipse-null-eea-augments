@@ -1,0 +1,20 @@
+class org/springframework/transaction/TransactionSystemException
+
+<init>
+ (Ljava/lang/String;)V
+ (L0java/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/Throwable;)V
+ (L0java/lang/String;L0java/lang/Throwable;)V
+contains
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+getApplicationException
+ ()Ljava/lang/Throwable;
+ ()L0java/lang/Throwable;
+getOriginalException
+ ()Ljava/lang/Throwable;
+ ()L0java/lang/Throwable;
+initApplicationException
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V

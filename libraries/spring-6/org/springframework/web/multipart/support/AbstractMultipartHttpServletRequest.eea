@@ -1,0 +1,35 @@
+class org/springframework/web/multipart/support/AbstractMultipartHttpServletRequest
+
+<init>
+ (Ljakarta/servlet/http/HttpServletRequest;)V
+ (Ljakarta/servlet/http/HttpServletRequest;)V
+getFile
+ (Ljava/lang/String;)Lorg/springframework/web/multipart/MultipartFile;
+ (Ljava/lang/String;)L0org/springframework/web/multipart/MultipartFile; # @Inherited(org.springframework.web.multipart.MultipartRequest)
+getFileMap
+ ()Ljava/util/Map<Ljava/lang/String;Lorg/springframework/web/multipart/MultipartFile;>;
+ ()Ljava/util/Map<Ljava/lang/String;Lorg/springframework/web/multipart/MultipartFile;>;
+getFileNames
+ ()Ljava/util/Iterator<Ljava/lang/String;>;
+ ()Ljava/util/Iterator<Ljava/lang/String;>;
+getFiles
+ (Ljava/lang/String;)Ljava/util/List<Lorg/springframework/web/multipart/MultipartFile;>;
+ (Ljava/lang/String;)Ljava/util/List<Lorg/springframework/web/multipart/MultipartFile;>;
+getMultiFileMap
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/web/multipart/MultipartFile;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/web/multipart/MultipartFile;>;
+getMultipartFiles
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/web/multipart/MultipartFile;>;
+ ()Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/web/multipart/MultipartFile;>;
+getRequest
+ ()Ljakarta/servlet/http/HttpServletRequest;
+ ()Ljakarta/servlet/http/HttpServletRequest;
+getRequestHeaders
+ ()Lorg/springframework/http/HttpHeaders;
+ ()Lorg/springframework/http/HttpHeaders;
+getRequestMethod
+ ()Lorg/springframework/http/HttpMethod;
+ ()Lorg/springframework/http/HttpMethod;
+setMultipartFiles
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/web/multipart/MultipartFile;>;)V
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/web/multipart/MultipartFile;>;)V

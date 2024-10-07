@@ -1,0 +1,31 @@
+class org/springframework/web/jsf/el/WebApplicationContextFacesELResolver
+
+WEB_APPLICATION_CONTEXT_VARIABLE_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+getCommonPropertyType
+ (Ljakarta/el/ELContext;Ljava/lang/Object;)Ljava/lang/Class<*>;
+ (Ljakarta/el/ELContext;Ljava/lang/Object;)Ljava/lang/Class<*>;
+getFeatureDescriptors
+ (Ljakarta/el/ELContext;Ljava/lang/Object;)Ljava/util/Iterator<Ljava/beans/FeatureDescriptor;>;
+ (Ljakarta/el/ELContext;Ljava/lang/Object;)L0java/util/Iterator<Ljava/beans/FeatureDescriptor;>;
+getType
+ (Ljakarta/el/ELContext;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Class<*>;
+ (Ljakarta/el/ELContext;Ljava/lang/Object;Ljava/lang/Object;)L0java/lang/Class<*>;
+getValue
+ (Ljakarta/el/ELContext;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljakarta/el/ELContext;Ljava/lang/Object;Ljava/lang/Object;)L0java/lang/Object;
+getWebApplicationContext
+ (Ljakarta/el/ELContext;)Lorg/springframework/web/context/WebApplicationContext;
+ (Ljakarta/el/ELContext;)L0org/springframework/web/context/WebApplicationContext;
+isReadOnly
+ (Ljakarta/el/ELContext;Ljava/lang/Object;Ljava/lang/Object;)Z
+ (Ljakarta/el/ELContext;Ljava/lang/Object;Ljava/lang/Object;)Z
+setValue
+ (Ljakarta/el/ELContext;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljakarta/el/ELContext;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V

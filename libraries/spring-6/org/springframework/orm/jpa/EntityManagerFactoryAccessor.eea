@@ -1,0 +1,39 @@
+class org/springframework/orm/jpa/EntityManagerFactoryAccessor
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+createEntityManager
+ ()Ljakarta/persistence/EntityManager;
+ ()Ljakarta/persistence/EntityManager;
+getEntityManagerFactory
+ ()Ljakarta/persistence/EntityManagerFactory;
+ ()L0jakarta/persistence/EntityManagerFactory;
+getJpaPropertyMap
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getPersistenceUnitName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getTransactionalEntityManager
+ ()Ljakarta/persistence/EntityManager;
+ ()L0jakarta/persistence/EntityManager;
+obtainEntityManagerFactory
+ ()Ljakarta/persistence/EntityManagerFactory;
+ ()Ljakarta/persistence/EntityManagerFactory;
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setEntityManagerFactory
+ (Ljakarta/persistence/EntityManagerFactory;)V
+ (Ljakarta/persistence/EntityManagerFactory;)V
+setJpaProperties
+ (Ljava/util/Properties;)V
+ (Ljava/util/Properties;)V
+setJpaPropertyMap
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+setPersistenceUnitName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

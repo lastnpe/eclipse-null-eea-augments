@@ -1,0 +1,26 @@
+class org/springframework/jca/support/SimpleBootstrapContext
+
+<init>
+ (Ljakarta/resource/spi/work/WorkManager;)V
+ (Ljakarta/resource/spi/work/WorkManager;)V
+<init>
+ (Ljakarta/resource/spi/work/WorkManager;Ljakarta/resource/spi/XATerminator;)V
+ (Ljakarta/resource/spi/work/WorkManager;Ljakarta/resource/spi/XATerminator;)V
+<init>
+ (Ljakarta/resource/spi/work/WorkManager;Ljakarta/resource/spi/XATerminator;Ljakarta/transaction/TransactionSynchronizationRegistry;)V
+ (Ljakarta/resource/spi/work/WorkManager;Ljakarta/resource/spi/XATerminator;Ljakarta/transaction/TransactionSynchronizationRegistry;)V
+createTimer
+ ()Ljava/util/Timer;
+ ()Ljava/util/Timer;
+getTransactionSynchronizationRegistry
+ ()Ljakarta/transaction/TransactionSynchronizationRegistry;
+ ()L0jakarta/transaction/TransactionSynchronizationRegistry;
+getWorkManager
+ ()Ljakarta/resource/spi/work/WorkManager;
+ ()Ljakarta/resource/spi/work/WorkManager;
+getXATerminator
+ ()Ljakarta/resource/spi/XATerminator;
+ ()L0jakarta/resource/spi/XATerminator;
+isContextSupported
+ (Ljava/lang/Class<+Ljakarta/resource/spi/work/WorkContext;>;)Z
+ (Ljava/lang/Class<+Ljakarta/resource/spi/work/WorkContext;>;)Z

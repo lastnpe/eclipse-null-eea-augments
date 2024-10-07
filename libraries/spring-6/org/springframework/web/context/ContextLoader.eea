@@ -1,0 +1,52 @@
+class org/springframework/web/context/ContextLoader
+
+CONFIG_LOCATION_PARAM
+ Ljava/lang/String;
+ L1java/lang/String;
+CONTEXT_CLASS_PARAM
+ Ljava/lang/String;
+ L1java/lang/String;
+CONTEXT_ID_PARAM
+ Ljava/lang/String;
+ L1java/lang/String;
+CONTEXT_INITIALIZER_CLASSES_PARAM
+ Ljava/lang/String;
+ L1java/lang/String;
+GLOBAL_INITIALIZER_CLASSES_PARAM
+ Ljava/lang/String;
+ L1java/lang/String;
+
+getCurrentWebApplicationContext
+ ()Lorg/springframework/web/context/WebApplicationContext;
+ ()L0org/springframework/web/context/WebApplicationContext;
+
+<init>
+ (Lorg/springframework/web/context/WebApplicationContext;)V
+ (Lorg/springframework/web/context/WebApplicationContext;)V
+closeWebApplicationContext
+ (Ljakarta/servlet/ServletContext;)V
+ (Ljakarta/servlet/ServletContext;)V
+configureAndRefreshWebApplicationContext
+ (Lorg/springframework/web/context/ConfigurableWebApplicationContext;Ljakarta/servlet/ServletContext;)V
+ (Lorg/springframework/web/context/ConfigurableWebApplicationContext;Ljakarta/servlet/ServletContext;)V
+createWebApplicationContext
+ (Ljakarta/servlet/ServletContext;)Lorg/springframework/web/context/WebApplicationContext;
+ (Ljakarta/servlet/ServletContext;)Lorg/springframework/web/context/WebApplicationContext;
+customizeContext
+ (Ljakarta/servlet/ServletContext;Lorg/springframework/web/context/ConfigurableWebApplicationContext;)V
+ (Ljakarta/servlet/ServletContext;Lorg/springframework/web/context/ConfigurableWebApplicationContext;)V
+determineContextClass
+ (Ljakarta/servlet/ServletContext;)Ljava/lang/Class<*>;
+ (Ljakarta/servlet/ServletContext;)Ljava/lang/Class<*>;
+determineContextInitializerClasses
+ (Ljakarta/servlet/ServletContext;)Ljava/util/List<Ljava/lang/Class<Lorg/springframework/context/ApplicationContextInitializer<Lorg/springframework/context/ConfigurableApplicationContext;>;>;>;
+ (Ljakarta/servlet/ServletContext;)Ljava/util/List<Ljava/lang/Class<Lorg/springframework/context/ApplicationContextInitializer<Lorg/springframework/context/ConfigurableApplicationContext;>;>;>;
+initWebApplicationContext
+ (Ljakarta/servlet/ServletContext;)Lorg/springframework/web/context/WebApplicationContext;
+ (Ljakarta/servlet/ServletContext;)Lorg/springframework/web/context/WebApplicationContext;
+loadParentContext
+ (Ljakarta/servlet/ServletContext;)Lorg/springframework/context/ApplicationContext;
+ (Ljakarta/servlet/ServletContext;)L0org/springframework/context/ApplicationContext;
+setContextInitializers
+ ([Lorg/springframework/context/ApplicationContextInitializer<*>;)V
+ ([Lorg/springframework/context/ApplicationContextInitializer<*>;)V

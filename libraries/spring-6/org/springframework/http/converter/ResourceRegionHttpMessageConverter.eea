@@ -1,0 +1,36 @@
+class org/springframework/http/converter/ResourceRegionHttpMessageConverter
+
+super org/springframework/http/converter/AbstractGenericHttpMessageConverter
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+canRead
+ (Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+ (Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+canRead
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+canWrite
+ (Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+ (Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+canWrite
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/MediaType;)Z
+getDefaultContentType
+ (Ljava/lang/Object;)Lorg/springframework/http/MediaType;
+ (Ljava/lang/Object;)Lorg/springframework/http/MediaType;
+read
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/HttpInputMessage;)Ljava/lang/Object;
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;Lorg/springframework/http/HttpInputMessage;)Ljava/lang/Object;
+readInternal
+ (Ljava/lang/Class<*>;Lorg/springframework/http/HttpInputMessage;)Lorg/springframework/core/io/support/ResourceRegion;
+ (Ljava/lang/Class<*>;Lorg/springframework/http/HttpInputMessage;)Lorg/springframework/core/io/support/ResourceRegion;
+supportsRepeatableWrites
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+writeInternal
+ (Ljava/lang/Object;Ljava/lang/reflect/Type;Lorg/springframework/http/HttpOutputMessage;)V
+ (Ljava/lang/Object;Ljava/lang/reflect/Type;Lorg/springframework/http/HttpOutputMessage;)V
+writeResourceRegion
+ (Lorg/springframework/core/io/support/ResourceRegion;Lorg/springframework/http/HttpOutputMessage;)V
+ (Lorg/springframework/core/io/support/ResourceRegion;Lorg/springframework/http/HttpOutputMessage;)V

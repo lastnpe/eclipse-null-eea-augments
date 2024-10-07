@@ -1,0 +1,14 @@
+class org/springframework/context/annotation/LoadTimeWeavingConfiguration
+
+loadTimeWeaver
+ ()Lorg/springframework/instrument/classloading/LoadTimeWeaver;
+ ()Lorg/springframework/instrument/classloading/LoadTimeWeaver;
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setImportMetadata
+ (Lorg/springframework/core/type/AnnotationMetadata;)V
+ (Lorg/springframework/core/type/AnnotationMetadata;)V
+setLoadTimeWeavingConfigurer
+ (Lorg/springframework/context/annotation/LoadTimeWeavingConfigurer;)V
+ (Lorg/springframework/context/annotation/LoadTimeWeavingConfigurer;)V

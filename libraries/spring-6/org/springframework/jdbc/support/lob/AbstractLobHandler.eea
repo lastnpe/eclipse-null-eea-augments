@@ -1,0 +1,17 @@
+class org/springframework/jdbc/support/lob/AbstractLobHandler
+
+getBlobAsBinaryStream
+ (Ljava/sql/ResultSet;Ljava/lang/String;)Ljava/io/InputStream;
+ (Ljava/sql/ResultSet;Ljava/lang/String;)L0java/io/InputStream; # @Inherited(org.springframework.jdbc.support.lob.LobHandler)
+getBlobAsBytes
+ (Ljava/sql/ResultSet;Ljava/lang/String;)[B
+ (Ljava/sql/ResultSet;Ljava/lang/String;)[0B # @Inherited(org.springframework.jdbc.support.lob.LobHandler)
+getClobAsAsciiStream
+ (Ljava/sql/ResultSet;Ljava/lang/String;)Ljava/io/InputStream;
+ (Ljava/sql/ResultSet;Ljava/lang/String;)L0java/io/InputStream; # @Inherited(org.springframework.jdbc.support.lob.LobHandler)
+getClobAsCharacterStream
+ (Ljava/sql/ResultSet;Ljava/lang/String;)Ljava/io/Reader;
+ (Ljava/sql/ResultSet;Ljava/lang/String;)Ljava/io/Reader;
+getClobAsString
+ (Ljava/sql/ResultSet;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/sql/ResultSet;Ljava/lang/String;)L0java/lang/String; # @Inherited(org.springframework.jdbc.support.lob.LobHandler)

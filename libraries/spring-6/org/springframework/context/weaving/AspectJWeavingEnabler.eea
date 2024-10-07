@@ -1,0 +1,19 @@
+class org/springframework/context/weaving/AspectJWeavingEnabler
+
+ASPECTJ_AOP_XML_RESOURCE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+enableAspectJWeaving
+ (Lorg/springframework/instrument/classloading/LoadTimeWeaver;Ljava/lang/ClassLoader;)V
+ (Lorg/springframework/instrument/classloading/LoadTimeWeaver;Ljava/lang/ClassLoader;)V
+
+postProcessBeanFactory
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+ (Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setLoadTimeWeaver
+ (Lorg/springframework/instrument/classloading/LoadTimeWeaver;)V
+ (Lorg/springframework/instrument/classloading/LoadTimeWeaver;)V

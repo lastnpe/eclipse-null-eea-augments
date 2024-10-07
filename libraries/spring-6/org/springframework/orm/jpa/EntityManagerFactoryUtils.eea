@@ -1,0 +1,26 @@
+class org/springframework/orm/jpa/EntityManagerFactoryUtils
+
+applyTransactionTimeout
+ (Ljakarta/persistence/Query;Ljakarta/persistence/EntityManagerFactory;)V
+ (Ljakarta/persistence/Query;Ljakarta/persistence/EntityManagerFactory;)V
+closeEntityManager
+ (Ljakarta/persistence/EntityManager;)V
+ (Ljakarta/persistence/EntityManager;)V
+convertJpaAccessExceptionIfPossible
+ (Ljava/lang/RuntimeException;)Lorg/springframework/dao/DataAccessException;
+ (Ljava/lang/RuntimeException;)L0org/springframework/dao/DataAccessException;
+doGetTransactionalEntityManager
+ (Ljakarta/persistence/EntityManagerFactory;Ljava/util/Map<**>;)Ljakarta/persistence/EntityManager;
+ (Ljakarta/persistence/EntityManagerFactory;Ljava/util/Map<**>;)L0jakarta/persistence/EntityManager;
+doGetTransactionalEntityManager
+ (Ljakarta/persistence/EntityManagerFactory;Ljava/util/Map<**>;Z)Ljakarta/persistence/EntityManager;
+ (Ljakarta/persistence/EntityManagerFactory;Ljava/util/Map<**>;Z)L0jakarta/persistence/EntityManager;
+findEntityManagerFactory
+ (Lorg/springframework/beans/factory/ListableBeanFactory;Ljava/lang/String;)Ljakarta/persistence/EntityManagerFactory;
+ (Lorg/springframework/beans/factory/ListableBeanFactory;Ljava/lang/String;)Ljakarta/persistence/EntityManagerFactory;
+getTransactionalEntityManager
+ (Ljakarta/persistence/EntityManagerFactory;)Ljakarta/persistence/EntityManager;
+ (Ljakarta/persistence/EntityManagerFactory;)L0jakarta/persistence/EntityManager;
+getTransactionalEntityManager
+ (Ljakarta/persistence/EntityManagerFactory;Ljava/util/Map<**>;)Ljakarta/persistence/EntityManager;
+ (Ljakarta/persistence/EntityManagerFactory;Ljava/util/Map<**>;)L0jakarta/persistence/EntityManager;

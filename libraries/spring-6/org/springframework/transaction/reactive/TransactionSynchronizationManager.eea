@@ -1,0 +1,42 @@
+class org/springframework/transaction/reactive/TransactionSynchronizationManager
+
+forCurrentTransaction
+ ()Lreactor/core/publisher/Mono<Lorg/springframework/transaction/reactive/TransactionSynchronizationManager;>;
+ ()Lreactor/core/publisher/Mono<Lorg/springframework/transaction/reactive/TransactionSynchronizationManager;>;
+
+<init>
+ (Lorg/springframework/transaction/reactive/TransactionContext;)V
+ (Lorg/springframework/transaction/reactive/TransactionContext;)V
+bindResource
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+getCurrentTransactionIsolationLevel
+ ()Ljava/lang/Integer;
+ ()L0java/lang/Integer;
+getCurrentTransactionName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getResource
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)L0java/lang/Object;
+getSynchronizations
+ ()Ljava/util/List<Lorg/springframework/transaction/reactive/TransactionSynchronization;>;
+ ()Ljava/util/List<Lorg/springframework/transaction/reactive/TransactionSynchronization;>;
+hasResource
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+registerSynchronization
+ (Lorg/springframework/transaction/reactive/TransactionSynchronization;)V
+ (Lorg/springframework/transaction/reactive/TransactionSynchronization;)V
+setCurrentTransactionIsolationLevel
+ (Ljava/lang/Integer;)V
+ (Ljava/lang/Integer;)V
+setCurrentTransactionName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+unbindResource
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+unbindResourceIfPossible
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)L0java/lang/Object;

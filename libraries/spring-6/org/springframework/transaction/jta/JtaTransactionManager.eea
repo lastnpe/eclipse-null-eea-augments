@@ -1,0 +1,144 @@
+class org/springframework/transaction/jta/JtaTransactionManager
+
+DEFAULT_TRANSACTION_SYNCHRONIZATION_REGISTRY_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+DEFAULT_USER_TRANSACTION_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+FALLBACK_TRANSACTION_MANAGER_NAMES
+ [Ljava/lang/String;
+ [1Ljava/lang/String;
+
+<init>
+ (Ljakarta/transaction/TransactionManager;)V
+ (Ljakarta/transaction/TransactionManager;)V
+<init>
+ (Ljakarta/transaction/UserTransaction;)V
+ (Ljakarta/transaction/UserTransaction;)V
+<init>
+ (Ljakarta/transaction/UserTransaction;Ljakarta/transaction/TransactionManager;)V
+ (Ljakarta/transaction/UserTransaction;Ljakarta/transaction/TransactionManager;)V
+applyIsolationLevel
+ (Lorg/springframework/transaction/jta/JtaTransactionObject;I)V
+ (Lorg/springframework/transaction/jta/JtaTransactionObject;I)V
+applyTimeout
+ (Lorg/springframework/transaction/jta/JtaTransactionObject;I)V
+ (Lorg/springframework/transaction/jta/JtaTransactionObject;I)V
+buildUserTransaction
+ (Ljakarta/transaction/TransactionManager;)Ljakarta/transaction/UserTransaction;
+ (Ljakarta/transaction/TransactionManager;)Ljakarta/transaction/UserTransaction;
+createTransaction
+ (Ljava/lang/String;I)Ljakarta/transaction/Transaction;
+ (Ljava/lang/String;I)Ljakarta/transaction/Transaction;
+doBegin
+ (Ljava/lang/Object;Lorg/springframework/transaction/TransactionDefinition;)V
+ (Ljava/lang/Object;Lorg/springframework/transaction/TransactionDefinition;)V
+doCleanupAfterCompletion
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+doCommit
+ (Lorg/springframework/transaction/support/DefaultTransactionStatus;)V
+ (Lorg/springframework/transaction/support/DefaultTransactionStatus;)V
+doGetJtaTransaction
+ (Ljakarta/transaction/UserTransaction;)Lorg/springframework/transaction/jta/JtaTransactionObject;
+ (Ljakarta/transaction/UserTransaction;)Lorg/springframework/transaction/jta/JtaTransactionObject;
+doGetTransaction
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+doJtaBegin
+ (Lorg/springframework/transaction/jta/JtaTransactionObject;Lorg/springframework/transaction/TransactionDefinition;)V
+ (Lorg/springframework/transaction/jta/JtaTransactionObject;Lorg/springframework/transaction/TransactionDefinition;)V
+doJtaResume
+ (Lorg/springframework/transaction/jta/JtaTransactionObject;Ljava/lang/Object;)V
+ (Lorg/springframework/transaction/jta/JtaTransactionObject;Ljava/lang/Object;)V
+doJtaSuspend
+ (Lorg/springframework/transaction/jta/JtaTransactionObject;)Ljava/lang/Object;
+ (Lorg/springframework/transaction/jta/JtaTransactionObject;)Ljava/lang/Object;
+doRegisterAfterCompletionWithJtaTransaction
+ (Lorg/springframework/transaction/jta/JtaTransactionObject;Ljava/util/List<Lorg/springframework/transaction/support/TransactionSynchronization;>;)V
+ (Lorg/springframework/transaction/jta/JtaTransactionObject;Ljava/util/List<Lorg/springframework/transaction/support/TransactionSynchronization;>;)V
+doResume
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+ (Ljava/lang/Object;Ljava/lang/Object;)V
+doRollback
+ (Lorg/springframework/transaction/support/DefaultTransactionStatus;)V
+ (Lorg/springframework/transaction/support/DefaultTransactionStatus;)V
+doSetRollbackOnly
+ (Lorg/springframework/transaction/support/DefaultTransactionStatus;)V
+ (Lorg/springframework/transaction/support/DefaultTransactionStatus;)V
+doSuspend
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;
+findTransactionManager
+ (Ljakarta/transaction/UserTransaction;)Ljakarta/transaction/TransactionManager;
+ (Ljakarta/transaction/UserTransaction;)L0jakarta/transaction/TransactionManager;
+findTransactionSynchronizationRegistry
+ (Ljakarta/transaction/UserTransaction;Ljakarta/transaction/TransactionManager;)Ljakarta/transaction/TransactionSynchronizationRegistry;
+ (Ljakarta/transaction/UserTransaction;Ljakarta/transaction/TransactionManager;)L0jakarta/transaction/TransactionSynchronizationRegistry;
+findUserTransaction
+ ()Ljakarta/transaction/UserTransaction;
+ ()L0jakarta/transaction/UserTransaction;
+getJndiEnvironment
+ ()Ljava/util/Properties;
+ ()L0java/util/Properties;
+getJndiTemplate
+ ()Lorg/springframework/jndi/JndiTemplate;
+ ()Lorg/springframework/jndi/JndiTemplate;
+getTransactionManager
+ ()Ljakarta/transaction/TransactionManager;
+ ()L0jakarta/transaction/TransactionManager;
+getTransactionSynchronizationRegistry
+ ()Ljakarta/transaction/TransactionSynchronizationRegistry;
+ ()L0jakarta/transaction/TransactionSynchronizationRegistry;
+getUserTransaction
+ ()Ljakarta/transaction/UserTransaction;
+ ()L0jakarta/transaction/UserTransaction;
+isExistingTransaction
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+lookupTransactionManager
+ (Ljava/lang/String;)Ljakarta/transaction/TransactionManager;
+ (Ljava/lang/String;)Ljakarta/transaction/TransactionManager;
+lookupTransactionSynchronizationRegistry
+ (Ljava/lang/String;)Ljakarta/transaction/TransactionSynchronizationRegistry;
+ (Ljava/lang/String;)Ljakarta/transaction/TransactionSynchronizationRegistry;
+lookupUserTransaction
+ (Ljava/lang/String;)Ljakarta/transaction/UserTransaction;
+ (Ljava/lang/String;)Ljakarta/transaction/UserTransaction;
+registerAfterCompletionWithExistingTransaction
+ (Ljava/lang/Object;Ljava/util/List<Lorg/springframework/transaction/support/TransactionSynchronization;>;)V
+ (Ljava/lang/Object;Ljava/util/List<Lorg/springframework/transaction/support/TransactionSynchronization;>;)V
+retrieveTransactionManager
+ ()Ljakarta/transaction/TransactionManager;
+ ()L0jakarta/transaction/TransactionManager;
+retrieveTransactionSynchronizationRegistry
+ ()Ljakarta/transaction/TransactionSynchronizationRegistry;
+ ()L0jakarta/transaction/TransactionSynchronizationRegistry;
+retrieveUserTransaction
+ ()Ljakarta/transaction/UserTransaction;
+ ()L0jakarta/transaction/UserTransaction;
+setJndiEnvironment
+ (Ljava/util/Properties;)V
+ (Ljava/util/Properties;)V
+setJndiTemplate
+ (Lorg/springframework/jndi/JndiTemplate;)V
+ (Lorg/springframework/jndi/JndiTemplate;)V
+setTransactionManager
+ (Ljakarta/transaction/TransactionManager;)V
+ (Ljakarta/transaction/TransactionManager;)V
+setTransactionManagerName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setTransactionSynchronizationRegistry
+ (Ljakarta/transaction/TransactionSynchronizationRegistry;)V
+ (Ljakarta/transaction/TransactionSynchronizationRegistry;)V
+setTransactionSynchronizationRegistryName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setUserTransaction
+ (Ljakarta/transaction/UserTransaction;)V
+ (Ljakarta/transaction/UserTransaction;)V
+setUserTransactionName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

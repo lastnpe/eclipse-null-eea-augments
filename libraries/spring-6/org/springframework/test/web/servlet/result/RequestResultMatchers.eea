@@ -1,0 +1,29 @@
+class org/springframework/test/web/servlet/result/RequestResultMatchers
+
+asyncNotStarted
+ ()Lorg/springframework/test/web/servlet/ResultMatcher;
+ ()Lorg/springframework/test/web/servlet/ResultMatcher;
+asyncResult
+ (Ljava/lang/Object;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/Object;)Lorg/springframework/test/web/servlet/ResultMatcher;
+asyncResult
+ <T:Ljava/lang/Object;>(Lorg/hamcrest/Matcher<-TT;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ <T:Ljava/lang/Object;>(Lorg/hamcrest/Matcher<-TT;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+asyncStarted
+ ()Lorg/springframework/test/web/servlet/ResultMatcher;
+ ()Lorg/springframework/test/web/servlet/ResultMatcher;
+attribute
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/test/web/servlet/ResultMatcher;
+attribute
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<-TT;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<-TT;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+sessionAttribute
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/test/web/servlet/ResultMatcher;
+sessionAttribute
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<-TT;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<-TT;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+sessionAttributeDoesNotExist
+ ([Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ ([Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;

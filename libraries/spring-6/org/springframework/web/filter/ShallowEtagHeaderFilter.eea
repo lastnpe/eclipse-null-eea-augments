@@ -1,0 +1,15 @@
+class org/springframework/web/filter/ShallowEtagHeaderFilter
+
+disableContentCaching
+ (Ljakarta/servlet/ServletRequest;)V
+ (Ljakarta/servlet/ServletRequest;)V
+
+doFilterInternal
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljakarta/servlet/FilterChain;)V
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljakarta/servlet/FilterChain;)V
+generateETagHeaderValue
+ (Ljava/io/InputStream;Z)Ljava/lang/String;
+ (Ljava/io/InputStream;Z)Ljava/lang/String;
+isEligibleForEtag
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;ILjava/io/InputStream;)Z
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;ILjava/io/InputStream;)Z

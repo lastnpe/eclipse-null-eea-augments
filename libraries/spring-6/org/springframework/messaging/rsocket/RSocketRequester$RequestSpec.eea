@@ -1,0 +1,21 @@
+class org/springframework/messaging/rsocket/RSocketRequester$RequestSpec
+
+super org/springframework/messaging/rsocket/RSocketRequester$MetadataSpec
+ <Lorg/springframework/messaging/rsocket/RSocketRequester$RequestSpec;>
+ <Lorg/springframework/messaging/rsocket/RSocketRequester$RequestSpec;>
+
+data
+ (Ljava/lang/Object;)Lorg/springframework/messaging/rsocket/RSocketRequester$RetrieveSpec;
+ (Ljava/lang/Object;)Lorg/springframework/messaging/rsocket/RSocketRequester$RetrieveSpec;
+data
+ (Ljava/lang/Object;Ljava/lang/Class<*>;)Lorg/springframework/messaging/rsocket/RSocketRequester$RetrieveSpec;
+ (Ljava/lang/Object;Ljava/lang/Class<*>;)Lorg/springframework/messaging/rsocket/RSocketRequester$RetrieveSpec;
+data
+ (Ljava/lang/Object;Lorg/springframework/core/ParameterizedTypeReference<*>;)Lorg/springframework/messaging/rsocket/RSocketRequester$RetrieveSpec;
+ (Ljava/lang/Object;Lorg/springframework/core/ParameterizedTypeReference<*>;)Lorg/springframework/messaging/rsocket/RSocketRequester$RetrieveSpec;
+metadata
+ (Ljava/util/function/Consumer<Lorg/springframework/messaging/rsocket/RSocketRequester$MetadataSpec<*>;>;)Lorg/springframework/messaging/rsocket/RSocketRequester$RequestSpec;
+ (Ljava/util/function/Consumer<Lorg/springframework/messaging/rsocket/RSocketRequester$MetadataSpec<*>;>;)Lorg/springframework/messaging/rsocket/RSocketRequester$RequestSpec;
+sendMetadata
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;

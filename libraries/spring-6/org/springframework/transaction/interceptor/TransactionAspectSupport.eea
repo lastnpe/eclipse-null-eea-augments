@@ -1,0 +1,67 @@
+class org/springframework/transaction/interceptor/TransactionAspectSupport
+
+currentTransactionInfo
+ ()Lorg/springframework/transaction/interceptor/TransactionAspectSupport$TransactionInfo;
+ ()L0org/springframework/transaction/interceptor/TransactionAspectSupport$TransactionInfo;
+currentTransactionStatus
+ ()Lorg/springframework/transaction/TransactionStatus;
+ ()Lorg/springframework/transaction/TransactionStatus;
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+cleanupTransactionInfo
+ (Lorg/springframework/transaction/interceptor/TransactionAspectSupport$TransactionInfo;)V
+ (Lorg/springframework/transaction/interceptor/TransactionAspectSupport$TransactionInfo;)V
+commitTransactionAfterReturning
+ (Lorg/springframework/transaction/interceptor/TransactionAspectSupport$TransactionInfo;)V
+ (Lorg/springframework/transaction/interceptor/TransactionAspectSupport$TransactionInfo;)V
+completeTransactionAfterThrowing
+ (Lorg/springframework/transaction/interceptor/TransactionAspectSupport$TransactionInfo;Ljava/lang/Throwable;)V
+ (Lorg/springframework/transaction/interceptor/TransactionAspectSupport$TransactionInfo;Ljava/lang/Throwable;)V
+createTransactionIfNecessary
+ (Lorg/springframework/transaction/PlatformTransactionManager;Lorg/springframework/transaction/interceptor/TransactionAttribute;Ljava/lang/String;)Lorg/springframework/transaction/interceptor/TransactionAspectSupport$TransactionInfo;
+ (Lorg/springframework/transaction/PlatformTransactionManager;Lorg/springframework/transaction/interceptor/TransactionAttribute;Ljava/lang/String;)Lorg/springframework/transaction/interceptor/TransactionAspectSupport$TransactionInfo;
+determineTransactionManager
+ (Lorg/springframework/transaction/interceptor/TransactionAttribute;)Lorg/springframework/transaction/TransactionManager;
+ (Lorg/springframework/transaction/interceptor/TransactionAttribute;)L0org/springframework/transaction/TransactionManager;
+getBeanFactory
+ ()Lorg/springframework/beans/factory/BeanFactory;
+ ()L0org/springframework/beans/factory/BeanFactory;
+getTransactionAttributeSource
+ ()Lorg/springframework/transaction/interceptor/TransactionAttributeSource;
+ ()L0org/springframework/transaction/interceptor/TransactionAttributeSource;
+getTransactionManager
+ ()Lorg/springframework/transaction/TransactionManager;
+ ()L0org/springframework/transaction/TransactionManager;
+getTransactionManagerBeanName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+invokeWithinTransaction
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;Lorg/springframework/transaction/interceptor/TransactionAspectSupport$InvocationCallback;)Ljava/lang/Object;
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;Lorg/springframework/transaction/interceptor/TransactionAspectSupport$InvocationCallback;)L0java/lang/Object;
+methodIdentification
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Ljava/lang/String;
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)L0java/lang/String;
+prepareTransactionInfo
+ (Lorg/springframework/transaction/PlatformTransactionManager;Lorg/springframework/transaction/interceptor/TransactionAttribute;Ljava/lang/String;Lorg/springframework/transaction/TransactionStatus;)Lorg/springframework/transaction/interceptor/TransactionAspectSupport$TransactionInfo;
+ (Lorg/springframework/transaction/PlatformTransactionManager;Lorg/springframework/transaction/interceptor/TransactionAttribute;Ljava/lang/String;Lorg/springframework/transaction/TransactionStatus;)Lorg/springframework/transaction/interceptor/TransactionAspectSupport$TransactionInfo;
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setTransactionAttributeSource
+ (Lorg/springframework/transaction/interceptor/TransactionAttributeSource;)V
+ (Lorg/springframework/transaction/interceptor/TransactionAttributeSource;)V
+setTransactionAttributeSources
+ ([Lorg/springframework/transaction/interceptor/TransactionAttributeSource;)V
+ ([Lorg/springframework/transaction/interceptor/TransactionAttributeSource;)V
+setTransactionAttributes
+ (Ljava/util/Properties;)V
+ (Ljava/util/Properties;)V
+setTransactionManager
+ (Lorg/springframework/transaction/TransactionManager;)V
+ (Lorg/springframework/transaction/TransactionManager;)V
+setTransactionManagerBeanName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

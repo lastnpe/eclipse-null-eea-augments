@@ -1,0 +1,27 @@
+class org/springframework/messaging/handler/invocation/reactive/AbstractEncoderMethodReturnValueHandler
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+<init>
+ (Ljava/util/List<Lorg/springframework/core/codec/Encoder<*>;>;Lorg/springframework/core/ReactiveAdapterRegistry;)V
+ (Ljava/util/List<Lorg/springframework/core/codec/Encoder<*>;>;Lorg/springframework/core/ReactiveAdapterRegistry;)V
+getAdapterRegistry
+ ()Lorg/springframework/core/ReactiveAdapterRegistry;
+ ()Lorg/springframework/core/ReactiveAdapterRegistry;
+getEncoders
+ ()Ljava/util/List<Lorg/springframework/core/codec/Encoder<*>;>;
+ ()Ljava/util/List<Lorg/springframework/core/codec/Encoder<*>;>;
+handleEncodedContent
+ (Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+handleNoContent
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+handleReturnValue
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ (Ljava/lang/Object;Lorg/springframework/core/MethodParameter;Lorg/springframework/messaging/Message<*>;)Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+supportsReturnType
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z

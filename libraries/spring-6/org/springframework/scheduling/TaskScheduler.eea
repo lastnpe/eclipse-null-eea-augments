@@ -1,0 +1,38 @@
+class org/springframework/scheduling/TaskScheduler
+
+getClock
+ ()Ljava/time/Clock;
+ ()Ljava/time/Clock;
+schedule
+ (Ljava/lang/Runnable;Ljava/time/Instant;)Ljava/util/concurrent/ScheduledFuture<*>;
+ (Ljava/lang/Runnable;Ljava/time/Instant;)Ljava/util/concurrent/ScheduledFuture<*>;
+schedule
+ (Ljava/lang/Runnable;Ljava/util/Date;)Ljava/util/concurrent/ScheduledFuture<*>;
+ (Ljava/lang/Runnable;Ljava/util/Date;)Ljava/util/concurrent/ScheduledFuture<*>;
+schedule
+ (Ljava/lang/Runnable;Lorg/springframework/scheduling/Trigger;)Ljava/util/concurrent/ScheduledFuture<*>;
+ (Ljava/lang/Runnable;Lorg/springframework/scheduling/Trigger;)L0java/util/concurrent/ScheduledFuture<*>;
+scheduleAtFixedRate
+ (Ljava/lang/Runnable;J)Ljava/util/concurrent/ScheduledFuture<*>;
+ (Ljava/lang/Runnable;J)Ljava/util/concurrent/ScheduledFuture<*>;
+scheduleAtFixedRate
+ (Ljava/lang/Runnable;Ljava/time/Duration;)Ljava/util/concurrent/ScheduledFuture<*>;
+ (Ljava/lang/Runnable;Ljava/time/Duration;)Ljava/util/concurrent/ScheduledFuture<*>;
+scheduleAtFixedRate
+ (Ljava/lang/Runnable;Ljava/time/Instant;Ljava/time/Duration;)Ljava/util/concurrent/ScheduledFuture<*>;
+ (Ljava/lang/Runnable;Ljava/time/Instant;Ljava/time/Duration;)Ljava/util/concurrent/ScheduledFuture<*>;
+scheduleAtFixedRate
+ (Ljava/lang/Runnable;Ljava/util/Date;J)Ljava/util/concurrent/ScheduledFuture<*>;
+ (Ljava/lang/Runnable;Ljava/util/Date;J)Ljava/util/concurrent/ScheduledFuture<*>;
+scheduleWithFixedDelay
+ (Ljava/lang/Runnable;J)Ljava/util/concurrent/ScheduledFuture<*>;
+ (Ljava/lang/Runnable;J)Ljava/util/concurrent/ScheduledFuture<*>;
+scheduleWithFixedDelay
+ (Ljava/lang/Runnable;Ljava/time/Duration;)Ljava/util/concurrent/ScheduledFuture<*>;
+ (Ljava/lang/Runnable;Ljava/time/Duration;)Ljava/util/concurrent/ScheduledFuture<*>;
+scheduleWithFixedDelay
+ (Ljava/lang/Runnable;Ljava/time/Instant;Ljava/time/Duration;)Ljava/util/concurrent/ScheduledFuture<*>;
+ (Ljava/lang/Runnable;Ljava/time/Instant;Ljava/time/Duration;)Ljava/util/concurrent/ScheduledFuture<*>;
+scheduleWithFixedDelay
+ (Ljava/lang/Runnable;Ljava/util/Date;J)Ljava/util/concurrent/ScheduledFuture<*>;
+ (Ljava/lang/Runnable;Ljava/util/Date;J)Ljava/util/concurrent/ScheduledFuture<*>;

@@ -1,0 +1,23 @@
+class org/springframework/cache/interceptor/CacheProxyFactoryBean
+
+createMainInterceptor
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setCacheManager
+ (Lorg/springframework/cache/CacheManager;)V
+ (Lorg/springframework/cache/CacheManager;)V
+setCacheOperationSources
+ ([Lorg/springframework/cache/interceptor/CacheOperationSource;)V
+ ([Lorg/springframework/cache/interceptor/CacheOperationSource;)V
+setCacheResolver
+ (Lorg/springframework/cache/interceptor/CacheResolver;)V
+ (Lorg/springframework/cache/interceptor/CacheResolver;)V
+setKeyGenerator
+ (Lorg/springframework/cache/interceptor/KeyGenerator;)V
+ (Lorg/springframework/cache/interceptor/KeyGenerator;)V
+setPointcut
+ (Lorg/springframework/aop/Pointcut;)V
+ (Lorg/springframework/aop/Pointcut;)V

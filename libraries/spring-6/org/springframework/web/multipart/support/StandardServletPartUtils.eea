@@ -1,0 +1,11 @@
+class org/springframework/web/multipart/support/StandardServletPartUtils
+
+bindParts
+ (Ljakarta/servlet/http/HttpServletRequest;Lorg/springframework/beans/MutablePropertyValues;Z)V
+ (Ljakarta/servlet/http/HttpServletRequest;Lorg/springframework/beans/MutablePropertyValues;Z)V
+getParts
+ (Ljakarta/servlet/http/HttpServletRequest;)Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljakarta/servlet/http/Part;>;
+ (Ljakarta/servlet/http/HttpServletRequest;)Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljakarta/servlet/http/Part;>;
+getParts
+ (Ljakarta/servlet/http/HttpServletRequest;Ljava/lang/String;)Ljava/util/List<Ljakarta/servlet/http/Part;>;
+ (Ljakarta/servlet/http/HttpServletRequest;Ljava/lang/String;)Ljava/util/List<Ljakarta/servlet/http/Part;>;

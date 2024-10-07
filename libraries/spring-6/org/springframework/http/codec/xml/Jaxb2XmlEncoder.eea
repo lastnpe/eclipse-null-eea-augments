@@ -1,0 +1,21 @@
+class org/springframework/http/codec/xml/Jaxb2XmlEncoder
+
+super org/springframework/core/codec/AbstractSingleValueEncoder
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+canEncode
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Z
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Z
+encode
+ (Ljava/lang/Object;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+ (Ljava/lang/Object;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lreactor/core/publisher/Flux<Lorg/springframework/core/io/buffer/DataBuffer;>;
+encodeValue
+ (Ljava/lang/Object;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/springframework/core/io/buffer/DataBuffer;
+ (Ljava/lang/Object;Lorg/springframework/core/io/buffer/DataBufferFactory;Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/springframework/core/io/buffer/DataBuffer;
+getMarshallerProcessor
+ ()Ljava/util/function/Function<Ljakarta/xml/bind/Marshaller;Ljakarta/xml/bind/Marshaller;>;
+ ()Ljava/util/function/Function<Ljakarta/xml/bind/Marshaller;Ljakarta/xml/bind/Marshaller;>;
+setMarshallerProcessor
+ (Ljava/util/function/Function<Ljakarta/xml/bind/Marshaller;Ljakarta/xml/bind/Marshaller;>;)V
+ (Ljava/util/function/Function<Ljakarta/xml/bind/Marshaller;Ljakarta/xml/bind/Marshaller;>;)V

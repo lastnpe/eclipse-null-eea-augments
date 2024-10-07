@@ -1,0 +1,37 @@
+class org/springframework/test/web/reactive/server/WebTestClient$RequestHeadersSpec
+ <S::Lorg/springframework/test/web/reactive/server/WebTestClient$RequestHeadersSpec<TS;>;>
+ <S::Lorg/springframework/test/web/reactive/server/WebTestClient$RequestHeadersSpec<TS;>;>
+
+accept
+ ([Lorg/springframework/http/MediaType;)TS;
+ ([Lorg/springframework/http/MediaType;)TS;
+acceptCharset
+ ([Ljava/nio/charset/Charset;)TS;
+ ([Ljava/nio/charset/Charset;)TS;
+attribute
+ (Ljava/lang/String;Ljava/lang/Object;)TS;
+ (Ljava/lang/String;Ljava/lang/Object;)TS;
+attributes
+ (Ljava/util/function/Consumer<Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;>;)TS;
+ (Ljava/util/function/Consumer<Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;>;)TS;
+cookie
+ (Ljava/lang/String;Ljava/lang/String;)TS;
+ (Ljava/lang/String;Ljava/lang/String;)TS;
+cookies
+ (Ljava/util/function/Consumer<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;)TS;
+ (Ljava/util/function/Consumer<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;)TS;
+exchange
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+header
+ (Ljava/lang/String;[Ljava/lang/String;)TS;
+ (Ljava/lang/String;[Ljava/lang/String;)TS;
+headers
+ (Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)TS;
+ (Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)TS;
+ifModifiedSince
+ (Ljava/time/ZonedDateTime;)TS;
+ (Ljava/time/ZonedDateTime;)TS;
+ifNoneMatch
+ ([Ljava/lang/String;)TS;
+ ([Ljava/lang/String;)TS;

@@ -1,0 +1,36 @@
+class org/springframework/messaging/rsocket/RSocketStrategies
+
+builder
+ ()Lorg/springframework/messaging/rsocket/RSocketStrategies$Builder;
+ ()Lorg/springframework/messaging/rsocket/RSocketStrategies$Builder;
+create
+ ()Lorg/springframework/messaging/rsocket/RSocketStrategies;
+ ()Lorg/springframework/messaging/rsocket/RSocketStrategies;
+
+dataBufferFactory
+ ()Lorg/springframework/core/io/buffer/DataBufferFactory;
+ ()Lorg/springframework/core/io/buffer/DataBufferFactory;
+decoder
+ <T:Ljava/lang/Object;>(Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Lorg/springframework/core/codec/Decoder<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Lorg/springframework/core/codec/Decoder<TT;>;
+decoders
+ ()Ljava/util/List<Lorg/springframework/core/codec/Decoder<*>;>;
+ ()Ljava/util/List<Lorg/springframework/core/codec/Decoder<*>;>;
+encoder
+ <T:Ljava/lang/Object;>(Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Lorg/springframework/core/codec/Encoder<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Lorg/springframework/core/codec/Encoder<TT;>;
+encoders
+ ()Ljava/util/List<Lorg/springframework/core/codec/Encoder<*>;>;
+ ()Ljava/util/List<Lorg/springframework/core/codec/Encoder<*>;>;
+metadataExtractor
+ ()Lorg/springframework/messaging/rsocket/MetadataExtractor;
+ ()Lorg/springframework/messaging/rsocket/MetadataExtractor;
+mutate
+ ()Lorg/springframework/messaging/rsocket/RSocketStrategies$Builder;
+ ()Lorg/springframework/messaging/rsocket/RSocketStrategies$Builder;
+reactiveAdapterRegistry
+ ()Lorg/springframework/core/ReactiveAdapterRegistry;
+ ()Lorg/springframework/core/ReactiveAdapterRegistry;
+routeMatcher
+ ()Lorg/springframework/util/RouteMatcher;
+ ()Lorg/springframework/util/RouteMatcher;

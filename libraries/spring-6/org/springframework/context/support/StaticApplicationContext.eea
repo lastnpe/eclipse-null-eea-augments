@@ -1,0 +1,23 @@
+class org/springframework/context/support/StaticApplicationContext
+
+<init>
+ (Lorg/springframework/context/ApplicationContext;)V
+ (Lorg/springframework/context/ApplicationContext;)V
+addMessage
+ (Ljava/lang/String;Ljava/util/Locale;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/util/Locale;Ljava/lang/String;)V
+getStaticMessageSource
+ ()Lorg/springframework/context/support/StaticMessageSource;
+ ()Lorg/springframework/context/support/StaticMessageSource;
+registerPrototype
+ (Ljava/lang/String;Ljava/lang/Class<*>;)V
+ (Ljava/lang/String;Ljava/lang/Class<*>;)V
+registerPrototype
+ (Ljava/lang/String;Ljava/lang/Class<*>;Lorg/springframework/beans/MutablePropertyValues;)V
+ (Ljava/lang/String;Ljava/lang/Class<*>;Lorg/springframework/beans/MutablePropertyValues;)V
+registerSingleton
+ (Ljava/lang/String;Ljava/lang/Class<*>;)V
+ (Ljava/lang/String;Ljava/lang/Class<*>;)V
+registerSingleton
+ (Ljava/lang/String;Ljava/lang/Class<*>;Lorg/springframework/beans/MutablePropertyValues;)V
+ (Ljava/lang/String;Ljava/lang/Class<*>;Lorg/springframework/beans/MutablePropertyValues;)V

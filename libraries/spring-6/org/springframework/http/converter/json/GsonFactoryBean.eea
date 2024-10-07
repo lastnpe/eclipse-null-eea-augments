@@ -1,0 +1,15 @@
+class org/springframework/http/converter/json/GsonFactoryBean
+
+super org/springframework/beans/factory/FactoryBean
+ <Lcom/google/gson/Gson;>
+ <Lcom/google/gson/Gson;>
+
+getObject
+ ()Lcom/google/gson/Gson;
+ ()L0com/google/gson/Gson;
+getObjectType
+ ()Ljava/lang/Class<*>;
+ ()L0java/lang/Class<*>; # @Inherited(org.springframework.beans.factory.FactoryBean)
+setDateFormatPattern
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

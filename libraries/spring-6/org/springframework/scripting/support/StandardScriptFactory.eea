@@ -1,0 +1,44 @@
+class org/springframework/scripting/support/StandardScriptFactory
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;)V
+ (Ljava/lang/String;Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class<*>;)V
+ (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class<*>;)V
+<init>
+ (Ljava/lang/String;[Ljava/lang/Class<*>;)V
+ (Ljava/lang/String;[Ljava/lang/Class<*>;)V
+adaptToInterfaces
+ (Ljava/lang/Object;Lorg/springframework/scripting/ScriptSource;[Ljava/lang/Class<*>;)Ljava/lang/Object;
+ (Ljava/lang/Object;Lorg/springframework/scripting/ScriptSource;[Ljava/lang/Class<*>;)L0java/lang/Object;
+evaluateScript
+ (Lorg/springframework/scripting/ScriptSource;)Ljava/lang/Object;
+ (Lorg/springframework/scripting/ScriptSource;)Ljava/lang/Object;
+getScriptInterfaces
+ ()[Ljava/lang/Class<*>;
+ ()[0Ljava/lang/Class<*>; # @Inherited(org.springframework.scripting.ScriptFactory)
+getScriptSourceLocator
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getScriptedObject
+ (Lorg/springframework/scripting/ScriptSource;[Ljava/lang/Class<*>;)Ljava/lang/Object;
+ (Lorg/springframework/scripting/ScriptSource;[Ljava/lang/Class<*>;)L0java/lang/Object; # @Inherited(org.springframework.scripting.ScriptFactory)
+getScriptedObjectType
+ (Lorg/springframework/scripting/ScriptSource;)Ljava/lang/Class<*>;
+ (Lorg/springframework/scripting/ScriptSource;)L0java/lang/Class<*>; # @Inherited(org.springframework.scripting.ScriptFactory)
+requiresScriptedObjectRefresh
+ (Lorg/springframework/scripting/ScriptSource;)Z
+ (Lorg/springframework/scripting/ScriptSource;)Z
+retrieveScriptEngine
+ (Lorg/springframework/scripting/ScriptSource;)Ljavax/script/ScriptEngine;
+ (Lorg/springframework/scripting/ScriptSource;)L0javax/script/ScriptEngine;
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

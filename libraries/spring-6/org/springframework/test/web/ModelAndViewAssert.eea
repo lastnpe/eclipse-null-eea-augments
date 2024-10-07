@@ -1,0 +1,23 @@
+class org/springframework/test/web/ModelAndViewAssert
+
+assertAndReturnModelAttributeOfType
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/servlet/ModelAndView;Ljava/lang/String;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/servlet/ModelAndView;Ljava/lang/String;Ljava/lang/Class<TT;>;)TT;
+assertCompareListModelAttribute
+ (Lorg/springframework/web/servlet/ModelAndView;Ljava/lang/String;Ljava/util/List;)V
+ (Lorg/springframework/web/servlet/ModelAndView;Ljava/lang/String;Ljava/util/List;)V
+assertModelAttributeAvailable
+ (Lorg/springframework/web/servlet/ModelAndView;Ljava/lang/String;)V
+ (Lorg/springframework/web/servlet/ModelAndView;Ljava/lang/String;)V
+assertModelAttributeValue
+ (Lorg/springframework/web/servlet/ModelAndView;Ljava/lang/String;Ljava/lang/Object;)V
+ (Lorg/springframework/web/servlet/ModelAndView;Ljava/lang/String;Ljava/lang/Object;)V
+assertModelAttributeValues
+ (Lorg/springframework/web/servlet/ModelAndView;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+ (Lorg/springframework/web/servlet/ModelAndView;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+assertSortAndCompareListModelAttribute
+ (Lorg/springframework/web/servlet/ModelAndView;Ljava/lang/String;Ljava/util/List;Ljava/util/Comparator;)V
+ (Lorg/springframework/web/servlet/ModelAndView;Ljava/lang/String;Ljava/util/List;Ljava/util/Comparator;)V
+assertViewName
+ (Lorg/springframework/web/servlet/ModelAndView;Ljava/lang/String;)V
+ (Lorg/springframework/web/servlet/ModelAndView;Ljava/lang/String;)V

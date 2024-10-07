@@ -1,0 +1,31 @@
+class org/springframework/expression/spel/ast/Operator
+
+equalityCheck
+ (Lorg/springframework/expression/EvaluationContext;Ljava/lang/Object;Ljava/lang/Object;)Z
+ (Lorg/springframework/expression/EvaluationContext;Ljava/lang/Object;Ljava/lang/Object;)Z
+
+leftActualDescriptor
+ Ljava/lang/String;
+ L0java/lang/String;
+rightActualDescriptor
+ Ljava/lang/String;
+ L0java/lang/String;
+
+<init>
+ (Ljava/lang/String;II[Lorg/springframework/expression/spel/ast/SpelNodeImpl;)V
+ (Ljava/lang/String;II[Lorg/springframework/expression/spel/ast/SpelNodeImpl;)V
+generateComparisonCode
+ (Lorg/springframework/asm/MethodVisitor;Lorg/springframework/expression/spel/CodeFlow;II)V
+ (Lorg/springframework/asm/MethodVisitor;Lorg/springframework/expression/spel/CodeFlow;II)V
+getLeftOperand
+ ()Lorg/springframework/expression/spel/ast/SpelNodeImpl;
+ ()Lorg/springframework/expression/spel/ast/SpelNodeImpl;
+getOperatorName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getRightOperand
+ ()Lorg/springframework/expression/spel/ast/SpelNodeImpl;
+ ()Lorg/springframework/expression/spel/ast/SpelNodeImpl;
+toStringAST
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;

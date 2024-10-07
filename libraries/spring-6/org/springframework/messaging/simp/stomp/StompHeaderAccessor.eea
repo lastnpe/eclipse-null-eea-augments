@@ -1,0 +1,175 @@
+class org/springframework/messaging/simp/stomp/StompHeaderAccessor
+
+STOMP_ACCEPT_VERSION_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+STOMP_ACK_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+STOMP_CONTENT_LENGTH_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+STOMP_CONTENT_TYPE_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+STOMP_DESTINATION_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+STOMP_HEARTBEAT_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+STOMP_HOST_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+STOMP_ID_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+STOMP_LOGIN_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+STOMP_MESSAGE_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+STOMP_MESSAGE_ID_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+STOMP_NACK_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+STOMP_PASSCODE_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+STOMP_RECEIPT_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+STOMP_RECEIPT_ID_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+STOMP_SUBSCRIPTION_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+STOMP_VERSION_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+
+create
+ (Lorg/springframework/messaging/simp/stomp/StompCommand;)Lorg/springframework/messaging/simp/stomp/StompHeaderAccessor;
+ (Lorg/springframework/messaging/simp/stomp/StompCommand;)Lorg/springframework/messaging/simp/stomp/StompHeaderAccessor;
+create
+ (Lorg/springframework/messaging/simp/stomp/StompCommand;Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;)Lorg/springframework/messaging/simp/stomp/StompHeaderAccessor;
+ (Lorg/springframework/messaging/simp/stomp/StompCommand;Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;)Lorg/springframework/messaging/simp/stomp/StompHeaderAccessor;
+createForHeartbeat
+ ()Lorg/springframework/messaging/simp/stomp/StompHeaderAccessor;
+ ()Lorg/springframework/messaging/simp/stomp/StompHeaderAccessor;
+getCommand
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/springframework/messaging/simp/stomp/StompCommand;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)L0org/springframework/messaging/simp/stomp/StompCommand;
+getContentLength
+ (Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;)Ljava/lang/Integer;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;)L0java/lang/Integer;
+getPasscode
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Ljava/lang/String;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)L0java/lang/String;
+wrap
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/simp/stomp/StompHeaderAccessor;
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/simp/stomp/StompHeaderAccessor;
+
+createAccessor
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/support/MessageHeaderAccessor;
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/support/MessageHeaderAccessor;
+getAcceptVersion
+ ()Ljava/util/Set<Ljava/lang/String;>;
+ ()Ljava/util/Set<Ljava/lang/String;>;
+getAck
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getCommand
+ ()Lorg/springframework/messaging/simp/stomp/StompCommand;
+ ()L0org/springframework/messaging/simp/stomp/StompCommand;
+getContentLength
+ ()Ljava/lang/Integer;
+ ()L0java/lang/Integer;
+getDetailedLogMessage
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+getHeartbeat
+ ()[J
+ ()[J
+getHost
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getLogin
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getMessage
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getMessageId
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getNack
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getNativeHeaders
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;
+ ()L0java/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>; # @Inherited(org.springframework.messaging.support.NativeMessageHeaderAccessor)
+getPasscode
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getReceipt
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getReceiptId
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getShortLogMessage
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+getVersion
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+setAcceptVersion
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setAck
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setContentType
+ (Lorg/springframework/util/MimeType;)V
+ (Lorg/springframework/util/MimeType;)V
+setDestination
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setHost
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setLogin
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setMessage
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setMessageId
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setNack
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPasscode
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setReceipt
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setReceiptId
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSubscriptionId
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setVersion
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+updateStompCommandAsClientMessage
+ ()Lorg/springframework/messaging/simp/stomp/StompCommand;
+ ()Lorg/springframework/messaging/simp/stomp/StompCommand;

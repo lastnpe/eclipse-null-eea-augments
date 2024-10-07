@@ -1,0 +1,18 @@
+class org/springframework/scheduling/concurrent/ForkJoinPoolFactoryBean
+
+super org/springframework/beans/factory/FactoryBean
+ <Ljava/util/concurrent/ForkJoinPool;>
+ <Ljava/util/concurrent/ForkJoinPool;>
+
+getObject
+ ()Ljava/util/concurrent/ForkJoinPool;
+ ()L0java/util/concurrent/ForkJoinPool;
+getObjectType
+ ()Ljava/lang/Class<*>;
+ ()L0java/lang/Class<*>; # @Inherited(org.springframework.beans.factory.FactoryBean)
+setThreadFactory
+ (Ljava/util/concurrent/ForkJoinPool$ForkJoinWorkerThreadFactory;)V
+ (Ljava/util/concurrent/ForkJoinPool$ForkJoinWorkerThreadFactory;)V
+setUncaughtExceptionHandler
+ (Ljava/lang/Thread$UncaughtExceptionHandler;)V
+ (Ljava/lang/Thread$UncaughtExceptionHandler;)V

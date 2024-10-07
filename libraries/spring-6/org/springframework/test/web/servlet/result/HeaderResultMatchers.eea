@@ -1,0 +1,26 @@
+class org/springframework/test/web/servlet/result/HeaderResultMatchers
+
+dateValue
+ (Ljava/lang/String;J)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;J)Lorg/springframework/test/web/servlet/ResultMatcher;
+doesNotExist
+ (Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+exists
+ (Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+longValue
+ (Ljava/lang/String;J)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;J)Lorg/springframework/test/web/servlet/ResultMatcher;
+string
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+string
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+stringValues
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/Iterable<Ljava/lang/String;>;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/Iterable<Ljava/lang/String;>;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+stringValues
+ (Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;

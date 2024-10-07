@@ -1,0 +1,60 @@
+class org/springframework/http/ProblemDetail
+
+forStatus
+ (I)Lorg/springframework/http/ProblemDetail;
+ (I)Lorg/springframework/http/ProblemDetail;
+forStatus
+ (Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/http/ProblemDetail;
+ (Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/http/ProblemDetail;
+forStatusAndDetail
+ (Lorg/springframework/http/HttpStatusCode;Ljava/lang/String;)Lorg/springframework/http/ProblemDetail;
+ (Lorg/springframework/http/HttpStatusCode;Ljava/lang/String;)Lorg/springframework/http/ProblemDetail;
+
+<init>
+ (Lorg/springframework/http/ProblemDetail;)V
+ (Lorg/springframework/http/ProblemDetail;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getDetail
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getInstance
+ ()Ljava/net/URI;
+ ()L0java/net/URI;
+getProperties
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()L0java/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getTitle
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getType
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+initToStringContent
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+setDetail
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setInstance
+ (Ljava/net/URI;)V
+ (Ljava/net/URI;)V
+setProperties
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+setProperty
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+setStatus
+ (Lorg/springframework/http/HttpStatus;)V
+ (Lorg/springframework/http/HttpStatus;)V
+setTitle
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setType
+ (Ljava/net/URI;)V
+ (Ljava/net/URI;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

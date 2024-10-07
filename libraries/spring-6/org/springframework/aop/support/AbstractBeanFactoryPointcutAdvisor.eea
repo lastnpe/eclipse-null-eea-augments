@@ -1,0 +1,20 @@
+class org/springframework/aop/support/AbstractBeanFactoryPointcutAdvisor
+
+getAdvice
+ ()Lorg/aopalliance/aop/Advice;
+ ()Lorg/aopalliance/aop/Advice;
+getAdviceBeanName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+setAdvice
+ (Lorg/aopalliance/aop/Advice;)V
+ (Lorg/aopalliance/aop/Advice;)V
+setAdviceBeanName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

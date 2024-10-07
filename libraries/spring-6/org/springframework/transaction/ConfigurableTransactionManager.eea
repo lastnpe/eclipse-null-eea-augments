@@ -1,0 +1,11 @@
+class org/springframework/transaction/ConfigurableTransactionManager
+
+addListener
+ (Lorg/springframework/transaction/TransactionExecutionListener;)V
+ (L1org/springframework/transaction/TransactionExecutionListener;)V
+getTransactionExecutionListeners
+ ()Ljava/util/Collection<Lorg/springframework/transaction/TransactionExecutionListener;>;
+ ()Ljava/util/Collection<Lorg/springframework/transaction/TransactionExecutionListener;>;
+setTransactionExecutionListeners
+ (Ljava/util/Collection<Lorg/springframework/transaction/TransactionExecutionListener;>;)V
+ (Ljava/util/Collection<Lorg/springframework/transaction/TransactionExecutionListener;>;)V

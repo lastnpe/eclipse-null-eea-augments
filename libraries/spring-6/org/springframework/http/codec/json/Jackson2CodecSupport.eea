@@ -1,0 +1,58 @@
+class org/springframework/http/codec/json/Jackson2CodecSupport
+
+JSON_VIEW_HINT
+ Ljava/lang/String;
+ L1java/lang/String;
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+<init>
+ (Lcom/fasterxml/jackson/databind/ObjectMapper;[Lorg/springframework/util/MimeType;)V
+ (Lcom/fasterxml/jackson/databind/ObjectMapper;[Lorg/springframework/util/MimeType;)V
+getAnnotation
+ <A::Ljava/lang/annotation/Annotation;>(Lorg/springframework/core/MethodParameter;Ljava/lang/Class<TA;>;)TA;
+ <A::Ljava/lang/annotation/Annotation;>(Lorg/springframework/core/MethodParameter;Ljava/lang/Class<TA;>;)T0A;
+getHints
+ (Lorg/springframework/core/ResolvableType;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ (Lorg/springframework/core/ResolvableType;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getJavaType
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+ (Ljava/lang/reflect/Type;Ljava/lang/Class<*>;)Lcom/fasterxml/jackson/databind/JavaType;
+getMediaTypesForProblemDetail
+ ()Ljava/util/List<Lorg/springframework/util/MimeType;>;
+ ()Ljava/util/List<Lorg/springframework/util/MimeType;>;
+getMimeTypes
+ ()Ljava/util/List<Lorg/springframework/util/MimeType;>;
+ ()Ljava/util/List<Lorg/springframework/util/MimeType;>;
+getMimeTypes
+ (Lorg/springframework/core/ResolvableType;)Ljava/util/List<Lorg/springframework/util/MimeType;>;
+ (Lorg/springframework/core/ResolvableType;)Ljava/util/List<Lorg/springframework/util/MimeType;>;
+getObjectMapper
+ ()Lcom/fasterxml/jackson/databind/ObjectMapper;
+ ()Lcom/fasterxml/jackson/databind/ObjectMapper;
+getObjectMapperRegistrations
+ ()Ljava/util/Map<Ljava/lang/Class<*>;Ljava/util/Map<Lorg/springframework/util/MimeType;Lcom/fasterxml/jackson/databind/ObjectMapper;>;>;
+ ()Ljava/util/Map<Ljava/lang/Class<*>;Ljava/util/Map<Lorg/springframework/util/MimeType;Lcom/fasterxml/jackson/databind/ObjectMapper;>;>;
+getObjectMappersForType
+ (Ljava/lang/Class<*>;)Ljava/util/Map<Lorg/springframework/util/MimeType;Lcom/fasterxml/jackson/databind/ObjectMapper;>;
+ (Ljava/lang/Class<*>;)L0java/util/Map<Lorg/springframework/util/MimeType;Lcom/fasterxml/jackson/databind/ObjectMapper;>;
+getParameter
+ (Lorg/springframework/core/ResolvableType;)Lorg/springframework/core/MethodParameter;
+ (Lorg/springframework/core/ResolvableType;)L0org/springframework/core/MethodParameter;
+logWarningIfNecessary
+ (Ljava/lang/reflect/Type;Ljava/lang/Throwable;)V
+ (Ljava/lang/reflect/Type;Ljava/lang/Throwable;)V
+registerObjectMappersForType
+ (Ljava/lang/Class<*>;Ljava/util/function/Consumer<Ljava/util/Map<Lorg/springframework/util/MimeType;Lcom/fasterxml/jackson/databind/ObjectMapper;>;>;)V
+ (Ljava/lang/Class<*>;Ljava/util/function/Consumer<Ljava/util/Map<Lorg/springframework/util/MimeType;Lcom/fasterxml/jackson/databind/ObjectMapper;>;>;)V
+selectObjectMapper
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)Lcom/fasterxml/jackson/databind/ObjectMapper;
+ (Lorg/springframework/core/ResolvableType;Lorg/springframework/util/MimeType;)L0com/fasterxml/jackson/databind/ObjectMapper;
+setObjectMapper
+ (Lcom/fasterxml/jackson/databind/ObjectMapper;)V
+ (Lcom/fasterxml/jackson/databind/ObjectMapper;)V
+supportsMimeType
+ (Lorg/springframework/util/MimeType;)Z
+ (Lorg/springframework/util/MimeType;)Z

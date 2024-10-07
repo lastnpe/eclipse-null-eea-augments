@@ -1,0 +1,38 @@
+class org/springframework/messaging/tcp/reactor/ReactorNetty2TcpClient
+ <P:Ljava/lang/Object;>
+ <P:Ljava/lang/Object;>
+
+super org/springframework/messaging/tcp/TcpOperations
+ <TP;>
+ <TP;>
+
+<init>
+ (Ljava/lang/String;ILorg/springframework/messaging/tcp/reactor/TcpMessageCodec<TP;>;)V
+ (Ljava/lang/String;ILorg/springframework/messaging/tcp/reactor/TcpMessageCodec<TP;>;)V
+<init>
+ (Ljava/util/function/Function<Lreactor/netty5/tcp/TcpClient;Lreactor/netty5/tcp/TcpClient;>;Lorg/springframework/messaging/tcp/reactor/TcpMessageCodec<TP;>;)V
+ (Ljava/util/function/Function<Lreactor/netty5/tcp/TcpClient;Lreactor/netty5/tcp/TcpClient;>;Lorg/springframework/messaging/tcp/reactor/TcpMessageCodec<TP;>;)V
+<init>
+ (Lreactor/netty5/tcp/TcpClient;Lorg/springframework/messaging/tcp/reactor/TcpMessageCodec<TP;>;)V
+ (Lreactor/netty5/tcp/TcpClient;Lorg/springframework/messaging/tcp/reactor/TcpMessageCodec<TP;>;)V
+connectAsync
+ (Lorg/springframework/messaging/tcp/TcpConnectionHandler<TP;>;)Ljava/util/concurrent/CompletableFuture<Ljava/lang/Void;>;
+ (Lorg/springframework/messaging/tcp/TcpConnectionHandler<TP;>;)Ljava/util/concurrent/CompletableFuture<Ljava/lang/Void;>;
+connectAsync
+ (Lorg/springframework/messaging/tcp/TcpConnectionHandler<TP;>;Lorg/springframework/messaging/tcp/ReconnectStrategy;)Ljava/util/concurrent/CompletableFuture<Ljava/lang/Void;>;
+ (Lorg/springframework/messaging/tcp/TcpConnectionHandler<TP;>;Lorg/springframework/messaging/tcp/ReconnectStrategy;)Ljava/util/concurrent/CompletableFuture<Ljava/lang/Void;>;
+extendTcpClient
+ (Lreactor/netty5/tcp/TcpClient;Lorg/springframework/messaging/tcp/TcpConnectionHandler<TP;>;)Lreactor/netty5/tcp/TcpClient;
+ (Lreactor/netty5/tcp/TcpClient;Lorg/springframework/messaging/tcp/TcpConnectionHandler<TP;>;)Lreactor/netty5/tcp/TcpClient;
+getLogger
+ ()Lorg/apache/commons/logging/Log;
+ ()Lorg/apache/commons/logging/Log;
+setLogger
+ (Lorg/apache/commons/logging/Log;)V
+ (Lorg/apache/commons/logging/Log;)V
+shutdownAsync
+ ()Ljava/util/concurrent/CompletableFuture<Ljava/lang/Void;>;
+ ()Ljava/util/concurrent/CompletableFuture<Ljava/lang/Void;>;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

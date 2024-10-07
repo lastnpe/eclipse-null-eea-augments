@@ -1,0 +1,38 @@
+class org/springframework/jmx/export/assembler/AbstractMBeanInfoAssembler
+
+checkManagedBean
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+getAttributeInfo
+ (Ljava/lang/Object;Ljava/lang/String;)[Ljavax/management/modelmbean/ModelMBeanAttributeInfo;
+ (Ljava/lang/Object;Ljava/lang/String;)[Ljavax/management/modelmbean/ModelMBeanAttributeInfo;
+getClassName
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+getClassToExpose
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+ (Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+getClassToExpose
+ (Ljava/lang/Object;)Ljava/lang/Class<*>;
+ (Ljava/lang/Object;)Ljava/lang/Class<*>;
+getConstructorInfo
+ (Ljava/lang/Object;Ljava/lang/String;)[Ljavax/management/modelmbean/ModelMBeanConstructorInfo;
+ (Ljava/lang/Object;Ljava/lang/String;)[Ljavax/management/modelmbean/ModelMBeanConstructorInfo;
+getDescription
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+getMBeanInfo
+ (Ljava/lang/Object;Ljava/lang/String;)Ljavax/management/modelmbean/ModelMBeanInfo;
+ (Ljava/lang/Object;Ljava/lang/String;)Ljavax/management/modelmbean/ModelMBeanInfo;
+getNotificationInfo
+ (Ljava/lang/Object;Ljava/lang/String;)[Ljavax/management/modelmbean/ModelMBeanNotificationInfo;
+ (Ljava/lang/Object;Ljava/lang/String;)[Ljavax/management/modelmbean/ModelMBeanNotificationInfo;
+getOperationInfo
+ (Ljava/lang/Object;Ljava/lang/String;)[Ljavax/management/modelmbean/ModelMBeanOperationInfo;
+ (Ljava/lang/Object;Ljava/lang/String;)[Ljavax/management/modelmbean/ModelMBeanOperationInfo;
+getTargetClass
+ (Ljava/lang/Object;)Ljava/lang/Class<*>;
+ (Ljava/lang/Object;)Ljava/lang/Class<*>;
+populateMBeanDescriptor
+ (Ljavax/management/Descriptor;Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljavax/management/Descriptor;Ljava/lang/Object;Ljava/lang/String;)V

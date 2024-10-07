@@ -1,0 +1,56 @@
+class org/springframework/messaging/simp/config/StompBrokerRelayRegistration
+
+<init>
+ (Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/MessageChannel;[Ljava/lang/String;)V
+ (Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/MessageChannel;[Ljava/lang/String;)V
+getMessageHandler
+ (Lorg/springframework/messaging/SubscribableChannel;)Lorg/springframework/messaging/simp/stomp/StompBrokerRelayMessageHandler;
+ (Lorg/springframework/messaging/SubscribableChannel;)Lorg/springframework/messaging/simp/stomp/StompBrokerRelayMessageHandler;
+getUserDestinationBroadcast
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getUserRegistryBroadcast
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+setAutoStartup
+ (Z)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+ (Z)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+setClientLogin
+ (Ljava/lang/String;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+ (Ljava/lang/String;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+setClientPasscode
+ (Ljava/lang/String;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+ (Ljava/lang/String;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+setRelayHost
+ (Ljava/lang/String;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+ (Ljava/lang/String;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+setRelayPort
+ (I)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+ (I)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+setSystemHeartbeatReceiveInterval
+ (J)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+ (J)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+setSystemHeartbeatSendInterval
+ (J)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+ (J)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+setSystemLogin
+ (Ljava/lang/String;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+ (Ljava/lang/String;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+setSystemPasscode
+ (Ljava/lang/String;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+ (Ljava/lang/String;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+setTaskScheduler
+ (Lorg/springframework/scheduling/TaskScheduler;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+ (Lorg/springframework/scheduling/TaskScheduler;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+setTcpClient
+ (Lorg/springframework/messaging/tcp/TcpOperations<[B>;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+ (Lorg/springframework/messaging/tcp/TcpOperations<[B>;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+setUserDestinationBroadcast
+ (Ljava/lang/String;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+ (Ljava/lang/String;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+setUserRegistryBroadcast
+ (Ljava/lang/String;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+ (Ljava/lang/String;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+setVirtualHost
+ (Ljava/lang/String;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;
+ (Ljava/lang/String;)Lorg/springframework/messaging/simp/config/StompBrokerRelayRegistration;

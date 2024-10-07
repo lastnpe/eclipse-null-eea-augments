@@ -1,0 +1,44 @@
+class org/springframework/test/web/servlet/result/ModelResultMatchers
+
+attribute
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/test/web/servlet/ResultMatcher;
+attribute
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<-TT;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;Lorg/hamcrest/Matcher<-TT;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+attributeDoesNotExist
+ ([Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ ([Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+attributeErrorCount
+ (Ljava/lang/String;I)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;I)Lorg/springframework/test/web/servlet/ResultMatcher;
+attributeExists
+ ([Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ ([Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+attributeHasErrors
+ ([Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ ([Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+attributeHasFieldErrorCode
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+attributeHasFieldErrorCode
+ (Ljava/lang/String;Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/servlet/ResultMatcher;
+attributeHasFieldErrors
+ (Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+attributeHasNoErrors
+ ([Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+ ([Ljava/lang/String;)Lorg/springframework/test/web/servlet/ResultMatcher;
+errorCount
+ (I)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (I)Lorg/springframework/test/web/servlet/ResultMatcher;
+hasErrors
+ ()Lorg/springframework/test/web/servlet/ResultMatcher;
+ ()Lorg/springframework/test/web/servlet/ResultMatcher;
+hasNoErrors
+ ()Lorg/springframework/test/web/servlet/ResultMatcher;
+ ()Lorg/springframework/test/web/servlet/ResultMatcher;
+size
+ (I)Lorg/springframework/test/web/servlet/ResultMatcher;
+ (I)Lorg/springframework/test/web/servlet/ResultMatcher;

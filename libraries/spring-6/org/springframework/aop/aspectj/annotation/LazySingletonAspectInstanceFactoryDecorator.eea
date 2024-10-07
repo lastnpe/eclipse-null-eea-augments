@@ -1,0 +1,20 @@
+class org/springframework/aop/aspectj/annotation/LazySingletonAspectInstanceFactoryDecorator
+
+<init>
+ (Lorg/springframework/aop/aspectj/annotation/MetadataAwareAspectInstanceFactory;)V
+ (Lorg/springframework/aop/aspectj/annotation/MetadataAwareAspectInstanceFactory;)V
+getAspectClassLoader
+ ()Ljava/lang/ClassLoader;
+ ()L0java/lang/ClassLoader; # @Inherited(org.springframework.aop.aspectj.AspectInstanceFactory)
+getAspectCreationMutex
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object; # @Inherited(org.springframework.aop.aspectj.annotation.MetadataAwareAspectInstanceFactory)
+getAspectInstance
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+getAspectMetadata
+ ()Lorg/springframework/aop/aspectj/annotation/AspectMetadata;
+ ()Lorg/springframework/aop/aspectj/annotation/AspectMetadata;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

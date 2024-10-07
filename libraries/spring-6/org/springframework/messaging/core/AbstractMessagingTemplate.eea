@@ -1,0 +1,38 @@
+class org/springframework/messaging/core/AbstractMessagingTemplate
+ <D:Ljava/lang/Object;>
+ <D:Ljava/lang/Object;>
+
+super org/springframework/messaging/core/AbstractMessageReceivingTemplate
+ <TD;>
+ <TD;>
+super org/springframework/messaging/core/MessageRequestReplyOperations
+ <TD;>
+ <TD;>
+
+convertSendAndReceive
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;)T0T; # @Inherited(org.springframework.messaging.core.MessageRequestReplyOperations)
+convertSendAndReceive
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;Lorg/springframework/messaging/core/MessagePostProcessor;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Object;Ljava/lang/Class<TT;>;Lorg/springframework/messaging/core/MessagePostProcessor;)T0T; # @Inherited(org.springframework.messaging.core.MessageRequestReplyOperations)
+convertSendAndReceive
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Object;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Object;Ljava/lang/Class<TT;>;)T0T; # @Inherited(org.springframework.messaging.core.MessageRequestReplyOperations)
+convertSendAndReceive
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Object;Ljava/lang/Class<TT;>;Lorg/springframework/messaging/core/MessagePostProcessor;)TT;
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Object;Ljava/lang/Class<TT;>;Lorg/springframework/messaging/core/MessagePostProcessor;)T0T; # @Inherited(org.springframework.messaging.core.MessageRequestReplyOperations)
+convertSendAndReceive
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/lang/Class<TT;>;)T0T; # @Inherited(org.springframework.messaging.core.MessageRequestReplyOperations)
+convertSendAndReceive
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/lang/Class<TT;>;Lorg/springframework/messaging/core/MessagePostProcessor;)TT;
+ <T:Ljava/lang/Object;>(TD;Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Ljava/lang/Class<TT;>;Lorg/springframework/messaging/core/MessagePostProcessor;)T0T; # @Inherited(org.springframework.messaging.core.MessageRequestReplyOperations)
+doSendAndReceive
+ (TD;Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/Message<*>;
+ (TD;Lorg/springframework/messaging/Message<*>;)L0org/springframework/messaging/Message<*>;
+sendAndReceive
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/Message<*>;
+ (Lorg/springframework/messaging/Message<*>;)L0org/springframework/messaging/Message<*>; # @Inherited(org.springframework.messaging.core.MessageRequestReplyOperations)
+sendAndReceive
+ (TD;Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/Message<*>;
+ (TD;Lorg/springframework/messaging/Message<*>;)L0org/springframework/messaging/Message<*>; # @Inherited(org.springframework.messaging.core.MessageRequestReplyOperations)

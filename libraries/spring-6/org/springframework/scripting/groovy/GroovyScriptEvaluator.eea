@@ -1,0 +1,23 @@
+class org/springframework/scripting/groovy/GroovyScriptEvaluator
+
+<init>
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+evaluate
+ (Lorg/springframework/scripting/ScriptSource;)Ljava/lang/Object;
+ (Lorg/springframework/scripting/ScriptSource;)L0java/lang/Object; # @Inherited(org.springframework.scripting.ScriptEvaluator)
+evaluate
+ (Lorg/springframework/scripting/ScriptSource;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Ljava/lang/Object;
+ (Lorg/springframework/scripting/ScriptSource;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)L0java/lang/Object; # @Inherited(org.springframework.scripting.ScriptEvaluator)
+getCompilerConfiguration
+ ()Lorg/codehaus/groovy/control/CompilerConfiguration;
+ ()Lorg/codehaus/groovy/control/CompilerConfiguration;
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setCompilationCustomizers
+ ([Lorg/codehaus/groovy/control/customizers/CompilationCustomizer;)V
+ ([Lorg/codehaus/groovy/control/customizers/CompilationCustomizer;)V
+setCompilerConfiguration
+ (Lorg/codehaus/groovy/control/CompilerConfiguration;)V
+ (Lorg/codehaus/groovy/control/CompilerConfiguration;)V

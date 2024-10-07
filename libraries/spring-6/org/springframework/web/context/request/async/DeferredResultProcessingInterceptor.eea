@@ -1,0 +1,20 @@
+class org/springframework/web/context/request/async/DeferredResultProcessingInterceptor
+
+afterCompletion
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/context/request/async/DeferredResult<TT;>;)V
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/context/request/async/DeferredResult<TT;>;)V
+beforeConcurrentHandling
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/context/request/async/DeferredResult<TT;>;)V
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/context/request/async/DeferredResult<TT;>;)V
+handleError
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/context/request/async/DeferredResult<TT;>;Ljava/lang/Throwable;)Z
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/context/request/async/DeferredResult<TT;>;Ljava/lang/Throwable;)Z
+handleTimeout
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/context/request/async/DeferredResult<TT;>;)Z
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/context/request/async/DeferredResult<TT;>;)Z
+postProcess
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/context/request/async/DeferredResult<TT;>;Ljava/lang/Object;)V
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/context/request/async/DeferredResult<TT;>;Ljava/lang/Object;)V
+preProcess
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/context/request/async/DeferredResult<TT;>;)V
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/context/request/async/DeferredResult<TT;>;)V

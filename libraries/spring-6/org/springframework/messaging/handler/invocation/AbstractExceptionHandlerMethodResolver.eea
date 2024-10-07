@@ -1,0 +1,15 @@
+class org/springframework/messaging/handler/invocation/AbstractExceptionHandlerMethodResolver
+
+getExceptionsFromMethodSignature
+ (Ljava/lang/reflect/Method;)Ljava/util/List<Ljava/lang/Class<+Ljava/lang/Throwable;>;>;
+ (Ljava/lang/reflect/Method;)Ljava/util/List<Ljava/lang/Class<+Ljava/lang/Throwable;>;>;
+
+<init>
+ (Ljava/util/Map<Ljava/lang/Class<+Ljava/lang/Throwable;>;Ljava/lang/reflect/Method;>;)V
+ (Ljava/util/Map<Ljava/lang/Class<+Ljava/lang/Throwable;>;Ljava/lang/reflect/Method;>;)V
+resolveMethod
+ (Ljava/lang/Throwable;)Ljava/lang/reflect/Method;
+ (Ljava/lang/Throwable;)L0java/lang/reflect/Method;
+resolveMethodByExceptionType
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;)Ljava/lang/reflect/Method;
+ (Ljava/lang/Class<+Ljava/lang/Throwable;>;)L0java/lang/reflect/Method;

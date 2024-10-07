@@ -1,0 +1,15 @@
+class org/springframework/web/context/support/ServletContextPropertySource
+
+super org/springframework/core/env/EnumerablePropertySource
+ <Ljakarta/servlet/ServletContext;>
+ <Ljakarta/servlet/ServletContext;>
+
+<init>
+ (Ljava/lang/String;Ljakarta/servlet/ServletContext;)V
+ (Ljava/lang/String;Ljakarta/servlet/ServletContext;)V
+getProperty
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+getPropertyNames
+ ()[Ljava/lang/String;
+ ()[Ljava/lang/String;

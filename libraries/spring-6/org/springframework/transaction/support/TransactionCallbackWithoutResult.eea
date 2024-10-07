@@ -1,0 +1,12 @@
+class org/springframework/transaction/support/TransactionCallbackWithoutResult
+
+super org/springframework/transaction/support/TransactionCallback
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+doInTransaction
+ (Lorg/springframework/transaction/TransactionStatus;)Ljava/lang/Object;
+ (Lorg/springframework/transaction/TransactionStatus;)L0java/lang/Object;
+doInTransactionWithoutResult
+ (Lorg/springframework/transaction/TransactionStatus;)V
+ (Lorg/springframework/transaction/TransactionStatus;)V

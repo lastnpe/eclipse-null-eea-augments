@@ -1,0 +1,26 @@
+class org/springframework/messaging/simp/stomp/StompSession
+
+acknowledge
+ (Ljava/lang/String;Z)Lorg/springframework/messaging/simp/stomp/StompSession$Receiptable;
+ (Ljava/lang/String;Z)Lorg/springframework/messaging/simp/stomp/StompSession$Receiptable;
+acknowledge
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Z)Lorg/springframework/messaging/simp/stomp/StompSession$Receiptable;
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Z)Lorg/springframework/messaging/simp/stomp/StompSession$Receiptable;
+disconnect
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;)V
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;)V
+getSessionId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+send
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/messaging/simp/stomp/StompSession$Receiptable;
+ (Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/messaging/simp/stomp/StompSession$Receiptable;
+send
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Ljava/lang/Object;)Lorg/springframework/messaging/simp/stomp/StompSession$Receiptable;
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Ljava/lang/Object;)Lorg/springframework/messaging/simp/stomp/StompSession$Receiptable;
+subscribe
+ (Ljava/lang/String;Lorg/springframework/messaging/simp/stomp/StompFrameHandler;)Lorg/springframework/messaging/simp/stomp/StompSession$Subscription;
+ (Ljava/lang/String;Lorg/springframework/messaging/simp/stomp/StompFrameHandler;)Lorg/springframework/messaging/simp/stomp/StompSession$Subscription;
+subscribe
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Lorg/springframework/messaging/simp/stomp/StompFrameHandler;)Lorg/springframework/messaging/simp/stomp/StompSession$Subscription;
+ (Lorg/springframework/messaging/simp/stomp/StompHeaders;Lorg/springframework/messaging/simp/stomp/StompFrameHandler;)Lorg/springframework/messaging/simp/stomp/StompSession$Subscription;

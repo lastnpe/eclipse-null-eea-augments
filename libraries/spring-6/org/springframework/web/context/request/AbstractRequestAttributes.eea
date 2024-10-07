@@ -1,0 +1,12 @@
+class org/springframework/web/context/request/AbstractRequestAttributes
+
+requestDestructionCallbacks
+ Ljava/util/Map<Ljava/lang/String;Ljava/lang/Runnable;>;
+ Ljava/util/Map<Ljava/lang/String;Ljava/lang/Runnable;>;
+
+registerRequestDestructionCallback
+ (Ljava/lang/String;Ljava/lang/Runnable;)V
+ (Ljava/lang/String;Ljava/lang/Runnable;)V
+removeRequestDestructionCallback
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

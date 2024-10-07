@@ -1,0 +1,20 @@
+class org/springframework/cache/support/AbstractCacheManager
+
+decorateCache
+ (Lorg/springframework/cache/Cache;)Lorg/springframework/cache/Cache;
+ (Lorg/springframework/cache/Cache;)Lorg/springframework/cache/Cache;
+getCache
+ (Ljava/lang/String;)Lorg/springframework/cache/Cache;
+ (Ljava/lang/String;)L0org/springframework/cache/Cache; # @Inherited(org.springframework.cache.CacheManager)
+getCacheNames
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+getMissingCache
+ (Ljava/lang/String;)Lorg/springframework/cache/Cache;
+ (Ljava/lang/String;)L0org/springframework/cache/Cache;
+loadCaches
+ ()Ljava/util/Collection<+Lorg/springframework/cache/Cache;>;
+ ()Ljava/util/Collection<+Lorg/springframework/cache/Cache;>;
+lookupCache
+ (Ljava/lang/String;)Lorg/springframework/cache/Cache;
+ (Ljava/lang/String;)L0org/springframework/cache/Cache;

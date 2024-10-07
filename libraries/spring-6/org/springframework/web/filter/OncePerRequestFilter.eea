@@ -1,0 +1,27 @@
+class org/springframework/web/filter/OncePerRequestFilter
+
+ALREADY_FILTERED_SUFFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+
+doFilter
+ (Ljakarta/servlet/ServletRequest;Ljakarta/servlet/ServletResponse;Ljakarta/servlet/FilterChain;)V
+ (Ljakarta/servlet/ServletRequest;Ljakarta/servlet/ServletResponse;Ljakarta/servlet/FilterChain;)V
+doFilterInternal
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljakarta/servlet/FilterChain;)V
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljakarta/servlet/FilterChain;)V
+doFilterNestedErrorDispatch
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljakarta/servlet/FilterChain;)V
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljakarta/servlet/FilterChain;)V
+getAlreadyFilteredAttributeName
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+isAsyncDispatch
+ (Ljakarta/servlet/http/HttpServletRequest;)Z
+ (Ljakarta/servlet/http/HttpServletRequest;)Z
+isAsyncStarted
+ (Ljakarta/servlet/http/HttpServletRequest;)Z
+ (Ljakarta/servlet/http/HttpServletRequest;)Z
+shouldNotFilter
+ (Ljakarta/servlet/http/HttpServletRequest;)Z
+ (Ljakarta/servlet/http/HttpServletRequest;)Z

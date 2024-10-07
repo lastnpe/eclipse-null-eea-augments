@@ -1,0 +1,17 @@
+class org/springframework/messaging/simp/config/AbstractBrokerRegistration
+
+<init>
+ (Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/MessageChannel;[Ljava/lang/String;)V
+ (Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/MessageChannel;[Ljava/lang/String;)V
+getClientInboundChannel
+ ()Lorg/springframework/messaging/SubscribableChannel;
+ ()Lorg/springframework/messaging/SubscribableChannel;
+getClientOutboundChannel
+ ()Lorg/springframework/messaging/MessageChannel;
+ ()Lorg/springframework/messaging/MessageChannel;
+getDestinationPrefixes
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+getMessageHandler
+ (Lorg/springframework/messaging/SubscribableChannel;)Lorg/springframework/messaging/simp/broker/AbstractBrokerMessageHandler;
+ (Lorg/springframework/messaging/SubscribableChannel;)Lorg/springframework/messaging/simp/broker/AbstractBrokerMessageHandler;

@@ -1,0 +1,23 @@
+class org/springframework/web/method/support/HandlerMethodArgumentResolverComposite
+
+addResolver
+ (Lorg/springframework/web/method/support/HandlerMethodArgumentResolver;)Lorg/springframework/web/method/support/HandlerMethodArgumentResolverComposite;
+ (Lorg/springframework/web/method/support/HandlerMethodArgumentResolver;)Lorg/springframework/web/method/support/HandlerMethodArgumentResolverComposite;
+addResolvers
+ (Ljava/util/List<+Lorg/springframework/web/method/support/HandlerMethodArgumentResolver;>;)Lorg/springframework/web/method/support/HandlerMethodArgumentResolverComposite;
+ (Ljava/util/List<+Lorg/springframework/web/method/support/HandlerMethodArgumentResolver;>;)Lorg/springframework/web/method/support/HandlerMethodArgumentResolverComposite;
+addResolvers
+ ([Lorg/springframework/web/method/support/HandlerMethodArgumentResolver;)Lorg/springframework/web/method/support/HandlerMethodArgumentResolverComposite;
+ ([Lorg/springframework/web/method/support/HandlerMethodArgumentResolver;)Lorg/springframework/web/method/support/HandlerMethodArgumentResolverComposite;
+getArgumentResolver
+ (Lorg/springframework/core/MethodParameter;)Lorg/springframework/web/method/support/HandlerMethodArgumentResolver;
+ (Lorg/springframework/core/MethodParameter;)L0org/springframework/web/method/support/HandlerMethodArgumentResolver;
+getResolvers
+ ()Ljava/util/List<Lorg/springframework/web/method/support/HandlerMethodArgumentResolver;>;
+ ()Ljava/util/List<Lorg/springframework/web/method/support/HandlerMethodArgumentResolver;>;
+resolveArgument
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/web/method/support/ModelAndViewContainer;Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/bind/support/WebDataBinderFactory;)Ljava/lang/Object;
+ (Lorg/springframework/core/MethodParameter;Lorg/springframework/web/method/support/ModelAndViewContainer;Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/bind/support/WebDataBinderFactory;)L0java/lang/Object; # @Inherited(org.springframework.web.method.support.HandlerMethodArgumentResolver)
+supportsParameter
+ (Lorg/springframework/core/MethodParameter;)Z
+ (Lorg/springframework/core/MethodParameter;)Z

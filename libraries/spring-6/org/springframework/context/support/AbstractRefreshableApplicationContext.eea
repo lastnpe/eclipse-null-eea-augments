@@ -1,0 +1,20 @@
+class org/springframework/context/support/AbstractRefreshableApplicationContext
+
+<init>
+ (Lorg/springframework/context/ApplicationContext;)V
+ (Lorg/springframework/context/ApplicationContext;)V
+cancelRefresh
+ (Ljava/lang/Throwable;)V
+ (Ljava/lang/Throwable;)V
+createBeanFactory
+ ()Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;
+ ()Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;
+customizeBeanFactory
+ (Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;)V
+ (Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;)V
+getBeanFactory
+ ()Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;
+ ()Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;
+loadBeanDefinitions
+ (Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;)V
+ (Lorg/springframework/beans/factory/support/DefaultListableBeanFactory;)V

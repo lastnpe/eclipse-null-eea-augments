@@ -1,0 +1,51 @@
+class org/springframework/web/bind/WebDataBinder
+
+DEFAULT_FIELD_DEFAULT_PREFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+DEFAULT_FIELD_MARKER_PREFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+
+<init>
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+<init>
+ (Ljava/lang/Object;Ljava/lang/String;)V
+ (Ljava/lang/Object;Ljava/lang/String;)V
+adaptEmptyArrayIndices
+ (Lorg/springframework/beans/MutablePropertyValues;)V
+ (Lorg/springframework/beans/MutablePropertyValues;)V
+bindMultipart
+ (Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Lorg/springframework/web/multipart/MultipartFile;>;>;Lorg/springframework/beans/MutablePropertyValues;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Lorg/springframework/web/multipart/MultipartFile;>;>;Lorg/springframework/beans/MutablePropertyValues;)V
+checkFieldDefaults
+ (Lorg/springframework/beans/MutablePropertyValues;)V
+ (Lorg/springframework/beans/MutablePropertyValues;)V
+checkFieldMarkers
+ (Lorg/springframework/beans/MutablePropertyValues;)V
+ (Lorg/springframework/beans/MutablePropertyValues;)V
+doBind
+ (Lorg/springframework/beans/MutablePropertyValues;)V
+ (Lorg/springframework/beans/MutablePropertyValues;)V
+getEmptyValue
+ (Ljava/lang/Class<*>;)Ljava/lang/Object;
+ (Ljava/lang/Class<*>;)L0java/lang/Object;
+getEmptyValue
+ (Ljava/lang/String;Ljava/lang/Class<*>;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/lang/Class<*>;)L0java/lang/Object;
+getFieldDefaultPrefix
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getFieldMarkerPrefix
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+resolvePrefixValue
+ (Ljava/lang/String;Ljava/lang/Class<*>;Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Class<*>;Ljava/lang/Object;>;)Ljava/lang/Object;
+ (Ljava/lang/String;Ljava/lang/Class<*>;Ljava/util/function/BiFunction<Ljava/lang/String;Ljava/lang/Class<*>;Ljava/lang/Object;>;)L0java/lang/Object;
+setFieldDefaultPrefix
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setFieldMarkerPrefix
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

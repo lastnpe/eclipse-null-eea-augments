@@ -1,0 +1,17 @@
+class org/springframework/messaging/rsocket/RSocketRequester$RetrieveSpec
+
+retrieveFlux
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lreactor/core/publisher/Flux<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lreactor/core/publisher/Flux<TT;>;
+retrieveFlux
+ <T:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lreactor/core/publisher/Flux<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lreactor/core/publisher/Flux<TT;>;
+retrieveMono
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lreactor/core/publisher/Mono<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lreactor/core/publisher/Mono<TT;>;
+retrieveMono
+ <T:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lreactor/core/publisher/Mono<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lreactor/core/publisher/Mono<TT;>;
+send
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;

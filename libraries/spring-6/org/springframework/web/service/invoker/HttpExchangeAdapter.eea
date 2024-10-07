@@ -1,0 +1,17 @@
+class org/springframework/web/service/invoker/HttpExchangeAdapter
+
+exchange
+ (Lorg/springframework/web/service/invoker/HttpRequestValues;)V
+ (Lorg/springframework/web/service/invoker/HttpRequestValues;)V
+exchangeForBodilessEntity
+ (Lorg/springframework/web/service/invoker/HttpRequestValues;)Lorg/springframework/http/ResponseEntity<Ljava/lang/Void;>;
+ (Lorg/springframework/web/service/invoker/HttpRequestValues;)Lorg/springframework/http/ResponseEntity<Ljava/lang/Void;>;
+exchangeForBody
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/service/invoker/HttpRequestValues;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/service/invoker/HttpRequestValues;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)T0T;
+exchangeForEntity
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/service/invoker/HttpRequestValues;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/web/service/invoker/HttpRequestValues;Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+exchangeForHeaders
+ (Lorg/springframework/web/service/invoker/HttpRequestValues;)Lorg/springframework/http/HttpHeaders;
+ (Lorg/springframework/web/service/invoker/HttpRequestValues;)Lorg/springframework/http/HttpHeaders;

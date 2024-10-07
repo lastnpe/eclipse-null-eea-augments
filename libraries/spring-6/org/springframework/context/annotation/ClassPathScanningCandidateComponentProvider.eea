@@ -1,0 +1,55 @@
+class org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider
+
+IGNORE_CLASSFORMAT_PROPERTY_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+<init>
+ (ZLorg/springframework/core/env/Environment;)V
+ (ZLorg/springframework/core/env/Environment;)V
+addExcludeFilter
+ (Lorg/springframework/core/type/filter/TypeFilter;)V
+ (Lorg/springframework/core/type/filter/TypeFilter;)V
+addIncludeFilter
+ (Lorg/springframework/core/type/filter/TypeFilter;)V
+ (Lorg/springframework/core/type/filter/TypeFilter;)V
+findCandidateComponents
+ (Ljava/lang/String;)Ljava/util/Set<Lorg/springframework/beans/factory/config/BeanDefinition;>;
+ (Ljava/lang/String;)Ljava/util/Set<Lorg/springframework/beans/factory/config/BeanDefinition;>;
+getEnvironment
+ ()Lorg/springframework/core/env/Environment;
+ ()Lorg/springframework/core/env/Environment;
+getMetadataReaderFactory
+ ()Lorg/springframework/core/type/classreading/MetadataReaderFactory;
+ ()Lorg/springframework/core/type/classreading/MetadataReaderFactory;
+getRegistry
+ ()Lorg/springframework/beans/factory/support/BeanDefinitionRegistry;
+ ()L0org/springframework/beans/factory/support/BeanDefinitionRegistry;
+getResourceLoader
+ ()Lorg/springframework/core/io/ResourceLoader;
+ ()Lorg/springframework/core/io/ResourceLoader;
+isCandidateComponent
+ (Lorg/springframework/beans/factory/annotation/AnnotatedBeanDefinition;)Z
+ (Lorg/springframework/beans/factory/annotation/AnnotatedBeanDefinition;)Z
+isCandidateComponent
+ (Lorg/springframework/core/type/classreading/MetadataReader;)Z
+ (Lorg/springframework/core/type/classreading/MetadataReader;)Z
+resolveBasePackage
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+setEnvironment
+ (Lorg/springframework/core/env/Environment;)V
+ (Lorg/springframework/core/env/Environment;)V
+setMetadataReaderFactory
+ (Lorg/springframework/core/type/classreading/MetadataReaderFactory;)V
+ (Lorg/springframework/core/type/classreading/MetadataReaderFactory;)V
+setResourceLoader
+ (Lorg/springframework/core/io/ResourceLoader;)V
+ (Lorg/springframework/core/io/ResourceLoader;)V
+setResourcePattern
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

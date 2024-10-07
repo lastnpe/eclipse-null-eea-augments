@@ -1,0 +1,30 @@
+class org/springframework/transaction/interceptor/NameMatchTransactionAttributeSource
+
+logger
+ Lorg/apache/commons/logging/Log;
+ L1org/apache/commons/logging/Log;
+
+addTransactionalMethod
+ (Ljava/lang/String;Lorg/springframework/transaction/interceptor/TransactionAttribute;)V
+ (Ljava/lang/String;Lorg/springframework/transaction/interceptor/TransactionAttribute;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+getTransactionAttribute
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)Lorg/springframework/transaction/interceptor/TransactionAttribute;
+ (Ljava/lang/reflect/Method;Ljava/lang/Class<*>;)L0org/springframework/transaction/interceptor/TransactionAttribute; # @Inherited(org.springframework.transaction.interceptor.TransactionAttributeSource)
+isMatch
+ (Ljava/lang/String;Ljava/lang/String;)Z
+ (Ljava/lang/String;Ljava/lang/String;)Z
+setEmbeddedValueResolver
+ (Lorg/springframework/util/StringValueResolver;)V
+ (Lorg/springframework/util/StringValueResolver;)V
+setNameMap
+ (Ljava/util/Map<Ljava/lang/String;Lorg/springframework/transaction/interceptor/TransactionAttribute;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Lorg/springframework/transaction/interceptor/TransactionAttribute;>;)V
+setProperties
+ (Ljava/util/Properties;)V
+ (Ljava/util/Properties;)V
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

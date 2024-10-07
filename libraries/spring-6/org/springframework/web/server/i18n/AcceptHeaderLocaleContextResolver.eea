@@ -1,0 +1,20 @@
+class org/springframework/web/server/i18n/AcceptHeaderLocaleContextResolver
+
+getDefaultLocale
+ ()Ljava/util/Locale;
+ ()L0java/util/Locale;
+getSupportedLocales
+ ()Ljava/util/List<Ljava/util/Locale;>;
+ ()Ljava/util/List<Ljava/util/Locale;>;
+resolveLocaleContext
+ (Lorg/springframework/web/server/ServerWebExchange;)Lorg/springframework/context/i18n/LocaleContext;
+ (Lorg/springframework/web/server/ServerWebExchange;)Lorg/springframework/context/i18n/LocaleContext;
+setDefaultLocale
+ (Ljava/util/Locale;)V
+ (Ljava/util/Locale;)V
+setLocaleContext
+ (Lorg/springframework/web/server/ServerWebExchange;Lorg/springframework/context/i18n/LocaleContext;)V
+ (Lorg/springframework/web/server/ServerWebExchange;Lorg/springframework/context/i18n/LocaleContext;)V
+setSupportedLocales
+ (Ljava/util/List<Ljava/util/Locale;>;)V
+ (Ljava/util/List<Ljava/util/Locale;>;)V

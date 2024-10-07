@@ -1,0 +1,14 @@
+class org/springframework/transaction/interceptor/DelegatingTransactionAttribute
+
+<init>
+ (Lorg/springframework/transaction/interceptor/TransactionAttribute;)V
+ (Lorg/springframework/transaction/interceptor/TransactionAttribute;)V
+getLabels
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+getQualifier
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.transaction.interceptor.TransactionAttribute)
+rollbackOn
+ (Ljava/lang/Throwable;)Z
+ (Ljava/lang/Throwable;)Z

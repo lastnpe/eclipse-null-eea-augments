@@ -1,0 +1,74 @@
+class org/springframework/expression/spel/ExpressionState
+
+<init>
+ (Lorg/springframework/expression/EvaluationContext;)V
+ (Lorg/springframework/expression/EvaluationContext;)V
+<init>
+ (Lorg/springframework/expression/EvaluationContext;Lorg/springframework/expression/TypedValue;)V
+ (Lorg/springframework/expression/EvaluationContext;Lorg/springframework/expression/TypedValue;)V
+<init>
+ (Lorg/springframework/expression/EvaluationContext;Lorg/springframework/expression/TypedValue;Lorg/springframework/expression/spel/SpelParserConfiguration;)V
+ (Lorg/springframework/expression/EvaluationContext;Lorg/springframework/expression/TypedValue;Lorg/springframework/expression/spel/SpelParserConfiguration;)V
+<init>
+ (Lorg/springframework/expression/EvaluationContext;Lorg/springframework/expression/spel/SpelParserConfiguration;)V
+ (Lorg/springframework/expression/EvaluationContext;Lorg/springframework/expression/spel/SpelParserConfiguration;)V
+assignVariable
+ (Ljava/lang/String;Ljava/util/function/Supplier<Lorg/springframework/expression/TypedValue;>;)Lorg/springframework/expression/TypedValue;
+ (Ljava/lang/String;Ljava/util/function/Supplier<Lorg/springframework/expression/TypedValue;>;)Lorg/springframework/expression/TypedValue;
+convertValue
+ (Ljava/lang/Object;Lorg/springframework/core/convert/TypeDescriptor;)Ljava/lang/Object;
+ (Ljava/lang/Object;Lorg/springframework/core/convert/TypeDescriptor;)Ljava/lang/Object;
+convertValue
+ (Lorg/springframework/expression/TypedValue;Lorg/springframework/core/convert/TypeDescriptor;)Ljava/lang/Object;
+ (Lorg/springframework/expression/TypedValue;Lorg/springframework/core/convert/TypeDescriptor;)L0java/lang/Object;
+enterScope
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+enterScope
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+findType
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+ (Ljava/lang/String;)Ljava/lang/Class<*>;
+getActiveContextObject
+ ()Lorg/springframework/expression/TypedValue;
+ ()Lorg/springframework/expression/TypedValue;
+getConfiguration
+ ()Lorg/springframework/expression/spel/SpelParserConfiguration;
+ ()Lorg/springframework/expression/spel/SpelParserConfiguration;
+getEvaluationContext
+ ()Lorg/springframework/expression/EvaluationContext;
+ ()Lorg/springframework/expression/EvaluationContext;
+getPropertyAccessors
+ ()Ljava/util/List<Lorg/springframework/expression/PropertyAccessor;>;
+ ()Ljava/util/List<Lorg/springframework/expression/PropertyAccessor;>;
+getRootContextObject
+ ()Lorg/springframework/expression/TypedValue;
+ ()Lorg/springframework/expression/TypedValue;
+getScopeRootContextObject
+ ()Lorg/springframework/expression/TypedValue;
+ ()Lorg/springframework/expression/TypedValue;
+getTypeComparator
+ ()Lorg/springframework/expression/TypeComparator;
+ ()Lorg/springframework/expression/TypeComparator;
+getTypeConverter
+ ()Lorg/springframework/expression/TypeConverter;
+ ()Lorg/springframework/expression/TypeConverter;
+lookupLocalVariable
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object;
+lookupVariable
+ (Ljava/lang/String;)Lorg/springframework/expression/TypedValue;
+ (Ljava/lang/String;)Lorg/springframework/expression/TypedValue;
+operate
+ (Lorg/springframework/expression/Operation;Ljava/lang/Object;Ljava/lang/Object;)Lorg/springframework/expression/TypedValue;
+ (Lorg/springframework/expression/Operation;Ljava/lang/Object;Ljava/lang/Object;)Lorg/springframework/expression/TypedValue;
+pushActiveContextObject
+ (Lorg/springframework/expression/TypedValue;)V
+ (Lorg/springframework/expression/TypedValue;)V
+setLocalVariable
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V
+setVariable
+ (Ljava/lang/String;Ljava/lang/Object;)V
+ (Ljava/lang/String;Ljava/lang/Object;)V

@@ -1,0 +1,44 @@
+class org/springframework/aop/framework/ProxyFactoryBean
+
+super org/springframework/beans/factory/FactoryBean
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+GLOBAL_SUFFIX
+ Ljava/lang/String;
+ L1java/lang/String;
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+getObject
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getObjectType
+ ()Ljava/lang/Class<*>;
+ ()L0java/lang/Class<*>; # @Inherited(org.springframework.beans.factory.FactoryBean)
+getProxy
+ (Lorg/springframework/aop/framework/AopProxy;)Ljava/lang/Object;
+ (Lorg/springframework/aop/framework/AopProxy;)Ljava/lang/Object;
+setAdvisorAdapterRegistry
+ (Lorg/springframework/aop/framework/adapter/AdvisorAdapterRegistry;)V
+ (Lorg/springframework/aop/framework/adapter/AdvisorAdapterRegistry;)V
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setInterceptorNames
+ ([Ljava/lang/String;)V
+ ([Ljava/lang/String;)V
+setProxyClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setProxyInterfaces
+ ([Ljava/lang/Class<*>;)V
+ ([Ljava/lang/Class<*>;)V
+setTargetName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

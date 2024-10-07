@@ -1,0 +1,28 @@
+class org/springframework/test/web/servlet/htmlunit/MockMvcWebConnectionBuilderSupport
+ <T:Lorg/springframework/test/web/servlet/htmlunit/MockMvcWebConnectionBuilderSupport<TT;>;>
+ <T:Lorg/springframework/test/web/servlet/htmlunit/MockMvcWebConnectionBuilderSupport<TT;>;>
+
+<init>
+ (Lorg/springframework/test/web/servlet/MockMvc;)V
+ (Lorg/springframework/test/web/servlet/MockMvc;)V
+<init>
+ (Lorg/springframework/web/context/WebApplicationContext;)V
+ (Lorg/springframework/web/context/WebApplicationContext;)V
+<init>
+ (Lorg/springframework/web/context/WebApplicationContext;Lorg/springframework/test/web/servlet/setup/MockMvcConfigurer;)V
+ (Lorg/springframework/web/context/WebApplicationContext;Lorg/springframework/test/web/servlet/setup/MockMvcConfigurer;)V
+alwaysUseMockMvc
+ ()TT;
+ ()TT;
+contextPath
+ (Ljava/lang/String;)TT;
+ (Ljava/lang/String;)TT;
+createConnection
+ (Lcom/gargoylesoftware/htmlunit/WebClient;)Lcom/gargoylesoftware/htmlunit/WebConnection;
+ (Lcom/gargoylesoftware/htmlunit/WebClient;)Lcom/gargoylesoftware/htmlunit/WebConnection;
+useMockMvc
+ ([Lorg/springframework/test/web/servlet/htmlunit/WebRequestMatcher;)TT;
+ ([Lorg/springframework/test/web/servlet/htmlunit/WebRequestMatcher;)TT;
+useMockMvcForHosts
+ ([Ljava/lang/String;)TT;
+ ([Ljava/lang/String;)TT;

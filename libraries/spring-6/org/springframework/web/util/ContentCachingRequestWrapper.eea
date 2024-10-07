@@ -1,0 +1,35 @@
+class org/springframework/web/util/ContentCachingRequestWrapper
+
+<init>
+ (Ljakarta/servlet/http/HttpServletRequest;)V
+ (Ljakarta/servlet/http/HttpServletRequest;)V
+<init>
+ (Ljakarta/servlet/http/HttpServletRequest;I)V
+ (Ljakarta/servlet/http/HttpServletRequest;I)V
+getCharacterEncoding
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getContentAsByteArray
+ ()[B
+ ()[B
+getContentAsString
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getInputStream
+ ()Ljakarta/servlet/ServletInputStream;
+ ()Ljakarta/servlet/ServletInputStream;
+getParameter
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;
+getParameterMap
+ ()Ljava/util/Map<Ljava/lang/String;[Ljava/lang/String;>;
+ ()Ljava/util/Map<Ljava/lang/String;[Ljava/lang/String;>;
+getParameterNames
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+ ()Ljava/util/Enumeration<Ljava/lang/String;>;
+getParameterValues
+ (Ljava/lang/String;)[Ljava/lang/String;
+ (Ljava/lang/String;)[Ljava/lang/String;
+getReader
+ ()Ljava/io/BufferedReader;
+ ()Ljava/io/BufferedReader;

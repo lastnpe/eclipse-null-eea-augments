@@ -1,0 +1,26 @@
+class org/springframework/messaging/simp/user/MultiServerUserRegistry
+
+<init>
+ (Lorg/springframework/messaging/simp/user/SimpUserRegistry;)V
+ (Lorg/springframework/messaging/simp/user/SimpUserRegistry;)V
+findSubscriptions
+ (Lorg/springframework/messaging/simp/user/SimpSubscriptionMatcher;)Ljava/util/Set<Lorg/springframework/messaging/simp/user/SimpSubscription;>;
+ (Lorg/springframework/messaging/simp/user/SimpSubscriptionMatcher;)Ljava/util/Set<Lorg/springframework/messaging/simp/user/SimpSubscription;>;
+getUser
+ (Ljava/lang/String;)Lorg/springframework/messaging/simp/user/SimpUser;
+ (Ljava/lang/String;)L0org/springframework/messaging/simp/user/SimpUser; # @Inherited(org.springframework.messaging.simp.user.SimpUserRegistry)
+getUsers
+ ()Ljava/util/Set<Lorg/springframework/messaging/simp/user/SimpUser;>;
+ ()Ljava/util/Set<Lorg/springframework/messaging/simp/user/SimpUser;>;
+onApplicationEvent
+ (Lorg/springframework/context/ApplicationEvent;)V
+ (Lorg/springframework/context/ApplicationEvent;)V
+supportsEventType
+ (Ljava/lang/Class<+Lorg/springframework/context/ApplicationEvent;>;)Z
+ (Ljava/lang/Class<+Lorg/springframework/context/ApplicationEvent;>;)Z
+supportsSourceType
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(java.lang.Object)

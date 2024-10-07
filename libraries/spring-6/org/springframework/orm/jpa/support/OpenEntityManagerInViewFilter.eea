@@ -1,0 +1,30 @@
+class org/springframework/orm/jpa/support/OpenEntityManagerInViewFilter
+
+DEFAULT_ENTITY_MANAGER_FACTORY_BEAN_NAME
+ Ljava/lang/String;
+ L1java/lang/String;
+
+createEntityManager
+ (Ljakarta/persistence/EntityManagerFactory;)Ljakarta/persistence/EntityManager;
+ (Ljakarta/persistence/EntityManagerFactory;)Ljakarta/persistence/EntityManager;
+doFilterInternal
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljakarta/servlet/FilterChain;)V
+ (Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljakarta/servlet/FilterChain;)V
+getEntityManagerFactoryBeanName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getPersistenceUnitName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+lookupEntityManagerFactory
+ ()Ljakarta/persistence/EntityManagerFactory;
+ ()Ljakarta/persistence/EntityManagerFactory;
+lookupEntityManagerFactory
+ (Ljakarta/servlet/http/HttpServletRequest;)Ljakarta/persistence/EntityManagerFactory;
+ (Ljakarta/servlet/http/HttpServletRequest;)Ljakarta/persistence/EntityManagerFactory;
+setEntityManagerFactoryBeanName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setPersistenceUnitName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

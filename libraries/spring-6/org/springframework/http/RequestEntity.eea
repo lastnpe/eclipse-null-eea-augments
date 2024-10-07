@@ -1,0 +1,93 @@
+class org/springframework/http/RequestEntity
+ <T:Ljava/lang/Object;>
+ <T:Ljava/lang/Object;>
+
+super org/springframework/http/HttpEntity
+ <TT;>
+ <TT;>
+
+delete
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/http/RequestEntity$HeadersBuilder<*>;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/http/RequestEntity$HeadersBuilder<*>;
+delete
+ (Ljava/net/URI;)Lorg/springframework/http/RequestEntity$HeadersBuilder<*>;
+ (Ljava/net/URI;)Lorg/springframework/http/RequestEntity$HeadersBuilder<*>;
+get
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/http/RequestEntity$HeadersBuilder<*>;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/http/RequestEntity$HeadersBuilder<*>;
+get
+ (Ljava/net/URI;)Lorg/springframework/http/RequestEntity$HeadersBuilder<*>;
+ (Ljava/net/URI;)Lorg/springframework/http/RequestEntity$HeadersBuilder<*>;
+head
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/http/RequestEntity$HeadersBuilder<*>;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/http/RequestEntity$HeadersBuilder<*>;
+head
+ (Ljava/net/URI;)Lorg/springframework/http/RequestEntity$HeadersBuilder<*>;
+ (Ljava/net/URI;)Lorg/springframework/http/RequestEntity$HeadersBuilder<*>;
+method
+ (Lorg/springframework/http/HttpMethod;Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/http/RequestEntity$BodyBuilder;
+ (Lorg/springframework/http/HttpMethod;Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;*>;)Lorg/springframework/http/RequestEntity$BodyBuilder;
+method
+ (Lorg/springframework/http/HttpMethod;Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/http/RequestEntity$BodyBuilder;
+ (Lorg/springframework/http/HttpMethod;Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/http/RequestEntity$BodyBuilder;
+method
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;)Lorg/springframework/http/RequestEntity$BodyBuilder;
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;)Lorg/springframework/http/RequestEntity$BodyBuilder;
+options
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/http/RequestEntity$HeadersBuilder<*>;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/http/RequestEntity$HeadersBuilder<*>;
+options
+ (Ljava/net/URI;)Lorg/springframework/http/RequestEntity$HeadersBuilder<*>;
+ (Ljava/net/URI;)Lorg/springframework/http/RequestEntity$HeadersBuilder<*>;
+patch
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/http/RequestEntity$BodyBuilder;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/http/RequestEntity$BodyBuilder;
+patch
+ (Ljava/net/URI;)Lorg/springframework/http/RequestEntity$BodyBuilder;
+ (Ljava/net/URI;)Lorg/springframework/http/RequestEntity$BodyBuilder;
+post
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/http/RequestEntity$BodyBuilder;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/http/RequestEntity$BodyBuilder;
+post
+ (Ljava/net/URI;)Lorg/springframework/http/RequestEntity$BodyBuilder;
+ (Ljava/net/URI;)Lorg/springframework/http/RequestEntity$BodyBuilder;
+put
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/http/RequestEntity$BodyBuilder;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/http/RequestEntity$BodyBuilder;
+put
+ (Ljava/net/URI;)Lorg/springframework/http/RequestEntity$BodyBuilder;
+ (Ljava/net/URI;)Lorg/springframework/http/RequestEntity$BodyBuilder;
+
+<init>
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;)V
+ (Lorg/springframework/http/HttpMethod;Ljava/net/URI;)V
+<init>
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;Lorg/springframework/http/HttpMethod;Ljava/net/URI;)V
+ (Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;Lorg/springframework/http/HttpMethod;Ljava/net/URI;)V
+<init>
+ (TT;Lorg/springframework/http/HttpMethod;Ljava/net/URI;)V
+ (TT;Lorg/springframework/http/HttpMethod;Ljava/net/URI;)V
+<init>
+ (TT;Lorg/springframework/http/HttpMethod;Ljava/net/URI;Ljava/lang/reflect/Type;)V
+ (TT;Lorg/springframework/http/HttpMethod;Ljava/net/URI;Ljava/lang/reflect/Type;)V
+<init>
+ (TT;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;Lorg/springframework/http/HttpMethod;Ljava/net/URI;)V
+ (TT;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;Lorg/springframework/http/HttpMethod;Ljava/net/URI;)V
+<init>
+ (TT;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;Lorg/springframework/http/HttpMethod;Ljava/net/URI;Ljava/lang/reflect/Type;)V
+ (TT;Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;Lorg/springframework/http/HttpMethod;Ljava/net/URI;Ljava/lang/reflect/Type;)V
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(org.springframework.http.HttpEntity)
+getMethod
+ ()Lorg/springframework/http/HttpMethod;
+ ()L0org/springframework/http/HttpMethod;
+getType
+ ()Ljava/lang/reflect/Type;
+ ()L0java/lang/reflect/Type;
+getUrl
+ ()Ljava/net/URI;
+ ()Ljava/net/URI;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String; # @Inherited(org.springframework.http.HttpEntity)

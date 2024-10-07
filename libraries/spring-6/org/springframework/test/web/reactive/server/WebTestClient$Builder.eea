@@ -1,0 +1,50 @@
+class org/springframework/test/web/reactive/server/WebTestClient$Builder
+
+apply
+ (Lorg/springframework/test/web/reactive/server/WebTestClientConfigurer;)Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+ (Lorg/springframework/test/web/reactive/server/WebTestClientConfigurer;)L1org/springframework/test/web/reactive/server/WebTestClient$Builder;
+baseUrl
+ (Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+ (Ljava/lang/String;)L1org/springframework/test/web/reactive/server/WebTestClient$Builder;
+build
+ ()Lorg/springframework/test/web/reactive/server/WebTestClient;
+ ()L1org/springframework/test/web/reactive/server/WebTestClient;
+clientConnector
+ (Lorg/springframework/http/client/reactive/ClientHttpConnector;)Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+ (Lorg/springframework/http/client/reactive/ClientHttpConnector;)L1org/springframework/test/web/reactive/server/WebTestClient$Builder;
+codecs
+ (Ljava/util/function/Consumer<Lorg/springframework/http/codec/ClientCodecConfigurer;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+ (Ljava/util/function/Consumer<Lorg/springframework/http/codec/ClientCodecConfigurer;>;)L1org/springframework/test/web/reactive/server/WebTestClient$Builder;
+defaultCookie
+ (Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+ (Ljava/lang/String;[Ljava/lang/String;)L1org/springframework/test/web/reactive/server/WebTestClient$Builder;
+defaultCookies
+ (Ljava/util/function/Consumer<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+ (Ljava/util/function/Consumer<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;)L1org/springframework/test/web/reactive/server/WebTestClient$Builder;
+defaultHeader
+ (Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+ (Ljava/lang/String;[Ljava/lang/String;)L1org/springframework/test/web/reactive/server/WebTestClient$Builder;
+defaultHeaders
+ (Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+ (Ljava/util/function/Consumer<Lorg/springframework/http/HttpHeaders;>;)L1org/springframework/test/web/reactive/server/WebTestClient$Builder;
+entityExchangeResultConsumer
+ (Ljava/util/function/Consumer<Lorg/springframework/test/web/reactive/server/EntityExchangeResult<*>;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+ (Ljava/util/function/Consumer<Lorg/springframework/test/web/reactive/server/EntityExchangeResult<*>;>;)L1org/springframework/test/web/reactive/server/WebTestClient$Builder;
+exchangeStrategies
+ (Ljava/util/function/Consumer<Lorg/springframework/web/reactive/function/client/ExchangeStrategies$Builder;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+ (Ljava/util/function/Consumer<Lorg/springframework/web/reactive/function/client/ExchangeStrategies$Builder;>;)L1org/springframework/test/web/reactive/server/WebTestClient$Builder;
+exchangeStrategies
+ (Lorg/springframework/web/reactive/function/client/ExchangeStrategies;)Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+ (Lorg/springframework/web/reactive/function/client/ExchangeStrategies;)L1org/springframework/test/web/reactive/server/WebTestClient$Builder;
+filter
+ (Lorg/springframework/web/reactive/function/client/ExchangeFilterFunction;)Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+ (Lorg/springframework/web/reactive/function/client/ExchangeFilterFunction;)L1org/springframework/test/web/reactive/server/WebTestClient$Builder;
+filters
+ (Ljava/util/function/Consumer<Ljava/util/List<Lorg/springframework/web/reactive/function/client/ExchangeFilterFunction;>;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+ (Ljava/util/function/Consumer<Ljava/util/List<Lorg/springframework/web/reactive/function/client/ExchangeFilterFunction;>;>;)L1org/springframework/test/web/reactive/server/WebTestClient$Builder;
+responseTimeout
+ (Ljava/time/Duration;)Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+ (Ljava/time/Duration;)L1org/springframework/test/web/reactive/server/WebTestClient$Builder;
+uriBuilderFactory
+ (Lorg/springframework/web/util/UriBuilderFactory;)Lorg/springframework/test/web/reactive/server/WebTestClient$Builder;
+ (Lorg/springframework/web/util/UriBuilderFactory;)L1org/springframework/test/web/reactive/server/WebTestClient$Builder;

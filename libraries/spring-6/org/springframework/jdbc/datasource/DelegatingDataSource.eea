@@ -1,0 +1,41 @@
+class org/springframework/jdbc/datasource/DelegatingDataSource
+
+<init>
+ (Ljavax/sql/DataSource;)V
+ (Ljavax/sql/DataSource;)V
+createConnectionBuilder
+ ()Ljava/sql/ConnectionBuilder;
+ ()Ljava/sql/ConnectionBuilder;
+createShardingKeyBuilder
+ ()Ljava/sql/ShardingKeyBuilder;
+ ()Ljava/sql/ShardingKeyBuilder;
+getConnection
+ ()Ljava/sql/Connection;
+ ()Ljava/sql/Connection;
+getConnection
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;
+getLogWriter
+ ()Ljava/io/PrintWriter;
+ ()Ljava/io/PrintWriter;
+getParentLogger
+ ()Ljava/util/logging/Logger;
+ ()Ljava/util/logging/Logger;
+getTargetDataSource
+ ()Ljavax/sql/DataSource;
+ ()L0javax/sql/DataSource;
+isWrapperFor
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+obtainTargetDataSource
+ ()Ljavax/sql/DataSource;
+ ()Ljavax/sql/DataSource;
+setLogWriter
+ (Ljava/io/PrintWriter;)V
+ (Ljava/io/PrintWriter;)V
+setTargetDataSource
+ (Ljavax/sql/DataSource;)V
+ (Ljavax/sql/DataSource;)V
+unwrap
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;

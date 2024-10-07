@@ -1,0 +1,18 @@
+class org/springframework/web/context/AbstractContextLoaderInitializer
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+createRootApplicationContext
+ ()Lorg/springframework/web/context/WebApplicationContext;
+ ()L0org/springframework/web/context/WebApplicationContext;
+getRootApplicationContextInitializers
+ ()[Lorg/springframework/context/ApplicationContextInitializer<*>;
+ ()[0Lorg/springframework/context/ApplicationContextInitializer<*>;
+onStartup
+ (Ljakarta/servlet/ServletContext;)V
+ (Ljakarta/servlet/ServletContext;)V
+registerContextLoaderListener
+ (Ljakarta/servlet/ServletContext;)V
+ (Ljakarta/servlet/ServletContext;)V

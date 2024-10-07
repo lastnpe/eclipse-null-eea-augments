@@ -1,0 +1,121 @@
+class org/springframework/messaging/simp/SimpMessageHeaderAccessor
+
+CONNECT_MESSAGE_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+DESTINATION_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+DISCONNECT_MESSAGE_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+HEART_BEAT_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+IGNORE_ERROR
+ Ljava/lang/String;
+ L1java/lang/String;
+MESSAGE_TYPE_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+ORIGINAL_DESTINATION
+ Ljava/lang/String;
+ L1java/lang/String;
+SESSION_ATTRIBUTES
+ Ljava/lang/String;
+ L1java/lang/String;
+SESSION_ID_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+SUBSCRIPTION_ID_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+USER_HEADER
+ Ljava/lang/String;
+ L1java/lang/String;
+
+create
+ ()Lorg/springframework/messaging/simp/SimpMessageHeaderAccessor;
+ ()Lorg/springframework/messaging/simp/SimpMessageHeaderAccessor;
+create
+ (Lorg/springframework/messaging/simp/SimpMessageType;)Lorg/springframework/messaging/simp/SimpMessageHeaderAccessor;
+ (Lorg/springframework/messaging/simp/SimpMessageType;)Lorg/springframework/messaging/simp/SimpMessageHeaderAccessor;
+getDestination
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Ljava/lang/String;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)L0java/lang/String;
+getHeartbeat
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)[J
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)[0J
+getMessageType
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Lorg/springframework/messaging/simp/SimpMessageType;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)L0org/springframework/messaging/simp/SimpMessageType;
+getSessionAttributes
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)L0java/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getSessionId
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Ljava/lang/String;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)L0java/lang/String;
+getSubscriptionId
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Ljava/lang/String;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)L0java/lang/String;
+getUser
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Ljava/security/Principal;
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)L0java/security/Principal;
+wrap
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/simp/SimpMessageHeaderAccessor;
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/simp/SimpMessageHeaderAccessor;
+
+<init>
+ (Lorg/springframework/messaging/Message<*>;)V
+ (Lorg/springframework/messaging/Message<*>;)V
+<init>
+ (Lorg/springframework/messaging/simp/SimpMessageType;Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;)V
+ (Lorg/springframework/messaging/simp/SimpMessageType;Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;>;)V
+createAccessor
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/support/MessageHeaderAccessor;
+ (Lorg/springframework/messaging/Message<*>;)Lorg/springframework/messaging/support/MessageHeaderAccessor;
+getDestination
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getDetailedLogMessage
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+getMessageType
+ ()Lorg/springframework/messaging/simp/SimpMessageType;
+ ()L0org/springframework/messaging/simp/SimpMessageType;
+getSessionAttributes
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()L0java/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getSessionId
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getShortLogMessage
+ (Ljava/lang/Object;)Ljava/lang/String;
+ (Ljava/lang/Object;)Ljava/lang/String;
+getSubscriptionId
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getUser
+ ()Ljava/security/Principal;
+ ()L0java/security/Principal;
+setDestination
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setMessageTypeIfNotSet
+ (Lorg/springframework/messaging/simp/SimpMessageType;)V
+ (Lorg/springframework/messaging/simp/SimpMessageType;)V
+setSessionAttributes
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+ (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)V
+setSessionId
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSubscriptionId
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setUser
+ (Ljava/security/Principal;)V
+ (Ljava/security/Principal;)V
+setUserChangeCallback
+ (Ljava/util/function/Consumer<Ljava/security/Principal;>;)V
+ (Ljava/util/function/Consumer<Ljava/security/Principal;>;)V

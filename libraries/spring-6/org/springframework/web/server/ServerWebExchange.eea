@@ -1,0 +1,66 @@
+class org/springframework/web/server/ServerWebExchange
+
+LOG_ID_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+addUrlTransformer
+ (Ljava/util/function/Function<Ljava/lang/String;Ljava/lang/String;>;)V
+ (Ljava/util/function/Function<Ljava/lang/String;Ljava/lang/String;>;)V
+checkNotModified
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+checkNotModified
+ (Ljava/lang/String;Ljava/time/Instant;)Z
+ (Ljava/lang/String;Ljava/time/Instant;)Z
+checkNotModified
+ (Ljava/time/Instant;)Z
+ (Ljava/time/Instant;)Z
+cleanupMultipart
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+ ()Lreactor/core/publisher/Mono<Ljava/lang/Void;>;
+getApplicationContext
+ ()Lorg/springframework/context/ApplicationContext;
+ ()L0org/springframework/context/ApplicationContext;
+getAttribute
+ <T:Ljava/lang/Object;>(Ljava/lang/String;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;)T0T;
+getAttributeOrDefault
+ <T:Ljava/lang/Object;>(Ljava/lang/String;TT;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;TT;)TT;
+getAttributes
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+getFormData
+ ()Lreactor/core/publisher/Mono<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;
+ ()Lreactor/core/publisher/Mono<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;
+getLocaleContext
+ ()Lorg/springframework/context/i18n/LocaleContext;
+ ()Lorg/springframework/context/i18n/LocaleContext;
+getLogPrefix
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getMultipartData
+ ()Lreactor/core/publisher/Mono<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/codec/multipart/Part;>;>;
+ ()Lreactor/core/publisher/Mono<Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/codec/multipart/Part;>;>;
+getPrincipal
+ <T::Ljava/security/Principal;>()Lreactor/core/publisher/Mono<TT;>;
+ <T::Ljava/security/Principal;>()Lreactor/core/publisher/Mono<TT;>;
+getRequest
+ ()Lorg/springframework/http/server/reactive/ServerHttpRequest;
+ ()Lorg/springframework/http/server/reactive/ServerHttpRequest;
+getRequiredAttribute
+ <T:Ljava/lang/Object;>(Ljava/lang/String;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/String;)TT;
+getResponse
+ ()Lorg/springframework/http/server/reactive/ServerHttpResponse;
+ ()Lorg/springframework/http/server/reactive/ServerHttpResponse;
+getSession
+ ()Lreactor/core/publisher/Mono<Lorg/springframework/web/server/WebSession;>;
+ ()Lreactor/core/publisher/Mono<Lorg/springframework/web/server/WebSession;>;
+mutate
+ ()Lorg/springframework/web/server/ServerWebExchange$Builder;
+ ()Lorg/springframework/web/server/ServerWebExchange$Builder;
+transformUrl
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)Ljava/lang/String;

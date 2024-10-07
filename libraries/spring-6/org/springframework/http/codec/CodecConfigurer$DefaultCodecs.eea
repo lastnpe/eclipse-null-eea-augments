@@ -1,0 +1,53 @@
+class org/springframework/http/codec/CodecConfigurer$DefaultCodecs
+
+configureDefaultCodec
+ (Ljava/util/function/Consumer<Ljava/lang/Object;>;)V
+ (Ljava/util/function/Consumer<Ljava/lang/Object;>;)V
+jackson2JsonDecoder
+ (Lorg/springframework/core/codec/Decoder<*>;)V
+ (Lorg/springframework/core/codec/Decoder<*>;)V
+jackson2JsonEncoder
+ (Lorg/springframework/core/codec/Encoder<*>;)V
+ (Lorg/springframework/core/codec/Encoder<*>;)V
+jackson2SmileDecoder
+ (Lorg/springframework/core/codec/Decoder<*>;)V
+ (Lorg/springframework/core/codec/Decoder<*>;)V
+jackson2SmileEncoder
+ (Lorg/springframework/core/codec/Encoder<*>;)V
+ (Lorg/springframework/core/codec/Encoder<*>;)V
+jaxb2Decoder
+ (Lorg/springframework/core/codec/Decoder<*>;)V
+ (Lorg/springframework/core/codec/Decoder<*>;)V
+jaxb2Encoder
+ (Lorg/springframework/core/codec/Encoder<*>;)V
+ (Lorg/springframework/core/codec/Encoder<*>;)V
+kotlinSerializationCborDecoder
+ (Lorg/springframework/core/codec/Decoder<*>;)V
+ (Lorg/springframework/core/codec/Decoder<*>;)V
+kotlinSerializationCborEncoder
+ (Lorg/springframework/core/codec/Encoder<*>;)V
+ (Lorg/springframework/core/codec/Encoder<*>;)V
+kotlinSerializationJsonDecoder
+ (Lorg/springframework/core/codec/Decoder<*>;)V
+ (Lorg/springframework/core/codec/Decoder<*>;)V
+kotlinSerializationJsonEncoder
+ (Lorg/springframework/core/codec/Encoder<*>;)V
+ (Lorg/springframework/core/codec/Encoder<*>;)V
+kotlinSerializationProtobufDecoder
+ (Lorg/springframework/core/codec/Decoder<*>;)V
+ (Lorg/springframework/core/codec/Decoder<*>;)V
+kotlinSerializationProtobufEncoder
+ (Lorg/springframework/core/codec/Encoder<*>;)V
+ (Lorg/springframework/core/codec/Encoder<*>;)V
+multipartCodecs
+ ()Lorg/springframework/http/codec/CodecConfigurer$MultipartCodecs;
+ ()Lorg/springframework/http/codec/CodecConfigurer$MultipartCodecs;
+multipartReader
+ (Lorg/springframework/http/codec/HttpMessageReader<*>;)V
+ (Lorg/springframework/http/codec/HttpMessageReader<*>;)V
+protobufDecoder
+ (Lorg/springframework/core/codec/Decoder<*>;)V
+ (Lorg/springframework/core/codec/Decoder<*>;)V
+protobufEncoder
+ (Lorg/springframework/core/codec/Encoder<*>;)V
+ (Lorg/springframework/core/codec/Encoder<*>;)V

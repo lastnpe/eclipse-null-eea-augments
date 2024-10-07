@@ -1,0 +1,33 @@
+class org/springframework/scheduling/annotation/AsyncResult
+ <V:Ljava/lang/Object;>
+ <V:Ljava/lang/Object;>
+
+super org/springframework/util/concurrent/ListenableFuture
+ <TV;>
+ <TV;>
+
+forExecutionException
+ <V:Ljava/lang/Object;>(Ljava/lang/Throwable;)Lorg/springframework/util/concurrent/ListenableFuture<TV;>;
+ <V:Ljava/lang/Object;>(Ljava/lang/Throwable;)Lorg/springframework/util/concurrent/ListenableFuture<TV;>;
+forValue
+ <V:Ljava/lang/Object;>(TV;)Lorg/springframework/util/concurrent/ListenableFuture<TV;>;
+ <V:Ljava/lang/Object;>(TV;)Lorg/springframework/util/concurrent/ListenableFuture<TV;>;
+
+<init>
+ (TV;)V
+ (TV;)V
+addCallback
+ (Lorg/springframework/util/concurrent/ListenableFutureCallback<-TV;>;)V
+ (Lorg/springframework/util/concurrent/ListenableFutureCallback<-TV;>;)V
+addCallback
+ (Lorg/springframework/util/concurrent/SuccessCallback<-TV;>;Lorg/springframework/util/concurrent/FailureCallback;)V
+ (Lorg/springframework/util/concurrent/SuccessCallback<-TV;>;Lorg/springframework/util/concurrent/FailureCallback;)V
+completable
+ ()Ljava/util/concurrent/CompletableFuture<TV;>;
+ ()Ljava/util/concurrent/CompletableFuture<TV;>;
+get
+ ()TV;
+ ()T0V;
+get
+ (JLjava/util/concurrent/TimeUnit;)TV;
+ (JLjava/util/concurrent/TimeUnit;)T0V; # @Overrides(java.util.concurrent.Future)

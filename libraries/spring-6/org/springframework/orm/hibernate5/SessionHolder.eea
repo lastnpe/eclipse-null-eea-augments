@@ -1,0 +1,20 @@
+class org/springframework/orm/hibernate5/SessionHolder
+
+<init>
+ (Lorg/hibernate/Session;)V
+ (Lorg/hibernate/Session;)V
+getPreviousFlushMode
+ ()Lorg/hibernate/FlushMode;
+ ()L0org/hibernate/FlushMode;
+getSession
+ ()Lorg/hibernate/Session;
+ ()Lorg/hibernate/Session;
+getTransaction
+ ()Lorg/hibernate/Transaction;
+ ()L0org/hibernate/Transaction;
+setPreviousFlushMode
+ (Lorg/hibernate/FlushMode;)V
+ (Lorg/hibernate/FlushMode;)V
+setTransaction
+ (Lorg/hibernate/Transaction;)V
+ (Lorg/hibernate/Transaction;)V

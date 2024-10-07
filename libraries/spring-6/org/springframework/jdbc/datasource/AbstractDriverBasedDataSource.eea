@@ -1,0 +1,50 @@
+class org/springframework/jdbc/datasource/AbstractDriverBasedDataSource
+
+getCatalog
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getConnection
+ ()Ljava/sql/Connection;
+ ()Ljava/sql/Connection;
+getConnection
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;
+getConnectionFromDriver
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;
+getConnectionFromDriver
+ (Ljava/util/Properties;)Ljava/sql/Connection;
+ (Ljava/util/Properties;)Ljava/sql/Connection;
+getConnectionProperties
+ ()Ljava/util/Properties;
+ ()L0java/util/Properties;
+getPassword
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getSchema
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getUrl
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getUsername
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+setCatalog
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setConnectionProperties
+ (Ljava/util/Properties;)V
+ (Ljava/util/Properties;)V
+setPassword
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setSchema
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setUrl
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setUsername
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

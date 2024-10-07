@@ -1,0 +1,65 @@
+class org/springframework/test/web/reactive/server/HeaderAssertions
+
+cacheControl
+ (Lorg/springframework/http/CacheControl;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Lorg/springframework/http/CacheControl;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+contentDisposition
+ (Lorg/springframework/http/ContentDisposition;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Lorg/springframework/http/ContentDisposition;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+contentLength
+ (J)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (J)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+contentType
+ (Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+contentType
+ (Lorg/springframework/http/MediaType;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Lorg/springframework/http/MediaType;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+contentTypeCompatibleWith
+ (Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+contentTypeCompatibleWith
+ (Lorg/springframework/http/MediaType;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Lorg/springframework/http/MediaType;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+doesNotExist
+ (Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+exists
+ (Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+expires
+ (J)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (J)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+lastModified
+ (J)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (J)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+location
+ (Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+value
+ (Ljava/lang/String;Ljava/util/function/Consumer<Ljava/lang/String;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Ljava/lang/String;Ljava/util/function/Consumer<Ljava/lang/String;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+value
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/String;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+valueEquals
+ (Ljava/lang/String;J)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Ljava/lang/String;J)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+valueEquals
+ (Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+valueEqualsDate
+ (Ljava/lang/String;J)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Ljava/lang/String;J)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+valueMatches
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+values
+ (Ljava/lang/String;Ljava/util/function/Consumer<Ljava/util/List<Ljava/lang/String;>;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Ljava/lang/String;Ljava/util/function/Consumer<Ljava/util/List<Ljava/lang/String;>;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+values
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/Iterable<Ljava/lang/String;>;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Ljava/lang/String;Lorg/hamcrest/Matcher<-Ljava/lang/Iterable<Ljava/lang/String;>;>;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+valuesMatch
+ (Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;
+ (Ljava/lang/String;[Ljava/lang/String;)Lorg/springframework/test/web/reactive/server/WebTestClient$ResponseSpec;

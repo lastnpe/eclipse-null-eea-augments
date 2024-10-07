@@ -1,0 +1,14 @@
+class org/springframework/transaction/annotation/Ejb3TransactionAnnotationParser
+
+equals
+ (Ljava/lang/Object;)Z
+ (L0java/lang/Object;)Z # @Inherited(java.lang.Object)
+isCandidateClass
+ (Ljava/lang/Class<*>;)Z
+ (Ljava/lang/Class<*>;)Z
+parseTransactionAnnotation
+ (Ljakarta/ejb/TransactionAttribute;)Lorg/springframework/transaction/interceptor/TransactionAttribute;
+ (Ljakarta/ejb/TransactionAttribute;)Lorg/springframework/transaction/interceptor/TransactionAttribute;
+parseTransactionAnnotation
+ (Ljava/lang/reflect/AnnotatedElement;)Lorg/springframework/transaction/interceptor/TransactionAttribute;
+ (Ljava/lang/reflect/AnnotatedElement;)L0org/springframework/transaction/interceptor/TransactionAttribute; # @Inherited(org.springframework.transaction.annotation.TransactionAnnotationParser)

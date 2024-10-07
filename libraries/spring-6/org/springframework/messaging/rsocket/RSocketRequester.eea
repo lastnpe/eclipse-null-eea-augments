@@ -1,0 +1,30 @@
+class org/springframework/messaging/rsocket/RSocketRequester
+
+builder
+ ()Lorg/springframework/messaging/rsocket/RSocketRequester$Builder;
+ ()Lorg/springframework/messaging/rsocket/RSocketRequester$Builder;
+wrap
+ (Lio/rsocket/RSocket;Lorg/springframework/util/MimeType;Lorg/springframework/util/MimeType;Lorg/springframework/messaging/rsocket/RSocketStrategies;)Lorg/springframework/messaging/rsocket/RSocketRequester;
+ (Lio/rsocket/RSocket;Lorg/springframework/util/MimeType;Lorg/springframework/util/MimeType;Lorg/springframework/messaging/rsocket/RSocketStrategies;)Lorg/springframework/messaging/rsocket/RSocketRequester;
+
+dataMimeType
+ ()Lorg/springframework/util/MimeType;
+ ()Lorg/springframework/util/MimeType;
+metadata
+ (Ljava/lang/Object;Lorg/springframework/util/MimeType;)Lorg/springframework/messaging/rsocket/RSocketRequester$RequestSpec;
+ (Ljava/lang/Object;Lorg/springframework/util/MimeType;)Lorg/springframework/messaging/rsocket/RSocketRequester$RequestSpec;
+metadataMimeType
+ ()Lorg/springframework/util/MimeType;
+ ()Lorg/springframework/util/MimeType;
+route
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/messaging/rsocket/RSocketRequester$RequestSpec;
+ (Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/messaging/rsocket/RSocketRequester$RequestSpec;
+rsocket
+ ()Lio/rsocket/RSocket;
+ ()L0io/rsocket/RSocket;
+rsocketClient
+ ()Lio/rsocket/core/RSocketClient;
+ ()Lio/rsocket/core/RSocketClient;
+strategies
+ ()Lorg/springframework/messaging/rsocket/RSocketStrategies;
+ ()Lorg/springframework/messaging/rsocket/RSocketStrategies;

@@ -1,0 +1,11 @@
+class org/springframework/test/web/client/RequestExpectationManager
+
+expectRequest
+ (Lorg/springframework/test/web/client/ExpectedCount;Lorg/springframework/test/web/client/RequestMatcher;)Lorg/springframework/test/web/client/ResponseActions;
+ (Lorg/springframework/test/web/client/ExpectedCount;Lorg/springframework/test/web/client/RequestMatcher;)Lorg/springframework/test/web/client/ResponseActions;
+validateRequest
+ (Lorg/springframework/http/client/ClientHttpRequest;)Lorg/springframework/http/client/ClientHttpResponse;
+ (Lorg/springframework/http/client/ClientHttpRequest;)Lorg/springframework/http/client/ClientHttpResponse;
+verify
+ (Ljava/time/Duration;)V
+ (Ljava/time/Duration;)V

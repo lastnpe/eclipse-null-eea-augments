@@ -1,0 +1,15 @@
+class org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseFactoryBean
+
+super org/springframework/beans/factory/FactoryBean
+ <Ljavax/sql/DataSource;>
+ <Ljavax/sql/DataSource;>
+
+getObject
+ ()Ljavax/sql/DataSource;
+ ()L0javax/sql/DataSource;
+getObjectType
+ ()Ljava/lang/Class<+Ljavax/sql/DataSource;>;
+ ()Ljava/lang/Class<+Ljavax/sql/DataSource;>;
+setDatabaseCleaner
+ (Lorg/springframework/jdbc/datasource/init/DatabasePopulator;)V
+ (Lorg/springframework/jdbc/datasource/init/DatabasePopulator;)V

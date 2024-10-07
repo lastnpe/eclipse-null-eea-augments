@@ -1,0 +1,38 @@
+class org/springframework/transaction/interceptor/DefaultTransactionAttribute
+
+<init>
+ (Lorg/springframework/transaction/interceptor/TransactionAttribute;)V
+ (Lorg/springframework/transaction/interceptor/TransactionAttribute;)V
+getAttributeDescription
+ ()Ljava/lang/StringBuilder;
+ ()Ljava/lang/StringBuilder;
+getDescriptor
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+getLabels
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+getQualifier
+ ()Ljava/lang/String;
+ ()L0java/lang/String; # @Inherited(org.springframework.transaction.interceptor.TransactionAttribute)
+getTimeoutString
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+resolveAttributeStrings
+ (Lorg/springframework/util/StringValueResolver;)V
+ (Lorg/springframework/util/StringValueResolver;)V
+rollbackOn
+ (Ljava/lang/Throwable;)Z
+ (Ljava/lang/Throwable;)Z
+setDescriptor
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setLabels
+ (Ljava/util/Collection<Ljava/lang/String;>;)V
+ (Ljava/util/Collection<Ljava/lang/String;>;)V
+setQualifier
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setTimeoutString
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

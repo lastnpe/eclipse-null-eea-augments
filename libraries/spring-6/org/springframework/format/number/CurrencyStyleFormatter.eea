@@ -1,0 +1,17 @@
+class org/springframework/format/number/CurrencyStyleFormatter
+
+getNumberFormat
+ (Ljava/util/Locale;)Ljava/text/NumberFormat;
+ (Ljava/util/Locale;)Ljava/text/NumberFormat;
+parse
+ (Ljava/lang/String;Ljava/util/Locale;)Ljava/math/BigDecimal;
+ (Ljava/lang/String;Ljava/util/Locale;)Ljava/math/BigDecimal;
+setCurrency
+ (Ljava/util/Currency;)V
+ (Ljava/util/Currency;)V
+setPattern
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setRoundingMode
+ (Ljava/math/RoundingMode;)V
+ (Ljava/math/RoundingMode;)V

@@ -1,0 +1,17 @@
+class org/springframework/web/server/ServerWebExchangeExtensionsKt
+
+awaitFormData
+ (Lorg/springframework/web/server/ServerWebExchange;Lkotlin/coroutines/Continuation<-Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;)Ljava/lang/Object;
+ (Lorg/springframework/web/server/ServerWebExchange;Lkotlin/coroutines/Continuation<-Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;>;)L0java/lang/Object;
+awaitMultipartData
+ (Lorg/springframework/web/server/ServerWebExchange;Lkotlin/coroutines/Continuation<-Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/codec/multipart/Part;>;>;)Ljava/lang/Object;
+ (Lorg/springframework/web/server/ServerWebExchange;Lkotlin/coroutines/Continuation<-Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Lorg/springframework/http/codec/multipart/Part;>;>;)L0java/lang/Object;
+awaitPrincipal
+ <T::Ljava/security/Principal;>(Lorg/springframework/web/server/ServerWebExchange;Lkotlin/coroutines/Continuation<-TT;>;)Ljava/lang/Object;
+ <T::Ljava/security/Principal;>(Lorg/springframework/web/server/ServerWebExchange;Lkotlin/coroutines/Continuation<-TT;>;)L0java/lang/Object;
+awaitSession
+ (Lorg/springframework/web/server/ServerWebExchange;Lkotlin/coroutines/Continuation<-Lorg/springframework/web/server/WebSession;>;)Ljava/lang/Object;
+ (Lorg/springframework/web/server/ServerWebExchange;Lkotlin/coroutines/Continuation<-Lorg/springframework/web/server/WebSession;>;)L0java/lang/Object;
+principal
+ (Lorg/springframework/web/server/ServerWebExchange$Builder;Lkotlin/jvm/functions/Function1<-Lkotlin/coroutines/Continuation<-Ljava/security/Principal;>;+Ljava/lang/Object;>;)Lorg/springframework/web/server/ServerWebExchange$Builder;
+ (Lorg/springframework/web/server/ServerWebExchange$Builder;Lkotlin/jvm/functions/Function1<-Lkotlin/coroutines/Continuation<-Ljava/security/Principal;>;+Ljava/lang/Object;>;)L1org/springframework/web/server/ServerWebExchange$Builder;

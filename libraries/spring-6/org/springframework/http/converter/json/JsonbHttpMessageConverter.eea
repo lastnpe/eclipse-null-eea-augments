@@ -1,0 +1,23 @@
+class org/springframework/http/converter/json/JsonbHttpMessageConverter
+
+<init>
+ (Ljakarta/json/bind/Jsonb;)V
+ (Ljakarta/json/bind/Jsonb;)V
+<init>
+ (Ljakarta/json/bind/JsonbConfig;)V
+ (Ljakarta/json/bind/JsonbConfig;)V
+getJsonb
+ ()Ljakarta/json/bind/Jsonb;
+ ()Ljakarta/json/bind/Jsonb;
+readInternal
+ (Ljava/lang/reflect/Type;Ljava/io/Reader;)Ljava/lang/Object;
+ (Ljava/lang/reflect/Type;Ljava/io/Reader;)Ljava/lang/Object;
+setJsonb
+ (Ljakarta/json/bind/Jsonb;)V
+ (Ljakarta/json/bind/Jsonb;)V
+supportsRepeatableWrites
+ (Ljava/lang/Object;)Z
+ (Ljava/lang/Object;)Z
+writeInternal
+ (Ljava/lang/Object;Ljava/lang/reflect/Type;Ljava/io/Writer;)V
+ (Ljava/lang/Object;Ljava/lang/reflect/Type;Ljava/io/Writer;)V

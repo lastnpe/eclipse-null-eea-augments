@@ -1,0 +1,14 @@
+class org/springframework/messaging/support/AbstractSubscribableChannel
+
+getSubscribers
+ ()Ljava/util/Set<Lorg/springframework/messaging/MessageHandler;>;
+ ()Ljava/util/Set<Lorg/springframework/messaging/MessageHandler;>;
+hasSubscription
+ (Lorg/springframework/messaging/MessageHandler;)Z
+ (Lorg/springframework/messaging/MessageHandler;)Z
+subscribe
+ (Lorg/springframework/messaging/MessageHandler;)Z
+ (Lorg/springframework/messaging/MessageHandler;)Z
+unsubscribe
+ (Lorg/springframework/messaging/MessageHandler;)Z
+ (Lorg/springframework/messaging/MessageHandler;)Z

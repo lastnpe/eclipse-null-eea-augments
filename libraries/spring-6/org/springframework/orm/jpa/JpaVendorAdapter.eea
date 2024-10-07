@@ -1,0 +1,29 @@
+class org/springframework/orm/jpa/JpaVendorAdapter
+
+getEntityManagerFactoryInterface
+ ()Ljava/lang/Class<+Ljakarta/persistence/EntityManagerFactory;>;
+ ()Ljava/lang/Class<+Ljakarta/persistence/EntityManagerFactory;>;
+getEntityManagerInterface
+ ()Ljava/lang/Class<+Ljakarta/persistence/EntityManager;>;
+ ()Ljava/lang/Class<+Ljakarta/persistence/EntityManager;>;
+getJpaDialect
+ ()Lorg/springframework/orm/jpa/JpaDialect;
+ ()L0org/springframework/orm/jpa/JpaDialect;
+getJpaPropertyMap
+ ()Ljava/util/Map<Ljava/lang/String;*>;
+ ()Ljava/util/Map<Ljava/lang/String;*>;
+getJpaPropertyMap
+ (Ljakarta/persistence/spi/PersistenceUnitInfo;)Ljava/util/Map<Ljava/lang/String;*>;
+ (Ljakarta/persistence/spi/PersistenceUnitInfo;)Ljava/util/Map<Ljava/lang/String;*>;
+getPersistenceProvider
+ ()Ljakarta/persistence/spi/PersistenceProvider;
+ ()Ljakarta/persistence/spi/PersistenceProvider;
+getPersistenceProviderRootPackage
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+postProcessEntityManager
+ (Ljakarta/persistence/EntityManager;)V
+ (Ljakarta/persistence/EntityManager;)V
+postProcessEntityManagerFactory
+ (Ljakarta/persistence/EntityManagerFactory;)V
+ (Ljakarta/persistence/EntityManagerFactory;)V

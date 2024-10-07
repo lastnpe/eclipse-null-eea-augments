@@ -1,0 +1,17 @@
+class org/springframework/transaction/jta/ManagedTransactionAdapter
+
+<init>
+ (Ljakarta/transaction/TransactionManager;)V
+ (Ljakarta/transaction/TransactionManager;)V
+delistResource
+ (Ljavax/transaction/xa/XAResource;I)Z
+ (Ljavax/transaction/xa/XAResource;I)Z
+enlistResource
+ (Ljavax/transaction/xa/XAResource;)Z
+ (Ljavax/transaction/xa/XAResource;)Z
+getTransactionManager
+ ()Ljakarta/transaction/TransactionManager;
+ ()Ljakarta/transaction/TransactionManager;
+registerSynchronization
+ (Ljakarta/transaction/Synchronization;)V
+ (Ljakarta/transaction/Synchronization;)V

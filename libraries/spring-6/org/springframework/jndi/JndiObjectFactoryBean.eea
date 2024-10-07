@@ -1,0 +1,33 @@
+class org/springframework/jndi/JndiObjectFactoryBean
+
+super org/springframework/beans/factory/FactoryBean
+ <Ljava/lang/Object;>
+ <Ljava/lang/Object;>
+
+createCompositeInterface
+ ([Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+ ([Ljava/lang/Class<*>;)Ljava/lang/Class<*>;
+getObject
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getObjectType
+ ()Ljava/lang/Class<*>;
+ ()L0java/lang/Class<*>; # @Inherited(org.springframework.beans.factory.FactoryBean)
+lookupWithFallback
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+setBeanClassLoader
+ (Ljava/lang/ClassLoader;)V
+ (Ljava/lang/ClassLoader;)V
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setDefaultObject
+ (Ljava/lang/Object;)V
+ (Ljava/lang/Object;)V
+setProxyInterface
+ (Ljava/lang/Class<*>;)V
+ (Ljava/lang/Class<*>;)V
+setProxyInterfaces
+ ([Ljava/lang/Class<*>;)V
+ ([Ljava/lang/Class<*>;)V

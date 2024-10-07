@@ -1,0 +1,48 @@
+class org/springframework/messaging/simp/broker/AbstractBrokerMessageHandler
+
+logger
+ Lorg/apache/commons/logging/Log;
+ Lorg/apache/commons/logging/Log;
+
+<init>
+ (Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/MessageChannel;Lorg/springframework/messaging/SubscribableChannel;)V
+ (Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/MessageChannel;Lorg/springframework/messaging/SubscribableChannel;)V
+<init>
+ (Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/MessageChannel;Lorg/springframework/messaging/SubscribableChannel;Ljava/util/Collection<Ljava/lang/String;>;)V
+ (Lorg/springframework/messaging/SubscribableChannel;Lorg/springframework/messaging/MessageChannel;Lorg/springframework/messaging/SubscribableChannel;Ljava/util/Collection<Ljava/lang/String;>;)V
+checkDestinationPrefix
+ (Ljava/lang/String;)Z
+ (Ljava/lang/String;)Z
+getApplicationEventPublisher
+ ()Lorg/springframework/context/ApplicationEventPublisher;
+ ()L0org/springframework/context/ApplicationEventPublisher;
+getBrokerChannel
+ ()Lorg/springframework/messaging/SubscribableChannel;
+ ()Lorg/springframework/messaging/SubscribableChannel;
+getClientInboundChannel
+ ()Lorg/springframework/messaging/SubscribableChannel;
+ ()Lorg/springframework/messaging/SubscribableChannel;
+getClientOutboundChannel
+ ()Lorg/springframework/messaging/MessageChannel;
+ ()Lorg/springframework/messaging/MessageChannel;
+getClientOutboundChannelForSession
+ (Ljava/lang/String;)Lorg/springframework/messaging/MessageChannel;
+ (Ljava/lang/String;)Lorg/springframework/messaging/MessageChannel;
+getDestinationPrefixes
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+ ()Ljava/util/Collection<Ljava/lang/String;>;
+handleMessage
+ (Lorg/springframework/messaging/Message<*>;)V
+ (Lorg/springframework/messaging/Message<*>;)V
+handleMessageInternal
+ (Lorg/springframework/messaging/Message<*>;)V
+ (Lorg/springframework/messaging/Message<*>;)V
+setApplicationEventPublisher
+ (Lorg/springframework/context/ApplicationEventPublisher;)V
+ (Lorg/springframework/context/ApplicationEventPublisher;)V
+setUserDestinationPredicate
+ (Ljava/util/function/Predicate<Ljava/lang/String;>;)V
+ (Ljava/util/function/Predicate<Ljava/lang/String;>;)V
+stop
+ (Ljava/lang/Runnable;)V
+ (Ljava/lang/Runnable;)V

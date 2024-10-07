@@ -1,0 +1,30 @@
+class org/springframework/web/util/ServletRequestPathUtils
+
+PATH_ATTRIBUTE
+ Ljava/lang/String;
+ L1java/lang/String;
+
+clearParsedRequestPath
+ (Ljakarta/servlet/ServletRequest;)V
+ (Ljakarta/servlet/ServletRequest;)V
+getCachedPath
+ (Ljakarta/servlet/ServletRequest;)Ljava/lang/Object;
+ (Ljakarta/servlet/ServletRequest;)Ljava/lang/Object;
+getCachedPathValue
+ (Ljakarta/servlet/ServletRequest;)Ljava/lang/String;
+ (Ljakarta/servlet/ServletRequest;)Ljava/lang/String;
+getParsedRequestPath
+ (Ljakarta/servlet/ServletRequest;)Lorg/springframework/http/server/RequestPath;
+ (Ljakarta/servlet/ServletRequest;)Lorg/springframework/http/server/RequestPath;
+hasCachedPath
+ (Ljakarta/servlet/ServletRequest;)Z
+ (Ljakarta/servlet/ServletRequest;)Z
+hasParsedRequestPath
+ (Ljakarta/servlet/ServletRequest;)Z
+ (Ljakarta/servlet/ServletRequest;)Z
+parseAndCache
+ (Ljakarta/servlet/http/HttpServletRequest;)Lorg/springframework/http/server/RequestPath;
+ (Ljakarta/servlet/http/HttpServletRequest;)Lorg/springframework/http/server/RequestPath;
+setParsedRequestPath
+ (Lorg/springframework/http/server/RequestPath;Ljakarta/servlet/ServletRequest;)V
+ (Lorg/springframework/http/server/RequestPath;Ljakarta/servlet/ServletRequest;)V

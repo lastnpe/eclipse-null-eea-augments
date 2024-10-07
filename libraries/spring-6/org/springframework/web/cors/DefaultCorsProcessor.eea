@@ -1,0 +1,20 @@
+class org/springframework/web/cors/DefaultCorsProcessor
+
+checkHeaders
+ (Lorg/springframework/web/cors/CorsConfiguration;Ljava/util/List<Ljava/lang/String;>;)Ljava/util/List<Ljava/lang/String;>;
+ (Lorg/springframework/web/cors/CorsConfiguration;Ljava/util/List<Ljava/lang/String;>;)L0java/util/List<Ljava/lang/String;>;
+checkMethods
+ (Lorg/springframework/web/cors/CorsConfiguration;Lorg/springframework/http/HttpMethod;)Ljava/util/List<Lorg/springframework/http/HttpMethod;>;
+ (Lorg/springframework/web/cors/CorsConfiguration;Lorg/springframework/http/HttpMethod;)L0java/util/List<Lorg/springframework/http/HttpMethod;>;
+checkOrigin
+ (Lorg/springframework/web/cors/CorsConfiguration;Ljava/lang/String;)Ljava/lang/String;
+ (Lorg/springframework/web/cors/CorsConfiguration;Ljava/lang/String;)L0java/lang/String;
+handleInternal
+ (Lorg/springframework/http/server/ServerHttpRequest;Lorg/springframework/http/server/ServerHttpResponse;Lorg/springframework/web/cors/CorsConfiguration;Z)Z
+ (Lorg/springframework/http/server/ServerHttpRequest;Lorg/springframework/http/server/ServerHttpResponse;Lorg/springframework/web/cors/CorsConfiguration;Z)Z
+processRequest
+ (Lorg/springframework/web/cors/CorsConfiguration;Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;)Z
+ (Lorg/springframework/web/cors/CorsConfiguration;Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;)Z
+rejectRequest
+ (Lorg/springframework/http/server/ServerHttpResponse;)V
+ (Lorg/springframework/http/server/ServerHttpResponse;)V

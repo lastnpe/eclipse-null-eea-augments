@@ -1,0 +1,27 @@
+class org/springframework/transaction/event/TransactionalApplicationListener
+ <E:Lorg/springframework/context/ApplicationEvent;>
+ <E:Lorg/springframework/context/ApplicationEvent;>
+
+super org/springframework/context/ApplicationListener
+ <TE;>
+ <TE;>
+
+forPayload
+ <T:Ljava/lang/Object;>(Ljava/util/function/Consumer<TT;>;)Lorg/springframework/transaction/event/TransactionalApplicationListener<Lorg/springframework/context/PayloadApplicationEvent<TT;>;>;
+ <T:Ljava/lang/Object;>(Ljava/util/function/Consumer<TT;>;)Lorg/springframework/transaction/event/TransactionalApplicationListener<Lorg/springframework/context/PayloadApplicationEvent<TT;>;>;
+forPayload
+ <T:Ljava/lang/Object;>(Lorg/springframework/transaction/event/TransactionPhase;Ljava/util/function/Consumer<TT;>;)Lorg/springframework/transaction/event/TransactionalApplicationListener<Lorg/springframework/context/PayloadApplicationEvent<TT;>;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/transaction/event/TransactionPhase;Ljava/util/function/Consumer<TT;>;)Lorg/springframework/transaction/event/TransactionalApplicationListener<Lorg/springframework/context/PayloadApplicationEvent<TT;>;>;
+
+addCallback
+ (Lorg/springframework/transaction/event/TransactionalApplicationListener$SynchronizationCallback;)V
+ (Lorg/springframework/transaction/event/TransactionalApplicationListener$SynchronizationCallback;)V
+getListenerId
+ ()Ljava/lang/String;
+ ()Ljava/lang/String;
+getTransactionPhase
+ ()Lorg/springframework/transaction/event/TransactionPhase;
+ ()Lorg/springframework/transaction/event/TransactionPhase;
+processEvent
+ (TE;)V
+ (T1E;)V

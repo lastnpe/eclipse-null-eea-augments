@@ -1,0 +1,14 @@
+class org/springframework/transaction/support/TransactionSynchronizationUtils
+
+invokeAfterCommit
+ (Ljava/util/List<Lorg/springframework/transaction/support/TransactionSynchronization;>;)V
+ (Ljava/util/List<Lorg/springframework/transaction/support/TransactionSynchronization;>;)V
+invokeAfterCompletion
+ (Ljava/util/List<Lorg/springframework/transaction/support/TransactionSynchronization;>;I)V
+ (Ljava/util/List<Lorg/springframework/transaction/support/TransactionSynchronization;>;I)V
+sameResourceFactory
+ (Lorg/springframework/transaction/support/ResourceTransactionManager;Ljava/lang/Object;)Z
+ (Lorg/springframework/transaction/support/ResourceTransactionManager;Ljava/lang/Object;)Z
+unwrapResourceIfNecessary
+ (Ljava/lang/Object;)Ljava/lang/Object;
+ (Ljava/lang/Object;)Ljava/lang/Object;

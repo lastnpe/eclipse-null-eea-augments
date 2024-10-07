@@ -1,0 +1,15 @@
+class org/springframework/expression/spel/standard/SpelCompiler
+
+compile
+ (Lorg/springframework/expression/Expression;)Z
+ (Lorg/springframework/expression/Expression;)Z
+getCompiler
+ (Ljava/lang/ClassLoader;)Lorg/springframework/expression/spel/standard/SpelCompiler;
+ (Ljava/lang/ClassLoader;)Lorg/springframework/expression/spel/standard/SpelCompiler;
+revertToInterpreted
+ (Lorg/springframework/expression/Expression;)V
+ (Lorg/springframework/expression/Expression;)V
+
+compile
+ (Lorg/springframework/expression/spel/ast/SpelNodeImpl;)Lorg/springframework/expression/spel/CompiledExpression;
+ (Lorg/springframework/expression/spel/ast/SpelNodeImpl;)L0org/springframework/expression/spel/CompiledExpression;

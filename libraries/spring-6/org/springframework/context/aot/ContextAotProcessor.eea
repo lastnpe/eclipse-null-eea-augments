@@ -1,0 +1,27 @@
+class org/springframework/context/aot/ContextAotProcessor
+
+super org/springframework/context/aot/AbstractAotProcessor
+ <Lorg/springframework/javapoet/ClassName;>
+ <Lorg/springframework/javapoet/ClassName;>
+
+<init>
+ (Ljava/lang/Class<*>;Lorg/springframework/context/aot/AbstractAotProcessor$Settings;)V
+ (Ljava/lang/Class<*>;Lorg/springframework/context/aot/AbstractAotProcessor$Settings;)V
+createClassNameGenerator
+ ()Lorg/springframework/aot/generate/ClassNameGenerator;
+ ()Lorg/springframework/aot/generate/ClassNameGenerator;
+doProcess
+ ()Lorg/springframework/javapoet/ClassName;
+ ()Lorg/springframework/javapoet/ClassName;
+getApplicationClass
+ ()Ljava/lang/Class<*>;
+ ()Ljava/lang/Class<*>;
+getDefaultNativeImageArguments
+ (Ljava/lang/String;)Ljava/util/List<Ljava/lang/String;>;
+ (Ljava/lang/String;)Ljava/util/List<Ljava/lang/String;>;
+performAotProcessing
+ (Lorg/springframework/context/support/GenericApplicationContext;)Lorg/springframework/javapoet/ClassName;
+ (Lorg/springframework/context/support/GenericApplicationContext;)Lorg/springframework/javapoet/ClassName;
+prepareApplicationContext
+ (Ljava/lang/Class<*>;)Lorg/springframework/context/support/GenericApplicationContext;
+ (Ljava/lang/Class<*>;)Lorg/springframework/context/support/GenericApplicationContext;

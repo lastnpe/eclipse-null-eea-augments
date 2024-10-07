@@ -1,0 +1,23 @@
+class org/springframework/transaction/interceptor/TransactionProxyFactoryBean
+
+createMainInterceptor
+ ()Ljava/lang/Object;
+ ()Ljava/lang/Object;
+postProcessProxyFactory
+ (Lorg/springframework/aop/framework/ProxyFactory;)V
+ (Lorg/springframework/aop/framework/ProxyFactory;)V
+setBeanFactory
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+ (Lorg/springframework/beans/factory/BeanFactory;)V
+setPointcut
+ (Lorg/springframework/aop/Pointcut;)V
+ (Lorg/springframework/aop/Pointcut;)V
+setTransactionAttributeSource
+ (Lorg/springframework/transaction/interceptor/TransactionAttributeSource;)V
+ (Lorg/springframework/transaction/interceptor/TransactionAttributeSource;)V
+setTransactionAttributes
+ (Ljava/util/Properties;)V
+ (Ljava/util/Properties;)V
+setTransactionManager
+ (Lorg/springframework/transaction/PlatformTransactionManager;)V
+ (Lorg/springframework/transaction/PlatformTransactionManager;)V

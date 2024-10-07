@@ -1,0 +1,26 @@
+class org/springframework/messaging/simp/broker/DefaultSubscriptionRegistry
+
+addSubscriptionInternal
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/springframework/messaging/Message<*>;)V
+ (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/springframework/messaging/Message<*>;)V
+findSubscriptionsInternal
+ (Ljava/lang/String;Lorg/springframework/messaging/Message<*>;)Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+ (Ljava/lang/String;Lorg/springframework/messaging/Message<*>;)Lorg/springframework/util/MultiValueMap<Ljava/lang/String;Ljava/lang/String;>;
+getPathMatcher
+ ()Lorg/springframework/util/PathMatcher;
+ ()Lorg/springframework/util/PathMatcher;
+getSelectorHeaderName
+ ()Ljava/lang/String;
+ ()L0java/lang/String;
+removeSubscriptionInternal
+ (Ljava/lang/String;Ljava/lang/String;Lorg/springframework/messaging/Message<*>;)V
+ (Ljava/lang/String;Ljava/lang/String;Lorg/springframework/messaging/Message<*>;)V
+setPathMatcher
+ (Lorg/springframework/util/PathMatcher;)V
+ (Lorg/springframework/util/PathMatcher;)V
+setSelectorHeaderName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+unregisterAllSubscriptions
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V

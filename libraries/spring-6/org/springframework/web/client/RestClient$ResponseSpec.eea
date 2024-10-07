@@ -1,0 +1,23 @@
+class org/springframework/web/client/RestClient$ResponseSpec
+
+body
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)T0T;
+body
+ <T:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TT;>;)TT;
+ <T:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TT;>;)T0T;
+onStatus
+ (Ljava/util/function/Predicate<Lorg/springframework/http/HttpStatusCode;>;Lorg/springframework/web/client/RestClient$ResponseSpec$ErrorHandler;)Lorg/springframework/web/client/RestClient$ResponseSpec;
+ (Ljava/util/function/Predicate<Lorg/springframework/http/HttpStatusCode;>;Lorg/springframework/web/client/RestClient$ResponseSpec$ErrorHandler;)Lorg/springframework/web/client/RestClient$ResponseSpec;
+onStatus
+ (Lorg/springframework/web/client/ResponseErrorHandler;)Lorg/springframework/web/client/RestClient$ResponseSpec;
+ (Lorg/springframework/web/client/ResponseErrorHandler;)Lorg/springframework/web/client/RestClient$ResponseSpec;
+toBodilessEntity
+ ()Lorg/springframework/http/ResponseEntity<Ljava/lang/Void;>;
+ ()Lorg/springframework/http/ResponseEntity<Ljava/lang/Void;>;
+toEntity
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+toEntity
+ <T:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;
+ <T:Ljava/lang/Object;>(Lorg/springframework/core/ParameterizedTypeReference<TT;>;)Lorg/springframework/http/ResponseEntity<TT;>;

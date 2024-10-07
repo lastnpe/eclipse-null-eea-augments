@@ -1,0 +1,15 @@
+class org/springframework/jndi/JndiPropertySource
+
+super org/springframework/core/env/PropertySource
+ <Lorg/springframework/jndi/JndiLocatorDelegate;>
+ <Lorg/springframework/jndi/JndiLocatorDelegate;>
+
+<init>
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+<init>
+ (Ljava/lang/String;Lorg/springframework/jndi/JndiLocatorDelegate;)V
+ (Ljava/lang/String;Lorg/springframework/jndi/JndiLocatorDelegate;)V
+getProperty
+ (Ljava/lang/String;)Ljava/lang/Object;
+ (Ljava/lang/String;)L0java/lang/Object; # @Inherited(org.springframework.core.env.PropertySource)

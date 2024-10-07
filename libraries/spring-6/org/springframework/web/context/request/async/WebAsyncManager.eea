@@ -1,0 +1,44 @@
+class org/springframework/web/context/request/async/WebAsyncManager
+
+getAsyncWebRequest
+ ()Lorg/springframework/web/context/request/async/AsyncWebRequest;
+ ()L0org/springframework/web/context/request/async/AsyncWebRequest;
+getCallableInterceptor
+ (Ljava/lang/Object;)Lorg/springframework/web/context/request/async/CallableProcessingInterceptor;
+ (Ljava/lang/Object;)L0org/springframework/web/context/request/async/CallableProcessingInterceptor;
+getConcurrentResult
+ ()Ljava/lang/Object;
+ ()L0java/lang/Object;
+getConcurrentResultContext
+ ()[Ljava/lang/Object;
+ ()[0Ljava/lang/Object;
+getDeferredResultInterceptor
+ (Ljava/lang/Object;)Lorg/springframework/web/context/request/async/DeferredResultProcessingInterceptor;
+ (Ljava/lang/Object;)L0org/springframework/web/context/request/async/DeferredResultProcessingInterceptor;
+registerCallableInterceptor
+ (Ljava/lang/Object;Lorg/springframework/web/context/request/async/CallableProcessingInterceptor;)V
+ (Ljava/lang/Object;Lorg/springframework/web/context/request/async/CallableProcessingInterceptor;)V
+registerCallableInterceptors
+ ([Lorg/springframework/web/context/request/async/CallableProcessingInterceptor;)V
+ ([Lorg/springframework/web/context/request/async/CallableProcessingInterceptor;)V
+registerDeferredResultInterceptor
+ (Ljava/lang/Object;Lorg/springframework/web/context/request/async/DeferredResultProcessingInterceptor;)V
+ (Ljava/lang/Object;Lorg/springframework/web/context/request/async/DeferredResultProcessingInterceptor;)V
+registerDeferredResultInterceptors
+ ([Lorg/springframework/web/context/request/async/DeferredResultProcessingInterceptor;)V
+ ([Lorg/springframework/web/context/request/async/DeferredResultProcessingInterceptor;)V
+setAsyncWebRequest
+ (Lorg/springframework/web/context/request/async/AsyncWebRequest;)V
+ (Lorg/springframework/web/context/request/async/AsyncWebRequest;)V
+setTaskExecutor
+ (Lorg/springframework/core/task/AsyncTaskExecutor;)V
+ (Lorg/springframework/core/task/AsyncTaskExecutor;)V
+startCallableProcessing
+ (Ljava/util/concurrent/Callable<*>;[Ljava/lang/Object;)V
+ (Ljava/util/concurrent/Callable<*>;[Ljava/lang/Object;)V
+startCallableProcessing
+ (Lorg/springframework/web/context/request/async/WebAsyncTask<*>;[Ljava/lang/Object;)V
+ (Lorg/springframework/web/context/request/async/WebAsyncTask<*>;[Ljava/lang/Object;)V
+startDeferredResultProcessing
+ (Lorg/springframework/web/context/request/async/DeferredResult<*>;[Ljava/lang/Object;)V
+ (Lorg/springframework/web/context/request/async/DeferredResult<*>;[Ljava/lang/Object;)V

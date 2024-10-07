@@ -1,0 +1,17 @@
+class org/springframework/jdbc/support/JdbcTransactionManager
+
+<init>
+ (Ljavax/sql/DataSource;)V
+ (Ljavax/sql/DataSource;)V
+getExceptionTranslator
+ ()Lorg/springframework/jdbc/support/SQLExceptionTranslator;
+ ()Lorg/springframework/jdbc/support/SQLExceptionTranslator;
+setDatabaseProductName
+ (Ljava/lang/String;)V
+ (Ljava/lang/String;)V
+setExceptionTranslator
+ (Lorg/springframework/jdbc/support/SQLExceptionTranslator;)V
+ (Lorg/springframework/jdbc/support/SQLExceptionTranslator;)V
+translateException
+ (Ljava/lang/String;Ljava/sql/SQLException;)Ljava/lang/RuntimeException;
+ (Ljava/lang/String;Ljava/sql/SQLException;)Ljava/lang/RuntimeException;
