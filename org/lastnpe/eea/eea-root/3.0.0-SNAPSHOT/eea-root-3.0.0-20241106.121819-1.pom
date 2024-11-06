@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.lastnpe.eea</groupId>
+  <artifactId>eea-root</artifactId>
+  <version>3.0.0-SNAPSHOT</version>
+
+  <packaging>pom</packaging>
+
+  <name>Eclipse External null Annotations (EEA)</name>
+  <description>This is the root POM of the EEA project</description>
+  <url>https://lastnpe.org</url>
+  <inceptionYear>2016</inceptionYear>
+  <organization>
+    <name>LastNPE.org</name>
+    <url>https://www.lastnpe.org</url>
+  </organization>
+
+  <licenses>
+    <license>
+      <name>Eclipse Public License v2.0</name>
+      <url>https://www.eclipse.org/legal/epl/epl-v20.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>vorburger</id>
+      <name>Michael Vorburger</name>
+      <email>mike@vorburger.ch</email>
+      <url>https://www.vorburger.ch</url>
+    </developer>
+    <developer>
+      <id>sebthom</id>
+      <name>Sebastian Thomschke</name>
+      <url>https://sebthom.de</url>
+      <organization>Vegard IT GmbH</organization>
+      <organizationUrl>https://vegardit.com</organizationUrl>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <name>Please see https://github.com/lastnpe/eclipse-null-eea-augments/graphs/contributors</name>
+    </contributor>
+  </contributors>
+
+  <scm>
+    <connection>scm:git:git@github.com:lastnpe/eclipse-null-eea-augments.git</connection>
+    <developerConnection>scm:git:git@github.com:lastnpe/eclipse-null-eea-augments.git</developerConnection>
+    <tag>HEAD</tag>
+    <url>https://github.com/lastnpe/eclipse-null-eea-augments</url>
+  </scm>
+
+  <issueManagement>
+    <system>github.com</system>
+    <url>https://github.com/lastnpe/eclipse-null-eea-augments/issues</url>
+  </issueManagement>
+
+  <ciManagement>
+    <system>github.com</system>
+    <url>https://github.com/lastnpe/eclipse-null-eea-augments/actions</url>
+  </ciManagement>
+
+  <distributionManagement>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java.version>17</java.version>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-toolchains-plugin</artifactId>
+        <version>3.2.0</version>
+        <executions>
+          <execution>
+            <id>toolchain@validate</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>toolchain</goal>
+            </goals>
+            <configuration>
+              <toolchains>
+                <jdk>
+                  <version>${java.version}</version>
+                </jdk>
+              </toolchains>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.13.0</version>
+          <configuration>
+            <source>${java.version}</source>
+            <target>${java.version}</target>
+            <release>${java.version}</release>
+          </configuration>
+        </plugin>
+        <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>3.3.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.4.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-source-plugin</artifactId>
+          <version>3.3.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.5.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>3.1.3</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <modules>
+    <module>generator</module>
+    <module>libraries</module>
+    <module>eea-all</module>
+    <module>examples/maven</module>
+  </modules>
+
+  <profiles>
+    <profile>
+      <id>release</id>
+      <build>
+        <plugins>
+          <plugin>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <version>3.2.7</version>
+            <executions>
+              <execution>
+                <id>sign-artifacts</id>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+                <phase>verify</phase>
+                <configuration>
+                  <gpgArguments>
+                    <arg>--pinentry-mode</arg>
+                    <arg>loopback</arg>
+                  </gpgArguments>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <artifactId>maven-release-plugin</artifactId>
+            <version>3.1.1</version>
+            <configuration>
+              <preparationGoals>clean install</preparationGoals>
+              <tagNameFormat>v@{project.version}</tagNameFormat>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+
+  </profiles>
+
+</project>
