@@ -1,0 +1,8 @@
+class javax/crypto/KEMSpi
+
+engineNewDecapsulator
+ (Ljava/security/PrivateKey;Ljava/security/spec/AlgorithmParameterSpec;)Ljavax/crypto/KEMSpi$DecapsulatorSpi;
+ (Ljava/security/PrivateKey;Ljava/security/spec/AlgorithmParameterSpec;)Ljavax/crypto/KEMSpi$DecapsulatorSpi;
+engineNewEncapsulator
+ (Ljava/security/PublicKey;Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)Ljavax/crypto/KEMSpi$EncapsulatorSpi;
+ (Ljava/security/PublicKey;Ljava/security/spec/AlgorithmParameterSpec;Ljava/security/SecureRandom;)Ljavax/crypto/KEMSpi$EncapsulatorSpi;
